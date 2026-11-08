@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T17:07:40.963Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "trviis",
             "fill": "FFFF00FF"
           },
-          "row": 2106,
+          "row": 2107,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -98,7 +98,7 @@
             "Tuner": "Marethu1",
             "fill": "FFFF00FF"
           },
-          "row": 2104,
+          "row": 2105,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -221,7 +221,7 @@
             "Tuner": "ESV Ruinz",
             "fill": "FFFF00FF"
           },
-          "row": 2107,
+          "row": 2108,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -335,7 +335,7 @@
             "Tuner": "LetzeLU",
             "fill": "FFFF00FF"
           },
-          "row": 2102,
+          "row": 2103,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -371,7 +371,7 @@
             "Tuner": "Marethu1",
             "fill": "FFFF00FF"
           },
-          "row": 2103,
+          "row": 2104,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -635,7 +635,7 @@
             "Tuner": "K1Z Jumpy",
             "fill": "FFFF00FF"
           },
-          "row": 2101,
+          "row": 2102,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -680,6 +680,46 @@
       "surface": "road",
       "tier": "meta-plus",
       "tierSource": "meta-table",
+      "tunerId": "esv-mars"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "nc-b8625ce115",
+      "metaRank": 10,
+      "name": "32 Narai",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Mazda #55 Mazda 787B",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "32 Narai",
+            "Tuner": "ESV Mars",
+            "fill": "FFFF00FF"
+          },
+          "row": 2101,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.61,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
       "tunerId": "esv-mars"
     },
     {
@@ -1069,7 +1109,7 @@
             "Tuner": "TPR Hydra",
             "fill": "FFFF00FF"
           },
-          "row": 2105,
+          "row": 2106,
           "sourceId": "kleis",
           "tab": "fh6"
         }
