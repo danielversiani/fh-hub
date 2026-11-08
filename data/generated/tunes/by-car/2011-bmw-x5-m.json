@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2011-bmw-x5-m",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-03ce1bf523",
+      "name": "A - Road (1:01's @ Shirakawa)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 BMW X5 M",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road (1:01's @ Shirakawa)",
+            "Tuner": "ESV Rapture",
+            "fill": "FFFF0000"
+          },
+          "row": 1013,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-rapture"
+    },
     {
       "buildTags": [],
       "carId": "2011-bmw-x5-m",
@@ -103,240 +136,11 @@
       "carId": "2011-bmw-x5-m",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-107901212",
-      "name": "A - Road ( 1:01's @ Shirakawa )",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X5 M",
-            "sharecode": "107 901 212",
-            "suspension": "Race",
-            "tuneName": "A - Road ( 1:01's @ Shirakawa )",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 403,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 BMW X5 M",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Road (1:01's @ Shirakawa)",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 1013,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "107901212",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-bmw-x5-m",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-133553853",
-      "name": "Rotiform CrossCountry All-Around w/ Gear Boost",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X5 M",
-            "sharecode": "133 553 853",
-            "suspension": "Street",
-            "tuneName": "Rotiform CrossCountry All-Around w/ Gear Boost",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 406,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "133553853",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-bmw-x5-m",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-18",
-      "drivetrain": "AWD",
-      "id": "sc-136050272",
-      "metaRank": 20,
-      "name": "B Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X5 M",
-            "sharecode": "136 050 272",
-            "suspension": "Street",
-            "tuneName": "B Dirt/CC",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 408,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.59,
-      "shareCode": "136050272",
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2011-bmw-x5-m",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-01",
-      "drivetrain": "AWD",
-      "id": "sc-170941302",
-      "metaRank": 20,
-      "name": "B/Dirt CC Strong Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X5 M",
-            "sharecode": "170 941 302",
-            "suspension": "Rally",
-            "tuneName": "B/Dirt CC Strong Stock Look",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 407,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.588,
-      "shareCode": "170941302",
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2011-bmw-x5-m",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-02",
-      "drivetrain": "AWD",
-      "id": "sc-579303293",
-      "name": "A Dirt/CC Strong Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X5 M",
-            "sharecode": "579 303 293",
-            "suspension": "Rally",
-            "tuneName": "A Dirt/CC Strong Stock Look",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 404,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "579303293",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-bmw-x5-m",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-768839013",
+      "id": "nc-f9890527be",
       "name": "Stock Engine Dirt/CC WB",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X5 M",
-            "sharecode": "768 839 013",
-            "suspension": "Street",
-            "tuneName": "Stock Engine Dirt/CC WB",
-            "tuner": "K1Z DIsco Doggo",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 405,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2011 BMW X5 M",
@@ -354,12 +158,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.657,
-      "shareCode": "768839013",
+      "score": 0.474,
       "surface": "cross-country",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "k1z-disco-doggo"
     }
   ],

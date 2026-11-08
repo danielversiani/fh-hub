@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "ESV Mars",
             "fill": "FF0070C0"
           },
-          "row": 2280,
+          "row": 2279,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -33,6 +33,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-mars"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mercedes-amg-mercedes-amg-one",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1fe9943a3f",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2275,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [
@@ -58,7 +91,7 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 2277,
+          "row": 2276,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -91,7 +124,7 @@
             "Tuner": "Nalak28",
             "fill": "FF7030A0"
           },
-          "row": 2278,
+          "row": 2277,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -101,6 +134,72 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mercedes-amg-mercedes-amg-one",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-574b565c41",
+      "name": "Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Handling",
+            "Tuner": "NEPOSHA",
+            "fill": "FF0070C0"
+          },
+          "row": 2281,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "neposha"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mercedes-amg-mercedes-amg-one",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5aa9c0c236",
+      "name": "S2 Road (Better Than FH5)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road (Better Than FH5)",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FFFF00FF"
+          },
+          "row": 2283,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-jumpy"
     },
     {
       "buildTags": [],
@@ -124,7 +223,7 @@
             "Tuner": "Raceboy77",
             "fill": "FFFF00FF"
           },
-          "row": 2286,
+          "row": 2285,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -134,6 +233,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "raceboy77"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mercedes-amg-mercedes-amg-one",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ba67a63166",
+      "name": "Handling Road (huge buff from FH5)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Handling Road (huge buff from FH5)",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF00FF"
+          },
+          "row": 2284,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -161,7 +293,7 @@
             "Tuner": "SeeyeahBoss",
             "fill": "FF0070C0"
           },
-          "row": 2283,
+          "row": 2282,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -176,30 +308,12 @@
       "buildTags": [],
       "carId": "2021-mercedes-amg-mercedes-amg-one",
       "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-05-13",
+      "class": "S1",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-103571535",
-      "name": "S2 Road (Better Than FH5)",
+      "id": "nc-d46f781cf5",
+      "name": "S1 - Road Race - Handling",
       "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "13/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "103 571 535",
-            "suspension": "Race",
-            "tuneName": "S2 Road (Better Than FH5)",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Slick"
-          },
-          "row": 1727,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
@@ -208,52 +322,32 @@
             "Designer": "",
             "Drivetrain": "AWD",
             "Terrain": "Road",
-            "Tune": "S2 Road (Better Than FH5)",
-            "Tuner": "K1Z Jumpy",
-            "fill": "FFFF00FF"
+            "Tune": "S1 - Road Race - Handling",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
           },
-          "row": 2284,
+          "row": 2278,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.656,
-      "shareCode": "103571535",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "k1z-jumpy"
+      "tunerId": "vnx-ardent"
     },
     {
       "buildTags": [],
       "carId": "2021-mercedes-amg-mercedes-amg-one",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-23",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "4.0L V8-TT",
       "id": "sc-110761147",
       "name": "AWD Handling",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "23/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "110 761 147",
-            "suspension": "Race",
-            "tuneName": "AWD Handling",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 1733,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "GT Black Series engine",
@@ -284,284 +378,18 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 2281,
+          "row": 2280,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.763,
+      "score": 0.635,
       "shareCode": "110761147",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
+      "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mercedes-amg-mercedes-amg-one",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-141967901",
-      "name": "Handling",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "141 967 901",
-            "suspension": "Sport",
-            "tuneName": "Handling",
-            "tuner": "NEPOSHA",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 1734,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Handling",
-            "Tuner": "NEPOSHA",
-            "fill": "FF0070C0"
-          },
-          "row": 2282,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "141967901",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "neposha"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mercedes-amg-mercedes-amg-one",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-145311078",
-      "name": "S1 Road Handling",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "145 311 078",
-            "suspension": "Race",
-            "tuneName": "S1 Road Handling",
-            "tuner": "GoodReiShun",
-            "tyreCompound": "Rally"
-          },
-          "row": 1729,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "145311078",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "goodreishun"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mercedes-amg-mercedes-amg-one",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-05-09",
-      "drivetrain": "AWD",
-      "id": "sc-166147941",
-      "name": "Handling Road (huge buff from FH5)",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "09/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "166 147 941",
-            "suspension": "Race",
-            "tuneName": "Handling Road (huge buff from FH5)",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Slick"
-          },
-          "row": 1728,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Handling Road (huge buff from FH5)",
-            "Tuner": "LetzeLU",
-            "fill": "FFFF00FF"
-          },
-          "row": 2285,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.655,
-      "shareCode": "166147941",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mercedes-amg-mercedes-amg-one",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-30",
-      "drivetrain": "AWD",
-      "id": "sc-313870442",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "313 870 442",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1730,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 2276,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "313870442",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mercedes-amg-mercedes-amg-one",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-757957761",
-      "name": "S1 - Road Race - Handling",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "757 957 761",
-            "suspension": "Race",
-            "tuneName": "S1 - Road Race - Handling",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 1731,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "Mercedes-AMG One",
-            "sharecode": "757 957 761",
-            "suspension": "Race",
-            "tuneName": "S1 - Road Race - Handling",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 1732,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Mercedes-AMG Mercedes-AMG ONE",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 - Road Race - Handling",
-            "Tuner": "VNX Ardent",
-            "fill": "FF7030A0"
-          },
-          "row": 2279,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "757957761",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
     }
   ],
   "schemaVersion": 1

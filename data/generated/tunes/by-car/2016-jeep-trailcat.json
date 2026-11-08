@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -85,6 +85,72 @@
     {
       "buildTags": [],
       "carId": "2016-jeep-trailcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7219a90400",
+      "name": "Great Offroader",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Jeep Trailcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Great Offroader",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 1808,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-jeep-trailcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7e295eda2d",
+      "name": "A Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Jeep Trailcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt/CC",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FFFF0000"
+          },
+          "row": 1809,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-jeep-trailcat",
       "categories": [
         "off-meta"
       ],
@@ -163,6 +229,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "seeyeahboss"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-jeep-trailcat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b23c2a93b1",
+      "metaRank": 4,
+      "name": "7.2 RV8 Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Jeep Trailcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "7.2 RV8 Dirt/CC",
+            "Tuner": "K1Z Disco Doggo",
+            "fill": "FF7030A0"
+          },
+          "row": 1817,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-disco-doggo"
     },
     {
       "buildTags": [],
@@ -266,6 +368,39 @@
     {
       "buildTags": [],
       "carId": "2016-jeep-trailcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c88b65b9eb",
+      "name": "A OFFROAD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Jeep Trailcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A OFFROAD",
+            "Tuner": "Zookiiwi",
+            "fill": "FFFF0000"
+          },
+          "row": 1813,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-jeep-trailcat",
       "categories": [
         "off-meta"
       ],
@@ -341,341 +476,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-jeep-trailcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-10",
-      "drivetrain": "AWD",
-      "id": "sc-101734865",
-      "name": "A Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "Trailcat",
-            "sharecode": "101 734 865",
-            "suspension": "Rally",
-            "tuneName": "A Dirt/CC",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1303,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2016 Jeep Trailcat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt/CC",
-            "Tuner": "K1Z Jumpy",
-            "fill": "FFFF0000"
-          },
-          "row": 1809,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.655,
-      "shareCode": "101734865",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-jeep-trailcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-144946195",
-      "name": "A OFFROAD",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "Trailcat",
-            "sharecode": "144 946 195",
-            "suspension": "Rally",
-            "tuneName": "A OFFROAD",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1306,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2016 Jeep Trailcat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A OFFROAD",
-            "Tuner": "Zookiiwi",
-            "fill": "FFFF0000"
-          },
-          "row": 1813,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "144946195",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-jeep-trailcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-26",
-      "drivetrain": "AWD",
-      "id": "sc-206900156",
-      "name": "This has more power. That means it's good. That's how it works",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "Trailcat",
-            "sharecode": "206 900 156",
-            "suspension": "Rally",
-            "tuneName": "This has more power. That means it's good. That's how it works",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1302,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "206900156",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-jeep-trailcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-19",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-386037734",
-      "metaNotes": "轮椅综合车 通过性非常强 建议纯泥地驾驶",
-      "metaNotesI18n": {
-        "en": "Very easy all-rounder with great off-road capability. Best on pure dirt.",
-        "pt-br": "Carro completo e muito fácil; passa por qualquer terreno. Melhor em terra pura."
-      },
-      "metaRank": 50,
-      "name": "A Dirt Grip V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "Trailcat",
-            "sharecode": "386 037 734",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Grip V1.1",
-            "tuner": "Noa Miyako",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1305,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.509,
-      "shareCode": "386037734",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-jeep-trailcat",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-708075439",
-      "name": "Great S1 Offroader",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "Trailcat",
-            "sharecode": "708 075 439",
-            "suspension": "Rally",
-            "tuneName": "Great S1 Offroader",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1307,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "708075439",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-jeep-trailcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-10",
-      "drivetrain": "AWD",
-      "id": "sc-739703021",
-      "name": "Great Offroader",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "Trailcat",
-            "sharecode": "739 703 021",
-            "suspension": "Rally",
-            "tuneName": "Great Offroader",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1304,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2016 Jeep Trailcat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Great Offroader",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 1808,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.655,
-      "shareCode": "739703021",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-jeep-trailcat",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-773700155",
-      "metaRank": 4,
-      "name": "7.2 RV8 Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "Trailcat",
-            "sharecode": "773 700 155",
-            "suspension": "Rally",
-            "tuneName": "7.2 RV8 Dirt/CC",
-            "tuner": "K1Z DIsco Doggo",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1308,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2016 Jeep Trailcat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "7.2 RV8 Dirt/CC",
-            "Tuner": "K1Z Disco Doggo",
-            "fill": "FF7030A0"
-          },
-          "row": 1817,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.625,
-      "shareCode": "773700155",
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "k1z-disco-doggo"
     }
   ],
   "schemaVersion": 1

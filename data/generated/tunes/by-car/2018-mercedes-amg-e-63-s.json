@@ -1,140 +1,16 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2018-mercedes-amg-e-63-s",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-143189156",
-      "name": "lemme drive the boat",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "E 63 S",
-            "sharecode": "143 189 156",
-            "suspension": "Street",
-            "tuneName": "lemme drive the boat",
-            "tuner": "Nalak28",
-            "tyreCompound": "Rally"
-          },
-          "row": 1704,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Mercedes-AMG E 63 S",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "lemme drive the boat",
-            "Tuner": "Nalak28",
-            "fill": "FFFF0000"
-          },
-          "row": 2271,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "143189156",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-mercedes-amg-e-63-s",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-172698615",
-      "name": "A Class Local Uber Premium",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "E 63 S",
-            "sharecode": "172 698 615",
-            "suspension": "Street",
-            "tuneName": "A Class Local Uber Premium",
-            "tuner": "GoodReiShun",
-            "tyreCompound": "Rally"
-          },
-          "row": 1702,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Mercedes-AMG E 63 S",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Class Local Uber Premium",
-            "Tuner": "GoodReiShun",
-            "fill": "FFFF0000"
-          },
-          "row": 2269,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "172698615",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "goodreishun"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-mercedes-amg-e-63-s",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-751274721",
+      "id": "nc-3d94b432eb",
       "name": "A Road | No aero",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-AMG",
-            "model": "E 63 S",
-            "sharecode": "751 274 721",
-            "suspension": "Sport",
-            "tuneName": "A Road | No aero",
-            "tuner": "major esus",
-            "tyreCompound": "Rally"
-          },
-          "row": 1703,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2018 Mercedes-AMG E 63 S",
@@ -147,18 +23,82 @@
             "Tuner": "major esus",
             "fill": "FFFF0000"
           },
+          "row": 2269,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "major-esus"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-amg-e-63-s",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-481882beb8",
+      "name": "A Class Local Uber Premium",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Mercedes-AMG E 63 S",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class Local Uber Premium",
+            "Tuner": "GoodReiShun",
+            "fill": "FFFF0000"
+          },
+          "row": 2268,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "goodreishun"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-amg-e-63-s",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6f5fae5752",
+      "name": "lemme drive the boat",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Mercedes-AMG E 63 S",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "lemme drive the boat",
+            "Tuner": "Nalak28",
+            "fill": "FFFF0000"
+          },
           "row": 2270,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.661,
-      "shareCode": "751274721",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "major-esus"
+      "tunerId": "nalak28"
     }
   ],
   "schemaVersion": 1

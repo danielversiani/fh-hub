@@ -1,65 +1,16 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2022-honda-e",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-c1cdacfade",
-      "metaRank": 132,
-      "name": "A road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 270,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.479,
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "msr-mian"
-    },
     {
       "buildTags": [],
       "carId": "2022-honda-e",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-633022624",
+      "id": "nc-84154dece7",
       "name": "Hodna E",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "E",
-            "sharecode": "633 022 624",
-            "suspension": "Rally",
-            "tuneName": "Hodna E",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1186,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2022 Honda E",
@@ -77,13 +28,42 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "633022624",
+      "score": 0.474,
       "surface": null,
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-honda-e",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-c1cdacfade",
+      "metaRank": 135,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 276,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.479,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
     }
   ],
   "schemaVersion": 1

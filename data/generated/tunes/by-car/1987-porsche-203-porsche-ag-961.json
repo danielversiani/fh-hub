@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -73,6 +73,41 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1987-porsche-203-porsche-ag-961",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-57a1e10bd1",
+      "name": "A Road | 1:01.9 Shira | Stock look AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Porsche #203 Porsche AG 961",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 1:01.9 Shira | Stock look AWD",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 2618,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "darkz704"
     },
     {
       "buildTags": [],
@@ -197,7 +232,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 2621,
+          "row": 2620,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -207,6 +242,42 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-porsche-203-porsche-ag-961",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-b9d82ae77d",
+      "metaRank": 31,
+      "name": "S1 Road Beast | 16.1 Legend Island (Can 15)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Porsche #203 Porsche AG 961",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Beast | 16.1 Legend Island (Can 15)",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2621,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.596,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -230,7 +301,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2620,
+          "row": 2619,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -240,385 +311,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-14",
-      "drivetrain": "AWD",
-      "id": "sc-102137171",
-      "name": "A Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "102 137 171",
-            "suspension": "Race",
-            "tuneName": "A Grip",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2141,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.496,
-      "shareCode": "102137171",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "ndl-samu"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-13",
-      "drivetrain": "AWD",
-      "id": "sc-132166043",
-      "name": "A Road | 1:01.9 Shira | Stock look AWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "132 166 043",
-            "suspension": "Race",
-            "tuneName": "A Road | 1:01.9 Shira | Stock look AWD",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2140,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1987 Porsche #203 Porsche AG 961",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road | 1:01.9 Shira | Stock look AWD",
-            "Tuner": "DarkZ704",
-            "fill": "FFFF0000"
-          },
-          "row": 2619,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.678,
-      "shareCode": "132166043",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-08-16",
-      "drivetrain": "AWD",
-      "id": "sc-132348003",
-      "metaRank": 11,
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "132 348 003",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2144,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.592,
-      "shareCode": "132348003",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-08-15",
-      "drivetrain": "AWD",
-      "id": "sc-140183283",
-      "metaRank": 31,
-      "name": "S1 Road Beast | 16.1 Legend Island (Can 15)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "15/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "140 183 283",
-            "suspension": "Race",
-            "tuneName": "S1 Road Beast | 16.1 Legend Island (Can 15)",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 2143,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1987 Porsche #203 Porsche AG 961",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road Beast | 16.1 Legend Island (Can 15)",
-            "Tuner": "DRX Q3",
-            "fill": "FF7030A0"
-          },
-          "row": 2622,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "140183283",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-16",
-      "drivetrain": "AWD",
-      "id": "sc-162669852",
-      "name": "Dirty 961",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "162 669 852",
-            "suspension": "Rally",
-            "tuneName": "Dirty 961",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2142,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.496,
-      "shareCode": "162669852",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-08-13",
-      "drivetrain": "AWD",
-      "id": "sc-180622627",
-      "metaRank": 11,
-      "name": "Strong S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "180 622 627",
-            "suspension": "Rally",
-            "tuneName": "Strong S1 Dirt",
-            "tuner": "Rocklxd",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2145,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.591,
-      "shareCode": "180622627",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "rocklxd"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-08-14",
-      "drivetrain": "AWD",
-      "id": "sc-501952007",
-      "name": "car is hard",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "14/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "501 952 007",
-            "suspension": "Race",
-            "tuneName": "car is hard",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 2147,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.496,
-      "shareCode": "501952007",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-08-13",
-      "drivetrain": "AWD",
-      "id": "sc-653653616",
-      "name": "Road Allround Decent",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "13/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "653 653 616",
-            "suspension": "Race",
-            "tuneName": "Road Allround Decent",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Slick"
-          },
-          "row": 2148,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.495,
-      "shareCode": "653653616",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-08-18",
-      "drivetrain": "AWD",
-      "id": "sc-776647302",
-      "metaRank": 11,
-      "name": "Bamboo Forest World Record / S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "18/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#203 Porsche AG 961",
-            "sharecode": "776 647 302",
-            "suspension": "Rally",
-            "tuneName": "Bamboo Forest World Record / S1 Dirt",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2146,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.592,
-      "shareCode": "776647302",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

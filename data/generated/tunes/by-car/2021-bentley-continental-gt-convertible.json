@@ -1,71 +1,16 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2021-bentley-continental-gt-convertible",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-07",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-134713096",
-      "name": "Drip Lord",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Convertible",
-            "sharecode": "134 713 096",
-            "suspension": "Sport",
-            "tuneName": "Drip Lord",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 297,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "134713096",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-bentley-continental-gt-convertible",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "AWD",
-      "id": "sc-293479942",
+      "id": "nc-fd12d0d4f5",
       "name": "A Allround Beast",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Convertible",
-            "sharecode": "293 479 942",
-            "suspension": "Sport",
-            "tuneName": "A Allround Beast",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 296,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2021 Bentley Continental GT Convertible",
@@ -83,50 +28,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.663,
-      "shareCode": "293479942",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-bentley-continental-gt-convertible",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-511810773",
-      "name": "Boatley S1 CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Convertible",
-            "sharecode": "511 810 773",
-            "suspension": "Rally",
-            "tuneName": "Boatley S1 CC",
-            "tuner": "Zaabry",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 298,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
       "score": 0.474,
-      "shareCode": "511810773",
-      "surface": "cross-country",
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zaabry"
+      "tunerId": "esv-lawrence"
     }
   ],
   "schemaVersion": 1

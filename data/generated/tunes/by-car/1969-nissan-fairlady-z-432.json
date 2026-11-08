@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "MonaTofuP5R",
             "fill": "FFFF0000"
           },
-          "row": 2390,
+          "row": 2389,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -43,29 +43,11 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-30",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-149706890",
+      "id": "nc-a95390d068",
       "name": "Road Purist Easy",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z 432",
-            "sharecode": "149 706 890",
-            "suspension": "Street",
-            "tuneName": "Road Purist Easy",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1930,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1969 Nissan Fairlady Z 432",
@@ -83,12 +65,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.675,
-      "shareCode": "149706890",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "logikj"
     },
     {
@@ -96,29 +76,11 @@
       "carId": "1969-nissan-fairlady-z-432",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-30",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-157785282",
+      "id": "nc-f61579104b",
       "name": "Dirt AWD Strong",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z 432",
-            "sharecode": "157 785 282",
-            "suspension": "Stock",
-            "tuneName": "Dirt AWD Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1929,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1969 Nissan Fairlady Z 432",
@@ -136,87 +98,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.675,
-      "shareCode": "157785282",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-nissan-fairlady-z-432",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-15",
-      "drivetrain": "AWD",
-      "id": "sc-171633466",
-      "name": "Rocket Bunny All-Around Easy Dirt (E36)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "15/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z 432",
-            "sharecode": "171 633 466",
-            "suspension": "Stock",
-            "tuneName": "Rocket Bunny All-Around Easy Dirt (E36)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1931,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.496,
-      "shareCode": "171633466",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-nissan-fairlady-z-432",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-845685175",
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z 432",
-            "sharecode": "845 685 175",
-            "suspension": "Stock",
-            "tuneName": "B Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1928,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.477,
-      "shareCode": "845685175",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

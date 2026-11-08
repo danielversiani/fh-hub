@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-toyota-gr-supra",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1f73d1228a",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Toyota GR Supra",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2905,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
     {
       "buildTags": [],
       "carId": "2020-toyota-gr-supra",
@@ -11,7 +44,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-36af5340f7",
-      "metaRank": 124,
+      "metaRank": 127,
       "name": "V6 Widebody Circuits | 01.1 Shirakawa",
       "observations": [
         {
@@ -26,7 +59,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2899,
+          "row": 2898,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -46,8 +79,83 @@
       "class": "A",
       "confidence": 0.8,
       "drivetrain": "AWD",
+      "id": "nc-3d3b9feeb2",
+      "metaRank": 127,
+      "name": "AWD Road | No Aero + Stock Motor",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Toyota GR Supra",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD Road | No Aero + Stock Motor",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2897,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2020-toyota-gr-supra",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-601454be4c",
+      "metaRank": 127,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Toyota GR Supra",
+            "Comment": "",
+            "Design": "WIECEK 2026",
+            "Designer": "Fruwajacy",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 2900,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-toyota-gr-supra",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
       "id": "nc-61e56b951c",
-      "metaRank": 124,
+      "metaRank": 127,
       "name": "▯",
       "observations": [
         {
@@ -62,7 +170,7 @@
             "Tuner": "SeeyeahBoss",
             "fill": "FFFF0000"
           },
-          "row": 2900,
+          "row": 2899,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -72,6 +180,45 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "seeyeahboss"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2020-toyota-gr-supra",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-789d676f1e",
+      "metaRank": 127,
+      "name": "Road Purist + Toyota Wing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Toyota GR Supra",
+            "Comment": "",
+            "Design": "FAST 9 - HAN",
+            "Designer": "DJ Lime",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist + Toyota Wing",
+            "Tuner": "K1Z Disco Doggo",
+            "fill": "FFFF0000"
+          },
+          "row": 2901,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-disco-doggo"
     },
     {
       "buildTags": [],
@@ -97,12 +244,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 124,
+      "metaRank": 127,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 253,
+          "row": 259,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -114,6 +261,41 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2020-toyota-gr-supra",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-a9729b99dc",
+      "name": "S1 Road Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Toyota GR Supra",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Powerbuild",
+            "Tuner": "ESV Vini",
+            "fill": "FF7030A0"
+          },
+          "row": 2906,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-vini"
     },
     {
       "buildTags": [],
@@ -137,7 +319,7 @@
             "Tuner": "NPKNZ",
             "fill": "FF7030A0"
           },
-          "row": 2905,
+          "row": 2904,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -170,7 +352,7 @@
             "Tuner": "NPKNZ",
             "fill": "FF7030A0"
           },
-          "row": 2904,
+          "row": 2903,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -203,7 +385,7 @@
             "Tuner": "EoJz7294",
             "fill": "FF7030A0"
           },
-          "row": 2903,
+          "row": 2902,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -213,434 +395,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "eojz7294"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-12",
-      "drivetrain": "AWD",
-      "id": "sc-103316053",
-      "metaRank": 124,
-      "name": "AWD Road | No Aero + Stock Motor",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "103 316 053",
-            "suspension": "Sport",
-            "tuneName": "AWD Road | No Aero + Stock Motor",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 2470,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Toyota GR Supra",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "AWD Road | No Aero + Stock Motor",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 2898,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.651,
-      "shareCode": "103316053",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-18",
-      "drivetrain": "AWD",
-      "id": "sc-163791816",
-      "name": "Dirty Supra WB",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "163 791 816",
-            "suspension": "Rally",
-            "tuneName": "Dirty Supra WB",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2469,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "163791816",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-18",
-      "drivetrain": "AWD",
-      "id": "sc-165401822",
-      "name": "Strong S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "18/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "165 401 822",
-            "suspension": "Rally",
-            "tuneName": "Strong S1 Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2474,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "165401822",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "RWD",
-      "id": "sc-583775849",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "583 775 849",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 2472,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Toyota GR Supra",
-            "Comment": "",
-            "Design": "WIECEK 2026",
-            "Designer": "Fruwajacy",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "K1Z Suimin",
-            "fill": "FFFF0000"
-          },
-          "row": 2901,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "583775849",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-07",
-      "drivetrain": "AWD",
-      "id": "sc-700022932",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "07/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "700 022 932",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2477,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Toyota GR Supra",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 2906,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "700022932",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-766486213",
-      "name": "dirt f1 engine v1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "766 486 213",
-            "suspension": "Rally",
-            "tuneName": "dirt f1 engine v1.1",
-            "tuner": "NPKNZ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2476,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "766486213",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "npknz"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-29",
-      "drivetrain": "RWD",
-      "id": "sc-805441021",
-      "metaRank": 124,
-      "name": "Road Purist + Toyota Wing",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "805 441 021",
-            "suspension": "Sport",
-            "tuneName": "Road Purist + Toyota Wing",
-            "tuner": "K1Z Disco Doggo",
-            "tyreCompound": "Rally"
-          },
-          "row": 2471,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Toyota GR Supra",
-            "Comment": "",
-            "Design": "FAST 9 - HAN",
-            "Designer": "DJ Lime",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist + Toyota Wing",
-            "Tuner": "K1Z Disco Doggo",
-            "fill": "FFFF0000"
-          },
-          "row": 2902,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.642,
-      "shareCode": "805441021",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-disco-doggo"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-09-03",
-      "drivetrain": "AWD",
-      "id": "sc-808158190",
-      "name": "S1 Road AWD WB",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "03/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "808 158 190",
-            "suspension": "Race",
-            "tuneName": "S1 Road AWD WB",
-            "tuner": "LogikJ",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2475,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.5,
-      "shareCode": "808158190",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2020-toyota-gr-supra",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
-      "drivetrain": "RWD",
-      "id": "sc-821481104",
-      "name": "S1 Road Powerbuild",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "01/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "GR Supra",
-            "sharecode": "821 481 104",
-            "suspension": "Race",
-            "tuneName": "S1 Road Powerbuild",
-            "tuner": "ESV Vini",
-            "tyreCompound": "Drift"
-          },
-          "row": 2473,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Toyota GR Supra",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road Powerbuild",
-            "Tuner": "ESV Vini",
-            "fill": "FF7030A0"
-          },
-          "row": 2907,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "821481104",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "esv-vini"
     }
   ],
   "schemaVersion": 1

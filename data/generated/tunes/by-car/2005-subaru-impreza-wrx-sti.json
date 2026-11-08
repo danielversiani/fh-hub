@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -59,7 +59,7 @@
             "Tuner": "Aeroplane7616",
             "fill": "FFFF0000"
           },
-          "row": 2779,
+          "row": 2778,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -69,6 +69,141 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-subaru-impreza-wrx-sti",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-30cbf882ed",
+      "metaRank": 27,
+      "name": "B Dirt Rally (Updated - Race Gearbox)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Subaru Impreza WRX STI",
+            "Comment": "",
+            "Design": "FORZA LIVERY",
+            "Designer": "hanage007",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Rally (Updated - Race Gearbox)",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 531,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-subaru-impreza-wrx-sti",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3dfb51a531",
+      "name": "Dirty F6 Rally Wang + Snorkle",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Subaru Impreza WRX STI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty F6 Rally Wang + Snorkle",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 2780,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-subaru-impreza-wrx-sti",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-41ae4c20e8",
+      "name": "Dirt 2.0L TR",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Subaru Impreza WRX STI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt 2.0L TR",
+            "Tuner": "BluecarterEX",
+            "fill": "FFFF0000"
+          },
+          "row": 2779,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "bluecarterex"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-subaru-impreza-wrx-sti",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-b1a74869df",
+      "name": "WRC Dirt CC | No Aero | BRZ Flat 4",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Subaru Impreza WRX STI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "WRC Dirt CC | No Aero | BRZ Flat 4",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2781,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -171,221 +306,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2005-subaru-impreza-wrx-sti",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-18",
-      "drivetrain": "AWD",
-      "id": "sc-115780069",
-      "name": "WRC Dirt CC | No Aero | BRZ Flat 4",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Impreza WRX STI (2005)",
-            "sharecode": "115 780 069",
-            "suspension": "Rally",
-            "tuneName": "WRC Dirt CC | No Aero | BRZ Flat 4",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2351,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2005 Subaru Impreza WRX STI",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "WRC Dirt CC | No Aero | BRZ Flat 4",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 2782,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.679,
-      "shareCode": "115780069",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2005-subaru-impreza-wrx-sti",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-09-02",
-      "drivetrain": "AWD",
-      "id": "sc-138055519",
-      "metaRank": 27,
-      "name": "B Dirt Rally (Updated - Race Gearbox)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Impreza WRX STI (2005)",
-            "sharecode": "138 055 519",
-            "suspension": "Street",
-            "tuneName": "B Dirt Rally (Updated - Race Gearbox)",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2352,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2005 Subaru Impreza WRX STI",
-            "Comment": "",
-            "Design": "FORZA LIVERY",
-            "Designer": "hanage007",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt Rally (Updated - Race Gearbox)",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 531,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.681,
-      "shareCode": "138055519",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2005-subaru-impreza-wrx-sti",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-349742683",
-      "name": "Dirt 2.0L TR",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Impreza WRX STI (2005)",
-            "sharecode": "349 742 683",
-            "suspension": "Street",
-            "tuneName": "Dirt 2.0L TR",
-            "tuner": "BluecarterEX",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2349,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2005 Subaru Impreza WRX STI",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt 2.0L TR",
-            "Tuner": "BluecarterEX",
-            "fill": "FFFF0000"
-          },
-          "row": 2780,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "349742683",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "bluecarterex"
-    },
-    {
-      "buildTags": [],
-      "carId": "2005-subaru-impreza-wrx-sti",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-08",
-      "drivetrain": "AWD",
-      "id": "sc-926832913",
-      "name": "Dirty F6 Rally Wang + Snorkle",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Impreza WRX STI (2005)",
-            "sharecode": "926 832 913",
-            "suspension": "Street",
-            "tuneName": "Dirty F6 Rally Wang + Snorkle",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2350,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2005 Subaru Impreza WRX STI",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty F6 Rally Wang + Snorkle",
-            "Tuner": "Cast Haste",
-            "fill": "FFFF0000"
-          },
-          "row": 2781,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "926832913",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1967-ferrari-24-ferrari-spa-330-p4",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-3c7f63eb7d",
+      "metaRank": 61,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1967 Ferrari #24 Ferrari Spa 330 P4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1370,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
     {
       "buildTags": [],
       "carId": "1967-ferrari-24-ferrari-spa-330-p4",
@@ -275,271 +314,6 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1967-ferrari-24-ferrari-spa-330-p4",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-15",
-      "drivetrain": "RWD",
-      "id": "sc-101186510",
-      "metaRank": 61,
-      "name": "Optimized Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "#24 Ferrari Spa 330 P4",
-            "sharecode": "101 186 510",
-            "suspension": "Rally",
-            "tuneName": "Optimized Purist",
-            "tuner": "KilianFirebold",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 773,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.583,
-      "shareCode": "101186510",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage-race",
-      "tunerId": "kilianfirebold"
-    },
-    {
-      "buildTags": [],
-      "carId": "1967-ferrari-24-ferrari-spa-330-p4",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-14",
-      "drivetrain": "AWD",
-      "id": "sc-103498964",
-      "metaRank": 6,
-      "name": "Amazing A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "#24 Ferrari Spa 330 P4",
-            "sharecode": "103 498 964",
-            "suspension": "Rally",
-            "tuneName": "Amazing A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 776,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.653,
-      "shareCode": "103498964",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1967-ferrari-24-ferrari-spa-330-p4",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-123387362",
-      "metaRank": 6,
-      "name": "A Dirt Handling",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "#24 Ferrari Spa 330 P4",
-            "sharecode": "123 387 362",
-            "suspension": "Race",
-            "tuneName": "A Dirt Handling",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 777,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "123387362",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1967-ferrari-24-ferrari-spa-330-p4",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-06",
-      "drivetrain": "RWD",
-      "id": "sc-144222813",
-      "metaRank": 61,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "#24 Ferrari Spa 330 P4",
-            "sharecode": "144 222 813",
-            "suspension": "Rally",
-            "tuneName": "Purist",
-            "tuner": "VER Polaksz",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 778,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.589,
-      "shareCode": "144222813",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage-race",
-      "tunerId": "ver-polaksz"
-    },
-    {
-      "buildTags": [],
-      "carId": "1967-ferrari-24-ferrari-spa-330-p4",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-10",
-      "drivetrain": "AWD",
-      "id": "sc-339483281",
-      "metaRank": 6,
-      "name": "A Dirt Rally AWD No Aero",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "#24 Ferrari Spa 330 P4",
-            "sharecode": "339 483 281",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Rally AWD No Aero",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 774,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "339483281",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1967-ferrari-24-ferrari-spa-330-p4",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-12",
-      "drivetrain": "RWD",
-      "id": "sc-791966425",
-      "metaRank": 61,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "#24 Ferrari Spa 330 P4",
-            "sharecode": "791 966 425",
-            "suspension": "Rally",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 775,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1967 Ferrari #24 Ferrari Spa 330 P4",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1370,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "791966425",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage-race",
-      "tunerId": "silvasuperbee"
     }
   ],
   "schemaVersion": 1

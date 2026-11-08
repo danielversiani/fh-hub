@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -37,146 +37,11 @@
       "carId": "2018-mclaren-600lt-coupe",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-09-11",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-156085736",
-      "name": "better gears + more tp",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "600LT Coupé",
-            "sharecode": "156 085 736",
-            "suspension": "Rally",
-            "tuneName": "better gears + more tp",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1655,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.502,
-      "shareCode": "156085736",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-mclaren-600lt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-09-07",
-      "drivetrain": "AWD",
-      "id": "sc-264259431",
-      "metaRank": 83,
-      "name": "S1 - Road V2 ( Semi Slicks )",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "07/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "600LT Coupé",
-            "sharecode": "264 259 431",
-            "suspension": "Rally",
-            "tuneName": "S1 - Road V2 ( Semi Slicks )",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 1654,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.524,
-      "shareCode": "264259431",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-mclaren-600lt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-25",
-      "drivetrain": "AWD",
-      "id": "sc-430585058",
-      "metaRank": 83,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "600LT Coupé",
-            "sharecode": "430 585 058",
-            "suspension": "Race",
-            "tuneName": "S1 Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 1656,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.512,
-      "shareCode": "430585058",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-mclaren-600lt-coupe",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-09-16",
-      "drivetrain": "AWD",
-      "id": "sc-971476445",
+      "id": "nc-9bf8b2a060",
       "name": "S1 dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "600LT Coupé",
-            "sharecode": "971 476 445",
-            "suspension": "Race",
-            "tuneName": "S1 dirt",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1653,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2018 McLaren 600LT Coupé",
@@ -189,17 +54,15 @@
             "Tuner": "IceFrice8724",
             "fill": "FF7030A0"
           },
-          "row": 2226,
+          "row": 2225,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.686,
-      "shareCode": "971476445",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "icefrice8724"
     }
   ],

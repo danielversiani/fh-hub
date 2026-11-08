@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -51,6 +51,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0c12c055f4",
+      "metaRank": 33,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 185,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
@@ -240,6 +276,39 @@
       "tunerId": "slowbakedpanda"
     },
     {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5977030c9d",
+      "name": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 964,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -350,127 +419,13 @@
     {
       "buildTags": [],
       "carId": "1973-bmw-2002-turbo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-10-03",
-      "drivetrain": "AWD",
-      "id": "sc-140462779",
-      "metaRank": 33,
-      "name": "B DIRT ONLINE",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "03/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "2002 Turbo",
-            "sharecode": "140 462 779",
-            "suspension": "Street",
-            "tuneName": "B DIRT ONLINE",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 310,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.599,
-      "shareCode": "140462779",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "1973-bmw-2002-turbo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-18",
-      "drivetrain": "AWD",
-      "id": "sc-183687982",
-      "metaRank": 33,
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "2002 Turbo",
-            "sharecode": "183 687 982",
-            "suspension": "Street",
-            "tuneName": "B Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 309,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1973 BMW 2002 Turbo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FFED7D31"
-          },
-          "row": 185,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "183687982",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1973-bmw-2002-turbo",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-513674469",
+      "id": "nc-ed91adedf6",
       "name": "A Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "2002 Turbo",
-            "sharecode": "513 674 469",
-            "suspension": "Street",
-            "tuneName": "A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 307,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1973 BMW 2002 Turbo",
@@ -488,66 +443,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.664,
-      "shareCode": "513674469",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1973-bmw-2002-turbo",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-11",
-      "drivetrain": "AWD",
-      "id": "sc-810199895",
-      "name": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "2002 Turbo",
-            "sharecode": "810 199 895",
-            "suspension": "Street",
-            "tuneName": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 308,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1973 BMW 2002 Turbo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
-            "Tuner": "ZVTCJAU",
-            "fill": "FFFF0000"
-          },
-          "row": 964,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.677,
-      "shareCode": "810199895",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
     }
   ],
   "schemaVersion": 1

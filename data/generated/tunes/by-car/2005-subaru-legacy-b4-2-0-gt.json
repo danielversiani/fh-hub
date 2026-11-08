@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -12,12 +12,12 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-071340619a",
-      "metaRank": 160,
+      "metaRank": 163,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 327,
+          "row": 333,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -42,7 +42,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-68a1477f39",
-      "metaRank": 160,
+      "metaRank": 163,
       "name": "Purist Traffic Car",
       "observations": [
         {
@@ -57,7 +57,7 @@
             "Tuner": "NEPOSHA",
             "fill": "FFFF0000"
           },
-          "row": 2784,
+          "row": 2783,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -67,6 +67,119 @@
       "tier": "t3",
       "tierSource": "meta-table",
       "tunerId": "neposha"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-subaru-legacy-b4-2-0-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-74b05cd3f2",
+      "metaRank": 163,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Subaru Legacy B4 2.0 GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2782,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-subaru-legacy-b4-2-0-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c0b22e7af3",
+      "metaRank": 163,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Subaru Legacy B4 2.0 GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "scaans",
+            "fill": "FFFF0000"
+          },
+          "row": 2784,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "scaans"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-subaru-legacy-b4-2-0-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d93d062a0d",
+      "name": "B Dirt Rally Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Subaru Legacy B4 2.0 GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Rally Purist",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 533,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [
@@ -104,177 +217,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ariettajp"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2005-subaru-legacy-b4-2-0-gt",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "AWD",
-      "id": "sc-106960335",
-      "name": "B Dirt Rally Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Legacy B4 2.0 GT",
-            "sharecode": "106 960 335",
-            "suspension": "Street",
-            "tuneName": "B Dirt Rally Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2359,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2005 Subaru Legacy B4 2.0 GT",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt Rally Purist",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 533,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "106960335",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2005-subaru-legacy-b4-2-0-gt",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-165304550",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Legacy B4 2.0 GT",
-            "sharecode": "165 304 550",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "scaans",
-            "tyreCompound": "Rally"
-          },
-          "row": 2358,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2005 Subaru Legacy B4 2.0 GT",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "scaans",
-            "fill": "FFFF0000"
-          },
-          "row": 2785,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "165304550",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "scaans"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2005-subaru-legacy-b4-2-0-gt",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-290482241",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Legacy B4 2.0 GT",
-            "sharecode": "290 482 241",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2357,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2005 Subaru Legacy B4 2.0 GT",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 2783,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "290482241",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

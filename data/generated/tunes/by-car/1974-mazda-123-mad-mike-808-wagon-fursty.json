@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -39,66 +39,11 @@
       "carId": "1974-mazda-123-mad-mike-808-wagon-fursty",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-06",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-183012769",
-      "name": "A Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "#123 Mad Mike 808 Wagon 'Fursty'",
-            "sharecode": "183 012 769",
-            "suspension": "Drift",
-            "tuneName": "A Road",
-            "tuner": "ATK Mang0",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1547,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "183012769",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "atk-mang0"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-mazda-123-mad-mike-808-wagon-fursty",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
-      "drivetrain": "RWD",
-      "id": "sc-274090126",
+      "id": "nc-d722570e7b",
       "name": "Crazy Dave",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "#123 Mad Mike 808 Wagon 'Fursty'",
-            "sharecode": "274 090 126",
-            "suspension": "Race",
-            "tuneName": "Crazy Dave",
-            "tuner": "keerj",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1549,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1974 Mazda #123 Mad Mike 808 Wagon \"FURSTY\"",
@@ -116,79 +61,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "274090126",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "keerj"
     },
     {
       "buildTags": [],
       "carId": "1974-mazda-123-mad-mike-808-wagon-fursty",
       "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-27",
-      "drivetrain": "AWD",
-      "id": "sc-411733486",
-      "name": "Dirty Flex",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "#123 Mad Mike 808 Wagon 'Fursty'",
-            "sharecode": "411 733 486",
-            "suspension": "Rally",
-            "tuneName": "Dirty Flex",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1550,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "411733486",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-mazda-123-mad-mike-808-wagon-fursty",
-      "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-558256104",
+      "id": "nc-e9bddab51c",
       "name": "A Road (Yes, it's good)",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "#123 Mad Mike 808 Wagon 'Fursty'",
-            "sharecode": "558 256 104",
-            "suspension": "Race",
-            "tuneName": "A Road (Yes, it's good)",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1548,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1974 Mazda #123 Mad Mike 808 Wagon \"FURSTY\"",
@@ -206,12 +94,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "558256104",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "k1z-bard"
     }
   ],

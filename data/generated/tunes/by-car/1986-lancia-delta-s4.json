@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1986-lancia-delta-s4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-037ca6471d",
+      "name": "Expert S1 Dirt (M/C)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Lancia Delta S4",
+            "Comment": "",
+            "Design": "PPHU MEME",
+            "Designer": "ESV Troot",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Expert S1 Dirt (M/C)",
+            "Tuner": "TheDannny",
+            "fill": "FF7030A0"
+          },
+          "row": 1961,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-lancia-delta-s4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-16db460448",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Lancia Delta S4",
+            "Comment": "",
+            "Design": "LANCIA ITALIA",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1960,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
     {
       "buildTags": [
         "purist"
@@ -76,316 +142,6 @@
       "tunerId": "logikj"
     },
     {
-      "buildTags": [],
-      "carId": "1986-lancia-delta-s4",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-11",
-      "drivetrain": "AWD",
-      "id": "sc-112376611",
-      "name": "Expert S1 Dirt (M/C)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta S4",
-            "sharecode": "112 376 611",
-            "suspension": "Drift",
-            "tuneName": "Expert S1 Dirt (M/C)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1453,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Lancia Delta S4",
-            "Comment": "",
-            "Design": "PPHU MEME",
-            "Designer": "ESV Troot",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Expert S1 Dirt (M/C)",
-            "Tuner": "TheDannny",
-            "fill": "FF7030A0"
-          },
-          "row": 1961,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "112376611",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1986-lancia-delta-s4",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-147711446",
-      "name": "Dirt Rally Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta S4",
-            "sharecode": "147 711 446",
-            "suspension": "Rally",
-            "tuneName": "Dirt Rally Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1448,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "147711446",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-lancia-delta-s4",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-147737889",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta S4",
-            "sharecode": "147 737 889",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1452,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Lancia Delta S4",
-            "Comment": "",
-            "Design": "LANCIA ITALIA",
-            "Designer": "Wombi 62",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 1960,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "147737889",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1986-lancia-delta-s4",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "AWD",
-      "id": "sc-169140058",
-      "name": "A Dirt | Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta S4",
-            "sharecode": "169 140 058",
-            "suspension": "Rally",
-            "tuneName": "A Dirt | Purist",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1447,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Lancia Delta S4",
-            "Comment": "Purist",
-            "Design": "MARTINI S4 #72",
-            "Designer": "WoodyTIE86",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt | Purist",
-            "Tuner": "CTE seasons",
-            "fill": "FFFF0000"
-          },
-          "row": 1956,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "169140058",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-lancia-delta-s4",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-08",
-      "drivetrain": "AWD",
-      "id": "sc-271735186",
-      "name": "Road Handling T2.5 Shirakawa 02.0 M/C",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "08/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta S4",
-            "sharecode": "271 735 186",
-            "suspension": "Rally",
-            "tuneName": "Road Handling T2.5 Shirakawa 02.0 M/C",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1450,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Lancia Delta S4",
-            "Comment": "",
-            "Design": "KARTRIDER GUMIHO",
-            "Designer": "Biyuan Zhu",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Handling T2.5 Shirakawa 02.0 M/C",
-            "Tuner": "ZVTCJAU",
-            "fill": "FFFF0000"
-          },
-          "row": 1958,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "271735186",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-lancia-delta-s4",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-409511253",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta S4",
-            "sharecode": "409 511 253",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1451,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Lancia Delta S4",
-            "Comment": "",
-            "Design": "ESSO DELTA S4",
-            "Designer": "Thundasmacka",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 1959,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "409511253",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -394,29 +150,11 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-730832078",
+      "id": "nc-6bfe3016b5",
       "name": "B Road Purist | 51.7 Narai",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta S4",
-            "sharecode": "730 832 078",
-            "suspension": "Race",
-            "tuneName": "B Road Purist | 51.7 Narai",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Rally"
-          },
-          "row": 1449,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1986 Lancia Delta S4",
@@ -434,13 +172,114 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.66,
-      "shareCode": "730832078",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-lancia-delta-s4",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-73a25e9ce6",
+      "name": "Road Handling T2.5 Shirakawa 02.0 M/C",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Lancia Delta S4",
+            "Comment": "",
+            "Design": "KARTRIDER GUMIHO",
+            "Designer": "Biyuan Zhu",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling T2.5 Shirakawa 02.0 M/C",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 1958,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-lancia-delta-s4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8d210b2738",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Lancia Delta S4",
+            "Comment": "",
+            "Design": "ESSO DELTA S4",
+            "Designer": "Thundasmacka",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1959,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1986-lancia-delta-s4",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-9cc7f51a47",
+      "name": "A Dirt | Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Lancia Delta S4",
+            "Comment": "Purist",
+            "Design": "MARTINI S4 #72",
+            "Designer": "WoodyTIE86",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt | Purist",
+            "Tuner": "CTE seasons",
+            "fill": "FFFF0000"
+          },
+          "row": 1956,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cte-seasons"
     }
   ],
   "schemaVersion": 1

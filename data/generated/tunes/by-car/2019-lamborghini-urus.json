@@ -1,6 +1,73 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-lamborghini-urus",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1667c3b2c8",
+      "name": "CC V10TT (M)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Lamborghini Urus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "CC V10TT (M)",
+            "Tuner": "TheDannny",
+            "fill": "FFFF0000"
+          },
+          "row": 1916,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-lamborghini-urus",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-42bc7b4482",
+      "metaRank": 155,
+      "name": "A - Road ( Chonk / Unit )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Lamborghini Urus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road ( Chonk / Unit )",
+            "Tuner": "ESV Rapture",
+            "fill": "FFFF0000"
+          },
+          "row": 1919,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "esv-rapture"
+    },
     {
       "buildTags": [],
       "carId": "2019-lamborghini-urus",
@@ -56,12 +123,12 @@
         "en": "Good in corners, slightly weak acceleration.",
         "pt-br": "Bom nas curvas, acelera um pouco mal."
       },
-      "metaRank": 152,
+      "metaRank": 155,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 311,
+          "row": 317,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -82,7 +149,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-596e66c368",
-      "metaRank": 152,
+      "metaRank": 155,
       "name": "1.8G Touge&Street V2",
       "observations": [
         {
@@ -142,6 +209,42 @@
       "tunerId": "logikj"
     },
     {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2019-lamborghini-urus",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-e2bc432356",
+      "metaRank": 155,
+      "name": "A Road | 5.2 V10/Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Lamborghini Urus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 5.2 V10/Stock Look",
+            "Tuner": "CTE seasons",
+            "fill": "FFFF0000"
+          },
+          "row": 1918,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "cte-seasons"
+    },
+    {
       "buildTags": [],
       "carId": "2019-lamborghini-urus",
       "categories": [],
@@ -173,206 +276,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-lamborghini-urus",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-108389196",
-      "name": "CC V10TT (M)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Urus",
-            "sharecode": "108 389 196",
-            "suspension": "Sport",
-            "tuneName": "CC V10TT (M)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1436,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Lamborghini Urus",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "CC V10TT (M)",
-            "Tuner": "TheDannny",
-            "fill": "FFFF0000"
-          },
-          "row": 1916,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "108389196",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2019-lamborghini-urus",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-155206865",
-      "metaRank": 152,
-      "name": "A Road | 5.2 V10/Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Urus",
-            "sharecode": "155 206 865",
-            "suspension": "Sport",
-            "tuneName": "A Road | 5.2 V10/Stock Look",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Rally"
-          },
-          "row": 1433,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Lamborghini Urus",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road | 5.2 V10/Stock Look",
-            "Tuner": "CTE seasons",
-            "fill": "FFFF0000"
-          },
-          "row": 1918,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.573,
-      "shareCode": "155206865",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-lamborghini-urus",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-14",
-      "drivetrain": "AWD",
-      "id": "sc-240061833",
-      "name": "Good Offroader",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Urus",
-            "sharecode": "240 061 833",
-            "suspension": "Sport",
-            "tuneName": "Good Offroader",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1435,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "240061833",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-lamborghini-urus",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-02",
-      "drivetrain": "AWD",
-      "id": "sc-256996863",
-      "metaRank": 152,
-      "name": "A - Road ( Chonk / Unit )",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Urus",
-            "sharecode": "256 996 863",
-            "suspension": "Race",
-            "tuneName": "A - Road ( Chonk / Unit )",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 1434,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Lamborghini Urus",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Road ( Chonk / Unit )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 1919,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.572,
-      "shareCode": "256996863",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-rapture"
     }
   ],
   "schemaVersion": 1

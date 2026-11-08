@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-427-s-c",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8012e3a0c1",
+      "name": "Strong S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra 427 S/C",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2748,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
     {
       "buildTags": [],
       "carId": "1965-shelby-cobra-427-s-c",
@@ -14,12 +47,12 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-8d932f1475",
-      "metaRank": 122,
+      "metaRank": 125,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 249,
+          "row": 255,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -66,127 +99,16 @@
     {
       "buildTags": [],
       "carId": "1965-shelby-cobra-427-s-c",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-14",
-      "drivetrain": "AWD",
-      "id": "sc-117326764",
-      "name": "Strong S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Shelby",
-            "model": "Cobra 427 S/C",
-            "sharecode": "117 326 764",
-            "suspension": "Rally",
-            "tuneName": "Strong S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2313,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1965 Shelby Cobra 427 S/C",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong S1 Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 2750,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "117326764",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-shelby-cobra-427-s-c",
       "categories": [
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-23",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-127941184",
-      "metaRank": 33,
-      "name": "A Dirt 59.2 Sunflower",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Shelby",
-            "model": "Cobra 427 S/C",
-            "sharecode": "127 941 184",
-            "suspension": "Rally",
-            "tuneName": "A Dirt 59.2 Sunflower",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2310,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.547,
-      "shareCode": "127941184",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-shelby-cobra-427-s-c",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-14",
-      "drivetrain": "AWD",
-      "id": "sc-134583555",
+      "id": "nc-b686892110",
       "metaRank": 33,
       "name": "A Dirt Updated",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Shelby",
-            "model": "Cobra 427 S/C",
-            "sharecode": "134 583 555",
-            "suspension": "Street",
-            "tuneName": "A Dirt Updated",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2309,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1965 Shelby Cobra 427 S/C",
@@ -199,17 +121,48 @@
             "Tuner": "SR1 Rain",
             "fill": "FFFF0000"
           },
-          "row": 2747,
+          "row": 2746,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.631,
-      "shareCode": "134583555",
+      "score": 0.543,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-427-s-c",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d4064ed7c4",
+      "name": "Strong S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra 427 S/C",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2749,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
       "tunerId": "sr1-rain"
     },
     {
@@ -222,30 +175,12 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-13",
+      "confidence": 0.8,
       "drivetrain": "RWD",
-      "id": "sc-489324083",
-      "metaRank": 33,
+      "id": "nc-e15e046f85",
+      "metaRank": 125,
       "name": "Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Shelby",
-            "model": "Cobra 427 S/C",
-            "sharecode": "489 324 083",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 2308,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1965 Shelby Cobra 427 S/C",
@@ -258,114 +193,16 @@
             "Tuner": "SilvaSUPERBEE",
             "fill": "FFFF0000"
           },
-          "row": 2748,
+          "row": 2747,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.628,
-      "shareCode": "489324083",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-shelby-cobra-427-s-c",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-504978380",
-      "name": "Strong S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Shelby",
-            "model": "Cobra 427 S/C",
-            "sharecode": "504 978 380",
-            "suspension": "Rally",
-            "tuneName": "Strong S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2312,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1965 Shelby Cobra 427 S/C",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong S1 Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 2749,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "504978380",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1965-shelby-cobra-427-s-c",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-24",
-      "drivetrain": "RWD",
-      "id": "sc-639114582",
-      "metaRank": 122,
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Shelby",
-            "model": "Cobra 427 S/C",
-            "sharecode": "639 114 582",
-            "suspension": "Race",
-            "tuneName": "A Road Purist",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Rally"
-          },
-          "row": 2311,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.45,
-      "shareCode": "639114582",
+      "score": 0.447,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "vnx-ruinz"
+      "tunerId": "silvasuperbee"
     }
   ],
   "schemaVersion": 1

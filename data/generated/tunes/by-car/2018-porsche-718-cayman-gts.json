@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -14,12 +14,12 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-4b8f58d252",
-      "metaRank": 130,
+      "metaRank": 133,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 266,
+          "row": 272,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -33,78 +33,18 @@
       "tunerId": "msr-sola"
     },
     {
-      "buildTags": [
-        "full-aero"
-      ],
-      "carId": "2018-porsche-718-cayman-gts",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-24",
-      "drivetrain": "AWD",
-      "id": "sc-408701726",
-      "metaRank": 130,
-      "name": "Road AWD Full Aero GT3",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "718 Cayman GTS",
-            "sharecode": "408 701 726",
-            "suspension": "Rally",
-            "tuneName": "Road AWD Full Aero GT3",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 2159,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.538,
-      "shareCode": "408701726",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
       "buildTags": [],
       "carId": "2018-porsche-718-cayman-gts",
       "categories": [
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-799844728",
-      "metaRank": 130,
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-ba5aa50efe",
+      "metaRank": 133,
       "name": "A road",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "718 Cayman GTS",
-            "sharecode": "799 844 728",
-            "suspension": "Sport",
-            "tuneName": "A road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2158,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2018 Porsche 718 Cayman GTS",
@@ -117,17 +57,15 @@
             "Tuner": "IceFrice8724",
             "fill": "FFFF0000"
           },
-          "row": 2650,
+          "row": 2649,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.617,
-      "shareCode": "799844728",
+      "score": 0.53,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
-      "tires": "rally",
       "tunerId": "icefrice8724"
     }
   ],

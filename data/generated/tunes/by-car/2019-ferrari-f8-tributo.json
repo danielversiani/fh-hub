@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-f8-tributo",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-0eeb1dd8e0",
+      "name": "S1 dirt F154 CG",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ferrari F8 Tributo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt F154 CG",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1442,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
     {
       "buildTags": [],
       "carId": "2019-ferrari-f8-tributo",
@@ -31,6 +64,39 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-f8-tributo",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-88b9d095f9",
+      "name": "S1 dirt F130B",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ferrari F8 Tributo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt F130B",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1441,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],
@@ -67,149 +133,6 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ferrari-f8-tributo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-173503097",
-      "name": "S1 dirt F130B",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F8 Tributo",
-            "sharecode": "173 503 097",
-            "suspension": "Rally",
-            "tuneName": "S1 dirt F130B",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 846,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Ferrari F8 Tributo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 dirt F130B",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 1441,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "173503097",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ferrari-f8-tributo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "id": "sc-215451804",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F8 Tributo",
-            "sharecode": "215 451 804",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 847,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "215451804",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ferrari-f8-tributo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-535987166",
-      "name": "S1 dirt F154 CG",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F8 Tributo",
-            "sharecode": "535 987 166",
-            "suspension": "Rally",
-            "tuneName": "S1 dirt F154 CG",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 845,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Ferrari F8 Tributo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 dirt F154 CG",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 1442,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "535987166",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
     }
   ],
   "schemaVersion": 1

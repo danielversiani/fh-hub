@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -36,6 +36,48 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1967-lamborghini-miura-p400",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4ab1e55a10",
+      "lapRefs": [
+        {
+          "time": "59.6",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵59.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 30,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 64,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
     },
     {
       "buildTags": [
@@ -75,268 +117,19 @@
       "tunerId": "sr1-rain"
     },
     {
-      "buildTags": [],
-      "carId": "1967-lamborghini-miura-p400",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-06",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-137039222",
-      "lapRefs": [
-        {
-          "time": "59.6",
-          "track": "Sunflower"
-        }
-      ],
-      "metaNotes": "向日葵59.6",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 30,
-      "name": "A Dirt - HV10 59.6 Sunflower",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Miura P400",
-            "sharecode": "137 039 222",
-            "suspension": "Rally",
-            "tuneName": "A Dirt - HV10 59.6 Sunflower",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1407,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.645,
-      "shareCode": "137039222",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1967-lamborghini-miura-p400",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-07",
-      "drivetrain": "AWD",
-      "id": "sc-156190461",
-      "metaRank": 30,
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Miura P400",
-            "sharecode": "156 190 461",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1408,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.599,
-      "shareCode": "156190461",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1967-lamborghini-miura-p400",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-08",
-      "drivetrain": "RWD",
-      "id": "sc-533796462",
-      "metaRank": 30,
-      "name": "comedy central",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lamborghini",
-            "model": "Miura P400",
-            "sharecode": "533 796 462",
-            "suspension": "Street",
-            "tuneName": "comedy central",
-            "tuner": "Myra Driving",
-            "tyreCompound": "Rally"
-          },
-          "row": 1409,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.599,
-      "shareCode": "533796462",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "myra-driving"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1967-lamborghini-miura-p400",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-10-06",
-      "drivetrain": "RWD",
-      "id": "sc-567745622",
-      "name": "mini pb",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lamborghini",
-            "model": "Miura P400",
-            "sharecode": "567 745 622",
-            "suspension": "Street",
-            "tuneName": "mini pb",
-            "tuner": "Dumbo GT49",
-            "tyreCompound": "Vintage"
-          },
-          "row": 1411,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1967 Lamborghini Miura P400",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "mini pb",
-            "Tuner": "Dumbo GT49",
-            "fill": "FFED7D31"
-          },
-          "row": 383,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.691,
-      "shareCode": "567745622",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage",
-      "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [],
-      "carId": "1967-lamborghini-miura-p400",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-05",
-      "drivetrain": "AWD",
-      "id": "sc-701332587",
-      "metaRank": 30,
-      "name": "Good A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Miura P400",
-            "sharecode": "701 332 587",
-            "suspension": "Rally",
-            "tuneName": "Good A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1410,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.599,
-      "shareCode": "701332587",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
       "buildTags": [
         "purist"
       ],
       "carId": "1967-lamborghini-miura-p400",
       "categories": [
-        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-31",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-957269222",
-      "metaRank": 30,
+      "id": "nc-d6b2c8b989",
       "name": "Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lamborghini",
-            "model": "Miura P400",
-            "sharecode": "957 269 222",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 1406,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1967 Lamborghini Miura P400",
@@ -354,13 +147,46 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.671,
-      "shareCode": "957269222",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
       "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1967-lamborghini-miura-p400",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-f92a47a26f",
+      "name": "mini pb",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1967 Lamborghini Miura P400",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "mini pb",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 383,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "dumbo-gt49"
     }
   ],
   "schemaVersion": 1

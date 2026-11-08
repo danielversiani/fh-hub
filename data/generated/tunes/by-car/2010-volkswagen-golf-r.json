@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -58,12 +58,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 125,
+      "metaRank": 128,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 255,
+          "row": 261,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -75,46 +75,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-volkswagen-golf-r",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-09",
-      "drivetrain": "AWD",
-      "id": "sc-169069079",
-      "metaRank": 125,
-      "name": "APR Kit Road Grip (M/C) Modular+K20C1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Golf R (2010)",
-            "sharecode": "169 069 079",
-            "suspension": "Street",
-            "tuneName": "APR Kit Road Grip (M/C) Modular+K20C1",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 2622,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.561,
-      "shareCode": "169069079",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

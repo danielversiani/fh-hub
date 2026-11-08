@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "carId": "1984-honda-city-e-ii",
@@ -47,8 +47,9 @@
     {
       "carId": "2008-mazda-furai",
       "category": "meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-summer--championship--urban-legend",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -59,14 +60,14 @@
           }
         }
       ],
-      "score": 0.754,
+      "score": 0.77,
       "seasonId": "s07-summer",
-      "tuneId": "sc-816219600"
+      "tuneId": "nc-7027e46016"
     },
     {
       "carId": "1990-alfa-romeo-se-048sp",
       "category": "meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-summer--championship--urban-legend",
       "origin": "rules",
       "reasons": [
@@ -78,34 +79,9 @@
           }
         }
       ],
-      "score": 0.724,
+      "score": 0.707,
       "seasonId": "s07-summer",
-      "tuneId": "sc-635119755"
-    },
-    {
-      "carId": "2020-lamborghini-essenza-scv12",
-      "category": "meta",
-      "confidence": 0.85,
-      "eventId": "s07-summer--championship--urban-legend",
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t0.5"
-          }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        }
-      ],
-      "score": 0.771,
-      "seasonId": "s07-summer",
-      "tuneId": "sc-170149233"
+      "tuneId": "sc-823312187"
     },
     {
       "carId": "2009-pagani-zonda-r",
@@ -125,6 +101,31 @@
       "score": 0.52,
       "seasonId": "s07-summer",
       "tuneId": "sc-131940042"
+    },
+    {
+      "carId": "2011-lamborghini-sesto-elemento",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s07-summer--championship--urban-legend",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.765,
+      "seasonId": "s07-summer",
+      "tuneId": "sc-972419705"
     },
     {
       "carId": "2019-apollo-intensa-emozione",
@@ -189,8 +190,9 @@
     {
       "carId": "1989-ferrari-f40-competizione",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-summer--championship--urban-legend",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -201,45 +203,35 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.614,
+      "score": 0.53,
       "seasonId": "s07-summer",
-      "tuneId": "sc-775087934"
+      "tuneId": "nc-67713bd286"
     },
     {
       "carId": "2022-aston-martin-valkyrie-amr-pro",
       "category": "purist",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "eventId": "s07-summer--championship--urban-legend",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.67,
+      "score": 0.474,
       "seasonId": "s07-summer",
-      "tuneId": "sc-998940732"
+      "tuneId": "nc-501a5f5484"
     },
     {
       "carId": "2018-dodge-challenger-srt-demon",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-summer--championship--rise-to-the-challenge",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -248,17 +240,11 @@
             "source": "noa-miyako",
             "tier": "t1"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.718,
+      "score": 0.638,
       "seasonId": "s07-summer",
-      "tuneId": "sc-107569789"
+      "tuneId": "nc-08ea790b1c"
     },
     {
       "carId": "2023-dodge-challenger-srt-demon-170",
@@ -283,8 +269,9 @@
     {
       "carId": "2018-dodge-challenger-srt-demon",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-summer--championship--rise-to-the-challenge",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -295,45 +282,35 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.669,
+      "score": 0.59,
       "seasonId": "s07-summer",
-      "tuneId": "sc-916545726"
+      "tuneId": "nc-acda26772f"
     },
     {
-      "carId": "2015-dodge-challenger-srt-hellcat",
+      "carId": "2022-dodge-challenger-srt-super-stock",
       "category": "purist",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "eventId": "s07-summer--championship--rise-to-the-challenge",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.666,
+      "score": 0.474,
       "seasonId": "s07-summer",
-      "tuneId": "sc-120838774"
+      "tuneId": "nc-37f8395f51"
     },
     {
       "carId": "2002-ferrari-enzo-ferrari",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-summer--championship--paint-the-town-red",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -342,17 +319,11 @@
             "source": "noa-miyako",
             "tier": "t1"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.718,
+      "score": 0.638,
       "seasonId": "s07-summer",
-      "tuneId": "sc-704360964"
+      "tuneId": "nc-cdee0a8e42"
     },
     {
       "carId": "2005-ferrari-fxx",
@@ -395,32 +366,11 @@
       "tuneId": "nc-b4ba092b18"
     },
     {
-      "carId": "2013-ferrari-458-speciale",
-      "category": "purist",
-      "confidence": 0.85,
-      "eventId": "s07-summer--championship--paint-the-town-red",
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tier",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t2"
-          }
-        },
-        {
-          "key": "reason.purist"
-        }
-      ],
-      "score": 0.534,
-      "seasonId": "s07-summer",
-      "tuneId": "sc-131065702"
-    },
-    {
       "carId": "2009-ferrari-458-italia",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-summer--championship--paint-the-town-red",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -431,18 +381,28 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.53,
+      "seasonId": "s07-summer",
+      "tuneId": "nc-acd3c1dffc"
+    },
+    {
+      "carId": "1970-ferrari-512-s",
+      "category": "purist",
+      "confidence": 0.35,
+      "eventId": "s07-summer--championship--paint-the-town-red",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.614,
+      "score": 0.474,
       "seasonId": "s07-summer",
-      "tuneId": "sc-409783438"
+      "tuneId": "nc-13c1799297"
     },
     {
       "carId": "1991-toyota-sera",

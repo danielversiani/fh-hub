@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -74,6 +74,39 @@
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "AWD",
+      "id": "nc-0ef217de59",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1982 DeLorean DMC-12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1216,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1982-delorean-dmc-12",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
       "id": "nc-1398e46115",
       "name": "Road 1.0",
       "observations": [
@@ -132,6 +165,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1982-delorean-dmc-12",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3ad7e060cb",
+      "name": "A Allround Beast",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1982 DeLorean DMC-12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Allround Beast",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 1218,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [
@@ -210,227 +276,11 @@
       "carId": "1982-delorean-dmc-12",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-19",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-105737292",
-      "name": "A Allround Beast",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "105 737 292",
-            "suspension": "Street",
-            "tuneName": "A Allround Beast",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 651,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1982 DeLorean DMC-12",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Allround Beast",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 1218,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "105737292",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-delorean-dmc-12",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-20",
-      "drivetrain": "AWD",
-      "id": "sc-124986525",
-      "name": "Strong+ A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "124 986 525",
-            "suspension": "Rally",
-            "tuneName": "Strong+ A Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 653,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.49,
-      "shareCode": "124986525",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1982-delorean-dmc-12",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-19",
-      "drivetrain": "AWD",
-      "id": "sc-173898309",
-      "name": "B Dirt AWD Stock Look Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "173 898 309",
-            "suspension": "Stock",
-            "tuneName": "B Dirt AWD Stock Look Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 658,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1982 DeLorean DMC-12",
-            "Comment": "",
-            "Design": "DMC INDIVILIA",
-            "Designer": "ShikikanSama109",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt AWD Stock Look Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 251,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "173898309",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-delorean-dmc-12",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-180072406",
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "180 072 406",
-            "suspension": "Stock",
-            "tuneName": "B Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 657,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1982 DeLorean DMC-12",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FFED7D31"
-          },
-          "row": 250,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "180072406",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-delorean-dmc-12",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-233703103",
+      "id": "nc-7682a4dfbf",
       "name": "A Dirt - V10_Centri casually giving you 750hp",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "233 703 103",
-            "suspension": "Race",
-            "tuneName": "A Dirt - V10_Centri casually giving you 750hp",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 655,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1982 DeLorean DMC-12",
@@ -448,13 +298,44 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.661,
-      "shareCode": "233703103",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1982-delorean-dmc-12",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-9214f20f38",
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1982 DeLorean DMC-12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFED7D31"
+          },
+          "row": 250,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [
@@ -465,29 +346,11 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-18",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-278604629",
+      "id": "nc-cb1ad93aa7",
       "name": "Road Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "278 604 629",
-            "suspension": "Street",
-            "tuneName": "Road Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Street"
-          },
-          "row": 659,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1982 DeLorean DMC-12",
@@ -505,12 +368,45 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.664,
-      "shareCode": "278604629",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "street",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1982-delorean-dmc-12",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-fc65c1d710",
+      "name": "B Dirt AWD Stock Look Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1982 DeLorean DMC-12",
+            "Comment": "",
+            "Design": "DMC INDIVILIA",
+            "Designer": "ShikikanSama109",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt AWD Stock Look Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 251,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
       "tunerId": "logikj"
     },
     {
@@ -518,119 +414,11 @@
       "carId": "1982-delorean-dmc-12",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-379776669",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "379 776 669",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 654,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1982 DeLorean DMC-12",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1216,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "379776669",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-delorean-dmc-12",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-04",
-      "drivetrain": "AWD",
-      "id": "sc-850761593",
-      "name": "A Dirt - Strong w/ E60 engine (Takashiro Trail 2.00.5)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "850 761 593",
-            "suspension": "Stock",
-            "tuneName": "A Dirt - Strong w/ E60 engine (Takashiro Trail 2.00.5)",
-            "tuner": "Falken JP",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 652,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "850761593",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "falken-jp"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-delorean-dmc-12",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "AWD",
-      "id": "sc-936312277",
+      "id": "nc-fdc6b9d413",
       "name": "OUTATIME",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeLorean",
-            "model": "DMC-12",
-            "sharecode": "936 312 277",
-            "suspension": "Stock",
-            "tuneName": "OUTATIME",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
-          },
-          "row": 656,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1982 DeLorean DMC-12",
@@ -648,12 +436,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.663,
-      "shareCode": "936312277",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "zombiejesus52"
     }
   ],

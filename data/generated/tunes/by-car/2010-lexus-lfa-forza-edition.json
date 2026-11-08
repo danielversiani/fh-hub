@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2010-lexus-lfa-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1aff4b2214",
+      "name": "Dirt Racing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Lexus LFA Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Racing",
+            "Tuner": "GreetedDust8",
+            "fill": "FF7030A0"
+          },
+          "row": 1972,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
     {
       "buildTags": [],
       "carId": "2010-lexus-lfa-forza-edition",
@@ -99,6 +132,105 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-lexus-lfa-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6c21d4f674",
+      "name": "R Class",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Lexus LFA Forza Edition",
+            "Comment": "",
+            "Design": "NOOD #15",
+            "Designer": "F1R Mafin",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "R Class",
+            "Tuner": "ESV Rapture",
+            "fill": "FF9900FF"
+          },
+          "row": 1983,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-lexus-lfa-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7736d438df",
+      "name": "Lexus SUS SAUCE (S2 AWD)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Lexus LFA Forza Edition",
+            "Comment": "",
+            "Design": "SLAYMASSIVE LFA",
+            "Designer": "LetsPlayOnkel",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Lexus SUS SAUCE (S2 AWD)",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 1976,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-lexus-lfa-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-8310de6620",
+      "name": "S2 Updated",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Lexus LFA Forza Edition",
+            "Comment": "",
+            "Design": "SABER HSR",
+            "Designer": "Kanzrei",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S2 Updated",
+            "Tuner": "ESV Mars",
+            "fill": "FF0070C0"
+          },
+          "row": 1979,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-mars"
     },
     {
       "buildTags": [],
@@ -264,329 +396,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
-      "drivetrain": "AWD",
-      "id": "sc-142637422",
-      "name": "R Class",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "18/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lexus",
-            "model": "LFA Forza Edition",
-            "sharecode": "142 637 422",
-            "suspension": "Race",
-            "tuneName": "R Class",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Slick"
-          },
-          "row": 1466,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2010 Lexus LFA Forza Edition",
-            "Comment": "",
-            "Design": "NOOD #15",
-            "Designer": "F1R Mafin",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "R Class",
-            "Tuner": "ESV Rapture",
-            "fill": "FF9900FF"
-          },
-          "row": 1983,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "142637422",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-149261985",
-      "name": "Dirt Racing",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lexus",
-            "model": "LFA Forza Edition",
-            "sharecode": "149 261 985",
-            "suspension": "Rally",
-            "tuneName": "Dirt Racing",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1467,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2010 Lexus LFA Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Racing",
-            "Tuner": "GreetedDust8",
-            "fill": "FF7030A0"
-          },
-          "row": 1972,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "149261985",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-17",
-      "drivetrain": "AWD",
-      "id": "sc-407095355",
-      "name": "s1 road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lexus",
-            "model": "LFA Forza Edition",
-            "sharecode": "407 095 355",
-            "suspension": "Race",
-            "tuneName": "s1 road",
-            "tuner": "Nalak28",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1469,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "407095355",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-601931355",
-      "name": "Easy AWD Road Grip | 09.3 Legend Island Circuit",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lexus",
-            "model": "LFA Forza Edition",
-            "sharecode": "601 931 355",
-            "suspension": "Race",
-            "tuneName": "Easy AWD Road Grip | 09.3 Legend Island Circuit",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Slick"
-          },
-          "row": 1470,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.475,
-      "shareCode": "601931355",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-771225930",
-      "name": "S2 Updated",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lexus",
-            "model": "LFA Forza Edition",
-            "sharecode": "771 225 930",
-            "suspension": "Race",
-            "tuneName": "S2 Updated",
-            "tuner": "ESV Mars",
-            "tyreCompound": "Slick"
-          },
-          "row": 1471,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2010 Lexus LFA Forza Edition",
-            "Comment": "",
-            "Design": "SABER HSR",
-            "Designer": "Kanzrei",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S2 Updated",
-            "Tuner": "ESV Mars",
-            "fill": "FF0070C0"
-          },
-          "row": 1979,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "771225930",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "esv-mars"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
-      "drivetrain": "AWD",
-      "id": "sc-906184221",
-      "name": "Lexus SUS SAUCE (S2 AWD)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "01/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lexus",
-            "model": "LFA Forza Edition",
-            "sharecode": "906 184 221",
-            "suspension": "Race",
-            "tuneName": "Lexus SUS SAUCE (S2 AWD)",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 1472,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2010 Lexus LFA Forza Edition",
-            "Comment": "",
-            "Design": "SLAYMASSIVE LFA",
-            "Designer": "LetsPlayOnkel",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Lexus SUS SAUCE (S2 AWD)",
-            "Tuner": "K1Z Gray",
-            "fill": "FF0070C0"
-          },
-          "row": 1976,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "906184221",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-10-06",
-      "drivetrain": "AWD",
-      "id": "sc-936989055",
-      "name": "New Centri = Handling Beast =13.9 Legend",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "06/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lexus",
-            "model": "LFA Forza Edition",
-            "sharecode": "936 989 055",
-            "suspension": "Race",
-            "tuneName": "New Centri = Handling Beast =13.9 Legend",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1468,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "936989055",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

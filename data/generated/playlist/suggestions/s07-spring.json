@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "carId": "2021-bmw-m4-competition-coupe",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--championship--beam-me-up",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -14,17 +15,11 @@
             "source": "noa-miyako",
             "tier": "t1"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.721,
+      "score": 0.638,
       "seasonId": "s07-spring",
-      "tuneId": "sc-207455744"
+      "tuneId": "nc-52c139a812"
     },
     {
       "carId": "2025-bmw-m4-cs",
@@ -49,8 +44,9 @@
     {
       "carId": "2014-bmw-m4-coupe",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--championship--beam-me-up",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -61,15 +57,16 @@
           }
         }
       ],
-      "score": 0.594,
+      "score": 0.601,
       "seasonId": "s07-spring",
-      "tuneId": "sc-164937121"
+      "tuneId": "nc-072692b424"
     },
     {
       "carId": "2008-bmw-m3",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--championship--beam-me-up",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -80,46 +77,35 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.57,
+      "score": 0.485,
       "seasonId": "s07-spring",
-      "tuneId": "sc-150433441"
+      "tuneId": "nc-1b1bd400e6"
     },
     {
-      "carId": "2023-bmw-m2",
+      "carId": "2020-bmw-m2-competition-coupe",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.35,
       "eventId": "s07-spring--championship--beam-me-up",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
-        {
-          "key": "reason.tier",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t3"
-          }
-        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.44,
+      "score": 0.474,
       "seasonId": "s07-spring",
-      "tuneId": "sc-121321298"
+      "tuneId": "nc-20d2c5a42a"
     },
     {
       "carId": "2009-audi-r8-lms",
       "category": "meta",
-      "confidence": 1,
+      "confidence": 0.95,
       "eventId": "s07-spring--championship--youre-doing-g-r8",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -136,23 +122,18 @@
             "rank": 11,
             "track": "Shirakawa"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.774,
+      "score": 0.709,
       "seasonId": "s07-spring",
-      "tuneId": "sc-127367605"
+      "tuneId": "nc-001c482563"
     },
     {
       "carId": "2016-audi-r8-v10-plus",
       "category": "off-meta",
-      "confidence": 1,
+      "confidence": 0.95,
       "eventId": "s07-spring--championship--youre-doing-g-r8",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -173,13 +154,13 @@
         {
           "key": "reason.sources",
           "params": {
-            "count": 3
+            "count": 2
           }
         }
       ],
-      "score": 0.755,
+      "score": 0.706,
       "seasonId": "s07-spring",
-      "tuneId": "sc-109803483"
+      "tuneId": "nc-cbce27cff7"
     },
     {
       "carId": "2020-audi-r8-v10-performance",
@@ -212,8 +193,9 @@
     {
       "carId": "2023-audi-r8-coupe-v10-gt-rwd",
       "category": "off-meta",
-      "confidence": 1,
+      "confidence": 0.95,
       "eventId": "s07-spring--championship--youre-doing-g-r8",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -234,13 +216,13 @@
         {
           "key": "reason.sources",
           "params": {
-            "count": 3
+            "count": 2
           }
         }
       ],
-      "score": 0.682,
+      "score": 0.63,
       "seasonId": "s07-spring",
-      "tuneId": "sc-502400983"
+      "tuneId": "nc-5b8471fe05"
     },
     {
       "carId": "2009-audi-r8-lms",
@@ -414,10 +396,11 @@
       "tuneId": "nc-7bf68859ae"
     },
     {
-      "carId": "2001-acura-integra-type-r",
+      "carId": "1991-honda-beat",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--championship--streets-ahead",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -431,15 +414,16 @@
           "key": "reason.purist"
         }
       ],
-      "score": 0.659,
+      "score": 0.665,
       "seasonId": "s07-spring",
-      "tuneId": "sc-127573360"
+      "tuneId": "nc-8bea20580c"
     },
     {
-      "carId": "2023-acura-integra-a-spec",
+      "carId": "2001-acura-integra-type-r",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--championship--streets-ahead",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -450,18 +434,12 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.755,
+      "score": 0.665,
       "seasonId": "s07-spring",
-      "tuneId": "sc-119880166"
+      "tuneId": "nc-206243a7c9"
     },
     {
       "carId": "1994-honda-acty",
@@ -590,8 +568,9 @@
     {
       "carId": "2016-cadillac-cts-v-sedan",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--horizon-life-the-trial--torque-of-the-town",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -602,15 +581,16 @@
           }
         }
       ],
-      "score": 0.635,
+      "score": 0.638,
       "seasonId": "s07-spring",
-      "tuneId": "sc-137663238"
+      "tuneId": "nc-bec9568041"
     },
     {
-      "carId": "2017-chevrolet-camaro-zl1",
+      "carId": "2016-cadillac-ats-v",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--horizon-life-the-trial--torque-of-the-town",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -619,23 +599,18 @@
             "source": "noa-miyako",
             "tier": "t1"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.717,
+      "score": 0.592,
       "seasonId": "s07-spring",
-      "tuneId": "sc-631757165"
+      "tuneId": "nc-1c1a3a66e8"
     },
     {
-      "carId": "2018-dodge-challenger-srt-demon",
+      "carId": "1979-chevrolet-camaro-z28",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--horizon-life-the-trial--torque-of-the-town",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -644,23 +619,18 @@
             "source": "noa-miyako",
             "tier": "t1"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.718,
+      "score": 0.488,
       "seasonId": "s07-spring",
-      "tuneId": "sc-107569789"
+      "tuneId": "nc-c73dad054e"
     },
     {
-      "carId": "2017-chevrolet-camaro-zl1",
+      "carId": "2016-cadillac-ats-v",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--horizon-life-the-trial--torque-of-the-town",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -671,24 +641,19 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.673,
+      "score": 0.543,
       "seasonId": "s07-spring",
-      "tuneId": "sc-106041842"
+      "tuneId": "nc-360f810ab2"
     },
     {
-      "carId": "2018-dodge-challenger-srt-demon",
+      "carId": "1979-chevrolet-camaro-z28",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-spring--horizon-life-the-trial--torque-of-the-town",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -699,18 +664,12 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.669,
+      "score": 0.44,
       "seasonId": "s07-spring",
-      "tuneId": "sc-916545726"
+      "tuneId": "nc-1bb457626e"
     }
   ],
   "schemaVersion": 1

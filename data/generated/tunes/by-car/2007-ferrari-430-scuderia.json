@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -35,6 +35,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "goodreishun"
+    },
+    {
+      "buildTags": [],
+      "carId": "2007-ferrari-430-scuderia",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2eaab4cd15",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2007 Ferrari 430 Scuderia",
+            "Comment": "",
+            "Design": "MICHAEL SCHUMACHER",
+            "Designer": "Raphaeldagamer",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 1419,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [],
@@ -237,59 +270,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [],
-      "carId": "2007-ferrari-430-scuderia",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-102509747",
-      "name": "A Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "430 Scuderia",
-            "sharecode": "102 509 747",
-            "suspension": "Race",
-            "tuneName": "A Allround",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 795,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2007 Ferrari 430 Scuderia",
-            "Comment": "",
-            "Design": "MICHAEL SCHUMACHER",
-            "Designer": "Raphaeldagamer",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Allround",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 1419,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "102509747",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
     }
   ],
   "schemaVersion": 1

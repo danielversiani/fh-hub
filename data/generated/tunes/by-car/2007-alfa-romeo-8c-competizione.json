@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -193,6 +193,42 @@
     {
       "buildTags": [],
       "carId": "2007-alfa-romeo-8c-competizione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-7e3390b5e4",
+      "metaRank": 39,
+      "name": "AWD Road No aero (M)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2007 Alfa Romeo 8C Competizione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD Road No aero (M)",
+            "Tuner": "TheDannny",
+            "fill": "FFFF0000"
+          },
+          "row": 752,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2007-alfa-romeo-8c-competizione",
       "categories": [],
       "class": "S1",
       "confidence": 0.35,
@@ -375,266 +411,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2007-alfa-romeo-8c-competizione",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-105747916",
-      "metaRank": 39,
-      "name": "A road | Stock engine AWD No aero | 46 Narai",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "8C Competizione",
-            "sharecode": "105 747 916",
-            "suspension": "Rally",
-            "tuneName": "A road | Stock engine AWD No aero | 46 Narai",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Rally"
-          },
-          "row": 85,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.585,
-      "shareCode": "105747916",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [],
-      "carId": "2007-alfa-romeo-8c-competizione",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-17",
-      "drivetrain": "AWD",
-      "id": "sc-129600301",
-      "name": "Dirty 8C",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "8C Competizione",
-            "sharecode": "129 600 301",
-            "suspension": "Rally",
-            "tuneName": "Dirty 8C",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 83,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "129600301",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2007-alfa-romeo-8c-competizione",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-23",
-      "drivetrain": "RWD",
-      "id": "sc-139213183",
-      "metaRank": 39,
-      "name": "A Road | Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "8C Competizione",
-            "sharecode": "139 213 183",
-            "suspension": "Street",
-            "tuneName": "A Road | Purist",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 84,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.587,
-      "shareCode": "139213183",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [],
-      "carId": "2007-alfa-romeo-8c-competizione",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-27",
-      "drivetrain": "AWD",
-      "id": "sc-146524115",
-      "metaRank": 39,
-      "name": "AWD Road No aero (M)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "8C Competizione",
-            "sharecode": "146 524 115",
-            "suspension": "Street",
-            "tuneName": "AWD Road No aero (M)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 87,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2007 Alfa Romeo 8C Competizione",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "AWD Road No aero (M)",
-            "Tuner": "TheDannny",
-            "fill": "FFFF0000"
-          },
-          "row": 752,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "146524115",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2007-alfa-romeo-8c-competizione",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-24",
-      "drivetrain": "RWD",
-      "id": "sc-176842859",
-      "metaRank": 39,
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "8C Competizione",
-            "sharecode": "176 842 859",
-            "suspension": "Street",
-            "tuneName": "A Road Purist",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Drift"
-          },
-          "row": 88,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.584,
-      "shareCode": "176842859",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2007-alfa-romeo-8c-competizione",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "RWD",
-      "id": "sc-593036240",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "8C Competizione",
-            "sharecode": "593 036 240",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Drift"
-          },
-          "row": 86,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "593036240",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

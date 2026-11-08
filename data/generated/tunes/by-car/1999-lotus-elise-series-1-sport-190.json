@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -35,6 +35,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-lotus-elise-series-1-sport-190",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-7f94990571",
+      "name": "A Road Purist Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Lotus Elise Series 1 Sport 190",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road Purist Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1998,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -105,6 +142,72 @@
       "tunerId": "sakuramxspd"
     },
     {
+      "buildTags": [],
+      "carId": "1999-lotus-elise-series-1-sport-190",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-af1f2826ea",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Lotus Elise Series 1 Sport 190",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 1992,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-lotus-elise-series-1-sport-190",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c2a6937745",
+      "name": "A - Grip ( Okishinaimura WR )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Lotus Elise Series 1 Sport 190",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Grip ( Okishinaimura WR )",
+            "Tuner": "ESV Rapture",
+            "fill": "FFFF0000"
+          },
+          "row": 1994,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-rapture"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -173,210 +276,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-lotus-elise-series-1-sport-190",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "RWD",
-      "id": "sc-103326602",
-      "name": "Purist 58.9 hokubu",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Elise Series 1 Sport 190",
-            "sharecode": "103 326 602",
-            "suspension": "Sport",
-            "tuneName": "Purist 58.9 hokubu",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Street"
-          },
-          "row": 1496,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "103326602",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-lotus-elise-series-1-sport-190",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
-      "drivetrain": "RWD",
-      "id": "sc-321732676",
-      "name": "A Road Purist Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Elise Series 1 Sport 190",
-            "sharecode": "321 732 676",
-            "suspension": "Sport",
-            "tuneName": "A Road Purist Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1495,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Lotus Elise Series 1 Sport 190",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Road Purist Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 1998,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "321732676",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lotus-elise-series-1-sport-190",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-18",
-      "drivetrain": "AWD",
-      "id": "sc-576384945",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise Series 1 Sport 190",
-            "sharecode": "576 384 945",
-            "suspension": "Sport",
-            "tuneName": "A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1494,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Lotus Elise Series 1 Sport 190",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 1992,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "576384945",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lotus-elise-series-1-sport-190",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-29",
-      "drivetrain": "AWD",
-      "id": "sc-770941641",
-      "name": "A - Grip ( Okishinaimura WR )",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise Series 1 Sport 190",
-            "sharecode": "770 941 641",
-            "suspension": "Race",
-            "tuneName": "A - Grip ( Okishinaimura WR )",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Slick"
-          },
-          "row": 1493,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Lotus Elise Series 1 Sport 190",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Grip ( Okishinaimura WR )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 1994,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.674,
-      "shareCode": "770941641",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "esv-rapture"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -37,6 +37,78 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-dodge-charger-r-t",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1150bb5af0",
+      "name": "Dirty 1500 hp go brrrrrr",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Dodge Charger R/T",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty 1500 hp go brrrrrr",
+            "Tuner": "Cast Haste",
+            "fill": "FFED7D31"
+          },
+          "row": 264,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1969-dodge-charger-r-t",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-216a370018",
+      "metaRank": 51,
+      "name": "Purist no rc no width",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Dodge Charger R/T",
+            "Comment": "Purist",
+            "Design": "ANGIE,S 21ST STREET CREW",
+            "Designer": "Rafa Tx1987",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist no rc no width",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1256,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
     },
     {
       "buildTags": [],
@@ -248,12 +320,12 @@
         "en": "Two versions, V8 DSC and 77 V12; both are very easy to control.",
         "pt-br": "Tem duas versões, V8 DSC e 77 V12; as duas são muito fáceis de controlar."
       },
-      "metaRank": 159,
+      "metaRank": 162,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 325,
+          "row": 331,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -267,258 +339,15 @@
       "tunerId": "msr-sam"
     },
     {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1969-dodge-charger-r-t",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-25",
-      "drivetrain": "RWD",
-      "id": "sc-131299568",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Charger R/T",
-            "sharecode": "131 299 568",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 693,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.491,
-      "shareCode": "131299568",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
       "buildTags": [],
       "carId": "1969-dodge-charger-r-t",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-17",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-147931882",
-      "name": "Dirty Max Centri Build",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Charger R/T",
-            "sharecode": "147 931 882",
-            "suspension": "Stock",
-            "tuneName": "Dirty Max Centri Build",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 695,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "147931882",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1969-dodge-charger-r-t",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-14",
-      "drivetrain": "RWD",
-      "id": "sc-165468991",
-      "name": "Purist No RC No Width",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Charger R/T",
-            "sharecode": "165 468 991",
-            "suspension": "Race",
-            "tuneName": "Purist No RC No Width",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 694,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Dodge Charger R/T",
-            "Comment": "Purist",
-            "Design": "ANGIE,S 21ST STREET CREW",
-            "Designer": "Rafa Tx1987",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist no rc no width",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1256,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "165468991",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-dodge-charger-r-t",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-24",
-      "drivetrain": "AWD",
-      "id": "sc-172615924",
-      "name": "Dirty 1500 hp go brrrrrr",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Charger R/T",
-            "sharecode": "172 615 924",
-            "suspension": "Stock",
-            "tuneName": "Dirty 1500 hp go brrrrrr",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 692,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Dodge Charger R/T",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty 1500 hp go brrrrrr",
-            "Tuner": "Cast Haste",
-            "fill": "FFED7D31"
-          },
-          "row": 264,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "172615924",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-dodge-charger-r-t",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-17",
-      "drivetrain": "AWD",
-      "id": "sc-620769103",
-      "name": "DIRT V4",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Charger R/T",
-            "sharecode": "620 769 103",
-            "suspension": "Stock",
-            "tuneName": "DIRT V4",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 697,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "620769103",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-dodge-charger-r-t",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-691006652",
+      "id": "nc-f990440efd",
       "name": "B Dirt Meta (Balanced)",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Charger R/T",
-            "sharecode": "691 006 652",
-            "suspension": "Stock",
-            "tuneName": "B Dirt Meta (Balanced)",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 696,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1969 Dodge Charger R/T",
@@ -536,12 +365,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.661,
-      "shareCode": "691006652",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -9,7 +9,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-0493969c95",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "grip",
       "observations": [
         {
@@ -47,7 +47,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-090dbaaadc",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "Road Purist",
       "observations": [
         {
@@ -85,7 +85,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-28fcdc76b2",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "Purist A Road",
       "observations": [
         {
@@ -123,7 +123,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-335bc76a0f",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "Purist Road",
       "observations": [
         {
@@ -161,7 +161,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-368ec52564",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "Purist",
       "observations": [
         {
@@ -199,7 +199,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-5332eba0a1",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "No Aero AWD Semi-Purist V2",
       "observations": [
         {
@@ -237,7 +237,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-5cb3cecbf2",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "No Aero Purist V1",
       "observations": [
         {
@@ -273,7 +273,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-5f62967451",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "A Road AWD Stock Look",
       "observations": [
         {
@@ -311,7 +311,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-6ff27f0251",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "momo purism",
       "observations": [
         {
@@ -415,7 +415,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-935cd8e4c3",
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "Purist",
       "observations": [
         {
@@ -466,7 +466,7 @@
         "en": "Purist tune.",
         "pt-br": "Tune purista."
       },
-      "metaRank": 154,
+      "metaRank": 157,
       "name": "A Road Purist",
       "observations": [
         {
@@ -493,6 +493,74 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2023-lotus-emira",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-b84bfa4c7e",
+      "name": "S1 Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Lotus Emira",
+            "Comment": "Powerbuild",
+            "Design": "VERTIGO RACING GT4",
+            "Designer": "Evo K4T",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Powerbuild",
+            "Tuner": "zombiejesus52",
+            "fill": "FF7030A0"
+          },
+          "row": 2041,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-lotus-emira",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c3225089d8",
+      "name": "Dirt AWD No Aero",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Lotus Emira",
+            "Comment": "",
+            "Design": "REDBULL WHITE PEACH",
+            "Designer": "Flobin1603",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt AWD No Aero",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 2027,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -526,114 +594,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2023-lotus-emira",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-20",
-      "drivetrain": "RWD",
-      "id": "sc-786775289",
-      "name": "S1 Powerbuild",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "20/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Emira",
-            "sharecode": "786 775 289",
-            "suspension": "Race",
-            "tuneName": "S1 Powerbuild",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Drift"
-          },
-          "row": 1498,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Lotus Emira",
-            "Comment": "Powerbuild",
-            "Design": "VERTIGO RACING GT4",
-            "Designer": "Evo K4T",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S1 Powerbuild",
-            "Tuner": "zombiejesus52",
-            "fill": "FF7030A0"
-          },
-          "row": 2041,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "786775289",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-lotus-emira",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-07",
-      "drivetrain": "AWD",
-      "id": "sc-905557058",
-      "name": "Dirt AWD No Aero",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Emira",
-            "sharecode": "905 557 058",
-            "suspension": "Rally",
-            "tuneName": "Dirt AWD No Aero",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1497,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Lotus Emira",
-            "Comment": "",
-            "Design": "REDBULL WHITE PEACH",
-            "Designer": "Flobin1603",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt AWD No Aero",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 2027,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.662,
-      "shareCode": "905557058",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

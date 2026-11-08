@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1969-toyota-2000gt",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-7cc832f32c",
+      "name": "FA24D Engine Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Toyota 2000GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "FA24D Engine Stock Look",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 549,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "dumbo-gt49"
+    },
     {
       "buildTags": [
         "purist"
@@ -37,100 +72,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1969-toyota-2000gt",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-18",
-      "drivetrain": "RWD",
-      "id": "sc-160542752",
-      "name": "FA24D Engine Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "2000GT",
-            "sharecode": "160 542 752",
-            "suspension": "Sport",
-            "tuneName": "FA24D Engine Stock Look",
-            "tuner": "Dumbo GT49",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 2396,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Toyota 2000GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "FA24D Engine Stock Look",
-            "Tuner": "Dumbo GT49",
-            "fill": "FFED7D31"
-          },
-          "row": 549,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "160542752",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage-race",
-      "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [
-        "full-aero"
-      ],
-      "carId": "1969-toyota-2000gt",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-12",
-      "drivetrain": "AWD",
-      "id": "sc-789745215",
-      "name": "B Dirt All-Around Full Aero FA24 (1:05.2 Sunflower)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "12/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "2000GT",
-            "sharecode": "789 745 215",
-            "suspension": "Stock",
-            "tuneName": "B Dirt All-Around Full Aero FA24 (1:05.2 Sunflower)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2397,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.495,
-      "shareCode": "789745215",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1968-ford-mustang-gt-2-2-fastback-forza-edition",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-178690248",
+      "id": "nc-795cb7414f",
       "name": "S1 Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT 2+2 Fastback Forza Edition",
-            "sharecode": "178 690 248",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 973,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1968 Ford Mustang GT 2+2 Fastback Forza Edition",
@@ -46,50 +28,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.66,
-      "shareCode": "178690248",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-ford-mustang-gt-2-2-fastback-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-18",
-      "drivetrain": "AWD",
-      "id": "sc-674232496",
-      "name": "S1 Dirt Racing",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "18/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT 2+2 Fastback Forza Edition",
-            "sharecode": "674 232 496",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Racing",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 972,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "674232496",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
     }
   ],
   "schemaVersion": 1

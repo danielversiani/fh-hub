@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2023-bmw-m2-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-29e11e0458",
+      "name": "Rwd road grip | 18.5 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 BMW M2 Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Rwd road grip | 18.5 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 1063,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [],
       "carId": "2023-bmw-m2-forza-edition",
@@ -101,6 +134,74 @@
       "tunerId": "drx-q3"
     },
     {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2023-bmw-m2-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-7b8f770747",
+      "name": "S1 Road Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 BMW M2 Forza Edition",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Powerbuild",
+            "Tuner": "ESV Vini",
+            "fill": "FF7030A0"
+          },
+          "row": 1064,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-vini"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-bmw-m2-forza-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-8fc48181c7",
+      "name": "A Allround Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 BMW M2 Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Allround Road",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 1059,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
       "buildTags": [],
       "carId": "2023-bmw-m2-forza-edition",
       "categories": [],
@@ -132,241 +233,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-bmw-m2-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-20",
-      "drivetrain": "RWD",
-      "id": "sc-157090643",
-      "name": "Road Racer",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M2 Forza Edition",
-            "sharecode": "157 090 643",
-            "suspension": "Race",
-            "tuneName": "Road Racer",
-            "tuner": "scaans",
-            "tyreCompound": "Drift"
-          },
-          "row": 332,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.475,
-      "shareCode": "157090643",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "scaans"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-bmw-m2-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-15",
-      "drivetrain": "RWD",
-      "id": "sc-159430831",
-      "name": "A Allround Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M2 Forza Edition",
-            "sharecode": "159 430 831",
-            "suspension": "Race",
-            "tuneName": "A Allround Road",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 331,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 BMW M2 Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Allround Road",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 1059,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "159430831",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-bmw-m2-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-161002371",
-      "name": "For Easy Online Lobbies S1 Dirt Skill Farm",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "M2 Forza Edition",
-            "sharecode": "161 002 371",
-            "suspension": "Rally",
-            "tuneName": "For Easy Online Lobbies S1 Dirt Skill Farm",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 335,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "161002371",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-bmw-m2-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
-      "drivetrain": "RWD",
-      "id": "sc-583250839",
-      "name": "RWD Road Grip | 18.5 Legend Island",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "01/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M2 Forza Edition",
-            "sharecode": "583 250 839",
-            "suspension": "Race",
-            "tuneName": "RWD Road Grip | 18.5 Legend Island",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 333,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 BMW M2 Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Rwd road grip | 18.5 Legend Island",
-            "Tuner": "DRX Q3",
-            "fill": "FF7030A0"
-          },
-          "row": 1063,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "583250839",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2023-bmw-m2-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-923699634",
-      "name": "S1 Road Powerbuild",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M2 Forza Edition",
-            "sharecode": "923 699 634",
-            "suspension": "Race",
-            "tuneName": "S1 Road Powerbuild",
-            "tuner": "ESV Vini",
-            "tyreCompound": "Drift"
-          },
-          "row": 334,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 BMW M2 Forza Edition",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road Powerbuild",
-            "Tuner": "ESV Vini",
-            "fill": "FF7030A0"
-          },
-          "row": 1064,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "923699634",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "esv-vini"
     }
   ],
   "schemaVersion": 1

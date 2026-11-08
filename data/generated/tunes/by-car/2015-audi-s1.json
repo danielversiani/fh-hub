@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -25,12 +25,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 135,
+      "metaRank": 138,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 276,
+          "row": 282,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -53,7 +53,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-4e9e19d209",
-      "metaRank": 135,
+      "metaRank": 138,
       "name": "2022 SUMMER ANTHEM Audi S1 FT. Promethiium | Video by snosaes",
       "observations": [
         {
@@ -84,29 +84,11 @@
       "carId": "2015-audi-s1",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-133337775",
+      "id": "nc-4fc5e5d862",
       "name": "pure",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "S1",
-            "sharecode": "133 337 775",
-            "suspension": "Street",
-            "tuneName": "pure",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Standard"
-          },
-          "row": 270,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2015 Audi S1",
@@ -124,123 +106,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.656,
-      "shareCode": "133337775",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-audi-s1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-150083808",
-      "name": "A Off-Road-Race",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "S1",
-            "sharecode": "150 083 808",
-            "suspension": "Rally",
-            "tuneName": "A Off-Road-Race",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 269,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "150083808",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-audi-s1",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-150135578",
-      "name": "AudiS1inS1",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "S1",
-            "sharecode": "150 135 578",
-            "suspension": "Street",
-            "tuneName": "AudiS1inS1",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Slick"
-          },
-          "row": 271,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "150135578",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-audi-s1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-310439728",
-      "name": "le roade",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "S1",
-            "sharecode": "310 439 728",
-            "suspension": "Street",
-            "tuneName": "le roade",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Rally"
-          },
-          "row": 268,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "310439728",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
       "tunerId": "ams-carver"
     }
   ],

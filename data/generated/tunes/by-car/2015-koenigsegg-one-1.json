@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -110,6 +110,78 @@
       "class": "S1",
       "confidence": 0.8,
       "drivetrain": "AWD",
+      "id": "nc-76ecfea957",
+      "metaRank": 116,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Koenigsegg One:1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF7030A0"
+          },
+          "row": 1827,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-koenigsegg-one-1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-8d6e5094d1",
+      "metaRank": 116,
+      "name": "S1 Sprints / Street (Centri + Stock Weight)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Koenigsegg One:1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Sprints / Street (Centri + Stock Weight)",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 1826,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-koenigsegg-one-1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
       "id": "nc-f08e19087b",
       "metaRank": 116,
       "name": "S1 Road Fun",
@@ -136,192 +208,6 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-koenigsegg-one-1",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-30",
-      "drivetrain": "AWD",
-      "id": "sc-129642512",
-      "name": "very nice",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "One:1",
-            "sharecode": "129 642 512",
-            "suspension": "Race",
-            "tuneName": "very nice",
-            "tuner": "Nalak28",
-            "tyreCompound": "Rally"
-          },
-          "row": 1328,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "129642512",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-koenigsegg-one-1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-10-29",
-      "drivetrain": "AWD",
-      "id": "sc-132378246",
-      "metaRank": 116,
-      "name": "S1 Sprints / Street (Centri + Stock Weight)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "One:1",
-            "sharecode": "132 378 246",
-            "suspension": "Race",
-            "tuneName": "S1 Sprints / Street (Centri + Stock Weight)",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 1325,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2015 Koenigsegg One:1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Sprints / Street (Centri + Stock Weight)",
-            "Tuner": "DRX Q3",
-            "fill": "FF7030A0"
-          },
-          "row": 1826,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.631,
-      "shareCode": "132378246",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-koenigsegg-one-1",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-152246447",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "One:1",
-            "sharecode": "152 246 447",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1327,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "152246447",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-koenigsegg-one-1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-869588282",
-      "metaRank": 116,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "One:1",
-            "sharecode": "869 588 282",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Rally"
-          },
-          "row": 1326,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2015 Koenigsegg One:1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "K1Z Howzer",
-            "fill": "FF7030A0"
-          },
-          "row": 1827,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.617,
-      "shareCode": "869588282",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-howzer"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FFFF00FF"
           },
-          "row": 2164,
+          "row": 2163,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "KapienPL",
             "fill": "FF7030A0"
           },
-          "row": 2142,
+          "row": 2141,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -89,7 +89,7 @@
             "Tuner": "Zookiiwi",
             "fill": "FFFF00FF"
           },
-          "row": 2162,
+          "row": 2161,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -122,7 +122,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF00FF"
           },
-          "row": 2159,
+          "row": 2158,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -155,7 +155,7 @@
             "Tuner": "EoJz7294",
             "fill": "FFFF00FF"
           },
-          "row": 2163,
+          "row": 2162,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -165,6 +165,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "eojz7294"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-387158f7de",
+      "name": "Grip Offroad Nugget",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Grip Offroad Nugget",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2140,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
@@ -188,7 +221,7 @@
             "Tuner": "Iphanhan",
             "fill": "FF7030A0"
           },
-          "row": 2140,
+          "row": 2139,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -221,7 +254,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF00FF"
           },
-          "row": 2158,
+          "row": 2157,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -231,6 +264,109 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-61105153f4",
+      "name": "S2 Road AWD Accel",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road AWD Accel",
+            "Tuner": "Destrukdi",
+            "fill": "FF0070C0"
+          },
+          "row": 2146,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-677354785a",
+      "name": "this is a lamborghini",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "this is a lamborghini",
+            "Tuner": "scaans",
+            "fill": "FF0070C0"
+          },
+          "row": 2149,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "scaans"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-67ce3159a0",
+      "name": "FE Moment",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "FE Moment",
+            "Tuner": "zombiejesus52",
+            "fill": "FF7030A0"
+          },
+          "row": 2143,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zombiejesus52"
     },
     {
       "buildTags": [],
@@ -254,7 +390,7 @@
             "Tuner": "ESV Ruinz",
             "fill": "FFFF00FF"
           },
-          "row": 2155,
+          "row": 2154,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -289,7 +425,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FF0070C0"
           },
-          "row": 2151,
+          "row": 2150,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -299,6 +435,41 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7a8b4478e5",
+      "name": "accelerating i think",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "accelerating i think",
+            "Tuner": "scaans",
+            "fill": "FF0070C0"
+          },
+          "row": 2148,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "scaans"
     },
     {
       "buildTags": [],
@@ -322,7 +493,7 @@
             "Tuner": "Fenrir3268",
             "fill": "FFFF00FF"
           },
-          "row": 2156,
+          "row": 2155,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -332,6 +503,72 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "fenrir3268"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-97901c8050",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "",
+            "Design": "HATSUNE MIKU",
+            "Designer": "savour pureone",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KcnaXii",
+            "fill": "FF7030A0"
+          },
+          "row": 2142,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kcnaxii"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a30d0c9e5c",
+      "name": "i hate this car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "i hate this car",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 2147,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-gray"
     },
     {
       "buildTags": [],
@@ -355,7 +592,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF00FF"
           },
-          "row": 2160,
+          "row": 2159,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -390,7 +627,7 @@
             "Tuner": "Noa Miyako",
             "fill": "FF0070C0"
           },
-          "row": 2153,
+          "row": 2152,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -400,6 +637,72 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c89b8f5364",
+      "name": "R Dirt Updated",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "R Dirt Updated",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF00FF"
+          },
+          "row": 2160,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c947da7510",
+      "name": "Dirty FE",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "",
+            "Design": "POPIPO",
+            "Designer": "Koijd",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty FE",
+            "Tuner": "Cast Haste",
+            "fill": "FF7030A0"
+          },
+          "row": 2138,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
     },
     {
       "buildTags": [
@@ -425,7 +728,7 @@
             "Tuner": "VSM Huon",
             "fill": "FF0070C0"
           },
-          "row": 2154,
+          "row": 2153,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -458,7 +761,7 @@
             "Tuner": "Zookiiwi",
             "fill": "FF0070C0"
           },
-          "row": 2146,
+          "row": 2145,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -468,6 +771,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-f7bd312d94",
+      "name": "S2 Dirt Crazy Fast Nugget",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S2 Dirt Crazy Fast Nugget",
+            "Tuner": "KapienPL",
+            "fill": "FF0070C0"
+          },
+          "row": 2144,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
@@ -491,7 +827,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF00FF"
           },
-          "row": 2157,
+          "row": 2156,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -501,326 +837,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-04",
-      "drivetrain": "AWD",
-      "id": "sc-101145858",
-      "name": "accelerating i think",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "04/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "101 145 858",
-            "suspension": "Race",
-            "tuneName": "accelerating i think",
-            "tuner": "scaans",
-            "tyreCompound": "Rally"
-          },
-          "row": 1605,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "accelerating i think",
-            "Tuner": "scaans",
-            "fill": "FF0070C0"
-          },
-          "row": 2149,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.668,
-      "shareCode": "101145858",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "scaans"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-20",
-      "drivetrain": "AWD",
-      "id": "sc-109373291",
-      "name": "S2 Dirt Crazy Fast Nugget",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "20/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "109 373 291",
-            "suspension": "Rally",
-            "tuneName": "S2 Dirt Crazy Fast Nugget",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1604,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S2 Dirt Crazy Fast Nugget",
-            "Tuner": "KapienPL",
-            "fill": "FF0070C0"
-          },
-          "row": 2145,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "109373291",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-30",
-      "drivetrain": "AWD",
-      "id": "sc-117390520",
-      "name": "i hate this car",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "30/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "117 390 520",
-            "suspension": "Race",
-            "tuneName": "i hate this car",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Rally"
-          },
-          "row": 1603,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "i hate this car",
-            "Tuner": "K1Z Gray",
-            "fill": "FF0070C0"
-          },
-          "row": 2148,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "117390520",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-128796881",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "128 796 881",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KcnaXii",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1600,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "",
-            "Design": "HATSUNE MIKU",
-            "Designer": "savour pureone",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "KcnaXii",
-            "fill": "FF7030A0"
-          },
-          "row": 2143,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "128796881",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kcnaxii"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-153684662",
-      "name": "Grip Offroad Nugget",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "153 684 662",
-            "suspension": "Rally",
-            "tuneName": "Grip Offroad Nugget",
-            "tuner": "KapienPL",
-            "tyreCompound": "off-Road"
-          },
-          "row": 1599,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Grip Offroad Nugget",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 2141,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "153684662",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-08-16",
-      "drivetrain": "AWD",
-      "id": "sc-168870883",
-      "name": "S2 Road AWD Accel",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "16/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "168 870 883",
-            "suspension": "Race",
-            "tuneName": "S2 Road AWD Accel",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 1602,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S2 Road AWD Accel",
-            "Tuner": "Destrukdi",
-            "fill": "FF0070C0"
-          },
-          "row": 2147,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.679,
-      "shareCode": "168870883",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "destrukdi"
     },
     {
       "buildTags": [
@@ -866,7 +882,7 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 2152,
+          "row": 2151,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -878,333 +894,6 @@
       "tierSource": "default",
       "tires": "drift",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-07-31",
-      "drivetrain": "RWD",
-      "id": "sc-182409439",
-      "name": "FE Moment",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "31/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "182 409 439",
-            "suspension": "Race",
-            "tuneName": "FE Moment",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Drift"
-          },
-          "row": 1597,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "FE Moment",
-            "Tuner": "zombiejesus52",
-            "fill": "FF7030A0"
-          },
-          "row": 2144,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.675,
-      "shareCode": "182409439",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-14",
-      "drivetrain": "AWD",
-      "id": "sc-409401124",
-      "name": "this is a lamborghini",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "14/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "409 401 124",
-            "suspension": "Race",
-            "tuneName": "this is a lamborghini",
-            "tuner": "scaans",
-            "tyreCompound": "Rally"
-          },
-          "row": 1606,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "this is a lamborghini",
-            "Tuner": "scaans",
-            "fill": "FF0070C0"
-          },
-          "row": 2150,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "409401124",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "scaans"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
-      "drivetrain": "AWD",
-      "id": "sc-443781364",
-      "name": "S2 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "443 781 364",
-            "suspension": "Race",
-            "tuneName": "S2 Dirt",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1607,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.48,
-      "shareCode": "443781364",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-07-07",
-      "drivetrain": "AWD",
-      "id": "sc-483243255",
-      "name": "R Dirt Updated",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "07/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "483 243 255",
-            "suspension": "Rally",
-            "tuneName": "R Dirt Updated",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1595,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "R Dirt Updated",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF00FF"
-          },
-          "row": 2161,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "483243255",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-519139209",
-      "name": "S1 Dirt Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "519 139 209",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Meta",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1601,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "519139209",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-06-19",
-      "drivetrain": "AWD",
-      "id": "sc-611200945",
-      "name": "New Peak",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "611 200 945",
-            "suspension": "Race",
-            "tuneName": "New Peak",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1596,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "611200945",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-08",
-      "drivetrain": "AWD",
-      "id": "sc-650369961",
-      "name": "Dirty FE",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "08/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata Forza Edition",
-            "sharecode": "650 369 961",
-            "suspension": "Rally",
-            "tuneName": "Dirty FE",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1598,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "",
-            "Design": "POPIPO",
-            "Designer": "Koijd",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty FE",
-            "Tuner": "Cast Haste",
-            "fill": "FF7030A0"
-          },
-          "row": 2139,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "650369961",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

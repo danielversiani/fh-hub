@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1971-meyers-manx",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-167185331",
+      "id": "nc-b1ad15c436",
       "name": "A dirt shift @ 5.3k",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Meyers",
-            "model": "Manx",
-            "sharecode": "167 185 331",
-            "suspension": "Street",
-            "tuneName": "A dirt shift @ 5.3k",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1800,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1971 Meyers Manx",
@@ -41,17 +23,15 @@
             "Tuner": "IceFrice8724",
             "fill": "FFFF0000"
           },
-          "row": 2349,
+          "row": 2348,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.659,
-      "shareCode": "167185331",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "icefrice8724"
     }
   ],

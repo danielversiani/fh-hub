@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "KapienPL",
             "fill": "FF7030A0"
           },
-          "row": 2815,
+          "row": 2814,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -33,6 +33,41 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-8ef79caad2",
+      "name": "EP3 Stock Look R16s 255r",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Toyota Sprinter Trueno GT-APEX Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "EP3 Stock Look R16s 255r",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 561,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "dumbo-gt49"
     },
     {
       "buildTags": [
@@ -58,7 +93,7 @@
             "Tuner": "OffclShotz",
             "fill": "FFFF0000"
           },
-          "row": 2814,
+          "row": 2813,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -74,121 +109,11 @@
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-561443475",
-      "name": "A dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex Forza Edition",
-            "sharecode": "561 443 475",
-            "suspension": "Race",
-            "tuneName": "A dirt",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2546,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "561443475",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-12",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-700690005",
-      "name": "EP3 Stock Look R16s 255r",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "12/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex Forza Edition",
-            "sharecode": "700 690 005",
-            "suspension": "Rally",
-            "tuneName": "EP3 Stock Look R16s 255r",
-            "tuner": "Dumbo GT49",
-            "tyreCompound": "Standard"
-          },
-          "row": 2548,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1985 Toyota Sprinter Trueno GT-APEX Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "EP3 Stock Look R16s 255r",
-            "Tuner": "Dumbo GT49",
-            "fill": "FFED7D31"
-          },
-          "row": 561,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "700690005",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-28",
-      "drivetrain": "RWD",
-      "id": "sc-766474424",
+      "id": "nc-e4ecd111bf",
       "name": "RWD Road Grip | 47.3 Nurai Juku Circuit",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "28/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex Forza Edition",
-            "sharecode": "766 474 424",
-            "suspension": "Race",
-            "tuneName": "RWD Road Grip | 47.3 Nurai Juku Circuit",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 2545,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1985 Toyota Sprinter Trueno GT-APEX Forza Edition",
@@ -201,55 +126,16 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2813,
+          "row": 2812,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.659,
-      "shareCode": "766474424",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "AWD",
-      "id": "sc-867258822",
-      "name": "Fun A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex Forza Edition",
-            "sharecode": "867 258 822",
-            "suspension": "Rally",
-            "tuneName": "Fun A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2547,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "867258822",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

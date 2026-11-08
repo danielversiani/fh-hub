@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,12 +23,12 @@
         "en": "Strong enough to play; mind the weight transfer. A wagon with an R34 face, need we say more?",
         "pt-br": "Forte o bastante para jogar; atenção à transferência de peso. Uma perua com a frente do R34, precisa dizer mais?"
       },
-      "metaRank": 156,
+      "metaRank": 159,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 319,
+          "row": 325,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -49,71 +49,13 @@
       "categories": [
         "purist"
       ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-422968261",
-      "name": "b purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Stagea RS Four V",
-            "sharecode": "422 968 261",
-            "suspension": "Stock",
-            "tuneName": "b purist",
-            "tuner": "K1Z Amemiya",
-            "tyreCompound": "Street"
-          },
-          "row": 2079,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "422968261",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "k1z-amemiya"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1997-nissan-stagea-rs-four-v",
-      "categories": [
-        "purist"
-      ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-529885315",
+      "id": "nc-e0b6063588",
+      "metaRank": 159,
       "name": "Purist No Kit",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Stagea RS Four V",
-            "sharecode": "529 885 315",
-            "suspension": "Street",
-            "tuneName": "Purist No Kit",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 2078,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1997 Nissan Stagea RS Four V",
@@ -126,59 +68,16 @@
             "Tuner": "keerj",
             "fill": "FFFF0000"
           },
-          "row": 2489,
+          "row": 2488,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.657,
-      "shareCode": "529885315",
-      "surface": "dirt",
+      "score": 0.485,
+      "surface": "road",
       "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
+      "tierSource": "meta-table",
       "tunerId": "keerj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1997-nissan-stagea-rs-four-v",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-20",
-      "drivetrain": "AWD",
-      "id": "sc-991395369",
-      "name": "Purist ABS",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Stagea RS Four V",
-            "sharecode": "991 395 369",
-            "suspension": "Street",
-            "tuneName": "Purist ABS",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 2077,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.475,
-      "shareCode": "991395369",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
     }
   ],
   "schemaVersion": 1

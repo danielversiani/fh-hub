@@ -1,6 +1,76 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1b4bab6b74",
+      "name": "A Road | 1:03.3 Shira | Purist lag",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 1:03.3 Shira | Purist lag",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 2376,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-376bd71493",
+      "name": "S1 dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt/CC",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 2379,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
     {
       "buildTags": [
         "full-aero"
@@ -25,7 +95,7 @@
             "Tuner": "AIONS580Pio",
             "fill": "FFFF0000"
           },
-          "row": 2374,
+          "row": 2373,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -35,6 +105,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6a629a922b",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "KorbenDallas709",
+            "fill": "FFFF0000"
+          },
+          "row": 2377,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "korbendallas709"
     },
     {
       "buildTags": [
@@ -62,7 +169,7 @@
             "Tuner": "Saeenu",
             "fill": "FFFF0000"
           },
-          "row": 2379,
+          "row": 2378,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -82,200 +189,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-18",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-100135202",
-      "name": "A Road | 1:03.3 Shira | Purist lag",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution VIII MR",
-            "sharecode": "100 135 202",
-            "suspension": "Street",
-            "tuneName": "A Road | 1:03.3 Shira | Purist lag",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Rally"
-          },
-          "row": 1848,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road | 1:03.3 Shira | Purist lag",
-            "Tuner": "DarkZ704",
-            "fill": "FFFF0000"
-          },
-          "row": 2377,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.679,
-      "shareCode": "100135202",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-215950929",
-      "name": "Purist Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution VIII MR",
-            "sharecode": "215 950 929",
-            "suspension": "Street",
-            "tuneName": "Purist Dirt",
-            "tuner": "KcnaXii",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1850,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Purist Dirt",
-            "Tuner": "KcnaXii",
-            "fill": "FFFF0000"
-          },
-          "row": 2376,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "215950929",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kcnaxii"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-20",
-      "drivetrain": "AWD",
-      "id": "sc-226805949",
-      "name": "purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution VIII MR",
-            "sharecode": "226 805 949",
-            "suspension": "Rally",
-            "tuneName": "purist",
-            "tuner": "KorbenDallas709",
-            "tyreCompound": "Rally"
-          },
-          "row": 1851,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "purist",
-            "Tuner": "KorbenDallas709",
-            "fill": "FFFF0000"
-          },
-          "row": 2378,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "226805949",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "korbendallas709"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-602487037",
+      "id": "nc-c37c468857",
       "name": "A Dirt Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution VIII MR",
-            "sharecode": "602 487 037",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Purist",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1849,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
@@ -288,71 +206,53 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
+          "row": 2374,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ebff4e03b7",
+      "name": "Purist Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Purist Dirt",
+            "Tuner": "KcnaXii",
+            "fill": "FFFF0000"
+          },
           "row": 2375,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "602487037",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-890549025",
-      "name": "S1 dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution VIII MR",
-            "sharecode": "890 549 025",
-            "suspension": "Rally",
-            "tuneName": "S1 dirt/CC",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1852,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2004 Mitsubishi Lancer Evolution VIII MR",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 dirt/CC",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 2380,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "890549025",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
+      "tunerId": "kcnaxii"
     }
   ],
   "schemaVersion": 1

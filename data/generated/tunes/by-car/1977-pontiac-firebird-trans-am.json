@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -87,12 +87,12 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-a5e0ba6b80",
-      "metaRank": 121,
+      "metaRank": 123,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 247,
+          "row": 251,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -104,43 +104,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1977-pontiac-firebird-trans-am",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-28",
-      "drivetrain": "AWD",
-      "id": "sc-642285098",
-      "name": "Dirty Bibi Hendl",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "28/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Pontiac",
-            "model": "Firebird Trans AM",
-            "sharecode": "642 285 098",
-            "suspension": "Stock",
-            "tuneName": "Dirty Bibi Hendl",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2130,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "642285098",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

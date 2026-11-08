@@ -1,6 +1,82 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-001c482563",
+      "metaRank": 9,
+      "name": "Road Handling 54.5 Shirakawa Clean",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling 54.5 Shirakawa Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 894,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.709,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-0e16edf268",
+      "metaRank": 9,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "ESV Vini",
+            "fill": "FF7030A0"
+          },
+          "row": 891,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.634,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-vini"
+    },
     {
       "buildTags": [],
       "carId": "2009-audi-r8-lms",
@@ -31,6 +107,39 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-16175eabc6",
+      "name": "Strong S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 889,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
@@ -144,6 +253,42 @@
       "buildTags": [],
       "carId": "2009-audi-r8-lms",
       "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "RWD",
+      "id": "nc-407b22ccfe",
+      "metaRank": 9,
+      "name": "Cheat Engine",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Cheat Engine",
+            "Tuner": "GreetedDust8",
+            "fill": "FF7030A0"
+          },
+          "row": 899,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.634,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
         "off-meta"
       ],
       "class": "A",
@@ -170,6 +315,48 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-5480ed2326",
+      "lapRefs": [
+        {
+          "time": "1:00.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 107,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 219,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -203,6 +390,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "eojz7294"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5d2f29343a",
+      "name": "Strong S2 AWD Balance",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Strong S2 AWD Balance",
+            "Tuner": "Destrukdi",
+            "fill": "FF0070C0"
+          },
+          "row": 902,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "destrukdi"
     },
     {
       "buildTags": [],
@@ -352,6 +572,39 @@
       "buildTags": [],
       "carId": "2009-audi-r8-lms",
       "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ad8c23d064",
+      "name": "2.0G Strong Dirt V6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "2.0G Strong Dirt V6",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FF7030A0"
+          },
+          "row": 888,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [],
       "class": "S2",
       "confidence": 0.35,
       "drivetrain": "AWD",
@@ -380,6 +633,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-b01201bde1",
+      "name": "Strong S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong S1 Dirt",
+            "Tuner": "ShaggyScroll660",
+            "fill": "FF7030A0"
+          },
+          "row": 887,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "shaggyscroll660"
     },
     {
       "buildTags": [],
@@ -469,6 +755,42 @@
     {
       "buildTags": [],
       "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-db482365a3",
+      "metaRank": 9,
+      "name": "S1 Road AWD Strong Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road AWD Strong Grip",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 895,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.634,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
       "categories": [],
       "class": "S2",
       "confidence": 0.35,
@@ -500,90 +822,55 @@
       "tunerId": "esv-ruinz"
     },
     {
-      "buildTags": [],
+      "buildTags": [
+        "purist"
+      ],
       "carId": "2009-audi-r8-lms",
       "categories": [
-        "meta"
+        "meta",
+        "purist"
       ],
       "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-03",
+      "confidence": 0.95,
       "drivetrain": "RWD",
-      "id": "sc-101045195",
+      "id": "nc-ef50c92697",
       "metaRank": 9,
-      "name": "Cheat Engine",
+      "name": "S1 Purist | 16.7 @ Legend Island",
       "observations": [
         {
           "raw": {
-            "class": "S1",
-            "date": "03/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "101 045 195",
-            "suspension": "Race",
-            "tuneName": "Cheat Engine",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Drift"
-          },
-          "row": 205,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
             "Car": "2009 Audi R8 LMS",
-            "Comment": "",
+            "Comment": "Purist",
             "Design": "",
             "Designer": "",
             "Drivetrain": "RWD",
             "Terrain": "Road",
-            "Tune": "Cheat Engine",
-            "Tuner": "GreetedDust8",
+            "Tune": "S1 Purist | 16.7 @ Legend Island",
+            "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 899,
+          "row": 898,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.701,
-      "shareCode": "101045195",
+      "score": 0.634,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "greeteddust8"
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
       "carId": "2009-audi-r8-lms",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "Stock",
       "id": "sc-110603772",
       "name": "AWD Allround pi flex",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "110 603 772",
-            "suspension": "Race",
-            "tuneName": "AWD Allround pi flex",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 212,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "",
@@ -619,490 +906,13 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.77,
+      "score": 0.635,
       "shareCode": "110603772",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "semi-slick",
+      "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2009-audi-r8-lms",
-      "categories": [
-        "purist"
-      ],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "RWD",
-      "id": "sc-113142050",
-      "name": "S1 Purist | 16.7 @ Legend Island",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "113 142 050",
-            "suspension": "Race",
-            "tuneName": "S1 Purist | 16.7 @ Legend Island",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 203,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S1 Purist | 16.7 @ Legend Island",
-            "Tuner": "DRX Q3",
-            "fill": "FF7030A0"
-          },
-          "row": 898,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "113142050",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-27",
-      "drivetrain": "AWD",
-      "id": "sc-114916561",
-      "name": "S2 Road V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "27/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "114 916 561",
-            "suspension": "Race",
-            "tuneName": "S2 Road V2",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Slick"
-          },
-          "row": 213,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "114916561",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-16",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-127367605",
-      "metaRank": 9,
-      "name": "Road Handling 54.5 Shirakawa clean",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "127 367 605",
-            "suspension": "Race",
-            "tuneName": "Road Handling 54.5 Shirakawa clean",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 206,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Handling 54.5 Shirakawa Clean",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 894,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.774,
-      "shareCode": "127367605",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-24",
-      "drivetrain": "AWD",
-      "id": "sc-179052170",
-      "name": "Strong S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "24/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "179 052 170",
-            "suspension": "Race",
-            "tuneName": "Strong S1 Dirt",
-            "tuner": "ShaggyScroll660",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 208,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong S1 Dirt",
-            "Tuner": "ShaggyScroll660",
-            "fill": "FF7030A0"
-          },
-          "row": 887,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "179052170",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "shaggyscroll660"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-07-02",
-      "drivetrain": "AWD",
-      "id": "sc-311807794",
-      "metaRank": 9,
-      "name": "S1 Road AWD Strong Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "02/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "311 807 794",
-            "suspension": "Race",
-            "tuneName": "S1 Road AWD Strong Grip",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 207,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road AWD Strong Grip",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 895,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.704,
-      "shareCode": "311807794",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-636549789",
-      "name": "Strong S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "636 549 789",
-            "suspension": "Rally",
-            "tuneName": "Strong S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 210,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong S1 Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 889,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "636549789",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-29",
-      "drivetrain": "AWD",
-      "id": "sc-772159991",
-      "name": "2.0G Strong Dirt V6",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "772 159 991",
-            "suspension": "Rally",
-            "tuneName": "2.0G Strong Dirt V6",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 209,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "2.0G Strong Dirt V6",
-            "Tuner": "SlowBakedPanda",
-            "fill": "FF7030A0"
-          },
-          "row": 888,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "772159991",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-05-29",
-      "drivetrain": "AWD",
-      "id": "sc-780958881",
-      "metaRank": 9,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "780 958 881",
-            "suspension": "Race",
-            "tuneName": "S1 Road",
-            "tuner": "ESV Vini",
-            "tyreCompound": "Rally"
-          },
-          "row": 204,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "ESV Vini",
-            "fill": "FF7030A0"
-          },
-          "row": 891,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.7,
-      "shareCode": "780958881",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-vini"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "AWD",
-      "id": "sc-963682795",
-      "name": "Strong S2 AWD Balance",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 LMS",
-            "sharecode": "963 682 795",
-            "suspension": "Race",
-            "tuneName": "Strong S2 AWD Balance",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Slick"
-          },
-          "row": 211,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Strong S2 AWD Balance",
-            "Tuner": "Destrukdi",
-            "fill": "FF0070C0"
-          },
-          "row": 902,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "963682795",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "destrukdi"
     }
   ],
   "schemaVersion": 1

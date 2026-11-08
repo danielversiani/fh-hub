@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -62,84 +62,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "msr-sam"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1994-nissan-silvia-ks",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-01",
-      "drivetrain": "RWD",
-      "id": "sc-116266744",
-      "name": "Purist 08 Shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1994)",
-            "sharecode": "116 266 744",
-            "suspension": "Sport",
-            "tuneName": "Purist 08 Shirakawa",
-            "tuner": "DareanBLR",
-            "tyreCompound": "Standard"
-          },
-          "row": 2011,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "116266744",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "dareanblr"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-nissan-silvia-ks",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-04",
-      "drivetrain": "AWD",
-      "id": "sc-802963821",
-      "name": "A Dirt - Great w/E36 engine (Takashiro Trail 2.01.7)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1994)",
-            "sharecode": "802 963 821",
-            "suspension": "Stock",
-            "tuneName": "A Dirt - Great w/E36 engine (Takashiro Trail 2.01.7)",
-            "tuner": "Falken JP",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2010,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "802963821",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "falken-jp"
     }
   ],
   "schemaVersion": 1

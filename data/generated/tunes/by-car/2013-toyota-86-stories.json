@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -25,12 +25,12 @@
         "en": "Takes technique: the rear is twitchy. The stock gearbox is a touch faster, but launch in second gear.",
         "pt-br": "Exige técnica: a traseira é arisca. O câmbio original é um pouquinho mais rápido, mas é melhor largar em segunda."
       },
-      "metaRank": 145,
+      "metaRank": 148,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 296,
+          "row": 302,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -42,6 +42,78 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-toyota-86-stories",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-0d16cae8cb",
+      "metaRank": 97,
+      "name": "Strong A Road Balance",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Toyota 86 \"Stories\"",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Strong A Road Balance",
+            "Tuner": "Destrukdi",
+            "fill": "FFFF0000"
+          },
+          "row": 2876,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-toyota-86-stories",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-1b300bf2eb",
+      "metaRank": 97,
+      "name": "a road strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Toyota 86 \"Stories\"",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "a road strong",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 2877,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "zaz490"
     },
     {
       "buildTags": [],
@@ -84,269 +156,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-toyota-86-stories",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-112814121",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "86 'Stories'",
-            "sharecode": "112 814 121",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2404,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "112814121",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-toyota-86-stories",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-29",
-      "drivetrain": "AWD",
-      "id": "sc-125808261",
-      "name": "let me tell you a story",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "86 'Stories'",
-            "sharecode": "125 808 261",
-            "suspension": "Race",
-            "tuneName": "let me tell you a story",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 2403,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "125808261",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-toyota-86-stories",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-30",
-      "drivetrain": "RWD",
-      "id": "sc-147279683",
-      "metaRank": 97,
-      "name": "A Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "86 'Stories'",
-            "sharecode": "147 279 683",
-            "suspension": "Race",
-            "tuneName": "A Road",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Rally"
-          },
-          "row": 2405,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.585,
-      "shareCode": "147279683",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-toyota-86-stories",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-160692458",
-      "metaRank": 97,
-      "name": "Strong A Road Balance",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "86 'Stories'",
-            "sharecode": "160 692 458",
-            "suspension": "Race",
-            "tuneName": "Strong A Road Balance",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 2402,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Toyota 86 \"Stories\"",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Strong A Road Balance",
-            "Tuner": "Destrukdi",
-            "fill": "FFFF0000"
-          },
-          "row": 2877,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.676,
-      "shareCode": "160692458",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "destrukdi"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-toyota-86-stories",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-28",
-      "drivetrain": "AWD",
-      "id": "sc-305343807",
-      "name": "Dirty Stories",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "28/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "86 'Stories'",
-            "sharecode": "305 343 807",
-            "suspension": "Rally",
-            "tuneName": "Dirty Stories",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2401,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "305343807",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-toyota-86-stories",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-26",
-      "drivetrain": "RWD",
-      "id": "sc-982061670",
-      "metaRank": 97,
-      "name": "a road strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "86 'Stories'",
-            "sharecode": "982 061 670",
-            "suspension": "Race",
-            "tuneName": "a road strong",
-            "tuner": "ZaZ490",
-            "tyreCompound": "Rally"
-          },
-          "row": 2406,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Toyota 86 \"Stories\"",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "a road strong",
-            "Tuner": "ZaZ490",
-            "fill": "FFFF0000"
-          },
-          "row": 2878,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "982061670",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "zaz490"
     }
   ],
   "schemaVersion": 1

@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1987-ferrari-f40",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-03738bb60f",
+      "name": "Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Ferrari F40",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1389,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
     {
       "buildTags": [
         "purist"
@@ -37,6 +70,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-ruinz"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1987-ferrari-f40",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-197f61745a",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Ferrari F40",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1382,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [
@@ -86,6 +156,43 @@
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "RWD",
+      "id": "nc-5c6523019f",
+      "name": "A Class Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Ferrari F40",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Class Road Purist",
+            "Tuner": "GoodReiShun",
+            "fill": "FFFF0000"
+          },
+          "row": 1383,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "goodreishun"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1987-ferrari-f40",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
       "id": "nc-689dc53c3f",
       "name": "Purist",
       "observations": [
@@ -111,6 +218,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-ferrari-f40",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-bfc03fc2c6",
+      "name": "Road 1.0",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Ferrari F40",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road 1.0",
+            "Tuner": "NDL RB38",
+            "fill": "FF7030A0"
+          },
+          "row": 1388,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ndl-rb38"
     },
     {
       "buildTags": [
@@ -148,304 +288,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "neposha"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-ferrari-f40",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "RWD",
-      "id": "sc-117947106",
-      "name": "4.45 FD",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "F40",
-            "sharecode": "117 947 106",
-            "suspension": "Sport",
-            "tuneName": "4.45 FD",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Street"
-          },
-          "row": 838,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "117947106",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-ferrari-f40",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-10",
-      "drivetrain": "AWD",
-      "id": "sc-133503203",
-      "name": "Road 1.0",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F40",
-            "sharecode": "133 503 203",
-            "suspension": "Rally",
-            "tuneName": "Road 1.0",
-            "tuner": "NDL RB38",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 840,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1987 Ferrari F40",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road 1.0",
-            "Tuner": "NDL RB38",
-            "fill": "FF7030A0"
-          },
-          "row": 1388,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "133503203",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "ndl-rb38"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1987-ferrari-f40",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-10",
-      "drivetrain": "RWD",
-      "id": "sc-150412371",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "F40",
-            "sharecode": "150 412 371",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Street"
-          },
-          "row": 835,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1987 Ferrari F40",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 1382,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "150412371",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1987-ferrari-f40",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-17",
-      "drivetrain": "RWD",
-      "id": "sc-280504784",
-      "name": "Purist Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "F40",
-            "sharecode": "280 504 784",
-            "suspension": "Sport",
-            "tuneName": "Purist Road",
-            "tuner": "MCR Ginza",
-            "tyreCompound": "Street"
-          },
-          "row": 837,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "280504784",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "mcr-ginza"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1987-ferrari-f40",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
-      "drivetrain": "RWD",
-      "id": "sc-808590386",
-      "name": "A Class Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "F40",
-            "sharecode": "808 590 386",
-            "suspension": "Sport",
-            "tuneName": "A Class Road Purist",
-            "tuner": "GoodReiShun",
-            "tyreCompound": "Street"
-          },
-          "row": 836,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1987 Ferrari F40",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Class Road Purist",
-            "Tuner": "GoodReiShun",
-            "fill": "FFFF0000"
-          },
-          "row": 1383,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "808590386",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "goodreishun"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-ferrari-f40",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-14",
-      "drivetrain": "AWD",
-      "id": "sc-914596942",
-      "name": "Road Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F40",
-            "sharecode": "914 596 942",
-            "suspension": "Race",
-            "tuneName": "Road Allround",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 839,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1987 Ferrari F40",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 1389,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "914596942",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

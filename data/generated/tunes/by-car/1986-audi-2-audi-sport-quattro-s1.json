@@ -1,6 +1,142 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1986-audi-2-audi-sport-quattro-s1",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-14fdabde31",
+      "name": "S1 Dirty Boi",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Audi #2 Audi Sport quattro S1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirty Boi",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 870,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-audi-2-audi-sport-quattro-s1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-4847ea6c3c",
+      "metaRank": 9,
+      "name": "S1 Class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Audi #2 Audi Sport quattro S1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Class Dirt",
+            "Tuner": "TNR MaksJaga",
+            "fill": "FF7030A0"
+          },
+          "row": 872,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.618,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "tnr-maksjaga"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-audi-2-audi-sport-quattro-s1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-9886ee32ef",
+      "metaRank": 9,
+      "name": "S1 Dirt Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Audi #2 Audi Sport quattro S1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Strong",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 871,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.618,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-audi-2-audi-sport-quattro-s1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b56836e37f",
+      "metaRank": 9,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 20,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.685,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
     {
       "buildTags": [],
       "carId": "1986-audi-2-audi-sport-quattro-s1",
@@ -31,291 +167,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-audi-2-audi-sport-quattro-s1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "id": "sc-108946011",
-      "metaRank": 9,
-      "name": "S1 Dirt M/C",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "#2 Audi Sport Quattro S1",
-            "sharecode": "108 946 011",
-            "suspension": "Drift",
-            "tuneName": "S1 Dirt M/C",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 186,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.673,
-      "shareCode": "108946011",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-audi-2-audi-sport-quattro-s1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-27",
-      "drivetrain": "AWD",
-      "id": "sc-148551788",
-      "metaRank": 9,
-      "name": "S1 Class Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "#2 Audi Sport Quattro S1",
-            "sharecode": "148 551 788",
-            "suspension": "Rally",
-            "tuneName": "S1 Class Dirt",
-            "tuner": "TNR MaksJaga",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 187,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Audi #2 Audi Sport quattro S1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Class Dirt",
-            "Tuner": "TNR MaksJaga",
-            "fill": "FF7030A0"
-          },
-          "row": 872,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.697,
-      "shareCode": "148551788",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "tnr-maksjaga"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-audi-2-audi-sport-quattro-s1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-152711920",
-      "metaRank": 9,
-      "name": "S1 Dirt Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "#2 Audi Sport Quattro S1",
-            "sharecode": "152 711 920",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 185,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Audi #2 Audi Sport quattro S1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Strong",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 871,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.698,
-      "shareCode": "152711920",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-audi-2-audi-sport-quattro-s1",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-19",
-      "drivetrain": "AWD",
-      "id": "sc-246808653",
-      "name": "S1 Dirty Boi",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "#2 Audi Sport Quattro S1",
-            "sharecode": "246 808 653",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirty Boi",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 184,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1986 Audi #2 Audi Sport quattro S1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirty Boi",
-            "Tuner": "ESV Lawrence",
-            "fill": "FF7030A0"
-          },
-          "row": 870,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "246808653",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-audi-2-audi-sport-quattro-s1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-13",
-      "drivetrain": "AWD",
-      "id": "sc-458031331",
-      "name": "A Dirt Rally Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "#2 Audi Sport Quattro S1",
-            "sharecode": "458 031 331",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Rally Grip",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 183,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.488,
-      "shareCode": "458031331",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-audi-2-audi-sport-quattro-s1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-25",
-      "drivetrain": "AWD",
-      "id": "sc-804325933",
-      "metaRank": 9,
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "#2 Audi Sport Quattro S1",
-            "sharecode": "804 325 933",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 188,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.611,
-      "shareCode": "804325933",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "vnx-ruinz"
     }
   ],
   "schemaVersion": 1

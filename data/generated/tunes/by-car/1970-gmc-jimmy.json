@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -38,6 +38,43 @@
       "tunerId": "noa-miyako"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-gmc-jimmy",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3fd78940d5",
+      "name": "Purist Dirt CC | 07.0 Sunflower Scramble",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 GMC Jimmy",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Purist Dirt CC | 07.0 Sunflower Scramble",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 314,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
       "buildTags": [],
       "carId": "1970-gmc-jimmy",
       "categories": [],
@@ -69,6 +106,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sir-brandya1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-gmc-jimmy",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6add590f53",
+      "name": "B OFFROAD POWER",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 GMC Jimmy",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B OFFROAD POWER",
+            "Tuner": "Zookiiwi",
+            "fill": "FFED7D31"
+          },
+          "row": 320,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zookiiwi"
     },
     {
       "buildTags": [],
@@ -143,6 +213,39 @@
       "class": "B",
       "confidence": 0.35,
       "drivetrain": "AWD",
+      "id": "nc-c1ee9b82ea",
+      "name": "B OFFROAD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 GMC Jimmy",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B OFFROAD",
+            "Tuner": "Zookiiwi",
+            "fill": "FFED7D31"
+          },
+          "row": 319,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-gmc-jimmy",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
       "id": "nc-c84863bee6",
       "name": "B Class Dirt",
       "observations": [
@@ -203,190 +306,6 @@
       "tunerId": "koarsse"
     },
     {
-      "buildTags": [],
-      "carId": "1970-gmc-jimmy",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-111125537",
-      "name": "B OFFROAD",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Jimmy",
-            "sharecode": "111 125 537",
-            "suspension": "Rally",
-            "tuneName": "B OFFROAD",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1069,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 GMC Jimmy",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B OFFROAD",
-            "Tuner": "Zookiiwi",
-            "fill": "FFED7D31"
-          },
-          "row": 319,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "111125537",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-gmc-jimmy",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-112346557",
-      "name": "B OFFROAD POWER",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Jimmy",
-            "sharecode": "112 346 557",
-            "suspension": "Rally",
-            "tuneName": "B OFFROAD POWER",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Rally"
-          },
-          "row": 1070,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 GMC Jimmy",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B OFFROAD POWER",
-            "Tuner": "Zookiiwi",
-            "fill": "FFED7D31"
-          },
-          "row": 320,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "112346557",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1970-gmc-jimmy",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
-      "drivetrain": "AWD",
-      "id": "sc-219942300",
-      "name": "purist road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Jimmy",
-            "sharecode": "219 942 300",
-            "suspension": "Rally",
-            "tuneName": "purist road",
-            "tuner": "scaans",
-            "tyreCompound": "Slick"
-          },
-          "row": 1065,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "219942300",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "scaans"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-gmc-jimmy",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-10",
-      "drivetrain": "AWD",
-      "id": "sc-308486469",
-      "name": "B Dirt (M)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "10/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Jimmy",
-            "sharecode": "308 486 469",
-            "suspension": "Street",
-            "tuneName": "B Dirt (M)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1068,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "308486469",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -395,86 +314,11 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-24",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-467913354",
-      "name": "Purist Dirt CC | 07.0 Sunflower Scramble",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "24/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Jimmy",
-            "sharecode": "467 913 354",
-            "suspension": "Street",
-            "tuneName": "Purist Dirt CC | 07.0 Sunflower Scramble",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1066,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 GMC Jimmy",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Purist Dirt CC | 07.0 Sunflower Scramble",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 314,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "467913354",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1970-gmc-jimmy",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-951549038",
+      "id": "nc-fea770b34d",
       "name": "B Dirt/CC Purist Allround Easy",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Jimmy",
-            "sharecode": "951 549 038",
-            "suspension": "Street",
-            "tuneName": "B Dirt/CC Purist Allround Easy",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1067,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1970 GMC Jimmy",
@@ -492,12 +336,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.664,
-      "shareCode": "951549038",
+      "score": 0.474,
       "surface": "cross-country",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "logikj"
     }
   ],

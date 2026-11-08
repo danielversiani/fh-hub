@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-sf90-stradale",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5b7db1e455",
+      "metaRank": 78,
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ferrari SF90 Stradale",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1453,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-sf90-stradale",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b12dfc47ea",
+      "metaRank": 78,
+      "name": "S1 Class - Road Racing (55.5 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ferrari SF90 Stradale",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing (55.5 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1454,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
     {
       "buildTags": [],
       "carId": "2020-ferrari-sf90-stradale",
@@ -63,155 +135,6 @@
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ferrari-sf90-stradale",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-07",
-      "drivetrain": "AWD",
-      "id": "sc-126564578",
-      "metaRank": 78,
-      "name": "S1 road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "SF90 Stradale",
-            "sharecode": "126 564 578",
-            "suspension": "Rally",
-            "tuneName": "S1 road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 892,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Ferrari SF90 Stradale",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 road",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 1453,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.643,
-      "shareCode": "126564578",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ferrari-sf90-stradale",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-18",
-      "drivetrain": "AWD",
-      "id": "sc-169221958",
-      "metaRank": 78,
-      "name": "S1 Class - Road Racing (55.5 Shirakawa Circuit)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "18/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "SF90 Stradale",
-            "sharecode": "169 221 958",
-            "suspension": "Rally",
-            "tuneName": "S1 Class - Road Racing (55.5 Shirakawa Circuit)",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 894,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Ferrari SF90 Stradale",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Class - Road Racing (55.5 Shirakawa Circuit)",
-            "Tuner": "VNX Ardent",
-            "fill": "FF7030A0"
-          },
-          "row": 1454,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.648,
-      "shareCode": "169221958",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ferrari-sf90-stradale",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
-      "drivetrain": "AWD",
-      "id": "sc-984435550",
-      "name": "S1 Dirt different rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "SF90 Stradale",
-            "sharecode": "984 435 550",
-            "suspension": "Drift",
-            "tuneName": "S1 Dirt different rims",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 893,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "984435550",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
     }
   ],

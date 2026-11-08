@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -42,6 +42,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-lamborghini-sesto-elemento",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-10a56ca1f8",
+      "metaRank": 12,
+      "name": "Strong S2 Road Balanced",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Lamborghini Sesto Elemento",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Strong S2 Road Balanced",
+            "Tuner": "Destrukdi",
+            "fill": "FF0070C0"
+          },
+          "row": 1867,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi"
     },
     {
       "buildTags": [],
@@ -116,77 +152,12 @@
       "categories": [
         "meta"
       ],
-      "class": "R",
-      "confidence": 0.85,
-      "createdAt": "2026-06-10",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-129628890",
-      "metaNotes": "R级非常少见的均衡强车 线上推荐驾驶",
-      "metaNotesI18n": {
-        "en": "A balanced, strong car, rare in R class; recommended for online racing.",
-        "pt-br": "Carro equilibrado e forte, coisa rara na classe R; recomendado para corridas online."
-      },
-      "metaRank": 8,
-      "name": "stock rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Sesto Elemento",
-            "sharecode": "129 628 890",
-            "suspension": "Race",
-            "tuneName": "stock rims",
-            "tuner": "trviis",
-            "tyreCompound": "Slick"
-          },
-          "row": 1420,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Lamborghini Sesto Elemento",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "stock rims",
-            "Tuner": "trviis",
-            "fill": "FFFF00FF"
-          },
-          "row": 1870,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.771,
-      "shareCode": "129628890",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "trviis"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-lamborghini-sesto-elemento",
-      "categories": [
-        "meta"
-      ],
       "class": "S2",
-      "confidence": 0.85,
-      "createdAt": "2026-06-10",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "sc-167714957",
+      "id": "nc-c2e27dc65e",
       "lapRefs": [
         {
           "time": "48.7",
@@ -201,23 +172,6 @@
       "metaRank": 12,
       "name": "S2 Road",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Sesto Elemento",
-            "sharecode": "167 714 957",
-            "suspension": "Race",
-            "tuneName": "S2 Road",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Slick"
-          },
-          "row": 1423,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2011 Lamborghini Sesto Elemento",
@@ -236,12 +190,11 @@
         }
       ],
       "role": "allround",
-      "score": 0.771,
-      "shareCode": "167714957",
+      "score": 0.695,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "slick",
+      "tires": "rally",
       "tunerId": "k1z-howzer"
     },
     {
@@ -251,78 +204,19 @@
         "meta"
       ],
       "class": "R",
-      "confidence": 0.85,
-      "createdAt": "2026-05-22",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "sc-176803572",
+      "id": "nc-e0c502dee5",
       "metaNotes": "R级非常少见的均衡强车 线上推荐驾驶",
       "metaNotesI18n": {
         "en": "A balanced, strong car, rare in R class; recommended for online racing.",
         "pt-br": "Carro equilibrado e forte, coisa rara na classe R; recomendado para corridas online."
       },
       "metaRank": 8,
-      "name": "Downforce Machine",
+      "name": "stock rims",
       "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Sesto Elemento",
-            "sharecode": "176 803 572",
-            "suspension": "Race",
-            "tuneName": "Downforce Machine",
-            "tuner": "trviis",
-            "tyreCompound": "Slick"
-          },
-          "row": 1419,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.683,
-      "shareCode": "176803572",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "trviis"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-lamborghini-sesto-elemento",
-      "categories": [
-        "meta"
-      ],
-      "class": "S2",
-      "confidence": 0.85,
-      "createdAt": "2026-06-25",
-      "drivetrain": "AWD",
-      "id": "sc-714916451",
-      "metaRank": 12,
-      "name": "Strong S2 Road Balanced",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "25/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Sesto Elemento",
-            "sharecode": "714 916 451",
-            "suspension": "Race",
-            "tuneName": "Strong S2 Road Balanced",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 1422,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2011 Lamborghini Sesto Elemento",
@@ -331,22 +225,55 @@
             "Designer": "",
             "Drivetrain": "AWD",
             "Terrain": "Road",
-            "Tune": "Strong S2 Road Balanced",
-            "Tuner": "Destrukdi",
-            "fill": "FF0070C0"
+            "Tune": "stock rims",
+            "Tuner": "trviis",
+            "fill": "FFFF00FF"
           },
-          "row": 1867,
+          "row": 1870,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.716,
-      "shareCode": "714916451",
+      "role": "allround",
+      "score": 0.695,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "destrukdi"
+      "tires": "super-slick",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-lamborghini-sesto-elemento",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e4b60f3866",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Lamborghini Sesto Elemento",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1866,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [
@@ -420,59 +347,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-lamborghini-sesto-elemento",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "AWD",
-      "id": "sc-982174158",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Sesto Elemento",
-            "sharecode": "982 174 158",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1421,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Lamborghini Sesto Elemento",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 1866,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "982174158",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

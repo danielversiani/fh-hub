@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "ESV Rapture",
             "fill": "FFFF0000"
           },
-          "row": 2924,
+          "row": 2923,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -33,6 +33,210 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2023-toyota-camry-trd",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-99e558f6c5",
+      "name": "Dad's Road Camry",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Toyota Camry TRD",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Dad's Road Camry",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2926,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2023-toyota-camry-trd",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-a8e8d76248",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Toyota Camry TRD",
+            "Comment": "Purist",
+            "Design": "QUEENSLAND POLICE (QPS) MARKED",
+            "Designer": "OperatorA23",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "Whatuplosers917",
+            "fill": "FFFF0000"
+          },
+          "row": 2928,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-toyota-camry-trd",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-cc7d3cbf7f",
+      "name": "B Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Toyota Camry TRD",
+            "Comment": "",
+            "Design": "HIMIKO TOGA",
+            "Designer": "TransitDan19979",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 650,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-toyota-camry-trd",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-cf1c3f1e53",
+      "name": "FA24 Road/Street FWD w/ BattleAero wing (All-Around Grip)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Toyota Camry TRD",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FA24 Road/Street FWD w/ BattleAero wing (All-Around Grip)",
+            "Tuner": "TheDannny",
+            "fill": "FFFF0000"
+          },
+          "row": 2927,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-toyota-camry-trd",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-d0d4119010",
+      "name": "WideAmongUs",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Toyota Camry TRD",
+            "Comment": "",
+            "Design": "WEDSSPORT",
+            "Designer": "Gege9Z",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "WideAmongUs",
+            "Tuner": "Grandma Driving",
+            "fill": "FFFF0000"
+          },
+          "row": 2925,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-toyota-camry-trd",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d0d600928b",
+      "name": "A Dirt (WB + FA)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Toyota Camry TRD",
+            "Comment": "Battle Aero bodykit",
+            "Design": "BATTLE AERO",
+            "Designer": "Vampiro WCW",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt (WB + FA)",
+            "Tuner": "Whatuplosers917",
+            "fill": "FFFF0000"
+          },
+          "row": 2922,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "whatuplosers917"
     },
     {
       "buildTags": [],
@@ -56,7 +260,7 @@
             "Tuner": "Aeroplane7616",
             "fill": "FFFF0000"
           },
-          "row": 2925,
+          "row": 2924,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -66,330 +270,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "aeroplane7616"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2023-toyota-camry-trd",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "FWD",
-      "id": "sc-105072841",
-      "name": "Dad's Road Camry",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Toyota",
-            "model": "Camry TRD",
-            "sharecode": "105 072 841",
-            "suspension": "Street",
-            "tuneName": "Dad's Road Camry",
-            "tuner": "KapienPL",
-            "tyreCompound": "Rally"
-          },
-          "row": 2417,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Toyota Camry TRD",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Dad's Road Camry",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 2927,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "105072841",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-toyota-camry-trd",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "FWD",
-      "id": "sc-115389952",
-      "name": "FA24 Road/Street FWD w/ BattleAero wing (All-Around Grip)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "19/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Toyota",
-            "model": "Camry TRD",
-            "sharecode": "115 389 952",
-            "suspension": "Street",
-            "tuneName": "FA24 Road/Street FWD w/ BattleAero wing (All-Around Grip)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 2422,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Toyota Camry TRD",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "FA24 Road/Street FWD w/ BattleAero wing (All-Around Grip)",
-            "Tuner": "TheDannny",
-            "fill": "FFFF0000"
-          },
-          "row": 2928,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "115389952",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-toyota-camry-trd",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-11",
-      "drivetrain": "AWD",
-      "id": "sc-165610489",
-      "name": "A Dirt (WB + FA)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Camry TRD",
-            "sharecode": "165 610 489",
-            "suspension": "Street",
-            "tuneName": "A Dirt (WB + FA)",
-            "tuner": "Whatuplosers917",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2418,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Toyota Camry TRD",
-            "Comment": "Battle Aero bodykit",
-            "Design": "BATTLE AERO",
-            "Designer": "Vampiro WCW",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt (WB + FA)",
-            "Tuner": "Whatuplosers917",
-            "fill": "FFFF0000"
-          },
-          "row": 2923,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "165610489",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "whatuplosers917"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-toyota-camry-trd",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "AWD",
-      "id": "sc-256069067",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Camry TRD",
-            "sharecode": "256 069 067",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "Whatuplosers917",
-            "tyreCompound": "Rally"
-          },
-          "row": 2419,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Toyota Camry TRD",
-            "Comment": "Purist",
-            "Design": "QUEENSLAND POLICE (QPS) MARKED",
-            "Designer": "OperatorA23",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "Whatuplosers917",
-            "fill": "FFFF0000"
-          },
-          "row": 2929,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "256069067",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "whatuplosers917"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-toyota-camry-trd",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-28",
-      "drivetrain": "FWD",
-      "id": "sc-391035014",
-      "name": "B Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "28/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Toyota",
-            "model": "Camry TRD",
-            "sharecode": "391 035 014",
-            "suspension": "Street",
-            "tuneName": "B Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2421,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Toyota Camry TRD",
-            "Comment": "",
-            "Design": "HIMIKO TOGA",
-            "Designer": "TransitDan19979",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "B Road",
-            "Tuner": "K1Z Bard",
-            "fill": "FFED7D31"
-          },
-          "row": 650,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "391035014",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-toyota-camry-trd",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-04",
-      "drivetrain": "FWD",
-      "id": "sc-634208288",
-      "name": "WideAmongUs",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Toyota",
-            "model": "Camry TRD",
-            "sharecode": "634 208 288",
-            "suspension": "Street",
-            "tuneName": "WideAmongUs",
-            "tuner": "Grandma Driving",
-            "tyreCompound": "Rally"
-          },
-          "row": 2420,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Toyota Camry TRD",
-            "Comment": "",
-            "Design": "WEDSSPORT",
-            "Designer": "Gege9Z",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "WideAmongUs",
-            "Tuner": "Grandma Driving",
-            "fill": "FFFF0000"
-          },
-          "row": 2926,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.668,
-      "shareCode": "634208288",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "grandma-driving"
     }
   ],
   "schemaVersion": 1

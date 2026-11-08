@@ -1,6 +1,76 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1985-porsche-185-959-prodrive-rally-raid",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2417ab52f6",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Porsche #185 959 Prodrive Rally Raid",
+            "Comment": "",
+            "Design": "ROTHMANS 959 RR #185",
+            "Designer": "WoodyTIE86",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2612,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1985-porsche-185-959-prodrive-rally-raid",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-73856e2a39",
+      "name": "Purist Road 02.4 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Porsche #185 959 Prodrive Rally Raid",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road 02.4 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2614,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [],
       "carId": "1985-porsche-185-959-prodrive-rally-raid",
@@ -23,7 +93,7 @@
             "Tuner": "GreetedDust8",
             "fill": "FF7030A0"
           },
-          "row": 2616,
+          "row": 2615,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -39,139 +109,11 @@
       "carId": "1985-porsche-185-959-prodrive-rally-raid",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-146430643",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#185 959 Prodrive Rally Raid",
-            "sharecode": "146 430 643",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2137,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1985 Porsche #185 959 Prodrive Rally Raid",
-            "Comment": "",
-            "Design": "ROTHMANS 959 RR #185",
-            "Designer": "WoodyTIE86",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 2613,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "146430643",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1985-porsche-185-959-prodrive-rally-raid",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-29",
-      "drivetrain": "AWD",
-      "id": "sc-305437720",
-      "name": "Purist Road 02.4 Shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#185 959 Prodrive Rally Raid",
-            "sharecode": "305 437 720",
-            "suspension": "Rally",
-            "tuneName": "Purist Road 02.4 Shirakawa",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 2136,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1985 Porsche #185 959 Prodrive Rally Raid",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Purist Road 02.4 Shirakawa",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 2615,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.689,
-      "shareCode": "305437720",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-porsche-185-959-prodrive-rally-raid",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-09",
-      "drivetrain": "AWD",
-      "id": "sc-807267123",
+      "id": "nc-9330216d5e",
       "name": "Dirt Rally Allround",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "#185 959 Prodrive Rally Raid",
-            "sharecode": "807 267 123",
-            "suspension": "Rally",
-            "tuneName": "Dirt Rally Allround",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2138,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1985 Porsche #185 959 Prodrive Rally Raid",
@@ -184,17 +126,15 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2614,
+          "row": 2613,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.67,
-      "shareCode": "807267123",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "logikj"
     }
   ],

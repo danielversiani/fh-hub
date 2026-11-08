@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -123,6 +123,42 @@
       ],
       "class": "A",
       "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-29082b9be4",
+      "metaRank": 50,
+      "name": "A Road Allround Beasty",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2002 Chevrolet Corvette Z06",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road Allround Beasty",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 1127,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-3b26400b27",
       "metaRank": 50,
@@ -187,6 +223,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-7f50f2a9da",
+      "metaRank": 50,
+      "name": "Strong A Road Balanced",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2002 Chevrolet Corvette Z06",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Strong A Road Balanced",
+            "Tuner": "Destrukdi",
+            "fill": "FFFF0000"
+          },
+          "row": 1124,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi"
     },
     {
       "buildTags": [],
@@ -270,6 +342,45 @@
       "class": "A",
       "confidence": 0.8,
       "drivetrain": "RWD",
+      "id": "nc-bb201e6f4e",
+      "metaRank": 50,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2002 Chevrolet Corvette Z06",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "MCR Ginza",
+            "fill": "FFFF0000"
+          },
+          "row": 1129,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "mcr-ginza"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2002-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
       "id": "nc-cde701da66",
       "metaRank": 50,
       "name": "Purist allround",
@@ -332,355 +443,6 @@
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2002-chevrolet-corvette-z06",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-08",
-      "drivetrain": "AWD",
-      "id": "sc-100912278",
-      "metaRank": 50,
-      "name": "Strong A Road Balanced",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "100 912 278",
-            "suspension": "Rally",
-            "tuneName": "Strong A Road Balanced",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 521,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2002 Chevrolet Corvette Z06",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Strong A Road Balanced",
-            "Tuner": "Destrukdi",
-            "fill": "FFFF0000"
-          },
-          "row": 1124,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "100912278",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "destrukdi"
-    },
-    {
-      "buildTags": [],
-      "carId": "2002-chevrolet-corvette-z06",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-104012742",
-      "metaRank": 50,
-      "name": "Why is it working on road?",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "104 012 742",
-            "suspension": "Street",
-            "tuneName": "Why is it working on road?",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 524,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.585,
-      "shareCode": "104012742",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2002-chevrolet-corvette-z06",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-22",
-      "drivetrain": "RWD",
-      "id": "sc-200345686",
-      "metaRank": 50,
-      "name": "A Road Allround Beasty",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "200 345 686",
-            "suspension": "Street",
-            "tuneName": "A Road Allround Beasty",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Drift"
-          },
-          "row": 523,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2002 Chevrolet Corvette Z06",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Road Allround Beasty",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 1127,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "200345686",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2002-chevrolet-corvette-z06",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "RWD",
-      "id": "sc-231314933",
-      "name": "B600 Purist 52.1 Narai Juku Circuit",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "231 314 933",
-            "suspension": "Street",
-            "tuneName": "B600 Purist 52.1 Narai Juku Circuit",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Standard"
-          },
-          "row": 527,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.477,
-      "shareCode": "231314933",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2002-chevrolet-corvette-z06",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "RWD",
-      "id": "sc-237675119",
-      "name": "A700 Purist 47.5 Narai Juku",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "237 675 119",
-            "suspension": "Street",
-            "tuneName": "A700 Purist 47.5 Narai Juku",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 522,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.477,
-      "shareCode": "237675119",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2002-chevrolet-corvette-z06",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-24",
-      "drivetrain": "RWD",
-      "id": "sc-619204227",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "619 204 227",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "MCR Ginza",
-            "tyreCompound": "Rally"
-          },
-          "row": 525,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "619 204 227",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "MCR Ginza",
-            "tyreCompound": "Rally"
-          },
-          "row": 526,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2002 Chevrolet Corvette Z06",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "MCR Ginza",
-            "fill": "FFFF0000"
-          },
-          "row": 1129,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "619204227",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "mcr-ginza"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2002-chevrolet-corvette-z06",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-26",
-      "drivetrain": "RWD",
-      "id": "sc-738865755",
-      "name": "Purist centri",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "26/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Corvette Z06 (2002)",
-            "sharecode": "738 865 755",
-            "suspension": "Street",
-            "tuneName": "Purist centri",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Standard"
-          },
-          "row": 528,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "738865755",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
       "tunerId": "silvasuperbee"
     }
   ],

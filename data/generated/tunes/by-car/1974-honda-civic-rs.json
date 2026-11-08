@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -206,6 +206,39 @@
     {
       "buildTags": [],
       "carId": "1974-honda-civic-rs",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-b515e614c6",
+      "name": "S1 dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1974 Honda Civic RS",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt/CC",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1666,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1974-honda-civic-rs",
       "categories": [
         "meta"
       ],
@@ -277,6 +310,39 @@
       "tunerId": "noa-miyako"
     },
     {
+      "buildTags": [],
+      "carId": "1974-honda-civic-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d6dc1075ea",
+      "name": "A Dirt Widebody",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1974 Honda Civic RS",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Widebody",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 1665,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zombiejesus52"
+    },
+    {
       "buildTags": [
         "stock-look"
       ],
@@ -313,189 +379,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-24",
-      "drivetrain": "AWD",
-      "id": "sc-120346065",
-      "name": "A Dirt All-Around Grip (59.4 Sunflower)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic RS",
-            "sharecode": "120 346 065",
-            "suspension": "Rally",
-            "tuneName": "A Dirt All-Around Grip (59.4 Sunflower)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1139,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.491,
-      "shareCode": "120346065",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-30",
-      "drivetrain": "AWD",
-      "id": "sc-121397217",
-      "name": "S1 dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic RS",
-            "sharecode": "121 397 217",
-            "suspension": "Rally",
-            "tuneName": "S1 dirt/CC",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1142,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1974 Honda Civic RS",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 dirt/CC",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 1666,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "121397217",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-168736122",
-      "name": "A Dirt Widebody",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic RS",
-            "sharecode": "168 736 122",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Widebody",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1140,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1974 Honda Civic RS",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt Widebody",
-            "Tuner": "zombiejesus52",
-            "fill": "FFFF0000"
-          },
-          "row": 1665,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "168736122",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-790939964",
-      "metaRank": 9,
-      "name": "Strong B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic RS",
-            "sharecode": "790 939 964",
-            "suspension": "Street",
-            "tuneName": "Strong B Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1141,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.627,
-      "shareCode": "790939964",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

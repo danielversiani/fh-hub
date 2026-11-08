@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1997-formula-drift-777-nissan-240sx",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-213803717",
+      "id": "nc-da2675c1c7",
       "name": "S1 Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Formula Drift",
-            "model": "#777 Nissan 240SX",
-            "sharecode": "213 803 717",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1050,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1997 Formula Drift #777 Nissan 240SX",
@@ -46,12 +28,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.66,
-      "shareCode": "213803717",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
     }
   ],

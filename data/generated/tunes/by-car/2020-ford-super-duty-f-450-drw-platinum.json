@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -74,6 +74,44 @@
       "tunerId": "fuzzytexas81292"
     },
     {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-6ad37d9ab2",
+      "metaRank": 80,
+      "name": "B Road Very Strong (Stock Look)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM",
+            "Comment": "LOL",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Very Strong (Stock Look)",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 309,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum",
       "categories": [],
@@ -131,12 +169,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 81,
+      "metaRank": 80,
       "name": "B road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 167,
+          "row": 165,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -266,184 +304,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-113202792",
-      "metaRank": 4,
-      "name": "B Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum",
-            "sharecode": "113 202 792",
-            "suspension": "Street",
-            "tuneName": "B Dirt/CC",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1020,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.685,
-      "shareCode": "113202792",
-      "surface": "cross-country",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-10-04",
-      "drivetrain": "AWD",
-      "id": "sc-120291323",
-      "metaRank": 81,
-      "name": "Play FH5 instead, this game is an unbalanced mess",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum",
-            "sharecode": "120 291 323",
-            "suspension": "Rally",
-            "tuneName": "Play FH5 instead, this game is an unbalanced mess",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 1023,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.571,
-      "shareCode": "120291323",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-202410695",
-      "metaRank": 5,
-      "name": "B Dirt Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum",
-            "sharecode": "202 410 695",
-            "suspension": "Street",
-            "tuneName": "B Dirt Meta",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1022,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "202410695",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-27",
-      "drivetrain": "AWD",
-      "id": "sc-299964368",
-      "metaRank": 81,
-      "name": "B Road Very Strong (Stock Look)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "27/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum",
-            "sharecode": "299 964 368",
-            "suspension": "Street",
-            "tuneName": "B Road Very Strong (Stock Look)",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1021,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM",
-            "Comment": "LOL",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "B Road Very Strong (Stock Look)",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 309,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.645,
-      "shareCode": "299964368",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

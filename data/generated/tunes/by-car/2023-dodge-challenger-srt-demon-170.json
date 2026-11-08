@@ -1,6 +1,35 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2023-dodge-challenger-srt-demon-170",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0906b39d32",
+      "metaRank": 13,
+      "name": "S1 cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 31,
+          "sourceId": "noa-miyako",
+          "tab": "s1-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.423,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
     {
       "buildTags": [],
       "carId": "2023-dodge-challenger-srt-demon-170",
@@ -182,238 +211,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-dodge-challenger-srt-demon-170",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-17",
-      "drivetrain": "RWD",
-      "id": "sc-107500076",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/09/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Demon 170",
-            "sharecode": "107 500 076",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Drift"
-          },
-          "row": 668,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "107500076",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-dodge-challenger-srt-demon-170",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-119754572",
-      "metaRank": 13,
-      "name": "Dirt/CC Memes",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Demon 170",
-            "sharecode": "119 754 572",
-            "suspension": "Rally",
-            "tuneName": "Dirt/CC Memes",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 670,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.419,
-      "shareCode": "119754572",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-dodge-challenger-srt-demon-170",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-09-17",
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "id": "sc-124074497",
-      "metaRank": 13,
-      "name": "S1 CC Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Demon 170",
-            "sharecode": "124 074 497",
-            "suspension": "Race",
-            "tuneName": "S1 CC Allround",
-            "tuner": "Noa Miyako",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 671,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "power",
-      "score": 0.44,
-      "shareCode": "124074497",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-dodge-challenger-srt-demon-170",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-169828637",
-      "metaRank": 13,
-      "name": "S1 Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Demon 170",
-            "sharecode": "169 828 637",
-            "suspension": "Drift",
-            "tuneName": "S1 Dirt/CC",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 672,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.419,
-      "shareCode": "169828637",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-dodge-challenger-srt-demon-170",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-18",
-      "drivetrain": "AWD",
-      "id": "sc-253400312",
-      "name": "lightest mopar",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Demon 170",
-            "sharecode": "253 400 312",
-            "suspension": "Sport",
-            "tuneName": "lightest mopar",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 667,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "253400312",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-dodge-challenger-srt-demon-170",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-384263491",
-      "name": "1.7G Strong Accel Sprinter V3",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Demon 170",
-            "sharecode": "384 263 491",
-            "suspension": "Rally",
-            "tuneName": "1.7G Strong Accel Sprinter V3",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Rally"
-          },
-          "row": 669,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "384263491",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "slowbakedpanda"
     }
   ],
   "schemaVersion": 1

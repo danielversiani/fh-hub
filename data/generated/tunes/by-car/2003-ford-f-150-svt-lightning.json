@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -24,6 +24,43 @@
             "fill": "FFFF0000"
           },
           "row": 1539,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-ford-f-150-svt-lightning",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-be5d4ed354",
+      "name": "Purist Cervini's",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Ford F-150 SVT Lightning",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Cervini's",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1540,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -132,137 +169,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2003-ford-f-150-svt-lightning",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-26",
-      "drivetrain": "RWD",
-      "id": "sc-250787039",
-      "name": "Purist Cervini's",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "F-150 SVT Lightning",
-            "sharecode": "250 787 039",
-            "suspension": "Race",
-            "tuneName": "Purist Cervini's",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 920,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2003 Ford F-150 SVT Lightning",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist Cervini's",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 1540,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.674,
-      "shareCode": "250787039",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2003-ford-f-150-svt-lightning",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-274155596",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "F-150 SVT Lightning",
-            "sharecode": "274 155 596",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 922,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.475,
-      "shareCode": "274155596",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2003-ford-f-150-svt-lightning",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-02",
-      "drivetrain": "AWD",
-      "id": "sc-481176672",
-      "name": "Strong Cross Country Power",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "F-150 SVT Lightning",
-            "sharecode": "481 176 672",
-            "suspension": "Rally",
-            "tuneName": "Strong Cross Country Power",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 921,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "481176672",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

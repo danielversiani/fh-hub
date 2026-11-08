@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2a9cb0f554",
+      "name": "S1 Dirt Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Meta",
+            "Tuner": "Rocklxd",
+            "fill": "FF7030A0"
+          },
+          "row": 816,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "rocklxd"
+    },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
@@ -136,6 +169,43 @@
       "tunerId": "k1z-bard"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-6ca5058994",
+      "name": "Purist Vintage Race + Stock Rims",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Vintage Race + Stock Rims",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 730,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
       "categories": [],
@@ -235,6 +305,144 @@
       "tunerId": "thedannny"
     },
     {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a8939a997c",
+      "name": "Strong Dirt/CC Allround Meta+++",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong Dirt/CC Allround Meta+++",
+            "Tuner": "Iphanhan",
+            "fill": "FF7030A0"
+          },
+          "row": 814,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "iphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-be16fc3c5e",
+      "name": "S1 Dirt Meta+",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Meta+",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 817,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-bee6677f18",
+      "name": "Purist A Road Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist A Road Strong",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 732,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-c25bc96186",
+      "name": "52.3 HMC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "52.3 HMC",
+            "Tuner": "zombiejesus52",
+            "fill": "FF7030A0"
+          },
+          "row": 823,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zombiejesus52"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -275,490 +483,12 @@
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
       "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
-      "drivetrain": "AWD",
-      "id": "sc-103505992",
-      "name": "A Road - Very Strong Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "103 505 992",
-            "suspension": "Race",
-            "tuneName": "A Road - Very Strong Allround",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Vintage"
-          },
-          "row": 90,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "103505992",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
-      "drivetrain": "RWD",
-      "id": "sc-103931783",
-      "name": "Purist A Road Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "103 931 783",
-            "suspension": "Race",
-            "tuneName": "Purist A Road Strong",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Vintage"
-          },
-          "row": 91,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist A Road Strong",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 732,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.681,
-      "shareCode": "103931783",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
-      "drivetrain": "RWD",
-      "id": "sc-110044962",
-      "name": "Purist Vintage Race + Stock Rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "110 044 962",
-            "suspension": "Race",
-            "tuneName": "Purist Vintage Race + Stock Rims",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 89,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist Vintage Race + Stock Rims",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 730,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.681,
-      "shareCode": "110044962",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage-race",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-30",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-155922526",
-      "name": "S1 Dirt Meta Power",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "155 922 526",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Meta Power",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 96,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "155922526",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-30",
-      "drivetrain": "AWD",
-      "id": "sc-157181177",
-      "name": "S1 Dirt Meta Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "157 181 177",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Meta Allround",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 95,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "157181177",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
-      "drivetrain": "AWD",
-      "id": "sc-228372389",
-      "name": "S1 Dirt Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "228 372 389",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Meta",
-            "tuner": "Rocklxd",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 99,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Meta",
-            "Tuner": "Rocklxd",
-            "fill": "FF7030A0"
-          },
-          "row": 816,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.681,
-      "shareCode": "228372389",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "rocklxd"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
-      "drivetrain": "AWD",
-      "id": "sc-439472329",
-      "name": "Strong Dirt/CC Allround Meta+++",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "439 472 329",
-            "suspension": "Race",
-            "tuneName": "Strong Dirt/CC Allround Meta+++",
-            "tuner": "Iphanhan",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 94,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong Dirt/CC Allround Meta+++",
-            "Tuner": "Iphanhan",
-            "fill": "FF7030A0"
-          },
-          "row": 814,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.681,
-      "shareCode": "439472329",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "iphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-09-01",
-      "drivetrain": "AWD",
-      "id": "sc-536225700",
-      "name": "*Shira 54.3 Possible/I vomited",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "01/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "536 225 700",
-            "suspension": "Race",
-            "tuneName": "*Shira 54.3 Possible/I vomited",
-            "tuner": "MSR Mian",
-            "tyreCompound": "Rally"
-          },
-          "row": 98,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.5,
-      "shareCode": "536225700",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "msr-mian"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
-      "drivetrain": "RWD",
-      "id": "sc-591319460",
-      "name": "52.3 HMC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "591 319 460",
-            "suspension": "Race",
-            "tuneName": "52.3 HMC",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Vintage"
-          },
-          "row": 101,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "52.3 HMC",
-            "Tuner": "zombiejesus52",
-            "fill": "FF7030A0"
-          },
-          "row": 823,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.681,
-      "shareCode": "591319460",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-28",
-      "drivetrain": "AWD",
-      "id": "sc-639577921",
-      "name": "S1 Road AWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "28/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "639 577 921",
-            "suspension": "Race",
-            "tuneName": "S1 Road AWD",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 93,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "639577921",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
-      "drivetrain": "AWD",
-      "id": "sc-729486539",
+      "id": "nc-c7f34b7f12",
       "name": "S1 Road Acceleration Beast",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "729 486 539",
-            "suspension": "Race",
-            "tuneName": "S1 Road Acceleration Beast",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 97,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
@@ -776,12 +506,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.681,
-      "shareCode": "729486539",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "letzelu"
     },
     {
@@ -789,29 +517,11 @@
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-27",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-744525264",
+      "id": "nc-e26e822113",
       "name": "A Dirt Strong Handling All-Around",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "744 525 264",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Strong Handling All-Around",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 92,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
@@ -829,66 +539,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.681,
-      "shareCode": "744525264",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-28",
-      "drivetrain": "AWD",
-      "id": "sc-747604899",
-      "name": "S1 Dirt Meta++",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "28/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "Autodelta Tipo 33/2 Daytona",
-            "sharecode": "747 604 899",
-            "suspension": "Race",
-            "tuneName": "S1 Dirt Meta++",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 100,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo Autodelta Tipo 33/2 Daytona",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Meta+",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 817,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.682,
-      "shareCode": "747604899",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
     }
   ],
   "schemaVersion": 1

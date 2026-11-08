@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -116,7 +116,7 @@
         },
         {
           "raw": {},
-          "row": 161,
+          "row": 159,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -183,6 +183,45 @@
       "tunerId": "noa-miyako"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-9e8469b384",
+      "metaRank": 36,
+      "name": "Purist 08 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1957 Chevrolet Bel Air",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist 08 Shirakawa",
+            "Tuner": "DareanBLR",
+            "fill": "FFED7D31"
+          },
+          "row": 204,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "dareanblr"
+    },
+    {
       "buildTags": [],
       "carId": "1957-chevrolet-bel-air",
       "categories": [],
@@ -214,65 +253,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1957-chevrolet-bel-air",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-30",
-      "drivetrain": "RWD",
-      "id": "sc-118622419",
-      "metaRank": 36,
-      "name": "Purist 08 Shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Bel Air",
-            "sharecode": "118 622 419",
-            "suspension": "Sport",
-            "tuneName": "Purist 08 Shirakawa",
-            "tuner": "DareanBLR",
-            "tyreCompound": "Street"
-          },
-          "row": 445,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1957 Chevrolet Bel Air",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist 08 Shirakawa",
-            "Tuner": "DareanBLR",
-            "fill": "FFED7D31"
-          },
-          "row": 204,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.568,
-      "shareCode": "118622419",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "street",
-      "tunerId": "dareanblr"
     }
   ],
   "schemaVersion": 1

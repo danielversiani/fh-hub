@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -36,6 +36,78 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-ferrari-j50-preorder-car",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-6c9ce8a083",
+      "metaRank": 44,
+      "name": "S1 Road Balanced",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Ferrari J50 Pre-Order Car",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Balanced",
+            "Tuner": "NDL Ramen",
+            "fill": "FF7030A0"
+          },
+          "row": 1439,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ndl-ramen"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-ferrari-j50-preorder-car",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-7e4753e0a9",
+      "metaRank": 44,
+      "name": "S1 GrippySpeed",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Ferrari J50 Pre-Order Car",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 GrippySpeed",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1437,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [],
@@ -117,237 +189,12 @@
         "off-meta"
       ],
       "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-21",
+      "confidence": 0.8,
       "drivetrain": "RWD",
-      "id": "sc-131651172",
-      "metaRank": 44,
-      "name": "S1 Road Balanced",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "J50 Pre-Order Car",
-            "sharecode": "131 651 172",
-            "suspension": "Rally",
-            "tuneName": "S1 Road Balanced",
-            "tuner": "NDL Ramen",
-            "tyreCompound": "Drift"
-          },
-          "row": 873,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2017 Ferrari J50 Pre-Order Car",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road Balanced",
-            "Tuner": "NDL Ramen",
-            "fill": "FF7030A0"
-          },
-          "row": 1439,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.625,
-      "shareCode": "131651172",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "ndl-ramen"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-ferrari-j50-preorder-car",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-159407200",
-      "metaRank": 13,
-      "name": "S1 GrippySpeed",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "J50 Pre-Order Car",
-            "sharecode": "159 407 200",
-            "suspension": "Race",
-            "tuneName": "S1 GrippySpeed",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 870,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2017 Ferrari J50 Pre-Order Car",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 GrippySpeed",
-            "Tuner": "ESV Lawrence",
-            "fill": "FF7030A0"
-          },
-          "row": 1437,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.711,
-      "shareCode": "159407200",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-ferrari-j50-preorder-car",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-19",
-      "drivetrain": "AWD",
-      "id": "sc-170877415",
-      "metaRank": 13,
-      "name": "the better j50",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "J50 Pre-Order Car",
-            "sharecode": "170 877 415",
-            "suspension": "Race",
-            "tuneName": "the better j50",
-            "tuner": "Nalak28",
-            "tyreCompound": "Rally"
-          },
-          "row": 872,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.629,
-      "shareCode": "170877415",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [
-        "full-aero"
-      ],
-      "carId": "2017-ferrari-j50-preorder-car",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
-      "drivetrain": "AWD",
-      "id": "sc-870309979",
-      "name": "S1 Dirt/CC AWD Full Aero",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "18/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "J50 Pre-Order Car",
-            "sharecode": "870 309 979",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt/CC AWD Full Aero",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 871,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2017 Ferrari J50 Pre-Order Car",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt/CC AWD Full Aero",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 1436,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "870309979",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-ferrari-j50-preorder-car",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-10",
-      "drivetrain": "RWD",
-      "id": "sc-879509035",
+      "id": "nc-d5afb3c0f3",
       "metaRank": 44,
       "name": "S1 Road",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "10/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "J50 Pre-Order Car",
-            "sharecode": "879 509 035",
-            "suspension": "Race",
-            "tuneName": "S1 Road",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Drift"
-          },
-          "row": 869,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2017 Ferrari J50 Pre-Order Car",
@@ -365,13 +212,46 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.628,
-      "shareCode": "879509035",
+      "score": 0.543,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "drift",
       "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2017-ferrari-j50-preorder-car",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ffe781e3f4",
+      "name": "S1 Dirt/CC AWD Full Aero",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Ferrari J50 Pre-Order Car",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt/CC AWD Full Aero",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 1436,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

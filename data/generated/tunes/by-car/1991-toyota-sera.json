@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -11,7 +11,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-1182f0a941",
-      "metaRank": 90,
+      "metaRank": 89,
       "name": "Road Allround Strong",
       "observations": [
         {
@@ -62,7 +62,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 90,
+      "metaRank": 89,
       "name": "B Road RWD Powerbuild",
       "observations": [
         {
@@ -93,6 +93,39 @@
     {
       "buildTags": [],
       "carId": "1991-toyota-sera",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-827db20b3f",
+      "name": "B dirt FA24D",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Toyota Sera",
+            "Comment": "",
+            "Design": "SERA",
+            "Designer": "BlondePeintre",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B dirt FA24D",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 563,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-toyota-sera",
       "categories": [
         "off-meta"
       ],
@@ -100,7 +133,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-a4da15c3b7",
-      "metaRank": 90,
+      "metaRank": 89,
       "name": "Road Allround OFFMETA Shirakawa 05.9 A/M",
       "observations": [
         {
@@ -139,7 +172,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-a822ef049c",
-      "metaRank": 90,
+      "metaRank": 89,
       "name": "Road Purist Grip",
       "observations": [
         {
@@ -170,29 +203,11 @@
       "carId": "1991-toyota-sera",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-134114240",
-      "name": "B Dirt K20A",
+      "id": "nc-b6a0742d7f",
+      "name": "B dirt K20A",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sera",
-            "sharecode": "134 114 240",
-            "suspension": "Street",
-            "tuneName": "B Dirt K20A",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2533,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1991 Toyota Sera",
@@ -210,65 +225,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "134114240",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-toyota-sera",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-146841227",
-      "name": "B Dirt FA24D",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sera",
-            "sharecode": "146 841 227",
-            "suspension": "Street",
-            "tuneName": "B Dirt FA24D",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2534,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 Toyota Sera",
-            "Comment": "",
-            "Design": "SERA",
-            "Designer": "BlondePeintre",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B dirt FA24D",
-            "Tuner": "IceFrice8724",
-            "fill": "FFED7D31"
-          },
-          "row": 563,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "146841227",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "icefrice8724"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -77,29 +77,11 @@
       "carId": "2554-amg-transport-dynamics-m12s-warthog-cst",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-140555033",
+      "id": "nc-557bd635f7",
       "name": "They put the Master Chief in the Forza Horizon 6... wow...",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "AMG Transport Dynamics",
-            "model": "M12S Warthog CST",
-            "sharecode": "140 555 033",
-            "suspension": "Rally",
-            "tuneName": "They put the Master Chief in the Forza Horizon 6... wow...",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 132,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2554 AMG Transport Dynamics M12S Warthog CST",
@@ -117,87 +99,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.659,
-      "shareCode": "140555033",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "semi-slick",
       "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "2554-amg-transport-dynamics-m12s-warthog-cst",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
-      "drivetrain": "AWD",
-      "id": "sc-486110587",
-      "name": "Master Keef",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "AMG Transport Dynamics",
-            "model": "M12S Warthog CST",
-            "sharecode": "486 110 587",
-            "suspension": "Rally",
-            "tuneName": "Master Keef",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 133,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "486110587",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2554-amg-transport-dynamics-m12s-warthog-cst",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-29",
-      "drivetrain": "AWD",
-      "id": "sc-525711734",
-      "name": "Fun A Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "AMG Transport Dynamics",
-            "model": "M12S Warthog CST",
-            "sharecode": "525 711 734",
-            "suspension": "Rally",
-            "tuneName": "Fun A Dirt/CC",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 134,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.477,
-      "shareCode": "525711734",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
     }
   ],
   "schemaVersion": 1

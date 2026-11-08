@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -33,6 +33,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ndl-rb38"
+    },
+    {
+      "buildTags": [],
+      "carId": "1982-volkswagen-pickup-lx",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-37c62c8c30",
+      "metaRank": 42,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1982 Volkswagen Pickup LX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "ATK Mang0",
+            "fill": "FFED7D31"
+          },
+          "row": 668,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "atk-mang0"
     },
     {
       "buildTags": [],
@@ -202,62 +238,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-volkswagen-pickup-lx",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-06",
-      "drivetrain": "AWD",
-      "id": "sc-167958905",
-      "metaRank": 42,
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Pickup LX",
-            "sharecode": "167 958 905",
-            "suspension": "Stock",
-            "tuneName": "B Dirt",
-            "tuner": "ATK Mang0",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2634,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1982 Volkswagen Pickup LX",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt",
-            "Tuner": "ATK Mang0",
-            "fill": "FFED7D31"
-          },
-          "row": 668,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.618,
-      "shareCode": "167958905",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "atk-mang0"
     }
   ],
   "schemaVersion": 1

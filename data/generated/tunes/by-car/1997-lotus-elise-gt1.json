@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -42,6 +42,42 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-lotus-elise-gt1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-43c9d6ff3d",
+      "metaRank": 19,
+      "name": "S1 Class - Road Racing - (55.0 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Lotus Elise GT1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - (55.0 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1989,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
     },
     {
       "buildTags": [],
@@ -119,6 +155,39 @@
       "tunerId": "gmsv2"
     },
     {
+      "buildTags": [],
+      "carId": "1997-lotus-elise-gt1",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-be6901dce7",
+      "name": "S2 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Lotus Elise GT1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF0070C0"
+          },
+          "row": 1991,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -128,30 +197,12 @@
         "purist"
       ],
       "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-05",
+      "confidence": 0.8,
       "drivetrain": "RWD",
-      "id": "sc-105228217",
+      "id": "nc-e944f267dd",
       "metaRank": 19,
       "name": "55.643 Shirakawa | Leightweight Purist with Anti-Lag",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "05/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "105 228 217",
-            "suspension": "Race",
-            "tuneName": "55.643 Shirakawa | Leightweight Purist with Anti-Lag",
-            "tuner": "F1R Kilian",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1483,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1997 Lotus Elise GT1",
@@ -169,120 +220,54 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.717,
-      "shareCode": "105228217",
+      "score": 0.635,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "offroad",
       "tunerId": "f1r-kilian"
     },
     {
       "buildTags": [],
       "carId": "1997-lotus-elise-gt1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-11",
-      "drivetrain": "AWD",
-      "id": "sc-111008464",
-      "name": "Road AWD Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "111 008 464",
-            "suspension": "Rally",
-            "tuneName": "Road AWD Grip",
-            "tuner": "LogikJ",
-            "tyreCompound": "Street"
-          },
-          "row": 1481,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.502,
-      "shareCode": "111008464",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
       "categories": [
-        "off-meta"
+        "meta"
       ],
       "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-08-22",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "sc-126505054",
-      "metaRank": 23,
-      "name": "S1 Dirt All-Around Grip",
+      "fromMeta": true,
+      "id": "nc-fadc28c76b",
+      "metaRank": 19,
+      "name": "S1 road AWD",
       "observations": [
         {
-          "raw": {
-            "class": "S1",
-            "date": "22/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "126 505 054",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt All-Around Grip",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1485,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
+          "raw": {},
+          "row": 41,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
         }
       ],
-      "score": 0.594,
-      "shareCode": "126505054",
-      "surface": "dirt",
-      "tier": "t1",
+      "role": "handling",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
+      "tires": "super-slick",
+      "tunerId": "trviis"
     },
     {
       "buildTags": [],
       "carId": "1997-lotus-elise-gt1",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-17",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "5.2L V10",
       "id": "sc-128495263",
       "name": "AWD Allround",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "17/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "128 495 263",
-            "suspension": "Race",
-            "tuneName": "AWD Allround",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 1491,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "Huracan engine",
@@ -302,359 +287,13 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.63,
+      "score": 0.416,
       "shareCode": "128495263",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
+      "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-13",
-      "drivetrain": "AWD",
-      "id": "sc-145507293",
-      "metaRank": 19,
-      "name": "S1 Class - Road Racing - (55.0 Shirakawa Circuit)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "145 507 293",
-            "suspension": "Race",
-            "tuneName": "S1 Class - Road Racing - (55.0 Shirakawa Circuit)",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Street"
-          },
-          "row": 1488,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1997 Lotus Elise GT1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Class - Road Racing - (55.0 Shirakawa Circuit)",
-            "Tuner": "VNX Ardent",
-            "fill": "FF7030A0"
-          },
-          "row": 1989,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.714,
-      "shareCode": "145507293",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "street",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-12",
-      "drivetrain": "AWD",
-      "id": "sc-156493573",
-      "metaRank": 19,
-      "name": "S1 AWD Road AMG V8 All-Around",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "12/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "156 493 573",
-            "suspension": "Rally",
-            "tuneName": "S1 AWD Road AMG V8 All-Around",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 1486,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.632,
-      "shareCode": "156493573",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-11",
-      "drivetrain": "RWD",
-      "id": "sc-165441079",
-      "metaRank": 19,
-      "name": "S1 Road RWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "165 441 079",
-            "suspension": "Rally",
-            "tuneName": "S1 Road RWD",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Street"
-          },
-          "row": 1489,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.632,
-      "shareCode": "165441079",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "street",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-22",
-      "drivetrain": "AWD",
-      "id": "sc-172082729",
-      "name": "S2 road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "22/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "172 082 729",
-            "suspension": "Race",
-            "tuneName": "S2 road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Slick"
-          },
-          "row": 1490,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1997 Lotus Elise GT1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S2 road",
-            "Tuner": "IceFrice8724",
-            "fill": "FF0070C0"
-          },
-          "row": 1991,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "172082729",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-01",
-      "drivetrain": "RWD",
-      "id": "sc-174528903",
-      "metaRank": 19,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "01/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "174 528 903",
-            "suspension": "Race",
-            "tuneName": "S1 Road",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Street"
-          },
-          "row": 1484,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.631,
-      "shareCode": "174528903",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "street",
-      "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-08-18",
-      "drivetrain": "AWD",
-      "id": "sc-190213880",
-      "name": "S2 Road Awd Shira 50.2 Clean Watch out the Trash Brake",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "18/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "190 213 880",
-            "suspension": "Race",
-            "tuneName": "S2 Road Awd Shira 50.2 Clean Watch out the Trash Brake",
-            "tuner": "nyasmowisher",
-            "tyreCompound": "Slick"
-          },
-          "row": 1492,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.497,
-      "shareCode": "190213880",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "nyasmowisher"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-11",
-      "drivetrain": "RWD",
-      "id": "sc-944328061",
-      "name": "Road RWD Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/09/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "944 328 061",
-            "suspension": "Rally",
-            "tuneName": "Road RWD Grip",
-            "tuner": "LogikJ",
-            "tyreCompound": "Street"
-          },
-          "row": 1482,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.502,
-      "shareCode": "944328061",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-08-10",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-987442572",
-      "metaRank": 19,
-      "name": "Shimanoyama WR (85% Stolen!)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "10/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Elise GT1",
-            "sharecode": "987 442 572",
-            "suspension": "Race",
-            "tuneName": "Shimanoyama WR (85% Stolen!)",
-            "tuner": "trviis",
-            "tyreCompound": "Slick"
-          },
-          "row": 1487,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "handling",
-      "score": 0.692,
-      "shareCode": "987442572",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "trviis"
     }
   ],
   "schemaVersion": 1

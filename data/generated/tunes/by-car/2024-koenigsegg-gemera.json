@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2024-koenigsegg-gemera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1226b30e93",
+      "metaRank": 115,
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Koenigsegg Gemera",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 road",
+            "Tuner": "Nalak28",
+            "fill": "FF7030A0"
+          },
+          "row": 1835,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "nalak28"
+    },
     {
       "buildTags": [],
       "carId": "2024-koenigsegg-gemera",
@@ -139,6 +175,39 @@
     {
       "buildTags": [],
       "carId": "2024-koenigsegg-gemera",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6a35a2b420",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Koenigsegg Gemera",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1833,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-koenigsegg-gemera",
       "categories": [
         "off-meta"
       ],
@@ -244,30 +313,12 @@
       "carId": "2024-koenigsegg-gemera",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
+      "confidence": 0.35,
       "drivetrain": "RWD",
       "engine": "Stock",
       "id": "sc-128439824",
       "name": "Queenology",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Gemera",
-            "sharecode": "128 439 824",
-            "suspension": "Race",
-            "tuneName": "Queenology",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Drift"
-          },
-          "row": 1322,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "Full Aero",
@@ -303,196 +354,13 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.765,
+      "score": 0.635,
       "shareCode": "128439824",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
       "tires": "drift",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-koenigsegg-gemera",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-29",
-      "drivetrain": "RWD",
-      "id": "sc-178088903",
-      "name": "S2 PB",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "29/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Gemera",
-            "sharecode": "178 088 903",
-            "suspension": "Race",
-            "tuneName": "S2 PB",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Rally"
-          },
-          "row": 1323,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.477,
-      "shareCode": "178088903",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-koenigsegg-gemera",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "id": "sc-184112032",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Gemera",
-            "sharecode": "184 112 032",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1320,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Koenigsegg Gemera",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 1833,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "184112032",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-koenigsegg-gemera",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-28",
-      "drivetrain": "AWD",
-      "id": "sc-418057789",
-      "metaRank": 115,
-      "name": "S1 road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "28/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Gemera",
-            "sharecode": "418 057 789",
-            "suspension": "Race",
-            "tuneName": "S1 road",
-            "tuner": "Nalak28",
-            "tyreCompound": "Rally"
-          },
-          "row": 1321,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Koenigsegg Gemera",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 road",
-            "Tuner": "Nalak28",
-            "fill": "FF7030A0"
-          },
-          "row": 1835,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.614,
-      "shareCode": "418057789",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-koenigsegg-gemera",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-799171163",
-      "name": "The Purest Of Them All",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Gemera",
-            "sharecode": "799 171 163",
-            "suspension": "Race",
-            "tuneName": "The Purest Of Them All",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1319,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "799171163",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

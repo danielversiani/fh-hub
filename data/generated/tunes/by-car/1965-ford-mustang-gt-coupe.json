@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -25,12 +25,12 @@
         "en": "Clean lap.",
         "pt-br": "Volta limpa."
       },
-      "metaRank": 133,
+      "metaRank": 136,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 272,
+          "row": 278,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -78,6 +78,42 @@
       "buildTags": [],
       "carId": "1965-ford-mustang-gt-coupe",
       "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-827d6b1883",
+      "metaRank": 25,
+      "name": "Very Good A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Ford Mustang Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Very Good A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1485,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-ford-mustang-gt-coupe",
+      "categories": [
         "meta"
       ],
       "class": "C",
@@ -119,182 +155,6 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "msr-sam"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-ford-mustang-gt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-137105814",
-      "metaRank": 25,
-      "name": "Strong A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT Coupé",
-            "sharecode": "137 105 814",
-            "suspension": "Rally",
-            "tuneName": "Strong A Dirt",
-            "tuner": "Rocklxd",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 974,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.592,
-      "shareCode": "137105814",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "rocklxd"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-ford-mustang-gt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-10",
-      "drivetrain": "AWD",
-      "id": "sc-512093496",
-      "metaRank": 25,
-      "name": "Strong Rally V1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT Coupé",
-            "sharecode": "512 093 496",
-            "suspension": "Rally",
-            "tuneName": "Strong Rally V1",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 976,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.586,
-      "shareCode": "512093496",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-ford-mustang-gt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-529028958",
-      "metaRank": 25,
-      "name": "Very Good A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT Coupé",
-            "sharecode": "529 028 958",
-            "suspension": "Rally",
-            "tuneName": "Very Good A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 977,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1965 Ford Mustang Coupé",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Very Good A Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1485,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "529028958",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-ford-mustang-gt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-02",
-      "drivetrain": "AWD",
-      "id": "sc-552620304",
-      "metaRank": 25,
-      "name": "Strong A Dirt (Stock Hood)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT Coupé",
-            "sharecode": "552 620 304",
-            "suspension": "Rally",
-            "tuneName": "Strong A Dirt (Stock Hood)",
-            "tuner": "Rocklxd",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 975,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.592,
-      "shareCode": "552620304",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "rocklxd"
     }
   ],
   "schemaVersion": 1

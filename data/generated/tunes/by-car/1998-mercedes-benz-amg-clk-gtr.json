@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -40,6 +40,81 @@
       ],
       "class": "S1",
       "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-15d6019cf2",
+      "metaRank": 5,
+      "name": "S1 Dirt Handling Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Mercedes-Benz AMG CLK GTR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Handling Meta",
+            "Tuner": "TheDannny",
+            "fill": "FF7030A0"
+          },
+          "row": 2302,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-20d2357010",
+      "metaRank": 64,
+      "name": "Purist | 17.7 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Mercedes-Benz AMG CLK GTR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist | 17.7 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2304,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
@@ -62,6 +137,110 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6da4c4095a",
+      "name": "S2 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Mercedes-Benz AMG CLK GTR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S2 Dirt",
+            "Tuner": "LogikJ",
+            "fill": "FF0070C0"
+          },
+          "row": 2305,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7ad5237fc0",
+      "name": "A Class Dirt Grip/Circuits Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Mercedes-Benz AMG CLK GTR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Class Dirt Grip/Circuits Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 2297,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-7ff01ab1a9",
+      "metaRank": 64,
+      "name": "AWD Stock Look + Stock Motor Road | 16.7 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Mercedes-Benz AMG CLK GTR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD Stock Look + Stock Motor Road | 16.7 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2303,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -119,7 +298,7 @@
             "Tuner": "KapienPL",
             "fill": "FF7030A0"
           },
-          "row": 2300,
+          "row": 2299,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -129,6 +308,42 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-d5b74fe7f3",
+      "metaRank": 5,
+      "name": "S1 Dirt Handling Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Mercedes-Benz AMG CLK GTR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Handling Meta",
+            "Tuner": "Rocklxd",
+            "fill": "FF7030A0"
+          },
+          "row": 2300,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "rocklxd"
     },
     {
       "buildTags": [
@@ -154,7 +369,7 @@
             "Tuner": "GReddy295",
             "fill": "FF0070C0"
           },
-          "row": 2307,
+          "row": 2306,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -164,6 +379,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "greddy295"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d80a2bf705",
+      "name": "A Road UPD | AWD No Aero | 01.9 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Mercedes-Benz AMG CLK GTR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road UPD | AWD No Aero | 01.9 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2298,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -190,7 +438,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 2302,
+          "row": 2301,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -202,479 +450,18 @@
       "tunerId": "sr1-rain"
     },
     {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-15",
-      "drivetrain": "AWD",
-      "id": "sc-112707300",
-      "metaRank": 5,
-      "name": "S1 Dirt Handling Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "15/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "112 707 300",
-            "suspension": "Race",
-            "tuneName": "S1 Dirt Handling Meta",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1768,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1998 Mercedes-Benz AMG CLK GTR",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Handling Meta",
-            "Tuner": "TheDannny",
-            "fill": "FF7030A0"
-          },
-          "row": 2303,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.743,
-      "shareCode": "112707300",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
-      "drivetrain": "AWD",
-      "id": "sc-113745403",
-      "name": "A Class Grip Allround - Use on Road or Dirt it works for both",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "113 745 403",
-            "suspension": "Race",
-            "tuneName": "A Class Grip Allround - Use on Road or Dirt it works for both",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1763,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "113745403",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-125207258",
-      "name": "A Class Dirt Grip/Circuits Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "125 207 258",
-            "suspension": "Race",
-            "tuneName": "A Class Dirt Grip/Circuits Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1762,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1998 Mercedes-Benz AMG CLK GTR",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Class Dirt Grip/Circuits Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 2298,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "125207258",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-12",
-      "drivetrain": "AWD",
-      "id": "sc-126958137",
-      "name": "A Road UPD | AWD No Aero | 01.9 Shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "126 958 137",
-            "suspension": "Race",
-            "tuneName": "A Road UPD | AWD No Aero | 01.9 Shirakawa",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Street"
-          },
-          "row": 1761,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1998 Mercedes-Benz AMG CLK GTR",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road UPD | AWD No Aero | 01.9 Shirakawa",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 2299,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.692,
-      "shareCode": "126958137",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-08-13",
-      "drivetrain": "AWD",
-      "id": "sc-133744862",
-      "metaRank": 64,
-      "name": "AWD Stock Look + Stock Motor Road | 16.7 Legend Island",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "133 744 862",
-            "suspension": "Race",
-            "tuneName": "AWD Stock Look + Stock Motor Road | 16.7 Legend Island",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 1765,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1998 Mercedes-Benz AMG CLK GTR",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "AWD Stock Look + Stock Motor Road | 16.7 Legend Island",
-            "Tuner": "DRX Q3",
-            "fill": "FF7030A0"
-          },
-          "row": 2304,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.679,
-      "shareCode": "133744862",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-24",
-      "drivetrain": "AWD",
-      "id": "sc-148068541",
-      "metaRank": 5,
-      "name": "S1 Dirt Handling Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "24/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "148 068 541",
-            "suspension": "Race",
-            "tuneName": "S1 Dirt Handling Meta",
-            "tuner": "Rocklxd",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1767,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1998 Mercedes-Benz AMG CLK GTR",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Handling Meta",
-            "Tuner": "Rocklxd",
-            "fill": "FF7030A0"
-          },
-          "row": 2301,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.74,
-      "shareCode": "148068541",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "rocklxd"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-335600643",
-      "name": "S2 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "335 600 643",
-            "suspension": "Race",
-            "tuneName": "S2 Dirt",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1770,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1998 Mercedes-Benz AMG CLK GTR",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S2 Dirt",
-            "Tuner": "LogikJ",
-            "fill": "FF0070C0"
-          },
-          "row": 2306,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "335600643",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-20",
-      "drivetrain": "AWD",
-      "id": "sc-475534715",
-      "name": "A700 AWD Road | No Aero | 47.5 Narai Juku",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "475 534 715",
-            "suspension": "Race",
-            "tuneName": "A700 AWD Road | No Aero | 47.5 Narai Juku",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Street"
-          },
-          "row": 1760,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "475534715",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-14",
-      "drivetrain": "AWD",
-      "id": "sc-648444434",
-      "metaRank": 5,
-      "name": "S1 Dirt Grip Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "648 444 434",
-            "suspension": "Race",
-            "tuneName": "S1 Dirt Grip Meta",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1766,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "648444434",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
       "buildTags": [
         "full-aero"
       ],
       "carId": "1998-mercedes-benz-amg-clk-gtr",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-04",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "Racing V12",
       "id": "sc-751485535",
       "name": "AWD Allround",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "04/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "751 485 535",
-            "suspension": "Race",
-            "tuneName": "AWD Allround",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 1769,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "Full Aero",
@@ -694,72 +481,13 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.634,
+      "score": 0.416,
       "shareCode": "751485535",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
+      "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1998-mercedes-benz-amg-clk-gtr",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-20",
-      "drivetrain": "RWD",
-      "id": "sc-779647291",
-      "metaRank": 64,
-      "name": "Purist | 17.7 Legend Island",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "20/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG CLK GTR",
-            "sharecode": "779 647 291",
-            "suspension": "Race",
-            "tuneName": "Purist | 17.7 Legend Island",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Drift"
-          },
-          "row": 1764,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1998 Mercedes-Benz AMG CLK GTR",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist | 17.7 Legend Island",
-            "Tuner": "DRX Q3",
-            "fill": "FF7030A0"
-          },
-          "row": 2305,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "779647291",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

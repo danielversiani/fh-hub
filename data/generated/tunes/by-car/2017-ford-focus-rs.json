@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -33,84 +33,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ver-enderau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-ford-focus-rs",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-121382037",
-      "name": "A Road WB w/Stock Trans",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Focus RS (2017)",
-            "sharecode": "121 382 037",
-            "suspension": "Street",
-            "tuneName": "A Road WB w/Stock Trans",
-            "tuner": "VER EnderAU",
-            "tyreCompound": "Rally"
-          },
-          "row": 929,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "121382037",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ver-enderau"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2017-ford-focus-rs",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-126292501",
-      "name": "Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Focus RS (2017)",
-            "sharecode": "126 292 501",
-            "suspension": "Street",
-            "tuneName": "Road Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 930,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "126292501",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

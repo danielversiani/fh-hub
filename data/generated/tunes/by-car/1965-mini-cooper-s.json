@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1965-mini-cooper-s",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-686f0fbf77",
+      "name": "David vs Goliath (SD F-450)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Mini Cooper S",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "David vs Goliath (SD F-450)",
+            "Tuner": "K1Z Jeremy",
+            "fill": "FFED7D31"
+          },
+          "row": 442,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-jeremy"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1965-mini-cooper-s",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-79a267915c",
+      "name": "Demon of technologic development",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Mini Cooper S",
+            "Comment": "Powerbuild, TCS advised",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Demon of technologic development",
+            "Tuner": "QuasarPole",
+            "fill": "FFED7D31"
+          },
+          "row": 443,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "quasarpole"
+    },
     {
       "buildTags": [],
       "carId": "1965-mini-cooper-s",
@@ -36,234 +104,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-mini-cooper-s",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-08",
-      "drivetrain": "AWD",
-      "id": "sc-111546806",
-      "name": "David vs Goliath (SD F-450)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "08/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mini",
-            "model": "Cooper S",
-            "sharecode": "111 546 806",
-            "suspension": "Rally",
-            "tuneName": "David vs Goliath (SD F-450)",
-            "tuner": "K1Z Jeremy",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1806,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1965 Mini Cooper S",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "David vs Goliath (SD F-450)",
-            "Tuner": "K1Z Jeremy",
-            "fill": "FFED7D31"
-          },
-          "row": 442,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.662,
-      "shareCode": "111546806",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "k1z-jeremy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-mini-cooper-s",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-08-01",
-      "drivetrain": "AWD",
-      "id": "sc-173566101",
-      "metaRank": 36,
-      "name": "B Dirt AWF v1.1 WB+FA K20 (1:04.5 Sunflower) All-Around",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mini",
-            "model": "Cooper S",
-            "sharecode": "173 566 101",
-            "suspension": "Stock",
-            "tuneName": "B Dirt AWF v1.1 WB+FA K20 (1:04.5 Sunflower) All-Around",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1809,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.535,
-      "shareCode": "173566101",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-mini-cooper-s",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-08-13",
-      "drivetrain": "AWD",
-      "id": "sc-183506305",
-      "metaRank": 36,
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "13/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mini",
-            "model": "Cooper S",
-            "sharecode": "183 506 305",
-            "suspension": "Stock",
-            "tuneName": "B Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1808,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.537,
-      "shareCode": "183506305",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1965-mini-cooper-s",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "FWD",
-      "id": "sc-587796547",
-      "name": "Demon of technologic development",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "25/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Mini",
-            "model": "Cooper S",
-            "sharecode": "587 796 547",
-            "suspension": "Sport",
-            "tuneName": "Demon of technologic development",
-            "tuner": "QuasarPole",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1807,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1965 Mini Cooper S",
-            "Comment": "Powerbuild, TCS advised",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Demon of technologic development",
-            "Tuner": "QuasarPole",
-            "fill": "FFED7D31"
-          },
-          "row": 443,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "587796547",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "quasarpole"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-mini-cooper-s",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-26",
-      "drivetrain": "AWD",
-      "id": "sc-795673463",
-      "metaRank": 36,
-      "name": "No Aero WB Dirt Circuit T1+ Sunflower 04.5 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "26/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mini",
-            "model": "Cooper S",
-            "sharecode": "795 673 463",
-            "suspension": "Stock",
-            "tuneName": "No Aero WB Dirt Circuit T1+ Sunflower 04.5 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1810,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.535,
-      "shareCode": "795673463",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
     }
   ],
   "schemaVersion": 1

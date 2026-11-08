@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -133,120 +133,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-nissan-safari-turbo",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-18",
-      "drivetrain": "AWD",
-      "id": "sc-170824026",
-      "name": "Dirt Allround OFFMETA Sunflower 59.2 M/C",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Safari Turbo",
-            "sharecode": "170 824 026",
-            "suspension": "Rally",
-            "tuneName": "Dirt Allround OFFMETA Sunflower 59.2 M/C",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2002,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.497,
-      "shareCode": "170824026",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-nissan-safari-turbo",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-19",
-      "drivetrain": "AWD",
-      "id": "sc-172734912",
-      "metaRank": 23,
-      "name": "A Cross Country",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Safari Turbo",
-            "sharecode": "172 734 912",
-            "suspension": "Rally",
-            "tuneName": "A Cross Country",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2001,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.582,
-      "shareCode": "172734912",
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-nissan-safari-turbo",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
-      "drivetrain": "AWD",
-      "id": "sc-360140869",
-      "name": "1.3G Dirt/CC V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Safari Turbo",
-            "sharecode": "360 140 869",
-            "suspension": "Stock",
-            "tuneName": "1.3G Dirt/CC V2",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2003,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.475,
-      "shareCode": "360140869",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "slowbakedpanda"
     }
   ],
   "schemaVersion": 1

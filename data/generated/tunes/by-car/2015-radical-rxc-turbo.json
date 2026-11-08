@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2015-radical-rxc-turbo",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-792414499",
+      "id": "nc-6061089b0e",
       "name": "S2 road",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Radical",
-            "model": "RXC Turbo",
-            "sharecode": "792 414 499",
-            "suspension": "Race",
-            "tuneName": "S2 road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Slick"
-          },
-          "row": 2252,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2015 Radical RXC Turbo",
@@ -41,17 +23,15 @@
             "Tuner": "IceFrice8724",
             "fill": "FF0070C0"
           },
-          "row": 2697,
+          "row": 2696,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.663,
-      "shareCode": "792414499",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
       "tunerId": "icefrice8724"
     },
     {

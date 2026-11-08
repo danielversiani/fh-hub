@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-cadillac-xts-limousine",
+      "categories": [
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-05f61ad04c",
+      "name": "Ca dih llac",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Cadillac XTS Limousine",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Ca dih llac",
+            "Tuner": "Fenrir3268",
+            "fill": "FFED7D31"
+          },
+          "row": 198,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "fenrir3268"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-cadillac-xts-limousine",
+      "categories": [
+        "off-meta",
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0c0f517f28",
+      "metaRank": 75,
+      "name": "Ramming Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Cadillac XTS Limousine",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Ramming Meta",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 199,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.513,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
     {
       "buildTags": [],
       "carId": "2013-cadillac-xts-limousine",
@@ -26,12 +98,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 148,
+      "metaRank": 151,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 302,
+          "row": 308,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -69,12 +141,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 76,
+      "metaRank": 75,
       "name": "B road FWD",
       "observations": [
         {
           "raw": {},
-          "row": 157,
+          "row": 155,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -86,194 +158,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-cadillac-xts-limousine",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-100735985",
-      "name": "Ramming Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Cadillac",
-            "model": "XTS Limousine",
-            "sharecode": "100 735 985",
-            "suspension": "Sport",
-            "tuneName": "Ramming Meta",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 435,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Cadillac XTS Limousine",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Ramming Meta",
-            "Tuner": "GreetedDust8",
-            "fill": "FFED7D31"
-          },
-          "row": 199,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "100735985",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-cadillac-xts-limousine",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-135578771",
-      "name": "Solid B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Cadillac",
-            "model": "XTS Limousine",
-            "sharecode": "135 578 771",
-            "suspension": "Street",
-            "tuneName": "Solid B Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 437,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "135578771",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-cadillac-xts-limousine",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-27",
-      "drivetrain": "AWD",
-      "id": "sc-225006792",
-      "name": "Cross Crunchy",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "27/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Cadillac",
-            "model": "XTS Limousine",
-            "sharecode": "225 006 792",
-            "suspension": "Street",
-            "tuneName": "Cross Crunchy",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 436,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "225006792",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-cadillac-xts-limousine",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-28",
-      "drivetrain": "AWD",
-      "id": "sc-853796872",
-      "name": "Ca dih llac",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "28/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Cadillac",
-            "model": "XTS Limousine",
-            "sharecode": "853 796 872",
-            "suspension": "Street",
-            "tuneName": "Ca dih llac",
-            "tuner": "Fenrir3268",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 434,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Cadillac XTS Limousine",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Ca dih llac",
-            "Tuner": "Fenrir3268",
-            "fill": "FFED7D31"
-          },
-          "row": 198,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "853796872",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "fenrir3268"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -39,66 +39,11 @@
       "carId": "1983-volvo-242-turbo-evolution",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-06",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-337960932",
-      "name": "Volvo Rally/Dirt (No aero) w/ Roof Scoop",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volvo",
-            "model": "242 Turbo Evolution",
-            "sharecode": "337 960 932",
-            "suspension": "Street",
-            "tuneName": "Volvo Rally/Dirt (No aero) w/ Roof Scoop",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2657,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "337960932",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1983-volvo-242-turbo-evolution",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-18",
-      "drivetrain": "AWD",
-      "id": "sc-381550924",
+      "id": "nc-340177566e",
       "name": "B Dirt Rally AWD",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volvo",
-            "model": "242 Turbo Evolution",
-            "sharecode": "381 550 924",
-            "suspension": "Rally",
-            "tuneName": "B Dirt Rally AWD",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2656,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1983 Volvo 242 Turbo Evolution",
@@ -116,12 +61,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.664,
-      "shareCode": "381550924",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "logikj"
     },
     {
@@ -129,29 +72,11 @@
       "carId": "1983-volvo-242-turbo-evolution",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-547862720",
+      "id": "nc-b759455f02",
       "name": "RB26swap",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Volvo",
-            "model": "242 Turbo Evolution",
-            "sharecode": "547 862 720",
-            "suspension": "Race",
-            "tuneName": "RB26swap",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 2655,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1983 Volvo 242 Turbo Evolution",
@@ -164,17 +89,15 @@
             "Tuner": "SilvaSUPERBEE",
             "fill": "FFFF0000"
           },
-          "row": 3000,
+          "row": 2999,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.66,
-      "shareCode": "547862720",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "silvasuperbee"
     }
   ],

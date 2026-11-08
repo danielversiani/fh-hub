@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -89,7 +89,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2879,
+          "row": 2878,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -99,6 +99,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-abc8a5842e",
+      "name": "A CC (M/C)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Toyota Land Cruiser Arctic Trucks AT37",
+            "Comment": "",
+            "Design": "MONSTER HYDRO",
+            "Designer": "Duff 790",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A CC (M/C)",
+            "Tuner": "TheDannny",
+            "fill": "FFFF0000"
+          },
+          "row": 2880,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
     },
     {
       "buildTags": [],
@@ -122,7 +155,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2882,
+          "row": 2881,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -137,67 +170,12 @@
       "buildTags": [],
       "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
       "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-12",
-      "drivetrain": "AWD",
-      "id": "sc-149827229",
-      "name": "B OFFROAD",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "12/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Land Cruiser Arctic Trucks AT37",
-            "sharecode": "149 827 229",
-            "suspension": "Race",
-            "tuneName": "B OFFROAD",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2518,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "149827229",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
-      "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-06",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-176333480",
+      "id": "nc-d882238383",
       "name": "A DIrt/CC (Use this one)",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Land Cruiser Arctic Trucks AT37",
-            "sharecode": "176 333 480",
-            "suspension": "Race",
-            "tuneName": "A DIrt/CC (Use this one)",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2516,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2016 Toyota Land Cruiser Arctic Trucks AT37",
@@ -210,71 +188,16 @@
             "Tuner": "SR1 Rain",
             "fill": "FFFF0000"
           },
-          "row": 2880,
+          "row": 2879,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.662,
-      "shareCode": "176333480",
+      "score": 0.474,
       "surface": "cross-country",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-508897921",
-      "name": "A CC (M/C)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Land Cruiser Arctic Trucks AT37",
-            "sharecode": "508 897 921",
-            "suspension": "Race",
-            "tuneName": "A CC (M/C)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2517,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2016 Toyota Land Cruiser Arctic Trucks AT37",
-            "Comment": "",
-            "Design": "MONSTER HYDRO",
-            "Designer": "Duff 790",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A CC (M/C)",
-            "Tuner": "TheDannny",
-            "fill": "FFFF0000"
-          },
-          "row": 2881,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "508897921",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

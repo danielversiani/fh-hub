@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -47,29 +47,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-115283644",
+      "id": "nc-a28de3ba0b",
       "name": "Purist Road",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-7 GSL-SE",
-            "sharecode": "115 283 644",
-            "suspension": "Street",
-            "tuneName": "Purist Road",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 1618,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1985 Mazda RX-7 GSL-SE",
@@ -87,87 +69,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.656,
-      "shareCode": "115283644",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "keerj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-mazda-rx-7-gsl-se",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-14",
-      "drivetrain": "RWD",
-      "id": "sc-150887009",
-      "name": "A Class Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-7 GSL-SE",
-            "sharecode": "150 887 009",
-            "suspension": "Race",
-            "tuneName": "A Class Road",
-            "tuner": "Zaabry",
-            "tyreCompound": "Rally"
-          },
-          "row": 1619,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
       "score": 0.474,
-      "shareCode": "150887009",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zaabry"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-mazda-rx-7-gsl-se",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
-      "drivetrain": "RWD",
-      "id": "sc-165208837",
-      "name": "B Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-7 GSL-SE",
-            "sharecode": "165 208 837",
-            "suspension": "Stock",
-            "tuneName": "B Road",
-            "tuner": "Nalak28",
-            "tyreCompound": "Street"
-          },
-          "row": 1620,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.475,
-      "shareCode": "165208837",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "nalak28"
+      "tunerId": "keerj"
     }
   ],
   "schemaVersion": 1

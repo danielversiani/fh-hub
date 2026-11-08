@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -59,29 +59,11 @@
       "carId": "1973-mazda-rx-3",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-135705504",
+      "id": "nc-72e05829bb",
       "name": "Rotary Randy (B Dirt)",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "RX-3",
-            "sharecode": "135 705 504",
-            "suspension": "Stock",
-            "tuneName": "Rotary Randy (B Dirt)",
-            "tuner": "ShaggyScroll660",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1614,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1973 Mazda RX-3",
@@ -99,54 +81,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.66,
-      "shareCode": "135705504",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "shaggyscroll660"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1973-mazda-rx-3",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-895007574",
-      "name": "Purist Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-3",
-            "sharecode": "895 007 574",
-            "suspension": "Race",
-            "tuneName": "Purist Road",
-            "tuner": "keerj",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 1613,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "895007574",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage-race",
-      "tunerId": "keerj"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -39,6 +39,45 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-dodge-dart-hemi-super-stock",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-3014d796a2",
+      "metaRank": 57,
+      "name": "Purist meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Dodge Dart Hemi Super Stock",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist meta",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1247,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
     },
     {
       "buildTags": [
@@ -298,65 +337,6 @@
       "tierSource": "meta-table",
       "tires": "vintage",
       "tunerId": "msr-sam"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1968-dodge-dart-hemi-super-stock",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "RWD",
-      "id": "sc-572163489",
-      "metaRank": 43,
-      "name": "Purist Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Dart Hemi Super Stock",
-            "sharecode": "572 163 489",
-            "suspension": "Race",
-            "tuneName": "Purist Meta",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 711,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Dodge Dart Hemi Super Stock",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist meta",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1247,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.471,
-      "shareCode": "572163489",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
     }
   ],
   "schemaVersion": 1

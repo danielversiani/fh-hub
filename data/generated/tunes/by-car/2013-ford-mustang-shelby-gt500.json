@@ -1,63 +1,6 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2013-ford-mustang-shelby-gt500",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-29",
-      "drivetrain": "RWD",
-      "id": "sc-326504099",
-      "name": "Purist drifts",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "Mustang Shelby GT500 (2013)",
-            "sharecode": "326 504 099",
-            "suspension": "Sport",
-            "tuneName": "Purist drifts",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Drift"
-          },
-          "row": 989,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Ford Mustang Shelby GT500",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist drifts",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1556,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "326504099",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "silvasuperbee"
-    },
     {
       "buildTags": [
         "powerbuild",
@@ -68,29 +11,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-20",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-693150604",
+      "id": "nc-6b079bb46b",
       "name": "Purist Powerbuild",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "Mustang Shelby GT500 (2013)",
-            "sharecode": "693 150 604",
-            "suspension": "Sport",
-            "tuneName": "Purist Powerbuild",
-            "tuner": "wood2GR",
-            "tyreCompound": "Drift"
-          },
-          "row": 990,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2013 Ford Mustang Shelby GT500",
@@ -108,13 +33,48 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.665,
-      "shareCode": "693150604",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "drift",
       "tunerId": "wood2gr"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2013-ford-mustang-shelby-gt500",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-e2d5998861",
+      "name": "Purist drifts",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Ford Mustang Shelby GT500",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist drifts",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1556,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
     }
   ],
   "schemaVersion": 1

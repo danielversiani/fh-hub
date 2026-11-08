@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "oLuneta",
             "fill": "FFFF0000"
           },
-          "row": 2335,
+          "row": 2334,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -39,29 +39,11 @@
       "carId": "2012-mercedes-benz-c-63-amg-coupe-black-series",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-114618026",
+      "id": "nc-87bbea36de",
       "name": "a road",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "01/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "C 63 AMG Coupé Black Series",
-            "sharecode": "114 618 026",
-            "suspension": "Rally",
-            "tuneName": "a road",
-            "tuner": "KorbenDallas709",
-            "tyreCompound": "Rally"
-          },
-          "row": 1775,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2012 Mercedes-Benz C 63 AMG Coupé Black Series",
@@ -74,17 +56,15 @@
             "Tuner": "KorbenDallas709",
             "fill": "FFFF0000"
           },
-          "row": 2336,
+          "row": 2335,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.66,
-      "shareCode": "114618026",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "korbendallas709"
     },
     {
@@ -92,29 +72,11 @@
       "carId": "2012-mercedes-benz-c-63-amg-coupe-black-series",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-22",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-124696744",
+      "id": "nc-8e73f65bf6",
       "name": "German Brick Deluxe with widebody (00.6 Shira)",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "C 63 AMG Coupé Black Series",
-            "sharecode": "124 696 744",
-            "suspension": "Sport",
-            "tuneName": "German Brick Deluxe with widebody (00.6 Shira)",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1776,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2012 Mercedes-Benz C 63 AMG Coupé Black Series",
@@ -127,55 +89,16 @@
             "Tuner": "LetzeLU",
             "fill": "FFFF0000"
           },
-          "row": 2334,
+          "row": 2333,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.673,
-      "shareCode": "124696744",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-mercedes-benz-c-63-amg-coupe-black-series",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-937243999",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "C 63 AMG Coupé Black Series",
-            "sharecode": "937 243 999",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1777,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "937243999",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -25,12 +25,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 74,
+      "metaRank": 73,
       "name": "B road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 152,
+          "row": 150,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -135,132 +135,6 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2006-vauxhall-astra-vxr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-09-24",
-      "drivetrain": "AWD",
-      "id": "sc-146425918",
-      "metaRank": 34,
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "24/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Vauxhall",
-            "model": "Astra VXR",
-            "sharecode": "146 425 918",
-            "suspension": "Street",
-            "tuneName": "B Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2605,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.598,
-      "shareCode": "146425918",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2006-vauxhall-astra-vxr",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-09-24",
-      "drivetrain": "FWD",
-      "id": "sc-178300112",
-      "metaRank": 74,
-      "name": "purist road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "24/09/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Vauxhall",
-            "model": "Astra VXR",
-            "sharecode": "178 300 112",
-            "suspension": "Street",
-            "tuneName": "purist road",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 2604,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.598,
-      "shareCode": "178300112",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2006-vauxhall-astra-vxr",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-09-24",
-      "drivetrain": "FWD",
-      "id": "sc-881776599",
-      "metaRank": 74,
-      "name": "B road purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "24/09/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Vauxhall",
-            "model": "Astra VXR",
-            "sharecode": "881 776 599",
-            "suspension": "Street",
-            "tuneName": "B road purist",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2603,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.598,
-      "shareCode": "881776599",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "icefrice8724"
     }
   ],
   "schemaVersion": 1

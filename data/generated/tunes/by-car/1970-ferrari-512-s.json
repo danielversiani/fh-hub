@@ -1,165 +1,6 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1970-ferrari-512-s",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-12",
-      "drivetrain": "AWD",
-      "id": "sc-124352117",
-      "name": "AWD Allround Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "12/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "512 S",
-            "sharecode": "124 352 117",
-            "suspension": "Race",
-            "tuneName": "AWD Allround Road",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
-          },
-          "row": 815,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Ferrari 512 S",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "AWD Allround Road",
-            "Tuner": "zombiejesus52",
-            "fill": "FF7030A0"
-          },
-          "row": 1378,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "124352117",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-ferrari-512-s",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
-      "drivetrain": "AWD",
-      "id": "sc-162849094",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "23/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "512 S",
-            "sharecode": "162 849 094",
-            "suspension": "Race",
-            "tuneName": "S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 813,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Ferrari 512 S",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 1376,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "162849094",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-ferrari-512-s",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-311116905",
-      "name": "S1 Class Dirt Good",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "512 S",
-            "sharecode": "311 116 905",
-            "suspension": "Rally",
-            "tuneName": "S1 Class Dirt Good",
-            "tuner": "TNR MaksJaga",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 814,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Ferrari 512 S",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Class Dirt Good",
-            "Tuner": "TNR MaksJaga",
-            "fill": "FF7030A0"
-          },
-          "row": 1377,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "311116905",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "tnr-maksjaga"
-    },
     {
       "buildTags": [
         "purist"
@@ -169,29 +10,11 @@
         "purist"
       ],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-11",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-713192433",
+      "id": "nc-13c1799297",
       "name": "Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "512 S",
-            "sharecode": "713 192 433",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 812,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1970 Ferrari 512 S",
@@ -209,13 +32,110 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.67,
-      "shareCode": "713192433",
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-ferrari-512-s",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-4e7c704581",
+      "name": "AWD Allround Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Ferrari 512 S",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD Allround Road",
+            "Tuner": "zombiejesus52",
+            "fill": "FF7030A0"
+          },
+          "row": 1378,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-ferrari-512-s",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e3f8dba58f",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Ferrari 512 S",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1376,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-ferrari-512-s",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ef1621306b",
+      "name": "S1 Class Dirt Good",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Ferrari 512 S",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Class Dirt Good",
+            "Tuner": "TNR MaksJaga",
+            "fill": "FF7030A0"
+          },
+          "row": 1377,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "tnr-maksjaga"
     }
   ],
   "schemaVersion": 1

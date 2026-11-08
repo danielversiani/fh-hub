@@ -1,146 +1,17 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2017-koenigsegg-agera-rs",
       "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-160703091",
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Agera RS",
-            "sharecode": "160 703 091",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "KapienPL",
-            "tyreCompound": "Rally"
-          },
-          "row": 1316,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "160703091",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-koenigsegg-agera-rs",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-175645424",
-      "name": "S1 Road Easy",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Agera RS",
-            "sharecode": "175 645 424",
-            "suspension": "Race",
-            "tuneName": "S1 Road Easy",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Rally"
-          },
-          "row": 1315,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "175645424",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-koenigsegg-agera-rs",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-23",
-      "drivetrain": "AWD",
-      "id": "sc-176333380",
-      "name": "S1 Road Creature",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "23/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Agera RS",
-            "sharecode": "176 333 380",
-            "suspension": "Race",
-            "tuneName": "S1 Road Creature",
-            "tuner": "CTE mag",
-            "tyreCompound": "Rally"
-          },
-          "row": 1313,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "176333380",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "cte-mag"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-koenigsegg-agera-rs",
-      "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
+      "confidence": 0.35,
       "drivetrain": "RWD",
       "engine": "5.0L V8",
       "id": "sc-519750752",
       "name": "It's a CCGT",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Agera RS",
-            "sharecode": "519 750 752",
-            "suspension": "Race",
-            "tuneName": "It's a CCGT",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 1317,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "CCGT engine",
@@ -160,87 +31,13 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.626,
+      "score": 0.416,
       "shareCode": "519750752",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
       "tires": "slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-koenigsegg-agera-rs",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-25",
-      "drivetrain": "AWD",
-      "id": "sc-716900152",
-      "name": "S2 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "25/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Agera RS",
-            "sharecode": "716 900 152",
-            "suspension": "Race",
-            "tuneName": "S2 Road",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Slick"
-          },
-          "row": 1318,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.491,
-      "shareCode": "716900152",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-koenigsegg-agera-rs",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
-      "drivetrain": "AWD",
-      "id": "sc-832588491",
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Koenigsegg",
-            "model": "Agera RS",
-            "sharecode": "832 588 491",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Rally"
-          },
-          "row": 1314,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.48,
-      "shareCode": "832588491",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-howzer"
     }
   ],
   "schemaVersion": 1

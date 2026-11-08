@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -14,12 +14,12 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-55ae7d1ebc",
-      "metaRank": 70,
+      "metaRank": 69,
       "name": "B road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 144,
+          "row": 142,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -73,43 +73,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "msr-pyke"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-toyota-sports-800",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-109992000",
-      "name": "Motorbike Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sports 800",
-            "sharecode": "109 992 000",
-            "suspension": "Rally",
-            "tuneName": "Motorbike Dirt",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2537,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "109992000",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

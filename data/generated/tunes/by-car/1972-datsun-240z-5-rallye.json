@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -33,6 +33,83 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-datsun-240z-5-rallye",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-6de24a07fb",
+      "metaRank": 23,
+      "name": "53.5 Sekibe (F4 + CSC)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Datsun 240Z #5 Rallye",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "53.5 Sekibe (F4 + CSC)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1192,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-datsun-240z-5-rallye",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-956a6bc69e",
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Datsun 240Z #5 Rallye",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 247,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -102,83 +179,6 @@
       "tunerId": "caigou-yyy"
     },
     {
-      "buildTags": [],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-09",
-      "drivetrain": "AWD",
-      "id": "sc-108471528",
-      "metaRank": 23,
-      "name": "FA24 Dirt Allround T2 Sunflower 00.1 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "108 471 528",
-            "suspension": "Rally",
-            "tuneName": "FA24 Dirt Allround T2 Sunflower 00.1 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 625,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.6,
-      "shareCode": "108471528",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-09",
-      "drivetrain": "AWD",
-      "id": "sc-111105983",
-      "name": "A Road AWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "111 105 983",
-            "suspension": "Race",
-            "tuneName": "A Road AWD",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Rally"
-          },
-          "row": 620,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "111105983",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ams-carver"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -187,127 +187,11 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-10-09",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-120242102",
-      "name": "Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "09/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "120 242 102",
-            "suspension": "Rally",
-            "tuneName": "Road Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 628,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1972 Datsun 240Z #5 Rallye",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 247,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.692,
-      "shareCode": "120242102",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-08",
-      "drivetrain": "RWD",
-      "id": "sc-144259341",
-      "name": "Purist Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "144 259 341",
-            "suspension": "Race",
-            "tuneName": "Purist Road",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Rally"
-          },
-          "row": 619,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "144259341",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-10-09",
-      "drivetrain": "RWD",
-      "id": "sc-150094861",
+      "id": "nc-b0f52ed75d",
       "name": "B Road Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "09/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "150 094 861",
-            "suspension": "Race",
-            "tuneName": "B Road Purist",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Rally"
-          },
-          "row": 626,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1972 Datsun 240Z #5 Rallye",
@@ -325,264 +209,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.692,
-      "shareCode": "150094861",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-08",
-      "drivetrain": "AWD",
-      "id": "sc-153619487",
-      "metaRank": 23,
-      "name": "A Dirt Nimble Fella",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "153 619 487",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Nimble Fella",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 621,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.599,
-      "shareCode": "153619487",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-08",
-      "drivetrain": "RWD",
-      "id": "sc-160736146",
-      "name": "A Road (drives like the heart emoji)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "160 736 146",
-            "suspension": "Race",
-            "tuneName": "A Road (drives like the heart emoji)",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Rally"
-          },
-          "row": 618,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "160736146",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-08",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-162598194",
-      "metaRank": 23,
-      "name": "53.5 Sekibe (F4 + CSC)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "162 598 194",
-            "suspension": "Rally",
-            "tuneName": "53.5 Sekibe (F4 + CSC)",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 623,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1972 Datsun 240Z #5 Rallye",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "53.5 Sekibe (F4 + CSC)",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1192,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.731,
-      "shareCode": "162598194",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-08",
-      "drivetrain": "AWD",
-      "id": "sc-179390074",
-      "name": "dirty handling fella",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "179 390 074",
-            "suspension": "Rally",
-            "tuneName": "dirty handling fella",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 622,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "179390074",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-10-09",
-      "drivetrain": "RWD",
-      "id": "sc-181426777",
-      "name": "B Purist Road with lights",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "09/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "181 426 777",
-            "suspension": "Race",
-            "tuneName": "B Purist Road with lights",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Rally"
-          },
-          "row": 627,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "181426777",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-datsun-240z-5-rallye",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-08",
-      "drivetrain": "AWD",
-      "id": "sc-557695243",
-      "name": "Datsun BRZ WRC",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "240Z #5 Rallye",
-            "sharecode": "557 695 243",
-            "suspension": "Rally",
-            "tuneName": "Datsun BRZ WRC",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 624,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "557695243",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

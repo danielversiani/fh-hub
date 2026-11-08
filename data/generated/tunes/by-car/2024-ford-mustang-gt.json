@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2024-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-4c58c7f176",
+      "metaRank": 48,
+      "name": "A Dirt (ViperNoKit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt (ViperNoKit)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1590,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.483,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
     {
       "buildTags": [],
       "carId": "2024-ford-mustang-gt",
@@ -36,6 +72,45 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-ford-mustang-gt",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-85f7a48695",
+      "metaRank": 63,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Ford Mustang GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 1599,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "zombiejesus52"
     },
     {
       "buildTags": [
@@ -120,6 +195,42 @@
       ],
       "class": "A",
       "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-a9a2768610",
+      "metaRank": 63,
+      "name": "2011 Hot Wheels Bone Shaker",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "2011 Hot Wheels Bone Shaker",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1593,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "normal",
       "drivetrain": "AWD",
@@ -189,6 +300,45 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-ford-mustang-gt",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-c5cc635c34",
+      "metaRank": 63,
+      "name": "Imagine if you will, a Purist but with the 777 kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Ford Mustang GT",
+            "Comment": "Purist, bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Imagine if you will, a Purist but with the 777 kit",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1597,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -303,396 +453,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sam"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-27",
-      "drivetrain": "AWD",
-      "id": "sc-122616780",
-      "name": "Cross Crunchy",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "122 616 780",
-            "suspension": "Street",
-            "tuneName": "Cross Crunchy",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 963,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "122616780",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-152685434",
-      "metaRank": 48,
-      "name": "A Dirt (ViperNoKit)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "152 685 434",
-            "suspension": "Rally",
-            "tuneName": "A Dirt (ViperNoKit)",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 965,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt (ViperNoKit)",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1590,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.573,
-      "shareCode": "152685434",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-06",
-      "drivetrain": "AWD",
-      "id": "sc-153872786",
-      "metaRank": 63,
-      "name": "A Road / Street - Power",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "153 872 786",
-            "suspension": "Street",
-            "tuneName": "A Road / Street - Power",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 962,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.589,
-      "shareCode": "153872786",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-22",
-      "drivetrain": "RWD",
-      "id": "sc-156264524",
-      "metaRank": 48,
-      "name": "Imagine if you will, a Purist but with the 777 Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "156 264 524",
-            "suspension": "Street",
-            "tuneName": "Imagine if you will, a Purist but with the 777 Kit",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 961,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Ford Mustang GT",
-            "Comment": "Purist, bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Imagine if you will, a Purist but with the 777 kit",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 1597,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.576,
-      "shareCode": "156264524",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-03",
-      "drivetrain": "AWD",
-      "id": "sc-169495590",
-      "metaRank": 48,
-      "name": "Dirt Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "169 495 590",
-            "suspension": "Street",
-            "tuneName": "Dirt Kit",
-            "tuner": "CTE mag",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 959,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.488,
-      "shareCode": "169495590",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "cte-mag"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-08",
-      "drivetrain": "AWD",
-      "id": "sc-180699281",
-      "metaRank": 48,
-      "name": "2011 Hot Wheels Bone Shaker",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "180 699 281",
-            "suspension": "Street",
-            "tuneName": "2011 Hot Wheels Bone Shaker",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 964,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "2011 Hot Wheels Bone Shaker",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1593,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.571,
-      "shareCode": "180699281",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-293494556",
-      "metaRank": 63,
-      "name": "A Road | Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "293 494 556",
-            "suspension": "Street",
-            "tuneName": "A Road | Purist",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Rally"
-          },
-          "row": 960,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.585,
-      "shareCode": "293494556",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "RWD",
-      "id": "sc-417347247",
-      "metaRank": 48,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "Mustang GT",
-            "sharecode": "417 347 247",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
-          },
-          "row": 966,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Ford Mustang GT",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "zombiejesus52",
-            "fill": "FFFF0000"
-          },
-          "row": 1599,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.568,
-      "shareCode": "417347247",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "zombiejesus52"
     }
   ],
   "schemaVersion": 1

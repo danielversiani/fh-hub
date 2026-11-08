@@ -1,6 +1,76 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2023-honda-civic-type-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-078d5149b6",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Honda Civic Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1758,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-honda-civic-type-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2abc2b4257",
+      "name": "Dirty WB Thing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Honda Civic Type R",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty WB Thing",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 1753,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
     {
       "buildTags": [
         "purist"
@@ -72,6 +142,43 @@
       "tunerId": "exr-hornet"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2023-honda-civic-type-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-34a84af60f",
+      "name": "Purist A Road - Honda Wing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Honda Civic Type R",
+            "Comment": "Purist",
+            "Design": "S价久 FL5",
+            "Designer": "hanage007",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist A Road - Honda Wing",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1764,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
       "buildTags": [],
       "carId": "2023-honda-civic-type-r",
       "categories": [],
@@ -103,6 +210,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-honda-civic-type-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-4a362e5210",
+      "name": "1.8G Handling Sprint V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Honda Civic Type R",
+            "Comment": "",
+            "Design": "HKS REVERSE",
+            "Designer": "END INC",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "1.8G Handling Sprint V2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 1766,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "slowbakedpanda"
     },
     {
       "buildTags": [],
@@ -171,6 +311,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-honda-civic-type-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-5f162e19ca",
+      "name": "1.9G Good Allround V7.2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Honda Civic Type R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "1.9G Good Allround V7.2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 1767,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "slowbakedpanda"
     },
     {
       "buildTags": [
@@ -327,6 +500,39 @@
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "FWD",
+      "id": "nc-b114d103ae",
+      "name": "Do you have vtec?",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Honda Civic Type R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Do you have vtec?",
+            "Tuner": "Grandma Driving",
+            "fill": "FFFF0000"
+          },
+          "row": 1760,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-honda-civic-type-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
       "id": "nc-bd2d070717",
       "name": "FWD noWB Handling T2.5 Shirakawa01.8",
       "observations": [
@@ -352,6 +558,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2023-honda-civic-type-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-ce4b185009",
+      "name": "A Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Honda Civic Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road Purist",
+            "Tuner": "CTE seasons",
+            "fill": "FFFF0000"
+          },
+          "row": 1756,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cte-seasons"
     },
     {
       "buildTags": [
@@ -421,471 +664,6 @@
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "FWD",
-      "id": "sc-100935479",
-      "name": "Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "100 935 479",
-            "suspension": "Sport",
-            "tuneName": "Road Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1176,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "100935479",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-110890157",
-      "name": "Dirty WB Thing",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "110 890 157",
-            "suspension": "Sport",
-            "tuneName": "Dirty WB Thing",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1171,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Honda Civic Type R",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty WB Thing",
-            "Tuner": "Cast Haste",
-            "fill": "FFFF0000"
-          },
-          "row": 1753,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "110890157",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
-      "drivetrain": "FWD",
-      "id": "sc-122505623",
-      "name": "1.9G Good Allround V7.2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "122 505 623",
-            "suspension": "Sport",
-            "tuneName": "1.9G Good Allround V7.2",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Rally"
-          },
-          "row": 1177,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Honda Civic Type R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "1.9G Good Allround V7.2",
-            "Tuner": "SlowBakedPanda",
-            "fill": "FFFF0000"
-          },
-          "row": 1767,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "122505623",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-05",
-      "drivetrain": "FWD",
-      "id": "sc-153068208",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/08/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "153 068 208",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 1173,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Honda Civic Type R",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 1758,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.676,
-      "shareCode": "153068208",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
-      "drivetrain": "FWD",
-      "id": "sc-157375218",
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "157 375 218",
-            "suspension": "Sport",
-            "tuneName": "A Road Purist",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Rally"
-          },
-          "row": 1172,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Honda Civic Type R",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "A Road Purist",
-            "Tuner": "CTE seasons",
-            "fill": "FFFF0000"
-          },
-          "row": 1756,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "157375218",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "FWD",
-      "id": "sc-664382726",
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "664 382 726",
-            "suspension": "Rally",
-            "tuneName": "A Road Purist",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 1179,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "664382726",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-26",
-      "drivetrain": "FWD",
-      "id": "sc-761872248",
-      "name": "Do you have vtec?",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "761 872 248",
-            "suspension": "Sport",
-            "tuneName": "Do you have vtec?",
-            "tuner": "Grandma Driving",
-            "tyreCompound": "Rally"
-          },
-          "row": 1174,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Honda Civic Type R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Do you have vtec?",
-            "Tuner": "Grandma Driving",
-            "fill": "FFFF0000"
-          },
-          "row": 1760,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "761872248",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "grandma-driving"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-24",
-      "drivetrain": "FWD",
-      "id": "sc-769596434",
-      "name": "Purist A Road - Honda Wing",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "769 596 434",
-            "suspension": "Sport",
-            "tuneName": "Purist A Road - Honda Wing",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1175,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Honda Civic Type R",
-            "Comment": "Purist",
-            "Design": "S价久 FL5",
-            "Designer": "hanage007",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist A Road - Honda Wing",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1764,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "769596434",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-honda-civic-type-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-07",
-      "drivetrain": "FWD",
-      "id": "sc-840248280",
-      "name": "1.8G Handling Sprint V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2023)",
-            "sharecode": "840 248 280",
-            "suspension": "Sport",
-            "tuneName": "1.8G Handling Sprint V2",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Rally"
-          },
-          "row": 1178,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2023 Honda Civic Type R",
-            "Comment": "",
-            "Design": "HKS REVERSE",
-            "Designer": "END INC",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "1.8G Handling Sprint V2",
-            "Tuner": "SlowBakedPanda",
-            "fill": "FFFF0000"
-          },
-          "row": 1766,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "840248280",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
       "tunerId": "slowbakedpanda"
     }
   ],

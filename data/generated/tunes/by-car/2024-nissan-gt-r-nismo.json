@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "TheDannny",
             "fill": "FF7030A0"
           },
-          "row": 2570,
+          "row": 2569,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -33,6 +33,120 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1296dbda37",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 85,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 174,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "4.8L V10 + Centri",
+      "id": "nc-416aa588e2",
+      "lapRefs": [
+        {
+          "time": "54.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 28,
+      "name": "Road Handling 54.6 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Nissan GT-R Nismo",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling 54.6 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2573,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "WB",
+            "Build": "Handling",
+            "Car": "Nissan GTR Nismo 24'",
+            "Difficulty": "Brain AFK",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "4.8L V10 + Centri",
+            "Laptime": "0:54.644",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Handling 54.6 Shira Clean"
+          },
+          "row": 19,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.772,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [
@@ -62,7 +176,7 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 2571,
+          "row": 2570,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -72,6 +186,78 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-56d7d3ea40",
+      "metaRank": 85,
+      "name": "A Road | 1:01.8 Shira | Purist Stock rims",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Nissan GT-R Nismo",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 1:01.8 Shira | Purist Stock rims",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 2566,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-89cc97e698",
+      "name": "stock engine widebody dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Nissan GT-R Nismo",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "stock engine widebody dirt",
+            "Tuner": "KcnaXii",
+            "fill": "FF7030A0"
+          },
+          "row": 2568,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kcnaxii"
     },
     {
       "buildTags": [],
@@ -98,7 +284,7 @@
             "Tuner": "NDL ardno",
             "fill": "FFFF0000"
           },
-          "row": 2568,
+          "row": 2567,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -134,7 +320,7 @@
             "Tuner": "KcnaXii",
             "fill": "FF7030A0"
           },
-          "row": 2573,
+          "row": 2572,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -170,7 +356,7 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 2572,
+          "row": 2571,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -222,453 +408,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-10-03",
-      "drivetrain": "AWD",
-      "id": "sc-100679286",
-      "name": "Stock Wing(Dirt)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "03/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "100 679 286",
-            "suspension": "Rally",
-            "tuneName": "Stock Wing(Dirt)",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1964,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "100679286",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-10-06",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "engine": "4.8L V10 + Centri",
-      "id": "sc-119747924",
-      "lapRefs": [
-        {
-          "time": "54.6",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 54.6",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 28,
-      "name": "Road Handling 54.6 Shira Clean",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "06/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "119 747 924",
-            "suspension": "Race",
-            "tuneName": "Road Handling 54.6 Shira Clean",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1962,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Nissan GT-R Nismo",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Handling 54.6 Shira Clean",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 2574,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {
-            "Aero": "WB",
-            "Build": "Handling",
-            "Car": "Nissan GTR Nismo 24'",
-            "Difficulty": "Brain AFK",
-            "Driver": "LetzeLU",
-            "Drivetrain": "AWD",
-            "Engine": "4.8L V10 + Centri",
-            "Laptime": "0:54.644",
-            "Notes": "",
-            "Tier": "Offmeta < 55.000",
-            "Tires": "Rally",
-            "Tune": "LetzeLU",
-            "Tune Name": "Road Handling 54.6 Shira Clean"
-          },
-          "row": 19,
-          "sourceId": "letzelu-shirakawa",
-          "tab": "s1-800"
-        }
-      ],
-      "role": "allround",
-      "score": 0.828,
-      "shareCode": "119747924",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-124682795",
-      "name": "widebody dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "124 682 795",
-            "suspension": "Rally",
-            "tuneName": "widebody dirt",
-            "tuner": "scaans",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1963,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "124682795",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "scaans"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-09-27",
-      "drivetrain": "AWD",
-      "id": "sc-171656512",
-      "name": "big lfa",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "171 656 512",
-            "suspension": "Race",
-            "tuneName": "big lfa",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1961,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.506,
-      "shareCode": "171656512",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-393225558",
-      "name": "stock engine widebody dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "393 225 558",
-            "suspension": "Rally",
-            "tuneName": "stock engine widebody dirt",
-            "tuner": "KcnaXii",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1960,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Nissan GT-R Nismo",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "stock engine widebody dirt",
-            "Tuner": "KcnaXii",
-            "fill": "FF7030A0"
-          },
-          "row": 2569,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "393225558",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kcnaxii"
-    },
-    {
-      "buildTags": [
-        "purist",
-        "stock-look"
-      ],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [
-        "purist"
-      ],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-06",
-      "drivetrain": "AWD",
-      "id": "sc-531260024",
-      "name": "Purist, Stock Look & Stock Rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "06/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "531 260 024",
-            "suspension": "Race",
-            "tuneName": "Purist, Stock Look & Stock Rims",
-            "tuner": "Grandma Driving",
-            "tyreCompound": "Rally"
-          },
-          "row": 1959,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "531260024",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "grandma-driving"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-10-03",
-      "drivetrain": "AWD",
-      "id": "sc-544288956",
-      "name": "LBWK Dirt Handling T1 Sunflower 56.2 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "03/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "544 288 956",
-            "suspension": "Rally",
-            "tuneName": "LBWK Dirt Handling T1 Sunflower 56.2 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1965,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "544288956",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-05",
-      "drivetrain": "AWD",
-      "id": "sc-721964402",
-      "metaRank": 85,
-      "name": "A Road | 1:01.8 Shira | Purist Stock rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "721 964 402",
-            "suspension": "Race",
-            "tuneName": "A Road | 1:01.8 Shira | Purist Stock rims",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1957,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Nissan GT-R Nismo",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road | 1:01.8 Shira | Purist Stock rims",
-            "Tuner": "DarkZ704",
-            "fill": "FFFF0000"
-          },
-          "row": 2567,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.678,
-      "shareCode": "721964402",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-23",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-779813648",
-      "lapRefs": [
-        {
-          "time": "59.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 85,
-      "name": "A Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R NISMO",
-            "sharecode": "779 813 648",
-            "suspension": "Race",
-            "tuneName": "A Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1958,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.63,
-      "shareCode": "779813648",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

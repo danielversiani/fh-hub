@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -10,70 +10,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-08",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-121371997",
-      "name": "Dirty Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Escort RS Cosworth",
-            "sharecode": "121 371 997",
-            "suspension": "Stock",
-            "tuneName": "Dirty Purist",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 910,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "121371997",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1992-ford-escort-rs-cosworth",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-20",
-      "drivetrain": "AWD",
-      "id": "sc-810319687",
+      "id": "nc-113bdd77a9",
       "name": "A Dirt Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Escort RS Cosworth",
-            "sharecode": "810 319 687",
-            "suspension": "Stock",
-            "tuneName": "A Dirt Purist",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 911,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1992 Ford Escort RS Cosworth",
@@ -91,12 +32,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.665,
-      "shareCode": "810319687",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
     }
   ],

@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-00f0b9d657",
+      "name": "Purist B600",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist B600",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 255,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [
         "powerbuild"
@@ -79,6 +116,42 @@
       "tunerId": "drx-q3"
     },
     {
+      "buildTags": [],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-19056bb87b",
+      "metaRank": 19,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1241,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -118,6 +191,42 @@
       "tunerId": "drx-q3"
     },
     {
+      "buildTags": [],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-2b3dec42a3",
+      "metaRank": 40,
+      "name": "Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "",
+            "Design": "DENIM PROCAR GT5",
+            "Designer": "LMP Arcturus",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1243,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -155,6 +264,42 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-427d340e87",
+      "metaRank": 19,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "TheDannny",
+            "fill": "FF7030A0"
+          },
+          "row": 1242,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
     },
     {
       "buildTags": [],
@@ -325,6 +470,45 @@
       "tunerId": "razkinzmango"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-6746b2b4b2",
+      "metaRank": 16,
+      "name": "Purist A Road - Different Bumper",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist A Road - Different Bumper",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1234,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.55,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
       "buildTags": [],
       "carId": "1984-de-tomaso-pantera-gt5",
       "categories": [],
@@ -356,6 +540,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "marwollo6801"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-8abe828787",
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 256,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -476,6 +697,59 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "id": "nc-b4d4bd593a",
+      "lapRefs": [
+        {
+          "time": "59.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.7 前段加速快 锁极速",
+      "metaNotesI18n": {
+        "en": "Quick early acceleration; top speed is capped.",
+        "pt-br": "Acelera rápido na saída; velocidade máxima limitada."
+      },
+      "metaRank": 16,
+      "name": "Shirakawa 59.7 META",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Shirakawa 59.7 META",
+            "Tuner": "Cirno1X",
+            "fill": "FFFF0000"
+          },
+          "row": 1228,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.61,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "cirno1x"
     },
     {
       "buildTags": [
@@ -666,6 +940,39 @@
       "tunerId": "nalak28"
     },
     {
+      "buildTags": [],
+      "carId": "1984-de-tomaso-pantera-gt5",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d09311e6ab",
+      "name": "Dirty Pantera",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 De Tomaso Pantera GT5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty Pantera",
+            "Tuner": "Cast Haste",
+            "fill": "FF7030A0"
+          },
+          "row": 1238,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -708,467 +1015,12 @@
       "buildTags": [],
       "carId": "1984-de-tomaso-pantera-gt5",
       "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
-      "drivetrain": "AWD",
-      "id": "sc-121962140",
-      "name": "Dirty Pantera",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "121 962 140",
-            "suspension": "Rally",
-            "tuneName": "Dirty Pantera",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 637,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty Pantera",
-            "Tuner": "Cast Haste",
-            "fill": "FF7030A0"
-          },
-          "row": 1238,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "121962140",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-16",
-      "drivetrain": "AWD",
-      "id": "sc-123818817",
-      "metaRank": 40,
-      "name": "Road Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "123 818 817",
-            "suspension": "Race",
-            "tuneName": "Road Allround",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 638,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "",
-            "Design": "DENIM PROCAR GT5",
-            "Designer": "LMP Arcturus",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 1243,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.57,
-      "shareCode": "123818817",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-17",
-      "drivetrain": "RWD",
-      "id": "sc-126123454",
-      "name": "Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "126 123 454",
-            "suspension": "Street",
-            "tuneName": "Road Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Standard"
-          },
-          "row": 635,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 256,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "126123454",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "meta"
-      ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-16",
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "RWD",
-      "id": "sc-146295461",
-      "lapRefs": [
-        {
-          "time": "59.7",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.7 前段加速快 锁极速",
-      "metaNotesI18n": {
-        "en": "Quick early acceleration; top speed is capped.",
-        "pt-br": "Acelera rápido na saída; velocidade máxima limitada."
-      },
-      "metaRank": 16,
-      "name": "Shirakawa 59.7 META",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "146 295 461",
-            "suspension": "Race",
-            "tuneName": "Shirakawa 59.7 META",
-            "tuner": "Cirno1X",
-            "tyreCompound": "Standard"
-          },
-          "row": 629,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Shirakawa 59.7 META",
-            "Tuner": "Cirno1X",
-            "fill": "FFFF0000"
-          },
-          "row": 1228,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "shareCode": "146295461",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "cirno1x"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
-      "drivetrain": "RWD",
-      "id": "sc-150164944",
-      "name": "Purist B600",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "150 164 944",
-            "suspension": "Street",
-            "tuneName": "Purist B600",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Standard"
-          },
-          "row": 634,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist B600",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 255,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "150164944",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-18",
-      "drivetrain": "RWD",
-      "id": "sc-151997410",
-      "metaRank": 16,
-      "name": "Purist A Road - Different Bumper",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "151 997 410",
-            "suspension": "Street",
-            "tuneName": "Purist A Road - Different Bumper",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 631,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist A Road - Different Bumper",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1234,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.639,
-      "shareCode": "151997410",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
-      "drivetrain": "RWD",
-      "id": "sc-167314508",
-      "name": "Purist (stock exhaust)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "167 314 508",
-            "suspension": "Street",
-            "tuneName": "Purist (stock exhaust)",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 633,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "167314508",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
-    },
-    {
-      "buildTags": [
-        "full-aero"
-      ],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-17",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-182378879",
-      "metaRank": 19,
-      "name": "5.2 Dirt Full Aero V1.2",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "182 378 879",
-            "suspension": "Rally",
-            "tuneName": "5.2 Dirt Full Aero V1.2",
-            "tuner": "AIONS580Pio",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 636,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.546,
-      "shareCode": "182378879",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-17",
-      "drivetrain": "AWD",
-      "id": "sc-309742693",
+      "id": "nc-e62f358913",
       "name": "Dirt AWD Grip",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "309 742 693",
-            "suspension": "Rally",
-            "tuneName": "Dirt AWD Grip",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 632,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1984 De Tomaso Pantera GT5",
@@ -1186,166 +1038,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.671,
-      "shareCode": "309742693",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-16",
-      "drivetrain": "AWD",
-      "id": "sc-433335086",
-      "metaRank": 19,
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "433 335 086",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 639,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 1241,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.632,
-      "shareCode": "433335086",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
-      "drivetrain": "RWD",
-      "id": "sc-683992973",
-      "name": "Purist Circuits A700",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "683 992 973",
-            "suspension": "Street",
-            "tuneName": "Purist Circuits A700",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 630,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "683992973",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-de-tomaso-pantera-gt5",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-16",
-      "drivetrain": "AWD",
-      "id": "sc-927460266",
-      "metaRank": 19,
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "De Tomaso",
-            "model": "Pantera GT5",
-            "sharecode": "927 460 266",
-            "suspension": "Race",
-            "tuneName": "S1 Dirt",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 640,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 De Tomaso Pantera GT5",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "TheDannny",
-            "fill": "FF7030A0"
-          },
-          "row": 1242,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.632,
-      "shareCode": "927460266",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

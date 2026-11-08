@@ -111,10 +111,10 @@ sources:
     adapter: gbr-ozzy
     tabs:
       - { id: tune-list, role: tunes, gid: '711189847', label: '🛠️FH6 Tune List' }
-    permission: prelaunch
-    active: true
+    permission: denied
+    active: false
     weight: 0.8
-    notes: Owner disabled downloads (/export → 401). Ask before publishing.
+    notes: The author asked to stay out of the project for now (2026-11-08). Do not publish.
 
   - id: kleis
     name: Forza Tune & Design Sheet by kleis
@@ -126,7 +126,7 @@ sources:
     adapter: kleis
     tabs:
       - { id: fh6, role: tunes, sheet: FH6, gid: '901186628' }
-    permission: prelaunch
+    permission: granted
     active: true
     weight: 0.9
     notes: No share codes. Car class is encoded as the fill colour of column A.

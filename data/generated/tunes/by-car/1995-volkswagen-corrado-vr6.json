@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -91,7 +91,7 @@
             "Tuner": "KOROBCHONYSH",
             "fill": "FFFF0000"
           },
-          "row": 2983,
+          "row": 2982,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -110,75 +110,34 @@
       "categories": [
         "purist"
       ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
+      "class": "A",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-108633278",
-      "name": "B Road | Purist (Oettinger Kit)",
+      "id": "nc-df22741ace",
+      "name": "Purist",
       "observations": [
         {
           "raw": {
-            "class": "B",
-            "date": "13/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Corrado VR6",
-            "sharecode": "108 633 278",
-            "suspension": "Street",
-            "tuneName": "B Road | Purist (Oettinger Kit)",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Rally"
+            "Car": "1995 Volkswagen Corrado VR6",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
           },
-          "row": 2611,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
+          "row": 2983,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
-      "score": 0.481,
-      "shareCode": "108633278",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-volkswagen-corrado-vr6",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-05",
-      "drivetrain": "AWD",
-      "id": "sc-163341940",
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "05/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Corrado VR6",
-            "sharecode": "163 341 940",
-            "suspension": "Street",
-            "tuneName": "B Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2612,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "163341940",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
+      "tunerId": "k1z-suimin"
     },
     {
       "buildTags": [
@@ -189,46 +148,11 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-166528380",
+      "id": "nc-f026e80fa2",
       "name": "Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Corrado VR6",
-            "sharecode": "166 528 380",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "major esus",
-            "tyreCompound": "Rally"
-          },
-          "row": 2613,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Corrado VR6",
-            "sharecode": "166 528 380",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "major esus",
-            "tyreCompound": "Rally"
-          },
-          "row": 2614,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1995 Volkswagen Corrado VR6",
@@ -246,111 +170,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.661,
-      "shareCode": "166528380",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "major-esus"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1995-volkswagen-corrado-vr6",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-04",
-      "drivetrain": "FWD",
-      "id": "sc-175560124",
-      "name": "Purist Road (M/C) OEM",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Corrado VR6",
-            "sharecode": "175 560 124",
-            "suspension": "Street",
-            "tuneName": "Purist Road (M/C) OEM",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 2615,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "175560124",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1995-volkswagen-corrado-vr6",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "FWD",
-      "id": "sc-661309387",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Corrado VR6",
-            "sharecode": "661 309 387",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2610,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1995 Volkswagen Corrado VR6",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "K1Z Suimin",
-            "fill": "FFFF0000"
-          },
-          "row": 2984,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "661309387",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "k1z-suimin"
     }
   ],
   "schemaVersion": 1

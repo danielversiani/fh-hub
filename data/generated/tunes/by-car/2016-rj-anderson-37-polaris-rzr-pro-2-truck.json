@@ -1,87 +1,16 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2016-rj-anderson-37-polaris-rzr-pro-2-truck",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "RWD",
-      "id": "sc-124230958",
-      "name": "A road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "RJ Anderson",
-            "model": "#37 Polaris RZR Pro 2 Truck",
-            "sharecode": "124 230 958",
-            "suspension": "Rally",
-            "tuneName": "A road",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2284,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2016 RJ Anderson #37 Polaris RZR Pro 2 Truck",
-            "Comment": "LOL",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A road",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 2718,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "124230958",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-rj-anderson-37-polaris-rzr-pro-2-truck",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-07",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-157428063",
+      "id": "nc-217e508d82",
       "name": "ElSamu19 Didn't Like My Rims :(",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RJ Anderson",
-            "model": "#37 Polaris RZR Pro 2 Truck",
-            "sharecode": "157 428 063",
-            "suspension": "Rally",
-            "tuneName": "ElSamu19 Didn't Like My Rims :(",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2286,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2016 RJ Anderson #37 Polaris RZR Pro 2 Truck",
@@ -94,84 +23,60 @@
             "Tuner": "SR1 Rain",
             "fill": "FFFF0000"
           },
-          "row": 2717,
+          "row": 2716,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.669,
-      "shareCode": "157428063",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
       "carId": "2016-rj-anderson-37-polaris-rzr-pro-2-truck",
       "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-18",
-      "drivetrain": "AWD",
-      "id": "sc-342275974",
-      "name": "S1 Cross Country",
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-6dc7f7ae3f",
+      "name": "A road",
       "observations": [
         {
           "raw": {
-            "class": "S1",
-            "date": "18/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RJ Anderson",
-            "model": "#37 Polaris RZR Pro 2 Truck",
-            "sharecode": "342 275 974",
-            "suspension": "Rally",
-            "tuneName": "S1 Cross Country",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
+            "Car": "2016 RJ Anderson #37 Polaris RZR Pro 2 Truck",
+            "Comment": "LOL",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
           },
-          "row": 2287,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
+          "row": 2717,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
-      "score": 0.489,
-      "shareCode": "342275974",
-      "surface": "cross-country",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
+      "tunerId": "silvasuperbee"
     },
     {
       "buildTags": [],
       "carId": "2016-rj-anderson-37-polaris-rzr-pro-2-truck",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-05",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-752135550",
+      "id": "nc-ae49bc6f9d",
       "name": "A Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RJ Anderson",
-            "model": "#37 Polaris RZR Pro 2 Truck",
-            "sharecode": "752 135 550",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2285,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2016 RJ Anderson #37 Polaris RZR Pro 2 Truck",
@@ -184,17 +89,15 @@
             "Tuner": "SR1 Rain",
             "fill": "FFFF0000"
           },
-          "row": 2716,
+          "row": 2715,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.669,
-      "shareCode": "752135550",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
     }
   ],

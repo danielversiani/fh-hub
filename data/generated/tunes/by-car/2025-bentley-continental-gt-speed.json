@@ -1,6 +1,119 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2025-bentley-continental-gt-speed",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-56ced60f64",
+      "name": "Dirt Purist Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Bentley Continental GT Speed",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Purist Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 959,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2025-bentley-continental-gt-speed",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5bac1f19ef",
+      "name": "A dirt purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Bentley Continental GT Speed",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A dirt purist",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 958,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2025-bentley-continental-gt-speed",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5ef725f9d1",
+      "metaRank": 44,
+      "name": "Road Purist Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Bentley Continental GT Speed",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 962,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
     {
       "buildTags": [],
       "carId": "2025-bentley-continental-gt-speed",
@@ -169,367 +282,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-115167245",
-      "name": "Takes The Ginetta Out (Physically)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "115 167 245",
-            "suspension": "Sport",
-            "tuneName": "Takes The Ginetta Out (Physically)",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 300,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "115167245",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-134203680",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "134 203 680",
-            "suspension": "Sport",
-            "tuneName": "A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 304,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "134203680",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-09-19",
-      "drivetrain": "AWD",
-      "id": "sc-145032983",
-      "metaRank": 44,
-      "name": "Road Purist Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "145 032 983",
-            "suspension": "Sport",
-            "tuneName": "Road Purist Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 303,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 Bentley Continental GT Speed",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 962,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.639,
-      "shareCode": "145032983",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-18",
-      "drivetrain": "AWD",
-      "id": "sc-158488587",
-      "name": "A dirt purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "158 488 587",
-            "suspension": "Sport",
-            "tuneName": "A dirt purist",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 299,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 Bentley Continental GT Speed",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A dirt purist",
-            "Tuner": "IceFrice8724",
-            "fill": "FFFF0000"
-          },
-          "row": 958,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.687,
-      "shareCode": "158488587",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-591681026",
-      "name": "B Dirt Boatley",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "591 681 026",
-            "suspension": "Rally",
-            "tuneName": "B Dirt Boatley",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 306,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "591681026",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-19",
-      "drivetrain": "AWD",
-      "id": "sc-778353848",
-      "name": "Dirt Purist Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "778 353 848",
-            "suspension": "Rally",
-            "tuneName": "Dirt Purist Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 302,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 Bentley Continental GT Speed",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Purist Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 959,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.687,
-      "shareCode": "778353848",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-799563192",
-      "metaRank": 44,
-      "name": "A Road 00 Shirakawa Boatley",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "799 563 192",
-            "suspension": "Sport",
-            "tuneName": "A Road 00 Shirakawa Boatley",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
-          },
-          "row": 305,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.553,
-      "shareCode": "799563192",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-bentley-continental-gt-speed",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-992149136",
-      "name": "Ramming Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Bentley",
-            "model": "Continental GT Speed",
-            "sharecode": "992 149 136",
-            "suspension": "Race",
-            "tuneName": "Ramming Meta",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 301,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "992149136",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

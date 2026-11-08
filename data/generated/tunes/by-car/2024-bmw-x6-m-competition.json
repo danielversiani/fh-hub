@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -12,12 +12,12 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-7b8effd20d",
-      "metaRank": 166,
+      "metaRank": 169,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 339,
+          "row": 345,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -29,6 +29,40 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-bmw-x6-m-competition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ea9c4d359f",
+      "metaRank": 169,
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 BMW X6 M Competition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "SulexPagMan",
+            "fill": "FFFF0000"
+          },
+          "row": 1065,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "sulexpagman"
     },
     {
       "buildTags": [],
@@ -58,138 +92,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-bmw-x6-m-competition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-17",
-      "drivetrain": "AWD",
-      "id": "sc-162529404",
-      "metaRank": 166,
-      "name": "A Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X6 M Competition",
-            "sharecode": "162 529 404",
-            "suspension": "Race",
-            "tuneName": "A Road",
-            "tuner": "SulexPagMan",
-            "tyreCompound": "Rally"
-          },
-          "row": 409,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 BMW X6 M Competition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A road",
-            "Tuner": "SulexPagMan",
-            "fill": "FFFF0000"
-          },
-          "row": 1065,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.574,
-      "shareCode": "162529404",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "sulexpagman"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2024-bmw-x6-m-competition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-02",
-      "drivetrain": "AWD",
-      "id": "sc-542960431",
-      "metaRank": 166,
-      "name": "A Road - Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X6 M Competition",
-            "sharecode": "542 960 431",
-            "suspension": "Sport",
-            "tuneName": "A Road - Stock Look",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 410,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.49,
-      "shareCode": "542960431",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-bmw-x6-m-competition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-02",
-      "drivetrain": "AWD",
-      "id": "sc-934248550",
-      "metaRank": 46,
-      "name": "A Dirt/CC Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "X6 M Competition",
-            "sharecode": "934 248 550",
-            "suspension": "Rally",
-            "tuneName": "A Dirt/CC Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 411,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.49,
-      "shareCode": "934248550",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

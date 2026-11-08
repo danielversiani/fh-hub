@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -35,6 +35,76 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "shogun-my"
+    },
+    {
+      "buildTags": [],
+      "carId": "1963-volkswagen-type-2-de-luxe",
+      "categories": [
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-997277163e",
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1963 Volkswagen Type 2 De Luxe",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 666,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1963-volkswagen-type-2-de-luxe",
+      "categories": [
+        "meme"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a32285c8c6",
+      "name": "A - Accel / Grip ( Better than it should be )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1963 Volkswagen Type 2 De Luxe",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Accel / Grip ( Better than it should be )",
+            "Tuner": "ESV Rapture",
+            "fill": "FFFF0000"
+          },
+          "row": 2974,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -119,29 +189,11 @@
         "meme"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-08",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-161878791",
-      "name": "My***** Machine <- Xbox censored it not me",
+      "id": "nc-f3e985796b",
+      "name": "My ***** Machine <- Xbox censored it not me",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "08/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Type 2 De Luxe",
-            "sharecode": "161 878 791",
-            "suspension": "Stock",
-            "tuneName": "My***** Machine <- Xbox censored it not me",
-            "tuner": "Grandma Driving",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2653,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1963 Volkswagen Type 2 De Luxe",
@@ -159,123 +211,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.677,
-      "shareCode": "161878791",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "grandma-driving"
-    },
-    {
-      "buildTags": [],
-      "carId": "1963-volkswagen-type-2-de-luxe",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-223924651",
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Type 2 De Luxe",
-            "sharecode": "223 924 651",
-            "suspension": "Street",
-            "tuneName": "B Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2654,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1963 Volkswagen Type 2 De Luxe",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FFED7D31"
-          },
-          "row": 666,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "223924651",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1963-volkswagen-type-2-de-luxe",
-      "categories": [
-        "meme"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-12",
-      "drivetrain": "AWD",
-      "id": "sc-434245490",
-      "name": "A - Accel / Grip ( Better than it should be )",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Type 2 De Luxe",
-            "sharecode": "434 245 490",
-            "suspension": "Race",
-            "tuneName": "A - Accel / Grip ( Better than it should be )",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2652,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1963 Volkswagen Type 2 De Luxe",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Accel / Grip ( Better than it should be )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 2975,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.678,
-      "shareCode": "434245490",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "esv-rapture"
     }
   ],
   "schemaVersion": 1

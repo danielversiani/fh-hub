@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -36,6 +36,80 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-0d3075d3fa",
+      "name": "Road Purist Race Gearbox",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "Purist",
+            "Design": "FOOSE DESIGN®",
+            "Designer": "TurnedPurse2",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Race Gearbox",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 323,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-2c1225db07",
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 324,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -215,13 +289,62 @@
       "buildTags": [],
       "carId": "1991-gmc-syclone",
       "categories": [
-        "off-meta"
+        "meta"
       ],
       "class": "A",
       "confidence": 0.8,
       "drivetrain": "AWD",
+      "id": "nc-a2490ee4e0",
+      "metaRank": 14,
+      "name": "A Dirt Meta (M) v1.1 - 59.4 Sunflower",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Meta (M) v1.1 - 59.4 Sunflower",
+            "Tuner": "TheDannny",
+            "fill": "FFFF0000"
+          },
+          "row": 1625,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.588,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
       "id": "nc-a66355f47a",
-      "metaRank": 67,
+      "lapRefs": [
+        {
+          "time": "1:00.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.9 变速箱需要适应",
+      "metaNotesI18n": {
+        "en": "The gearbox takes some getting used to.",
+        "pt-br": "O câmbio exige costume."
+      },
+      "metaRank": 114,
       "name": "A Road Grip Shirakawa 1:00.9",
       "observations": [
         {
@@ -241,11 +364,49 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "role": "power",
+      "score": 0.554,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t1.5",
       "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-aa4df554f3",
+      "metaRank": 14,
+      "name": "Dirt Race Gearbox",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Race Gearbox",
+            "Tuner": "KcnaXii",
+            "fill": "FFFF0000"
+          },
+          "row": 1623,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.588,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "kcnaxii"
     },
     {
       "buildTags": [
@@ -293,6 +454,156 @@
       ],
       "class": "A",
       "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c20f4f64e0",
+      "metaRank": 67,
+      "name": "A Road - Allround/Accel Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Allround/Accel Meta",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1627,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-d90ca4edde",
+      "metaRank": 67,
+      "name": "A Road AWD Full Aero Very Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "",
+            "Design": "MINI TRUCKING 90'S",
+            "Designer": "RSRish997",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road AWD Full Aero Very Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1628,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-d9482aa731",
+      "metaRank": 67,
+      "name": "Purist rc",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist rc",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1631,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-df9517c1ee",
+      "name": "Dirt Rally/CC Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 GMC Syclone",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Rally/CC Purist",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 321,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "normal",
       "drivetrain": "AWD",
@@ -315,541 +626,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-mian"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-107133794",
-      "metaRank": 14,
-      "name": "A Dirt Meta (M) v1.1 - 59.4 Sunflower",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "107 133 794",
-            "suspension": "Stock",
-            "tuneName": "A Dirt Meta (M) v1.1 - 59.4 Sunflower",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1077,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt Meta (M) v1.1 - 59.4 Sunflower",
-            "Tuner": "TheDannny",
-            "fill": "FFFF0000"
-          },
-          "row": 1625,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "107133794",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-25",
-      "drivetrain": "AWD",
-      "id": "sc-108593666",
-      "metaRank": 67,
-      "name": "A Road - Allround/Accel Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "108 593 666",
-            "suspension": "Stock",
-            "tuneName": "A Road - Allround/Accel Meta",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1071,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road - Allround/Accel Meta",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1627,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.629,
-      "shareCode": "108593666",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "full-aero"
-      ],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-26",
-      "drivetrain": "AWD",
-      "id": "sc-112127169",
-      "metaRank": 67,
-      "name": "A Road AWD Full Aero Very Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "112 127 169",
-            "suspension": "Stock",
-            "tuneName": "A Road AWD Full Aero Very Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1075,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "",
-            "Design": "MINI TRUCKING 90'S",
-            "Designer": "RSRish997",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road AWD Full Aero Very Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 1628,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.629,
-      "shareCode": "112127169",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-07",
-      "drivetrain": "AWD",
-      "id": "sc-114676345",
-      "metaRank": 14,
-      "name": "Dirt Race Gearbox",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "114 676 345",
-            "suspension": "Stock",
-            "tuneName": "Dirt Race Gearbox",
-            "tuner": "KcnaXii",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1073,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Race Gearbox",
-            "Tuner": "KcnaXii",
-            "fill": "FFFF0000"
-          },
-          "row": 1623,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "114676345",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kcnaxii"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-26",
-      "drivetrain": "AWD",
-      "id": "sc-135338183",
-      "name": "Road Purist Race Gearbox",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "26/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "135 338 183",
-            "suspension": "Stock",
-            "tuneName": "Road Purist Race Gearbox",
-            "tuner": "LogikJ",
-            "tyreCompound": "Street"
-          },
-          "row": 1079,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "Purist",
-            "Design": "FOOSE DESIGN®",
-            "Designer": "TurnedPurse2",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist Race Gearbox",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 323,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "135338183",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-28",
-      "drivetrain": "AWD",
-      "id": "sc-150681300",
-      "name": "Purist Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "28/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "150 681 300",
-            "suspension": "Street",
-            "tuneName": "Purist Road",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Street"
-          },
-          "row": 1078,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist Road",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 324,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.674,
-      "shareCode": "150681300",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-25",
-      "drivetrain": "AWD",
-      "id": "sc-177134214",
-      "metaRank": 20,
-      "name": "Dirt Rally/CC Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "177 134 214",
-            "suspension": "Rally",
-            "tuneName": "Dirt Rally/CC Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1074,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Rally/CC Purist",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 321,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.716,
-      "shareCode": "177134214",
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-358835801",
-      "metaRank": 14,
-      "name": "Purist rc",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "358 835 801",
-            "suspension": "Race",
-            "tuneName": "Purist rc",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 1076,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1991 GMC Syclone",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist rc",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1631,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "358835801",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-29",
-      "drivetrain": "AWD",
-      "id": "sc-412694190",
-      "metaRank": 14,
-      "name": "A Dirt Race Gearbox",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "412 694 190",
-            "suspension": "Stock",
-            "tuneName": "A Dirt Race Gearbox",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1072,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.586,
-      "shareCode": "412694190",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-gmc-syclone",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-24",
-      "drivetrain": "AWD",
-      "id": "sc-513623548",
-      "name": "B Dirt/CC v1.1 No Aero (M/C) TurboLag",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "24/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GMC",
-            "model": "Syclone",
-            "sharecode": "513 623 548",
-            "suspension": "Stock",
-            "tuneName": "B Dirt/CC v1.1 No Aero (M/C) TurboLag",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1080,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.491,
-      "shareCode": "513623548",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

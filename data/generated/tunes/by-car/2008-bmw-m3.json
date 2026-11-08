@@ -1,6 +1,112 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2008-bmw-m3",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-0f6cc8c929",
+      "metaRank": 168,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 BMW M3",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 990,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2008-bmw-m3",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-1b1bd400e6",
+      "metaRank": 168,
+      "name": "A Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 BMW M3",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road Purist",
+            "Tuner": "Inayamei",
+            "fill": "FFFF0000"
+          },
+          "row": 992,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-bmw-m3",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-1c286f155c",
+      "metaRank": 168,
+      "name": "Persian Person Car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 BMW M3",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Persian Person Car",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 991,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
     {
       "buildTags": [
         "purist"
@@ -13,7 +119,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-2cf52cb449",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "A Road Purist",
       "observations": [
         {
@@ -51,7 +157,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-3fa0d88356",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "Great Road Purist",
       "observations": [
         {
@@ -85,7 +191,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-417fb3bbfd",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "雨 神 副 驾 口 主 播",
       "nameI18n": {
         "en": "Rain (雨神), the streamer, riding shotgun",
@@ -123,7 +229,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-691458c953",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "Street Races",
       "observations": [
         {
@@ -161,7 +267,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-7c6cd34df1",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "Purist TSW",
       "observations": [
         {
@@ -199,7 +305,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-8085df5a05",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "Purist",
       "observations": [
         {
@@ -266,7 +372,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-a1ca23307c",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "A grip",
       "observations": [
         {
@@ -303,8 +409,84 @@
       "class": "A",
       "confidence": 0.8,
       "drivetrain": "RWD",
+      "id": "nc-afb54f3be8",
+      "metaRank": 168,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 BMW M3",
+            "Comment": "Purist",
+            "Design": "NFS PROSTREET GRIP RUNNERS",
+            "Designer": "CCROWNY",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 997,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2008-bmw-m3",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-b7112807e0",
+      "metaRank": 168,
+      "name": "purist assist larp",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 BMW M3",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist assist larp",
+            "Tuner": "K1Z Amemiya",
+            "fill": "FFFF0000"
+          },
+          "row": 994,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-amemiya"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2008-bmw-m3",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
       "id": "nc-e9cbb720d0",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "Purist",
       "observations": [
         {
@@ -341,12 +523,12 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-edf88df82a",
-      "metaRank": 165,
+      "metaRank": 168,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 337,
+          "row": 343,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -358,405 +540,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-bmw-m3",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-05",
-      "drivetrain": "RWD",
-      "id": "sc-106199714",
-      "metaRank": 165,
-      "name": "A Class - Road Racing - Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "106 199 714",
-            "suspension": "Street",
-            "tuneName": "A Class - Road Racing - Purist",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 354,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "106199714",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-bmw-m3",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "id": "sc-148824281",
-      "name": "S1 Road AWD 5.0 SFLA",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "148 824 281",
-            "suspension": "Rally",
-            "tuneName": "S1 Road AWD 5.0 SFLA",
-            "tuner": "JakeGTR9",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 356,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "148824281",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "jakegtr9"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-bmw-m3",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "drivetrain": "RWD",
-      "id": "sc-150433441",
-      "metaRank": 165,
-      "name": "A road purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "150 433 441",
-            "suspension": "Street",
-            "tuneName": "A road purist",
-            "tuner": "Inayamei",
-            "tyreCompound": "Rally"
-          },
-          "row": 351,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 BMW M3",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Road Purist",
-            "Tuner": "Inayamei",
-            "fill": "FFFF0000"
-          },
-          "row": 992,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.57,
-      "shareCode": "150433441",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "inayamei"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-bmw-m3",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "RWD",
-      "id": "sc-176179251",
-      "name": "purist assist larp",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "176 179 251",
-            "suspension": "Street",
-            "tuneName": "purist assist larp",
-            "tuner": "K1Z Amemiya",
-            "tyreCompound": "Rally"
-          },
-          "row": 352,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 BMW M3",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "purist assist larp",
-            "Tuner": "K1Z Amemiya",
-            "fill": "FFFF0000"
-          },
-          "row": 994,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "176179251",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-amemiya"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-bmw-m3",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "RWD",
-      "id": "sc-292679302",
-      "name": "A Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "292 679 302",
-            "suspension": "Street",
-            "tuneName": "A Allround",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 349,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 BMW M3",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Allround",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 990,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "292679302",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-bmw-m3",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "RWD",
-      "id": "sc-300011079",
-      "name": "Persian Person Car",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "300 011 079",
-            "suspension": "Street",
-            "tuneName": "Persian Person Car",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 350,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 BMW M3",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Persian Person Car",
-            "Tuner": "GreetedDust8",
-            "fill": "FFFF0000"
-          },
-          "row": 991,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "300011079",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-bmw-m3",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-19",
-      "drivetrain": "RWD",
-      "id": "sc-494081341",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "494 081 341",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 353,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 BMW M3",
-            "Comment": "Purist",
-            "Design": "NFS PROSTREET GRIP RUNNERS",
-            "Designer": "CCROWNY",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "K1Z Suimin",
-            "fill": "FFFF0000"
-          },
-          "row": 997,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "494081341",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-bmw-m3",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "drivetrain": "RWD",
-      "id": "sc-657564295",
-      "metaRank": 165,
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M3 (2008)",
-            "sharecode": "657 564 295",
-            "suspension": "Rally",
-            "tuneName": "A Road Purist",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Rally"
-          },
-          "row": 355,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "657564295",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "vnx-ruinz"
     }
   ],
   "schemaVersion": 1

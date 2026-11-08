@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -25,7 +25,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2850,
+          "row": 2849,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -35,6 +35,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-toyota-soarer-2-5-gt-t",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-5f477da26a",
+      "name": "Purist fat",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Toyota Soarer 2.5 GT-T",
+            "Comment": "Purist",
+            "Design": "FALKEN STYLE",
+            "Designer": "ENV1 PTGDRIFTER",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist fat",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 2850,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-suimin"
     },
     {
       "buildTags": [],
@@ -58,7 +95,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2849,
+          "row": 2848,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -103,104 +140,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1997-toyota-soarer-2-5-gt-t",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-29",
-      "drivetrain": "RWD",
-      "id": "sc-177939808",
-      "name": "Purist fat",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Soarer 2.5 GT-T",
-            "sharecode": "177 939 808",
-            "suspension": "Street",
-            "tuneName": "Purist fat",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 2535,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1997 Toyota Soarer 2.5 GT-T",
-            "Comment": "Purist",
-            "Design": "FALKEN STYLE",
-            "Designer": "ENV1 PTGDRIFTER",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist fat",
-            "Tuner": "K1Z Suimin",
-            "fill": "FFFF0000"
-          },
-          "row": 2851,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "177939808",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1997-toyota-soarer-2-5-gt-t",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-19",
-      "drivetrain": "RWD",
-      "id": "sc-983943029",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Soarer 2.5 GT-T",
-            "sharecode": "983 943 029",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 2536,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "983943029",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
     }
   ],
   "schemaVersion": 1

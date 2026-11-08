@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1957-ford-thunderbird",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-7c6ec4ef2c",
+      "name": "Purist is dead",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1957 Ford Thunderbird",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist is dead",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1484,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
+    },
     {
       "buildTags": [],
       "carId": "1957-ford-thunderbird",
@@ -76,266 +113,6 @@
     },
     {
       "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1957-ford-thunderbird",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-22",
-      "drivetrain": "AWD",
-      "id": "sc-104019804",
-      "name": "B Dirt Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "22/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Thunderbird",
-            "sharecode": "104 019 804",
-            "suspension": "Stock",
-            "tuneName": "B Dirt Stock Look",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1041,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.498,
-      "shareCode": "104019804",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1957-ford-thunderbird",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-20",
-      "drivetrain": "AWD",
-      "id": "sc-138112896",
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "20/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Thunderbird",
-            "sharecode": "138 112 896",
-            "suspension": "Stock",
-            "tuneName": "B Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1042,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.497,
-      "shareCode": "138112896",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1957-ford-thunderbird",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-20",
-      "drivetrain": "AWD",
-      "id": "sc-163164130",
-      "name": "Good A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Thunderbird",
-            "sharecode": "163 164 130",
-            "suspension": "Rally",
-            "tuneName": "Good A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1037,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1957 Ford Thunderbird",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Good A Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1483,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.68,
-      "shareCode": "163164130",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1957-ford-thunderbird",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-21",
-      "drivetrain": "AWD",
-      "id": "sc-381390061",
-      "name": "Dirt Allround META Sunflower 58.7 A/M V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Thunderbird",
-            "sharecode": "381 390 061",
-            "suspension": "Stock",
-            "tuneName": "Dirt Allround META Sunflower 58.7 A/M V1.1",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1038,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.497,
-      "shareCode": "381390061",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1957-ford-thunderbird",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-23",
-      "drivetrain": "AWD",
-      "id": "sc-583533899",
-      "name": "B Dirt | Sekibe 57.547",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Thunderbird",
-            "sharecode": "583 533 899",
-            "suspension": "Stock",
-            "tuneName": "B Dirt | Sekibe 57.547",
-            "tuner": "GReddy295",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1040,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.498,
-      "shareCode": "583533899",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greddy295"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1957-ford-thunderbird",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-20",
-      "drivetrain": "RWD",
-      "id": "sc-766891067",
-      "name": "Purist is dead",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "Thunderbird",
-            "sharecode": "766 891 067",
-            "suspension": "Race",
-            "tuneName": "Purist is dead",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 1036,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1957 Ford Thunderbird",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist is dead",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1484,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.68,
-      "shareCode": "766891067",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [
         "purist"
       ],
       "carId": "1957-ford-thunderbird",
@@ -344,30 +121,12 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-08-21",
+      "confidence": 0.8,
       "drivetrain": "RWD",
-      "id": "sc-786611191",
+      "id": "nc-dffa78cf19",
       "metaRank": 44,
       "name": "Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "21/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ford",
-            "model": "Thunderbird",
-            "sharecode": "786 611 191",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 1039,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1957 Ford Thunderbird",
@@ -385,13 +144,44 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.574,
-      "shareCode": "786611191",
+      "score": 0.477,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "vintage-race",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1957-ford-thunderbird",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-fd21cfbaa7",
+      "name": "Good A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1957 Ford Thunderbird",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1483,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
     }
   ],
   "schemaVersion": 1

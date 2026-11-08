@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-02e4630b04",
+      "name": "stock look (use all 10 gears)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Audi R8 Coupé V10 Plus 5.2 FSI quattro",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "stock look (use all 10 gears)",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 919,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zaz490"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-27ccb9b22f",
+      "name": "A Road - USE ALL GEARS",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Audi R8 Coupé V10 Plus 5.2 FSI quattro",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - USE ALL GEARS",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 917,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
     {
       "buildTags": [],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
@@ -113,127 +181,15 @@
       "tunerId": "storyvs-ttv"
     },
     {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-17",
-      "drivetrain": "AWD",
-      "id": "sc-130252698",
-      "name": "LMS \"Purist\" | 47.5 Narai (Could 46?)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 Coupé V10 Plus 5.2 FSI Quattro",
-            "sharecode": "130 252 698",
-            "suspension": "Sport",
-            "tuneName": "LMS \"Purist\" | 47.5 Narai (Could 46?)",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 197,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Audi R8 Coupé V10 Plus 5.2 FSI quattro",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "LMS \"Purist\" | 47.5 Narai (Could 46?)",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 916,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "130252698",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
       "buildTags": [],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-04",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-141748688",
-      "name": "A Road V10LMS LBWK w/roofbox",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 Coupé V10 Plus 5.2 FSI Quattro",
-            "sharecode": "141 748 688",
-            "suspension": "Rally",
-            "tuneName": "A Road V10LMS LBWK w/roofbox",
-            "tuner": "JakeGTR9",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 199,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "141748688",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "jakegtr9"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-22",
-      "drivetrain": "AWD",
-      "id": "sc-181024160",
+      "id": "nc-6c5d447637",
       "name": "A Road - Strong Allround",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 Coupé V10 Plus 5.2 FSI Quattro",
-            "sharecode": "181 024 160",
-            "suspension": "Sport",
-            "tuneName": "A Road - Strong Allround",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 200,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2013 Audi R8 Coupé V10 Plus 5.2 FSI quattro",
@@ -251,42 +207,26 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.665,
-      "shareCode": "181024160",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "k1z-bard"
     },
     {
-      "buildTags": [],
+      "buildTags": [
+        "purist"
+      ],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
+      "categories": [
+        "purist"
+      ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "RWD",
-      "id": "sc-204153042",
-      "name": "A Road - USE ALL GEARS",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-f551913c50",
+      "name": "LMS \"Purist\" | 47.5 Narai (Could 46?)",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Audi",
-            "model": "R8 Coupé V10 Plus 5.2 FSI Quattro",
-            "sharecode": "204 153 042",
-            "suspension": "Race",
-            "tuneName": "A Road - USE ALL GEARS",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 198,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2013 Audi R8 Coupé V10 Plus 5.2 FSI quattro",
@@ -295,116 +235,20 @@
             "Designer": "",
             "Drivetrain": "AWD",
             "Terrain": "Road",
-            "Tune": "A Road - USE ALL GEARS",
-            "Tuner": "ESV Lawrence",
+            "Tune": "LMS \"Purist\" | 47.5 Narai (Could 46?)",
+            "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 917,
+          "row": 916,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.661,
-      "shareCode": "204153042",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-530983424",
-      "name": "stock look (use all 10 gears)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 Coupé V10 Plus 5.2 FSI Quattro",
-            "sharecode": "530 983 424",
-            "suspension": "Sport",
-            "tuneName": "stock look (use all 10 gears)",
-            "tuner": "ZaZ490",
-            "tyreCompound": "Rally"
-          },
-          "row": 202,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Audi R8 Coupé V10 Plus 5.2 FSI quattro",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "stock look (use all 10 gears)",
-            "Tuner": "ZaZ490",
-            "fill": "FFFF0000"
-          },
-          "row": 919,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "530983424",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zaz490"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-24",
-      "drivetrain": "AWD",
-      "id": "sc-922159080",
-      "name": "Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "R8 Coupé V10 Plus 5.2 FSI Quattro",
-            "sharecode": "922 159 080",
-            "suspension": "Race",
-            "tuneName": "Stock Look",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 201,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "922159080",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
+      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

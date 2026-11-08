@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-0323709da3",
+      "name": "A Dirt/CC Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt/CC Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1574,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-629a44ba7e",
+      "name": "B Dirt/CC Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt/CC Allround",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 310,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
@@ -24,6 +90,39 @@
             "fill": "FFFF0000"
           },
           "row": 1575,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-88cc643ab0",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1578,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -104,263 +203,12 @@
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
       "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-109304445",
-      "name": "S1 Dirt Aventador V12",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum Forza Edition",
-            "sharecode": "109 304 445",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Aventador V12",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1029,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "109304445",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-111993169",
-      "name": "A road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum Forza Edition",
-            "sharecode": "111 993 169",
-            "suspension": "Rally",
-            "tuneName": "A road",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 1026,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
-            "Comment": "LOL",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A road",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1576,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "111993169",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-166776858",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum Forza Edition",
-            "sharecode": "166 776 858",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1030,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 1578,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "166776858",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-170285561",
-      "name": "A Road Allround Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum Forza Edition",
-            "sharecode": "170 285 561",
-            "suspension": "Rally",
-            "tuneName": "A Road Allround Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1025,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "170285561",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
-      "drivetrain": "AWD",
-      "id": "sc-184930391",
-      "name": "A Dirt/CC Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum Forza Edition",
-            "sharecode": "184 930 391",
-            "suspension": "Rally",
-            "tuneName": "A Dirt/CC Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1024,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt/CC Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 1574,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "184930391",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-201799981",
+      "id": "nc-d9fdeea2c1",
       "name": "B Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum Forza Edition",
-            "sharecode": "201 799 981",
-            "suspension": "Rally",
-            "tuneName": "B Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1028,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
@@ -378,66 +226,44 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.665,
-      "shareCode": "201799981",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
       "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
+      "class": "A",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-581160445",
-      "name": "B Dirt/CC Allround",
+      "id": "nc-e54fc86a2b",
+      "name": "A road",
       "observations": [
         {
           "raw": {
-            "class": "B",
-            "date": "23/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Super Duty F-450 DRW Platinum Forza Edition",
-            "sharecode": "581 160 445",
-            "suspension": "Rally",
-            "tuneName": "B Dirt/CC Allround",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1027,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
             "Car": "2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition",
-            "Comment": "",
+            "Comment": "LOL",
             "Design": "",
             "Designer": "",
             "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt/CC Allround",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
           },
-          "row": 310,
+          "row": 1576,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "581160445",
-      "surface": "cross-country",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
+      "tunerId": "silvasuperbee"
     }
   ],
   "schemaVersion": 1

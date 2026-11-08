@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -25,12 +25,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 136,
+      "metaRank": 139,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 278,
+          "row": 284,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -42,87 +42,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2018-audi-rs-4-avant",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-134651910",
-      "metaRank": 136,
-      "name": "A Road - Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 4 Avant (2018)",
-            "sharecode": "134 651 910",
-            "suspension": "Street",
-            "tuneName": "A Road - Stock Look",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 242,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.53,
-      "shareCode": "134651910",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2018-audi-rs-4-avant",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-10",
-      "drivetrain": "AWD",
-      "id": "sc-225227944",
-      "name": "Dirt Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 4 Avant (2018)",
-            "sharecode": "225 227 944",
-            "suspension": "Rally",
-            "tuneName": "Dirt Stock Look",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 243,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "225227944",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

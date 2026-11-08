@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -59,35 +59,54 @@
       "tunerId": "noa-miyako"
     },
     {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2013-wuling-sunshine-s",
+      "categories": [
+        "meme"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-8c14f023f1",
+      "name": "I Got A Pocket, Got A Pocketful Of Sunshine",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Wuling Sunshine S",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "I Got A Pocket, Got A Pocketful Of Sunshine",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 3000,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
       "buildTags": [],
       "carId": "2013-wuling-sunshine-s",
       "categories": [
         "meme"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-13",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-145196493",
+      "id": "nc-df0df39099",
       "name": "B Dirt/CC Easy",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "13/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Wuling",
-            "model": "Sunshine S",
-            "sharecode": "145 196 493",
-            "suspension": "Stock",
-            "tuneName": "B Dirt/CC Easy",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2662,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2013 Wuling Sunshine S",
@@ -105,70 +124,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.678,
-      "shareCode": "145196493",
+      "score": 0.474,
       "surface": "cross-country",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2013-wuling-sunshine-s",
-      "categories": [
-        "meme"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-25",
-      "drivetrain": "RWD",
-      "id": "sc-877214074",
-      "name": "I Got A Pocket, Got A Pocketful Of Sunshine",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Wuling",
-            "model": "Sunshine S",
-            "sharecode": "877 214 074",
-            "suspension": "Race",
-            "tuneName": "I Got A Pocket, Got A Pocketful Of Sunshine",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2661,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Wuling Sunshine S",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "I Got A Pocket, Got A Pocketful Of Sunshine",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 3001,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "877214074",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

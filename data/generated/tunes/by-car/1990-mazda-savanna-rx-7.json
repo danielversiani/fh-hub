@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -70,6 +70,43 @@
       "tunerId": "cte-seasons"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1990-mazda-savanna-rx-7",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-289e5a2b01",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Mazda Savanna RX-7",
+            "Comment": "Purist",
+            "Design": "#77 RE AMEMIYA RACING",
+            "Designer": "OtschiKa",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 2086,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-suimin"
+    },
+    {
       "buildTags": [],
       "carId": "1990-mazda-savanna-rx-7",
       "categories": [],
@@ -138,80 +175,6 @@
       "tunerId": "keerj"
     },
     {
-      "buildTags": [],
-      "carId": "1990-mazda-savanna-rx-7",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-24",
-      "drivetrain": "RWD",
-      "id": "sc-165080450",
-      "name": "Water your freedom with the blood of opressors",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "Savanna RX-7",
-            "sharecode": "165 080 450",
-            "suspension": "Race",
-            "tuneName": "Water your freedom with the blood of opressors",
-            "tuner": "keerj",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1642,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "165080450",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "keerj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1990-mazda-savanna-rx-7",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-04",
-      "drivetrain": "RWD",
-      "id": "sc-168183310",
-      "name": "3 rotor potato",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/10/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "Savanna RX-7",
-            "sharecode": "168 183 310",
-            "suspension": "Race",
-            "tuneName": "3 rotor potato",
-            "tuner": "giron228",
-            "tyreCompound": "Rally"
-          },
-          "row": 1640,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "168183310",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "giron228"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -220,29 +183,11 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-174549702",
+      "id": "nc-ae2a0202e6",
       "name": "b purist bomex",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "22/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "Savanna RX-7",
-            "sharecode": "174 549 702",
-            "suspension": "Sport",
-            "tuneName": "b purist bomex",
-            "tuner": "K1Z Amemiya",
-            "tyreCompound": "Street"
-          },
-          "row": 1644,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1990 Mazda Savanna RX-7",
@@ -260,12 +205,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "174549702",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "street",
       "tunerId": "k1z-amemiya"
     },
     {
@@ -277,86 +220,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-353984952",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "03/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "Savanna RX-7",
-            "sharecode": "353 984 952",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 1641,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1990 Mazda Savanna RX-7",
-            "Comment": "Purist",
-            "Design": "#77 RE AMEMIYA RACING",
-            "Designer": "OtschiKa",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "K1Z Suimin",
-            "fill": "FFFF0000"
-          },
-          "row": 2086,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "353984952",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1990-mazda-savanna-rx-7",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "RWD",
-      "id": "sc-530294527",
+      "id": "nc-ced32567f3",
       "name": "Road Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "Savanna RX-7",
-            "sharecode": "530 294 527",
-            "suspension": "Street",
-            "tuneName": "Road Purist",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 1643,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1990 Mazda Savanna RX-7",
@@ -374,12 +242,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.656,
-      "shareCode": "530294527",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "keerj"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -39,6 +39,76 @@
       "tunerId": "bluecarterex"
     },
     {
+      "buildTags": [],
+      "carId": "2011-mazda-rx-8-r3",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-6a14867618",
+      "name": "When I am gone, bury me, In my beloved Ukraine.",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Mazda RX-8 R3",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "When I am gone, bury me, In my beloved Ukraine.",
+            "Tuner": "keerj",
+            "fill": "FFFF0000"
+          },
+          "row": 2176,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "keerj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2011-mazda-rx-8-r3",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-6dab8d9e8f",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Mazda RX-8 R3",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 421,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "dumbo-gt49"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -64,7 +134,7 @@
             "Tuner": "BluecarterEX",
             "fill": "FFFF0000"
           },
-          "row": 2176,
+          "row": 2175,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -134,7 +204,7 @@
             "Tuner": "BluecarterEX",
             "fill": "FFFF0000"
           },
-          "row": 2175,
+          "row": 2174,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -144,276 +214,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "bluecarterex"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-mazda-rx-8-r3",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-17",
-      "drivetrain": "RWD",
-      "id": "sc-160074646",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-8 R3",
-            "sharecode": "160 074 646",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "Dumbo GT49",
-            "tyreCompound": "Standard"
-          },
-          "row": 1638,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Mazda RX-8 R3",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "Dumbo GT49",
-            "fill": "FFED7D31"
-          },
-          "row": 421,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "160074646",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-mazda-rx-8-r3",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-160989832",
-      "name": "B Road | Purist (INGS Kit)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-8 R3",
-            "sharecode": "160 989 832",
-            "suspension": "Street",
-            "tuneName": "B Road | Purist (INGS Kit)",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Standard"
-          },
-          "row": 1637,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "160989832",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-mazda-rx-8-r3",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-315035681",
-      "name": "Offroad 2.0L R3 v2",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "RX-8 R3",
-            "sharecode": "315 035 681",
-            "suspension": "Rally",
-            "tuneName": "Offroad 2.0L R3 v2",
-            "tuner": "BluecarterEX",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1639,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "315035681",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "bluecarterex"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-mazda-rx-8-r3",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-05",
-      "drivetrain": "RWD",
-      "id": "sc-438540988",
-      "name": "purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-8 R3",
-            "sharecode": "438 540 988",
-            "suspension": "Street",
-            "tuneName": "purist",
-            "tuner": "K1Z Bala",
-            "tyreCompound": "Rally"
-          },
-          "row": 1634,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.493,
-      "shareCode": "438540988",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bala"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-mazda-rx-8-r3",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-24",
-      "drivetrain": "RWD",
-      "id": "sc-542170095",
-      "name": "When i am gone, bury me, In my beloved Ukraine",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-8 R3",
-            "sharecode": "542 170 095",
-            "suspension": "Street",
-            "tuneName": "When i am gone, bury me, In my beloved Ukraine",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 1635,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Mazda RX-8 R3",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "When I am gone, bury me, In my beloved Ukraine.",
-            "Tuner": "keerj",
-            "fill": "FFFF0000"
-          },
-          "row": 2177,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "542170095",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "keerj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-mazda-rx-8-r3",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-26",
-      "drivetrain": "RWD",
-      "id": "sc-683995957",
-      "name": "Purist Ings",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "RX-8 R3",
-            "sharecode": "683 995 957",
-            "suspension": "Race",
-            "tuneName": "Purist Ings",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 1636,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "683995957",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
     }
   ],
   "schemaVersion": 1

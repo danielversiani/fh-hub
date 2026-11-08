@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2008-renault-megane-r26-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-3ae9496832",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Renault Mégane R26.R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2712,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [
         "stock-look"
@@ -8,29 +45,11 @@
       "carId": "2008-renault-megane-r26-r",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-488832051",
+      "id": "nc-f3c3486a78",
       "name": "B Road Stock Look",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R26.R",
-            "sharecode": "488 832 051",
-            "suspension": "Sport",
-            "tuneName": "B Road Stock Look",
-            "tuner": "VDM Militen",
-            "tyreCompound": "Rally"
-          },
-          "row": 2279,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2008 Renault Mégane R26.R",
@@ -48,70 +67,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.66,
-      "shareCode": "488832051",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "vdm-militen"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-renault-megane-r26-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-23",
-      "drivetrain": "FWD",
-      "id": "sc-835678819",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/08/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R26.R",
-            "sharecode": "835 678 819",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 2278,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 Renault Mégane R26.R",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 2713,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.68,
-      "shareCode": "835678819",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

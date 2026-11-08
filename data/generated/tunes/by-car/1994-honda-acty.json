@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -31,6 +31,42 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-honda-acty",
+      "categories": [
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-adab222e19",
+      "metaRank": 50,
+      "name": "Dirt WR VTEC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Honda Acty",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt WR VTEC",
+            "Tuner": "BluecarterEX",
+            "fill": "FFED7D31"
+          },
+          "row": 361,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.438,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "bluecarterex"
     },
     {
       "buildTags": [
@@ -68,142 +104,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-honda-acty",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-19",
-      "drivetrain": "AWD",
-      "id": "sc-656659380",
-      "metaRank": 50,
-      "name": "Dirt WR VTEC",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "19/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Acty",
-            "sharecode": "656 659 380",
-            "suspension": "Stock",
-            "tuneName": "Dirt WR VTEC",
-            "tuner": "BluecarterEX",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1124,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1994 Honda Acty",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt WR VTEC",
-            "Tuner": "BluecarterEX",
-            "fill": "FFED7D31"
-          },
-          "row": 361,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.526,
-      "shareCode": "656659380",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "bluecarterex"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-honda-acty",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-938379144",
-      "metaRank": 50,
-      "name": "Dirt Meta Long FD",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Acty",
-            "sharecode": "938 379 144",
-            "suspension": "Rally",
-            "tuneName": "Dirt Meta Long FD",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1122,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.44,
-      "shareCode": "938379144",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-honda-acty",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-974988980",
-      "metaRank": 50,
-      "name": "Dirt Meta Short FD",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Acty",
-            "sharecode": "974 988 980",
-            "suspension": "Rally",
-            "tuneName": "Dirt Meta Short FD",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1123,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.44,
-      "shareCode": "974988980",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "ams-carver"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -70,6 +70,43 @@
       "tunerId": "sr1-rain"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1982-lancia-037-stradale",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-576a38d15c",
+      "name": "Purist A Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1982 Lancia 037",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist A Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1951,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
       "buildTags": [],
       "carId": "1982-lancia-037-stradale",
       "categories": [],
@@ -108,44 +145,6 @@
       "tunerId": "noa-miyako"
     },
     {
-      "buildTags": [],
-      "carId": "1982-lancia-037-stradale",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-101635088",
-      "metaRank": 37,
-      "name": "S1 Dirt Rocket",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "037 Stradale",
-            "sharecode": "101 635 088",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Rocket",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1440,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.449,
-      "shareCode": "101635088",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "letzelu"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -154,29 +153,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-130295871",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-b6dec67828",
       "name": "Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "037 Stradale",
-            "sharecode": "130 295 871",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "NEPOSHA",
-            "tyreCompound": "Rally"
-          },
-          "row": 1439,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1982 Lancia 037",
@@ -194,145 +175,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.675,
-      "shareCode": "130295871",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "neposha"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-lancia-037-stradale",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-31",
-      "drivetrain": "AWD",
-      "id": "sc-130838359",
-      "name": "Dirt WRC Kit V1.2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "037 Stradale",
-            "sharecode": "130 838 359",
-            "suspension": "Sport",
-            "tuneName": "Dirt WRC Kit V1.2",
-            "tuner": "AIONS580Pio",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1437,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "130838359",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1982-lancia-037-stradale",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-350666707",
-      "name": "Purist A Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "037 Stradale",
-            "sharecode": "350 666 707",
-            "suspension": "Sport",
-            "tuneName": "Purist A Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1438,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1982 Lancia 037",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist A Road",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1951,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.675,
-      "shareCode": "350666707",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-lancia-037-stradale",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-31",
-      "drivetrain": "AWD",
-      "id": "sc-391037850",
-      "metaRank": 37,
-      "name": "Dirt Lil'Rocket T1+ Sunflower 56.0 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "037 Stradale",
-            "sharecode": "391 037 850",
-            "suspension": "Rally",
-            "tuneName": "Dirt Lil'Rocket T1+ Sunflower 56.0 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1441,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.449,
-      "shareCode": "391037850",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
+      "tunerId": "neposha"
     }
   ],
   "schemaVersion": 1

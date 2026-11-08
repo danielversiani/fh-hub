@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -43,29 +43,11 @@
       "carId": "2003-ford-focus-rs",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-26",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-864965691",
+      "id": "nc-d453ebd106",
       "name": "Fwd Road Grip",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Ford",
-            "model": "Focus RS (2003)",
-            "sharecode": "864 965 691",
-            "suspension": "Street",
-            "tuneName": "Fwd Road Grip",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 927,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2003 Ford Focus RS",
@@ -83,12 +65,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.674,
-      "shareCode": "864965691",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "semi-slick",
       "tunerId": "drx-q3"
     }
   ],

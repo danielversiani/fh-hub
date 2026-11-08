@@ -1,110 +1,16 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1982-porsche-911-turbo-3-3",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-01",
-      "drivetrain": "AWD",
-      "id": "sc-428967880",
-      "name": "a dirt stock look",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "01/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo 3.3",
-            "sharecode": "428 967 880",
-            "suspension": "Rally",
-            "tuneName": "a dirt stock look",
-            "tuner": "CTE mag",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2210,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "428967880",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cte-mag"
-    },
-    {
-      "buildTags": [],
-      "carId": "1982-porsche-911-turbo-3-3",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
-      "drivetrain": "AWD",
-      "id": "sc-633938146",
-      "name": "Dirt 1.0",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo 3.3",
-            "sharecode": "633 938 146",
-            "suspension": "Rally",
-            "tuneName": "Dirt 1.0",
-            "tuner": "NDL RB38",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2212,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "633938146",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "ndl-rb38"
-    },
-    {
       "buildTags": [],
       "carId": "1982-porsche-911-turbo-3-3",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-24",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-701780360",
+      "id": "nc-9aacb563b1",
       "name": "lore accurate johnny silverhand",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo 3.3",
-            "sharecode": "701 780 360",
-            "suspension": "Street",
-            "tuneName": "lore accurate johnny silverhand",
-            "tuner": "Inayamei",
-            "tyreCompound": "Rally"
-          },
-          "row": 2211,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1982 Porsche 911 Turbo 3.3",
@@ -117,17 +23,15 @@
             "Tuner": "Inayamei",
             "fill": "FFFF0000"
           },
-          "row": 2612,
+          "row": 2611,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "701780360",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "inayamei"
     }
   ],

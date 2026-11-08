@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -25,7 +25,7 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 2645,
+          "row": 2644,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -41,29 +41,11 @@
       "carId": "2014-porsche-918-spyder",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-27",
-      "drivetrain": "AWD",
-      "id": "sc-172168621",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-fba5c006aa",
       "name": "Was nicht passt wird passend gemacht",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "918 Spyder",
-            "sharecode": "172 168 621",
-            "suspension": "Rally",
-            "tuneName": "Was nicht passt wird passend gemacht",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2223,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2014 Porsche 918 Spyder",
@@ -76,17 +58,15 @@
             "Tuner": "DarkZ704",
             "fill": "FFFF0000"
           },
-          "row": 2644,
+          "row": 2643,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.674,
-      "shareCode": "172168621",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "darkz704"
     },
     {
@@ -128,43 +108,6 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-porsche-918-spyder",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-22",
-      "drivetrain": "AWD",
-      "id": "sc-821851773",
-      "name": "S1 Road 2.0",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "22/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "918 Spyder",
-            "sharecode": "821 851 773",
-            "suspension": "Race",
-            "tuneName": "S1 Road 2.0",
-            "tuner": "scaans",
-            "tyreCompound": "Rally"
-          },
-          "row": 2224,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "821851773",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "scaans"
     }
   ],
   "schemaVersion": 1

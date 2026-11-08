@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "carId": "1991-honda-beat",
       "category": "meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-winter--weekly-challenge--strictly-for-fun",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -16,9 +17,9 @@
           }
         }
       ],
-      "score": 0.761,
+      "score": 0.77,
       "seasonId": "s06-winter",
-      "tuneId": "sc-160969837"
+      "tuneId": "nc-c34df8886d"
     },
     {
       "carId": "1991-honda-beat",
@@ -46,8 +47,9 @@
     {
       "carId": "2024-mercedes-amg-gt-63-4matic",
       "category": "meta",
-      "confidence": 1,
+      "confidence": 0.95,
       "eventId": "s06-winter--championship--touring-the-sights",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -68,13 +70,13 @@
         {
           "key": "reason.sources",
           "params": {
-            "count": 3
+            "count": 2
           }
         }
       ],
-      "score": 0.835,
+      "score": 0.778,
       "seasonId": "s06-winter",
-      "tuneId": "sc-969881490"
+      "tuneId": "nc-11edc80729"
     },
     {
       "carId": "2025-gr-gt-prototype",
@@ -475,23 +477,18 @@
     {
       "carId": "2005-subaru-legacy-b4-2-0-gt",
       "category": "purist",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "eventId": "s06-winter--horizon-life-the-trial--full-send",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.661,
+      "score": 0.474,
       "seasonId": "s06-winter",
-      "tuneId": "sc-106960335"
+      "tuneId": "nc-d93d062a0d"
     }
   ],
   "schemaVersion": 1

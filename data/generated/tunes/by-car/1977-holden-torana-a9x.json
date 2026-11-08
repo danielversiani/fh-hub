@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -14,12 +14,12 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-3caaf90aed",
-      "metaRank": 113,
+      "metaRank": 115,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 231,
+          "row": 235,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -121,6 +121,44 @@
       "tunerId": "msr-sam"
     },
     {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1977-holden-torana-a9x",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-a4aadb61ab",
+      "metaRank": 29,
+      "name": "Good A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1977 Holden Torana A9X",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1659,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
       "buildTags": [],
       "carId": "1977-holden-torana-a9x",
       "categories": [
@@ -192,304 +230,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-27",
-      "drivetrain": "RWD",
-      "id": "sc-136912615",
-      "metaRank": 29,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Holden",
-            "model": "Torana A9X",
-            "sharecode": "136 912 615",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 1101,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.544,
-      "shareCode": "136912615",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-140920660",
-      "name": "S1 OFFROAD",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Holden",
-            "model": "Torana A9X",
-            "sharecode": "140 920 660",
-            "suspension": "Rally",
-            "tuneName": "S1 OFFROAD",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1104,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "140920660",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-09-14",
-      "drivetrain": "RWD",
-      "id": "sc-386313293",
-      "metaRank": 29,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/09/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Holden",
-            "model": "Torana A9X",
-            "sharecode": "386 313 293",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 1099,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.553,
-      "shareCode": "386313293",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-02",
-      "drivetrain": "AWD",
-      "id": "sc-406247626",
-      "metaRank": 29,
-      "name": "Strong A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Holden",
-            "model": "Torana A9X",
-            "sharecode": "406 247 626",
-            "suspension": "Rally",
-            "tuneName": "Strong A Dirt",
-            "tuner": "Rocklxd",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1100,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.548,
-      "shareCode": "406247626",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "rocklxd"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-553303353",
-      "metaRank": 29,
-      "name": "Good A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Holden",
-            "model": "Torana A9X",
-            "sharecode": "553 303 353",
-            "suspension": "Rally",
-            "tuneName": "Good A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1102,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1977 Holden Torana A9X",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Good A Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1659,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.625,
-      "shareCode": "553303353",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-10-26",
-      "drivetrain": "AWD",
-      "id": "sc-620684677",
-      "name": "CC V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "26/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Holden",
-            "model": "Torana A9X",
-            "sharecode": "620 684 677",
-            "suspension": "Rally",
-            "tuneName": "CC V1.1",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1105,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.513,
-      "shareCode": "620684677",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-746664544",
-      "metaRank": 21,
-      "name": "A OFFROAD V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Holden",
-            "model": "Torana A9X",
-            "sharecode": "746 664 544",
-            "suspension": "Rally",
-            "tuneName": "A OFFROAD V2",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1103,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.585,
-      "shareCode": "746664544",
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
     }
   ],
   "schemaVersion": 1

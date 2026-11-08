@@ -1,6 +1,109 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-challenger-srt-hellcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-0f9af58d1c",
+      "name": "No gey drag tyre",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Dodge Challenger SRT Hellcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "No gey drag tyre",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1311,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-challenger-srt-hellcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-26a1584f72",
+      "name": "A Boaty McBoatFace",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Dodge Challenger SRT Hellcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Boaty McBoatFace",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 1308,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2015-dodge-challenger-srt-hellcat",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-46354cae85",
+      "name": "Purist Sprints / Street",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Dodge Challenger SRT Hellcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Sprints / Street",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1310,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [],
       "carId": "2015-dodge-challenger-srt-hellcat",
@@ -39,123 +142,11 @@
       "carId": "2015-dodge-challenger-srt-hellcat",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-08",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-110358980",
-      "name": "Road AWD Strong & Easy",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "110 358 980",
-            "suspension": "Street",
-            "tuneName": "Road AWD Strong & Easy",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 679,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "110358980",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2015-dodge-challenger-srt-hellcat",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
-      "drivetrain": "RWD",
-      "id": "sc-120838774",
-      "name": "Purist Sprints / Street",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "120 838 774",
-            "suspension": "Street",
-            "tuneName": "Purist Sprints / Street",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Drift"
-          },
-          "row": 674,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2015 Dodge Challenger SRT Hellcat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist Sprints / Street",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 1310,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "120838774",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-dodge-challenger-srt-hellcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-19",
-      "drivetrain": "AWD",
-      "id": "sc-175343361",
+      "id": "nc-f19208848a",
       "name": "Black Person Car",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "175 343 361",
-            "suspension": "Street",
-            "tuneName": "Black Person Car",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 676,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2015 Dodge Challenger SRT Hellcat",
@@ -173,230 +164,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.657,
-      "shareCode": "175343361",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-dodge-challenger-srt-hellcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-30",
-      "drivetrain": "AWD",
-      "id": "sc-181944132",
-      "name": "A Boaty McBoatFace",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "181 944 132",
-            "suspension": "Rally",
-            "tuneName": "A Boaty McBoatFace",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 675,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2015 Dodge Challenger SRT Hellcat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Boaty McBoatFace",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 1308,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "181944132",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-dodge-challenger-srt-hellcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-06",
-      "drivetrain": "AWD",
-      "id": "sc-261254408",
-      "name": "A Road AWD VV10 LBWK",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "261 254 408",
-            "suspension": "Street",
-            "tuneName": "A Road AWD VV10 LBWK",
-            "tuner": "JakeGTR9",
-            "tyreCompound": "Rally"
-          },
-          "row": 677,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "261254408",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "jakegtr9"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-dodge-challenger-srt-hellcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-09",
-      "drivetrain": "AWD",
-      "id": "sc-440443580",
-      "name": "A Road - Strong Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "440 443 580",
-            "suspension": "Street",
-            "tuneName": "A Road - Strong Allround",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 678,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "440443580",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-dodge-challenger-srt-hellcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-02",
-      "drivetrain": "RWD",
-      "id": "sc-515975115",
-      "name": "No gey drag tyre",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "515 975 115",
-            "suspension": "Race",
-            "tuneName": "No gey drag tyre",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Drift"
-          },
-          "row": 680,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2015 Dodge Challenger SRT Hellcat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "No gey drag tyre",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1311,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.653,
-      "shareCode": "515975115",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-dodge-challenger-srt-hellcat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-09",
-      "drivetrain": "AWD",
-      "id": "sc-630326807",
-      "name": "georgia state patrol",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Challenger SRT Hellcat",
-            "sharecode": "630 326 807",
-            "suspension": "Rally",
-            "tuneName": "georgia state patrol",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 673,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "630326807",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "destrukdi"
     }
   ],
   "schemaVersion": 1

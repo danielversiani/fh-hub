@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "AMS Carver",
             "fill": "FFFF0000"
           },
-          "row": 2357,
+          "row": 2356,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -36,6 +36,75 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2496db2ea0",
+      "name": "Dirt Grip Rivals",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Mitsubishi #269 Attacking the Clock Racing Minicab Time Attack",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Grip Rivals",
+            "Tuner": "cartwell IZ",
+            "fill": "FFFF0000"
+          },
+          "row": 2355,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cartwell-iz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-90460f3f22",
+      "metaRank": 11,
+      "name": "Quasar Pole THREATENS to release new tunes......",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Mitsubishi #269 Attacking the Clock Racing Minicab Time Attack",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Quasar Pole THREATENS to release new tunes......",
+            "Tuner": "QuasarPole",
+            "fill": "FFFF0000"
+          },
+          "row": 2357,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.515,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "quasarpole"
     },
     {
       "buildTags": [],
@@ -156,192 +225,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "vladxlr"
-    },
-    {
-      "buildTags": [],
-      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-15",
-      "drivetrain": "RWD",
-      "id": "sc-124135066",
-      "metaRank": 11,
-      "name": "Quasar Pole THREATENS to release new tunes......",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mitsubishi",
-            "model": "#269 Attacking the Clock Racing Minicab Time Attack",
-            "sharecode": "124 135 066",
-            "suspension": "Race",
-            "tuneName": "Quasar Pole THREATENS to release new tunes......",
-            "tuner": "QuasarPole",
-            "tyreCompound": "Drift"
-          },
-          "row": 1820,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1990 Mitsubishi #269 Attacking the Clock Racing Minicab Time Attack",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Quasar Pole THREATENS to release new tunes......",
-            "Tuner": "QuasarPole",
-            "fill": "FFFF0000"
-          },
-          "row": 2358,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.602,
-      "shareCode": "124135066",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "quasarpole"
-    },
-    {
-      "buildTags": [],
-      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-15",
-      "drivetrain": "RWD",
-      "id": "sc-134857762",
-      "name": "le update",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mitsubishi",
-            "model": "#269 Attacking the Clock Racing Minicab Time Attack",
-            "sharecode": "134 857 762",
-            "suspension": "Race",
-            "tuneName": "le update",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Drift"
-          },
-          "row": 1817,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "134857762",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-408504568",
-      "name": "Dirt Grip Rivals",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "#269 Attacking the Clock Racing Minicab Time Attack",
-            "sharecode": "408 504 568",
-            "suspension": "Race",
-            "tuneName": "Dirt Grip Rivals",
-            "tuner": "cartwell IZ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1818,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1990 Mitsubishi #269 Attacking the Clock Racing Minicab Time Attack",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Grip Rivals",
-            "Tuner": "cartwell IZ",
-            "fill": "FFFF0000"
-          },
-          "row": 2356,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "408504568",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cartwell-iz"
-    },
-    {
-      "buildTags": [],
-      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-21",
-      "drivetrain": "RWD",
-      "id": "sc-960278949",
-      "metaRank": 11,
-      "name": "Legend Island Circuit WR",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mitsubishi",
-            "model": "#269 Attacking the Clock Racing Minicab Time Attack",
-            "sharecode": "960 278 949",
-            "suspension": "Race",
-            "tuneName": "Legend Island Circuit WR",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Drift"
-          },
-          "row": 1819,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.523,
-      "shareCode": "960278949",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

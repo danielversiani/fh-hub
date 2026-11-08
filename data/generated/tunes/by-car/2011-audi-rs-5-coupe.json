@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -14,7 +14,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-11f78101b3",
-      "metaRank": 134,
+      "metaRank": 137,
       "name": "1:02.475 Shirakawa Purist + Stock Rims",
       "observations": [
         {
@@ -64,12 +64,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 134,
+      "metaRank": 137,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 274,
+          "row": 280,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -81,6 +81,120 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-audi-rs-5-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-270294a01b",
+      "metaRank": 137,
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Audi RS 5 Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 912,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2011-audi-rs-5-coupe",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3b8335f951",
+      "metaRank": 137,
+      "name": "Road Purist NA",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Audi RS 5 Coupé",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist NA",
+            "Tuner": "K1Z Disco Doggo",
+            "fill": "FFFF0000"
+          },
+          "row": 914,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-disco-doggo"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2011-audi-rs-5-coupe",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b33bf08267",
+      "metaRank": 137,
+      "name": "purist rc",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Audi RS 5 Coupé",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "purist rc",
+            "Tuner": "AMS Carver",
+            "fill": "FFFF0000"
+          },
+          "row": 911,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
     },
     {
       "buildTags": [],
@@ -117,305 +231,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-audi-rs-5-coupe",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-10",
-      "drivetrain": "AWD",
-      "id": "sc-106443220",
-      "metaRank": 134,
-      "name": "Purist A Road - A5 Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 5 Coupé",
-            "sharecode": "106 443 220",
-            "suspension": "Street",
-            "tuneName": "Purist A Road - A5 Kit",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 247,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.533,
-      "shareCode": "106443220",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-audi-rs-5-coupe",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-10",
-      "drivetrain": "AWD",
-      "id": "sc-120150187",
-      "metaRank": 134,
-      "name": "Purist A Road V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 5 Coupé",
-            "sharecode": "120 150 187",
-            "suspension": "Street",
-            "tuneName": "Purist A Road V1.1",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 246,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.533,
-      "shareCode": "120150187",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-audi-rs-5-coupe",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-12",
-      "drivetrain": "AWD",
-      "id": "sc-170707840",
-      "name": "1:02.475 Shirakawa Purist + Stock Rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 5 Coupé",
-            "sharecode": "170 707 840",
-            "suspension": "Rally",
-            "tuneName": "1:02.475 Shirakawa Purist + Stock Rims",
-            "tuner": "KilianFirebold",
-            "tyreCompound": "Rally"
-          },
-          "row": 248,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "170707840",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "kilianfirebold"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-audi-rs-5-coupe",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-753467469",
-      "metaRank": 134,
-      "name": "Road Purist NA",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 5 Coupé",
-            "sharecode": "753 467 469",
-            "suspension": "Street",
-            "tuneName": "Road Purist NA",
-            "tuner": "K1Z DIsco Doggo",
-            "tyreCompound": "Rally"
-          },
-          "row": 249,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Audi RS 5 Coupé",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist NA",
-            "Tuner": "K1Z Disco Doggo",
-            "fill": "FFFF0000"
-          },
-          "row": 914,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.613,
-      "shareCode": "753467469",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-disco-doggo"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-audi-rs-5-coupe",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-771517651",
-      "name": "Purist RC",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 5 Coupé",
-            "sharecode": "771 517 651",
-            "suspension": "Street",
-            "tuneName": "Purist RC",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Rally"
-          },
-          "row": 244,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Audi RS 5 Coupé",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "purist rc",
-            "Tuner": "AMS Carver",
-            "fill": "FFFF0000"
-          },
-          "row": 911,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "771517651",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-audi-rs-5-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-831487514",
-      "metaRank": 134,
-      "name": "A Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Audi",
-            "model": "RS 5 Coupé",
-            "sharecode": "831 487 514",
-            "suspension": "Rally",
-            "tuneName": "A Road",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 245,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Audi RS 5 Coupé",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 912,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.615,
-      "shareCode": "831487514",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
     }
   ],
   "schemaVersion": 1

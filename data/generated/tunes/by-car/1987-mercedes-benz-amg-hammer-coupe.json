@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -39,141 +39,12 @@
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-08",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-108975863",
+      "id": "nc-77015faada",
       "metaRank": 82,
-      "name": "Road Allround Brick",
+      "name": "A - Power ( Stock Brakes )",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG Hammer Coupé",
-            "sharecode": "108 975 863",
-            "suspension": "Street",
-            "tuneName": "Road Allround Brick",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1773,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.589,
-      "shareCode": "108975863",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-mercedes-benz-amg-hammer-coupe",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-10",
-      "drivetrain": "AWD",
-      "id": "sc-152354053",
-      "name": "HV10 Dirt Allround META Sunflower 59.2 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG Hammer Coupé",
-            "sharecode": "152 354 053",
-            "suspension": "Street",
-            "tuneName": "HV10 Dirt Allround META Sunflower 59.2 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1774,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "152354053",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-mercedes-benz-amg-hammer-coupe",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
-      "drivetrain": "RWD",
-      "id": "sc-436007095",
-      "name": "Kit CLK Engine",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "01/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG Hammer Coupé",
-            "sharecode": "436 007 095",
-            "suspension": "Street",
-            "tuneName": "Kit CLK Engine",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 1772,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "436007095",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-mercedes-benz-amg-hammer-coupe",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
-      "drivetrain": "AWD",
-      "id": "sc-859271108",
-      "name": "A Power - ( Stock brakes )",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "AMG Hammer Coupé",
-            "sharecode": "859 271 108",
-            "suspension": "Street",
-            "tuneName": "A Power - ( Stock brakes )",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 1771,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1987 Mercedes-Benz AMG Hammer Coupé",
@@ -186,17 +57,15 @@
             "Tuner": "ESV Rapture",
             "fill": "FFFF0000"
           },
-          "row": 2297,
+          "row": 2296,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "859271108",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "esv-rapture"
     }
   ],

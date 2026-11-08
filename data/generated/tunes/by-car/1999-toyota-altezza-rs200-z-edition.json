@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1999-toyota-altezza-rs200-z-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-10956f18d9",
+      "name": "a road 1jz",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Toyota Altezza RS200 Z Edition",
+            "Comment": "",
+            "Design": "ENJUKU RACING",
+            "Designer": "XplosionFR",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "a road 1jz",
+            "Tuner": "K1Z Amemiya",
+            "fill": "FFFF0000"
+          },
+          "row": 2870,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-amemiya"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-toyota-altezza-rs200-z-edition",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-1cf4d1f842",
+      "name": "B road V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Toyota Altezza RS200 Z Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B road V2",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 609,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
     {
       "buildTags": [],
       "carId": "1999-toyota-altezza-rs200-z-edition",
@@ -23,7 +89,7 @@
             "Tuner": "Nalak28",
             "fill": "FFFF0000"
           },
-          "row": 2867,
+          "row": 2866,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +122,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2866,
+          "row": 2865,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -126,7 +192,7 @@
             "Tuner": "Keunotorrr",
             "fill": "FFFF0000"
           },
-          "row": 2870,
+          "row": 2869,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -159,7 +225,7 @@
             "Tuner": "SilvaSUPERBEE",
             "fill": "FFFF0000"
           },
-          "row": 2874,
+          "row": 2873,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -169,6 +235,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-toyota-altezza-rs200-z-edition",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-8ebb4f06ea",
+      "name": "B Road TRD Kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Toyota Altezza RS200 Z Edition",
+            "Comment": "Purist, TRD bodykit",
+            "Design": "BN SPORTS ALTEZZA",
+            "Designer": "fwdjoey",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Road TRD Kit",
+            "Tuner": "Inayamei",
+            "fill": "FFED7D31"
+          },
+          "row": 610,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "inayamei"
     },
     {
       "buildTags": [
@@ -196,7 +299,7 @@
             "Tuner": "ESV Ruinz",
             "fill": "FFFF0000"
           },
-          "row": 2875,
+          "row": 2874,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -229,7 +332,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2864,
+          "row": 2863,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -264,7 +367,7 @@
             "Tuner": "Nalak28",
             "fill": "FFFF0000"
           },
-          "row": 2872,
+          "row": 2871,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -348,6 +451,113 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-toyota-altezza-rs200-z-edition",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-a1050bbd6b",
+      "name": "B Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Toyota Altezza RS200 Z Edition",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Purist",
+            "Tuner": "zombiejesus52",
+            "fill": "FFED7D31"
+          },
+          "row": 612,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-toyota-altezza-rs200-z-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ac2b8de218",
+      "name": "A Dirt AWD No Aero",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Toyota Altezza RS200 Z Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt AWD No Aero",
+            "Tuner": "ShaggyScroll660",
+            "fill": "FFFF0000"
+          },
+          "row": 2864,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "shaggyscroll660"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-toyota-altezza-rs200-z-edition",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-b050c6dec0",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Toyota Altezza RS200 Z Edition",
+            "Comment": "Purist",
+            "Design": "HKS TUNER",
+            "Designer": "i2TaildOtaku",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 2872,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [
@@ -449,7 +659,7 @@
             "Tuner": "EmryEvel",
             "fill": "FFFF0000"
           },
-          "row": 2869,
+          "row": 2868,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -459,6 +669,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "emryevel"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-toyota-altezza-rs200-z-edition",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-e3853645a6",
+      "name": "B Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Toyota Altezza RS200 Z Edition",
+            "Comment": "Purist",
+            "Design": "SHIGURE UI",
+            "Designer": "Kamikaze SSSSSS",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Purist",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFED7D31"
+          },
+          "row": 606,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [
@@ -558,7 +805,7 @@
             "Tuner": "Destrukdi",
             "fill": "FFFF0000"
           },
-          "row": 2868,
+          "row": 2867,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -568,508 +815,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "destrukdi"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-23",
-      "drivetrain": "AWD",
-      "id": "sc-142190974",
-      "name": "A Dirt AWD No Aero",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "142 190 974",
-            "suspension": "Rally",
-            "tuneName": "A Dirt AWD No Aero",
-            "tuner": "ShaggyScroll660",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2411,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Toyota Altezza RS200 Z Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt AWD No Aero",
-            "Tuner": "ShaggyScroll660",
-            "fill": "FFFF0000"
-          },
-          "row": 2865,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "142190974",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "shaggyscroll660"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-28",
-      "drivetrain": "RWD",
-      "id": "sc-147708479",
-      "name": "B Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "28/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "147 708 479",
-            "suspension": "Stock",
-            "tuneName": "B Purist",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Standard"
-          },
-          "row": 2412,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Toyota Altezza RS200 Z Edition",
-            "Comment": "Purist",
-            "Design": "SHIGURE UI",
-            "Designer": "Kamikaze SSSSSS",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "B Purist",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFED7D31"
-          },
-          "row": 606,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "147708479",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-149589115",
-      "name": "B Road TRD Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "149 589 115",
-            "suspension": "Stock",
-            "tuneName": "B Road TRD Kit",
-            "tuner": "Inayamei",
-            "tyreCompound": "Street"
-          },
-          "row": 2414,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Toyota Altezza RS200 Z Edition",
-            "Comment": "Purist, TRD bodykit",
-            "Design": "BN SPORTS ALTEZZA",
-            "Designer": "fwdjoey",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "B Road TRD Kit",
-            "Tuner": "Inayamei",
-            "fill": "FFED7D31"
-          },
-          "row": 610,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "149589115",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "inayamei"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "RWD",
-      "id": "sc-170678593",
-      "name": "B Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "21/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "170 678 593",
-            "suspension": "Stock",
-            "tuneName": "B Purist",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Street"
-          },
-          "row": 2416,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Toyota Altezza RS200 Z Edition",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "B Purist",
-            "Tuner": "zombiejesus52",
-            "fill": "FFED7D31"
-          },
-          "row": 612,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "170678593",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-172680687",
-      "name": "A Dirt AWD +RC TRD Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "172 680 687",
-            "suspension": "Rally",
-            "tuneName": "A Dirt AWD +RC TRD Kit",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2408,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "172680687",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-184318162",
-      "name": "a road 1jz",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "184 318 162",
-            "suspension": "Race",
-            "tuneName": "a road 1jz",
-            "tuner": "K1Z Amemiya",
-            "tyreCompound": "Rally"
-          },
-          "row": 2407,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Toyota Altezza RS200 Z Edition",
-            "Comment": "",
-            "Design": "ENJUKU RACING",
-            "Designer": "XplosionFR",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "a road 1jz",
-            "Tuner": "K1Z Amemiya",
-            "fill": "FFFF0000"
-          },
-          "row": 2871,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "184318162",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-amemiya"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-27",
-      "drivetrain": "RWD",
-      "id": "sc-645257709",
-      "name": "purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "645 257 709",
-            "suspension": "Sport",
-            "tuneName": "purist",
-            "tuner": "RazkinzMango",
-            "tyreCompound": "Rally"
-          },
-          "row": 2410,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Toyota Altezza RS200 Z Edition",
-            "Comment": "Purist",
-            "Design": "HKS TUNER",
-            "Designer": "i2TaildOtaku",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "purist",
-            "Tuner": "RazkinzMango",
-            "fill": "FFFF0000"
-          },
-          "row": 2873,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "645257709",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "razkinzmango"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-16",
-      "drivetrain": "RWD",
-      "id": "sc-735035359",
-      "name": "c west kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "735 035 359",
-            "suspension": "Race",
-            "tuneName": "c west kit",
-            "tuner": "K1Z Amemiya",
-            "tyreCompound": "Street"
-          },
-          "row": 2415,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "735035359",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "k1z-amemiya"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-23",
-      "drivetrain": "RWD",
-      "id": "sc-911563194",
-      "name": "B road V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "911 563 194",
-            "suspension": "Street",
-            "tuneName": "B road V2",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Street"
-          },
-          "row": 2413,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Toyota Altezza RS200 Z Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "B road V2",
-            "Tuner": "IceFrice8724",
-            "fill": "FFED7D31"
-          },
-          "row": 609,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.68,
-      "shareCode": "911563194",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-toyota-altezza-rs200-z-edition",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-08",
-      "drivetrain": "RWD",
-      "id": "sc-999970064",
-      "name": "Purist Kaminari Kit + C-West hood",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Altezza RS200 Z Edition",
-            "sharecode": "999 970 064",
-            "suspension": "Sport",
-            "tuneName": "Purist Kaminari Kit + C-West hood",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 2409,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.48,
-      "shareCode": "999970064",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
     }
   ],
   "schemaVersion": 1

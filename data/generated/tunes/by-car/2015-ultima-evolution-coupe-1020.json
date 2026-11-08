@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -25,7 +25,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF00FF"
           },
-          "row": 2971,
+          "row": 2970,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -35,6 +35,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-ultima-evolution-coupe-1020",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-13c031bdf6",
+      "name": "S2 Dirt Speedy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Ultima Evolution Coupé 1020",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S2 Dirt Speedy",
+            "Tuner": "GReddy295",
+            "fill": "FF0070C0"
+          },
+          "row": 2966,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greddy295"
     },
     {
       "buildTags": [
@@ -63,7 +96,7 @@
             "Tuner": "SeeyeahBoss",
             "fill": "FF0070C0"
           },
-          "row": 2970,
+          "row": 2969,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -98,7 +131,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FF7030A0"
           },
-          "row": 2966,
+          "row": 2965,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -133,7 +166,7 @@
             "Tuner": "ESV Ruinz",
             "fill": "FFFF00FF"
           },
-          "row": 2972,
+          "row": 2971,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -207,7 +240,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FF0070C0"
           },
-          "row": 2968,
+          "row": 2967,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -264,7 +297,7 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 2969,
+          "row": 2968,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -276,80 +309,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-ultima-evolution-coupe-1020",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-08",
-      "drivetrain": "AWD",
-      "id": "sc-148107182",
-      "name": "All Wheels Driving",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "08/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ultima",
-            "model": "Evolution Coupé 1020",
-            "sharecode": "148 107 182",
-            "suspension": "Race",
-            "tuneName": "All Wheels Driving",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Rally"
-          },
-          "row": 2601,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "148107182",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-ultima-evolution-coupe-1020",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "RWD",
-      "id": "sc-169896325",
-      "name": "2.70 FD",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "30/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ultima",
-            "model": "Evolution Coupé 1020",
-            "sharecode": "169 896 325",
-            "suspension": "Race",
-            "tuneName": "2.70 FD",
-            "tuner": "KilianFirebold",
-            "tyreCompound": "Drift"
-          },
-          "row": 2602,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.477,
-      "shareCode": "169896325",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "kilianfirebold"
     },
     {
       "buildTags": [],
@@ -391,133 +350,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-ultima-evolution-coupe-1020",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "RWD",
-      "id": "sc-577150107",
-      "name": "R Class PB",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "17/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ultima",
-            "model": "Evolution Coupé 1020",
-            "sharecode": "577 150 107",
-            "suspension": "Race",
-            "tuneName": "R Class PB",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2599,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "577150107",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-ultima-evolution-coupe-1020",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
-      "drivetrain": "AWD",
-      "id": "sc-679510900",
-      "name": "S2 Dirt Speedy",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ultima",
-            "model": "Evolution Coupé 1020",
-            "sharecode": "679 510 900",
-            "suspension": "Rally",
-            "tuneName": "S2 Dirt Speedy",
-            "tuner": "GReddy295",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2600,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2015 Ultima Evolution Coupé 1020",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S2 Dirt Speedy",
-            "Tuner": "GReddy295",
-            "fill": "FF0070C0"
-          },
-          "row": 2967,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "679510900",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greddy295"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-ultima-evolution-coupe-1020",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
-      "drivetrain": "RWD",
-      "id": "sc-908296655",
-      "name": "2.70 FD",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ultima",
-            "model": "Evolution Coupé 1020",
-            "sharecode": "908 296 655",
-            "suspension": "Race",
-            "tuneName": "2.70 FD",
-            "tuner": "KilianFirebold",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2598,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "908296655",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "kilianfirebold"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "Cast Haste",
             "fill": "FFFF0000"
           },
-          "row": 2468,
+          "row": 2467,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -37,6 +37,39 @@
     {
       "buildTags": [],
       "carId": "1995-nissan-gloria-gran-turismo",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-28ed9592e7",
+      "name": "S1 CC Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Nissan Gloria Gran Turismo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 CC Strong",
+            "Tuner": "Falken JP",
+            "fill": "FF7030A0"
+          },
+          "row": 2473,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "falken-jp"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-nissan-gloria-gran-turismo",
       "categories": [
         "off-meta"
       ],
@@ -44,7 +77,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-4e27903eb0",
-      "metaRank": 141,
+      "metaRank": 144,
       "name": "LV10 Road Sprint T2 Shirakawa 00.9 A/M",
       "observations": [
         {
@@ -59,7 +92,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2472,
+          "row": 2471,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -83,7 +116,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-7aa6224727",
-      "metaRank": 141,
+      "metaRank": 144,
       "name": "Purist street",
       "observations": [
         {
@@ -98,7 +131,7 @@
             "Tuner": "K1Z Suimin",
             "fill": "FFFF0000"
           },
-          "row": 2473,
+          "row": 2472,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -112,6 +145,39 @@
     {
       "buildTags": [],
       "carId": "1995-nissan-gloria-gran-turismo",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-865fda0d3f",
+      "name": "B Dirt Rally AWD Easy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Nissan Gloria Gran Turismo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Rally AWD Easy",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 480,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-nissan-gloria-gran-turismo",
       "categories": [
         "off-meta"
       ],
@@ -121,7 +187,7 @@
       "difficulty": "normal",
       "drivetrain": "AWD",
       "id": "nc-a00fba02e6",
-      "metaRank": 141,
+      "metaRank": 144,
       "name": "A Road BIG BRICK",
       "observations": [
         {
@@ -136,7 +202,7 @@
             "Tuner": "MSR Sola",
             "fill": "FFFF0000"
           },
-          "row": 2471,
+          "row": 2470,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -171,7 +237,7 @@
             "Tuner": "Cast Haste",
             "fill": "FFFF0000"
           },
-          "row": 2467,
+          "row": 2466,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -192,7 +258,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-d1e1ddf3c3",
-      "metaRank": 141,
+      "metaRank": 144,
       "name": "Road Allround 1:00.8 Shira Clean",
       "observations": [
         {
@@ -207,7 +273,7 @@
             "Tuner": "Hi Im Jay8773",
             "fill": "FFFF0000"
           },
-          "row": 2470,
+          "row": 2469,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -223,29 +289,11 @@
       "carId": "1995-nissan-gloria-gran-turismo",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-124476588",
+      "id": "nc-f093f629af",
       "name": "A Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Gloria Gran Turismo",
-            "sharecode": "124 476 588",
-            "suspension": "Stock",
-            "tuneName": "A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1942,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1995 Nissan Gloria Gran Turismo",
@@ -258,198 +306,16 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 2469,
+          "row": 2468,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.664,
-      "shareCode": "124476588",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-nissan-gloria-gran-turismo",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-31",
-      "drivetrain": "AWD",
-      "id": "sc-149542656",
-      "name": "Dirty Gloria",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Gloria Gran Turismo",
-            "sharecode": "149 542 656",
-            "suspension": "Stock",
-            "tuneName": "Dirty Gloria",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1941,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "149542656",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-nissan-gloria-gran-turismo",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-24",
-      "drivetrain": "AWD",
-      "id": "sc-497244422",
-      "name": "B Dirt Rally AWD Easy",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "24/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Gloria Gran Turismo",
-            "sharecode": "497 244 422",
-            "suspension": "Stock",
-            "tuneName": "B Dirt Rally AWD Easy",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1944,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1995 Nissan Gloria Gran Turismo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt Rally AWD Easy",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 480,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "497244422",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-nissan-gloria-gran-turismo",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-08",
-      "drivetrain": "RWD",
-      "id": "sc-826077596",
-      "name": "Glorious",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Gloria Gran Turismo",
-            "sharecode": "826 077 596",
-            "suspension": "Sport",
-            "tuneName": "Glorious",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 1943,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.48,
-      "shareCode": "826077596",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-nissan-gloria-gran-turismo",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-888277965",
-      "name": "S1 CC Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Gloria Gran Turismo",
-            "sharecode": "888 277 965",
-            "suspension": "Rally",
-            "tuneName": "S1 CC Strong",
-            "tuner": "Falken JP",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1945,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1995 Nissan Gloria Gran Turismo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 CC Strong",
-            "Tuner": "Falken JP",
-            "fill": "FF7030A0"
-          },
-          "row": 2474,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "888277965",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "falken-jp"
     }
   ],
   "schemaVersion": 1

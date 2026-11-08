@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-108c8e6a84",
+      "metaRank": 30,
+      "name": "LFA's Grandpa during his RALLY prime",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1979 Toyota FJ40",
+            "Comment": "",
+            "Design": "SARGE - CARS MOVIE CHARACTER",
+            "Designer": "UK Eagle Eye",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "LFA's Grandpa during his RALLY prime",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 552,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
     {
       "buildTags": [],
       "carId": "1979-toyota-fj40",
@@ -101,126 +137,12 @@
         "off-meta"
       ],
       "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-04",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-144486429",
-      "metaRank": 30,
-      "name": "LFA's Grandpa during his RALLY prime",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "FJ40",
-            "sharecode": "144 486 429",
-            "suspension": "Stock",
-            "tuneName": "LFA's Grandpa during his RALLY prime",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2460,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1979 Toyota FJ40",
-            "Comment": "",
-            "Design": "SARGE - CARS MOVIE CHARACTER",
-            "Designer": "UK Eagle Eye",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "LFA's Grandpa during his RALLY prime",
-            "Tuner": "TheDannny",
-            "fill": "FFED7D31"
-          },
-          "row": 552,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.674,
-      "shareCode": "144486429",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1979-toyota-fj40",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-01",
-      "drivetrain": "AWD",
-      "id": "sc-158487654",
-      "metaRank": 30,
-      "name": "4.8 Dirt Rear Aero V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "FJ40",
-            "sharecode": "158 487 654",
-            "suspension": "Stock",
-            "tuneName": "4.8 Dirt Rear Aero V1.1",
-            "tuner": "AIONS580Pio",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2461,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.585,
-      "shareCode": "158487654",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [],
-      "carId": "1979-toyota-fj40",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-08-12",
-      "drivetrain": "AWD",
-      "id": "sc-584572571",
+      "id": "nc-f8d0c1cf71",
       "metaRank": 30,
       "name": "LFA Dirt Circuit T1+ Sunflower 04.5 M/C",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "12/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "FJ40",
-            "sharecode": "584 572 571",
-            "suspension": "Stock",
-            "tuneName": "LFA Dirt Circuit T1+ Sunflower 04.5 M/C",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2459,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1979 Toyota FJ40",
@@ -238,12 +160,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.679,
-      "shareCode": "584572571",
+      "score": 0.59,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "offroad",
       "tunerId": "zvtcjau"
     }
   ],

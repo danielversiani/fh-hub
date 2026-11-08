@@ -1,6 +1,138 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1992-lancia-delta-hf-integrale-evo",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-021d85c310",
+      "name": "Dirty Delta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Lancia Delta HF Integrale Evo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty Delta",
+            "Tuner": "Cast Haste",
+            "fill": "FFED7D31"
+          },
+          "row": 388,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-lancia-delta-hf-integrale-evo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1a54b9479c",
+      "name": "Mud",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Lancia Delta HF Integrale Evo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Mud",
+            "Tuner": "giron228",
+            "fill": "FFFF0000"
+          },
+          "row": 1962,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "giron228"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-lancia-delta-hf-integrale-evo",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-25484b390b",
+      "name": "Dirty Delta Heavy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Lancia Delta HF Integrale Evo",
+            "Comment": "",
+            "Design": "MARTINI - RACING",
+            "Designer": "X30 Neo",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty Delta Heavy",
+            "Tuner": "Cast Haste",
+            "fill": "FFED7D31"
+          },
+          "row": 389,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-lancia-delta-hf-integrale-evo",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d0e9b22ba6",
+      "name": "Great Offroad Rallycar",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Lancia Delta HF Integrale Evo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Great Offroad Rallycar",
+            "Tuner": "KapienPL",
+            "fill": "FFED7D31"
+          },
+          "row": 390,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
     {
       "buildTags": [
         "purist"
@@ -37,259 +169,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "1992-lancia-delta-hf-integrale-evo",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-100844279",
-      "name": "Mud",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta HF Integrale Evo",
-            "sharecode": "100 844 279",
-            "suspension": "Sport",
-            "tuneName": "Mud",
-            "tuner": "giron228",
-            "tyreCompound": "Rally"
-          },
-          "row": 1442,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1992 Lancia Delta HF Integrale Evo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Mud",
-            "Tuner": "giron228",
-            "fill": "FFFF0000"
-          },
-          "row": 1962,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "100844279",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "giron228"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1992-lancia-delta-hf-integrale-evo",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-29",
-      "drivetrain": "AWD",
-      "id": "sc-143521778",
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta HF Integrale Evo",
-            "sharecode": "143 521 778",
-            "suspension": "Race",
-            "tuneName": "A Road Purist",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Rally"
-          },
-          "row": 1443,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.477,
-      "shareCode": "143521778",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "1992-lancia-delta-hf-integrale-evo",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-148282022",
-      "name": "Dirty Delta Heavy",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta HF Integrale Evo",
-            "sharecode": "148 282 022",
-            "suspension": "Street",
-            "tuneName": "Dirty Delta Heavy",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1445,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1992 Lancia Delta HF Integrale Evo",
-            "Comment": "",
-            "Design": "MARTINI - RACING",
-            "Designer": "X30 Neo",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty Delta Heavy",
-            "Tuner": "Cast Haste",
-            "fill": "FFED7D31"
-          },
-          "row": 389,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "148282022",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1992-lancia-delta-hf-integrale-evo",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-10",
-      "drivetrain": "AWD",
-      "id": "sc-171183894",
-      "name": "Great Offroad Rallycar",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "10/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta HF Integrale Evo",
-            "sharecode": "171 183 894",
-            "suspension": "Street",
-            "tuneName": "Great Offroad Rallycar",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1446,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1992 Lancia Delta HF Integrale Evo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Great Offroad Rallycar",
-            "Tuner": "KapienPL",
-            "fill": "FFED7D31"
-          },
-          "row": 390,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.655,
-      "shareCode": "171183894",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1992-lancia-delta-hf-integrale-evo",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-10",
-      "drivetrain": "AWD",
-      "id": "sc-936555279",
-      "name": "Dirty Delta",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "10/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lancia",
-            "model": "Delta HF Integrale Evo",
-            "sharecode": "936 555 279",
-            "suspension": "Street",
-            "tuneName": "Dirty Delta",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1444,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1992 Lancia Delta HF Integrale Evo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty Delta",
-            "Tuner": "Cast Haste",
-            "fill": "FFED7D31"
-          },
-          "row": 388,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.655,
-      "shareCode": "936555279",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

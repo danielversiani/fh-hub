@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-mclaren-p1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3703c3a5b8",
+      "metaRank": 82,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 McLaren P1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF7030A0"
+          },
+          "row": 2212,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-howzer"
+    },
     {
       "buildTags": [],
       "carId": "2013-mclaren-p1",
@@ -23,7 +59,7 @@
             "Tuner": "NDL Daniel",
             "fill": "FFFF0000"
           },
-          "row": 2211,
+          "row": 2210,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -33,6 +69,115 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ndl-daniel"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mclaren-p1",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-837d19615f",
+      "metaRank": 33,
+      "name": "44 Hokubu S2 Balance (RWD)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 McLaren P1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "44 Hokubu S2 Balance (RWD)",
+            "Tuner": "TheDannny",
+            "fill": "FF0070C0"
+          },
+          "row": 2214,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mclaren-p1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-8817b3fd5e",
+      "metaRank": 82,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 McLaren P1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 2211,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2013-mclaren-p1",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-a5254eadfd",
+      "metaRank": 82,
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 McLaren P1",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FF7030A0"
+          },
+          "row": 2213,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [],
@@ -145,231 +290,6 @@
       "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-mclaren-p1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "id": "sc-171898571",
-      "metaRank": 82,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "P1",
-            "sharecode": "171 898 571",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Rally"
-          },
-          "row": 1689,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 McLaren P1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "K1Z Howzer",
-            "fill": "FF7030A0"
-          },
-          "row": 2213,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.642,
-      "shareCode": "171898571",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-howzer"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2013-mclaren-p1",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-16",
-      "drivetrain": "RWD",
-      "id": "sc-333210936",
-      "metaRank": 82,
-      "name": "purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "McLaren",
-            "model": "P1",
-            "sharecode": "333 210 936",
-            "suspension": "Race",
-            "tuneName": "purist",
-            "tuner": "RazkinzMango",
-            "tyreCompound": "Drift"
-          },
-          "row": 1690,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 McLaren P1",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "purist",
-            "Tuner": "RazkinzMango",
-            "fill": "FF7030A0"
-          },
-          "row": 2214,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.644,
-      "shareCode": "333210936",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "razkinzmango"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-mclaren-p1",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.85,
-      "createdAt": "2026-05-22",
-      "drivetrain": "RWD",
-      "id": "sc-398483913",
-      "metaRank": 33,
-      "name": "44 Hokubu S2 Balance (RWD)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "22/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "McLaren",
-            "model": "P1",
-            "sharecode": "398 483 913",
-            "suspension": "Race",
-            "tuneName": "44 Hokubu S2 Balance (RWD)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Slick"
-          },
-          "row": 1691,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 McLaren P1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "44 Hokubu S2 Balance (RWD)",
-            "Tuner": "TheDannny",
-            "fill": "FF0070C0"
-          },
-          "row": 2215,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.571,
-      "shareCode": "398483913",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-mclaren-p1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-659494018",
-      "metaRank": 82,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "P1",
-            "sharecode": "659 494 018",
-            "suspension": "Race",
-            "tuneName": "S1 Road",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 1688,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 McLaren P1",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "ESV Lawrence",
-            "fill": "FF7030A0"
-          },
-          "row": 2212,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.643,
-      "shareCode": "659494018",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
     }
   ],
   "schemaVersion": 1

@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-02bf5da033",
+      "name": "B AE86",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B AE86",
+            "Tuner": "Zookiiwi",
+            "fill": "FFED7D31"
+          },
+          "row": 560,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zookiiwi"
+    },
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
@@ -94,12 +127,12 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-11775284b7",
-      "metaRank": 162,
+      "metaRank": 165,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 331,
+          "row": 337,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -111,6 +144,42 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-11bdfdb112",
+      "metaRank": 16,
+      "name": "B Dirt FA24 / No Aero (1:04.7 Sunflower)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
+            "Comment": "",
+            "Design": "SANADA TRUENO",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt FA24 / No Aero (1:04.7 Sunflower)",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 555,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
     },
     {
       "buildTags": [],
@@ -144,6 +213,42 @@
       "tunerId": "caigou-yyy"
     },
     {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-242e7e4c52",
+      "metaRank": 16,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
+            "Comment": "",
+            "Design": "TRUENO APEX",
+            "Designer": "Kapris",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 554,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -171,7 +276,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF0000"
           },
-          "row": 2812,
+          "row": 2811,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -181,6 +286,41 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-5136682548",
+      "name": "ep3 engine stock look street cage",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
+            "Comment": "",
+            "Design": "PROSTREET TOUGE UNION",
+            "Designer": "ffgh10",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "ep3 engine stock look street cage",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 556,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "dumbo-gt49"
     },
     {
       "buildTags": [
@@ -320,7 +460,7 @@
             "Tuner": "ESV Vini",
             "fill": "FFFF0000"
           },
-          "row": 2811,
+          "row": 2810,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -330,347 +470,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "esv-vini"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-12",
-      "drivetrain": "RWD",
-      "id": "sc-153831317",
-      "name": "Lightweight Purist with Anti-Lag",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex",
-            "sharecode": "153 831 317",
-            "suspension": "Race",
-            "tuneName": "Lightweight Purist with Anti-Lag",
-            "tuner": "KilianFirebold",
-            "tyreCompound": "Rally"
-          },
-          "row": 2538,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "153831317",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "kilianfirebold"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-18",
-      "drivetrain": "AWD",
-      "id": "sc-174568603",
-      "metaRank": 16,
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex",
-            "sharecode": "174 568 603",
-            "suspension": "Stock",
-            "tuneName": "B Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2541,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
-            "Comment": "",
-            "Design": "TRUENO APEX",
-            "Designer": "Kapris",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt",
-            "Tuner": "SR1 Rain",
-            "fill": "FFED7D31"
-          },
-          "row": 554,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.715,
-      "shareCode": "174568603",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-09-01",
-      "drivetrain": "AWD",
-      "id": "sc-592131510",
-      "metaRank": 16,
-      "name": "K20 Dirt Allround OFFMETA Sunflower 03.7 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex",
-            "sharecode": "592 131 510",
-            "suspension": "Stock",
-            "tuneName": "K20 Dirt Allround OFFMETA Sunflower 03.7 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2544,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.638,
-      "shareCode": "592131510",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-18",
-      "drivetrain": "RWD",
-      "id": "sc-663465262",
-      "name": "ep3 engine stock look street cage",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex",
-            "sharecode": "663 465 262",
-            "suspension": "Street",
-            "tuneName": "ep3 engine stock look street cage",
-            "tuner": "Dumbo GT49",
-            "tyreCompound": "Street"
-          },
-          "row": 2540,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
-            "Comment": "",
-            "Design": "PROSTREET TOUGE UNION",
-            "Designer": "ffgh10",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "ep3 engine stock look street cage",
-            "Tuner": "Dumbo GT49",
-            "fill": "FFED7D31"
-          },
-          "row": 556,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "663465262",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
-      "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-04",
-      "drivetrain": "AWD",
-      "id": "sc-764104338",
-      "metaRank": 16,
-      "name": "B Dirt FA24 / No Aero (1:04.7 Sunflower)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex",
-            "sharecode": "764 104 338",
-            "suspension": "Stock",
-            "tuneName": "B Dirt FA24 / No Aero (1:04.7 Sunflower)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2542,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
-            "Comment": "",
-            "Design": "SANADA TRUENO",
-            "Designer": "Wombi 62",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt FA24 / No Aero (1:04.7 Sunflower)",
-            "Tuner": "TheDannny",
-            "fill": "FFED7D31"
-          },
-          "row": 555,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.717,
-      "shareCode": "764104338",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-775977113",
-      "name": "A OFFROAD",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex",
-            "sharecode": "775 977 113",
-            "suspension": "Rally",
-            "tuneName": "A OFFROAD",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2539,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "775977113",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-19",
-      "drivetrain": "AWD",
-      "id": "sc-993320891",
-      "metaRank": 16,
-      "name": "B AE86",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "19/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Sprinter Trueno GT Apex",
-            "sharecode": "993 320 891",
-            "suspension": "Race",
-            "tuneName": "B AE86",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Rally"
-          },
-          "row": 2543,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "B AE86",
-            "Tuner": "Zookiiwi",
-            "fill": "FFED7D31"
-          },
-          "row": 560,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.712,
-      "shareCode": "993320891",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "zookiiwi"
     }
   ],
   "schemaVersion": 1

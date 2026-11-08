@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -39,7 +39,7 @@
             "Tuner": "Noa Miyako",
             "fill": "FF7030A0"
           },
-          "row": 2191,
+          "row": 2190,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -51,6 +51,42 @@
       "tierSource": "meta-table",
       "tires": "semi-slick",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-mclaren-f1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-713b1a0e86",
+      "metaRank": 62,
+      "name": "S1 Class - Road Racing (55.9 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 McLaren F1",
+            "Comment": "",
+            "Design": "F1 ELITE GT",
+            "Designer": "Catinus Z",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing (55.9 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 2191,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
     },
     {
       "buildTags": [
@@ -80,7 +116,7 @@
             "Tuner": "LogikJ",
             "fill": "FF7030A0"
           },
-          "row": 2193,
+          "row": 2192,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -113,7 +149,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 2189,
+          "row": 2188,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -149,7 +185,7 @@
             "Tuner": "Air Jerden",
             "fill": "FF7030A0"
           },
-          "row": 2190,
+          "row": 2189,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -159,62 +195,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "air-jerden"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-mclaren-f1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-13",
-      "drivetrain": "AWD",
-      "id": "sc-251724430",
-      "metaRank": 62,
-      "name": "S1 Class - Road Racing (55.9 Shirakawa Circuit)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "F1",
-            "sharecode": "251 724 430",
-            "suspension": "Race",
-            "tuneName": "S1 Class - Road Racing (55.9 Shirakawa Circuit)",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 1685,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1993 McLaren F1",
-            "Comment": "",
-            "Design": "F1 ELITE GT",
-            "Designer": "Catinus Z",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Class - Road Racing (55.9 Shirakawa Circuit)",
-            "Tuner": "VNX Ardent",
-            "fill": "FF7030A0"
-          },
-          "row": 2192,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.672,
-      "shareCode": "251724430",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "vnx-ardent"
     }
   ],
   "schemaVersion": 1

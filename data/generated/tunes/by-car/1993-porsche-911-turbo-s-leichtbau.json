@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -27,7 +27,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2623,
+          "row": 2622,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -37,6 +37,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-porsche-911-turbo-s-leichtbau",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-1d408041ea",
+      "name": "full-aero & engine w/centri seems to work just fine",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Porsche 911 Turbo S Leichtbau",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "full-aero & engine w/centri seems to work just fine",
+            "Tuner": "Myra Driving",
+            "fill": "FFFF0000"
+          },
+          "row": 2623,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "myra-driving"
     },
     {
       "buildTags": [],
@@ -63,7 +96,7 @@
             "Tuner": "LetzeLU",
             "fill": "FF7030A0"
           },
-          "row": 2626,
+          "row": 2625,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -114,29 +147,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-130839145",
+      "id": "nc-dc9be87fec",
       "name": "Road Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S Leichtbau",
-            "sharecode": "130 839 145",
-            "suspension": "Sport",
-            "tuneName": "Road Purist",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2219,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1993 Porsche 911 Turbo S Leichtbau",
@@ -149,182 +164,16 @@
             "Tuner": "zombiejesus52",
             "fill": "FFFF0000"
           },
-          "row": 2625,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "130839145",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-porsche-911-turbo-s-leichtbau",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-20",
-      "drivetrain": "RWD",
-      "id": "sc-144948360",
-      "name": "Blackbird",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "20/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S Leichtbau",
-            "sharecode": "144 948 360",
-            "suspension": "Race",
-            "tuneName": "Blackbird",
-            "tuner": "Grandma Driving",
-            "tyreCompound": "Rally"
-          },
-          "row": 2221,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.49,
-      "shareCode": "144948360",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "grandma-driving"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-porsche-911-turbo-s-leichtbau",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
-      "drivetrain": "RWD",
-      "id": "sc-158041050",
-      "name": "full-aero & engine w/ centri seems to work just fine",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S Leichtbau",
-            "sharecode": "158 041 050",
-            "suspension": "Sport",
-            "tuneName": "full-aero & engine w/ centri seems to work just fine",
-            "tuner": "Myra Driving",
-            "tyreCompound": "Street"
-          },
-          "row": 2218,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1993 Porsche 911 Turbo S Leichtbau",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "full-aero & engine w/centri seems to work just fine",
-            "Tuner": "Myra Driving",
-            "fill": "FFFF0000"
-          },
           "row": 2624,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "158041050",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "street",
-      "tunerId": "myra-driving"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-porsche-911-turbo-s-leichtbau",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-03",
-      "drivetrain": "AWD",
-      "id": "sc-525798453",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "03/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S Leichtbau",
-            "sharecode": "525 798 453",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2222,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "525798453",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-porsche-911-turbo-s-leichtbau",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-11",
-      "drivetrain": "AWD",
-      "id": "sc-569803762",
-      "name": "Dirty Pork Near Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S Leichtbau",
-            "sharecode": "569 803 762",
-            "suspension": "Rally",
-            "tuneName": "Dirty Pork Near Meta",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2220,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "569803762",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
+      "tunerId": "zombiejesus52"
     }
   ],
   "schemaVersion": 1

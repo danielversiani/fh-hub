@@ -1,43 +1,6 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1994-subaru-vivio-rx-r-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-26",
-      "drivetrain": "FWD",
-      "id": "sc-114268362",
-      "name": "remove FEs from the game",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "26/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Subaru",
-            "model": "Vivio RX-R Forza Edition",
-            "sharecode": "114 268 362",
-            "suspension": "Rally",
-            "tuneName": "remove FEs from the game",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Rally"
-          },
-          "row": 2375,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "114268362",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-gray"
-    },
     {
       "buildTags": [
         "purist"
@@ -47,29 +10,11 @@
         "purist"
       ],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-24",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-642389918",
+      "id": "nc-1be247e200",
       "name": "purist",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "24/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Subaru",
-            "model": "Vivio RX-R Forza Edition",
-            "sharecode": "642 389 918",
-            "suspension": "Rally",
-            "tuneName": "purist",
-            "tuner": "Cynamon21",
-            "tyreCompound": "Rally"
-          },
-          "row": 2373,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1994 Subaru Vivio RX-R Forza Edition",
@@ -82,17 +27,15 @@
             "Tuner": "Cynamon21",
             "fill": "FF0070C0"
           },
-          "row": 2769,
+          "row": 2768,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "642389918",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "cynamon21"
     },
     {
@@ -102,29 +45,11 @@
       "carId": "1994-subaru-vivio-rx-r-forza-edition",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-680519542",
+      "id": "nc-2e8f22bd39",
       "name": "Nut Crusher Deluxe Giga Girth Thug Weiner Edition (Epic)",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "23/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Subaru",
-            "model": "Vivio RX-R Forza Edition",
-            "sharecode": "680 519 542",
-            "suspension": "Race",
-            "tuneName": "Nut Crusher Deluxe Giga Girth Thug Weiner Edition (Epic)",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 2374,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1994 Subaru Vivio RX-R Forza Edition",
@@ -137,17 +62,15 @@
             "Tuner": "GreetedDust8",
             "fill": "FF0070C0"
           },
-          "row": 2770,
+          "row": 2769,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "680519542",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "greeteddust8"
     }
   ],

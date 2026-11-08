@@ -1,6 +1,117 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-chevrolet-camaro-z28",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-233ee3168f",
+      "metaRank": 12,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Camaro Z28",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 213,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-chevrolet-camaro-z28",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-3763db928b",
+      "metaRank": 109,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Camaro Z28",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1103,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.447,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-camaro-z28",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-4982f3a378",
+      "name": "A Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Camaro Z28",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt/CC",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1102,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
     {
       "buildTags": [],
       "carId": "1970-chevrolet-camaro-z28",
@@ -19,12 +130,12 @@
         "en": "Very, very easy throttle control; one of the best high-power RWD cars for beginners.",
         "pt-br": "Acelerador muito, muito fácil de controlar; um dos melhores carros de tração traseira potentes para iniciantes."
       },
-      "metaRank": 108,
+      "metaRank": 109,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 221,
+          "row": 223,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -120,289 +231,6 @@
       "tierSource": "meta-table",
       "tires": "vintage",
       "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-chevrolet-camaro-z28",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-15",
-      "drivetrain": "AWD",
-      "id": "sc-108823302",
-      "name": "Dirty Z28",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "15/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro Z28 (1970)",
-            "sharecode": "108 823 302",
-            "suspension": "Stock",
-            "tuneName": "Dirty Z28",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 454,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.488,
-      "shareCode": "108823302",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1970-chevrolet-camaro-z28",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-16",
-      "drivetrain": "RWD",
-      "id": "sc-151185385",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro Z28 (1970)",
-            "sharecode": "151 185 385",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 452,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Chevrolet Camaro Z28",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1103,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "151185385",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-chevrolet-camaro-z28",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-159278487",
-      "name": "Strong+ B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro Z28 (1970)",
-            "sharecode": "159 278 487",
-            "suspension": "Stock",
-            "tuneName": "Strong+ B Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 456,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "159278487",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-chevrolet-camaro-z28",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-764152406",
-      "name": "A Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro Z28 (1970)",
-            "sharecode": "764 152 406",
-            "suspension": "Rally",
-            "tuneName": "A Dirt/CC",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 453,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Chevrolet Camaro Z28",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt/CC",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1102,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.662,
-      "shareCode": "764152406",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-chevrolet-camaro-z28",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-11",
-      "drivetrain": "RWD",
-      "id": "sc-848929917",
-      "metaRank": 108,
-      "name": "a road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro Z28 (1970)",
-            "sharecode": "848 929 917",
-            "suspension": "Rally",
-            "tuneName": "a road",
-            "tuner": "KorbenDallas709",
-            "tyreCompound": "Rally"
-          },
-          "row": 451,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.452,
-      "shareCode": "848929917",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "korbendallas709"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1970-chevrolet-camaro-z28",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-30",
-      "drivetrain": "RWD",
-      "id": "sc-867058665",
-      "metaRank": 12,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro Z28 (1970)",
-            "sharecode": "867 058 665",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 455,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Chevrolet Camaro Z28",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 213,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.61,
-      "shareCode": "867058665",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "vintage-race",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

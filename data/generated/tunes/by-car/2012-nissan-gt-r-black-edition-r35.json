@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "MonaTofuP5R",
             "fill": "FFFF0000"
           },
-          "row": 2552,
+          "row": 2551,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -36,6 +36,75 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "monatofup5r"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-26477dc633",
+      "metaRank": 12,
+      "name": "A - Road ( Speed & Grip )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "",
+            "Design": "SILICABREATH MINES",
+            "Designer": "SilentBlue07",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road ( Speed & Grip )",
+            "Tuner": "ESV Rapture",
+            "fill": "FFFF0000"
+          },
+          "row": 2545,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-387c57d57e",
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "",
+            "Design": "FORZA LIVERY",
+            "Designer": "YoxiD Kinokam",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 2555,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],
@@ -75,7 +144,7 @@
             "Tuner": "LetzeLU",
             "fill": "FFFF0000"
           },
-          "row": 2550,
+          "row": 2549,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -87,6 +156,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-54ac8ba534",
+      "metaRank": 12,
+      "name": "She Is Still Thicc",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "SASAKI GT-R",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "She Is Still Thicc",
+            "Tuner": "NDL Samu",
+            "fill": "FFFF0000"
+          },
+          "row": 2552,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "ndl-samu"
     },
     {
       "buildTags": [
@@ -115,7 +220,7 @@
             "Tuner": "NEPOSHA",
             "fill": "FFFF0000"
           },
-          "row": 2554,
+          "row": 2553,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -125,6 +230,165 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "neposha"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-590eb94e55",
+      "lapRefs": [
+        {
+          "time": "59.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 12,
+      "name": "Road Allround LBWK 59.3 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround LBWK 59.3 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF0000"
+          },
+          "row": 2550,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5a78292ec0",
+      "metaRank": 12,
+      "name": "a road chud",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "TOYO TIRES",
+            "Designer": "FRDT Pat theCat",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "a road chud",
+            "Tuner": "Inayamei",
+            "fill": "FFFF0000"
+          },
+          "row": 2547,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-82e2b5828d",
+      "name": "S1 Road Widebody",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "#15 MOTUL RACING",
+            "Designer": "F1R Mafin",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Widebody",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 2557,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-a5dee42433",
+      "metaRank": 12,
+      "name": "A Class Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "Purist",
+            "Design": "GT",
+            "Designer": "PTG MarvanAi",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class Purist",
+            "Tuner": "GoodReiShun",
+            "fill": "FFFF0000"
+          },
+          "row": 2546,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "goodreishun"
     },
     {
       "buildTags": [],
@@ -151,7 +415,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FFFF0000"
           },
-          "row": 2555,
+          "row": 2554,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -200,7 +464,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 2549,
+          "row": 2548,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -212,6 +476,39 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-cc4ee20cde",
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Nissan GT-R Black Edition (R35)",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "RLTC R35 WIDEBODY",
+            "Designer": "TSC Karnage",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2556,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
@@ -254,551 +551,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-126259143",
-      "name": "S1 road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "126 259 143",
-            "suspension": "Race",
-            "tuneName": "S1 road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 1954,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "",
-            "Design": "FORZA LIVERY",
-            "Designer": "YoxiD Kinokam",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 road",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 2556,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "126259143",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-09-02",
-      "drivetrain": "AWD",
-      "id": "sc-135234736",
-      "metaRank": 12,
-      "name": "A Road | LW WB Rallies",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "135 234 736",
-            "suspension": "Sport",
-            "tuneName": "A Road | LW WB Rallies",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Rally"
-          },
-          "row": 1947,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "135234736",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-23",
-      "drivetrain": "AWD",
-      "id": "sc-157612047",
-      "metaRank": 12,
-      "name": "a road chud",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "157 612 047",
-            "suspension": "Sport",
-            "tuneName": "a road chud",
-            "tuner": "Inayamei",
-            "tyreCompound": "Rally"
-          },
-          "row": 1952,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "TOYO TIRES",
-            "Designer": "FRDT Pat theCat",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "a road chud",
-            "Tuner": "Inayamei",
-            "fill": "FFFF0000"
-          },
-          "row": 2548,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.74,
-      "shareCode": "157612047",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "inayamei"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-19",
-      "drivetrain": "AWD",
-      "id": "sc-157853570",
-      "metaRank": 12,
-      "name": "A - Road ( Speed & Grip )",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "157 853 570",
-            "suspension": "Sport",
-            "tuneName": "A - Road ( Speed & Grip )",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 1950,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "",
-            "Design": "SILICABREATH MINES",
-            "Designer": "SilentBlue07",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Road ( Speed & Grip )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 2546,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.743,
-      "shareCode": "157853570",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-07",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-170879220",
-      "lapRefs": [
-        {
-          "time": "59.3",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.3",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 12,
-      "name": "A Road - Allround Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "170 879 220",
-            "suspension": "Race",
-            "tuneName": "A Road - Allround Meta",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1948,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.733,
-      "shareCode": "170879220",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-173764672",
-      "name": "S1 Road Widebody",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "173 764 672",
-            "suspension": "Race",
-            "tuneName": "S1 Road Widebody",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1956,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "#15 MOTUL RACING",
-            "Designer": "F1R Mafin",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road Widebody",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 2558,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "173764672",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
-      "drivetrain": "AWD",
-      "id": "sc-175399595",
-      "name": "She Is Still Thicc",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "175 399 595",
-            "suspension": "Rally",
-            "tuneName": "She Is Still Thicc",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 1953,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "SASAKI GT-R",
-            "Designer": "Wombi 62",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "She Is Still Thicc",
-            "Tuner": "NDL Samu",
-            "fill": "FFFF0000"
-          },
-          "row": 2553,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "175399595",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-07",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-229206776",
-      "lapRefs": [
-        {
-          "time": "59.3",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.3",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 12,
-      "name": "Road Allround LBWK 59.3 Shira Clean",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "229 206 776",
-            "suspension": "Rally",
-            "tuneName": "Road Allround LBWK 59.3 Shira Clean",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1949,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround LBWK 59.3 Shira Clean",
-            "Tuner": "LetzeLU",
-            "fill": "FFFF0000"
-          },
-          "row": 2551,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.819,
-      "shareCode": "229206776",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-08",
-      "drivetrain": "AWD",
-      "id": "sc-611521403",
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "08/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "611 521 403",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "KapienPL",
-            "tyreCompound": "Rally"
-          },
-          "row": 1955,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "RLTC R35 WIDEBODY",
-            "Designer": "TSC Karnage",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 2557,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.662,
-      "shareCode": "611521403",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-739589518",
-      "name": "A Class Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "GT-R Black Edition (R35)",
-            "sharecode": "739 589 518",
-            "suspension": "Sport",
-            "tuneName": "A Class Purist",
-            "tuner": "GoodReiShun",
-            "tyreCompound": "Rally"
-          },
-          "row": 1951,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Nissan GT-R Black Edition (R35)",
-            "Comment": "Purist",
-            "Design": "GT",
-            "Designer": "PTG MarvanAi",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Class Purist",
-            "Tuner": "GoodReiShun",
-            "fill": "FFFF0000"
-          },
-          "row": 2547,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "739589518",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "goodreishun"
     }
   ],
   "schemaVersion": 1

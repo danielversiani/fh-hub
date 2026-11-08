@@ -1,43 +1,6 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2014-bmw-m4-coupe",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "AWD",
-      "id": "sc-102804240",
-      "name": "A Road AWD 5.0 SFLA",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "M4 Coupé",
-            "sharecode": "102 804 240",
-            "suspension": "Street",
-            "tuneName": "A Road AWD 5.0 SFLA",
-            "tuner": "JakeGTR9",
-            "tyreCompound": "Rally"
-          },
-          "row": 379,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "102804240",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "jakegtr9"
-    },
     {
       "buildTags": [],
       "carId": "2014-bmw-m4-coupe",
@@ -45,12 +8,12 @@
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-21",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "sc-164937121",
+      "fromMeta": true,
+      "id": "nc-072692b424",
       "lapRefs": [
         {
           "time": "1:00.9",
@@ -62,112 +25,23 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 107,
-      "name": "A Road",
+      "metaRank": 108,
+      "name": "A road AWD",
       "observations": [
         {
-          "raw": {
-            "class": "A",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "M4 Coupé",
-            "sharecode": "164 937 121",
-            "suspension": "Street",
-            "tuneName": "A Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 378,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
+          "raw": {},
+          "row": 221,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
         }
       ],
       "role": "allround",
-      "score": 0.594,
-      "shareCode": "164937121",
+      "score": 0.601,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-bmw-m4-coupe",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-18",
-      "drivetrain": "RWD",
-      "id": "sc-167689453",
-      "name": "brrp",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M4 Coupé",
-            "sharecode": "167 689 453",
-            "suspension": "Sport",
-            "tuneName": "brrp",
-            "tuner": "cartwell IZ",
-            "tyreCompound": "Rally"
-          },
-          "row": 376,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "167689453",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "cartwell-iz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-bmw-m4-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "id": "sc-543320550",
-      "metaRank": 107,
-      "name": "S1 Road AWD 5.0 LBWK",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "M4 Coupé",
-            "sharecode": "543 320 550",
-            "suspension": "Rally",
-            "tuneName": "S1 Road AWD 5.0 LBWK",
-            "tuner": "JakeGTR9",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 377,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.557,
-      "shareCode": "543320550",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "jakegtr9"
     }
   ],
   "schemaVersion": 1

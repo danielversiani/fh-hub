@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2011-volkswagen-scirocco-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-08832cdf84",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Volkswagen Scirocco R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 2989,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zaz490"
+    },
     {
       "buildTags": [
         "purist"
@@ -27,7 +64,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2987,
+          "row": 2986,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -37,6 +74,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-volkswagen-scirocco-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-24068608cd",
+      "name": "A Road - Strong Allround (VW Kit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Volkswagen Scirocco R",
+            "Comment": "Bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Strong Allround (VW Kit)",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2988,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
@@ -60,7 +130,7 @@
             "Tuner": "Aeroplane7616",
             "fill": "FFFF0000"
           },
-          "row": 2985,
+          "row": 2984,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -93,7 +163,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2986,
+          "row": 2985,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -105,262 +175,15 @@
       "tunerId": "drx-q3"
     },
     {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-volkswagen-scirocco-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "FWD",
-      "id": "sc-110471216",
-      "name": "purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Scirocco R",
-            "sharecode": "110 471 216",
-            "suspension": "Street",
-            "tuneName": "purist",
-            "tuner": "ZaZ490",
-            "tyreCompound": "Rally"
-          },
-          "row": 2648,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Volkswagen Scirocco R",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "purist",
-            "Tuner": "ZaZ490",
-            "fill": "FFFF0000"
-          },
-          "row": 2990,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "110471216",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zaz490"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-volkswagen-scirocco-r",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-09-06",
-      "drivetrain": "FWD",
-      "id": "sc-120134070",
-      "name": "B Road - VW Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/09/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Scirocco R",
-            "sharecode": "120 134 070",
-            "suspension": "Street",
-            "tuneName": "B Road - VW Kit",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2649,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.501,
-      "shareCode": "120134070",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-volkswagen-scirocco-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-04",
-      "drivetrain": "FWD",
-      "id": "sc-137474499",
-      "name": "Purist Grip All-Around (M/C) Stock rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Scirocco R",
-            "sharecode": "137 474 499",
-            "suspension": "Street",
-            "tuneName": "Purist Grip All-Around (M/C) Stock rims",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 2651,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "137474499",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2011-volkswagen-scirocco-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-20",
-      "drivetrain": "FWD",
-      "id": "sc-194073278",
-      "name": "Road Purist Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "20/08/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Scirocco R",
-            "sharecode": "194 073 278",
-            "suspension": "Street",
-            "tuneName": "Road Purist Grip",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 2650,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.497,
-      "shareCode": "194073278",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
       "buildTags": [],
       "carId": "2011-volkswagen-scirocco-r",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-29",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-913366993",
-      "name": "A Road - Strong Allround (VW Kit)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Scirocco R",
-            "sharecode": "913 366 993",
-            "suspension": "Street",
-            "tuneName": "A Road - Strong Allround (VW Kit)",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Drift"
-          },
-          "row": 2647,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2011 Volkswagen Scirocco R",
-            "Comment": "Bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "A Road - Strong Allround (VW Kit)",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 2989,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "913366993",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-volkswagen-scirocco-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-23",
-      "drivetrain": "FWD",
-      "id": "sc-982475031",
+      "id": "nc-f6e083c4a4",
       "name": "A road",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Volkswagen",
-            "model": "Scirocco R",
-            "sharecode": "982 475 031",
-            "suspension": "Sport",
-            "tuneName": "A road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2646,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2011 Volkswagen Scirocco R",
@@ -373,17 +196,15 @@
             "Tuner": "IceFrice8724",
             "fill": "FFFF0000"
           },
-          "row": 2988,
+          "row": 2987,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "982475031",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "icefrice8724"
     }
   ],

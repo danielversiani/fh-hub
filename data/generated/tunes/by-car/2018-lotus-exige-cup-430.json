@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -33,6 +33,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "dabananass"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-exige-cup-430",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "RWD",
+      "id": "nc-1d77617eb5",
+      "metaRank": 56,
+      "name": "S1 Accel Beast RWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Lotus Exige Cup 430",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Accel Beast RWD",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 2016,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.483,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [],
@@ -100,6 +136,78 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2018-lotus-exige-cup-430",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-40b166cccc",
+      "name": "Road Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Lotus Exige Cup 430",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Powerbuild",
+            "Tuner": "LetzeLU",
+            "fill": "FF0070C0"
+          },
+          "row": 2020,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2018-lotus-exige-cup-430",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-5ce81db34f",
+      "name": "Purist min width drifts | 47.1 Narai",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Lotus Exige Cup 430",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist min width drifts | 47.1 Narai",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 2005,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "darkz704"
     },
     {
       "buildTags": [],
@@ -443,6 +551,39 @@
     {
       "buildTags": [],
       "carId": "2018-lotus-exige-cup-430",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-bbc880489a",
+      "name": "Dirty Cup",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Lotus Exige Cup 430",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty Cup",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 2001,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-exige-cup-430",
       "categories": [
         "off-meta"
       ],
@@ -551,6 +692,42 @@
     {
       "buildTags": [],
       "carId": "2018-lotus-exige-cup-430",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-d190f3d33a",
+      "metaRank": 56,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Lotus Exige Cup 430",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "ESV Vini",
+            "fill": "FF7030A0"
+          },
+          "row": 2011,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.483,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-vini"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-exige-cup-430",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -584,127 +761,13 @@
     {
       "buildTags": [],
       "carId": "2018-lotus-exige-cup-430",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-04",
-      "drivetrain": "RWD",
-      "id": "sc-113960540",
-      "metaRank": 56,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "04/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "113 960 540",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "ESV Vini",
-            "tyreCompound": "Drift"
-          },
-          "row": 1511,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Lotus Exige Cup 430",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "ESV Vini",
-            "fill": "FF7030A0"
-          },
-          "row": 2011,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.557,
-      "shareCode": "113960540",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "esv-vini"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-22",
-      "drivetrain": "AWD",
-      "id": "sc-162440621",
-      "metaRank": 30,
-      "name": "Strong+ S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "22/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "162 440 621",
-            "suspension": "Race",
-            "tuneName": "Strong+ S1 Dirt",
-            "tuner": "Korrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1512,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.428,
-      "shareCode": "162440621",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "korrupt-eu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-exige-cup-430",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-05",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-170249736",
-      "name": "A Road B-Handling (1:01.6> Shira, 46.8> Narai).",
+      "id": "nc-e721b24713",
+      "name": "A Road B-Handling (1:01.6> Shira, 46.8> Narai)",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "170 249 736",
-            "suspension": "Rally",
-            "tuneName": "A Road B-Handling (1:01.6> Shira, 46.8> Narai).",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 1507,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2018 Lotus Exige Cup 430",
@@ -722,197 +785,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.676,
-      "shareCode": "170249736",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "destrukdi"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-13",
-      "drivetrain": "RWD",
-      "id": "sc-173639203",
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "173 639 203",
-            "suspension": "Race",
-            "tuneName": "A Road Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1508,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.495,
-      "shareCode": "173639203",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-04",
-      "drivetrain": "RWD",
-      "id": "sc-176501330",
-      "metaRank": 56,
-      "name": "S1 Accel Beast RWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "04/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "176 501 330",
-            "suspension": "Rally",
-            "tuneName": "S1 Accel Beast RWD",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Drift"
-          },
-          "row": 1510,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Lotus Exige Cup 430",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S1 Accel Beast RWD",
-            "Tuner": "ESV Lawrence",
-            "fill": "FF7030A0"
-          },
-          "row": 2016,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.557,
-      "shareCode": "176501330",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "RWD",
-      "id": "sc-239236721",
-      "name": "Purist min width drifts | 47.1 Narai",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "239 236 721",
-            "suspension": "Race",
-            "tuneName": "Purist min width drifts | 47.1 Narai",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Drift"
-          },
-          "row": 1505,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Lotus Exige Cup 430",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist min width drifts | 47.1 Narai",
-            "Tuner": "DarkZ704",
-            "fill": "FFFF0000"
-          },
-          "row": 2005,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "239236721",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "darkz704"
     },
     {
       "buildTags": [],
       "carId": "2018-lotus-exige-cup-430",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-06",
+      "confidence": 0.35,
       "drivetrain": "RWD",
       "engine": "5.2L V10",
       "id": "sc-390948891",
       "name": "RWD Accel",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "06/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "390 948 891",
-            "suspension": "Race",
-            "tuneName": "RWD Accel",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 1513,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "Huracan engine",
@@ -948,195 +837,13 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.766,
+      "score": 0.635,
       "shareCode": "390948891",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
       "tires": "slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-05",
-      "drivetrain": "AWD",
-      "id": "sc-705654028",
-      "name": "Strong A Road Balance (1:01.1> Shira) (CCs)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "705 654 028",
-            "suspension": "Rally",
-            "tuneName": "Strong A Road Balance (1:01.1> Shira) (CCs)",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1506,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.493,
-      "shareCode": "705654028",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "destrukdi"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-03",
-      "drivetrain": "AWD",
-      "id": "sc-840345575",
-      "name": "Dirty Exige Tech",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "03/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "840 345 575",
-            "suspension": "Rally",
-            "tuneName": "Dirty Exige Tech",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1509,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "840345575",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
-      "drivetrain": "RWD",
-      "id": "sc-862349843",
-      "name": "Road Powerbuild",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "04/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "862 349 843",
-            "suspension": "Race",
-            "tuneName": "Road Powerbuild",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Slick"
-          },
-          "row": 1514,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Lotus Exige Cup 430",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Powerbuild",
-            "Tuner": "LetzeLU",
-            "fill": "FF0070C0"
-          },
-          "row": 2020,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "862349843",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-exige-cup-430",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-866894585",
-      "name": "Dirty Cup",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lotus",
-            "model": "Exige Cup 430",
-            "sharecode": "866 894 585",
-            "suspension": "Rally",
-            "tuneName": "Dirty Cup",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1504,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Lotus Exige Cup 430",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty Cup",
-            "Tuner": "Cast Haste",
-            "fill": "FFFF0000"
-          },
-          "row": 2001,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.662,
-      "shareCode": "866894585",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

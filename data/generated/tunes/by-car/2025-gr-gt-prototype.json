@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -251,6 +251,42 @@
       "buildTags": [],
       "carId": "2025-gr-gt-prototype",
       "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-42076cbf5c",
+      "metaRank": 80,
+      "name": "S1 Road V1.1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 GR GT Prototype",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road V1.1",
+            "Tuner": "Koarsse",
+            "fill": "FF7030A0"
+          },
+          "row": 1646,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "koarsse"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-gr-gt-prototype",
+      "categories": [
         "meta"
       ],
       "class": "A",
@@ -277,6 +313,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-gr-gt-prototype",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-701744aaa2",
+      "metaRank": 21,
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 GR GT Prototype",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1640,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [
@@ -813,118 +885,6 @@
       "tierSource": "meta-table",
       "tires": "semi-slick",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-gr-gt-prototype",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-26",
-      "drivetrain": "AWD",
-      "id": "sc-178678191",
-      "metaRank": 21,
-      "name": "A Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GR",
-            "model": "GT Prototype",
-            "sharecode": "178 678 191",
-            "suspension": "Sport",
-            "tuneName": "A Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1087,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 GR GT Prototype",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1640,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.712,
-      "shareCode": "178678191",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-gr-gt-prototype",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-01",
-      "drivetrain": "AWD",
-      "id": "sc-891025797",
-      "metaRank": 80,
-      "name": "S1 Road V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "01/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "GR",
-            "model": "GT Prototype",
-            "sharecode": "891 025 797",
-            "suspension": "Sport",
-            "tuneName": "S1 Road V1.1",
-            "tuner": "Koarsse",
-            "tyreCompound": "Rally"
-          },
-          "row": 1088,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 GR GT Prototype",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road V1.1",
-            "Tuner": "Koarsse",
-            "fill": "FF7030A0"
-          },
-          "row": 1646,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.643,
-      "shareCode": "891025797",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "koarsse"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -27,7 +27,7 @@
             "Tuner": "VER Korben",
             "fill": "FFFF0000"
           },
-          "row": 2388,
+          "row": 2387,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -64,7 +64,7 @@
             "Tuner": "AMS Carver",
             "fill": "FFFF0000"
           },
-          "row": 2385,
+          "row": 2384,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -101,7 +101,7 @@
             "Tuner": "DarkZ704",
             "fill": "FFFF0000"
           },
-          "row": 2387,
+          "row": 2386,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -121,127 +121,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-100942795",
-      "name": "Dirt WRC Kit 4G63 V1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution IX MR",
-            "sharecode": "100 942 795",
-            "suspension": "Street",
-            "tuneName": "Dirt WRC Kit 4G63 V1",
-            "tuner": "AIONS580Pio",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1831,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2006 Mitsubishi Lancer Evolution IX MR",
-            "Comment": "Purist, WRC bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt WRC kit 4G63 V1",
-            "Tuner": "AIONS580Pio",
-            "fill": "FFFF0000"
-          },
-          "row": 2384,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "100942795",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2006-mitsubishi-lancer-evolution-ix-mr",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-159610611",
+      "id": "nc-496c671a89",
       "name": "A Dirt Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution IX MR",
-            "sharecode": "159 610 611",
-            "suspension": "Street",
-            "tuneName": "A Dirt Purist",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1832,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.475,
-      "shareCode": "159610611",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2006-mitsubishi-lancer-evolution-ix-mr",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-981533793",
-      "name": "A Dirt Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mitsubishi",
-            "model": "Lancer Evolution IX MR",
-            "sharecode": "981 533 793",
-            "suspension": "Rally",
-            "tuneName": "A Dirt Purist",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1833,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2006 Mitsubishi Lancer Evolution IX MR",
@@ -254,18 +138,53 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 2386,
+          "row": 2385,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "981533793",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2006-mitsubishi-lancer-evolution-ix-mr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-66007d42bd",
+      "name": "Dirt WRC kit 4G63 V1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2006 Mitsubishi Lancer Evolution IX MR",
+            "Comment": "Purist, WRC bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt WRC kit 4G63 V1",
+            "Tuner": "AIONS580Pio",
+            "fill": "FFFF0000"
+          },
+          "row": 2383,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "aions580pio"
     }
   ],
   "schemaVersion": 1

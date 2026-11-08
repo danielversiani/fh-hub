@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-deberti-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0036ecfadf",
+      "metaRank": 24,
+      "name": "1.7G Dirt Sprinter V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 DeBerti Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "1.7G Dirt Sprinter V2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 1204,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
+    },
     {
       "buildTags": [],
       "carId": "2018-deberti-ford-mustang-gt",
@@ -105,6 +141,187 @@
       "categories": [
         "off-meta"
       ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-88b7007605",
+      "metaRank": 24,
+      "name": "Good A Dirt (52.9 Sekibe)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 DeBerti Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good A Dirt (52.9 Sekibe)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1205,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-deberti-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-8f69e48d2d",
+      "metaRank": 60,
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 DeBerti Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1207,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-deberti-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-902dd401c3",
+      "metaRank": 24,
+      "name": "VV10 Dirt Allround OFFMETA Sunflower 59.2 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 DeBerti Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "VV10 Dirt Allround OFFMETA Sunflower 59.2 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 1206,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-deberti-ford-mustang-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-9f606141a3",
+      "name": "S1 Road AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 DeBerti Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road AWD",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 1210,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-deberti-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c2b15d34e0",
+      "metaRank": 20,
+      "name": "S1 Dirt (50.8 Sekibe)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 DeBerti Ford Mustang GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt (50.8 Sekibe)",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1209,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-deberti-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
@@ -140,342 +357,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "sr1-rian"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-16",
-      "drivetrain": "AWD",
-      "id": "sc-133001690",
-      "metaRank": 24,
-      "name": "VV10 Dirt Allround OFFMETA Sunflower 59.2 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeBerti",
-            "model": "Ford Mustang GT",
-            "sharecode": "133 001 690",
-            "suspension": "Sport",
-            "tuneName": "VV10 Dirt Allround OFFMETA Sunflower 59.2 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 645,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 DeBerti Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "VV10 Dirt Allround OFFMETA Sunflower 59.2 A/M",
-            "Tuner": "ZVTCJAU",
-            "fill": "FFFF0000"
-          },
-          "row": 1206,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.642,
-      "shareCode": "133001690",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-15",
-      "drivetrain": "AWD",
-      "id": "sc-144162580",
-      "metaRank": 24,
-      "name": "Good A Dirt (52.9 Sekibe)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeBerti",
-            "model": "Ford Mustang GT",
-            "sharecode": "144 162 580",
-            "suspension": "Rally",
-            "tuneName": "Good A Dirt (52.9 Sekibe)",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 644,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 DeBerti Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Good A Dirt (52.9 Sekibe)",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1205,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.642,
-      "shareCode": "144162580",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-10-19",
-      "drivetrain": "AWD",
-      "id": "sc-169509303",
-      "name": "S1 Road AWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "19/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeBerti",
-            "model": "Ford Mustang GT",
-            "sharecode": "169 509 303",
-            "suspension": "Race",
-            "tuneName": "S1 Road AWD",
-            "tuner": "LogikJ",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 646,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 DeBerti Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road AWD",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 1210,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.694,
-      "shareCode": "169509303",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "semi-slick",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-15",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-500493935",
-      "metaRank": 60,
-      "name": "A Road - Strong Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeBerti",
-            "model": "Ford Mustang GT",
-            "sharecode": "500 493 935",
-            "suspension": "Rally",
-            "tuneName": "A Road - Strong Allround",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 642,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 DeBerti Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road - Strong Allround",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1207,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "shareCode": "500493935",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-10-15",
-      "drivetrain": "AWD",
-      "id": "sc-803981855",
-      "metaRank": 20,
-      "name": "S1 Dirt (50.8 Sekibe)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "15/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeBerti",
-            "model": "Ford Mustang GT",
-            "sharecode": "803 981 855",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt (50.8 Sekibe)",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 647,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 DeBerti Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt (50.8 Sekibe)",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 1209,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.686,
-      "shareCode": "803981855",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-19",
-      "drivetrain": "AWD",
-      "id": "sc-994756319",
-      "metaRank": 24,
-      "name": "1.7G Dirt Sprinter V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "DeBerti",
-            "model": "Ford Mustang GT",
-            "sharecode": "994 756 319",
-            "suspension": "Sport",
-            "tuneName": "1.7G Dirt Sprinter V2",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 643,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 DeBerti Ford Mustang GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "1.7G Dirt Sprinter V2",
-            "Tuner": "SlowBakedPanda",
-            "fill": "FFFF0000"
-          },
-          "row": 1204,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.642,
-      "shareCode": "994756319",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "slowbakedpanda"
     }
   ],
   "schemaVersion": 1

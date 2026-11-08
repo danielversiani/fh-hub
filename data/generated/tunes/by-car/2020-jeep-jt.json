@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -205,6 +205,42 @@
       "tunerId": "razkinzmango"
     },
     {
+      "buildTags": [],
+      "carId": "2020-jeep-jt",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-a7290ecbb0",
+      "metaRank": 13,
+      "name": "B Dirt/CC Allround Easy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Jeep JT",
+            "Comment": "",
+            "Design": "HOTWHEELS",
+            "Designer": "K1NG K1LLA KAL1",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt/CC Allround Easy",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 382,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -271,176 +307,6 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-jeep-jt",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-15",
-      "drivetrain": "AWD",
-      "id": "sc-141239341",
-      "metaRank": 13,
-      "name": "B Dirt/CC Allround Easy",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "15/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "JT",
-            "sharecode": "141 239 341",
-            "suspension": "Street",
-            "tuneName": "B Dirt/CC Allround Easy",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1299,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Jeep JT",
-            "Comment": "",
-            "Design": "HOTWHEELS",
-            "Designer": "K1NG K1LLA KAL1",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt/CC Allround Easy",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 382,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.715,
-      "shareCode": "141239341",
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-jeep-jt",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-10-06",
-      "drivetrain": "AWD",
-      "id": "sc-152110926",
-      "metaRank": 13,
-      "name": "NEW VV10 Engine / Strong B Dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "JT",
-            "sharecode": "152 110 926",
-            "suspension": "Street",
-            "tuneName": "NEW VV10 Engine / Strong B Dirt/CC",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1300,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.642,
-      "shareCode": "152110926",
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-jeep-jt",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-14",
-      "drivetrain": "AWD",
-      "id": "sc-727420049",
-      "name": "Funny A Class Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "JT",
-            "sharecode": "727 420 049",
-            "suspension": "Rally",
-            "tuneName": "Funny A Class Road",
-            "tuner": "Zaabry",
-            "tyreCompound": "Slick"
-          },
-          "row": 1298,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "727420049",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "zaabry"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-jeep-jt",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-14",
-      "drivetrain": "AWD",
-      "id": "sc-735344278",
-      "name": "S1 Cross Country",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jeep",
-            "model": "JT",
-            "sharecode": "735 344 278",
-            "suspension": "Rally",
-            "tuneName": "S1 Cross Country",
-            "tuner": "Zaabry",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1301,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.474,
-      "shareCode": "735344278",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zaabry"
     }
   ],
   "schemaVersion": 1

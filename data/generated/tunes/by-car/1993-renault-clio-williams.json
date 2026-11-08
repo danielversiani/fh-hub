@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -48,29 +48,11 @@
       "carId": "1993-renault-clio-williams",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
+      "confidence": 0.35,
       "drivetrain": "FWD",
-      "id": "sc-441517546",
+      "id": "nc-58de3c8def",
       "name": "B Road/Street FWD v1.1 (K20)",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "21/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Clio Williams",
-            "sharecode": "441 517 546",
-            "suspension": "Rally",
-            "tuneName": "B Road/Street FWD v1.1 (K20)",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 2266,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1993 Renault Clio Williams",
@@ -88,12 +70,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.665,
-      "shareCode": "441517546",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "thedannny"
     }
   ],

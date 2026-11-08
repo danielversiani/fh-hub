@@ -1,21 +1,6 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
-    {
-      "carId": "2017-ford-focus-rs",
-      "category": "purist",
-      "confidence": 0.4,
-      "eventId": "s06-autumn--weekly-challenge--in-focus",
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.purist"
-        }
-      ],
-      "score": 0.474,
-      "seasonId": "s06-autumn",
-      "tuneId": "sc-126292501"
-    },
     {
       "carId": "1986-honda-civic-si",
       "category": "meta",
@@ -219,8 +204,9 @@
     {
       "carId": "2001-acura-integra-type-r",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -234,15 +220,16 @@
           "key": "reason.purist"
         }
       ],
-      "score": 0.659,
+      "score": 0.665,
       "seasonId": "s06-autumn",
-      "tuneId": "sc-127573360"
+      "tuneId": "nc-206243a7c9"
     },
     {
       "carId": "2023-acura-integra-a-spec",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -253,18 +240,12 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.755,
+      "score": 0.665,
       "seasonId": "s06-autumn",
-      "tuneId": "sc-119880166"
+      "tuneId": "nc-01a7a781d1"
     },
     {
       "carId": "2013-cadillac-xts-limousine",
@@ -392,8 +373,9 @@
     {
       "carId": "1989-nissan-silvia-ks",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -404,24 +386,19 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.627,
+      "score": 0.545,
       "seasonId": "s06-autumn",
-      "tuneId": "sc-326076887"
+      "tuneId": "nc-028b04b5e0"
     },
     {
-      "carId": "1998-nissan-silvia-ks-aero",
+      "carId": "2003-nissan-fairlady-z",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -435,9 +412,9 @@
           "key": "reason.purist"
         }
       ],
-      "score": 0.588,
+      "score": 0.59,
       "seasonId": "s06-autumn",
-      "tuneId": "sc-170166237"
+      "tuneId": "nc-2236fa605a"
     },
     {
       "carId": "1989-nissan-silvia-ks",
@@ -542,8 +519,9 @@
     {
       "carId": "1989-nissan-silvia-ks",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -554,24 +532,19 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.627,
+      "score": 0.545,
       "seasonId": "s06-autumn",
-      "tuneId": "sc-326076887"
+      "tuneId": "nc-028b04b5e0"
     },
     {
-      "carId": "1998-nissan-silvia-ks-aero",
+      "carId": "2003-nissan-fairlady-z",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -585,9 +558,9 @@
           "key": "reason.purist"
         }
       ],
-      "score": 0.588,
+      "score": 0.59,
       "seasonId": "s06-autumn",
-      "tuneId": "sc-170166237"
+      "tuneId": "nc-2236fa605a"
     }
   ],
   "schemaVersion": 1

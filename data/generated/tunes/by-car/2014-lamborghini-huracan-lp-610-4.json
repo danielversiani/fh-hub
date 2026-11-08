@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -45,6 +45,78 @@
       ],
       "class": "S1",
       "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0f42da33ef",
+      "metaRank": 90,
+      "name": "Road Allround 55.1 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 Lamborghini Huracán LP 610-4",
+            "Comment": "",
+            "Design": "EDAG DTM",
+            "Designer": "Hardcore Henkie",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 55.1 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1896,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-38e78de0f3",
+      "metaRank": 90,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 Lamborghini Huracán LP 610-4",
+            "Comment": "",
+            "Design": "K-PAX GT3 REPLICA",
+            "Designer": "Mason1528",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "ESV Mars",
+            "fill": "FF7030A0"
+          },
+          "row": 1893,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-mars"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
@@ -67,6 +139,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3f50f63a6d",
+      "metaRank": 90,
+      "name": "S1 Road Widebody Upd",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 Lamborghini Huracán LP 610-4",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Widebody Upd",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 1897,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -144,6 +252,117 @@
       "class": "S1",
       "confidence": 0.8,
       "drivetrain": "AWD",
+      "id": "nc-6c65383f0f",
+      "metaRank": 90,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 Lamborghini Huracán LP 610-4",
+            "Comment": "",
+            "Design": "RTS WIND",
+            "Designer": "Vampiro WCW",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "ATK Mang0",
+            "fill": "FF7030A0"
+          },
+          "row": 1890,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-932dd34b6c",
+      "metaRank": 90,
+      "name": "Stock Motor WB Road | 1:17.9 LIC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 Lamborghini Huracán LP 610-4",
+            "Comment": "Purist, widebody kit",
+            "Design": "BORTOLOTTI LP610-4",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Stock Motor WB Road | 1:17.9 LIC",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 1891,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-a9ed005042",
+      "metaRank": 90,
+      "name": "S1 Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 Lamborghini Huracán LP 610-4",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "PEKORA LP610",
+            "Designer": "ccpekora",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Grip",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1892,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
       "id": "nc-add78376ad",
       "metaRank": 90,
       "name": "Duke Wing",
@@ -170,6 +389,39 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-b193eb5c22",
+      "name": "Dirty WB",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 Lamborghini Huracán LP 610-4",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "SQUARDA CORSE",
+            "Designer": "PTG MarvanAi",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty WB",
+            "Tuner": "Cast Haste",
+            "fill": "FF7030A0"
+          },
+          "row": 1889,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
     },
     {
       "buildTags": [],
@@ -244,247 +496,18 @@
       "tunerId": "zvtcjau"
     },
     {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-07",
-      "drivetrain": "AWD",
-      "id": "sc-113882543",
-      "metaRank": 90,
-      "name": "Stock Motor WB Road | 1:17.9 LIC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "113 882 543",
-            "suspension": "Street",
-            "tuneName": "Stock Motor WB Road | 1:17.9 LIC",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 1385,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2014 Lamborghini Huracán LP 610-4",
-            "Comment": "Purist, widebody kit",
-            "Design": "BORTOLOTTI LP610-4",
-            "Designer": "Wombi 62",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Stock Motor WB Road | 1:17.9 LIC",
-            "Tuner": "DRX Q3",
-            "fill": "FF7030A0"
-          },
-          "row": 1891,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.643,
-      "shareCode": "113882543",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
       "buildTags": [],
       "carId": "2014-lamborghini-huracan-lp-610-4",
       "categories": [
         "off-meta"
       ],
       "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-06",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-176582483",
-      "metaRank": 90,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "06/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "176 582 483",
-            "suspension": "Race",
-            "tuneName": "S1 Road",
-            "tuner": "ESV Mars",
-            "tyreCompound": "Rally"
-          },
-          "row": 1387,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2014 Lamborghini Huracán LP 610-4",
-            "Comment": "",
-            "Design": "K-PAX GT3 REPLICA",
-            "Designer": "Mason1528",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "ESV Mars",
-            "fill": "FF7030A0"
-          },
-          "row": 1893,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.64,
-      "shareCode": "176582483",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-mars"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-198256764",
-      "metaRank": 90,
-      "name": "S1 Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "198 256 764",
-            "suspension": "Rally",
-            "tuneName": "S1 Grip",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 1386,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2014 Lamborghini Huracán LP 610-4",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "PEKORA LP610",
-            "Designer": "ccpekora",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Grip",
-            "Tuner": "ESV Lawrence",
-            "fill": "FF7030A0"
-          },
-          "row": 1892,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.641,
-      "shareCode": "198256764",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-13",
-      "drivetrain": "AWD",
-      "id": "sc-233672323",
-      "metaRank": 90,
-      "name": "S1 Road Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "233 672 323",
-            "suspension": "Rally",
-            "tuneName": "S1 Road Kit",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Rally"
-          },
-          "row": 1389,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.554,
-      "shareCode": "233672323",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-341097744",
+      "id": "nc-ec32b2dbbc",
       "metaRank": 90,
       "name": "S1 Road V1.5",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "341 097 744",
-            "suspension": "Race",
-            "tuneName": "S1 Road V1.5",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1388,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2014 Lamborghini Huracán LP 610-4",
@@ -502,234 +525,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.649,
-      "shareCode": "341097744",
+      "score": 0.56,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
-      "tires": "rally",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-365841841",
-      "metaRank": 90,
-      "name": "S1 Road Widebody Upd",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "365 841 841",
-            "suspension": "Race",
-            "tuneName": "S1 Road Widebody Upd",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1391,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2014 Lamborghini Huracán LP 610-4",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road Widebody Upd",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 1897,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.649,
-      "shareCode": "365841841",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-616187524",
-      "metaRank": 90,
-      "name": "Road Allround 55.1 Shira Clean",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "616 187 524",
-            "suspension": "Rally",
-            "tuneName": "Road Allround 55.1 Shira Clean",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1390,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2014 Lamborghini Huracán LP 610-4",
-            "Comment": "",
-            "Design": "EDAG DTM",
-            "Designer": "Hardcore Henkie",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround 55.1 Shira Clean",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 1896,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.649,
-      "shareCode": "616187524",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-22",
-      "drivetrain": "AWD",
-      "id": "sc-641448602",
-      "name": "Dirty WB",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "22/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "641 448 602",
-            "suspension": "Rally",
-            "tuneName": "Dirty WB",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1384,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2014 Lamborghini Huracán LP 610-4",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "SQUARDA CORSE",
-            "Designer": "PTG MarvanAi",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty WB",
-            "Tuner": "Cast Haste",
-            "fill": "FF7030A0"
-          },
-          "row": 1889,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "641448602",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-lamborghini-huracan-lp-610-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-781786111",
-      "metaRank": 90,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Huracán LP 610-4",
-            "sharecode": "781 786 111",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "ATK Mang0",
-            "tyreCompound": "Rally"
-          },
-          "row": 1383,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2014 Lamborghini Huracán LP 610-4",
-            "Comment": "",
-            "Design": "RTS WIND",
-            "Designer": "Vampiro WCW",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "ATK Mang0",
-            "fill": "FF7030A0"
-          },
-          "row": 1890,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.643,
-      "shareCode": "781786111",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "atk-mang0"
     }
   ],
   "schemaVersion": 1

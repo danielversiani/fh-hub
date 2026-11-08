@@ -1,6 +1,140 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1993-ford-mustang-svt-cobra-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1a75985bd5",
+      "name": "A Road Accel",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Ford Mustang SVT Cobra R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Accel",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 1522,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1993-ford-mustang-svt-cobra-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-271b8d4379",
+      "name": "A Dirt (Stock Look)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Ford Mustang SVT Cobra R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt (Stock Look)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1521,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-ford-mustang-svt-cobra-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-323287c690",
+      "name": "Ramming Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Ford Mustang SVT Cobra R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Ramming Meta",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 1523,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-ford-mustang-svt-cobra-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7607cc352d",
+      "name": "Strong A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Ford Mustang SVT Cobra R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong A Dirt",
+            "Tuner": "Korrrupt EU",
+            "fill": "FFFF0000"
+          },
+          "row": 1519,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "korrrupt-eu"
+    },
     {
       "buildTags": [],
       "carId": "1993-ford-mustang-svt-cobra-r",
@@ -66,294 +200,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "polarbear690"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-ford-mustang-svt-cobra-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-114994023",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang SVT Cobra R (1993)",
-            "sharecode": "114 994 023",
-            "suspension": "Street",
-            "tuneName": "A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 995,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "114994023",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1993-ford-mustang-svt-cobra-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-07",
-      "drivetrain": "AWD",
-      "id": "sc-122950564",
-      "name": "A Dirt (Stock Look)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang SVT Cobra R (1993)",
-            "sharecode": "122 950 564",
-            "suspension": "Rally",
-            "tuneName": "A Dirt (Stock Look)",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 997,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1993 Ford Mustang SVT Cobra R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt (Stock Look)",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1521,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.669,
-      "shareCode": "122950564",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-ford-mustang-svt-cobra-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-22",
-      "drivetrain": "AWD",
-      "id": "sc-174976704",
-      "name": "A Road Accel",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang SVT Cobra R (1993)",
-            "sharecode": "174 976 704",
-            "suspension": "Street",
-            "tuneName": "A Road Accel",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 993,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1993 Ford Mustang SVT Cobra R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road Accel",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 1522,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "shareCode": "174976704",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-ford-mustang-svt-cobra-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-10",
-      "drivetrain": "AWD",
-      "id": "sc-181735728",
-      "name": "Strong A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang SVT Cobra R (1993)",
-            "sharecode": "181 735 728",
-            "suspension": "Rally",
-            "tuneName": "Strong A Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 996,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1993 Ford Mustang SVT Cobra R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong A Dirt",
-            "Tuner": "Korrrupt EU",
-            "fill": "FFFF0000"
-          },
-          "row": 1519,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "181735728",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-ford-mustang-svt-cobra-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-21",
-      "drivetrain": "AWD",
-      "id": "sc-233096411",
-      "name": "A Class Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang SVT Cobra R (1993)",
-            "sharecode": "233 096 411",
-            "suspension": "Rally",
-            "tuneName": "A Class Dirt",
-            "tuner": "TNR MaksJaga",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 998,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "233096411",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "tnr-maksjaga"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-ford-mustang-svt-cobra-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-578190759",
-      "name": "Ramming Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "Mustang SVT Cobra R (1993)",
-            "sharecode": "578 190 759",
-            "suspension": "Street",
-            "tuneName": "Ramming Meta",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 994,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1993 Ford Mustang SVT Cobra R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Ramming Meta",
-            "Tuner": "GreetedDust8",
-            "fill": "FFFF0000"
-          },
-          "row": 1523,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.662,
-      "shareCode": "578190759",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
     }
   ],
   "schemaVersion": 1

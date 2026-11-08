@@ -21,19 +21,6 @@ describe('forza-cars (official roster)', () => {
     }));
 });
 
-const out_gbr_ozzy = await fixtureOutput('gbr-ozzy');
-describe('gbr-ozzy', () => {
-  const out = out_gbr_ozzy;
-  it('finds the header below the banner rows', () => expect(out.tunes.length).toBeGreaterThan(50));
-  it('reads make, model, tuner, code and the unnamed date column', () =>
-    expect(out.tunes[0]).toMatchObject({
-      car: { make: 'Abarth', model: '124 Spider' },
-      tuner: 'LogikJ',
-      shareCode: '773 309 331',
-      createdAt: '2026-07-26',
-    }));
-});
-
 const out_kleis = await fixtureOutput('kleis');
 describe('kleis', () => {
   const out = out_kleis;

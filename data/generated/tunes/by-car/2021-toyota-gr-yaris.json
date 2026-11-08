@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -56,7 +56,7 @@
             "Tuner": "KillerSpectre21",
             "fill": "FF7030A0"
           },
-          "row": 2913,
+          "row": 2912,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -122,7 +122,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FFFF0000"
           },
-          "row": 2912,
+          "row": 2911,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -173,6 +173,72 @@
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "AWD",
+      "id": "nc-9c2d898497",
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Toyota GR Yaris",
+            "Comment": "",
+            "Design": "GS SWEETHEART",
+            "Designer": "Kracsa",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2910,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-toyota-gr-yaris",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-9c70596d29",
+      "name": "GR86 Engine Max Power",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Toyota GR Yaris",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "GR86 Engine Max Power",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 640,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-toyota-gr-yaris",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
       "id": "nc-a8ce9ff13a",
       "name": "Dirty n Thiccccccccccccccccccccccccccccccccccccccccccccc",
       "observations": [
@@ -188,7 +254,7 @@
             "Tuner": "Cast Haste",
             "fill": "FFFF0000"
           },
-          "row": 2908,
+          "row": 2907,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -198,6 +264,72 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-toyota-gr-yaris",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-aff0f4794e",
+      "name": "Cool A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Toyota GR Yaris",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Cool A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2908,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-toyota-gr-yaris",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ed26dd5ea3",
+      "name": "Dirt WB",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Toyota GR Yaris",
+            "Comment": "Widebody kit",
+            "Design": "#99 O.SOLBERG WRC MONTE CARLO",
+            "Designer": "TingedJewel9101",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt WB",
+            "Tuner": "Whatuplosers917",
+            "fill": "FFED7D31"
+          },
+          "row": 642,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "whatuplosers917"
     },
     {
       "buildTags": [
@@ -223,7 +355,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2910,
+          "row": 2909,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -233,329 +365,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-toyota-gr-yaris",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-29",
-      "drivetrain": "AWD",
-      "id": "sc-106129425",
-      "name": "B Road - Rocket Bunny Widebody",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "29/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Yaris",
-            "sharecode": "106 129 425",
-            "suspension": "Sport",
-            "tuneName": "B Road - Rocket Bunny Widebody",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Standard"
-          },
-          "row": 2483,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "106129425",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-toyota-gr-yaris",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-12",
-      "drivetrain": "AWD",
-      "id": "sc-115808625",
-      "name": "Cool A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Yaris",
-            "sharecode": "115 808 625",
-            "suspension": "Sport",
-            "tuneName": "Cool A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2480,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Toyota GR Yaris",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Cool A Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 2909,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "115808625",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-toyota-gr-yaris",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-27",
-      "drivetrain": "AWD",
-      "id": "sc-138067504",
-      "name": "Dirt WB",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Yaris",
-            "sharecode": "138 067 504",
-            "suspension": "Rally",
-            "tuneName": "Dirt WB",
-            "tuner": "Whatuplosers917",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2481,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Toyota GR Yaris",
-            "Comment": "Widebody kit",
-            "Design": "#99 O.SOLBERG WRC MONTE CARLO",
-            "Designer": "TingedJewel9101",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt WB",
-            "Tuner": "Whatuplosers917",
-            "fill": "FFED7D31"
-          },
-          "row": 642,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "138067504",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "whatuplosers917"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-toyota-gr-yaris",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "id": "sc-182306555",
-      "name": "A road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Yaris",
-            "sharecode": "182 306 555",
-            "suspension": "Sport",
-            "tuneName": "A road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2479,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Toyota GR Yaris",
-            "Comment": "",
-            "Design": "GS SWEETHEART",
-            "Designer": "Kracsa",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A road",
-            "Tuner": "IceFrice8724",
-            "fill": "FFFF0000"
-          },
-          "row": 2911,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "182306555",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-toyota-gr-yaris",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-11",
-      "drivetrain": "AWD",
-      "id": "sc-332550751",
-      "name": "\"ALAFATAR!!! THIS DUDE IS DEAD\" - EXQZ",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Yaris",
-            "sharecode": "332 550 751",
-            "suspension": "Sport",
-            "tuneName": "\"ALAFATAR!!! THIS DUDE IS DEAD\" - EXQZ",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2484,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "332550751",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-toyota-gr-yaris",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-589959493",
-      "name": "GR86 Engine Max Power",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Yaris",
-            "sharecode": "589 959 493",
-            "suspension": "Sport",
-            "tuneName": "GR86 Engine Max Power",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2482,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Toyota GR Yaris",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "GR86 Engine Max Power",
-            "Tuner": "GreetedDust8",
-            "fill": "FFED7D31"
-          },
-          "row": 640,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.661,
-      "shareCode": "589959493",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-toyota-gr-yaris",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-26",
-      "drivetrain": "AWD",
-      "id": "sc-640631169",
-      "name": "Dirty n Thicccccccccccccccccccccccccccccccccccccccc",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "GR Yaris",
-            "sharecode": "640 631 169",
-            "suspension": "Sport",
-            "tuneName": "Dirty n Thicccccccccccccccccccccccccccccccccccccccc",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2478,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "640631169",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

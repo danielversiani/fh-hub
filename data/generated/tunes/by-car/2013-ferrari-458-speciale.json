@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-ferrari-458-speciale",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5f33b021d8",
+      "metaRank": 124,
+      "name": "S1 Class - Road Racing - Stock Engine",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Ferrari 458 Speciale",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - Stock Engine",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1432,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
     {
       "buildTags": [],
       "carId": "2013-ferrari-458-speciale",
@@ -42,145 +78,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-ferrari-458-speciale",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "id": "sc-102871242",
-      "metaRank": 124,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "458 Speciale",
-            "sharecode": "102 871 242",
-            "suspension": "Rally",
-            "tuneName": "S1 Road",
-            "tuner": "KapienPL",
-            "tyreCompound": "Rally"
-          },
-          "row": 799,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.528,
-      "shareCode": "102871242",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-ferrari-458-speciale",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-23",
-      "drivetrain": "AWD",
-      "id": "sc-120413387",
-      "metaRank": 124,
-      "name": "S1 Class - Road Racing - Stock Engine",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "458 Speciale",
-            "sharecode": "120 413 387",
-            "suspension": "Rally",
-            "tuneName": "S1 Class - Road Racing - Stock Engine",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 801,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Ferrari 458 Speciale",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Class - Road Racing - Stock Engine",
-            "Tuner": "VNX Ardent",
-            "fill": "FF7030A0"
-          },
-          "row": 1432,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.62,
-      "shareCode": "120413387",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2013-ferrari-458-speciale",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-23",
-      "drivetrain": "RWD",
-      "id": "sc-131065702",
-      "metaRank": 124,
-      "name": "Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "23/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "458 Speciale",
-            "sharecode": "131 065 702",
-            "suspension": "Rally",
-            "tuneName": "Road Purist",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 800,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.534,
-      "shareCode": "131065702",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

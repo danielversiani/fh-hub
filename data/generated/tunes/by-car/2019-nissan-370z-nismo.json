@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -68,7 +68,7 @@
             "Tuner": "Destrukdi",
             "fill": "FFFF0000"
           },
-          "row": 2560,
+          "row": 2559,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -107,7 +107,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 2561,
+          "row": 2560,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -143,7 +143,7 @@
             "Tuner": "Nomv1",
             "fill": "FFFF0000"
           },
-          "row": 2563,
+          "row": 2562,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -182,7 +182,7 @@
             "Tuner": "LetzeLU",
             "fill": "FFFF0000"
           },
-          "row": 2562,
+          "row": 2561,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -234,126 +234,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-nissan-370z-nismo",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-01",
-      "drivetrain": "AWD",
-      "id": "sc-110568242",
-      "name": "B Dirt Easy",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "370Z NISMO",
-            "sharecode": "110 568 242",
-            "suspension": "Street",
-            "tuneName": "B Dirt Easy",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1915,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "110568242",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "ndl-samu"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2019-nissan-370z-nismo",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-19",
-      "drivetrain": "RWD",
-      "id": "sc-115934047",
-      "metaRank": 87,
-      "name": "Purist A Road Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "370Z NISMO",
-            "sharecode": "115 934 047",
-            "suspension": "Street",
-            "tuneName": "Purist A Road Strong",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1914,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.59,
-      "shareCode": "115934047",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-nissan-370z-nismo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-18",
-      "drivetrain": "AWD",
-      "id": "sc-173227353",
-      "metaRank": 87,
-      "name": "A Road (Shira 01.5>)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "370Z NISMO",
-            "sharecode": "173 227 353",
-            "suspension": "Street",
-            "tuneName": "A Road (Shira 01.5>)",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 1913,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.59,
-      "shareCode": "173227353",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "destrukdi"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -126,6 +126,45 @@
       "tunerId": "noa-miyako"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-dodge-coronet-super-bee",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-580cc9f4cc",
+      "metaRank": 52,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Dodge Coronet Super Bee",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1262,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
       "buildTags": [],
       "carId": "1970-dodge-coronet-super-bee",
       "categories": [
@@ -243,6 +282,81 @@
       "categories": [
         "off-meta"
       ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b5084e2ead",
+      "metaRank": 52,
+      "name": "AIO meta? | 1:00.711 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Dodge Coronet Super Bee",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AIO meta? | 1:00.711 Shirakawa",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 1260,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-dodge-coronet-super-bee",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-cf2d5cdeaf",
+      "metaRank": 38,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Dodge Coronet Super Bee",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 271,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-dodge-coronet-super-bee",
+      "categories": [
+        "off-meta"
+      ],
       "class": "B",
       "confidence": 0.8,
       "credited": true,
@@ -278,340 +392,6 @@
       "tierSource": "meta-table",
       "tires": "vintage",
       "tunerId": "msr-sam"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-141807614",
-      "metaRank": 52,
-      "name": "AIO meta? | 1:00.711 Shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Coronet Super Bee",
-            "sharecode": "141 807 614",
-            "suspension": "Rally",
-            "tuneName": "AIO meta? | 1:00.711 Shirakawa",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 704,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Dodge Coronet Super Bee",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "AIO meta? | 1:00.711 Shirakawa",
-            "Tuner": "DarkZ704",
-            "fill": "FFFF0000"
-          },
-          "row": 1260,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "141807614",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "RWD",
-      "id": "sc-154851478",
-      "metaRank": 3,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Coronet Super Bee",
-            "sharecode": "154 851 478",
-            "suspension": "Sport",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 708,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Dodge Coronet Super Bee",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1262,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.74,
-      "shareCode": "154851478",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-12",
-      "drivetrain": "AWD",
-      "id": "sc-169388365",
-      "metaRank": 3,
-      "name": "Dirt Allround META Sunflower 58.7 A/M V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Coronet Super Bee",
-            "sharecode": "169 388 365",
-            "suspension": "Stock",
-            "tuneName": "Dirt Allround META Sunflower 58.7 A/M V1.1",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 709,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "169388365",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-526526327",
-      "metaRank": 3,
-      "name": "Girthy bulge in the hood",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Coronet Super Bee",
-            "sharecode": "526 526 327",
-            "suspension": "Stock",
-            "tuneName": "Girthy bulge in the hood",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 707,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.662,
-      "shareCode": "526526327",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-29",
-      "drivetrain": "RWD",
-      "id": "sc-779108845",
-      "metaRank": 38,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "29/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Dodge",
-            "model": "Coronet Super Bee",
-            "sharecode": "779 108 845",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Vintage Race"
-          },
-          "row": 710,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1970 Dodge Coronet Super Bee",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 271,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.63,
-      "shareCode": "779108845",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage-race",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-14",
-      "drivetrain": "AWD",
-      "id": "sc-919261049",
-      "metaRank": 3,
-      "name": "A Class Beast Boi",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Coronet Super Bee",
-            "sharecode": "919 261 049",
-            "suspension": "Rally",
-            "tuneName": "A Class Beast Boi",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Rally"
-          },
-          "row": 705,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "919261049",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-09-10",
-      "drivetrain": "AWD",
-      "id": "sc-930667700",
-      "metaRank": 3,
-      "name": "A Dirt Meta - Very Strong (Takashiro 1.58.9)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Dodge",
-            "model": "Coronet Super Bee",
-            "sharecode": "930 667 700",
-            "suspension": "Stock",
-            "tuneName": "A Dirt Meta - Very Strong (Takashiro 1.58.9)",
-            "tuner": "Falken JP",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 706,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "930667700",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "falken-jp"
     }
   ],
   "schemaVersion": 1

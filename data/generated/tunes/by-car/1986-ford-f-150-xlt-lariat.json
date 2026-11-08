@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -43,29 +43,11 @@
       "carId": "1986-ford-f-150-xlt-lariat",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-27",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-133358009",
+      "id": "nc-a67c424fda",
       "name": "Dirt / CC Voodoo",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "27/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "F-150 XLT Lariat",
-            "sharecode": "133 358 009",
-            "suspension": "Stock",
-            "tuneName": "Dirt / CC Voodoo",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 924,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1986 Ford F-150 XLT Lariat",
@@ -83,87 +65,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.674,
-      "shareCode": "133358009",
+      "score": 0.474,
       "surface": "cross-country",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-ford-f-150-xlt-lariat",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-18",
-      "drivetrain": "AWD",
-      "id": "sc-170437334",
-      "name": "B Dirt/CC Allround Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "18/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "F-150 XLT Lariat",
-            "sharecode": "170 437 334",
-            "suspension": "Stock",
-            "tuneName": "B Dirt/CC Allround Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 925,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "170437334",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-ford-f-150-xlt-lariat",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-729498170",
-      "name": "A Dirt/CC Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ford",
-            "model": "F-150 XLT Lariat",
-            "sharecode": "729 498 170",
-            "suspension": "Stock",
-            "tuneName": "A Dirt/CC Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 923,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "729498170",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

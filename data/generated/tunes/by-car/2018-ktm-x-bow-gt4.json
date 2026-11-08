@@ -1,35 +1,50 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2018-ktm-x-bow-gt4",
       "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a03aba647e",
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 KTM X-BOW GT4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1840,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ktm-x-bow-gt4",
+      "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "Racing V12",
       "id": "sc-157644517",
       "name": "S2 Road",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "01/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "KTM",
-            "model": "X-Bow GT4",
-            "sharecode": "157 644 517",
-            "suspension": "Race",
-            "tuneName": "S2 Road",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 1331,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "",
@@ -49,103 +64,13 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.626,
+      "score": 0.416,
       "shareCode": "157644517",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
+      "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-ktm-x-bow-gt4",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-01",
-      "drivetrain": "AWD",
-      "id": "sc-424124913",
-      "name": "S1 road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "01/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "KTM",
-            "model": "X-Bow GT4",
-            "sharecode": "424 124 913",
-            "suspension": "Race",
-            "tuneName": "S1 road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 1330,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 KTM X-BOW GT4",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 road",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 1840,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "424124913",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-ktm-x-bow-gt4",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-29",
-      "drivetrain": "AWD",
-      "id": "sc-579025758",
-      "name": "A Road | 1:02.6 Shira | Rallies AWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "KTM",
-            "model": "X-Bow GT4",
-            "sharecode": "579 025 758",
-            "suspension": "Race",
-            "tuneName": "A Road | 1:02.6 Shira | Rallies AWD",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Rally"
-          },
-          "row": 1329,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "579025758",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "darkz704"
     }
   ],
   "schemaVersion": 1

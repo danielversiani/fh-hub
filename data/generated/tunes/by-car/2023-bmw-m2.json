@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -12,12 +12,12 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-d9ef0bbbe1",
-      "metaRank": 167,
+      "metaRank": 170,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 341,
+          "row": 347,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -29,90 +29,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2023-bmw-m2",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "RWD",
-      "id": "sc-121321298",
-      "metaRank": 167,
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "BMW",
-            "model": "M2",
-            "sharecode": "121 321 298",
-            "suspension": "Street",
-            "tuneName": "A Road Purist",
-            "tuner": "VNX Ruinz",
-            "tyreCompound": "Rally"
-          },
-          "row": 323,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.44,
-      "shareCode": "121321298",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "vnx-ruinz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-bmw-m2",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-150657120",
-      "metaRank": 167,
-      "name": "原厂引擎 季节赛",
-      "nameI18n": {
-        "en": "Stock engine; for seasonal events.",
-        "pt-br": "Motor original; para eventos sazonais."
-      },
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "BMW",
-            "model": "M2",
-            "sharecode": "150 657 120",
-            "suspension": "Street",
-            "tuneName": "原厂引擎 季节赛",
-            "tuner": "SakuraMxSPD",
-            "tyreCompound": "Sport"
-          },
-          "row": 322,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.441,
-      "shareCode": "150657120",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "sport",
-      "tunerId": "sakuramxspd"
     }
   ],
   "schemaVersion": 1

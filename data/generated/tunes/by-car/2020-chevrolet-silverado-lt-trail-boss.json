@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -50,6 +50,45 @@
       "class": "B",
       "confidence": 0.8,
       "drivetrain": "AWD",
+      "id": "nc-308a93988f",
+      "metaRank": 2,
+      "name": "Purist CC/Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Chevrolet Silverado LT Trail Boss",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Purist CC/Dirt",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 236,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.648,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2020-chevrolet-silverado-lt-trail-boss",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
       "id": "nc-4c7bd210e7",
       "metaRank": 2,
       "name": "B Dirt/CC Purist",
@@ -76,6 +115,39 @@
       "tier": "meta-plus",
       "tierSource": "meta-table",
       "tunerId": "scaans"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-chevrolet-silverado-lt-trail-boss",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-887563c8e7",
+      "name": "S1 Cross Country Online",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Chevrolet Silverado LT Trail Boss",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Cross Country Online",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 1176,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -107,6 +179,39 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-chevrolet-silverado-lt-trail-boss",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e86df18c7b",
+      "name": "boss",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Chevrolet Silverado LT Trail Boss",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "boss",
+            "Tuner": "Destrukdi",
+            "fill": "FFFF0000"
+          },
+          "row": 1175,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "destrukdi"
     },
     {
       "buildTags": [],
@@ -206,370 +311,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-27",
-      "drivetrain": "AWD",
-      "id": "sc-107260474",
-      "name": "Like a boss",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "27/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "107 260 474",
-            "suspension": "Sport",
-            "tuneName": "Like a boss",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 596,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "107260474",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-136923550",
-      "metaRank": 8,
-      "name": "Strong CC Allrounder V1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "136 923 550",
-            "suspension": "Rally",
-            "tuneName": "Strong CC Allrounder V1",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 593,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "136923550",
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-174578874",
-      "name": "S1 Cross Country Online",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "174 578 874",
-            "suspension": "Sport",
-            "tuneName": "S1 Cross Country Online",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 599,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Chevrolet Silverado LT Trail Boss",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Cross Country Online",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 1176,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "174578874",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-178427155",
-      "metaRank": 2,
-      "name": "B Dirt/CC AllRound Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "178 427 155",
-            "suspension": "Sport",
-            "tuneName": "B Dirt/CC AllRound Meta",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 597,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.641,
-      "shareCode": "178427155",
-      "surface": "cross-country",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-08",
-      "drivetrain": "AWD",
-      "id": "sc-271673572",
-      "metaRank": 8,
-      "name": "A CC Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "271 673 572",
-            "suspension": "Rally",
-            "tuneName": "A CC Grip",
-            "tuner": "Noa Miyako",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 592,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.653,
-      "shareCode": "271673572",
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-09",
-      "drivetrain": "AWD",
-      "id": "sc-454921147",
-      "metaRank": 2,
-      "name": "B Dirt/CC (M/C) Stock look v1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "09/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "454 921 147",
-            "suspension": "Sport",
-            "tuneName": "B Dirt/CC (M/C) Stock look v1.1",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 598,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.644,
-      "shareCode": "454921147",
-      "surface": "cross-country",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-492651146",
-      "name": "Boss",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "492 651 146",
-            "suspension": "Sport",
-            "tuneName": "Boss",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 594,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Chevrolet Silverado LT Trail Boss",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "boss",
-            "Tuner": "Destrukdi",
-            "fill": "FFFF0000"
-          },
-          "row": 1175,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "492651146",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "destrukdi"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-25",
-      "drivetrain": "AWD",
-      "id": "sc-727247798",
-      "metaRank": 2,
-      "name": "Purist CC / Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "25/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Silverado LT Trail Boss",
-            "sharecode": "727 247 798",
-            "suspension": "Sport",
-            "tuneName": "Purist CC / Dirt",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 595,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2020 Chevrolet Silverado LT Trail Boss",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Purist CC/Dirt",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 236,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.728,
-      "shareCode": "727247798",
-      "surface": "cross-country",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

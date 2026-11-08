@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-028b04b5e0",
+      "metaRank": 3,
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Nissan Silvia K's",
+            "Comment": "Purist",
+            "Design": "REI AYANAMI EVANGELION",
+            "Designer": "DennyLambo420",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road",
+            "Tuner": "AMS Carver",
+            "fill": "FFED7D31"
+          },
+          "row": 462,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.545,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
+    },
     {
       "buildTags": [],
       "carId": "1989-nissan-silvia-ks",
@@ -37,6 +76,42 @@
     {
       "buildTags": [],
       "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-1d52d2de0a",
+      "metaRank": 27,
+      "name": "A Road Widebody",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Nissan Silvia K's",
+            "Comment": "Rocket Bunny bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road Widebody",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2412,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-nissan-silvia-ks",
       "categories": [],
       "class": "C",
       "confidence": 0.35,
@@ -66,6 +141,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "hlundh"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2cdc77279b",
+      "metaRank": 27,
+      "name": "Allround Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Nissan Silvia K's",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Allround Road",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF0000"
+          },
+          "row": 2414,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -130,7 +241,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2408,
+          "row": 2407,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -275,7 +386,7 @@
             "Tuner": "Raceboy77",
             "fill": "FFFF0000"
           },
-          "row": 2416,
+          "row": 2415,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -285,6 +396,42 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "raceboy77"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-9b077822df",
+      "metaRank": 3,
+      "name": "Standard Issue 400kmh B-Class Starter Car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Nissan Silvia K's",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Standard Issue 400kmh B-Class Starter Car",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 465,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.545,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
     },
     {
       "buildTags": [
@@ -314,7 +461,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2409,
+          "row": 2408,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -415,7 +562,7 @@
             "Tuner": "GamerLogicFTW",
             "fill": "FFFF0000"
           },
-          "row": 2407,
+          "row": 2406,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -486,7 +633,7 @@
             "Tuner": "GamerLogicFTW",
             "fill": "FFFF0000"
           },
-          "row": 2412,
+          "row": 2411,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -496,6 +643,44 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-c9b38a533a",
+      "metaRank": 27,
+      "name": "Stock Look RWD Road | S15 TurboLag build",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Nissan Silvia K's",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look RWD Road | S15 TurboLag build",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2409,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -628,7 +813,7 @@
             "Tuner": "K1Z Suimin",
             "fill": "FFFF0000"
           },
-          "row": 2414,
+          "row": 2413,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -664,7 +849,7 @@
             "Tuner": "GamerLogicFTW",
             "fill": "FFFF0000"
           },
-          "row": 2411,
+          "row": 2410,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -752,328 +937,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "lnvrtebrate"
-    },
-    {
-      "buildTags": [],
-      "carId": "1989-nissan-silvia-ks",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-28",
-      "drivetrain": "RWD",
-      "id": "sc-138877269",
-      "metaRank": 27,
-      "name": "A Road Widebody",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "28/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1989)",
-            "sharecode": "138 877 269",
-            "suspension": "Stock",
-            "tuneName": "A Road Widebody",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2005,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1989 Nissan Silvia K's",
-            "Comment": "Rocket Bunny bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Road Widebody",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 2413,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.607,
-      "shareCode": "138877269",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1989-nissan-silvia-ks",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-12",
-      "drivetrain": "RWD",
-      "id": "sc-165221400",
-      "metaRank": 27,
-      "name": "Stock Look RWD Road | S15 TurboLag Build",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/08/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1989)",
-            "sharecode": "165 221 400",
-            "suspension": "Street",
-            "tuneName": "Stock Look RWD Road | S15 TurboLag Build",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 2004,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1989 Nissan Silvia K's",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Stock Look RWD Road | S15 TurboLag build",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 2410,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.615,
-      "shareCode": "165221400",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1989-nissan-silvia-ks",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-16",
-      "drivetrain": "AWD",
-      "id": "sc-192276880",
-      "metaRank": 3,
-      "name": "Standard Issue 400kmh B-Class Starter Car",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1989)",
-            "sharecode": "192 276 880",
-            "suspension": "Stock",
-            "tuneName": "Standard Issue 400kmh B-Class Starter Car",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Standard"
-          },
-          "row": 2009,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1989 Nissan Silvia K's",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Standard Issue 400kmh B-Class Starter Car",
-            "Tuner": "GreetedDust8",
-            "fill": "FFED7D31"
-          },
-          "row": 465,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.633,
-      "shareCode": "192276880",
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1989-nissan-silvia-ks",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-21",
-      "drivetrain": "RWD",
-      "id": "sc-326076887",
-      "metaRank": 3,
-      "name": "Purist Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "21/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1989)",
-            "sharecode": "326 076 887",
-            "suspension": "Stock",
-            "tuneName": "Purist Road",
-            "tuner": "AMS Carver",
-            "tyreCompound": "Street"
-          },
-          "row": 2008,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1989 Nissan Silvia K's",
-            "Comment": "Purist",
-            "Design": "REI AYANAMI EVANGELION",
-            "Designer": "DennyLambo420",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist Road",
-            "Tuner": "AMS Carver",
-            "fill": "FFED7D31"
-          },
-          "row": 462,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.627,
-      "shareCode": "326076887",
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "street",
-      "tunerId": "ams-carver"
-    },
-    {
-      "buildTags": [],
-      "carId": "1989-nissan-silvia-ks",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-09",
-      "drivetrain": "RWD",
-      "id": "sc-571076972",
-      "metaRank": 27,
-      "name": "Allround Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1989)",
-            "sharecode": "571 076 972",
-            "suspension": "Race",
-            "tuneName": "Allround Road",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 2006,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1989 Nissan Silvia K's",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Allround Road",
-            "Tuner": "LetzeLU",
-            "fill": "FFFF0000"
-          },
-          "row": 2415,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.605,
-      "shareCode": "571076972",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1989-nissan-silvia-ks",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-04",
-      "drivetrain": "AWD",
-      "id": "sc-719570262",
-      "name": "A Dirt - Strong w/ E36 engine (Takashiro Trail 2.01.1)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Silvia K's (1989)",
-            "sharecode": "719 570 262",
-            "suspension": "Street",
-            "tuneName": "A Dirt - Strong w/ E36 engine (Takashiro Trail 2.01.1)",
-            "tuner": "Falken JP",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2007,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "719570262",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "falken-jp"
     }
   ],
   "schemaVersion": 1

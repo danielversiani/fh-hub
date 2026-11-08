@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2013-ariel-atom-500-v8",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-17",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-114340531",
+      "id": "nc-002b9c484f",
       "name": "S1 Road 55.3 Shirakawa",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ariel",
-            "model": "Atom 500 V8",
-            "sharecode": "114 340 531",
-            "suspension": "Race",
-            "tuneName": "S1 Road 55.3 Shirakawa",
-            "tuner": "ESV Vini",
-            "tyreCompound": "Rally"
-          },
-          "row": 139,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2013 Ariel Atom 500 V8",
@@ -46,12 +28,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.664,
-      "shareCode": "114340531",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "esv-vini"
     },
     {
@@ -59,30 +39,45 @@
       "carId": "2013-ariel-atom-500-v8",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-23",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-9e9886f3ed",
+      "name": "S2 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Ariel Atom 500 V8",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF0070C0"
+          },
+          "row": 859,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-ariel-atom-500-v8",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "Stock",
       "id": "sc-142618268",
       "name": "subterrean insect",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "23/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ariel",
-            "model": "Atom 500 V8",
-            "sharecode": "142 618 268",
-            "suspension": "Race",
-            "tuneName": "subterrean insect",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Slick"
-          },
-          "row": 141,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "",
@@ -118,66 +113,13 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.763,
+      "score": 0.635,
       "shareCode": "142618268",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
+      "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-ariel-atom-500-v8",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-24",
-      "drivetrain": "AWD",
-      "id": "sc-686221215",
-      "name": "S2 road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "24/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ariel",
-            "model": "Atom 500 V8",
-            "sharecode": "686 221 215",
-            "suspension": "Race",
-            "tuneName": "S2 road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Slick"
-          },
-          "row": 140,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Ariel Atom 500 V8",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S2 road",
-            "Tuner": "IceFrice8724",
-            "fill": "FF0070C0"
-          },
-          "row": 859,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "686221215",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "icefrice8724"
     }
   ],
   "schemaVersion": 1

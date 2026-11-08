@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-z-nismo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1bea7e68d9",
+      "metaRank": 84,
+      "name": "A road VR38DETT V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Nissan Z Nismo",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road VR38DETT V2",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2574,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
+    },
     {
       "buildTags": [],
       "carId": "2024-nissan-z-nismo",
@@ -57,7 +93,7 @@
             "Tuner": "IceFrice8724",
             "fill": "FFFF0000"
           },
-          "row": 2579,
+          "row": 2578,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -96,7 +132,7 @@
             "Tuner": "DarkZ704",
             "fill": "FFFF0000"
           },
-          "row": 2578,
+          "row": 2577,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -106,6 +142,42 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-z-nismo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-9810543377",
+      "metaRank": 84,
+      "name": "A road 1LR-GUE",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Nissan Z Nismo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road 1LR-GUE",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2575,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [
@@ -135,7 +207,7 @@
             "Tuner": "Nomv1",
             "fill": "FFFF0000"
           },
-          "row": 2577,
+          "row": 2576,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -145,238 +217,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "nomv1"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-z-nismo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-02",
-      "drivetrain": "AWD",
-      "id": "sc-126915439",
-      "metaRank": 84,
-      "name": "A road 1LR-GUE",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Z NISMO",
-            "sharecode": "126 915 439",
-            "suspension": "Street",
-            "tuneName": "A road 1LR-GUE",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2082,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Nissan Z Nismo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A road 1LR-GUE",
-            "Tuner": "IceFrice8724",
-            "fill": "FFFF0000"
-          },
-          "row": 2576,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.678,
-      "shareCode": "126915439",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-z-nismo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-02",
-      "drivetrain": "AWD",
-      "id": "sc-134230624",
-      "metaRank": 84,
-      "name": "A road VR38DETT V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "02/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Z NISMO",
-            "sharecode": "134 230 624",
-            "suspension": "Street",
-            "tuneName": "A road VR38DETT V2",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2083,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 Nissan Z Nismo",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A road VR38DETT V2",
-            "Tuner": "IceFrice8724",
-            "fill": "FFFF0000"
-          },
-          "row": 2575,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.678,
-      "shareCode": "134230624",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2024-nissan-z-nismo",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-28",
-      "drivetrain": "AWD",
-      "id": "sc-139048015",
-      "metaRank": 84,
-      "name": "Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "28/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Z NISMO",
-            "sharecode": "139 048 015",
-            "suspension": "Street",
-            "tuneName": "Road Purist",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 2084,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.584,
-      "shareCode": "139048015",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-z-nismo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-10-06",
-      "drivetrain": "AWD",
-      "id": "sc-255499291",
-      "metaRank": 84,
-      "name": "A road V34",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "06/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Z NISMO",
-            "sharecode": "255 499 291",
-            "suspension": "Street",
-            "tuneName": "A road V34",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2081,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.599,
-      "shareCode": "255499291",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-z-nismo",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-11",
-      "drivetrain": "AWD",
-      "id": "sc-944362472",
-      "name": "Dirty Nismo LFA",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Z NISMO",
-            "sharecode": "944 362 472",
-            "suspension": "Street",
-            "tuneName": "Dirty Nismo LFA",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2080,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "944362472",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

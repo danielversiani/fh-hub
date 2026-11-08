@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2823,
+          "row": 2822,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "NEPOSHA",
             "fill": "FFFF0000"
           },
-          "row": 2824,
+          "row": 2823,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -89,7 +89,7 @@
             "Tuner": "LogikJ",
             "fill": "FF7030A0"
           },
-          "row": 2825,
+          "row": 2824,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -105,66 +105,11 @@
       "carId": "1993-toyota-1-t100-baja-truck",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-10-07",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-649166962",
-      "name": "LFA Baja CrossCountry",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "#1 T100 Baja Truck",
-            "sharecode": "649 166 962",
-            "suspension": "Rally",
-            "tuneName": "LFA Baja CrossCountry",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2390,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "649166962",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-toyota-1-t100-baja-truck",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-811501539",
+      "id": "nc-94cb3a06bc",
       "name": "Overweight Offroader",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "#1 T100 Baja Truck",
-            "sharecode": "811 501 539",
-            "suspension": "Rally",
-            "tuneName": "Overweight Offroader",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2395,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1993 Toyota #1 T100 Baja Truck",
@@ -177,17 +122,15 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 2822,
+          "row": 2821,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "811501539",
+      "score": 0.474,
       "surface": null,
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
     }
   ],

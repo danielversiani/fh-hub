@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FFFF0000"
           },
-          "row": 2310,
+          "row": 2309,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2311,
+          "row": 2310,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -122,7 +122,7 @@
             "Tuner": "ShaggyScroll660",
             "fill": "FFFF0000"
           },
-          "row": 2309,
+          "row": 2308,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -132,6 +132,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "shaggyscroll660"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-3011b31bb0",
+      "name": "dtm kit w/ i6 engine",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II",
+            "Comment": "",
+            "Design": "FRANZ KLAMMER DTM",
+            "Designer": "TheLowEnd77",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "dtm kit w/ i6 engine",
+            "Tuner": "Myra Driving",
+            "fill": "FFFF0000"
+          },
+          "row": 2312,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "myra-driving"
     },
     {
       "buildTags": [],
@@ -155,7 +188,7 @@
             "Tuner": "Cast Haste",
             "fill": "FFFF0000"
           },
-          "row": 2308,
+          "row": 2307,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -237,6 +270,43 @@
       "tunerId": "ndl-rb38"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-c9e943e40a",
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II",
+            "Comment": "Purist",
+            "Design": "#3 DTM BOSS SONAX",
+            "Designer": "prg2012br",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road",
+            "Tuner": "keerj",
+            "fill": "FFFF0000"
+          },
+          "row": 2311,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "keerj"
+    },
+    {
       "buildTags": [],
       "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii",
       "categories": [],
@@ -268,116 +338,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ndl-rb38"
-    },
-    {
-      "buildTags": [],
-      "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-118107484",
-      "name": "dtm kit w/ i6 engine",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "190 E 2.5-16 Evolution II",
-            "sharecode": "118 107 484",
-            "suspension": "Street",
-            "tuneName": "dtm kit w/ i6 engine",
-            "tuner": "Myra Driving",
-            "tyreCompound": "Rally"
-          },
-          "row": 1744,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II",
-            "Comment": "",
-            "Design": "FRANZ KLAMMER DTM",
-            "Designer": "TheLowEnd77",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "dtm kit w/ i6 engine",
-            "Tuner": "Myra Driving",
-            "fill": "FFFF0000"
-          },
-          "row": 2313,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "118107484",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "myra-driving"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-20",
-      "drivetrain": "RWD",
-      "id": "sc-139467566",
-      "name": "Purist Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "190 E 2.5-16 Evolution II",
-            "sharecode": "139 467 566",
-            "suspension": "Street",
-            "tuneName": "Purist Road",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 1743,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II",
-            "Comment": "Purist",
-            "Design": "#3 DTM BOSS SONAX",
-            "Designer": "prg2012br",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist Road",
-            "Tuner": "keerj",
-            "fill": "FFFF0000"
-          },
-          "row": 2312,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "139467566",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "keerj"
     }
   ],
   "schemaVersion": 1

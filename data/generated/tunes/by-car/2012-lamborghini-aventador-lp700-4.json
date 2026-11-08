@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -36,6 +36,136 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-lamborghini-aventador-lp700-4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-07a909f183",
+      "name": "S1 Dirt Widebody",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Lamborghini Aventador LP700-4",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Widebody",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1873,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-lamborghini-aventador-lp700-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-2bb69d5ed4",
+      "metaRank": 50,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Lamborghini Aventador LP700-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FF7030A0"
+          },
+          "row": 1875,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.583,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-lamborghini-aventador-lp700-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 + Centri",
+      "id": "nc-8610c63317",
+      "metaRank": 50,
+      "name": "Road Allround LBWK",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2012 Lamborghini Aventador LP700-4",
+            "Comment": "Liberty Walk bodykit",
+            "Design": "JALTER L700 LIBERTY WALK",
+            "Designer": "MWHF | Spartan",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround LBWK",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1876,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "WB",
+            "Build": "Balanced",
+            "Car": "Lamborghini Aventador LP700-4",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 + Centri",
+            "Laptime": "0:54.860",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround LBWK"
+          },
+          "row": 26,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.712,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -281,195 +411,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-lamborghini-aventador-lp700-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-02",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "engine": "5.2L V10 + Centri",
-      "id": "sc-343065004",
-      "metaRank": 50,
-      "name": "Road Allround LBWK",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "02/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Aventador LP700-4",
-            "sharecode": "343 065 004",
-            "suspension": "Rally",
-            "tuneName": "Road Allround LBWK",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1338,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Lamborghini Aventador LP700-4",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "JALTER L700 LIBERTY WALK",
-            "Designer": "MWHF | Spartan",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround LBWK",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 1876,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {
-            "Aero": "WB",
-            "Build": "Balanced",
-            "Car": "Lamborghini Aventador LP700-4",
-            "Difficulty": "Very Easy",
-            "Driver": "LetzeLU",
-            "Drivetrain": "AWD",
-            "Engine": "5.2L V10 + Centri",
-            "Laptime": "0:54.860",
-            "Notes": "",
-            "Tier": "Offmeta < 55.000",
-            "Tires": "Rally",
-            "Tune": "LetzeLU",
-            "Tune Name": "Road Allround LBWK"
-          },
-          "row": 26,
-          "sourceId": "letzelu-shirakawa",
-          "tab": "s1-800"
-        }
-      ],
-      "role": "allround",
-      "score": 0.759,
-      "shareCode": "343065004",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-lamborghini-aventador-lp700-4",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-706354778",
-      "name": "S1 Dirt Widebody",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Aventador LP700-4",
-            "sharecode": "706 354 778",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Widebody",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1337,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Lamborghini Aventador LP700-4",
-            "Comment": "Liberty Walk bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Widebody",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 1873,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "706354778",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-lamborghini-aventador-lp700-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-934626117",
-      "metaRank": 50,
-      "name": "S1 Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Aventador LP700-4",
-            "sharecode": "934 626 117",
-            "suspension": "Race",
-            "tuneName": "S1 Road",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Slick"
-          },
-          "row": 1336,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2012 Lamborghini Aventador LP700-4",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road",
-            "Tuner": "K1Z Jumpy",
-            "fill": "FF7030A0"
-          },
-          "row": 1875,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.651,
-      "shareCode": "934626117",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "k1z-jumpy"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FFFF0000"
           },
-          "row": 2701,
+          "row": 2700,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -33,6 +33,45 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-ram-1500-trx",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1898a487ac",
+      "metaRank": 21,
+      "name": "Purist CC and you could use it on dirt too i guess if u wanted to",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 RAM 1500 TRX",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Purist CC and you could use it on dirt too i guess if u wanted to",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 498,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -109,6 +148,39 @@
     {
       "buildTags": [],
       "carId": "2024-ram-1500-trx",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-65d55d9317",
+      "name": "A Class CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 RAM 1500 TRX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Class CC",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FFFF0000"
+          },
+          "row": 2698,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-ram-1500-trx",
       "categories": [
         "off-meta"
       ],
@@ -136,6 +208,76 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-ram-1500-trx",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-99588145f6",
+      "name": "A Class Cross Country",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 RAM 1500 TRX",
+            "Comment": "",
+            "Design": "FOX RACING",
+            "Designer": "Birdman83",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Class Cross Country",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2697,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-ram-1500-trx",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ae22e6f811",
+      "name": "Purist road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 RAM 1500 TRX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist road",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 2701,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
     },
     {
       "buildTags": [],
@@ -231,7 +373,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2700,
+          "row": 2699,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -241,6 +383,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-ram-1500-trx",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c39372de0e",
+      "metaRank": 21,
+      "name": "B Dirt/CC M/C",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 RAM 1500 TRX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt/CC M/C",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 504,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
     },
     {
       "buildTags": [],
@@ -277,361 +455,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2024-ram-1500-trx",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-15",
-      "drivetrain": "AWD",
-      "id": "sc-110812560",
-      "name": "Purist road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RAM",
-            "model": "1500 TRX",
-            "sharecode": "110 812 560",
-            "suspension": "Rally",
-            "tuneName": "Purist road",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 2255,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 RAM 1500 TRX",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Purist road",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 2702,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "110812560",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ram-1500-trx",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-09",
-      "drivetrain": "AWD",
-      "id": "sc-116283210",
-      "name": "CC Allround T1.5 A/M V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "09/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RAM",
-            "model": "1500 TRX",
-            "sharecode": "116 283 210",
-            "suspension": "Sport",
-            "tuneName": "CC Allround T1.5 A/M V2",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2256,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "116283210",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ram-1500-trx",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-16",
-      "drivetrain": "AWD",
-      "id": "sc-141021309",
-      "metaRank": 21,
-      "name": "Dirt/CC Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RAM",
-            "model": "1500 TRX",
-            "sharecode": "141 021 309",
-            "suspension": "Sport",
-            "tuneName": "Dirt/CC Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2258,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.539,
-      "shareCode": "141021309",
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ram-1500-trx",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-142415860",
-      "metaRank": 21,
-      "name": "B Dirt/CC M/C",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RAM",
-            "model": "1500 TRX",
-            "sharecode": "142 415 860",
-            "suspension": "Sport",
-            "tuneName": "B Dirt/CC M/C",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2259,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 RAM 1500 TRX",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt/CC M/C",
-            "Tuner": "TheDannny",
-            "fill": "FFED7D31"
-          },
-          "row": 504,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.625,
-      "shareCode": "142415860",
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ram-1500-trx",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-14",
-      "drivetrain": "AWD",
-      "id": "sc-161912734",
-      "name": "A Class Cross Country",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RAM",
-            "model": "1500 TRX",
-            "sharecode": "161 912 734",
-            "suspension": "Sport",
-            "tuneName": "A Class Cross Country",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2254,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 RAM 1500 TRX",
-            "Comment": "",
-            "Design": "FOX RACING",
-            "Designer": "Birdman83",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Class Cross Country",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 2698,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "161912734",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2024-ram-1500-trx",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-08",
-      "drivetrain": "AWD",
-      "id": "sc-740179051",
-      "metaRank": 21,
-      "name": "Purist CC and you could use it on dirt too i guess if u wanted to",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "08/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RAM",
-            "model": "1500 TRX",
-            "sharecode": "740 179 051",
-            "suspension": "Sport",
-            "tuneName": "Purist CC and you could use it on dirt too i guess if u wanted to",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2257,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 RAM 1500 TRX",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Purist CC and you could use it on dirt too i guess if u wanted to",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 498,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.627,
-      "shareCode": "740179051",
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ram-1500-trx",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-13",
-      "drivetrain": "AWD",
-      "id": "sc-957194614",
-      "name": "A Class CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "RAM",
-            "model": "1500 TRX",
-            "sharecode": "957 194 614",
-            "suspension": "Sport",
-            "tuneName": "A Class CC",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2253,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2024 RAM 1500 TRX",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Class CC",
-            "Tuner": "K1Z Jumpy",
-            "fill": "FFFF0000"
-          },
-          "row": 2699,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "957194614",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "k1z-jumpy"
     }
   ],
   "schemaVersion": 1

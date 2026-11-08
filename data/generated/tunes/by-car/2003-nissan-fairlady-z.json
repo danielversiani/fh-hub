@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "Dumbo GT49",
             "fill": "FFFF0000"
           },
-          "row": 2539,
+          "row": 2538,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -87,7 +87,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2537,
+          "row": 2536,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -97,6 +97,45 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-nissan-fairlady-z",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2236fa605a",
+      "metaRank": 55,
+      "name": "B Road | Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Nissan Fairlady Z",
+            "Comment": "Purist",
+            "Design": "FAST AND FURIOUS 3",
+            "Designer": "JDDESIGNSS",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Road | Purist",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 490,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "cte-seasons"
     },
     {
       "buildTags": [],
@@ -120,7 +159,7 @@
             "Tuner": "Nomv1",
             "fill": "FFFF0000"
           },
-          "row": 2541,
+          "row": 2540,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -130,6 +169,45 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-nissan-fairlady-z",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2c53b5245a",
+      "metaRank": 55,
+      "name": "Purist B Road - Nismo Kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Nissan Fairlady Z",
+            "Comment": "Purist, Nismo bodykit",
+            "Design": "NISMO Z33 Z-TUNE",
+            "Designer": "ffgh10",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist B Road - Nismo Kit",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 493,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [
@@ -155,7 +233,7 @@
             "Tuner": "Aeroplane7616",
             "fill": "FFFF0000"
           },
-          "row": 2538,
+          "row": 2537,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -188,7 +266,7 @@
             "Tuner": "K1Z Suimin",
             "fill": "FFFF0000"
           },
-          "row": 2540,
+          "row": 2539,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -263,7 +341,7 @@
             "Tuner": "ESV Ruinz",
             "fill": "FFFF0000"
           },
-          "row": 2542,
+          "row": 2541,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -280,91 +358,14 @@
       ],
       "carId": "2003-nissan-fairlady-z",
       "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-101613425",
-      "metaRank": 55,
-      "name": "B Road | Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z",
-            "sharecode": "101 613 425",
-            "suspension": "Street",
-            "tuneName": "B Road | Purist",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Standard"
-          },
-          "row": 1923,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2003 Nissan Fairlady Z",
-            "Comment": "Purist",
-            "Design": "FAST AND FURIOUS 3",
-            "Designer": "JDDESIGNSS",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "B Road | Purist",
-            "Tuner": "CTE seasons",
-            "fill": "FFED7D31"
-          },
-          "row": 490,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "101613425",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2003-nissan-fairlady-z",
-      "categories": [
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-10",
+      "confidence": 0.35,
       "drivetrain": "RWD",
-      "id": "sc-133389801",
+      "id": "nc-7d7524f584",
       "name": "Nismo Purist (Drifts)",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z",
-            "sharecode": "133 389 801",
-            "suspension": "Street",
-            "tuneName": "Nismo Purist (Drifts)",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Drift"
-          },
-          "row": 1922,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2003 Nissan Fairlady Z",
@@ -377,17 +378,15 @@
             "Tuner": "zombiejesus52",
             "fill": "FFFF0000"
           },
-          "row": 2543,
+          "row": 2542,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.67,
-      "shareCode": "133389801",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "drift",
       "tunerId": "zombiejesus52"
     },
     {
@@ -400,30 +399,12 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-02",
+      "confidence": 0.8,
       "drivetrain": "RWD",
-      "id": "sc-134683736",
+      "id": "nc-b9e82decd6",
       "metaRank": 55,
       "name": "B Road | Purist (Nismo Kit)",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z",
-            "sharecode": "134 683 736",
-            "suspension": "Street",
-            "tuneName": "B Road | Purist (Nismo Kit)",
-            "tuner": "CTE seasons",
-            "tyreCompound": "Standard"
-          },
-          "row": 1924,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2003 Nissan Fairlady Z",
@@ -441,72 +422,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.671,
-      "shareCode": "134683736",
+      "score": 0.59,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "stock",
       "tunerId": "cte-seasons"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2003-nissan-fairlady-z",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-04",
-      "drivetrain": "RWD",
-      "id": "sc-153769503",
-      "metaRank": 55,
-      "name": "Purist B Road - Nismo Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z",
-            "sharecode": "153 769 503",
-            "suspension": "Street",
-            "tuneName": "Purist B Road - Nismo Kit",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Standard"
-          },
-          "row": 1926,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2003 Nissan Fairlady Z",
-            "Comment": "Purist, Nismo bodykit",
-            "Design": "NISMO Z33 Z-TUNE",
-            "Designer": "ffgh10",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist B Road - Nismo Kit",
-            "Tuner": "K1Z Bard",
-            "fill": "FFED7D31"
-          },
-          "row": 493,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "153769503",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
@@ -515,30 +435,12 @@
         "off-meta"
       ],
       "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-28",
+      "confidence": 0.8,
       "drivetrain": "RWD",
-      "id": "sc-180976095",
+      "id": "nc-bcb8ba4352",
       "metaRank": 55,
       "name": "Rachel Teller's Fat Honkers",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "28/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z",
-            "sharecode": "180 976 095",
-            "suspension": "Street",
-            "tuneName": "Rachel Teller's Fat Honkers",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Standard"
-          },
-          "row": 1925,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2003 Nissan Fairlady Z",
@@ -556,97 +458,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.67,
-      "shareCode": "180976095",
+      "score": 0.59,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "stock",
       "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2003-nissan-fairlady-z",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-07",
-      "drivetrain": "RWD",
-      "id": "sc-217794207",
-      "metaRank": 55,
-      "name": "purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "07/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z",
-            "sharecode": "217 794 207",
-            "suspension": "Street",
-            "tuneName": "purist",
-            "tuner": "Myra Driving",
-            "tyreCompound": "Standard"
-          },
-          "row": 1927,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.586,
-      "shareCode": "217794207",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "myra-driving"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2003-nissan-fairlady-z",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
-      "drivetrain": "RWD",
-      "id": "sc-226718457",
-      "name": "Purist Nismo Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Nissan",
-            "model": "Fairlady Z",
-            "sharecode": "226 718 457",
-            "suspension": "Street",
-            "tuneName": "Purist Nismo Kit",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 1921,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "226718457",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
     }
   ],
   "schemaVersion": 1

@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-095b2bd69d",
+      "metaRank": 103,
+      "name": "S1 Road Stock Rims",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Stock Rims",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FF7030A0"
+          },
+          "row": 2759,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.513,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-jumpy"
+    },
     {
       "buildTags": [
         "powerbuild"
@@ -30,7 +66,7 @@
             "Tuner": "Noa Miyako",
             "fill": "FF7030A0"
           },
-          "row": 2766,
+          "row": 2765,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -42,6 +78,78 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-150fb35914",
+      "metaRank": 28,
+      "name": "A700 AWD Road | NO DRAGS | 48.3 Narai Juku Circuit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A700 AWD Road | NO DRAGS | 48.3 Narai Juku Circuit",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2750,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1900c91e6e",
+      "metaRank": 28,
+      "name": "A Road (No Drags)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road (No Drags)",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 2754,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "zombiejesus52"
     },
     {
       "buildTags": [],
@@ -68,7 +176,7 @@
             "Tuner": "Don Joewon Song",
             "fill": "FF7030A0"
           },
-          "row": 2757,
+          "row": 2756,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -78,6 +186,44 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "don-joewon-song"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2c69e6863c",
+      "metaRank": 28,
+      "name": "Snek Is Back",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Snek Is Back",
+            "Tuner": "NDL Samu",
+            "fill": "FFFF0000"
+          },
+          "row": 2755,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "ndl-samu"
     },
     {
       "buildTags": [],
@@ -104,7 +250,7 @@
             "Tuner": "trviis",
             "fill": "FF7030A0"
           },
-          "row": 2762,
+          "row": 2761,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -114,6 +260,42 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3b3595772d",
+      "metaRank": 28,
+      "name": "yes",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "yes",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 2753,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "zaz490"
     },
     {
       "buildTags": [],
@@ -161,6 +343,42 @@
       "buildTags": [],
       "carId": "2013-srt-viper-gts",
       "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-522a5193fb",
+      "metaRank": 28,
+      "name": "A Road AWD Gripper",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road AWD Gripper",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 2752,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
         "off-meta"
       ],
       "class": "S1",
@@ -182,7 +400,7 @@
             "Tuner": "Raceboy77",
             "fill": "FF7030A0"
           },
-          "row": 2761,
+          "row": 2760,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -249,7 +467,7 @@
             "Tuner": "GreetedDust8",
             "fill": "FF7030A0"
           },
-          "row": 2758,
+          "row": 2757,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -288,7 +506,7 @@
             "Tuner": "ChrisZB11",
             "fill": "FF7030A0"
           },
-          "row": 2764,
+          "row": 2763,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -298,6 +516,42 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "chriszb11"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b5c2ec3438",
+      "metaRank": 103,
+      "name": "S1 AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 AWD",
+            "Tuner": "Zaabry",
+            "fill": "FF7030A0"
+          },
+          "row": 2762,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.513,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "zaabry"
     },
     {
       "buildTags": [],
@@ -324,7 +578,7 @@
             "Tuner": "iNathanST",
             "fill": "FF7030A0"
           },
-          "row": 2759,
+          "row": 2758,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -334,6 +588,42 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "inathanst"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-srt-viper-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-c13dfdc4af",
+      "metaRank": 103,
+      "name": "Road Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 SRT Viper GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Grip",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2764,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.513,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -360,7 +650,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 2752,
+          "row": 2751,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -370,456 +660,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-18",
-      "drivetrain": "RWD",
-      "id": "sc-182764688",
-      "metaRank": 28,
-      "name": "Snek Is Back",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "182 764 688",
-            "suspension": "Sport",
-            "tuneName": "Snek Is Back",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2318,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Snek Is Back",
-            "Tuner": "NDL Samu",
-            "fill": "FFFF0000"
-          },
-          "row": 2756,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.712,
-      "shareCode": "182764688",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "ndl-samu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-14",
-      "drivetrain": "AWD",
-      "id": "sc-199505543",
-      "metaRank": 103,
-      "name": "S1 AWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "14/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "199 505 543",
-            "suspension": "Rally",
-            "tuneName": "S1 AWD",
-            "tuner": "Zaabry",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2323,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 AWD",
-            "Tuner": "Zaabry",
-            "fill": "FF7030A0"
-          },
-          "row": 2763,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.596,
-      "shareCode": "199505543",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "zaabry"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-224246289",
-      "metaRank": 28,
-      "name": "yes",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "224 246 289",
-            "suspension": "Sport",
-            "tuneName": "yes",
-            "tuner": "ZaZ490",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2319,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "yes",
-            "Tuner": "ZaZ490",
-            "fill": "FFFF0000"
-          },
-          "row": 2754,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.715,
-      "shareCode": "224246289",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zaz490"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-11",
-      "drivetrain": "AWD",
-      "id": "sc-541780790",
-      "metaRank": 28,
-      "name": "A Road AWD Gripper",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "541 780 790",
-            "suspension": "Rally",
-            "tuneName": "A Road AWD Gripper",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 2317,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road AWD Gripper",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 2753,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.714,
-      "shareCode": "541780790",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-13",
-      "drivetrain": "RWD",
-      "id": "sc-557997543",
-      "metaRank": 103,
-      "name": "Road Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "557 997 543",
-            "suspension": "Race",
-            "tuneName": "Road Grip",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2322,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Grip",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 2765,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.596,
-      "shareCode": "557997543",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-629549738",
-      "metaRank": 103,
-      "name": "S1 Road Stock Rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "629 549 738",
-            "suspension": "Race",
-            "tuneName": "S1 Road Stock Rims",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Rally"
-          },
-          "row": 2321,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road Stock Rims",
-            "Tuner": "K1Z Jumpy",
-            "fill": "FF7030A0"
-          },
-          "row": 2760,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.6,
-      "shareCode": "629549738",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-01",
-      "drivetrain": "AWD",
-      "id": "sc-675014405",
-      "metaRank": 28,
-      "name": "A Road (No Drags)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "01/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "675 014 405",
-            "suspension": "Sport",
-            "tuneName": "A Road (No Drags)",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
-          },
-          "row": 2320,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road (No Drags)",
-            "Tuner": "zombiejesus52",
-            "fill": "FFFF0000"
-          },
-          "row": 2755,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.713,
-      "shareCode": "675014405",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-srt-viper-gts",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-26",
-      "drivetrain": "AWD",
-      "id": "sc-925662952",
-      "metaRank": 28,
-      "name": "A700 AWD Road | NO DRAGS | 48.3 Narai Juku Circuit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "SRT",
-            "model": "Viper GTS",
-            "sharecode": "925 662 952",
-            "suspension": "Sport",
-            "tuneName": "A700 AWD Road | NO DRAGS | 48.3 Narai Juku Circuit",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 2316,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 SRT Viper GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A700 AWD Road | NO DRAGS | 48.3 Narai Juku Circuit",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 2751,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.712,
-      "shareCode": "925662952",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -218,42 +218,104 @@
     {
       "buildTags": [],
       "carId": "1999-lamborghini-diablo-gtr",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-bab1581ac0",
+      "name": "Dirty GTR",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Lamborghini Diablo GTR",
+            "Comment": "",
+            "Design": "SIT SUNRISE PINK",
+            "Designer": "SIT Skygreen",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty GTR",
+            "Tuner": "Cast Haste",
+            "fill": "FF7030A0"
+          },
+          "row": 1853,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-lamborghini-diablo-gtr",
       "categories": [
         "off-meta"
       ],
       "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-127214479",
+      "id": "nc-ccdaf27436",
       "metaRank": 31,
-      "name": "Good S1 Dirt",
+      "name": "V1",
       "observations": [
         {
           "raw": {
-            "class": "S1",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Diablo GTR",
-            "sharecode": "127 214 479",
-            "suspension": "Rally",
-            "tuneName": "Good S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
+            "Car": "1999 Lamborghini Diablo GTR",
+            "Comment": "",
+            "Design": "TOP REPLICA!",
+            "Designer": "Zero Dark Gamer",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "V1",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
           },
-          "row": 1354,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
+          "row": 1855,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
-      "score": 0.527,
-      "shareCode": "127214479",
+      "score": 0.53,
       "surface": "dirt",
       "tier": "t2",
       "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-lamborghini-diablo-gtr",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-f4bb007470",
+      "name": "Pablo Diablo",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Lamborghini Diablo GTR",
+            "Comment": "",
+            "Design": "MELANDRI GTR",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Pablo Diablo",
+            "Tuner": "GreetedDust8",
+            "fill": "FF7030A0"
+          },
+          "row": 1858,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
     },
     {
       "buildTags": [
@@ -262,30 +324,12 @@
       "carId": "1999-lamborghini-diablo-gtr",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-06-27",
+      "confidence": 0.35,
       "drivetrain": "RWD",
       "engine": "Racing V12",
       "id": "sc-136491433",
       "name": "Welcome Back FH5",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "27/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lamborghini",
-            "model": "Diablo GTR",
-            "sharecode": "136 491 433",
-            "suspension": "Rally",
-            "tuneName": "Welcome Back FH5",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Rally"
-          },
-          "row": 1358,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "",
@@ -321,261 +365,13 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.771,
+      "score": 0.635,
       "shareCode": "136491433",
-      "surface": "dirt",
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
       "tires": "rally",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1999-lamborghini-diablo-gtr",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-25",
-      "drivetrain": "RWD",
-      "id": "sc-259995482",
-      "metaRank": 31,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "25/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Lamborghini",
-            "model": "Diablo GTR",
-            "sharecode": "259 995 482",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "NDL Samu",
-            "tyreCompound": "Rally"
-          },
-          "row": 1356,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.531,
-      "shareCode": "259995482",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "ndl-samu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lamborghini-diablo-gtr",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-22",
-      "drivetrain": "AWD",
-      "id": "sc-439186935",
-      "name": "Dirty GTR",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "22/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Diablo GTR",
-            "sharecode": "439 186 935",
-            "suspension": "Rally",
-            "tuneName": "Dirty GTR",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1352,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Lamborghini Diablo GTR",
-            "Comment": "",
-            "Design": "SIT SUNRISE PINK",
-            "Designer": "SIT Skygreen",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty GTR",
-            "Tuner": "Cast Haste",
-            "fill": "FF7030A0"
-          },
-          "row": 1853,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "439186935",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lamborghini-diablo-gtr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-07-15",
-      "drivetrain": "AWD",
-      "id": "sc-471589337",
-      "metaRank": 31,
-      "name": "Strong S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "15/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Diablo GTR",
-            "sharecode": "471 589 337",
-            "suspension": "Rally",
-            "tuneName": "Strong S1 Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1355,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.533,
-      "shareCode": "471589337",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lamborghini-diablo-gtr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-08-02",
-      "drivetrain": "AWD",
-      "id": "sc-624702162",
-      "metaRank": 31,
-      "name": "V1",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "02/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Diablo GTR",
-            "sharecode": "624 702 162",
-            "suspension": "Rally",
-            "tuneName": "V1",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1357,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Lamborghini Diablo GTR",
-            "Comment": "",
-            "Design": "TOP REPLICA!",
-            "Designer": "Zero Dark Gamer",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "V1",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 1855,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.621,
-      "shareCode": "624702162",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lamborghini-diablo-gtr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-22",
-      "drivetrain": "AWD",
-      "id": "sc-880125883",
-      "metaRank": 31,
-      "name": "Pablo Diablo",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "22/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Diablo GTR",
-            "sharecode": "880 125 883",
-            "suspension": "Rally",
-            "tuneName": "Pablo Diablo",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 1353,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1999 Lamborghini Diablo GTR",
-            "Comment": "",
-            "Design": "MELANDRI GTR",
-            "Designer": "Wombi 62",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Pablo Diablo",
-            "Tuner": "GreetedDust8",
-            "fill": "FF7030A0"
-          },
-          "row": 1858,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.617,
-      "shareCode": "880125883",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
     }
   ],
   "schemaVersion": 1

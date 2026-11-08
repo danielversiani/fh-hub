@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "carId": "1989-nissan-s-cargo",
@@ -84,8 +84,9 @@
     {
       "carId": "1983-nissan-skyline-2000-turbo-rs",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-winter--championship--city-skyline",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -96,24 +97,19 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.575,
+      "score": 0.477,
       "seasonId": "s07-winter",
-      "tuneId": "sc-167218213"
+      "tuneId": "nc-c5ca26f9f9"
     },
     {
       "carId": "1992-nissan-skyline-gt-r",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-winter--championship--city-skyline",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -124,18 +120,12 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.645,
+      "score": 0.56,
       "seasonId": "s07-winter",
-      "tuneId": "sc-126639648"
+      "tuneId": "nc-9f62c1ce91"
     },
     {
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
@@ -183,23 +173,18 @@
     {
       "carId": "1962-ferrari-250-gt-berlinetta-lusso",
       "category": "purist",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "eventId": "s07-winter--championship--raring-to-go",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.672,
+      "score": 0.474,
       "seasonId": "s07-winter",
-      "tuneId": "sc-285699120"
+      "tuneId": "nc-3200b0f8c0"
     }
   ],
   "schemaVersion": 1

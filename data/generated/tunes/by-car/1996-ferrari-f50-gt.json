@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -72,30 +72,12 @@
         "off-meta"
       ],
       "class": "R",
-      "confidence": 0.85,
-      "createdAt": "2026-06-07",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-110973363",
+      "id": "nc-efe509e6cd",
       "metaRank": 18,
       "name": "R Road v1.2",
       "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F50 GT",
-            "sharecode": "110 973 363",
-            "suspension": "Race",
-            "tuneName": "R Road v1.2",
-            "tuner": "K1Z Jumpy",
-            "tyreCompound": "Slick"
-          },
-          "row": 844,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1996 Ferrari F50 GT",
@@ -113,12 +95,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.571,
-      "shareCode": "110973363",
+      "score": 0.483,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
-      "tires": "slick",
       "tunerId": "k1z-jumpy"
     },
     {

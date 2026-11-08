@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1956-jaguar-d-type",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-12",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-142254957",
+      "id": "nc-d98338cda1",
       "name": "A Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jaguar",
-            "model": "D-Type",
-            "sharecode": "142 254 957",
-            "suspension": "Street",
-            "tuneName": "A Dirt",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1262,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1956 Jaguar D-Type",
@@ -46,87 +28,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.685,
-      "shareCode": "142254957",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1956-jaguar-d-type",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-15",
-      "drivetrain": "AWD",
-      "id": "sc-153771434",
-      "name": "C63 Dirt Allround T1 Sunflower 59.4 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jaguar",
-            "model": "D-Type",
-            "sharecode": "153 771 434",
-            "suspension": "Stock",
-            "tuneName": "C63 Dirt Allround T1 Sunflower 59.4 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1263,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.503,
-      "shareCode": "153771434",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1956-jaguar-d-type",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-10-01",
-      "drivetrain": "AWD",
-      "id": "sc-883768519",
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Jaguar",
-            "model": "D-Type",
-            "sharecode": "883 768 519",
-            "suspension": "Rally",
-            "tuneName": "B Dirt",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1264,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.507,
-      "shareCode": "883768519",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

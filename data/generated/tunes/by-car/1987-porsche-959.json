@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -10,29 +10,11 @@
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-26",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-154436808",
+      "id": "nc-10c0fd5f13",
       "name": "Purist Street / Sprints",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "959",
-            "sharecode": "154 436 808",
-            "suspension": "Race",
-            "tuneName": "Purist Street / Sprints",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Street"
-          },
-          "row": 2139,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1987 Porsche 959",
@@ -45,17 +27,15 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2618,
+          "row": 2617,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.681,
-      "shareCode": "154436808",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "street",
       "tunerId": "drx-q3"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "Raceboy77",
             "fill": "FFFF0000"
           },
-          "row": 2999,
+          "row": 2998,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 2998,
+          "row": 2997,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -100,117 +100,6 @@
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-volkswagen-golf-r",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-06",
-      "drivetrain": "AWD",
-      "id": "sc-109275972",
-      "name": "B dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Golf R (2022)",
-            "sharecode": "109 275 972",
-            "suspension": "Stock",
-            "tuneName": "B dirt",
-            "tuner": "CTE mag",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2632,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.479,
-      "shareCode": "109275972",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cte-mag"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-volkswagen-golf-r",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-08-01",
-      "drivetrain": "AWD",
-      "id": "sc-165470082",
-      "name": "A Road V1.5",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "01/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Golf R (2022)",
-            "sharecode": "165 470 082",
-            "suspension": "Street",
-            "tuneName": "A Road V1.5",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2631,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.493,
-      "shareCode": "165470082",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-volkswagen-golf-r",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-10-06",
-      "drivetrain": "AWD",
-      "id": "sc-308112406",
-      "name": "B Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Golf R (2022)",
-            "sharecode": "308 112 406",
-            "suspension": "Street",
-            "tuneName": "B Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Street"
-          },
-          "row": 2633,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.508,
-      "shareCode": "308112406",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "street",
       "tunerId": "k1z-bard"
     }
   ],

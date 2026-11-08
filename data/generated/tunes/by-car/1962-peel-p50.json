@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -25,7 +25,7 @@
             "Tuner": "Gertschapij",
             "fill": "FFFF0000"
           },
-          "row": 2599,
+          "row": 2598,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -35,6 +35,38 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "gertschapij"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-peel-p50",
+      "categories": [
+        "meta",
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-361ea8b596",
+      "metaRank": 2,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 5,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "greeteddust8"
     },
     {
       "buildTags": [],
@@ -156,112 +188,11 @@
         "meme"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-17",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-137371377",
-      "name": "1.6 shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Peel",
-            "model": "P50",
-            "sharecode": "137 371 377",
-            "suspension": "Stock",
-            "tuneName": "1.6 shirakawa",
-            "tuner": "Gertschapij",
-            "tyreCompound": "Slick"
-          },
-          "row": 2106,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "137371377",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "gertschapij"
-    },
-    {
-      "buildTags": [],
-      "carId": "1962-peel-p50",
-      "categories": [
-        "meta",
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-07",
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "id": "sc-180994762",
-      "metaRank": 2,
-      "name": "1:27 Legend Island",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "07/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Peel",
-            "model": "P50",
-            "sharecode": "180 994 762",
-            "suspension": "Stock",
-            "tuneName": "1:27 Legend Island",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Semi-Slick"
-          },
-          "row": 2108,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.617,
-      "shareCode": "180994762",
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "semi-slick",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "1962-peel-p50",
-      "categories": [
-        "meme"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-07",
-      "drivetrain": "AWD",
-      "id": "sc-559506796",
+      "id": "nc-f1e83415f5",
       "name": "A Road/Street - Usable on sprints but unusable on most circuits",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Peel",
-            "model": "P50",
-            "sharecode": "559 506 796",
-            "suspension": "Stock",
-            "tuneName": "A Road/Street - Usable on sprints but unusable on most circuits",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Slick"
-          },
-          "row": 2107,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1962 Peel P50",
@@ -274,17 +205,15 @@
             "Tuner": "zombiejesus52",
             "fill": "FFFF0000"
           },
-          "row": 2598,
+          "row": 2597,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.662,
-      "shareCode": "559506796",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
       "tunerId": "zombiejesus52"
     }
   ],

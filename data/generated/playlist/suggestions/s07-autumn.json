@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "carId": "1932-ford-de-luxe-five-window-coupe",
@@ -84,8 +84,9 @@
     {
       "carId": "1957-ford-thunderbird",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s07-autumn--championship--ford-runner",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -96,75 +97,60 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.574,
+      "score": 0.477,
       "seasonId": "s07-autumn",
-      "tuneId": "sc-786611191"
+      "tuneId": "nc-dffa78cf19"
     },
     {
-      "carId": "1999-ford-racing-puma",
+      "carId": "1969-ford-mustang-boss-302",
       "category": "purist",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "eventId": "s07-autumn--championship--ford-runner",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.674,
+      "score": 0.474,
       "seasonId": "s07-autumn",
-      "tuneId": "sc-708251137"
+      "tuneId": "nc-0302d65cbe"
     },
     {
       "carId": "2004-subaru-impreza-wrx-sti",
       "category": "purist",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "eventId": "s07-autumn--horizon-life-the-trial--red-vs-blue",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.658,
+      "score": 0.474,
       "seasonId": "s07-autumn",
-      "tuneId": "sc-164864263"
+      "tuneId": "nc-62fffacdfe"
     },
     {
       "carId": "1998-subaru-impreza-22b-sti-version",
       "category": "purist",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "eventId": "s07-autumn--horizon-life-the-trial--red-vs-blue",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.475,
+      "score": 0.474,
       "seasonId": "s07-autumn",
-      "tuneId": "sc-222361974"
+      "tuneId": "nc-69548af81d"
     }
   ],
   "schemaVersion": 1

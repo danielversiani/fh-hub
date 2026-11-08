@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -28,7 +28,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 2171,
+          "row": 2170,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -38,6 +38,78 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2010-mazda-mazdaspeed-3",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-3ae3e93e86",
+      "metaRank": 77,
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Mazda MazdaSpeed 3",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road",
+            "Tuner": "keerj",
+            "fill": "FFFF0000"
+          },
+          "row": 2171,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "keerj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-mazda-mazdaspeed-3",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-4c4ad7272d",
+      "name": "S1 dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Mazda MazdaSpeed 3",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt/CC",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 2173,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [
@@ -75,6 +147,44 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2010-mazda-mazdaspeed-3",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-bf1bdf0a20",
+      "metaRank": 77,
+      "name": "MAZDASPEED",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Mazda MazdaSpeed 3",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "MAZDASPEED",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 2172,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "zaz490"
     },
     {
       "buildTags": [],
@@ -117,254 +227,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2010-mazda-mazdaspeed-3",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-15",
-      "drivetrain": "FWD",
-      "id": "sc-101156666",
-      "metaRank": 77,
-      "name": "Purist Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Mazda",
-            "model": "Mazdaspeed 3",
-            "sharecode": "101 156 666",
-            "suspension": "Street",
-            "tuneName": "Purist Road",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 1577,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2010 Mazda MazdaSpeed 3",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist Road",
-            "Tuner": "keerj",
-            "fill": "FFFF0000"
-          },
-          "row": 2172,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.563,
-      "shareCode": "101156666",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "keerj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-mazda-mazdaspeed-3",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-28",
-      "drivetrain": "AWD",
-      "id": "sc-117209478",
-      "name": "S1 dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "28/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "Mazdaspeed 3",
-            "sharecode": "117 209 478",
-            "suspension": "Rally",
-            "tuneName": "S1 dirt/CC",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1580,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2010 Mazda MazdaSpeed 3",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 dirt/CC",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 2174,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "117209478",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-mazda-mazdaspeed-3",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-10",
-      "drivetrain": "FWD",
-      "id": "sc-124387828",
-      "metaRank": 77,
-      "name": "A Road - Strong Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Mazda",
-            "model": "Mazdaspeed 3",
-            "sharecode": "124 387 828",
-            "suspension": "Street",
-            "tuneName": "A Road - Strong Allround",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1576,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "124387828",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2010-mazda-mazdaspeed-3",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "FWD",
-      "id": "sc-129232392",
-      "name": "Purist - Shift 6.5k RPM",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "25/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Mazda",
-            "model": "Mazdaspeed 3",
-            "sharecode": "129 232 392",
-            "suspension": "Rally",
-            "tuneName": "Purist - Shift 6.5k RPM",
-            "tuner": "SulexPagMan",
-            "tyreCompound": "Standard"
-          },
-          "row": 1579,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "129232392",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "stock",
-      "tunerId": "sulexpagman"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2010-mazda-mazdaspeed-3",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-17",
-      "drivetrain": "FWD",
-      "id": "sc-436772492",
-      "name": "MAZDASPEED",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Mazda",
-            "model": "Mazdaspeed 3",
-            "sharecode": "436 772 492",
-            "suspension": "Street",
-            "tuneName": "MAZDASPEED",
-            "tuner": "ZaZ490",
-            "tyreCompound": "Rally"
-          },
-          "row": 1578,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2010 Mazda MazdaSpeed 3",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "MAZDASPEED",
-            "Tuner": "ZaZ490",
-            "fill": "FFFF0000"
-          },
-          "row": 2173,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "436772492",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zaz490"
     }
   ],
   "schemaVersion": 1

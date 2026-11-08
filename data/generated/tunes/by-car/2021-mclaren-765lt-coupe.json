@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2021-mclaren-765lt-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-49f6e3de95",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9 均衡四驱",
+      "metaNotesI18n": {
+        "en": "Balanced AWD.",
+        "pt-br": "Tração integral equilibrada."
+      },
+      "metaRank": 58,
+      "name": "Road Allround 54.9 Shira Clean (Cybrexz=bait=no real testing)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 McLaren 765LT Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 54.9 Shira Clean (Cybrexz=bait=no real testing)",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2251,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.64,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
     {
       "buildTags": [],
       "carId": "2021-mclaren-765lt-coupe",
@@ -68,7 +119,7 @@
             "Tuner": "TheDannny",
             "fill": "FF7030A0"
           },
-          "row": 2253,
+          "row": 2252,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -173,7 +224,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FF7030A0"
           },
-          "row": 2251,
+          "row": 2250,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -185,6 +236,39 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mclaren-765lt-coupe",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-dc3700c29a",
+      "name": "S1 Dirt except take out the mclaren engine and make it a lambo",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 McLaren 765LT Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt except take out the mclaren engine and make it a lambo",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2249,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
@@ -229,207 +313,6 @@
       "tunerId": "noa-seako"
     },
     {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-09-17",
-      "drivetrain": "AWD",
-      "id": "sc-104083056",
-      "metaRank": 58,
-      "name": "S1 Road Offmeta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "104 083 056",
-            "suspension": "Rally",
-            "tuneName": "S1 Road Offmeta",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 1677,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.586,
-      "shareCode": "104083056",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-04",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-143727363",
-      "lapRefs": [
-        {
-          "time": "54.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 54.9 均衡四驱",
-      "metaNotesI18n": {
-        "en": "Balanced AWD.",
-        "pt-br": "Tração integral equilibrada."
-      },
-      "metaRank": 58,
-      "name": "Road Allround 54.9 Shira Clean (Cybrexz=bait=no real testing)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "143 727 363",
-            "suspension": "Rally",
-            "tuneName": "Road Allround 54.9 Shira Clean (Cybrexz=bait=no real testing)",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1676,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 McLaren 765LT Coupé",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround 54.9 Shira Clean (Cybrexz=bait=no real testing)",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 2252,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.707,
-      "shareCode": "143727363",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-05-31",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-161209394",
-      "lapRefs": [
-        {
-          "time": "54.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 54.9 均衡四驱",
-      "metaNotesI18n": {
-        "en": "Balanced AWD.",
-        "pt-br": "Tração integral equilibrada."
-      },
-      "metaRank": 58,
-      "name": "S1 Road 55.0 Shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "161 209 394",
-            "suspension": "Race",
-            "tuneName": "S1 Road 55.0 Shirakawa",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Rally"
-          },
-          "row": 1674,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.614,
-      "shareCode": "161209394",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-howzer"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-08-29",
-      "drivetrain": "AWD",
-      "id": "sc-165808311",
-      "name": "Dirt Allround T1+ Sunflower 56.1 A/M",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "29/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "165 808 311",
-            "suspension": "Rally",
-            "tuneName": "Dirt Allround T1+ Sunflower 56.1 A/M",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1680,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "165808311",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
       "buildTags": [
         "full-aero"
       ],
@@ -468,190 +351,6 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-27",
-      "drivetrain": "AWD",
-      "id": "sc-712859618",
-      "name": "S1 Dirt except take out the mclaren engine and make it a lambo",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "712 859 618",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt except take out the mclaren engine and make it a lambo",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1678,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 McLaren 765LT Coupé",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt except take out the mclaren engine and make it a lambo",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 2250,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "712859618",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-26",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-830934864",
-      "lapRefs": [
-        {
-          "time": "54.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 54.9 均衡四驱",
-      "metaNotesI18n": {
-        "en": "Balanced AWD.",
-        "pt-br": "Tração integral equilibrada."
-      },
-      "metaRank": 58,
-      "name": "S1 Road V1.7.2.1 (lower df)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "26/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "830 934 864",
-            "suspension": "Rally",
-            "tuneName": "S1 Road V1.7.2.1 (lower df)",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Rally"
-          },
-          "row": 1675,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "allround",
-      "score": 0.617,
-      "shareCode": "830934864",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-howzer"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-02",
-      "drivetrain": "AWD",
-      "id": "sc-874576703",
-      "name": "Hail Britannia, Another Zoomin McLaren (54.9 Shirakawa Citcuit)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "02/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "874 576 703",
-            "suspension": "Rally",
-            "tuneName": "Hail Britannia, Another Zoomin McLaren (54.9 Shirakawa Citcuit)",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 1679,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "874576703",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-765lt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-09-06",
-      "drivetrain": "AWD",
-      "id": "sc-969164885",
-      "metaRank": 58,
-      "name": "S1 - Road V2 ( Very Strong All-Round)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "06/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "McLaren",
-            "model": "765LT Coupé",
-            "sharecode": "969 164 885",
-            "suspension": "Race",
-            "tuneName": "S1 - Road V2 ( Very Strong All-Round)",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 1673,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.585,
-      "shareCode": "969164885",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "esv-rapture"
     }
   ],
   "schemaVersion": 1

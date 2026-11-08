@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "carId": "1973-bmw-2002-turbo",
@@ -82,7 +82,7 @@
       ],
       "score": 0.61,
       "seasonId": "s06-summer",
-      "tuneId": "nc-ba77a94c79"
+      "tuneId": "nc-ba6f30db6a"
     },
     {
       "carId": "1987-porsche-203-porsche-ag-961",
@@ -236,7 +236,7 @@
       ],
       "score": 0.61,
       "seasonId": "s06-summer",
-      "tuneId": "nc-ba77a94c79"
+      "tuneId": "nc-ba6f30db6a"
     },
     {
       "carId": "1987-porsche-203-porsche-ag-961",
@@ -390,7 +390,7 @@
       ],
       "score": 0.61,
       "seasonId": "s06-summer",
-      "tuneId": "nc-ba77a94c79"
+      "tuneId": "nc-ba6f30db6a"
     },
     {
       "carId": "1987-porsche-203-porsche-ag-961",
@@ -577,8 +577,9 @@
     {
       "carId": "2016-cadillac-cts-v-sedan",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-summer--horizon-life-the-trial--aim-for-the-top",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -589,15 +590,16 @@
           }
         }
       ],
-      "score": 0.635,
+      "score": 0.638,
       "seasonId": "s06-summer",
-      "tuneId": "sc-137663238"
+      "tuneId": "nc-bec9568041"
     },
     {
-      "carId": "2017-chevrolet-camaro-zl1",
+      "carId": "2016-cadillac-ats-v",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-summer--horizon-life-the-trial--aim-for-the-top",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -606,23 +608,18 @@
             "source": "noa-miyako",
             "tier": "t1"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.717,
+      "score": 0.592,
       "seasonId": "s06-summer",
-      "tuneId": "sc-631757165"
+      "tuneId": "nc-1c1a3a66e8"
     },
     {
-      "carId": "2018-dodge-challenger-srt-demon",
+      "carId": "1979-chevrolet-camaro-z28",
       "category": "off-meta",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-summer--horizon-life-the-trial--aim-for-the-top",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -631,23 +628,18 @@
             "source": "noa-miyako",
             "tier": "t1"
           }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
         }
       ],
-      "score": 0.718,
+      "score": 0.488,
       "seasonId": "s06-summer",
-      "tuneId": "sc-107569789"
+      "tuneId": "nc-c73dad054e"
     },
     {
-      "carId": "2017-chevrolet-camaro-zl1",
+      "carId": "2016-cadillac-ats-v",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-summer--horizon-life-the-trial--aim-for-the-top",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -658,24 +650,19 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.673,
+      "score": 0.543,
       "seasonId": "s06-summer",
-      "tuneId": "sc-106041842"
+      "tuneId": "nc-360f810ab2"
     },
     {
-      "carId": "2018-dodge-challenger-srt-demon",
+      "carId": "1979-chevrolet-camaro-z28",
       "category": "purist",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "eventId": "s06-summer--horizon-life-the-trial--aim-for-the-top",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -686,18 +673,12 @@
           }
         },
         {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        },
-        {
           "key": "reason.purist"
         }
       ],
-      "score": 0.669,
+      "score": 0.44,
       "seasonId": "s06-summer",
-      "tuneId": "sc-916545726"
+      "tuneId": "nc-1bb457626e"
     }
   ],
   "schemaVersion": 1

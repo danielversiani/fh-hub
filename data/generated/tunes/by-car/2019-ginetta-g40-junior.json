@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -135,6 +135,44 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-1cdfe558c8",
+      "metaRank": 104,
+      "name": "very easy to drive",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ginetta G40 Junior",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "very easy to drive",
+            "Tuner": "WIL Eclipse",
+            "fill": "FF7030A0"
+          },
+          "row": 1621,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "wil-eclipse"
     },
     {
       "buildTags": [],
@@ -453,12 +491,12 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-97870f6465",
-      "metaRank": 147,
+      "metaRank": 150,
       "name": "A road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 300,
+          "row": 306,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -545,6 +583,45 @@
       "tunerId": "zookiiwi"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-b6423ab7ae",
+      "metaRank": 66,
+      "name": "A Road | Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ginetta G40 Junior",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road | Purist",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 1616,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
       "buildTags": [],
       "carId": "2019-ginetta-g40-junior",
       "categories": [
@@ -556,7 +633,7 @@
       "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "nc-b985a276e4",
-      "metaRank": 147,
+      "metaRank": 150,
       "name": "A Road 2.2G Narai-Juku WR",
       "observations": [
         {
@@ -643,6 +720,39 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d6c1ec2b96",
+      "name": "Merry Kirkmas",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ginetta G40 Junior",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Merry Kirkmas",
+            "Tuner": "Fenrir3268",
+            "fill": "FF7030A0"
+          },
+          "row": 1617,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "fenrir3268"
     },
     {
       "buildTags": [],
@@ -752,416 +862,6 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-09-16",
-      "drivetrain": "RWD",
-      "id": "sc-109377912",
-      "metaRank": 104,
-      "name": "very easy to drive",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "16/09/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "109 377 912",
-            "suspension": "Race",
-            "tuneName": "very easy to drive",
-            "tuner": "WIL Eclipse",
-            "tyreCompound": "Drift"
-          },
-          "row": 1060,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Ginetta G40 Junior",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "very easy to drive",
-            "Tuner": "WIL Eclipse",
-            "fill": "FF7030A0"
-          },
-          "row": 1621,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.655,
-      "shareCode": "109377912",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "wil-eclipse"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-10-07",
-      "drivetrain": "AWD",
-      "id": "sc-109537040",
-      "name": "B META - (WR Sunflower 02.4 - Hirosaki 03.5)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "07/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "109 537 040",
-            "suspension": "Drift",
-            "tuneName": "B META - (WR Sunflower 02.4 - Hirosaki 03.5)",
-            "tuner": "l Jimka l",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1058,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.509,
-      "shareCode": "109537040",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "l-jimka-l"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-09-12",
-      "drivetrain": "RWD",
-      "id": "sc-128685986",
-      "metaRank": 66,
-      "name": "A Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/09/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "128 685 986",
-            "suspension": "Drift",
-            "tuneName": "A Road Purist",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Rally"
-          },
-          "row": 1053,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Ginetta G40 Junior",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Road | Purist",
-            "Tuner": "DarkZ704",
-            "fill": "FFFF0000"
-          },
-          "row": 1616,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.682,
-      "shareCode": "128685986",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-09-18",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-135913002",
-      "lapRefs": [
-        {
-          "time": "1:00.1",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 1:00.1",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 66,
-      "name": "A Class Destroyer",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "135 913 002",
-            "suspension": "Race",
-            "tuneName": "A Class Destroyer",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Slick"
-          },
-          "row": 1055,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "role": "handling",
-      "score": 0.643,
-      "shareCode": "135913002",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-09-12",
-      "drivetrain": "AWD",
-      "id": "sc-142516249",
-      "metaRank": 48,
-      "name": "B road / dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "12/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "142 516 249",
-            "suspension": "Drift",
-            "tuneName": "B road / dirt",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1057,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.454,
-      "shareCode": "142516249",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-09-16",
-      "drivetrain": "AWD",
-      "id": "sc-172040614",
-      "name": "Dirty G40 JR #1 HC WR",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "172 040 614",
-            "suspension": "Drift",
-            "tuneName": "Dirty G40 JR #1 HC WR",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1056,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "172040614",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-11",
-      "drivetrain": "AWD",
-      "id": "sc-181231603",
-      "name": "A Dirt Meta - Edogawa CC WR",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "181 231 603",
-            "suspension": "Drift",
-            "tuneName": "A Dirt Meta - Edogawa CC WR",
-            "tuner": "Falken JP",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1054,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.502,
-      "shareCode": "181231603",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "falken-jp"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-09-10",
-      "drivetrain": "AWD",
-      "id": "sc-315674142",
-      "name": "Merry Kirkmas",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "10/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "315 674 142",
-            "suspension": "Drift",
-            "tuneName": "Merry Kirkmas",
-            "tuner": "Fenrir3268",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1059,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2019 Ginetta G40 Junior",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Merry Kirkmas",
-            "Tuner": "Fenrir3268",
-            "fill": "FF7030A0"
-          },
-          "row": 1617,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.685,
-      "shareCode": "315674142",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "fenrir3268"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-16",
-      "drivetrain": "AWD",
-      "id": "sc-688803562",
-      "name": "A Dirty G40 JR",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/09/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ginetta",
-            "model": "G40 Junior",
-            "sharecode": "688 803 562",
-            "suspension": "Drift",
-            "tuneName": "A Dirty G40 JR",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1052,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.504,
-      "shareCode": "688803562",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

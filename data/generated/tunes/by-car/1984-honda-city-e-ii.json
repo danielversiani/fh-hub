@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -180,6 +180,39 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5c0d6af7fe",
+      "name": "still not for city",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "still not for city",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1670,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],
@@ -543,30 +576,12 @@
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-30",
+      "confidence": 0.8,
       "drivetrain": "FWD",
-      "id": "sc-130958387",
-      "metaRank": 28,
+      "id": "nc-e938fbedfc",
+      "metaRank": 71,
       "name": "Legend Island Rallies",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "30/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "City E II",
-            "sharecode": "130 958 387",
-            "suspension": "Stock",
-            "tuneName": "Legend Island Rallies",
-            "tuner": "QuasarPole",
-            "tyreCompound": "Rally"
-          },
-          "row": 1132,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1984 Honda City E II",
@@ -584,140 +599,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.591,
-      "shareCode": "130958387",
-      "surface": "dirt",
+      "score": 0.543,
+      "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "rally",
       "tunerId": "quasarpole"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-honda-city-e-ii",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-05",
-      "drivetrain": "FWD",
-      "id": "sc-167672327",
-      "name": "1:28 Legend Island",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "05/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "City E II",
-            "sharecode": "167 672 327",
-            "suspension": "Stock",
-            "tuneName": "1:28 Legend Island",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Drift"
-          },
-          "row": 1133,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.486,
-      "shareCode": "167672327",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-honda-city-e-ii",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-27",
-      "drivetrain": "AWD",
-      "id": "sc-170391903",
-      "name": "still not for city",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "27/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "City E II",
-            "sharecode": "170 391 903",
-            "suspension": "Rally",
-            "tuneName": "still not for city",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1135,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1984 Honda City E II",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "still not for city",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 1670,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.667,
-      "shareCode": "170391903",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-honda-city-e-ii",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-25",
-      "drivetrain": "FWD",
-      "id": "sc-605432242",
-      "name": "The Peel's Cousin",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "25/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "City E II",
-            "sharecode": "605 432 242",
-            "suspension": "Stock",
-            "tuneName": "The Peel's Cousin",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Drift"
-          },
-          "row": 1134,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.491,
-      "shareCode": "605432242",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "drift",
-      "tunerId": "zombiejesus52"
     }
   ],
   "schemaVersion": 1

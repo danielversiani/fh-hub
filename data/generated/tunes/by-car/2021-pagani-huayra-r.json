@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2021-pagani-huayra-r",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-485bf508d2",
+      "name": "UPDATED Rally Tire V2 AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Pagani Huayra R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "UPDATED Rally Tire V2 AWD",
+            "Tuner": "nyasmowisher",
+            "fill": "FF0070C0"
+          },
+          "row": 2594,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "nyasmowisher"
+    },
     {
       "buildTags": [],
       "carId": "2021-pagani-huayra-r",
@@ -23,7 +56,7 @@
             "Tuner": "VNX Ardent",
             "fill": "FF0070C0"
           },
-          "row": 2594,
+          "row": 2593,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -39,29 +72,11 @@
       "carId": "2021-pagani-huayra-r",
       "categories": [],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-08-07",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-105286123",
-      "name": "UPDATED Rally Tire V2 AWD",
+      "id": "nc-9759dd5e17",
+      "name": "S2 Road (RV12)",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "07/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Pagani",
-            "model": "Huayra R",
-            "sharecode": "105 286 123",
-            "suspension": "Race",
-            "tuneName": "UPDATED Rally Tire V2 AWD",
-            "tuner": "nyasmowisher",
-            "tyreCompound": "Rally"
-          },
-          "row": 2095,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2021 Pagani Huayra R",
@@ -70,8 +85,8 @@
             "Designer": "",
             "Drivetrain": "AWD",
             "Terrain": "Road",
-            "Tune": "UPDATED Rally Tire V2 AWD",
-            "Tuner": "nyasmowisher",
+            "Tune": "S2 Road (RV12)",
+            "Tuner": "zombiejesus52",
             "fill": "FF0070C0"
           },
           "row": 2595,
@@ -79,13 +94,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.676,
-      "shareCode": "105286123",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "nyasmowisher"
+      "tunerId": "zombiejesus52"
     },
     {
       "buildTags": [
@@ -96,29 +109,11 @@
         "purist"
       ],
       "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-120824301",
+      "id": "nc-d727583ec1",
       "name": "S2 Road (Stock Engine)",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Pagani",
-            "model": "Huayra R",
-            "sharecode": "120 824 301",
-            "suspension": "Race",
-            "tuneName": "S2 Road (Stock Engine)",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
-          },
-          "row": 2098,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2021 Pagani Huayra R",
@@ -131,17 +126,15 @@
             "Tuner": "zombiejesus52",
             "fill": "FF0070C0"
           },
-          "row": 2597,
+          "row": 2596,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.658,
-      "shareCode": "120824301",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "zombiejesus52"
     },
     {
@@ -181,133 +174,6 @@
       "tierSource": "default",
       "tires": "rally",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-pagani-huayra-r",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-26",
-      "drivetrain": "AWD",
-      "id": "sc-228225044",
-      "name": "S2 Class - Road Racing - 10 Gears - RV12 - Killian Tech",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "26/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Pagani",
-            "model": "Huayra R",
-            "sharecode": "228 225 044",
-            "suspension": "Race",
-            "tuneName": "S2 Class - Road Racing - 10 Gears - RV12 - Killian Tech",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 2097,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.491,
-      "shareCode": "228225044",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-pagani-huayra-r",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-26",
-      "drivetrain": "AWD",
-      "id": "sc-245351415",
-      "name": "S2 Class - Road Racing - 10 Gears - RV12 - Lobby Setup",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "26/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Pagani",
-            "model": "Huayra R",
-            "sharecode": "245 351 415",
-            "suspension": "Race",
-            "tuneName": "S2 Class - Road Racing - 10 Gears - RV12 - Lobby Setup",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 2096,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.491,
-      "shareCode": "245351415",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-pagani-huayra-r",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-591531927",
-      "name": "S2 Road (RV12)",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Pagani",
-            "model": "Huayra R",
-            "sharecode": "591 531 927",
-            "suspension": "Race",
-            "tuneName": "S2 Road (RV12)",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
-          },
-          "row": 2099,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2021 Pagani Huayra R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S2 Road (RV12)",
-            "Tuner": "zombiejesus52",
-            "fill": "FF0070C0"
-          },
-          "row": 2596,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "591531927",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zombiejesus52"
     },
     {
       "buildTags": [],

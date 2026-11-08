@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1969-datsun-2000-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-6c99f3eb96",
+      "metaRank": 37,
+      "name": "B Dirt V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Datsun 2000 Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt V2",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 244,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
     {
       "buildTags": [
         "purist"
@@ -141,142 +177,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-datsun-2000-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-04",
-      "drivetrain": "AWD",
-      "id": "sc-103672225",
-      "metaRank": 37,
-      "name": "B Dirt V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "2000 Roadster",
-            "sharecode": "103 672 225",
-            "suspension": "Stock",
-            "tuneName": "B Dirt V2",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 616,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Datsun 2000 Roadster",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt V2",
-            "Tuner": "SR1 Rain",
-            "fill": "FFED7D31"
-          },
-          "row": 244,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.615,
-      "shareCode": "103672225",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-datsun-2000-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-23",
-      "drivetrain": "AWD",
-      "id": "sc-403226076",
-      "metaRank": 37,
-      "name": "DatSON B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Datsun",
-            "model": "2000 Roadster",
-            "sharecode": "403 226 076",
-            "suspension": "Rally",
-            "tuneName": "DatSON B Dirt",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 617,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.534,
-      "shareCode": "403226076",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-datsun-2000-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-11",
-      "drivetrain": "RWD",
-      "id": "sc-845696487",
-      "metaRank": 37,
-      "name": "datsun 2000 beers. uuh, no??? you 1diot? give me 2001 beers",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "11/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Datsun",
-            "model": "2000 Roadster",
-            "sharecode": "845 696 487",
-            "suspension": "Street",
-            "tuneName": "datsun 2000 beers. uuh, no??? you 1diot? give me 2001 beers",
-            "tuner": "Myra Driving",
-            "tyreCompound": "Rally"
-          },
-          "row": 615,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.53,
-      "shareCode": "845696487",
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "myra-driving"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -278,6 +278,42 @@
       ],
       "class": "S1",
       "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-8278a8f896",
+      "metaRank": 10,
+      "name": "S1 Dirt Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo 33 Stradale",
+            "Comment": "",
+            "Design": "SILVER WOLF LV.99999",
+            "Designer": "NniRuo",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Meta",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 827,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.55,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "slightly-hard",
       "drivetrain": "AWD",
@@ -408,6 +444,79 @@
       ],
       "carId": "1968-alfa-romeo-33-stradale",
       "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-b6016b4d8a",
+      "name": "Purist Allrounder | 51.7 NJC (Lower Possible)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo 33 Stradale",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Allrounder | 51.7 NJC (Lower Possible)",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 165,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c8d8055318",
+      "metaRank": 10,
+      "name": "S1 Dirt Meta 3rd game in a row",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo 33 Stradale",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Meta 3rd game in a row",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 825,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.55,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
         "meta",
         "purist"
       ],
@@ -512,175 +621,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-33-stradale",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-06-17",
-      "drivetrain": "AWD",
-      "id": "sc-114004471",
-      "metaRank": 10,
-      "name": "S1 Dirt Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "17/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "33 Stradale",
-            "sharecode": "114 004 471",
-            "suspension": "Street",
-            "tuneName": "S1 Dirt Meta",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 78,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo 33 Stradale",
-            "Comment": "",
-            "Design": "SILVER WOLF LV.99999",
-            "Designer": "NniRuo",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Meta",
-            "Tuner": "SR1 Rain",
-            "fill": "FF7030A0"
-          },
-          "row": 827,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.635,
-      "shareCode": "114004471",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-33-stradale",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.85,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-123200713",
-      "metaRank": 10,
-      "name": "S1 Dirt Meta 3rd game in a row",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "33 Stradale",
-            "sharecode": "123 200 713",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt Meta 3rd game in a row",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 77,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo 33 Stradale",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt Meta 3rd game in a row",
-            "Tuner": "KapienPL",
-            "fill": "FF7030A0"
-          },
-          "row": 825,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.633,
-      "shareCode": "123200713",
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1968-alfa-romeo-33-stradale",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "RWD",
-      "id": "sc-161700852",
-      "name": "Purist Allrounder | 51.7 NJC (Lower possible)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "13/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Alfa Romeo",
-            "model": "33 Stradale",
-            "sharecode": "161 700 852",
-            "suspension": "Street",
-            "tuneName": "Purist Allrounder | 51.7 NJC (Lower possible)",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Vintage"
-          },
-          "row": 76,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo 33 Stradale",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist Allrounder | 51.7 NJC (Lower Possible)",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 165,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "161700852",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "vintage",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

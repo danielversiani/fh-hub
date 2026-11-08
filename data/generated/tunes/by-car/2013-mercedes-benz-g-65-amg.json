@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -54,7 +54,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF0000"
           },
-          "row": 2339,
+          "row": 2338,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -126,120 +126,6 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-mercedes-benz-g-65-amg",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-100445168",
-      "name": "THUGGY",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "G 65 AMG",
-            "sharecode": "100 445 168",
-            "suspension": "Street",
-            "tuneName": "THUGGY",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1780,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "100445168",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-mercedes-benz-g-65-amg",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-12",
-      "drivetrain": "AWD",
-      "id": "sc-697113969",
-      "name": "1:02.786 Shirakawa Widebody No Aero Stock Rims",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "G 65 AMG",
-            "sharecode": "697 113 969",
-            "suspension": "Street",
-            "tuneName": "1:02.786 Shirakawa Widebody No Aero Stock Rims",
-            "tuner": "KilianFirebold",
-            "tyreCompound": "Rally"
-          },
-          "row": 1778,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "697113969",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "kilianfirebold"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-mercedes-benz-g-65-amg",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-07-12",
-      "drivetrain": "AWD",
-      "id": "sc-935102707",
-      "metaRank": 39,
-      "name": "Dirt/CC Widebody Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mercedes-Benz",
-            "model": "G 65 AMG",
-            "sharecode": "935 102 707",
-            "suspension": "Street",
-            "tuneName": "Dirt/CC Widebody Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1779,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.533,
-      "shareCode": "935102707",
-      "surface": "cross-country",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

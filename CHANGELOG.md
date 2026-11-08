@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-08: **Página "Uso de dados"** (`/legal/`, link no rodapé): não reivindicamos a posse de nada, o site compila informações públicas, como pedir remoção ou correção, e a situação da autorização de cada fonte. **GBR Ozzy saiu do projeto a pedido do autor**; kleis passou a `granted` (autorização expressa).
 - 2026-11-08: **Pré-lançamento** ([ADR-0015](docs/adr/0015-pre-lancamento-com-todas-as-fontes.md)): o site público passa a mostrar as fontes dos tunadores (`permission: prelaunch`) enquanto as autorizações são pedidas, com aviso em todas as páginas, link para pedir remoção e sem indexação em buscadores. Nome do site: **Forza Paddock**.
 - 2026-11-08: **Fase 1 (parte 4): terceira revisão do dono.**
   - **Observações traduzidas** ([ADR-0014](docs/adr/0014-traducao-dos-textos-das-fontes.md)): as 170 observações em chinês de Noa Miyako com texto (as outras 119 eram só tempos) e 10 nomes de tune, em português e inglês, sem o link "Traduzir". Texto novo sem tradução fica escondido e listado em `data/review/untranslated-texts.json`.

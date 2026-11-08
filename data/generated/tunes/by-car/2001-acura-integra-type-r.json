@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -39,6 +39,42 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-113801e97e",
+      "metaRank": 3,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Acura Integra Type R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFED7D31"
+          },
+          "row": 128,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
@@ -92,6 +128,45 @@
       "tunerId": "noa-miyako"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-206243a7c9",
+      "metaRank": 5,
+      "name": "Purist Wingless | 2:25.1 Coastline Sprint",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Acura Integra Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Wingless | 2:25.1 Coastline Sprint",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 134,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
       "buildTags": [],
       "carId": "2001-acura-integra-type-r",
       "categories": [
@@ -126,6 +201,81 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-277cd452d4",
+      "metaRank": 103,
+      "name": "A Road | 1:01.8 Shira | Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Acura Integra Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 1:01.8 Shira | Purist",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 711,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-27a8bbe6f7",
+      "metaRank": 3,
+      "name": "Dirt Stock Motor Happiness ORD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Acura Integra Type R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Stock Motor Happiness ORD",
+            "Tuner": "Cast Haste",
+            "fill": "FFED7D31"
+          },
+          "row": 127,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "cast-haste"
     },
     {
       "buildTags": [
@@ -207,6 +357,46 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-4f17fa97a9",
+      "metaRank": 5,
+      "name": "Purist Stock Look | 50.9 Narai Juku",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Acura Integra Type R",
+            "Comment": "Purist",
+            "Design": "TAKATA #7",
+            "Designer": "WoodyTIE86",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Stock Look | 50.9 Narai Juku",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 133,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -420,6 +610,42 @@
       "categories": [
         "off-meta"
       ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-9638bd0861",
+      "metaRank": 103,
+      "name": "Road FWD Power",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Acura Integra Type R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road FWD Power",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 712,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "off-meta"
+      ],
       "class": "B",
       "confidence": 0.8,
       "credited": true,
@@ -455,6 +681,45 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-a28e6e0e14",
+      "metaRank": 103,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Acura Integra Type R",
+            "Comment": "Purist",
+            "Design": "NFS UNDERGROUND",
+            "Designer": "Kaltmacher96",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 713,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-suimin"
     },
     {
       "buildTags": [],
@@ -861,620 +1126,6 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "aeroplane7616"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-17",
-      "drivetrain": "FWD",
-      "id": "sc-104485988",
-      "metaRank": 103,
-      "name": "A Road | 1:01.8 Shira | Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/08/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type R",
-            "sharecode": "104 485 988",
-            "suspension": "Street",
-            "tuneName": "A Road | 1:01.8 Shira | Purist",
-            "tuner": "DarkZ704",
-            "tyreCompound": "Slick"
-          },
-          "row": 34,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2001 Acura Integra Type R",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "A Road | 1:01.8 Shira | Purist",
-            "Tuner": "DarkZ704",
-            "fill": "FFFF0000"
-          },
-          "row": 711,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.651,
-      "shareCode": "104485988",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [
-        "purist",
-        "stock-look"
-      ],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-01",
-      "drivetrain": "FWD",
-      "id": "sc-111384798",
-      "metaRank": 3,
-      "name": "Purist Stock Look | 50.9 Narai Juku",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "111 384 798",
-            "suspension": "Street",
-            "tuneName": "Purist Stock Look | 50.9 Narai Juku",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 39,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2001 Acura Integra Type R",
-            "Comment": "Purist",
-            "Design": "TAKATA #7",
-            "Designer": "WoodyTIE86",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist Stock Look | 50.9 Narai Juku",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 133,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.741,
-      "shareCode": "111384798",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-02",
-      "drivetrain": "FWD",
-      "id": "sc-127573360",
-      "metaRank": 5,
-      "name": "Road Purist Strong",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "127 573 360",
-            "suspension": "Street",
-            "tuneName": "Road Purist Strong",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 44,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "127573360",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-01",
-      "drivetrain": "FWD",
-      "id": "sc-130948352",
-      "metaRank": 3,
-      "name": "Purist Wingless | 2:25.1 Coastline Sprint",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "01/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "130 948 352",
-            "suspension": "Street",
-            "tuneName": "Purist Wingless | 2:25.1 Coastline Sprint",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 40,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2001 Acura Integra Type R",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist Wingless | 2:25.1 Coastline Sprint",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 134,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.741,
-      "shareCode": "130948352",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-143543552",
-      "metaRank": 3,
-      "name": "B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "143 543 552",
-            "suspension": "Street",
-            "tuneName": "B Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 42,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2001 Acura Integra Type R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FFED7D31"
-          },
-          "row": 128,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.741,
-      "shareCode": "143543552",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-08-21",
-      "drivetrain": "FWD",
-      "id": "sc-168074398",
-      "metaRank": 103,
-      "name": "Road FWD Power",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "21/08/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type R",
-            "sharecode": "168 074 398",
-            "suspension": "Street",
-            "tuneName": "Road FWD Power",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 35,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2001 Acura Integra Type R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Road FWD Power",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 712,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.652,
-      "shareCode": "168074398",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-30",
-      "drivetrain": "AWD",
-      "id": "sc-168661300",
-      "metaRank": 3,
-      "name": "Dirt Stock Motor Happiness ORD",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "168 661 300",
-            "suspension": "Street",
-            "tuneName": "Dirt Stock Motor Happiness ORD",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 38,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2001 Acura Integra Type R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Stock Motor Happiness ORD",
-            "Tuner": "Cast Haste",
-            "fill": "FFED7D31"
-          },
-          "row": 127,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.741,
-      "shareCode": "168661300",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-10-04",
-      "drivetrain": "AWD",
-      "id": "sc-179170280",
-      "metaRank": 3,
-      "name": "Strong B Dirt All-Around",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/10/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "179 170 280",
-            "suspension": "Street",
-            "tuneName": "Strong B Dirt All-Around",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 45,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "179170280",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-14",
-      "drivetrain": "AWD",
-      "id": "sc-281768473",
-      "metaRank": 3,
-      "name": "Strong B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "14/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "281 768 473",
-            "suspension": "Rally",
-            "tuneName": "Strong B Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 43,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "281768473",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-25",
-      "drivetrain": "FWD",
-      "id": "sc-540333785",
-      "metaRank": 103,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "540 333 785",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Slick"
-          },
-          "row": 37,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2001 Acura Integra Type R",
-            "Comment": "Purist",
-            "Design": "NFS UNDERGROUND",
-            "Designer": "Kaltmacher96",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "K1Z Suimin",
-            "fill": "FFFF0000"
-          },
-          "row": 713,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.642,
-      "shareCode": "540333785",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-13",
-      "drivetrain": "FWD",
-      "id": "sc-882923899",
-      "metaRank": 103,
-      "name": "Purist street",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "882 923 899",
-            "suspension": "Race",
-            "tuneName": "Purist street",
-            "tuner": "K1Z Suimin",
-            "tyreCompound": "Rally"
-          },
-          "row": 36,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.558,
-      "shareCode": "882923899",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-suimin"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2001-acura-integra-type-r",
-      "categories": [
-        "meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-02",
-      "drivetrain": "FWD",
-      "id": "sc-914446014",
-      "metaRank": 5,
-      "name": "Purist B Road Strong - Seasonal",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "02/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Acura",
-            "model": "Integra Type-R",
-            "sharecode": "914 446 014",
-            "suspension": "Street",
-            "tuneName": "Purist B Road Strong - Seasonal",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 41,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.659,
-      "shareCode": "914446014",
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

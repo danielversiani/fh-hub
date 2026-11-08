@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -186,6 +186,78 @@
       "categories": [
         "purist"
       ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-c8bde1990b",
+      "name": "458i 4.5L V8 \"Purist\"",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Ferrari Dino 246 GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "458i 4.5L V8 \"Purist\"",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1374,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1969-ferrari-dino-246-gt",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d5d6e3c4ec",
+      "name": "B Dirt AWD Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Ferrari Dino 246 GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt AWD Stock Look",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 285,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1969-ferrari-dino-246-gt",
+      "categories": [
+        "purist"
+      ],
       "class": "B",
       "confidence": 0.35,
       "drivetrain": "RWD",
@@ -219,179 +291,12 @@
       "buildTags": [],
       "carId": "1969-ferrari-dino-246-gt",
       "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
-      "drivetrain": "RWD",
-      "id": "sc-377336824",
-      "name": "B Class Road RWD",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "Dino 246 GT",
-            "sharecode": "377 336 824",
-            "suspension": "Stock",
-            "tuneName": "B Class Road RWD",
-            "tuner": "TNR MaksJaga",
-            "tyreCompound": "Rally"
-          },
-          "row": 823,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "377336824",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "tnr-maksjaga"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1969-ferrari-dino-246-gt",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
-      "drivetrain": "AWD",
-      "id": "sc-555277202",
-      "name": "B Dirt AWD Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "Dino 246 GT",
-            "sharecode": "555 277 202",
-            "suspension": "Rally",
-            "tuneName": "B Dirt AWD Stock Look",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 822,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Ferrari Dino 246 GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt AWD Stock Look",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 285,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "555277202",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1969-ferrari-dino-246-gt",
-      "categories": [
-        "purist"
-      ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-15",
-      "drivetrain": "RWD",
-      "id": "sc-757059864",
-      "name": "458i 4.5L V8 \"Purist\"",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "Dino 246 GT",
-            "sharecode": "757 059 864",
-            "suspension": "Race",
-            "tuneName": "458i 4.5L V8 \"Purist\"",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 819,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Ferrari Dino 246 GT",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "458i 4.5L V8 \"Purist\"",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 1374,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "757059864",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-ferrari-dino-246-gt",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-16",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-845623144",
+      "id": "nc-ee59b0194d",
       "name": "A Road",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "Dino 246 GT",
-            "sharecode": "845 623 144",
-            "suspension": "Street",
-            "tuneName": "A Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 820,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1969 Ferrari Dino 246 GT",
@@ -409,50 +314,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.671,
-      "shareCode": "845623144",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-ferrari-dino-246-gt",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-17",
-      "drivetrain": "AWD",
-      "id": "sc-982346780",
-      "name": "Solid A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "Dino 246 GT",
-            "sharecode": "982 346 780",
-            "suspension": "Race",
-            "tuneName": "Solid A Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 821,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "982346780",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
     }
   ],
   "schemaVersion": 1

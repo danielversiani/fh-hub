@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -40,6 +40,97 @@
     {
       "buildTags": [],
       "carId": "2025-ferrari-f80",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1ecb00a24b",
+      "metaRank": 43,
+      "name": "S1 Road / Dirt - Multidisciplinary",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Ferrari F80",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road / Dirt - Multidisciplinary",
+            "Tuner": "K1Z Bard",
+            "fill": "FF7030A0"
+          },
+          "row": 1473,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ferrari-f80",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.65,
+      "drivetrain": "AWD",
+      "engine": "RV12",
+      "id": "nc-2ee6f27b89",
+      "name": "Road Allround 48.7 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Ferrari F80",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 48.7 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF0070C0"
+          },
+          "row": 1478,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Allround",
+            "Car": "Ferrari F80",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "RV12",
+            "Laptime": "0:48.727",
+            "Notes": "",
+            "Tier": "Offmeta < 49.0",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround 48.7 Shira Clean"
+          },
+          "row": 9,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s2-900"
+        }
+      ],
+      "score": 0.814,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ferrari-f80",
       "categories": [],
       "class": "S2",
       "confidence": 0.65,
@@ -69,6 +160,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ferrari-f80",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7250809251",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Ferrari F80",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 1471,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -205,6 +329,39 @@
     {
       "buildTags": [],
       "carId": "2025-ferrari-f80",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.65,
+      "drivetrain": "AWD",
+      "id": "nc-b1a18174c2",
+      "name": "S2 Road All-Around",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Ferrari F80",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road All-Around",
+            "Tuner": "TheDannny",
+            "fill": "FF0070C0"
+          },
+          "row": 1480,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ferrari-f80",
       "categories": [
         "off-meta"
       ],
@@ -300,380 +457,18 @@
       "tunerId": "destrukdi"
     },
     {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-15",
-      "drivetrain": "AWD",
-      "id": "sc-108026450",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "15/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "108 026 450",
-            "suspension": "Drift",
-            "tuneName": "S1 Dirt",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 850,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 Ferrari F80",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 1471,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "108026450",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.7,
-      "createdAt": "2026-07-13",
-      "drivetrain": "AWD",
-      "id": "sc-140565193",
-      "name": "S2 Road All-Around",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "13/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "140 565 193",
-            "suspension": "Race",
-            "tuneName": "S2 Road All-Around",
-            "tuner": "TheDannny",
-            "tyreCompound": "Rally"
-          },
-          "row": 855,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 Ferrari F80",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S2 Road All-Around",
-            "Tuner": "TheDannny",
-            "fill": "FF0070C0"
-          },
-          "row": 1480,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.769,
-      "shareCode": "140565193",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-13",
-      "drivetrain": "AWD",
-      "id": "sc-350346496",
-      "name": "S1 Road / Dirt - Multidisciplinary",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "350 346 496",
-            "suspension": "Rally",
-            "tuneName": "S1 Road / Dirt - Multidisciplinary",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 849,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 Ferrari F80",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road / Dirt - Multidisciplinary",
-            "Tuner": "K1Z Bard",
-            "fill": "FF7030A0"
-          },
-          "row": 1473,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.67,
-      "shareCode": "350346496",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.7,
-      "createdAt": "2026-07-17",
-      "drivetrain": "AWD",
-      "engine": "RV12",
-      "id": "sc-649752038",
-      "name": "Road Allround 48.7 Shira Clean",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "17/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "649 752 038",
-            "suspension": "Race",
-            "tuneName": "Road Allround 48.7 Shira Clean",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 853,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2025 Ferrari F80",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround 48.7 Shira Clean",
-            "Tuner": "LetzeLU",
-            "fill": "FF0070C0"
-          },
-          "row": 1478,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {
-            "Aero": "FA",
-            "Build": "Allround",
-            "Car": "Ferrari F80",
-            "Difficulty": "Very Easy",
-            "Driver": "LetzeLU",
-            "Drivetrain": "AWD",
-            "Engine": "RV12",
-            "Laptime": "0:48.727",
-            "Notes": "",
-            "Tier": "Offmeta < 49.0",
-            "Tires": "Rally",
-            "Tune": "LetzeLU",
-            "Tune Name": "Road Allround 48.7 Shira Clean"
-          },
-          "row": 9,
-          "sourceId": "letzelu-shirakawa",
-          "tab": "s2-900"
-        }
-      ],
-      "score": 0.879,
-      "shareCode": "649752038",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.7,
-      "createdAt": "2026-07-13",
-      "drivetrain": "AWD",
-      "id": "sc-763818266",
-      "name": "Busted S2 Road Balanced Handling",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "13/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "763 818 266",
-            "suspension": "Race",
-            "tuneName": "Busted S2 Road Balanced Handling",
-            "tuner": "Destrukdi",
-            "tyreCompound": "Rally"
-          },
-          "row": 851,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "763818266",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "destrukdi"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.4,
-      "createdAt": "2026-07-14",
-      "drivetrain": "AWD",
-      "id": "sc-792709868",
-      "name": "chefs kiss",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "14/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "792 709 868",
-            "suspension": "Race",
-            "tuneName": "chefs kiss",
-            "tuner": "Nalak28",
-            "tyreCompound": "Rally"
-          },
-          "row": 854,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.488,
-      "shareCode": "792709868",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "R",
-      "confidence": 0.4,
-      "createdAt": "2026-07-14",
-      "drivetrain": "AWD",
-      "id": "sc-808199054",
-      "name": "Road Allround Easy",
-      "observations": [
-        {
-          "raw": {
-            "class": "R",
-            "date": "14/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "808 199 054",
-            "suspension": "Race",
-            "tuneName": "Road Allround Easy",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Slick"
-          },
-          "row": 848,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.488,
-      "shareCode": "808199054",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "slick",
-      "tunerId": "letzelu"
-    },
-    {
       "buildTags": [
         "full-aero"
       ],
       "carId": "2025-ferrari-f80",
       "categories": [],
       "class": "S2",
-      "confidence": 0.7,
-      "createdAt": "2026-07-15",
+      "confidence": 0.65,
       "drivetrain": "AWD",
       "engine": "Racing V12",
       "id": "sc-873070429",
       "name": "AWD Grip",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "15/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F80",
-            "sharecode": "873 070 429",
-            "suspension": "Race",
-            "tuneName": "AWD Grip",
-            "tuner": "K1Z Gray",
-            "tyreCompound": "Rally"
-          },
-          "row": 852,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Build": "Full Aero",
@@ -693,7 +488,7 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.749,
+      "score": 0.64,
       "shareCode": "873070429",
       "surface": "road",
       "tier": "t3",

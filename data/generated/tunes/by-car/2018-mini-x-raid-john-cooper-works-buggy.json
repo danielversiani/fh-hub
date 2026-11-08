@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2018-mini-x-raid-john-cooper-works-buggy",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-04",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-180757415",
+      "id": "nc-38eefb8605",
       "name": "Cross Country Vehicular",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mini",
-            "model": "X-Raid John Cooper Works Buggy",
-            "sharecode": "180 757 415",
-            "suspension": "Rally",
-            "tuneName": "Cross Country Vehicular",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1816,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2018 Mini X-Raid John Cooper Works Buggy",
@@ -41,17 +23,15 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 2354,
+          "row": 2353,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.661,
-      "shareCode": "180757415",
+      "score": 0.474,
       "surface": "cross-country",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
     }
   ],

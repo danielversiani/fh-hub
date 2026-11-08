@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -71,6 +71,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1962-ferrari-250-gto",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-56412c73c9",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1962 Ferrari 250 GTO",
+            "Comment": "Purist",
+            "Design": "N.A.R.T GTO",
+            "Designer": "Wombi 62",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1359,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
     },
     {
       "buildTags": [],
@@ -178,6 +215,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-ferrari-250-gto",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a8d5e338de",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1962 Ferrari 250 GTO",
+            "Comment": "",
+            "Design": "DIRK SCREAMER",
+            "Designer": "Zphrs",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "VNX Eunos",
+            "fill": "FFFF0000"
+          },
+          "row": 1357,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "vnx-eunos"
     },
     {
       "buildTags": [],
@@ -351,116 +421,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1962-ferrari-250-gto",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-12",
-      "drivetrain": "RWD",
-      "id": "sc-131084160",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "12/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "250 GTO",
-            "sharecode": "131 084 160",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 784,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1962 Ferrari 250 GTO",
-            "Comment": "Purist",
-            "Design": "N.A.R.T GTO",
-            "Designer": "Wombi 62",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 1359,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "131084160",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1962-ferrari-250-gto",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-18",
-      "drivetrain": "AWD",
-      "id": "sc-144830316",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "250 GTO",
-            "sharecode": "144 830 316",
-            "suspension": "Rally",
-            "tuneName": "A Dirt",
-            "tuner": "VNX Eunos",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 785,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1962 Ferrari 250 GTO",
-            "Comment": "",
-            "Design": "DIRK SCREAMER",
-            "Designer": "Zphrs",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt",
-            "Tuner": "VNX Eunos",
-            "fill": "FFFF0000"
-          },
-          "row": 1357,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.657,
-      "shareCode": "144830316",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "vnx-eunos"
     }
   ],
   "schemaVersion": 1

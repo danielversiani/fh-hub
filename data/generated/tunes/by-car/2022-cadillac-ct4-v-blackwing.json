@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -111,6 +111,72 @@
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "AWD",
+      "id": "nc-b7f65ea80e",
+      "name": "A - Road & Street",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Cadillac CT4-V Blackwing",
+            "Comment": "",
+            "Design": "CLEETUS BIFF NASCAR DRIFT FREEDOM FACTORY RACING FRDM",
+            "Designer": "OvrToastedBread",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road & Street",
+            "Tuner": "ESV Rapture",
+            "fill": "FFFF0000"
+          },
+          "row": 1076,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-cadillac-ct4-v-blackwing",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-cd6df5178a",
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Cadillac CT4-V Blackwing",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1077,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-cadillac-ct4-v-blackwing",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
       "id": "nc-e21d5d4afd",
       "name": "A Dirt (VV10 Centri + FA)",
       "observations": [
@@ -206,112 +272,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-cadillac-ct4-v-blackwing",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-10",
-      "drivetrain": "AWD",
-      "id": "sc-129130646",
-      "name": "A Road - Strong Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Cadillac",
-            "model": "CT4-V Blackwing",
-            "sharecode": "129 130 646",
-            "suspension": "Sport",
-            "tuneName": "A Road - Strong Allround",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 429,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2022 Cadillac CT4-V Blackwing",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road - Strong Allround",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1077,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.663,
-      "shareCode": "129130646",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-cadillac-ct4-v-blackwing",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-16",
-      "drivetrain": "AWD",
-      "id": "sc-137425104",
-      "name": "A - Road & Street",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "16/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Cadillac",
-            "model": "CT4-V Blackwing",
-            "sharecode": "137 425 104",
-            "suspension": "Race",
-            "tuneName": "A - Road & Street",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 428,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2022 Cadillac CT4-V Blackwing",
-            "Comment": "",
-            "Design": "CLEETUS BIFF NASCAR DRIFT FREEDOM FACTORY RACING FRDM",
-            "Designer": "OvrToastedBread",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Road & Street",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 1076,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.664,
-      "shareCode": "137425104",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-rapture"
     }
   ],
   "schemaVersion": 1

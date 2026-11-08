@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2018-renault-megane-r-s",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-2f7ea08d64",
+      "name": "FWD Road No Aero Stock Look 2.0L I4 VTEC | ~1:01 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Renault Megane R.S.",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD Road No Aero Stock Look 2.0L I4 VTEC | ~1:01 Shirakawa",
+            "Tuner": "Saeenu",
+            "fill": "FFFF0000"
+          },
+          "row": 2714,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "saeenu"
+    },
     {
       "buildTags": [
         "stock-look"
@@ -13,7 +48,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-4d2dbd6a35",
-      "metaRank": 88,
+      "metaRank": 87,
       "name": "FWD Road No Aero Stock Look 2.0L I4 VTEC | ~1:06 Shirakawa",
       "observations": [
         {
@@ -63,12 +98,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 88,
+      "metaRank": 87,
       "name": "B road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 181,
+          "row": 179,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -88,268 +123,12 @@
         "off-meta"
       ],
       "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-09-04",
+      "confidence": 0.8,
       "drivetrain": "FWD",
-      "id": "sc-116625677",
-      "metaRank": 88,
-      "name": "Road | French VTEC",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/09/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R.S.",
-            "sharecode": "116 625 677",
-            "suspension": "Street",
-            "tuneName": "Road | French VTEC",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 2277,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.567,
-      "shareCode": "116625677",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-renault-megane-r-s",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-28",
-      "drivetrain": "AWD",
-      "id": "sc-157223810",
-      "name": "Dirty R.S.",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "28/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R.S.",
-            "sharecode": "157 223 810",
-            "suspension": "Street",
-            "tuneName": "Dirty R.S.",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2274,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.499,
-      "shareCode": "157223810",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-renault-megane-r-s",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-09-04",
-      "drivetrain": "FWD",
-      "id": "sc-163566134",
-      "name": "This Is A Civic",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "04/09/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R.S.",
-            "sharecode": "163 566 134",
-            "suspension": "Street",
-            "tuneName": "This Is A Civic",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2276,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Renault Megane R.S.",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "This Is A Civic",
-            "Tuner": "K1Z Bard",
-            "fill": "FFED7D31"
-          },
-          "row": 517,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.683,
-      "shareCode": "163566134",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2018-renault-megane-r-s",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-09-04",
-      "drivetrain": "FWD",
-      "id": "sc-307740914",
-      "name": "FWD Road No Aero Stock Look 2.0L I4 VTEC | ~1: 01 Shirakawa",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "04/09/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R.S.",
-            "sharecode": "307 740 914",
-            "suspension": "Street",
-            "tuneName": "FWD Road No Aero Stock Look 2.0L I4 VTEC | ~1: 01 Shirakawa",
-            "tuner": "Saeenu",
-            "tyreCompound": "Rally"
-          },
-          "row": 2273,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Renault Megane R.S.",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "FWD Road No Aero Stock Look 2.0L I4 VTEC | ~1:01 Shirakawa",
-            "Tuner": "Saeenu",
-            "fill": "FFFF0000"
-          },
-          "row": 2715,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.683,
-      "shareCode": "307740914",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "saeenu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-renault-megane-r-s",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-20",
-      "drivetrain": "FWD",
-      "id": "sc-353630634",
-      "name": "Road Civic-swapped",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/05/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R.S.",
-            "sharecode": "353 630 634",
-            "suspension": "Street",
-            "tuneName": "Road Civic-swapped",
-            "tuner": "KapienPL",
-            "tyreCompound": "Rally"
-          },
-          "row": 2272,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Renault Megane R.S.",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Road Civic-swapped",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 2714,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "353630634",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-renault-megane-r-s",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-09",
-      "drivetrain": "FWD",
-      "id": "sc-689618980",
-      "metaRank": 88,
+      "id": "nc-d2a8797281",
+      "metaRank": 87,
       "name": "B road",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "09/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Renault",
-            "model": "Mégane R.S.",
-            "sharecode": "689 618 980",
-            "suspension": "Street",
-            "tuneName": "B road",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 2275,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2018 Renault Megane R.S.",
@@ -367,13 +146,80 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.643,
-      "shareCode": "689618980",
+      "score": 0.56,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
-      "tires": "rally",
       "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-renault-megane-r-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-d60cedbb82",
+      "metaRank": 87,
+      "name": "This Is A Civic",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Renault Megane R.S.",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "This Is A Civic",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 517,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-renault-megane-r-s",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-f608a44583",
+      "name": "Road Civic-swapped",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Renault Megane R.S.",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Civic-swapped",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2713,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

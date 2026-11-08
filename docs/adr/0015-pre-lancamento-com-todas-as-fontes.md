@@ -25,6 +25,11 @@ O dono quer publicar já, com tudo, para testar, colher opiniões e **convencer 
 - **Publicar só o que já pode** (playlist, carros, fotos): respeita o ADR-0010, mas o site fica sem o principal (as tunes) e convence menos.
 - **Prévia completa num endereço secreto:** dados igualmente expostos, sem o aviso público. Descartado.
 
+## Atualizações
+
+- **2026-11-08:** GBR Ozzy pediu para ficar de fora por enquanto: a fonte foi desligada (`permission: denied`, `active: false`) e a cópia salva da planilha apagada do repositório. Com isso, o site perdeu a maior parte dos códigos de compartilhamento (de 2675 para 73). kleis deu autorização expressa (`granted`). Os demais continuam em `prelaunch`.
+- **2026-11-08:** nova página **Uso de dados** (`/legal/`), com os mesmos tópicos da página do fh6meta.com, escrita com nossas palavras: o site não reivindica a posse de nada, só agrega e compila informações públicas; a fonte original é a referência; como pedir remoção ou correção; o que pode continuar existindo; sem garantia. Ela lista cada fonte com a situação da autorização.
+
 ## Consequências
 
 - **Positivas:** o site completo fica no ar para testes e para mostrar aos autores.

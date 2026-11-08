@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -27,7 +27,7 @@
             "Tuner": "NDL Shadow",
             "fill": "FF7030A0"
           },
-          "row": 2695,
+          "row": 2694,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -64,7 +64,7 @@
             "Tuner": "NDL Shadow",
             "fill": "FF7030A0"
           },
-          "row": 2696,
+          "row": 2695,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -80,29 +80,11 @@
       "carId": "2023-porsche-911-turbo-s",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-177997454",
+      "id": "nc-abdb1fbbf0",
       "name": "S1 Grip",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S",
-            "sharecode": "177 997 454",
-            "suspension": "Race",
-            "tuneName": "S1 Grip",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Slick"
-          },
-          "row": 2214,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2023 Porsche 911 Turbo S",
@@ -115,166 +97,16 @@
             "Tuner": "ESV Lawrence",
             "fill": "FF7030A0"
           },
-          "row": 2694,
+          "row": 2693,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.659,
-      "shareCode": "177997454",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "slick",
       "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-porsche-911-turbo-s",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "AWD",
-      "id": "sc-219170010",
-      "name": "S1 Dirt | 57.4 Sunflower",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S",
-            "sharecode": "219 170 010",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt | 57.4 Sunflower",
-            "tuner": "Whatuplosers917",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2217,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "219170010",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "whatuplosers917"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-porsche-911-turbo-s",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-19",
-      "drivetrain": "AWD",
-      "id": "sc-424991296",
-      "name": "A Road - Maxton Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S",
-            "sharecode": "424 991 296",
-            "suspension": "Sport",
-            "tuneName": "A Road - Maxton Kit",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2213,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.482,
-      "shareCode": "424991296",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-porsche-911-turbo-s",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-10",
-      "drivetrain": "AWD",
-      "id": "sc-809878123",
-      "name": "S1 Class - Road Racing",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "10/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S",
-            "sharecode": "809 878 123",
-            "suspension": "Race",
-            "tuneName": "S1 Class - Road Racing",
-            "tuner": "VNX Ardent",
-            "tyreCompound": "Rally"
-          },
-          "row": 2216,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.48,
-      "shareCode": "809878123",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-porsche-911-turbo-s",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-01",
-      "drivetrain": "AWD",
-      "id": "sc-886277353",
-      "name": "Chiheisen49.6",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "01/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Porsche",
-            "model": "911 Turbo S",
-            "sharecode": "886 277 353",
-            "suspension": "Rally",
-            "tuneName": "Chiheisen49.6",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2215,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.485,
-      "shareCode": "886277353",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "k1z-howzer"
     }
   ],
   "schemaVersion": 1

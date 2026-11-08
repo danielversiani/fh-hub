@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -67,6 +67,45 @@
     },
     {
       "buildTags": [
+        "purist"
+      ],
+      "carId": "1989-ferrari-f40-competizione",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-67713bd286",
+      "metaRank": 28,
+      "name": "S2 Purist Road | 09.6 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Ferrari F40 Competizione",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S2 Purist Road | 09.6 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FF0070C0"
+          },
+          "row": 1392,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
         "stock-look"
       ],
       "carId": "1989-ferrari-f40-competizione",
@@ -110,30 +149,12 @@
         "off-meta"
       ],
       "class": "S2",
-      "confidence": 0.85,
-      "createdAt": "2026-06-24",
+      "confidence": 0.8,
       "drivetrain": "AWD",
-      "id": "sc-113236407",
+      "id": "nc-ac9b473229",
       "metaRank": 28,
       "name": "S2 AWD Sprint",
       "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "24/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Ferrari",
-            "model": "F40 Competizione",
-            "sharecode": "113 236 407",
-            "suspension": "Race",
-            "tuneName": "S2 AWD Sprint",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 842,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1989 Ferrari F40 Competizione",
@@ -151,72 +172,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.617,
-      "shareCode": "113236407",
+      "score": 0.53,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
-      "tires": "offroad",
       "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1989-ferrari-f40-competizione",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "S2",
-      "confidence": 0.85,
-      "createdAt": "2026-06-02",
-      "drivetrain": "RWD",
-      "id": "sc-775087934",
-      "metaRank": 28,
-      "name": "S2 Purist Road | 09.6 Legend Island",
-      "observations": [
-        {
-          "raw": {
-            "class": "S2",
-            "date": "02/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Ferrari",
-            "model": "F40 Competizione",
-            "sharecode": "775 087 934",
-            "suspension": "Race",
-            "tuneName": "S2 Purist Road | 09.6 Legend Island",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 841,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1989 Ferrari F40 Competizione",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S2 Purist Road | 09.6 Legend Island",
-            "Tuner": "DRX Q3",
-            "fill": "FF0070C0"
-          },
-          "row": 1392,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.614,
-      "shareCode": "775087934",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -118,7 +118,7 @@
             "Tuner": "Alafatar",
             "fill": "FFFF0000"
           },
-          "row": 2884,
+          "row": 2883,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -185,7 +185,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2885,
+          "row": 2884,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -195,126 +195,6 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-toyota-tacoma-trd-pro",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-24",
-      "drivetrain": "AWD",
-      "id": "sc-149044630",
-      "metaRank": 6,
-      "name": "A CC Meta M/C v1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Tacoma TRD Pro",
-            "sharecode": "149 044 630",
-            "suspension": "Race",
-            "tuneName": "A CC Meta M/C v1.1",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2569,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.61,
-      "shareCode": "149044630",
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-toyota-tacoma-trd-pro",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-17",
-      "drivetrain": "AWD",
-      "id": "sc-562155897",
-      "metaRank": 6,
-      "name": "A Class Cross Country",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "17/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Tacoma TRD Pro",
-            "sharecode": "562 155 897",
-            "suspension": "Race",
-            "tuneName": "A Class Cross Country",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2568,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.61,
-      "shareCode": "562155897",
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-toyota-tacoma-trd-pro",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-05",
-      "drivetrain": "AWD",
-      "id": "sc-817381122",
-      "metaRank": 6,
-      "name": "A OFFROAD",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "05/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "Tacoma TRD Pro",
-            "sharecode": "817 381 122",
-            "suspension": "Race",
-            "tuneName": "A OFFROAD",
-            "tuner": "Zookiiwi",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2570,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.612,
-      "shareCode": "817381122",
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
     }
   ],
   "schemaVersion": 1

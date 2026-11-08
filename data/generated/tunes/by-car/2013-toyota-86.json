@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [
@@ -14,7 +14,7 @@
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-06d87cc31e",
-      "metaRank": 73,
+      "metaRank": 72,
       "name": "Purist street",
       "observations": [
         {
@@ -39,6 +39,45 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "koeseg"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2013-toyota-86",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-42f28cc123",
+      "metaRank": 72,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Toyota 86",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "VER Polaksz",
+            "fill": "FFED7D31"
+          },
+          "row": 633,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ver-polaksz"
     },
     {
       "buildTags": [],
@@ -148,12 +187,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 73,
+      "metaRank": 72,
       "name": "B road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 150,
+          "row": 148,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -167,46 +206,6 @@
       "tunerId": "noa-miyako"
     },
     {
-      "buildTags": [],
-      "carId": "2013-toyota-86",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-06",
-      "drivetrain": "RWD",
-      "id": "sc-141807201",
-      "metaRank": 73,
-      "name": "B Road",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "06/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "86",
-            "sharecode": "141 807 201",
-            "suspension": "Stock",
-            "tuneName": "B Road",
-            "tuner": "ATK Mang0",
-            "tyreCompound": "Standard"
-          },
-          "row": 2392,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.589,
-      "shareCode": "141807201",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "atk-mang0"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -216,30 +215,12 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-17",
+      "confidence": 0.8,
       "drivetrain": "RWD",
-      "id": "sc-153713289",
-      "metaRank": 73,
+      "id": "nc-af1266b2d5",
+      "metaRank": 72,
       "name": "Purist",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "17/07/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "86",
-            "sharecode": "153 713 289",
-            "suspension": "Street",
-            "tuneName": "Purist",
-            "tuner": "Dumbo GT49",
-            "tyreCompound": "Street"
-          },
-          "row": 2393,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2013 Toyota 86",
@@ -257,109 +238,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.676,
-      "shareCode": "153713289",
+      "score": 0.59,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "street",
       "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2013-toyota-86",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-31",
-      "drivetrain": "RWD",
-      "id": "sc-282611602",
-      "metaRank": 73,
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "31/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Toyota",
-            "model": "86",
-            "sharecode": "282 611 602",
-            "suspension": "Stock",
-            "tuneName": "Purist",
-            "tuner": "VER Polaksz",
-            "tyreCompound": "Street"
-          },
-          "row": 2394,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2013 Toyota 86",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "VER Polaksz",
-            "fill": "FFED7D31"
-          },
-          "row": 633,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.671,
-      "shareCode": "282611602",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "street",
-      "tunerId": "ver-polaksz"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-toyota-86",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-18",
-      "drivetrain": "AWD",
-      "id": "sc-844949398",
-      "name": "A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "18/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Toyota",
-            "model": "86",
-            "sharecode": "844 949 398",
-            "suspension": "Stock",
-            "tuneName": "A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2391,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "844949398",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

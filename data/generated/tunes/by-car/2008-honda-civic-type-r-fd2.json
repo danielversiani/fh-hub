@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -11,7 +11,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-2a39032b5e",
-      "metaRank": 131,
+      "metaRank": 134,
       "name": "1.8G Allround V3",
       "observations": [
         {
@@ -38,6 +38,44 @@
       "tunerId": "slowbakedpanda"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2008-honda-civic-type-r-fd2",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-5249cf80aa",
+      "metaRank": 106,
+      "name": "B Road - INGS Kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Honda Civic Type R",
+            "Comment": "Purist, INGS bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road - INGS Kit",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 376,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
       "buildTags": [],
       "carId": "2008-honda-civic-type-r-fd2",
       "categories": [
@@ -47,7 +85,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-5a3208a7eb",
-      "metaRank": 131,
+      "metaRank": 134,
       "name": "RR",
       "observations": [
         {
@@ -86,7 +124,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-69721da4ee",
-      "metaRank": 131,
+      "metaRank": 134,
       "name": "A Road - Mugen Kit",
       "observations": [
         {
@@ -136,12 +174,12 @@
         "en": "Needs throttle control; mid-power FWD; slow launch.",
         "pt-br": "Exige controle do acelerador; tração dianteira de potência média; largada lenta."
       },
-      "metaRank": 131,
+      "metaRank": 134,
       "name": "A road FWD",
       "observations": [
         {
           "raw": {},
-          "row": 268,
+          "row": 274,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -166,7 +204,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-73e17fdb66",
-      "metaRank": 131,
+      "metaRank": 134,
       "name": "Stock Look A Road",
       "observations": [
         {
@@ -191,6 +229,45 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2008-honda-civic-type-r-fd2",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-8768c38eaf",
+      "metaRank": 134,
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Honda Civic Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 1745,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.417,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "zaz490"
     },
     {
       "buildTags": [
@@ -239,8 +316,44 @@
       "class": "A",
       "confidence": 0.8,
       "drivetrain": "FWD",
+      "id": "nc-9a827a33bf",
+      "metaRank": 134,
+      "name": "Road Handling (Turbolag)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Honda Civic Type R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling (Turbolag)",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF0000"
+          },
+          "row": 1741,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.417,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-honda-civic-type-r-fd2",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
       "id": "nc-ac9a67b3f5",
-      "metaRank": 131,
+      "metaRank": 134,
       "name": "Widebody Drifts",
       "observations": [
         {
@@ -276,7 +389,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-af0a0ce242",
-      "metaRank": 131,
+      "metaRank": 134,
       "name": "320 1.8G Sprint V2",
       "observations": [
         {
@@ -357,29 +470,50 @@
         "purist"
       ],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
+      "confidence": 0.8,
       "drivetrain": "FWD",
-      "id": "sc-106233863",
-      "name": "Purist Mugen Wing",
+      "id": "nc-d4e68446dc",
+      "metaRank": 106,
+      "name": "Purist | Ings kit",
       "observations": [
         {
           "raw": {
-            "class": "B",
-            "date": "11/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "106 233 863",
-            "suspension": "Street",
-            "tuneName": "Purist Mugen Wing",
-            "tuner": "zombiejesus52",
-            "tyreCompound": "Rally"
+            "Car": "2008 Honda Civic Type R",
+            "Comment": "Purist, INGS bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist | Ings kit",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
           },
-          "row": 1163,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
+          "row": 375,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2008-honda-civic-type-r-fd2",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-eb848f82de",
+      "metaRank": 106,
+      "name": "Purist Mugen Wing",
+      "observations": [
         {
           "raw": {
             "Car": "2008 Honda Civic Type R",
@@ -397,229 +531,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.663,
-      "shareCode": "106233863",
-      "surface": "dirt",
+      "score": 0.485,
+      "surface": "road",
       "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
+      "tierSource": "meta-table",
       "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-honda-civic-type-r-fd2",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-27",
-      "drivetrain": "FWD",
-      "id": "sc-109011189",
-      "name": "Purist | Ings Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "27/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "109 011 189",
-            "suspension": "Street",
-            "tuneName": "Purist | Ings Kit",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Rally"
-          },
-          "row": 1156,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 Honda Civic Type R",
-            "Comment": "Purist, INGS bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist | Ings kit",
-            "Tuner": "DRX Q3",
-            "fill": "FFED7D31"
-          },
-          "row": 375,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {
-            "Car": "2008 Honda Civic Type R",
-            "Comment": "Purist, INGS bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Purist | Ings kit",
-            "Tuner": "DRX Q3",
-            "fill": "FFFF0000"
-          },
-          "row": 1737,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.674,
-      "shareCode": "109011189",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-honda-civic-type-r-fd2",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-11",
-      "drivetrain": "FWD",
-      "id": "sc-114531362",
-      "metaRank": 106,
-      "name": "B Road - INGS Kit",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "11/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "114 531 362",
-            "suspension": "Street",
-            "tuneName": "B Road - INGS Kit",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1161,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 Honda Civic Type R",
-            "Comment": "Purist, INGS bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "B Road - INGS Kit",
-            "Tuner": "K1Z Bard",
-            "fill": "FFED7D31"
-          },
-          "row": 376,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.573,
-      "shareCode": "114531362",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-honda-civic-type-r-fd2",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-11",
-      "drivetrain": "FWD",
-      "id": "sc-123161382",
-      "metaRank": 131,
-      "name": "Road Handling (Turbolag)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "123 161 382",
-            "suspension": "Street",
-            "tuneName": "Road Handling (Turbolag)",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1158,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2008 Honda Civic Type R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Road Handling (Turbolag)",
-            "Tuner": "LetzeLU",
-            "fill": "FFFF0000"
-          },
-          "row": 1741,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.51,
-      "shareCode": "123161382",
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
       "carId": "2008-honda-civic-type-r-fd2",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-145318349",
+      "id": "nc-ec06dabf85",
       "name": "S1 Dirt lol?",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "145 318 349",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt lol?",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1164,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2008 Honda Civic Type R",
@@ -637,12 +564,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.663,
-      "shareCode": "145318349",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "kapienpl"
     },
     {
@@ -651,212 +576,38 @@
       ],
       "carId": "2008-honda-civic-type-r-fd2",
       "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-13",
-      "drivetrain": "FWD",
-      "id": "sc-183954065",
-      "metaRank": 106,
-      "name": "B Road Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "13/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "183 954 065",
-            "suspension": "Street",
-            "tuneName": "B Road Purist",
-            "tuner": "Whatuplosers917",
-            "tyreCompound": "Rally"
-          },
-          "row": 1162,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "183954065",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "whatuplosers917"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2008-honda-civic-type-r-fd2",
-      "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
+      "confidence": 0.8,
       "drivetrain": "FWD",
-      "id": "sc-200643164",
-      "name": "purist",
+      "id": "nc-f6b2b63050",
+      "metaRank": 134,
+      "name": "Purist | Ings kit",
       "observations": [
         {
           "raw": {
-            "class": "A",
-            "date": "11/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "200 643 164",
-            "suspension": "Street",
-            "tuneName": "purist",
-            "tuner": "ZaZ490",
-            "tyreCompound": "Rally"
-          },
-          "row": 1160,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
             "Car": "2008 Honda Civic Type R",
-            "Comment": "Purist",
+            "Comment": "Purist, INGS bodykit",
             "Design": "",
             "Designer": "",
             "Drivetrain": "FWD",
             "Terrain": "Road",
-            "Tune": "purist",
-            "Tuner": "ZaZ490",
+            "Tune": "Purist | Ings kit",
+            "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 1745,
+          "row": 1737,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.663,
-      "shareCode": "200643164",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "zaz490"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-honda-civic-type-r-fd2",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-08",
-      "drivetrain": "FWD",
-      "id": "sc-213594565",
-      "name": "1.8G Handling Sprint V3",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/07/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "213 594 565",
-            "suspension": "Street",
-            "tuneName": "1.8G Handling Sprint V3",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Rally"
-          },
-          "row": 1159,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.487,
-      "shareCode": "213594565",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-honda-civic-type-r-fd2",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-13",
-      "drivetrain": "AWD",
-      "id": "sc-535652221",
-      "name": "Dirty Mugen RR 54",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "535 652 221",
-            "suspension": "Rally",
-            "tuneName": "Dirty Mugen RR 54",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1155,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.481,
-      "shareCode": "535652221",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-honda-civic-type-r-fd2",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-13",
-      "drivetrain": "FWD",
-      "id": "sc-876065486",
-      "metaRank": 131,
-      "name": "A Road - Mugen Kit V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "13/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2008)",
-            "sharecode": "876 065 486",
-            "suspension": "Street",
-            "tuneName": "A Road - Mugen Kit V1.1",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 1157,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.424,
-      "shareCode": "876065486",
+      "score": 0.417,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
+      "tunerId": "drx-q3"
     }
   ],
   "schemaVersion": 1

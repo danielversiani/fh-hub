@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -36,6 +36,42 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-chevrolet-nova-super-sport-396",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0e8bf94320",
+      "metaRank": 2,
+      "name": "Strong A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Chevrolet Nova Super Sport 396",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 1093,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.618,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
@@ -78,6 +114,75 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-chevrolet-nova-super-sport-396",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-50db92f08c",
+      "name": "S1 dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Chevrolet Nova Super Sport 396",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt/CC",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1101,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-chevrolet-nova-super-sport-396",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-56ca5dc6f6",
+      "metaRank": 49,
+      "name": "1.7G AWD Sprint V1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Chevrolet Nova Super Sport 396",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "1.7G AWD Sprint V1",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 1099,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
     },
     {
       "buildTags": [],
@@ -129,6 +234,78 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-chevrolet-nova-super-sport-396",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-6bdc4f57b1",
+      "metaRank": 2,
+      "name": "Dirt Vette Motor",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Chevrolet Nova Super Sport 396",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Vette Motor",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1095,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.618,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-chevrolet-nova-super-sport-396",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-7cde2e6aa4",
+      "metaRank": 31,
+      "name": "B Accel Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Chevrolet Nova Super Sport 396",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Accel Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFED7D31"
+          },
+          "row": 212,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [],
@@ -201,7 +378,7 @@
         },
         {
           "raw": {},
-          "row": 163,
+          "row": 161,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -335,6 +512,42 @@
       "tunerId": "lphanhan"
     },
     {
+      "buildTags": [],
+      "carId": "1969-chevrolet-nova-super-sport-396",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-d26eada218",
+      "metaRank": 2,
+      "name": "Strong A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Chevrolet Nova Super Sport 396",
+            "Comment": "",
+            "Design": "RUST BUCKET",
+            "Designer": "xB33N3Yx83xKIDx",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong A Dirt",
+            "Tuner": "trviis",
+            "fill": "FFFF0000"
+          },
+          "row": 1096,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.618,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "trviis"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -403,376 +616,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-chevrolet-nova-super-sport-396",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-05-26",
-      "drivetrain": "AWD",
-      "id": "sc-110647035",
-      "metaRank": 2,
-      "name": "Dirt Vette Motor",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Nova Super Sport 396",
-            "sharecode": "110 647 035",
-            "suspension": "Rally",
-            "tuneName": "Dirt Vette Motor",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 587,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Chevrolet Nova Super Sport 396",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Vette Motor",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 1095,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.697,
-      "shareCode": "110647035",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-chevrolet-nova-super-sport-396",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-24",
-      "drivetrain": "RWD",
-      "id": "sc-121828160",
-      "metaRank": 31,
-      "name": "B Accel Allround",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "24/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Nova Super Sport 396",
-            "sharecode": "121 828 160",
-            "suspension": "Stock",
-            "tuneName": "B Accel Allround",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Vintage"
-          },
-          "row": 589,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Chevrolet Nova Super Sport 396",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "B Accel Allround",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFED7D31"
-          },
-          "row": 212,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.567,
-      "shareCode": "121828160",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-chevrolet-nova-super-sport-396",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-15",
-      "drivetrain": "AWD",
-      "id": "sc-166710331",
-      "metaRank": 2,
-      "name": "Strong A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Nova Super Sport 396",
-            "sharecode": "166 710 331",
-            "suspension": "Rally",
-            "tuneName": "Strong A Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 585,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Chevrolet Nova Super Sport 396",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong A Dirt",
-            "Tuner": "KapienPL",
-            "fill": "FFFF0000"
-          },
-          "row": 1093,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.699,
-      "shareCode": "166710331",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-chevrolet-nova-super-sport-396",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-05-21",
-      "drivetrain": "AWD",
-      "id": "sc-209492436",
-      "name": "S1 dirt/CC",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "21/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Nova Super Sport 396",
-            "sharecode": "209 492 436",
-            "suspension": "Race",
-            "tuneName": "S1 dirt/CC",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 591,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Chevrolet Nova Super Sport 396",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 dirt/CC",
-            "Tuner": "IceFrice8724",
-            "fill": "FF7030A0"
-          },
-          "row": 1101,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.658,
-      "shareCode": "209492436",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-chevrolet-nova-super-sport-396",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-07",
-      "drivetrain": "AWD",
-      "id": "sc-397225374",
-      "metaRank": 2,
-      "name": "1.7G AWD Sprint V1",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Nova Super Sport 396",
-            "sharecode": "397 225 374",
-            "suspension": "Rally",
-            "tuneName": "1.7G AWD Sprint V1",
-            "tuner": "SlowBakedPanda",
-            "tyreCompound": "Rally"
-          },
-          "row": 586,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Chevrolet Nova Super Sport 396",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "1.7G AWD Sprint V1",
-            "Tuner": "SlowBakedPanda",
-            "fill": "FFFF0000"
-          },
-          "row": 1099,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.698,
-      "shareCode": "397225374",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "slowbakedpanda"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-chevrolet-nova-super-sport-396",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-07",
-      "drivetrain": "AWD",
-      "id": "sc-550296065",
-      "metaRank": 2,
-      "name": "Strong A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "07/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Nova Super Sport 396",
-            "sharecode": "550 296 065",
-            "suspension": "Street",
-            "tuneName": "Strong A Dirt",
-            "tuner": "trviis",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 588,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1969 Chevrolet Nova Super Sport 396",
-            "Comment": "",
-            "Design": "RUST BUCKET",
-            "Designer": "xB33N3Yx83xKIDx",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong A Dirt",
-            "Tuner": "trviis",
-            "fill": "FFFF0000"
-          },
-          "row": 1096,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.698,
-      "shareCode": "550296065",
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "trviis"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-chevrolet-nova-super-sport-396",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-666503416",
-      "name": "Strong B Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Nova Super Sport 396",
-            "sharecode": "666 503 416",
-            "suspension": "Stock",
-            "tuneName": "Strong B Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 590,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "666503416",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
     }
   ],
   "schemaVersion": 1

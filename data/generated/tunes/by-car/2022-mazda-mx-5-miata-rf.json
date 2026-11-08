@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "keerj",
             "fill": "FFFF0000"
           },
-          "row": 2188,
+          "row": 2187,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "ESV Rapture",
             "fill": "FFFF0000"
           },
-          "row": 2184,
+          "row": 2183,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -66,6 +66,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-mazda-mx-5-miata-rf",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-2deb0be7a1",
+      "name": "A Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Mazda MX-5 Miata RF",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Purist",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 2186,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [],
@@ -89,7 +126,7 @@
             "Tuner": "IceFrice8724",
             "fill": "FFFF0000"
           },
-          "row": 2186,
+          "row": 2185,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -122,7 +159,7 @@
             "Tuner": "IceFrice8724",
             "fill": "FFFF0000"
           },
-          "row": 2185,
+          "row": 2184,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -132,215 +169,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-mazda-mx-5-miata-rf",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-29",
-      "drivetrain": "AWD",
-      "id": "sc-117752973",
-      "name": "A - Togue / Grip",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata RF",
-            "sharecode": "117 752 973",
-            "suspension": "Race",
-            "tuneName": "A - Togue / Grip",
-            "tuner": "ESV Rapture",
-            "tyreCompound": "Rally"
-          },
-          "row": 1609,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "117752973",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2022-mazda-mx-5-miata-rf",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-29",
-      "drivetrain": "RWD",
-      "id": "sc-121350225",
-      "name": "A Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "29/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata RF",
-            "sharecode": "121 350 225",
-            "suspension": "Race",
-            "tuneName": "A Purist",
-            "tuner": "ESV Lawrence",
-            "tyreCompound": "Sport"
-          },
-          "row": 1608,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2022 Mazda MX-5 Miata RF",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Purist",
-            "Tuner": "ESV Lawrence",
-            "fill": "FFFF0000"
-          },
-          "row": 2187,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.66,
-      "shareCode": "121350225",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "sport",
-      "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-mazda-mx-5-miata-rf",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-30",
-      "drivetrain": "AWD",
-      "id": "sc-150478205",
-      "name": "S1 Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata RF",
-            "sharecode": "150 478 205",
-            "suspension": "Race",
-            "tuneName": "S1 Dirt",
-            "tuner": "KapienPL",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1612,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "150478205",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2022-mazda-mx-5-miata-rf",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-25",
-      "drivetrain": "RWD",
-      "id": "sc-258980846",
-      "name": "purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/05/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata RF",
-            "sharecode": "258 980 846",
-            "suspension": "Street",
-            "tuneName": "purist",
-            "tuner": "K1Z Bala",
-            "tyreCompound": "Rally"
-          },
-          "row": 1610,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "258980846",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bala"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-mazda-mx-5-miata-rf",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-26",
-      "drivetrain": "RWD",
-      "id": "sc-340866116",
-      "name": "Sugoi Togue Raceru",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Mazda",
-            "model": "MX-5 Miata RF",
-            "sharecode": "340 866 116",
-            "suspension": "Street",
-            "tuneName": "Sugoi Togue Raceru",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 1611,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.484,
-      "shareCode": "340866116",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "keerj"
     }
   ],
   "schemaVersion": 1

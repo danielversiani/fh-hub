@@ -1,6 +1,129 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2017-chevrolet-camaro-zl1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7dac05bc9b",
+      "name": "Dirty Widebody",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Chevrolet Camaro ZL1",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty Widebody",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 1136,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-chevrolet-camaro-zl1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-7e0ce9248c",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9 手感最好的拉力胎 均衡性能",
+      "metaNotesI18n": {
+        "en": "The best-feeling rally tire setup; balanced performance.",
+        "pt-br": "O pneu de rali com a melhor sensação; desempenho equilibrado."
+      },
+      "metaRank": 48,
+      "name": "2018 Top Gear Track-Tor",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Chevrolet Camaro ZL1",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "2018 Top Gear Track-Tor",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1137,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2017-chevrolet-camaro-zl1",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-d920845655",
+      "metaRank": 48,
+      "name": "A Road I Have a Harem of Swaps, yet I Chose to be Purist Anyways",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Chevrolet Camaro ZL1",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road I Have a Harem of Swaps, yet I Chose to be Purist Anyways",
+            "Tuner": "GoodReiShun",
+            "fill": "FFFF0000"
+          },
+          "row": 1138,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "goodreishun"
+    },
     {
       "buildTags": [],
       "carId": "2017-chevrolet-camaro-zl1",
@@ -42,302 +165,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2017-chevrolet-camaro-zl1",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-20",
-      "drivetrain": "RWD",
-      "id": "sc-106041842",
-      "metaRank": 48,
-      "name": "A Road I Have a Harem of Swaps, yet I Chose to be Purist Anyways",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "20/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro ZL1 (2017)",
-            "sharecode": "106 041 842",
-            "suspension": "Sport",
-            "tuneName": "A Road I Have a Harem of Swaps, yet I Chose to be Purist Anyways",
-            "tuner": "GoodReiShun",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 459,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2017 Chevrolet Camaro ZL1",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "A Road I Have a Harem of Swaps, yet I Chose to be Purist Anyways",
-            "Tuner": "GoodReiShun",
-            "fill": "FFFF0000"
-          },
-          "row": 1138,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "106041842",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "goodreishun"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-chevrolet-camaro-zl1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-19",
-      "drivetrain": "AWD",
-      "id": "sc-134624252",
-      "name": "Strong A Dirt",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "19/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro ZL1 (2017)",
-            "sharecode": "134 624 252",
-            "suspension": "Rally",
-            "tuneName": "Strong A Dirt",
-            "tuner": "Korrrupt EU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 462,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.489,
-      "shareCode": "134624252",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "korrrupt-eu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-chevrolet-camaro-zl1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-11",
-      "drivetrain": "AWD",
-      "id": "sc-147175069",
-      "name": "STOP RIGHT THERE CRIMINAL SCUM",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro ZL1 (2017)",
-            "sharecode": "147 175 069",
-            "suspension": "Sport",
-            "tuneName": "STOP RIGHT THERE CRIMINAL SCUM",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Rally"
-          },
-          "row": 460,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.48,
-      "shareCode": "147175069",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-chevrolet-camaro-zl1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-11",
-      "drivetrain": "AWD",
-      "id": "sc-151150269",
-      "metaRank": 48,
-      "name": "Road AWD Widebody Very Strong (Stock Rims)",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "11/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro ZL1 (2017)",
-            "sharecode": "151 150 269",
-            "suspension": "Sport",
-            "tuneName": "Road AWD Widebody Very Strong (Stock Rims)",
-            "tuner": "LogikJ",
-            "tyreCompound": "Rally"
-          },
-          "row": 463,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.586,
-      "shareCode": "151150269",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-chevrolet-camaro-zl1",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-24",
-      "drivetrain": "AWD",
-      "id": "sc-555583917",
-      "name": "Dirty Widebody",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "24/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro ZL1 (2017)",
-            "sharecode": "555 583 917",
-            "suspension": "Sport",
-            "tuneName": "Dirty Widebody",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 458,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2017 Chevrolet Camaro ZL1",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirty Widebody",
-            "Tuner": "Cast Haste",
-            "fill": "FFFF0000"
-          },
-          "row": 1136,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.666,
-      "shareCode": "555583917",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-chevrolet-camaro-zl1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-08",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-631757165",
-      "lapRefs": [
-        {
-          "time": "59.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.9 手感最好的拉力胎 均衡性能",
-      "metaNotesI18n": {
-        "en": "The best-feeling rally tire setup; balanced performance.",
-        "pt-br": "O pneu de rali com a melhor sensação; desempenho equilibrado."
-      },
-      "metaRank": 48,
-      "name": "2018 Top Gear Track-Tor",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "08/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Chevrolet",
-            "model": "Camaro ZL1 (2017)",
-            "sharecode": "631 757 165",
-            "suspension": "Sport",
-            "tuneName": "2018 Top Gear Track-Tor",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 461,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2017 Chevrolet Camaro ZL1",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "2018 Top Gear Track-Tor",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1137,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.717,
-      "shareCode": "631757165",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

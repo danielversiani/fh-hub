@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-subaru-wrx",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-588b36eb8d",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Subaru WRX",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2804,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
     {
       "buildTags": [
         "stock-look"
@@ -37,90 +74,15 @@
       "tunerId": "logikj"
     },
     {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2022-subaru-wrx",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-15",
-      "drivetrain": "AWD",
-      "id": "sc-112124780",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "15/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "WRX",
-            "sharecode": "112 124 780",
-            "suspension": "Stock",
-            "tuneName": "Purist",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Rally"
-          },
-          "row": 2376,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2022 Subaru WRX",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Purist",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 2805,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.656,
-      "shareCode": "112124780",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
       "buildTags": [],
       "carId": "2022-subaru-wrx",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-28",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-125557520",
+      "id": "nc-bea72daf87",
       "name": "B Road",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "28/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "WRX",
-            "sharecode": "125 557 520",
-            "suspension": "Stock",
-            "tuneName": "B Road",
-            "tuner": "K1Z Bard",
-            "tyreCompound": "Street"
-          },
-          "row": 2378,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2022 Subaru WRX",
@@ -138,12 +100,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.659,
-      "shareCode": "125557520",
+      "score": 0.474,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "street",
       "tunerId": "k1z-bard"
     },
     {
@@ -151,29 +111,11 @@
       "carId": "2022-subaru-wrx",
       "categories": [],
       "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-28",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-135003365",
+      "id": "nc-c867f6f85e",
       "name": "Traffic Car",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "28/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "WRX",
-            "sharecode": "135 003 365",
-            "suspension": "Stock",
-            "tuneName": "Traffic Car",
-            "tuner": "wisteriadrop",
-            "tyreCompound": "Rally"
-          },
-          "row": 2377,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2022 Subaru WRX",
@@ -186,55 +128,16 @@
             "Tuner": "wisteriadrop",
             "fill": "FFFF0000"
           },
-          "row": 2806,
+          "row": 2805,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.659,
-      "shareCode": "135003365",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "wisteriadrop"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-subaru-wrx",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-23",
-      "drivetrain": "AWD",
-      "id": "sc-963086973",
-      "name": "Dirt 1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "WRX",
-            "sharecode": "963 086 973",
-            "suspension": "Rally",
-            "tuneName": "Dirt 1.1",
-            "tuner": "NDL RB38",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2379,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.483,
-      "shareCode": "963086973",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "ndl-rb38"
     }
   ],
   "schemaVersion": 1

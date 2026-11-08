@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -25,12 +25,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 123,
+      "metaRank": 126,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 251,
+          "row": 257,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -90,7 +90,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-a97095ebcc",
-      "metaRank": 89,
+      "metaRank": 88,
       "name": "B critter",
       "observations": [
         {
@@ -171,12 +171,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 89,
+      "metaRank": 88,
       "name": "B road AWD",
       "observations": [
         {
           "raw": {},
-          "row": 183,
+          "row": 181,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -193,119 +193,39 @@
       "buildTags": [],
       "carId": "1994-subaru-vivio-rx-r",
       "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-22",
-      "drivetrain": "AWD",
-      "id": "sc-131538123",
-      "name": "Dirty VTEC boi",
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "engine": "Stock",
+      "id": "sc-114268362",
+      "name": "remove FEs from the game",
       "observations": [
         {
           "raw": {
-            "class": "A",
-            "date": "22/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Vivio RX-R",
-            "sharecode": "131 538 123",
-            "suspension": "Rally",
-            "tuneName": "Dirty VTEC boi",
-            "tuner": "Cynamon21",
-            "tyreCompound": "Off-Road"
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "FWD",
+            "Engine": "Stock",
+            "Make": "Subaru",
+            "Model": "Vivio RX-R FE",
+            "Road Surface": "Road",
+            "Share Code": "114268362",
+            "Tires": "Rally",
+            "Tune Name": "remove FEs from the game",
+            "Year": "1994"
           },
-          "row": 2370,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
+          "row": 73,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
         }
       ],
-      "score": 0.476,
-      "shareCode": "131538123",
-      "surface": null,
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cynamon21"
-    },
-    {
-      "buildTags": [],
-      "carId": "1994-subaru-vivio-rx-r",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-05-25",
-      "drivetrain": "AWD",
-      "id": "sc-354871871",
-      "metaRank": 28,
-      "name": "Civic Engine Dirt Racing",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "25/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Vivio RX-R",
-            "sharecode": "354 871 871",
-            "suspension": "Street",
-            "tuneName": "Civic Engine Dirt Racing",
-            "tuner": "GreetedDust8",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2372,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.584,
-      "shareCode": "354871871",
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1994-subaru-vivio-rx-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-05-26",
-      "drivetrain": "AWD",
-      "id": "sc-896384721",
-      "name": "Purist",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "26/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Subaru",
-            "model": "Vivio RX-R",
-            "sharecode": "896 384 721",
-            "suspension": "Race",
-            "tuneName": "Purist",
-            "tuner": "RazkinzMango",
-            "tyreCompound": "Rally"
-          },
-          "row": 2371,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.476,
-      "shareCode": "896384721",
-      "surface": "dirt",
+      "score": 0.416,
+      "shareCode": "114268362",
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
       "tires": "rally",
-      "tunerId": "razkinzmango"
+      "tunerId": "k1z-gray"
     }
   ],
   "schemaVersion": 1

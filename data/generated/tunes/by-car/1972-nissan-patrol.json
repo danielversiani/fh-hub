@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -33,6 +33,40 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-nissan-patrol",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-16674944ca",
+      "metaRank": 47,
+      "name": "Dirt Circuit T1.5 Sunflower 04.9 M/C",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Nissan Patrol",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Circuit T1.5 Sunflower 04.9 M/C",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 453,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
     },
     {
       "buildTags": [
@@ -161,7 +195,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2392,
+          "row": 2391,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -323,6 +357,73 @@
       "buildTags": [],
       "carId": "1972-nissan-patrol",
       "categories": [],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-bf4aff6bc0",
+      "metaRank": 47,
+      "name": "B Dirt All-Around (M/C) - Shift @7k RPM",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Nissan Patrol",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt All-Around (M/C) - Shift @7k RPM",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 452,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-nissan-patrol",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c49c1a603a",
+      "name": "This is why japan lost ww2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Nissan Patrol",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "This is why japan lost ww2",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 2392,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-nissan-patrol",
+      "categories": [],
       "class": "D",
       "confidence": 0.35,
       "drivetrain": "AWD",
@@ -351,6 +452,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-nissan-patrol",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-cef33f4b38",
+      "name": "A Cross Country",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Nissan Patrol",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Cross Country",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 2390,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
@@ -426,295 +560,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-08-11",
-      "drivetrain": "AWD",
-      "id": "sc-129547848",
-      "name": "B Dirt / CC Circuits (LS)",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "11/08/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Patrol",
-            "sharecode": "129 547 848",
-            "suspension": "Rally",
-            "tuneName": "B Dirt / CC Circuits (LS)",
-            "tuner": "DRX Q3",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1983,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.495,
-      "shareCode": "129547848",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-23",
-      "drivetrain": "AWD",
-      "id": "sc-145896618",
-      "metaRank": 47,
-      "name": "B Dirt All-Around (M/C) - Shift @7k RPM",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Patrol",
-            "sharecode": "145 896 618",
-            "suspension": "Rally",
-            "tuneName": "B Dirt All-Around (M/C) - Shift @7k RPM",
-            "tuner": "TheDannny",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1984,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1972 Nissan Patrol",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt All-Around (M/C) - Shift @7k RPM",
-            "Tuner": "TheDannny",
-            "fill": "FFED7D31"
-          },
-          "row": 452,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.578,
-      "shareCode": "145896618",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-23",
-      "drivetrain": "AWD",
-      "id": "sc-163164185",
-      "name": "This is why japan lost ww2",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Patrol",
-            "sharecode": "163 164 185",
-            "suspension": "Stock",
-            "tuneName": "This is why japan lost ww2",
-            "tuner": "SilvaSUPERBEE",
-            "tyreCompound": "Rally"
-          },
-          "row": 1980,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1972 Nissan Patrol",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "This is why japan lost ww2",
-            "Tuner": "SilvaSUPERBEE",
-            "fill": "FFFF0000"
-          },
-          "row": 2393,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "163164185",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "rally",
-      "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-23",
-      "drivetrain": "AWD",
-      "id": "sc-182722807",
-      "metaRank": 47,
-      "name": "Dirt Circuit T1.5 Sunflower 04.9 M/C",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Patrol",
-            "sharecode": "182 722 807",
-            "suspension": "Rally",
-            "tuneName": "Dirt Circuit T1.5 Sunflower 04.9 M/C",
-            "tuner": "ZVTCJAU",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1985,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1972 Nissan Patrol",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Circuit T1.5 Sunflower 04.9 M/C",
-            "Tuner": "ZVTCJAU",
-            "fill": "FFED7D31"
-          },
-          "row": 453,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.578,
-      "shareCode": "182722807",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-07-23",
-      "drivetrain": "AWD",
-      "id": "sc-766140885",
-      "metaRank": 47,
-      "name": "4.8 Dirt V1.1",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Patrol",
-            "sharecode": "766 140 885",
-            "suspension": "Rally",
-            "tuneName": "4.8 Dirt V1.1",
-            "tuner": "AIONS580Pio",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1982,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.492,
-      "shareCode": "766140885",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-07-23",
-      "drivetrain": "AWD",
-      "id": "sc-885721217",
-      "name": "A Cross Country",
-      "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "23/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Nissan",
-            "model": "Patrol",
-            "sharecode": "885 721 217",
-            "suspension": "Rally",
-            "tuneName": "A Cross Country",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1981,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "1972 Nissan Patrol",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Cross Country",
-            "Tuner": "SR1 Rain",
-            "fill": "FFFF0000"
-          },
-          "row": 2391,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.673,
-      "shareCode": "885721217",
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
     }
   ],
   "schemaVersion": 1

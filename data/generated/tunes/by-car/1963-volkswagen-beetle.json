@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
@@ -40,61 +40,10 @@
       "categories": [],
       "class": "A",
       "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-ffcbaf3ed8",
-      "name": "K20A Dirt Allround OFFMETA Sunflower 59.6 A/M",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1963 Volkswagen Beetle",
-            "Comment": "",
-            "Design": "G1 BUMBLEBEE",
-            "Designer": "Devistayte6079",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "K20A Dirt Allround OFFMETA Sunflower 59.6 A/M",
-            "Tuner": "ZVTCJAU",
-            "fill": "FFFF0000"
-          },
-          "row": 2973,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "1963-volkswagen-beetle",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
       "drivetrain": "RWD",
-      "id": "sc-149673533",
+      "id": "nc-d1547b046d",
       "name": "Decian que cargaba el diablo, mentiras no traia nada",
       "observations": [
-        {
-          "raw": {
-            "class": "A",
-            "date": "25/06/2026",
-            "drivetrain": "RWD",
-            "manufacturer": "Volkswagen",
-            "model": "Beetle",
-            "sharecode": "149 673 533",
-            "suspension": "Race",
-            "tuneName": "Decian que cargaba el diablo, mentiras no traia nada",
-            "tuner": "keerj",
-            "tyreCompound": "Rally"
-          },
-          "row": 2607,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1963 Volkswagen Beetle",
@@ -107,17 +56,15 @@
             "Tuner": "keerj",
             "fill": "FFFF0000"
           },
-          "row": 2974,
+          "row": 2973,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "149673533",
-      "surface": "dirt",
+      "score": 0.474,
+      "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "rally",
       "tunerId": "keerj"
     },
     {
@@ -125,29 +72,11 @@
       "carId": "1963-volkswagen-beetle",
       "categories": [],
       "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-25",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-153097423",
+      "id": "nc-fcf0db8e65",
       "name": "Ojisan Fernando",
       "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "25/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Beetle",
-            "sharecode": "153 097 423",
-            "suspension": "Stock",
-            "tuneName": "Ojisan Fernando",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2608,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "1963 Volkswagen Beetle",
@@ -165,50 +94,44 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.666,
-      "shareCode": "153097423",
+      "score": 0.474,
       "surface": null,
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],
       "carId": "1963-volkswagen-beetle",
       "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-05-30",
+      "class": "A",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-871995243",
-      "name": "Papa Fernando's Rally Car",
+      "id": "nc-ffcbaf3ed8",
+      "name": "K20A Dirt Allround OFFMETA Sunflower 59.6 A/M",
       "observations": [
         {
           "raw": {
-            "class": "B",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "Beetle",
-            "sharecode": "871 995 243",
-            "suspension": "Street",
-            "tuneName": "Papa Fernando's Rally Car",
-            "tuner": "SR1 Rain",
-            "tyreCompound": "Off-Road"
+            "Car": "1963 Volkswagen Beetle",
+            "Comment": "",
+            "Design": "G1 BUMBLEBEE",
+            "Designer": "Devistayte6079",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "K20A Dirt Allround OFFMETA Sunflower 59.6 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
           },
-          "row": 2609,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
+          "row": 2972,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
-      "score": 0.477,
-      "shareCode": "871995243",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "sr1-rain"
+      "tunerId": "zvtcjau"
     }
   ],
   "schemaVersion": 1

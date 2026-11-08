@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-11-08T21:12:04.363Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2004-honda-civic-type-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-511a335d2e",
+      "metaRank": 81,
+      "name": "B road purist w/kit V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2004 Honda Civic Type R",
+            "Comment": "Purist, bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B road purist w/kit V2",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 373,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
+    },
     {
       "buildTags": [],
       "carId": "2004-honda-civic-type-r",
@@ -25,12 +64,12 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 82,
+      "metaRank": 81,
       "name": "B road FWD",
       "observations": [
         {
           "raw": {},
-          "row": 169,
+          "row": 167,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
@@ -42,102 +81,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2004-honda-civic-type-r",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.85,
-      "createdAt": "2026-06-16",
-      "drivetrain": "FWD",
-      "id": "sc-121198646",
-      "metaRank": 82,
-      "name": "B road purist w/kit V2",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "16/06/2026",
-            "drivetrain": "FWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2004)",
-            "sharecode": "121 198 646",
-            "suspension": "Street",
-            "tuneName": "B road purist w/kit V2",
-            "tuner": "IceFrice8724",
-            "tyreCompound": "Rally"
-          },
-          "row": 1153,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2004 Honda Civic Type R",
-            "Comment": "Purist, bodykit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "B road purist w/kit V2",
-            "Tuner": "IceFrice8724",
-            "fill": "FFED7D31"
-          },
-          "row": 373,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.644,
-      "shareCode": "121198646",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2004-honda-civic-type-r",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.4,
-      "createdAt": "2026-06-03",
-      "drivetrain": "AWD",
-      "id": "sc-634372994",
-      "name": "My Dirt EP3",
-      "observations": [
-        {
-          "raw": {
-            "class": "B",
-            "date": "03/06/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Honda",
-            "model": "Civic Type R (2004)",
-            "sharecode": "634 372 994",
-            "suspension": "Street",
-            "tuneName": "My Dirt EP3",
-            "tuner": "Cast Haste",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 1152,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        }
-      ],
-      "score": 0.478,
-      "shareCode": "634372994",
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tires": "offroad",
-      "tunerId": "cast-haste"
     }
   ],
   "schemaVersion": 1

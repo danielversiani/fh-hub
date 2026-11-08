@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2017-volkswagen-34-andretti-rally-cross-beetle",
       "categories": [],
       "class": "S1",
-      "confidence": 0.4,
-      "createdAt": "2026-07-13",
+      "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "sc-125692379",
+      "id": "nc-854faf0d82",
       "name": "S1 Dirt",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "13/07/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Volkswagen",
-            "model": "#34 Andretti Rally Cross Beetle",
-            "sharecode": "125 692 379",
-            "suspension": "Rally",
-            "tuneName": "S1 Dirt",
-            "tuner": "LogikJ",
-            "tyreCompound": "Off-Road"
-          },
-          "row": 2606,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2017 Volkswagen #34 Andretti Rally Cross Beetle",
@@ -41,17 +23,15 @@
             "Tuner": "LogikJ",
             "fill": "FF7030A0"
           },
-          "row": 2992,
+          "row": 2991,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.67,
-      "shareCode": "125692379",
+      "score": 0.474,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "offroad",
       "tunerId": "logikj"
     }
   ],

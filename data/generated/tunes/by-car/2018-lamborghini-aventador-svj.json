@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-08T22:12:15.157Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-lamborghini-aventador-svj",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 + Centri",
+      "id": "nc-01be5016cb",
+      "metaRank": 22,
+      "name": "Road Allround Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Lamborghini Aventador SVJ",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround Meta",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1912,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Lamborghini Aventador SVJ",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 + Centri",
+            "Laptime": "0:54.811",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround Meta"
+          },
+          "row": 25,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "score": 0.712,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
     {
       "buildTags": [],
       "carId": "2018-lamborghini-aventador-svj",
@@ -79,32 +137,14 @@
         "meta"
       ],
       "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-05-30",
+      "confidence": 0.95,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "sc-107980204",
+      "id": "nc-c6b62a3757",
       "metaRank": 22,
       "name": "S1 Road V1.5 Shirakawa 54.6",
       "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "30/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Aventador SVJ",
-            "sharecode": "107 980 204",
-            "suspension": "Rally",
-            "tuneName": "S1 Road V1.5 Shirakawa 54.6",
-            "tuner": "K1Z Howzer",
-            "tyreCompound": "Rally"
-          },
-          "row": 1339,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
         {
           "raw": {
             "Car": "2018 Lamborghini Aventador SVJ",
@@ -123,90 +163,12 @@
         }
       ],
       "role": "allround",
-      "score": 0.738,
-      "shareCode": "107980204",
+      "score": 0.674,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-howzer"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lamborghini-aventador-svj",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-05-31",
-      "drivetrain": "AWD",
-      "engine": "5.2L V10 + Centri",
-      "id": "sc-340325538",
-      "metaRank": 22,
-      "name": "Road Allround Meta",
-      "observations": [
-        {
-          "raw": {
-            "class": "S1",
-            "date": "31/05/2026",
-            "drivetrain": "AWD",
-            "manufacturer": "Lamborghini",
-            "model": "Aventador SVJ",
-            "sharecode": "340 325 538",
-            "suspension": "Rally",
-            "tuneName": "Road Allround Meta",
-            "tuner": "LetzeLU",
-            "tyreCompound": "Rally"
-          },
-          "row": 1340,
-          "sourceId": "gbr-ozzy",
-          "tab": "tune-list"
-        },
-        {
-          "raw": {
-            "Car": "2018 Lamborghini Aventador SVJ",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround Meta",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 1912,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {
-            "Aero": "FA",
-            "Build": "Balanced",
-            "Car": "Lamborghini Aventador SVJ",
-            "Difficulty": "Very Easy",
-            "Driver": "LetzeLU",
-            "Drivetrain": "AWD",
-            "Engine": "5.2L V10 + Centri",
-            "Laptime": "0:54.811",
-            "Notes": "",
-            "Tier": "Offmeta < 55.000",
-            "Tires": "Rally",
-            "Tune": "LetzeLU",
-            "Tune Name": "Road Allround Meta"
-          },
-          "row": 25,
-          "sourceId": "letzelu-shirakawa",
-          "tab": "s1-800"
-        }
-      ],
-      "score": 0.759,
-      "shareCode": "340325538",
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1
