@@ -1,0 +1,9 @@
+// Cloudflare deploy (ADR-0012): the Astro build output in ./dist is served as static assets.
+{
+  "name": "forzapaddock",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+  },
+}
