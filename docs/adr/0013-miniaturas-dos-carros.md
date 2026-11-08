@@ -1,6 +1,6 @@
 # 0013. Miniaturas dos carros a partir da Forza Wiki, sob as regras de conteúdo da Microsoft
 
-- **Status:** Proposta (aguarda o dono)
+- **Status:** Aceita (dono, 2026-11-08: sem planos de anúncios; quer um espaço de doação)
 - **Data:** 2026-11-08
 
 ## Contexto
@@ -31,6 +31,10 @@ Fatos levantados em 2026-11-08:
 - **Copiar as imagens para o nosso site:** mais rápido e não depende da Fandom, mas aí redistribuímos ~700 arquivos de terceiros. Fica para depois, se o carregamento direto der problema.
 - **Silhuetas desenhadas por tipo de carro:** sem risco legal, mas não mostra o carro de verdade.
 - **Imagens do forzacity.gg / codmunity:** são sites concorrentes, sem licença de reuso. Descartado (ADR-0010).
+
+## Atualizações
+
+- **2026-11-08, implementado:** fonte `fandom-images` (666 de 667 carros com foto), miniatura na caixa do carro, foto grande na página do carro e fotos nas novidades da página inicial. O rodapé traz o aviso da Microsoft (em inglês, como publicado) com link para as regras e o crédito "Fotos dos carros: Forza Wiki". O site ganhou um espaço de **doação**, permitido pelas regras.
 
 ## Consequências
 

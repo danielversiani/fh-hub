@@ -8,6 +8,7 @@ import {
   TIER_COLORS,
   TIER_LABELS,
 } from '../lib/ui';
+import { slugify } from '../../pipeline/lib/text';
 import type { CarClass, Difficulty, Rarity, Surface, Tier } from '../../pipeline/schema/enums';
 
 export interface CarCardLabels {
@@ -26,9 +27,8 @@ export interface CarCardLabels {
   openPage: string;
   stock: string;
   notes: string;
-  translate: string;
-  /** Language code for the translate link ("pt", "en"). */
-  translateTo: string;
+  /** Site language: picks the translated notes and names. */
+  lang: 'pt-br' | 'en';
   worldRecord: string;
   lapBy: string;
   spec: { drivetrain: string; tires: string; style: string; difficulty: string };
@@ -39,6 +39,8 @@ export interface CarCardLabels {
   roles: Record<string, string>;
   difficulties: Record<string, string>;
   obtainMethods: Record<string, string>;
+  /** Car type slug → name in the site's language. */
+  carTypes: Record<string, string>;
 }
 
 export interface Build {
@@ -120,6 +122,22 @@ export function obtainText(
       methods.some((m) => m === 'wheelspin' || m === 'seasonal') &&
       !methods.some((m) => m === 'autoshow' || m === 'autoshow-dlc'),
   };
+}
+
+/** The car's photo (Forza Wiki, ADR-0013), 16:9, loaded only when visible. */
+export function CarPhoto({ car, class: className = '' }: { car: BrowseCar; class?: string }) {
+  if (!car.image) return null;
+  return (
+    <div class={`car-photo ${className}`}>
+      <img
+        src={car.image}
+        alt={car.name}
+        loading="lazy"
+        decoding="async"
+        referrerpolicy="no-referrer"
+      />
+    </div>
+  );
 }
 
 export function ClassChip({
@@ -248,25 +266,24 @@ function LapChips({
   );
 }
 
-function Notes({ notes, labels }: { notes: string; labels: CarCardLabels }) {
-  const chinese = /\p{Script=Han}/u.test(notes);
+/** The meta table's note, already translated by the pipeline (ADR-0014); hidden when empty. */
+function Notes({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) {
+  const text = tune.notes?.[labels.lang];
+  if (!text) return null;
   return (
     <p class="text-sm">
       <span class="label mr-1.5">{labels.notes}</span>
-      <span lang={chinese ? 'zh-Hans' : undefined}>{notes}</span>
-      {chinese && (
-        <a
-          class="ml-2 whitespace-nowrap text-xs text-muted underline hover:text-text"
-          href={`https://translate.google.com/?sl=zh-CN&tl=${labels.translateTo}&op=translate&text=${encodeURIComponent(notes)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {labels.translate} ↗
-        </a>
-      )}
+      {text}
     </p>
   );
 }
+
+/** The tune's name in the site's language (a few tuners write it in Chinese). */
+const tuneName = (tune: BrowseTune, labels: CarCardLabels) =>
+  tune.nameI18n?.[labels.lang] || tune.name;
+
+export const carTypeName = (type: string, labels: Pick<CarCardLabels, 'carTypes'>) =>
+  labels.carTypes[slugify(type)] ?? type;
 
 function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabels; base: string }) {
   const [top, ...others] = build.tunes;
@@ -289,12 +306,12 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
             <a href={`${base}/tuners/${top.tuner}/`} class="tuner-name">
               {top.tunerName}
             </a>
-            {!top.fromMeta && <p class="mt-0.5 text-sm text-muted">{top.name}</p>}
+            {!top.fromMeta && <p class="mt-0.5 text-sm text-muted">{tuneName(top, labels)}</p>}
           </div>
           <CodeBox tune={top} labels={labels} />
           <Specs tune={top} labels={labels} />
           <LapChips tune={top} laps={build.laps} labels={labels} />
-          {top.notes && <Notes notes={top.notes} labels={labels} />}
+          <Notes tune={top} labels={labels} />
           {top.credited && !top.fromMeta && (
             <p class="text-xs text-muted">{labels.recommendedWhy}</p>
           )}
@@ -314,7 +331,7 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
                   <a href={`${base}/tuners/${t.tuner}/`} class="font-semibold hover:text-accent">
                     {t.tunerName}
                   </a>
-                  {!t.fromMeta && <span class="text-xs text-muted">{t.name}</span>}
+                  {!t.fromMeta && <span class="text-xs text-muted">{tuneName(t, labels)}</span>}
                   {t.listed && t.tier && t.tier !== build.tier && <TierChip tier={t.tier} />}
                   <span class="ml-auto">
                     {t.code ? (
@@ -336,7 +353,7 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
                 </div>
                 <Specs tune={t} labels={labels} />
                 {(t.laps?.length ?? 0) > 0 && <LapChips tune={t} laps={[]} labels={labels} />}
-                {t.notes && <Notes notes={t.notes} labels={labels} />}
+                <Notes tune={t} labels={labels} />
               </li>
             ))}
           </ul>
@@ -369,15 +386,18 @@ export default function CarCard({ car, builds, labels, base, href }: Props) {
     .join(' · ');
   return (
     <div class="flex flex-col gap-5">
-      <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
-        <span>{car.types.join(', ')}</span>
-        {obtain.text && (
-          <span>
-            <span class="label mr-1.5">{labels.obtain}</span>
-            {obtain.text}
-            {obtain.auction && <span class="ml-1.5 text-text">· {labels.auction}</span>}
-          </span>
-        )}
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
+        {car.image && <CarPhoto car={car} class="sm:w-64" />}
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
+          <span>{car.types.map((type) => carTypeName(type, labels)).join(', ')}</span>
+          {obtain.text && (
+            <span>
+              <span class="label mr-1.5">{labels.obtain}</span>
+              {obtain.text}
+              {obtain.auction && <span class="ml-1.5 text-text">· {labels.auction}</span>}
+            </span>
+          )}
+        </div>
       </div>
       {groups.length === 0 ? (
         <p class="text-sm text-muted">{labels.noTunes}</p>

@@ -1,4 +1,4 @@
-import type { WikiCategory } from '../fetchers/mediawiki';
+import type { WikiCategory, WikiPageImages } from '../fetchers/mediawiki';
 import { emptyOutput, requireTab, type Adapter, type AdapterInput } from './types';
 
 /**
@@ -67,6 +67,35 @@ export const fandomDrivetrain: Adapter = {
           drivetrain: drivetrains[0]!.toUpperCase(),
         });
       });
+    return out;
+  },
+};
+
+/**
+ * Car photos (ADR-0013): the lead image of each FH6 car page. Only FH6 screenshots are used
+ * ("FH6_…" files): a page about a car that is in several games may lead with another game.
+ */
+export const fandomImages: Adapter = {
+  id: 'fandom-images',
+  parse(input) {
+    const out = emptyOutput();
+    for (const tab of input.source.tabs) {
+      const { data } = requireTab(input, tab.id, 'json');
+      const pages = (data as WikiPageImages)?.pages;
+      if (!Array.isArray(pages)) {
+        throw new Error(`[${input.source.id}/${tab.id}] not a wiki page-images payload`);
+      }
+      pages.forEach((page, i) => {
+        if (NOT_ROSTER.some((re) => re.test(page.title))) return;
+        if (!page.thumb || !/^fh6[_ ]/i.test(page.file ?? '')) return;
+        out.carAttributes.push({
+          tab: tab.id,
+          row: i + 1,
+          car: { text: page.title },
+          image: page.thumb,
+        });
+      });
+    }
     return out;
   },
 };

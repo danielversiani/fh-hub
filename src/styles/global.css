@@ -271,3 +271,89 @@ details > summary::-webkit-details-marker {
 .tile-grid > details[open] {
   grid-column: 1 / -1;
 }
+
+/* Car photos (Forza Wiki screenshots, ADR-0013): 16:9, dark placeholder while loading. */
+.car-photo {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--color-surface-2);
+  flex-shrink: 0;
+}
+.car-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.car-photo-hero {
+  border: 1px solid var(--color-border);
+}
+
+/* Home: the featured car's photo behind the text, fading into the card. */
+.feature-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.45;
+  mask-image: linear-gradient(to top, transparent 15%, black 75%);
+  transition:
+    opacity 300ms,
+    transform 600ms;
+}
+.group:hover .feature-photo {
+  opacity: 0.6;
+  transform: scale(1.02);
+}
+.feature-photo ~ * {
+  position: relative;
+}
+.news-photo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 55%;
+  object-fit: cover;
+  opacity: 0.22;
+  mask-image: linear-gradient(to left, black 30%, transparent);
+  pointer-events: none;
+}
+.news-photo ~ * {
+  position: relative;
+}
+
+/* Primary button (lime, like forza.net's call-to-action). */
+.btn-accent {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 4px;
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  padding: 0.6rem 1.1rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.btn-accent:hover {
+  filter: brightness(1.08);
+}
+.btn-disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+/* Donation box: a lime glow on the right, so it stands out without shouting. */
+.donate {
+  background:
+    radial-gradient(
+      600px 220px at 100% 0%,
+      color-mix(in srgb, var(--color-accent) 14%, transparent),
+      transparent 70%
+    ),
+    var(--color-surface);
+  border-color: color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
+}

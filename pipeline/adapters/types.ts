@@ -138,6 +138,8 @@ export interface RawCarAttribute {
   rarity?: string;
   /** Stock drivetrain: FWD, RWD or AWD. */
   drivetrain?: string;
+  /** Photo of the car (thumbnail URL), ADR-0013. */
+  image?: string;
 }
 
 /** A dated "news" row of a meta table: a car whose tune/tier was updated, or a new car. */

@@ -9,7 +9,7 @@ Cada fonte tem um layout próprio, e os tunadores mudam suas planilhas sem aviso
 - O GBR Ozzy tem uma coluna vazia à esquerda e cabeçalhos mesclados.
 - A planilha do kleis não tem share codes e indica a classe pela **cor** da célula.
 - O Letz usa células mescladas na coluna de tier.
-- A Noa usa QQ Docs, com dados em protobuf compactado e rótulos em chinês.
+- Noa Miyako usa QQ Docs, com dados em protobuf compactado e rótulos em chinês.
 
 Um parser genérico ("acha a coluna que parece share code") quebraria de formas silenciosas e difíceis de depurar.
 

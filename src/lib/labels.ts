@@ -1,4 +1,4 @@
-import { t, type Locale, type MessageKey } from '../i18n';
+import { t, tGroup, type Locale, type MessageKey } from '../i18n';
 import type { CarCardLabels } from '../islands/CarCard';
 import type { TuneBrowserLabels } from '../islands/TuneBrowser';
 
@@ -51,8 +51,6 @@ export function carCardLabels(locale: Locale): CarCardLabels {
     openPage: t(locale, 'card.openPage'),
     stock: t(locale, 'car.stock'),
     notes: t(locale, 'card.notes'),
-    translate: t(locale, 'card.translate'),
-    translateTo: locale === 'en' ? 'en' : 'pt',
     worldRecord: t(locale, 'card.worldRecord'),
     lapBy: t(locale, 'card.lapBy', { driver: '{driver}' }),
     spec: {
@@ -80,6 +78,8 @@ export function carCardLabels(locale: Locale): CarCardLabels {
       'very-hard',
     ]),
     obtainMethods: keyed(locale, 'obtain', OBTAIN),
+    carTypes: tGroup(locale, 'carType'),
+    lang: locale,
   };
 }
 

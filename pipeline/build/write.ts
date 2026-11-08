@@ -61,6 +61,8 @@ const toIndexEntry = (t: Tune): TuneIndexEntry => ({
   difficulty: t.difficulty,
   role: t.role,
   metaNotes: t.metaNotes,
+  metaNotesI18n: t.metaNotesI18n,
+  nameI18n: t.nameI18n,
   lapRefs: t.lapRefs,
   sourceIds: [...new Set(t.observations.map((o) => o.sourceId))].sort(),
 });
@@ -123,6 +125,12 @@ export function writeDataset(
   const review = reviewDir(visibility);
   const byKind = (kind: string) => dataset.review.filter((r) => r.kind === kind);
   writeEnvelope(path.join(review, 'unmatched-cars.json'), byKind('unmatched-car'), now, report);
+  writeEnvelope(
+    path.join(review, 'untranslated-texts.json'),
+    byKind('untranslated-text'),
+    now,
+    report,
+  );
   writeEnvelope(
     path.join(review, 'unparsed-requirements.json'),
     byKind('unparsed-requirement'),

@@ -32,6 +32,8 @@ export const Car = z.object({
   rarity: Rarity.optional(),
   /** Stock drivetrain (Forza Wiki), used by "Total FWD/RWD/AWD" playlist restrictions. */
   drivetrain: Drivetrain.optional(),
+  /** Photo (thumbnail URL on the Forza Wiki's image server), ADR-0013. */
+  image: z.url().optional(),
   acquisition: z.object({ raw: z.string(), methods: z.array(Slug) }).optional(),
   addOns: z.string().optional(),
   sourceIds: z.array(Slug).min(1),
@@ -56,6 +58,10 @@ export const Observation = z.object({
 });
 export type Observation = z.infer<typeof Observation>;
 
+/** A text in both site languages (translated from the source, ADR-0014). Empty = nothing to show. */
+export const Localized = z.object({ 'pt-br': z.string(), en: z.string() });
+export type Localized = z.infer<typeof Localized>;
+
 /** A lap time quoted in a note ("白川1:04.3" → Shirakawa 1:04.3), track name in English. */
 export const LapRef = z.object({
   track: z.string(),
@@ -73,6 +79,8 @@ export const Tune = z.object({
   carId: Slug,
   tunerId: Slug,
   name: z.string(),
+  /** The name translated, when the tuner wrote it in another language (e.g. Chinese). */
+  nameI18n: Localized.optional(),
   class: CarClass.nullable(),
   surface: Surface.nullable(),
   drivetrain: Drivetrain.optional(),
@@ -106,6 +114,8 @@ export const Tune = z.object({
   difficulty: Difficulty.optional(),
   role: TuneRole.optional(),
   metaNotes: z.string().optional(),
+  /** `metaNotes` translated (lap times left out: they are in `lapRefs`). */
+  metaNotesI18n: Localized.optional(),
   lapRefs: z.array(LapRef).optional(),
 });
 export type Tune = z.infer<typeof Tune>;
@@ -132,6 +142,8 @@ export const TuneIndexEntry = Tune.pick({
   difficulty: true,
   role: true,
   metaNotes: true,
+  metaNotesI18n: true,
+  nameI18n: true,
   lapRefs: true,
 }).extend({ sourceIds: z.array(Slug).min(1) });
 export type TuneIndexEntry = z.infer<typeof TuneIndexEntry>;
@@ -204,6 +216,8 @@ export const MetaRanking = z.object({
   notes: z.string().optional(),
   /** Lap times quoted in the notes, with the track name translated (data/manual/track-aliases.yaml). */
   lapRefs: z.array(LapRef).optional(),
+  /** `notes` translated (data/manual/translations.yaml); absent while not translated yet. */
+  notesI18n: Localized.optional(),
 });
 export type MetaRanking = z.infer<typeof MetaRanking>;
 
@@ -230,6 +244,7 @@ export const EventTarget = z.object({
   unit: z.enum(['mph', 'ft', 's', 'pts']),
   raw: z.string(),
 });
+export type EventTarget = z.infer<typeof EventTarget>;
 
 export const Requirement = z.object({
   status: z.enum(['parsed', 'partial', 'unparsed', 'no-car']),
@@ -279,6 +294,8 @@ export const PlaylistEvent = z.object({
   name: z.string(),
   reward: z.string().optional(),
   requirementRaw: z.string(),
+  /** The challenge text translated (data/manual/playlist-texts.yaml), for events without a car. */
+  requirementI18n: Localized.optional(),
   requirement: Requirement,
   routeRaw: z.string(),
   routes: z.array(z.object({ name: z.string(), discipline: Discipline.optional() })),
@@ -366,6 +383,7 @@ export const ReviewKind = z.enum([
   'unmatched-tuner',
   'unknown-value',
   'unparsed-requirement',
+  'untranslated-text',
 ]);
 export const ReviewItem = z.object({
   kind: ReviewKind,

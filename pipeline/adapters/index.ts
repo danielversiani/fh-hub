@@ -1,4 +1,4 @@
-import { fandomDrivetrain, fandomRarity } from './fandom-rarity';
+import { fandomDrivetrain, fandomImages, fandomRarity } from './fandom-rarity';
 import { forzaCars } from './forza-cars';
 import { forzaPlaylist } from './forza-playlist';
 import { gbrOzzy } from './gbr-ozzy';
@@ -13,6 +13,7 @@ import { whdUrl } from './whd-url';
 export const ADAPTERS: Readonly<Record<string, Adapter>> = Object.fromEntries(
   [
     fandomDrivetrain,
+    fandomImages,
     fandomRarity,
     forzaCars,
     forzaPlaylist,

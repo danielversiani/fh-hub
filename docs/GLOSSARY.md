@@ -52,7 +52,7 @@
 | Meta | Os carros e tunes mais competitivos numa classe × piso |
 | Off-meta | Competitivo, mas fora do topo |
 | Meme | Escolha divertida ou improvável, ainda jogável ([CURATION.md](CURATION.md)) |
-| Tier (Meta+, Meta, T0.5, T1, T1.5, T2, T3) | Escala de força usada pela Noa Miyako |
+| Tier (Meta+, Meta, T0.5, T1, T1.5, T2, T3) | Escala de força usada por Noa Miyako |
 | Tunador (tuner) | Quem cria e publica tunes |
 | Hotlap | Volta rápida cronometrada (ex.: planilha do Letz em Shirakawa) |
 

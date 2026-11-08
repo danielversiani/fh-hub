@@ -105,7 +105,12 @@ export function validate(): string[] {
     if (!fs.existsSync(full)) continue;
     for (const file of fs.readdirSync(full)) checkFile(path.join(full, file), schema, errors);
   }
-  for (const file of ['unmatched-cars.json', 'unknown-values.json', 'unparsed-requirements.json']) {
+  for (const file of [
+    'unmatched-cars.json',
+    'unknown-values.json',
+    'unparsed-requirements.json',
+    'untranslated-texts.json',
+  ]) {
     checkFile(path.join(reviewDir('public'), file), ReviewItem, errors);
   }
 

@@ -6,14 +6,14 @@
 
 ## Regras do dono (2026-11-08) — prevalecem sobre o resto deste documento
 
-1. **A tabela de meta da Noa Miyako é a referência.** O tier de um carro numa classe × piso vem dela. Carro que ela não lista recebe **T3** (`defaultTier`) até ser avaliado.
+1. **A tabela de meta de Noa Miyako é a referência.** O tier de um carro numa classe × piso vem dela. Carro que a tabela não lista recebe **T3** (`defaultTier`) até ser avaliado.
 2. **Meta / Off-meta vêm só desse tier**: Meta = Meta+, Meta, T0.5; Off-meta = T1, T1.5, T2.
 3. **Meme é uma lista de carros**: carros que ninguém associa a corrida, mas que funcionam porque o jogo é arcade (Peel P50, Cadillac XTS Limousine, vans da Ford e da Wuling, Unimog, táxis japoneses…). A lista fica em `data/curation/config.yaml` (`memeCars`). **Meme só existe nas sugestões de campeonatos da playlist**, e só quando algum carro da lista é elegível. Não é filtro da lista de tunes.
 4. **Só sugerir quando a elegibilidade é conhecida.** A raridade e a tração de fábrica vêm da Forza Wiki: só carros com o dado conhecido entram.
-5. **A nota numérica não aparece no site.** Ela só desempata tunes do mesmo tier. Ordem usada em listas e sugestões: tier → tunador indicado pela Noa → tem share code → posição na tabela → nota.
+5. **A nota numérica não aparece no site.** Ela só desempata tunes do mesmo tier. Ordem usada em listas e sugestões: tier → tunador indicado por Noa Miyako → tem share code → posição na tabela → nota.
 6. **Ordem da lista de tunes**: alfabética sem filtro de classe; com classe, na ordem do meta (melhor tier primeiro, depois a posição na tabela), e os carros fora da tabela (T3) por último.
 7. **Várias sugestões por categoria** (2026-11-08): cada evento mostra até 4 carros Meta, 3 Off-meta, 2 Purista e 2 Meme (`suggestionsPerCategory`). Um carro aparece uma vez só entre Meta, Off-meta e Meme, com a sua melhor tune. Purista pode repetir um carro, desde que com outra tune.
-8. **Toda indicação da tabela vira tune.** Quando a Noa indica um tunador para um carro ("busque MSR Mian no jogo") e nenhuma planilha tem uma tune desse tunador para aquele carro, a indicação vira uma tune sem código (`fromMeta`). Assim um carro nunca aparece como "sem tune" ao lado de um tunador recomendado.
+8. **Toda indicação da tabela vira tune.** Quando Noa Miyako indica um tunador para um carro ("busque MSR Mian no jogo") e nenhuma planilha tem uma tune desse tunador para aquele carro, a indicação vira uma tune sem código (`fromMeta`). Assim um carro nunca aparece como "sem tune" ao lado de um tunador recomendado.
 9. **As colunas da tabela acompanham a tune do tunador indicado:** tração, pneu, estilo (completo, potência, controle), dificuldade, observações e tempos citados nas observações ("白川1:04.3" vira "1:04.3 · Shirakawa", pela lista `data/manual/track-aliases.yaml`). Tunes de outros tunadores para o mesmo carro não herdam essas colunas.
 
 ## 0. Estado da implementação (2026-11-08)
@@ -41,7 +41,7 @@ Cada sinal é normalizado entre 0 e 1. **Sinal ausente não vale zero**: ele sim
 
 | Sinal | De onde vem | Como vira número |
 |---|---|---|
-| `tier` | Tabela de meta da Noa (classe × piso do tune) | `meta-plus` 1,0 · `meta` 0,9 · `t0.5` 0,8 · `t1` 0,65 · `t1.5` 0,55 · `t2` 0,45 · `t3` 0,3 |
+| `tier` | Tabela de meta de Noa Miyako (classe × piso do tune) | `meta-plus` 1,0 · `meta` 0,9 · `t0.5` 0,8 · `t1` 0,65 · `t1.5` 0,55 · `t2` 0,45 · `t3` 0,3 |
 | `rivals` | Planilha de Rivals (aparições do carro em classe × piso) | Aparições ÷ aparições do 1º colocado |
 | `laptime` | Letz (Shirakawa, por classe) | `max(0, 1 − (tempo − melhor) / melhor × 20)`: 1 s de diferença numa volta de 50 s dá ≈ 0,6 |
 | `endorsement` | Quantas fontes independentes listam o tune | `log2(1 + n) / log2(1 + nMax)`; listas curadas (ex.: kleis) contam com o peso da fonte |
@@ -83,7 +83,7 @@ confiança = Σ peso_i (presentes) / Σ peso_i (todos)
 5. **Preenchimento das vagas, nesta ordem:** Meta → Off-meta → Purista → Meme, com várias vagas por categoria (regra do dono 7). Meme só em campeonatos (regra 3).
 6. **Share code:** preferir sempre tunes com código. Um tune sem código só entra se não houver alternativa, com o aviso "buscar pelo gamertag no jogo".
 7. **Obtenção:** se `preferObtainable` estiver ligado, carros que hoje só existem como recompensa encerrada perdem prioridade, e o site mostra "difícil de obter".
-8. **Explicação:** cada sugestão carrega `reasons`, por exemplo "Tier T0.5 na tabela da Noa", "Listado em 3 planilhas" ou "4º melhor tempo em Shirakawa (A 700)".
+8. **Explicação:** cada sugestão carrega `reasons`, por exemplo "Tier T0.5 na tabela de Noa Miyako", "Listado em 3 planilhas" ou "4º melhor tempo em Shirakawa (A 700)".
 9. Restrições `unparsed` vão para `data/review/unparsed-requirements.json` e ficam para a IA ou para o dono.
 
 ## 6. Eventos-base

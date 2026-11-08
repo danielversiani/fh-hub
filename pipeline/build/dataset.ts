@@ -3,7 +3,8 @@ import type { ManualData } from '../config';
 import { shortHash } from '../lib/json';
 import { cleanText, normalizeName, slugify } from '../lib/text';
 import { CarResolver } from '../normalize/car-resolver';
-import { lapRefParser } from '../normalize/lap-refs';
+import { lapRefParser, lapRefStripper } from '../normalize/lap-refs';
+import { translator } from '../normalize/translate';
 import {
   inferSurface,
   parseBuildTags,
@@ -22,7 +23,7 @@ import { buildSeasons, eventCategory, eventId, parseSeasonLabel } from '../norma
 import { parseRoute, RequirementParser } from '../normalize/requirement';
 import { TunerRegistry, type TunerIdentity } from '../normalize/tuners';
 import { magnitude } from './highlights';
-import { CAR_CLASSES, Drivetrain, Rarity } from '../schema/enums';
+import { CAR_CLASSES, Drivetrain, Rarity, Surface } from '../schema/enums';
 import type {
   Car,
   CustomEvent,
@@ -153,6 +154,17 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
   const resolver = new CarResolver(cars, manual.carAliases);
   const registry = new TunerRegistry(manual.tunerAliases);
   const review = new ReviewCollector();
+  const tunerSurface = (tunerId: string) => {
+    const surface = Surface.safeParse(manual.tunerSurfaces[tunerId]);
+    return surface.success ? surface.data : null;
+  };
+  const translate = translator(manual.translations, lapRefStripper(manual.trackAliases));
+  /** Translated text, or undefined (and a review item) when the memory lacks it. */
+  const localize = (sourceId: string, text: string | undefined) => {
+    const done = translate(text);
+    if (text && !done) review.add('untranslated-text', sourceId, text);
+    return done;
+  };
   const tuners = new Map<string, { identity: TunerIdentity; aliases: Set<string> }>();
 
   const identifyTuner = (raw: string | undefined): TunerIdentity | undefined => {
@@ -182,6 +194,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
       if (rarity.success && !car.rarity) car.rarity = rarity.data;
       const drivetrain = Drivetrain.safeParse(attr.drivetrain);
       if (drivetrain.success && !car.drivetrain) car.drivetrain = drivetrain.data;
+      if (attr.image && !car.image) car.image = attr.image;
     }
   }
 
@@ -209,8 +222,10 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
         carId,
         tunerId: tuner.id,
         name,
+        nameI18n: /\p{Script=Han}/u.test(name) ? localize(source.id, name) : undefined,
         class: carClass,
-        surface: inferSurface({ explicit: raw.surfaceText, name, tires }),
+        // No hint in the row: the tuner's specialty, when known (data/manual/tuner-surfaces.yaml).
+        surface: inferSurface({ explicit: raw.surfaceText, name, tires }) ?? tunerSurface(tuner.id),
         drivetrain: parseDrivetrain(raw.drivetrain) ?? parseDrivetrain(name),
         tires,
         engine: cleanText(raw.engine) || undefined,
@@ -352,6 +367,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
         ],
         shareCode: parseShareCode(m.shareCode),
         notes: cleanText(m.notes) || undefined,
+        notesI18n: localize(source.id, cleanText(m.notes) || undefined),
         lapRefs: nonEmpty(lapRefs(m.notes)),
       });
     }
@@ -464,6 +480,9 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
         const n = (seen.get(baseId) ?? 0) + 1;
         seen.set(baseId, n);
         const points = /^(\d+)\s*pts$/i.exec(row.requirement.trim());
+        // Challenge text (no car restriction): Portuguese from the translation list.
+        const text = requirement.status === 'no-car' && !points ? row.requirement.trim() : '';
+        const pt = text ? manual.playlistTexts[text] : undefined;
         events.push({
           id: n > 1 ? `${baseId}-${n}` : baseId,
           seasonId: label.id,
@@ -473,6 +492,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
           name: row.name,
           reward: row.reward || undefined,
           requirementRaw: row.requirement,
+          requirementI18n: pt ? { 'pt-br': pt, en: text } : undefined,
           requirement,
           routeRaw: row.route,
           routes: route.routes,
@@ -482,6 +502,15 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
           row: row.row,
         });
       }
+    }
+  }
+
+  // Challenges of the live series still missing a Portuguese text: listed for translation.
+  const liveSeries = seasons.find((s) => s.current)?.seriesId;
+  for (const e of events) {
+    if (e.seriesId !== liveSeries || e.requirementI18n) continue;
+    if (e.requirement.status === 'no-car' && !e.points && e.requirementRaw.trim()) {
+      review.add('untranslated-text', 'forza-playlist', e.requirementRaw.trim());
     }
   }
 

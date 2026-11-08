@@ -3,8 +3,9 @@ import type { Highlight } from '../../pipeline/schema/entities';
 import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
 import { ClassChip, TierChip } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
+import DonateBox from './DonateBox.astro';
 import { currentSeason, isPreview, loadEvents, loadHighlights, maps } from '../lib/data';
-import { formatReward, requirementText, seasonEndsAt } from '../lib/playlist';
+import { eventTypeLabel, formatReward, requirementText, seasonEndsAt } from '../lib/playlist';
 import { TIER_LABELS } from '../lib/ui';
 import EventIcon from './EventIcon.astro';
 
@@ -60,6 +61,15 @@ const tunerNames = (h: Highlight) =>
           href={localePath(locale, `/cars/${feature.carId}/`)}
           class="card group relative flex min-h-80 flex-col justify-end overflow-hidden p-6 lg:col-span-2 lg:row-span-2"
         >
+          {cars.get(feature.carId)?.image && (
+            <img
+              src={cars.get(feature.carId)?.image}
+              alt=""
+              class="feature-photo"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+          )}
           <span
             class="display pointer-events-none absolute -right-3 -top-6 select-none text-[11rem] text-season opacity-10"
             aria-hidden="true"
@@ -95,8 +105,18 @@ const tunerNames = (h: Highlight) =>
         {rest.map((h) => (
           <a
             href={localePath(locale, `/cars/${h.carId}/`)}
-            class="card group flex flex-col gap-2 p-4 hover:border-season"
+            class="card group relative flex flex-col gap-2 overflow-hidden p-4 hover:border-season"
           >
+            {cars.get(h.carId)?.image && (
+              <img
+                src={cars.get(h.carId)?.image}
+                alt=""
+                class="news-photo"
+                loading="lazy"
+                decoding="async"
+                referrerpolicy="no-referrer"
+              />
+            )}
             <p class="eyebrow text-season">
               {t(locale, `home.highlight.${h.kind}` as MessageKey)} · {fmt(h.date)}
             </p>
@@ -165,7 +185,7 @@ const tunerNames = (h: Highlight) =>
             <span class="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-season/15 text-season">
               <EventIcon category={event.category} class="h-4 w-4" />
             </span>
-            <p class="eyebrow pr-10 text-season">{event.type}</p>
+            <p class="eyebrow pr-10 text-season">{eventTypeLabel(locale, event.type)}</p>
             <p class="display mt-1 pr-8 text-2xl group-hover:text-accent">{event.name}</p>
             <p class="mt-3 flex flex-wrap items-center gap-2 text-sm">
               <ClassChip cls={event.requirement.class} />
@@ -198,4 +218,7 @@ const tunerNames = (h: Highlight) =>
       }
     }
   </script>
+  <div id="apoie" class="mt-16">
+    <DonateBox locale={locale} />
+  </div>
 </Base>

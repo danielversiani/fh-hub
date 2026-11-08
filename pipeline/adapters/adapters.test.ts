@@ -140,6 +140,17 @@ describe('fandom-rarity (Forza Wiki)', () => {
     ));
 });
 
+const out_fandom_images = await fixtureOutput('fandom-images');
+describe('fandom-images (Forza Wiki)', () => {
+  const attrs = out_fandom_images.carAttributes;
+  it('keeps one FH6 photo per car', () => {
+    expect(attrs.length).toBeGreaterThan(600);
+    expect(
+      attrs.every((a) => /^https:\/\/static\.wikia\.nocookie\.net\//.test(a.image ?? '')),
+    ).toBe(true);
+  });
+});
+
 const out_fandom_drivetrain = await fixtureOutput('fandom-drivetrain');
 describe('fandom-drivetrain (Forza Wiki)', () => {
   const attrs = out_fandom_drivetrain.carAttributes;

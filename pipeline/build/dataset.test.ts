@@ -93,6 +93,13 @@ describe('buildDataset (fixtures)', () => {
     expect(fromMeta.every((t) => metaTuners.has(`${t.carId}|${t.tunerId}`))).toBe(true);
   });
 
+  it('translates every Chinese note of the meta table (ADR-0014)', () => {
+    const chinese = dataset.meta.filter((m) => /\p{Script=Han}/u.test(m.notes ?? ''));
+    expect(chinese.length).toBeGreaterThan(0);
+    expect(chinese.every((m) => m.notesI18n)).toBe(true);
+    expect(dataset.review.filter((r) => r.kind === 'untranslated-text')).toEqual([]);
+  });
+
   it('extracts lap-time references from meta notes', () =>
     expect(dataset.meta.some((m) => m.lapRefs?.some((r) => r.track === 'Shirakawa'))).toBe(true));
 });

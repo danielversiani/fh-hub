@@ -10,6 +10,7 @@ import {
   type MessageKey,
 } from '../i18n';
 import { currentSeason, loadStats } from '../lib/data';
+import { DONATE_URL, MICROSOFT_NOTICE, MICROSOFT_RULES_URL } from '../lib/site';
 
 interface Props {
   locale: Locale;
@@ -46,28 +47,38 @@ const stats = loadStats();
   </head>
   <body class="min-h-screen">
     <header class="border-b border-border/70">
-      <nav class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-4">
+      <nav class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-3 px-4 py-3 sm:py-4">
         <a href={localePath(locale, '/')} class="display text-2xl text-accent">
           {t(locale, 'site.name')}
         </a>
-        {nav.map(([key, href]) => {
-          const target = localePath(locale, href);
-          return (
-            <a
-              href={target}
-              class:list={[
-                'eyebrow text-sm hover:text-text',
-                current.startsWith(target) ? 'text-season' : 'text-muted',
-              ]}
-            >
-              {t(locale, key)}
-            </a>
-          );
-        })}
+        {/* Phone: the sections get a row of their own, below the logo; wider: inline. */}
+        <div class="order-last -mx-4 flex w-[calc(100%+2rem)] gap-6 overflow-x-auto border-t border-border/70 px-4 pt-3 sm:order-none sm:mx-0 sm:w-auto sm:border-0 sm:p-0">
+          {nav.map(([key, href]) => {
+            const target = localePath(locale, href);
+            return (
+              <a
+                href={target}
+                class:list={[
+                  'eyebrow whitespace-nowrap text-sm hover:text-text',
+                  current.startsWith(target) ? 'text-season' : 'text-muted',
+                ]}
+              >
+                {t(locale, key)}
+              </a>
+            );
+          })}
+        </div>
+        <a
+          href={DONATE_URL ?? `${localePath(locale, '/')}#apoie`}
+          class="eyebrow ml-auto text-sm text-accent hover:text-text"
+          {...(DONATE_URL ? { target: '_blank', rel: 'noopener' } : {})}
+        >
+          ♥ {t(locale, 'nav.donate')}
+        </a>
         <a
           href={localePath(other, path)}
           hreflang={htmlLang(other)}
-          class="eyebrow ml-auto text-sm text-muted hover:text-text"
+          class="eyebrow text-sm text-muted hover:text-text"
         >
           {t(locale, 'nav.language')}
         </a>
@@ -80,7 +91,18 @@ const stats = loadStats();
       <p>{t(locale, 'footer.disclaimer')}</p>
       <p class="mt-1">
         <a href="https://forza.fandom.com" target="_blank" rel="noopener" class="hover:text-text">
-          {t(locale, 'footer.wiki')}
+          {t(locale, 'footer.wiki')} {t(locale, 'footer.images')}
+        </a>
+      </p>
+      <p class="mt-1">
+        {MICROSOFT_NOTICE}{' '}
+        <a
+          href={MICROSOFT_RULES_URL}
+          target="_blank"
+          rel="noopener"
+          class="underline hover:text-text"
+        >
+          {t(locale, 'footer.rules')}
         </a>
       </p>
       <p class="mt-2 flex flex-wrap gap-x-4">

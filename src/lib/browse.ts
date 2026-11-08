@@ -7,7 +7,7 @@ import type {
   Surface,
   Tier,
 } from '../../pipeline/schema/enums';
-import type { LapRef } from '../../pipeline/schema/entities';
+import type { LapRef, Localized } from '../../pipeline/schema/entities';
 import { loadCars, loadLapTimes, loadMeta, loadSourceStatus, loadTuneIndex, maps } from './data';
 import { formatLapTime } from './ui';
 
@@ -27,6 +27,8 @@ export interface BrowseCar {
   pi?: number;
   /** Stock drivetrain (Forza Wiki). */
   drivetrain?: Drivetrain;
+  /** Photo (Forza Wiki thumbnail, ADR-0013). */
+  image?: string;
   rarity?: Rarity;
   /** How to get the car, as slugs of the official list ("autoshow", "wheelspin", "seasonal"…). */
   obtain: string[];
@@ -38,6 +40,8 @@ export interface BrowseTune {
   car: string;
   code?: string;
   name: string;
+  /** The name translated, when the tuner wrote it in Chinese. */
+  nameI18n?: Localized;
   tuner: string;
   tunerName: string;
   cls: CarClass | null;
@@ -55,8 +59,8 @@ export interface BrowseTune {
   fromMeta: boolean;
   difficulty?: Difficulty;
   role?: string;
-  /** The meta table's note for this tune (often in Chinese: shown with a translate link). */
-  notes?: string;
+  /** The meta table's note for this tune, translated (ADR-0014). */
+  notes?: Localized;
   laps?: LapRef[];
   sources: string[];
   score: number;
@@ -108,6 +112,7 @@ export function buildBrowseData(): BrowseData {
     cls: c.stock?.class,
     pi: c.stock?.pi,
     drivetrain: c.drivetrain,
+    image: c.image,
     rarity: c.rarity,
     obtain: c.acquisition?.methods ?? [],
     addOns: c.addOns,
@@ -118,6 +123,7 @@ export function buildBrowseData(): BrowseData {
     car: t.carId,
     code: t.shareCode,
     name: t.name,
+    nameI18n: t.nameI18n,
     tuner: t.tunerId,
     tunerName: tunerName(t.tunerId),
     cls: t.class,
@@ -133,7 +139,7 @@ export function buildBrowseData(): BrowseData {
     fromMeta: Boolean(t.fromMeta),
     difficulty: t.difficulty,
     role: t.role,
-    notes: t.metaNotes,
+    notes: t.metaNotesI18n,
     laps: t.lapRefs,
     sources: t.sourceIds,
     score: t.score ?? 0,

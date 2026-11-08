@@ -57,7 +57,9 @@ O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](
    - **É lixo** (linha de cabeçalho, texto solto): adicione um padrão de exclusão no adaptador.
 3. Mantenha os arquivos de alias em ordem alfabética (a CI verifica).
 4. O mesmo vale para tunadores em `data/manual/tuner-aliases.yaml`.
-5. **Pistas citadas nas observações** (ex.: "白川1:04.3"): o nome vira inglês por `data/manual/track-aliases.yaml`. Uma pista nova que aparece nas notas sem tradução simplesmente não vira referência de tempo. Para incluir, adicione a linha `<nome nas notas>: "<nome oficial em inglês>"` (use o nome das rotas em forza.net/fh6playlists) e só quando tiver certeza da tradução.
+5. **Textos sem tradução** (`data/review/untranslated-texts.json`, [ADR-0014](adr/0014-traducao-dos-textos-das-fontes.md)): observações e nomes em chinês vão para `data/manual/translations.yaml` (`pt-br` e `en`, sem os tempos de volta que já viram selo). Desafios da playlist em inglês vão para `data/manual/playlist-texts.yaml`. Enquanto não forem traduzidos, o site esconde o texto.
+6. **Tune caindo no piso errado:** se um tunador é especialista num piso e as linhas dele não dizem o piso, registre a especialidade em `data/manual/tuner-surfaces.yaml` (ex.: `sr1-rain: dirt`). Só vale para tunes sem nenhuma pista de piso (nome, coluna ou pneu).
+7. **Pistas citadas nas observações** (ex.: "白川1:04.3"): o nome vira inglês por `data/manual/track-aliases.yaml`. Uma pista nova que aparece nas notas sem tradução simplesmente não vira referência de tempo. Para incluir, adicione a linha `<nome nas notas>: "<nome oficial em inglês>"` (use o nome das rotas em forza.net/fh6playlists) e só quando tiver certeza da tradução.
 
 ## 5. Chegou um pacote de carros novos (DLC ou atualização)
 

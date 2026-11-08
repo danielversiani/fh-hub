@@ -5,7 +5,7 @@ import type { TabPayload } from '../adapters/types';
 import { fetchBytes, HttpError } from '../lib/http';
 import { parseCsv } from '../lib/table';
 import type { SourceDef, SourceTab } from '../schema/source';
-import { downloadCategory } from './mediawiki';
+import { downloadCategory, downloadPageImages } from './mediawiki';
 import { downloadQqDoc } from './qq-docs';
 
 /** `qq.json` is a QQ Docs bundle (fetchers/qq-docs.ts); `json` is a forza.net Nuxt payload. */
@@ -60,11 +60,14 @@ const EXT: Record<SourceDef['fetcher'], RawExt> = {
   'forza-net': 'json',
   'qq-docs': 'qq.json',
   mediawiki: 'wiki.json',
+  'mediawiki-images': 'wiki.json',
 };
 const extFor = (source: SourceDef): RawExt => EXT[source.fetcher];
 
 async function downloadTab(source: SourceDef, tab: SourceTab): Promise<Buffer> {
   switch (source.fetcher) {
+    case 'mediawiki-images':
+      return Buffer.from(JSON.stringify(await downloadPageImages(source.url, tab.path!)), 'utf8');
     case 'mediawiki':
       return Buffer.from(JSON.stringify(await downloadCategory(source.url, tab.path!)), 'utf8');
     case 'qq-docs':

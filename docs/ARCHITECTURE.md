@@ -56,8 +56,11 @@ fh-hub/
 │  │  ├─ car-aliases.yaml        # nome visto numa fonte → id canônico do carro
 │  │  ├─ tuner-aliases.yaml      # variações de gamertag → nome canônico do tunador
 │  │  ├─ track-aliases.yaml      # nome de pista nas notas (ex.: 白川) → nome em inglês (Shirakawa)
+│  │  ├─ translations.yaml       # memória de tradução das notas e nomes em chinês (ADR-0014)
+│  │  ├─ playlist-texts.yaml     # desafios da playlist em inglês → português (ADR-0014)
+│  │  ├─ tuner-surfaces.yaml     # especialidade de piso de um tunador (ex.: SR1 Rain → terra)
 │  │  ├─ base-events.yaml        # ⏳ eventos-base do mapa (levantamento manual)
-│  │  └─ zh-labels.yaml          # ⏳ rótulos em chinês da planilha da Noa (hoje em normalize/fields.ts)
+│  │  └─ zh-labels.yaml          # ⏳ rótulos em chinês da planilha de Noa Miyako (hoje em normalize/fields.ts)
 │  ├─ curation/config.yaml       # pesos e regras de curadoria (⏳ weekly/<season-id>.json da IA, via PR)
 │  ├─ generated/                 # SAÍDA do pipeline: nunca editar à mão
 │  ├─ review/                    # filas de revisão humana (carros não reconhecidos, valores desconhecidos)

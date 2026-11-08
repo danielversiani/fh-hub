@@ -4,6 +4,7 @@ import { CLASS_ORDER } from '../lib/ui';
 import type { Tier } from '../../pipeline/schema/enums';
 import CarCard, {
   buildsFor,
+  carTypeName,
   obtainText,
   RarityChip,
   TierChip,
@@ -94,7 +95,7 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
       .filter(({ car, tunes, builds }) => {
         if (builds.length === 0) return false;
         const text =
-          `${car.name} ${car.types.join(' ')} ${tunes.map((t) => `${t.tunerName} ${t.name}`).join(' ')}`.toLowerCase();
+          `${car.name} ${car.types.join(' ')} ${car.types.map((ty) => carTypeName(ty, labels)).join(' ')} ${tunes.map((t) => `${t.tunerName} ${t.name}`).join(' ')}`.toLowerCase();
         return words.every((w) => text.includes(w));
       })
       .sort((a, b) => {
@@ -108,7 +109,7 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
           a.car.name.localeCompare(b.car.name)
         );
       });
-  }, [data, index, query, cls, surface, category]);
+  }, [data, index, query, cls, surface, category, labels]);
 
   const toggle = (id: string) => {
     const next = new Set(open);
@@ -191,30 +192,31 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
                 <li class="row" data-open={isOpen}>
                   <button
                     type="button"
-                    class="flex w-full flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2.5 text-left"
+                    class="grid w-full grid-cols-[3.25rem_minmax(0,1fr)_auto] items-center gap-x-3 px-3 py-2.5 text-left sm:px-4"
                     aria-expanded={isOpen}
                     onClick={() => toggle(car.id)}
                   >
-                    <span class="w-12 shrink-0">
-                      {best && <TierChip tier={best.tier} muted={!best.listed} />}
+                    <span>{best && <TierChip tier={best.tier} muted={!best.listed} />}</span>
+                    {/* Phone: name on one line, details below. Wider screens: one line. */}
+                    <span class="flex flex-wrap items-center gap-x-2 gap-y-0.5">
+                      <span class="font-semibold">{car.model}</span>
+                      <RarityChip
+                        rarity={car.rarity}
+                        label={car.rarity ? labels.rarities[car.rarity]! : ''}
+                      />
+                      <span class="w-full text-xs text-muted sm:ml-1 sm:w-auto sm:text-sm">
+                        {car.make} · {car.year}
+                        {obtain.text && ` · ${obtain.text}`}
+                        {obtain.auction && ` · ${labels.auction}`}
+                      </span>
                     </span>
-                    <span class="font-semibold">{car.model}</span>
-                    <RarityChip
-                      rarity={car.rarity}
-                      label={car.rarity ? labels.rarities[car.rarity]! : ''}
-                    />
-                    <span class="text-sm text-muted">
-                      {car.make} · {car.year}
-                      {obtain.text && ` · ${obtain.text}`}
-                      {obtain.auction && ` · ${labels.auction}`}
-                    </span>
-                    <span class="ml-auto flex items-center gap-3 text-sm text-muted tabular-nums">
+                    <span class="flex items-center gap-2 text-xs text-muted tabular-nums sm:gap-3 sm:text-sm">
                       {labels.tunesCount.replace('{n}', String(shown))}
                       <span>{isOpen ? '▴' : '▾'}</span>
                     </span>
                   </button>
                   {isOpen && (
-                    <div class="border-t border-border px-4 py-4">
+                    <div class="border-t border-border px-3 py-4 sm:px-4">
                       <CarCard
                         car={car}
                         builds={builds}

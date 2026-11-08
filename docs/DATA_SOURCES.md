@@ -11,6 +11,7 @@
 | `forza-cars` | forza.net/fh6cars | JSON oficial | **Roster oficial: 667 carros** (lista mestre) | ✅ `_payload.json` | not-required | ✅ Fase 0 |
 | `fandom-rarity` | Forza Wiki (Fandom) | API MediaWiki | **Raridade** de 641 carros (Comum, Raro, Épico, Lendário, Forza Edition) | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
 | `fandom-drivetrain` | Forza Wiki (Fandom) | API MediaWiki | **Tração de fábrica** (FWD, RWD, AWD) de 666 carros | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
+| `fandom-images` | Forza Wiki (Fandom) | API MediaWiki | **Foto** de 666 carros (captura de tela do FH6) | ✅ API pública | not-required (regras de conteúdo da Microsoft, [ADR-0013](adr/0013-miniaturas-dos-carros.md)) | ✅ Fase 1 |
 | `gbr-ozzy` | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | pending (prioridade) | ✅ Fase 0 |
 | `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | pending | ✅ Fase 0 |
 | `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | pending | ✅ Fase 0 |
@@ -57,13 +58,21 @@ O registro executável dessas fontes é `data/sources.yaml`.
 - **Por que não outras fontes:** codmunity/forzacity têm a raridade, mas são sites concorrentes, sem licença de reuso. A aba "Car Collection" do Ozzy só tem o logo da marca na coluna BADGE.
 - **Lacunas conhecidas:** 26 carros não estão em nenhuma categoria de raridade da wiki (ex.: Mazda 787B, Porsche 959, Ford GT 2005). Eles ficam fora das provas com restrição de raridade até a wiki ser completada. Qualquer pessoa pode completar a wiki; a próxima sincronização pega a correção.
 
+### `fandom-images`: fotos dos carros (Forza Wiki)
+- **Por quê:** o dono quer a miniatura de cada carro na lista e na página do carro ([ADR-0013](adr/0013-miniaturas-dos-carros.md)).
+- **Fonte:** a imagem principal de cada página em `Category:Cars (FH6)`, pela API (`generator=categorymembers` + `prop=pageimages`, 480 px). Só valem arquivos `FH6_…`: uma página de carro que existe em vários jogos pode abrir com a foto de outro jogo.
+- **Direitos:** são capturas de tela do jogo (conteúdo da Microsoft, **não** CC BY-SA). Usamos sob as regras de conteúdo da Microsoft: site sem anúncios, aviso no rodapé e link para as regras. Guardamos só o endereço; a imagem é servida pela Fandom.
+- **Cobertura (2026-11-08):** 666 dos 667 carros.
+
 ### `fandom-drivetrain`: tração de fábrica (Forza Wiki)
 - **Por quê:** provas como "2000s Total FWD - B Class" aceitam só carros com aquela tração **de fábrica**. O roster oficial não traz essa informação.
 - **Fonte:** categorias `Category:Front-Wheel Drive`, `Rear-Wheel Drive` e `All-Wheel Drive` da [Forza Wiki](https://forza.fandom.com). Elas valem para todos os jogos Forza, então o adaptador cruza com `Category:Cars (FH6)` e só usa carros do FH6. Um carro listado em duas trações é ignorado (fica como desconhecido).
 - **Licença:** como a raridade, CC BY-SA, com crédito no rodapé.
 - **Cobertura (2026-11-08):** 666 dos 667 carros (falta o Subaru BRZ Forza Edition, cujo nome na wiki não bate com o roster).
 
-### `noa-miyako`: tabela de meta da Noa Miyako
+### `noa-miyako`: tabela de meta de Noa Miyako
+
+> **Observações em chinês:** aparecem traduzidas pela memória de tradução (`data/manual/translations.yaml`, [ADR-0014](adr/0014-traducao-dos-textos-das-fontes.md)). Os tempos citados ("白川1:04.3") viram selos "1:04.3 · Shirakawa" (`data/manual/track-aliases.yaml`).
 - **URL:** https://docs.qq.com/sheet/DYWZVRWR0dnh3aHhZ (aba inicial `mmc7rv`)
 - **Abas:** 引言 (introdução), 季节赛 每周更新 (temporada, atualização semanal), 新车调校速递 (tunes de carros novos), 老车调校更新 (atualização de carros antigos) e uma aba por classe × piso: `R 998公路`, `S2 900公路`, `S1 800公路/泥地/越野`, `A 700公路/泥地/越野`, `B 600公路/泥地/越野`, `C 500公路/泥地`. (公路 = road, 泥地 = dirt, 越野 = cross-country)
 - **Acesso:** `GET /dop-api/opendoc?...` (primeiro bloco) e `GET /dop-api/get/sheet?padId=...&subId=<aba>&startrow=N&endrow=N+255` (blocos de 256 linhas). O campo `block_datas[].related_sheet` é base64 → zlib → protobuf não documentado. Sem login.

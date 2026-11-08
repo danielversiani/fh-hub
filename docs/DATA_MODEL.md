@@ -24,7 +24,7 @@
 | `Drivetrain` | `FWD`, `RWD`, `AWD` | |
 | `TireCompound` | `stock`, `street`, `sport`, `semi-slick`, `slick`, `super-slick`, `rally`, `offroad`, `drift`, `drag`, `other` | Lista a confirmar com o jogo; valores vistos: Stock, Street, Semi-Slicks, Slicks, Super Slicks, Rally, Offroad, Drift |
 | `BuildTag` | `purist`, `stock-look`, `full-aero`, `powerbuild`, `engine-swap`, `drivetrain-swap` | Vários por tune |
-| `Tier` | `meta-plus`, `meta`, `t0.5`, `t1`, `t1.5`, `t2`, `t3` | Escala da Noa Miyako; cada valor tem um `rank` numérico para ordenação |
+| `Tier` | `meta-plus`, `meta`, `t0.5`, `t1`, `t1.5`, `t2`, `t3` | Escala de Noa Miyako; cada valor tem um `rank` numérico para ordenação |
 | `Difficulty` | `easy`, `normal`, `slightly-hard`, `hard`, `very-hard` | Rótulos em chinês mapeados em `data/manual/zh-labels.yaml` |
 | `Category` | `meta`, `off-meta`, `purist`, `meme` | Categorias de curadoria ([CURATION.md](CURATION.md)) |
 | `SourceKind` | `google-sheet`, `google-xlsx`, `qq-doc`, `forza-official`, `manual` | |
@@ -60,6 +60,7 @@ erDiagram
   stock?: { class: CarClass; pi: number }   // classe e PI de fábrica (ex.: "100 D")
   rarity?: Rarity            // Forza Wiki
   drivetrain?: Drivetrain    // tração de fábrica, Forza Wiki (provas "Total FWD")
+  image?: string             // foto: miniatura da Forza Wiki (ADR-0013)
   acquisition?: { raw: string /* "Autoshow, Wheelspin" */; methods: string[] /* slugs: "autoshow", "wheelspin", "autoshow-dlc"… */ }
   addOns?: string            // pacote/DLC
   sourceIds: string[]        // ids das fontes de catálogo que listam o carro
@@ -101,6 +102,7 @@ erDiagram
   carId: string
   tunerId: string
   name: string               // nome dado pelo tunador
+  nameI18n?: Localized       // o nome traduzido, quando escrito em chinês (ADR-0014)
   class: CarClass
   pi?: number
   surface: Surface
@@ -117,9 +119,15 @@ erDiagram
   fromMeta?: boolean         // só existe como indicação da tabela de meta (sem código: buscar o gamertag)
   difficulty?: Difficulty    // colunas da tabela de meta, só na tune do tunador indicado
   role?: "allround" | "power" | "handling"
-  metaNotes?: string         // observação da tabela (muitas vezes em chinês)
+  metaNotes?: string         // observação da tabela, no original (muitas vezes em chinês)
+  metaNotesI18n?: Localized  // a observação traduzida, sem os tempos (que estão em lapRefs)
   lapRefs?: LapRef[]         // tempos citados na observação
 }
+```
+
+### Localized
+```ts
+{ "pt-br": string; en: string }   // texto nas duas línguas do site; "" = nada a mostrar
 ```
 
 ### LapRef
@@ -144,7 +152,8 @@ erDiagram
 { sourceId: string; tab: string; row: number; class: CarClass; surface: Surface; carId: string; tier: Tier;
   rank: number; drivetrain?: Drivetrain; difficulty?: Difficulty; tires?: TireCompound;
   role?: "allround" | "power" | "handling"; tunerIds: string[] /* tunadores recomendados */;
-  shareCode?: string; notes?: string; lapRefs?: LapRef[] /* tempos citados nas notas */ }
+  shareCode?: string; notes?: string; lapRefs?: LapRef[] /* tempos citados nas notas */;
+  notesI18n?: Localized /* notas traduzidas; ausente enquanto não houver tradução */ }
 ```
 
 ### LapTime

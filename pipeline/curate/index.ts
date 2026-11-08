@@ -212,6 +212,7 @@ export function curate(
       difficulty: own?.difficulty,
       role: own?.role,
       metaNotes: own?.notes,
+      metaNotesI18n: own?.notesI18n,
       lapRefs: own?.lapRefs,
     };
   });

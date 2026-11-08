@@ -55,6 +55,22 @@ sources:
     weight: 0.9
     notes: Wiki content under CC BY-SA (attribution shown on the site). Only the stock drivetrain is used.
 
+  - id: fandom-images
+    name: Forza Wiki (Fandom) — car photos
+    kind: wiki
+    url: https://forza.fandom.com
+    fetcher: mediawiki-images
+    adapter: fandom-images
+    tabs:
+      - { id: fh6, role: attributes, path: 'Category:Cars (FH6)' }
+    permission: not-required
+    active: true
+    weight: 0.9
+    notes: >-
+      In-game screenshots (Microsoft's content, not CC BY-SA), used under Microsoft's Game Content
+      Usage Rules with the required notice on the site (ADR-0013). Only the thumbnail URL is
+      stored; the image is served by Fandom.
+
   - id: forza-playlist
     name: Forza Horizon 6 Festival Playlist (forza.net)
     kind: forza-official

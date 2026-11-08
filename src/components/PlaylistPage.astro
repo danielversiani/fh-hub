@@ -5,7 +5,15 @@ import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
 import { ClassChip, DifficultyText, RarityChip, TierChip } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
 import { loadEvents, loadSeasons, loadSuggestions, maps } from '../lib/data';
-import { formatReward, requirementText, seasonEndsAt } from '../lib/playlist';
+import {
+  challengeText,
+  eventName,
+  eventTypeLabel,
+  formatReward,
+  formatTarget,
+  requirementText,
+  seasonEndsAt,
+} from '../lib/playlist';
 import { formatShareCode, TIER_LABELS } from '../lib/ui';
 import EventIcon from './EventIcon.astro';
 
@@ -174,7 +182,7 @@ const reasonText = (pick: Suggestion) => {
                     <span class="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-season/15 text-season">
                       <EventIcon category={event.category} />
                     </span>
-                    <p class="eyebrow pr-12 text-season">{event.type}</p>
+                    <p class="eyebrow pr-12 text-season">{eventTypeLabel(locale, event.type)}</p>
                     <h3 class="display mt-1 pr-10 text-2xl">{event.name}</h3>
                     <p class="mt-3 flex flex-wrap items-center gap-2">
                       <ClassChip cls={req.class} />
@@ -182,7 +190,7 @@ const reasonText = (pick: Suggestion) => {
                     </p>
                     {req.target && (
                       <p class="mt-1 text-sm text-muted">
-                        {t(locale, 'playlist.target')}: {req.target.raw}
+                        {t(locale, 'playlist.target')}: {formatTarget(locale, req.target)}
                       </p>
                     )}
                     {event.routes.length > 0 && (
@@ -326,11 +334,9 @@ const reasonText = (pick: Suggestion) => {
           <ul class="mt-4 grid gap-2 sm:grid-cols-2">
             {otherEvents.map((event) => (
               <li class="card flex flex-wrap items-center gap-x-3 gap-y-1 px-4 py-3 text-sm">
-                <span class="eyebrow text-season">
-                  {t(locale, `eventCategory.${event.category}` as MessageKey)}
-                </span>
-                <span class="font-semibold">{event.name}</span>
-                <span class="w-full text-muted">{event.requirementRaw}</span>
+                <span class="eyebrow text-season">{eventTypeLabel(locale, event.type)}</span>
+                <span class="font-semibold">{eventName(locale, event)}</span>
+                <span class="w-full text-muted">{challengeText(locale, event)}</span>
                 {event.reward && (
                   <span class="text-xs text-muted">{formatReward(locale, event.reward)}</span>
                 )}

@@ -112,6 +112,8 @@ export function inferSurface(input: {
   if (/\b(road|street|circuit|touge|track|grip|highway|drag)\b/.test(name)) return 'road';
 
   if (!explicit && input.tires && ROAD_TIRES.has(input.tires)) return 'road';
+  // Rally tires mean dirt. Off-road tires stay ambiguous (dirt or cross country): no guess.
+  if (!explicit && input.tires === 'rally') return 'dirt';
   return null;
 }
 

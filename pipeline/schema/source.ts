@@ -33,8 +33,16 @@ export type SourceTab = z.infer<typeof SourceTab>;
  * forza-net   → Nuxt payload of an official forza.net page
  * qq-docs     → every tab of a public QQ Docs spreadsheet (fetchers/qq-docs.ts)
  * mediawiki   → members of a wiki category through the MediaWiki API (`path` = category)
+ * mediawiki-images → the lead image of every page in a wiki category (`path` = category)
  */
-export const Fetcher = z.enum(['google-csv', 'google-xlsx', 'forza-net', 'qq-docs', 'mediawiki']);
+export const Fetcher = z.enum([
+  'google-csv',
+  'google-xlsx',
+  'forza-net',
+  'qq-docs',
+  'mediawiki',
+  'mediawiki-images',
+]);
 export type Fetcher = z.infer<typeof Fetcher>;
 
 export const SourceDef = z
@@ -66,7 +74,7 @@ export const SourceDef = z
     for (const tab of s.tabs) {
       if (s.fetcher === 'google-csv' && !tab.gid) fail(`tab ${tab.id} needs \`gid\``);
       if (s.fetcher === 'google-xlsx' && !tab.sheet) fail(`tab ${tab.id} needs \`sheet\``);
-      if ((s.fetcher === 'forza-net' || s.fetcher === 'mediawiki') && !tab.path) {
+      if ((s.fetcher === 'forza-net' || s.fetcher.startsWith('mediawiki')) && !tab.path) {
         fail(`tab ${tab.id} needs \`path\``);
       }
     }

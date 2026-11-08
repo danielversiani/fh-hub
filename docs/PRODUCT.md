@@ -13,7 +13,7 @@ e os guias que o próprio jogo não oferece.
 
 1. **Informação fragmentada.** Os tunes e rankings estão em dezenas de planilhas (Google Sheets, QQ Docs), Discords e vídeos, cada um com formato próprio e atualizado em ritmo próprio.
 2. **O site de referência atual tem lacunas.** O [fh6meta.com](https://fh6meta.com) agrega bem, mas:
-   - o meta (tiers) vem de uma única fonte (planilha da Noa Miyako);
+   - o meta (tiers) vem de uma única fonte (planilha de Noa Miyako);
    - a cobertura de tunes se limita a três planilhas (GBR Ozzy, LogikJ, Johnson Racing);
    - a playlist semanal reaproveita as escolhas de um único tunador (LogikJ);
    - não existe versão em português;
@@ -72,13 +72,17 @@ e os guias que o próprio jogo não oferece.
 - **Lista de tunes** (2026-11-08):
   - cada linha mostra tier, modelo, raridade, marca, ano e **como obter o carro** em português (Concessionária, Roleta, Exclusivo da playlist, Diário de coleção, Tesouro…). Carro de Roleta ou da playlist que não está na concessionária ganha "também no Leilão";
   - ao abrir um carro, as tunes ficam **separadas por piso** (Asfalto, Terra, Cross country), com uma linha divisória;
-  - cada tune mostra as colunas da tabela da Noa: tração, pneu, estilo, dificuldade, tempos de referência ("1:04.3 · Shirakawa") e a observação, com link para traduzir;
+  - cada tune mostra as colunas da tabela de Noa Miyako: tração, pneu, estilo, dificuldade, tempos de referência ("1:04.3 · Shirakawa") e a observação, **já traduzida** ([ADR-0014](adr/0014-traducao-dos-textos-das-fontes.md));
   - o **tunador** ganha destaque (nome grande, com link para a página dele);
   - classe e PI **de fábrica** saíram da linha e viraram nota de rodapé dentro da caixa, porque a tune muda os dois;
   - Meme saiu dos filtros: é só uma categoria das sugestões de campeonato.
 - **Página do tunador** usa a mesma lista e os mesmos filtros da aba Tunes.
 - **Playlist** (2026-11-08): eventos separados por tipo (Campeonatos, The Trial, Desafio semanal, Rivals, PR Stunts, Horizon Life, outros), com título e linha entre os grupos. Cada sugestão mostra tração, pneu, estilo e dificuldade.
-- **Miniaturas dos carros:** propostas no [ADR-0013](adr/0013-miniaturas-dos-carros.md), aguardando o dono.
+- **Fotos dos carros** ([ADR-0013](adr/0013-miniaturas-dos-carros.md)): na caixa do carro, na página do carro e nas novidades do início.
+- **Celular primeiro** (2026-11-08): a maioria do público vai abrir no celular. Toda página precisa funcionar a partir de 375 px de largura, sem rolagem para o lado. No celular, o menu de seções ganha uma linha própria e cada carro da lista mostra o nome numa linha e os detalhes embaixo.
+- **Português de verdade** (2026-11-08): na versão PT, tudo o que é do site aparece em português (tipos de evento, tipos de carro, recompensas, pneus, "Playlist do Festival"), com mph e pés convertidos para km/h e metros. Termos que a comunidade usa como estão (tune, meta, off-meta, drift, slick) continuam. Os **nomes dos eventos** ficam como o forza.net escreve até confirmarmos como o jogo em português os chama.
+- **Sem anúncios, com doação** (2026-11-08): um bloco "Projeto feito por fãs" convida a apoiar, no início e no menu ("♥ Apoie"). O endereço da página de doação fica em `src/lib/site.ts` (`DONATE_URL`); enquanto estiver vazio, o botão diz "em breve".
+- **Menções a Noa Miyako:** sempre o nome completo e, em português, no masculino ou neutro ("tabela de Noa Miyako").
 - **Sem estatísticas de carro** (velocidade, aceleração etc.): o sistema do jogo que as calcula não é confiável.
 
 ## 6. Fases
