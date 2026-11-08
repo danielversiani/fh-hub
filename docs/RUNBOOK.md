@@ -1,0 +1,121 @@
+# Runbook: operação e incidentes
+
+> **Status:** v0.2 · **Atualizado em:** 2026-11-08
+> Itens marcados com ⏳ dependem de partes que entram nas próximas fases.
+
+## Onde olhar primeiro
+
+| Pergunta | Onde |
+|---|---|
+| Alguma fonte está com problema? | Página `/status` do site ou `data/generated/sources-status.json` |
+| Por que o sync falhou? | GitHub → Actions → workflow `sync` → última execução |
+| O que mudou nos dados? | `git log -- data/generated/` ou página de mudanças do site |
+| O que está esperando revisão humana? | `data/review/*.json` (fontes públicas) e `.cache/preview/review/*.json` (todas, depois de um `pnpm sync` local). O sync também imprime o resumo |
+
+## 1. Rotina semanal (quinta-feira, depois da virada da playlist)
+
+1. Conferir se a nova season apareceu em `data/generated/playlist/seasons.json`.
+2. Ver `data/review/unparsed-requirements.json`: restrições que as regras não entenderam.
+3. Revisar o **PR semanal da IA** (§9).
+4. Conferir `data/review/unmatched-cars.json`: carros novos da season costumam aparecer aqui (§4).
+5. Abrir a página da playlist no site e conferir visualmente.
+
+## 2. Alerta: "fonte X falhando"
+
+1. Abra a última execução do workflow `sync` e procure o erro da fonte.
+2. Classifique:
+
+| Sintoma | Causa provável | Ação |
+|---|---|---|
+| Timeout, HTTP 5xx, 429 | Instabilidade temporária | Nada; a próxima execução tenta de novo. Se passar de 24 h, investigar |
+| HTTP 401/403/404 | Planilha ficou privada, foi apagada ou o dono restringiu o acesso | Marcar `active: false` em `data/sources.yaml` e falar com o tunador |
+| `HeaderMismatchError` | O tunador mudou colunas ou abas | §3 |
+| `RowDropGuard` | Queda de mais de 30% das linhas | Abrir a planilha manualmente: se a queda for intencional (limpeza), aprovar com `pnpm sync --source=<id> --accept-drop`; se for acidente, esperar o tunador corrigir |
+| Erro de decodificação (QQ Docs) | Mudança no formato interno | Ativar o plano B (`fetcher: qq-docs-browser`) e abrir issue |
+
+O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](adr/0005-pipeline-adaptadores.md)).
+
+## 3. Uma planilha mudou de layout
+
+1. Atualize a fixture: `pnpm fixtures:update --source=<id>`.
+2. Rode `pnpm test -- adapters/<id>` e veja o que quebrou.
+3. Ajuste o adaptador (`pipeline/adapters/<id>.ts`): cabeçalhos esperados, índices, transformações.
+4. Atualize a ficha da fonte em [DATA_SOURCES.md](DATA_SOURCES.md).
+5. Rode `pnpm sync --source=<id> --dry-run` e confira o resumo (linhas lidas, carros não reconhecidos).
+6. Abra o PR com fixture + adaptador + doc juntos.
+
+## 4. Carros ou tunadores não reconhecidos
+
+1. Abra `data/review/unmatched-cars.json`. Cada item mostra o texto original e os candidatos com a similaridade.
+2. Para cada item:
+   - **É um carro existente com outro nome:** adicione em `data/manual/car-aliases.yaml`:
+     ```yaml
+     "Nissan GTR R35 Black Edition": 2017-nissan-gt-r-black-edition
+     ```
+   - **É um carro novo no jogo:** ele entra pela lista mestre, o roster oficial (forza.net/fh6cars). Se o roster ainda não o tem, espere a atualização oficial (⏳ `data/manual/cars-extra.yaml` para casos urgentes ainda não existe).
+   - **O nome é ambíguo** (ex.: Ozzy escreve "Volkswagen Golf R" sem ano e o jogo tem dois): só um alias resolve, se ficar claro pelo contexto qual é o carro.
+   - **É lixo** (linha de cabeçalho, texto solto): adicione um padrão de exclusão no adaptador.
+3. Mantenha os arquivos de alias em ordem alfabética (a CI verifica).
+4. O mesmo vale para tunadores em `data/manual/tuner-aliases.yaml`.
+
+## 5. Chegou um pacote de carros novos (DLC ou atualização)
+
+1. Espere o roster oficial atualizar (a Playground costuma atualizar junto com o anúncio).
+2. Enquanto isso, os tunes desses carros ficam na fila de revisão, e nada errado é publicado.
+3. ⏳ Para casos urgentes, `data/manual/cars-extra.yaml` (ainda não implementado).
+4. Se o patch mudar a física, atualize `lastPhysicsPatch` em `data/curation/config.yaml`.
+
+## 6. Adicionar uma nova fonte
+
+1. Confirme a autorização do tunador e registre como `permission: pending` ou `granted` ([ADR-0010](adr/0010-politica-de-fontes.md)).
+2. Adicione a entrada em `data/sources.yaml`.
+3. Baixe a fixture: `pnpm fixtures:update --source=<id>`.
+4. Escreva `pipeline/adapters/<id>.ts` e o teste correspondente.
+5. Rode `pnpm sync --source=<id> --dry-run` e resolva os itens de revisão (§4).
+6. Escreva a ficha em [DATA_SOURCES.md](DATA_SOURCES.md).
+7. Abra o PR. A fonte só vai ao ar com `permission: granted` e `active: true`.
+
+## 7. Um tunador pediu remoção
+
+1. Confirme a identidade (mensagem vinda da conta oficial do tunador).
+2. Para tirar uma fonte inteira, use `active: false` em `data/sources.yaml`. Para tirar só um tunador, adicione-o em `excludedTuners` no mesmo arquivo.
+3. O próximo sync remove os dados. Para acelerar, rode o workflow `sync` manualmente.
+4. Responda ao tunador com a confirmação. Prazo: 7 dias.
+
+## 8. Dado errado publicado
+
+1. Identifique o commit do bot que introduziu o erro: `git log -p -- data/generated/<arquivo>`.
+2. Para corrigir na hora, use `git revert <commit>` e faça push. O site republica.
+3. Corrija a causa (adaptador, alias, regra) **e adicione um teste** que teria pegado o erro.
+4. Se o erro veio da fonte, avise o tunador.
+
+## 9. PR semanal da IA
+
+- **Chegou:** confira se a CI passou (schema válido, só referencia tunes existentes) e leia as escolhas Meme e os comentários. Ajuste direto no PR, se quiser, e faça o merge.
+- **Não chegou até quinta à noite:**
+  1. veja o histórico da rotina no Claude Code (comando `/schedule`);
+  2. o site já está no ar com as sugestões só por regras, então não há urgência;
+  3. se precisar, rode a rotina manualmente pelo mesmo comando.
+- **A IA errou feio:** feche o PR sem merge. O site continua com as regras.
+
+## 10. Site fora do ar ou deploy falhando
+
+1. Veja o workflow `deploy` no GitHub Actions.
+2. Se o erro for de build: o último deploy bom continua no ar no Cloudflare Pages. Corrija e faça push.
+3. Rollback imediato: no painel do Cloudflare Pages → Deployments → promover o deploy anterior.
+4. Se o problema for o limite de builds do mês: aumente o intervalo mínimo do deploy de dados no `deploy.yml` até a virada do mês.
+
+## 11. O sync parou de rodar sozinho
+
+O GitHub desativa workflows agendados de repositórios públicos após 60 dias sem atividade.
+Reative em Actions → `sync` → *Enable workflow* e investigue por que não houve commits (fontes paradas? bot sem permissão?).
+
+## 12. Segredos
+
+| Segredo | Onde | Rotação |
+|---|---|---|
+| `CLOUDFLARE_API_TOKEN` | GitHub → Settings → Secrets | Anual ou se vazar. Permissão mínima: Pages Edit |
+| `CLOUDFLARE_ACCOUNT_ID` | Idem | Não é sensível, mas fica junto |
+| `DISCORD_WEBHOOK_URL` | Idem | Se vazar: apagar o webhook no Discord e criar outro |
+
+Nenhum segredo vai em arquivo do repositório. Se algum for commitado por engano, **revogue primeiro** e limpe o histórico depois.

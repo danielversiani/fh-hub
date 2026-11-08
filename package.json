@@ -1,0 +1,51 @@
+{
+  "name": "fh-hub",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Community hub for Forza Horizon 6: tunes for every car, meta, weekly Festival Playlist suggestions and guides (PT-BR + EN).",
+  "type": "module",
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "dev:preview": "astro dev --mode preview",
+    "build": "astro build",
+    "preview": "astro preview",
+    "sync": "tsx pipeline/cli.ts sync",
+    "fixtures:update": "tsx pipeline/cli.ts fixtures",
+    "validate": "tsx pipeline/cli.ts validate",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@astrojs/preact": "^6.1.2",
+    "astro": "^7.4.7",
+    "csv-parse": "^7.0.3",
+    "devalue": "^6.0.3",
+    "exceljs": "^4.4.0",
+    "preact": "^11.2.0",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.14.0",
+    "eslint-plugin-astro": "^3.2.1",
+    "globals": "^17.14.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.2",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.0",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.1.0"
+  }
+}

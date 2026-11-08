@@ -1,0 +1,53 @@
+name: sync
+
+# Reads the sources every hour and commits data/ when something changed (ARCHITECTURE §5).
+# Only sources that may be published are synced here (`--public-only`, ADR-0010).
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Comma-separated source ids (empty = all)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Sync sources
+        env:
+          SOURCES: ${{ inputs.sources }}
+        run: |
+          if [ -n "$SOURCES" ]; then
+            pnpm sync --public-only --source="$SOURCES"
+          else
+            pnpm sync --public-only
+          fi
+      - run: pnpm validate
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain data)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "fh-hub-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "chore(data): sync $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push

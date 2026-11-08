@@ -1,0 +1,56 @@
+---
+import { formatDate, formatNumber, t, type Locale, type MessageKey } from '../i18n';
+import Base from '../layouts/Base.astro';
+import { loadSourceStatus } from '../lib/data';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const statuses = loadSourceStatus();
+const healthClass = { healthy: 'text-ok', degraded: 'text-warn', failing: 'text-bad' } as const;
+---
+
+<Base locale={locale} path="/status" title={t(locale, 'status.title')}>
+  <h1 class="text-3xl font-bold">{t(locale, 'status.title')}</h1>
+  <p class="mt-3 max-w-2xl text-muted">{t(locale, 'status.lead')}</p>
+
+  {statuses.length === 0 ? (
+    <p class="mt-8 text-muted">{t(locale, 'status.empty')}</p>
+  ) : (
+    <div class="mt-8 overflow-x-auto rounded-lg border border-border bg-surface">
+      <table class="w-full text-left text-sm">
+        <thead class="border-b border-border text-muted">
+          <tr>
+            <th class="px-4 py-3 font-medium">{t(locale, 'status.source')}</th>
+            <th class="px-4 py-3 font-medium">{t(locale, 'status.permission')}</th>
+            <th class="px-4 py-3 font-medium">{t(locale, 'status.health')}</th>
+            <th class="px-4 py-3 text-right font-medium">{t(locale, 'status.records')}</th>
+            <th class="px-4 py-3 font-medium">{t(locale, 'status.lastChanged')}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {statuses.map((s) => (
+            <tr class="border-b border-border last:border-0">
+              <td class="px-4 py-3">
+                <a href={s.url} class="hover:underline" rel="noopener" target="_blank">
+                  {s.name}
+                </a>
+              </td>
+              <td class="px-4 py-3">{t(locale, `permission.${s.permission}` as MessageKey)}</td>
+              <td class={`px-4 py-3 ${healthClass[s.status]}`}>
+                {t(locale, `health.${s.status}` as MessageKey)}
+                {s.usedSnapshot && (
+                  <span class="block text-xs text-muted">{t(locale, 'status.snapshot')}</span>
+                )}
+              </td>
+              <td class="px-4 py-3 text-right tabular-nums">{formatNumber(locale, s.records)}</td>
+              <td class="px-4 py-3 text-muted">{formatDate(locale, s.lastChangedAt)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )}
+</Base>

@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+import { htmlLang, localePath, otherLocale, t, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  title?: string;
+  /** Path of this page without the locale prefix, used for the language switch. */
+  path: string;
+}
+
+const { locale, title, path } = Astro.props;
+const pageTitle = title ? `${title} · ${t(locale, 'site.name')}` : t(locale, 'site.name');
+const other = otherLocale(locale);
+---
+
+<!doctype html>
+<html lang={htmlLang(locale)}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={t(locale, 'site.tagline')} />
+    <link rel="alternate" hreflang="pt-BR" href={localePath('pt-br', path)} />
+    <link rel="alternate" hreflang="en" href={localePath('en', path)} />
+  </head>
+  <body class="min-h-screen">
+    <header class="border-b border-border bg-surface">
+      <nav class="mx-auto flex max-w-5xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
+        <a href={localePath(locale, '/')} class="font-bold text-accent">
+          {t(locale, 'site.name')}
+        </a>
+        <a href={localePath(locale, '/')} class="text-sm hover:underline">
+          {t(locale, 'nav.home')}
+        </a>
+        <a href={localePath(locale, '/status')} class="text-sm hover:underline">
+          {t(locale, 'nav.status')}
+        </a>
+        <a
+          href={localePath(other, path)}
+          hreflang={htmlLang(other)}
+          class="ml-auto text-sm text-muted hover:underline"
+        >
+          {t(locale, 'nav.language')}
+        </a>
+      </nav>
+    </header>
+    <main class="mx-auto max-w-5xl px-4 py-8">
+      <slot />
+    </main>
+    <footer class="mx-auto max-w-5xl px-4 pb-10 text-xs text-muted">
+      {t(locale, 'footer.disclaimer')}
+    </footer>
+  </body>
+</html>

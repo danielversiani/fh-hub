@@ -1,0 +1,96 @@
+# Source registry. Documentation for each source: docs/DATA_SOURCES.md
+# Policy (credit, permission, removal): docs/adr/0010-politica-de-fontes.md
+#
+# permission:
+#   not-required → official/factual data, published normally
+#   granted      → tuner authorised publication
+#   pending      → synced only into .cache/preview (never committed or published)
+#   denied       → keep `active: false`
+version: 1
+sources:
+  - id: forza-cars
+    name: Forza Horizon 6 Car List (forza.net)
+    kind: forza-official
+    url: https://forza.net/fh6cars
+    fetcher: forza-net
+    adapter: forza-cars
+    tabs:
+      - { id: cars, role: catalog, path: fh6cars }
+    permission: not-required
+    active: true
+    weight: 1
+    notes: Official roster. Master car list (ADR-0006).
+
+  - id: gbr-ozzy
+    name: GBR Ozzy's FH6 Spreadsheet
+    kind: google-sheet
+    url: https://docs.google.com/spreadsheets/d/1FQ29uIAWVEJDT41sx9bEoqz0BGLpOi9MdA2hp0uzP9w
+    docId: 1FQ29uIAWVEJDT41sx9bEoqz0BGLpOi9MdA2hp0uzP9w
+    ownerTuner: GBR Ozzy
+    fetcher: google-csv
+    adapter: gbr-ozzy
+    tabs:
+      - { id: tune-list, role: tunes, gid: '711189847', label: '🛠️FH6 Tune List' }
+    permission: pending
+    active: true
+    weight: 0.8
+    notes: Owner disabled downloads (/export → 401). Ask before publishing.
+
+  - id: kleis
+    name: Forza Tune & Design Sheet by kleis
+    kind: google-xlsx
+    url: https://docs.google.com/spreadsheets/d/1Lv3OzABIpX8_vlXS5zuOXMmrBVhpuLsU
+    docId: 1Lv3OzABIpX8_vlXS5zuOXMmrBVhpuLsU
+    ownerTuner: kleis
+    fetcher: google-xlsx
+    adapter: kleis
+    tabs:
+      - { id: fh6, role: tunes, sheet: FH6, gid: '901186628' }
+    permission: pending
+    active: true
+    weight: 0.9
+    notes: No share codes. Car class is encoded as the fill colour of column A.
+
+  - id: k1z-gray
+    name: My Fh6 Tunes (K1Z Gray)
+    kind: google-sheet
+    url: https://docs.google.com/spreadsheets/d/1p3azjYqyL2OMD9Ksja_f4jTAhJD5tdRdF7nIT_umshQ
+    docId: 1p3azjYqyL2OMD9Ksja_f4jTAhJD5tdRdF7nIT_umshQ
+    ownerTuner: K1Z Gray
+    fetcher: google-csv
+    adapter: k1z-gray
+    tabs:
+      - { id: fh6-tunes, role: tunes, gid: '1914811100' }
+    permission: pending
+    active: true
+    weight: 0.7
+
+  - id: letzelu-shirakawa
+    name: Letz' Shirakawa Tune & Hotlap Sheet
+    kind: google-sheet
+    url: https://docs.google.com/spreadsheets/d/12aoTNk0ROKqX3EYMY8PAoa8ZUivMMtI4uI-ndEg9CtY
+    docId: 12aoTNk0ROKqX3EYMY8PAoa8ZUivMMtI4uI-ndEg9CtY
+    ownerTuner: LetzeLU
+    fetcher: google-csv
+    adapter: letzelu-shirakawa
+    tabs:
+      - { id: a700, role: laptimes, gid: '1109128970', carClass: A }
+      - { id: s1-800, role: laptimes, gid: '1623307181', carClass: S1 }
+      - { id: s2-900, role: laptimes, gid: '630549251', carClass: S2 }
+    permission: pending
+    active: true
+    weight: 0.8
+
+  - id: whd-url
+    name: Underground Racing League (Wrong Hand Drive)
+    kind: google-sheet
+    url: https://docs.google.com/spreadsheets/d/1J3rtv_BkLO8WDJqT0S6wJtXwmJANLuOTH1qpqn0MWJI
+    docId: 1J3rtv_BkLO8WDJqT0S6wJtXwmJANLuOTH1qpqn0MWJI
+    ownerTuner: Wrong Hand Drive
+    fetcher: google-csv
+    adapter: whd-url
+    tabs:
+      - { id: cars-tracks, role: custom-event, gid: '0' }
+    permission: pending
+    active: true
+    weight: 0.6
