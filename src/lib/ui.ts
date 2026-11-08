@@ -1,4 +1,4 @@
-import type { CarClass, Rarity, Tier } from '../../pipeline/schema/enums';
+import type { CarClass, Difficulty, Rarity, Tier } from '../../pipeline/schema/enums';
 
 /** In-game class colours (also used by kleis' sheet). */
 export const CLASS_COLORS: Readonly<Record<CarClass, string>> = {
@@ -39,6 +39,15 @@ export const RARITY_COLORS: Readonly<Record<Rarity, string>> = {
   epic: '#a371f7',
   legendary: '#e3a008',
   'forza-edition': '#ff3d9a',
+};
+
+/** Tune difficulty, from relaxed (green) to demanding (red). */
+export const DIFFICULTY_COLORS: Readonly<Record<Difficulty, string>> = {
+  easy: '#4ade80',
+  normal: '#d4d4d4',
+  'slightly-hard': '#facc15',
+  hard: '#fb923c',
+  'very-hard': '#f87171',
 };
 
 export const CLASS_ORDER: readonly CarClass[] = ['D', 'C', 'B', 'A', 'S1', 'S2', 'R', 'X'];

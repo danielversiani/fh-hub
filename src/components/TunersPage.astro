@@ -14,7 +14,7 @@ const tuners = [...loadTuners()]
 ---
 
 <Base locale={locale} path="/tuners/" title={t(locale, 'tuners.title')}>
-  <h1 class="text-3xl font-bold">{t(locale, 'tuners.title')}</h1>
+  <h1 class="display text-4xl sm:text-5xl">{t(locale, 'tuners.title')}</h1>
   <p class="mt-3 max-w-2xl text-muted">{t(locale, 'tuners.lead')}</p>
   <ul class="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
     {tuners.map((tuner) => (

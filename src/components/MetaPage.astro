@@ -35,7 +35,7 @@ const anchor = (s: { cls: string; surface: string }) => `${s.cls.toLowerCase()}-
 ---
 
 <Base locale={locale} path="/meta/" title={t(locale, 'meta.title')}>
-  <h1 class="text-3xl font-bold">{t(locale, 'meta.title')}</h1>
+  <h1 class="display text-4xl sm:text-5xl">{t(locale, 'meta.title')}</h1>
   <p class="mt-3 max-w-2xl text-muted">{t(locale, 'meta.lead')}</p>
 
   {sections.length === 0 ? (

@@ -57,6 +57,11 @@ const toIndexEntry = (t: Tune): TuneIndexEntry => ({
   credited: t.credited,
   score: t.score,
   categories: t.categories,
+  fromMeta: t.fromMeta,
+  difficulty: t.difficulty,
+  role: t.role,
+  metaNotes: t.metaNotes,
+  lapRefs: t.lapRefs,
   sourceIds: [...new Set(t.observations.map((o) => o.sourceId))].sort(),
 });
 

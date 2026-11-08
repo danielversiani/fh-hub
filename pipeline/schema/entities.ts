@@ -30,6 +30,8 @@ export const Car = z.object({
   country: z.string().optional(),
   stock: z.object({ class: CarClass, pi: z.number().int() }).optional(),
   rarity: Rarity.optional(),
+  /** Stock drivetrain (Forza Wiki), used by "Total FWD/RWD/AWD" playlist restrictions. */
+  drivetrain: Drivetrain.optional(),
   acquisition: z.object({ raw: z.string(), methods: z.array(Slug) }).optional(),
   addOns: z.string().optional(),
   sourceIds: z.array(Slug).min(1),
@@ -53,6 +55,16 @@ export const Observation = z.object({
   raw: z.record(z.string(), z.string()),
 });
 export type Observation = z.infer<typeof Observation>;
+
+/** A lap time quoted in a note ("白川1:04.3" → Shirakawa 1:04.3), track name in English. */
+export const LapRef = z.object({
+  track: z.string(),
+  time: z.string(),
+  worldRecord: z.boolean().optional(),
+});
+export type LapRef = z.infer<typeof LapRef>;
+
+export const TuneRole = z.enum(['allround', 'power', 'handling']);
 
 export const Tune = z.object({
   /** `sc-<share code>` or `nc-<hash>` for tunes without a share code (ADR-0006). */
@@ -85,6 +97,16 @@ export const Tune = z.object({
   /** Share of signal weight that had data (0–1). */
   confidence: z.number().min(0).max(1).optional(),
   categories: z.array(Category).optional(),
+  /**
+   * The tune exists only as a meta-table recommendation (car + tuner, no share code): players
+   * find it in game by the tuner's gamertag.
+   */
+  fromMeta: z.boolean().optional(),
+  /** From the meta-table row that credits this tune's tuner (difficulty, style, lap times). */
+  difficulty: Difficulty.optional(),
+  role: TuneRole.optional(),
+  metaNotes: z.string().optional(),
+  lapRefs: z.array(LapRef).optional(),
 });
 export type Tune = z.infer<typeof Tune>;
 
@@ -106,6 +128,11 @@ export const TuneIndexEntry = Tune.pick({
   credited: true,
   score: true,
   categories: true,
+  fromMeta: true,
+  difficulty: true,
+  role: true,
+  metaNotes: true,
+  lapRefs: true,
 }).extend({ sourceIds: z.array(Slug).min(1) });
 export type TuneIndexEntry = z.infer<typeof TuneIndexEntry>;
 
@@ -170,11 +197,13 @@ export const MetaRanking = z.object({
   drivetrain: Drivetrain.optional(),
   difficulty: Difficulty.optional(),
   tires: TireCompound.optional(),
-  role: z.enum(['allround', 'power', 'handling']).optional(),
+  role: TuneRole.optional(),
   /** Tuners whose tune is recommended for this car (search by gamertag in game). */
   tunerIds: z.array(Slug),
   shareCode: ShareCode.optional(),
   notes: z.string().optional(),
+  /** Lap times quoted in the notes, with the track name translated (data/manual/track-aliases.yaml). */
+  lapRefs: z.array(LapRef).optional(),
 });
 export type MetaRanking = z.infer<typeof MetaRanking>;
 

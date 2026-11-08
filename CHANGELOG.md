@@ -7,6 +7,15 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-08: **Fase 1 (parte 3): segunda revisão do dono.**
+  - **Tração de fábrica** (fonte `fandom-drivetrain`, Forza Wiki): 666 de 667 carros. Provas "Total FWD/RWD/AWD" passam a ter sugestões.
+  - **Indicações da Noa viram tunes**: tunador recomendado sem código aparece como tune ("busque o gamertag no jogo"), em vez de "ainda não há tune". Corrige a contradição do Peel P50.
+  - **Colunas da tabela da Noa na tune**: tração, pneu, estilo, dificuldade, observações (com link para traduzir) e tempos citados nas observações, com o nome da pista em inglês (`data/manual/track-aliases.yaml`).
+  - **Sugestões da playlist**: até 4 Meta, 3 Off-meta, 2 Purista e 2 Meme por evento; Meme só em campeonatos; dificuldade e estilo em cada sugestão; eventos agrupados por tipo, com linha divisória.
+  - **Lista de tunes**: como obter o carro em português (com aviso de Leilão), tunes separadas por piso, tunador em destaque, classe/PI de fábrica no rodapé, sem filtro Meme.
+  - **Página do tunador** no mesmo formato da lista de tunes (a "Nota" saiu de vez).
+  - **Visual** inspirado no forza.net (preto, grafite e verde-limão), com títulos menores.
+  - Proposta de miniaturas dos carros ([ADR-0013](docs/adr/0013-miniaturas-dos-carros.md)).
 - 2026-11-08: **Raridade dos carros** (fonte `fandom-rarity`, Forza Wiki, CC BY-SA): 641 de 667 carros. Provas com restrição de raridade passam a ter sugestões, só com carros de raridade conhecida. Selo de raridade nas listas e na página do carro; crédito à wiki no rodapé. Correção: um número no fim do nome ("Peugeot 207 Super 2000") não é mais confundido com o ano.
 - 2026-11-08: **Fase 1 (parte 2): revisão visual e regras do dono.**
   - Tier da Noa em tudo (T3 para quem não está na tabela); Meta/Off-meta só pelo tier; Meme por lista de carros; nenhuma sugestão quando a elegibilidade não pode ser verificada; nota numérica fora do site.

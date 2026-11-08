@@ -69,3 +69,11 @@ lastPhysicsPatch: null
 
 # How many seasons before the live one get suggestions (older seasons are history only).
 pastSeasonsWithSuggestions: 4
+
+# How many cars each category shows per playlist event (owner, 2026-11-08: "era pra ter mais
+# carros ali"). Each slot is a different car; Meme only appears in championships.
+suggestionsPerCategory:
+  meta: 4
+  off-meta: 3
+  purist: 2
+  meme: 2

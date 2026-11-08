@@ -58,6 +58,8 @@ erDiagram
   carTypes: string[]         // ["Classic Racers"]: categoria do jogo (pode ter mais de uma)
   country?: string
   stock?: { class: CarClass; pi: number }   // classe e PI de fábrica (ex.: "100 D")
+  rarity?: Rarity            // Forza Wiki
+  drivetrain?: Drivetrain    // tração de fábrica, Forza Wiki (provas "Total FWD")
   acquisition?: { raw: string /* "Autoshow, Wheelspin" */; methods: string[] /* slugs: "autoshow", "wheelspin", "autoshow-dlc"… */ }
   addOns?: string            // pacote/DLC
   sourceIds: string[]        // ids das fontes de catálogo que listam o carro
@@ -112,7 +114,17 @@ erDiagram
   observations: Observation[]
   score?: Score              // calculado na curadoria
   categories: Category[]     // calculado na curadoria
+  fromMeta?: boolean         // só existe como indicação da tabela de meta (sem código: buscar o gamertag)
+  difficulty?: Difficulty    // colunas da tabela de meta, só na tune do tunador indicado
+  role?: "allround" | "power" | "handling"
+  metaNotes?: string         // observação da tabela (muitas vezes em chinês)
+  lapRefs?: LapRef[]         // tempos citados na observação
 }
+```
+
+### LapRef
+```ts
+{ track: string /* "Shirakawa" */; time: string /* "1:04.3" */; worldRecord?: boolean }
 ```
 
 ### Observation (proveniência)
@@ -132,7 +144,7 @@ erDiagram
 { sourceId: string; tab: string; row: number; class: CarClass; surface: Surface; carId: string; tier: Tier;
   rank: number; drivetrain?: Drivetrain; difficulty?: Difficulty; tires?: TireCompound;
   role?: "allround" | "power" | "handling"; tunerIds: string[] /* tunadores recomendados */;
-  shareCode?: string; notes?: string }
+  shareCode?: string; notes?: string; lapRefs?: LapRef[] /* tempos citados nas notas */ }
 ```
 
 ### LapTime

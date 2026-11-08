@@ -1,32 +1,44 @@
-import type { BrowseCar, BrowseMeta, BrowseTune } from '../lib/browse';
+import type { BrowseCar, BrowseLap, BrowseMeta, BrowseTune } from '../lib/browse';
 import {
   CLASS_COLORS,
   CLASS_ORDER,
+  DIFFICULTY_COLORS,
   formatShareCode,
   RARITY_COLORS,
   TIER_COLORS,
   TIER_LABELS,
 } from '../lib/ui';
-import type { CarClass, Rarity, Surface, Tier } from '../../pipeline/schema/enums';
+import type { CarClass, Difficulty, Rarity, Surface, Tier } from '../../pipeline/schema/enums';
 
 export interface CarCardLabels {
   shareCode: string;
   copy: string;
   copied: string;
   noCode: string;
-  by: string;
-  recommended: string;
+  tuneBy: string;
   recommendedWhy: string;
   defaultTier: string;
-  metaTuners: string;
+  metaRank: string;
   otherTunes: string;
   noTunes: string;
   obtain: string;
+  auction: string;
   openPage: string;
+  stock: string;
+  notes: string;
+  translate: string;
+  /** Language code for the translate link ("pt", "en"). */
+  translateTo: string;
+  worldRecord: string;
+  lapBy: string;
+  spec: { drivetrain: string; tires: string; style: string; difficulty: string };
   surfaces: Record<string, string>;
   categories: Record<string, string>;
   tires: Record<string, string>;
   rarities: Record<string, string>;
+  roles: Record<string, string>;
+  difficulties: Record<string, string>;
+  obtainMethods: Record<string, string>;
 }
 
 export interface Build {
@@ -35,12 +47,14 @@ export interface Build {
   tier: Tier;
   listed: boolean;
   rank?: number;
-  metaTuners: string[];
   tunes: BrowseTune[];
+  /** Lap times from time sheets for this car in this class (road only). */
+  laps: BrowseLap[];
 }
 
 const TIER_ORDER: readonly Tier[] = ['meta-plus', 'meta', 't0.5', 't1', 't1.5', 't2', 't3'];
 const tierIndex = (t: Tier) => TIER_ORDER.indexOf(t);
+const SURFACE_ORDER: readonly (Surface | null)[] = ['road', 'dirt', 'cross-country', null];
 
 /** Better tier, credited by the meta table, has a share code, table rank, internal score. */
 export const compareTunes = (a: BrowseTune, b: BrowseTune) =>
@@ -53,36 +67,29 @@ export const compareTunes = (a: BrowseTune, b: BrowseTune) =>
 
 /**
  * One "build" per class × surface: the car's tier there (meta table, or T3 by default) and its
- * tunes, best first. This replaces the old separate "In the meta" and "Tunes" blocks.
+ * tunes, best first. Every tuner the meta table recommends has a tune (pipeline: "tunes known only
+ * from the meta table"), so a listed build is never empty.
  */
 export function buildsFor(
   tunes: readonly BrowseTune[],
   meta: readonly BrowseMeta[],
   filter: { cls?: string; surface?: string } = {},
+  laps: readonly BrowseLap[] = [],
 ): Build[] {
   const builds = new Map<string, Build>();
   const keyOf = (cls: string | null, surface: string | null) => `${cls ?? '?'}|${surface ?? '?'}`;
-  for (const m of meta) {
-    builds.set(keyOf(m.cls, m.surface), {
-      cls: m.cls,
-      surface: m.surface,
-      tier: m.tier,
-      listed: true,
-      rank: m.rank,
-      metaTuners: m.tuners,
-      tunes: [],
-    });
-  }
+  const metaByKey = new Map(meta.map((m) => [keyOf(m.cls, m.surface), m]));
   for (const t of tunes) {
     const key = keyOf(t.cls, t.surface);
+    const m = metaByKey.get(key);
     const build = builds.get(key) ?? {
       cls: t.cls,
       surface: t.surface,
-      tier: t.tier ?? 't3',
-      listed: t.listed,
-      rank: t.rank,
-      metaTuners: [],
+      tier: m?.tier ?? t.tier ?? 't3',
+      listed: Boolean(m) || t.listed,
+      rank: m?.rank ?? t.rank,
       tunes: [],
+      laps: laps.filter((l) => t.surface === 'road' && l.cls === t.cls),
     };
     build.tunes.push(t);
     builds.set(key, build);
@@ -101,6 +108,20 @@ export function buildsFor(
     );
 }
 
+/** "Concessionária, Roleta" + whether the auction house is worth a look (owner's rule). */
+export function obtainText(
+  methods: readonly string[],
+  labels: Pick<CarCardLabels, 'obtainMethods'>,
+): { text: string; auction: boolean } {
+  return {
+    text: methods.map((m) => labels.obtainMethods[m] ?? m).join(', '),
+    // Wheelspin / playlist cars that the Autoshow does not sell are traded at the auction house.
+    auction:
+      methods.some((m) => m === 'wheelspin' || m === 'seasonal') &&
+      !methods.some((m) => m === 'autoshow' || m === 'autoshow-dlc'),
+  };
+}
+
 export function ClassChip({
   cls,
   pi,
@@ -110,12 +131,9 @@ export function ClassChip({
 }) {
   if (!cls) return null;
   return (
-    <span
-      class="inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-xs font-bold text-white tabular-nums"
-      style={{ background: CLASS_COLORS[cls] }}
-    >
+    <span class="chip text-white" style={{ background: CLASS_COLORS[cls] }}>
       {cls}
-      {pi !== undefined && <span class="font-semibold opacity-90">{pi}</span>}
+      {pi !== undefined && <span class="ml-1 font-semibold opacity-90">{pi}</span>}
     </span>
   );
 }
@@ -123,10 +141,7 @@ export function ClassChip({
 export function RarityChip({ rarity, label }: { rarity: Rarity | undefined; label: string }) {
   if (!rarity) return null;
   return (
-    <span
-      class="eyebrow inline-block rounded px-1.5 py-0.5 text-black"
-      style={{ background: RARITY_COLORS[rarity], fontSize: '0.65rem' }}
-    >
+    <span class="chip chip-outline" style={{ color: RARITY_COLORS[rarity] }}>
       {label}
     </span>
   );
@@ -135,7 +150,7 @@ export function RarityChip({ rarity, label }: { rarity: Rarity | undefined; labe
 export function TierChip({ tier, muted = false }: { tier: Tier; muted?: boolean }) {
   return (
     <span
-      class="inline-block rounded px-1.5 py-0.5 text-xs font-bold text-white"
+      class="chip text-white"
       style={{ background: TIER_COLORS[tier], opacity: muted ? 0.55 : 1 }}
     >
       {TIER_LABELS[tier]}
@@ -143,22 +158,33 @@ export function TierChip({ tier, muted = false }: { tier: Tier; muted?: boolean 
   );
 }
 
-function CopyButton({ code, labels }: { code: string; labels: CarCardLabels }) {
+export function DifficultyText({ difficulty, label }: { difficulty: Difficulty; label: string }) {
+  return (
+    <span class="font-semibold" style={{ color: DIFFICULTY_COLORS[difficulty] }}>
+      {label}
+    </span>
+  );
+}
+
+function CodeBox({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) {
+  if (!tune.code) {
+    return (
+      <p class="code-box text-sm text-muted">{labels.noCode.replace('{tuner}', tune.tunerName)}</p>
+    );
+  }
   return (
     <div class="code-box">
       <div>
-        <p class="eyebrow text-muted" style={{ fontSize: '0.65rem' }}>
-          {labels.shareCode}
-        </p>
-        <p class="code-digits">{formatShareCode(code)}</p>
+        <p class="label">{labels.shareCode}</p>
+        <p class="code-digits">{formatShareCode(tune.code)}</p>
       </div>
       <button
         type="button"
-        data-copy={code}
+        data-copy={tune.code}
         data-copied-label={labels.copied}
         title={labels.copy}
         aria-label={labels.copy}
-        class="rounded-md border border-border px-2.5 py-1.5 text-sm text-muted hover:border-accent hover:text-text"
+        class="rounded border border-border px-2.5 py-1.5 text-sm text-muted hover:border-accent hover:text-text"
       >
         ⧉
       </button>
@@ -166,57 +192,115 @@ function CopyButton({ code, labels }: { code: string; labels: CarCardLabels }) {
   );
 }
 
-function BuildCard({ build, labels }: { build: Build; labels: CarCardLabels }) {
-  const [top, ...others] = build.tunes;
-  const surface = build.surface ? labels.surfaces[build.surface] : labels.surfaces.unknown;
+/** The meta table's columns for a tune: drivetrain, tires, style, difficulty. */
+function Specs({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) {
+  const specs: [string, preact.ComponentChildren][] = [];
+  if (tune.drivetrain) specs.push([labels.spec.drivetrain, tune.drivetrain]);
+  if (tune.tires) specs.push([labels.spec.tires, labels.tires[tune.tires] ?? tune.tires]);
+  if (tune.role) specs.push([labels.spec.style, labels.roles[tune.role] ?? tune.role]);
+  if (tune.difficulty)
+    specs.push([
+      labels.spec.difficulty,
+      <DifficultyText
+        difficulty={tune.difficulty}
+        label={labels.difficulties[tune.difficulty] ?? tune.difficulty}
+      />,
+    ]);
+  if (specs.length === 0) return null;
   return (
-    <div class="card flex flex-col gap-3 p-4" style={{ background: 'var(--color-surface-2)' }}>
+    <dl class="specs">
+      {specs.map(([label, value]) => (
+        <div>
+          <dt class="label">{label}</dt>
+          <dd>{value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+function LapChips({
+  tune,
+  laps,
+  labels,
+}: {
+  tune?: BrowseTune;
+  laps: readonly BrowseLap[];
+  labels: CarCardLabels;
+}) {
+  const refs = tune?.laps ?? [];
+  if (refs.length === 0 && laps.length === 0) return null;
+  return (
+    <ul class="flex flex-wrap gap-1.5">
+      {refs.map((r) => (
+        <li class="lap-chip">
+          <span class="tabular-nums">{r.time}</span> · {r.track}
+          {r.worldRecord && <span class="ml-1 text-accent">{labels.worldRecord}</span>}
+        </li>
+      ))}
+      {laps.map((l) => (
+        <li class="lap-chip" title={l.tuner ? `${l.driver} · ${l.tuner}` : l.driver}>
+          <span class="tabular-nums">{l.time}</span> · {l.track}
+          <span class="ml-1 text-muted">{labels.lapBy.replace('{driver}', l.driver)}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function Notes({ notes, labels }: { notes: string; labels: CarCardLabels }) {
+  const chinese = /\p{Script=Han}/u.test(notes);
+  return (
+    <p class="text-sm">
+      <span class="label mr-1.5">{labels.notes}</span>
+      <span lang={chinese ? 'zh-Hans' : undefined}>{notes}</span>
+      {chinese && (
+        <a
+          class="ml-2 whitespace-nowrap text-xs text-muted underline hover:text-text"
+          href={`https://translate.google.com/?sl=zh-CN&tl=${labels.translateTo}&op=translate&text=${encodeURIComponent(notes)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {labels.translate} ↗
+        </a>
+      )}
+    </p>
+  );
+}
+
+function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabels; base: string }) {
+  const [top, ...others] = build.tunes;
+  return (
+    <div class="build-card flex flex-col gap-3">
       <div class="flex flex-wrap items-center gap-2">
-        <span class="rounded-full border border-accent/60 px-2.5 py-0.5 text-xs font-semibold text-accent">
-          {surface}
-        </span>
         <TierChip tier={build.tier} muted={!build.listed} />
-        {top && <span class="eyebrow text-accent">{labels.recommended}</span>}
-        <span class="ml-auto">
-          <ClassChip cls={build.cls} />
-        </span>
+        <ClassChip cls={build.cls} />
+        {build.listed && build.rank && (
+          <span class="text-xs text-muted">
+            {labels.metaRank.replace('{n}', String(build.rank))}
+          </span>
+        )}
       </div>
       {!build.listed && <p class="text-xs text-muted">{labels.defaultTier}</p>}
       {top ? (
         <>
-          {top.code ? (
-            <CopyButton code={top.code} labels={labels} />
-          ) : (
-            <p class="code-box text-sm text-muted">
-              {labels.noCode.replace('{tuner}', top.tunerName)}
-            </p>
-          )}
           <div>
-            <p class="font-semibold">{top.name}</p>
-            <p class="eyebrow mt-1 text-muted">
-              {labels.by} <span class="text-accent">{top.tunerName}</span>
-              {top.drivetrain && ` · ${top.drivetrain}`}
-              {top.tires && ` · ${labels.tires[top.tires] ?? top.tires}`}
-            </p>
-            {top.credited && <p class="mt-1 text-xs text-muted">{labels.recommendedWhy}</p>}
-            {top.cats.length > 0 && (
-              <p class="mt-2 flex flex-wrap gap-1.5">
-                {top.cats.map((c) => (
-                  <span class="rounded border border-border px-1.5 py-0.5 text-xs text-muted">
-                    {labels.categories[c] ?? c}
-                  </span>
-                ))}
-              </p>
-            )}
+            <p class="label">{labels.tuneBy}</p>
+            <a href={`${base}/tuners/${top.tuner}/`} class="tuner-name">
+              {top.tunerName}
+            </a>
+            {!top.fromMeta && <p class="mt-0.5 text-sm text-muted">{top.name}</p>}
           </div>
+          <CodeBox tune={top} labels={labels} />
+          <Specs tune={top} labels={labels} />
+          <LapChips tune={top} laps={build.laps} labels={labels} />
+          {top.notes && <Notes notes={top.notes} labels={labels} />}
+          {top.credited && !top.fromMeta && (
+            <p class="text-xs text-muted">{labels.recommendedWhy}</p>
+          )}
         </>
       ) : (
         <p class="text-sm text-muted">{labels.noTunes}</p>
-      )}
-      {build.metaTuners.length > 0 && (
-        <p class="text-xs text-muted">
-          {labels.metaTuners}: {build.metaTuners.join(', ')}
-        </p>
       )}
       {others.length > 0 && (
         <details class="text-sm">
@@ -225,27 +309,34 @@ function BuildCard({ build, labels }: { build: Build; labels: CarCardLabels }) {
           </summary>
           <ul class="mt-2 divide-y divide-border">
             {others.map((t) => (
-              <li class="flex flex-wrap items-center gap-x-2 gap-y-1 py-2">
-                <span class="font-medium">{t.name}</span>
-                <span class="text-xs text-muted">
-                  {labels.by} {t.tunerName}
-                  {t.drivetrain && ` · ${t.drivetrain}`}
-                </span>
-                <span class="ml-auto">
-                  {t.code ? (
-                    <button
-                      type="button"
-                      data-copy={t.code}
-                      data-copied-label={labels.copied}
-                      title={labels.copy}
-                      class="rounded border border-border px-2 py-0.5 font-mono text-xs tabular-nums hover:border-accent"
-                    >
-                      {formatShareCode(t.code)}
-                    </button>
-                  ) : (
-                    <span class="text-xs text-muted">—</span>
-                  )}
-                </span>
+              <li class="flex flex-col gap-1.5 py-2.5">
+                <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <a href={`${base}/tuners/${t.tuner}/`} class="font-semibold hover:text-accent">
+                    {t.tunerName}
+                  </a>
+                  {!t.fromMeta && <span class="text-xs text-muted">{t.name}</span>}
+                  {t.listed && t.tier && t.tier !== build.tier && <TierChip tier={t.tier} />}
+                  <span class="ml-auto">
+                    {t.code ? (
+                      <button
+                        type="button"
+                        data-copy={t.code}
+                        data-copied-label={labels.copied}
+                        title={labels.copy}
+                        class="rounded border border-border px-2 py-0.5 font-mono text-xs tabular-nums hover:border-accent"
+                      >
+                        {formatShareCode(t.code)}
+                      </button>
+                    ) : (
+                      <span class="text-xs text-muted">
+                        {labels.noCode.replace('{tuner}', t.tunerName)}
+                      </span>
+                    )}
+                  </span>
+                </div>
+                <Specs tune={t} labels={labels} />
+                {(t.laps?.length ?? 0) > 0 && <LapChips tune={t} laps={[]} labels={labels} />}
+                {t.notes && <Notes notes={t.notes} labels={labels} />}
               </li>
             ))}
           </ul>
@@ -259,19 +350,55 @@ interface Props {
   car: BrowseCar;
   builds: Build[];
   labels: CarCardLabels;
+  /** "" for Portuguese, "/en" for English: links to tuner pages. */
+  base: string;
   /** Link to the car's own page (omitted on the car page itself). */
   href?: string;
 }
 
-/** The expanded view of a car: one card per class × surface build. */
-export default function CarCard({ car, builds, labels, href }: Props) {
+/** The expanded view of a car: its builds grouped by surface (asphalt, dirt, cross country). */
+export default function CarCard({ car, builds, labels, base, href }: Props) {
+  const obtain = obtainText(car.obtain, labels);
+  const groups = SURFACE_ORDER.map((surface) => ({
+    surface,
+    builds: builds.filter((b) => b.surface === surface),
+  })).filter((g) => g.builds.length > 0);
+  // Stock class, PI and drivetrain: a footnote, since a tune changes all three (owner's request).
+  const stock = [car.cls && `${car.cls} ${car.pi ?? ''} PI`, car.drivetrain]
+    .filter(Boolean)
+    .join(' · ');
   return (
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-5">
       <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
         <span>{car.types.join(', ')}</span>
-        {car.obtain && (
+        {obtain.text && (
           <span>
-            {labels.obtain}: {car.obtain}
+            <span class="label mr-1.5">{labels.obtain}</span>
+            {obtain.text}
+            {obtain.auction && <span class="ml-1.5 text-text">· {labels.auction}</span>}
+          </span>
+        )}
+      </div>
+      {groups.length === 0 ? (
+        <p class="text-sm text-muted">{labels.noTunes}</p>
+      ) : (
+        groups.map((g) => (
+          <section>
+            <h4 class="surface-divider">
+              <span>{g.surface ? labels.surfaces[g.surface] : labels.surfaces.unknown}</span>
+            </h4>
+            <div class="mt-3 grid gap-3 md:grid-cols-2">
+              {g.builds.map((b) => (
+                <BuildCard build={b} labels={labels} base={base} />
+              ))}
+            </div>
+          </section>
+        ))
+      )}
+      <p class="flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-border pt-3 text-xs text-muted">
+        {stock && (
+          <span>
+            {labels.stock}: {stock}
           </span>
         )}
         {href && (
@@ -279,16 +406,7 @@ export default function CarCard({ car, builds, labels, href }: Props) {
             {labels.openPage} →
           </a>
         )}
-      </div>
-      {builds.length === 0 ? (
-        <p class="text-sm text-muted">{labels.noTunes}</p>
-      ) : (
-        <div class="grid gap-4 md:grid-cols-2">
-          {builds.map((b) => (
-            <BuildCard build={b} labels={labels} />
-          ))}
-        </div>
-      )}
+      </p>
     </div>
   );
 }

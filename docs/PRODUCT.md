@@ -68,7 +68,17 @@ e os guias que o próprio jogo não oferece.
 
 - **Carros + Tunes viraram uma aba só ("Tunes")**: lista de carros que se expande mostrando as tunes; a página própria de cada carro continua existindo para links diretos.
 - **Página inicial = novidades** (carros com tunes atualizadas e que subiram de tier; quanto maior o salto, maior o destaque) e a playlist da semana. Os números do catálogo saíram do destaque e foram para o rodapé.
-- **Visual**: próximo da interface do jogo, mas minimalista e editorial; a cor de detalhe muda com a estação ao vivo da playlist.
+- **Visual** (revisto em 2026-11-08): segue as páginas do FH6 em forza.net (fundo preto e grafite, verde-limão como cor de destaque, linhas com uma faixa verde à esquerda, títulos em maiúsculas), mas mais discreto: títulos e rótulos menores, bordas finas. A cor de detalhe muda com a estação ao vivo da playlist.
+- **Lista de tunes** (2026-11-08):
+  - cada linha mostra tier, modelo, raridade, marca, ano e **como obter o carro** em português (Concessionária, Roleta, Exclusivo da playlist, Diário de coleção, Tesouro…). Carro de Roleta ou da playlist que não está na concessionária ganha "também no Leilão";
+  - ao abrir um carro, as tunes ficam **separadas por piso** (Asfalto, Terra, Cross country), com uma linha divisória;
+  - cada tune mostra as colunas da tabela da Noa: tração, pneu, estilo, dificuldade, tempos de referência ("1:04.3 · Shirakawa") e a observação, com link para traduzir;
+  - o **tunador** ganha destaque (nome grande, com link para a página dele);
+  - classe e PI **de fábrica** saíram da linha e viraram nota de rodapé dentro da caixa, porque a tune muda os dois;
+  - Meme saiu dos filtros: é só uma categoria das sugestões de campeonato.
+- **Página do tunador** usa a mesma lista e os mesmos filtros da aba Tunes.
+- **Playlist** (2026-11-08): eventos separados por tipo (Campeonatos, The Trial, Desafio semanal, Rivals, PR Stunts, Horizon Life, outros), com título e linha entre os grupos. Cada sugestão mostra tração, pneu, estilo e dificuldade.
+- **Miniaturas dos carros:** propostas no [ADR-0013](adr/0013-miniaturas-dos-carros.md), aguardando o dono.
 - **Sem estatísticas de carro** (velocidade, aceleração etc.): o sistema do jogo que as calcula não é confiável.
 
 ## 6. Fases

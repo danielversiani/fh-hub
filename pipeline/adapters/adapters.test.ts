@@ -139,3 +139,15 @@ describe('fandom-rarity (Forza Wiki)', () => {
       false,
     ));
 });
+
+const out_fandom_drivetrain = await fixtureOutput('fandom-drivetrain');
+describe('fandom-drivetrain (Forza Wiki)', () => {
+  const attrs = out_fandom_drivetrain.carAttributes;
+  it('keeps only FH6 cars, one drivetrain each', () => {
+    expect(new Set(attrs.map((a) => a.drivetrain))).toEqual(new Set(['FWD', 'RWD', 'AWD']));
+    expect(attrs.length).toBeGreaterThan(400);
+    expect(new Set(attrs.map((a) => a.car.text)).size).toBe(attrs.length);
+  });
+  it('reads a known car', () =>
+    expect(attrs.find((a) => a.car.text === 'Honda Civic Type R (2008)')?.drivetrain).toBe('FWD'));
+});

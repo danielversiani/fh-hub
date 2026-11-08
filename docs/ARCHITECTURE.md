@@ -55,6 +55,7 @@ fh-hub/
 │  ├─ manual/
 │  │  ├─ car-aliases.yaml        # nome visto numa fonte → id canônico do carro
 │  │  ├─ tuner-aliases.yaml      # variações de gamertag → nome canônico do tunador
+│  │  ├─ track-aliases.yaml      # nome de pista nas notas (ex.: 白川) → nome em inglês (Shirakawa)
 │  │  ├─ base-events.yaml        # ⏳ eventos-base do mapa (levantamento manual)
 │  │  └─ zh-labels.yaml          # ⏳ rótulos em chinês da planilha da Noa (hoje em normalize/fields.ts)
 │  ├─ curation/config.yaml       # pesos e regras de curadoria (⏳ weekly/<season-id>.json da IA, via PR)

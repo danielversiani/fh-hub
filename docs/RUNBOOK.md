@@ -57,6 +57,7 @@ O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](
    - **É lixo** (linha de cabeçalho, texto solto): adicione um padrão de exclusão no adaptador.
 3. Mantenha os arquivos de alias em ordem alfabética (a CI verifica).
 4. O mesmo vale para tunadores em `data/manual/tuner-aliases.yaml`.
+5. **Pistas citadas nas observações** (ex.: "白川1:04.3"): o nome vira inglês por `data/manual/track-aliases.yaml`. Uma pista nova que aparece nas notas sem tradução simplesmente não vira referência de tempo. Para incluir, adicione a linha `<nome nas notas>: "<nome oficial em inglês>"` (use o nome das rotas em forza.net/fh6playlists) e só quando tiver certeza da tradução.
 
 ## 5. Chegou um pacote de carros novos (DLC ou atualização)
 

@@ -100,27 +100,28 @@ export function curate(
   const cars = new Map(dataset.cars.map((c) => [c.id, c]));
   const memeCars = new Set(config.categories.memeCars);
 
-  // Best meta ranking per car × class × surface (a car can be listed more than once, e.g. AWD and RWD builds).
-  const rankings = new Map<string, MetaRanking>();
+  // Meta rankings per car × class × surface, best first (a car can be listed more than once,
+  // e.g. an AWD and a RWD build credited to different tuners).
+  const rankingsByBuild = new Map<string, MetaRanking[]>();
   for (const m of dataset.meta) {
     const key = `${m.carId}|${m.class}|${m.surface}`;
-    const current = rankings.get(key);
-    if (
-      !current ||
-      tierIndex(m.tier) < tierIndex(current.tier) ||
-      (m.tier === current.tier && m.rank < current.rank)
-    ) {
-      rankings.set(key, m);
-    }
+    rankingsByBuild.set(key, [...(rankingsByBuild.get(key) ?? []), m]);
   }
-  // Tuners credited for a car in any of its rankings for that class × surface.
-  const creditedTuners = new Map<string, Set<string>>();
-  for (const m of dataset.meta) {
-    const key = `${m.carId}|${m.class}|${m.surface}`;
-    const set = creditedTuners.get(key) ?? new Set<string>();
-    m.tunerIds.forEach((id) => set.add(id));
-    creditedTuners.set(key, set);
+  for (const list of rankingsByBuild.values()) {
+    list.sort((a, b) => tierIndex(a.tier) - tierIndex(b.tier) || a.rank - b.rank);
   }
+  /**
+   * The row that describes this tune: one crediting its tuner (same drivetrain when the table
+   * has several builds), else the car's best row. `credited` = the table names this tuner.
+   */
+  const rankingFor = (tune: Tune): { ranking?: MetaRanking; credited: boolean } => {
+    if (!tune.class || !tune.surface) return { credited: false };
+    const list = rankingsByBuild.get(`${tune.carId}|${tune.class}|${tune.surface}`) ?? [];
+    const crediting = list.filter((m) => m.tunerIds.includes(tune.tunerId));
+    const own =
+      crediting.find((m) => tune.drivetrain && m.drivetrain === tune.drivetrain) ?? crediting[0];
+    return own ? { ranking: own, credited: true } : { ranking: list[0], credited: false };
+  };
 
   const laps = new Map<string, LapTime>();
   const classBest = new Map<string, number>();
@@ -145,9 +146,7 @@ export function curate(
 
   const evidence = (tune: Tune): Evidence => {
     const signals: Evidence['signals'] = {};
-    const key = `${tune.carId}|${tune.class}|${tune.surface}`;
-    const ranking = tune.class && tune.surface ? rankings.get(key) : undefined;
-    const credited = creditedTuners.get(key)?.has(tune.tunerId) ?? false;
+    const { ranking, credited } = rankingFor(tune);
     if (ranking) {
       signals.tier =
         TIER_VALUE[ranking.tier] * (credited ? 1 : config.thresholds.unlistedTunerTierFactor);
@@ -197,6 +196,8 @@ export function curate(
     if (tune.buildTags.includes('purist')) categories.push('purist');
     if (memeCars.has(tune.carId)) categories.push('meme');
     const { score, confidence } = weighted(ev.signals, config.weights);
+    // The table's columns describe the credited tuner's build only.
+    const own = ev.credited ? ev.ranking : undefined;
     return {
       ...tune,
       tier,
@@ -206,6 +207,12 @@ export function curate(
       score,
       confidence,
       categories,
+      drivetrain: tune.drivetrain ?? own?.drivetrain,
+      tires: tune.tires ?? own?.tires,
+      difficulty: own?.difficulty,
+      role: own?.role,
+      metaNotes: own?.notes,
+      lapRefs: own?.lapRefs,
     };
   });
 
@@ -256,17 +263,30 @@ function suggest(
           compareTunes(a, b),
       );
 
-    const usedTunes = new Set<string>();
+    // A car appears once per event in Meta / Off-meta / Meme, with its best tune (candidates are
+    // already sorted best first). Purist is about the build, so it may show a car again, but
+    // with a different (purist) tune.
     const usedCars = new Set<string>();
+    const usedTunes = new Set<string>();
+    const picks: { category: Category; pick: Tune }[] = [];
     for (const category of CATEGORY_ORDER) {
-      const pool = candidates.filter(
-        (t) => t.categories?.includes(category) && !usedTunes.has(t.id),
-      );
-      const pick = pool.find((t) => !usedCars.has(t.carId)) ?? pool[0];
-      if (!pick) continue;
-      usedTunes.add(pick.id);
-      usedCars.add(pick.carId);
+      // Meme cars are a championship thing (owner's rule): not for trials, stunts or rivals.
+      if (category === 'meme' && event.category !== 'championship') continue;
+      const slots = config.suggestionsPerCategory[category];
+      const carsHere = new Set<string>();
+      for (const t of candidates) {
+        if (carsHere.size >= slots) break;
+        if (!t.categories?.includes(category) || usedTunes.has(t.id) || carsHere.has(t.carId))
+          continue;
+        if (category !== 'purist' && usedCars.has(t.carId)) continue;
+        carsHere.add(t.carId);
+        usedCars.add(t.carId);
+        usedTunes.add(t.id);
+        picks.push({ category, pick: t });
+      }
+    }
 
+    for (const { category, pick } of picks) {
       const ev = evidence.get(pick.id)!;
       const reasons: Suggestion['reasons'] = [];
       if (ev.ranking) {

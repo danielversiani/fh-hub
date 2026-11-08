@@ -143,6 +143,56 @@ describe('curate', () => {
     expect(picks[0]?.reasons[0]).toMatchObject({ key: 'reason.tierCredited' });
   });
 
+  it('suggests several cars per category, each car once', () => {
+    const more: Dataset = {
+      ...dataset,
+      cars: [...dataset.cars, car('fast2'), car('fast3')],
+      tunes: [
+        ...dataset.tunes,
+        tune('sc-100000006', 'fast2', 'frank'),
+        tune('sc-100000007', 'fast3', 'gina'),
+        tune('sc-100000008', 'fast', 'hank'),
+      ],
+      meta: [...dataset.meta, ranking('fast2', 'meta', ['frank']), ranking('fast3', 't0.5', [])],
+    };
+    const picks = curate(more, config, sources).suggestions.filter(
+      (s) => s.eventId === event.id && s.category === 'meta',
+    );
+    expect(picks.map((p) => p.carId)).toEqual(['fast', 'fast2', 'fast3']);
+    expect(picks[0]?.tuneId).toBe('sc-100000001');
+  });
+
+  it('keeps meme cars for championships only', () => {
+    const trial = { ...event, id: 'trial', type: 'Trial', category: 'trial' as const };
+    const r = curate({ ...dataset, events: [trial] }, config, sources);
+    expect(r.suggestions.some((s) => s.category === 'meme')).toBe(false);
+    expect(r.suggestions.length).toBeGreaterThan(0);
+  });
+
+  it("copies the meta table's columns to the credited tuner's tune only", () => {
+    const withColumns: Dataset = {
+      ...dataset,
+      meta: [
+        {
+          ...ranking('fast', 'meta-plus', ['alice']),
+          difficulty: 'hard',
+          role: 'power',
+          notes: '白川1:04.3',
+          lapRefs: [{ track: 'Shirakawa', time: '1:04.3' }],
+        },
+      ],
+      tunes: [...dataset.tunes, tune('sc-100000009', 'fast', 'ivan')],
+    };
+    const tunes = new Map(curate(withColumns, config, sources).tunes.map((t) => [t.id, t]));
+    expect(tunes.get('sc-100000001')).toMatchObject({
+      difficulty: 'hard',
+      role: 'power',
+      metaNotes: '白川1:04.3',
+      lapRefs: [{ track: 'Shirakawa', time: '1:04.3' }],
+    });
+    expect(tunes.get('sc-100000009')?.difficulty).toBeUndefined();
+  });
+
   it('is deterministic', () =>
     expect(stableStringify(curate(dataset, config, sources))).toBe(stableStringify(result)));
 });

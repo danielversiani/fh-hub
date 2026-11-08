@@ -19,6 +19,7 @@ Eles explicam o *porquê* do projeto ser como é. Ver [ADR-0001](0001-registrar-
 | [0010](0010-politica-de-fontes.md) | Política de fontes: crédito, autorização e remoção | Proposta |
 | [0011](0011-idioma-docs-e-codigo.md) | Documentação em PT-BR, código em inglês | Aceita |
 | [0012](0012-hospedagem-cloudflare-pages.md) | Hospedagem no Cloudflare Pages com deploy limitado | Aceita |
+| [0013](0013-miniaturas-dos-carros.md) | Miniaturas dos carros a partir da Forza Wiki, sob as regras de conteúdo da Microsoft | Proposta |
 
 ## Como escrever um novo ADR
 

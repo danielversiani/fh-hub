@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|---|
 | `forza-cars` | forza.net/fh6cars | JSON oficial | **Roster oficial: 667 carros** (lista mestre) | ✅ `_payload.json` | not-required | ✅ Fase 0 |
 | `fandom-rarity` | Forza Wiki (Fandom) | API MediaWiki | **Raridade** de 641 carros (Comum, Raro, Épico, Lendário, Forza Edition) | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
+| `fandom-drivetrain` | Forza Wiki (Fandom) | API MediaWiki | **Tração de fábrica** (FWD, RWD, AWD) de 666 carros | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
 | `gbr-ozzy` | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | pending (prioridade) | ✅ Fase 0 |
 | `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | pending | ✅ Fase 0 |
 | `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | pending | ✅ Fase 0 |
@@ -54,6 +55,13 @@ O registro executável dessas fontes é `data/sources.yaml`.
 - **Cobertura (2026-11-08):** 641 dos 667 carros. Os carros sem raridade conhecida **não** entram em provas com restrição de raridade.
 - **Ignorados:** veículos de tráfego (`… Traffic`, `Playground …`) e variantes de evento (`'Touge Edition'`, `'Initial Drive'`, `'RakuRaku Express'`), que não estão no roster.
 - **Por que não outras fontes:** codmunity/forzacity têm a raridade, mas são sites concorrentes, sem licença de reuso. A aba "Car Collection" do Ozzy só tem o logo da marca na coluna BADGE.
+- **Lacunas conhecidas:** 26 carros não estão em nenhuma categoria de raridade da wiki (ex.: Mazda 787B, Porsche 959, Ford GT 2005). Eles ficam fora das provas com restrição de raridade até a wiki ser completada. Qualquer pessoa pode completar a wiki; a próxima sincronização pega a correção.
+
+### `fandom-drivetrain`: tração de fábrica (Forza Wiki)
+- **Por quê:** provas como "2000s Total FWD - B Class" aceitam só carros com aquela tração **de fábrica**. O roster oficial não traz essa informação.
+- **Fonte:** categorias `Category:Front-Wheel Drive`, `Rear-Wheel Drive` e `All-Wheel Drive` da [Forza Wiki](https://forza.fandom.com). Elas valem para todos os jogos Forza, então o adaptador cruza com `Category:Cars (FH6)` e só usa carros do FH6. Um carro listado em duas trações é ignorado (fica como desconhecido).
+- **Licença:** como a raridade, CC BY-SA, com crédito no rodapé.
+- **Cobertura (2026-11-08):** 666 dos 667 carros (falta o Subaru BRZ Forza Edition, cujo nome na wiki não bate com o roster).
 
 ### `noa-miyako`: tabela de meta da Noa Miyako
 - **URL:** https://docs.qq.com/sheet/DYWZVRWR0dnh3aHhZ (aba inicial `mmc7rv`)

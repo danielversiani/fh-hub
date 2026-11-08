@@ -4,40 +4,41 @@
 @import '@fontsource/barlow/600.css';
 @import '@fontsource/barlow-condensed/600.css';
 @import '@fontsource/barlow-condensed/700.css';
-@import '@fontsource/barlow-condensed/800-italic.css';
 
 /*
- * Visual identity (owner's brief, 2026-11-08): close to the game's UI, but minimal and editorial.
- * - Dark, slightly purple background; one accent (FH pink).
- * - Display text: Barlow Condensed, uppercase, bold italic for big titles (like the game).
- * - The LIVE season tints the details (--season), so the site changes with each playlist season.
+ * Visual identity (owner's brief, 2026-11-08, revised the same day): follow forza.net's FH6
+ * pages — black and charcoal surfaces, white text, the FH6 lime as the one accent, rows with a
+ * lime bar on the left, uppercase condensed titles — but quieter: smaller titles and labels,
+ * thin borders, no heavy blocks.
+ * The LIVE season still tints a few details (--season), so the site changes with each season.
  */
 :root {
-  --color-bg: #0c0a10;
-  --color-surface: #15121b;
-  --color-surface-2: #1d1925;
-  --color-text: #f2eff7;
-  --color-muted: #a39cb0;
-  --color-border: #2b2534;
-  --color-accent: #ff3d9a;
+  --color-bg: #0d0d0d;
+  --color-surface: #181818;
+  --color-surface-2: #212121;
+  --color-text: #f4f4f4;
+  --color-muted: #9a9a9a;
+  --color-border: #2c2c2c;
+  --color-accent: #caff02;
+  --color-on-accent: #0d0d0d;
   --color-ok: #4ade80;
   --color-warn: #fbbf24;
   --color-bad: #f87171;
-  --season: var(--color-accent);
+  --season: #ee5c9c;
 }
 
 /* Season tints (set by <html data-season="…"> from the live Festival Playlist season). */
 :root[data-season='summer'] {
-  --season: #ffb020;
+  --season: #fdbc40;
 }
 :root[data-season='autumn'] {
-  --season: #ff6a2b;
+  --season: #ff6700;
 }
 :root[data-season='winter'] {
   --season: #5cc8ff;
 }
 :root[data-season='spring'] {
-  --season: #ff7ab8;
+  --season: #ee5c9c;
 }
 
 @theme inline {
@@ -48,6 +49,7 @@
   --color-muted: var(--color-muted);
   --color-border: var(--color-border);
   --color-accent: var(--color-accent);
+  --color-on-accent: var(--color-on-accent);
   --color-season: var(--season);
   --color-ok: var(--color-ok);
   --color-warn: var(--color-warn);
@@ -63,38 +65,167 @@ html {
 body {
   background:
     radial-gradient(
-      1200px 500px at 85% -10%,
-      color-mix(in srgb, var(--season) 10%, transparent),
+      1100px 420px at 90% -12%,
+      color-mix(in srgb, var(--season) 7%, transparent),
       transparent 70%
     ),
     var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Big editorial titles, like the game's UI. */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+/* Titles: uppercase condensed, like forza.net, but lighter than the game's display face. */
 .display {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-style: italic;
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
-  line-height: 0.95;
-}
-
-/* Small uppercase labels ("eyebrows"). */
-.eyebrow {
   font-family: var(--font-display);
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.75rem;
+  letter-spacing: 0.005em;
+  line-height: 1;
+}
+
+/* Small uppercase labels. `.eyebrow` = coloured section kicker; `.label` = quiet field name. */
+.eyebrow,
+.label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+}
+.label {
+  color: var(--color-muted);
+  font-size: 0.68rem;
 }
 
 .card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: 0.9rem;
+  border-radius: 6px;
+}
+
+/* List rows (tunes, tuners): charcoal with the FH6 lime bar on the left, as on forza.net. */
+.row {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid color-mix(in srgb, var(--color-accent) 70%, transparent);
+  border-radius: 4px;
+  transition: background-color 120ms;
+}
+.row:hover,
+.row[data-open='true'] {
+  background: var(--color-surface-2);
+}
+.row[data-open='true'] {
+  border-left-color: var(--color-accent);
+}
+
+/* Filter buttons. */
+.pill {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.28rem 0.7rem;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  transition:
+    color 120ms,
+    border-color 120ms;
+}
+.pill:hover {
+  color: var(--color-text);
+  border-color: var(--color-muted);
+}
+.pill-on,
+.pill-on:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-on-accent);
+  font-weight: 600;
+}
+
+/* Tier, class and rarity tags. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 3px;
+  padding: 0.05rem 0.4rem;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.chip-outline {
+  border: 1px solid currentColor;
+  padding: 0 0.35rem;
+  font-size: 0.68rem;
+}
+
+/* One build (class × surface) inside an open car. */
+.build-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+/* "Asfalto ───────" divider between surfaces. */
+.surface-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: var(--color-accent);
+}
+.surface-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+/* The tuner, given more weight than the tune's name (owner's request). */
+.tuner-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.1;
+  color: var(--color-text);
+}
+a.tuner-name:hover {
+  color: var(--color-accent);
+}
+
+/* The meta table's columns: drivetrain, tires, style, difficulty. */
+.specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+  gap: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+.specs dd {
+  margin-top: 0.1rem;
+  font-weight: 500;
+}
+
+/* "1:04.3 · Shirakawa" */
+.lap-chip {
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.8rem;
+  background: var(--color-surface);
 }
 
 /* Share code box, inspired by the game's code entry. */
@@ -103,18 +234,28 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
-  background: var(--color-bg);
+  background: #080808;
   border: 1px solid var(--color-border);
-  border-radius: 0.6rem;
-  padding: 0.55rem 0.75rem;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
 }
 .code-digits {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   letter-spacing: 0.12em;
   color: var(--color-accent);
   font-variant-numeric: tabular-nums;
+}
+
+/* Section heading with a rule, used to separate groups of playlist events. */
+.group-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
 }
 
 /* <details> without the default triangle. */

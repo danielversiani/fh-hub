@@ -215,6 +215,17 @@ export class RequirementParser {
     if (total) {
       const drivetrain = parseDrivetrain(total[1]);
       if (drivetrain) {
+        // Stock drivetrain from the wiki: eligible = cars whose drivetrain we KNOW matches.
+        const known = this.cars.filter((c) => c.drivetrain);
+        if (known.length > 0) {
+          return {
+            status: 'parsed',
+            scope: 'drivetrain',
+            scopeLabel: label,
+            drivetrain,
+            carIds: known.filter((c) => c.drivetrain === drivetrain).map((c) => c.id),
+          };
+        }
         return {
           status: 'partial',
           scope: 'drivetrain',

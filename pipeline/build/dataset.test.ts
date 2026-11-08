@@ -70,4 +70,29 @@ describe('buildDataset (fixtures)', () => {
 
   it('knows the live season', () =>
     expect(dataset.seasons.filter((s) => s.current)).toHaveLength(1));
+
+  it('reads the stock drivetrain and uses it for "Total FWD/RWD/AWD" events', () => {
+    expect(dataset.cars.filter((c) => c.drivetrain).length).toBeGreaterThan(400);
+    const total = dataset.events.filter((e) => e.requirement.scope === 'drivetrain');
+    expect(total.length).toBeGreaterThan(0);
+    expect(total.every((e) => e.requirement.status === 'parsed')).toBe(true);
+    const cars = new Map(dataset.cars.map((c) => [c.id, c]));
+    for (const e of total) {
+      const ids = e.requirement.carIds ?? [];
+      expect(ids.every((id) => cars.get(id)?.drivetrain === e.requirement.drivetrain)).toBe(true);
+    }
+  });
+
+  it('turns meta-table recommendations without a tune into tunes', () => {
+    const fromMeta = dataset.tunes.filter((t) => t.fromMeta);
+    expect(fromMeta.length).toBeGreaterThan(0);
+    expect(fromMeta.every((t) => !t.shareCode && t.class && t.surface)).toBe(true);
+    const metaTuners = new Set(
+      dataset.meta.flatMap((m) => m.tunerIds.map((id) => `${m.carId}|${id}`)),
+    );
+    expect(fromMeta.every((t) => metaTuners.has(`${t.carId}|${t.tunerId}`))).toBe(true);
+  });
+
+  it('extracts lap-time references from meta notes', () =>
+    expect(dataset.meta.some((m) => m.lapRefs?.some((r) => r.track === 'Shirakawa'))).toBe(true));
 });

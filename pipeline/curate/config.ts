@@ -38,6 +38,13 @@ export const CurationConfig = z.object({
   preferObtainable: z.boolean(),
   lastPhysicsPatch: z.iso.date().nullable(),
   pastSeasonsWithSuggestions: z.number().int().min(0),
+  /** How many suggestions (different cars) each category can show per playlist event. */
+  suggestionsPerCategory: z.object({
+    meta: z.number().int().min(0),
+    'off-meta': z.number().int().min(0),
+    purist: z.number().int().min(0),
+    meme: z.number().int().min(0),
+  }),
 });
 export type CurationConfig = z.infer<typeof CurationConfig>;
 

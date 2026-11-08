@@ -8,10 +8,13 @@
 
 1. **A tabela de meta da Noa Miyako é a referência.** O tier de um carro numa classe × piso vem dela. Carro que ela não lista recebe **T3** (`defaultTier`) até ser avaliado.
 2. **Meta / Off-meta vêm só desse tier**: Meta = Meta+, Meta, T0.5; Off-meta = T1, T1.5, T2.
-3. **Meme é uma lista de carros**: carros que ninguém associa a corrida, mas que funcionam porque o jogo é arcade (Peel P50, Cadillac XTS Limousine, vans da Ford e da Wuling, Unimog, táxis japoneses…). A lista fica em `data/curation/config.yaml` (`memeCars`).
-4. **Só sugerir quando a elegibilidade é conhecida.** A raridade vem da Forza Wiki (só carros de raridade conhecida entram). A tração de fábrica ainda não tem fonte, então provas como "Total FWD" ficam sem sugestão, com aviso.
+3. **Meme é uma lista de carros**: carros que ninguém associa a corrida, mas que funcionam porque o jogo é arcade (Peel P50, Cadillac XTS Limousine, vans da Ford e da Wuling, Unimog, táxis japoneses…). A lista fica em `data/curation/config.yaml` (`memeCars`). **Meme só existe nas sugestões de campeonatos da playlist**, e só quando algum carro da lista é elegível. Não é filtro da lista de tunes.
+4. **Só sugerir quando a elegibilidade é conhecida.** A raridade e a tração de fábrica vêm da Forza Wiki: só carros com o dado conhecido entram.
 5. **A nota numérica não aparece no site.** Ela só desempata tunes do mesmo tier. Ordem usada em listas e sugestões: tier → tunador indicado pela Noa → tem share code → posição na tabela → nota.
 6. **Ordem da lista de tunes**: alfabética sem filtro de classe; com classe, na ordem do meta (melhor tier primeiro, depois a posição na tabela), e os carros fora da tabela (T3) por último.
+7. **Várias sugestões por categoria** (2026-11-08): cada evento mostra até 4 carros Meta, 3 Off-meta, 2 Purista e 2 Meme (`suggestionsPerCategory`). Um carro aparece uma vez só entre Meta, Off-meta e Meme, com a sua melhor tune. Purista pode repetir um carro, desde que com outra tune.
+8. **Toda indicação da tabela vira tune.** Quando a Noa indica um tunador para um carro ("busque MSR Mian no jogo") e nenhuma planilha tem uma tune desse tunador para aquele carro, a indicação vira uma tune sem código (`fromMeta`). Assim um carro nunca aparece como "sem tune" ao lado de um tunador recomendado.
+9. **As colunas da tabela acompanham a tune do tunador indicado:** tração, pneu, estilo (completo, potência, controle), dificuldade, observações e tempos citados nas observações ("白川1:04.3" vira "1:04.3 · Shirakawa", pela lista `data/manual/track-aliases.yaml`). Tunes de outros tunadores para o mesmo carro não herdam essas colunas.
 
 ## 0. Estado da implementação (2026-11-08)
 
@@ -29,7 +32,7 @@
 
 1. **Nota (`score`) de cada tune**, no contexto da sua classe e piso.
 2. **Categorias** de cada tune: Meta, Off-meta, Purista, Meme. Um tune pode ter mais de uma.
-3. **Sugestões por evento** da Festival Playlist e dos eventos-base: até um tune por categoria em cada evento.
+3. **Sugestões por evento** da Festival Playlist e dos eventos-base: algumas tunes por categoria em cada evento (`suggestionsPerCategory`).
 4. **Recomendado** na página de cada carro: o tune de maior nota por classe × piso.
 
 ## 2. Sinais
@@ -77,7 +80,7 @@ confiança = Σ peso_i (presentes) / Σ peso_i (todos)
    - Danger Sign: velocidade e aceleração;
    - Trailblazer: cross-country;
    - Time Attack: tunes de circuito.
-5. **Preenchimento das vagas, nesta ordem:** Meta → Off-meta → Purista → Meme. Um tune escolhido numa vaga sai das seguintes, para não repetir.
+5. **Preenchimento das vagas, nesta ordem:** Meta → Off-meta → Purista → Meme, com várias vagas por categoria (regra do dono 7). Meme só em campeonatos (regra 3).
 6. **Share code:** preferir sempre tunes com código. Um tune sem código só entra se não houver alternativa, com o aviso "buscar pelo gamertag no jogo".
 7. **Obtenção:** se `preferObtainable` estiver ligado, carros que hoje só existem como recompensa encerrada perdem prioridade, e o site mostra "difícil de obter".
 8. **Explicação:** cada sugestão carrega `reasons`, por exemplo "Tier T0.5 na tabela da Noa", "Listado em 3 planilhas" ou "4º melhor tempo em Shirakawa (A 700)".

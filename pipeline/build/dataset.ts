@@ -3,6 +3,7 @@ import type { ManualData } from '../config';
 import { shortHash } from '../lib/json';
 import { cleanText, normalizeName, slugify } from '../lib/text';
 import { CarResolver } from '../normalize/car-resolver';
+import { lapRefParser } from '../normalize/lap-refs';
 import {
   inferSurface,
   parseBuildTags,
@@ -21,7 +22,7 @@ import { buildSeasons, eventCategory, eventId, parseSeasonLabel } from '../norma
 import { parseRoute, RequirementParser } from '../normalize/requirement';
 import { TunerRegistry, type TunerIdentity } from '../normalize/tuners';
 import { magnitude } from './highlights';
-import { CAR_CLASSES, Rarity } from '../schema/enums';
+import { CAR_CLASSES, Drivetrain, Rarity } from '../schema/enums';
 import type {
   Car,
   CustomEvent,
@@ -56,6 +57,7 @@ export interface Dataset {
 }
 
 const CLASS_ORDER = new Map<string, number>(CAR_CLASSES.map((c, i) => [c, i]));
+const nonEmpty = <T>(list: T[]): T[] | undefined => (list.length ? list : undefined);
 
 class ReviewCollector {
   private readonly items = new Map<string, ReviewItem>();
@@ -175,8 +177,11 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     for (const attr of output.carAttributes) {
       const carId = resolveCar(source.id, attr.car);
       const car = carId ? carById.get(carId) : undefined;
+      if (!car) continue;
       const rarity = Rarity.safeParse(attr.rarity);
-      if (car && rarity.success && !car.rarity) car.rarity = rarity.data;
+      if (rarity.success && !car.rarity) car.rarity = rarity.data;
+      const drivetrain = Drivetrain.safeParse(attr.drivetrain);
+      if (drivetrain.success && !car.drivetrain) car.drivetrain = drivetrain.data;
     }
   }
 
@@ -314,6 +319,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     .sort((a, b) => a.id.localeCompare(b.id));
 
   // --- meta rankings -----------------------------------------------------------------------
+  const lapRefs = lapRefParser(manual.trackAliases);
   const meta: MetaRanking[] = [];
   for (const { source, output } of ordered) {
     for (const m of output.meta) {
@@ -346,6 +352,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
         ],
         shareCode: parseShareCode(m.shareCode),
         notes: cleanText(m.notes) || undefined,
+        lapRefs: nonEmpty(lapRefs(m.notes)),
       });
     }
   }
@@ -356,6 +363,45 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
       a.surface.localeCompare(b.surface) ||
       a.rank - b.rank,
   );
+
+  // --- tunes known only from the meta table ------------------------------------------------
+  // The table credits tuners for a car ("search MSR Mian in game") without a share code. When no
+  // source has a tune of that tuner for that car in that class × surface, the recommendation
+  // becomes a tune of its own, so the car never shows "no tunes" next to a recommended tuner.
+  const tunesByBuild = new Set<string>();
+  for (const t of tunes.values()) {
+    // A tune without a known surface counts for every surface of its class.
+    tunesByBuild.add(`${t.carId}|${t.tunerId}|${t.class ?? ''}|${t.surface ?? ''}`);
+  }
+  for (const m of meta) {
+    for (const tunerId of m.tunerIds) {
+      if (
+        tunesByBuild.has(`${m.carId}|${tunerId}|${m.class}|${m.surface}`) ||
+        tunesByBuild.has(`${m.carId}|${tunerId}|${m.class}|`)
+      )
+        continue;
+      const id = `nc-${shortHash([m.carId, tunerId, 'meta', m.class, m.surface, m.drivetrain ?? ''].join('|'))}`;
+      const existing = tunes.get(id);
+      const observation = { sourceId: m.sourceId, tab: m.tab, row: m.row, raw: {} };
+      if (existing) {
+        existing.observations.push(observation);
+        continue;
+      }
+      tunes.set(id, {
+        id,
+        carId: m.carId,
+        tunerId,
+        name: `${m.class} ${m.surface}${m.drivetrain ? ` ${m.drivetrain}` : ''}`,
+        class: m.class,
+        surface: m.surface,
+        drivetrain: m.drivetrain,
+        tires: m.tires,
+        buildTags: [],
+        observations: [observation],
+        fromMeta: true,
+      });
+    }
+  }
 
   // --- news from the meta table's update tabs ----------------------------------------------
   const highlights: Highlight[] = [];

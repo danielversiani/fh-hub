@@ -1,9 +1,9 @@
 ---
 import type { Tuner } from '../../pipeline/schema/entities';
 import { localePath, t, type Locale } from '../i18n';
+import TuneBrowser from '../islands/TuneBrowser';
 import Base from '../layouts/Base.astro';
-import { loadTuneIndex, maps } from '../lib/data';
-import TuneCard from './TuneCard.astro';
+import { tuneBrowserLabels } from '../lib/labels';
 
 interface Props {
   locale: Locale;
@@ -11,26 +11,23 @@ interface Props {
 }
 
 const { locale, tuner } = Astro.props;
-const { cars } = maps();
-const tunes = loadTuneIndex()
-  .filter((tune) => tune.tunerId === tuner.id)
-  .sort(
-    (a, b) =>
-      (cars.get(a.carId)?.displayName ?? '').localeCompare(cars.get(b.carId)?.displayName ?? '') ||
-      a.name.localeCompare(b.name),
-  );
 ---
 
 <Base locale={locale} path={`/tuners/${tuner.id}/`} title={tuner.displayName}>
-  <p class="text-sm text-muted">
-    <a href={localePath(locale, '/tuners/')} class="hover:underline">
+  <p class="label">
+    <a href={localePath(locale, '/tuners/')} class="hover:text-text">
       {t(locale, 'nav.tuners')}
     </a>
   </p>
-  <h1 class="mt-1 text-3xl font-bold">{t(locale, 'tuner.tunes', { name: tuner.displayName })}</h1>
-  <div class="mt-6 grid gap-3 md:grid-cols-2">
-    {tunes.map((tune) => (
-      <TuneCard locale={locale} tune={tune} showCar />
-    ))}
+  <h1 class="display mt-2 text-4xl sm:text-5xl">{tuner.displayName}</h1>
+  <p class="mt-2 text-muted">{t(locale, 'tuner.lead', { name: tuner.displayName })}</p>
+  <div class="mt-8">
+    <TuneBrowser
+      client:load
+      labels={tuneBrowserLabels(locale)}
+      base={locale === 'en' ? '/en' : ''}
+      dataUrl="/data/browse.json"
+      tuner={tuner.id}
+    />
   </div>
 </Base>

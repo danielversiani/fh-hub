@@ -135,7 +135,9 @@ export interface RawCarAttribute {
   tab: string;
   row: number;
   car: CarRef;
-  rarity: string;
+  rarity?: string;
+  /** Stock drivetrain: FWD, RWD or AWD. */
+  drivetrain?: string;
 }
 
 /** A dated "news" row of a meta table: a car whose tune/tier was updated, or a new car. */
