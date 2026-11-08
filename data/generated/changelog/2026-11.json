@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T21:12:04.363Z",
   "items": [
     {
       "after": "32 Narai",
@@ -12,6 +12,61 @@
       },
       "kind": "added",
       "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-08T21:12:04.363Z",
+      "before": "t1.5",
+      "carId": "1991-gmc-syclone",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|1991-gmc-syclone|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-08T21:12:04.363Z",
+      "before": "t1.5",
+      "carId": "2009-audi-r8-lms",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2009-audi-r8-lms|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-08T21:12:04.363Z",
+      "before": "t1.5",
+      "carId": "2018-porsche-cayenne-turbo",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2018-porsche-cayenne-turbo|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-08T21:12:04.363Z",
+      "before": "A road AWD",
+      "carId": "2009-audi-r8-lms",
+      "class": "A",
+      "entity": {
+        "id": "nc-5480ed2326",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
       "surface": "road"
     }
   ],

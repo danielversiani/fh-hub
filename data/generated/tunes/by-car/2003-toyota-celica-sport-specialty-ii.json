@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:07:40.963Z",
+  "generatedAt": "2026-11-08T21:12:04.363Z",
   "items": [
     {
       "buildTags": [],
@@ -11,7 +11,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-00e92ed8cb",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "1.6G Good Handling Allround V5",
       "observations": [
         {
@@ -31,9 +31,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
     },
@@ -83,7 +83,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-128c4c600f",
-      "metaRank": 147,
+      "metaRank": 144,
       "name": "Purist",
       "observations": [
         {
@@ -172,7 +172,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-22503f10fe",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Full Aero Road Allround T1+ Shirakawa 06.0",
       "observations": [
         {
@@ -192,9 +192,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
@@ -211,7 +211,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-2a55c9e8bc",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Purist B Road",
       "observations": [
         {
@@ -231,9 +231,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
     },
@@ -247,7 +247,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-2f44809882",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Trial Kit with Kaminari Wing",
       "observations": [
         {
@@ -267,9 +267,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "grandma-driving"
     },
@@ -369,12 +369,12 @@
         "en": "Usable, but far behind the Glanza.",
         "pt-br": "Dá para usar, mas fica bem atrás do Glanza."
       },
-      "metaRank": 147,
+      "metaRank": 144,
       "name": "A road FWD",
       "observations": [
         {
           "raw": {},
-          "row": 300,
+          "row": 294,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -399,7 +399,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-76550d16b6",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Full Aero Handling Road OFFMETA Shirakawa 05.6",
       "observations": [
         {
@@ -419,9 +419,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
@@ -507,7 +507,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-997ed273fd",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Road Allround OFFMETA Shirakawa 05.5",
       "observations": [
         {
@@ -527,9 +527,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
@@ -578,21 +578,10 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-hard",
       "drivetrain": "FWD",
       "id": "nc-aacc2b00b1",
-      "lapRefs": [
-        {
-          "time": "1:06.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:06.5",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 90,
+      "metaRank": 99,
       "name": "B Road Grip",
       "observations": [
         {
@@ -612,12 +601,12 @@
           "tab": "fh6"
         }
       ],
-      "role": "allround",
-      "score": 0.601,
+      "role": "power",
+      "score": 0.413,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t2",
       "tierSource": "meta-table",
-      "tires": "offroad",
+      "tires": "stock",
       "tunerId": "noa-miyako"
     },
     {
@@ -633,7 +622,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-b574409c4a",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Road Purist Strong",
       "observations": [
         {
@@ -653,9 +642,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "logikj"
     },
@@ -669,7 +658,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-b7dbe0ed6c",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Stock Rim Size(No Aero)",
       "observations": [
         {
@@ -689,9 +678,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
@@ -708,7 +697,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-c6a473e198",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "B Road Purist V2",
       "observations": [
         {
@@ -728,9 +717,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "brennelul"
     },
@@ -744,7 +733,7 @@
       "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-e401e63b1d",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "Hella Optimized",
       "observations": [
         {
@@ -764,9 +753,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.59,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "greeteddust8"
     },
@@ -781,21 +770,10 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-hard",
       "drivetrain": "FWD",
       "id": "nc-ea41600e4a",
-      "lapRefs": [
-        {
-          "time": "1:06.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:06.5",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 90,
+      "metaRank": 99,
       "name": "B Road Powerbuild",
       "observations": [
         {
@@ -815,12 +793,12 @@
           "tab": "fh6"
         }
       ],
-      "role": "allround",
-      "score": 0.601,
+      "role": "power",
+      "score": 0.413,
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t2",
       "tierSource": "meta-table",
-      "tires": "offroad",
+      "tires": "stock",
       "tunerId": "noa-miyako"
     },
     {
@@ -837,7 +815,7 @@
       "createdAt": "2026-06-08",
       "drivetrain": "FWD",
       "id": "sc-146760422",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "B Road | Purist",
       "observations": [
         {
@@ -874,10 +852,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.643,
+      "score": 0.672,
       "shareCode": "146760422",
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "cte-seasons"
@@ -949,7 +927,7 @@
       "createdAt": "2026-06-08",
       "drivetrain": "FWD",
       "id": "sc-822177210",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "B Road | Purist (GT-S Look)",
       "observations": [
         {
@@ -986,10 +964,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.643,
+      "score": 0.672,
       "shareCode": "822177210",
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "cte-seasons"
@@ -1008,7 +986,7 @@
       "createdAt": "2026-06-08",
       "drivetrain": "FWD",
       "id": "sc-884913278",
-      "metaRank": 90,
+      "metaRank": 68,
       "name": "B Road | Purist (Wings West Kit)",
       "observations": [
         {
@@ -1045,10 +1023,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.643,
+      "score": 0.672,
       "shareCode": "884913278",
       "surface": "road",
-      "tier": "t1.5",
+      "tier": "t1",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "cte-seasons"
