@@ -1,10 +1,16 @@
 /**
  * Site-wide settings that are not data.
  *
- * DONATE_URL: the owner's donation page (Ko-fi, Livepix, Apoia.se…). While it is empty, the
- * donation box still shows, with a "coming soon" button. The site has no ads (ADR-0013).
+ * DONATE_LINKS: the owner's donation pages, one button each in the donation box (the first one
+ * is the main button). Add a Ko-fi link here for supporters abroad. The site has no ads (ADR-0013).
  */
-export const DONATE_URL: string | undefined = undefined;
+export const DONATE_LINKS: {
+  url: string;
+  label: 'donate.pix' | 'donate.pixMonthly' | 'donate.kofi';
+}[] = [
+  { url: 'https://livepix.gg/danielversiani', label: 'donate.pix' },
+  { url: 'https://livepix.gg/danielversiani/assinatura', label: 'donate.pixMonthly' },
+];
 
 /** Notice required by Microsoft's Game Content Usage Rules (kept in English, as published). */
 export const MICROSOFT_NOTICE =
