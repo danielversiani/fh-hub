@@ -1,7 +1,7 @@
 ---
 import type { Car } from '../../pipeline/schema/entities';
 import { localePath, t, type Locale } from '../i18n';
-import CarCard, { buildsFor, ClassChip } from '../islands/CarCard';
+import CarCard, { buildsFor, ClassChip, RarityChip } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
 import { buildBrowseData } from '../lib/browse';
 import { loadLapTimes, loadMemeCars } from '../lib/data';
@@ -37,6 +37,7 @@ const laps = loadLapTimes().filter((l) => l.carId === car.id);
   <div class="mt-2 flex flex-wrap items-end gap-x-4 gap-y-2">
     <h1 class="display text-5xl sm:text-6xl">{car.model}</h1>
     <ClassChip cls={car.stock?.class} pi={car.stock?.pi} />
+    <RarityChip rarity={car.rarity} label={car.rarity ? t(locale, `rarity.${car.rarity}`) : ''} />
   </div>
   <p class="mt-2 text-muted">
     {car.make} · {car.year}

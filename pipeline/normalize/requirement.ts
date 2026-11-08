@@ -1,4 +1,4 @@
-import { normalizeName } from '../lib/text';
+import { normalizeName, slugify } from '../lib/text';
 import type { CarClass, Discipline, Drivetrain, Surface } from '../schema/enums';
 import type { Car } from '../schema/entities';
 import type { CarResolver } from './car-resolver';
@@ -183,6 +183,17 @@ export class RequirementParser {
 
     const rarity = /^Rarity:\s*(.+)$/i.exec(label);
     if (rarity) {
+      const wanted = slugify(rarity[1]!);
+      const known = this.cars.filter((c) => c.rarity);
+      // Eligible = cars whose rarity we KNOW matches; cars with unknown rarity are left out.
+      if (known.length > 0) {
+        return {
+          status: 'parsed',
+          scope: 'rarity',
+          scopeLabel: rarity[1],
+          carIds: known.filter((c) => c.rarity === wanted).map((c) => c.id),
+        };
+      }
       return {
         status: 'partial',
         scope: 'rarity',

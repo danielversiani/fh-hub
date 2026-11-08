@@ -5,10 +5,11 @@ import type { TabPayload } from '../adapters/types';
 import { fetchBytes, HttpError } from '../lib/http';
 import { parseCsv } from '../lib/table';
 import type { SourceDef, SourceTab } from '../schema/source';
+import { downloadCategory } from './mediawiki';
 import { downloadQqDoc } from './qq-docs';
 
 /** `qq.json` is a QQ Docs bundle (fetchers/qq-docs.ts); `json` is a forza.net Nuxt payload. */
-export type RawExt = 'csv' | 'xlsx' | 'json' | 'qq.json';
+export type RawExt = 'csv' | 'xlsx' | 'json' | 'qq.json' | 'wiki.json';
 
 /** Bytes exactly as downloaded, kept for caching and fixtures. */
 export interface RawTab {
@@ -58,11 +59,14 @@ const EXT: Record<SourceDef['fetcher'], RawExt> = {
   'google-xlsx': 'xlsx',
   'forza-net': 'json',
   'qq-docs': 'qq.json',
+  mediawiki: 'wiki.json',
 };
 const extFor = (source: SourceDef): RawExt => EXT[source.fetcher];
 
 async function downloadTab(source: SourceDef, tab: SourceTab): Promise<Buffer> {
   switch (source.fetcher) {
+    case 'mediawiki':
+      return Buffer.from(JSON.stringify(await downloadCategory(source.url, tab.path!)), 'utf8');
     case 'qq-docs':
       // The whole spreadsheet (every tab) as one JSON bundle of still-encoded blobs.
       return Buffer.from(JSON.stringify(await downloadQqDoc(source.docId!, () => true)), 'utf8');
@@ -140,6 +144,7 @@ export function toPayload(tab: RawTab): TabPayload {
     case 'json':
       return { kind: 'json', data: decodeNuxtPayload(tab.bytes.toString('utf8')) };
     case 'qq.json':
+    case 'wiki.json':
       return { kind: 'json', data: JSON.parse(tab.bytes.toString('utf8')) as unknown };
   }
 }

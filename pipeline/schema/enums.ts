@@ -83,7 +83,12 @@ export type Difficulty = z.infer<typeof Difficulty>;
 export const Category = z.enum(['meta', 'off-meta', 'purist', 'meme']);
 export type Category = z.infer<typeof Category>;
 
+/** In-game car rarity (Autoshow / Wheelspin). Some playlist events restrict it. */
+export const Rarity = z.enum(['common', 'rare', 'epic', 'legendary', 'forza-edition']);
+export type Rarity = z.infer<typeof Rarity>;
+
 export const SourceKind = z.enum([
+  'wiki',
   'google-sheet',
   'google-xlsx',
   'qq-doc',

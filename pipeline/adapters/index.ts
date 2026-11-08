@@ -1,3 +1,4 @@
+import { fandomRarity } from './fandom-rarity';
 import { forzaCars } from './forza-cars';
 import { forzaPlaylist } from './forza-playlist';
 import { gbrOzzy } from './gbr-ozzy';
@@ -10,9 +11,17 @@ import { whdUrl } from './whd-url';
 
 /** One adapter per source (ADR-0005). The key is the `adapter` field in data/sources.yaml. */
 export const ADAPTERS: Readonly<Record<string, Adapter>> = Object.fromEntries(
-  [forzaCars, forzaPlaylist, gbrOzzy, k1zGray, kleis, letzeluShirakawa, noaMiyako, whdUrl].map(
-    (a) => [a.id, a],
-  ),
+  [
+    fandomRarity,
+    forzaCars,
+    forzaPlaylist,
+    gbrOzzy,
+    k1zGray,
+    kleis,
+    letzeluShirakawa,
+    noaMiyako,
+    whdUrl,
+  ].map((a) => [a.id, a]),
 );
 
 export function getAdapter(id: string): Adapter {

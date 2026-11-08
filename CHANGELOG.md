@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-08: **Raridade dos carros** (fonte `fandom-rarity`, Forza Wiki, CC BY-SA): 641 de 667 carros. Provas com restrição de raridade passam a ter sugestões, só com carros de raridade conhecida. Selo de raridade nas listas e na página do carro; crédito à wiki no rodapé. Correção: um número no fim do nome ("Peugeot 207 Super 2000") não é mais confundido com o ano.
 - 2026-11-08: **Fase 1 (parte 2): revisão visual e regras do dono.**
   - Tier da Noa em tudo (T3 para quem não está na tabela); Meta/Off-meta só pelo tier; Meme por lista de carros; nenhuma sugestão quando a elegibilidade não pode ser verificada; nota numérica fora do site.
   - Novidades na página inicial (abas de atualização e de carros novos da Noa + mudanças de tier detectadas pelo sync).

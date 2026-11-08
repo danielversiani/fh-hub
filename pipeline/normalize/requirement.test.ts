@@ -84,7 +84,20 @@ describe('RequirementParser', () => {
     expect(parser.parse('Championship', 'Honda & Acura - B Class').carIds?.length).toBe(3);
   });
 
-  it('rarity and stock drivetrain are partial (not in the roster)', () => {
+  it('rarity is checkable once cars carry it (only known rarities are eligible)', () => {
+    const withRarity = CARS.map((c, i) => ({
+      ...c,
+      rarity: i === 0 ? ('legendary' as const) : undefined,
+    }));
+    const p = new RequirementParser(withRarity, new CarResolver(withRarity, {}));
+    expect(p.parse('Championship', 'Rarity: Legendary - S2 Class')).toMatchObject({
+      status: 'parsed',
+      scope: 'rarity',
+      carIds: ids('1991 Toyota Sera'),
+    });
+  });
+
+  it('rarity and stock drivetrain are partial when the data is missing', () => {
     expect(parser.parse('Championship', 'Rarity: Legendary - S2 Class')).toMatchObject({
       status: 'partial',
       scope: 'rarity',

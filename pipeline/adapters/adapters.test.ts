@@ -124,3 +124,18 @@ describe('noa-miyako (QQ Docs)', () => {
     expect(meta.some((m) => m.tuners.length > 2)).toBe(true);
   });
 });
+
+const out_fandom_rarity = await fixtureOutput('fandom-rarity');
+describe('fandom-rarity (Forza Wiki)', () => {
+  const attrs = out_fandom_rarity.carAttributes;
+  it('reads every rarity category', () => {
+    expect(new Set(attrs.map((a) => a.rarity))).toEqual(
+      new Set(['common', 'rare', 'epic', 'legendary', 'forza-edition']),
+    );
+    expect(attrs.length).toBeGreaterThan(500);
+  });
+  it('skips traffic vehicles and event-only variants', () =>
+    expect(attrs.some((a) => /Traffic$|^Playground |'Touge Edition'/.test(a.car.text))).toBe(
+      false,
+    ));
+});

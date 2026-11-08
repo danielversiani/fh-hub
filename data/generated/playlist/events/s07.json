@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "generatedAt": "2026-11-08T13:16:55.739Z",
   "items": [
     {
       "category": "reward",
@@ -24,9 +24,12 @@
       "id": "s07--monthly-rivals--shimanoyama-circuit",
       "name": "Shimanoyama Circuit",
       "requirement": {
-        "scope": "unknown",
+        "carIds": [
+          "2016-honda-s2260-alpha"
+        ],
+        "scope": "car",
         "scopeLabel": "2016 Honda S660 Alpha",
-        "status": "unparsed"
+        "status": "parsed"
       },
       "requirementRaw": "2016 Honda S660 Alpha",
       "reward": "Super Wheelspin",

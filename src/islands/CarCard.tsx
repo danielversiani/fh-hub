@@ -1,6 +1,13 @@
 import type { BrowseCar, BrowseMeta, BrowseTune } from '../lib/browse';
-import { CLASS_COLORS, CLASS_ORDER, formatShareCode, TIER_COLORS, TIER_LABELS } from '../lib/ui';
-import type { CarClass, Surface, Tier } from '../../pipeline/schema/enums';
+import {
+  CLASS_COLORS,
+  CLASS_ORDER,
+  formatShareCode,
+  RARITY_COLORS,
+  TIER_COLORS,
+  TIER_LABELS,
+} from '../lib/ui';
+import type { CarClass, Rarity, Surface, Tier } from '../../pipeline/schema/enums';
 
 export interface CarCardLabels {
   shareCode: string;
@@ -19,6 +26,7 @@ export interface CarCardLabels {
   surfaces: Record<string, string>;
   categories: Record<string, string>;
   tires: Record<string, string>;
+  rarities: Record<string, string>;
 }
 
 export interface Build {
@@ -108,6 +116,18 @@ export function ClassChip({
     >
       {cls}
       {pi !== undefined && <span class="font-semibold opacity-90">{pi}</span>}
+    </span>
+  );
+}
+
+export function RarityChip({ rarity, label }: { rarity: Rarity | undefined; label: string }) {
+  if (!rarity) return null;
+  return (
+    <span
+      class="eyebrow inline-block rounded px-1.5 py-0.5 text-black"
+      style={{ background: RARITY_COLORS[rarity], fontSize: '0.65rem' }}
+    >
+      {label}
     </span>
   );
 }

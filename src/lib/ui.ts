@@ -1,4 +1,4 @@
-import type { CarClass, Tier } from '../../pipeline/schema/enums';
+import type { CarClass, Rarity, Tier } from '../../pipeline/schema/enums';
 
 /** In-game class colours (also used by kleis' sheet). */
 export const CLASS_COLORS: Readonly<Record<CarClass, string>> = {
@@ -30,6 +30,15 @@ export const TIER_LABELS: Readonly<Record<Tier, string>> = {
   't1.5': 'T1.5',
   t2: 'T2',
   t3: 'T3',
+};
+
+/** Rarity tag colours, close to the game's tags. */
+export const RARITY_COLORS: Readonly<Record<Rarity, string>> = {
+  common: '#3fb950',
+  rare: '#2f81f7',
+  epic: '#a371f7',
+  legendary: '#e3a008',
+  'forza-edition': '#ff3d9a',
 };
 
 export const CLASS_ORDER: readonly CarClass[] = ['D', 'C', 'B', 'A', 'S1', 'S2', 'R', 'X'];

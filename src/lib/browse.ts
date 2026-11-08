@@ -1,4 +1,4 @@
-import type { CarClass, Category, Surface, Tier } from '../../pipeline/schema/enums';
+import type { CarClass, Category, Rarity, Surface, Tier } from '../../pipeline/schema/enums';
 import { loadCars, loadMeta, loadSourceStatus, loadTuneIndex, maps } from './data';
 
 /**
@@ -14,6 +14,7 @@ export interface BrowseCar {
   types: string[];
   cls?: CarClass;
   pi?: number;
+  rarity?: Rarity;
   obtain?: string;
   meme: boolean;
 }
@@ -74,6 +75,7 @@ export function buildBrowseData(memeIds: readonly string[] = []): BrowseData {
     types: c.carTypes,
     cls: c.stock?.class,
     pi: c.stock?.pi,
+    rarity: c.rarity,
     obtain: [c.acquisition?.raw, c.addOns].filter(Boolean).join(' · ') || undefined,
     meme: meme.has(c.id),
   }));

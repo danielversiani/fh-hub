@@ -1,7 +1,15 @@
 import { z } from 'zod';
 import { CarClass, Permission, Slug, SourceKind } from './enums';
 
-export const TabRole = z.enum(['tunes', 'catalog', 'meta', 'laptimes', 'custom-event', 'playlist']);
+export const TabRole = z.enum([
+  'tunes',
+  'catalog',
+  'attributes',
+  'meta',
+  'laptimes',
+  'custom-event',
+  'playlist',
+]);
 export type TabRole = z.infer<typeof TabRole>;
 
 export const SourceTab = z.object({
@@ -24,8 +32,9 @@ export type SourceTab = z.infer<typeof SourceTab>;
  * google-xlsx → whole workbook, for sources whose formatting carries data (kleis' colours)
  * forza-net   → Nuxt payload of an official forza.net page
  * qq-docs     → every tab of a public QQ Docs spreadsheet (fetchers/qq-docs.ts)
+ * mediawiki   → members of a wiki category through the MediaWiki API (`path` = category)
  */
-export const Fetcher = z.enum(['google-csv', 'google-xlsx', 'forza-net', 'qq-docs']);
+export const Fetcher = z.enum(['google-csv', 'google-xlsx', 'forza-net', 'qq-docs', 'mediawiki']);
 export type Fetcher = z.infer<typeof Fetcher>;
 
 export const SourceDef = z
@@ -57,7 +66,9 @@ export const SourceDef = z
     for (const tab of s.tabs) {
       if (s.fetcher === 'google-csv' && !tab.gid) fail(`tab ${tab.id} needs \`gid\``);
       if (s.fetcher === 'google-xlsx' && !tab.sheet) fail(`tab ${tab.id} needs \`sheet\``);
-      if (s.fetcher === 'forza-net' && !tab.path) fail(`tab ${tab.id} needs \`path\``);
+      if ((s.fetcher === 'forza-net' || s.fetcher === 'mediawiki') && !tab.path) {
+        fail(`tab ${tab.id} needs \`path\``);
+      }
     }
   });
 export type SourceDef = z.infer<typeof SourceDef>;

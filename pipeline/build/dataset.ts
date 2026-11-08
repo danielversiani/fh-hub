@@ -21,7 +21,7 @@ import { buildSeasons, eventCategory, eventId, parseSeasonLabel } from '../norma
 import { parseRoute, RequirementParser } from '../normalize/requirement';
 import { TunerRegistry, type TunerIdentity } from '../normalize/tuners';
 import { magnitude } from './highlights';
-import { CAR_CLASSES } from '../schema/enums';
+import { CAR_CLASSES, Rarity } from '../schema/enums';
 import type {
   Car,
   CustomEvent,
@@ -147,6 +147,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     (a, b) => b.source.weight - a.source.weight || a.source.id.localeCompare(b.source.id),
   );
   const cars = buildCars(ordered);
+  const carById = new Map(cars.map((c) => [c.id, c]));
   const resolver = new CarResolver(cars, manual.carAliases);
   const registry = new TunerRegistry(manual.tunerAliases);
   const review = new ReviewCollector();
@@ -168,6 +169,16 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     review.add('unmatched-car', sourceId, cleanText(car.text), resolution.candidates);
     return undefined;
   };
+
+  // --- car attributes (e.g. rarity from the wiki); only existing cars are enriched --------
+  for (const { source, output } of ordered) {
+    for (const attr of output.carAttributes) {
+      const carId = resolveCar(source.id, attr.car);
+      const car = carId ? carById.get(carId) : undefined;
+      const rarity = Rarity.safeParse(attr.rarity);
+      if (car && rarity.success && !car.rarity) car.rarity = rarity.data;
+    }
+  }
 
   // --- tunes -------------------------------------------------------------------------------
   const tunes = new Map<string, Tune>();

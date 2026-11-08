@@ -27,6 +27,8 @@ export const isPreview = DATA_DIR.includes('preview');
 const cache = new Map<string, unknown>();
 
 function readItems<T>(file: string): T[] {
+  // In `pnpm dev` the data can change under a running server (pnpm sync): never cache there.
+  if (import.meta.env.DEV) cache.clear();
   if (cache.has(file)) return cache.get(file) as T[];
   const full = path.resolve(process.cwd(), DATA_DIR, file);
   const items = fs.existsSync(full)

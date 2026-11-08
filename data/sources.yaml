@@ -21,6 +21,23 @@ sources:
     weight: 1
     notes: Official roster. Master car list (ADR-0006).
 
+  - id: fandom-rarity
+    name: Forza Wiki (Fandom) — car rarity
+    kind: wiki
+    url: https://forza.fandom.com
+    fetcher: mediawiki
+    adapter: fandom-rarity
+    tabs:
+      - { id: common, role: attributes, path: 'Category:Common (FH6)' }
+      - { id: rare, role: attributes, path: 'Category:Rare (FH6)' }
+      - { id: epic, role: attributes, path: 'Category:Epic (FH6)' }
+      - { id: legendary, role: attributes, path: 'Category:Legendary (FH6)' }
+      - { id: forza-edition, role: attributes, path: 'Category:Forza Edition (FH6)' }
+    permission: not-required
+    active: true
+    weight: 0.9
+    notes: Wiki content under CC BY-SA (attribution shown on the site). Only the rarity is used.
+
   - id: forza-playlist
     name: Forza Horizon 6 Festival Playlist (forza.net)
     kind: forza-official

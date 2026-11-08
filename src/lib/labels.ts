@@ -47,6 +47,12 @@ export function carCardLabels(locale: Locale): CarCardLabels {
       purist: t(locale, 'category.purist'),
       meme: t(locale, 'category.meme'),
     },
+    rarities: Object.fromEntries(
+      ['common', 'rare', 'epic', 'legendary', 'forza-edition'].map((r) => [
+        r,
+        t(locale, `rarity.${r}` as MessageKey),
+      ]),
+    ),
     tires: Object.fromEntries(
       TIRES.map((tire) => [tire, t(locale, `tires.${tire}` as MessageKey)]),
     ),

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'preact/hooks';
 import type { BrowseData, BrowseMeta, BrowseTune } from '../lib/browse';
 import { CLASS_ORDER } from '../lib/ui';
 import type { Tier } from '../../pipeline/schema/enums';
-import CarCard, { buildsFor, ClassChip, TierChip, type CarCardLabels } from './CarCard';
+import CarCard, { buildsFor, ClassChip, RarityChip, TierChip, type CarCardLabels } from './CarCard';
 
 export interface TuneBrowserLabels extends CarCardLabels {
   search: string;
@@ -182,6 +182,10 @@ export default function TuneBrowser({ labels, base, dataUrl }: Props) {
                   >
                     {best && <TierChip tier={best.tier} muted={!best.listed} />}
                     <span class="display text-xl">{car.model}</span>
+                    <RarityChip
+                      rarity={car.rarity}
+                      label={car.rarity ? labels.rarities[car.rarity]! : ''}
+                    />
                     <span class="text-sm text-muted">
                       {car.make} · {car.year}
                     </span>

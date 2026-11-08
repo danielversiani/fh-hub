@@ -1,5 +1,9 @@
 import type { PlaylistEvent } from '../../pipeline/schema/entities';
-import { formatNumber, t, type Locale } from '../i18n';
+import { formatNumber, t, type Locale, type MessageKey } from '../i18n';
+
+const RARITY_KEYS = new Set<string>(
+  ['common', 'rare', 'epic', 'legendary', 'forza-edition'].map((r) => `rarity.${r}`),
+);
 
 /** "Car: 2009 Ferrari 458 Italia" → "2009 Ferrari 458 Italia"; "Credits: 150000" → "150.000 CR". */
 export function formatReward(locale: Locale, reward: string | undefined): string | undefined {
@@ -14,7 +18,11 @@ export function formatReward(locale: Locale, reward: string | undefined): string
 /** What the requirement asks for, in one short line. */
 export function requirementText(locale: Locale, event: PlaylistEvent): string {
   const req = event.requirement;
-  if (req.scope === 'rarity') return t(locale, 'playlist.rarity', { value: req.scopeLabel ?? '' });
+  if (req.scope === 'rarity') {
+    const key = `rarity.${(req.scopeLabel ?? '').toLowerCase().replace(/\s+/g, '-')}` as MessageKey;
+    const value = RARITY_KEYS.has(key) ? t(locale, key) : (req.scopeLabel ?? '');
+    return t(locale, 'playlist.rarity', { value });
+  }
   return req.scopeLabel ?? t(locale, 'playlist.anyCar');
 }
 

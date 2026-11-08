@@ -9,7 +9,7 @@
 1. **A tabela de meta da Noa Miyako é a referência.** O tier de um carro numa classe × piso vem dela. Carro que ela não lista recebe **T3** (`defaultTier`) até ser avaliado.
 2. **Meta / Off-meta vêm só desse tier**: Meta = Meta+, Meta, T0.5; Off-meta = T1, T1.5, T2.
 3. **Meme é uma lista de carros**: carros que ninguém associa a corrida, mas que funcionam porque o jogo é arcade (Peel P50, Cadillac XTS Limousine, vans da Ford e da Wuling, Unimog, táxis japoneses…). A lista fica em `data/curation/config.yaml` (`memeCars`).
-4. **Só sugerir quando a elegibilidade é conhecida.** Restrições de raridade ou de tração de fábrica não estão no roster oficial, então esses eventos ficam sem sugestão (com aviso) até termos esses dados.
+4. **Só sugerir quando a elegibilidade é conhecida.** A raridade vem da Forza Wiki (só carros de raridade conhecida entram). A tração de fábrica ainda não tem fonte, então provas como "Total FWD" ficam sem sugestão, com aviso.
 5. **A nota numérica não aparece no site.** Ela só desempata tunes do mesmo tier. Ordem usada em listas e sugestões: tier → tunador indicado pela Noa → tem share code → posição na tabela → nota.
 6. **Ordem da lista de tunes**: alfabética sem filtro de classe; com classe, na ordem do meta (melhor tier primeiro, depois a posição na tabela), e os carros fora da tabela (T3) por último.
 

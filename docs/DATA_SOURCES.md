@@ -9,6 +9,7 @@
 | ID | Fonte | Tipo | Conteúdo | Leitura automática | Autorização | No pipeline |
 |---|---|---|---|---|---|---|
 | `forza-cars` | forza.net/fh6cars | JSON oficial | **Roster oficial: 667 carros** (lista mestre) | ✅ `_payload.json` | not-required | ✅ Fase 0 |
+| `fandom-rarity` | Forza Wiki (Fandom) | API MediaWiki | **Raridade** de 641 carros (Comum, Raro, Épico, Lendário, Forza Edition) | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
 | `gbr-ozzy` | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | pending (prioridade) | ✅ Fase 0 |
 | `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | pending | ✅ Fase 0 |
 | `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | pending | ✅ Fase 0 |
@@ -45,6 +46,14 @@ O registro executável dessas fontes é `data/sources.yaml`.
   - *Collection* lista as formas de obter: `Autoshow, Wheelspin`.
 - Inclui carros anunciados que ainda vão sair (Car Pass e recompensas futuras).
 - É a **única fonte que cria carros** ([ADR-0006](adr/0006-identidade-canonica.md)). ID do carro = slug do *Car Name*.
+
+### `fandom-rarity`: raridade dos carros (Forza Wiki)
+- **Por quê:** algumas provas da playlist restringem a raridade ("Rarity: Legendary - S2 Class"), e o roster oficial não traz essa informação. Sem ela, o site não saberia quais carros são elegíveis (regra do dono: só sugerir com certeza).
+- **Fonte:** categorias `Category:Common (FH6)`, `Rare`, `Epic`, `Legendary` e `Forza Edition` da [Forza Wiki](https://forza.fandom.com), lidas pela API pública MediaWiki (`api.php?action=query&list=categorymembers`). Cada página da categoria é um carro, com o ano entre parênteses quando há mais de um.
+- **Licença:** conteúdo da Fandom é CC BY-SA. Usamos só o fato (a raridade) e damos crédito no rodapé do site. Por isso a permissão é `not-required`.
+- **Cobertura (2026-11-08):** 641 dos 667 carros. Os carros sem raridade conhecida **não** entram em provas com restrição de raridade.
+- **Ignorados:** veículos de tráfego (`… Traffic`, `Playground …`) e variantes de evento (`'Touge Edition'`, `'Initial Drive'`, `'RakuRaku Express'`), que não estão no roster.
+- **Por que não outras fontes:** codmunity/forzacity têm a raridade, mas são sites concorrentes, sem licença de reuso. A aba "Car Collection" do Ozzy só tem o logo da marca na coluna BADGE.
 
 ### `noa-miyako`: tabela de meta da Noa Miyako
 - **URL:** https://docs.qq.com/sheet/DYWZVRWR0dnh3aHhZ (aba inicial `mmc7rv`)

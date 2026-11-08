@@ -130,6 +130,14 @@ export interface RawMetaEntry {
   raw: Record<string, string>;
 }
 
+/** A fact about an existing car from a non-catalog source (e.g. its rarity from the wiki). */
+export interface RawCarAttribute {
+  tab: string;
+  row: number;
+  car: CarRef;
+  rarity: string;
+}
+
 /** A dated "news" row of a meta table: a car whose tune/tier was updated, or a new car. */
 export interface RawMetaUpdate {
   tab: string;
@@ -154,6 +162,7 @@ export interface AdapterOutput {
   playlists: RawPlaylist[];
   meta: RawMetaEntry[];
   metaUpdates: RawMetaUpdate[];
+  carAttributes: RawCarAttribute[];
   warnings: string[];
 }
 
@@ -180,6 +189,7 @@ export const emptyOutput = (): AdapterOutput => ({
   playlists: [],
   meta: [],
   metaUpdates: [],
+  carAttributes: [],
   warnings: [],
 });
 
@@ -196,7 +206,8 @@ export const countRecords = (o: AdapterOutput): number =>
   o.customEvents.reduce((n, e) => n + e.groups.reduce((m, g) => m + g.entries.length, 0), 0) +
   o.playlists.reduce((n, p) => n + p.rows.length, 0) +
   o.meta.length +
-  o.metaUpdates.length;
+  o.metaUpdates.length +
+  o.carAttributes.length;
 
 export function requireTab<K extends TabPayload['kind']>(
   input: AdapterInput,
