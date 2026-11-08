@@ -1,0 +1,354 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-charger-srt-hellcat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-61dc5c3dd5",
+      "metaRank": 56,
+      "name": "Charger SRT-10",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Dodge Charger SRT Hellcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Charger SRT-10",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1315,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-charger-srt-hellcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-08",
+      "drivetrain": "AWD",
+      "id": "sc-106247355",
+      "name": "Credit Score Warrior",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Charger SRT Hellcat",
+            "sharecode": "106 247 355",
+            "suspension": "Street",
+            "tuneName": "Credit Score Warrior",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Rally"
+          },
+          "row": 698,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Dodge Charger SRT Hellcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Credit Score Warrior",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 1313,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "106247355",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-charger-srt-hellcat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-17",
+      "drivetrain": "AWD",
+      "id": "sc-125485678",
+      "metaRank": 56,
+      "name": "A Class - Road Racing (Car will 1:00.6/7 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Charger SRT Hellcat",
+            "sharecode": "125 485 678",
+            "suspension": "Street",
+            "tuneName": "A Class - Road Racing (Car will 1:00.6/7 Shirakawa Circuit)",
+            "tuner": "VNX Ardent",
+            "tyreCompound": "Rally"
+          },
+          "row": 703,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Dodge Charger SRT Hellcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class - Road Racing (Car will 1:00.6/7 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FFFF0000"
+          },
+          "row": 1314,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.676,
+      "shareCode": "125485678",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-charger-srt-hellcat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-18",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-150884601",
+      "lapRefs": [
+        {
+          "time": "1:00.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 56,
+      "name": "A Road Strong V1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Charger SRT Hellcat",
+            "sharecode": "150 884 601",
+            "suspension": "Street",
+            "tuneName": "A Road Strong V1.1",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 699,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.636,
+      "shareCode": "150884601",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2015-dodge-charger-srt-hellcat",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-01",
+      "drivetrain": "RWD",
+      "id": "sc-185642314",
+      "metaRank": 56,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Charger SRT Hellcat",
+            "sharecode": "185 642 314",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Drift"
+          },
+          "row": 701,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Dodge Charger SRT Hellcat",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1316,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.671,
+      "shareCode": "185642314",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-charger-srt-hellcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-22",
+      "drivetrain": "AWD",
+      "id": "sc-672898593",
+      "name": "Faster than the challenger, but worse at ramming (00.6 Shira)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "22/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Charger SRT Hellcat",
+            "sharecode": "672 898 593",
+            "suspension": "Street",
+            "tuneName": "Faster than the challenger, but worse at ramming (00.6 Shira)",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 700,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "672898593",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-dodge-charger-srt-hellcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-679724567",
+      "name": "operation pay child support (dirt)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Charger SRT Hellcat",
+            "sharecode": "679 724 567",
+            "suspension": "Street",
+            "tuneName": "operation pay child support (dirt)",
+            "tuner": "VER Polaksz",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 702,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Dodge Charger SRT Hellcat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "operation pay child support (dirt)",
+            "Tuner": "VER Polaksz",
+            "fill": "FFFF0000"
+          },
+          "row": 1312,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "679724567",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "ver-polaksz"
+    }
+  ],
+  "schemaVersion": 1
+}

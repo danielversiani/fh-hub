@@ -1,0 +1,521 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.65,
+      "drivetrain": "AWD",
+      "id": "nc-20f69b004d",
+      "name": "V8",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Audi R8 V10 plus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "V8",
+            "Tuner": "koeseg",
+            "fill": "FFFF0000"
+          },
+          "row": 929,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.616,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "koeseg"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-2b4ef2cd4d",
+      "metaRank": 33,
+      "name": "S1 Class - Road Racing - IDK (2:08.8 Venus Sprint)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Audi R8 V10 plus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - IDK (2:08.8 Venus Sprint)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 934,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.578,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.65,
+      "drivetrain": "AWD",
+      "id": "nc-3c05ac8f6d",
+      "name": "Shirakawa 59.7 OFFMETA",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Audi R8 V10 plus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Shirakawa 59.7 OFFMETA",
+            "Tuner": "Cirno1X",
+            "fill": "FFFF0000"
+          },
+          "row": 928,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.616,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4018dafbca",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 33,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 70,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-4f8f4f2f86",
+      "metaRank": 33,
+      "name": "S1 Strong AWD Balance",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Audi R8 V10 plus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Strong AWD Balance",
+            "Tuner": "Destrukdi",
+            "fill": "FF7030A0"
+          },
+          "row": 932,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.578,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-17",
+      "drivetrain": "AWD",
+      "id": "sc-101998463",
+      "metaRank": 33,
+      "name": "S1 Class - Road Racing (Daikoku 50.177)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "17/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Plus",
+            "sharecode": "101 998 463",
+            "suspension": "Rally",
+            "tuneName": "S1 Class - Road Racing (Daikoku 50.177)",
+            "tuner": "VNX Ardent",
+            "tyreCompound": "Rally"
+          },
+          "row": 222,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.579,
+      "shareCode": "101998463",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-19",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 LMS",
+      "id": "sc-109803483",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 33,
+      "name": "Road Allround 54.9 Shirakawa Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Plus",
+            "sharecode": "109 803 483",
+            "suspension": "Rally",
+            "tuneName": "Road Allround 54.9 Shirakawa Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 219,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2016 Audi R8 V10 plus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 54.9 Shirakawa Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 933,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Audi R8 V10 Plus",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 LMS",
+            "Laptime": "0:54.969",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround 54.9 Shirakawa Clean"
+          },
+          "row": 32,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.755,
+      "shareCode": "109803483",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.7,
+      "createdAt": "2026-06-17",
+      "drivetrain": "AWD",
+      "id": "sc-126984164",
+      "name": "A Road -Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Plus",
+            "sharecode": "126 984 164",
+            "suspension": "Race",
+            "tuneName": "A Road -Strong Allround",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 217,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2016 Audi R8 V10 plus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 930,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.715,
+      "shareCode": "126984164",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-09",
+      "drivetrain": "AWD",
+      "id": "sc-129190200",
+      "metaRank": 33,
+      "name": "S1 Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "09/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Plus",
+            "sharecode": "129 190 200",
+            "suspension": "Race",
+            "tuneName": "S1 Road Allround",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 220,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.578,
+      "shareCode": "129190200",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-27",
+      "drivetrain": "AWD",
+      "id": "sc-164431118",
+      "name": "S1 Class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "27/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Plus",
+            "sharecode": "164 431 118",
+            "suspension": "Rally",
+            "tuneName": "S1 Class Dirt",
+            "tuner": "TNR MaksJaga",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 221,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2016 Audi R8 V10 plus",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Class Dirt",
+            "Tuner": "TNR MaksJaga",
+            "fill": "FF7030A0"
+          },
+          "row": 931,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "164431118",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "tnr-maksjaga"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.7,
+      "createdAt": "2026-07-08",
+      "drivetrain": "AWD",
+      "engine": "R8 LMS",
+      "id": "sc-802023145",
+      "name": "Road Allround 1:00.0 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Plus",
+            "sharecode": "802 023 145",
+            "suspension": "Rally",
+            "tuneName": "Road Allround 1:00.0 Shira Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 218,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Audi R8 V10 Plus",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "R8 LMS",
+            "Laptime": "1:00.094",
+            "Notes": "",
+            "Tier": "Offmeta < 1:00.5",
+            "Tires": "CC",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround 1:00.0 Shira Clean"
+          },
+          "row": 14,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "a700"
+        }
+      ],
+      "score": 0.739,
+      "shareCode": "802023145",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "letzelu"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,341 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2018-dodge-challenger-srt-demon",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-1a81dbe04e",
+      "metaRank": 55,
+      "name": "Stock Look OEMSwap Road / Street",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Dodge Challenger SRT Demon",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look OEMSwap Road / Street",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1339,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-dodge-challenger-srt-demon",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-e452289558",
+      "metaRank": 55,
+      "name": "A Road - 1:01s @ Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Dodge Challenger SRT Demon",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - 1:01s @ Shirakawa",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 1337,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-dodge-challenger-srt-demon",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-12",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-107569789",
+      "lapRefs": [
+        {
+          "time": "1:00.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 55,
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Challenger SRT Demon",
+            "sharecode": "107 569 789",
+            "suspension": "Street",
+            "tuneName": "A Road - Strong Allround",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 662,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Dodge Challenger SRT Demon",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1338,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.718,
+      "shareCode": "107569789",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-dodge-challenger-srt-demon",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-17",
+      "drivetrain": "AWD",
+      "id": "sc-162149319",
+      "metaRank": 55,
+      "name": "A Class - Road Racing (Will get 1:00.9 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Challenger SRT Demon",
+            "sharecode": "162 149 319",
+            "suspension": "Street",
+            "tuneName": "A Class - Road Racing (Will get 1:00.9 Shirakawa Circuit)",
+            "tuner": "VNX Ardent",
+            "tyreCompound": "Rally"
+          },
+          "row": 666,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.59,
+      "shareCode": "162149319",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2018-dodge-challenger-srt-demon",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-08",
+      "drivetrain": "RWD",
+      "id": "sc-526087410",
+      "name": "48.3 Narai / Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Challenger SRT Demon",
+            "sharecode": "526 087 410",
+            "suspension": "Street",
+            "tuneName": "48.3 Narai / Stock Look",
+            "tuner": "VER Polaksz",
+            "tyreCompound": "Rally"
+          },
+          "row": 665,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Dodge Challenger SRT Demon",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "48.3 Narai / Stock look",
+            "Tuner": "VER Polaksz",
+            "fill": "FFFF0000"
+          },
+          "row": 1341,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "526087410",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ver-polaksz"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-dodge-challenger-srt-demon",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-21",
+      "drivetrain": "AWD",
+      "id": "sc-678792201",
+      "name": "Strong A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Challenger SRT Demon",
+            "sharecode": "678 792 201",
+            "suspension": "Rally",
+            "tuneName": "Strong A Dirt",
+            "tuner": "Korrrupt EU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 663,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "678792201",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "korrrupt-eu"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2018-dodge-challenger-srt-demon",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-17",
+      "drivetrain": "RWD",
+      "id": "sc-916545726",
+      "metaRank": 55,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Challenger SRT Demon",
+            "sharecode": "916 545 726",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Drift"
+          },
+          "row": 664,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Dodge Challenger SRT Demon",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1340,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.669,
+      "shareCode": "916545726",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "silvasuperbee"
+    }
+  ],
+  "schemaVersion": 1
+}

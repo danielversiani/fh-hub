@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2021-audi-rs-e-tron-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-160702240",
+      "name": "HRE Road No Aero V1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS E-Tron GT",
+            "sharecode": "160 702 240",
+            "suspension": "Street",
+            "tuneName": "HRE Road No Aero V1.1",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Rally"
+          },
+          "row": 266,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "160702240",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-audi-rs-e-tron-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "id": "sc-647077133",
+      "name": "A DoWhatever - 2nd \"gear\" 100mph",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS E-Tron GT",
+            "sharecode": "647 077 133",
+            "suspension": "Street",
+            "tuneName": "A DoWhatever - 2nd \"gear\" 100mph",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 267,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2021 Audi RS e-tron GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A DoWhatever - 2nd \"gear\" 100mph",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 939,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "647077133",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "esv-lawrence"
+    }
+  ],
+  "schemaVersion": 1
+}

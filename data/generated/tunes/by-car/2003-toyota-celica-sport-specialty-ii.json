@@ -1,0 +1,1111 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-00e92ed8cb",
+      "metaRank": 90,
+      "name": "1.6G Good Handling Allround V5",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "JADA TOYS OPTION D",
+            "Designer": "V3NOMR4C3R",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "1.6G Good Handling Allround V5",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFED7D31"
+          },
+          "row": 628,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-05095fb816",
+      "name": "Dirt Ricing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "MYSTIKAL NFSU",
+            "Designer": "LetsPlayOnkel",
+            "Drivetrain": "FWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Ricing",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 613,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-128c4c600f",
+      "metaRank": 147,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 2875,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.417,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "nc-15153e7e18",
+      "lapRefs": [
+        {
+          "time": "1:11.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:11.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 43,
+      "name": "C Road Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "TOM'S TRD JAPAN",
+            "Designer": "Mason1528",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "C Road Handling",
+            "Tuner": "MSR Sola",
+            "fill": "FFFFC000"
+          },
+          "row": 92,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-22503f10fe",
+      "metaRank": 90,
+      "name": "Full Aero Road Allround T1+ Shirakawa 06.0",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Full Aero Road Allround T1+ Shirakawa 06.0",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 629,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-2a55c9e8bc",
+      "metaRank": 90,
+      "name": "Purist B Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist B Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 624,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-2f44809882",
+      "metaRank": 90,
+      "name": "Trial Kit with Kaminari Wing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Trial bodykit",
+            "Design": "FORZA LIVERY",
+            "Designer": "hanage007",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Trial Kit with Kaminari Wing",
+            "Tuner": "Grandma Driving",
+            "fill": "FFED7D31"
+          },
+          "row": 621,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3599dbbd1c",
+      "metaRank": 43,
+      "name": "Road/Street AWD Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "SEGA CELICA",
+            "Designer": "Zero Dark Gamer",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road/Street AWD Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFFC000"
+          },
+          "row": 89,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-35b62b0114",
+      "metaRank": 3,
+      "name": "Strong++ C Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "PORTALS DESIGN",
+            "Designer": "Th3Bastos",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong++ C Dirt",
+            "Tuner": "Korrrupt EU",
+            "fill": "FFFFC000"
+          },
+          "row": 87,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "korrrupt-eu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-6337b5414a",
+      "lapRefs": [
+        {
+          "time": "1:01.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:01.7 可用 比Glanza差远了",
+      "metaNotesI18n": {
+        "en": "Usable, but far behind the Glanza.",
+        "pt-br": "Dá para usar, mas fica bem atrás do Glanza."
+      },
+      "metaRank": 147,
+      "name": "A road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 300,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.451,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-76550d16b6",
+      "metaRank": 90,
+      "name": "Full Aero Handling Road OFFMETA Shirakawa 05.6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "NFSUG EASTSIDERS CHAD",
+            "Designer": "CCROWNY",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Full Aero Handling Road OFFMETA Shirakawa 05.6",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 614,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-83df85ef1a",
+      "metaRank": 43,
+      "name": "Road Purist Grip Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist",
+            "Design": "FUYU",
+            "Designer": "monstar11251378",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Grip Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFFC000"
+          },
+          "row": 91,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-93831bedff",
+      "name": "1:00.1 Chiheisen",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "NFS UNDERGROUND 2",
+            "Designer": "BiercioneJR",
+            "Drivetrain": "FWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "1:00.1 Chiheisen",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFFC000"
+          },
+          "row": 88,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-997ed273fd",
+      "metaRank": 90,
+      "name": "Road Allround OFFMETA Shirakawa 05.5",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "EVA01",
+            "Designer": "DennyLambo420",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround OFFMETA Shirakawa 05.5",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 615,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-9d549ffd81",
+      "metaRank": 43,
+      "name": "None of the heavy rims look good",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "GT300",
+            "Designer": "RandoorRandolfs",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "None of the heavy rims look good",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFFC000"
+          },
+          "row": 90,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "nc-aacc2b00b1",
+      "lapRefs": [
+        {
+          "time": "1:06.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 90,
+      "name": "B Road Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "REACT",
+            "Designer": "dXC0T0Xb",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road Grip",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 626,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-b574409c4a",
+      "metaRank": 90,
+      "name": "Road Purist Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 625,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b7dbe0ed6c",
+      "metaRank": 90,
+      "name": "Stock Rim Size(No Aero)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "IIDA CELICA",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Stock Rim Size(No Aero)",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 616,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-c6a473e198",
+      "metaRank": 90,
+      "name": "B Road Purist V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist",
+            "Design": "WE!SPORT HELIOS V2 TRIAL",
+            "Designer": "manziqR2122",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road Purist V2",
+            "Tuner": "brennelul",
+            "fill": "FFED7D31"
+          },
+          "row": 617,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "brennelul"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-e401e63b1d",
+      "metaRank": 90,
+      "name": "Hella Optimized",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Hella Optimized",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 622,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "nc-ea41600e4a",
+      "lapRefs": [
+        {
+          "time": "1:06.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 90,
+      "name": "B Road Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road Powerbuild",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 627,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-08",
+      "drivetrain": "FWD",
+      "id": "sc-146760422",
+      "metaRank": 90,
+      "name": "B Road | Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Celica Sport Specialty II",
+            "sharecode": "146 760 422",
+            "suspension": "Stock",
+            "tuneName": "B Road | Purist",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 2434,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road | Purist",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 618,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.643,
+      "shareCode": "146760422",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-21",
+      "drivetrain": "AWD",
+      "id": "sc-296229744",
+      "name": "2 Fast 2 Furious",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica Sport Specialty II",
+            "sharecode": "296 229 744",
+            "suspension": "Street",
+            "tuneName": "2 Fast 2 Furious",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Rally"
+          },
+          "row": 2436,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "JUICED (FULL TRIAL KIT)",
+            "Designer": "Acaraho Waya",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "2 Fast 2 Furious",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 623,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "296229744",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-08",
+      "drivetrain": "FWD",
+      "id": "sc-822177210",
+      "metaRank": 90,
+      "name": "B Road | Purist (GT-S Look)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Celica Sport Specialty II",
+            "sharecode": "822 177 210",
+            "suspension": "Stock",
+            "tuneName": "B Road | Purist (GT-S Look)",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 2433,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist, GT-S bodykit",
+            "Design": "HIN 2006 HOTWHEELS",
+            "Designer": "GaigeStorm",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road | Purist (GT-S Look)",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 619,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.643,
+      "shareCode": "822177210",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-08",
+      "drivetrain": "FWD",
+      "id": "sc-884913278",
+      "metaRank": 90,
+      "name": "B Road | Purist (Wings West Kit)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Celica Sport Specialty II",
+            "sharecode": "884 913 278",
+            "suspension": "Sport",
+            "tuneName": "B Road | Purist (Wings West Kit)",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 2432,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "Purist, Wings West bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road | Purist (Wings West Kit)",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 620,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.643,
+      "shareCode": "884913278",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-911229316",
+      "name": "Dirt Ricing AWD",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica Sport Specialty II",
+            "sharecode": "911 229 316",
+            "suspension": "Sport",
+            "tuneName": "Dirt Ricing AWD",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2435,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2003 Toyota Celica Sport Specialty II",
+            "Comment": "",
+            "Design": "ZENITSU",
+            "Designer": "okumashugoki",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Ricing AWD",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFFC000"
+          },
+          "row": 86,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "911229316",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,936 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-17de91e1be",
+      "metaRank": 5,
+      "name": "S2 AWD Road | Stock Look | 07.2 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 AWD Road | Stock Look | 07.2 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FF0070C0"
+          },
+          "row": 831,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-299f9ec6b3",
+      "metaRank": 5,
+      "name": "S2 Grip (WR)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Grip (WR)",
+            "Tuner": "SR1 Rain",
+            "fill": "FF0070C0"
+          },
+          "row": 837,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-4194f9f5c9",
+      "metaRank": 9,
+      "name": "R Class Road Handling All-Around",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "R Class Road Handling All-Around",
+            "Tuner": "TheDannny",
+            "fill": "FFFF00FF"
+          },
+          "row": 840,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-893ff358bd",
+      "metaRank": 9,
+      "name": "R road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 21,
+          "sourceId": "noa-miyako",
+          "tab": "r-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9f1225939f",
+      "metaNotes": "3.3G 赛用全热熔偏操控",
+      "metaNotesI18n": {
+        "en": "3.3 version: race slicks, handling-focused.",
+        "pt-br": "Versão 3.3: pneus slick de corrida, voltada para curvas."
+      },
+      "metaRank": 6,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ad31046fea",
+      "metaRank": 5,
+      "name": "S2 Road Allround Meta+",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road Allround Meta+",
+            "Tuner": "Iphanhan",
+            "fill": "FF0070C0"
+          },
+          "row": 834,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "iphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b6729d87c5",
+      "metaRank": 5,
+      "name": "more power",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "more power",
+            "Tuner": "Inayamei",
+            "fill": "FF0070C0"
+          },
+          "row": 833,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b88123a39c",
+      "metaRank": 5,
+      "name": "S2 Class Road Handling Meta All-Around",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Class Road Handling Meta All-Around",
+            "Tuner": "TheDannny",
+            "fill": "FF0070C0"
+          },
+          "row": 838,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-cca12cf1c5",
+      "metaRank": 5,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 12,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-fa7326c51c",
+      "metaNotes": "3.3G 赛用全热熔偏操控",
+      "metaNotesI18n": {
+        "en": "3.3 version: race slicks, handling-focused.",
+        "pt-br": "Versão 3.3: pneus slick de corrida, voltada para curvas."
+      },
+      "metaRank": 6,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-fae3fd844b",
+      "metaRank": 5,
+      "name": "S2 Road 3.3G Meta+++",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road 3.3G Meta+++",
+            "Tuner": "Noa Miyako",
+            "fill": "FF0070C0"
+          },
+          "row": 836,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-fbab83033c",
+      "metaRank": 5,
+      "name": "S2 Road Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road Meta",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FF0070C0"
+          },
+          "row": 835,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-102111154",
+      "name": "S2 Dirt Rivals",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "102 111 154",
+            "suspension": "Rally",
+            "tuneName": "S2 Dirt Rivals",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 127,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S2 Dirt Rivals",
+            "Tuner": "KapienPL",
+            "fill": "FF0070C0"
+          },
+          "row": 829,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.671,
+      "shareCode": "102111154",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.85,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-112800061",
+      "metaRank": 9,
+      "name": "R Class Handling All-Around v1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "112 800 061",
+            "suspension": "Race",
+            "tuneName": "R Class Handling All-Around v1.1",
+            "tuner": "TheDannny",
+            "tyreCompound": "Slick"
+          },
+          "row": 124,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.632,
+      "shareCode": "112800061",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.85,
+      "createdAt": "2026-07-13",
+      "drivetrain": "AWD",
+      "id": "sc-137503320",
+      "metaRank": 9,
+      "name": "787B but pay to win",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "13/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "137 503 320",
+            "suspension": "Race",
+            "tuneName": "787B but pay to win",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Slick"
+          },
+          "row": 123,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "787B but pay to win",
+            "Tuner": "NDL Samu",
+            "fill": "FFFF00FF"
+          },
+          "row": 839,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.718,
+      "shareCode": "137503320",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "ndl-samu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-163283851",
+      "metaRank": 5,
+      "name": "S2 Hnadling Road Meta v1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "163 283 851",
+            "suspension": "Race",
+            "tuneName": "S2 Hnadling Road Meta v1.1",
+            "tuner": "TheDannny",
+            "tyreCompound": "Slick"
+          },
+          "row": 131,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "163283851",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-07-13",
+      "drivetrain": "AWD",
+      "id": "sc-177978002",
+      "name": "S2 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "13/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "177 978 002",
+            "suspension": "Rally",
+            "tuneName": "S2 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 130,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S2 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF0070C0"
+          },
+          "row": 830,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "177978002",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-233721164",
+      "metaRank": 5,
+      "name": "S2 Road v1.2",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "233 721 164",
+            "suspension": "Race",
+            "tuneName": "S2 Road v1.2",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Slick"
+          },
+          "row": 126,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "233721164",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-07-12",
+      "drivetrain": "AWD",
+      "id": "sc-397604122",
+      "metaRank": 5,
+      "name": "S2 Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "12/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "397 604 122",
+            "suspension": "Race",
+            "tuneName": "S2 Grip",
+            "tuner": "ESV Rapture",
+            "tyreCompound": "Slick"
+          },
+          "row": 125,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1990 Alfa Romeo SE 048SP",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Grip",
+            "Tuner": "ESV Rapture",
+            "fill": "FF0070C0"
+          },
+          "row": 832,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.746,
+      "shareCode": "397604122",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-07-14",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-635119755",
+      "metaRank": 5,
+      "name": "S2 Road Handling 3.3G V1.1 Meta++",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "635 119 755",
+            "suspension": "Race",
+            "tuneName": "S2 Road Handling 3.3G V1.1 Meta++",
+            "tuner": "Noa Miyako",
+            "tyreCompound": "Slick"
+          },
+          "row": 129,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.724,
+      "shareCode": "635119755",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "4.7L V8",
+      "id": "sc-823312187",
+      "metaRank": 5,
+      "name": "Shira",
+      "observations": [
+        {
+          "raw": {
+            "Build": "8c engine Race Intercooler",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "4.7L V8",
+            "Make": "Alfa Romeo",
+            "Model": "SE 048SP",
+            "Road Surface": "Road",
+            "Share Code": "823312187",
+            "Tires": "Slicks",
+            "Tune Name": "Shira",
+            "Year": "1990"
+          },
+          "row": 2,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "role": "allround",
+      "score": 0.707,
+      "shareCode": "823312187",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.85,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-888488563",
+      "metaRank": 9,
+      "name": "R Handling Stong",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "888 488 563",
+            "suspension": "Race",
+            "tuneName": "R Handling Stong",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Slick"
+          },
+          "row": 122,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.632,
+      "shareCode": "888488563",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-902691185",
+      "name": "S2 Dirt Grip Offmeta Rivals",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "SE 048SP",
+            "sharecode": "902 691 185",
+            "suspension": "Race",
+            "tuneName": "S2 Dirt Grip Offmeta Rivals",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 128,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.488,
+      "shareCode": "902691185",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

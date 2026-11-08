@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1990-nissan-pulsar-gti-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-57302b3b09",
+      "name": "B dirt V3",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1990 Nissan Pulsar GTI-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B dirt V3",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 470,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-nissan-pulsar-gti-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-492630529",
+      "name": "Strong B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Pulsar GTI-R",
+            "sharecode": "492 630 529",
+            "suspension": "Street",
+            "tuneName": "Strong B Dirt",
+            "tuner": "Korrrupt EU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1988,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "492630529",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "korrrupt-eu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-nissan-pulsar-gti-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-718540852",
+      "name": "B dirt V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Pulsar GTI-R",
+            "sharecode": "718 540 852",
+            "suspension": "Street",
+            "tuneName": "B dirt V2",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1987,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "718540852",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1990-nissan-pulsar-gti-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-797718691",
+      "name": "B Dirt | Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Pulsar GTI-R",
+            "sharecode": "797 718 691",
+            "suspension": "Street",
+            "tuneName": "B Dirt | Purist",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1986,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "797718691",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cte-seasons"
+    }
+  ],
+  "schemaVersion": 1
+}

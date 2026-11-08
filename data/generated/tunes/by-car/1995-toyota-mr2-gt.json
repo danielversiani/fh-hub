@@ -1,0 +1,545 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-019e2fdeea",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "Purist",
+            "Design": "BOMEX - STREET CAR",
+            "Designer": "MedusaGorgOn",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 2836,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-10700bff7e",
+      "metaRank": 95,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 196,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-11519247cd",
+      "metaRank": 68,
+      "name": "B Road K20",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Road K20",
+            "Tuner": "Nomv1",
+            "fill": "FFED7D31"
+          },
+          "row": 584,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-11fb84073e",
+      "metaRank": 68,
+      "name": "The top dog in Causeway Bay",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "MIDNIGHT CLUB",
+            "Designer": "SirDuckworth144",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "The top dog in Causeway Bay",
+            "Tuner": "MSR Ane3tr",
+            "fill": "FFED7D31"
+          },
+          "row": 580,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "msr-ane3tr"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1d6d80094d",
+      "metaRank": 68,
+      "name": "Road Allround META Shirakawa 05.4 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "NUCLEAR GLADIATOR PINK",
+            "Designer": "StancedL",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround META Shirakawa 05.4 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 581,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2e539fc4a2",
+      "metaRank": 68,
+      "name": "Road W/Aero",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "BOMEX STREET RACER",
+            "Designer": "X30 Neo",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road W/Aero",
+            "Tuner": "o NOMEL o",
+            "fill": "FFED7D31"
+          },
+          "row": 585,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "o-nomel-o"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-5fbe812509",
+      "metaRank": 29,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 62,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-caf2ce59ed",
+      "name": "K20 Road Allround T1 Shirakawa 00.7 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "SARD MC8-R LM",
+            "Designer": "SpeedF 25",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "K20 Road Allround T1 Shirakawa 00.7 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 2835,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-fed881f76e",
+      "name": "A Road K20 V1.1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "ADVAN",
+            "Designer": "ESV Troot",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road K20 V1.1",
+            "Tuner": "Nomv1",
+            "fill": "FFFF0000"
+          },
+          "row": 2834,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-17",
+      "drivetrain": "RWD",
+      "id": "sc-168371739",
+      "metaRank": 68,
+      "name": "stock look ep3 street cage 205 front width",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "17/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "MR2 GT",
+            "sharecode": "168 371 739",
+            "suspension": "Street",
+            "tuneName": "stock look ep3 street cage 205 front width",
+            "tuner": "Dumbo GT49",
+            "tyreCompound": "Street"
+          },
+          "row": 2519,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "#31 AUTOBACS TOYOTA MR-2 GT3",
+            "Designer": "Tominho1247",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "stock look ep3 street cage 205 front width",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 582,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.676,
+      "shareCode": "168371739",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-09-01",
+      "drivetrain": "AWD",
+      "id": "sc-402197878",
+      "metaRank": 29,
+      "name": "K20A Dirt Handling T1 Sunflower 04.2 A/M V3",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "01/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "MR2 GT",
+            "sharecode": "402 197 878",
+            "suspension": "Street",
+            "tuneName": "K20A Dirt Handling T1 Sunflower 04.2 A/M V3",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2522,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "OUT OF HAND HOTBOI DRIFT STYLE",
+            "Designer": "LD Works",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "K20A Dirt Handling T1 Sunflower 04.2 A/M V3",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 579,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.681,
+      "shareCode": "402197878",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-544653530",
+      "metaRank": 29,
+      "name": "K20 B Dirt All-Around Handling/Grip (1:04.370 Sunflower)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "MR2 GT",
+            "sharecode": "544 653 530",
+            "suspension": "Street",
+            "tuneName": "K20 B Dirt All-Around Handling/Grip (1:04.370 Sunflower)",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2521,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "JUN #5",
+            "Designer": "WoodyTIE86",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "K20 B Dirt All-Around Handling/Grip (1:04.370 Sunflower)",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 578,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.677,
+      "shareCode": "544653530",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-626195653",
+      "metaRank": 68,
+      "name": "B for boat",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "MR2 GT",
+            "sharecode": "626 195 653",
+            "suspension": "Street",
+            "tuneName": "B for boat",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Street"
+          },
+          "row": 2520,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota MR2 GT",
+            "Comment": "",
+            "Design": "NFS WORLD GYMKHANA",
+            "Designer": "Kxmuh",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B for boat",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 583,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.677,
+      "shareCode": "626195653",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "icefrice8724"
+    }
+  ],
+  "schemaVersion": 1
+}

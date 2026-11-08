@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1973-mazda-rx-3",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "nc-5450df2c9f",
+      "lapRefs": [
+        {
+          "time": "53.2",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速路53.2 弯速比肌肉车快很多",
+      "metaNotesI18n": {
+        "en": "Much faster in corners than the muscle cars.",
+        "pt-br": "Bem mais rápido nas curvas que os muscle cars."
+      },
+      "metaRank": 24,
+      "name": "C Road Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 Mazda RX-3",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Road Powerbuild",
+            "Tuner": "Noa Miyako",
+            "fill": "theme:7"
+          },
+          "row": 59,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-mazda-rx-3",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-01",
+      "drivetrain": "AWD",
+      "id": "sc-135705504",
+      "name": "Rotary Randy (B Dirt)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "01/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "RX-3",
+            "sharecode": "135 705 504",
+            "suspension": "Stock",
+            "tuneName": "Rotary Randy (B Dirt)",
+            "tuner": "ShaggyScroll660",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1614,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1973 Mazda RX-3",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Rotary Randy (B Dirt)",
+            "Tuner": "ShaggyScroll660",
+            "fill": "FFED7D31"
+          },
+          "row": 401,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "135705504",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "shaggyscroll660"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1973-mazda-rx-3",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "RWD",
+      "id": "sc-895007574",
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "RX-3",
+            "sharecode": "895 007 574",
+            "suspension": "Race",
+            "tuneName": "Purist Road",
+            "tuner": "keerj",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 1613,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "895007574",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "vintage-race",
+      "tunerId": "keerj"
+    }
+  ],
+  "schemaVersion": 1
+}

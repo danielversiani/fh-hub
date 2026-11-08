@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-bmw-m4-gts",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-1d60ca7951",
+      "name": "RWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 BMW M4 GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "RWD",
+            "Tuner": "PlutoKaskade641",
+            "fill": "FF7030A0"
+          },
+          "row": 1019,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "plutokaskade641"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-bmw-m4-gts",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3b798c8d84",
+      "metaRank": 167,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 341,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-bmw-m4-gts",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3dc72f4b7a",
+      "metaRank": 167,
+      "name": "A Road AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 BMW M4 GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road AWD",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1015,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-bmw-m4-gts",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5fd495a6ef",
+      "metaRank": 167,
+      "name": "418d M Sport w/ M Performance & Technology Package",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 BMW M4 GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "418d M Sport w/ M Performance & Technology Package",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1017,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-bmw-m4-gts",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-68923adf90",
+      "metaRank": 167,
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 BMW M4 GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1016,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-bmw-m4-gts",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ec1e008db7",
+      "metaRank": 167,
+      "name": "Road Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 BMW M4 GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF0000"
+          },
+          "row": 1018,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    }
+  ],
+  "schemaVersion": 1
+}

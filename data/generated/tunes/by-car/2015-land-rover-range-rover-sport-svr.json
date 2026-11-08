@@ -1,0 +1,310 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-190efb7071",
+      "metaRank": 154,
+      "name": "A - Road ( Circuit )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Land Rover Range Rover Sport SVR",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road ( Circuit )",
+            "Tuner": "ESV Rapture",
+            "fill": "FFFF0000"
+          },
+          "row": 1965,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-35e2292f62",
+      "lapRefs": [
+        {
+          "time": "1:02.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:02.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 154,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 315,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-77b76c3646",
+      "metaRank": 23,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 50,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8461e89187",
+      "metaRank": 30,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 64,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9c8ffd38e1",
+      "metaRank": 30,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 64,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-111706918",
+      "metaRank": 154,
+      "name": "A - Road ( Mega Chunk )",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Land Rover",
+            "model": "Range Rover Sport SVR",
+            "sharecode": "111 706 918",
+            "suspension": "Race",
+            "tuneName": "A - Road ( Mega Chunk )",
+            "tuner": "ESV Rapture",
+            "tyreCompound": "Rally"
+          },
+          "row": 1461,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "111706918",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-02",
+      "drivetrain": "AWD",
+      "id": "sc-129423092",
+      "metaRank": 30,
+      "name": "A Dirt/CC Purist Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Land Rover",
+            "model": "Range Rover Sport SVR",
+            "sharecode": "129 423 092",
+            "suspension": "Street",
+            "tuneName": "A Dirt/CC Purist Strong",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1462,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.588,
+      "shareCode": "129423092",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-151749585",
+      "metaRank": 154,
+      "name": "A Road | 5.2 V10/Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Land Rover",
+            "model": "Range Rover Sport SVR",
+            "sharecode": "151 749 585",
+            "suspension": "Street",
+            "tuneName": "A Road | 5.2 V10/Stock Look",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 1460,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Land Rover Range Rover Sport SVR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 5.2 V10/Stock Look",
+            "Tuner": "CTE seasons",
+            "fill": "FFFF0000"
+          },
+          "row": 1964,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.574,
+      "shareCode": "151749585",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    }
+  ],
+  "schemaVersion": 1
+}

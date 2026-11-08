@@ -97,7 +97,8 @@ export const SourceKind = z.enum([
 ]);
 export type SourceKind = z.infer<typeof SourceKind>;
 
-export const Permission = z.enum(['granted', 'pending', 'denied', 'not-required']);
+/** `prelaunch`: published during the pre-launch while permission is being asked (ADR-0015). */
+export const Permission = z.enum(['granted', 'prelaunch', 'pending', 'denied', 'not-required']);
 export type Permission = z.infer<typeof Permission>;
 
 export const SourceHealth = z.enum(['healthy', 'degraded', 'failing']);

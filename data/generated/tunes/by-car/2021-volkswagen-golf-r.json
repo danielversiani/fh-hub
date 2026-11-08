@@ -1,0 +1,488 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-12b4cfcab0",
+      "name": "B Road - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road - Stock Look",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 691,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-637d8d4e2a",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 102,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "Purist",
+            "Design": "ABT GOLF R",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2993,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-8bc00611c3",
+      "metaRank": 102,
+      "name": "bomboclat purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "bomboclat purist",
+            "Tuner": "VER Korben",
+            "fill": "FFFF0000"
+          },
+          "row": 2994,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ver-korben"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ab124c6ed7",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 102,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 208,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ce85cebe4e",
+      "name": "Road Racing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Racing",
+            "Tuner": "PlutoKaskade641",
+            "fill": "FFED7D31"
+          },
+          "row": 692,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "plutokaskade641"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-118257870",
+      "metaRank": 102,
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2021)",
+            "sharecode": "118 257 870",
+            "suspension": "Street",
+            "tuneName": "A road",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2626,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2992,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "118257870",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-14",
+      "drivetrain": "AWD",
+      "id": "sc-159216152",
+      "metaRank": 102,
+      "name": "A Class Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2021)",
+            "sharecode": "159 216 152",
+            "suspension": "Race",
+            "tuneName": "A Class Road",
+            "tuner": "Zaabry",
+            "tyreCompound": "Rally"
+          },
+          "row": 2629,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "VEGETA",
+            "Designer": "RTT Farfadet",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class Road",
+            "Tuner": "Zaabry",
+            "fill": "FFFF0000"
+          },
+          "row": 2996,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.669,
+      "shareCode": "159216152",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zaabry"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "id": "sc-581941060",
+      "name": "B road purist w/kit",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2021)",
+            "sharecode": "581 941 060",
+            "suspension": "Street",
+            "tuneName": "B road purist w/kit",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Street"
+          },
+          "row": 2630,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "Purist, bodykit",
+            "Design": "VARIS",
+            "Designer": "StuiiDesign",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B road purist w/kit",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 690,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "581941060",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-06",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-691042841",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 102,
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2021)",
+            "sharecode": "691 042 841",
+            "suspension": "Sport",
+            "tuneName": "A Road - Strong Allround",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 2627,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.645,
+      "shareCode": "691042841",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-754673652",
+      "metaRank": 102,
+      "name": "A Class - Road Racing",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2021)",
+            "sharecode": "754 673 652",
+            "suspension": "Race",
+            "tuneName": "A Class - Road Racing",
+            "tuner": "VNX Ardent",
+            "tyreCompound": "Rally"
+          },
+          "row": 2628,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2021 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "RALLLYE MONTE CARLO 2019",
+            "Designer": "prg2012br",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class - Road Racing",
+            "Tuner": "VNX Ardent",
+            "fill": "FFFF0000"
+          },
+          "row": 2995,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.669,
+      "shareCode": "754673652",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2020-gordon-murray-automotive-t-50",
+      "categories": [
+        "purist"
+      ],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-51067c9578",
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Gordon Murray Automotive T.50",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road",
+            "Tuner": "KillerSpectre21",
+            "fill": "FF0070C0"
+          },
+          "row": 1634,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "killerspectre21"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-gordon-murray-automotive-t-50",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c57e848d44",
+      "name": "S2 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Gordon Murray Automotive T.50",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FF0070C0"
+          },
+          "row": 1636,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-gordon-murray-automotive-t-50",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ca5886f8f3",
+      "name": "55.994 Shirakawa cool car and drives nice but... not that fast",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Gordon Murray Automotive T.50",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "55.994 Shirakawa cool car and drives nice but... not that fast",
+            "Tuner": "F1R Kilian",
+            "fill": "FF7030A0"
+          },
+          "row": 1633,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2020-gordon-murray-automotive-t-50",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "sc-124823085",
+      "name": "slow but easy",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Full Aero",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Make": "Gordon Murray Automotive",
+            "Model": "T.50",
+            "Road Surface": "Road",
+            "Share Code": "124823085",
+            "Tires": "Slicks",
+            "Tune Name": "slow but easy",
+            "Year": "2020"
+          },
+          "row": 22,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        },
+        {
+          "raw": {
+            "Car": "2020 Gordon Murray Automotive T.50",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "slow but easy",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 1635,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "shareCode": "124823085",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

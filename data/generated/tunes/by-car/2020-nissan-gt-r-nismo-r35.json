@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-0d76d20582",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 86,
+      "name": "Road Allround Stock Look 1:00.0 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Nissan GT-R Nismo (R35)",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround Stock Look 1:00.0 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF0000"
+          },
+          "row": 2564,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-17",
+      "drivetrain": "AWD",
+      "id": "sc-174241927",
+      "name": "S1 Class Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "17/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "GT-R NISMO (R35)",
+            "sharecode": "174 241 927",
+            "suspension": "Race",
+            "tuneName": "S1 Class Road",
+            "tuner": "TNR MaksJaga",
+            "tyreCompound": "Rally"
+          },
+          "row": 1971,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.489,
+      "shareCode": "174241927",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "tnr-maksjaga"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-01",
+      "drivetrain": "AWD",
+      "id": "sc-471543711",
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "01/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "GT-R NISMO (R35)",
+            "sharecode": "471 543 711",
+            "suspension": "Race",
+            "tuneName": "S1 Allround",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 1969,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Nissan GT-R Nismo (R35)",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 2565,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "471543711",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-07",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-558694950",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 86,
+      "name": "A Road - Allround Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "07/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "GT-R NISMO (R35)",
+            "sharecode": "558 694 950",
+            "suspension": "Race",
+            "tuneName": "A Road - Allround Meta",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1968,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.645,
+      "shareCode": "558694950",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-31",
+      "drivetrain": "AWD",
+      "id": "sc-572761942",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "GT-R NISMO (R35)",
+            "sharecode": "572 761 942",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1970,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "572761942",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-20",
+      "drivetrain": "AWD",
+      "id": "sc-763411334",
+      "metaRank": 86,
+      "name": "A Class Road \"Lvl 9999 Sports Car Enters the Class It Shouldn't\"",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "20/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "GT-R NISMO (R35)",
+            "sharecode": "763 411 334",
+            "suspension": "Rally",
+            "tuneName": "A Class Road \"Lvl 9999 Sports Car Enters the Class It Shouldn't\"",
+            "tuner": "GoodReiShun",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1967,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "763411334",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "goodreishun"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-08",
+      "drivetrain": "AWD",
+      "id": "sc-987656839",
+      "metaRank": 86,
+      "name": "A Class Purist | Road / Street",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "GT-R NISMO (R35)",
+            "sharecode": "987 656 839",
+            "suspension": "Race",
+            "tuneName": "A Class Purist | Road / Street",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1966,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Nissan GT-R Nismo (R35)",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class Purist | Road / Street",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2563,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.678,
+      "shareCode": "987656839",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

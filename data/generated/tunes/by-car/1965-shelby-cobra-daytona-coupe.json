@@ -1,0 +1,829 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "engine": "8.4L V10 + Centri",
+      "id": "nc-026e22b2b1",
+      "metaRank": 9,
+      "name": "Road Allround Rocket",
+      "notes": "Essentially an AWD Powerbuild but easy to handle",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Shelby Cobra Daytona",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "8.4L V10 + Centri",
+            "Laptime": "0:59.519",
+            "Notes": "Essentially an AWD Powerbuild but easy to handle",
+            "Tier": "Offmeta < 1:00.5",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround Rocket"
+          },
+          "row": 7,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "a700"
+        }
+      ],
+      "role": "allround",
+      "score": 0.709,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-06e3e4206c",
+      "metaRank": 1,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.723,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "jsr-boonhead"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-13aff7659d",
+      "metaRank": 1,
+      "name": "Strong A Class Dirt Rally Susp",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong A Class Dirt Rally Susp",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2736,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-143b292fb2",
+      "metaRank": 1,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.723,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-242447b7d7",
+      "metaRank": 4,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 9,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.723,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-2b620b040c",
+      "metaRank": 9,
+      "name": "OP Road Racing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "SHELBY REPLICA",
+            "Designer": "xR Tricky",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "OP Road Racing",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 2742,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.634,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-32caef9096",
+      "metaRank": 1,
+      "name": "Overpowered Dirt Racing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Overpowered Dirt Racing",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 2734,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "nc-3f8e6cb52a",
+      "metaRank": 65,
+      "name": "Skibidi Daytona 2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "HOTWHEELS REPLICA",
+            "Designer": "FerrousBeast11",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Skibidi Daytona 2",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 520,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-40e9e0e143",
+      "metaRank": 65,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 134,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-7fafcf1561",
+      "metaRank": 1,
+      "name": "A class Dirt V1.1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A class Dirt V1.1",
+            "Tuner": "Ash46Desync",
+            "fill": "FFFF0000"
+          },
+          "row": 2733,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "ash46desync"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "nc-89b6e5f8e7",
+      "metaRank": 9,
+      "name": "A Road Sprint Strong Shirakawa 0:59.6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Sprint Strong Shirakawa 0:59.6",
+            "Tuner": "Noa Miyako",
+            "fill": "FFFF0000"
+          },
+          "row": 2743,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.691,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8c77cc4c93",
+      "name": "Overpowered Dirt Racing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Overpowered Dirt Racing",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 519,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-93633e2604",
+      "metaRank": 1,
+      "name": "A Dirt Meta (Rally Sus)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Meta (Rally Sus)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 2740,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-bc3502dcee",
+      "metaRank": 65,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 134,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-bc72fd5d86",
+      "metaRank": 4,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 9,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.723,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "nc-c2bffa5f4e",
+      "metaRank": 1,
+      "name": "A DIRT V3",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A DIRT V3",
+            "Tuner": "Zookiiwi",
+            "fill": "FFFF0000"
+          },
+          "row": 2741,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.723,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c36ed72a73",
+      "metaRank": 1,
+      "name": "Strong A Class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "DAYTONA 65",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong A Class Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2735,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c42d38b9ab",
+      "metaRank": 1,
+      "name": "A Dirt Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Meta",
+            "Tuner": "Rocklxd",
+            "fill": "FFFF0000"
+          },
+          "row": 2738,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "rocklxd"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "drivetrain": "RWD",
+      "id": "nc-c55b82229b",
+      "metaRank": 9,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 2745,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.634,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-e922a09d75",
+      "metaRank": 9,
+      "name": "1.7G Strong Sprint Allrounder V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "1.7G Strong Sprint Allrounder V2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 2744,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.634,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-17",
+      "drivetrain": "AWD",
+      "id": "sc-213110769",
+      "metaRank": 1,
+      "name": "A Dirt (Sekibe WR)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Shelby",
+            "model": "Cobra Daytona Coupé",
+            "sharecode": "213 110 769",
+            "suspension": "Street",
+            "tuneName": "A Dirt (Sekibe WR)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2315,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt (Sekibe WR)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 2739,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.727,
+      "shareCode": "213110769",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-shelby-cobra-daytona-coupe",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-16",
+      "drivetrain": "AWD",
+      "id": "sc-952306905",
+      "name": "Vermin Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Shelby",
+            "model": "Cobra Daytona Coupé",
+            "sharecode": "952 306 905",
+            "suspension": "Rally",
+            "tuneName": "Vermin Meta",
+            "tuner": "Koarsse",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2314,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1965 Shelby Cobra Daytona Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Vermin Meta",
+            "Tuner": "Koarsse",
+            "fill": "FFFF0000"
+          },
+          "row": 2737,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.664,
+      "shareCode": "952306905",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "koarsse"
+    }
+  ],
+  "schemaVersion": 1
+}

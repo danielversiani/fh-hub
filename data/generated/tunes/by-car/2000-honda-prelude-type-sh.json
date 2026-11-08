@@ -1,0 +1,916 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1a5c264383",
+      "name": "A Dirt - Strong, more grip w/K20 (Takashiro Trail 2.01.3)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt - Strong, more grip w/K20 (Takashiro Trail 2.01.3)",
+            "Tuner": "Falken JP",
+            "fill": "FFFF0000"
+          },
+          "row": 1714,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "falken-jp"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-450766dfff",
+      "name": "Good A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 1715,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6d15033c8e",
+      "metaRank": 20,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 43,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-7bf68859ae",
+      "lapRefs": [
+        {
+          "time": "1:05.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 46,
+      "name": "B Road Strong H22 Shirakawa 1:05.6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "",
+            "Design": "WONG HONDA",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Strong H22 Shirakawa 1:05.6",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 364,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-7e6bad91b7",
+      "metaRank": 46,
+      "name": "B Class Road Purist Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "Purist",
+            "Design": "APEX GLIDE PRELUDE",
+            "Designer": "LetsPlayOnkel",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Class Road Purist Stock Look",
+            "Tuner": "GamerLogicFTW",
+            "fill": "FFED7D31"
+          },
+          "row": 365,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8423683a1f",
+      "metaRank": 32,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 68,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8e9afbe3a3",
+      "metaRank": 20,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 43,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9a9b45701c",
+      "lapRefs": [
+        {
+          "time": "1:00.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 68,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 140,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-b093a0da9e",
+      "metaRank": 46,
+      "name": "New Fastest B Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "Purist",
+            "Design": "TENZO R PRELUDE SH",
+            "Designer": "Loco Cuno",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "New Fastest B Road Purist",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 368,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b46779de2f",
+      "lapRefs": [
+        {
+          "time": "1:00.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 68,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 140,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-bc59b9d9dd",
+      "metaRank": 46,
+      "name": "B road purist w/kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "Purist, bodykit",
+            "Design": "MUGEN RR LIVERY REPLICA",
+            "Designer": "SuboPG",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B road purist w/kit",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 367,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-f889e542c7",
+      "metaRank": 68,
+      "name": "New File",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "New File",
+            "Tuner": "AMS Carver",
+            "fill": "FFFF0000"
+          },
+          "row": 1716,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-f9f4dfc9b6",
+      "metaRank": 46,
+      "name": "Road Purist (Race Transmission)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist (Race Transmission)",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 370,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-08",
+      "drivetrain": "FWD",
+      "id": "sc-127539766",
+      "metaRank": 46,
+      "name": "Purist Road Mugen",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/10/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "127 539 766",
+            "suspension": "Street",
+            "tuneName": "Purist Road Mugen",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1223,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "Purist, Mugen bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road Mugen",
+            "Tuner": "LetzeLU",
+            "fill": "FFED7D31"
+          },
+          "row": 369,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.685,
+      "shareCode": "127539766",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-09",
+      "drivetrain": "FWD",
+      "id": "sc-131945458",
+      "metaRank": 68,
+      "name": "Purist street",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/10/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "131 945 458",
+            "suspension": "Street",
+            "tuneName": "Purist street",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 1217,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.6,
+      "shareCode": "131945458",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-10",
+      "drivetrain": "FWD",
+      "id": "sc-156071295",
+      "metaRank": 20,
+      "name": "Purist w/ Kaminari Wing",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "10/10/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "156 071 295",
+            "suspension": "Street",
+            "tuneName": "Purist w/ Kaminari Wing",
+            "tuner": "Grandma Driving",
+            "tyreCompound": "Rally"
+          },
+          "row": 1221,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "Purist",
+            "Design": "KAMINARI",
+            "Designer": "SiberiaCorn",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist w/ Kaminari Wing",
+            "Tuner": "Grandma Driving",
+            "fill": "FFED7D31"
+          },
+          "row": 366,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.728,
+      "shareCode": "156071295",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-10",
+      "drivetrain": "AWD",
+      "id": "sc-168169716",
+      "metaRank": 20,
+      "name": "Stock Engine Dirt META Sunflower 03.3 A/M V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "10/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "168 169 716",
+            "suspension": "Street",
+            "tuneName": "Stock Engine Dirt META Sunflower 03.3 A/M V2",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1224,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.642,
+      "shareCode": "168169716",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-18",
+      "drivetrain": "AWD",
+      "id": "sc-169731917",
+      "metaRank": 46,
+      "name": "B Road - Very strong H22 + Kaminari Wing",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "18/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "169 731 917",
+            "suspension": "Street",
+            "tuneName": "B Road - Very strong H22 + Kaminari Wing",
+            "tuner": "Falken JP",
+            "tyreCompound": "Rally"
+          },
+          "row": 1220,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.601,
+      "shareCode": "169731917",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "falken-jp"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-17",
+      "drivetrain": "FWD",
+      "id": "sc-373242675",
+      "metaRank": 68,
+      "name": "46.353 Narai | Wingless Mod Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/10/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "373 242 675",
+            "suspension": "Street",
+            "tuneName": "46.353 Narai | Wingless Mod Purist",
+            "tuner": "F1R Kilian",
+            "tyreCompound": "Slick"
+          },
+          "row": 1216,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2000 Honda Prelude Type SH",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "46.353 Narai | Wingless Mod Purist",
+            "Tuner": "F1R Kilian",
+            "fill": "FFFF0000"
+          },
+          "row": 1717,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.686,
+      "shareCode": "373242675",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-08",
+      "drivetrain": "FWD",
+      "id": "sc-381961231",
+      "metaRank": 46,
+      "name": "B Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/10/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "381 961 231",
+            "suspension": "Street",
+            "tuneName": "B Road Purist",
+            "tuner": "KapienPL",
+            "tyreCompound": "Rally"
+          },
+          "row": 1222,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.599,
+      "shareCode": "381961231",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-08",
+      "drivetrain": "AWD",
+      "id": "sc-400062799",
+      "name": "A Dirt H22",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "400 062 799",
+            "suspension": "Street",
+            "tuneName": "A Dirt H22",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1218,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.509,
+      "shareCode": "400062799",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-honda-prelude-type-sh",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-09",
+      "drivetrain": "FWD",
+      "id": "sc-768876874",
+      "metaRank": 20,
+      "name": "New Purist Meta | 05.6 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "09/10/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Type SH",
+            "sharecode": "768 876 874",
+            "suspension": "Street",
+            "tuneName": "New Purist Meta | 05.6 Shirakawa",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 1219,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.642,
+      "shareCode": "768876874",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

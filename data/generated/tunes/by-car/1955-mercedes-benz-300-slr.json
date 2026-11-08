@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1955-mercedes-benz-300-slr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-30a7712d75",
+      "lapRefs": [
+        {
+          "time": "1:06.8",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:06.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 40,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 85,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1955-mercedes-benz-300-slr",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-04",
+      "drivetrain": "AWD",
+      "id": "sc-133477705",
+      "name": "Strong S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "04/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "300 SLR",
+            "sharecode": "133 477 705",
+            "suspension": "Rally",
+            "tuneName": "Strong S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1756,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1955 Mercedes-Benz 300 SLR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2295,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "133477705",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1955-mercedes-benz-300-slr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "drivetrain": "AWD",
+      "id": "sc-134284011",
+      "metaRank": 40,
+      "name": "Good A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "300 SLR",
+            "sharecode": "134 284 011",
+            "suspension": "Rally",
+            "tuneName": "Good A Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1755,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1955 Mercedes-Benz 300 SLR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 2293,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.615,
+      "shareCode": "134284011",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1955-mercedes-benz-300-slr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-13",
+      "drivetrain": "RWD",
+      "id": "sc-348511733",
+      "metaRank": 40,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "300 SLR",
+            "sharecode": "348 511 733",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Rally"
+          },
+          "row": 1754,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1955 Mercedes-Benz 300 SLR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 2294,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.616,
+      "shareCode": "348511733",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1955-mercedes-benz-300-slr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-727117687",
+      "metaRank": 40,
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "300 SLR",
+            "sharecode": "727 117 687",
+            "suspension": "Rally",
+            "tuneName": "A Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1753,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1955 Mercedes-Benz 300 SLR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2292,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.615,
+      "shareCode": "727117687",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}

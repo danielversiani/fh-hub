@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2001-ford-4-ford-focus-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-91b9474567",
+      "name": "A Dirt/CC Circuits",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2001 Ford #4 Ford Focus RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt/CC Circuits",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1537,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-ford-4-ford-focus-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-15",
+      "drivetrain": "AWD",
+      "id": "sc-116377262",
+      "name": "Great Rally Car",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "#4 Ford Focus RS",
+            "sharecode": "116 377 262",
+            "suspension": "Race",
+            "tuneName": "Great Rally Car",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 900,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2001 Ford #4 Ford Focus RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Great Rally Car",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 1536,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.656,
+      "shareCode": "116377262",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-ford-4-ford-focus-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-187908256",
+      "name": "Colin McGae",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "#4 Ford Focus RS",
+            "sharecode": "187 908 256",
+            "suspension": "Race",
+            "tuneName": "Colin McGae",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 899,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2001 Ford #4 Ford Focus RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Colin McGae",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 1535,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "187908256",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-ford-4-ford-focus-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-616440065",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "#4 Ford Focus RS",
+            "sharecode": "616 440 065",
+            "suspension": "Drift",
+            "tuneName": "A Dirt",
+            "tuner": "AMS Carver",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 898,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2001 Ford #4 Ford Focus RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "AMS Carver",
+            "fill": "FFFF0000"
+          },
+          "row": 1534,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "616440065",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "ams-carver"
+    }
+  ],
+  "schemaVersion": 1
+}

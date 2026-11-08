@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2023-aston-martin-valkyrie",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e12deb8cb8",
+      "name": "S2 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Aston Martin Valkyrie",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF0070C0"
+          },
+          "row": 869,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-aston-martin-valkyrie",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "7.0L V12",
+      "id": "sc-103482103",
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Vulcan engine",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "7.0L V12",
+            "Make": "Aston Martin",
+            "Model": "Valkyrie",
+            "Road Surface": "Road",
+            "Share Code": "103482103",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2023"
+          },
+          "row": 6,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "103482103",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

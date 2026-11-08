@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1992-honda-21-hardrace-jdmyard-civic-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-dc501421c5",
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Honda #21 Hardrace/JDMYard Civic WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "AMS Carver",
+            "fill": "FF7030A0"
+          },
+          "row": 1709,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-honda-21-hardrace-jdmyard-civic-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "engine": "Stock",
+      "id": "sc-100934440",
+      "name": "front width",
+      "observations": [
+        {
+          "raw": {
+            "Build": "1 tick off max front width",
+            "Class": "S2",
+            "Drivetrain": "FWD",
+            "Engine": "Stock",
+            "Make": "Honda",
+            "Model": "#21 Hardrace/JDMYard Civic WTAC",
+            "Road Surface": "Road",
+            "Share Code": "100934440",
+            "Tires": "Slicks",
+            "Tune Name": "front width",
+            "Year": "1992"
+          },
+          "row": 25,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "100934440",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-honda-21-hardrace-jdmyard-civic-wtac",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-05-16",
+      "drivetrain": "AWD",
+      "id": "sc-132492495",
+      "name": "R",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "16/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "#21 Hardrace/JDMYard Civic WTAC",
+            "sharecode": "132 492 495",
+            "suspension": "Race",
+            "tuneName": "R",
+            "tuner": "Nalak28",
+            "tyreCompound": "Slick"
+          },
+          "row": 1111,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "132492495",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "nalak28"
+    }
+  ],
+  "schemaVersion": 1
+}

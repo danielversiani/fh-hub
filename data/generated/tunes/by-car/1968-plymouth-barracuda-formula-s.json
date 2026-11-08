@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1968-plymouth-barracuda-formula-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-69dfc2656c",
+      "lapRefs": [
+        {
+          "time": "1:05.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.7 控油较简单",
+      "metaNotesI18n": {
+        "en": "Easy throttle control.",
+        "pt-br": "Acelerador fácil de controlar."
+      },
+      "metaRank": 60,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 124,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-plymouth-barracuda-formula-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8943eaa69a",
+      "metaRank": 26,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 56,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-plymouth-barracuda-formula-s",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b45d5c8baa",
+      "metaRank": 25,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-plymouth-barracuda-formula-s",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-04",
+      "drivetrain": "RWD",
+      "id": "sc-109727085",
+      "name": "Pretty Maids - Future World",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/10/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Plymouth",
+            "model": "Barracuda Formula S",
+            "sharecode": "109 727 085",
+            "suspension": "Race",
+            "tuneName": "Pretty Maids - Future World",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Rally"
+          },
+          "row": 2122,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.508,
+      "shareCode": "109727085",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-plymouth-barracuda-formula-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-153348382",
+      "metaRank": 26,
+      "name": "B Dirt Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Plymouth",
+            "model": "Barracuda Formula S",
+            "sharecode": "153 348 382",
+            "suspension": "Rally",
+            "tuneName": "B Dirt Strong",
+            "tuner": "GReddy295",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2119,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "153348382",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "greddy295"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-plymouth-barracuda-formula-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-26",
+      "drivetrain": "AWD",
+      "id": "sc-172841240",
+      "metaRank": 26,
+      "name": "VV10 Dirt Allround T1+ Sunflower 04.5 A/M",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "26/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Plymouth",
+            "model": "Barracuda Formula S",
+            "sharecode": "172 841 240",
+            "suspension": "Street",
+            "tuneName": "VV10 Dirt Allround T1+ Sunflower 04.5 A/M",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2121,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.591,
+      "shareCode": "172841240",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-plymouth-barracuda-formula-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-22",
+      "drivetrain": "AWD",
+      "id": "sc-985893706",
+      "metaRank": 26,
+      "name": "Strong B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "22/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Plymouth",
+            "model": "Barracuda Formula S",
+            "sharecode": "985 893 706",
+            "suspension": "Stock",
+            "tuneName": "Strong B Dirt",
+            "tuner": "Korrrupt EU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2120,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.591,
+      "shareCode": "985893706",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "korrrupt-eu"
+    }
+  ],
+  "schemaVersion": 1
+}

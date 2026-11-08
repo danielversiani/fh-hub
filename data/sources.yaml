@@ -4,6 +4,8 @@
 # permission:
 #   not-required → official/factual data, published normally
 #   granted      → tuner authorised publication
+#   prelaunch    → published during the pre-launch while we ask the tuner (ADR-0015);
+#                  set back to pending/denied to take a tuner off the site
 #   pending      → synced only into .cache/preview (never committed or published)
 #   denied       → keep `active: false`
 version: 1
@@ -94,7 +96,7 @@ sources:
     adapter: noa-miyako
     tabs:
       - { id: workbook, role: meta }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.9
     notes: 'Sheet 地平线6线上车辆调校推荐. Meta tiers per class × surface. Undocumented QQ API (lib/qq-sheet.ts). No share codes.'
@@ -109,7 +111,7 @@ sources:
     adapter: gbr-ozzy
     tabs:
       - { id: tune-list, role: tunes, gid: '711189847', label: '🛠️FH6 Tune List' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.8
     notes: Owner disabled downloads (/export → 401). Ask before publishing.
@@ -124,7 +126,7 @@ sources:
     adapter: kleis
     tabs:
       - { id: fh6, role: tunes, sheet: FH6, gid: '901186628' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.9
     notes: No share codes. Car class is encoded as the fill colour of column A.
@@ -139,7 +141,7 @@ sources:
     adapter: k1z-gray
     tabs:
       - { id: fh6-tunes, role: tunes, gid: '1914811100' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.7
 
@@ -155,7 +157,7 @@ sources:
       - { id: a700, role: laptimes, gid: '1109128970', carClass: A }
       - { id: s1-800, role: laptimes, gid: '1623307181', carClass: S1 }
       - { id: s2-900, role: laptimes, gid: '630549251', carClass: S2 }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.8
 
@@ -169,6 +171,6 @@ sources:
     adapter: whd-url
     tabs:
       - { id: cars-tracks, role: custom-event, gid: '0' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.6

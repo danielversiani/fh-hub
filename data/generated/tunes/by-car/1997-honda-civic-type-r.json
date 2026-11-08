@@ -1,0 +1,482 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-273c3daf0b",
+      "metaRank": 24,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 52,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-38eba95cb3",
+      "lapRefs": [
+        {
+          "time": "1:05.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 49,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 102,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-3c4babd92b",
+      "name": "Purist | 1:01.8 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Honda Civic Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist | 1:01.8 Shirakawa",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 1710,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-49a0cfb978",
+      "name": "FWD Road | Street All Around",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Honda Civic Type R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD Road | Street All Around",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1711,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-8377a2de1a",
+      "lapRefs": [
+        {
+          "time": "1:05.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 47,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 98,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-98058b06a5",
+      "metaRank": 19,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 41,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-c775ac492f",
+      "metaRank": 47,
+      "name": "Purist/Touge",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Honda Civic Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist/Touge",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FFED7D31"
+          },
+          "row": 363,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-fea157bb16",
+      "name": "Purist C-West | 07.3 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Honda Civic Type R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist C-West | 07.3 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1712,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-26",
+      "drivetrain": "FWD",
+      "id": "sc-104573053",
+      "metaRank": 24,
+      "name": "Purist/Togue",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "26/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Civic Type R (1997)",
+            "sharecode": "104 573 053",
+            "suspension": "Street",
+            "tuneName": "Purist/Togue",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Rally"
+          },
+          "row": 1151,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.584,
+      "shareCode": "104573053",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-02",
+      "drivetrain": "FWD",
+      "id": "sc-150194049",
+      "name": "A road purist w/kit",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Civic Type R (1997)",
+            "sharecode": "150 194 049",
+            "suspension": "Street",
+            "tuneName": "A road purist w/kit",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Slick"
+          },
+          "row": 1148,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1997 Honda Civic Type R",
+            "Comment": "Purist, bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A road purist w/kit",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 1713,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.668,
+      "shareCode": "150194049",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "FWD",
+      "id": "sc-495447955",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Civic Type R (1997)",
+            "sharecode": "495 447 955",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Slick"
+          },
+          "row": 1149,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "495447955",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-24",
+      "drivetrain": "FWD",
+      "id": "sc-665823404",
+      "metaRank": 47,
+      "name": "Purist B Road Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "24/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Civic Type R (1997)",
+            "sharecode": "665 823 404",
+            "suspension": "Street",
+            "tuneName": "Purist B Road Strong",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1150,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.591,
+      "shareCode": "665823404",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

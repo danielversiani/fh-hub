@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2008-koenigsegg-ccgt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-542c17c228",
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Koenigsegg CCGT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1819,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-koenigsegg-ccgt",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7386992d5b",
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Koenigsegg CCGT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "R road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF00FF"
+          },
+          "row": 1820,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-koenigsegg-ccgt",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "engine": "Racing V12",
+      "id": "sc-865318237",
+      "name": "RWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "RWD",
+            "Engine": "Racing V12",
+            "Make": "Koenigsegg",
+            "Model": "CCGT",
+            "Road Surface": "Road",
+            "Share Code": "865318237",
+            "Tires": "Drift",
+            "Tune Name": "RWD Allround",
+            "Year": "2008"
+          },
+          "row": 29,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "865318237",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

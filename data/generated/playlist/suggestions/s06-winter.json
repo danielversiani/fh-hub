@@ -1,0 +1,498 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "carId": "1991-honda-beat",
+      "category": "meta",
+      "confidence": 0.85,
+      "eventId": "s06-winter--weekly-challenge--strictly-for-fun",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        }
+      ],
+      "score": 0.761,
+      "seasonId": "s06-winter",
+      "tuneId": "sc-160969837"
+    },
+    {
+      "carId": "1991-honda-beat",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-winter--weekly-challenge--strictly-for-fun",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.665,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-8bea20580c"
+    },
+    {
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "category": "meta",
+      "confidence": 1,
+      "eventId": "s06-winter--championship--touring-the-sights",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.laptime",
+          "params": {
+            "class": "S1",
+            "rank": 10,
+            "track": "Shirakawa"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 3
+          }
+        }
+      ],
+      "score": 0.835,
+      "seasonId": "s06-winter",
+      "tuneId": "sc-969881490"
+    },
+    {
+      "carId": "2025-gr-gt-prototype",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--championship--touring-the-sights",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1.5"
+          }
+        }
+      ],
+      "score": 0.601,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-f66395cc74"
+    },
+    {
+      "carId": "2017-mercedes-amg-gt-r",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--championship--touring-the-sights",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.517,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-1809125e7f"
+    },
+    {
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-101ce859b8"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-15153e7e18"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.53,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-83df85ef1a"
+    },
+    {
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "category": "purist",
+      "confidence": 0.35,
+      "eventId": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.474,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-579609ad39"
+    },
+    {
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-101ce859b8"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-15153e7e18"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.53,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-83df85ef1a"
+    },
+    {
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "category": "purist",
+      "confidence": 0.35,
+      "eventId": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.474,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-579609ad39"
+    },
+    {
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-danger-sign--alpine-heights",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-101ce859b8"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-danger-sign--alpine-heights",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-15153e7e18"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-danger-sign--alpine-heights",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.53,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-83df85ef1a"
+    },
+    {
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "category": "purist",
+      "confidence": 0.35,
+      "eventId": "s06-winter--pr-stunt-danger-sign--alpine-heights",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.474,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-579609ad39"
+    },
+    {
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-101ce859b8"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.563,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-15153e7e18"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.53,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-83df85ef1a"
+    },
+    {
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "category": "purist",
+      "confidence": 0.35,
+      "eventId": "s06-winter--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.474,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-579609ad39"
+    },
+    {
+      "carId": "2005-subaru-impreza-wrx-sti",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-the-trial--full-send",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.638,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-b5df99bfec"
+    },
+    {
+      "carId": "1994-subaru-vivio-rx-r",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-the-trial--full-send",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.638,
+      "seasonId": "s06-winter",
+      "tuneId": "nc-d0d41c5efc"
+    },
+    {
+      "carId": "2005-subaru-legacy-b4-2-0-gt",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s06-winter--horizon-life-the-trial--full-send",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.661,
+      "seasonId": "s06-winter",
+      "tuneId": "sc-106960335"
+    }
+  ],
+  "schemaVersion": 1
+}

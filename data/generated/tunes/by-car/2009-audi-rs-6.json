@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2009-audi-rs-6",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-10",
+      "drivetrain": "AWD",
+      "id": "sc-133284539",
+      "name": "A Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "10/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 6 (2009)",
+            "sharecode": "133 284 539",
+            "suspension": "Street",
+            "tuneName": "A Road Allround",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 253,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2009 Audi RS 6",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 885,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "133284539",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-rs-6",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-26",
+      "drivetrain": "AWD",
+      "id": "sc-172590286",
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 6 (2009)",
+            "sharecode": "172 590 286",
+            "suspension": "Street",
+            "tuneName": "A Road",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 254,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "172590286",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-rs-6",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-795847584",
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 6 (2009)",
+            "sharecode": "795 847 584",
+            "suspension": "Street",
+            "tuneName": "A Road",
+            "tuner": "AMS Carver",
+            "tyreCompound": "Rally"
+          },
+          "row": 252,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "795847584",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ams-carver"
+    }
+  ],
+  "schemaVersion": 1
+}

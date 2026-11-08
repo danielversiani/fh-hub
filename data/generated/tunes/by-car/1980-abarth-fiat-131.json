@@ -1,0 +1,697 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-1ff03f31a7",
+      "name": "Rally Tyre Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "Powerbuild",
+            "Design": "MONTÉ-CARLO",
+            "Designer": "RTT Farfadet",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Rally Tyre Powerbuild",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 702,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6d9a3225ac",
+      "name": "B Dirt Rally Easy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Rally Easy",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 111,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-705b124f23",
+      "lapRefs": [
+        {
+          "time": "1:18.285",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:18.285",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 9,
+      "name": "C dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 21,
+          "sourceId": "noa-miyako",
+          "tab": "c-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7476a99a29",
+      "name": "Dirty 131",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty 131",
+            "Tuner": "Cast Haste",
+            "fill": "theme:7"
+          },
+          "row": 15,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-9314a819bd",
+      "metaRank": 9,
+      "name": "Strong Rally V1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong Rally V1",
+            "Tuner": "SlowBakedPanda",
+            "fill": "theme:7"
+          },
+          "row": 17,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-a136472401",
+      "metaRank": 9,
+      "name": "C Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "theme:7"
+          },
+          "row": 18,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-bde5f5c2d6",
+      "metaRank": 9,
+      "name": "C Dirt Rally AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt Rally AWD",
+            "Tuner": "LogikJ",
+            "fill": "theme:7"
+          },
+          "row": 16,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-bfba4d6e93",
+      "name": "A Dirt Rally Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Rally Stock Look",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 701,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-dc8a0d3d38",
+      "name": "rally",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "PPHU",
+            "Designer": "ESV Troot",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "rally",
+            "Tuner": "DEX MUKA",
+            "fill": "FFFF0000"
+          },
+          "row": 698,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "dex-muka"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e01bf3cbd7",
+      "name": "Perfect A-Class Rally",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "CALBERSON #12",
+            "Designer": "WoodyTIE86",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Perfect A-Class Rally",
+            "Tuner": "Don Joewon Song",
+            "fill": "FFFF0000"
+          },
+          "row": 699,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "don-joewon-song"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-06",
+      "drivetrain": "AWD",
+      "id": "sc-140787420",
+      "name": "A Dirt Rally",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "Fiat 131",
+            "sharecode": "140 787 420",
+            "suspension": "Street",
+            "tuneName": "A Dirt Rally",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 19,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Rally",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 700,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.676,
+      "shareCode": "140787420",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-31",
+      "drivetrain": "RWD",
+      "id": "sc-149711720",
+      "name": "B Accel",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "31/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Abarth",
+            "model": "Fiat 131",
+            "sharecode": "149 711 720",
+            "suspension": "Race",
+            "tuneName": "B Accel",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Street"
+          },
+          "row": 21,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "#3 WINNER RALLY PORTUGAL 1980",
+            "Designer": "Cpower71",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B accel",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFED7D31"
+          },
+          "row": 114,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "149711720",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-04",
+      "drivetrain": "AWD",
+      "id": "sc-153369047",
+      "name": "A Dirt - Good w/E36 engine (Takashiro Trail 2.01.9)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "Fiat 131",
+            "sharecode": "153 369 047",
+            "suspension": "Street",
+            "tuneName": "A Dirt - Good w/E36 engine (Takashiro Trail 2.01.9)",
+            "tuner": "Falken JP",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 18,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.508,
+      "shareCode": "153369047",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "falken-jp"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-172597747",
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "Fiat 131",
+            "sharecode": "172 597 747",
+            "suspension": "Street",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 23,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 112,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "172597747",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-21",
+      "drivetrain": "AWD",
+      "id": "sc-176949233",
+      "name": "Easy B Dirt/Seasonal",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "Fiat 131",
+            "sharecode": "176 949 233",
+            "suspension": "Street",
+            "tuneName": "Easy B Dirt/Seasonal",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 22,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Easy B Dirt/Seasonal",
+            "Tuner": "KapienPL",
+            "fill": "FFED7D31"
+          },
+          "row": 110,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "176949233",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-12",
+      "drivetrain": "AWD",
+      "id": "sc-506536553",
+      "name": "Chill B Dirt (No Aero)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "12/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "Fiat 131",
+            "sharecode": "506 536 553",
+            "suspension": "Street",
+            "tuneName": "Chill B Dirt (No Aero)",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 24,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1980 Abarth Fiat 131",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Chill B Dirt (No Aero)",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 113,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "506536553",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-771412504",
+      "name": "technologia",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "Fiat 131",
+            "sharecode": "771 412 504",
+            "suspension": "Rally",
+            "tuneName": "technologia",
+            "tuner": "cartwell IZ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 20,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "771412504",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cartwell-iz"
+    }
+  ],
+  "schemaVersion": 1
+}

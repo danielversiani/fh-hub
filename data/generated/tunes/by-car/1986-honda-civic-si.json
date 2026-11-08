@@ -1,0 +1,711 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0d31161143",
+      "metaNotes": "季节赛调校 EZ Car",
+      "metaNotesI18n": {
+        "en": "Seasonal event tune; an easy car.",
+        "pt-br": "Tune de evento sazonal; carro fácil."
+      },
+      "metaRank": 44,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 94,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-1d3b04cf54",
+      "metaNotes": "前中段加速很快 推荐线上驾驶",
+      "metaNotesI18n": {
+        "en": "Very quick low and mid-range acceleration; recommended for online.",
+        "pt-br": "Acelera muito rápido em baixa e média; recomendado para pilotar online."
+      },
+      "metaRank": 21,
+      "name": "C Road General",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "PIAA HONDA PRIMO",
+            "Designer": "xXAzaazelXx",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "C Road General",
+            "Tuner": "Noa Miyako",
+            "fill": "theme:7"
+          },
+          "row": 54,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-2ed17ff936",
+      "lapRefs": [
+        {
+          "time": "1:03.5",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵1:03.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 8,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 18,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.685,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "atelieze"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "nc-30df624ddb",
+      "lapRefs": [
+        {
+          "time": "1:03.5",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵1:03.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 8,
+      "name": "B16 Dirt Allround META Sunflower 03.2 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B16 Dirt Allround META Sunflower 03.2 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 345,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.685,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-341cc4d527",
+      "metaRank": 1,
+      "name": "C Dirt Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "MUGEN",
+            "Designer": "ESV Troot",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt Meta",
+            "Tuner": "LogikJ",
+            "fill": "theme:7"
+          },
+          "row": 51,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-65084d04ea",
+      "lapRefs": [
+        {
+          "time": "1:03.5",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵1:03.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 8,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 18,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.685,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-abd0c7f970",
+      "name": "59.9 Chiheisen",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "HOT WHEELS 2023 HW J IMPORTS",
+            "Designer": "SaintSFGil",
+            "Drivetrain": "FWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "59.9 Chiheisen",
+            "Tuner": "GreetedDust8",
+            "fill": "theme:7"
+          },
+          "row": 53,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-b3068030fd",
+      "metaRank": 1,
+      "name": "C Dirt Meta v1.1 (M)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "MUGEN 1:1 REPLICA",
+            "Designer": "X30 Neo",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt Meta v1.1 (M)",
+            "Tuner": "TheDannny",
+            "fill": "theme:7"
+          },
+          "row": 52,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-dddc00558b",
+      "metaRank": 50,
+      "name": "Stock Look FWD VTEC Road | 06.9 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look FWD VTEC Road | 06.9 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 347,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-e30969f9d0",
+      "metaRank": 50,
+      "name": "b-16 engine replacement (just use this instead)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "b-16 engine replacement (just use this instead)",
+            "Tuner": "Myra Driving",
+            "fill": "FFED7D31"
+          },
+          "row": 349,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "myra-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-eebbaceb60",
+      "lapRefs": [
+        {
+          "time": "1:05.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 50,
+      "name": "B Road Grip Shirakawa 1:05.7",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Grip Shirakawa 1:05.7",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 346,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-29",
+      "drivetrain": "FWD",
+      "id": "sc-112280307",
+      "metaRank": 50,
+      "name": "B Road B16 Engine",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Civic SI",
+            "sharecode": "112 280 307",
+            "suspension": "Sport",
+            "tuneName": "B Road B16 Engine",
+            "tuner": "MCR Ginza",
+            "tyreCompound": "Rally"
+          },
+          "row": 1146,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road B16 Engine",
+            "Tuner": "MCR Ginza",
+            "fill": "FFED7D31"
+          },
+          "row": 348,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "112280307",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "mcr-ginza"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-03",
+      "drivetrain": "AWD",
+      "id": "sc-152766801",
+      "metaRank": 8,
+      "name": "Dirt Meta 1.6 Heavy Build",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Civic SI",
+            "sharecode": "152 766 801",
+            "suspension": "Stock",
+            "tuneName": "Dirt Meta 1.6 Heavy Build",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1145,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.612,
+      "shareCode": "152766801",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-10",
+      "drivetrain": "AWD",
+      "id": "sc-201495436",
+      "name": "A Road Allround 01.3Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "10/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Civic SI",
+            "sharecode": "201 495 436",
+            "suspension": "Stock",
+            "tuneName": "A Road Allround 01.3Shirakawa",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Rally"
+          },
+          "row": 1143,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "KAIDO HOUSE",
+            "Designer": "itsokcupcake76",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Allround 01.3Shirakawa",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 1671,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "201495436",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "id": "sc-833654371",
+      "metaRank": 8,
+      "name": "B Dirt Meta (M) - 1:03.502 Sunflower",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Civic SI",
+            "sharecode": "833 654 371",
+            "suspension": "Stock",
+            "tuneName": "B Dirt Meta (M) - 1:03.502 Sunflower",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1147,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Meta (M) - 1:03.502 Sunflower",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 344,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.7,
+      "shareCode": "833654371",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-06",
+      "drivetrain": "AWD",
+      "id": "sc-903166875",
+      "metaRank": 8,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "06/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Civic SI",
+            "sharecode": "903 166 875",
+            "suspension": "Stock",
+            "tuneName": "B Dirt",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1144,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "ATK Mang0",
+            "fill": "FFED7D31"
+          },
+          "row": 343,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.701,
+      "shareCode": "903166875",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    }
+  ],
+  "schemaVersion": 1
+}

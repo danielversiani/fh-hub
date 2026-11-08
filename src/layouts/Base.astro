@@ -10,7 +10,13 @@ import {
   type MessageKey,
 } from '../i18n';
 import { currentSeason, loadStats } from '../lib/data';
-import { DONATE_URL, MICROSOFT_NOTICE, MICROSOFT_RULES_URL } from '../lib/site';
+import {
+  DONATE_URL,
+  FEEDBACK_URL,
+  MICROSOFT_NOTICE,
+  MICROSOFT_RULES_URL,
+  PRELAUNCH,
+} from '../lib/site';
 
 interface Props {
   locale: Locale;
@@ -42,6 +48,7 @@ const stats = loadStats();
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description ?? t(locale, 'site.tagline')} />
+    {PRELAUNCH && <meta name="robots" content="noindex" />}
     <link rel="alternate" hreflang="pt-BR" href={localePath('pt-br', path)} />
     <link rel="alternate" hreflang="en" href={localePath('en', path)} />
   </head>
@@ -84,6 +91,16 @@ const stats = loadStats();
         </a>
       </nav>
     </header>
+    {PRELAUNCH && (
+      <div class="border-b border-border/70 bg-surface">
+        <p class="mx-auto max-w-6xl px-4 py-2 text-xs text-muted">
+          {t(locale, 'prelaunch.notice')}{' '}
+          <a href={FEEDBACK_URL} target="_blank" rel="noopener" class="text-accent underline">
+            {t(locale, 'prelaunch.contact')}
+          </a>
+        </p>
+      </div>
+    )}
     <main class="mx-auto max-w-6xl px-4 py-10">
       <slot />
     </main>

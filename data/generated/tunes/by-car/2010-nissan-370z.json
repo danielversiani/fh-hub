@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2010-nissan-370z",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-3a25e5ffc0",
+      "metaRank": 146,
+      "name": "Nismo kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Nissan 370Z",
+            "Comment": "Nismo bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Nismo kit",
+            "Tuner": "Inayamei",
+            "fill": "FFFF0000"
+          },
+          "row": 2543,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-nissan-370z",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-ca81f5e6b1",
+      "lapRefs": [
+        {
+          "time": "1:01.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:01.7 Purist纯粹调校",
+      "metaNotesI18n": {
+        "en": "Purist tune.",
+        "pt-br": "Tune purista."
+      },
+      "metaRank": 146,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 298,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-nissan-370z",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "RWD",
+      "id": "sc-109983244",
+      "name": "Nismo <3",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "370Z",
+            "sharecode": "109 983 244",
+            "suspension": "Stock",
+            "tuneName": "Nismo <3",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Rally"
+          },
+          "row": 1910,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "109983244",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ndl-samu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-nissan-370z",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-13",
+      "drivetrain": "RWD",
+      "id": "sc-130357429",
+      "name": "Nismo kit",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "370Z",
+            "sharecode": "130 357 429",
+            "suspension": "Stock",
+            "tuneName": "Nismo kit",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 1909,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "130357429",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2010-nissan-370z",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-26",
+      "drivetrain": "RWD",
+      "id": "sc-130906039",
+      "name": "B Purist Nismo Parts | 34.3 Legend",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "26/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "370Z",
+            "sharecode": "130 906 039",
+            "suspension": "Stock",
+            "tuneName": "B Purist Nismo Parts | 34.3 Legend",
+            "tuner": "DarkZ704",
+            "tyreCompound": "Standard"
+          },
+          "row": 1912,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "130906039",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-nissan-370z",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-19",
+      "drivetrain": "AWD",
+      "id": "sc-134095244",
+      "name": "Nismo Kit Dirt Allround T1 Sunflower 00.0 A/M",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "370Z",
+            "sharecode": "134 095 244",
+            "suspension": "Stock",
+            "tuneName": "Nismo Kit Dirt Allround T1 Sunflower 00.0 A/M",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1911,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.497,
+      "shareCode": "134095244",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-nissan-370z",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-07",
+      "drivetrain": "RWD",
+      "id": "sc-559754183",
+      "name": "Nismo kit easier",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "07/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "370Z",
+            "sharecode": "559 754 183",
+            "suspension": "Stock",
+            "tuneName": "Nismo kit easier",
+            "tuner": "Inayamei",
+            "tyreCompound": "Rally"
+          },
+          "row": 1908,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2010 Nissan 370Z",
+            "Comment": "Nismo bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Nismo kit easier",
+            "Tuner": "Inayamei",
+            "fill": "FFFF0000"
+          },
+          "row": 2544,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "559754183",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "inayamei"
+    }
+  ],
+  "schemaVersion": 1
+}

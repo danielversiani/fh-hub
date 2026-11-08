@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1984-opel-manta-400",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2704779f15",
+      "name": "A Dirt Meta V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Opel Manta 400",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Meta V2",
+            "Tuner": "HTLN Magnus",
+            "fill": "FFFF0000"
+          },
+          "row": 2580,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "htln-magnus"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-opel-manta-400",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-09",
+      "drivetrain": "AWD",
+      "id": "sc-143913572",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Opel",
+            "model": "Manta 400",
+            "sharecode": "143 913 572",
+            "suspension": "Rally",
+            "tuneName": "A Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2093,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1984 Opel Manta 400",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 2581,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "143913572",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1984-opel-manta-400",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-28",
+      "drivetrain": "AWD",
+      "id": "sc-168649036",
+      "name": "3.2 Dirt Stock Look V1.2",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Opel",
+            "model": "Manta 400",
+            "sharecode": "168 649 036",
+            "suspension": "Rally",
+            "tuneName": "3.2 Dirt Stock Look V1.2",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2092,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.499,
+      "shareCode": "168649036",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-opel-manta-400",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-18",
+      "drivetrain": "AWD",
+      "id": "sc-626697013",
+      "name": "Dzevox CC Monster",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "18/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Opel",
+            "model": "Manta 400",
+            "sharecode": "626 697 013",
+            "suspension": "Rally",
+            "tuneName": "Dzevox CC Monster",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2094,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "626697013",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1997-bmw-m3",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2dc5562f0c",
+      "name": "A Road - m5v10",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 BMW M3",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - m5v10",
+            "Tuner": "Nomv1",
+            "fill": "FFFF0000"
+          },
+          "row": 980,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-bmw-m3",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-4b361a3da5",
+      "name": "The Kitty",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 BMW M3",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "The Kitty",
+            "Tuner": "Nomv1",
+            "fill": "FFFF0000"
+          },
+          "row": 981,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-bmw-m3",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-149611625",
+      "name": "Dirty Widebody e36",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "M3 (1997)",
+            "sharecode": "149 611 625",
+            "suspension": "Rally",
+            "tuneName": "Dirty Widebody e36",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 341,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "149611625",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-bmw-m3",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-22",
+      "drivetrain": "RWD",
+      "id": "sc-169552950",
+      "name": "b road purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "22/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "BMW",
+            "model": "M3 (1997)",
+            "sharecode": "169 552 950",
+            "suspension": "Street",
+            "tuneName": "b road purist",
+            "tuner": "K1Z Amemiya",
+            "tyreCompound": "Standard"
+          },
+          "row": 343,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "169552950",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "k1z-amemiya"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-bmw-m3",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-834244366",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "M3 (1997)",
+            "sharecode": "834 244 366",
+            "suspension": "Street",
+            "tuneName": "A Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 342,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "834244366",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}

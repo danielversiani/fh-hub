@@ -1,0 +1,599 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0df76c3823",
+      "metaRank": 31,
+      "name": "Good A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1988 Lamborghini Countach LP5000 QV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1845,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-ece07a9de5",
+      "lapRefs": [
+        {
+          "time": "1:02.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:02.4 Purist纯粹调校",
+      "metaNotesI18n": {
+        "en": "Purist tune.",
+        "pt-br": "Tune purista."
+      },
+      "metaRank": 156,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 319,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f1c56e1331",
+      "lapRefs": [
+        {
+          "time": "1:05.8",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:05.8 综合简单车",
+      "metaNotesI18n": {
+        "en": "Simple, well-rounded car.",
+        "pt-br": "Carro completo e simples de pilotar."
+      },
+      "metaRank": 31,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 66,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-13",
+      "drivetrain": "AWD",
+      "id": "sc-104325659",
+      "metaRank": 156,
+      "name": "A Road - Allround Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "104 325 659",
+            "suspension": "Street",
+            "tuneName": "A Road - Allround Meta",
+            "tuner": "K1Z Baa",
+            "tyreCompound": "Rally"
+          },
+          "row": 1346,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.491,
+      "shareCode": "104325659",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-baa"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-11",
+      "drivetrain": "RWD",
+      "id": "sc-110405340",
+      "metaRank": 156,
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "110 405 340",
+            "suspension": "Street",
+            "tuneName": "Purist Road",
+            "tuner": "MCR Ginza",
+            "tyreCompound": "Rally"
+          },
+          "row": 1348,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1988 Lamborghini Countach LP5000 QV",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road",
+            "Tuner": "MCR Ginza",
+            "fill": "FFFF0000"
+          },
+          "row": 1848,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.573,
+      "shareCode": "110405340",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "mcr-ginza"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-21",
+      "drivetrain": "AWD",
+      "id": "sc-113667144",
+      "metaRank": 31,
+      "name": "A Dirt (Full Aero)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "113 667 144",
+            "suspension": "Rally",
+            "tuneName": "A Dirt (Full Aero)",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1342,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "113667144",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-06",
+      "drivetrain": "RWD",
+      "id": "sc-162387382",
+      "metaRank": 156,
+      "name": "Purist Road | 26.7 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "162 387 382",
+            "suspension": "Street",
+            "tuneName": "Purist Road | 26.7 Legend Island",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 1344,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1988 Lamborghini Countach LP5000 QV",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road | 26.7 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1847,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.572,
+      "shareCode": "162387382",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "drivetrain": "RWD",
+      "id": "sc-181476788",
+      "metaRank": 31,
+      "name": "Strong Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "181 476 788",
+            "suspension": "Rally",
+            "tuneName": "Strong Purist",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Rally"
+          },
+          "row": 1350,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1988 Lamborghini Countach LP5000 QV",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Strong Purist",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 1849,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.671,
+      "shareCode": "181476788",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [
+        "drivetrain-swap",
+        "purist"
+      ],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "id": "sc-182066050",
+      "metaRank": 31,
+      "name": "Humble awd swapped purist Dirt Tung",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "182 066 050",
+            "suspension": "Rally",
+            "tuneName": "Humble awd swapped purist Dirt Tung",
+            "tuner": "CTE mag",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1343,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.588,
+      "shareCode": "182066050",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "cte-mag"
+    },
+    {
+      "buildTags": [],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-21",
+      "drivetrain": "AWD",
+      "id": "sc-182647217",
+      "metaRank": 31,
+      "name": "A Dirt (No Aero request)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "182 647 217",
+            "suspension": "Rally",
+            "tuneName": "A Dirt (No Aero request)",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1341,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "182647217",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-17",
+      "drivetrain": "AWD",
+      "id": "sc-479402918",
+      "metaRank": 156,
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "479 402 918",
+            "suspension": "Rally",
+            "tuneName": "A Road",
+            "tuner": "SulexPagMan",
+            "tyreCompound": "Rally"
+          },
+          "row": 1349,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1988 Lamborghini Countach LP5000 QV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "SulexPagMan",
+            "fill": "FFFF0000"
+          },
+          "row": 1846,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.574,
+      "shareCode": "479402918",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "sulexpagman"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-18",
+      "drivetrain": "AWD",
+      "id": "sc-638147604",
+      "metaRank": 31,
+      "name": "No Aero Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "638 147 604",
+            "suspension": "Street",
+            "tuneName": "No Aero Stock Look",
+            "tuner": "Grandma Driving",
+            "tyreCompound": "Rally"
+          },
+          "row": 1345,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.594,
+      "shareCode": "638147604",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-22",
+      "drivetrain": "AWD",
+      "id": "sc-714610426",
+      "metaRank": 31,
+      "name": "Strong+ A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "22/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Countach LP5000 QV",
+            "sharecode": "714 610 426",
+            "suspension": "Street",
+            "tuneName": "Strong+ A Dirt",
+            "tuner": "Korrrupt EU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1347,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.591,
+      "shareCode": "714610426",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "korrrupt-eu"
+    }
+  ],
+  "schemaVersion": 1
+}

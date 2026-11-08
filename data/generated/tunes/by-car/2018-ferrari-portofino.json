@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-ferrari-portofino",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-165402057",
+      "name": "A road easy",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Portofino",
+            "sharecode": "165 402 057",
+            "suspension": "Rally",
+            "tuneName": "A road easy",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 877,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "165402057",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "ndl-samu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ferrari-portofino",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-22",
+      "drivetrain": "AWD",
+      "id": "sc-173696552",
+      "name": "S1 Road AWD V12",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "22/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Portofino",
+            "sharecode": "173 696 552",
+            "suspension": "Rally",
+            "tuneName": "S1 Road AWD V12",
+            "tuner": "LogikJ",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 878,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "173696552",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "semi-slick",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2018-ferrari-portofino",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-23",
+      "drivetrain": "AWD",
+      "id": "sc-668039431",
+      "name": "Dirt AWD Full Aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "23/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Portofino",
+            "sharecode": "668 039 431",
+            "suspension": "Rally",
+            "tuneName": "Dirt AWD Full Aero",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 876,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "668039431",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

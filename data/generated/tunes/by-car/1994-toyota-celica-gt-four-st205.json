@@ -1,0 +1,534 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-0632cf71a9",
+      "name": "B Class Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "",
+            "Design": "ZZZ REMIELLE",
+            "Designer": "Asero24",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Class Road",
+            "Tuner": "GamerLogicFTW",
+            "fill": "FFED7D31"
+          },
+          "row": 576,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3427fe82d1",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "Purist",
+            "Design": "ASAHI-FORGE/NHK-NIPPATSU",
+            "Designer": "FinestKibbles86",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "FelkerBR",
+            "fill": "FFED7D31"
+          },
+          "row": 575,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "felkerbr"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-66875d3182",
+      "metaRank": 41,
+      "name": "B Dirt Stock Look Easy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "",
+            "Design": "SEGA RALLY REVO REPLICA (LIVERY 3) KONI",
+            "Designer": "He Said Do It",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Stock Look Easy",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 573,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-cf7dbedb32",
+      "metaRank": 41,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 87,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-f1289b5732",
+      "name": "C Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "",
+            "Design": "GS GLOOMY",
+            "Designer": "Kracsa",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt",
+            "Tuner": "Sir BrandyA1",
+            "fill": "FFFFC000"
+          },
+          "row": 84,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sir-brandya1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-135872714",
+      "name": "No rear wing",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica GT-Four ST205",
+            "sharecode": "135 872 714",
+            "suspension": "Street",
+            "tuneName": "No rear wing",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2427,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "",
+            "Design": "PERSONA 5 M NIJIMA",
+            "Designer": "DutchOnX",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "No rear wing",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 571,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "135872714",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-20",
+      "drivetrain": "AWD",
+      "id": "sc-167770358",
+      "name": "Forza Horizon 10 (Gears)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "20/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica GT-Four ST205",
+            "sharecode": "167 770 358",
+            "suspension": "Street",
+            "tuneName": "Forza Horizon 10 (Gears)",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Street"
+          },
+          "row": 2431,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "",
+            "Design": "TRIALS - TEAMMATE!",
+            "Designer": "JackMB74",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Forza Horizon 10 (Gears)",
+            "Tuner": "zombiejesus52",
+            "fill": "FFED7D31"
+          },
+          "row": 577,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "167770358",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-15",
+      "drivetrain": "AWD",
+      "id": "sc-176489165",
+      "name": "Purist Rally Car",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica GT-Four ST205",
+            "sharecode": "176 489 165",
+            "suspension": "Rally",
+            "tuneName": "Purist Rally Car",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2426,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "176489165",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-23",
+      "drivetrain": "AWD",
+      "id": "sc-236194378",
+      "name": "Yes rear wing",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "23/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica GT-Four ST205",
+            "sharecode": "236 194 378",
+            "suspension": "Street",
+            "tuneName": "Yes rear wing",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2428,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "",
+            "Design": "OOKAMI MIO",
+            "Designer": "ExcusemeWT",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Yes rear wing",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 572,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "236194378",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-788252852",
+      "metaRank": 41,
+      "name": "B Dirt Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica GT-Four ST205",
+            "sharecode": "788 252 852",
+            "suspension": "Stock",
+            "tuneName": "B Dirt Purist",
+            "tuner": "TonTon6427",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2430,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "Purist",
+            "Design": "CASTOL RACING",
+            "Designer": "prg2012br",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Purist",
+            "Tuner": "TonTon6427",
+            "fill": "FFED7D31"
+          },
+          "row": 574,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.613,
+      "shareCode": "788252852",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "tonton6427"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-13",
+      "drivetrain": "AWD",
+      "id": "sc-824237787",
+      "metaRank": 41,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "13/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica GT-Four ST205",
+            "sharecode": "824 237 787",
+            "suspension": "Street",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2429,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.537,
+      "shareCode": "824237787",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "id": "sc-977019616",
+      "name": "A Dirt Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Celica GT-Four ST205",
+            "sharecode": "977 019 616",
+            "suspension": "Street",
+            "tuneName": "A Dirt Purist",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2425,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Toyota Celica GT-Four ST205",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2825,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "977019616",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

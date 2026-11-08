@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2007-formula-drift-117-599-gtb-fiorano",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-17",
+      "drivetrain": "AWD",
+      "id": "sc-665295957",
+      "name": "S1 Dirt/Cross Country",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "17/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Formula Drift",
+            "model": "#117 599 GTB Fiorano",
+            "sharecode": "665 295 957",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt/Cross Country",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1046,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "665295957",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2007-formula-drift-117-599-gtb-fiorano",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-31",
+      "drivetrain": "AWD",
+      "id": "sc-739840880",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Formula Drift",
+            "model": "#117 599 GTB Fiorano",
+            "sharecode": "739 840 880",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1047,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2007 Formula Drift #117 599 GTB Fiorano",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1605,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "739840880",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2007-formula-drift-117-599-gtb-fiorano",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-988110376",
+      "name": "S1 dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Formula Drift",
+            "model": "#117 599 GTB Fiorano",
+            "sharecode": "988 110 376",
+            "suspension": "Rally",
+            "tuneName": "S1 dirt",
+            "tuner": "CTE mag",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1045,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "988110376",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cte-mag"
+    }
+  ],
+  "schemaVersion": 1
+}

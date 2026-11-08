@@ -1,0 +1,525 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0372b9d875",
+      "metaRank": 22,
+      "name": "GOOD A DIRT",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Cadillac ATS-V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "GOOD A DIRT",
+            "Tuner": "EoJz7294",
+            "fill": "FFFF0000"
+          },
+          "row": 1067,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.505,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "eojz7294"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-052bc5bfe8",
+      "metaRank": 46,
+      "name": "Shirakawa 59.7 OFFMETA",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Cadillac ATS-V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Shirakawa 59.7 OFFMETA",
+            "Tuner": "Cirno1X",
+            "fill": "FFFF0000"
+          },
+          "row": 1070,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1c1a3a66e8",
+      "lapRefs": [
+        {
+          "time": "1:00.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.4 推头 刹车不稳定",
+      "metaNotesI18n": {
+        "en": "Understeers; unstable braking.",
+        "pt-br": "Sai de frente; freio instável."
+      },
+      "metaRank": 46,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 96,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-360f810ab2",
+      "metaRank": 46,
+      "name": "Purist Street | No RC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Cadillac ATS-V",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Street | No RC",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1071,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-7ac4c7e09e",
+      "metaRank": 46,
+      "name": "Purist Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Cadillac ATS-V",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road",
+            "Tuner": "keerj",
+            "fill": "FFFF0000"
+          },
+          "row": 1072,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "keerj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b388c1478b",
+      "lapRefs": [
+        {
+          "time": "1:05.790",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "调校师备注倒转极限圈速伊根 1:05.790 推头多给油滑动辅助过弯",
+      "metaNotesI18n": {
+        "en": "Tuner's note: limit lap on Ine reversed. Understeers: add throttle and let it slide to help it turn.",
+        "pt-br": "Nota do tunador: volta-limite no Ine invertido. Sai de frente: acelere mais e deixe deslizar para ajudar na curva."
+      },
+      "metaRank": 22,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 48,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.554,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-17",
+      "drivetrain": "AWD",
+      "id": "sc-124097930",
+      "metaRank": 22,
+      "name": "A Allround Beast",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Cadillac",
+            "model": "ATS-V",
+            "sharecode": "124 097 930",
+            "suspension": "Street",
+            "tuneName": "A Allround Beast",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 423,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.507,
+      "shareCode": "124097930",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-09",
+      "drivetrain": "AWD",
+      "id": "sc-133874148",
+      "metaRank": 22,
+      "name": "1932 Ford Roadster \"Hula Girl\"",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Cadillac",
+            "model": "ATS-V",
+            "sharecode": "133 874 148",
+            "suspension": "Street",
+            "tuneName": "1932 Ford Roadster \"Hula Girl\"",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 425,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2016 Cadillac ATS-V",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "1932 Ford Roadster \"Hula Girl\"",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1069,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.592,
+      "shareCode": "133874148",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-09",
+      "drivetrain": "AWD",
+      "id": "sc-171077445",
+      "metaRank": 46,
+      "name": "AWD Widebody Road/Street V",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Cadillac",
+            "model": "ATS-V",
+            "sharecode": "171 077 445",
+            "suspension": "Rally",
+            "tuneName": "AWD Widebody Road/Street V",
+            "tuner": "TheDannny",
+            "tyreCompound": "Rally"
+          },
+          "row": 426,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.545,
+      "shareCode": "171077445",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "id": "sc-182570459",
+      "metaRank": 22,
+      "name": "Ramming Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Cadillac",
+            "model": "ATS-V",
+            "sharecode": "182 570 459",
+            "suspension": "Street",
+            "tuneName": "Ramming Meta",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Rally"
+          },
+          "row": 424,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2016 Cadillac ATS-V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Ramming Meta",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 1068,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.592,
+      "shareCode": "182570459",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-18",
+      "drivetrain": "AWD",
+      "id": "sc-339500275",
+      "name": "S1 Dirt Prayge",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "18/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Cadillac",
+            "model": "ATS-V",
+            "sharecode": "339 500 275",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt Prayge",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 427,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2016 Cadillac ATS-V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Prayge",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1073,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "339500275",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-cadillac-ats-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "RWD",
+      "id": "sc-516343993",
+      "metaRank": 46,
+      "name": "Puirist | 48.2 Narai Juku Circuit",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Cadillac",
+            "model": "ATS-V",
+            "sharecode": "516 343 993",
+            "suspension": "Street",
+            "tuneName": "Puirist | 48.2 Narai Juku Circuit",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 422,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.54,
+      "shareCode": "516343993",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

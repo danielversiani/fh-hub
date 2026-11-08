@@ -1,0 +1,450 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-2b0162c2fc",
+      "metaNotes": "操控版本 赛用变速箱",
+      "metaNotesI18n": {
+        "en": "Handling version, with a race gearbox.",
+        "pt-br": "Versão de curvas, com câmbio de corrida."
+      },
+      "metaRank": 5,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 12,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-36b54a59da",
+      "metaNotes": "起步加速非常快 推荐线上使用",
+      "metaNotesI18n": {
+        "en": "Very fast launch; recommended for online.",
+        "pt-br": "Largada muito rápida; recomendado para online."
+      },
+      "metaRank": 18,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 39,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-941c21c25d",
+      "metaNotes": "1750匹 但是圈速很慢 建议开越野胎版本",
+      "metaNotesI18n": {
+        "en": "1750 hp, but slow lap times; use the off-road tire version.",
+        "pt-br": "1750 cv, mas o tempo de volta é lento; prefira a versão com pneus off-road."
+      },
+      "metaRank": 29,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 64,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.423,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9ae89c4890",
+      "lapRefs": [
+        {
+          "time": "1:06.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 80,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 165,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a5b53f9aab",
+      "lapRefs": [
+        {
+          "time": "2:37.8",
+          "track": "Takashiro"
+        }
+      ],
+      "metaNotes": "高城 2:37.8干净 越野胎冲刺快 越野圈图也同样非常快 而且非常好开 强烈推荐",
+      "metaNotesI18n": {
+        "en": "Clean lap. Fast on sprints with off-road tires and just as fast on off-road circuits; very easy to drive. Highly recommended.",
+        "pt-br": "Volta limpa. Rápido em sprints com pneus off-road e igualmente rápido em circuitos off-road; muito fácil de pilotar. Muito recomendado."
+      },
+      "metaRank": 4,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 9,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-af2684055c",
+      "lapRefs": [
+        {
+          "time": "2:20.314",
+          "track": "Hokubu",
+          "worldRecord": true
+        }
+      ],
+      "metaNotes": "北部WR 2:20.314 倒转19.7 入弯略推略笨重 加速无敌快 半滑过弯",
+      "metaNotesI18n": {
+        "en": "Reversed: 19.7. Slight understeer and a bit heavy on turn-in; unbeatable acceleration; take corners in a light slide.",
+        "pt-br": "Invertido: 19.7. Sai um pouco de frente e é meio pesado na entrada de curva; aceleração imbatível; faça as curvas deslizando de leve."
+      },
+      "metaRank": 4,
+      "name": "C dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 10,
+          "sourceId": "noa-miyako",
+          "tab": "c-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-b0cef1db59",
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM",
+            "Comment": "LOL",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1573,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-113202792",
+      "metaRank": 4,
+      "name": "B Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Super Duty F-450 DRW Platinum",
+            "sharecode": "113 202 792",
+            "suspension": "Street",
+            "tuneName": "B Dirt/CC",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1020,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.685,
+      "shareCode": "113202792",
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-04",
+      "drivetrain": "AWD",
+      "id": "sc-120291323",
+      "metaRank": 80,
+      "name": "Play FH5 instead, this game is an unbalanced mess",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "04/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Super Duty F-450 DRW Platinum",
+            "sharecode": "120 291 323",
+            "suspension": "Rally",
+            "tuneName": "Play FH5 instead, this game is an unbalanced mess",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 1023,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.571,
+      "shareCode": "120291323",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "drivetrain": "AWD",
+      "id": "sc-202410695",
+      "metaRank": 5,
+      "name": "B Dirt Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "04/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Super Duty F-450 DRW Platinum",
+            "sharecode": "202 410 695",
+            "suspension": "Street",
+            "tuneName": "B Dirt Meta",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1022,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.656,
+      "shareCode": "202410695",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-299964368",
+      "metaRank": 80,
+      "name": "B Road Very Strong (Stock Look)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Super Duty F-450 DRW Platinum",
+            "sharecode": "299 964 368",
+            "suspension": "Street",
+            "tuneName": "B Road Very Strong (Stock Look)",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 1021,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM",
+            "Comment": "LOL",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Very Strong (Stock Look)",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 309,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.645,
+      "shareCode": "299964368",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,345 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1987-nissan-be-1",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-be46719bfc",
+      "name": "Road Purist Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Grip",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 461,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-c2bfef76ee",
+      "name": "it cant behave",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "it cant behave",
+            "Tuner": "F1R Patch",
+            "fill": "FFFF0000"
+          },
+          "row": 2403,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-patch"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "AWD",
+      "id": "sc-105321915",
+      "name": "B DIRT ONLINE",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Be-1",
+            "sharecode": "105 321 915",
+            "suspension": "Rally",
+            "tuneName": "B DIRT ONLINE",
+            "tuner": "Zookiiwi",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1920,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B DIRT ONLINE",
+            "Tuner": "Zookiiwi",
+            "fill": "FFED7D31"
+          },
+          "row": 457,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "105321915",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-04",
+      "drivetrain": "FWD",
+      "id": "sc-141462680",
+      "name": "B Road | 2.0 I4/Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "04/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Nissan",
+            "model": "Be-1",
+            "sharecode": "141 462 680",
+            "suspension": "Street",
+            "tuneName": "B Road | 2.0 I4/Stock Look",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 1916,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road | 2.0 I4/Stock Look",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 458,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "141462680",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-164035349",
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Be-1",
+            "sharecode": "164 035 349",
+            "suspension": "Stock",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1919,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 456,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "164035349",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-29",
+      "drivetrain": "FWD",
+      "id": "sc-603901022",
+      "name": "B road K20A",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Nissan",
+            "model": "Be-1",
+            "sharecode": "603 901 022",
+            "suspension": "Street",
+            "tuneName": "B road K20A",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 1918,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B road K20A",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 459,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "603901022",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-29",
+      "drivetrain": "FWD",
+      "id": "sc-835939227",
+      "name": "B road K20C1",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Nissan",
+            "model": "Be-1",
+            "sharecode": "835 939 227",
+            "suspension": "Street",
+            "tuneName": "B road K20C1",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 1917,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B road K20C1",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 460,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "835939227",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -21,6 +21,7 @@ Eles explicam o *porquê* do projeto ser como é. Ver [ADR-0001](0001-registrar-
 | [0012](0012-hospedagem-cloudflare-pages.md) | Hospedagem no Cloudflare Pages com deploy limitado | Aceita |
 | [0013](0013-miniaturas-dos-carros.md) | Miniaturas dos carros a partir da Forza Wiki, sob as regras de conteúdo da Microsoft | Aceita |
 | [0014](0014-traducao-dos-textos-das-fontes.md) | Traduzir os textos das fontes com uma memória de tradução revisada por PR | Aceita |
+| [0015](0015-pre-lancamento-com-todas-as-fontes.md) | Pré-lançamento público com todas as fontes, enquanto as autorizações são pedidas | Aceita |
 
 ## Como escrever um novo ADR
 

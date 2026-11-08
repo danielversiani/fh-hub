@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-mitsubishi-eclipse-gsx",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-16",
+      "drivetrain": "AWD",
+      "id": "sc-126539081",
+      "name": "A Dirt Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "Eclipse GSX",
+            "sharecode": "126 539 081",
+            "suspension": "Street",
+            "tuneName": "A Dirt Purist",
+            "tuner": "AMS Carver",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1821,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Mitsubishi Eclipse GSX",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Purist",
+            "Tuner": "AMS Carver",
+            "fill": "FFFF0000"
+          },
+          "row": 2358,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "126539081",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "ams-carver"
+    }
+  ],
+  "schemaVersion": 1
+}

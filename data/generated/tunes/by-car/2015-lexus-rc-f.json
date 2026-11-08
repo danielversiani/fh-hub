@@ -1,0 +1,234 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-lexus-rc-f",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b455004484",
+      "lapRefs": [
+        {
+          "time": "59.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 23,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 49,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-lexus-rc-f",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-107699544",
+      "name": "LFA on wish",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lexus",
+            "model": "RC F",
+            "sharecode": "107 699 544",
+            "suspension": "Street",
+            "tuneName": "LFA on wish",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1474,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "107699544",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-lexus-rc-f",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-30",
+      "drivetrain": "AWD",
+      "id": "sc-141657129",
+      "metaRank": 23,
+      "name": "RB-WB/Lexus RC-F AWD Balanced Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lexus",
+            "model": "RC F",
+            "sharecode": "141 657 129",
+            "suspension": "Rally",
+            "tuneName": "RB-WB/Lexus RC-F AWD Balanced Road",
+            "tuner": "TheDannny",
+            "tyreCompound": "Rally"
+          },
+          "row": 1475,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Lexus RC F",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "RB-WB/Lexus RC-F AWD Balanced Road",
+            "Tuner": "TheDannny",
+            "fill": "FFFF0000"
+          },
+          "row": 1984,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.713,
+      "shareCode": "141657129",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-lexus-rc-f",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-25",
+      "drivetrain": "RWD",
+      "id": "sc-158847613",
+      "metaRank": 23,
+      "name": "A road widebody stock engine",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "25/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Lexus",
+            "model": "RC F",
+            "sharecode": "158 847 613",
+            "suspension": "Street",
+            "tuneName": "A road widebody stock engine",
+            "tuner": "Inayamei",
+            "tyreCompound": "Drift"
+          },
+          "row": 1473,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Lexus RC F",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A road widebody stock engine",
+            "Tuner": "Inayamei",
+            "fill": "FFFF0000"
+          },
+          "row": 1985,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.719,
+      "shareCode": "158847613",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-lexus-rc-f",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-10",
+      "drivetrain": "AWD",
+      "id": "sc-804477707",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "10/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lexus",
+            "model": "RC F",
+            "sharecode": "804 477 707",
+            "suspension": "Street",
+            "tuneName": "A Dirt",
+            "tuner": "Whatuplosers917",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1476,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.487,
+      "shareCode": "804477707",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "whatuplosers917"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,809 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1ea14238c5",
+      "name": "B Dirt Very Strong LFA",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Very Strong LFA",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 651,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-30035415af",
+      "metaRank": 149,
+      "name": "cvt gaming",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "cvt gaming",
+            "Tuner": "Nalak28",
+            "fill": "FFFF0000"
+          },
+          "row": 2934,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.417,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-579609ad39",
+      "name": "Road Purist Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Purist",
+            "Design": "TEAM MIDORI SUPER GT",
+            "Designer": "LMP Arcturus",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Grip",
+            "Tuner": "LogikJ",
+            "fill": "FFFFC000"
+          },
+          "row": 95,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-8988ff1eb2",
+      "metaRank": 94,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 194,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.413,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-aad1e79ccf",
+      "metaRank": 149,
+      "name": "A road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 304,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.451,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-c3c1088156",
+      "metaRank": 94,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 194,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.413,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "FWD",
+      "id": "nc-ce812d4287",
+      "metaRank": 149,
+      "name": "A Road (Actually VERY Good Powerbuild)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road (Actually VERY Good Powerbuild)",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2932,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.451,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-e1c9b773a4",
+      "metaRank": 94,
+      "name": "Purist Road w/ Stock rims",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Purist",
+            "Design": "IOCHI MARI",
+            "Designer": "Soypoka",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road w/ Stock rims",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 654,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.38,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-30",
+      "drivetrain": "FWD",
+      "id": "sc-129494942",
+      "name": "TRD Purist + Stock Rims",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "129 494 942",
+            "suspension": "Rally",
+            "tuneName": "TRD Purist + Stock Rims",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Rally"
+          },
+          "row": 2532,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "TRD bodykit",
+            "Design": "PRIUS TAXI",
+            "Designer": "Skullheron",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "TRD Purist + Stock Rims",
+            "Tuner": "zombiejesus52",
+            "fill": "FFED7D31"
+          },
+          "row": 655,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.675,
+      "shareCode": "129494942",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-30",
+      "drivetrain": "AWD",
+      "id": "sc-152598807",
+      "name": "F it, it's an LFA swapped Dirt Prius",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "152 598 807",
+            "suspension": "Stock",
+            "tuneName": "F it, it's an LFA swapped Dirt Prius",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2525,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "F it, it's an LFA swapped Dirt Prius.",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2929,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.675,
+      "shareCode": "152598807",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-31",
+      "drivetrain": "AWD",
+      "id": "sc-163880396",
+      "name": "Between a Rock and a Dirt Prius",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "31/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "163 880 396",
+            "suspension": "Rally",
+            "tuneName": "Between a Rock and a Dirt Prius",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2523,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "163880396",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-30",
+      "drivetrain": "AWD",
+      "id": "sc-167601602",
+      "name": "A Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "167 601 602",
+            "suspension": "Rally",
+            "tuneName": "A Dirt/CC",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2527,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt/CC",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 2930,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.675,
+      "shareCode": "167601602",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-30",
+      "drivetrain": "FWD",
+      "id": "sc-480855452",
+      "name": "your Purist daily",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "480 855 452",
+            "suspension": "Stock",
+            "tuneName": "your Purist daily",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 2530,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "your Purist daily",
+            "Tuner": "LetzeLU",
+            "fill": "FFED7D31"
+          },
+          "row": 653,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.675,
+      "shareCode": "480855452",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-30",
+      "drivetrain": "FWD",
+      "id": "sc-564763808",
+      "name": "*Shira 01.2/Still Forza logic CVT",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "564 763 808",
+            "suspension": "Stock",
+            "tuneName": "*Shira 01.2/Still Forza logic CVT",
+            "tuner": "MSR Mian",
+            "tyreCompound": "Rally"
+          },
+          "row": 2526,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "*Shira 01.2/Still Forza logic CVT",
+            "Tuner": "MSR Mian",
+            "fill": "FFFF0000"
+          },
+          "row": 2933,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.675,
+      "shareCode": "564763808",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-14",
+      "drivetrain": "FWD",
+      "id": "sc-729449093",
+      "metaRank": 94,
+      "name": "TOYOTA bZ3 DM-P",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "14/08/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "729 449 093",
+            "suspension": "Rally",
+            "tuneName": "TOYOTA bZ3 DM-P",
+            "tuner": "Cirno1X",
+            "tyreCompound": "Standard"
+          },
+          "row": 2528,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Powerbuild",
+            "Design": "DURACELL",
+            "Designer": "PTG MarvanAi",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "TOYOTA bZ3 DM-P",
+            "Tuner": "Cirno1X",
+            "fill": "FFED7D31"
+          },
+          "row": 656,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "729449093",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
+      "drivetrain": "FWD",
+      "id": "sc-731236113",
+      "metaRank": 149,
+      "name": "A Road Powerbuild (Race Trans!)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/08/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "731 236 113",
+            "suspension": "Stock",
+            "tuneName": "A Road Powerbuild (Race Trans!)",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 2524,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road Powerbuild (Race Trans!)",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2931,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.515,
+      "shareCode": "731236113",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-20",
+      "drivetrain": "FWD",
+      "id": "sc-875871343",
+      "metaRank": 94,
+      "name": "Normal Prius",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "20/08/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "875 871 343",
+            "suspension": "Stock",
+            "tuneName": "Normal Prius",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Standard"
+          },
+          "row": 2529,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2024 Toyota Prius Prime XSE Premium",
+            "Comment": "Powerbuild",
+            "Design": "GOOGLE MAPS CAR",
+            "Designer": "speedyD98",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Normal Prius",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 652,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "875871343",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-01",
+      "drivetrain": "AWD",
+      "id": "sc-951987742",
+      "name": "B Dirt AWD LFA",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "01/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Prius Prime XSE Premium",
+            "sharecode": "951 987 742",
+            "suspension": "Stock",
+            "tuneName": "B Dirt AWD LFA",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2531,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.493,
+      "shareCode": "951987742",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

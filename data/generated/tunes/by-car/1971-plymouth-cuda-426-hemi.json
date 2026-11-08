@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-3cbbfcfe00",
+      "lapRefs": [
+        {
+          "time": "1:05.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 62,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 128,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-pyke"
+    },
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a1ac47d88c",
+      "lapRefs": [
+        {
+          "time": "1:00.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 122,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 249,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d4e9131c6c",
+      "metaRank": 24,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 51,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-eeac639232",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 61,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 126,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-faac874ac3",
+      "metaRank": 24,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 51,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-27",
+      "drivetrain": "AWD",
+      "id": "sc-142156034",
+      "name": "Dirty Cuda",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "27/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Plymouth",
+            "model": "Cuda 426 Hemi",
+            "sharecode": "142 156 034",
+            "suspension": "Stock",
+            "tuneName": "Dirty Cuda",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2126,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "142156034",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-29",
+      "drivetrain": "AWD",
+      "id": "sc-184158661",
+      "metaRank": 122,
+      "name": "Strong A Road B-Accel",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Plymouth",
+            "model": "Cuda 426 Hemi",
+            "sharecode": "184 158 661",
+            "suspension": "Street",
+            "tuneName": "Strong A Road B-Accel",
+            "tuner": "Destrukdi",
+            "tyreCompound": "Rally"
+          },
+          "row": 2124,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1971 Plymouth Cuda 426 Hemi",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Strong A Road B-Accel",
+            "Tuner": "Destrukdi",
+            "fill": "FFFF0000"
+          },
+          "row": 2604,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.646,
+      "shareCode": "184158661",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-24",
+      "drivetrain": "AWD",
+      "id": "sc-575451110",
+      "name": "Dirty 1500 hp go brrrrr",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Plymouth",
+            "model": "Cuda 426 Hemi",
+            "sharecode": "575 451 110",
+            "suspension": "Stock",
+            "tuneName": "Dirty 1500 hp go brrrrr",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2123,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1971 Plymouth Cuda 426 Hemi",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty 1500 hp go brrrrr",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 2603,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "575451110",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-16",
+      "drivetrain": "RWD",
+      "id": "sc-575922127",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Plymouth",
+            "model": "Cuda 426 Hemi",
+            "sharecode": "575 922 127",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Rally"
+          },
+          "row": 2125,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "575922127",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1971-plymouth-cuda-426-hemi",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-22",
+      "drivetrain": "RWD",
+      "id": "sc-965318534",
+      "metaRank": 61,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "22/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Plymouth",
+            "model": "Cuda 426 Hemi",
+            "sharecode": "965 318 534",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 2127,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1971 Plymouth Cuda 426 Hemi",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 2605,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.626,
+      "shareCode": "965318534",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage-race",
+      "tunerId": "silvasuperbee"
+    }
+  ],
+  "schemaVersion": 1
+}

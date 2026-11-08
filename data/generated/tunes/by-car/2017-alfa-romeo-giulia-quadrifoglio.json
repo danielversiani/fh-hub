@@ -1,0 +1,276 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2017-alfa-romeo-giulia-quadrifoglio",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1048829a70",
+      "metaRank": 36,
+      "name": "Rapid (Narai 46.422)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Alfa Romeo Giulia Quadrifoglio",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Rapid (Narai 46.422)",
+            "Tuner": "F1R Devvo",
+            "fill": "FFFF0000"
+          },
+          "row": 767,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "f1r-devvo"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-alfa-romeo-giulia-quadrifoglio",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9076b00aac",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.7 意外地比155Q4强 弯速快 略推头",
+      "metaNotesI18n": {
+        "en": "Surprisingly better than the 155 Q4: fast in corners, slight understeer.",
+        "pt-br": "Surpreendentemente melhor que o 155 Q4: rápido nas curvas, sai um pouco de frente."
+      },
+      "metaRank": 36,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-alfa-romeo-giulia-quadrifoglio",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c0d6deb260",
+      "metaRank": 36,
+      "name": "Motorboat 1.0",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Alfa Romeo Giulia Quadrifoglio",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Motorboat 1.0",
+            "Tuner": "NDL RB38",
+            "fill": "FFFF0000"
+          },
+          "row": 768,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ndl-rb38"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-alfa-romeo-giulia-quadrifoglio",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d74179fc98",
+      "name": "Offroad / Cross Country",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Alfa Romeo Giulia Quadrifoglio",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Offroad / Cross Country",
+            "Tuner": "KillerSpectre21",
+            "fill": "FFFF0000"
+          },
+          "row": 766,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "killerspectre21"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2017-alfa-romeo-giulia-quadrifoglio",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-03",
+      "drivetrain": "AWD",
+      "id": "sc-404313295",
+      "metaRank": 36,
+      "name": "A Road - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "Giulia Quadrifoglio",
+            "sharecode": "404 313 295",
+            "suspension": "Race",
+            "tuneName": "A Road - Stock Look",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 109,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.588,
+      "shareCode": "404313295",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-alfa-romeo-giulia-quadrifoglio",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-12",
+      "drivetrain": "AWD",
+      "id": "sc-627616552",
+      "metaRank": 36,
+      "name": "A Road AWD 4.7 V8_FA",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "12/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "Giulia Quadrifoglio",
+            "sharecode": "627 616 552",
+            "suspension": "Rally",
+            "tuneName": "A Road AWD 4.7 V8_FA",
+            "tuner": "JakeGTR9",
+            "tyreCompound": "Rally"
+          },
+          "row": 108,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.589,
+      "shareCode": "627616552",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "jakegtr9"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2017-alfa-romeo-giulia-quadrifoglio",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-23",
+      "drivetrain": "RWD",
+      "id": "sc-771012637",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "23/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Alfa Romeo",
+            "model": "Giulia Quadrifoglio",
+            "sharecode": "771 012 637",
+            "suspension": "Race",
+            "tuneName": "purist",
+            "tuner": "scaans",
+            "tyreCompound": "Rally"
+          },
+          "row": 110,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "771012637",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "scaans"
+    }
+  ],
+  "schemaVersion": 1
+}

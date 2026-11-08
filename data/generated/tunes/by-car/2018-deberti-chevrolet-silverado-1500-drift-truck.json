@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-deberti-chevrolet-silverado-1500-drift-truck",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-787822347",
+      "name": "S1 Dirt / CC BoatyBoi MAX UPGRADES",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "DeBerti",
+            "model": "Chevrolet Silverado 1500 Drift Truck",
+            "sharecode": "787 822 347",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt / CC BoatyBoi MAX UPGRADES",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 641,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 DeBerti Chevrolet Silverado 1500 Drift Truck",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt / CC BoatyBoi MAX UPGRADES",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1203,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "787822347",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "esv-lawrence"
+    }
+  ],
+  "schemaVersion": 1
+}

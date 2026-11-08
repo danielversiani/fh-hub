@@ -1,0 +1,480 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2fc50c4dec",
+      "metaRank": 113,
+      "name": "A road | Purist no rc",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Ford Mustang SVT Cobra R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A road | Purist no rc",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 1531,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.513,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-40892256a1",
+      "metaRank": 113,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Ford Mustang SVT Cobra R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1533,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.513,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b20d511215",
+      "metaRank": 113,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 231,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.554,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-26",
+      "drivetrain": "RWD",
+      "id": "sc-101106144",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "101 106 144",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 1000,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2000 Ford Mustang SVT Cobra R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1532,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "101106144",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "id": "sc-144545650",
+      "name": "Ramming Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "144 545 650",
+            "suspension": "Street",
+            "tuneName": "Ramming Meta",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Rally"
+          },
+          "row": 1002,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2000 Ford Mustang SVT Cobra R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Ramming Meta",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 1530,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "144545650",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-349216633",
+      "name": "Cross Crunchy",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "349 216 633",
+            "suspension": "Street",
+            "tuneName": "Cross Crunchy",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1001,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "349216633",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "RWD",
+      "id": "sc-360961018",
+      "name": "Purist Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "360 961 018",
+            "suspension": "Street",
+            "tuneName": "Purist Stock Look",
+            "tuner": "MCR Ginza",
+            "tyreCompound": "Drift"
+          },
+          "row": 1004,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "360961018",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "mcr-ginza"
+    },
+    {
+      "buildTags": [],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-464035144",
+      "name": "sludge",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "464 035 144",
+            "suspension": "Street",
+            "tuneName": "sludge",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 999,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "464035144",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "RWD",
+      "id": "sc-535110289",
+      "name": "B Road | Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "535 110 289",
+            "suspension": "Street",
+            "tuneName": "B Road | Purist",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Standard"
+          },
+          "row": 1005,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "535110289",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-19",
+      "drivetrain": "RWD",
+      "id": "sc-647319838",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "647 319 838",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "Dumbo GT49",
+            "tyreCompound": "Standard"
+          },
+          "row": 1006,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2000 Ford Mustang SVT Cobra R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 302,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "647319838",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-20",
+      "drivetrain": "RWD",
+      "id": "sc-996913486",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "20/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang SVT Cobra R (2000)",
+            "sharecode": "996 913 486",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 1003,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "996913486",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    }
+  ],
+  "schemaVersion": 1
+}

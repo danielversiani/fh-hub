@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1995-bmw-m5",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-13",
+      "drivetrain": "AWD",
+      "id": "sc-131528753",
+      "name": "A Road for Chris! 01 Shira by the way",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "M5 (1995)",
+            "sharecode": "131 528 753",
+            "suspension": "Race",
+            "tuneName": "A Road for Chris! 01 Shira by the way",
+            "tuner": "NDL Ramen",
+            "tyreCompound": "Rally"
+          },
+          "row": 389,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.488,
+      "shareCode": "131528753",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ndl-ramen"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-bmw-m5",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-24",
+      "drivetrain": "RWD",
+      "id": "sc-172231653",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "BMW",
+            "model": "M5 (1995)",
+            "sharecode": "172 231 653",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 388,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "172231653",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-bmw-m5",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "drivetrain": "RWD",
+      "id": "sc-303567678",
+      "name": "an agent and her brunette partner",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "14/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "BMW",
+            "model": "M5 (1995)",
+            "sharecode": "303 567 678",
+            "suspension": "Street",
+            "tuneName": "an agent and her brunette partner",
+            "tuner": "Myra Driving",
+            "tyreCompound": "Standard"
+          },
+          "row": 390,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 BMW M5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "an agent and her brunette partner",
+            "Tuner": "Myra Driving",
+            "fill": "FFED7D31"
+          },
+          "row": 190,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.664,
+      "shareCode": "303567678",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "myra-driving"
+    }
+  ],
+  "schemaVersion": 1
+}

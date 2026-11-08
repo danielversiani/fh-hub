@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1997-mitsubishi-montero-evolution",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-659357bfb2",
+      "metaRank": 36,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mitsubishi-montero-evolution",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-08",
+      "drivetrain": "AWD",
+      "id": "sc-156477988",
+      "metaRank": 36,
+      "name": "CC Sprint T1 M/C V1.2",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "Montero Evolution",
+            "sharecode": "156 477 988",
+            "suspension": "Street",
+            "tuneName": "CC Sprint T1 M/C V1.2",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1863,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.545,
+      "shareCode": "156477988",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-mitsubishi-montero-evolution",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-172283444",
+      "name": "Purist Dirt Power",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "Montero Evolution",
+            "sharecode": "172 283 444",
+            "suspension": "Street",
+            "tuneName": "Purist Dirt Power",
+            "tuner": "AMS Carver",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1864,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "172283444",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-mitsubishi-montero-evolution",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-586960761",
+      "name": "Purist DIrt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "Montero Evolution",
+            "sharecode": "586 960 761",
+            "suspension": "Street",
+            "tuneName": "Purist DIrt",
+            "tuner": "AMS Carver",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1865,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "Montero Evolution",
+            "sharecode": "586 960 761",
+            "suspension": "Street",
+            "tuneName": "Purist Dirt",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1866,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "586960761",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "ams-carver"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,475 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-0a6376ae63",
+      "metaRank": 23,
+      "name": "my little miot",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "my little miot",
+            "Tuner": "Aeroplane7616",
+            "fill": "theme:7"
+          },
+          "row": 61,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-26814f4b08",
+      "metaRank": 161,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 329,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.357,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-877bed608c",
+      "metaRank": 23,
+      "name": "C Street Purist + kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "Purist, bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Street Purist + kit",
+            "Tuner": "DRX Q3",
+            "fill": "theme:7"
+          },
+          "row": 62,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-948eeb23d0",
+      "name": "K20 AWD Dirt (M) No Aero",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "K20 AWD Dirt (M) No Aero",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 415,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c3a1e8c53e",
+      "name": "Chill C Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Chill C Dirt",
+            "Tuner": "TheDannny",
+            "fill": "theme:7"
+          },
+          "row": 60,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-ffb2543df3",
+      "lapRefs": [
+        {
+          "time": "52.6",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速路52.6 高速弯和中后段加速优势",
+      "metaNotesI18n": {
+        "en": "An edge in fast corners and in mid and top-end acceleration.",
+        "pt-br": "Vantagem em curvas rápidas e na aceleração média e alta."
+      },
+      "metaRank": 23,
+      "name": "C road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 49,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-19",
+      "drivetrain": "RWD",
+      "id": "sc-103857356",
+      "name": "ep3 engine street cage no aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "MX-5 Miata",
+            "sharecode": "103 857 356",
+            "suspension": "Street",
+            "tuneName": "ep3 engine street cage no aero",
+            "tuner": "Dumbo GT49",
+            "tyreCompound": "Street"
+          },
+          "row": 1593,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "ep3 engine street cage no aero",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 416,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "103857356",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-28",
+      "drivetrain": "RWD",
+      "id": "sc-105014538",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "MX-5 Miata",
+            "sharecode": "105 014 538",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 1590,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "105014538",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-16",
+      "drivetrain": "AWD",
+      "id": "sc-152262816",
+      "name": "Dirty MX5 WB",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "16/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "MX-5 Miata",
+            "sharecode": "152 262 816",
+            "suspension": "Street",
+            "tuneName": "Dirty MX5 WB",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1592,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "Rocket Bunny bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty MX5 WB",
+            "Tuner": "Cast Haste",
+            "fill": "FFED7D31"
+          },
+          "row": 414,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.679,
+      "shareCode": "152262816",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-17",
+      "drivetrain": "RWD",
+      "id": "sc-178350625",
+      "name": "Purist w/kit",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "17/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "MX-5 Miata",
+            "sharecode": "178 350 625",
+            "suspension": "Street",
+            "tuneName": "Purist w/kit",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Street"
+          },
+          "row": 1594,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "Purist, Rocket Bunny bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist w/kit",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 417,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "178350625",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-30",
+      "drivetrain": "AWD",
+      "id": "sc-264523396",
+      "name": "A Dirt Nug",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "MX-5 Miata",
+            "sharecode": "264 523 396",
+            "suspension": "Rally",
+            "tuneName": "A Dirt Nug",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1591,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Nug",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2137,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "264523396",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}

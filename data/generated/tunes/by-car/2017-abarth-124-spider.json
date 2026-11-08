@@ -1,0 +1,574 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-0e459ac00b",
+      "name": "B Road AWD Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road AWD Grip",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 121,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-18fd5da4a9",
+      "name": "Stock Look Road Allround T2+ Shirakawa 07.2 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look Road Allround T2+ Shirakawa 07.2 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 124,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-48a9d484d8",
+      "metaRank": 46,
+      "name": "B Dirt AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt AWD",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 119,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-bbc96acd3e",
+      "metaRank": 46,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 98,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-bd512f945d",
+      "name": "carver said this does 1 05 shira",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "carver said this does 1 05 shira",
+            "Tuner": "CTE levi",
+            "fill": "FFED7D31"
+          },
+          "row": 125,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cte-levi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-23",
+      "drivetrain": "AWD",
+      "id": "sc-144784890",
+      "metaRank": 46,
+      "name": "Solid B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "23/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "144 784 890",
+            "suspension": "Street",
+            "tuneName": "Solid B Dirt",
+            "tuner": "Korrrupt EU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 10,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "144784890",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "korrrupt-eu"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-27",
+      "drivetrain": "AWD",
+      "id": "sc-158891817",
+      "name": "Stock Look Dirt T1.5 Sunflower 59.9 A/M",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "27/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "158 891 817",
+            "suspension": "Street",
+            "tuneName": "Stock Look Dirt T1.5 Sunflower 59.9 A/M",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 8,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.499,
+      "shareCode": "158891817",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-23",
+      "drivetrain": "AWD",
+      "id": "sc-179823416",
+      "name": "B Road - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "23/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "179 823 416",
+            "suspension": "Street",
+            "tuneName": "B Road - Stock Look",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 9,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road - Stock Look",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 122,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.673,
+      "shareCode": "179823416",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2017-abarth-124-spider",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-23",
+      "drivetrain": "RWD",
+      "id": "sc-298593020",
+      "name": "B Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "23/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "298 593 020",
+            "suspension": "Street",
+            "tuneName": "B Road Purist",
+            "tuner": "Noa Miyako",
+            "tyreCompound": "Rally"
+          },
+          "row": 11,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "Purist",
+            "Design": "SPIDER VIBRANT",
+            "Designer": "AcidAltis",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Road Purist",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 126,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.673,
+      "shareCode": "298593020",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-24",
+      "drivetrain": "AWD",
+      "id": "sc-385914349",
+      "name": "A dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "385 914 349",
+            "suspension": "Street",
+            "tuneName": "A dirt",
+            "tuner": "Promethiium",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 7,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "ABARTH 124 RALLY",
+            "Designer": "EaglezRock",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A dirt",
+            "Tuner": "Promethiium",
+            "fill": "FFFF0000"
+          },
+          "row": 705,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.673,
+      "shareCode": "385914349",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "promethiium"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-23",
+      "drivetrain": "AWD",
+      "id": "sc-626661878",
+      "name": "Road Allround 07.4 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "23/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "626 661 878",
+            "suspension": "Street",
+            "tuneName": "Road Allround 07.4 Shirakawa",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Standard"
+          },
+          "row": 13,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "NOKOTAN",
+            "Designer": "DEER Nokotan",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 07.4 Shirakawa",
+            "Tuner": "zombiejesus52",
+            "fill": "FFED7D31"
+          },
+          "row": 123,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.673,
+      "shareCode": "626661878",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-26",
+      "drivetrain": "AWD",
+      "id": "sc-773309331",
+      "name": "Road AWD Full Aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "773 309 331",
+            "suspension": "Street",
+            "tuneName": "Road AWD Full Aero",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 6,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road AWD Full Aero",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 706,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "773309331",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-23",
+      "drivetrain": "AWD",
+      "id": "sc-790675879",
+      "metaRank": 46,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "23/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Abarth",
+            "model": "124 Spider",
+            "sharecode": "790 675 879",
+            "suspension": "Street",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 12,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Abarth 124 Spider",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 120,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.578,
+      "shareCode": "790675879",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

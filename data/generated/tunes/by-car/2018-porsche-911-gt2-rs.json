@@ -1,0 +1,292 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-porsche-911-gt2-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-07a7258ebe",
+      "name": "A road | 1:01.8 Shira | AWD 4.0L F6 CC tires",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Porsche 911 GT2 RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road | 1:01.8 Shira | AWD 4.0L F6 CC tires",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 2650,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2018-porsche-911-gt2-rs",
+      "categories": [
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-7425c3964b",
+      "name": "57.5 Shira / Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Porsche 911 GT2 RS",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "57.5 Shira / Purist",
+            "Tuner": "VER Polaksz",
+            "fill": "FF7030A0"
+          },
+          "row": 2655,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ver-polaksz"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2018-porsche-911-gt2-rs",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-905771183f",
+      "name": "Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Porsche 911 GT2 RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look",
+            "Tuner": "Aeroplane7616",
+            "fill": "FF7030A0"
+          },
+          "row": 2652,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2018-porsche-911-gt2-rs",
+      "categories": [
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-e3ca88308c",
+      "name": "S1 Purist | 17.2 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Porsche 911 GT2 RS",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Purist | 17.2 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2653,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-porsche-911-gt2-rs",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-172013356",
+      "name": "S1 road bodykit RV12",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Porsche",
+            "model": "911 GT2 RS",
+            "sharecode": "172 013 356",
+            "suspension": "Race",
+            "tuneName": "S1 road bodykit RV12",
+            "tuner": "Inayamei",
+            "tyreCompound": "Rally"
+          },
+          "row": 2175,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Porsche 911 GT2 RS",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 road bodykit RV12",
+            "Tuner": "Inayamei",
+            "fill": "FF7030A0"
+          },
+          "row": 2654,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "172013356",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-porsche-911-gt2-rs",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-22",
+      "drivetrain": "AWD",
+      "id": "sc-562240281",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "22/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Porsche",
+            "model": "911 GT2 RS",
+            "sharecode": "562 240 281",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2176,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Porsche 911 GT2 RS",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2651,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "562240281",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-porsche-911-gt2-rs",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "Racing V12",
+      "id": "sc-683805287",
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Widebody",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Racing V12",
+            "Make": "Porsche",
+            "Model": "911 GT2 RS",
+            "Road Surface": "Road",
+            "Share Code": "683805287",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2018"
+          },
+          "row": 66,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "683805287",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-audi-rs-6-avant",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-4edf694067",
+      "name": "OME+ widebody",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Audi RS 6 Avant",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "OME+ widebody",
+            "Tuner": "Inayamei",
+            "fill": "FFFF0000"
+          },
+          "row": 925,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-audi-rs-6-avant",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-26",
+      "drivetrain": "AWD",
+      "id": "sc-145980295",
+      "name": "Davide OEM+",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 6 Avant (2015)",
+            "sharecode": "145 980 295",
+            "suspension": "Sport",
+            "tuneName": "Davide OEM+",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 257,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Audi RS 6 Avant",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Davide OEM+",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 926,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "145980295",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-audi-rs-6-avant",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-09",
+      "drivetrain": "AWD",
+      "id": "sc-172597990",
+      "name": "A Road RS5 V8 RA",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 6 Avant (2015)",
+            "sharecode": "172 597 990",
+            "suspension": "Sport",
+            "tuneName": "A Road RS5 V8 RA",
+            "tuner": "JakeGTR9",
+            "tyreCompound": "Rally"
+          },
+          "row": 256,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "172597990",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "jakegtr9"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-audi-rs-6-avant",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "id": "sc-854462944",
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 6 Avant (2015)",
+            "sharecode": "854 462 944",
+            "suspension": "Sport",
+            "tuneName": "A road",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 255,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Audi RS 6 Avant",
+            "Comment": "Police lights",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 924,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "854462944",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    }
+  ],
+  "schemaVersion": 1
+}

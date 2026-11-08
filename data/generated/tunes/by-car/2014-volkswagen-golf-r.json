@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2014-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4cff7db98c",
+      "lapRefs": [
+        {
+          "time": "1:01.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:01.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 129,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 263,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2014-volkswagen-golf-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-100776409",
+      "name": "B Dirt | Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2014)",
+            "sharecode": "100 776 409",
+            "suspension": "Street",
+            "tuneName": "B Dirt | Purist",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2624,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2014 Volkswagen Golf R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Purist",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 688,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "100776409",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-volkswagen-golf-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-174508013",
+      "name": "Gregory Golf (B Dirt)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2014)",
+            "sharecode": "174 508 013",
+            "suspension": "Street",
+            "tuneName": "Gregory Golf (B Dirt)",
+            "tuner": "ShaggyScroll660",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2625,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2014 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Gregory Golf (B Dirt)",
+            "Tuner": "ShaggyScroll660",
+            "fill": "FFED7D31"
+          },
+          "row": 689,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "174508013",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "shaggyscroll660"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-07",
+      "drivetrain": "AWD",
+      "id": "sc-522117237",
+      "metaRank": 129,
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "07/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2014)",
+            "sharecode": "522 117 237",
+            "suspension": "Street",
+            "tuneName": "A road",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2623,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2014 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2990,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "522117237",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    }
+  ],
+  "schemaVersion": 1
+}

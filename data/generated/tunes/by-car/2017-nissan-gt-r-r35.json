@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2017-nissan-gt-r-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-ebb505174c",
+      "lapRefs": [
+        {
+          "time": "59.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 26,
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Nissan GT-R (R35)",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2558,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2017-nissan-gt-r-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-06",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-878434927",
+      "lapRefs": [
+        {
+          "time": "59.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 26,
+      "name": "A Road Strong - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "GT-R (R35)",
+            "sharecode": "878 434 927",
+            "suspension": "Sport",
+            "tuneName": "A Road Strong - Stock Look",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1946,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.698,
+      "shareCode": "878434927",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

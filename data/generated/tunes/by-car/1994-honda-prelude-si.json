@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1994-honda-prelude-si",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-4f11ca7bc2",
+      "lapRefs": [
+        {
+          "time": "1:07.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:07.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 100,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 206,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-honda-prelude-si",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-05",
+      "drivetrain": "FWD",
+      "id": "sc-145910160",
+      "metaRank": 100,
+      "name": "B Road K20",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "05/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Si",
+            "sharecode": "145 910 160",
+            "suspension": "Street",
+            "tuneName": "B Road K20",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 1215,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.529,
+      "shareCode": "145910160",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-honda-prelude-si",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-17",
+      "drivetrain": "FWD",
+      "id": "sc-233233605",
+      "metaRank": 100,
+      "name": "K20A Road No Aero V2.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "17/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Si",
+            "sharecode": "233 233 605",
+            "suspension": "Stock",
+            "tuneName": "K20A Road No Aero V2.1",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1214,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.53,
+      "shareCode": "233233605",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1994-honda-prelude-si",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-10",
+      "drivetrain": "AWD",
+      "id": "sc-655119817",
+      "name": "K20A Dirt Stock Look V1.3",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "10/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Prelude Si",
+            "sharecode": "655 119 817",
+            "suspension": "Stock",
+            "tuneName": "K20A Dirt Stock Look V1.3",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1213,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.495,
+      "shareCode": "655119817",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    }
+  ],
+  "schemaVersion": 1
+}

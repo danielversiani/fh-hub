@@ -1,0 +1,652 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2650e01a72",
+      "metaRank": 22,
+      "name": "C Class Road Purist Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Holden Monaro GTS 327",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Class Road Purist Stock Look",
+            "Tuner": "GamerLogicFTW",
+            "fill": "theme:7"
+          },
+          "row": 48,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-2db8574b4b",
+      "metaRank": 19,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 41,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-54d782032f",
+      "metaRank": 15,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 33,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5eba899e87",
+      "metaRank": 19,
+      "name": "B Class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Holden Monaro GTS 327",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Class Dirt",
+            "Tuner": "GamerLogicFTW",
+            "fill": "FFED7D31"
+          },
+          "row": 325,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.588,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-785dddd52b",
+      "metaRank": 19,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 41,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7931f3c0aa",
+      "lapRefs": [
+        {
+          "time": "1:00.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 72,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 148,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-a43ff7445f",
+      "metaRank": 17,
+      "name": "B Class Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Holden Monaro GTS 327",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Class Road",
+            "Tuner": "GamerLogicFTW",
+            "fill": "FFED7D31"
+          },
+          "row": 326,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-b116d1e38a",
+      "lapRefs": [
+        {
+          "time": "1:11.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:11.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 22,
+      "name": "C road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 47,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-f7d6d1810d",
+      "lapRefs": [
+        {
+          "time": "1:04.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 17,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-29",
+      "drivetrain": "AWD",
+      "id": "sc-104921100",
+      "metaRank": 19,
+      "name": "Strong B Dirt (56s Sekibe)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Holden",
+            "model": "Monaro GTS 327",
+            "sharecode": "104 921 100",
+            "suspension": "Stock",
+            "tuneName": "Strong B Dirt (56s Sekibe)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1097,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.6,
+      "shareCode": "104921100",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-29",
+      "drivetrain": "AWD",
+      "id": "sc-111070484",
+      "metaRank": 19,
+      "name": "B - Power ( AWD )",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Holden",
+            "model": "Monaro GTS 327",
+            "sharecode": "111 070 484",
+            "suspension": "Stock",
+            "tuneName": "B - Power ( AWD )",
+            "tuner": "ESV Rapture",
+            "tyreCompound": "Rally"
+          },
+          "row": 1094,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.6,
+      "shareCode": "111070484",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-29",
+      "drivetrain": "AWD",
+      "id": "sc-130247054",
+      "metaRank": 15,
+      "name": "A Dirt VV10 Slop (Low53/High52 Sekibe)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Holden",
+            "model": "Monaro GTS 327",
+            "sharecode": "130 247 054",
+            "suspension": "Rally",
+            "tuneName": "A Dirt VV10 Slop (Low53/High52 Sekibe)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1092,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.6,
+      "shareCode": "130247054",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-29",
+      "drivetrain": "RWD",
+      "id": "sc-166472293",
+      "metaRank": 17,
+      "name": "purist rc",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/10/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Holden",
+            "model": "Monaro GTS 327",
+            "sharecode": "166 472 293",
+            "suspension": "Street",
+            "tuneName": "purist rc",
+            "tuner": "Myra Driving",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 1096,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1968 Holden Monaro GTS 327",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist rc",
+            "Tuner": "Myra Driving",
+            "fill": "FFED7D31"
+          },
+          "row": 328,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.624,
+      "shareCode": "166472293",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage-race",
+      "tunerId": "myra-driving"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-29",
+      "drivetrain": "RWD",
+      "id": "sc-172912327",
+      "metaRank": 17,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/10/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Holden",
+            "model": "Monaro GTS 327",
+            "sharecode": "172 912 327",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 1093,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1968 Holden Monaro GTS 327",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 327,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.624,
+      "shareCode": "172912327",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage-race",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-10-30",
+      "drivetrain": "AWD",
+      "id": "sc-184102658",
+      "name": "Oi oi vegemite kangaroos fair dinkum bogan let's go to maccas",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Holden",
+            "model": "Monaro GTS 327",
+            "sharecode": "184 102 658",
+            "suspension": "Stock",
+            "tuneName": "Oi oi vegemite kangaroos fair dinkum bogan let's go to maccas",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1095,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.514,
+      "shareCode": "184102658",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-holden-monaro-gts-327",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-29",
+      "drivetrain": "AWD",
+      "id": "sc-746798218",
+      "metaRank": 19,
+      "name": "B Dirt META Handbrake Abuse (1:03.4 Sunflower)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Holden",
+            "model": "Monaro GTS 327",
+            "sharecode": "746 798 218",
+            "suspension": "Stock",
+            "tuneName": "B Dirt META Handbrake Abuse (1:03.4 Sunflower)",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1098,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.6,
+      "shareCode": "746798218",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    }
+  ],
+  "schemaVersion": 1
+}

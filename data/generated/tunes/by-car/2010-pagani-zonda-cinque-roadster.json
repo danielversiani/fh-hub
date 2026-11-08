@@ -1,0 +1,433 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-6537f0ada0",
+      "metaRank": 95,
+      "name": "Eh blsschen Freurdschaft ist mir mehr wert als Bewunderung",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Eh blsschen Freurdschaft ist mir mehr wert als Bewunderung",
+            "Tuner": "F1R Kilian",
+            "fill": "FF7030A0"
+          },
+          "row": 2587,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a63052a837",
+      "lapRefs": [
+        {
+          "time": "55.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 95,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 195,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-dab8534a3e",
+      "lapRefs": [
+        {
+          "time": "55.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 95,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 195,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "sc-101369732",
+      "name": "CeIeb 17",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Make": "Pagani",
+            "Model": "Zonda Cinque Roadster",
+            "Road Surface": "Road",
+            "Share Code": "101369732",
+            "Tires": "Super Slicks",
+            "Tune Name": "CeIeb 17",
+            "Year": "2010"
+          },
+          "row": 62,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "101369732",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-20",
+      "drivetrain": "RWD",
+      "id": "sc-107226992",
+      "name": "Ein bisschen Freundschaft ist mir mehr wert als Bewunderung",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "20/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Pagani",
+            "model": "Zonda Cinque Roadster",
+            "sharecode": "107 226 992",
+            "suspension": "Race",
+            "tuneName": "Ein bisschen Freundschaft ist mir mehr wert als Bewunderung",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Rally"
+          },
+          "row": 2102,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "107226992",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-13",
+      "drivetrain": "AWD",
+      "id": "sc-113413896",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "13/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Pagani",
+            "model": "Zonda Cinque Roadster",
+            "sharecode": "113 413 896",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2103,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2584,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "113413896",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-03",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-162578580",
+      "lapRefs": [
+        {
+          "time": "55.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 95,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "03/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Pagani",
+            "model": "Zonda Cinque Roadster",
+            "sharecode": "162 578 580",
+            "suspension": "Rally",
+            "tuneName": "S1 Road",
+            "tuner": "K1Z Howzer",
+            "tyreCompound": "Rally"
+          },
+          "row": 2100,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF7030A0"
+          },
+          "row": 2585,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "162578580",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-06-12",
+      "drivetrain": "AWD",
+      "id": "sc-163950443",
+      "name": "S2 Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Pagani",
+            "model": "Zonda Cinque Roadster",
+            "sharecode": "163 950 443",
+            "suspension": "Race",
+            "tuneName": "S2 Grip",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Slick"
+          },
+          "row": 2104,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Grip",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF0070C0"
+          },
+          "row": 2588,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "163950443",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-08",
+      "drivetrain": "AWD",
+      "id": "sc-183497508",
+      "name": "Stock Rims",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "08/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Pagani",
+            "model": "Zonda Cinque Roadster",
+            "sharecode": "183 497 508",
+            "suspension": "Race",
+            "tuneName": "Stock Rims",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Rally"
+          },
+          "row": 2101,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Stock Rims",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FF7030A0"
+          },
+          "row": 2586,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "183497508",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-jumpy"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,666 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-10f05bd7ea",
+      "name": "Purist B Road - Seasonal",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist B Road - Seasonal",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 273,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-50e7633c8b",
+      "metaRank": 110,
+      "name": "CC Tires AWD (bleh)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "CC Tires AWD (bleh)",
+            "Tuner": "Rashed3030",
+            "fill": "FFFF0000"
+          },
+          "row": 1263,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "rashed3030"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-8105d8a13a",
+      "metaRank": 110,
+      "name": "Pope's Purist Viper",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Pope's Purist Viper",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFFF0000"
+          },
+          "row": 1266,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-95c3e9f56c",
+      "metaRank": 110,
+      "name": "Rally Tires AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Rally Tires AWD",
+            "Tuner": "Rashed3030",
+            "fill": "FFFF0000"
+          },
+          "row": 1264,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "rashed3030"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c2fea94074",
+      "metaRank": 110,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 225,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-df95912e98",
+      "metaRank": 110,
+      "name": "1:02.161 Shirakawa | Stock Wheels Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "1:02.161 Shirakawa | Stock Wheels Purist",
+            "Tuner": "F1R Kilian",
+            "fill": "FFFF0000"
+          },
+          "row": 1267,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-03",
+      "drivetrain": "AWD",
+      "id": "sc-115162251",
+      "name": "Stock look/engine Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "115 162 251",
+            "suspension": "Sport",
+            "tuneName": "Stock look/engine Dirt",
+            "tuner": "CTE mag",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 735,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "115162251",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cte-mag"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-115424048",
+      "name": "A Dirt (But it doesn't have full centri)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "115 424 048",
+            "suspension": "Rally",
+            "tuneName": "A Dirt (But it doesn't have full centri)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 738,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "115424048",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "RWD",
+      "id": "sc-150014581",
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "150 014 581",
+            "suspension": "Sport",
+            "tuneName": "Road Purist",
+            "tuner": "LogikJ",
+            "tyreCompound": "Standard"
+          },
+          "row": 742,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "150014581",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-154895331",
+      "name": "Dirty Snake with 2 ARBs",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "154 895 331",
+            "suspension": "Rally",
+            "tuneName": "Dirty Snake with 2 ARBs",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 734,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "154895331",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-27",
+      "drivetrain": "RWD",
+      "id": "sc-160861319",
+      "name": "Purist Street / Sprints on Offroad Tires 1.7G",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "27/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "160 861 319",
+            "suspension": "Sport",
+            "tuneName": "Purist Street / Sprints on Offroad Tires 1.7G",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 736,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Street / Sprints on OffRoad Tires 1.7G",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1265,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "160861319",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-163135835",
+      "name": "A Dirt (But it has full Centri)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "163 135 835",
+            "suspension": "Sport",
+            "tuneName": "A Dirt (But it has full Centri)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 739,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "163135835",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-24",
+      "drivetrain": "RWD",
+      "id": "sc-166280358",
+      "metaRank": 110,
+      "name": "A Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "166 280 358",
+            "suspension": "Race",
+            "tuneName": "A Road Purist",
+            "tuner": "VNX Ruinz",
+            "tyreCompound": "Rally"
+          },
+          "row": 740,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.556,
+      "shareCode": "166280358",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "RWD",
+      "id": "sc-173361804",
+      "name": "B Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "173 361 804",
+            "suspension": "Sport",
+            "tuneName": "B Road",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Standard"
+          },
+          "row": 743,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "173361804",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "RWD",
+      "id": "sc-496686222",
+      "name": "B600 Purist for Sprints / Street",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "496 686 222",
+            "suspension": "Sport",
+            "tuneName": "B600 Purist for Sprints / Street",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Standard"
+          },
+          "row": 741,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B600 Purist for Sprints / Street",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 272,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "496686222",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-dodge-viper-gts-acr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-16",
+      "drivetrain": "RWD",
+      "id": "sc-547975104",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Dodge",
+            "model": "Viper GTS ACR",
+            "sharecode": "547 975 104",
+            "suspension": "Sport",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Rally"
+          },
+          "row": 737,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1999 Dodge Viper GTS ACR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1268,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "547975104",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "silvasuperbee"
+    }
+  ],
+  "schemaVersion": 1
+}

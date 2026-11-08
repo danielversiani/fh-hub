@@ -1,0 +1,262 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1984-honda-civic-crx-mugen",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-856359e807",
+      "lapRefs": [
+        {
+          "time": "1:10.5",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:10.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 10,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 23,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-civic-crx-mugen",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c4384200d8",
+      "lapRefs": [
+        {
+          "time": "1:05.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 51,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 106,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "msr-ane3tr"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1984-honda-civic-crx-mugen",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-e60fa49537",
+      "metaRank": 19,
+      "name": "FWD VTEC Stock Look | 06.6 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda Civic CRX Mugen",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD VTEC Stock Look | 06.6 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 342,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1984-honda-civic-crx-mugen",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-16",
+      "drivetrain": "FWD",
+      "id": "sc-121258748",
+      "metaRank": 19,
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "16/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Civic CRX Mugen",
+            "sharecode": "121 258 748",
+            "suspension": "Street",
+            "tuneName": "Road Purist",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1137,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.625,
+      "shareCode": "121258748",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-civic-crx-mugen",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-30",
+      "drivetrain": "AWD",
+      "id": "sc-178756021",
+      "name": "A - Togue ( Mt Haruna 2:59:1)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Civic CRX Mugen",
+            "sharecode": "178 756 021",
+            "suspension": "Race",
+            "tuneName": "A - Togue ( Mt Haruna 2:59:1)",
+            "tuner": "ESV Rapture",
+            "tyreCompound": "Rally"
+          },
+          "row": 1136,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "178756021",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-civic-crx-mugen",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-10",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "sc-976776210",
+      "lapRefs": [
+        {
+          "time": "1:04.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 19,
+      "name": "B Road Meta Strong V2 Shirakawa 01:04.8",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "10/08/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Civic CRX Mugen",
+            "sharecode": "976 776 210",
+            "suspension": "Street",
+            "tuneName": "B Road Meta Strong V2 Shirakawa 01:04.8",
+            "tuner": "Noa Miyako",
+            "tyreCompound": "Rally"
+          },
+          "row": 1138,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.692,
+      "shareCode": "976776210",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    }
+  ],
+  "schemaVersion": 1
+}

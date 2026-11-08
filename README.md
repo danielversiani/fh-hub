@@ -1,4 +1,4 @@
-# FH6 Hub (nome provisório)
+# Forza Paddock
 
 Portal da comunidade de **Forza Horizon 6** em PT-BR e EN, com:
 - tunes de todos os carros agregados de várias planilhas de tunadores, atualizados automaticamente;

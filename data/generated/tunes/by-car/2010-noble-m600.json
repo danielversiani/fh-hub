@@ -1,0 +1,332 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2010-noble-m600",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-05-26",
+      "drivetrain": "AWD",
+      "id": "sc-108002158",
+      "metaRank": 69,
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "26/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Noble",
+            "model": "M600",
+            "sharecode": "108 002 158",
+            "suspension": "Race",
+            "tuneName": "S1 road",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2085,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2010 Noble M600",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 2579,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.64,
+      "shareCode": "108002158",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-noble-m600",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-11",
+      "drivetrain": "RWD",
+      "id": "sc-119162150",
+      "name": "400kmh Sprint Beast",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Noble",
+            "model": "M600",
+            "sharecode": "119 162 150",
+            "suspension": "Race",
+            "tuneName": "400kmh Sprint Beast",
+            "tuner": "Koarsse",
+            "tyreCompound": "Drift"
+          },
+          "row": 2087,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.487,
+      "shareCode": "119162150",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "koarsse"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2010-noble-m600",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-09-10",
+      "drivetrain": "RWD",
+      "id": "sc-128323075",
+      "metaRank": 69,
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "10/09/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Noble",
+            "model": "M600",
+            "sharecode": "128 323 075",
+            "suspension": "Rally",
+            "tuneName": "Road Purist",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 2089,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "128323075",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-noble-m600",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-01",
+      "drivetrain": "AWD",
+      "id": "sc-155287530",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "01/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Noble",
+            "model": "M600",
+            "sharecode": "155 287 530",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2086,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "155287530",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-noble-m600",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-07",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "4.7L V12",
+      "id": "sc-180888243",
+      "lapRefs": [
+        {
+          "time": "55.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 69,
+      "name": "Road Allround 55.1 Shira Clean",
+      "notes": "brakes are weak and stopping distance is very long",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "07/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Noble",
+            "model": "M600",
+            "sharecode": "180 888 243",
+            "suspension": "Rally",
+            "tuneName": "Road Allround 55.1 Shira Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 2088,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Noble M600",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "4.7L V12",
+            "Laptime": "0:55.121",
+            "Notes": "brakes are weak and stopping distance is very long",
+            "Tier": "Decent < 55.500",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround 55.1 Shira Clean"
+          },
+          "row": 38,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.691,
+      "shareCode": "180888243",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-noble-m600",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-23",
+      "drivetrain": "AWD",
+      "id": "sc-235548615",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "23/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Noble",
+            "model": "M600",
+            "sharecode": "235 548 615",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "Whatuplosers917",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2090,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "235548615",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-noble-m600",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-03",
+      "drivetrain": "AWD",
+      "id": "sc-737849253",
+      "metaRank": 69,
+      "name": "S1 Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "03/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Noble",
+            "model": "M600",
+            "sharecode": "737 849 253",
+            "suspension": "Rally",
+            "tuneName": "S1 Road Allround",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Rally"
+          },
+          "row": 2091,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.568,
+      "shareCode": "737849253",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zombiejesus52"
+    }
+  ],
+  "schemaVersion": 1
+}

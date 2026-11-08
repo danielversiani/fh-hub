@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "carId": "1989-nissan-s-cargo",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s07-winter--weekly-challenge--car-go-brrr",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.413,
+      "seasonId": "s07-winter",
+      "tuneId": "nc-747728dcd2"
+    },
+    {
+      "carId": "1987-nissan-skyline-gts-r",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s07-winter--championship--city-skyline",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.638,
+      "seasonId": "s07-winter",
+      "tuneId": "nc-86e6a6bebf"
+    },
+    {
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s07-winter--championship--city-skyline",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.526,
+      "seasonId": "s07-winter",
+      "tuneId": "nc-2ce090c7af"
+    },
+    {
+      "carId": "1992-nissan-skyline-gt-r",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s07-winter--championship--city-skyline",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1.5"
+          }
+        }
+      ],
+      "score": 0.601,
+      "seasonId": "s07-winter",
+      "tuneId": "nc-095fe29977"
+    },
+    {
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s07-winter--championship--city-skyline",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.575,
+      "seasonId": "s07-winter",
+      "tuneId": "sc-167218213"
+    },
+    {
+      "carId": "1992-nissan-skyline-gt-r",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s07-winter--championship--city-skyline",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1.5"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.645,
+      "seasonId": "s07-winter",
+      "tuneId": "sc-126639648"
+    },
+    {
+      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s07-winter--championship--raring-to-go",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.545,
+      "seasonId": "s07-winter",
+      "tuneId": "nc-8864ebfaf9"
+    },
+    {
+      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s07-winter--championship--raring-to-go",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.485,
+      "seasonId": "s07-winter",
+      "tuneId": "nc-4cff6b811d"
+    },
+    {
+      "carId": "1962-ferrari-250-gt-berlinetta-lusso",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s07-winter--championship--raring-to-go",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.672,
+      "seasonId": "s07-winter",
+      "tuneId": "sc-285699120"
+    }
+  ],
+  "schemaVersion": 1
+}

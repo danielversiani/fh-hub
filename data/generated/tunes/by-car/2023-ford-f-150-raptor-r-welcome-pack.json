@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2023-ford-f-150-raptor-r-welcome-pack",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-520122127d",
+      "metaNotes": "纯玩具车 没什么强度",
+      "metaNotesI18n": {
+        "en": "Just a toy, not competitive.",
+        "pt-br": "Puro brinquedo, sem força para competir."
+      },
+      "metaRank": 11,
+      "name": "S1 cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "noa-miyako",
+          "tab": "s1-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.46,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-ford-f-150-raptor-r-welcome-pack",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-120082150",
+      "name": "Great Offroader V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "18/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "F-150 Raptor R \"Welcome Pack\"",
+            "sharecode": "120 082 150",
+            "suspension": "Rally",
+            "tuneName": "Great Offroader V2",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 917,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "120082150",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-ford-f-150-raptor-r-welcome-pack",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-602178328",
+      "name": "B Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "18/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "F-150 Raptor R \"Welcome Pack\"",
+            "sharecode": "602 178 328",
+            "suspension": "Race",
+            "tuneName": "B Dirt/CC",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 918,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "602178328",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-ford-f-150-raptor-r-welcome-pack",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-833499689",
+      "name": "A Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "F-150 Raptor R \"Welcome Pack\"",
+            "sharecode": "833 499 689",
+            "suspension": "Race",
+            "tuneName": "A Dirt/CC",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 916,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "833499689",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-ford-f-150-raptor-r-welcome-pack",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-13",
+      "drivetrain": "AWD",
+      "id": "sc-899582977",
+      "metaRank": 11,
+      "name": "S1 CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "13/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "F-150 Raptor R \"Welcome Pack\"",
+            "sharecode": "899 582 977",
+            "suspension": "Race",
+            "tuneName": "S1 CC",
+            "tuner": "ESV Mars",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 919,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.44,
+      "shareCode": "899582977",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "esv-mars"
+    }
+  ],
+  "schemaVersion": 1
+}

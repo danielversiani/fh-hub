@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-monza-sp2",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2dcc4f2f77",
+      "name": "S1 DirtyBoi",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ferrari Monza SP2",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 DirtyBoi",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1444,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-monza-sp2",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-19",
+      "drivetrain": "AWD",
+      "id": "sc-177367510",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "19/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Monza SP2",
+            "sharecode": "177 367 510",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 874,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.489,
+      "shareCode": "177367510",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2019-ferrari-monza-sp2",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-09-11",
+      "drivetrain": "AWD",
+      "id": "sc-306724336",
+      "name": "Stock Look CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Monza SP2",
+            "sharecode": "306 724 336",
+            "suspension": "Rally",
+            "tuneName": "Stock Look CC",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 875,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.502,
+      "shareCode": "306724336",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    }
+  ],
+  "schemaVersion": 1
+}

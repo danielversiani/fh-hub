@@ -1,0 +1,385 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-57167609b8",
+      "name": "A Class - Road Racing (1:00.6 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ferrari Roma",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class - Road Racing (1:00.6 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FFFF0000"
+          },
+          "row": 1450,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-22",
+      "drivetrain": "AWD",
+      "id": "sc-123470665",
+      "name": "A Class - Road Racing - 10 Gears (1:00.6 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "22/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "123 470 665",
+            "suspension": "Sport",
+            "tuneName": "A Class - Road Racing - 10 Gears (1:00.6 Shirakawa Circuit)",
+            "tuner": "VNX Ardent",
+            "tyreCompound": "Rally"
+          },
+          "row": 889,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "123470665",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-01",
+      "drivetrain": "AWD",
+      "id": "sc-124345362",
+      "name": "a dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "124 345 362",
+            "suspension": "Sport",
+            "tuneName": "a dirt",
+            "tuner": "CTE mag",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 884,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "124345362",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cte-mag"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-09",
+      "drivetrain": "AWD",
+      "id": "sc-125041512",
+      "name": "A Road AWD Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "125 041 512",
+            "suspension": "Sport",
+            "tuneName": "A Road AWD Stock Look",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 887,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "125041512",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-04",
+      "drivetrain": "AWD",
+      "id": "sc-140260193",
+      "name": "Road Allround Easy",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "04/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "140 260 193",
+            "suspension": "Race",
+            "tuneName": "Road Allround Easy",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 890,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.479,
+      "shareCode": "140260193",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "semi-slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-09",
+      "drivetrain": "AWD",
+      "id": "sc-149347530",
+      "name": "S1 Road AWD",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "09/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "149 347 530",
+            "suspension": "Race",
+            "tuneName": "S1 Road AWD",
+            "tuner": "LogikJ",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 891,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "149347530",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "semi-slick",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-05",
+      "drivetrain": "AWD",
+      "id": "sc-463626722",
+      "name": "a road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "05/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "463 626 722",
+            "suspension": "Rally",
+            "tuneName": "a road",
+            "tuner": "KorbenDallas709",
+            "tyreCompound": "Rally"
+          },
+          "row": 886,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Ferrari Roma",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "a road",
+            "Tuner": "KorbenDallas709",
+            "fill": "FFFF0000"
+          },
+          "row": 1449,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "463626722",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "korbendallas709"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-05",
+      "drivetrain": "RWD",
+      "id": "sc-483121128",
+      "name": "A700 Road | No Aero | 48.6 Narai Juku",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "05/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "483 121 128",
+            "suspension": "Sport",
+            "tuneName": "A700 Road | No Aero | 48.6 Narai Juku",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Drift"
+          },
+          "row": 885,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Ferrari Roma",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A700 Road | No Aero | 48.6 Narai Juku",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1448,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "483121128",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ferrari-roma",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-04",
+      "drivetrain": "RWD",
+      "id": "sc-519975614",
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ferrari",
+            "model": "Roma",
+            "sharecode": "519 975 614",
+            "suspension": "Rally",
+            "tuneName": "A road",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Rally"
+          },
+          "row": 888,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Ferrari Roma",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1451,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "519975614",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "silvasuperbee"
+    }
+  ],
+  "schemaVersion": 1
+}

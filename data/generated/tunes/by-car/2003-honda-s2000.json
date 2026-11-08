@@ -1,0 +1,445 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-4607f9b394",
+      "name": "Purist Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Honda S2000",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Stock Look",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 371,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-5e16cee716",
+      "metaRank": 70,
+      "name": "Speedy!",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Honda S2000",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Speedy!",
+            "Tuner": "wisteriadrop",
+            "fill": "FFFF0000"
+          },
+          "row": 1723,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "wisteriadrop"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-9be58a29dd",
+      "metaRank": 70,
+      "name": "mira <3",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Honda S2000",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "mira <3",
+            "Tuner": "F1R Kilian",
+            "fill": "FFFF0000"
+          },
+          "row": 1721,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-cc0bd42099",
+      "metaRank": 70,
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Honda S2000",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "VER Korben",
+            "fill": "FFFF0000"
+          },
+          "row": 1722,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ver-korben"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-d4665f99fd",
+      "lapRefs": [
+        {
+          "time": "1:00.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.3 前中段加速快 相对好控",
+      "metaNotesI18n": {
+        "en": "Quick low and mid-range acceleration; fairly easy to control.",
+        "pt-br": "Acelera rápido em baixa e média; relativamente fácil de controlar."
+      },
+      "metaRank": 70,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 144,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "RWD",
+      "id": "sc-165221132",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "S2000",
+            "sharecode": "165 221 132",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Rally"
+          },
+          "row": 1227,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "165221132",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-honda-s2000",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "RWD",
+      "id": "sc-247845942",
+      "name": "mira <3",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "S2000",
+            "sharecode": "247 845 942",
+            "suspension": "Race",
+            "tuneName": "mira <3",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Rally"
+          },
+          "row": 1228,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "247845942",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-17",
+      "drivetrain": "RWD",
+      "id": "sc-381773852",
+      "name": "Purist Top Secret Wing",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "17/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "S2000",
+            "sharecode": "381 773 852",
+            "suspension": "Street",
+            "tuneName": "Purist Top Secret Wing",
+            "tuner": "Dumbo GT49",
+            "tyreCompound": "Street"
+          },
+          "row": 1230,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2003 Honda S2000",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Top Secret Wing",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 372,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.671,
+      "shareCode": "381773852",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-honda-s2000",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-13",
+      "drivetrain": "RWD",
+      "id": "sc-543787708",
+      "name": "J's Racing, Advan RS-DF",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "S2000",
+            "sharecode": "543 787 708",
+            "suspension": "Street",
+            "tuneName": "J's Racing, Advan RS-DF",
+            "tuner": "scaans",
+            "tyreCompound": "Rally"
+          },
+          "row": 1229,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "543787708",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "scaans"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-honda-s2000",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-17",
+      "drivetrain": "RWD",
+      "id": "sc-657322733",
+      "name": "More Zoomies",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "17/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "S2000",
+            "sharecode": "657 322 733",
+            "suspension": "Sport",
+            "tuneName": "More Zoomies",
+            "tuner": "DzevoX",
+            "tyreCompound": "Standard"
+          },
+          "row": 1231,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "657322733",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "dzevox"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2003-honda-s2000",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-12",
+      "drivetrain": "RWD",
+      "id": "sc-903542608",
+      "name": "Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "12/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "S2000",
+            "sharecode": "903 542 608",
+            "suspension": "Street",
+            "tuneName": "Stock Look",
+            "tuner": "DzevoX",
+            "tyreCompound": "Street"
+          },
+          "row": 1232,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.473,
+      "shareCode": "903542608",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "dzevox"
+    }
+  ],
+  "schemaVersion": 1
+}

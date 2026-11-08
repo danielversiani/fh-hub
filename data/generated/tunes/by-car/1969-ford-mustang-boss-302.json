@@ -1,0 +1,434 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-acf5378265",
+      "name": "Purist/Touge",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Ford Mustang Boss 302",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist/Touge",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FFFF0000"
+          },
+          "row": 1497,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-bf21a911db",
+      "metaRank": 4,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 10,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c7f00ac4fc",
+      "metaRank": 4,
+      "name": "Dirt Allround Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Ford Mustang Boss 302",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Allround Meta",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 1495,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.58,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-e3ece4aeef",
+      "metaRank": 4,
+      "name": "A dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Ford Mustang Boss 302",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A dirt",
+            "Tuner": "| Jimka |",
+            "fill": "FFFF0000"
+          },
+          "row": 1496,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.58,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "jimka"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ed8b392ffd",
+      "metaRank": 4,
+      "name": "John Wick meets Nic Cages in Rally (V1.2)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1969 Ford Mustang Boss 302",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "John Wick meets Nic Cages in Rally (V1.2)",
+            "Tuner": "ATK Mang0",
+            "fill": "FFFF0000"
+          },
+          "row": 1493,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.58,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-22",
+      "drivetrain": "RWD",
+      "id": "sc-126479596",
+      "name": "b purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "22/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang Boss 302",
+            "sharecode": "126 479 596",
+            "suspension": "Stock",
+            "tuneName": "b purist",
+            "tuner": "K1Z Amemiya",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 953,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1969 Ford Mustang Boss 302",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "b purist",
+            "Tuner": "K1Z Amemiya",
+            "fill": "FFED7D31"
+          },
+          "row": 294,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "126479596",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "vintage-race",
+      "tunerId": "k1z-amemiya"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-16",
+      "drivetrain": "AWD",
+      "id": "sc-141582768",
+      "metaRank": 4,
+      "name": "John Wick meets Nic Cage in Rally (V1.2)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang Boss 302",
+            "sharecode": "141 582 768",
+            "suspension": "Stock",
+            "tuneName": "John Wick meets Nic Cage in Rally (V1.2)",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 949,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.581,
+      "shareCode": "141582768",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-15",
+      "drivetrain": "RWD",
+      "id": "sc-475976677",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang Boss 302",
+            "sharecode": "475 976 677",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 951,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1969 Ford Mustang Boss 302",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1498,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.656,
+      "shareCode": "475976677",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "semi-slick",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-548223051",
+      "metaRank": 4,
+      "name": "Dirt Powerbuild V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang Boss 302",
+            "sharecode": "548 223 051",
+            "suspension": "Rally",
+            "tuneName": "Dirt Powerbuild V2",
+            "tuner": "SlowBakedPanda",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 952,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1969 Ford Mustang Boss 302",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Powerbuild V2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 1494,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "548223051",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-16",
+      "drivetrain": "AWD",
+      "id": "sc-993666147",
+      "metaRank": 4,
+      "name": "A dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang Boss 302",
+            "sharecode": "993 666 147",
+            "suspension": "Rally",
+            "tuneName": "A dirt",
+            "tuner": "l Jimka l",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 950,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.574,
+      "shareCode": "993666147",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "l-jimka-l"
+    }
+  ],
+  "schemaVersion": 1
+}

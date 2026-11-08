@@ -1,0 +1,274 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-audi-r8-v10-performance",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3b13c60bde",
+      "metaRank": 73,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 151,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.577,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-r8-v10-performance",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-499018e189",
+      "metaRank": 73,
+      "name": "Strong S1 Road Balance (55.3 Shirakawa)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Audi R8 V10 Performance",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Strong S1 Road Balance (55.3 Shirakawa)",
+            "Tuner": "Destrukdi",
+            "fill": "FF7030A0"
+          },
+          "row": 937,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.542,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-r8-v10-performance",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-cacd7ef142",
+      "metaRank": 109,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 224,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-r8-v10-performance",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-18",
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 LMS",
+      "id": "sc-132718131",
+      "metaRank": 73,
+      "name": "Road Allround 55.1 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "18/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Performance",
+            "sharecode": "132 718 131",
+            "suspension": "Race",
+            "tuneName": "Road Allround 55.1 Shira Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 216,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Audi R8 V10 Performance 2020",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 LMS",
+            "Laptime": "0:55.194",
+            "Notes": "",
+            "Tier": "Decent < 55.500",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround 55.1 Shira Clean"
+          },
+          "row": 40,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "score": 0.625,
+      "shareCode": "132718131",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-r8-v10-performance",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-134190227",
+      "name": "A Road -Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Performance",
+            "sharecode": "134 190 227",
+            "suspension": "Sport",
+            "tuneName": "A Road -Strong Allround",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 214,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Audi R8 V10 Performance",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 936,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.664,
+      "shareCode": "134190227",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-r8-v10-performance",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-16",
+      "drivetrain": "AWD",
+      "id": "sc-157822190",
+      "metaRank": 73,
+      "name": "S1 Road (55.4 Shirakawa Poss)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "16/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "R8 V10 Performance",
+            "sharecode": "157 822 190",
+            "suspension": "Rally",
+            "tuneName": "S1 Road (55.4 Shirakawa Poss)",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 215,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Audi R8 V10 Performance",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road (55.4 Shirakawa Poss)",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 938,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.615,
+      "shareCode": "157822190",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    }
+  ],
+  "schemaVersion": 1
+}

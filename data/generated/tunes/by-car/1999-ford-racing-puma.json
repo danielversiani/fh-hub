@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1999-ford-racing-puma",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-26",
+      "drivetrain": "FWD",
+      "id": "sc-708251137",
+      "name": "Purist Road | 51.7 Narai (Low 51 potential)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "26/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Ford",
+            "model": "Racing Puma",
+            "sharecode": "708 251 137",
+            "suspension": "Street",
+            "tuneName": "Purist Road | 51.7 Narai (Low 51 potential)",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 1007,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1999 Ford Racing Puma",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road | 51.7 Narai (Low 51 Potential)",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 301,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "708251137",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

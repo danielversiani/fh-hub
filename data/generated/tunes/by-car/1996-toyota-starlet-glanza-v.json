@@ -1,0 +1,834 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-152493438f",
+      "name": "Sekibe 53.9",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Sekibe 53.9",
+            "Tuner": "o NOMEL o",
+            "fill": "FFED7D31"
+          },
+          "row": 586,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "o-nomel-o"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "nc-1d67925cde",
+      "lapRefs": [
+        {
+          "time": "1:06.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 70,
+      "name": "B Road Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "STARLET RED BLUE",
+            "Designer": "muckra",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road Powerbuild",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 594,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-32d2e2ae02",
+      "lapRefs": [
+        {
+          "time": "1:00.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.3 最强拉力胎大前 可以一战 比漂移胎控油简单但弯速慢一些",
+      "metaNotesI18n": {
+        "en": "The best high-power FWD on rally tires; can fight for the win. Easier throttle control than on drift tires, but a little slower in corners.",
+        "pt-br": "O melhor tração dianteira potente com pneus de rali; dá para brigar. Mais fácil de controlar no acelerador que com pneus de drift, mas um pouco mais lento nas curvas."
+      },
+      "metaRank": 101,
+      "name": "A road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 206,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-8d787cdaf6",
+      "metaRank": 70,
+      "name": "B Road | 2.0 I4/Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road | 2.0 I4/Stock Look",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 588,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "nc-b5a604827e",
+      "lapRefs": [
+        {
+          "time": "1:06.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 70,
+      "name": "B Road Grip Meta V1.2 Shirakawa 1:04.5",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road Grip Meta V1.2 Shirakawa 1:04.5",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 593,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-eb8566e183",
+      "metaRank": 70,
+      "name": "Purist B Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "Purist",
+            "Design": "RACING PURO PAWS",
+            "Designer": "Game CatNap",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist B Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 591,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-f4065c4f71",
+      "metaRank": 70,
+      "name": "1.7G Strong Allrounder V1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "ASANO RACING SERVICE 1982 CHAMPION LIVERY",
+            "Designer": "Badworld3349",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "1.7G Strong Allrounder V1",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFED7D31"
+          },
+          "row": 595,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-fbdfd3b542",
+      "lapRefs": [
+        {
+          "time": "59.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.8 阻力低后段好弯速高",
+      "metaNotesI18n": {
+        "en": "Low drag, strong top end and high cornering speed.",
+        "pt-br": "Pouco arrasto, bom fôlego no fim e curvas rápidas."
+      },
+      "metaRank": 30,
+      "name": "A road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 63,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-113603211",
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "113 603 211",
+            "suspension": "Street",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2558,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 587,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "113603211",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-15",
+      "drivetrain": "FWD",
+      "id": "sc-116200253",
+      "name": "1.7G Strong Handling Allround V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "15/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "116 200 253",
+            "suspension": "Sport",
+            "tuneName": "1.7G Strong Handling Allround V2",
+            "tuner": "SlowBakedPanda",
+            "tyreCompound": "Rally"
+          },
+          "row": 2557,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.488,
+      "shareCode": "116200253",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-16",
+      "drivetrain": "FWD",
+      "id": "sc-119463679",
+      "name": "mini avensis",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "119 463 679",
+            "suspension": "Street",
+            "tuneName": "mini avensis",
+            "tuner": "K1Z Bala",
+            "tyreCompound": "Rally"
+          },
+          "row": 2549,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "119463679",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bala"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-144990419",
+      "name": "S1 Dirt Nugget",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "144 990 419",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt Nugget",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2559,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Nugget",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2838,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "144990419",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-12",
+      "drivetrain": "FWD",
+      "id": "sc-158674756",
+      "name": "The Tony Glanza Tapdance Extravaganza",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "12/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "158 674 756",
+            "suspension": "Sport",
+            "tuneName": "The Tony Glanza Tapdance Extravaganza",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 2554,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "Varis bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "The Tony Glanza Tapdance Extravaganza",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 590,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "158674756",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-02",
+      "drivetrain": "AWD",
+      "id": "sc-172663275",
+      "name": "A class Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "172 663 275",
+            "suspension": "Rally",
+            "tuneName": "A class Dirt/CC",
+            "tuner": "VNX Ruinz",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2552,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.493,
+      "shareCode": "172663275",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-618094749",
+      "name": "A Dirt Not Bad",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "618 094 749",
+            "suspension": "Street",
+            "tuneName": "A Dirt Not Bad",
+            "tuner": "Rocklxd",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2551,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Not Bad",
+            "Tuner": "Rocklxd",
+            "fill": "FFFF0000"
+          },
+          "row": 2837,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "618094749",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "rocklxd"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-13",
+      "drivetrain": "FWD",
+      "id": "sc-686212891",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "686 212 891",
+            "suspension": "Sport",
+            "tuneName": "Purist",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 2550,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "686212891",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "FWD",
+      "id": "sc-716119415",
+      "name": "Purist Circuits",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "11/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "716 119 415",
+            "suspension": "Sport",
+            "tuneName": "Purist Circuits",
+            "tuner": "major esus",
+            "tyreCompound": "Rally"
+          },
+          "row": 2555,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "class": "B",
+            "date": "11/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "716 119 415",
+            "suspension": "Sport",
+            "tuneName": "Purist Circuits",
+            "tuner": "major esus",
+            "tyreCompound": "Rally"
+          },
+          "row": 2556,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "Purist",
+            "Design": "KANJO STYLE",
+            "Designer": "Teaph5759",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Circuits",
+            "Tuner": "major esus",
+            "fill": "FFED7D31"
+          },
+          "row": 592,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "716119415",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "major-esus"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-12",
+      "drivetrain": "FWD",
+      "id": "sc-798382114",
+      "metaRank": 70,
+      "name": "B Road | 2.0 I4/Varis Kit",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "12/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Toyota",
+            "model": "Starlet Glanza V",
+            "sharecode": "798 382 114",
+            "suspension": "Street",
+            "tuneName": "B Road | 2.0 I4/Varis Kit",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 2553,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Toyota Starlet Glanza V",
+            "Comment": "Varis bodykit",
+            "Design": "SIMPLE 2000S TUNER STRIPE",
+            "Designer": "i2TailedOtaku",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road | 2.0 I4/Varis Kit",
+            "Tuner": "CTE seasons",
+            "fill": "FFED7D31"
+          },
+          "row": 589,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "798382114",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    }
+  ],
+  "schemaVersion": 1
+}

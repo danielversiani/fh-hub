@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0eac18fbb5",
+      "lapRefs": [
+        {
+          "time": "56.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川56.1，全空半热熔，不能上草，可跑湿地，手感不错",
+      "metaNotesI18n": {
+        "en": "Full aero on semi-slicks: can't go on grass, but handles wet track. Good feel.",
+        "pt-br": "Aero completo e semi-slick: não pode ir para a grama, mas aguenta pista molhada. Boa sensação."
+      },
+      "metaRank": 126,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 258,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.533,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-2d57f21b52",
+      "metaRank": 45,
+      "name": "S1 Road AWD Balance",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Ferrari 296 GTB",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road AWD Balance",
+            "Tuner": "Destrukdi",
+            "fill": "FF7030A0"
+          },
+          "row": 1457,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.555,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-46ee54182f",
+      "metaRank": 45,
+      "name": "S1 Class - Road Racing - 7 Gears",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Ferrari 296 GTB",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - 7 Gears",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1459,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.555,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-69bd3d7079",
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Ferrari 296 GTB",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1455,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "RV12",
+      "id": "nc-8011f066d0",
+      "lapRefs": [
+        {
+          "time": "55.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 45,
+      "name": "Road Allround 55.4 Shirakawa Clean",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Ferrari 296 GTB",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "RV12",
+            "Laptime": "0:55.452",
+            "Notes": "",
+            "Tier": "Decent < 55.500",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround 55.4 Shirakawa Clean"
+          },
+          "row": 41,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-97cd5cc3f2",
+      "metaRank": 45,
+      "name": "S1 Road Grip & Speed",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Ferrari 296 GTB",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Grip & Speed",
+            "Tuner": "ESV Rapture",
+            "fill": "FF7030A0"
+          },
+          "row": 1458,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.555,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-f784bd344e",
+      "metaRank": 45,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Ferrari 296 GTB",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "AMS Carver",
+            "fill": "FF7030A0"
+          },
+          "row": 1456,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.555,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
+    }
+  ],
+  "schemaVersion": 1
+}

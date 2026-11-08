@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1966-ford-2-gt40-mk-ii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-40f39b489a",
+      "name": "Meta A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1966 Ford #2 GT40 MK II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Meta A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1486,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1966-ford-2-gt40-mk-ii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-804e9b8cb2",
+      "name": "Stock Look A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1966 Ford #2 GT40 MK II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Stock Look A Dirt",
+            "Tuner": "trviis",
+            "fill": "FFFF0000"
+          },
+          "row": 1487,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1966-ford-2-gt40-mk-ii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-c54e286148",
+      "name": "AWD ROAD | Stock Motor Stock Look | 48.7 Narai Juku",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1966 Ford #2 GT40 MK II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD ROAD | Stock Motor Stock Look | 48.7 Narai Juku",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1488,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1966-ford-2-gt40-mk-ii",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-179482376",
+      "name": "Ghost of Ken Miles",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "#2 GT40 MK II",
+            "sharecode": "179 482 376",
+            "suspension": "Rally",
+            "tuneName": "Ghost of Ken Miles",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 897,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1966 Ford #2 GT40 MK II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Ghost of Ken Miles",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1490,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "179482376",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1966-ford-2-gt40-mk-ii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-12",
+      "drivetrain": "RWD",
+      "id": "sc-366555801",
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "12/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "#2 GT40 MK II",
+            "sharecode": "366 555 801",
+            "suspension": "Sport",
+            "tuneName": "A road",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 895,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1966 Ford #2 GT40 MK II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1489,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "366555801",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "vintage-race",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1966-ford-2-gt40-mk-ii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-12",
+      "drivetrain": "AWD",
+      "id": "sc-859351006",
+      "name": "Stock Look Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "#2 GT40 MK II",
+            "sharecode": "859 351 006",
+            "suspension": "Rally",
+            "tuneName": "Stock Look Dirt",
+            "tuner": "trviis",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 896,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "859351006",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "trviis"
+    }
+  ],
+  "schemaVersion": 1
+}

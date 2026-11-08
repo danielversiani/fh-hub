@@ -1,0 +1,554 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-0a7bd357e4",
+      "lapRefs": [
+        {
+          "time": "1:05.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 28,
+      "name": "B Road Strong Shirakawa 01:05.4",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Strong Shirakawa 01:05.4",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 186,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-125d1876f0",
+      "metaRank": 5,
+      "name": "Potential?",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Potential?",
+            "Tuner": "o NOMEL o",
+            "fill": "theme:7"
+          },
+          "row": 30,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "o-nomel-o"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-16484b2e91",
+      "metaRank": 5,
+      "name": "C Street Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Street Purist",
+            "Tuner": "DRX Q3",
+            "fill": "theme:7"
+          },
+          "row": 28,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-25502f3d76",
+      "metaRank": 27,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 58,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-2f8e91a7d8",
+      "metaNotes": "全段加速和操控优秀",
+      "metaNotesI18n": {
+        "en": "Excellent acceleration across the range and excellent handling.",
+        "pt-br": "Ótima aceleração em toda a faixa e ótimo nas curvas."
+      },
+      "metaRank": 5,
+      "name": "C Road Strong Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "C Road Strong Meta",
+            "Tuner": "Noa Miyako",
+            "fill": "theme:7"
+          },
+          "row": 26,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3ec6dbe221",
+      "metaRank": 5,
+      "name": "251 1.4G Road V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "251 1.4G Road V2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "theme:7"
+          },
+          "row": 27,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-82513e8129",
+      "metaRank": 5,
+      "name": "C Road/Street Purist WhiteWalls",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Road/Street Purist WhiteWalls",
+            "Tuner": "LogikJ",
+            "fill": "theme:7"
+          },
+          "row": 29,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9ce667279e",
+      "metaRank": 33,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 70,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-d3f79f09f8",
+      "metaRank": 5,
+      "name": "C Road/Street AWD Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "C Road/Street AWD Stock Look",
+            "Tuner": "LogikJ",
+            "fill": "theme:7"
+          },
+          "row": 25,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-03",
+      "drivetrain": "AWD",
+      "id": "sc-140462779",
+      "metaRank": 33,
+      "name": "B DIRT ONLINE",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "2002 Turbo",
+            "sharecode": "140 462 779",
+            "suspension": "Street",
+            "tuneName": "B DIRT ONLINE",
+            "tuner": "Zookiiwi",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 310,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.599,
+      "shareCode": "140462779",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-18",
+      "drivetrain": "AWD",
+      "id": "sc-183687982",
+      "metaRank": 33,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "18/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "2002 Turbo",
+            "sharecode": "183 687 982",
+            "suspension": "Street",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 309,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 185,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.673,
+      "shareCode": "183687982",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-513674469",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "2002 Turbo",
+            "sharecode": "513 674 469",
+            "suspension": "Street",
+            "tuneName": "A Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 307,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 963,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.664,
+      "shareCode": "513674469",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-11",
+      "drivetrain": "AWD",
+      "id": "sc-810199895",
+      "name": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "2002 Turbo",
+            "sharecode": "810 199 895",
+            "suspension": "Street",
+            "tuneName": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 308,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "E92 Dirt Allround OFFMETA Sunflower 59.6 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 964,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.677,
+      "shareCode": "810199895",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    }
+  ],
+  "schemaVersion": 1
+}

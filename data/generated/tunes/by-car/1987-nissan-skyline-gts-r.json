@@ -1,0 +1,242 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-skyline-gts-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-59cba286b8",
+      "lapRefs": [
+        {
+          "time": "42.1",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速公路42.1 阻力低后段好",
+      "metaNotesI18n": {
+        "en": "Low drag and strong top end.",
+        "pt-br": "Pouco arrasto e bom fôlego no fim."
+      },
+      "metaRank": 58,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 120,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-skyline-gts-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-86e6a6bebf",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 53,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 110,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-skyline-gts-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-153531110",
+      "name": "A road SR20DET",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GTS-R",
+            "sharecode": "153 531 110",
+            "suspension": "Street",
+            "tuneName": "A road SR20DET",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2075,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "153531110",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1987-nissan-skyline-gts-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "RWD",
+      "id": "sc-171190206",
+      "name": "Purist OEM Kit",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GTS-R",
+            "sharecode": "171 190 206",
+            "suspension": "Street",
+            "tuneName": "Purist OEM Kit",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 2076,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "171190206",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-skyline-gts-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-401914863",
+      "name": "A road S50B32",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GTS-R",
+            "sharecode": "401 914 863",
+            "suspension": "Street",
+            "tuneName": "A road S50B32",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2074,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "401914863",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-nissan-skyline-gts-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-04",
+      "drivetrain": "AWD",
+      "id": "sc-663866254",
+      "name": "A Dirt - Strong w/R35 engine (Takashiro Trail 2.01.0)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GTS-R",
+            "sharecode": "663 866 254",
+            "suspension": "Street",
+            "tuneName": "A Dirt - Strong w/R35 engine (Takashiro Trail 2.01.0)",
+            "tuner": "Falken JP",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2073,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.508,
+      "shareCode": "663866254",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "falken-jp"
+    }
+  ],
+  "schemaVersion": 1
+}

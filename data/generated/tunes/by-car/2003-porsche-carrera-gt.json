@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-porsche-carrera-gt",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-117adc4a48",
+      "metaRank": 120,
+      "name": "Road | RWD Stock Motor + Aero | 19.5 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Porsche Carrera GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road | RWD Stock Motor + Aero | 19.5 Legend Island",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2633,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2003-porsche-carrera-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-5849707844",
+      "metaRank": 120,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 246,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    }
+  ],
+  "schemaVersion": 1
+}

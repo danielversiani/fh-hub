@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2015-honda-ridgeline-baja-trophy-truck",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-29",
+      "drivetrain": "AWD",
+      "id": "sc-441314815",
+      "name": "CC / Dirt | Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Ridgeline Baja Trophy Truck",
+            "sharecode": "441 314 815",
+            "suspension": "Rally",
+            "tuneName": "CC / Dirt | Stock Look",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1225,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Honda Ridgeline Baja Trophy Truck",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "CC / Dirt | Stock Look",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1748,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.689,
+      "shareCode": "441314815",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-honda-ridgeline-baja-trophy-truck",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-10-07",
+      "drivetrain": "AWD",
+      "id": "sc-787945751",
+      "name": "B Dirt/CC (Kinda Slow)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "07/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Ridgeline Baja Trophy Truck",
+            "sharecode": "787 945 751",
+            "suspension": "Rally",
+            "tuneName": "B Dirt/CC (Kinda Slow)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1226,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.509,
+      "shareCode": "787945751",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

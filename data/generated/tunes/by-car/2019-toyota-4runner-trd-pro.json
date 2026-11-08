@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-toyota-4runner-trd-pro",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-58e95942cf",
+      "metaRank": 11,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.582,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-toyota-4runner-trd-pro",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-118098254",
+      "name": "A Class CC + Stiffness",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "4Runner TRD Pro",
+            "sharecode": "118 098 254",
+            "suspension": "Race",
+            "tuneName": "A Class CC + Stiffness",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2398,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "118098254",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-toyota-4runner-trd-pro",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-130687820",
+      "name": "Do frontflips while racing online",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "4Runner TRD Pro",
+            "sharecode": "130 687 820",
+            "suspension": "Race",
+            "tuneName": "Do frontflips while racing online",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2399,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "130687820",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-toyota-4runner-trd-pro",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-773138324",
+      "metaRank": 11,
+      "name": "B CC Sprints",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "4Runner TRD Pro",
+            "sharecode": "773 138 324",
+            "suspension": "Race",
+            "tuneName": "B CC Sprints",
+            "tuner": "Whatuplosers917",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2400,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 Toyota 4Runner TRD Pro",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B CC Sprints",
+            "Tuner": "Whatuplosers917",
+            "fill": "FFED7D31"
+          },
+          "row": 638,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.607,
+      "shareCode": "773138324",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "whatuplosers917"
+    }
+  ],
+  "schemaVersion": 1
+}

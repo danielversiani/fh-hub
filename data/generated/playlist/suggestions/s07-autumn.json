@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "carId": "1932-ford-de-luxe-five-window-coupe",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s07-autumn--championship--ford-runner",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s07-autumn",
+      "tuneId": "nc-8a7b0cd3e1"
+    },
+    {
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s07-autumn--championship--ford-runner",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.638,
+      "seasonId": "s07-autumn",
+      "tuneId": "nc-1b505e129d"
+    },
+    {
+      "carId": "1957-ford-thunderbird",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s07-autumn--championship--ford-runner",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.526,
+      "seasonId": "s07-autumn",
+      "tuneId": "nc-8df9aaa962"
+    },
+    {
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s07-autumn--championship--ford-runner",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1.5"
+          }
+        }
+      ],
+      "score": 0.601,
+      "seasonId": "s07-autumn",
+      "tuneId": "nc-9ae89c4890"
+    },
+    {
+      "carId": "1957-ford-thunderbird",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s07-autumn--championship--ford-runner",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.574,
+      "seasonId": "s07-autumn",
+      "tuneId": "sc-786611191"
+    },
+    {
+      "carId": "1999-ford-racing-puma",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s07-autumn--championship--ford-runner",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.674,
+      "seasonId": "s07-autumn",
+      "tuneId": "sc-708251137"
+    },
+    {
+      "carId": "2004-subaru-impreza-wrx-sti",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s07-autumn--horizon-life-the-trial--red-vs-blue",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.658,
+      "seasonId": "s07-autumn",
+      "tuneId": "sc-164864263"
+    },
+    {
+      "carId": "1998-subaru-impreza-22b-sti-version",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s07-autumn--horizon-life-the-trial--red-vs-blue",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.475,
+      "seasonId": "s07-autumn",
+      "tuneId": "sc-222361974"
+    }
+  ],
+  "schemaVersion": 1
+}

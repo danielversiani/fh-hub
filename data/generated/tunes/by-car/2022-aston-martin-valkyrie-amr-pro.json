@@ -1,0 +1,244 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2022-aston-martin-valkyrie-amr-pro",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.85,
+      "createdAt": "2026-05-24",
+      "drivetrain": "AWD",
+      "id": "sc-141568908",
+      "metaRank": 13,
+      "name": "R Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "24/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "Valkyrie AMR Pro",
+            "sharecode": "141 568 908",
+            "suspension": "Race",
+            "tuneName": "R Grip",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Slick"
+          },
+          "row": 166,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2022 Aston Martin Valkyrie AMR Pro",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "R Grip",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF00FF"
+          },
+          "row": 868,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.626,
+      "shareCode": "141568908",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-aston-martin-valkyrie-amr-pro",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-05-17",
+      "drivetrain": "RWD",
+      "id": "sc-507282687",
+      "name": "Snow tire",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "17/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Aston Martin",
+            "model": "Valkyrie AMR Pro",
+            "sharecode": "507 282 687",
+            "suspension": "Race",
+            "tuneName": "Snow tire",
+            "tuner": "Zaabry",
+            "tyreCompound": "Snow"
+          },
+          "row": 170,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "507282687",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "snow",
+      "tunerId": "zaabry"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-aston-martin-valkyrie-amr-pro",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.85,
+      "createdAt": "2026-06-09",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "RWD",
+      "id": "sc-577025472",
+      "metaNotes": "3.3G 操控很好 缺后段加速和极速",
+      "metaNotesI18n": {
+        "en": "3.3 version: great handling, but lacks top-end acceleration and top speed.",
+        "pt-br": "Versão 3.3: ótima nas curvas, mas falta aceleração em alta e velocidade máxima."
+      },
+      "metaRank": 13,
+      "name": "R Road Grip Dry 3.3G",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "09/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Aston Martin",
+            "model": "Valkyrie AMR Pro",
+            "sharecode": "577 025 472",
+            "suspension": "Race",
+            "tuneName": "R Road Grip Dry 3.3G",
+            "tuner": "Noa Miyako",
+            "tyreCompound": "Slick"
+          },
+          "row": 167,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.588,
+      "shareCode": "577025472",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-aston-martin-valkyrie-amr-pro",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "RWD",
+      "id": "sc-670631799",
+      "metaRank": 13,
+      "name": "R Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "28/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Aston Martin",
+            "model": "Valkyrie AMR Pro",
+            "sharecode": "670 631 799",
+            "suspension": "Race",
+            "tuneName": "R Road",
+            "tuner": "VNX Ruinz",
+            "tyreCompound": "Slick"
+          },
+          "row": 168,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.54,
+      "shareCode": "670631799",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-aston-martin-valkyrie-amr-pro",
+      "categories": [
+        "purist"
+      ],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-07-11",
+      "drivetrain": "RWD",
+      "id": "sc-998940732",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "11/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Aston Martin",
+            "model": "Valkyrie AMR Pro",
+            "sharecode": "998 940 732",
+            "suspension": "Race",
+            "tuneName": "purist",
+            "tuner": "RazkinzMango",
+            "tyreCompound": "Snow"
+          },
+          "row": 169,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2022 Aston Martin Valkyrie AMR Pro",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FF0070C0"
+          },
+          "row": 867,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "998940732",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "snow",
+      "tunerId": "razkinzmango"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-ferrari-laferrari",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2053b59938",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Ferrari LaFerrari",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1430,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-ferrari-laferrari",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-90b711c1ab",
+      "metaRank": 79,
+      "name": "S1 Class - Road Racing - (Can 55.1 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Ferrari LaFerrari",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - (Can 55.1 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1431,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-ferrari-laferrari",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-eeb224a6ab",
+      "metaRank": 79,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 163,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2013-ferrari-laferrari",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "Racing V12",
+      "id": "sc-145050874",
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Full Aero",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Racing V12",
+            "Make": "Ferrari",
+            "Model": "LaFerrari",
+            "Road Surface": "Road",
+            "Share Code": "145050874",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2013"
+          },
+          "row": 21,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "145050874",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

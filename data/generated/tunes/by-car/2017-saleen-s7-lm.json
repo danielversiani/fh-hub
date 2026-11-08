@@ -1,0 +1,528 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-316ee6c8f9",
+      "metaRank": 100,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 205,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        },
+        {
+          "raw": {},
+          "row": 207,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.583,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "RWD",
+      "engine": "8.4L V10 + Centri",
+      "id": "nc-74a3f9d5de",
+      "metaRank": 100,
+      "name": "Road RWD Allround Fast",
+      "notes": "shines on longer high speed tracks",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Saleen S7 LM",
+            "Difficulty": "Medium",
+            "Driver": "LetzeLU",
+            "Drivetrain": "RWD",
+            "Engine": "8.4L V10 + Centri",
+            "Laptime": "0:55.062",
+            "Notes": "shines on longer high speed tracks",
+            "Tier": "Decent < 55.500",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road RWD Allround Fast"
+          },
+          "row": 36,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "score": 0.557,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-7f4d9beec9",
+      "name": "S1 Dirt RV12",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Saleen S7 LM",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt RV12",
+            "Tuner": "Fenrir3268",
+            "fill": "FF7030A0"
+          },
+          "row": 2720,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "fenrir3268"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "RWD",
+      "id": "nc-f0183e0c22",
+      "metaRank": 100,
+      "name": "Purist black wheels ~56 shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Saleen S7 LM",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist black wheels ~56 shirakawa",
+            "Tuner": "Nomv1",
+            "fill": "FF7030A0"
+          },
+          "row": 2725,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.548,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-06",
+      "drivetrain": "AWD",
+      "id": "sc-116696726",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "06/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "116 696 726",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2293,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "116696726",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-29",
+      "drivetrain": "AWD",
+      "id": "sc-123568954",
+      "name": "S1 Dirt (Stock Eng)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "29/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "123 568 954",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt (Stock Eng)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2300,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Saleen S7 LM",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt (Stock Eng)",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2721,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "123568954",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-166692062",
+      "metaRank": 100,
+      "name": "S1 Road No Wing AWD",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "166 692 062",
+            "suspension": "Race",
+            "tuneName": "S1 Road No Wing AWD",
+            "tuner": "NDL Ramen",
+            "tyreCompound": "Rally"
+          },
+          "row": 2299,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Saleen S7 LM",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road No Wing AWD",
+            "Tuner": "NDL Ramen",
+            "fill": "FF7030A0"
+          },
+          "row": 2723,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.621,
+      "shareCode": "166692062",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "ndl-ramen"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-175783899",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "175 783 899",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2297,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "175783899",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-09",
+      "drivetrain": "AWD",
+      "id": "sc-259835745",
+      "metaRank": 100,
+      "name": "S1 Road AWD Accel",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "09/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "259 835 745",
+            "suspension": "Race",
+            "tuneName": "S1 Road AWD Accel",
+            "tuner": "Destrukdi",
+            "tyreCompound": "Rally"
+          },
+          "row": 2294,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.55,
+      "shareCode": "259835745",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-301309937",
+      "name": "S1 Allround Beast",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "301 309 937",
+            "suspension": "Race",
+            "tuneName": "S1 Allround Beast",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 2295,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Saleen S7 LM",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Allround Beast",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 2722,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "301309937",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-24",
+      "drivetrain": "RWD",
+      "id": "sc-685521817",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "24/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "685 521 817",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Rally"
+          },
+          "row": 2296,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2017 Saleen S7 LM",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FF7030A0"
+          },
+          "row": 2724,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "685521817",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-22",
+      "drivetrain": "AWD",
+      "id": "sc-740828685",
+      "name": "Strong+ S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "22/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Saleen",
+            "model": "S7 LM",
+            "sharecode": "740 828 685",
+            "suspension": "Race",
+            "tuneName": "Strong+ S1 Dirt",
+            "tuner": "Korrrupt EU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2298,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "740828685",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "korrrupt-eu"
+    }
+  ],
+  "schemaVersion": 1
+}

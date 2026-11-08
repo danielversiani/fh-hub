@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2011-subaru-wrx-sti",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a00660082d",
+      "lapRefs": [
+        {
+          "time": "1:05.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 66,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 136,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-subaru-wrx-sti",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ed0868ae57",
+      "metaRank": 66,
+      "name": "B Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Subaru WRX STI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 538,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-subaru-wrx-sti",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-116945371",
+      "name": "Porsche Engine",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Subaru",
+            "model": "WRX STI (2011)",
+            "sharecode": "116 945 371",
+            "suspension": "Street",
+            "tuneName": "Porsche Engine",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2381,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "116945371",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2011-subaru-wrx-sti",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-18",
+      "drivetrain": "AWD",
+      "id": "sc-171314123",
+      "metaRank": 66,
+      "name": "B Road Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "18/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Subaru",
+            "model": "WRX STI (2011)",
+            "sharecode": "171 314 123",
+            "suspension": "Street",
+            "tuneName": "B Road Stock Look",
+            "tuner": "Destrukdi",
+            "tyreCompound": "Rally"
+          },
+          "row": 2380,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.59,
+      "shareCode": "171314123",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-subaru-wrx-sti",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-25",
+      "drivetrain": "AWD",
+      "id": "sc-780025636",
+      "name": "B Dirt Handling",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Subaru",
+            "model": "WRX STI (2011)",
+            "sharecode": "780 025 636",
+            "suspension": "Street",
+            "tuneName": "B Dirt Handling",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2382,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.498,
+      "shareCode": "780025636",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,459 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3a05cd8d94",
+      "name": "ZO6 Road Allround T2 Shirakawa-55.7 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "ZO6 Road Allround T2 Shirakawa-55.7 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FF7030A0"
+          },
+          "row": 850,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ab1f6a858d",
+      "lapRefs": [
+        {
+          "time": "50.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川50.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 24,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-b5530a11d8",
+      "metaRank": 24,
+      "name": "RWD High Speed Tracks",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "RWD High Speed Tracks",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 855,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d3484ba272",
+      "metaRank": 25,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 55,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f26344382f",
+      "metaRank": 24,
+      "name": "2.6G Great Handling Sprinter V2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "2.6G Great Handling Sprinter V2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FF0070C0"
+          },
+          "row": 854,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-130608351",
+      "metaRank": 24,
+      "name": "S2 - Full Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Apollo",
+            "model": "Intensa Emozione",
+            "sharecode": "130 608 351",
+            "suspension": "Race",
+            "tuneName": "S2 - Full Grip",
+            "tuner": "ESV Rapture",
+            "tyreCompound": "Slick"
+          },
+          "row": 137,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 - Full Grip",
+            "Tuner": "ESV Rapture",
+            "fill": "FF0070C0"
+          },
+          "row": 851,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.616,
+      "shareCode": "130608351",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-05-22",
+      "drivetrain": "AWD",
+      "id": "sc-178892866",
+      "name": "R Road v1.2",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "22/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Apollo",
+            "model": "Intensa Emozione",
+            "sharecode": "178 892 866",
+            "suspension": "Race",
+            "tuneName": "R Road v1.2",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Slick"
+          },
+          "row": 136,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "R Road v1.2",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FFFF00FF"
+          },
+          "row": 857,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "178892866",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-24",
+      "drivetrain": "AWD",
+      "id": "sc-416481519",
+      "metaRank": 24,
+      "name": "S2 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "24/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Apollo",
+            "model": "Intensa Emozione",
+            "sharecode": "416 481 519",
+            "suspension": "Race",
+            "tuneName": "S2 Road",
+            "tuner": "K1Z Howzer",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 138,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF0070C0"
+          },
+          "row": 853,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.613,
+      "shareCode": "416481519",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "engine": "Racing V12",
+      "id": "sc-468714904",
+      "metaRank": 24,
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Racing V12",
+            "Make": "Apollo",
+            "Model": "Intensa Emozione",
+            "Road Surface": "Road",
+            "Share Code": "468714904",
+            "Tires": "Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2019"
+          },
+          "row": 3,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        },
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD Allround",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 852,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.6,
+      "shareCode": "468714904",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-07-10",
+      "drivetrain": "AWD",
+      "id": "sc-918304006",
+      "name": "R Road V1.5",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "10/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Apollo",
+            "model": "Intensa Emozione",
+            "sharecode": "918 304 006",
+            "suspension": "Race",
+            "tuneName": "R Road V1.5",
+            "tuner": "K1Z Howzer",
+            "tyreCompound": "Slick"
+          },
+          "row": 135,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "R Road V1.5",
+            "Tuner": "K1Z Howzer",
+            "fill": "FFFF00FF"
+          },
+          "row": 856,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "918304006",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-howzer"
+    }
+  ],
+  "schemaVersion": 1
+}

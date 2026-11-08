@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-jeep-grand-cherokee-trackhawk",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-42fa6e5929",
+      "name": "Funco trackhawk my beloved",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Jeep Grand Cherokee Trackhawk",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Funco trackhawk my beloved",
+            "Tuner": "Gertschapij",
+            "fill": "FFFF0000"
+          },
+          "row": 1818,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "gertschapij"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-jeep-grand-cherokee-trackhawk",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-02",
+      "drivetrain": "AWD",
+      "id": "sc-130735231",
+      "name": "A Dirt/CC Widebody Stock Engine",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Jeep",
+            "model": "Grand Cherokee Trackhawk",
+            "sharecode": "130 735 231",
+            "suspension": "Sport",
+            "tuneName": "A Dirt/CC Widebody Stock Engine",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1296,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "130735231",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-jeep-grand-cherokee-trackhawk",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-666407501",
+      "name": "Neighbors be triflin'",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Jeep",
+            "model": "Grand Cherokee Trackhawk",
+            "sharecode": "666 407 501",
+            "suspension": "Sport",
+            "tuneName": "Neighbors be triflin'",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1297,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "666407501",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    }
+  ],
+  "schemaVersion": 1
+}

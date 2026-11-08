@@ -1,7 +1,7 @@
 # Produto: visão, escopo e roadmap
 
 > **Status:** rascunho v0.1 · **Atualizado em:** 2026-11-07 · **Dono do produto:** Daniel Versiani
-> Nome do projeto ainda provisório: **FH6 Hub** (codinome do repositório: `fh-hub`). Ver [§8](#8-nome-e-identidade).
+> Nome do projeto: **Forza Paddock** (escolhido pelo dono em 2026-11-08; codinome do repositório: `fh-hub`). Ver [§8](#8-nome-e-identidade).
 
 ## 1. Visão
 
@@ -113,7 +113,7 @@ O que faz o jogador voltar toda semana são os dados vivos: tunes, meta e playli
 
 ## 8. Nome e identidade
 
-- **Nome provisório:** FH6 Hub. Ideia inicial do dono: `everythingforza.gg`.
+- **Nome:** Forza Paddock (2026-11-08). Não fica preso a um jogo da série. Usa "Forza" de forma referencial: risco pequeno de a Microsoft pedir troca de nome ou do domínio, aceito pelo dono. Domínio ainda não comprado (opções: `.com.br`, `.com`, `.gg`). Nomes anteriores: FH6 Hub (provisório), `everythingforza.gg`.
 - **Risco de marca:** "Forza" é marca registrada da Microsoft. Muitos sites de fãs usam o termo, mas um domínio com a marca tem mais risco de contestação do que um nome genérico. Não é parecer jurídico; vale considerar na escolha.
 - **Candidatos sem a marca** (sem registro DNS em 2026-11-07, o que *sugere* que estão livres; confirmar no registrador):
   `sharecode.gg`, `sharecodes.gg`, `tunehub.gg`, `tunecodes.gg`, `tuneboard.gg`, `metagarage.gg`, `wristband.gg`, `festivalhq.gg`, `garage998.gg`.

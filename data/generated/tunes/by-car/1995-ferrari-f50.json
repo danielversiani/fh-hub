@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1995-ferrari-f50",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-b61ac6d636",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Ferrari F50",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "Whatuplosers917",
+            "fill": "FF7030A0"
+          },
+          "row": 1404,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-ferrari-f50",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-bb4fd16827",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Ferrari F50",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1402,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-ferrari-f50",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-d3f146aed5",
+      "name": "UPD Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Ferrari F50",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "UPD Purist",
+            "Tuner": "F1R Kilian",
+            "fill": "FFFF0000"
+          },
+          "row": 1403,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-ferrari-f50",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-25",
+      "drivetrain": "RWD",
+      "id": "sc-151666763",
+      "name": "UPD Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "25/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ferrari",
+            "model": "F50",
+            "sharecode": "151 666 763",
+            "suspension": "Race",
+            "tuneName": "UPD Purist",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Street"
+          },
+          "row": 843,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "151666763",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "kilianfirebold"
+    }
+  ],
+  "schemaVersion": 1
+}

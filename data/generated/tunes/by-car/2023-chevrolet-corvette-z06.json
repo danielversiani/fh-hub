@@ -1,0 +1,345 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0b49da5ff7",
+      "lapRefs": [
+        {
+          "time": "55.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 37,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 78,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        },
+        {
+          "raw": {},
+          "row": 155,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a109127dc7",
+      "metaRank": 75,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 155,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-aa57bd94b5",
+      "metaRank": 37,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 Chevrolet Corvette Z06",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FF7030A0"
+          },
+          "row": 1178,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-03",
+      "drivetrain": "AWD",
+      "id": "sc-172664127",
+      "name": "Rallies+V10+FA",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "03/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2023)",
+            "sharecode": "172 664 127",
+            "suspension": "Rally",
+            "tuneName": "Rallies+V10+FA",
+            "tuner": "KapienPL",
+            "tyreCompound": "Rally"
+          },
+          "row": 538,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "172664127",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-202455921",
+      "name": "1:56.4 Tokyo",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2023)",
+            "sharecode": "202 455 921",
+            "suspension": "Rally",
+            "tuneName": "1:56.4 Tokyo",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 540,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "202455921",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-23",
+      "drivetrain": "AWD",
+      "id": "sc-348263016",
+      "metaRank": 37,
+      "name": "S1 Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "23/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2023)",
+            "sharecode": "348 263 016",
+            "suspension": "Race",
+            "tuneName": "S1 Road Allround",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 536,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "class": "S1",
+            "date": "23/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2023)",
+            "sharecode": "348 263 016",
+            "suspension": "Race",
+            "tuneName": "S1 Allround",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 537,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2023 Chevrolet Corvette Z06",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1177,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.673,
+      "shareCode": "348263016",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-09-30",
+      "drivetrain": "AWD",
+      "id": "sc-627908268",
+      "name": "Stock Engine Dirt Allround T1+ Sunflower 55.9 A/M",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "30/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2023)",
+            "sharecode": "627 908 268",
+            "suspension": "Rally",
+            "tuneName": "Stock Engine Dirt Allround T1+ Sunflower 55.9 A/M",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 541,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.507,
+      "shareCode": "627908268",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-03",
+      "drivetrain": "AWD",
+      "id": "sc-886301525",
+      "metaRank": 37,
+      "name": "Semis+V10+FA",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "03/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2023)",
+            "sharecode": "886 301 525",
+            "suspension": "Rally",
+            "tuneName": "Semis+V10+FA",
+            "tuner": "KapienPL",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 539,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.585,
+      "shareCode": "886301525",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,486 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-3660e5b2df",
+      "metaRank": 23,
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 road",
+            "Tuner": "Nalak28",
+            "fill": "FF7030A0"
+          },
+          "row": 1906,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3c4d41ea48",
+      "lapRefs": [
+        {
+          "time": "1:13.7",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 1:13.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 23,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 49,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.67,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-46f1e05884",
+      "lapRefs": [
+        {
+          "time": "54.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 51,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 106,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.622,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-4d58fa902c",
+      "metaRank": 23,
+      "name": "S1 Road META",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road META",
+            "Tuner": "JSR Chronic",
+            "fill": "FF7030A0"
+          },
+          "row": 1904,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "jsr-chronic"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 + Centri",
+      "id": "nc-80a9c83621",
+      "lapRefs": [
+        {
+          "time": "1:13.7",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 1:13.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 23,
+      "name": "Update",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Handling",
+            "Car": "Lamborghini Centenario",
+            "Difficulty": "Brain AFK",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 + Centri",
+            "Laptime": "0:54.902",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Slick",
+            "Tune": "LetzeLU",
+            "Tune Name": "Update"
+          },
+          "row": 27,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "handling",
+      "score": 0.681,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8877fdbec6",
+      "name": "S2 fast all around",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 fast all around",
+            "Tuner": "Raceboy77",
+            "fill": "FF0070C0"
+          },
+          "row": 1909,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "raceboy77"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-8cdad2fd75",
+      "metaRank": 23,
+      "name": "VTen",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "VTen",
+            "Tuner": "GReddy295",
+            "fill": "FF7030A0"
+          },
+          "row": 1903,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "greddy295"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-9066c7eb0f",
+      "lapRefs": [
+        {
+          "time": "1:13.7",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 1:13.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 23,
+      "name": "Road Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1905,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.691,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-aa61299dfb",
+      "metaRank": 23,
+      "name": "no aero",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "no aero",
+            "Tuner": "DEX MUKA",
+            "fill": "FF7030A0"
+          },
+          "row": 1902,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "dex-muka"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-be4abe14cc",
+      "metaRank": 23,
+      "name": "overall top",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "overall top",
+            "Tuner": "SakuraMxSPD",
+            "fill": "FF7030A0"
+          },
+          "row": 1908,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "sakuramxspd"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-e6a0488a9d",
+      "metaRank": 23,
+      "name": "S1 Road Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Lamborghini Centernario LP 770-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Grip",
+            "Tuner": "Noa Miyako",
+            "fill": "FF7030A0"
+          },
+          "row": 1907,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "Racing V12",
+      "id": "sc-140474919",
+      "name": "steering the ship",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Full Aero",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Racing V12",
+            "Make": "Lamborghini",
+            "Model": "Centenario LP 770-4",
+            "Road Surface": "Road",
+            "Share Code": "140474919",
+            "Tires": "Slicks",
+            "Tune Name": "steering the ship",
+            "Year": "2016"
+          },
+          "row": 32,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "140474919",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

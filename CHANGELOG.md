@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-08: **Pré-lançamento** ([ADR-0015](docs/adr/0015-pre-lancamento-com-todas-as-fontes.md)): o site público passa a mostrar as fontes dos tunadores (`permission: prelaunch`) enquanto as autorizações são pedidas, com aviso em todas as páginas, link para pedir remoção e sem indexação em buscadores. Nome do site: **Forza Paddock**.
 - 2026-11-08: **Fase 1 (parte 4): terceira revisão do dono.**
   - **Observações traduzidas** ([ADR-0014](docs/adr/0014-traducao-dos-textos-das-fontes.md)): as 170 observações em chinês de Noa Miyako com texto (as outras 119 eram só tempos) e 10 nomes de tune, em português e inglês, sem o link "Traduzir". Texto novo sem tradução fica escondido e listado em `data/review/untranslated-texts.json`.
   - **Português em todo o site:** tipos de evento ("Acrobacia de RP · Radar"), tipos de carro ("Hot hatch retrô"), recompensas ("Superroleta", "Buzina"), pneus, "Playlist do Festival", metas em km/h e metros, e os desafios da série ao vivo (`data/manual/playlist-texts.yaml`).

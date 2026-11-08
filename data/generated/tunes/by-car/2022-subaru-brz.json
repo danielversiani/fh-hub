@@ -1,0 +1,344 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2022-subaru-brz",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-2e2a30eff3",
+      "metaRank": 94,
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Subaru BRZ",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2793,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-subaru-brz",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-5c5acf60cc",
+      "lapRefs": [
+        {
+          "time": "32.8",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速公路32.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 94,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 192,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-subaru-brz",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-21",
+      "drivetrain": "RWD",
+      "id": "sc-118234467",
+      "metaRank": 94,
+      "name": "Purist Street racing",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Subaru",
+            "model": "BRZ (2022)",
+            "sharecode": "118 234 467",
+            "suspension": "Street",
+            "tuneName": "Purist Street racing",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 2333,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.488,
+      "shareCode": "118234467",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-subaru-brz",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-29",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-128981501",
+      "lapRefs": [
+        {
+          "time": "1:00.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 95,
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Subaru",
+            "model": "BRZ (2022)",
+            "sharecode": "128 981 501",
+            "suspension": "Street",
+            "tuneName": "A Road - Strong Allround",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 2332,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.641,
+      "shareCode": "128981501",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-subaru-brz",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-20",
+      "drivetrain": "AWD",
+      "id": "sc-180338640",
+      "metaRank": 94,
+      "name": "Strong A Road Balance (1:01.5> Shira, 46.9> Narai)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "20/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Subaru",
+            "model": "BRZ (2022)",
+            "sharecode": "180 338 640",
+            "suspension": "Street",
+            "tuneName": "Strong A Road Balance (1:01.5> Shira, 46.9> Narai)",
+            "tuner": "Destrukdi",
+            "tyreCompound": "Rally"
+          },
+          "row": 2331,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "180338640",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-subaru-brz",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-03",
+      "drivetrain": "RWD",
+      "id": "sc-278720038",
+      "metaRank": 94,
+      "name": "A Road | Purist (STI Kit)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Subaru",
+            "model": "BRZ (2022)",
+            "sharecode": "278 720 038",
+            "suspension": "Street",
+            "tuneName": "A Road | Purist (STI Kit)",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 2329,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.479,
+      "shareCode": "278720038",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-subaru-brz",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-18",
+      "drivetrain": "AWD",
+      "id": "sc-722829124",
+      "name": "Full Kit Dirt Allround T1 Sunflower 00.0 A/M",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Subaru",
+            "model": "BRZ (2022)",
+            "sharecode": "722 829 124",
+            "suspension": "Street",
+            "tuneName": "Full Kit Dirt Allround T1 Sunflower 00.0 A/M",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2334,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.497,
+      "shareCode": "722829124",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-subaru-brz",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-03",
+      "drivetrain": "RWD",
+      "id": "sc-755041102",
+      "metaRank": 94,
+      "name": "A Road | Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Subaru",
+            "model": "BRZ (2022)",
+            "sharecode": "755 041 102",
+            "suspension": "Street",
+            "tuneName": "A Road | Purist",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 2330,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.479,
+      "shareCode": "755041102",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    }
+  ],
+  "schemaVersion": 1
+}

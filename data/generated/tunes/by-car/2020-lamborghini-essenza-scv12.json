@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-bcf1fd0c6e",
+      "metaRank": 12,
+      "name": "R road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 28,
+          "sourceId": "noa-miyako",
+          "tab": "r-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ed0b7f61af",
+      "metaRank": 12,
+      "name": "R Class Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Essenza SCV12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "R Class Road",
+            "Tuner": "ESV Vini",
+            "fill": "FFFF00FF"
+          },
+          "row": 1923,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-vini"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-27",
+      "drivetrain": "AWD",
+      "id": "sc-118906044",
+      "metaRank": 9,
+      "name": "S2 Class Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "27/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Essenza SCV12",
+            "sharecode": "118 906 044",
+            "suspension": "Race",
+            "tuneName": "S2 Class Road",
+            "tuner": "ESV Vini",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 1366,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Essenza SCV12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Class Road",
+            "Tuner": "ESV Vini",
+            "fill": "FF0070C0"
+          },
+          "row": 1921,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.713,
+      "shareCode": "118906044",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "esv-vini"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-170149233",
+      "metaRank": 9,
+      "name": "Tempus Island",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Essenza SCV12",
+            "sharecode": "170 149 233",
+            "suspension": "Race",
+            "tuneName": "Tempus Island",
+            "tuner": "K1Z Howzer",
+            "tyreCompound": "Slick"
+          },
+          "row": 1367,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Essenza SCV12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Tempus Island",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF0070C0"
+          },
+          "row": 1922,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.771,
+      "shareCode": "170149233",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "sc-357300055",
+      "metaRank": 9,
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Make": "Lamborghini",
+            "Model": "Essenza SCV12",
+            "Road Surface": "Road",
+            "Share Code": "357300055",
+            "Tires": "Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2020"
+          },
+          "row": 34,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.61,
+      "shareCode": "357300055",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

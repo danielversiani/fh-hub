@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1965-toyota-sports-800-fanta-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-359fcb46c4",
+      "name": "A Road Meta Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Toyota Sports 800 Fanta Edition",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road Meta Powerbuild",
+            "Tuner": "Noa Miyako",
+            "fill": "FFFF0000"
+          },
+          "row": 2806,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-toyota-sports-800-fanta-edition",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-46c1ebd090",
+      "name": "B Dirt AWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Toyota Sports 800 Fanta Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt AWD",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 546,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-toyota-sports-800-fanta-edition",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-88312dde06",
+      "name": "B Dirt Racing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Toyota Sports 800 Fanta Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Racing",
+            "Tuner": "TonTon6427",
+            "fill": "FFED7D31"
+          },
+          "row": 547,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "tonton6427"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1965-toyota-sports-800-fanta-edition",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-a16a349702",
+      "name": "B Meta Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Toyota Sports 800 Fanta Edition",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Meta Powerbuild",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 548,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
+    }
+  ],
+  "schemaVersion": 1
+}

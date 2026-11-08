@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-funco-motorsports-f9",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3c28d64356",
+      "name": "S1 dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Funco Motorsports F9",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FF7030A0"
+          },
+          "row": 1609,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2018-funco-motorsports-f9",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-ba55e6bec0",
+      "name": "Oh no",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Funco Motorsports F9",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Oh no",
+            "Tuner": "Ghost5of5Russia",
+            "fill": "FF7030A0"
+          },
+          "row": 1610,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ghost5of5russia"
+    }
+  ],
+  "schemaVersion": 1
+}

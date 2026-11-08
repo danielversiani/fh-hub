@@ -1,0 +1,485 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-821cab9075",
+      "name": "Off-Meta A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Off-Meta A Dirt",
+            "Tuner": "EoJz7294",
+            "fill": "FFFF0000"
+          },
+          "row": 1109,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "eojz7294"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8498e71472",
+      "name": "A class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A class Dirt",
+            "Tuner": "polarbear690",
+            "fill": "FFFF0000"
+          },
+          "row": 1111,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "polarbear690"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-85804dcd92",
+      "lapRefs": [
+        {
+          "time": "1:05.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 33,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 70,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-c1a0806cb1",
+      "metaRank": 33,
+      "name": "B RWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B RWD Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFED7D31"
+          },
+          "row": 219,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e041099fcb",
+      "name": "Strong Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong Dirt/CC",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 1110,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-26",
+      "drivetrain": "AWD",
+      "id": "sc-115603700",
+      "name": "A Dirt - Strong (Takashiro Trail 1.59.4)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette ZR-1 (1970)",
+            "sharecode": "115 603 700",
+            "suspension": "Stock",
+            "tuneName": "A Dirt - Strong (Takashiro Trail 1.59.4)",
+            "tuner": "Falken JP",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 543,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.506,
+      "shareCode": "115603700",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "falken-jp"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-24",
+      "drivetrain": "AWD",
+      "id": "sc-144100778",
+      "name": "Dirty 10 Speed PI Flex Edition",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette ZR-1 (1970)",
+            "sharecode": "144 100 778",
+            "suspension": "Stock",
+            "tuneName": "Dirty 10 Speed PI Flex Edition",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 545,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty 10 Speed PI Flex Edition",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 1108,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "144100778",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-24",
+      "drivetrain": "AWD",
+      "id": "sc-163144609",
+      "name": "Dirty Best It Can Be 6 Speed",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette ZR-1 (1970)",
+            "sharecode": "163 144 609",
+            "suspension": "Stock",
+            "tuneName": "Dirty Best It Can Be 6 Speed",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 544,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty Best It Can Be 6 Speed",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 1107,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "163144609",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-25",
+      "drivetrain": "RWD",
+      "id": "sc-166674525",
+      "metaRank": 33,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette ZR-1 (1970)",
+            "sharecode": "166 674 525",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 547,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1112,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.626,
+      "shareCode": "166674525",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage-race",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-30",
+      "drivetrain": "RWD",
+      "id": "sc-178317095",
+      "metaRank": 33,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette ZR-1 (1970)",
+            "sharecode": "178 317 095",
+            "suspension": "Stock",
+            "tuneName": "Purist",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 546,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1970 Chevrolet Corvette ZR-1",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 218,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.63,
+      "shareCode": "178317095",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage-race",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-16",
+      "drivetrain": "RWD",
+      "id": "sc-427606911",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette ZR-1 (1970)",
+            "sharecode": "427 606 911",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Rally"
+          },
+          "row": 542,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "427606911",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "silvasuperbee"
+    }
+  ],
+  "schemaVersion": 1
+}

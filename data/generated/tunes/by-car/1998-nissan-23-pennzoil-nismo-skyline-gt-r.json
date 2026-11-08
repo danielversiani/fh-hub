@@ -1,0 +1,445 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3a04efcd39",
+      "name": "A Road Circuits | 02.6 Shira",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Nissan #23 Pennzoil Nismo Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Circuits | 02.6 Shira",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 2500,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-82a8d4b211",
+      "name": "THIS CAR IS SAVED! S1 ROAD CENTRI UPDATE",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 Nissan #23 Pennzoil Nismo Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "THIS CAR IS SAVED! S1 ROAD CENTRI UPDATE",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2502,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-07-10",
+      "drivetrain": "AWD",
+      "id": "sc-116085427",
+      "metaRank": 21,
+      "name": "S1 Dirt LFA",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "10/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "116 085 427",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt LFA",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1890,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.589,
+      "shareCode": "116085427",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-07",
+      "drivetrain": "RWD",
+      "id": "sc-151282017",
+      "name": "57.5 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "07/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "151 282 017",
+            "suspension": "Rally",
+            "tuneName": "57.5 Shirakawa",
+            "tuner": "VER Polaksz",
+            "tyreCompound": "Drift"
+          },
+          "row": 1891,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 Nissan #23 Pennzoil Nismo Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "57.5 Shirakawa",
+            "Tuner": "VER Polaksz",
+            "fill": "FF7030A0"
+          },
+          "row": 2503,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "151282017",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "ver-polaksz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-21",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-173952449",
+      "lapRefs": [
+        {
+          "time": "50.1",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "石部50.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 21,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "21/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "173 952 449",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1889,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 Nissan #23 Pennzoil Nismo Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2501,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.719,
+      "shareCode": "173952449",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-20",
+      "drivetrain": "AWD",
+      "id": "sc-233334673",
+      "metaRank": 21,
+      "name": "S1 Dirt (LFA)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "20/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "233 334 673",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt (LFA)",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1887,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "233334673",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-23",
+      "drivetrain": "AWD",
+      "id": "sc-394709595",
+      "metaRank": 21,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "23/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "394 709 595",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "Whatuplosers917",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1892,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "394709595",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-05-15",
+      "drivetrain": "RWD",
+      "id": "sc-480040859",
+      "name": "Good S2",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "15/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "480 040 859",
+            "suspension": "Race",
+            "tuneName": "Good S2",
+            "tuner": "trviis",
+            "tyreCompound": "Slick"
+          },
+          "row": 1894,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "480040859",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-08-23",
+      "drivetrain": "AWD",
+      "id": "sc-517724995",
+      "name": "NEW S1 ROAD META+++ 52.4 SHIRAKAWA WR #CYBREXZ #CHINA",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "23/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "517 724 995",
+            "suspension": "Race",
+            "tuneName": "NEW S1 ROAD META+++ 52.4 SHIRAKAWA WR #CYBREXZ #CHINA",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 1888,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.498,
+      "shareCode": "517724995",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-05-24",
+      "drivetrain": "AWD",
+      "engine": "4.8L V10",
+      "id": "sc-639236522",
+      "name": "AWD Handling",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "24/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "#23 Pennzoil Nismo Skyline GT-R",
+            "sharecode": "639 236 522",
+            "suspension": "Race",
+            "tuneName": "AWD Handling",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Slick"
+          },
+          "row": 1893,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Build": "LFA engine",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "4.8L V10",
+            "Make": "Nissan",
+            "Model": "#23 Pennzoil Nismo Skyline GT-R",
+            "Road Surface": "Road",
+            "Share Code": "639236522",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Handling",
+            "Year": "1998"
+          },
+          "row": 55,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.624,
+      "shareCode": "639236522",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

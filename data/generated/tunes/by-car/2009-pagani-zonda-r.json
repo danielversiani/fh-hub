@@ -1,0 +1,261 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2009-pagani-zonda-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-8f1a930ee4",
+      "metaNotes": "高速弯有点推头",
+      "metaNotesI18n": {
+        "en": "Slight understeer in fast corners.",
+        "pt-br": "Sai um pouco de frente em curvas rápidas."
+      },
+      "metaRank": 16,
+      "name": "R road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "r-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.479,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-pagani-zonda-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-93a3a1a076",
+      "metaRank": 10,
+      "name": "S2 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Pagani Zonda R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF0070C0"
+          },
+          "row": 2582,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-pagani-zonda-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c3ccef1de8",
+      "metaRank": 16,
+      "name": "3rd try",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Pagani Zonda R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "3rd try",
+            "Tuner": "Marethu1",
+            "fill": "FFFF00FF"
+          },
+          "row": 2583,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.445,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "marethu1"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-pagani-zonda-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-dad1fcaa62",
+      "lapRefs": [
+        {
+          "time": "1:04.6",
+          "track": "Legend Island"
+        },
+        {
+          "time": "1:44.6",
+          "track": "Tokyo Railway"
+        }
+      ],
+      "metaNotes": "传奇岛1:04.6 东京铁道1:44.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 10,
+      "name": "S2 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 23,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "lnvrtebrate"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-pagani-zonda-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-131646647",
+      "metaRank": 10,
+      "name": "S2 Road V1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Pagani",
+            "model": "Zonda R",
+            "sharecode": "131 646 647",
+            "suspension": "Race",
+            "tuneName": "S2 Road V1.1",
+            "tuner": "K1Z Howzer",
+            "tyreCompound": "Slick"
+          },
+          "row": 2105,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "131646647",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2009-pagani-zonda-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "engine": "Racing V12",
+      "id": "sc-131940042",
+      "lapRefs": [
+        {
+          "time": "1:04.6",
+          "track": "Legend Island"
+        },
+        {
+          "time": "1:44.6",
+          "track": "Tokyo Railway"
+        }
+      ],
+      "metaNotes": "传奇岛1:04.6 东京铁道1:44.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 10,
+      "name": "S2 Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "RWD",
+            "Engine": "Racing V12",
+            "Make": "Pagani",
+            "Model": "Zonda R",
+            "Road Surface": "Road",
+            "Share Code": "131940042",
+            "Tires": "Drift",
+            "Tune Name": "S2 Powerbuild",
+            "Year": "2009"
+          },
+          "row": 63,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "role": "power",
+      "score": 0.52,
+      "shareCode": "131940042",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

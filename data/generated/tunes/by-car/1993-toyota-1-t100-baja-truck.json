@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1993-toyota-1-t100-baja-truck",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3b81abf3e7",
+      "name": "Cross Country Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Toyota #1 T100 Baja Truck",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Cross Country Allround",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 2822,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-toyota-1-t100-baja-truck",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8962169003",
+      "name": "CC Updated",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Toyota #1 T100 Baja Truck",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "CC Updated",
+            "Tuner": "NEPOSHA",
+            "fill": "FFFF0000"
+          },
+          "row": 2823,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "neposha"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-toyota-1-t100-baja-truck",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-92ba9ce483",
+      "name": "S1 Dirt/CC Maxed PI Slow Compared to FH4 :(",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Toyota #1 T100 Baja Truck",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt/CC Maxed PI Slow Compared to FH4 :(",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 2824,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-toyota-1-t100-baja-truck",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-07",
+      "drivetrain": "AWD",
+      "id": "sc-649166962",
+      "name": "LFA Baja CrossCountry",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "07/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "#1 T100 Baja Truck",
+            "sharecode": "649 166 962",
+            "suspension": "Rally",
+            "tuneName": "LFA Baja CrossCountry",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2390,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.509,
+      "shareCode": "649166962",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-toyota-1-t100-baja-truck",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-22",
+      "drivetrain": "AWD",
+      "id": "sc-811501539",
+      "name": "Overweight Offroader",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "22/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "#1 T100 Baja Truck",
+            "sharecode": "811 501 539",
+            "suspension": "Rally",
+            "tuneName": "Overweight Offroader",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2395,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Toyota #1 T100 Baja Truck",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Overweight Offroader",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2821,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "811501539",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}
