@@ -10,6 +10,7 @@ import {
   ChangeLogEntry,
   CustomEvent,
   generatedFile,
+  Highlight,
   LapTime,
   MetaRanking,
   PlaylistEvent,
@@ -30,6 +31,7 @@ const GENERATED: [string, z.ZodType][] = [
   ['sources-status.json', SourceStatus],
   ['tunes/index.json', TuneIndexEntry],
   ['playlist/seasons.json', PlaylistSeason],
+  ['highlights.json', Highlight],
 ];
 
 /** Folders of grouped files (one JSON per key) and their item schema. */

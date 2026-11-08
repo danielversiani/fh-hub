@@ -60,18 +60,24 @@ const event: PlaylistEvent = {
 };
 
 const dataset: Dataset = {
-  cars: [car('fast'), car('ok'), car('van', ['Vans & Utility']), car('dirt-car')],
+  cars: [
+    car('fast'),
+    car('ok'),
+    car('2013-wuling-sunshine-s', ['Utility Heroes']),
+    car('dirt-car'),
+  ],
   tuners: [],
   tunes: [
     tune('sc-100000001', 'fast', 'alice'),
     tune('sc-100000002', 'ok', 'bob'),
     tune('sc-100000003', 'ok', 'carol', { buildTags: ['purist'], name: 'ok purist' }),
-    tune('sc-100000004', 'van', 'dave'),
+    tune('sc-100000004', '2013-wuling-sunshine-s', 'dave'),
     tune('sc-100000005', 'dirt-car', 'erin', { surface: 'dirt' }),
   ],
   lapTimes: [],
   customEvents: [],
   meta: [ranking('fast', 'meta-plus', ['alice']), ranking('ok', 't1', [])],
+  highlights: [],
   seasons: [
     {
       id: 's07-summer',
@@ -103,9 +109,29 @@ describe('curate', () => {
     expect(byId.get('sc-100000002')!.categories).toContain('off-meta');
   });
 
-  it('tags purist builds and meme car types in fast road classes', () => {
+  it('tags purist builds and the meme car list', () => {
     expect(byId.get('sc-100000003')!.categories).toContain('purist');
     expect(byId.get('sc-100000004')!.categories).toContain('meme');
+  });
+
+  it('uses the meta table tier, and T3 for cars the table does not list', () => {
+    expect(byId.get('sc-100000001')).toMatchObject({
+      tier: 'meta-plus',
+      tierSource: 'meta-table',
+      credited: true,
+    });
+    expect(byId.get('sc-100000004')).toMatchObject({ tier: 't3', tierSource: 'default' });
+    expect(byId.get('sc-100000004')!.categories).not.toContain('off-meta');
+  });
+
+  it('does not suggest when eligibility cannot be checked', () => {
+    const partial = {
+      ...event,
+      id: 'partial',
+      requirement: { ...event.requirement, status: 'partial' as const },
+    };
+    const r = curate({ ...dataset, events: [partial] }, config, sources);
+    expect(r.suggestions).toHaveLength(0);
   });
 
   it('fills the four slots in order without repeating a tune and respecting the surface', () => {

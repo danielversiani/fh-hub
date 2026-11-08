@@ -7,6 +7,12 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-08: **Fase 1 (parte 2): revisão visual e regras do dono.**
+  - Tier da Noa em tudo (T3 para quem não está na tabela); Meta/Off-meta só pelo tier; Meme por lista de carros; nenhuma sugestão quando a elegibilidade não pode ser verificada; nota numérica fora do site.
+  - Novidades na página inicial (abas de atualização e de carros novos da Noa + mudanças de tier detectadas pelo sync).
+  - Aba única "Tunes" com carros que se expandem em cartões por classe × piso; ordem do meta ao filtrar por classe.
+  - Playlist em blocos no estilo do jogo, com abas por estação, contagem regressiva e sugestões ao tocar no bloco.
+  - Visual novo: fontes Barlow/Barlow Condensed e cor de detalhe que muda com a estação ao vivo.
 - 2026-11-08: **Fase 1 (parte 1).**
   - Fonte `forza-playlist` (Festival Playlist oficial) e interpretador de restrições: 597 de 604 linhas entendidas.
   - Fonte `noa-miyako`: leitura da API interna do QQ Docs (protobuf, sem login), com 684 posições de meta por classe × piso.

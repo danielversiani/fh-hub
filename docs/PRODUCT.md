@@ -64,6 +64,13 @@ e os guias que o próprio jogo não oferece.
 | M14 | Team Wars | Combos populares de pista + carro + tune | **A definir** ([§10](#10-questões-em-aberto)) | A definir |
 | M15 | Comunidade | Contas, votos, favoritos, envio de tunes, bot de Discord | Usuários | Exige banco de dados |
 
+### 5.3 Ajustes de produto (2026-11-08, revisão visual do dono)
+
+- **Carros + Tunes viraram uma aba só ("Tunes")**: lista de carros que se expande mostrando as tunes; a página própria de cada carro continua existindo para links diretos.
+- **Página inicial = novidades** (carros com tunes atualizadas e que subiram de tier; quanto maior o salto, maior o destaque) e a playlist da semana. Os números do catálogo saíram do destaque e foram para o rodapé.
+- **Visual**: próximo da interface do jogo, mas minimalista e editorial; a cor de detalhe muda com a estação ao vivo da playlist.
+- **Sem estatísticas de carro** (velocidade, aceleração etc.): o sistema do jogo que as calcula não é confiável.
+
 ## 6. Fases
 
 | Fase | Entrega | Critério de pronto |

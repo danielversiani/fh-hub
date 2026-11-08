@@ -1,6 +1,7 @@
 import { getAdapter } from '../adapters';
 import { countRecords, withDefaults, type AdapterOutput, type TabPayload } from '../adapters/types';
 import { appendChangelog, diffDataset } from '../build/changelog';
+import { highlightsFromChanges, mergeHighlights, readChangelog } from '../build/highlights';
 import { buildDataset, datasetStats, type SourceResult } from '../build/dataset';
 import { readSnapshot, readStatuses, writeDataset, writeSnapshot } from '../build/write';
 import { loadManual, loadSources } from '../config';
@@ -184,11 +185,16 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
         appendChangelog(visibility, changes, now);
         log(`[${visibility}] changelog: ${changes.length} changes`);
       }
+      const news = mergeHighlights([
+        dataset.highlights,
+        highlightsFromChanges(readChangelog(visibility)),
+      ]);
       const report = writeDataset(
         visibility,
         dataset,
         visibility === 'public' ? statuses.filter((st) => st.public) : statuses,
         curated.suggestions,
+        news,
         now,
       );
       log(

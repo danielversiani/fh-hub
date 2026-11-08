@@ -1,8 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { parse as parseYaml } from 'yaml';
 import type {
   Car,
   ChangeLogEntry,
+  Highlight,
   LapTime,
   MetaRanking,
   PlaylistEvent,
@@ -96,3 +98,17 @@ export function loadStats() {
 }
 
 export const currentSeason = () => loadSeasons().find((s) => s.current);
+
+export const loadHighlights = () => readItems<Highlight>('highlights.json');
+
+/** Car ids the owner classes as "meme" (data/curation/config.yaml → categories.memeCars). */
+export function loadMemeCars(): string[] {
+  if (!cache.has('__meme')) {
+    const file = path.resolve(process.cwd(), 'data', 'curation', 'config.yaml');
+    const config = fs.existsSync(file)
+      ? (parseYaml(fs.readFileSync(file, 'utf8')) as { categories?: { memeCars?: string[] } })
+      : {};
+    cache.set('__meme', config.categories?.memeCars ?? []);
+  }
+  return cache.get('__meme') as string[];
+}

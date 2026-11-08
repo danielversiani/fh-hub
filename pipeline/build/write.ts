@@ -5,6 +5,7 @@ import { readJson, stableStringify, writeFileEnsuringDir } from '../lib/json';
 import { generatedDir, reviewDir, snapshotsDir, type Visibility } from '../paths';
 import {
   SCHEMA_VERSION,
+  type Highlight,
   type SourceStatus,
   type Suggestion,
   type Tune,
@@ -48,7 +49,12 @@ const toIndexEntry = (t: Tune): TuneIndexEntry => ({
   class: t.class,
   surface: t.surface,
   drivetrain: t.drivetrain,
+  tires: t.tires,
   buildTags: t.buildTags,
+  tier: t.tier,
+  tierSource: t.tierSource,
+  metaRank: t.metaRank,
+  credited: t.credited,
   score: t.score,
   categories: t.categories,
   sourceIds: [...new Set(t.observations.map((o) => o.sourceId))].sort(),
@@ -80,6 +86,7 @@ export function writeDataset(
   dataset: Dataset,
   statuses: SourceStatus[],
   suggestions: Suggestion[],
+  highlights: Highlight[],
   now = new Date().toISOString(),
 ): WriteReport {
   const report: WriteReport = { written: [], removed: [] };
@@ -98,6 +105,7 @@ export function writeDataset(
   writeGroups(path.join(out, 'tunes', 'by-car'), dataset.tunes, (t) => t.carId, now, report);
   writeGroups(path.join(out, 'meta'), dataset.meta, (m) => m.sourceId, now, report);
   writeEnvelope(path.join(out, 'playlist', 'seasons.json'), dataset.seasons, now, report);
+  writeEnvelope(path.join(out, 'highlights.json'), highlights, now, report);
   writeGroups(path.join(out, 'playlist', 'events'), dataset.events, (e) => e.seasonId, now, report);
   writeGroups(
     path.join(out, 'playlist', 'suggestions'),

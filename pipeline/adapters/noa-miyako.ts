@@ -4,7 +4,7 @@ import { cleanText } from '../lib/text';
 import type { QqBundle } from '../fetchers/qq-docs';
 import type { CarClass, Surface } from '../schema/enums';
 import { parseClass } from '../normalize/fields';
-import { emptyOutput, requireTab, type Adapter } from './types';
+import { emptyOutput, requireTab, type Adapter, type RawMetaUpdate } from './types';
 
 /** Column labels of every class × surface tab (Chinese). */
 const COLUMNS = [
@@ -30,6 +30,74 @@ export function parseMetaTabName(
   return m && carClass ? { carClass, surface: SURFACES[m[2]!]! } : undefined;
 }
 
+/** News tabs: a dated log of updated tunes and a list of new cars' tunes. */
+const UPDATE_TABS: Readonly<Record<string, RawMetaUpdate['kind']>> = {
+  老车调校更新: 'update',
+  新车调校速递: 'new-car',
+};
+const UPDATE_COLUMNS = ['制造商', '车辆型号', '等级', '赛事', '竞争力', '调校师'] as const;
+/** 赛事 ("event") column of the news tabs. */
+const EVENT_SURFACES: Readonly<Record<string, Surface>> = {
+  公路街头: 'road',
+  公路: 'road',
+  街头: 'road',
+  泥地: 'dirt',
+  越野: 'cross-country',
+};
+
+/** "26.11.8" → "2026-11-08" */
+export function parseShortDate(text: string): string | undefined {
+  const m = /^(\d{2})\.(\d{1,2})\.(\d{1,2})$/.exec(text.trim());
+  return m ? `20${m[1]}-${m[2]!.padStart(2, '0')}-${m[3]!.padStart(2, '0')}` : undefined;
+}
+
+function parseUpdateTab(
+  sheet: QqBundle['sheets'][number],
+  kind: RawMetaUpdate['kind'],
+  sourceId: string,
+  tabId: string,
+): RawMetaUpdate[] {
+  const grid = decodeCells(sheet.relatedSheet);
+  const { index, col } = findHeader(grid.rows, UPDATE_COLUMNS, {
+    sourceId,
+    tab: `${tabId}/${sheet.name}`,
+  });
+  const dateCol = grid.rows[index]!.findIndex((label) => label.trim() === '日期');
+  const tunerCols = [col['调校师'], col['调校师'] + 1];
+  const out: RawMetaUpdate[] = [];
+  let current: RawMetaUpdate | undefined;
+  for (let r = index + 1; r < grid.rows.length; r++) {
+    const row = grid.rows[r];
+    const tuners = tunerCols.map((c) => cell(row, c)).filter(Boolean);
+    const model = cell(row, col['车辆型号']);
+    const tier = cell(row, col['竞争力']);
+    if (!model || !tier) {
+      if (current) current.tuners.push(...tuners);
+      continue;
+    }
+    const carClass = parseClass(cell(row, col['等级']));
+    const surface = EVENT_SURFACES[cell(row, col['赛事'])];
+    if (!carClass || !surface) {
+      current = undefined;
+      continue;
+    }
+    const make = cleanText(cell(row, col['制造商']).replace(/\p{Script=Han}+/gu, ' '));
+    current = {
+      tab: kind === 'update' ? 'updates' : 'new-cars',
+      row: r + 1,
+      kind,
+      carClass,
+      surface,
+      car: { text: model, make: make || undefined },
+      tier,
+      tuners,
+      date: dateCol >= 0 ? parseShortDate(cell(row, dateCol)) : undefined,
+    };
+    out.push(current);
+  }
+  return out;
+}
+
 /**
  * Noa Miyako's meta table (QQ Docs, ADR-0005). One tab per class × surface; each car takes one
  * row plus continuation rows listing more tuners. Columns: tier (竞争力), make (制造商), model
@@ -48,6 +116,11 @@ export const noaMiyako: Adapter = {
       let unrated = 0;
 
       for (const sheet of bundle.sheets) {
+        const updateKind = UPDATE_TABS[sheet.name];
+        if (updateKind) {
+          out.metaUpdates.push(...parseUpdateTab(sheet, updateKind, input.source.id, tab.id));
+          continue;
+        }
         const meta = parseMetaTabName(sheet.name);
         if (!meta) continue;
         const grid = decodeCells(sheet.relatedSheet);

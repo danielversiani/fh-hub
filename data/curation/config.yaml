@@ -31,11 +31,32 @@ thresholds:
   unlistedTunerTierFactor: 0.8
 
 categories:
+  # Tiers of the meta table (Noa Miyako) that count as Meta / Off-meta.
   metaTiers: [meta-plus, meta, t0.5]
   offMetaTiers: [t1, t1.5, t2]
-  memeKeywords: [meme, fun, troll, joke, potato, funny]
-  # Car types that are a "meme" pick in fast asphalt events (S1 and above).
-  memeCarTypes: [Microcar, Vans & Utility, "Pickups & 4x4's", Buggies, Cult Cars]
+  # Cars that are not in the meta table get this tier until the table lists them (owner's rule).
+  defaultTier: t3
+  # "Meme" cars (owner's definition): cars nobody associates with competitive racing, but that
+  # work in Forza because the game is arcade. Car ids from data/generated/cars.json.
+  memeCars:
+    - 1962-peel-p50
+    - 1962-peel-p50-trolli-edition
+    - 1963-volkswagen-type-2-de-luxe
+    - 1972-reliant-supervan-iii
+    - 1989-nissan-s-cargo
+    - 1989-nissan-s-cargo-forza-edition
+    - 1994-ford-supervan-3
+    - 1994-honda-acty
+    - 2005-toyota-crown-super-deluxe-taxi
+    - 2011-ford-transit-supersportvan
+    - 2013-cadillac-xts-limousine
+    - 2013-wuling-sunshine-s
+    - 2013-wuling-sunshine-s-forza-edition
+    - 2014-mercedes-benz-unimog-u5023
+    - 2017-toyota-jpn-taxi
+    - 2022-ford-supervan-4
+    - 2022-wuling-hongguang-mini-ev
+    - 2025-citroen-ami
 
 # Tuner reputation (0–1). Missing tuners count as 0.5 (neutral).
 tuners: {}

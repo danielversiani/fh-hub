@@ -20,10 +20,12 @@ import {
 import { buildSeasons, eventCategory, eventId, parseSeasonLabel } from '../normalize/playlist';
 import { parseRoute, RequirementParser } from '../normalize/requirement';
 import { TunerRegistry, type TunerIdentity } from '../normalize/tuners';
+import { magnitude } from './highlights';
 import { CAR_CLASSES } from '../schema/enums';
 import type {
   Car,
   CustomEvent,
+  Highlight,
   LapTime,
   MetaRanking,
   PlaylistEvent,
@@ -46,6 +48,8 @@ export interface Dataset {
   lapTimes: LapTime[];
   customEvents: CustomEvent[];
   meta: MetaRanking[];
+  /** News from the meta table's update log (merged with the change log in sync). */
+  highlights: Highlight[];
   seasons: PlaylistSeason[];
   events: PlaylistEvent[];
   review: ReviewItem[];
@@ -342,6 +346,44 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
       a.rank - b.rank,
   );
 
+  // --- news from the meta table's update tabs ----------------------------------------------
+  const highlights: Highlight[] = [];
+  for (const { source, output } of ordered) {
+    // The new-cars tab has no dates: it is the table's current "fresh" list, so it takes the
+    // newest date of the update log.
+    const latest = output.metaUpdates.reduce(
+      (max, u) => (u.date && u.date > max ? u.date : max),
+      '',
+    );
+    for (const u of output.metaUpdates) {
+      const tier = parseTier(u.tier);
+      const date = u.date ?? latest;
+      if (!tier || !date) continue;
+      const carId = resolveCar(source.id, u.car);
+      if (!carId) continue;
+      const kind = u.kind === 'new-car' ? 'new-car' : 'tune-update';
+      highlights.push({
+        id: `${source.id}--${u.tab}--${u.row}`,
+        kind,
+        date,
+        carId,
+        class: u.carClass,
+        surface: u.surface,
+        tier,
+        tunerIds: [
+          ...new Set(
+            u.tuners.flatMap((name) => {
+              const identity = identifyTuner(name);
+              return identity ? [identity.id] : [];
+            }),
+          ),
+        ],
+        sourceId: source.id,
+        magnitude: magnitude(kind, tier),
+      });
+    }
+  }
+
   // --- festival playlist -------------------------------------------------------------------
   const requirements = new RequirementParser(cars, resolver);
   const seasons: PlaylistSeason[] = [];
@@ -406,6 +448,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     lapTimes,
     customEvents,
     meta,
+    highlights,
     seasons,
     events,
     review: review.list(),

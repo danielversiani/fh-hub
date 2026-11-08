@@ -1,6 +1,15 @@
 ---
 import '../styles/global.css';
-import { htmlLang, localePath, otherLocale, t, type Locale, type MessageKey } from '../i18n';
+import {
+  formatNumber,
+  htmlLang,
+  localePath,
+  otherLocale,
+  t,
+  type Locale,
+  type MessageKey,
+} from '../i18n';
+import { currentSeason, loadStats } from '../lib/data';
 
 interface Props {
   locale: Locale;
@@ -15,16 +24,18 @@ const pageTitle = title ? `${title} · ${t(locale, 'site.name')}` : t(locale, 's
 const other = otherLocale(locale);
 const nav: [MessageKey, string][] = [
   ['nav.playlist', '/playlist/'],
-  ['nav.cars', '/cars/'],
   ['nav.tunes', '/tunes/'],
   ['nav.meta', '/meta/'],
   ['nav.tuners', '/tuners/'],
 ];
 const current = Astro.url.pathname;
+// The live Festival Playlist season tints the whole site (see styles/global.css).
+const season = currentSeason()?.season;
+const stats = loadStats();
 ---
 
 <!doctype html>
-<html lang={htmlLang(locale)}>
+<html lang={htmlLang(locale)} data-season={season}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -34,9 +45,9 @@ const current = Astro.url.pathname;
     <link rel="alternate" hreflang="en" href={localePath('en', path)} />
   </head>
   <body class="min-h-screen">
-    <header class="border-b border-border bg-surface">
-      <nav class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3">
-        <a href={localePath(locale, '/')} class="font-bold text-accent">
+    <header class="border-b border-border/70">
+      <nav class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-4">
+        <a href={localePath(locale, '/')} class="display text-2xl text-accent">
           {t(locale, 'site.name')}
         </a>
         {nav.map(([key, href]) => {
@@ -45,8 +56,8 @@ const current = Astro.url.pathname;
             <a
               href={target}
               class:list={[
-                'text-sm hover:underline',
-                current.startsWith(target) && 'font-semibold text-accent',
+                'eyebrow text-sm hover:text-text',
+                current.startsWith(target) ? 'text-season' : 'text-muted',
               ]}
             >
               {t(locale, key)}
@@ -56,25 +67,32 @@ const current = Astro.url.pathname;
         <a
           href={localePath(other, path)}
           hreflang={htmlLang(other)}
-          class="ml-auto text-sm text-muted hover:underline"
+          class="eyebrow ml-auto text-sm text-muted hover:text-text"
         >
           {t(locale, 'nav.language')}
         </a>
       </nav>
     </header>
-    <main class="mx-auto max-w-6xl px-4 py-8">
+    <main class="mx-auto max-w-6xl px-4 py-10">
       <slot />
     </main>
-    <footer class="mx-auto max-w-6xl px-4 pb-10 text-xs text-muted">
+    <footer class="mx-auto max-w-6xl border-t border-border/70 px-4 py-8 text-xs text-muted">
       <p>{t(locale, 'footer.disclaimer')}</p>
-      <p class="mt-2">
-        <a href={localePath(locale, '/status/')} class="hover:underline">
+      <p class="mt-2 flex flex-wrap gap-x-4">
+        <span>
+          {t(locale, 'home.footerStats', {
+            cars: formatNumber(locale, stats.cars),
+            tunes: formatNumber(locale, stats.tunes),
+            tuners: formatNumber(locale, stats.tuners),
+          })}
+        </span>
+        <a href={localePath(locale, '/status/')} class="hover:text-text">
           {t(locale, 'nav.status')}
         </a>
       </p>
     </footer>
     <script>
-      // Copy share codes: any element with data-copy (ShareCode.astro, TuneSearch island).
+      // Copy share codes: any element with data-copy (cards, playlist suggestions).
       document.addEventListener('click', (event) => {
         const button = (event.target as HTMLElement | null)?.closest<HTMLElement>('[data-copy]');
         if (!button?.dataset.copy) return;

@@ -48,7 +48,7 @@ async function sampleXlsx(bytes: Buffer, sheetName: string): Promise<Buffer> {
 }
 
 /** QQ bundles are protobuf blobs per tab, so the sample keeps a few whole tabs. */
-const QQ_SAMPLE_TABS = ['R 998公路', 'S1 800泥地', 'C 500公路'];
+const QQ_SAMPLE_TABS = ['R 998公路', 'S1 800泥地', 'C 500公路', '老车调校更新'];
 
 function sampleQq(bytes: Buffer): Buffer {
   const bundle = JSON.parse(bytes.toString('utf8')) as QqBundle;

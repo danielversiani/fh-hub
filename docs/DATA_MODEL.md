@@ -222,6 +222,7 @@ O mesmo conjunto de arquivos existe em dois lugares: `data/generated/` (público
 | `tunes/by-car/<carId>.json` | Tunes completos de um carro, com observações | Página de carro | ✅ |
 | `laptimes.json` | Tempos de volta | Curadoria, páginas de carro | ✅ |
 | `custom-events.json` | Eventos da comunidade | Módulo M13 | ✅ |
+| `highlights.json` | Novidades do início: tunes atualizadas, carros novos e mudanças de tier, com `magnitude` (quanto maior o salto, maior o destaque) | Página inicial | ✅ |
 | `sources-status.json` | Saúde de cada fonte | Página `/status`, alertas | ✅ |
 | `meta/<source-id>.json` | Rankings de meta por fonte | Tabela de meta, curadoria | ✅ |
 | `playlist/seasons.json` | Temporadas (ordem, datas, qual está ao vivo) | Página da playlist | ✅ |

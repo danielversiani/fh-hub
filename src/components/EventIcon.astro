@@ -1,0 +1,31 @@
+---
+/** Simple glyphs per event category (our own drawings, no game assets). */
+interface Props {
+  category: string;
+  class?: string;
+}
+
+const { category, class: className = 'h-5 w-5' } = Astro.props;
+const PATHS: Record<string, string> = {
+  championship:
+    'M7 3h10v4a5 5 0 0 1-10 0V3zM4 4h2v2.5A2.5 2.5 0 0 1 4 4zm14 0h2a2.5 2.5 0 0 1-2 2.5V4zM10.5 12h3v4H16v3H8v-3h2.5z',
+  trial: 'M5 2h2v20H5zM8 3h11l-2.5 4.5L19 12H8z',
+  'weekly-challenge':
+    'M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.3l-5.9 3.2 1.2-6.5L2.5 9.4l6.6-.9z',
+  'pr-stunt': 'M13.5 2L4 14h6.5L9.5 22 20 9.5h-6.5z',
+  'horizon-life': 'M9 1.5h6v2H9zM12 5a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm-1 3v6l4.5 2.7 1-1.7-3.5-2V8z',
+  rivals:
+    'M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm0 3a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6z',
+};
+const d = PATHS[category] ?? PATHS['weekly-challenge']!;
+---
+
+<svg
+  viewBox="0 0 24 24"
+  class={className}
+  fill="currentColor"
+  aria-hidden="true"
+  fill-rule="evenodd"
+>
+  <path d={d}></path>
+</svg>

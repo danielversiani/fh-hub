@@ -130,6 +130,21 @@ export interface RawMetaEntry {
   raw: Record<string, string>;
 }
 
+/** A dated "news" row of a meta table: a car whose tune/tier was updated, or a new car. */
+export interface RawMetaUpdate {
+  tab: string;
+  row: number;
+  kind: 'update' | 'new-car';
+  carClass: CarClass;
+  surface: Surface;
+  car: CarRef;
+  tier: string;
+  tuners: string[];
+  /** ISO date when the table states it (Noa's update log does; the new-cars tab does not). */
+  date?: string;
+  notes?: string;
+}
+
 /** Everything an adapter can extract. This object is also the per-source snapshot. */
 export interface AdapterOutput {
   catalog: CatalogCar[];
@@ -138,6 +153,7 @@ export interface AdapterOutput {
   customEvents: RawCustomEvent[];
   playlists: RawPlaylist[];
   meta: RawMetaEntry[];
+  metaUpdates: RawMetaUpdate[];
   warnings: string[];
 }
 
@@ -163,6 +179,7 @@ export const emptyOutput = (): AdapterOutput => ({
   customEvents: [],
   playlists: [],
   meta: [],
+  metaUpdates: [],
   warnings: [],
 });
 
@@ -178,7 +195,8 @@ export const countRecords = (o: AdapterOutput): number =>
   o.lapTimes.length +
   o.customEvents.reduce((n, e) => n + e.groups.reduce((m, g) => m + g.entries.length, 0), 0) +
   o.playlists.reduce((n, p) => n + p.rows.length, 0) +
-  o.meta.length;
+  o.meta.length +
+  o.metaUpdates.length;
 
 export function requireTab<K extends TabPayload['kind']>(
   input: AdapterInput,

@@ -28,8 +28,8 @@ export const CurationConfig = z.object({
   categories: z.object({
     metaTiers: z.array(Tier),
     offMetaTiers: z.array(Tier),
-    memeKeywords: z.array(z.string()),
-    memeCarTypes: z.array(z.string()),
+    defaultTier: Tier,
+    memeCars: z.array(z.string()),
   }),
   tuners: z
     .record(z.string(), z.number().min(0).max(1))

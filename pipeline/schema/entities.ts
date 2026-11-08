@@ -68,7 +68,17 @@ export const Tune = z.object({
   notes: z.string().optional(),
   createdAt: z.iso.date().optional(),
   observations: z.array(Observation).min(1),
-  /** Curation (docs/CURATION.md): 0–1 score in the tune's own class × surface. */
+  /**
+   * Tier of the car in the tune's class × surface: from the meta table (Noa Miyako) or, when the
+   * table does not list the car, the default tier (T3) until it does (owner's rule, CURATION.md).
+   */
+  tier: Tier.optional(),
+  tierSource: z.enum(['meta-table', 'default']).optional(),
+  /** Position of the car in the meta table for this class × surface. */
+  metaRank: z.number().int().positive().optional(),
+  /** The meta table credits this tune's tuner for this car. */
+  credited: z.boolean().optional(),
+  /** Internal 0–1 score, only used to break ties between tunes of the same tier. */
   score: z.number().min(0).max(1).optional(),
   /** Share of signal weight that had data (0–1). */
   confidence: z.number().min(0).max(1).optional(),
@@ -86,7 +96,12 @@ export const TuneIndexEntry = Tune.pick({
   class: true,
   surface: true,
   drivetrain: true,
+  tires: true,
   buildTags: true,
+  tier: true,
+  tierSource: true,
+  metaRank: true,
+  credited: true,
   score: true,
   categories: true,
 }).extend({ sourceIds: z.array(Slug).min(1) });
@@ -243,6 +258,25 @@ export const PlaylistEvent = z.object({
   row: z.number().int().positive(),
 });
 export type PlaylistEvent = z.infer<typeof PlaylistEvent>;
+
+/**
+ * A piece of news for the home page: a car whose tier went up, a new meta entry, a tune update
+ * logged by the meta table, or a new car. Bigger upgrades get a bigger `magnitude` (more highlight).
+ */
+export const Highlight = z.object({
+  id: z.string(),
+  kind: z.enum(['tier-up', 'tier-down', 'new-entry', 'tune-update', 'new-car']),
+  date: z.iso.date(),
+  carId: Slug,
+  class: CarClass,
+  surface: Surface,
+  tier: Tier,
+  previousTier: Tier.optional(),
+  tunerIds: z.array(Slug),
+  sourceId: Slug,
+  magnitude: z.number(),
+});
+export type Highlight = z.infer<typeof Highlight>;
 
 /** One change between two syncs (DATA_MODEL: ChangeLogEntry). */
 export const ChangeLogEntry = z.object({

@@ -1,105 +1,201 @@
 ---
-import { formatNumber, localePath, t, type Locale, type MessageKey } from '../i18n';
+import type { Highlight } from '../../pipeline/schema/entities';
+import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
+import { ClassChip, TierChip } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
-import {
-  currentSeason,
-  isPreview,
-  loadEvents,
-  loadRecentChanges,
-  loadStats,
-  maps,
-} from '../lib/data';
-import ClassBadge from './ClassBadge.astro';
+import { currentSeason, isPreview, loadEvents, loadHighlights, maps } from '../lib/data';
+import { formatReward, requirementText, seasonEndsAt } from '../lib/playlist';
+import { TIER_LABELS } from '../lib/ui';
+import EventIcon from './EventIcon.astro';
 
 interface Props {
   locale: Locale;
 }
 
 const { locale } = Astro.props;
-const stats = loadStats();
-const cards = [
-  { value: formatNumber(locale, stats.cars), label: t(locale, 'home.stats.cars') },
-  { value: formatNumber(locale, stats.tunes), label: t(locale, 'home.stats.tunes') },
-  { value: formatNumber(locale, stats.coded), label: t(locale, 'home.stats.coded') },
-  { value: formatNumber(locale, stats.tuners), label: t(locale, 'home.stats.tuners') },
-  { value: `${stats.coverage}%`, label: t(locale, 'home.stats.coverage') },
-];
+const { cars, tuners } = maps();
+
+// News: last 14 days before the newest item; bigger upgrades first (owner's rule); one per car.
+const all = loadHighlights();
+const newest = all.reduce((max, h) => (h.date > max ? h.date : max), '');
+const cutoff = newest
+  ? new Date(Date.parse(newest) - 14 * 86_400_000).toISOString().slice(0, 10)
+  : '';
+const seen = new Set<string>();
+const news: Highlight[] = all
+  .filter((h) => h.date >= cutoff && h.kind !== 'tier-down')
+  .sort((a, b) => b.magnitude - a.magnitude || b.date.localeCompare(a.date))
+  .filter((h) => (seen.has(h.carId) ? false : (seen.add(h.carId), true)))
+  .slice(0, 7);
+const [feature, ...rest] = news;
+
 const season = currentSeason();
-const highlights = season
-  ? loadEvents(season.id).filter((e) =>
-      ['championship', 'trial', 'weekly-challenge'].includes(e.category),
-    )
+const tiles = season
+  ? loadEvents(season.id)
+      .filter((e) => ['championship', 'trial', 'weekly-challenge'].includes(e.category))
+      .slice(0, 6)
   : [];
-const changes = loadRecentChanges(12);
-const { cars } = maps();
+
+const dateFmt = new Intl.DateTimeFormat(htmlLang(locale), {
+  day: 'numeric',
+  month: 'short',
+  timeZone: 'UTC',
+});
+const fmt = (iso: string) => dateFmt.format(new Date(iso));
+const tunerNames = (h: Highlight) =>
+  h.tunerIds.map((id) => tuners.get(id)?.displayName ?? id).join(', ');
 ---
 
 <Base locale={locale} path="/">
-  <p class="text-sm font-semibold uppercase tracking-wide text-accent">
-    {t(locale, 'home.building')}
-  </p>
-  <h1 class="mt-2 text-3xl font-bold sm:text-4xl">{t(locale, 'home.title')}</h1>
-  <p class="mt-4 max-w-2xl text-muted">{t(locale, 'home.lead')}</p>
+  <section>
+    <p class="eyebrow text-season">{t(locale, 'home.eyebrow')}</p>
+    <h1 class="display mt-2 text-5xl sm:text-7xl">{t(locale, 'home.title')}</h1>
+    <p class="mt-4 max-w-2xl text-muted">{t(locale, 'home.lead')}</p>
 
-  <ul class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-    {cards.map((card) => (
-      <li class="rounded-lg border border-border bg-surface p-4">
-        <p class="text-2xl font-bold tabular-nums">{card.value}</p>
-        <p class="mt-1 text-sm text-muted">{card.label}</p>
-      </li>
-    ))}
-  </ul>
-  <p class="mt-4 text-sm text-muted">
-    {isPreview ? t(locale, 'home.preview') : t(locale, 'home.publicOnly')}
-  </p>
-
-  <div class="mt-10 grid gap-8 lg:grid-cols-2">
-    {season && (
-      <section>
-        <h2 class="text-xl font-semibold">{t(locale, 'home.live')}</h2>
-        <p class="mt-1 text-sm text-muted">
-          S{String(season.series).padStart(2, '0')} {season.seriesName} ·{' '}
-          {t(locale, `season.${season.season}`)}
-        </p>
-        <ul class="mt-3 divide-y divide-border rounded-lg border border-border bg-surface text-sm">
-          {highlights.map((e) => (
-            <li class="flex flex-wrap items-center gap-2 px-4 py-2">
-              <ClassBadge value={e.requirement.class} />
-              <span class="font-medium">{e.name}</span>
-              <span class="text-muted">
-                {e.requirement.scopeLabel ?? t(locale, 'playlist.anyCar')}
-              </span>
-            </li>
-          ))}
-        </ul>
+    {!feature ? (
+      <p class="mt-8 text-muted">{t(locale, 'home.noHighlights')}</p>
+    ) : (
+      <div class="mt-8 grid gap-4 lg:grid-cols-3">
         <a
-          href={localePath(locale, '/playlist/')}
-          class="mt-3 inline-block text-sm font-semibold text-accent hover:underline"
+          href={localePath(locale, `/cars/${feature.carId}/`)}
+          class="card group relative flex min-h-80 flex-col justify-end overflow-hidden p-6 lg:col-span-2 lg:row-span-2"
         >
-          {t(locale, 'common.viewAll')} →
-        </a>
-      </section>
-    )}
-    <section>
-      <h2 class="text-xl font-semibold">{t(locale, 'home.changes')}</h2>
-      {changes.length === 0 ? (
-        <p class="mt-3 text-sm text-muted">{t(locale, 'home.noChanges')}</p>
-      ) : (
-        <ul class="mt-3 divide-y divide-border rounded-lg border border-border bg-surface text-sm">
-          {changes.map((c) => (
-            <li class="flex flex-wrap items-center gap-2 px-4 py-2">
-              <span class="text-xs font-semibold uppercase text-accent">
-                {t(locale, `change.${c.kind}` as MessageKey)}
+          <span
+            class="display pointer-events-none absolute -right-3 -top-6 select-none text-[11rem] text-season opacity-10"
+            aria-hidden="true"
+          >
+            {TIER_LABELS[feature.tier]}
+          </span>
+          <p class="eyebrow text-season">
+            {t(locale, `home.highlight.${feature.kind}` as MessageKey)} · {fmt(feature.date)}
+          </p>
+          <h2 class="display mt-2 text-5xl group-hover:text-accent sm:text-6xl">
+            {cars.get(feature.carId)?.model ?? feature.carId}
+          </h2>
+          <p class="mt-1 text-muted">
+            {cars.get(feature.carId)?.make} · {cars.get(feature.carId)?.year}
+          </p>
+          <div class="mt-4 flex flex-wrap items-center gap-2">
+            <ClassChip cls={feature.class} />
+            <span class="text-sm">{t(locale, `surface.${feature.surface}`)}</span>
+            {feature.previousTier && (
+              <>
+                <TierChip tier={feature.previousTier} muted />
+                <span class="text-muted">→</span>
+              </>
+            )}
+            <TierChip tier={feature.tier} />
+            {feature.tunerIds.length > 0 && (
+              <span class="text-sm text-muted">
+                · {t(locale, 'card.by')} {tunerNames(feature)}
               </span>
-              <ClassBadge value={c.class} />
-              <a href={localePath(locale, `/cars/${c.carId}/`)} class="hover:underline">
-                {cars.get(c.carId)?.displayName ?? c.carId}
-              </a>
-              <span class="text-muted">{[c.before, c.after].filter(Boolean).join(' → ')}</span>
-            </li>
-          ))}
-        </ul>
-      )}
+            )}
+          </div>
+        </a>
+        {rest.map((h) => (
+          <a
+            href={localePath(locale, `/cars/${h.carId}/`)}
+            class="card group flex flex-col gap-2 p-4 hover:border-season"
+          >
+            <p class="eyebrow text-season">
+              {t(locale, `home.highlight.${h.kind}` as MessageKey)} · {fmt(h.date)}
+            </p>
+            <p class="display text-2xl group-hover:text-accent">
+              {cars.get(h.carId)?.model ?? h.carId}
+            </p>
+            <div class="flex flex-wrap items-center gap-2 text-sm">
+              <ClassChip cls={h.class} />
+              <span class="text-muted">{t(locale, `surface.${h.surface}`)}</span>
+              {h.previousTier && (
+                <>
+                  <TierChip tier={h.previousTier} muted />
+                  <span class="text-muted">→</span>
+                </>
+              )}
+              <TierChip tier={h.tier} />
+            </div>
+            {h.tunerIds.length > 0 && (
+              <p class="text-xs text-muted">
+                {t(locale, 'card.by')} {tunerNames(h)}
+              </p>
+            )}
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {season && (
+    <section class="mt-16">
+      <div class="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p class="eyebrow text-season">
+            S{String(season.series).padStart(2, '0')} {season.seriesName} ·{' '}
+            {t(locale, `season.${season.season}`)}
+          </p>
+          <h2 class="display mt-1 text-4xl sm:text-5xl">{t(locale, 'home.playlistTitle')}</h2>
+        </div>
+        <div class="text-right">
+          <p
+            class="display text-xl text-season"
+            data-ends-at={seasonEndsAt(season.endsOn)}
+            data-label={t(locale, 'playlist.endsIn', { d: '{d}', h: '{h}' })}
+            data-ended={t(locale, 'playlist.ended')}
+          />
+          <a
+            href={localePath(locale, '/playlist/')}
+            class="eyebrow text-sm text-accent hover:underline"
+          >
+            {t(locale, 'common.viewAll')} →
+          </a>
+        </div>
+      </div>
+      <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {tiles.map((event) => (
+          <a
+            href={`${localePath(locale, '/playlist/')}#${event.id}`}
+            class="card group relative block min-h-44 overflow-hidden p-5 hover:border-season"
+          >
+            <span
+              class="display pointer-events-none absolute -bottom-4 -right-1 select-none text-[6rem] text-season opacity-[0.08]"
+              aria-hidden="true"
+            >
+              {event.requirement.class ?? '★'}
+            </span>
+            <span class="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-season/15 text-season">
+              <EventIcon category={event.category} class="h-4 w-4" />
+            </span>
+            <p class="eyebrow pr-10 text-season">{event.type}</p>
+            <p class="display mt-1 pr-8 text-2xl group-hover:text-accent">{event.name}</p>
+            <p class="mt-3 flex flex-wrap items-center gap-2 text-sm">
+              <ClassChip cls={event.requirement.class} />
+              <span class="font-semibold">{requirementText(locale, event)}</span>
+            </p>
+            {event.reward && (
+              <p class="mt-3 truncate text-xs text-muted">
+                {t(locale, 'playlist.reward')}: {formatReward(locale, event.reward)}
+              </p>
+            )}
+          </a>
+        ))}
+      </div>
     </section>
-  </div>
+  )}
+
+  {isPreview && <p class="mt-12 text-xs text-muted">{t(locale, 'home.preview')}</p>}
+
+  <script>
+    for (const el of document.querySelectorAll<HTMLElement>('[data-ends-at]')) {
+      const ms = Date.parse(el.dataset.endsAt ?? '') - Date.now();
+      if (Number.isNaN(ms)) continue;
+      if (ms <= 0) el.textContent = el.dataset.ended ?? '';
+      else {
+        const d = Math.floor(ms / 86_400_000);
+        const h = Math.floor((ms % 86_400_000) / 3_600_000);
+        el.textContent = (el.dataset.label ?? '')
+          .replace('{d}', String(d))
+          .replace('{h}', String(h));
+      }
+    }
+  </script>
 </Base>
