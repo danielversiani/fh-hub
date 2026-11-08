@@ -14,8 +14,8 @@
 | `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | pending | ✅ Fase 0 |
 | `letzelu-shirakawa` | Letz' Shirakawa Tune & Hotlap Sheet | Google Sheets | Tempos de volta A/S1/S2 com tier | ✅ exportação CSV | pending | ✅ Fase 0 |
 | `whd-url` | Underground Racing League (Wrong Hand Drive) | Google Sheets | Série da comunidade: ~60 carros com tune e pintura, mais rotas de evento | ✅ exportação CSV | pending | ✅ Fase 0 |
-| `noa-miyako` | Noa Miyako, "地平线6线上车辆调校推荐" | QQ Docs | Tiers de meta por classe × piso | ⚠️ API interna (protobuf) | pending | Fase 1 |
-| `forza-playlist` | forza.net/fh6playlists | JSON oficial | Festival Playlist completa (604 linhas) | ✅ `_payload.json` | not-required | Fase 1 |
+| `noa-miyako` | Noa Miyako, "地平线6线上车辆调校推荐" | QQ Docs | Tiers de meta por classe × piso (~800 carros) | ⚠️ API interna (protobuf) | pending | ✅ Fase 1 |
+| `forza-playlist` | forza.net/fh6playlists | JSON oficial | Festival Playlist completa (604 linhas) | ✅ `_payload.json` | not-required | ✅ Fase 1 |
 | `base-events` | Levantamento próprio | YAML manual | Eventos-base do mapa | Manual | not-required | Fase 2 |
 
 O registro executável dessas fontes é `data/sources.yaml`.
@@ -52,6 +52,27 @@ O registro executável dessas fontes é `data/sources.yaml`.
 - **Acesso:** `GET /dop-api/opendoc?...` (primeiro bloco) e `GET /dop-api/get/sheet?padId=...&subId=<aba>&startrow=N&endrow=N+255` (blocos de 256 linhas). O campo `block_datas[].related_sheet` é base64 → zlib → protobuf não documentado. Sem login.
 - **Conteúdo observado:** tier (`Meta+`, `Meta`, `T0.5`, `T1`, `T1.5`, `T2`, `T3`), carro com marca bilíngue (`Subaru 斯巴鲁` + `1994 Subaru Vivio RX-R`), tunador, dificuldade em chinês (非常困难 = very hard, 稍微困难 = slightly hard; demais a mapear), share code de 9 dígitos, notas em chinês.
 - **Riscos:** formato interno pode mudar a qualquer momento. Plano B: Playwright.
+
+**Implementação (Fase 1, 2026-11-08):**
+- **Acesso sem login** (`pipeline/fetchers/qq-docs.ts`):
+  1. abrir a página da planilha para receber os cookies de sessão anônima; o cookie `TOK` também serve de token xsrf;
+  2. `dop-api/opendoc` devolve a revisão e o *workbook* com a lista de abas;
+  3. `dop-api/get/sheet` é chamado uma vez por aba (linhas 0 até o total).
+
+  O resultado é guardado como um pacote JSON (`*.qq.json`) com os blobs ainda codificados.
+- **Decodificação** (`pipeline/lib/qq-sheet.ts`): base64 → zlib → protobuf sem schema publicado. O mapeamento dos campos está documentado no topo do arquivo:
+  - lista de abas: mutação 1;
+  - células: mutação 18, com *pool* de strings e células `{linha, coluna, tipo, índice}`.
+- **Colunas** de cada aba de classe × piso: 竞争力 (tier), 制造商 (marca, "Toyota 丰田"), 车辆型号 (modelo com ano), 驱动 (tração), 难度 (dificuldade), 轮胎 (pneus), 定位 (perfil), 调校师 (tunador, em duas colunas), 备注 (notas, em geral um tempo em Shirakawa) e 获取方式 (como obter). Cada carro ocupa uma linha mais linhas de continuação com outros tunadores.
+- **Sem share codes:** a tabela indica *quem* tunou; o jogador busca o gamertag no jogo. No nosso modelo, ela vira `MetaRanking` com `tunerIds`.
+- **Mapeamentos de termos em chinês** (em `normalize/fields.ts`):
+  - pneus: 越野胎 off-road, 拉力胎 rally, 半热熔 semi-slick, 全热熔 slick, 赛用热熔 super slick (inferido), 复古白胎 vintage;
+  - dificuldade: 非常简单/简单 fácil, 中等 média, 稍微困难, 困难, 非常困难;
+  - perfil: 全能 completo, 动力 potência, 操控 controle.
+- **Limitações conhecidas** (2026-11-08):
+  - 49 células do modelo são do tipo "conteúdo rico" e a API não entrega o texto. O carro vai para a fila de revisão como `<marca> [rich cell]`.
+  - 42 carros estão marcados 未知 ("ainda não avaliado") e são ignorados.
+  - Por isso, há saltos na numeração do ranking na página de meta.
 
 ### `gbr-ozzy`: GBR Ozzy's FH6 | FH5 & FH4 Spreadsheet
 - **URL:** https://docs.google.com/spreadsheets/d/1FQ29uIAWVEJDT41sx9bEoqz0BGLpOi9MdA2hp0uzP9w
@@ -104,7 +125,9 @@ O registro executável dessas fontes é `data/sources.yaml`.
 ### `forza-playlist`: Festival Playlist oficial
 - **URL:** https://forza.net/fh6playlists · dados em `https://forza.net/fh6playlists/_payload.json` (Nuxt/devalue, ~120 KB).
 - **Colunas:** *Series / Season, Reward, Event Type, Event Name, Car / Requirement, Route*. Histórico desde S01. Ver [ADR-0009](adr/0009-playlist-fonte-oficial.md).
-- **A investigar:** se o payload em `/pt-BR/` traz nomes de eventos traduzidos oficialmente; se `api.forza.net` oferece algo estruturado; o roster oficial de carros.
+- **A investigar:** se o payload em `/pt-BR/` traz nomes de eventos traduzidos oficialmente; se `api.forza.net` oferece algo estruturado.
+- **Temporada ao vivo:** a página tem a frase *search "City Life - Summer" for the seasonal events available through November 12*. Ela define a temporada atual e o último dia; as outras datas são derivadas (1 semana por temporada, na ordem da tabela).
+- **Restrições:** interpretadas por `pipeline/normalize/requirement.ts` (formatos no [ADR-0009](adr/0009-playlist-fonte-oficial.md#atualizações)). Em 2026-11-08, **597 de 604** linhas foram entendidas. As 7 restantes usam tipos secundários de carro que o roster não traz ("Track Life", "Heavy Hitters", "Electric", "Microcar", "High Performance Dailies") ou carros ausentes do roster.
 
 ### `base-events`: eventos-base do mapa
 - Não foi encontrada fonte estruturada e reutilizável. Será um **levantamento próprio** em `data/manual/base-events.yaml` (nome, disciplina, formato, restrição de classe e tipo de carro, wristband exigido, região), validado no jogo.

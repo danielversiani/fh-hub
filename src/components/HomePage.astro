@@ -1,7 +1,15 @@
 ---
-import { formatNumber, t, type Locale } from '../i18n';
+import { formatNumber, localePath, t, type Locale, type MessageKey } from '../i18n';
 import Base from '../layouts/Base.astro';
-import { isPreview, loadStats } from '../lib/data';
+import {
+  currentSeason,
+  isPreview,
+  loadEvents,
+  loadRecentChanges,
+  loadStats,
+  maps,
+} from '../lib/data';
+import ClassBadge from './ClassBadge.astro';
 
 interface Props {
   locale: Locale;
@@ -16,6 +24,14 @@ const cards = [
   { value: formatNumber(locale, stats.tuners), label: t(locale, 'home.stats.tuners') },
   { value: `${stats.coverage}%`, label: t(locale, 'home.stats.coverage') },
 ];
+const season = currentSeason();
+const highlights = season
+  ? loadEvents(season.id).filter((e) =>
+      ['championship', 'trial', 'weekly-challenge'].includes(e.category),
+    )
+  : [];
+const changes = loadRecentChanges(12);
+const { cars } = maps();
 ---
 
 <Base locale={locale} path="/">
@@ -33,8 +49,57 @@ const cards = [
       </li>
     ))}
   </ul>
-
-  <p class="mt-6 text-sm text-muted">
+  <p class="mt-4 text-sm text-muted">
     {isPreview ? t(locale, 'home.preview') : t(locale, 'home.publicOnly')}
   </p>
+
+  <div class="mt-10 grid gap-8 lg:grid-cols-2">
+    {season && (
+      <section>
+        <h2 class="text-xl font-semibold">{t(locale, 'home.live')}</h2>
+        <p class="mt-1 text-sm text-muted">
+          S{String(season.series).padStart(2, '0')} {season.seriesName} ·{' '}
+          {t(locale, `season.${season.season}`)}
+        </p>
+        <ul class="mt-3 divide-y divide-border rounded-lg border border-border bg-surface text-sm">
+          {highlights.map((e) => (
+            <li class="flex flex-wrap items-center gap-2 px-4 py-2">
+              <ClassBadge value={e.requirement.class} />
+              <span class="font-medium">{e.name}</span>
+              <span class="text-muted">
+                {e.requirement.scopeLabel ?? t(locale, 'playlist.anyCar')}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <a
+          href={localePath(locale, '/playlist/')}
+          class="mt-3 inline-block text-sm font-semibold text-accent hover:underline"
+        >
+          {t(locale, 'common.viewAll')} →
+        </a>
+      </section>
+    )}
+    <section>
+      <h2 class="text-xl font-semibold">{t(locale, 'home.changes')}</h2>
+      {changes.length === 0 ? (
+        <p class="mt-3 text-sm text-muted">{t(locale, 'home.noChanges')}</p>
+      ) : (
+        <ul class="mt-3 divide-y divide-border rounded-lg border border-border bg-surface text-sm">
+          {changes.map((c) => (
+            <li class="flex flex-wrap items-center gap-2 px-4 py-2">
+              <span class="text-xs font-semibold uppercase text-accent">
+                {t(locale, `change.${c.kind}` as MessageKey)}
+              </span>
+              <ClassBadge value={c.class} />
+              <a href={localePath(locale, `/cars/${c.carId}/`)} class="hover:underline">
+                {cars.get(c.carId)?.displayName ?? c.carId}
+              </a>
+              <span class="text-muted">{[c.before, c.after].filter(Boolean).join(' → ')}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  </div>
 </Base>

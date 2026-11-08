@@ -7,11 +7,16 @@ import { loadManual, loadSources, MANUAL_ALIAS_FILES } from '../config';
 import { generatedDir, paths, reviewDir } from '../paths';
 import {
   Car,
+  ChangeLogEntry,
   CustomEvent,
   generatedFile,
   LapTime,
+  MetaRanking,
+  PlaylistEvent,
+  PlaylistSeason,
   ReviewItem,
   SourceStatus,
+  Suggestion,
   Tune,
   TuneIndexEntry,
   Tuner,
@@ -24,6 +29,16 @@ const GENERATED: [string, z.ZodType][] = [
   ['custom-events.json', CustomEvent],
   ['sources-status.json', SourceStatus],
   ['tunes/index.json', TuneIndexEntry],
+  ['playlist/seasons.json', PlaylistSeason],
+];
+
+/** Folders of grouped files (one JSON per key) and their item schema. */
+const GENERATED_DIRS: [string, z.ZodType][] = [
+  ['tunes/by-car', Tune],
+  ['meta', MetaRanking],
+  ['playlist/events', PlaylistEvent],
+  ['playlist/suggestions', Suggestion],
+  ['changelog', ChangeLogEntry],
 ];
 
 function flattenKeys(value: unknown, prefix = ''): string[] {
@@ -83,11 +98,12 @@ export function validate(): string[] {
 
   const out = generatedDir('public');
   for (const [file, schema] of GENERATED) checkFile(path.join(out, file), schema, errors);
-  const byCar = path.join(out, 'tunes', 'by-car');
-  if (fs.existsSync(byCar)) {
-    for (const file of fs.readdirSync(byCar)) checkFile(path.join(byCar, file), Tune, errors);
+  for (const [dir, schema] of GENERATED_DIRS) {
+    const full = path.join(out, dir);
+    if (!fs.existsSync(full)) continue;
+    for (const file of fs.readdirSync(full)) checkFile(path.join(full, file), schema, errors);
   }
-  for (const file of ['unmatched-cars.json', 'unknown-values.json']) {
+  for (const file of ['unmatched-cars.json', 'unknown-values.json', 'unparsed-requirements.json']) {
     checkFile(path.join(reviewDir('public'), file), ReviewItem, errors);
   }
 

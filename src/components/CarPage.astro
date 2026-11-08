@@ -1,0 +1,145 @@
+---
+import type { Car, Tune } from '../../pipeline/schema/entities';
+import { localePath, t, type Locale, type MessageKey } from '../i18n';
+import Base from '../layouts/Base.astro';
+import { loadLapTimes, loadMeta, loadTunesForCar, maps } from '../lib/data';
+import { CLASS_ORDER, formatLapTime } from '../lib/ui';
+import ClassBadge from './ClassBadge.astro';
+import TierBadge from './TierBadge.astro';
+import TuneCard from './TuneCard.astro';
+
+interface Props {
+  locale: Locale;
+  car: Car;
+}
+
+const { locale, car } = Astro.props;
+const { tuners, sources } = maps();
+const tunes = loadTunesForCar(car.id);
+const rankings = loadMeta().filter((m) => m.carId === car.id);
+const laps = loadLapTimes().filter((l) => l.carId === car.id);
+
+// Group by class (game order, unknown last) then surface; best score first in each group.
+const groups = new Map<string, Tune[]>();
+for (const tune of tunes) {
+  const key = `${tune.class ?? '?'}|${tune.surface ?? 'unknown'}`;
+  groups.set(key, [...(groups.get(key) ?? []), tune]);
+}
+const classRank = (c: string) => {
+  const i = CLASS_ORDER.indexOf(c as (typeof CLASS_ORDER)[number]);
+  return i < 0 ? 99 : i;
+};
+const ordered = [...groups.entries()]
+  .map(([key, list]) => {
+    const [cls = '?', surface = 'unknown'] = key.split('|');
+    return {
+      cls,
+      surface,
+      tunes: [...list].sort(
+        (a, b) =>
+          Number(Boolean(b.shareCode)) - Number(Boolean(a.shareCode)) ||
+          (b.score ?? 0) - (a.score ?? 0) ||
+          a.id.localeCompare(b.id),
+      ),
+    };
+  })
+  .sort((a, b) => classRank(a.cls) - classRank(b.cls) || a.surface.localeCompare(b.surface));
+---
+
+<Base
+  locale={locale}
+  path={`/cars/${car.id}/`}
+  title={car.displayName}
+  description={`${car.displayName}: ${t(locale, 'site.tagline')}`}
+>
+  <p class="text-sm text-muted">
+    <a href={localePath(locale, '/cars/')} class="hover:underline">
+      {t(locale, 'nav.cars')}
+    </a>
+  </p>
+  <h1 class="mt-1 text-3xl font-bold">{car.displayName}</h1>
+  <dl class="mt-4 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2 lg:grid-cols-4">
+    <div>
+      <dt class="text-muted">{t(locale, 'car.stock')}</dt>
+      <dd>
+        <ClassBadge value={car.stock?.class} pi={car.stock?.pi} />
+      </dd>
+    </div>
+    <div>
+      <dt class="text-muted">{t(locale, 'common.carType')}</dt>
+      <dd>{car.carTypes.join(', ') || '—'}</dd>
+    </div>
+    <div>
+      <dt class="text-muted">{t(locale, 'common.country')}</dt>
+      <dd>{car.country ?? '—'}</dd>
+    </div>
+    <div>
+      <dt class="text-muted">{t(locale, 'car.obtain')}</dt>
+      <dd>{[car.acquisition?.raw, car.addOns].filter(Boolean).join(' · ') || '—'}</dd>
+    </div>
+  </dl>
+
+  {rankings.length > 0 && (
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold">{t(locale, 'car.meta')}</h2>
+      <ul class="mt-3 flex flex-wrap gap-2">
+        {rankings.map((m) => (
+          <li class="flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 text-sm">
+            <ClassBadge value={m.class} />
+            <span>{t(locale, `surface.${m.surface}`)}</span>
+            {m.drivetrain && <span class="text-xs text-muted">{m.drivetrain}</span>}
+            <TierBadge value={m.tier} />
+            <span class="text-xs text-muted">
+              {m.tunerIds.map((id) => tuners.get(id)?.displayName ?? id).join(', ')} ·{' '}
+              {sources.get(m.sourceId)?.name ?? m.sourceId}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="mt-8">
+    <h2 class="text-xl font-semibold">{t(locale, 'car.tunes')}</h2>
+    {tunes.length === 0 && <p class="mt-3 text-muted">{t(locale, 'car.noTunes')}</p>}
+    {ordered.map((group) => (
+      <div class="mt-5">
+        <h3 class="flex items-center gap-2 font-semibold">
+          <ClassBadge
+            value={group.cls === '?' ? undefined : (group.cls as (typeof CLASS_ORDER)[number])}
+          />
+          {t(locale, `surface.${group.surface}` as MessageKey)}
+          <span class="text-sm font-normal text-muted">({group.tunes.length})</span>
+        </h3>
+        <div class="mt-2 grid gap-3 md:grid-cols-2">
+          {group.tunes.map((tune, i) => (
+            <TuneCard
+              locale={locale}
+              tune={tune}
+              highlight={i === 0 && tune.shareCode ? t(locale, 'car.recommended') : undefined}
+            />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  {laps.length > 0 && (
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold">{t(locale, 'car.laptimes')}</h2>
+      <ul class="mt-3 space-y-1 text-sm">
+        {laps.map((lap) => (
+          <li class="flex flex-wrap items-center gap-2">
+            <ClassBadge value={lap.class} />
+            <span class="font-mono tabular-nums">{formatLapTime(lap.timeMs)}</span>
+            <span>{lap.track}</span>
+            <span class="text-muted">
+              {lap.driver}
+              {lap.tuneName && ` · ${lap.tuneName}`}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>

@@ -1,8 +1,20 @@
 # Curadoria: notas, categorias e sugestões
 
-> **Status:** proposta inicial v0.1 · **Atualizado em:** 2026-11-08
+> **Status:** v0.2, implementada por regras em `pipeline/curate/` · **Atualizado em:** 2026-11-08
 > Estes são os **critérios do dono do produto**, traduzidos em regras. Todos os pesos e limiares ficam em `data/curation/config.yaml`, não no código: ajustar um critério = editar o YAML num PR.
 > ⚠️ Os valores abaixo são um **ponto de partida** e precisam ser validados pelo dono com dados reais (ver [§9](#9-pendências-com-o-dono)).
+
+## 0. Estado da implementação (2026-11-08)
+
+- Implementado: sinais `tier` (Noa), `laptime` (Letz), `endorsement`, `tuner`, `recency` e `ease`; categorias; sugestões por evento; selos "Recomendado" nas páginas de carro.
+- **Ainda não:**
+  - sinal `rivals`: a planilha de Rivals não está no pipeline;
+  - casos-âncora (§8): aguardam exemplos do dono;
+  - camada de IA ([ADR-0008](adr/0008-curadoria-regras-e-ia.md)).
+- Diferenças em relação à proposta:
+  - o peso de um tier cai para `unlistedTunerTierFactor` (0,8) quando o tune não é de um tunador creditado na tabela de meta;
+  - `recency` é medido contra o tune mais novo dos dados, não contra "hoje", para a saída ser determinística;
+  - o perfil das sugestões usa `weightsPlaylist`, que dá mais peso à facilidade.
 
 ## 1. O que a curadoria produz
 

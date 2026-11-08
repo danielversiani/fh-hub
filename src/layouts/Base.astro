@@ -1,17 +1,26 @@
 ---
 import '../styles/global.css';
-import { htmlLang, localePath, otherLocale, t, type Locale } from '../i18n';
+import { htmlLang, localePath, otherLocale, t, type Locale, type MessageKey } from '../i18n';
 
 interface Props {
   locale: Locale;
   title?: string;
+  description?: string;
   /** Path of this page without the locale prefix, used for the language switch. */
   path: string;
 }
 
-const { locale, title, path } = Astro.props;
+const { locale, title, description, path } = Astro.props;
 const pageTitle = title ? `${title} · ${t(locale, 'site.name')}` : t(locale, 'site.name');
 const other = otherLocale(locale);
+const nav: [MessageKey, string][] = [
+  ['nav.playlist', '/playlist/'],
+  ['nav.cars', '/cars/'],
+  ['nav.tunes', '/tunes/'],
+  ['nav.meta', '/meta/'],
+  ['nav.tuners', '/tuners/'],
+];
+const current = Astro.url.pathname;
 ---
 
 <!doctype html>
@@ -20,22 +29,30 @@ const other = otherLocale(locale);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
-    <meta name="description" content={t(locale, 'site.tagline')} />
+    <meta name="description" content={description ?? t(locale, 'site.tagline')} />
     <link rel="alternate" hreflang="pt-BR" href={localePath('pt-br', path)} />
     <link rel="alternate" hreflang="en" href={localePath('en', path)} />
   </head>
   <body class="min-h-screen">
     <header class="border-b border-border bg-surface">
-      <nav class="mx-auto flex max-w-5xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
+      <nav class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3">
         <a href={localePath(locale, '/')} class="font-bold text-accent">
           {t(locale, 'site.name')}
         </a>
-        <a href={localePath(locale, '/')} class="text-sm hover:underline">
-          {t(locale, 'nav.home')}
-        </a>
-        <a href={localePath(locale, '/status')} class="text-sm hover:underline">
-          {t(locale, 'nav.status')}
-        </a>
+        {nav.map(([key, href]) => {
+          const target = localePath(locale, href);
+          return (
+            <a
+              href={target}
+              class:list={[
+                'text-sm hover:underline',
+                current.startsWith(target) && 'font-semibold text-accent',
+              ]}
+            >
+              {t(locale, key)}
+            </a>
+          );
+        })}
         <a
           href={localePath(other, path)}
           hreflang={htmlLang(other)}
@@ -45,11 +62,28 @@ const other = otherLocale(locale);
         </a>
       </nav>
     </header>
-    <main class="mx-auto max-w-5xl px-4 py-8">
+    <main class="mx-auto max-w-6xl px-4 py-8">
       <slot />
     </main>
-    <footer class="mx-auto max-w-5xl px-4 pb-10 text-xs text-muted">
-      {t(locale, 'footer.disclaimer')}
+    <footer class="mx-auto max-w-6xl px-4 pb-10 text-xs text-muted">
+      <p>{t(locale, 'footer.disclaimer')}</p>
+      <p class="mt-2">
+        <a href={localePath(locale, '/status/')} class="hover:underline">
+          {t(locale, 'nav.status')}
+        </a>
+      </p>
     </footer>
+    <script>
+      // Copy share codes: any element with data-copy (ShareCode.astro, TuneSearch island).
+      document.addEventListener('click', (event) => {
+        const button = (event.target as HTMLElement | null)?.closest<HTMLElement>('[data-copy]');
+        if (!button?.dataset.copy) return;
+        void navigator.clipboard.writeText(button.dataset.copy).then(() => {
+          const original = button.textContent;
+          button.textContent = button.dataset.copiedLabel ?? '✓';
+          setTimeout(() => (button.textContent = original), 1500);
+        });
+      });
+    </script>
   </body>
 </html>

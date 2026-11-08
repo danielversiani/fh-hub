@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "rivals",
+      "discipline": "circuit",
+      "id": "s01--monthly-rivals--soni-circuit",
+      "name": "Soni Circuit",
+      "requirement": {
+        "carIds": [
+          "2008-mazda-furai"
+        ],
+        "scope": "car",
+        "scopeLabel": "2008 Mazda Furai",
+        "status": "parsed"
+      },
+      "requirementRaw": "2008 Mazda Furai",
+      "reward": "Super Wheelspin",
+      "routeRaw": "Soni Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Soni Circuit"
+        }
+      ],
+      "row": 2,
+      "seasonId": "s01",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "reward",
+      "id": "s01--series-reward--series-reward-1",
+      "name": "Series Reward 1",
+      "points": 60,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "60 pts",
+      "reward": "Car: 2008 Mazda Furai",
+      "routeRaw": "",
+      "routes": [],
+      "row": 3,
+      "seasonId": "s01",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s01--series-reward--series-reward-2",
+      "name": "Series Reward 2",
+      "points": 120,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "120 pts",
+      "reward": "Car: 2010 Nissan 370Z",
+      "routeRaw": "",
+      "routes": [],
+      "row": 4,
+      "seasonId": "s01",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Series Reward"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -23,6 +23,26 @@ export const CLASS_MAX_PI: Readonly<Record<CarClass, number>> = {
 export const Surface = z.enum(['road', 'dirt', 'cross-country']);
 export type Surface = z.infer<typeof Surface>;
 
+/** Event format, separate from the surface (DATA_MODEL §2). */
+export const Discipline = z.enum([
+  'circuit',
+  'sprint',
+  'street',
+  'touge',
+  'drag',
+  'drift',
+  'speed-trap',
+  'speed-zone',
+  'danger-sign',
+  'trailblazer',
+  'time-attack',
+  'other',
+]);
+export type Discipline = z.infer<typeof Discipline>;
+
+export const Season = z.enum(['summer', 'autumn', 'winter', 'spring']);
+export type Season = z.infer<typeof Season>;
+
 export const Drivetrain = z.enum(['FWD', 'RWD', 'AWD']);
 export type Drivetrain = z.infer<typeof Drivetrain>;
 

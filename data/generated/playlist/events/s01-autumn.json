@@ -1,0 +1,516 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s01-autumn--community-gift--gift-car",
+      "name": "Gift Car",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Played the game from May 28 - June 18",
+      "reward": "Car: 1987 Nissan Be-1",
+      "routeRaw": "",
+      "routes": [],
+      "row": 25,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Community Gift"
+    },
+    {
+      "category": "reward",
+      "id": "s01-autumn--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 15,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "15 pts",
+      "reward": "Car: 1991 Honda CR-X SiR",
+      "routeRaw": "",
+      "routes": [],
+      "row": 26,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s01-autumn--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 30,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "30 pts",
+      "reward": "Car: 1997 Nissan Skyline GT-R V-Spec",
+      "routeRaw": "",
+      "routes": [],
+      "row": 27,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s01-autumn--weekly-challenge--king-of-the-road",
+      "name": "King of the Road",
+      "requirement": {
+        "activities": [
+          "Drift Zones",
+          "Road Race",
+          "Drag Meet"
+        ],
+        "carIds": [
+          "1989-nissan-silvia-ks"
+        ],
+        "scope": "car",
+        "scopeLabel": "1989 Nissan Silvia K's",
+        "status": "parsed"
+      },
+      "requirementRaw": "1989 Nissan Silvia K's; Drift Zones; Road Race; Drag Meet",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 28,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-autumn--daily-challenge--big-in-japan",
+      "name": "Big in Japan",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Win a Cross Country Race in a Sports Utility Hero",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 29,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-autumn--daily-challenge--pre-loved",
+      "name": "Pre-Loved",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Purchase an Aftermarket Car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 30,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-autumn--daily-challenge--in-the-zone",
+      "name": "In the Zone",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn a total of 300 mph across Speed Zones",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 31,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-autumn--daily-challenge--hang-time",
+      "name": "Hang Time",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Stars at Danger Signs",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 32,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-autumn--daily-challenge--link-skiller",
+      "name": "Link Skiller",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn a LINK Skill",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 33,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-autumn--daily-challenge--drop-the-beat",
+      "name": "Drop the Beat",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn an Awesome Air Skill in the 1991 Honda Beat",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 34,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-autumn--daily-challenge--tokyo-drift",
+      "name": "Tokyo Drift",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Awesome Drift or E-Drift Skills at Shibuya Crossing",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 35,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s01-autumn--photo-challenge--tokyotower",
+      "name": "#TokyoTower",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo at the base of Tokyo Tower",
+      "reward": "QuickChat: Oooh… Shiny!",
+      "routeRaw": "",
+      "routes": [],
+      "row": 36,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s01-autumn--treasure-hunt--minamino-region",
+      "name": "Minamino Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 37,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s01-autumn--championship--trail-mix",
+      "name": "Trail Mix",
+      "requirement": {
+        "carIds": [
+          "2004-mitsubishi-lancer-evolution-viii-mr",
+          "2004-mitsubishi-lancer-evolution-viii-mr-welcome-pack",
+          "2004-subaru-impreza-wrx-sti",
+          "2005-subaru-impreza-wrx-sti",
+          "2006-mitsubishi-lancer-evolution-ix-mr",
+          "2008-mitsubishi-lancer-evolution-x-gsr",
+          "2008-subaru-impreza-wrx-sti",
+          "2011-subaru-wrx-sti",
+          "2015-subaru-wrx-sti",
+          "2019-subaru-sti-s209",
+          "2021-toyota-gr-yaris",
+          "2022-subaru-wrx"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Modern Rally",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Rally - B Class",
+      "reward": "Car: 1993 Schuppan 962CR",
+      "routeRaw": "Dirt: Waterfall Trail, Nukabira Trail, Takashiro Trail",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Waterfall Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Nukabira Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Takashiro Trail"
+        }
+      ],
+      "row": 38,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": "dirt",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s01-autumn--championship--majestic-domestics",
+      "name": "Majestic Domestics",
+      "requirement": {
+        "carIds": [
+          "1972-honda-z-gt",
+          "1984-honda-city-e-ii",
+          "1987-nissan-be-1",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1991-honda-beat",
+          "1991-nissan-figaro",
+          "1991-toyota-sera",
+          "1993-autozam-az-1",
+          "1994-honda-acty",
+          "1994-subaru-vivio-rx-r",
+          "2016-honda-s2260-alpha",
+          "2017-toyota-jpn-taxi"
+        ],
+        "class": "D",
+        "scope": "car-type",
+        "scopeLabel": "Eclectic Domestic",
+        "status": "parsed"
+      },
+      "requirementRaw": "Eclectic Domestic - D Class",
+      "reward": "Car: 2016 Abarth 695 Biposto",
+      "routeRaw": "Road: Soni Circuit, Shimanoyama Circuit, Narai-Juku Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Soni Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Shimanoyama Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Narai-Juku Circuit"
+        }
+      ],
+      "row": 39,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s01-autumn--championship--country-living",
+      "name": "Country Living",
+      "requirement": {
+        "carIds": [
+          "1993-toyota-1-t100-baja-truck",
+          "1999-dodge-viper-gts-acr-forza-edition",
+          "2013-deberti-jeep-wrangler-unlimited",
+          "2014-ford-11-rockstar-f-150-trophy-truck",
+          "2015-honda-ridgeline-baja-trophy-truck",
+          "2016-jeep-trailcat",
+          "2016-rj-anderson-37-polaris-rzr-pro-2-truck",
+          "2017-ford-25-brocky-ultra4-bronco-rtr",
+          "2019-casey-currie-motorsports-4402-ultra-4-trophy-jeep",
+          "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+          "2019-jimco-240-fastball-racing-class-6100-spec-trophy-truck",
+          "2021-rj-anderson-37-polaris-rzr-pro-4-truck",
+          "2022-alumicraft-6165-trick-truck",
+          "2022-subaru-brz-forza-edition",
+          "2554-amg-transport-dynamics-m12s-warthog-cst"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Unlimited Offroad",
+        "status": "parsed"
+      },
+      "requirementRaw": "Unlimited Offroad - A Class",
+      "reward": "Car: 2021 Aston Martin DBX",
+      "routeRaw": "Cross Country: Stadium Cross Country Circuit, Edogawa Cross Country Circuit, Nangan Cross Country Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Stadium Cross Country Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Edogawa Cross Country Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Nangan Cross Country Circuit"
+        }
+      ],
+      "row": 40,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": "cross-country",
+      "type": "Championship"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s01-autumn--pr-stunt-speed-zone--forest-straight",
+      "name": "Forest Straight",
+      "requirement": {
+        "class": "B",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "800.5 feet",
+          "unit": "ft",
+          "value": 800.5
+        }
+      },
+      "requirementRaw": "Japan - B Class - 800.5 feet",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 41,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s01-autumn--pr-stunt-danger-sign--highway-jump",
+      "name": "Highway Jump",
+      "requirement": {
+        "class": "B",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "85.0 mph",
+          "unit": "mph",
+          "value": 85
+        }
+      },
+      "requirementRaw": "Japan - B Class - 85.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 42,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "trailblazer",
+      "id": "s01-autumn--pr-stunt-trailblazer--on-par",
+      "name": "On Par",
+      "requirement": {
+        "class": "B",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "30 seconds",
+          "unit": "s",
+          "value": 30
+        }
+      },
+      "requirementRaw": "Japan - B Class - 30 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 43,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": "cross-country",
+      "type": "PR Stunt - Trailblazer"
+    },
+    {
+      "category": "other",
+      "id": "s01-autumn--seasonal-job-food-delivery--tokyo-city-food-delivery",
+      "name": "Tokyo City Food Delivery",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a full shift of Tokyo City Food Delivery",
+      "reward": "Car: 1987 Nissan Be-1",
+      "routeRaw": "",
+      "routes": [],
+      "row": 44,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Seasonal Job - Food Delivery"
+    },
+    {
+      "category": "online",
+      "id": "s01-autumn--horizon-play-touge-showdown--mazda-of-the-mountain",
+      "name": "Mazda of the Mountain",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Touge Showdown in any Mazda",
+      "reward": "Car: 2020 Lamborghini Huracán EVO",
+      "routeRaw": "",
+      "routes": [],
+      "row": 45,
+      "seasonId": "s01-autumn",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Horizon Play - Touge Showdown"
+    }
+  ],
+  "schemaVersion": 1
+}

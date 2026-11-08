@@ -6,7 +6,7 @@ Portal da comunidade de **Forza Horizon 6** em PT-BR e EN, com:
 - Festival Playlist da semana com sugestões próprias (Meta, Off-meta, Purista, Meme);
 - guias de progressão, acessórios (SimHub, OBS) e eventos da comunidade.
 
-> **Status:** Fase 0 (fundação) concluída: pipeline de dados, testes e site base. Próximo: Fase 1 ([PRODUCT §6](docs/PRODUCT.md#6-fases)).
+> **Status:** Fase 1 em andamento ([PRODUCT §6](docs/PRODUCT.md#6-fases)). Já existem: playlist oficial com sugestões, meta da Noa, páginas de carro e de tunador, busca de tunes e changelog. Faltam: deploy (Cloudflare) e as seções de guias, acessórios e eventos da comunidade.
 > Projeto independente de fãs, sem afiliação com Microsoft, Xbox Game Studios ou Playground Games.
 
 ## Começando
@@ -21,8 +21,12 @@ pnpm dev           # site local só com fontes publicáveis
 pnpm test && pnpm validate
 ```
 
-Na primeira sincronização (2026-11-08), a prévia juntou **4.355 tunes** de **206 tunadores**. **86%** dos 667 carros do roster oficial têm pelo menos um tune com share code, e 91% têm algum tune.
-Os dados públicos (commitados) ainda têm só o roster oficial: os dados dos tunadores entram à medida que as autorizações chegam ([ADR-0010](docs/adr/0010-politica-de-fontes.md)).
+Em 2026-11-08, a prévia juntava:
+- **4.355 tunes** de **223 tunadores**; **86%** dos 667 carros do roster oficial têm pelo menos um tune com share code, e 91% têm algum tune;
+- **684 posições de meta** da tabela da Noa Miyako;
+- a **Festival Playlist** completa (604 eventos em 28 temporadas), com cerca de 100 sugestões para as semanas recentes.
+
+Os dados públicos (commitados) têm o roster e a playlist oficiais. Os dados dos tunadores entram à medida que as autorizações chegam ([ADR-0010](docs/adr/0010-politica-de-fontes.md)).
 
 ## Documentação
 

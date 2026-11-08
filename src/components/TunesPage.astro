@@ -1,0 +1,50 @@
+---
+import { t, type Locale } from '../i18n';
+import TuneSearch, { type TuneSearchLabels } from '../islands/TuneSearch';
+import Base from '../layouts/Base.astro';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const labels: TuneSearchLabels = {
+  placeholder: t(locale, 'tunes.placeholder'),
+  all: t(locale, 'common.all'),
+  class: t(locale, 'common.class'),
+  surface: t(locale, 'common.surface'),
+  category: t(locale, 'tunes.category'),
+  codedOnly: t(locale, 'tunes.codedOnly'),
+  results: t(locale, 'common.results', { n: '{n}' }),
+  empty: t(locale, 'tunes.empty'),
+  loading: t(locale, 'tunes.loading'),
+  copy: t(locale, 'common.copy'),
+  copied: t(locale, 'common.copied'),
+  noCode: t(locale, 'common.noCode', { tuner: '{tuner}' }),
+  by: t(locale, 'common.by'),
+  surfaces: {
+    road: t(locale, 'surface.road'),
+    dirt: t(locale, 'surface.dirt'),
+    'cross-country': t(locale, 'surface.cross-country'),
+  },
+  categories: {
+    meta: t(locale, 'category.meta'),
+    'off-meta': t(locale, 'category.off-meta'),
+    purist: t(locale, 'category.purist'),
+    meme: t(locale, 'category.meme'),
+  },
+};
+---
+
+<Base locale={locale} path="/tunes/" title={t(locale, 'tunes.title')}>
+  <h1 class="text-3xl font-bold">{t(locale, 'tunes.title')}</h1>
+  <p class="mt-3 max-w-2xl text-muted">{t(locale, 'tunes.lead')}</p>
+  <div class="mt-6">
+    <TuneSearch
+      client:load
+      labels={labels}
+      base={locale === 'en' ? '/en' : ''}
+      dataUrl="/data/tunes-index.json"
+    />
+  </div>
+</Base>

@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "rivals",
+      "discipline": "circuit",
+      "id": "s04--monthly-rivals--edamame-circuit",
+      "name": "Edamame Circuit",
+      "requirement": {
+        "carIds": [
+          "1970-honda-n600"
+        ],
+        "scope": "car",
+        "scopeLabel": "1970 Honda N600",
+        "status": "parsed"
+      },
+      "requirementRaw": "1970 Honda N600",
+      "reward": "Super Wheelspin",
+      "routeRaw": "Edamame Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Edamame Circuit"
+        }
+      ],
+      "row": 260,
+      "seasonId": "s04",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "reward",
+      "id": "s04--series-reward--series-reward-1",
+      "name": "Series Reward 1",
+      "points": 80,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "80 pts",
+      "reward": "Car: 1970 Honda N600",
+      "routeRaw": "",
+      "routes": [],
+      "row": 261,
+      "seasonId": "s04",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s04--series-reward--series-reward-2",
+      "name": "Series Reward 2",
+      "points": 160,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "160 pts",
+      "reward": "Car: 1967 Renault Gordini 8",
+      "routeRaw": "",
+      "routes": [],
+      "row": 262,
+      "seasonId": "s04",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Series Reward"
+    }
+  ],
+  "schemaVersion": 1
+}

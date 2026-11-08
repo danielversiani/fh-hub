@@ -1,6 +1,7 @@
 import ExcelJS from 'exceljs';
 import { loadSources } from '../config';
 import { downloadSource, saveSource, type RawTab } from '../fetchers';
+import type { QqBundle } from '../fetchers/qq-docs';
 import { parseCsv, type Table } from '../lib/table';
 import { paths } from '../paths';
 import type { SourceDef } from '../schema/source';
@@ -46,8 +47,18 @@ async function sampleXlsx(bytes: Buffer, sheetName: string): Promise<Buffer> {
   return Buffer.from(await target.xlsx.writeBuffer());
 }
 
+/** QQ bundles are protobuf blobs per tab, so the sample keeps a few whole tabs. */
+const QQ_SAMPLE_TABS = ['R 998公路', 'S1 800泥地', 'C 500公路'];
+
+function sampleQq(bytes: Buffer): Buffer {
+  const bundle = JSON.parse(bytes.toString('utf8')) as QqBundle;
+  bundle.sheets = bundle.sheets.filter((s) => QQ_SAMPLE_TABS.includes(s.name));
+  return Buffer.from(JSON.stringify(bundle), 'utf8');
+}
+
 async function sample(source: SourceDef, tab: RawTab): Promise<RawTab> {
   if (tab.ext === 'csv') return { ...tab, bytes: sampleCsv(tab.bytes) };
+  if (tab.ext === 'qq.json') return { ...tab, bytes: sampleQq(tab.bytes) };
   if (tab.ext === 'xlsx') {
     const sheet = source.tabs.find((t) => t.id === tab.tabId)?.sheet ?? 'Sheet1';
     return { ...tab, bytes: await sampleXlsx(tab.bytes, sheet) };

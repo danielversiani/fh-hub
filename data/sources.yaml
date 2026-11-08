@@ -21,6 +21,34 @@ sources:
     weight: 1
     notes: Official roster. Master car list (ADR-0006).
 
+  - id: forza-playlist
+    name: Forza Horizon 6 Festival Playlist (forza.net)
+    kind: forza-official
+    url: https://forza.net/fh6playlists
+    fetcher: forza-net
+    adapter: forza-playlist
+    tabs:
+      - { id: playlist, role: playlist, path: fh6playlists }
+    permission: not-required
+    active: true
+    weight: 1
+    notes: Official events, requirements and rewards since Series 1 (ADR-0009).
+
+  - id: noa-miyako
+    name: Noa Miyako (QQ Docs)
+    kind: qq-doc
+    url: https://docs.qq.com/sheet/DYWZVRWR0dnh3aHhZ
+    docId: DYWZVRWR0dnh3aHhZ
+    ownerTuner: Noa Miyako
+    fetcher: qq-docs
+    adapter: noa-miyako
+    tabs:
+      - { id: workbook, role: meta }
+    permission: pending
+    active: true
+    weight: 0.9
+    notes: 'Sheet 地平线6线上车辆调校推荐. Meta tiers per class × surface. Undocumented QQ API (lib/qq-sheet.ts). No share codes.'
+
   - id: gbr-ozzy
     name: GBR Ozzy's FH6 Spreadsheet
     kind: google-sheet

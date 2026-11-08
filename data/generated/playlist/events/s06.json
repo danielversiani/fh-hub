@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "rivals",
+      "discipline": "circuit",
+      "id": "s06--monthly-rivals--daikoku-circuit",
+      "name": "Daikoku Circuit",
+      "requirement": {
+        "carIds": [
+          "2025-bmw-m4-cs"
+        ],
+        "scope": "car",
+        "scopeLabel": "2025 BMW M4 CS",
+        "status": "parsed"
+      },
+      "requirementRaw": "2025 BMW M4 CS",
+      "reward": "Super Wheelspin",
+      "routeRaw": "Daikoku Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Daikoku Circuit"
+        }
+      ],
+      "row": 434,
+      "seasonId": "s06",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "reward",
+      "id": "s06--series-reward--series-reward-1",
+      "name": "Series Reward 1",
+      "points": 80,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "80 pts",
+      "reward": "Car: 2025 BMW M4 CS",
+      "routeRaw": "",
+      "routes": [],
+      "row": 435,
+      "seasonId": "s06",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s06--series-reward--series-reward-2",
+      "name": "Series Reward 2",
+      "points": 160,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "160 pts",
+      "reward": "Car: 2015 Koenigsegg One:1",
+      "routeRaw": "",
+      "routes": [],
+      "row": 436,
+      "seasonId": "s06",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "other",
+      "id": "s06--playlist-history--playlist-history-reward",
+      "name": "Playlist History Reward",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "1100 pts over multiple series",
+      "reward": "Car: 1973 Lamborghini Espada 400 GT",
+      "routeRaw": "",
+      "routes": [],
+      "row": 437,
+      "seasonId": "s06",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Playlist History"
+    }
+  ],
+  "schemaVersion": 1
+}

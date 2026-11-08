@@ -1,0 +1,26 @@
+---
+import { t, type Locale } from '../i18n';
+import { formatShareCode } from '../lib/ui';
+
+interface Props {
+  locale: Locale;
+  code: string | undefined;
+  tuner: string;
+}
+
+const { locale, code, tuner } = Astro.props;
+---
+
+{code ? (
+  <button
+    type="button"
+    data-copy={code}
+    data-copied-label={t(locale, 'common.copied')}
+    title={t(locale, 'common.copy')}
+    class="rounded-md border border-border bg-bg px-2 py-1 font-mono text-sm font-semibold tabular-nums hover:border-accent"
+  >
+    {formatShareCode(code)}
+  </button>
+) : (
+  <span class="text-xs text-muted">{t(locale, 'common.noCode', { tuner })}</span>
+)}

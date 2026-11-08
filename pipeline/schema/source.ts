@@ -23,8 +23,9 @@ export type SourceTab = z.infer<typeof SourceTab>;
  * google-csv  → CSV export of each tab (falls back to the gviz endpoint when the owner disabled downloads)
  * google-xlsx → whole workbook, for sources whose formatting carries data (kleis' colours)
  * forza-net   → Nuxt payload of an official forza.net page
+ * qq-docs     → every tab of a public QQ Docs spreadsheet (fetchers/qq-docs.ts)
  */
-export const Fetcher = z.enum(['google-csv', 'google-xlsx', 'forza-net']);
+export const Fetcher = z.enum(['google-csv', 'google-xlsx', 'forza-net', 'qq-docs']);
 export type Fetcher = z.infer<typeof Fetcher>;
 
 export const SourceDef = z
@@ -50,7 +51,9 @@ export const SourceDef = z
   .superRefine((s, ctx) => {
     const fail = (message: string) =>
       ctx.addIssue({ code: 'custom', message: `[${s.id}] ${message}` });
-    if (s.fetcher.startsWith('google-') && !s.docId) fail('google fetchers need `docId`');
+    if ((s.fetcher.startsWith('google-') || s.fetcher === 'qq-docs') && !s.docId) {
+      fail(`${s.fetcher} needs \`docId\``);
+    }
     for (const tab of s.tabs) {
       if (s.fetcher === 'google-csv' && !tab.gid) fail(`tab ${tab.id} needs \`gid\``);
       if (s.fetcher === 'google-xlsx' && !tab.sheet) fail(`tab ${tab.id} needs \`sheet\``);

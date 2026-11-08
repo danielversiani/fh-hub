@@ -1,0 +1,17 @@
+---
+import type { Tier } from '../../pipeline/schema/enums';
+import { TIER_COLORS, TIER_LABELS } from '../lib/ui';
+
+interface Props {
+  value: Tier;
+}
+
+const { value } = Astro.props;
+---
+
+<span
+  class="inline-block rounded px-1.5 py-0.5 text-xs font-bold text-white"
+  style={`background:${TIER_COLORS[value]}`}
+>
+  {TIER_LABELS[value]}
+</span>

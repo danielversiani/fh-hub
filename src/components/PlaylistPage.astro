@@ -1,0 +1,237 @@
+---
+import type { PlaylistEvent, PlaylistSeason, Suggestion } from '../../pipeline/schema/entities';
+import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
+import Base from '../layouts/Base.astro';
+import { loadEvents, loadSeasons, loadSuggestions, maps } from '../lib/data';
+import { TIER_LABELS } from '../lib/ui';
+import type { Tier } from '../../pipeline/schema/enums';
+import ClassBadge from './ClassBadge.astro';
+import ShareCode from './ShareCode.astro';
+
+interface Props {
+  locale: Locale;
+  season: PlaylistSeason | undefined;
+}
+
+const { locale, season } = Astro.props;
+const seasons = loadSeasons();
+const { cars, tuners, tuneIndex } = maps();
+
+const CAR_CATEGORIES = [
+  'championship',
+  'trial',
+  'weekly-challenge',
+  'pr-stunt',
+  'horizon-life',
+  'rivals',
+] as const;
+const SLOT_ORDER = ['meta', 'off-meta', 'purist', 'meme'];
+
+const events: PlaylistEvent[] = season
+  ? [...loadEvents(season.id), ...(season.current ? loadEvents(season.seriesId) : [])]
+  : [];
+const suggestions: Suggestion[] = season
+  ? [...loadSuggestions(season.id), ...(season.current ? loadSuggestions(season.seriesId) : [])]
+  : [];
+const byEvent = new Map<string, Suggestion[]>();
+for (const s of suggestions) byEvent.set(s.eventId, [...(byEvent.get(s.eventId) ?? []), s]);
+
+const carEvents = CAR_CATEGORIES.map((category) => ({
+  category,
+  events: events.filter((e) => e.category === category),
+})).filter((g) => g.events.length > 0);
+const otherEvents = events.filter(
+  (e) => !(CAR_CATEGORIES as readonly string[]).includes(e.category),
+);
+
+const dateFmt = new Intl.DateTimeFormat(htmlLang(locale), {
+  day: 'numeric',
+  month: 'short',
+  timeZone: 'UTC',
+});
+const fmt = (iso: string | undefined) => (iso ? dateFmt.format(new Date(iso)) : '?');
+const seasonLabel = (s: PlaylistSeason) =>
+  `S${String(s.series).padStart(2, '0')} ${s.seriesName} · ${t(locale, `season.${s.season}`)}`;
+const index = season ? seasons.findIndex((s) => s.id === season.id) : -1;
+const prev = index > 0 ? seasons[index - 1] : undefined;
+const next = index >= 0 && index < seasons.length - 1 ? seasons[index + 1] : undefined;
+const path = season && !season.current ? `/playlist/${season.id}/` : '/playlist/';
+---
+
+<Base locale={locale} path={path} title={t(locale, 'playlist.title')}>
+  <h1 class="text-3xl font-bold">{t(locale, 'playlist.title')}</h1>
+  <p class="mt-3 max-w-3xl text-muted">{t(locale, 'playlist.lead')}</p>
+
+  {!season ? (
+    <p class="mt-8 text-muted">{t(locale, 'playlist.none')}</p>
+  ) : (
+    <>
+      <div class="mt-6 flex flex-wrap items-center gap-3">
+        <h2 class="text-2xl font-semibold">{seasonLabel(season)}</h2>
+        {season.current && (
+          <span class="rounded-full bg-accent px-2.5 py-0.5 text-xs font-bold text-white">
+            {t(locale, 'playlist.live')}
+          </span>
+        )}
+        <span class="text-sm text-muted">
+          {t(locale, 'playlist.dates', { start: fmt(season.startsOn), end: fmt(season.endsOn) })}
+          {season.datesDerived && ` (${t(locale, 'playlist.derived')})`}
+        </span>
+        <nav class="ml-auto flex gap-2 text-sm">
+          {prev && (
+            <a href={localePath(locale, `/playlist/${prev.id}/`)} class="hover:underline">
+              ← {seasonLabel(prev)}
+            </a>
+          )}
+          {next && (
+            <a href={localePath(locale, `/playlist/${next.id}/`)} class="hover:underline">
+              {seasonLabel(next)} →
+            </a>
+          )}
+        </nav>
+      </div>
+
+      {carEvents.map((group) => (
+        <section class="mt-8">
+          <h3 class="text-lg font-semibold">
+            {t(locale, `eventCategory.${group.category}` as MessageKey)}
+          </h3>
+          <div class="mt-3 space-y-4">
+            {group.events.map((event) => {
+              const req = event.requirement;
+              const picks = [...(byEvent.get(event.id) ?? [])].sort(
+                (a, b) => SLOT_ORDER.indexOf(a.category) - SLOT_ORDER.indexOf(b.category),
+              );
+              return (
+                <article class="rounded-lg border border-border bg-surface p-4">
+                  <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <h4 class="font-semibold">{event.name}</h4>
+                    <span class="text-xs text-muted">{event.type}</span>
+                    {event.reward && (
+                      <span class="ml-auto text-xs text-muted">
+                        {t(locale, 'playlist.reward')}: {event.reward}
+                      </span>
+                    )}
+                  </div>
+                  <p class="mt-2 flex flex-wrap items-center gap-2 text-sm">
+                    <span class="text-muted">{t(locale, 'playlist.requirement')}:</span>
+                    <ClassBadge value={req.class} />
+                    <span>
+                      {req.scope === 'rarity'
+                        ? t(locale, 'playlist.rarity', { value: req.scopeLabel ?? '' })
+                        : (req.scopeLabel ?? t(locale, 'playlist.anyCar'))}
+                    </span>
+                    {req.target && (
+                      <span class="text-muted">
+                        · {t(locale, 'playlist.target')}: {req.target.raw}
+                      </span>
+                    )}
+                  </p>
+                  {event.routes.length > 0 && (
+                    <p class="mt-1 text-sm text-muted">
+                      {event.surface && `${t(locale, `surface.${event.surface}`)} · `}
+                      {event.routes.map((r) => r.name).join(', ')}
+                    </p>
+                  )}
+                  {picks.length === 0 ? (
+                    <p class="mt-3 text-sm text-muted">{t(locale, 'playlist.noSuggestions')}</p>
+                  ) : (
+                    <div class="mt-3 grid gap-3 md:grid-cols-2">
+                      {picks.map((pick) => {
+                        const tune = tuneIndex.get(pick.tuneId);
+                        const car = cars.get(pick.carId);
+                        const tunerName = tune
+                          ? (tuners.get(tune.tunerId)?.displayName ?? tune.tunerId)
+                          : '';
+                        return (
+                          <div class="rounded-md border border-border p-3">
+                            <p class="text-xs font-semibold uppercase tracking-wide text-accent">
+                              {t(locale, `category.${pick.category}` as MessageKey)}
+                            </p>
+                            <a
+                              href={localePath(locale, `/cars/${pick.carId}/`)}
+                              class="mt-1 block font-medium hover:underline"
+                            >
+                              {car?.displayName ?? pick.carId}
+                            </a>
+                            {tune && (
+                              <p class="text-sm">
+                                {tune.name}{' '}
+                                <span class="text-muted">
+                                  {t(locale, 'common.by')}{' '}
+                                  <a
+                                    href={localePath(locale, `/tuners/${tune.tunerId}/`)}
+                                    class="hover:underline"
+                                  >
+                                    {tunerName}
+                                  </a>
+                                </span>
+                              </p>
+                            )}
+                            <div class="mt-2">
+                              <ShareCode locale={locale} code={tune?.shareCode} tuner={tunerName} />
+                            </div>
+                            <ul class="mt-2 space-y-0.5 text-xs text-muted">
+                              {pick.reasons.map((reason) => (
+                                <li>
+                                  •{' '}
+                                  {t(
+                                    locale,
+                                    reason.key as MessageKey,
+                                    Object.fromEntries(
+                                      Object.entries(reason.params ?? {}).map(([k, v]) => [
+                                        k,
+                                        k === 'source'
+                                          ? (maps().sources.get(String(v))?.name ?? v)
+                                          : k === 'tier'
+                                            ? (TIER_LABELS[v as Tier] ?? v)
+                                            : v,
+                                      ]),
+                                    ),
+                                  )}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      ))}
+
+      {otherEvents.length > 0 && (
+        <section class="mt-8">
+          <h3 class="text-lg font-semibold">{t(locale, 'eventCategory.other')}</h3>
+          <ul class="mt-3 divide-y divide-border rounded-lg border border-border bg-surface text-sm">
+            {otherEvents.map((event) => (
+              <li class="flex flex-wrap gap-x-3 gap-y-1 px-4 py-2">
+                <span class="text-xs text-muted">
+                  {t(locale, `eventCategory.${event.category}` as MessageKey)}
+                </span>
+                <span class="font-medium">{event.name}</span>
+                <span class="text-muted">{event.requirementRaw}</span>
+                {event.reward && <span class="ml-auto text-xs text-muted">{event.reward}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <p class="mt-8 text-xs text-muted">
+        <a
+          href="https://forza.net/fh6playlists"
+          target="_blank"
+          rel="noopener"
+          class="hover:underline"
+        >
+          {t(locale, 'playlist.source')}
+        </a>
+      </p>
+    </>
+  )}
+</Base>

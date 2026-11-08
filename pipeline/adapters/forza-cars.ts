@@ -1,4 +1,5 @@
-import { cell, findHeader, type Table } from '../lib/table';
+import { findMarkdownTable, parseMarkdownTable } from '../lib/markdown';
+import { cell, findHeader } from '../lib/table';
 import { cleanText } from '../lib/text';
 import type { CarClass } from '../schema/enums';
 import { parseClass } from '../normalize/fields';
@@ -14,37 +15,6 @@ const COLUMNS = [
   'Add-Ons',
 ] as const;
 
-/** Finds the markdown table inside the CMS page (the roster is published as a markdown table). */
-function findMarkdownTable(node: unknown): string | undefined {
-  if (typeof node === 'string') return node.includes('|Make|Car Name|') ? node : undefined;
-  if (Array.isArray(node)) {
-    for (const item of node) {
-      const found = findMarkdownTable(item);
-      if (found) return found;
-    }
-  } else if (node !== null && typeof node === 'object') {
-    for (const value of Object.values(node)) {
-      const found = findMarkdownTable(value);
-      if (found) return found;
-    }
-  }
-  return undefined;
-}
-
-export function parseMarkdownTable(markdown: string): Table {
-  return markdown
-    .split(/\r?\n/)
-    .filter((line) => line.trim().startsWith('|'))
-    .filter((line) => !/^\|?\s*:?-{3,}/.test(line.trim()))
-    .map((line) =>
-      line
-        .trim()
-        .replace(/^\||\|$/g, '')
-        .split('|')
-        .map((c) => c.trim()),
-    );
-}
-
 /** Official FH6 car roster from forza.net/fh6cars (master car list, ADR-0006). */
 export const forzaCars: Adapter = {
   id: 'forza-cars',
@@ -52,7 +22,7 @@ export const forzaCars: Adapter = {
     const out = emptyOutput();
     for (const tab of input.source.tabs) {
       const { data } = requireTab(input, tab.id, 'json');
-      const markdown = findMarkdownTable(data);
+      const markdown = findMarkdownTable(data, '|Make|Car Name|');
       if (!markdown)
         throw new Error(`[${input.source.id}/${tab.id}] car table not found in payload`);
       const rows = parseMarkdownTable(markdown);

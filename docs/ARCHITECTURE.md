@@ -57,7 +57,7 @@ fh-hub/
 │  │  ├─ tuner-aliases.yaml      # variações de gamertag → nome canônico do tunador
 │  │  ├─ base-events.yaml        # ⏳ eventos-base do mapa (levantamento manual)
 │  │  └─ zh-labels.yaml          # ⏳ rótulos em chinês da planilha da Noa (hoje em normalize/fields.ts)
-│  ├─ curation/                  # ⏳ config.yaml (pesos) e weekly/<season-id>.json (IA, via PR)
+│  ├─ curation/config.yaml       # pesos e regras de curadoria (⏳ weekly/<season-id>.json da IA, via PR)
 │  ├─ generated/                 # SAÍDA do pipeline: nunca editar à mão
 │  ├─ review/                    # filas de revisão humana (carros não reconhecidos, valores desconhecidos)
 │  └─ snapshots/                 # último dado bom de cada fonte pública
@@ -67,13 +67,13 @@ fh-hub/
 ├─ pipeline/
 │  ├─ cli.ts                     # pnpm sync | fixtures:update | validate
 │  ├─ commands/                  # sync.ts, fixtures.ts, validate.ts
-│  ├─ fetchers/index.ts          # google-csv, google-xlsx, forza-net (⏳ qq-docs)
+│  ├─ fetchers/                  # index.ts (google-csv, google-xlsx, forza-net) e qq-docs.ts
 │  ├─ adapters/                  # um arquivo por fonte + types.ts (contrato) + index.ts (registro)
 │  ├─ normalize/                 # fields.ts (classe, piso, pneus…), car-resolver.ts, tuners.ts
-│  ├─ build/                     # dataset.ts (junta tudo, função pura) e write.ts (gravação determinística)
-│  ├─ curate/                    # ⏳ notas, categorias, playlist
+│  ├─ build/                     # dataset.ts (junta tudo), write.ts (gravação determinística), changelog.ts
+│  ├─ curate/                    # config.ts (schema do config.yaml) e index.ts (notas, categorias, sugestões)
 │  ├─ schema/                    # schemas zod: fonte única de verdade dos tipos
-│  ├─ lib/                       # http, csv/tabelas, texto, similaridade, JSON estável
+│  ├─ lib/                       # http, tabelas, markdown, texto, similaridade, JSON estável, protobuf, qq-sheet
 │  ├─ testing.ts                 # roda os adaptadores sobre as fixtures (usado nos testes)
 │  └─ __fixtures__/              # amostras reais das fontes (ver DATA_SOURCES.md)
 ├─ src/                          # site Astro
@@ -82,7 +82,7 @@ fh-hub/
 │  ├─ layouts/                   # Base.astro (cabeçalho, idioma, rodapé)
 │  ├─ lib/data.ts                # leitura dos JSON gerados no build
 │  ├─ i18n/                      # pt-br.json, en.json + helpers
-│  ├─ islands/                   # ⏳ componentes interativos (Preact): filtros, busca, copiar código
+│  ├─ islands/                   # componentes interativos (Preact): TuneSearch
 │  └─ content/                   # ⏳ coleções: guides, accessories, custom-events
 └─ .github/workflows/            # ci.yml, sync.yml (⏳ deploy.yml, health.yml)
 ```
@@ -101,7 +101,7 @@ Cada fonte declarada em `data/sources.yaml` informa um **fetcher** (como baixar)
 |---|---|---|
 | `google-csv` | `GET https://docs.google.com/spreadsheets/d/{id}/export?format=csv&gid={gid}`; se o dono bloqueou a exportação (401/403), `.../gviz/tq?tqx=out:csv&headers=0&gid={gid}` | Funciona sem chave de API para planilhas públicas. O gviz é só plano B porque apaga células que não combinam com o tipo que ele adivinha para a coluna ([DATA_SOURCES](DATA_SOURCES.md#como-as-planilhas-do-google-são-lidas)) |
 | `google-xlsx` | `GET .../export?format=xlsx` | Usado quando a **formatação** carrega informação (ex.: a classe na planilha do kleis é a cor da célula). Lido com ExcelJS |
-| `qq-docs` | `GET docs.qq.com/dop-api/opendoc` (primeiro bloco) e `dop-api/get/sheet` (paginado, 256 linhas). O campo `related_sheet` vem em base64 → zlib (deflate) → protobuf não documentado | **Fonte mais frágil.** Plano B: navegador headless (Playwright) |
+| `qq-docs` | Página da planilha (cookies anônimos; `TOK` = xsrf) → `dop-api/opendoc` (abas e revisão) → `dop-api/get/sheet` por aba. Blobs em base64 → zlib → protobuf não documentado, decodificados em `lib/qq-sheet.ts` | **Fonte mais frágil.** Plano B: navegador headless (Playwright) |
 | `forza-net` | `GET https://forza.net/<página>/_payload.json` (payload do Nuxt, serializado com *devalue*) | Roster oficial de carros (`fh6cars`, Fase 0) e playlist (`fh6playlists`, Fase 1). Decodificado com `devalue.unflatten` e *revivers* para os tipos do Nuxt |
 | `manual` | Lê YAML de `data/manual/` | Dados curados à mão (eventos-base, aliases) |
 
@@ -152,7 +152,7 @@ Se existir enriquecimento da IA válido para a semana (`data/curation/weekly/<se
 - A saída é **determinística** (chaves ordenadas, ordem estável, `generatedAt` só muda quando o conteúdo muda) para que os diffs do Git sejam legíveis e o histórico sirva de auditoria.
 - Sem mudança → sem commit.
 - Com mudança → commit do bot: `chore(data): sync <data> UTC`.
-- ⏳ O **changelog de dados** (diff entre sincronizações: adicionado, removido, tier mudou) entra na Fase 1.
+- **Changelog de dados** (`build/changelog.ts`): antes de gravar, o sync compara o dataset novo com o que está em disco (tunes adicionados/removidos; meta adicionado/removido/subiu/caiu) e acrescenta as mudanças em `changelog/<AAAA-MM>.json`. Sem dados anteriores, não há base de comparação e nada é registrado.
 
 ## 4. Site
 

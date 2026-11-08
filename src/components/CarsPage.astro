@@ -1,0 +1,119 @@
+---
+import { formatNumber, localePath, t, type Locale } from '../i18n';
+import Base from '../layouts/Base.astro';
+import { loadCars, loadMeta, loadTuneIndex } from '../lib/data';
+import { CLASS_ORDER, TIER_LABELS } from '../lib/ui';
+import type { Tier } from '../../pipeline/schema/enums';
+import ClassBadge from './ClassBadge.astro';
+import TierBadge from './TierBadge.astro';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const cars = [...loadCars()].sort((a, b) => a.displayName.localeCompare(b.displayName));
+const tuneCount = new Map<string, number>();
+for (const tune of loadTuneIndex()) tuneCount.set(tune.carId, (tuneCount.get(tune.carId) ?? 0) + 1);
+const tierOrder = Object.keys(TIER_LABELS) as Tier[];
+const bestTier = new Map<string, Tier>();
+for (const m of loadMeta()) {
+  const current = bestTier.get(m.carId);
+  if (!current || tierOrder.indexOf(m.tier) < tierOrder.indexOf(current))
+    bestTier.set(m.carId, m.tier);
+}
+const types = [...new Set(cars.flatMap((c) => c.carTypes))].sort();
+---
+
+<Base locale={locale} path="/cars/" title={t(locale, 'cars.title')}>
+  <h1 class="text-3xl font-bold">{t(locale, 'cars.title')}</h1>
+  <p class="mt-3 max-w-2xl text-muted">{t(locale, 'cars.lead')}</p>
+
+  <form
+    id="car-filters"
+    class="mt-6 flex flex-wrap items-end gap-3 text-sm"
+    onsubmit="return false"
+  >
+    <label class="flex flex-col gap-1">
+      <span class="text-muted">{t(locale, 'common.search')}</span>
+      <input name="q" type="search" class="rounded-md border border-border bg-surface px-3 py-2" />
+    </label>
+    <label class="flex flex-col gap-1">
+      <span class="text-muted">{t(locale, 'common.class')}</span>
+      <select name="class" class="rounded-md border border-border bg-surface px-3 py-2">
+        <option value="">{t(locale, 'common.all')}</option>
+        {CLASS_ORDER.map((c) => (
+          <option value={c}>{c}</option>
+        ))}
+      </select>
+    </label>
+    <label class="flex flex-col gap-1">
+      <span class="text-muted">{t(locale, 'common.carType')}</span>
+      <select name="type" class="max-w-56 rounded-md border border-border bg-surface px-3 py-2">
+        <option value="">{t(locale, 'common.all')}</option>
+        {types.map((type) => (
+          <option value={type}>{type}</option>
+        ))}
+      </select>
+    </label>
+    <label class="flex items-center gap-2 py-2">
+      <input name="withTunes" type="checkbox" />
+      <span>{t(locale, 'common.withTunes')}</span>
+    </label>
+    <output id="car-count" class="ml-auto py-2 text-muted"></output>
+  </form>
+
+  <ul id="car-list" class="mt-4 divide-y divide-border rounded-lg border border-border bg-surface">
+    {cars.map((car) => {
+      const count = tuneCount.get(car.id) ?? 0;
+      const tier = bestTier.get(car.id);
+      return (
+        <li
+          class="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2.5"
+          data-name={`${car.displayName} ${car.carTypes.join(' ')} ${car.country ?? ''}`.toLowerCase()}
+          data-class={car.stock?.class ?? ''}
+          data-types={car.carTypes.join('|')}
+          data-tunes={count}
+        >
+          <ClassBadge value={car.stock?.class} pi={car.stock?.pi} />
+          <a href={localePath(locale, `/cars/${car.id}/`)} class="font-medium hover:underline">
+            {car.displayName}
+          </a>
+          {tier && <TierBadge value={tier} />}
+          <span class="text-xs text-muted">{car.carTypes.join(', ')}</span>
+          <span class="ml-auto text-sm text-muted tabular-nums">
+            {t(locale, 'cars.tunesCount', { n: formatNumber(locale, count) })}
+          </span>
+        </li>
+      );
+    })}
+  </ul>
+
+  <script define:vars={{ resultsLabel: t(locale, 'common.results', { n: '{n}' }) }}>
+    const form = document.getElementById('car-filters');
+    const rows = [...document.querySelectorAll('#car-list > li')];
+    const counter = document.getElementById('car-count');
+    function apply() {
+      const data = new FormData(form);
+      const q = String(data.get('q') || '')
+        .toLowerCase()
+        .trim();
+      const cls = data.get('class');
+      const type = data.get('type');
+      const withTunes = data.get('withTunes');
+      let shown = 0;
+      for (const row of rows) {
+        const ok =
+          (!q || row.dataset.name.includes(q)) &&
+          (!cls || row.dataset.class === cls) &&
+          (!type || row.dataset.types.split('|').includes(type)) &&
+          (!withTunes || Number(row.dataset.tunes) > 0);
+        row.hidden = !ok;
+        if (ok) shown++;
+      }
+      counter.textContent = resultsLabel.replace('{n}', shown);
+    }
+    form.addEventListener('input', apply);
+    apply();
+  </script>
+</Base>

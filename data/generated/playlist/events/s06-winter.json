@@ -1,0 +1,669 @@
+{
+  "generatedAt": "2026-11-08T11:37:03.659Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s06-winter--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 2004 Saleen S7",
+      "routeRaw": "",
+      "routes": [],
+      "row": 478,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s06-winter--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 1986 Audi #2 Audi Sport quattro S1",
+      "routeRaw": "",
+      "routes": [],
+      "row": 479,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s06-winter--weekly-challenge--strictly-for-fun",
+      "name": "Strictly for Fun",
+      "requirement": {
+        "activities": [
+          "Danger Signs",
+          "Car Meet",
+          "Time Attack"
+        ],
+        "carIds": [
+          "1991-honda-beat"
+        ],
+        "scope": "car",
+        "scopeLabel": "1991 Honda Beat",
+        "status": "parsed"
+      },
+      "requirementRaw": "1991 Honda Beat; Danger Signs; Car Meet; Time Attack",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 480,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-winter--daily-challenge--car-meet",
+      "name": "Car Meet",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Park at the 7-Eleven Car Meet",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 481,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-winter--daily-challenge--trailblazer",
+      "name": "Trailblazer",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn at least 1 Star from Trailblazers",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 482,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-winter--daily-challenge--dirt-race",
+      "name": "Dirt Race",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Dirt Race",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 483,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-winter--daily-challenge--air-skills",
+      "name": "Air Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 5 Air Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 484,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-winter--daily-challenge--speed-skills",
+      "name": "Speed Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 5 Speed Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 485,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-winter--daily-challenge--photo",
+      "name": "Photo",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of any car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 486,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-winter--daily-challenge--upgrade",
+      "name": "Upgrade",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Spend 20,000 Credits on upgrades",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 487,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s06-winter--photo-challenge--polarispoint",
+      "name": "#PolarisPoint",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of",
+      "reward": "Clothing: All-White Techwear Boots",
+      "routeRaw": "",
+      "routes": [],
+      "row": 488,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s06-winter--treasure-hunt--sotoyama-region",
+      "name": "Sotoyama Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100,000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 489,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "id": "s06-winter--championship--touring-the-sights",
+      "name": "Touring the Sights",
+      "requirement": {
+        "carIds": [
+          "2009-mercedes-benz-sl-65-amg-black-series",
+          "2015-ferrari-f12tdf",
+          "2015-mercedes-amg-gt-s",
+          "2017-aston-martin-db11",
+          "2017-ferrari-812-superfast",
+          "2017-mercedes-amg-gt-r",
+          "2018-ferrari-portofino",
+          "2019-aston-martin-dbs-superleggera",
+          "2019-ferrari-monza-sp2",
+          "2020-ferrari-roma",
+          "2024-mercedes-amg-gt-63-4matic",
+          "2025-bentley-continental-gt-speed",
+          "2025-gr-gt-prototype"
+        ],
+        "class": "S1",
+        "scope": "car-type",
+        "scopeLabel": "Super GT",
+        "status": "parsed"
+      },
+      "requirementRaw": "Super GT - S1 class",
+      "reward": "Car: 2021 Polaris RZR Pro XP Factory Racing Limited Edition",
+      "routeRaw": "Road: Coastline Sprint, Irokawa Circuit, Shimanoyama Sprint",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Coastline Sprint"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Irokawa Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Shimanoyama Sprint"
+        }
+      ],
+      "row": 490,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s06-winter--championship--daily-exercise",
+      "name": "Daily Exercise",
+      "requirement": {
+        "class": "A",
+        "scope": "unknown",
+        "scopeLabel": "High Performance Dailies",
+        "status": "unparsed"
+      },
+      "requirementRaw": "High Performance Dailies - A",
+      "reward": "Car: 1991 Honda Beat",
+      "routeRaw": "Street: Nachi Run, Cedar Run, Okishinaimura Run",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Nachi Run"
+        },
+        {
+          "discipline": "street",
+          "name": "Cedar Run"
+        },
+        {
+          "discipline": "street",
+          "name": "Okishinaimura Run"
+        }
+      ],
+      "row": 491,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s06-winter--championship--hitting-your-a-game",
+      "name": "Hitting Your A Game",
+      "requirement": {
+        "class": "A",
+        "scope": "unknown",
+        "scopeLabel": "Heavy Hitters",
+        "status": "unparsed"
+      },
+      "requirementRaw": "Heavy Hitters - A Class",
+      "reward": "Car: 1987 Nissan Skyline GTS-R",
+      "routeRaw": "Cross Country: Izu Cross Country, Stadium Cross Country Circuit, Yahikoyama Cross Country",
+      "routes": [
+        {
+          "name": "Izu Cross Country"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Stadium Cross Country Circuit"
+        },
+        {
+          "name": "Yahikoyama Cross Country"
+        }
+      ],
+      "row": 492,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "cross-country",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "time-attack",
+      "id": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
+      "name": "Hokubu Time Attack",
+      "requirement": {
+        "carIds": [
+          "1965-toyota-sports-800",
+          "1965-toyota-sports-800-fanta-edition",
+          "1969-toyota-2000gt",
+          "1974-toyota-celica-gt",
+          "1974-toyota-corolla-sr5",
+          "1979-toyota-fj40",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1989-toyota-mr2-sc",
+          "1991-toyota-chaser-gt-twin-turbo",
+          "1991-toyota-sera",
+          "1992-toyota-celica-gt-four-rc-st185",
+          "1992-toyota-supra-2-0-gt",
+          "1993-toyota-1-t100-baja-truck",
+          "1994-toyota-celica-gt-four-st205",
+          "1995-toyota-j-and-j-motorsport-supra-wtac",
+          "1995-toyota-mr2-gt",
+          "1996-toyota-starlet-glanza-v",
+          "1997-toyota-chaser-2-5-tourer-v",
+          "1997-toyota-soarer-2-5-gt-t",
+          "1998-toyota-supra-rz",
+          "1999-toyota-altezza-rs200-z-edition",
+          "2003-toyota-celica-sport-specialty-ii",
+          "2005-toyota-crown-super-deluxe-taxi",
+          "2013-toyota-86",
+          "2013-toyota-86-stories",
+          "2016-toyota-land-cruiser-arctic-trucks-at37",
+          "2017-toyota-jpn-taxi",
+          "2019-toyota-4runner-trd-pro",
+          "2019-toyota-tacoma-trd-pro",
+          "2019-toyota-tacoma-trd-pro-forza-edition",
+          "2020-toyota-gr-supra",
+          "2021-toyota-gr-yaris",
+          "2022-toyota-gr86",
+          "2023-toyota-camry-trd",
+          "2023-toyota-gr-corolla",
+          "2024-toyota-prius-prime-xse-premium",
+          "2025-toyota-land-cruiser"
+        ],
+        "class": "C",
+        "scope": "make",
+        "scopeLabel": "Toyota",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "1:25.00",
+          "unit": "s",
+          "value": 85
+        }
+      },
+      "requirementRaw": "Toyota - C Class - 1:25.00",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 493,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Horizon Life - Time Attack"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "drag",
+      "id": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
+      "name": "Irokawa Quarter Mile",
+      "requirement": {
+        "carIds": [
+          "1965-toyota-sports-800",
+          "1965-toyota-sports-800-fanta-edition",
+          "1969-toyota-2000gt",
+          "1974-toyota-celica-gt",
+          "1974-toyota-corolla-sr5",
+          "1979-toyota-fj40",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1989-toyota-mr2-sc",
+          "1991-toyota-chaser-gt-twin-turbo",
+          "1991-toyota-sera",
+          "1992-toyota-celica-gt-four-rc-st185",
+          "1992-toyota-supra-2-0-gt",
+          "1993-toyota-1-t100-baja-truck",
+          "1994-toyota-celica-gt-four-st205",
+          "1995-toyota-j-and-j-motorsport-supra-wtac",
+          "1995-toyota-mr2-gt",
+          "1996-toyota-starlet-glanza-v",
+          "1997-toyota-chaser-2-5-tourer-v",
+          "1997-toyota-soarer-2-5-gt-t",
+          "1998-toyota-supra-rz",
+          "1999-toyota-altezza-rs200-z-edition",
+          "2003-toyota-celica-sport-specialty-ii",
+          "2005-toyota-crown-super-deluxe-taxi",
+          "2013-toyota-86",
+          "2013-toyota-86-stories",
+          "2016-toyota-land-cruiser-arctic-trucks-at37",
+          "2017-toyota-jpn-taxi",
+          "2019-toyota-4runner-trd-pro",
+          "2019-toyota-tacoma-trd-pro",
+          "2019-toyota-tacoma-trd-pro-forza-edition",
+          "2020-toyota-gr-supra",
+          "2021-toyota-gr-yaris",
+          "2022-toyota-gr86",
+          "2023-toyota-camry-trd",
+          "2023-toyota-gr-corolla",
+          "2024-toyota-prius-prime-xse-premium",
+          "2025-toyota-land-cruiser"
+        ],
+        "class": "C",
+        "scope": "make",
+        "scopeLabel": "Toyota",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "15.000 seconds",
+          "unit": "s",
+          "value": 15
+        }
+      },
+      "requirementRaw": "Toyota - C Class - 15.000 seconds",
+      "reward": "Car Horn: Konbini Door",
+      "routeRaw": "",
+      "routes": [],
+      "row": 494,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Horizon Life - Drag Meet"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s06-winter--pr-stunt-danger-sign--alpine-heights",
+      "name": "Alpine Heights",
+      "requirement": {
+        "carIds": [
+          "1965-toyota-sports-800",
+          "1965-toyota-sports-800-fanta-edition",
+          "1969-toyota-2000gt",
+          "1974-toyota-celica-gt",
+          "1974-toyota-corolla-sr5",
+          "1979-toyota-fj40",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1989-toyota-mr2-sc",
+          "1991-toyota-chaser-gt-twin-turbo",
+          "1991-toyota-sera",
+          "1992-toyota-celica-gt-four-rc-st185",
+          "1992-toyota-supra-2-0-gt",
+          "1993-toyota-1-t100-baja-truck",
+          "1994-toyota-celica-gt-four-st205",
+          "1995-toyota-j-and-j-motorsport-supra-wtac",
+          "1995-toyota-mr2-gt",
+          "1996-toyota-starlet-glanza-v",
+          "1997-toyota-chaser-2-5-tourer-v",
+          "1997-toyota-soarer-2-5-gt-t",
+          "1998-toyota-supra-rz",
+          "1999-toyota-altezza-rs200-z-edition",
+          "2003-toyota-celica-sport-specialty-ii",
+          "2005-toyota-crown-super-deluxe-taxi",
+          "2013-toyota-86",
+          "2013-toyota-86-stories",
+          "2016-toyota-land-cruiser-arctic-trucks-at37",
+          "2017-toyota-jpn-taxi",
+          "2019-toyota-4runner-trd-pro",
+          "2019-toyota-tacoma-trd-pro",
+          "2019-toyota-tacoma-trd-pro-forza-edition",
+          "2020-toyota-gr-supra",
+          "2021-toyota-gr-yaris",
+          "2022-toyota-gr86",
+          "2023-toyota-camry-trd",
+          "2023-toyota-gr-corolla",
+          "2024-toyota-prius-prime-xse-premium",
+          "2025-toyota-land-cruiser"
+        ],
+        "class": "C",
+        "scope": "make",
+        "scopeLabel": "Toyota",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "721.8 feet",
+          "unit": "ft",
+          "value": 721.8
+        }
+      },
+      "requirementRaw": "Toyota - C Class - 721.8 feet",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 495,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s06-winter--pr-stunt-speed-trap--konbini-dash",
+      "name": "Konbini Dash",
+      "requirement": {
+        "carIds": [
+          "1965-toyota-sports-800",
+          "1965-toyota-sports-800-fanta-edition",
+          "1969-toyota-2000gt",
+          "1974-toyota-celica-gt",
+          "1974-toyota-corolla-sr5",
+          "1979-toyota-fj40",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1989-toyota-mr2-sc",
+          "1991-toyota-chaser-gt-twin-turbo",
+          "1991-toyota-sera",
+          "1992-toyota-celica-gt-four-rc-st185",
+          "1992-toyota-supra-2-0-gt",
+          "1993-toyota-1-t100-baja-truck",
+          "1994-toyota-celica-gt-four-st205",
+          "1995-toyota-j-and-j-motorsport-supra-wtac",
+          "1995-toyota-mr2-gt",
+          "1996-toyota-starlet-glanza-v",
+          "1997-toyota-chaser-2-5-tourer-v",
+          "1997-toyota-soarer-2-5-gt-t",
+          "1998-toyota-supra-rz",
+          "1999-toyota-altezza-rs200-z-edition",
+          "2003-toyota-celica-sport-specialty-ii",
+          "2005-toyota-crown-super-deluxe-taxi",
+          "2013-toyota-86",
+          "2013-toyota-86-stories",
+          "2016-toyota-land-cruiser-arctic-trucks-at37",
+          "2017-toyota-jpn-taxi",
+          "2019-toyota-4runner-trd-pro",
+          "2019-toyota-tacoma-trd-pro",
+          "2019-toyota-tacoma-trd-pro-forza-edition",
+          "2020-toyota-gr-supra",
+          "2021-toyota-gr-yaris",
+          "2022-toyota-gr86",
+          "2023-toyota-camry-trd",
+          "2023-toyota-gr-corolla",
+          "2024-toyota-prius-prime-xse-premium",
+          "2025-toyota-land-cruiser"
+        ],
+        "class": "C",
+        "scope": "make",
+        "scopeLabel": "Toyota",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "85.0 mph",
+          "unit": "mph",
+          "value": 85
+        }
+      },
+      "requirementRaw": "Toyota - C Class - 85.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 496,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "trial",
+      "discipline": "sprint",
+      "id": "s06-winter--horizon-life-the-trial--full-send",
+      "name": "Full Send",
+      "requirement": {
+        "carIds": [
+          "1980-subaru-brat-gl",
+          "1990-subaru-legacy-rs",
+          "1994-subaru-vivio-rx-r",
+          "1994-subaru-vivio-rx-r-forza-edition",
+          "1996-subaru-svx",
+          "1998-subaru-impreza-22b-sti-version",
+          "2004-subaru-impreza-wrx-sti",
+          "2005-subaru-impreza-wrx-sti",
+          "2005-subaru-legacy-b4-2-0-gt",
+          "2008-subaru-impreza-wrx-sti",
+          "2011-subaru-wrx-sti",
+          "2013-subaru-brz",
+          "2015-subaru-wrx-sti",
+          "2018-subaru-wrx-sti-arx-supercar",
+          "2019-subaru-sti-s209",
+          "2022-subaru-brz",
+          "2022-subaru-brz-forza-edition",
+          "2022-subaru-wrx"
+        ],
+        "class": "B",
+        "scope": "make",
+        "scopeLabel": "Subaru",
+        "status": "parsed"
+      },
+      "requirementRaw": "Subaru - B Class",
+      "reward": "Car: 2023 Toyota Camry TRD",
+      "routeRaw": "Dirt: Hokubu Trail, Waterfall Trail, Nukabira Trail",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Hokubu Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Waterfall Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Nukabira Trail"
+        }
+      ],
+      "row": 497,
+      "seasonId": "s06-winter",
+      "seriesId": "s06",
+      "surface": "dirt",
+      "type": "Horizon Life - The Trial"
+    }
+  ],
+  "schemaVersion": 1
+}

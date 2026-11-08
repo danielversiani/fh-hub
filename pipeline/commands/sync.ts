@@ -1,8 +1,11 @@
 import { getAdapter } from '../adapters';
-import { countRecords, type AdapterOutput, type TabPayload } from '../adapters/types';
+import { countRecords, withDefaults, type AdapterOutput, type TabPayload } from '../adapters/types';
+import { appendChangelog, diffDataset } from '../build/changelog';
 import { buildDataset, datasetStats, type SourceResult } from '../build/dataset';
 import { readSnapshot, readStatuses, writeDataset, writeSnapshot } from '../build/write';
 import { loadManual, loadSources } from '../config';
+import { loadCurationConfig } from '../curate/config';
+import { curate } from '../curate';
 import { downloadSource, readSavedSource, saveSource, toPayload, type RawTab } from '../fetchers';
 import { HeaderMismatchError } from '../lib/table';
 import { paths, VISIBILITIES, type Visibility } from '../paths';
@@ -56,6 +59,7 @@ export async function runAdapter(source: SourceDef, tabs: RawTab[]): Promise<Ada
 export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
   const { sources } = loadSources();
   const manual = loadManual();
+  const curation = loadCurationConfig();
   const now = new Date().toISOString();
   const dryRun = options.dryRun || options.mode === 'fixtures';
   const active = sources.filter((s) => s.active && (!options.publicOnly || isPublic(s)));
@@ -87,7 +91,7 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
 
     if (!selected.has(source.id)) {
       if (previous) {
-        results.push({ source, output: previous.output });
+        results.push({ source, output: withDefaults(previous.output) });
         statuses.push(
           previousStatus ?? {
             ...base,
@@ -127,7 +131,7 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
         `✗ ${source.id}: ${degraded ? 'degraded' : 'failing'}${previous ? ' (using last good data)' : ''}`,
       );
       warn(source.id, message);
-      if (previous) results.push({ source, output: previous.output });
+      if (previous) results.push({ source, output: withDefaults(previous.output) });
       else if (isCatalog) catalogMissing = true;
       statuses.push({
         ...base,
@@ -148,11 +152,19 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
   for (const visibility of VISIBILITIES) {
     if (visibility === 'preview' && options.publicOnly) continue;
     const visible = visibility === 'public' ? results.filter((r) => isPublic(r.source)) : results;
-    const dataset = buildDataset(visible, manual);
+    const base = buildDataset(visible, manual);
+    const curated = curate(base, curation, sources);
+    const dataset = { ...base, tunes: curated.tunes };
     const s = datasetStats(dataset);
     log(
       `\n[${visibility}] ${s.cars} cars · ${s.tunes} tunes (${s.codedTunes} with share code) · ` +
-        `${s.tuners} tuners · ${s.lapTimes} lap times`,
+        `${s.tuners} tuners · ${s.lapTimes} lap times · ${s.metaRankings} meta rankings`,
+    );
+    const current = dataset.seasons.find((season) => season.current);
+    log(
+      `[${visibility}] playlist: ${dataset.events.length} events in ${dataset.seasons.length} seasons` +
+        (current ? `, live: ${current.id} (until ${current.endsOn})` : ', live season unknown') +
+        ` · ${curated.suggestions.length} suggestions`,
     );
     if (s.cars > 0) {
       log(
@@ -166,10 +178,17 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
       );
     }
     if (!dryRun) {
+      // Diff against what is on disk BEFORE overwriting it.
+      const changes = diffDataset(visibility, dataset, now);
+      if (changes.length) {
+        appendChangelog(visibility, changes, now);
+        log(`[${visibility}] changelog: ${changes.length} changes`);
+      }
       const report = writeDataset(
         visibility,
         dataset,
         visibility === 'public' ? statuses.filter((st) => st.public) : statuses,
+        curated.suggestions,
         now,
       );
       log(

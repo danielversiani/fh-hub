@@ -1,0 +1,75 @@
+---
+import type { Tune, TuneIndexEntry } from '../../pipeline/schema/entities';
+import { localePath, t, type Locale, type MessageKey } from '../i18n';
+import { maps } from '../lib/data';
+import ClassBadge from './ClassBadge.astro';
+import ShareCode from './ShareCode.astro';
+
+interface Props {
+  locale: Locale;
+  tune: Tune | TuneIndexEntry;
+  /** Show the car name (lists that mix cars). */
+  showCar?: boolean;
+  highlight?: string | undefined;
+}
+
+const { locale, tune, showCar = false, highlight } = Astro.props;
+const { cars, tuners, sources } = maps();
+const car = cars.get(tune.carId);
+const tuner = tuners.get(tune.tunerId);
+const sourceIds =
+  'observations' in tune ? [...new Set(tune.observations.map((o) => o.sourceId))] : tune.sourceIds;
+const confidence = 'confidence' in tune ? tune.confidence : undefined;
+---
+
+<article class="rounded-lg border border-border bg-surface p-3">
+  <div class="flex flex-wrap items-start justify-between gap-2">
+    <div class="min-w-0">
+      {highlight && (
+        <p class="text-xs font-semibold uppercase tracking-wide text-accent">{highlight}</p>
+      )}
+      {showCar && car && (
+        <a href={localePath(locale, `/cars/${car.id}/`)} class="font-semibold hover:underline">
+          {car.displayName}
+        </a>
+      )}
+      <p class={showCar ? 'text-sm' : 'font-semibold'}>{tune.name}</p>
+      <p class="text-xs text-muted">
+        {t(locale, 'common.by')}
+        <a href={localePath(locale, `/tuners/${tune.tunerId}/`)} class="hover:underline">
+          {tuner?.displayName ?? tune.tunerId}
+        </a>
+      </p>
+    </div>
+    <ShareCode locale={locale} code={tune.shareCode} tuner={tuner?.displayName ?? tune.tunerId} />
+  </div>
+  <div class="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
+    <ClassBadge value={tune.class} />
+    {tune.surface && (
+      <span class="rounded bg-bg px-1.5 py-0.5">{t(locale, `surface.${tune.surface}`)}</span>
+    )}
+    {tune.drivetrain && <span class="rounded bg-bg px-1.5 py-0.5">{tune.drivetrain}</span>}
+    {tune.categories?.map((c) => (
+      <span class="rounded border border-accent/40 px-1.5 py-0.5 text-accent">
+        {t(locale, `category.${c}` as MessageKey)}
+      </span>
+    ))}
+    {tune.score !== undefined && (
+      <span class="ml-auto text-muted tabular-nums">
+        {t(locale, 'common.score')} {Math.round(tune.score * 100)}
+        {confidence !== undefined && confidence < 0.35 && ` · ${t(locale, 'common.lowData')}`}
+      </span>
+    )}
+  </div>
+  <p class="mt-2 text-xs text-muted">
+    {t(locale, 'common.sources')}:{' '}
+    {sourceIds.map((id, i) => (
+      <>
+        {i > 0 && ', '}
+        <a href={sources.get(id)?.url} target="_blank" rel="noopener" class="hover:underline">
+          {sources.get(id)?.name ?? id}
+        </a>
+      </>
+    ))}
+  </p>
+</article>

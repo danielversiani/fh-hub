@@ -35,3 +35,17 @@
 - **+** Dados oficiais, completos e com histórico (dá para mostrar temporadas passadas).
 - **+** Independência total de tunadores específicos para a estrutura da playlist.
 - **−** O payload do Nuxt não é uma API documentada e pode mudar sem aviso (mitigado pelo plano B e pelos alertas).
+
+## Atualizações
+
+- **2026-11-08 (Fase 1), implementação:**
+  - Adaptador `forza-playlist` e interpretador `pipeline/normalize/requirement.ts`. Além dos padrões previstos acima, o interpretador cobre:
+    - marca (`Ferrari - S1 Class`);
+    - família de modelo (`Dodge Challenger - A Class`);
+    - país (`Italy`, `United Kingdom`);
+    - década (`1980s Retro Hot Hatch - D Class`, `2010s S2 Class - 205.0 mph`);
+    - várias marcas ou tipos (`Honda & Acura`, `Evo vs Impreza`, `Total Buggies & Offroad`);
+    - `Anything Goes`.
+  - Raridade (`Rarity: Legendary`) e tração de fábrica (`Total FWD`) ficam **parciais**: o roster não traz esses dados, então a sugestão vem com "confira no jogo se o carro é elegível".
+  - Cobertura: 597 de 604 linhas. As restantes vão para `data/review/unparsed-requirements.json`.
+  - Só a temporada ao vivo tem data oficial; as demais são derivadas e marcadas `datesDerived`.

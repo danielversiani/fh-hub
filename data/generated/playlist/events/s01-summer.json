@@ -1,0 +1,521 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s01-summer--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 15,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "15 pts",
+      "reward": "Car: 1999 Toyota Altezza RS200 Z EDITION",
+      "routeRaw": "",
+      "routes": [],
+      "row": 5,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s01-summer--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 30,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "30 pts",
+      "reward": "Car: 2006 Mitsubishi Lancer Evolution IX MR",
+      "routeRaw": "",
+      "routes": [],
+      "row": 6,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s01-summer--weekly-challenge--gazoo-racer",
+      "name": "Gazoo Racer",
+      "requirement": {
+        "activities": [
+          "Speed Zones",
+          "Speed Skills",
+          "Touge"
+        ],
+        "carIds": [
+          "2022-toyota-gr86"
+        ],
+        "scope": "car",
+        "scopeLabel": "2022 Toyota GR86",
+        "status": "parsed"
+      },
+      "requirementRaw": "2022 Toyota GR86; Speed Zones; Speed Skills; Touge",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 7,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-summer--daily-challenge--welcome-to-the-party-pal",
+      "name": "Welcome to the Party, Pal!",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Finish round 3 of a Horizon Stunt Party",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 8,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-summer--daily-challenge--winner-winner",
+      "name": "Winner Winner",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Win 2 Road Circuit Races",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 9,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-summer--daily-challenge--eat-my-dust",
+      "name": "Eat My Dust",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 6 Pass Skills in any Dirt Race",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 10,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-summer--daily-challenge--lookin-so-cute",
+      "name": "Lookin So Cute!",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Park the 1993 Autozam AZ-1 at any Car Meet",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 11,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-summer--daily-challenge--chain-reaction",
+      "name": "Chain Reaction",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 2 Ultimate Skill Chain Issues",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 12,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-summer--daily-challenge--off-grid",
+      "name": "Off Grid",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Stars at Trailblazers",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 13,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-summer--daily-challenge--my-neighbor-toyota-ro",
+      "name": "My Neighbor Toyota-ro",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of any Toyota at Mei’s House",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 14,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s01-summer--photo-challenge--festivalvibes",
+      "name": "#FestivalVibes",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo at the Horizon Festival Japan Site",
+      "reward": "Car Horn: Cat Meow",
+      "routeRaw": "",
+      "routes": [],
+      "row": 15,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s01-summer--treasure-hunt--ohtani-region",
+      "name": "Ohtani Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 16,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "id": "s01-summer--championship--hot-like-summer",
+      "name": "Hot Like Summer",
+      "requirement": {
+        "carIds": [
+          "1974-honda-civic-rs",
+          "1983-volkswagen-golf-gti",
+          "1986-honda-civic-si",
+          "1991-honda-cr-x-sir",
+          "1991-peugeot-205-rallye",
+          "1992-volkswagen-golf-gti-16v-mk2",
+          "1993-renault-clio-williams",
+          "1994-honda-prelude-si",
+          "1995-volkswagen-corrado-vr6",
+          "1996-toyota-starlet-glanza-v",
+          "1997-honda-civic-type-r",
+          "2001-acura-integra-type-r",
+          "2002-acura-rsx-type-s",
+          "2003-ford-focus-rs",
+          "2004-honda-civic-type-r"
+        ],
+        "class": "C",
+        "scope": "car-type",
+        "scopeLabel": "Retro Hot Hatch",
+        "status": "parsed"
+      },
+      "requirementRaw": "Retro Hot Hatch - C Class",
+      "reward": "Car: 1989 Toyota MR2 SC",
+      "routeRaw": "Road: Coastline Sprint, Electric Town Circuit, Ito Sprint",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Coastline Sprint"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Electric Town Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Ito Sprint"
+        }
+      ],
+      "row": 17,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s01-summer--championship--street-fighter",
+      "name": "Street Fighter",
+      "requirement": {
+        "carIds": [
+          "2006-audi-rs-4",
+          "2008-bmw-m3",
+          "2009-audi-rs-6",
+          "2009-bmw-m5",
+          "2011-audi-rs-5-coupe",
+          "2012-bmw-m5",
+          "2012-mercedes-benz-c-63-amg-coupe-black-series",
+          "2013-audi-rs-4-avant",
+          "2013-audi-rs-7-sportback",
+          "2013-cadillac-xts-limousine",
+          "2014-bmw-m4-coupe",
+          "2015-audi-rs-6-avant",
+          "2015-lexus-rc-f",
+          "2016-mercedes-amg-c-63-s-coupe",
+          "2017-alfa-romeo-giulia-quadrifoglio",
+          "2018-audi-rs-4-avant",
+          "2018-mercedes-amg-e-63-s",
+          "2018-mercedes-amg-gt-4-door-coupe",
+          "2020-audi-rs-3-sedan",
+          "2020-bmw-m2-competition-coupe",
+          "2020-porsche-taycan-turbo-s",
+          "2021-alfa-romeo-giulia-gtam",
+          "2021-audi-rs-6-avant",
+          "2021-audi-rs-7-sportback",
+          "2021-audi-rs-e-tron-gt",
+          "2021-bmw-m4-competition-coupe",
+          "2021-bmw-m4-competition-coupe-welcome-pack",
+          "2022-bmw-m5-cs",
+          "2023-bmw-m2",
+          "2023-toyota-camry-trd",
+          "2024-lucid-air-sapphire",
+          "2025-bmw-m4-cs"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Modern Super Saloons",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Super Saloons - A Class",
+      "reward": "Car: 2021 Pagani Huayra R",
+      "routeRaw": "Street: Nachi Run, River Descent, Daikoku Chase",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Nachi Run"
+        },
+        {
+          "discipline": "street",
+          "name": "River Descent"
+        },
+        {
+          "discipline": "street",
+          "name": "Daikoku Chase"
+        }
+      ],
+      "row": 18,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s01-summer--championship--throwback-throwdown",
+      "name": "Throwback Throwdown",
+      "requirement": {
+        "carIds": [
+          "1980-renault-5-turbo",
+          "1982-lancia-037-stradale",
+          "1984-audi-sport-quattro",
+          "1984-peugeot-205-turbo-16",
+          "1986-lancia-delta-s4",
+          "1989-volkswagen-rallye-golf",
+          "1990-nissan-pulsar-gti-r",
+          "1990-subaru-legacy-rs",
+          "1992-ford-escort-rs-cosworth",
+          "1992-lancia-delta-hf-integrale-evo",
+          "1992-mitsubishi-galant-vr-4",
+          "1992-toyota-celica-gt-four-rc-st185",
+          "1994-toyota-celica-gt-four-st205",
+          "1995-mitsubishi-lancer-evolution-iii-gsr",
+          "1998-subaru-impreza-22b-sti-version",
+          "1999-ford-racing-puma",
+          "2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Retro Rally",
+        "status": "parsed"
+      },
+      "requirementRaw": "Retro Rally - B Class",
+      "reward": "Car: 2021 McLaren Sabre",
+      "routeRaw": "Dirt: Hirosaki Scramble, Hokubu Trail, Chiheisen Scramble",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Hirosaki Scramble"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Hokubu Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Chiheisen Scramble"
+        }
+      ],
+      "row": 19,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": "dirt",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "time-attack",
+      "id": "s01-summer--horizon-life-time-attack--sekibe-time-attack",
+      "name": "Sekibe Time Attack",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "1:06.000",
+          "unit": "s",
+          "value": 66
+        }
+      },
+      "requirementRaw": "Japan - A Class - 1:06.000",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 20,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Horizon Life - Time Attack"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s01-summer--pr-stunt-danger-sign--airfield-takeoff",
+      "name": "Airfield Takeoff",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "698.8 feet",
+          "unit": "ft",
+          "value": 698.8
+        }
+      },
+      "requirementRaw": "Japan - A Class - 698.8 feet",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 21,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s01-summer--pr-stunt-speed-trap--bamboo-hilltop",
+      "name": "Bamboo Hilltop",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "110.0 mph",
+          "unit": "mph",
+          "value": 110
+        }
+      },
+      "requirementRaw": "Japan - A Class - 110.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 22,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "online",
+      "id": "s01-summer--horizon-play-racing--floor-it",
+      "name": "Floor It!",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Great Speed Skills in Horizon Racing",
+      "reward": "Car: 2003 Ford F-150 SVT Lightning",
+      "routeRaw": "",
+      "routes": [],
+      "row": 23,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Horizon Play - Racing"
+    },
+    {
+      "category": "online",
+      "id": "s01-summer--horizon-play-hide-and-seek--5-vs-1",
+      "name": "5 VS 1",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a game of Hide & Seek",
+      "reward": "Car: 2022 Ferrari 296 GTB",
+      "routeRaw": "",
+      "routes": [],
+      "row": 24,
+      "seasonId": "s01-summer",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Horizon Play - Hide & Seek"
+    }
+  ],
+  "schemaVersion": 1
+}

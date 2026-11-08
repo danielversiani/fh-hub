@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s07--badge--tower-power",
+      "name": "Tower Power",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Play Forza Horizon 6 during the \"City Life\" series of the Festival Playlist.",
+      "reward": "Badge: Tokyo Tower Badge",
+      "routeRaw": "",
+      "routes": [],
+      "row": 519,
+      "seasonId": "s07",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Badge"
+    },
+    {
+      "category": "rivals",
+      "id": "s07--monthly-rivals--shimanoyama-circuit",
+      "name": "Shimanoyama Circuit",
+      "requirement": {
+        "scope": "unknown",
+        "scopeLabel": "2016 Honda S660 Alpha",
+        "status": "unparsed"
+      },
+      "requirementRaw": "2016 Honda S660 Alpha",
+      "reward": "Super Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 520,
+      "seasonId": "s07",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "rivals",
+      "id": "s07--monthly-rivals--edo-circuit",
+      "name": "Edo Circuit",
+      "requirement": {
+        "carIds": [
+          "2025-ford-mustang-gtd"
+        ],
+        "scope": "car",
+        "scopeLabel": "2025 Ford Mustang GTD",
+        "status": "parsed"
+      },
+      "requirementRaw": "2025 Ford Mustang GTD",
+      "reward": "Super Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 521,
+      "seasonId": "s07",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "reward",
+      "id": "s07--series-reward--series-reward-1",
+      "name": "Series Reward 1",
+      "points": 60,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "60 pts",
+      "reward": "Car: 2016 Honda S660 Alpha",
+      "routeRaw": "",
+      "routes": [],
+      "row": 522,
+      "seasonId": "s07",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s07--series-reward--series-reward-2",
+      "name": "Series Reward 2",
+      "points": 120,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "120 pts",
+      "reward": "Car: 1970 Honda N600",
+      "routeRaw": "",
+      "routes": [],
+      "row": 523,
+      "seasonId": "s07",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Series Reward"
+    }
+  ],
+  "schemaVersion": 1
+}

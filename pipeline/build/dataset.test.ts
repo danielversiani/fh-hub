@@ -1,7 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import { loadManual } from '../config';
 import { stableStringify } from '../lib/json';
-import { Car, CustomEvent, LapTime, Tune } from '../schema/entities';
+import {
+  Car,
+  CustomEvent,
+  LapTime,
+  MetaRanking,
+  PlaylistEvent,
+  PlaylistSeason,
+  Tune,
+} from '../schema/entities';
 import { isPublic } from '../schema/source';
 import { fixtureResults } from '../testing';
 import { buildDataset } from './dataset';
@@ -22,6 +30,9 @@ describe('buildDataset (fixtures)', () => {
     for (const t of dataset.tunes) Tune.parse(t);
     for (const l of dataset.lapTimes) LapTime.parse(l);
     for (const e of dataset.customEvents) CustomEvent.parse(e);
+    for (const m of dataset.meta) MetaRanking.parse(m);
+    for (const s of dataset.seasons) PlaylistSeason.parse(s);
+    for (const e of dataset.events) PlaylistEvent.parse(e);
   });
 
   it('only creates cars from the master list', () =>
@@ -49,4 +60,14 @@ describe('buildDataset (fixtures)', () => {
     const observed = publicOnly.tunes.flatMap((t) => t.observations.map((o) => o.sourceId));
     expect(observed.every((id) => publicIds.has(id))).toBe(true);
   });
+
+  it('interprets almost every playlist requirement', () => {
+    const carEvents = dataset.events.filter((e) => e.requirement.status !== 'no-car');
+    const unparsed = carEvents.filter((e) => e.requirement.status === 'unparsed');
+    expect(carEvents.length).toBeGreaterThan(100);
+    expect(unparsed.length / carEvents.length).toBeLessThan(0.05);
+  });
+
+  it('knows the live season', () =>
+    expect(dataset.seasons.filter((s) => s.current)).toHaveLength(1));
 });

@@ -12,11 +12,26 @@ import {
   parseDrivetrain,
   parseInteger,
   parseLapTime,
+  parseRole,
   parseShareCode,
+  parseTier,
   parseTires,
 } from '../normalize/fields';
+import { buildSeasons, eventCategory, eventId, parseSeasonLabel } from '../normalize/playlist';
+import { parseRoute, RequirementParser } from '../normalize/requirement';
 import { TunerRegistry, type TunerIdentity } from '../normalize/tuners';
-import type { Car, CustomEvent, LapTime, ReviewItem, Tune, Tuner } from '../schema/entities';
+import { CAR_CLASSES } from '../schema/enums';
+import type {
+  Car,
+  CustomEvent,
+  LapTime,
+  MetaRanking,
+  PlaylistEvent,
+  PlaylistSeason,
+  ReviewItem,
+  Tune,
+  Tuner,
+} from '../schema/entities';
 import type { SourceDef } from '../schema/source';
 
 export interface SourceResult {
@@ -30,8 +45,13 @@ export interface Dataset {
   tunes: Tune[];
   lapTimes: LapTime[];
   customEvents: CustomEvent[];
+  meta: MetaRanking[];
+  seasons: PlaylistSeason[];
+  events: PlaylistEvent[];
   review: ReviewItem[];
 }
+
+const CLASS_ORDER = new Map<string, number>(CAR_CLASSES.map((c, i) => [c, i]));
 
 class ReviewCollector {
   private readonly items = new Map<string, ReviewItem>();
@@ -278,6 +298,94 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     .flatMap(({ source, output }) => output.customEvents.map((e) => toCustomEvent(source.id, e)))
     .sort((a, b) => a.id.localeCompare(b.id));
 
+  // --- meta rankings -----------------------------------------------------------------------
+  const meta: MetaRanking[] = [];
+  for (const { source, output } of ordered) {
+    for (const m of output.meta) {
+      const tier = parseTier(m.tier);
+      if (!tier) continue; // e.g. Noa's 未知: listed but not rated yet
+      const carId = resolveCar(source.id, m.car);
+      if (!carId) continue;
+      const tires = parseTires(m.tires);
+      if (tires === 'other') review.add('unknown-value', source.id, `tires: ${m.tires}`);
+      meta.push({
+        sourceId: source.id,
+        tab: m.tab,
+        row: m.row,
+        class: m.carClass,
+        surface: m.surface,
+        carId,
+        tier,
+        rank: m.rank,
+        drivetrain: parseDrivetrain(m.drivetrain),
+        difficulty: parseDifficulty(m.difficulty),
+        tires: tires === 'other' ? undefined : tires,
+        role: parseRole(m.role),
+        tunerIds: [
+          ...new Set(
+            m.tuners.flatMap((name) => {
+              const identity = identifyTuner(name);
+              return identity ? [identity.id] : [];
+            }),
+          ),
+        ],
+        shareCode: parseShareCode(m.shareCode),
+        notes: cleanText(m.notes) || undefined,
+      });
+    }
+  }
+  meta.sort(
+    (a, b) =>
+      a.sourceId.localeCompare(b.sourceId) ||
+      (CLASS_ORDER.get(a.class) ?? 0) - (CLASS_ORDER.get(b.class) ?? 0) ||
+      a.surface.localeCompare(b.surface) ||
+      a.rank - b.rank,
+  );
+
+  // --- festival playlist -------------------------------------------------------------------
+  const requirements = new RequirementParser(cars, resolver);
+  const seasons: PlaylistSeason[] = [];
+  const events: PlaylistEvent[] = [];
+  for (const { source, output } of ordered) {
+    for (const playlist of output.playlists) {
+      seasons.push(...buildSeasons(playlist));
+      const seen = new Map<string, number>();
+      for (const row of playlist.rows) {
+        const label = parseSeasonLabel(row.seasonLabel);
+        if (!label) {
+          review.add('unknown-value', source.id, `season: ${row.seasonLabel}`);
+          continue;
+        }
+        const requirement = requirements.parse(row.type, row.requirement);
+        if (requirement.status === 'unparsed') {
+          review.add('unparsed-requirement', source.id, `${row.type}: ${row.requirement}`);
+        }
+        const route = parseRoute(row.type, row.route);
+        const baseId = eventId(label.id, row.type, row.name);
+        const n = (seen.get(baseId) ?? 0) + 1;
+        seen.set(baseId, n);
+        const points = /^(\d+)\s*pts$/i.exec(row.requirement.trim());
+        events.push({
+          id: n > 1 ? `${baseId}-${n}` : baseId,
+          seasonId: label.id,
+          seriesId: label.seriesId,
+          type: row.type,
+          category: eventCategory(row.type),
+          name: row.name,
+          reward: row.reward || undefined,
+          requirementRaw: row.requirement,
+          requirement,
+          routeRaw: row.route,
+          routes: route.routes,
+          surface: route.surface,
+          discipline: route.discipline,
+          points: points ? Number(points[1]) : undefined,
+          row: row.row,
+        });
+      }
+    }
+  }
+
   // --- tuners ------------------------------------------------------------------------------
   const tuneCount = new Map<string, number>();
   for (const t of tunes.values()) tuneCount.set(t.tunerId, (tuneCount.get(t.tunerId) ?? 0) + 1);
@@ -297,6 +405,9 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     tunes: [...tunes.values()].sort((a, b) => a.id.localeCompare(b.id)),
     lapTimes,
     customEvents,
+    meta,
+    seasons,
+    events,
     review: review.list(),
   };
 }
@@ -309,6 +420,7 @@ export interface DatasetStats {
   codedTunes: number;
   tuners: number;
   lapTimes: number;
+  metaRankings: number;
   unmatchedCarNames: number;
   unmatchedCarRows: number;
 }
@@ -323,6 +435,7 @@ export function datasetStats(d: Dataset): DatasetStats {
     codedTunes: d.tunes.filter((t) => t.shareCode).length,
     tuners: d.tuners.length,
     lapTimes: d.lapTimes.length,
+    metaRankings: d.meta.length,
     unmatchedCarNames: unmatched.length,
     unmatchedCarRows: unmatched.reduce((n, r) => n + r.count, 0),
   };

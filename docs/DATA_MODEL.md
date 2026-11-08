@@ -129,8 +129,10 @@ erDiagram
 
 ### MetaRanking
 ```ts
-{ sourceId: string; class: CarClass; surface: Surface; carId: string; tier: Tier; rank: number;
-  drivetrain?: Drivetrain; difficulty?: Difficulty; tunerId?: string; shareCode?: string; observedAt: string }
+{ sourceId: string; tab: string; row: number; class: CarClass; surface: Surface; carId: string; tier: Tier;
+  rank: number; drivetrain?: Drivetrain; difficulty?: Difficulty; tires?: TireCompound;
+  role?: "allround" | "power" | "handling"; tunerIds: string[] /* tunadores recomendados */;
+  shareCode?: string; notes?: string }
 ```
 
 ### LapTime
@@ -221,14 +223,16 @@ O mesmo conjunto de arquivos existe em dois lugares: `data/generated/` (público
 | `laptimes.json` | Tempos de volta | Curadoria, páginas de carro | ✅ |
 | `custom-events.json` | Eventos da comunidade | Módulo M13 | ✅ |
 | `sources-status.json` | Saúde de cada fonte | Página `/status`, alertas | ✅ |
-| `meta/<source-id>.json` | Rankings de meta por fonte | Tabela de meta, curadoria | ⏳ Fase 1 |
-| `playlist/seasons.json`, `playlist/<season-id>.json` | Temporadas e seus eventos | Página da playlist | ⏳ Fase 1 |
-| `suggestions/<season-id>.json` | Sugestões por evento (regras + IA mescladas) | Página da playlist | ⏳ Fase 1 |
+| `meta/<source-id>.json` | Rankings de meta por fonte | Tabela de meta, curadoria | ✅ |
+| `playlist/seasons.json` | Temporadas (ordem, datas, qual está ao vivo) | Página da playlist | ✅ |
+| `playlist/events/<season-id>.json` | Eventos de uma temporada (ou `s07.json` para linhas de série inteira) | Página da playlist | ✅ |
+| `playlist/suggestions/<season-id>.json` | Sugestões por evento (hoje só por regras) | Página da playlist | ✅ |
 | `base-events.json` | Eventos-base com sugestões | Módulo M11 | ⏳ Fase 2 |
-| `changelog/<AAAA-MM>.json` | Mudanças do mês | Início, páginas de mudanças | ⏳ Fase 1 |
+| `changelog/<AAAA-MM>.json` | Mudanças do mês | Início | ✅ |
 
 Filas de revisão (`data/review/` e `.cache/preview/review/`):
 - `unmatched-cars.json`: nomes de carro que não casaram com a lista mestre;
+- `unparsed-requirements.json`: restrições da playlist que o interpretador não entendeu;
 - `unknown-values.json`: pneus desconhecidos, tempos ilegíveis, share code ligado a dois carros diferentes.
 
 Snapshots ("último dado bom", um por fonte): `data/snapshots/<source-id>.json` (fontes públicas) e `.cache/preview/snapshots/` (demais).

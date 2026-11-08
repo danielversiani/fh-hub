@@ -23,18 +23,31 @@ async function respectRateLimit(url: string): Promise<void> {
   lastRequestAt.set(host, Date.now());
 }
 
+export interface FetchResult {
+  bytes: Buffer;
+  /** `set-cookie` headers of the response (used by the QQ Docs session). */
+  setCookies: string[];
+}
+
 /** GET with an identifiable User-Agent, per-host rate limit and retries on transient errors. */
-export async function fetchBytes(url: string, retries = 2): Promise<Buffer> {
+export async function fetchResponse(
+  url: string,
+  options: { headers?: Record<string, string>; retries?: number } = {},
+): Promise<FetchResult> {
+  const retries = options.retries ?? 2;
   for (let attempt = 0; ; attempt++) {
     await respectRateLimit(url);
     try {
       const response = await fetch(url, {
-        headers: { 'user-agent': USER_AGENT },
+        headers: { 'user-agent': USER_AGENT, ...options.headers },
         redirect: 'follow',
         signal: AbortSignal.timeout(TIMEOUT_MS),
       });
       if (!response.ok) throw new HttpError(response.status, url);
-      return Buffer.from(await response.arrayBuffer());
+      return {
+        bytes: Buffer.from(await response.arrayBuffer()),
+        setCookies: response.headers.getSetCookie(),
+      };
     } catch (error) {
       const transient =
         !(error instanceof HttpError) || error.status >= 500 || error.status === 429;
@@ -42,6 +55,10 @@ export async function fetchBytes(url: string, retries = 2): Promise<Buffer> {
       await sleep(2000 * (attempt + 1));
     }
   }
+}
+
+export async function fetchBytes(url: string, retries = 2): Promise<Buffer> {
+  return (await fetchResponse(url, { retries })).bytes;
 }
 
 export const fetchText = async (url: string): Promise<string> =>

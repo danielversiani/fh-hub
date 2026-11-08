@@ -1,0 +1,523 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s01-spring--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 15,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "15 pts",
+      "reward": "Car: 1996 Toyota Starlet Glanza V",
+      "routeRaw": "",
+      "routes": [],
+      "row": 66,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s01-spring--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 30,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "30 pts",
+      "reward": "Car: 1974 Toyota Corolla SR5",
+      "routeRaw": "",
+      "routes": [],
+      "row": 67,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s01-spring--weekly-challenge--guts-glory-ram",
+      "name": "Guts. Glory. Ram.",
+      "requirement": {
+        "activities": [
+          "Danger Signs",
+          "Wreckage",
+          "Cross Country Race"
+        ],
+        "carIds": [
+          "2024-ram-1500-trx"
+        ],
+        "scope": "car",
+        "scopeLabel": "2024 Ram 1500 TRX",
+        "status": "parsed"
+      },
+      "requirementRaw": "2024 Ram 1500 TRX; Danger Signs; Wreckage; Cross Country Race",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 68,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-spring--daily-challenge--time-to-focus",
+      "name": "Time to Focus",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Win a Road Race in the 2022 Ford Focus ST",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 69,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-spring--daily-challenge--lay-of-the-land",
+      "name": "Lay of the Land",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Drive 5.0 mi in any Offroad vehicle",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 70,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-spring--daily-challenge--community-made",
+      "name": "Community Made",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Play an EventLab Event",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 71,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-spring--daily-challenge--money-pit",
+      "name": "Money Pit",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Spend 10,000 credits on upgrades on any Japanese car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 72,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-spring--daily-challenge--group-photo",
+      "name": "Group Photo",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of your car at the Festival Car Meet",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 73,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-spring--daily-challenge--sushi-roll",
+      "name": "Sushi Roll",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn a Barrel Roll Skill",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 74,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-spring--daily-challenge--lucky-dip",
+      "name": "Lucky Dip",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Redem a Wheelspin or Super Wheelspin",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 75,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s01-spring--photo-challenge--astrotoy",
+      "name": "#AstroToy",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of any Track Toy at the Space Port",
+      "reward": "QuickChat: Beam me up!",
+      "routeRaw": "",
+      "routes": [],
+      "row": 76,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s01-spring--treasure-hunt--tokyo-city-region",
+      "name": "Tokyo City Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 77,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "id": "s01-spring--championship--hitting-the-highway",
+      "name": "Hitting the Highway",
+      "requirement": {
+        "carIds": [
+          "2006-dodge-ram-srt-10",
+          "2009-chevrolet-corvette-zr1",
+          "2013-ford-mustang-shelby-gt500",
+          "2013-srt-viper-gts",
+          "2014-hsv-gen-f-gts",
+          "2015-chevrolet-corvette-z06",
+          "2015-dodge-challenger-srt-hellcat",
+          "2015-dodge-charger-srt-hellcat",
+          "2016-cadillac-ats-v",
+          "2016-cadillac-cts-v-sedan",
+          "2017-chevrolet-camaro-zl1",
+          "2018-deberti-ford-mustang-gt",
+          "2018-dodge-challenger-srt-demon",
+          "2018-ford-mustang-rtr-spec-5",
+          "2020-ford-mustang-shelby-gt500",
+          "2022-cadillac-ct4-v-blackwing",
+          "2022-cadillac-ct5-v-blackwing",
+          "2022-dodge-challenger-srt-super-stock",
+          "2023-dodge-challenger-srt-demon-170",
+          "2024-chevrolet-camaro-zl1",
+          "2024-ford-mustang-dark-horse",
+          "2024-ford-mustang-gt"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Modern Muscle",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Muscle - A Class",
+      "reward": "Car: 1994 Ferrari F355 Berlinetta",
+      "routeRaw": "Road: Highway Circuit, Irokawa Circuit, Shimanoyama Sprint",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Highway Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Irokawa Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Shimanoyama Sprint"
+        }
+      ],
+      "row": 78,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s01-spring--championship--instant-classic",
+      "name": "Instant Classic",
+      "requirement": {
+        "carIds": [
+          "1953-chevrolet-corvette",
+          "1960-chevrolet-corvette",
+          "1965-austin-healey-3000-mkiii",
+          "1965-toyota-sports-800",
+          "1965-toyota-sports-800-fanta-edition",
+          "1969-datsun-2000-roadster",
+          "1969-nissan-fairlady-z-432",
+          "1970-datsun-510",
+          "1971-nissan-skyline-2000gt-r",
+          "1972-mazda-cosmo-110s-series-ii",
+          "1973-bmw-2002-turbo",
+          "1973-ford-capri-rs3100",
+          "1973-mazda-rx-3",
+          "1973-mazda-rx-3-forza-edition",
+          "1973-nissan-skyline-h-t-2000gt-r",
+          "1974-toyota-celica-gt",
+          "1974-toyota-corolla-sr5"
+        ],
+        "class": "C",
+        "scope": "car-type",
+        "scopeLabel": "Classic Sports Cars",
+        "status": "parsed"
+      },
+      "requirementRaw": "Classic Sports Cars - C Class",
+      "reward": "Car: 2004 Maserati MC12",
+      "routeRaw": "Street: Okishinaimura Run, Sunflower Charge, Cedar Run",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Okishinaimura Run"
+        },
+        {
+          "discipline": "street",
+          "name": "Sunflower Charge"
+        },
+        {
+          "discipline": "street",
+          "name": "Cedar Run"
+        }
+      ],
+      "row": 79,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "id": "s01-spring--championship--spring-into-action",
+      "name": "Spring into Action",
+      "requirement": {
+        "carIds": [
+          "1970-gmc-jimmy",
+          "1972-chevrolet-k-10-custom",
+          "1979-toyota-fj40",
+          "1985-nissan-safari-turbo",
+          "1986-ford-f-150-xlt-lariat",
+          "1991-gmc-syclone",
+          "1995-mitsubishi-montero-exceed-2800-td",
+          "1997-mitsubishi-montero-evolution",
+          "2003-ford-f-150-svt-lightning",
+          "2012-jeep-wrangler-rubicon",
+          "2013-mercedes-benz-g-65-amg",
+          "2014-mercedes-benz-g-63-amg-6x6",
+          "2016-toyota-land-cruiser-arctic-trucks-at37",
+          "2018-mercedes-benz-x-class",
+          "2019-hennessey-ford-f-150-velociraptor-6x6",
+          "2019-toyota-4runner-trd-pro",
+          "2019-toyota-tacoma-trd-pro",
+          "2020-chevrolet-silverado-lt-trail-boss",
+          "2020-ford-super-duty-f-450-drw-platinum",
+          "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+          "2020-jeep-jt",
+          "2022-ford-bronco-raptor",
+          "2022-ford-f-150-lightning",
+          "2022-gmc-hummer-ev-pickup",
+          "2022-rivian-r1t",
+          "2023-ford-f-150-raptor-r",
+          "2023-ford-f-150-raptor-r-welcome-pack",
+          "2024-ram-1500-trx"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Pickups & 4x4's",
+        "status": "parsed"
+      },
+      "requirementRaw": "Pickups & 4x4's - B Class",
+      "reward": "Car: 2021 MINI John Cooper Works GP",
+      "routeRaw": "Cross Country: Ruriko-ji Cross Country, Soni Highlands Cross Country, Temple Cross Country",
+      "routes": [
+        {
+          "name": "Ruriko-ji Cross Country"
+        },
+        {
+          "name": "Soni Highlands Cross Country"
+        },
+        {
+          "name": "Temple Cross Country"
+        }
+      ],
+      "row": 80,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": "cross-country",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "time-attack",
+      "id": "s01-spring--horizon-life-time-attack--soni-time-attack",
+      "name": "Soni Time Attack",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "55.000 seconds",
+          "unit": "s",
+          "value": 55
+        }
+      },
+      "requirementRaw": "Japan - A Class - 55.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 81,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Horizon Life - Time Attack"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s01-spring--pr-stunt-speed-trap--shibuya-crossing",
+      "name": "Shibuya Crossing",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "160.0 mph",
+          "unit": "mph",
+          "value": 160
+        }
+      },
+      "requirementRaw": "Japan - A Class - 160.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 82,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "drift",
+      "id": "s01-spring--pr-stunt-drift-zone--seaside-trail",
+      "name": "Seaside Trail",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed"
+      },
+      "requirementRaw": "Japan - A Class - 85,000 pts",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 83,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Drift Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "trailblazer",
+      "id": "s01-spring--pr-stunt-trailblazer--coastal-descent",
+      "name": "Coastal Descent",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "38 seconds",
+          "unit": "s",
+          "value": 38
+        }
+      },
+      "requirementRaw": "Japan - A Class - 38 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 84,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": "cross-country",
+      "type": "PR Stunt - Trailblazer"
+    },
+    {
+      "category": "online",
+      "id": "s01-spring--horizon-play-spec-racing--spec-tacular-driving",
+      "name": "Spec-tacular Driving!",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Ultimate Clean Racing Skills in Spec Racing",
+      "reward": "Car: 2017 Saleen S7 LM",
+      "routeRaw": "",
+      "routes": [],
+      "row": 85,
+      "seasonId": "s01-spring",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Horizon Play - Spec Racing"
+    }
+  ],
+  "schemaVersion": 1
+}

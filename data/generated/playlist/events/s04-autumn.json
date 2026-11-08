@@ -1,0 +1,533 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s04-autumn--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 2024 Chevrolet Camaro ZL1",
+      "routeRaw": "",
+      "routes": [],
+      "row": 284,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s04-autumn--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 2016 Abarth 695 Biposto",
+      "routeRaw": "",
+      "routes": [],
+      "row": 285,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s04-autumn--weekly-challenge--hot-hatch-a-tea",
+      "name": "Hot Hatch-a Tea",
+      "requirement": {
+        "activities": [
+          "Speed Skills",
+          "Street Race",
+          "Time Attack"
+        ],
+        "carIds": [
+          "2021-hyundai-i20-n"
+        ],
+        "scope": "car",
+        "scopeLabel": "2021 Hyundai i20N",
+        "status": "parsed"
+      },
+      "requirementRaw": "2021 Hyundai i20N; Speed Skills; Street Race; Time Attack",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 286,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-autumn--daily-challenge--gift-drop",
+      "name": "Gift Drop",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Send a Gift Drop to another player",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 287,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-autumn--daily-challenge--time-attack",
+      "name": "Time Attack",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete 3 laps of any Time Attack circuit",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 288,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-autumn--daily-challenge--skill-chain",
+      "name": "Skill Chain",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Bank a 10,000 point Skill Chain",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 289,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-autumn--daily-challenge--cross-country-race",
+      "name": "Cross Country Race",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Cross Country Race",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 290,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-autumn--daily-challenge--wreckage-skills",
+      "name": "Wreckage Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Wreckage Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 291,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-autumn--daily-challenge--danger-sign",
+      "name": "Danger Sign",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn at least 1 Star from Danger Signs",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 292,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-autumn--daily-challenge--speed-skills",
+      "name": "Speed Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Speed Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 293,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s04-autumn--photo-challenge--deliciousdango",
+      "name": "#DeliciousDango",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of your character in the Mascot Party's Dango area",
+      "reward": "Clothing: Dango Outfit",
+      "routeRaw": "",
+      "routes": [],
+      "row": 294,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "other",
+      "id": "s04-autumn--collectibles--homerun",
+      "name": "Homerun",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Smash 15 Shimanoyama Heat mascots at the stadium",
+      "reward": "Super Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 295,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Collectibles"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s04-autumn--championship--all-wheel-domination",
+      "name": "All Wheel Domination",
+      "requirement": {
+        "class": "B",
+        "drivetrain": "AWD",
+        "note": "stock drivetrain is not in the official roster; check eligibility in game",
+        "scope": "drivetrain",
+        "scopeLabel": "Total AWD",
+        "status": "partial"
+      },
+      "requirementRaw": "Total AWD - B Class",
+      "reward": "Car: 2020 Jimco #179 Hammerhead Class 1",
+      "routeRaw": "Cross Country: Naruo Cross Country Circuit, Wind Farm Cross Country, Takashiro Cross Country",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Naruo Cross Country Circuit"
+        },
+        {
+          "name": "Wind Farm Cross Country"
+        },
+        {
+          "name": "Takashiro Cross Country"
+        }
+      ],
+      "row": 296,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": "cross-country",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s04-autumn--championship--scenic-nights",
+      "name": "Scenic Nights",
+      "requirement": {
+        "carIds": [
+          "2007-honda-civic-type-r",
+          "2008-renault-megane-r26-r",
+          "2010-mazda-mazdaspeed-3",
+          "2011-alfa-romeo-giulietta-quadrifoglio-verde",
+          "2011-volkswagen-scirocco-r",
+          "2012-mini-john-cooper-works-gp",
+          "2015-audi-s1",
+          "2016-abarth-695-biposto",
+          "2021-hyundai-i20-n",
+          "2022-ford-focus-st",
+          "2022-honda-e",
+          "2022-wuling-hongguang-mini-ev",
+          "2023-acura-integra-a-spec",
+          "2023-ford-fiesta-st",
+          "2024-toyota-prius-prime-xse-premium"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Hot Hatch",
+        "status": "parsed"
+      },
+      "requirementRaw": "Hot Hatch - B Class",
+      "reward": "Car: 2021 Hyundai i20N",
+      "routeRaw": "Street: Okishinaimura Run, Hokubu Ascent, Sunflower Charge",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Okishinaimura Run"
+        },
+        {
+          "discipline": "street",
+          "name": "Hokubu Ascent"
+        },
+        {
+          "discipline": "street",
+          "name": "Sunflower Charge"
+        }
+      ],
+      "row": 297,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s04-autumn--pr-stunt-speed-zone--arashiyama-run",
+      "name": "Arashiyama Run",
+      "requirement": {
+        "carIds": [
+          "2018-can-am-maverick-x-rs-turbo-r",
+          "2021-polaris-rzr-pro-xp-factory-racing-limited-edition",
+          "2021-polaris-rzr-pro-xp-ultimate",
+          "2021-sierra-cars-700r",
+          "2021-sierra-cars-rx3"
+        ],
+        "class": "C",
+        "scope": "car-type",
+        "scopeLabel": "UTV's",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "85.0 mph",
+          "unit": "mph",
+          "value": 85
+        }
+      },
+      "requirementRaw": "UTV's - C Class - 85.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 298,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s04-autumn--pr-stunt-speed-zone--festival-loop",
+      "name": "Festival Loop",
+      "requirement": {
+        "carIds": [
+          "2018-can-am-maverick-x-rs-turbo-r",
+          "2021-polaris-rzr-pro-xp-factory-racing-limited-edition",
+          "2021-polaris-rzr-pro-xp-ultimate",
+          "2021-sierra-cars-700r",
+          "2021-sierra-cars-rx3"
+        ],
+        "class": "C",
+        "scope": "car-type",
+        "scopeLabel": "UTV's",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "70.0 mph",
+          "unit": "mph",
+          "value": 70
+        }
+      },
+      "requirementRaw": "UTV's - C Class - 70.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 299,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "trailblazer",
+      "id": "s04-autumn--pr-stunt-trailblazer--on-par",
+      "name": "On Par",
+      "requirement": {
+        "carIds": [
+          "2018-can-am-maverick-x-rs-turbo-r",
+          "2021-polaris-rzr-pro-xp-factory-racing-limited-edition",
+          "2021-polaris-rzr-pro-xp-ultimate",
+          "2021-sierra-cars-700r",
+          "2021-sierra-cars-rx3"
+        ],
+        "class": "C",
+        "scope": "car-type",
+        "scopeLabel": "UTV's",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "33 seconds",
+          "unit": "s",
+          "value": 33
+        }
+      },
+      "requirementRaw": "UTV's - C Class - 33 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 300,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": "cross-country",
+      "type": "PR Stunt - Trailblazer"
+    },
+    {
+      "category": "trial",
+      "id": "s04-autumn--horizon-life-the-trial--fun-fair",
+      "name": "Fun Fair",
+      "requirement": {
+        "carIds": [
+          "2003-honda-s2000",
+          "2008-bmw-z4-m-coupe",
+          "2010-audi-tt-rs-coupe",
+          "2010-nissan-370z",
+          "2011-mazda-rx-8-r3",
+          "2013-mazda-mx-5",
+          "2013-subaru-brz",
+          "2013-toyota-86",
+          "2014-alfa-romeo-4c",
+          "2015-bmw-i8",
+          "2016-mazda-mx-5",
+          "2017-abarth-124-spider",
+          "2018-porsche-718-cayman-gts",
+          "2018-tvr-griffith",
+          "2019-bmw-z4-roadster",
+          "2019-nissan-370z-nismo",
+          "2019-porsche-911-carrera-s",
+          "2020-mercedes-amg-slc-43-final-edition",
+          "2020-toyota-gr-supra",
+          "2022-mazda-mx-5-miata-rf",
+          "2022-subaru-brz",
+          "2022-toyota-gr86",
+          "2023-lotus-emira",
+          "2024-nissan-z-nismo"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Modern Sports Cars",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Sports Cars - A Class",
+      "reward": "Car: 1969 Datsun 2000 Roadster",
+      "routeRaw": "Road: Coastline Sprint, Edamame Circuit, Festival Sprint",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Coastline Sprint"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Edamame Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Festival Sprint"
+        }
+      ],
+      "row": 301,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s04-autumn--horizon-play-spec-racing--squeaky-clean",
+      "name": "Squeaky Clean",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 LINK Clean Start skills in Spec Racing",
+      "reward": "Car: 2017 Mazda MX-5 Cup",
+      "routeRaw": "",
+      "routes": [],
+      "row": 302,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Horizon Play - Spec Racing"
+    },
+    {
+      "category": "online",
+      "id": "s04-autumn--horizon-play-hide-and-seek--5-vs-1",
+      "name": "5 VS 1",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a game of Hide & Seek",
+      "reward": "QuickChat: Their vision is based on movement",
+      "routeRaw": "",
+      "routes": [],
+      "row": 303,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Horizon Play - Hide & Seek"
+    },
+    {
+      "category": "online",
+      "id": "s04-autumn--horizon-play-horizon-stunt-party--mini-games",
+      "name": "Mini Games",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete any Horizon Stunt Party",
+      "reward": "Clothing: Green Gingham Relaxed Shirt",
+      "routeRaw": "",
+      "routes": [],
+      "row": 304,
+      "seasonId": "s04-autumn",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Horizon Play - Horizon Stunt Party"
+    }
+  ],
+  "schemaVersion": 1
+}

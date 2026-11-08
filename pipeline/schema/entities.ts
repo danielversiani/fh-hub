@@ -2,13 +2,17 @@ import { z } from 'zod';
 import {
   BuildTag,
   CarClass,
+  Category,
   Difficulty,
+  Discipline,
   Drivetrain,
   Permission,
+  Season,
   Slug,
   SourceHealth,
   Surface,
   TireCompound,
+  Tier,
 } from './enums';
 
 export const SCHEMA_VERSION = 1;
@@ -64,6 +68,11 @@ export const Tune = z.object({
   notes: z.string().optional(),
   createdAt: z.iso.date().optional(),
   observations: z.array(Observation).min(1),
+  /** Curation (docs/CURATION.md): 0–1 score in the tune's own class × surface. */
+  score: z.number().min(0).max(1).optional(),
+  /** Share of signal weight that had data (0–1). */
+  confidence: z.number().min(0).max(1).optional(),
+  categories: z.array(Category).optional(),
 });
 export type Tune = z.infer<typeof Tune>;
 
@@ -78,6 +87,8 @@ export const TuneIndexEntry = Tune.pick({
   surface: true,
   drivetrain: true,
   buildTags: true,
+  score: true,
+  categories: true,
 }).extend({ sourceIds: z.array(Slug).min(1) });
 export type TuneIndexEntry = z.infer<typeof TuneIndexEntry>;
 
@@ -128,6 +139,148 @@ export const CustomEvent = z.object({
 });
 export type CustomEvent = z.infer<typeof CustomEvent>;
 
+/** One car in a meta ranking for a class × surface (e.g. Noa Miyako's "S1 800 Road"). */
+export const MetaRanking = z.object({
+  sourceId: Slug,
+  tab: Slug,
+  row: z.number().int().positive(),
+  class: CarClass,
+  surface: Surface,
+  carId: Slug,
+  tier: Tier,
+  /** Position inside the ranking (1 = best). */
+  rank: z.number().int().positive(),
+  drivetrain: Drivetrain.optional(),
+  difficulty: Difficulty.optional(),
+  tires: TireCompound.optional(),
+  role: z.enum(['allround', 'power', 'handling']).optional(),
+  /** Tuners whose tune is recommended for this car (search by gamertag in game). */
+  tunerIds: z.array(Slug),
+  shareCode: ShareCode.optional(),
+  notes: z.string().optional(),
+});
+export type MetaRanking = z.infer<typeof MetaRanking>;
+
+export const PlaylistSeason = z.object({
+  /** "s07-summer" */
+  id: Slug,
+  seriesId: Slug,
+  series: z.number().int().positive(),
+  seriesName: z.string(),
+  season: Season,
+  /** Position in the official table (chronological). */
+  order: z.number().int().nonnegative(),
+  startsOn: z.iso.date().optional(),
+  endsOn: z.iso.date().optional(),
+  /** Only the live season's dates are stated by forza.net; the rest are computed (1 week each). */
+  datesDerived: z.boolean(),
+  current: z.boolean(),
+});
+export type PlaylistSeason = z.infer<typeof PlaylistSeason>;
+
+export const EventTarget = z.object({
+  kind: z.enum(['speed', 'distance', 'time', 'score']),
+  value: z.number(),
+  unit: z.enum(['mph', 'ft', 's', 'pts']),
+  raw: z.string(),
+});
+
+export const Requirement = z.object({
+  status: z.enum(['parsed', 'partial', 'unparsed', 'no-car']),
+  class: CarClass.optional(),
+  scope: z.enum([
+    'any',
+    'car',
+    'car-type',
+    'make',
+    'country',
+    'family',
+    'rarity',
+    'drivetrain',
+    'unknown',
+  ]),
+  scopeLabel: z.string().optional(),
+  decade: z.number().int().optional(),
+  drivetrain: Drivetrain.optional(),
+  carIds: z.array(Slug).optional(),
+  activities: z.array(z.string()).optional(),
+  target: EventTarget.optional(),
+  note: z.string().optional(),
+});
+export type Requirement = z.infer<typeof Requirement>;
+
+export const PlaylistEvent = z.object({
+  /** "<season id>--<type>--<name>" */
+  id: z.string(),
+  /** Season id, or the series id ("s07") for series-wide rows (series rewards, monthly rivals). */
+  seasonId: Slug,
+  seriesId: Slug,
+  type: z.string(),
+  category: z.enum([
+    'championship',
+    'trial',
+    'weekly-challenge',
+    'daily-challenge',
+    'pr-stunt',
+    'horizon-life',
+    'rivals',
+    'online',
+    'photo',
+    'treasure-hunt',
+    'reward',
+    'other',
+  ]),
+  name: z.string(),
+  reward: z.string().optional(),
+  requirementRaw: z.string(),
+  requirement: Requirement,
+  routeRaw: z.string(),
+  routes: z.array(z.object({ name: z.string(), discipline: Discipline.optional() })),
+  surface: Surface.nullable(),
+  discipline: Discipline.optional(),
+  /** Points shown for reward thresholds ("15 pts"). */
+  points: z.number().int().optional(),
+  row: z.number().int().positive(),
+});
+export type PlaylistEvent = z.infer<typeof PlaylistEvent>;
+
+/** One change between two syncs (DATA_MODEL: ChangeLogEntry). */
+export const ChangeLogEntry = z.object({
+  at: z.iso.datetime(),
+  sourceId: Slug.optional(),
+  kind: z.enum(['added', 'removed', 'tier-up', 'tier-down']),
+  entity: z.object({ type: z.enum(['tune', 'meta-ranking']), id: z.string() }),
+  carId: Slug,
+  class: CarClass.nullable(),
+  surface: Surface.nullable(),
+  before: z.string().optional(),
+  after: z.string().optional(),
+});
+export type ChangeLogEntry = z.infer<typeof ChangeLogEntry>;
+
+/** A tune suggested for a Festival Playlist event, in one category (docs/CURATION.md §5). */
+export const Suggestion = z.object({
+  eventId: z.string(),
+  seasonId: Slug,
+  category: Category,
+  tuneId: z.string(),
+  carId: Slug,
+  score: z.number().min(0).max(1),
+  confidence: z.number().min(0).max(1),
+  /** i18n keys (+ params) explaining the pick, shown on the site. */
+  reasons: z.array(
+    z.object({
+      key: z.string(),
+      params: z.record(z.string(), z.union([z.string(), z.number()])).optional(),
+    }),
+  ),
+  origin: z.enum(['rules', 'ai']),
+  /** No share code: find it in game by the tuner's gamertag. */
+  needsGamertagSearch: z.boolean().optional(),
+  commentary: z.object({ 'pt-br': z.string(), en: z.string() }).optional(),
+});
+export type Suggestion = z.infer<typeof Suggestion>;
+
 export const SourceStatus = z.object({
   id: Slug,
   name: z.string(),
@@ -143,7 +296,12 @@ export const SourceStatus = z.object({
 });
 export type SourceStatus = z.infer<typeof SourceStatus>;
 
-export const ReviewKind = z.enum(['unmatched-car', 'unmatched-tuner', 'unknown-value']);
+export const ReviewKind = z.enum([
+  'unmatched-car',
+  'unmatched-tuner',
+  'unknown-value',
+  'unparsed-requirement',
+]);
 export const ReviewItem = z.object({
   kind: ReviewKind,
   sourceId: Slug,

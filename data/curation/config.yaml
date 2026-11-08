@@ -1,0 +1,50 @@
+# Curation criteria (docs/CURATION.md). Every weight and threshold lives here, not in code:
+# changing a criterion = editing this file in a PR. Values are a STARTING POINT to be validated
+# by the product owner (CURATION.md §9).
+version: 1
+
+# Signal weights for the general score (car pages). Missing signals are left out and the
+# remaining weights are re-normalised, so a car without meta data is not punished for it.
+weights:
+  tier: 0.30
+  laptime: 0.15
+  endorsement: 0.25
+  tuner: 0.10
+  recency: 0.05
+  ease: 0.15
+
+# Weights for Festival Playlist suggestions (wide audience: favour easy-to-drive tunes).
+weightsPlaylist:
+  tier: 0.25
+  laptime: 0.10
+  endorsement: 0.20
+  tuner: 0.10
+  recency: 0.05
+  ease: 0.30
+
+thresholds:
+  # Below this confidence a tune cannot take the Meta slot ("poucos dados").
+  minConfidenceForMeta: 0.35
+  # Score from which a tune counts as Off-meta even without a tier.
+  offMetaMinScore: 0.6
+  # A tune whose tuner is not credited in the meta table keeps this share of the car's tier.
+  unlistedTunerTierFactor: 0.8
+
+categories:
+  metaTiers: [meta-plus, meta, t0.5]
+  offMetaTiers: [t1, t1.5, t2]
+  memeKeywords: [meme, fun, troll, joke, potato, funny]
+  # Car types that are a "meme" pick in fast asphalt events (S1 and above).
+  memeCarTypes: [Microcar, Vans & Utility, "Pickups & 4x4's", Buggies, Cult Cars]
+
+# Tuner reputation (0–1). Missing tuners count as 0.5 (neutral).
+tuners: {}
+
+# Prefer cars that can still be obtained (Autoshow/Wheelspin) in playlist suggestions.
+preferObtainable: true
+
+# Tunes created before this date lose the recency bonus (set after physics updates).
+lastPhysicsPatch: null
+
+# How many seasons before the live one get suggestions (older seasons are history only).
+pastSeasonsWithSuggestions: 4
