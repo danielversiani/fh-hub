@@ -10,6 +10,7 @@ export const DONATE_LINKS: {
 }[] = [
   { url: 'https://livepix.gg/danielversiani', label: 'donate.pix' },
   { url: 'https://livepix.gg/danielversiani/assinatura', label: 'donate.pixMonthly' },
+  { url: 'https://ko-fi.com/danielversiani', label: 'donate.kofi' },
 ];
 
 /** Notice required by Microsoft's Game Content Usage Rules (kept in English, as published). */
