@@ -1,0 +1,330 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1403b7affa",
+      "lapRefs": [
+        {
+          "time": "1:00.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 64,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 132,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4f98ccbd63",
+      "metaRank": 27,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 58,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-05",
+      "drivetrain": "AWD",
+      "id": "sc-155497381",
+      "metaRank": 64,
+      "name": "Cracked A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "05/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang RTR Spec 5",
+            "sharecode": "155 497 381",
+            "suspension": "Rally",
+            "tuneName": "Cracked A Road",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Rally"
+          },
+          "row": 982,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Ford Mustang RTR Spec 5",
+            "Comment": "",
+            "Design": "ADAM LZ DRIFT RTR",
+            "Designer": "bmxbandit199",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Cracked A Road",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 1571,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.671,
+      "shareCode": "155497381",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-13",
+      "drivetrain": "AWD",
+      "id": "sc-169107693",
+      "metaRank": 64,
+      "name": "A Road AWD VV10 Front Aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang RTR Spec 5",
+            "sharecode": "169 107 693",
+            "suspension": "Sport",
+            "tuneName": "A Road AWD VV10 Front Aero",
+            "tuner": "JakeGTR9",
+            "tyreCompound": "Rally"
+          },
+          "row": 979,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.586,
+      "shareCode": "169107693",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "jakegtr9"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-05",
+      "drivetrain": "AWD",
+      "id": "sc-359250236",
+      "metaRank": 27,
+      "name": "Dirt stock look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "05/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang RTR Spec 5",
+            "sharecode": "359 250 236",
+            "suspension": "Rally",
+            "tuneName": "Dirt stock look",
+            "tuner": "CTE mag",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 978,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.545,
+      "shareCode": "359250236",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "cte-mag"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-09",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-359857386",
+      "lapRefs": [
+        {
+          "time": "1:00.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 64,
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang RTR Spec 5",
+            "sharecode": "359 857 386",
+            "suspension": "Sport",
+            "tuneName": "A Road - Strong Allround",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 980,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.635,
+      "shareCode": "359857386",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-11",
+      "drivetrain": "RWD",
+      "id": "sc-604682988",
+      "metaRank": 64,
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ford",
+            "model": "Mustang RTR Spec 5",
+            "sharecode": "604 682 988",
+            "suspension": "Sport",
+            "tuneName": "Road Purist",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 981,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Ford Mustang RTR Spec 5",
+            "Comment": "Purist",
+            "Design": "GITTIN RTR",
+            "Designer": "Wombi 62",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1572,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "604682988",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,585 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-0add285787",
+      "metaRank": 1,
+      "name": "Slick Tire Ver1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Mazda Furai",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Slick Tire Ver1",
+            "Tuner": "nyasmowisher",
+            "fill": "FF0070C0"
+          },
+          "row": 2168,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "nyasmowisher"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-40fc367eed",
+      "metaNotes": "东京铁道世界纪录 加速非常快 弯速也不错",
+      "metaNotesI18n": {
+        "en": "World record at Tokyo Railway. Very fast acceleration and good cornering speed.",
+        "pt-br": "Recorde mundial no Tokyo Railway. Acelera muito e faz curva bem."
+      },
+      "metaRank": 2,
+      "name": "S2 Handling Meta (36.7 Narai)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Mazda Furai",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Handling Meta (36.7 Narai)",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF0070C0"
+          },
+          "row": 2166,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-69815bd844",
+      "lapRefs": [
+        {
+          "time": "58.2",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 58.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 11,
+      "name": "R road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "r-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7027e46016",
+      "lapRefs": [
+        {
+          "time": "47.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川47.2 灵活四驱操控车",
+      "metaNotesI18n": {
+        "en": "Nimble AWD handling car.",
+        "pt-br": "Tração integral ágil, voltada para curvas."
+      },
+      "metaRank": 1,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-be447642e7",
+      "lapRefs": [
+        {
+          "time": "47.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川47.2 灵活四驱操控车",
+      "metaNotesI18n": {
+        "en": "Nimble AWD handling car.",
+        "pt-br": "Tração integral ágil, voltada para curvas."
+      },
+      "metaRank": 1,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-cf5356f0d9",
+      "lapRefs": [
+        {
+          "time": "58.2",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 58.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 11,
+      "name": "R road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "r-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-db3bec215c",
+      "metaRank": 1,
+      "name": "New V6 All Around Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Mazda Furai",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "New V6 All Around Meta",
+            "Tuner": "DRX Q3",
+            "fill": "FF0070C0"
+          },
+          "row": 2164,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-e9d1c94542",
+      "metaRank": 1,
+      "name": "New S2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Mazda Furai",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "New S2",
+            "Tuner": "ESV Mars",
+            "fill": "FF0070C0"
+          },
+          "row": 2165,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "esv-mars"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f928ba8dec",
+      "metaRank": 1,
+      "name": "S2 Circuit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Mazda Furai",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Circuit",
+            "Tuner": "Nalak28",
+            "fill": "FF0070C0"
+          },
+          "row": 2167,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "sc-118867198",
+      "metaRank": 1,
+      "name": "S2 Meta",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Make": "Mazda",
+            "Model": "Furai",
+            "Road Surface": "Road",
+            "Share Code": "118867198",
+            "Tires": "Slicks",
+            "Tune Name": "S2 Meta",
+            "Year": "2008"
+          },
+          "row": 44,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "118867198",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-06-09",
+      "drivetrain": "AWD",
+      "id": "sc-364887481",
+      "metaRank": 1,
+      "name": "Slick Tire V3",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "09/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Furai",
+            "sharecode": "364 887 481",
+            "suspension": "Race",
+            "tuneName": "Slick Tire V3",
+            "tuner": "nyasmowisher",
+            "tyreCompound": "Slick"
+          },
+          "row": 1574,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.685,
+      "shareCode": "364887481",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "nyasmowisher"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-635500885",
+      "metaRank": 1,
+      "name": "S2 AWD Handling Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Furai",
+            "sharecode": "635 500 885",
+            "suspension": "Race",
+            "tuneName": "S2 AWD Handling Meta",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Slick"
+          },
+          "row": 1575,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2008 Mazda Furai",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 AWD Handling Meta",
+            "Tuner": "zombiejesus52",
+            "fill": "FF0070C0"
+          },
+          "row": 2169,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.769,
+      "shareCode": "635500885",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-816219600",
+      "metaNotes": "东京铁道世界纪录 加速非常快 弯速也不错",
+      "metaNotesI18n": {
+        "en": "World record at Tokyo Railway. Very fast acceleration and good cornering speed.",
+        "pt-br": "Recorde mundial no Tokyo Railway. Acelera muito e faz curva bem."
+      },
+      "metaRank": 2,
+      "name": "S2 Handling Meta (36.8 Narai)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Furai",
+            "sharecode": "816 219 600",
+            "suspension": "Race",
+            "tuneName": "S2 Handling Meta (36.8 Narai)",
+            "tuner": "K1Z Howzer",
+            "tyreCompound": "Slick"
+          },
+          "row": 1573,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.754,
+      "shareCode": "816219600",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-08-14",
+      "drivetrain": "RWD",
+      "id": "sc-960758367",
+      "name": "Technologia",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "14/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "Furai",
+            "sharecode": "960 758 367",
+            "suspension": "Race",
+            "tuneName": "Technologia",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1572,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.496,
+      "shareCode": "960758367",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    }
+  ],
+  "schemaVersion": 1
+}

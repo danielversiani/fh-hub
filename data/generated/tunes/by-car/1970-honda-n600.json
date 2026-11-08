@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1970-honda-n600",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-00e5156209",
+      "metaRank": 23,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Honda N600",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 329,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-honda-n600",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-36606cff67",
+      "metaRank": 23,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 50,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-honda-n600",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-689f2f4f45",
+      "metaRank": 36,
+      "name": "C road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 77,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.413,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1970-honda-n600",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-cf1bdfa358",
+      "name": "Stock Look VTEC | 51.0 Narai Juku (can 50)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Honda N600",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look VTEC | 51.0 Narai Juku (can 50)",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 331,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1970-honda-n600",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-ec0ce00801",
+      "name": "Purist Circuit Tech",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Honda N600",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Circuit Tech",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 330,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1970-honda-n600",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-f11739dc1e",
+      "name": "FWD Powerbuild | 01 .3 Shira, 00s possible?",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Honda N600",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD Powerbuild | 01 .3 Shira, 00s possible?",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1660,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

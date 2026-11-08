@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1990-subaru-legacy-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-12",
+      "drivetrain": "AWD",
+      "id": "sc-522425432",
+      "name": "A dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Subaru",
+            "model": "Legacy RS",
+            "sharecode": "522 425 432",
+            "suspension": "Rally",
+            "tuneName": "A dirt",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2360,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1990 Subaru Legacy RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A dirt",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2767,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "522425432",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "icefrice8724"
+    }
+  ],
+  "schemaVersion": 1
+}

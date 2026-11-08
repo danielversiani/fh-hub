@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-can-am-maverick-x-rs-turbo-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-151788852",
+      "name": "B OFFROAD",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Can-Am",
+            "model": "Maverick X RS Turbo R",
+            "sharecode": "151 788 852",
+            "suspension": "Rally",
+            "tuneName": "B OFFROAD",
+            "tuner": "Zookiiwi",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 440,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "151788852",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-can-am-maverick-x-rs-turbo-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-20",
+      "drivetrain": "AWD",
+      "id": "sc-814209117",
+      "name": "A Dirt / CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "20/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Can-Am",
+            "model": "Maverick X RS Turbo R",
+            "sharecode": "814 209 117",
+            "suspension": "Rally",
+            "tuneName": "A Dirt / CC",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 438,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Can-Am Maverick X RS Turbo R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt / CC",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1082,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "814209117",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-can-am-maverick-x-rs-turbo-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "id": "sc-887239816",
+      "name": "B Fast Dirty Boi",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Can-Am",
+            "model": "Maverick X RS Turbo R",
+            "sharecode": "887 239 816",
+            "suspension": "Rally",
+            "tuneName": "B Fast Dirty Boi",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 439,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Can-Am Maverick X RS Turbo R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Fast Dirty Boi",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFED7D31"
+          },
+          "row": 200,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "887239816",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "esv-lawrence"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,8 @@
+---
+import PlaylistPage from '../../../components/PlaylistPage.astro';
+import { currentSeason, loadSeasons } from '../../../lib/data';
+
+const season = currentSeason() ?? loadSeasons().at(-1);
+---
+
+<PlaylistPage locale="en" season={season} />

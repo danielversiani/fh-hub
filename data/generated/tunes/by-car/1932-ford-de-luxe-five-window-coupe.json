@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1932-ford-de-luxe-five-window-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-478d066d10",
+      "metaRank": 18,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 39,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "shinnosuke"
+    },
+    {
+      "buildTags": [],
+      "carId": "1932-ford-de-luxe-five-window-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-5e50686a4d",
+      "metaNotes": "樱桃园2:03high 小心点开",
+      "metaNotesI18n": {
+        "en": "Cherry Field in the high 2:03s; drive carefully.",
+        "pt-br": "Cherry Field na casa de 2:03; pilote com cuidado."
+      },
+      "metaRank": 47,
+      "name": "A dirt RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 99,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.413,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1932-ford-de-luxe-five-window-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-8a7b0cd3e1",
+      "lapRefs": [
+        {
+          "time": "1:03.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:03.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 7,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "lnvrtebrate"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1932-ford-de-luxe-five-window-coupe",
+      "categories": [
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-9b42e06bb9",
+      "name": "Purist Bootlegger",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1932 Ford De Luxe Five-Window Coupé",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Bootlegger",
+            "Tuner": "DRX Q3",
+            "fill": "theme:7"
+          },
+          "row": 42,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

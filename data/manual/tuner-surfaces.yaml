@@ -1,0 +1,4 @@
+# Tuner id → the surface they specialise in (road, dirt, cross-country). Used only when a tune
+# gives no hint of its own (no surface column, nothing in the name, no telling tires).
+# Owner's knowledge of the community; keys must stay sorted (pnpm validate checks it).
+sr1-rain: dirt

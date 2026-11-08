@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2014-bac-mono",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8bb011c584",
+      "name": "Dirt Sprint T1 Sunflower 56.6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 BAC Mono",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Sprint T1 Sunflower 56.6",
+            "Tuner": "ZVTCJAU",
+            "fill": "FF7030A0"
+          },
+          "row": 955,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-bac-mono",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-edf2212ca9",
+      "name": "v3",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 BAC Mono",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "v3",
+            "Tuner": "HOOSIER DALLAS",
+            "fill": "FF7030A0"
+          },
+          "row": 956,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "hoosier-dallas"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-bac-mono",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-671239699",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BAC",
+            "model": "Mono",
+            "sharecode": "671 239 699",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 291,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2014 BAC Mono",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 954,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.664,
+      "shareCode": "671239699",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

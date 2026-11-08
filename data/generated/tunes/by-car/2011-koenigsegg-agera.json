@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2011-koenigsegg-agera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3bea66d624",
+      "lapRefs": [
+        {
+          "time": "56.4",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵56.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 34,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 73,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-koenigsegg-agera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-604e8842d6",
+      "metaRank": 113,
+      "name": "S1 Class - Road Racing - (55.5 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Koenigsegg Agera",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - (55.5 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1823,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-koenigsegg-agera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-aff16fd2c1",
+      "metaRank": 113,
+      "name": "THULE",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Koenigsegg Agera",
+            "Comment": "THULE on top",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "THULE",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF7030A0"
+          },
+          "row": 1822,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-koenigsegg-agera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d877321830",
+      "metaRank": 113,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 232,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-koenigsegg-agera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-eb7d4f2b73",
+      "metaRank": 113,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Koenigsegg Agera",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF7030A0"
+          },
+          "row": 1821,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-howzer"
+    }
+  ],
+  "schemaVersion": 1
+}

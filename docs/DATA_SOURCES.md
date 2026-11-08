@@ -9,13 +9,16 @@
 | ID | Fonte | Tipo | Conteúdo | Leitura automática | Autorização | No pipeline |
 |---|---|---|---|---|---|---|
 | `forza-cars` | forza.net/fh6cars | JSON oficial | **Roster oficial: 667 carros** (lista mestre) | ✅ `_payload.json` | not-required | ✅ Fase 0 |
+| `fandom-rarity` | Forza Wiki (Fandom) | API MediaWiki | **Raridade** de 641 carros (Comum, Raro, Épico, Lendário, Forza Edition) | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
+| `fandom-drivetrain` | Forza Wiki (Fandom) | API MediaWiki | **Tração de fábrica** (FWD, RWD, AWD) de 666 carros | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
+| `fandom-images` | Forza Wiki (Fandom) | API MediaWiki | **Foto** de 666 carros (captura de tela do FH6) | ✅ API pública | not-required (regras de conteúdo da Microsoft, [ADR-0013](adr/0013-miniaturas-dos-carros.md)) | ✅ Fase 1 |
 | `gbr-ozzy` | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | pending (prioridade) | ✅ Fase 0 |
 | `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | pending | ✅ Fase 0 |
 | `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | pending | ✅ Fase 0 |
 | `letzelu-shirakawa` | Letz' Shirakawa Tune & Hotlap Sheet | Google Sheets | Tempos de volta A/S1/S2 com tier | ✅ exportação CSV | pending | ✅ Fase 0 |
 | `whd-url` | Underground Racing League (Wrong Hand Drive) | Google Sheets | Série da comunidade: ~60 carros com tune e pintura, mais rotas de evento | ✅ exportação CSV | pending | ✅ Fase 0 |
-| `noa-miyako` | Noa Miyako, "地平线6线上车辆调校推荐" | QQ Docs | Tiers de meta por classe × piso | ⚠️ API interna (protobuf) | pending | Fase 1 |
-| `forza-playlist` | forza.net/fh6playlists | JSON oficial | Festival Playlist completa (604 linhas) | ✅ `_payload.json` | not-required | Fase 1 |
+| `noa-miyako` | Noa Miyako, "地平线6线上车辆调校推荐" | QQ Docs | Tiers de meta por classe × piso (~800 carros) | ⚠️ API interna (protobuf) | pending | ✅ Fase 1 |
+| `forza-playlist` | forza.net/fh6playlists | JSON oficial | Festival Playlist completa (604 linhas) | ✅ `_payload.json` | not-required | ✅ Fase 1 |
 | `base-events` | Levantamento próprio | YAML manual | Eventos-base do mapa | Manual | not-required | Fase 2 |
 
 O registro executável dessas fontes é `data/sources.yaml`.
@@ -46,12 +49,56 @@ O registro executável dessas fontes é `data/sources.yaml`.
 - Inclui carros anunciados que ainda vão sair (Car Pass e recompensas futuras).
 - É a **única fonte que cria carros** ([ADR-0006](adr/0006-identidade-canonica.md)). ID do carro = slug do *Car Name*.
 
-### `noa-miyako`: tabela de meta da Noa Miyako
+### `fandom-rarity`: raridade dos carros (Forza Wiki)
+- **Por quê:** algumas provas da playlist restringem a raridade ("Rarity: Legendary - S2 Class"), e o roster oficial não traz essa informação. Sem ela, o site não saberia quais carros são elegíveis (regra do dono: só sugerir com certeza).
+- **Fonte:** categorias `Category:Common (FH6)`, `Rare`, `Epic`, `Legendary` e `Forza Edition` da [Forza Wiki](https://forza.fandom.com), lidas pela API pública MediaWiki (`api.php?action=query&list=categorymembers`). Cada página da categoria é um carro, com o ano entre parênteses quando há mais de um.
+- **Licença:** conteúdo da Fandom é CC BY-SA. Usamos só o fato (a raridade) e damos crédito no rodapé do site. Por isso a permissão é `not-required`.
+- **Cobertura (2026-11-08):** 641 dos 667 carros. Os carros sem raridade conhecida **não** entram em provas com restrição de raridade.
+- **Ignorados:** veículos de tráfego (`… Traffic`, `Playground …`) e variantes de evento (`'Touge Edition'`, `'Initial Drive'`, `'RakuRaku Express'`), que não estão no roster.
+- **Por que não outras fontes:** codmunity/forzacity têm a raridade, mas são sites concorrentes, sem licença de reuso. A aba "Car Collection" do Ozzy só tem o logo da marca na coluna BADGE.
+- **Lacunas conhecidas:** 26 carros não estão em nenhuma categoria de raridade da wiki (ex.: Mazda 787B, Porsche 959, Ford GT 2005). Eles ficam fora das provas com restrição de raridade até a wiki ser completada. Qualquer pessoa pode completar a wiki; a próxima sincronização pega a correção.
+
+### `fandom-images`: fotos dos carros (Forza Wiki)
+- **Por quê:** o dono quer a miniatura de cada carro na lista e na página do carro ([ADR-0013](adr/0013-miniaturas-dos-carros.md)).
+- **Fonte:** a imagem principal de cada página em `Category:Cars (FH6)`, pela API (`generator=categorymembers` + `prop=pageimages`, 480 px). Só valem arquivos `FH6_…`: uma página de carro que existe em vários jogos pode abrir com a foto de outro jogo.
+- **Direitos:** são capturas de tela do jogo (conteúdo da Microsoft, **não** CC BY-SA). Usamos sob as regras de conteúdo da Microsoft: site sem anúncios, aviso no rodapé e link para as regras. Guardamos só o endereço; a imagem é servida pela Fandom.
+- **Cobertura (2026-11-08):** 666 dos 667 carros.
+
+### `fandom-drivetrain`: tração de fábrica (Forza Wiki)
+- **Por quê:** provas como "2000s Total FWD - B Class" aceitam só carros com aquela tração **de fábrica**. O roster oficial não traz essa informação.
+- **Fonte:** categorias `Category:Front-Wheel Drive`, `Rear-Wheel Drive` e `All-Wheel Drive` da [Forza Wiki](https://forza.fandom.com). Elas valem para todos os jogos Forza, então o adaptador cruza com `Category:Cars (FH6)` e só usa carros do FH6. Um carro listado em duas trações é ignorado (fica como desconhecido).
+- **Licença:** como a raridade, CC BY-SA, com crédito no rodapé.
+- **Cobertura (2026-11-08):** 666 dos 667 carros (falta o Subaru BRZ Forza Edition, cujo nome na wiki não bate com o roster).
+
+### `noa-miyako`: tabela de meta de Noa Miyako
+
+> **Observações em chinês:** aparecem traduzidas pela memória de tradução (`data/manual/translations.yaml`, [ADR-0014](adr/0014-traducao-dos-textos-das-fontes.md)). Os tempos citados ("白川1:04.3") viram selos "1:04.3 · Shirakawa" (`data/manual/track-aliases.yaml`).
 - **URL:** https://docs.qq.com/sheet/DYWZVRWR0dnh3aHhZ (aba inicial `mmc7rv`)
 - **Abas:** 引言 (introdução), 季节赛 每周更新 (temporada, atualização semanal), 新车调校速递 (tunes de carros novos), 老车调校更新 (atualização de carros antigos) e uma aba por classe × piso: `R 998公路`, `S2 900公路`, `S1 800公路/泥地/越野`, `A 700公路/泥地/越野`, `B 600公路/泥地/越野`, `C 500公路/泥地`. (公路 = road, 泥地 = dirt, 越野 = cross-country)
 - **Acesso:** `GET /dop-api/opendoc?...` (primeiro bloco) e `GET /dop-api/get/sheet?padId=...&subId=<aba>&startrow=N&endrow=N+255` (blocos de 256 linhas). O campo `block_datas[].related_sheet` é base64 → zlib → protobuf não documentado. Sem login.
 - **Conteúdo observado:** tier (`Meta+`, `Meta`, `T0.5`, `T1`, `T1.5`, `T2`, `T3`), carro com marca bilíngue (`Subaru 斯巴鲁` + `1994 Subaru Vivio RX-R`), tunador, dificuldade em chinês (非常困难 = very hard, 稍微困难 = slightly hard; demais a mapear), share code de 9 dígitos, notas em chinês.
 - **Riscos:** formato interno pode mudar a qualquer momento. Plano B: Playwright.
+
+**Implementação (Fase 1, 2026-11-08):**
+- **Acesso sem login** (`pipeline/fetchers/qq-docs.ts`):
+  1. abrir a página da planilha para receber os cookies de sessão anônima; o cookie `TOK` também serve de token xsrf;
+  2. `dop-api/opendoc` devolve a revisão e o *workbook* com a lista de abas;
+  3. `dop-api/get/sheet` é chamado uma vez por aba (linhas 0 até o total).
+
+  O resultado é guardado como um pacote JSON (`*.qq.json`) com os blobs ainda codificados.
+- **Decodificação** (`pipeline/lib/qq-sheet.ts`): base64 → zlib → protobuf sem schema publicado. O mapeamento dos campos está documentado no topo do arquivo:
+  - lista de abas: mutação 1;
+  - células: mutação 18, com *pool* de strings e células `{linha, coluna, tipo, índice}`.
+- **Colunas** de cada aba de classe × piso: 竞争力 (tier), 制造商 (marca, "Toyota 丰田"), 车辆型号 (modelo com ano), 驱动 (tração), 难度 (dificuldade), 轮胎 (pneus), 定位 (perfil), 调校师 (tunador, em duas colunas), 备注 (notas, em geral um tempo em Shirakawa) e 获取方式 (como obter). Cada carro ocupa uma linha mais linhas de continuação com outros tunadores.
+- **Sem share codes:** a tabela indica *quem* tunou; o jogador busca o gamertag no jogo. No nosso modelo, ela vira `MetaRanking` com `tunerIds`.
+- **Mapeamentos de termos em chinês** (em `normalize/fields.ts`):
+  - pneus: 越野胎 off-road, 拉力胎 rally, 半热熔 semi-slick, 全热熔 slick, 赛用热熔 super slick (inferido), 复古白胎 vintage;
+  - dificuldade: 非常简单/简单 fácil, 中等 média, 稍微困难, 困难, 非常困难;
+  - perfil: 全能 completo, 动力 potência, 操控 controle.
+- **Limitações conhecidas** (2026-11-08):
+  - 49 células do modelo são do tipo "conteúdo rico" e a API não entrega o texto. O carro vai para a fila de revisão como `<marca> [rich cell]`.
+  - 42 carros estão marcados 未知 ("ainda não avaliado") e são ignorados.
+  - Por isso, há saltos na numeração do ranking na página de meta.
 
 ### `gbr-ozzy`: GBR Ozzy's FH6 | FH5 & FH4 Spreadsheet
 - **URL:** https://docs.google.com/spreadsheets/d/1FQ29uIAWVEJDT41sx9bEoqz0BGLpOi9MdA2hp0uzP9w
@@ -104,7 +151,9 @@ O registro executável dessas fontes é `data/sources.yaml`.
 ### `forza-playlist`: Festival Playlist oficial
 - **URL:** https://forza.net/fh6playlists · dados em `https://forza.net/fh6playlists/_payload.json` (Nuxt/devalue, ~120 KB).
 - **Colunas:** *Series / Season, Reward, Event Type, Event Name, Car / Requirement, Route*. Histórico desde S01. Ver [ADR-0009](adr/0009-playlist-fonte-oficial.md).
-- **A investigar:** se o payload em `/pt-BR/` traz nomes de eventos traduzidos oficialmente; se `api.forza.net` oferece algo estruturado; o roster oficial de carros.
+- **A investigar:** se o payload em `/pt-BR/` traz nomes de eventos traduzidos oficialmente; se `api.forza.net` oferece algo estruturado.
+- **Temporada ao vivo:** a página tem a frase *search "City Life - Summer" for the seasonal events available through November 12*. Ela define a temporada atual e o último dia; as outras datas são derivadas (1 semana por temporada, na ordem da tabela).
+- **Restrições:** interpretadas por `pipeline/normalize/requirement.ts` (formatos no [ADR-0009](adr/0009-playlist-fonte-oficial.md#atualizações)). Em 2026-11-08, **597 de 604** linhas foram entendidas. As 7 restantes usam tipos secundários de carro que o roster não traz ("Track Life", "Heavy Hitters", "Electric", "Microcar", "High Performance Dailies") ou carros ausentes do roster.
 
 ### `base-events`: eventos-base do mapa
 - Não foi encontrada fonte estruturada e reutilizável. Será um **levantamento próprio** em `data/manual/base-events.yaml` (nome, disciplina, formato, restrição de classe e tipo de carro, wristband exigido, região), validado no jogo.

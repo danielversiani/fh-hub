@@ -89,3 +89,76 @@ describe('whd-url', () => {
   it('recognises event routes', () =>
     expect(event.groups.flatMap((g) => g.entries).some((e) => e.kind === 'route')).toBe(true));
 });
+
+const out_forza_playlist = await fixtureOutput('forza-playlist');
+describe('forza-playlist (official)', () => {
+  const playlist = out_forza_playlist.playlists[0]!;
+  it('reads the whole table and the live season sentence', () => {
+    expect(playlist.rows.length).toBeGreaterThan(500);
+    expect(playlist.currentSeasonLabel).toMatch(/ - (Summer|Autumn|Winter|Spring)$/);
+    expect(playlist.currentSeasonEnds).toMatch(/^[A-Z][a-z]+ \d{1,2}$/);
+  });
+  it('keeps every column', () =>
+    expect(playlist.rows[0]).toMatchObject({
+      seasonLabel: 'S01 Welcome To Japan',
+      type: 'Monthly Rivals',
+      name: 'Soni Circuit',
+      requirement: '2008 Mazda Furai',
+    }));
+});
+
+const out_noa_miyako = await fixtureOutput('noa-miyako');
+describe('noa-miyako (QQ Docs)', () => {
+  const meta = out_noa_miyako.meta;
+  it('decodes the protobuf tabs into rankings with class and surface from the tab name', () => {
+    expect(meta.length).toBeGreaterThan(20);
+    expect(new Set(meta.map((m) => `${m.carClass}|${m.surface}`))).toEqual(
+      new Set(['R|road', 'S1|dirt', 'C|road']),
+    );
+  });
+  it('reads tier, English make, ranks in order and collects tuners from continuation rows', () => {
+    const r = meta.filter((m) => m.tab === 'r-road');
+    expect(r[0]).toMatchObject({ rank: 1, tier: 'Meta+' });
+    expect(r.map((m) => m.rank)).toEqual(r.map((_, i) => i + 1));
+    expect(meta.every((m) => !/\p{Script=Han}/u.test(m.car.make ?? ''))).toBe(true);
+    expect(meta.some((m) => m.tuners.length > 2)).toBe(true);
+  });
+});
+
+const out_fandom_rarity = await fixtureOutput('fandom-rarity');
+describe('fandom-rarity (Forza Wiki)', () => {
+  const attrs = out_fandom_rarity.carAttributes;
+  it('reads every rarity category', () => {
+    expect(new Set(attrs.map((a) => a.rarity))).toEqual(
+      new Set(['common', 'rare', 'epic', 'legendary', 'forza-edition']),
+    );
+    expect(attrs.length).toBeGreaterThan(500);
+  });
+  it('skips traffic vehicles and event-only variants', () =>
+    expect(attrs.some((a) => /Traffic$|^Playground |'Touge Edition'/.test(a.car.text))).toBe(
+      false,
+    ));
+});
+
+const out_fandom_images = await fixtureOutput('fandom-images');
+describe('fandom-images (Forza Wiki)', () => {
+  const attrs = out_fandom_images.carAttributes;
+  it('keeps one FH6 photo per car', () => {
+    expect(attrs.length).toBeGreaterThan(600);
+    expect(
+      attrs.every((a) => /^https:\/\/static\.wikia\.nocookie\.net\//.test(a.image ?? '')),
+    ).toBe(true);
+  });
+});
+
+const out_fandom_drivetrain = await fixtureOutput('fandom-drivetrain');
+describe('fandom-drivetrain (Forza Wiki)', () => {
+  const attrs = out_fandom_drivetrain.carAttributes;
+  it('keeps only FH6 cars, one drivetrain each', () => {
+    expect(new Set(attrs.map((a) => a.drivetrain))).toEqual(new Set(['FWD', 'RWD', 'AWD']));
+    expect(attrs.length).toBeGreaterThan(400);
+    expect(new Set(attrs.map((a) => a.car.text)).size).toBe(attrs.length);
+  });
+  it('reads a known car', () =>
+    expect(attrs.find((a) => a.car.text === 'Honda Civic Type R (2008)')?.drivetrain).toBe('FWD'));
+});

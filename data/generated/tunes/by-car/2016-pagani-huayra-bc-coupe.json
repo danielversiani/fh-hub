@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-pagani-huayra-bc-coupe",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1f1a45f473",
+      "name": "S1 Dirt (ISAD Request, Stock Aero)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Pagani Huayra BC Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt (ISAD Request, Stock Aero)",
+            "Tuner": "ATK Mang0",
+            "fill": "FF7030A0"
+          },
+          "row": 2589,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-pagani-huayra-bc-coupe",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-322177c6a1",
+      "name": "S2 road allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Pagani Huayra BC Coupé",
+            "Comment": "",
+            "Design": "RAIDEN SHOGUN",
+            "Designer": "Oyama Mashiro294",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 road allround",
+            "Tuner": "Inayamei",
+            "fill": "FF0070C0"
+          },
+          "row": 2590,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-pagani-huayra-bc-coupe",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-fc8b446c7c",
+      "name": "ok car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Pagani Huayra BC Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "ok car",
+            "Tuner": "SakuraMxSPD",
+            "fill": "FF0070C0"
+          },
+          "row": 2592,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sakuramxspd"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2016-pagani-huayra-bc-coupe",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "Racing V12",
+      "id": "sc-161220567",
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Full Aero",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Racing V12",
+            "Make": "Pagani",
+            "Model": "Huayra BC Coupe",
+            "Road Surface": "Road",
+            "Share Code": "161220567",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2016"
+          },
+          "row": 59,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        },
+        {
+          "raw": {
+            "Car": "2016 Pagani Huayra BC Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD Allround",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 2591,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "shareCode": "161220567",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

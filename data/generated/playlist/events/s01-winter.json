@@ -1,0 +1,552 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s01-winter--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 15,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "15 pts",
+      "reward": "Car: 2016 Toyota Land Cruiser Arctic Trucks AT37",
+      "routeRaw": "",
+      "routes": [],
+      "row": 46,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s01-winter--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 30,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "30 pts",
+      "reward": "Car: 2019 Subaru STI S209",
+      "routeRaw": "",
+      "routes": [],
+      "row": 47,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s01-winter--weekly-challenge--ultimate-driving-machine",
+      "name": "Ultimate Driving Machine",
+      "requirement": {
+        "activities": [
+          "Speed Traps",
+          "Photo",
+          "Time Attack"
+        ],
+        "carIds": [
+          "2020-bmw-m2-competition-coupe"
+        ],
+        "scope": "car",
+        "scopeLabel": "2020 BMW M2 Competition Coupé",
+        "status": "parsed"
+      },
+      "requirementRaw": "2020 BMW M2 Competition Coupé; Speed Traps; Photo; Time Attack",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 48,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-winter--daily-challenge--spirited-away",
+      "name": "Spirited Away",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Beat a Rivals Ghost in any Japanese car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 49,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-winter--daily-challenge--honkda",
+      "name": "Honkda",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Honk your horn in any Honda",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 50,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-winter--daily-challenge--care-package",
+      "name": "Care Package",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Send a Gift Drop to another player",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 51,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-winter--daily-challenge--what-a-rush",
+      "name": "What a Rush!",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Horizon Rush Event",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 52,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-winter--daily-challenge--temper-tantrum",
+      "name": "Temper Tantrum",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 2 Wrecking Ball Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 53,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-winter--daily-challenge--gotta-go-fast",
+      "name": "Gotta Go Fast!",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Reach 200 mph",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 54,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s01-winter--daily-challenge--back-on-track",
+      "name": "Back on Track",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete 3 laps at any Time Attack Circuit",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 55,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s01-winter--photo-challenge--pitcherperfect",
+      "name": "#PitcherPerfect",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo at the Edogawa Baseball Stadium",
+      "reward": "Car Horn: Slide Whistle Car",
+      "routeRaw": "",
+      "routes": [],
+      "row": 56,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "other",
+      "id": "s01-winter--collectibles--snack-attack",
+      "name": "Snack Attack",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Smash 5 Vending Machines in Tokyo City",
+      "reward": "Car: 2023 Lotus Emira",
+      "routeRaw": "",
+      "routes": [],
+      "row": 57,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Collectibles"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s01-winter--championship--be-a-good-sport",
+      "name": "Be a Good Sport",
+      "requirement": {
+        "carIds": [
+          "1982-delorean-dmc-12",
+          "1983-nissan-skyline-2000-turbo-rs",
+          "1984-honda-civic-crx-mugen",
+          "1985-mazda-rx-7-gsl-se",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1987-nissan-skyline-gts-r",
+          "1988-mitsubishi-starion-esi-r",
+          "1989-nissan-silvia-ks",
+          "1989-porsche-944-turbo",
+          "1989-toyota-mr2-sc",
+          "1990-eunos-cosmo",
+          "1990-mazda-savanna-rx-7",
+          "1992-honda-nsx-r",
+          "1992-mazda-rx-7-type-r",
+          "1992-nissan-skyline-gt-r",
+          "1992-toyota-supra-2-0-gt",
+          "1993-nissan-240sx",
+          "1993-porsche-911-turbo-s-leichtbau",
+          "1993-porsche-928-gts",
+          "1993-porsche-968-turbo-s",
+          "1994-mazda-mx-5-miata",
+          "1994-mazda-mx-5-miata-forza-edition",
+          "1994-nissan-fairlady-z-version-s-twin-turbo",
+          "1994-nissan-silvia-ks",
+          "1995-bmw-850csi",
+          "1995-mitsubishi-eclipse-gsx",
+          "1995-nissan-nismo-gt-r-lm",
+          "1995-toyota-mr2-gt",
+          "1996-subaru-svx",
+          "1997-maserati-ghibli-cup",
+          "1997-mitsubishi-gto",
+          "1997-nissan-skyline-gt-r-v-spec",
+          "1997-toyota-soarer-2-5-gt-t",
+          "1998-nissan-silvia-ks-aero",
+          "1998-nissan-skyline-gt-r-40th-anniversary",
+          "1998-renault-sport-spider",
+          "1998-toyota-supra-rz",
+          "1999-lotus-elise-series-1-sport-190",
+          "2000-honda-prelude-type-sh",
+          "2000-nissan-skyline-gt-r-v-spec-ii",
+          "2002-nissan-silvia-spec-r",
+          "2003-aston-martin-db7-gt",
+          "2003-nissan-fairlady-z",
+          "2003-toyota-celica-sport-specialty-ii",
+          "2005-honda-nsx-r",
+          "2005-honda-nsx-r-gt",
+          "2005-mazda-mazdaspeed-mx-5",
+          "2005-tvr-sagaris"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Retro Sports Cars",
+        "status": "parsed"
+      },
+      "requirementRaw": "Retro Sports Cars - B Class",
+      "reward": "Car: 1969 Datsun 2000 Roadster",
+      "routeRaw": "Street: Matsumi Climb, Tokyo City Docks Charge, Kita Ine",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Matsumi Climb"
+        },
+        {
+          "discipline": "street",
+          "name": "Tokyo City Docks Charge"
+        },
+        {
+          "discipline": "street",
+          "name": "Kita Ine"
+        }
+      ],
+      "row": 58,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "id": "s01-winter--championship--when-in-roma",
+      "name": "When in Roma",
+      "requirement": {
+        "carIds": [
+          "2007-ferrari-430-scuderia",
+          "2009-ferrari-458-italia",
+          "2010-jaguar-c-x75",
+          "2010-lamborghini-murcielago-lp-670-4-sv",
+          "2010-lexus-lfa",
+          "2010-noble-m600",
+          "2011-mclaren-12c-coupe",
+          "2012-lamborghini-gallardo-lp570-4-spyder-performante",
+          "2012-nissan-gt-r-black-edition-r35",
+          "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
+          "2014-lamborghini-huracan-lp-610-4",
+          "2014-mclaren-650s-spider",
+          "2015-ferrari-488-gtb",
+          "2015-mclaren-570s-coupe",
+          "2016-audi-r8-v10-plus",
+          "2017-ferrari-j50",
+          "2017-ferrari-j50-preorder-car",
+          "2017-ford-gt",
+          "2017-nissan-gt-r-r35",
+          "2019-ferrari-f8-tributo",
+          "2020-audi-r8-v10-performance",
+          "2020-chevrolet-corvette-stingray-coupe",
+          "2020-lamborghini-huracan-evo",
+          "2022-acura-nsx-type-s",
+          "2022-ferrari-296-gtb",
+          "2022-lamborghini-huracan-evo-spyder",
+          "2022-lamborghini-huracan-tecnica",
+          "2022-maserati-mc20",
+          "2023-audi-r8-coupe-v10-gt-rwd",
+          "2023-mclaren-artura",
+          "2023-porsche-911-turbo-s",
+          "2024-chevrolet-corvette-e-ray"
+        ],
+        "class": "S1",
+        "scope": "car-type",
+        "scopeLabel": "Modern Supercars",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Supercars - S1 Class",
+      "reward": "Car: 2020 Ferrari Roma",
+      "routeRaw": "Road: Tateyama Kurobe Sprint, Shikisai Sprint, Hokubu Circuit",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Tateyama Kurobe Sprint"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Shikisai Sprint"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Hokubu Circuit"
+        }
+      ],
+      "row": 59,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s01-winter--championship--monsters-on-mud",
+      "name": "Monsters on Mud",
+      "requirement": {
+        "carIds": [
+          "1983-nissan-240rs",
+          "1984-opel-manta-400",
+          "1985-ford-rs200-evolution",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1986-audi-2-audi-sport-quattro-s1",
+          "1986-mg-metro-6r4",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "2001-ford-4-ford-focus-rs",
+          "2007-peugeot-207-super-2000",
+          "2017-ford-14-rahal-letterman-lanigan-racing-fiesta",
+          "2017-ford-m-sport-fiesta-rs",
+          "2017-volkswagen-34-andretti-rally-cross-beetle",
+          "2018-subaru-wrx-sti-arx-supercar",
+          "2022-lamborghini-huracan-sterrato",
+          "2023-porsche-911-rallye"
+        ],
+        "class": "S1",
+        "scope": "car-type",
+        "scopeLabel": "Rally Monsters",
+        "status": "parsed"
+      },
+      "requirementRaw": "Rally Monsters - S1 Class",
+      "reward": "Car: 1967 Renault 8 Gordini",
+      "routeRaw": "Dirt: Kawazu Nanadaru Scramble, Kinkaku-ji Trail, Sekibe Scramble",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Kawazu Nanadaru Scramble"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Kinkaku-ji Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Sekibe Scramble"
+        }
+      ],
+      "row": 60,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": "dirt",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "drag",
+      "id": "s01-winter--horizon-life-drag-meet--irokawa-quarter-mile",
+      "name": "Irokawa Quarter Mile",
+      "requirement": {
+        "class": "S1",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "11.000 seconds",
+          "unit": "s",
+          "value": 11
+        }
+      },
+      "requirementRaw": "Japan - S1 Class - 11.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 61,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "Horizon Life - Drag Meet"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s01-winter--pr-stunt-speed-zone--temple-run-up",
+      "name": "Temple Run-Up",
+      "requirement": {
+        "class": "S1",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "1099.1 feet",
+          "unit": "ft",
+          "value": 1099.1
+        }
+      },
+      "requirementRaw": "Japan - S1 Class - 1099.1 feet",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 62,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s01-winter--pr-stunt-danger-sign--alpine-heights",
+      "name": "Alpine Heights",
+      "requirement": {
+        "class": "S1",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "90.0 mph",
+          "unit": "mph",
+          "value": 90
+        }
+      },
+      "requirementRaw": "Japan - S1 Class - 90.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 63,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "online",
+      "id": "s01-winter--horizon-play-horizon-drift--dodge-duck-dip-dive-and-drift",
+      "name": "Dodge, Duck, Dip, Dive and Drift!",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Horizon Drift in any Dodge",
+      "reward": "Car: 1988 Lamborghini Countach LP5000 QV",
+      "routeRaw": "",
+      "routes": [],
+      "row": 64,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Horizon Play - Horizon Drift"
+    },
+    {
+      "category": "online",
+      "id": "s01-winter--horizon-play-the-eliminator--battle-royale",
+      "name": "Battle Royale",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Finish 30th or better",
+      "reward": "Car: 2018 Lotus Exige Cup 430",
+      "routeRaw": "",
+      "routes": [],
+      "row": 65,
+      "seasonId": "s01-winter",
+      "seriesId": "s01",
+      "surface": null,
+      "type": "Horizon Play - The Eliminator"
+    }
+  ],
+  "schemaVersion": 1
+}

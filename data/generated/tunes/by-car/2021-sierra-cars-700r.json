@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2021-sierra-cars-700r",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7ff39cb8d8",
+      "metaNotes": "峠道世界纪录",
+      "metaNotesI18n": {
+        "en": "Touge world record.",
+        "pt-br": "Recorde mundial no touge."
+      },
+      "metaRank": 11,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 24,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "ahrigatoux"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-sierra-cars-700r",
+      "categories": [],
+      "class": "D",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-84882f6685",
+      "name": "Electric Town WR 3.0",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Sierra Cars 700R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Electric Town WR 3.0",
+            "Tuner": "ESV Ruinz",
+            "fill": "FF9FC5E8"
+          },
+          "row": 12,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-sierra-cars-700r",
+      "categories": [],
+      "class": "D",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d47c9a9cac",
+      "name": "Chiheisen .6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Sierra Cars 700R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Chiheisen .6",
+            "Tuner": "F1R Patch",
+            "fill": "FF9FC5E8"
+          },
+          "row": 13,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-patch"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-sierra-cars-700r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e5ea1dbbfc",
+      "name": "Sekibe WR 56.5",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Sierra Cars 700R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Sekibe WR 56.5",
+            "Tuner": "F1R Patch",
+            "fill": "FFED7D31"
+          },
+          "row": 521,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-patch"
+    }
+  ],
+  "schemaVersion": 1
+}

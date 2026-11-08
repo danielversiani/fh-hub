@@ -1,0 +1,947 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-188ad96458",
+      "metaRank": 4,
+      "name": "TCS Rivals",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "Powerbuild, TCS advised",
+            "Design": "BUGATTI",
+            "Designer": "Herbiecoop",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "TCS Rivals",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 1685,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1a6eda4ce7",
+      "metaNotes": "非常均衡 全段加速和操控优秀",
+      "metaNotesI18n": {
+        "en": "Very balanced: excellent acceleration across the range and excellent handling.",
+        "pt-br": "Muito equilibrado: ótima aceleração em toda a faixa e ótimo nas curvas."
+      },
+      "metaRank": 20,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 43,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3769d833f4",
+      "name": "Hirosaki wr v1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Hirosaki wr v1",
+            "Tuner": "| Jimka |",
+            "fill": "FFED7D31"
+          },
+          "row": 350,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "jimka"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3964ee7b17",
+      "lapRefs": [
+        {
+          "time": "59.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.0 后段弱",
+      "metaNotesI18n": {
+        "en": "Weak at the top end.",
+        "pt-br": "Fraco no fim (aceleração em alta)."
+      },
+      "metaRank": 4,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 9,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "nc-3d1255c2dc",
+      "lapRefs": [
+        {
+          "time": "54.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 48,
+      "name": "S1 Powerbuild | Shirakawa 54.6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "Powerbuild",
+            "Design": "GACHA CITY RADIO",
+            "Designer": "roger92929",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 Powerbuild | Shirakawa 54.6",
+            "Tuner": "EoJz7294",
+            "fill": "FF7030A0"
+          },
+          "row": 1687,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "eojz7294"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-51719e1b9a",
+      "metaRank": 22,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 47,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "ap-kaike"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-621782db3d",
+      "metaRank": 4,
+      "name": "B Road Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Meta",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 351,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6757ef09fa",
+      "metaRank": 7,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-8bea20580c",
+      "metaRank": 4,
+      "name": "Purist Mugen v2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "Purist, Mugen bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Mugen v2",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 352,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-940ed5eac3",
+      "lapRefs": [
+        {
+          "time": "1:01.4",
+          "track": "Chiheisen"
+        }
+      ],
+      "metaNotes": "地平线攀爬赛1:01.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 8,
+      "name": "C dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 19,
+          "sourceId": "noa-miyako",
+          "tab": "c-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c34df8886d",
+      "metaRank": 1,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-c8809cc830",
+      "lapRefs": [
+        {
+          "time": "59.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.0 后段弱",
+      "metaNotesI18n": {
+        "en": "Weak at the top end.",
+        "pt-br": "Fraco no fim (aceleração em alta)."
+      },
+      "metaRank": 4,
+      "name": "A Road - Allround Meta (Cage)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Allround Meta (Cage)",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1681,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-cc4b4a2604",
+      "name": "FH6 Boneshaker",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "STACKED DECK BEAT",
+            "Designer": "LetsPlayOnkel",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "FH6 Boneshaker",
+            "Tuner": "Cirno1X",
+            "fill": "FFFF0000"
+          },
+          "row": 1678,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f60fcd96c0",
+      "metaRank": 4,
+      "name": "Narai-Juku WR",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "ZYN",
+            "Designer": "Shankco",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Narai-Juku WR",
+            "Tuner": "NDL ardno",
+            "fill": "FFFF0000"
+          },
+          "row": 1682,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "ndl-ardno"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-fb54cc9e80",
+      "lapRefs": [
+        {
+          "time": "59.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.0 后段弱",
+      "metaNotesI18n": {
+        "en": "Weak at the top end.",
+        "pt-br": "Fraco no fim (aceleração em alta)."
+      },
+      "metaRank": 4,
+      "name": "A Road Grip New Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "HATSUNE MIKU",
+            "Designer": "savour pureone",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Grip New Meta",
+            "Tuner": "Noa Miyako",
+            "fill": "FFFF0000"
+          },
+          "row": 1683,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-27",
+      "drivetrain": "AWD",
+      "id": "sc-105099615",
+      "metaRank": 1,
+      "name": "Howzer inspired build | B Dirt Meta (M)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "27/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Beat",
+            "sharecode": "105 099 615",
+            "suspension": "Stock",
+            "tuneName": "Howzer inspired build | B Dirt Meta (M)",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1129,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.69,
+      "shareCode": "105099615",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-11",
+      "drivetrain": "RWD",
+      "id": "sc-110042532",
+      "metaRank": 7,
+      "name": "stock look upd",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "Beat",
+            "sharecode": "110 042 532",
+            "suspension": "Stock",
+            "tuneName": "stock look upd",
+            "tuner": "ZaZ490",
+            "tyreCompound": "Rally"
+          },
+          "row": 1128,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "HONDA BEAN",
+            "Designer": "MrDaPenguiin",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "stock look upd",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 1684,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.742,
+      "shareCode": "110042532",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zaz490"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-153769913",
+      "metaRank": 7,
+      "name": "A Dirt Well-Balanced",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Beat",
+            "sharecode": "153 769 913",
+            "suspension": "Rally",
+            "tuneName": "A Dirt Well-Balanced",
+            "tuner": "Rocklxd",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1127,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "FORZA LIVERY",
+            "Designer": "DurrtyRBeats",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Well-Balanced",
+            "Tuner": "Rocklxd",
+            "fill": "FFFF0000"
+          },
+          "row": 1679,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.74,
+      "shareCode": "153769913",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "rocklxd"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-28",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-160969837",
+      "lapRefs": [
+        {
+          "time": "59.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.0 后段弱",
+      "metaNotesI18n": {
+        "en": "Weak at the top end.",
+        "pt-br": "Fraco no fim (aceleração em alta)."
+      },
+      "metaRank": 4,
+      "name": "Narai Juku WR V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Beat",
+            "sharecode": "160 969 837",
+            "suspension": "Stock",
+            "tuneName": "Narai Juku WR V2",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Slick"
+          },
+          "row": 1126,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.761,
+      "shareCode": "160969837",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-869854729",
+      "name": "Fast and Funny S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Beat",
+            "sharecode": "869 854 729",
+            "suspension": "Rally",
+            "tuneName": "Fast and Funny S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1131,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "DR. PEPPER KURISU",
+            "Designer": "Faul247",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Fast and Funny S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1686,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "869854729",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-11",
+      "drivetrain": "AWD",
+      "id": "sc-884041957",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Beat",
+            "sharecode": "884 041 957",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1130,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.487,
+      "shareCode": "884041957",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-983761682",
+      "metaRank": 7,
+      "name": "A Class Meta (1.01.5 HMC Boneshaker)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Beat",
+            "sharecode": "983 761 682",
+            "suspension": "Stock",
+            "tuneName": "A Class Meta (1.01.5 HMC Boneshaker)",
+            "tuner": "ESV Mars",
+            "tyreCompound": "Rally"
+          },
+          "row": 1125,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Class Meta (1.01.5 HMC Boneshaker)",
+            "Tuner": "ESV Mars",
+            "fill": "FFFF0000"
+          },
+          "row": 1680,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.743,
+      "shareCode": "983761682",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-mars"
+    }
+  ],
+  "schemaVersion": 1
+}

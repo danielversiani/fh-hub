@@ -24,7 +24,7 @@
 | `Drivetrain` | `FWD`, `RWD`, `AWD` | |
 | `TireCompound` | `stock`, `street`, `sport`, `semi-slick`, `slick`, `super-slick`, `rally`, `offroad`, `drift`, `drag`, `other` | Lista a confirmar com o jogo; valores vistos: Stock, Street, Semi-Slicks, Slicks, Super Slicks, Rally, Offroad, Drift |
 | `BuildTag` | `purist`, `stock-look`, `full-aero`, `powerbuild`, `engine-swap`, `drivetrain-swap` | Vários por tune |
-| `Tier` | `meta-plus`, `meta`, `t0.5`, `t1`, `t1.5`, `t2`, `t3` | Escala da Noa Miyako; cada valor tem um `rank` numérico para ordenação |
+| `Tier` | `meta-plus`, `meta`, `t0.5`, `t1`, `t1.5`, `t2`, `t3` | Escala de Noa Miyako; cada valor tem um `rank` numérico para ordenação |
 | `Difficulty` | `easy`, `normal`, `slightly-hard`, `hard`, `very-hard` | Rótulos em chinês mapeados em `data/manual/zh-labels.yaml` |
 | `Category` | `meta`, `off-meta`, `purist`, `meme` | Categorias de curadoria ([CURATION.md](CURATION.md)) |
 | `SourceKind` | `google-sheet`, `google-xlsx`, `qq-doc`, `forza-official`, `manual` | |
@@ -58,6 +58,9 @@ erDiagram
   carTypes: string[]         // ["Classic Racers"]: categoria do jogo (pode ter mais de uma)
   country?: string
   stock?: { class: CarClass; pi: number }   // classe e PI de fábrica (ex.: "100 D")
+  rarity?: Rarity            // Forza Wiki
+  drivetrain?: Drivetrain    // tração de fábrica, Forza Wiki (provas "Total FWD")
+  image?: string             // foto: miniatura da Forza Wiki (ADR-0013)
   acquisition?: { raw: string /* "Autoshow, Wheelspin" */; methods: string[] /* slugs: "autoshow", "wheelspin", "autoshow-dlc"… */ }
   addOns?: string            // pacote/DLC
   sourceIds: string[]        // ids das fontes de catálogo que listam o carro
@@ -99,6 +102,7 @@ erDiagram
   carId: string
   tunerId: string
   name: string               // nome dado pelo tunador
+  nameI18n?: Localized       // o nome traduzido, quando escrito em chinês (ADR-0014)
   class: CarClass
   pi?: number
   surface: Surface
@@ -112,7 +116,23 @@ erDiagram
   observations: Observation[]
   score?: Score              // calculado na curadoria
   categories: Category[]     // calculado na curadoria
+  fromMeta?: boolean         // só existe como indicação da tabela de meta (sem código: buscar o gamertag)
+  difficulty?: Difficulty    // colunas da tabela de meta, só na tune do tunador indicado
+  role?: "allround" | "power" | "handling"
+  metaNotes?: string         // observação da tabela, no original (muitas vezes em chinês)
+  metaNotesI18n?: Localized  // a observação traduzida, sem os tempos (que estão em lapRefs)
+  lapRefs?: LapRef[]         // tempos citados na observação
 }
+```
+
+### Localized
+```ts
+{ "pt-br": string; en: string }   // texto nas duas línguas do site; "" = nada a mostrar
+```
+
+### LapRef
+```ts
+{ track: string /* "Shirakawa" */; time: string /* "1:04.3" */; worldRecord?: boolean }
 ```
 
 ### Observation (proveniência)
@@ -129,8 +149,11 @@ erDiagram
 
 ### MetaRanking
 ```ts
-{ sourceId: string; class: CarClass; surface: Surface; carId: string; tier: Tier; rank: number;
-  drivetrain?: Drivetrain; difficulty?: Difficulty; tunerId?: string; shareCode?: string; observedAt: string }
+{ sourceId: string; tab: string; row: number; class: CarClass; surface: Surface; carId: string; tier: Tier;
+  rank: number; drivetrain?: Drivetrain; difficulty?: Difficulty; tires?: TireCompound;
+  role?: "allround" | "power" | "handling"; tunerIds: string[] /* tunadores recomendados */;
+  shareCode?: string; notes?: string; lapRefs?: LapRef[] /* tempos citados nas notas */;
+  notesI18n?: Localized /* notas traduzidas; ausente enquanto não houver tradução */ }
 ```
 
 ### LapTime
@@ -220,15 +243,18 @@ O mesmo conjunto de arquivos existe em dois lugares: `data/generated/` (público
 | `tunes/by-car/<carId>.json` | Tunes completos de um carro, com observações | Página de carro | ✅ |
 | `laptimes.json` | Tempos de volta | Curadoria, páginas de carro | ✅ |
 | `custom-events.json` | Eventos da comunidade | Módulo M13 | ✅ |
+| `highlights.json` | Novidades do início: tunes atualizadas, carros novos e mudanças de tier, com `magnitude` (quanto maior o salto, maior o destaque) | Página inicial | ✅ |
 | `sources-status.json` | Saúde de cada fonte | Página `/status`, alertas | ✅ |
-| `meta/<source-id>.json` | Rankings de meta por fonte | Tabela de meta, curadoria | ⏳ Fase 1 |
-| `playlist/seasons.json`, `playlist/<season-id>.json` | Temporadas e seus eventos | Página da playlist | ⏳ Fase 1 |
-| `suggestions/<season-id>.json` | Sugestões por evento (regras + IA mescladas) | Página da playlist | ⏳ Fase 1 |
+| `meta/<source-id>.json` | Rankings de meta por fonte | Tabela de meta, curadoria | ✅ |
+| `playlist/seasons.json` | Temporadas (ordem, datas, qual está ao vivo) | Página da playlist | ✅ |
+| `playlist/events/<season-id>.json` | Eventos de uma temporada (ou `s07.json` para linhas de série inteira) | Página da playlist | ✅ |
+| `playlist/suggestions/<season-id>.json` | Sugestões por evento (hoje só por regras) | Página da playlist | ✅ |
 | `base-events.json` | Eventos-base com sugestões | Módulo M11 | ⏳ Fase 2 |
-| `changelog/<AAAA-MM>.json` | Mudanças do mês | Início, páginas de mudanças | ⏳ Fase 1 |
+| `changelog/<AAAA-MM>.json` | Mudanças do mês | Início | ✅ |
 
 Filas de revisão (`data/review/` e `.cache/preview/review/`):
 - `unmatched-cars.json`: nomes de carro que não casaram com a lista mestre;
+- `unparsed-requirements.json`: restrições da playlist que o interpretador não entendeu;
 - `unknown-values.json`: pneus desconhecidos, tempos ilegíveis, share code ligado a dois carros diferentes.
 
 Snapshots ("último dado bom", um por fonte): `data/snapshots/<source-id>.json` (fontes públicas) e `.cache/preview/snapshots/` (demais).

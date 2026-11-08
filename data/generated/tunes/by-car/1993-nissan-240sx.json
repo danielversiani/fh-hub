@@ -1,0 +1,355 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-0cec5121dd",
+      "name": "c road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Nissan 240SX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "c road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFFC000"
+          },
+          "row": 77,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1816c9be48",
+      "lapRefs": [
+        {
+          "time": "1:05.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.4 操控不错有后段",
+      "metaNotesI18n": {
+        "en": "Good handling and pulls well at the top end.",
+        "pt-br": "Bom nas curvas e com fôlego no fim."
+      },
+      "metaRank": 56,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 116,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-44a6c95da3",
+      "metaRank": 11,
+      "name": "C dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "c-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-46fde2adc9",
+      "metaRank": 22,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 47,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-880a9e17d8",
+      "metaRank": 22,
+      "name": "ep3 engine street cage ings parts + duck tail",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Nissan 240SX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "ep3 engine street cage ings parts + duck tail",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 478,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9d8689dca9",
+      "metaRank": 18,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 39,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ad5285242b",
+      "lapRefs": [
+        {
+          "time": "1:05.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.4 操控不错有后段",
+      "metaNotesI18n": {
+        "en": "Good handling and pulls well at the top end.",
+        "pt-br": "Bom nas curvas e com fôlego no fim."
+      },
+      "metaRank": 56,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 116,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "msr-ane3tr"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-ae04b38efd",
+      "metaRank": 22,
+      "name": "B Online Balance v2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Nissan 240SX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Online Balance v2",
+            "Tuner": "Anime Driving",
+            "fill": "FFED7D31"
+          },
+          "row": 477,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "anime-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-d23e3f09fe",
+      "metaRank": 18,
+      "name": "giga super mega op DIRT META fr fr trust NO CAP ong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Nissan 240SX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "giga super mega op DIRT META fr fr trust NO CAP ong",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 476,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-df27cd4393",
+      "metaRank": 22,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 47,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-mian"
+    }
+  ],
+  "schemaVersion": 1
+}

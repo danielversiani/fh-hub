@@ -5,6 +5,7 @@ import {
   type Difficulty,
   type Drivetrain,
   type Surface,
+  type Tier,
   type TireCompound,
 } from '../schema/enums';
 
@@ -56,6 +57,18 @@ const TIRES: Record<string, TireCompound> = {
   drag: 'drag',
   vintage: 'vintage',
   'vintage race': 'vintage-race',
+  // Noa Miyako's sheet (Chinese). 热熔 ("hot-melt") is the community word for slicks.
+  原厂胎: 'stock',
+  街车胎: 'street',
+  半热熔: 'semi-slick',
+  全热熔: 'slick',
+  赛用热熔: 'super-slick',
+  拉力胎: 'rally',
+  越野胎: 'offroad',
+  雪地胎: 'snow',
+  漂移胎: 'drift',
+  复古白胎: 'vintage',
+  怀旧胎: 'vintage',
 };
 
 export function parseTires(text: string | undefined): TireCompound | undefined {
@@ -99,6 +112,8 @@ export function inferSurface(input: {
   if (/\b(road|street|circuit|touge|track|grip|highway|drag)\b/.test(name)) return 'road';
 
   if (!explicit && input.tires && ROAD_TIRES.has(input.tires)) return 'road';
+  // Rally tires mean dirt. Off-road tires stay ambiguous (dirt or cross country): no guess.
+  if (!explicit && input.tires === 'rally') return 'dirt';
   return null;
 }
 
@@ -124,8 +139,10 @@ const DIFFICULTY: Record<string, Difficulty> = {
   hard: 'hard',
   'very hard': 'very-hard',
   // Noa Miyako's sheet (Chinese)
+  非常简单: 'easy',
   简单: 'easy',
   普通: 'normal',
+  中等: 'normal',
   稍微困难: 'slightly-hard',
   困难: 'hard',
   非常困难: 'very-hard',
@@ -133,6 +150,32 @@ const DIFFICULTY: Record<string, Difficulty> = {
 
 export const parseDifficulty = (text: string | undefined): Difficulty | undefined =>
   DIFFICULTY[(text ?? '').trim().toLowerCase()];
+
+const TIERS: Record<string, Tier> = {
+  'meta+': 'meta-plus',
+  meta: 'meta',
+  't0.5': 't0.5',
+  t1: 't1',
+  't1.5': 't1.5',
+  t2: 't2',
+  t3: 't3',
+};
+
+/** "Meta+", "T0.5"… → Tier. Unknown values (e.g. Noa's 未知 = "not rated yet") → undefined. */
+export const parseTier = (text: string | undefined): Tier | undefined =>
+  TIERS[(text ?? '').trim().toLowerCase().replace(/\s+/g, '')];
+
+export type TuneRole = 'allround' | 'power' | 'handling';
+const ROLES: Record<string, TuneRole> = {
+  全能: 'allround',
+  动力: 'power',
+  操控: 'handling',
+  allround: 'allround',
+  power: 'power',
+  handling: 'handling',
+};
+export const parseRole = (text: string | undefined): TuneRole | undefined =>
+  ROLES[(text ?? '').trim().toLowerCase()];
 
 /** "0:59.227" or "59.2" → milliseconds. */
 export function parseLapTime(text: string | undefined): number | undefined {

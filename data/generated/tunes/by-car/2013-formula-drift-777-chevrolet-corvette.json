@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-formula-drift-777-chevrolet-corvette",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-31",
+      "drivetrain": "AWD",
+      "id": "sc-269084037",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Formula Drift",
+            "model": "#777 Chevrolet Corvette",
+            "sharecode": "269 084 037",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1049,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2013 Formula Drift #777 Chevrolet Corvette",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1607,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "269084037",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

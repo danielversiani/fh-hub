@@ -1,0 +1,602 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s06-spring--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 1968 Holden Monaro GTS 327",
+      "routeRaw": "",
+      "routes": [],
+      "row": 498,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s06-spring--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 1991 Honda CR-X SiR",
+      "routeRaw": "",
+      "routes": [],
+      "row": 499,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s06-spring--weekly-challenge--a-retro-adventure",
+      "name": "A Retro Adventure",
+      "requirement": {
+        "activities": [
+          "Dirt Race",
+          "Wreckage Skills",
+          "Trailblazers"
+        ],
+        "carIds": [
+          "1980-renault-5-turbo"
+        ],
+        "scope": "car",
+        "scopeLabel": "1980 Renault 5 Turbo",
+        "status": "parsed"
+      },
+      "requirementRaw": "1980 Renault 5 Turbo; Dirt Race; Wreckage Skills; Trailblazers",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 500,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-spring--daily-challenge--aftermarket",
+      "name": "Aftermarket",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Purchase an Aftermarket Car",
+        "pt-br": "Compre um carro na loja de usados (Aftermarket)"
+      },
+      "requirementRaw": "Purchase an Aftermarket Car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 501,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-spring--daily-challenge--clean-racing-skills",
+      "name": "Clean Racing Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 5 Clean Racing Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 502,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-spring--daily-challenge--cross-country-race",
+      "name": "Cross Country Race",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Cross Country Race",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 503,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-spring--daily-challenge--speed-zone",
+      "name": "Speed Zone",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Earn at least 1 Star from Speed Zones",
+        "pt-br": "Consiga pelo menos 1 estrela em zonas de velocidade"
+      },
+      "requirementRaw": "Earn at least 1 Star from Speed Zones",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 504,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-spring--daily-challenge--drag-meet",
+      "name": "Drag Meet",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a run at any Drag Meet",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 505,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-spring--daily-challenge--wreckage-skills",
+      "name": "Wreckage Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 5 Wreckage Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 506,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-spring--daily-challenge--danger-sign",
+      "name": "Danger Sign",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Earn at least 1 Star from Danger Signs",
+        "pt-br": "Consiga pelo menos 1 estrela em placas de perigo"
+      },
+      "requirementRaw": "Earn at least 1 Star from Danger Signs",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 507,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s06-spring--photo-challenge--takingyourtime",
+      "name": "#TakingYourTime",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of the 1989 Nissan S-Cargo at Kinkaku-ji Temple",
+      "reward": "Emote: So Cute",
+      "routeRaw": "",
+      "routes": [],
+      "row": 508,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s06-spring--treasure-hunt--hokubu-region",
+      "name": "Hokubu Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100,000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 509,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s06-spring--championship--dockside-drive",
+      "name": "Dockside Drive",
+      "requirement": {
+        "carIds": [
+          "1973-lamborghini-espada-400-gt",
+          "1981-bmw-m1",
+          "1982-porsche-911-turbo-3-3",
+          "1984-de-tomaso-pantera-gt5",
+          "1984-ferrari-288-gto",
+          "1987-ferrari-f40",
+          "1987-porsche-959",
+          "1988-lamborghini-countach-lp5000-qv",
+          "1991-jaguar-sport-xjr-15",
+          "1992-ferrari-512-tr",
+          "1993-jaguar-xj220",
+          "1993-jaguar-xj220s-twr",
+          "1993-mclaren-f1",
+          "1993-schuppan-962cr",
+          "1994-ferrari-f355-berlinetta",
+          "1995-ferrari-f50",
+          "1995-porsche-911-gt2",
+          "1997-lamborghini-diablo-sv",
+          "1997-lotus-elise-gt1",
+          "1997-mclaren-f1-gt",
+          "1997-porsche-911-gt1-strassenversion",
+          "1998-mercedes-benz-amg-clk-gtr",
+          "1998-nissan-r390-gt1",
+          "1998-tvr-cerbera-speed-12",
+          "2002-ferrari-enzo-ferrari",
+          "2002-lotus-esprit-v8",
+          "2003-porsche-carrera-gt",
+          "2004-maserati-mc12",
+          "2004-porsche-911-gt3",
+          "2004-saleen-s7",
+          "2005-ford-gt"
+        ],
+        "class": "S1",
+        "scope": "car-type",
+        "scopeLabel": "Retro Supercars",
+        "status": "parsed"
+      },
+      "requirementRaw": "Retro Supercars - S1 Class",
+      "reward": "Car: 1992 Lancia Delta HF Integrale EVO",
+      "routeRaw": "Street: Minami Chase, Tokyo City Docks Charge",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Minami Chase"
+        },
+        {
+          "discipline": "street",
+          "name": "Tokyo City Docks Charge"
+        }
+      ],
+      "row": 510,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s06-spring--championship--good-old-days",
+      "name": "Good Old Days",
+      "requirement": {
+        "carIds": [
+          "1980-renault-5-turbo",
+          "1982-lancia-037-stradale",
+          "1984-audi-sport-quattro",
+          "1984-peugeot-205-turbo-16",
+          "1986-lancia-delta-s4",
+          "1989-volkswagen-rallye-golf",
+          "1990-nissan-pulsar-gti-r",
+          "1990-subaru-legacy-rs",
+          "1992-ford-escort-rs-cosworth",
+          "1992-lancia-delta-hf-integrale-evo",
+          "1992-mitsubishi-galant-vr-4",
+          "1992-toyota-celica-gt-four-rc-st185",
+          "1994-toyota-celica-gt-four-st205",
+          "1995-mitsubishi-lancer-evolution-iii-gsr",
+          "1998-subaru-impreza-22b-sti-version",
+          "1999-ford-racing-puma",
+          "2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition"
+        ],
+        "class": "C",
+        "scope": "car-type",
+        "scopeLabel": "Retro Rally",
+        "status": "parsed"
+      },
+      "requirementRaw": "Retro Rally - C Class",
+      "reward": "Car: 2005 Porsche Cayman GT3 WTAC",
+      "routeRaw": "Dirt: Airfield Trail, Sekibe Scramble",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Airfield Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Sekibe Scramble"
+        }
+      ],
+      "row": 511,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": "dirt",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "drift",
+      "id": "s06-spring--horizon-life-drift-attack--shimanoyama-drift-attack",
+      "name": "Shimanoyama Drift Attack",
+      "requirement": {
+        "carIds": [
+          "1972-mazda-cosmo-110s-series-ii",
+          "1973-mazda-rx-3",
+          "1973-mazda-rx-3-forza-edition",
+          "1974-mazda-123-mad-mike-808-wagon-fursty",
+          "1985-mazda-rx-7-gsl-se",
+          "1990-mazda-savanna-rx-7",
+          "1991-mazda-55-mazda-787b",
+          "1992-mazda-rx-7-type-r",
+          "1994-mazda-mx-5-miata",
+          "1994-mazda-mx-5-miata-forza-edition",
+          "2005-mazda-mazdaspeed-mx-5",
+          "2008-mazda-furai",
+          "2010-mazda-mazdaspeed-3",
+          "2011-mazda-rx-8-r3",
+          "2013-mazda-mx-5",
+          "2016-mazda-mx-5",
+          "2017-mazda-mx-5-cup",
+          "2022-mazda-mx-5-miata-rf"
+        ],
+        "class": "B",
+        "scope": "make",
+        "scopeLabel": "Mazda",
+        "status": "parsed",
+        "target": {
+          "kind": "score",
+          "raw": "80,000 points",
+          "unit": "pts",
+          "value": 80000
+        }
+      },
+      "requirementRaw": "Mazda - B Class - 80,000 points",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 512,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Horizon Life - Drift Attack"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s06-spring--pr-stunt-speed-trap--konbini-dash",
+      "name": "Konbini Dash",
+      "requirement": {
+        "carIds": [
+          "1972-mazda-cosmo-110s-series-ii",
+          "1973-mazda-rx-3",
+          "1973-mazda-rx-3-forza-edition",
+          "1974-mazda-123-mad-mike-808-wagon-fursty",
+          "1985-mazda-rx-7-gsl-se",
+          "1990-mazda-savanna-rx-7",
+          "1991-mazda-55-mazda-787b",
+          "1992-mazda-rx-7-type-r",
+          "1994-mazda-mx-5-miata",
+          "1994-mazda-mx-5-miata-forza-edition",
+          "2005-mazda-mazdaspeed-mx-5",
+          "2008-mazda-furai",
+          "2010-mazda-mazdaspeed-3",
+          "2011-mazda-rx-8-r3",
+          "2013-mazda-mx-5",
+          "2016-mazda-mx-5",
+          "2017-mazda-mx-5-cup",
+          "2022-mazda-mx-5-miata-rf"
+        ],
+        "class": "B",
+        "scope": "make",
+        "scopeLabel": "Mazda",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "92.0 mph",
+          "unit": "mph",
+          "value": 92
+        }
+      },
+      "requirementRaw": "Mazda - B Class - 92.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 513,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "drift",
+      "id": "s06-spring--pr-stunt-drift-zone--kodachi-run",
+      "name": "Kodachi Run",
+      "requirement": {
+        "carIds": [
+          "1972-mazda-cosmo-110s-series-ii",
+          "1973-mazda-rx-3",
+          "1973-mazda-rx-3-forza-edition",
+          "1974-mazda-123-mad-mike-808-wagon-fursty",
+          "1985-mazda-rx-7-gsl-se",
+          "1990-mazda-savanna-rx-7",
+          "1991-mazda-55-mazda-787b",
+          "1992-mazda-rx-7-type-r",
+          "1994-mazda-mx-5-miata",
+          "1994-mazda-mx-5-miata-forza-edition",
+          "2005-mazda-mazdaspeed-mx-5",
+          "2008-mazda-furai",
+          "2010-mazda-mazdaspeed-3",
+          "2011-mazda-rx-8-r3",
+          "2013-mazda-mx-5",
+          "2016-mazda-mx-5",
+          "2017-mazda-mx-5-cup",
+          "2022-mazda-mx-5-miata-rf"
+        ],
+        "class": "B",
+        "scope": "make",
+        "scopeLabel": "Mazda",
+        "status": "parsed",
+        "target": {
+          "kind": "score",
+          "raw": "74,100 points",
+          "unit": "pts",
+          "value": 74100
+        }
+      },
+      "requirementRaw": "Mazda - B Class - 74,100 points",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 514,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "PR Stunt - Drift Zone"
+    },
+    {
+      "category": "trial",
+      "discipline": "circuit",
+      "id": "s06-spring--horizon-life-the-trial--countryside-views",
+      "name": "Countryside Views",
+      "requirement": {
+        "class": "B",
+        "scope": "any",
+        "scopeLabel": "Japan",
+        "status": "parsed"
+      },
+      "requirementRaw": "Japan - B Class",
+      "reward": "Car: 2013 Audi R8 Coupe V10 plus 5.2 FSI quattro",
+      "routeRaw": "Road: Narai-Juku Circuit, Shirakawa Circuit, Hokubu Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Narai-Juku Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Shirakawa Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Hokubu Circuit"
+        }
+      ],
+      "row": 515,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s06-spring--horizon-play-spec-racing--up-to-spec",
+      "name": "Up to Spec?",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Spec Racing Championship",
+        "pt-br": "Complete um campeonato Spec Racing"
+      },
+      "requirementRaw": "Complete a Spec Racing Championship",
+      "reward": "Quickchat: Dude where's my car?",
+      "routeRaw": "",
+      "routes": [],
+      "row": 516,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Horizon Play - Spec Racing"
+    },
+    {
+      "category": "online",
+      "id": "s06-spring--horizon-play-hide-and-seek--5-vs-1",
+      "name": "5 VS 1",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a game of Hide & Seek",
+        "pt-br": "Complete uma partida de Hide & Seek (esconde-esconde)"
+      },
+      "requirementRaw": "Complete a game of Hide & Seek",
+      "reward": "Super Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 517,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Horizon Play - Hide & Seek"
+    },
+    {
+      "category": "online",
+      "id": "s06-spring--horizon-play-horizon-stunt-party--mini-games",
+      "name": "Mini Games",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete any Horizon Stunt Party",
+        "pt-br": "Complete qualquer Horizon Stunt Party"
+      },
+      "requirementRaw": "Complete any Horizon Stunt Party",
+      "reward": "Car Horn: Noodle Slurp",
+      "routeRaw": "",
+      "routes": [],
+      "row": 518,
+      "seasonId": "s06-spring",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Horizon Play - Horizon Stunt Party"
+    }
+  ],
+  "schemaVersion": 1
+}

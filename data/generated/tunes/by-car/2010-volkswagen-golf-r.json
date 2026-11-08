@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2010-volkswagen-golf-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6ad77bdb2f",
+      "name": "B road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Volkswagen Golf R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B road",
+            "Tuner": "SeeyeahBoss",
+            "fill": "FFED7D31"
+          },
+          "row": 687,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "seeyeahboss"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-dbd762109d",
+      "lapRefs": [
+        {
+          "time": "1:01.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:01.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 128,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 261,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-09",
+      "drivetrain": "AWD",
+      "id": "sc-169069079",
+      "metaRank": 128,
+      "name": "APR Kit Road Grip (M/C) Modular+K20C1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Volkswagen",
+            "model": "Golf R (2010)",
+            "sharecode": "169 069 079",
+            "suspension": "Street",
+            "tuneName": "APR Kit Road Grip (M/C) Modular+K20C1",
+            "tuner": "TheDannny",
+            "tyreCompound": "Rally"
+          },
+          "row": 2622,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.561,
+      "shareCode": "169069079",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "thedannny"
+    }
+  ],
+  "schemaVersion": 1
+}

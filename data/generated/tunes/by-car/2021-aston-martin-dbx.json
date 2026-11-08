@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2021-aston-martin-dbx",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-fbc93c2ea6",
+      "metaRank": 47,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 100,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.507,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-aston-martin-dbx",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-29",
+      "drivetrain": "AWD",
+      "id": "sc-105773175",
+      "metaRank": 47,
+      "name": "A800 Dirt/CC Vulcan",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "DBX",
+            "sharecode": "105 773 175",
+            "suspension": "Rally",
+            "tuneName": "A800 Dirt/CC Vulcan",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 165,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "105773175",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2021-aston-martin-dbx",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-29",
+      "drivetrain": "AWD",
+      "id": "sc-135032705",
+      "metaRank": 47,
+      "name": "Purist Dirt & CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "DBX",
+            "sharecode": "135 032 705",
+            "suspension": "Sport",
+            "tuneName": "Purist Dirt & CC",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 163,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "135032705",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-aston-martin-dbx",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-01",
+      "drivetrain": "AWD",
+      "id": "sc-140877810",
+      "name": "A OFF - ROAD",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "DBX",
+            "sharecode": "140 877 810",
+            "suspension": "Sport",
+            "tuneName": "A OFF - ROAD",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 164,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2021 Aston Martin DBX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A OFF - ROAD",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 794,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "140877810",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "esv-lawrence"
+    }
+  ],
+  "schemaVersion": 1
+}

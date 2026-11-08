@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1997-toyota-soarer-2-5-gt-t",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-0ebf0745a6",
+      "name": "Stock Look Dirt Allround T2+ Sunflower 00.2 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Toyota Soarer 2.5 GT-T",
+            "Comment": "",
+            "Design": "D1GP VERTEX SC300",
+            "Designer": "Yayquaza",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Stock Look Dirt Allround T2+ Sunflower 00.2 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 2849,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-toyota-soarer-2-5-gt-t",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-9e2dfc3705",
+      "name": "Bumper+Sideskirt Ver.",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Toyota Soarer 2.5 GT-T",
+            "Comment": "",
+            "Design": "SNOOZY",
+            "Designer": "ENV1 PTGDRIFTER",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Bumper+Sideskirt Ver.",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 2848,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1997-toyota-soarer-2-5-gt-t",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-bc5850235d",
+      "name": "Normal top speed for a B-class car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Toyota Soarer 2.5 GT-T",
+            "Comment": "Powerbuild",
+            "Design": "ORIGINLABO DRIFT",
+            "Designer": "XploGF",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Normal top speed for a B-class car",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 600,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-toyota-soarer-2-5-gt-t",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-29",
+      "drivetrain": "RWD",
+      "id": "sc-177939808",
+      "name": "Purist fat",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "Soarer 2.5 GT-T",
+            "sharecode": "177 939 808",
+            "suspension": "Street",
+            "tuneName": "Purist fat",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Rally"
+          },
+          "row": 2535,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1997 Toyota Soarer 2.5 GT-T",
+            "Comment": "Purist",
+            "Design": "FALKEN STYLE",
+            "Designer": "ENV1 PTGDRIFTER",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist fat",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 2850,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "177939808",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-toyota-soarer-2-5-gt-t",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-19",
+      "drivetrain": "RWD",
+      "id": "sc-983943029",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "Soarer 2.5 GT-T",
+            "sharecode": "983 943 029",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Rally"
+          },
+          "row": 2536,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "983943029",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ndl-samu"
+    }
+  ],
+  "schemaVersion": 1
+}

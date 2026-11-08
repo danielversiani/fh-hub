@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-formula-drift-13-ford-mustang",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-31",
+      "drivetrain": "AWD",
+      "id": "sc-116167855",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Formula Drift",
+            "model": "#13 Ford Mustang",
+            "sharecode": "116 167 855",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1048,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Formula Drift #13 Ford Mustang",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1608,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "116167855",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

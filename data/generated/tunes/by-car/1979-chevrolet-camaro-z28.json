@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1979-chevrolet-camaro-z28",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-308eb93b4c",
+      "name": "RWD Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1979 Chevrolet Camaro Z28",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "RWD Dirt",
+            "Tuner": "NEPOSHA",
+            "fill": "theme:7"
+          },
+          "row": 34,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "neposha"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1979-chevrolet-camaro-z28",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-3e0db828e1",
+      "metaRank": 13,
+      "name": "Purizm",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1979 Chevrolet Camaro Z28",
+            "Comment": "Purist",
+            "Design": "HOTWHEELS HOTCHKIS",
+            "Designer": "BUZZARD 69",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purizm",
+            "Tuner": "PopSimon24",
+            "fill": "FFED7D31"
+          },
+          "row": 228,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "popsimon24"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-chevrolet-camaro-z28",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-5b8c185c60",
+      "lapRefs": [
+        {
+          "time": "1:04.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 13,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 29,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1979-chevrolet-camaro-z28",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-5fb61d7706",
+      "metaRank": 47,
+      "name": "RWD (MC)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1979 Chevrolet Camaro Z28",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "RWD (MC)",
+            "Tuner": "SeeyeahBoss",
+            "fill": "FFFF0000"
+          },
+          "row": 1116,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.44,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "seeyeahboss"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-chevrolet-camaro-z28",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-c73dad054e",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 47,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 98,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1979-chevrolet-camaro-z28",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-16",
+      "drivetrain": "RWD",
+      "id": "sc-836849779",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Chevrolet",
+            "model": "Camaro Z28 (1979)",
+            "sharecode": "836 849 779",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Rally"
+          },
+          "row": 457,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1979 Chevrolet Camaro Z28",
+            "Comment": "Purist",
+            "Design": "BUMBLEBEE",
+            "Designer": "Cool Guy 207",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1117,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "836849779",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "silvasuperbee"
+    }
+  ],
+  "schemaVersion": 1
+}

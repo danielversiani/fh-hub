@@ -1,0 +1,565 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1d7032120b",
+      "metaRank": 45,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 96,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4e7693f431",
+      "metaRank": 11,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-67d8298e9e",
+      "lapRefs": [
+        {
+          "time": "1:00.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.6干净",
+      "metaNotesI18n": {
+        "en": "Clean lap.",
+        "pt-br": "Volta limpa."
+      },
+      "metaRank": 54,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 112,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6eef454130",
+      "metaRank": 11,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-765119d599",
+      "metaRank": 54,
+      "name": "Purist street cage",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2006 Dodge RAM SRT-10",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist street cage",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1287,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7f9f5f16c0",
+      "metaRank": 17,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-aaf578a9dd",
+      "metaRank": 11,
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2006 Dodge RAM SRT-10",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "CTE mag",
+            "fill": "FFFF0000"
+          },
+          "row": 1286,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "cte-mag"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b5ac46be62",
+      "metaRank": 11,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-03",
+      "drivetrain": "AWD",
+      "id": "sc-107981092",
+      "metaRank": 17,
+      "name": "A Cross Country, more power and weight + rally susp",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "RAM SRT-10",
+            "sharecode": "107 981 092",
+            "suspension": "Rally",
+            "tuneName": "A Cross Country, more power and weight + rally susp",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 720,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.631,
+      "shareCode": "107981092",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-04",
+      "drivetrain": "AWD",
+      "id": "sc-168578673",
+      "metaRank": 11,
+      "name": "(A)merican Dirt Truck Offmeta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "RAM SRT-10",
+            "sharecode": "168 578 673",
+            "suspension": "Street",
+            "tuneName": "(A)merican Dirt Truck Offmeta",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 722,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.631,
+      "shareCode": "168578673",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-03",
+      "drivetrain": "AWD",
+      "id": "sc-177555338",
+      "name": "B Dirt/CC AWD RA",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "RAM SRT-10",
+            "sharecode": "177 555 338",
+            "suspension": "Street",
+            "tuneName": "B Dirt/CC AWD RA",
+            "tuner": "JakeGTR9",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 723,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "177555338",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "jakegtr9"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-04",
+      "drivetrain": "AWD",
+      "id": "sc-197863336",
+      "name": "S1 dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "04/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "RAM SRT-10",
+            "sharecode": "197 863 336",
+            "suspension": "Street",
+            "tuneName": "S1 dirt/CC",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 725,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2006 Dodge RAM SRT-10",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 dirt/CC",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1288,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.668,
+      "shareCode": "197863336",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-04",
+      "drivetrain": "AWD",
+      "id": "sc-337140059",
+      "metaRank": 17,
+      "name": "A Dirt/CC AWD Strong Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "RAM SRT-10",
+            "sharecode": "337 140 059",
+            "suspension": "Rally",
+            "tuneName": "A Dirt/CC AWD Strong Stock Look",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 721,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.631,
+      "shareCode": "337140059",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-04",
+      "drivetrain": "AWD",
+      "id": "sc-682902982",
+      "metaRank": 11,
+      "name": "So... how do you seat the middle seat of the Ram SRT10?",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "RAM SRT-10",
+            "sharecode": "682 902 982",
+            "suspension": "Race",
+            "tuneName": "So... how do you seat the middle seat of the Ram SRT10?",
+            "tuner": "Grandma Driving",
+            "tyreCompound": "Rally"
+          },
+          "row": 719,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.631,
+      "shareCode": "682902982",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-03",
+      "drivetrain": "AWD",
+      "id": "sc-759407456",
+      "name": "B Road AWD Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Dodge",
+            "model": "RAM SRT-10",
+            "sharecode": "759 407 456",
+            "suspension": "Street",
+            "tuneName": "B Road AWD Grip",
+            "tuner": "LogikJ",
+            "tyreCompound": "Street"
+          },
+          "row": 724,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "759407456",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

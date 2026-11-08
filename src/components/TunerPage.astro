@@ -1,0 +1,33 @@
+---
+import type { Tuner } from '../../pipeline/schema/entities';
+import { localePath, t, type Locale } from '../i18n';
+import TuneBrowser from '../islands/TuneBrowser';
+import Base from '../layouts/Base.astro';
+import { tuneBrowserLabels } from '../lib/labels';
+
+interface Props {
+  locale: Locale;
+  tuner: Tuner;
+}
+
+const { locale, tuner } = Astro.props;
+---
+
+<Base locale={locale} path={`/tuners/${tuner.id}/`} title={tuner.displayName}>
+  <p class="label">
+    <a href={localePath(locale, '/tuners/')} class="hover:text-text">
+      {t(locale, 'nav.tuners')}
+    </a>
+  </p>
+  <h1 class="display mt-2 text-4xl sm:text-5xl">{tuner.displayName}</h1>
+  <p class="mt-2 text-muted">{t(locale, 'tuner.lead', { name: tuner.displayName })}</p>
+  <div class="mt-8">
+    <TuneBrowser
+      client:load
+      labels={tuneBrowserLabels(locale)}
+      base={locale === 'en' ? '/en' : ''}
+      dataUrl="/data/browse.json"
+      tuner={tuner.id}
+    />
+  </div>
+</Base>

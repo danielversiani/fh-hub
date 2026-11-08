@@ -23,7 +23,8 @@ function parseFlags(args: string[]) {
   }
   const source = flags.get('source');
   return {
-    sourceIds: typeof source === 'string' ? source.split(',').filter(Boolean) : undefined,
+    // PowerShell turns "a,b" into "a b", so accept both separators.
+    sourceIds: typeof source === 'string' ? source.split(/[,\s]+/).filter(Boolean) : undefined,
     has: (name: string) => flags.has(name),
   };
 }

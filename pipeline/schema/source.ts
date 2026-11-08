@@ -1,7 +1,15 @@
 import { z } from 'zod';
 import { CarClass, Permission, Slug, SourceKind } from './enums';
 
-export const TabRole = z.enum(['tunes', 'catalog', 'meta', 'laptimes', 'custom-event', 'playlist']);
+export const TabRole = z.enum([
+  'tunes',
+  'catalog',
+  'attributes',
+  'meta',
+  'laptimes',
+  'custom-event',
+  'playlist',
+]);
 export type TabRole = z.infer<typeof TabRole>;
 
 export const SourceTab = z.object({
@@ -23,8 +31,18 @@ export type SourceTab = z.infer<typeof SourceTab>;
  * google-csv  → CSV export of each tab (falls back to the gviz endpoint when the owner disabled downloads)
  * google-xlsx → whole workbook, for sources whose formatting carries data (kleis' colours)
  * forza-net   → Nuxt payload of an official forza.net page
+ * qq-docs     → every tab of a public QQ Docs spreadsheet (fetchers/qq-docs.ts)
+ * mediawiki   → members of a wiki category through the MediaWiki API (`path` = category)
+ * mediawiki-images → the lead image of every page in a wiki category (`path` = category)
  */
-export const Fetcher = z.enum(['google-csv', 'google-xlsx', 'forza-net']);
+export const Fetcher = z.enum([
+  'google-csv',
+  'google-xlsx',
+  'forza-net',
+  'qq-docs',
+  'mediawiki',
+  'mediawiki-images',
+]);
 export type Fetcher = z.infer<typeof Fetcher>;
 
 export const SourceDef = z
@@ -50,11 +68,15 @@ export const SourceDef = z
   .superRefine((s, ctx) => {
     const fail = (message: string) =>
       ctx.addIssue({ code: 'custom', message: `[${s.id}] ${message}` });
-    if (s.fetcher.startsWith('google-') && !s.docId) fail('google fetchers need `docId`');
+    if ((s.fetcher.startsWith('google-') || s.fetcher === 'qq-docs') && !s.docId) {
+      fail(`${s.fetcher} needs \`docId\``);
+    }
     for (const tab of s.tabs) {
       if (s.fetcher === 'google-csv' && !tab.gid) fail(`tab ${tab.id} needs \`gid\``);
       if (s.fetcher === 'google-xlsx' && !tab.sheet) fail(`tab ${tab.id} needs \`sheet\``);
-      if (s.fetcher === 'forza-net' && !tab.path) fail(`tab ${tab.id} needs \`path\``);
+      if ((s.fetcher === 'forza-net' || s.fetcher.startsWith('mediawiki')) && !tab.path) {
+        fail(`tab ${tab.id} needs \`path\``);
+      }
     }
   });
 export type SourceDef = z.infer<typeof SourceDef>;
@@ -70,6 +92,6 @@ export const SourcesFile = z
   });
 export type SourcesFile = z.infer<typeof SourcesFile>;
 
-/** Sources whose data may be committed and published (ADR-0010). */
+/** Sources whose data may be committed and published (ADR-0010; `prelaunch`: ADR-0015). */
 export const isPublic = (s: Pick<SourceDef, 'permission'>): boolean =>
-  s.permission === 'granted' || s.permission === 'not-required';
+  s.permission === 'granted' || s.permission === 'not-required' || s.permission === 'prelaunch';

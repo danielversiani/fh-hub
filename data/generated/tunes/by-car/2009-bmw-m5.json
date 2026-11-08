@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2009-bmw-m5",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-8e384e36cc",
+      "name": "he finally does something",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 BMW M5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "he finally does something",
+            "Tuner": "| Akatsuki |",
+            "fill": "FFFF0000"
+          },
+          "row": 1004,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "akatsuki"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2009-bmw-m5",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-03",
+      "drivetrain": "RWD",
+      "id": "sc-130090930",
+      "name": "A Road | Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "BMW",
+            "model": "M5 (2009)",
+            "sharecode": "130 090 930",
+            "suspension": "Street",
+            "tuneName": "A Road | Purist",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 394,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.478,
+      "shareCode": "130090930",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2009-bmw-m5",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "RWD",
+      "id": "sc-745098187",
+      "name": "A Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "BMW",
+            "model": "M5 (2009)",
+            "sharecode": "745 098 187",
+            "suspension": "Race",
+            "tuneName": "A Road Purist",
+            "tuner": "VNX Ruinz",
+            "tyreCompound": "Rally"
+          },
+          "row": 396,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "745098187",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2009-bmw-m5",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-26",
+      "drivetrain": "RWD",
+      "id": "sc-947447712",
+      "name": "Purist A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "BMW",
+            "model": "M5 (2009)",
+            "sharecode": "947 447 712",
+            "suspension": "Street",
+            "tuneName": "Purist A Road",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 395,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "947447712",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

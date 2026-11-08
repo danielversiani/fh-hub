@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1991-toyota-chaser-gt-twin-turbo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-31c560dad0",
+      "name": "No Aero Dirt Sprint T1 Sunflower 00.1 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Toyota Chaser GT Twin Turbo",
+            "Comment": "",
+            "Design": "BIRO GROUP.A JTC TRIBUTE",
+            "Designer": "JACK B X 91",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "No Aero Dirt Sprint T1 Sunflower 00.1 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 2817,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-toyota-chaser-gt-twin-turbo",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-94d14db9da",
+      "name": "Purist street",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Toyota Chaser GT Twin Turbo",
+            "Comment": "Purist",
+            "Design": "GARAGE J STREET TOUGE",
+            "Designer": "Ghostrider 400R",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist street",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFFF0000"
+          },
+          "row": 2818,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-toyota-chaser-gt-twin-turbo",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-23",
+      "drivetrain": "RWD",
+      "id": "sc-137202197",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "23/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "Chaser GT Twin Turbo",
+            "sharecode": "137 202 197",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Rally"
+          },
+          "row": 2444,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "137202197",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ndl-samu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-toyota-chaser-gt-twin-turbo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-07",
+      "drivetrain": "AWD",
+      "id": "sc-482738809",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "07/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Chaser GT Twin Turbo",
+            "sharecode": "482 738 809",
+            "suspension": "Stock",
+            "tuneName": "A Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2443,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Toyota Chaser GT Twin Turbo",
+            "Comment": "",
+            "Design": "YELLOWHART CHASER",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 2816,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.691,
+      "shareCode": "482738809",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}

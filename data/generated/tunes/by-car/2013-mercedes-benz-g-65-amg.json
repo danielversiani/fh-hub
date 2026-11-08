@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1684b81b1b",
+      "metaRank": 39,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 83,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-69a88e8a31",
+      "name": "1:02.768 Shirakawa Widebody No Aero Stock Rims",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Mercedes-Benz G 65 AMG",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "1:02.768 Shirakawa Widebody No Aero Stock Rims",
+            "Tuner": "F1R Kilian",
+            "fill": "FFFF0000"
+          },
+          "row": 2338,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7eecea664e",
+      "metaRank": 39,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 83,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ea37e44a77",
+      "metaRank": 18,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 40,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-100445168",
+      "name": "THUGGY",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "G 65 AMG",
+            "sharecode": "100 445 168",
+            "suspension": "Street",
+            "tuneName": "THUGGY",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1780,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "100445168",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-12",
+      "drivetrain": "AWD",
+      "id": "sc-697113969",
+      "name": "1:02.786 Shirakawa Widebody No Aero Stock Rims",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "G 65 AMG",
+            "sharecode": "697 113 969",
+            "suspension": "Street",
+            "tuneName": "1:02.786 Shirakawa Widebody No Aero Stock Rims",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Rally"
+          },
+          "row": 1778,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "697113969",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-12",
+      "drivetrain": "AWD",
+      "id": "sc-935102707",
+      "metaRank": 39,
+      "name": "Dirt/CC Widebody Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "12/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "G 65 AMG",
+            "sharecode": "935 102 707",
+            "suspension": "Street",
+            "tuneName": "Dirt/CC Widebody Strong",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1779,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.533,
+      "shareCode": "935102707",
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

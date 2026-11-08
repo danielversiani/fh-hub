@@ -1,0 +1,567 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s07-winter--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 15,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "15 pts",
+      "reward": "Car: 1987 FIAT Panda",
+      "routeRaw": "",
+      "routes": [],
+      "row": 565,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s07-winter--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 30,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "30 pts",
+      "reward": "Car: 1989 Volkswagen Rallye Golf",
+      "routeRaw": "",
+      "routes": [],
+      "row": 566,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s07-winter--weekly-challenge--car-go-brrr",
+      "name": "Car Go Brrr",
+      "requirement": {
+        "activities": [],
+        "carIds": [
+          "1989-nissan-s-cargo"
+        ],
+        "scope": "car",
+        "scopeLabel": "1989 Nissan S-Cargo",
+        "status": "parsed"
+      },
+      "requirementRaw": "1989 Nissan S-Cargo",
+      "reward": "Credits: 150000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 567,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-winter--daily-challenge--threading-the-needle-skills",
+      "name": "Threading the Needle Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Earn 3 Threading the Needle Skills",
+        "pt-br": "Consiga 3 habilidades Threading the Needle"
+      },
+      "requirementRaw": "Earn 3 Threading the Needle Skills",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 568,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-winter--daily-challenge--touge-race",
+      "name": "Touge Race",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Touge Race",
+        "pt-br": "Complete uma corrida de touge"
+      },
+      "requirementRaw": "Complete a Touge Race",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 569,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-winter--daily-challenge--drag-meet",
+      "name": "Drag Meet",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete 1 run at any Drag Meet",
+        "pt-br": "Complete 1 arrancada em qualquer Drag Meet"
+      },
+      "requirementRaw": "Complete 1 run at any Drag Meet",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 570,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-winter--daily-challenge--stuntman-skills",
+      "name": "Stuntman Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Earn a Stuntman Skill",
+        "pt-br": "Consiga uma habilidade Stuntman"
+      },
+      "requirementRaw": "Earn a Stuntman Skill",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 571,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-winter--daily-challenge--showcase",
+      "name": "Showcase",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Showcase",
+        "pt-br": "Complete um Showcase"
+      },
+      "requirementRaw": "Complete a Showcase",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 572,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-winter--daily-challenge--car-meet",
+      "name": "Car Meet",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Park at any Car Meet",
+        "pt-br": "Estacione em qualquer encontro de carros (Car Meet)"
+      },
+      "requirementRaw": "Park at any Car Meet",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 573,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-winter--daily-challenge--car-photo",
+      "name": "Car Photo",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Take a photo of any car",
+        "pt-br": "Tire uma foto de qualquer carro"
+      },
+      "requirementRaw": "Take a photo of any car",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 574,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s07-winter--treasure-hunt--tokyo-city-region",
+      "name": "Tokyo City Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 575,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "id": "s07-winter--championship--city-skyline",
+      "name": "City Skyline",
+      "requirement": {
+        "carIds": [
+          "1971-nissan-skyline-2000gt-r",
+          "1973-nissan-skyline-h-t-2000gt-r",
+          "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
+          "1983-nissan-skyline-2000-turbo-rs",
+          "1987-nissan-skyline-gts-r",
+          "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
+          "1992-nissan-skyline-gt-r",
+          "1993-nissan-32-skyline-wtac-xtreme-gtr",
+          "1997-nissan-skyline-gt-r-v-spec",
+          "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+          "1998-nissan-skyline-gt-r-40th-anniversary",
+          "2000-nissan-skyline-gt-r-v-spec-ii"
+        ],
+        "class": "B",
+        "scope": "family",
+        "scopeLabel": "Nissan Skyline",
+        "status": "parsed"
+      },
+      "requirementRaw": "Nissan Skyline - B Class",
+      "reward": "Car: 1965 Alfa Romeo Giulia Sprint GTA Stradale",
+      "routeRaw": "Road: Daikoku Circuit, Tokyo Railway Sprint, Edo Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Daikoku Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Tokyo Railway Sprint"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Edo Circuit"
+        }
+      ],
+      "row": 576,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s07-winter--championship--raring-to-go",
+      "name": "Raring to Go",
+      "requirement": {
+        "carIds": [
+          "1954-mercedes-benz-300-sl-coupe",
+          "1961-jaguar-e-type",
+          "1962-ferrari-250-gt-berlinetta-lusso",
+          "1964-aston-martin-db5",
+          "1965-alfa-romeo-giulia-sprint-gta-stradale",
+          "1965-shelby-cobra-427-s-c",
+          "1967-ferrari-275-gtb4-spider",
+          "1967-lamborghini-miura-p400",
+          "1969-ferrari-dino-246-gt",
+          "1969-toyota-2000gt",
+          "1973-porsche-911-carrera-rs"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Rare Classics",
+        "status": "parsed"
+      },
+      "requirementRaw": "Rare Classics - B Class",
+      "reward": "Car: 2021 Bentley Continental GT Convertible",
+      "routeRaw": "Street: Cedar Run, Tokyo City Docks Charge, Kita Ine",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Cedar Run"
+        },
+        {
+          "discipline": "street",
+          "name": "Tokyo City Docks Charge"
+        },
+        {
+          "discipline": "street",
+          "name": "Kita Ine"
+        }
+      ],
+      "row": 577,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "drag",
+      "id": "s07-winter--horizon-life-drag-meet--festival-kilometer",
+      "name": "Festival Kilometer",
+      "requirement": {
+        "carIds": [
+          "2013-cadillac-xts-limousine"
+        ],
+        "class": "S1",
+        "scope": "car",
+        "scopeLabel": "2013 Cadillac XTS Limousine",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "17.000 seconds",
+          "unit": "s",
+          "value": 17
+        }
+      },
+      "requirementRaw": "2013 Cadillac XTS Limousine - S1 Class - 17.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 578,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Horizon Life - Drag Meet"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s07-winter--pr-stunt-danger-sign--tokyo-city-dockside",
+      "name": "Tokyo City Dockside",
+      "requirement": {
+        "carIds": [
+          "2013-cadillac-xts-limousine"
+        ],
+        "class": "S1",
+        "scope": "car",
+        "scopeLabel": "2013 Cadillac XTS Limousine",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "1,312.3 ft",
+          "unit": "ft",
+          "value": 1312.3
+        }
+      },
+      "requirementRaw": "2013 Cadillac XTS Limousine - S1 Class - 1,312.3 ft",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 579,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s07-winter--pr-stunt-speed-trap--daikoku-parking-area",
+      "name": "Daikoku Parking Area",
+      "requirement": {
+        "carIds": [
+          "2013-cadillac-xts-limousine"
+        ],
+        "class": "S1",
+        "scope": "car",
+        "scopeLabel": "2013 Cadillac XTS Limousine",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "150.0 mph",
+          "unit": "mph",
+          "value": 150
+        }
+      },
+      "requirementRaw": "2013 Cadillac XTS Limousine - S1 Class - 150.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 580,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s07-winter--pr-stunt-speed-zone--city-sights",
+      "name": "City Sights",
+      "requirement": {
+        "carIds": [
+          "2013-cadillac-xts-limousine"
+        ],
+        "class": "S1",
+        "scope": "car",
+        "scopeLabel": "2013 Cadillac XTS Limousine",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "150.0 mph",
+          "unit": "mph",
+          "value": 150
+        }
+      },
+      "requirementRaw": "2013 Cadillac XTS Limousine - S1 Class - 150.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 581,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "drift",
+      "id": "s07-winter--pr-stunt-drift-zone--tokyo-city-docks",
+      "name": "Tokyo City Docks",
+      "requirement": {
+        "carIds": [
+          "2013-cadillac-xts-limousine"
+        ],
+        "class": "S1",
+        "scope": "car",
+        "scopeLabel": "2013 Cadillac XTS Limousine",
+        "status": "parsed",
+        "target": {
+          "kind": "score",
+          "raw": "110,000 points",
+          "unit": "pts",
+          "value": 110000
+        }
+      },
+      "requirementRaw": "2013 Cadillac XTS Limousine - S1 Class - 110,000 points",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 582,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "PR Stunt - Drift Zone"
+    },
+    {
+      "category": "trial",
+      "discipline": "circuit",
+      "id": "s07-winter--horizon-life-the-trial--mayhem-in-metro-polis",
+      "name": "Mayhem in Metro-polis",
+      "requirement": {
+        "carIds": [
+          "1965-mini-cooper-s"
+        ],
+        "class": "B",
+        "scope": "car",
+        "scopeLabel": "1965 MINI Cooper S",
+        "status": "parsed"
+      },
+      "requirementRaw": "1965 MINI Cooper S - B Class",
+      "reward": "Car: 1986 MG Metro 6R4",
+      "routeRaw": "Cross Country: Shinjuku Gyoen Cross Country, City Docks Cross Country Circuit, Edogawa Cross Country Circuit",
+      "routes": [
+        {
+          "name": "Shinjuku Gyoen Cross Country"
+        },
+        {
+          "discipline": "circuit",
+          "name": "City Docks Cross Country Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Edogawa Cross Country Circuit"
+        }
+      ],
+      "row": 583,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": "cross-country",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s07-winter--horizon-play-racing--catch-my-drift",
+      "name": "Catch my Drift",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Horizon Drift Championship",
+        "pt-br": "Complete um campeonato Horizon Drift"
+      },
+      "requirementRaw": "Complete a Horizon Drift Championship",
+      "reward": "Car Horn: Keyboard Typing",
+      "routeRaw": "",
+      "routes": [],
+      "row": 584,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Horizon Play - Racing"
+    },
+    {
+      "category": "online",
+      "id": "s07-winter--horizon-stunt-party--mini-games",
+      "name": "Mini Games",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete any Horizon Stunt Party",
+        "pt-br": "Complete qualquer Horizon Stunt Party"
+      },
+      "requirementRaw": "Complete any Horizon Stunt Party",
+      "reward": "Clothing: Black and Red Utility Pants",
+      "routeRaw": "",
+      "routes": [],
+      "row": 585,
+      "seasonId": "s07-winter",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Horizon Stunt Party"
+    }
+  ],
+  "schemaVersion": 1
+}

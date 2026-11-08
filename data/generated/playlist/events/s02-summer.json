@@ -1,0 +1,687 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s02-summer--community-gift--gift-car",
+      "name": "Gift Car",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Eliminator availability goodwill",
+      "reward": "Car: 2021 McLaren Sabre",
+      "routeRaw": "",
+      "routes": [],
+      "row": 89,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Community Gift"
+    },
+    {
+      "category": "reward",
+      "id": "s02-summer--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 1989 Volkswagen Rallye Golf",
+      "routeRaw": "",
+      "routes": [],
+      "row": 90,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s02-summer--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 1988 Lamborghini Countach LP5000 QV",
+      "routeRaw": "",
+      "routes": [],
+      "row": 91,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s02-summer--weekly-challenge--blast-from-the-past",
+      "name": "Blast from the Past",
+      "requirement": {
+        "activities": [
+          "Speed Skills",
+          "Photo",
+          "Road Race"
+        ],
+        "carIds": [
+          "1982-delorean-dmc-12"
+        ],
+        "scope": "car",
+        "scopeLabel": "1982 DeLorean DMC-12",
+        "status": "parsed"
+      },
+      "requirementRaw": "1982 DeLorean DMC-12; Speed Skills; Photo; Road Race",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 92,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s02-summer--daily-challenge--sweet-car-omine",
+      "name": "Sweet Car O'Mine",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Park at the Evolving World Car Meet in any car from the 1980s",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 93,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s02-summer--daily-challenge--take-on-me",
+      "name": "Take on Me",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Head-to-Head in The Eliminator",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 94,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s02-summer--daily-challenge--temple-of-zoom",
+      "name": "Temple of Zoom",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo whilst in any Ford from the 1980s at the Temple of Nachi Falls",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 95,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s02-summer--daily-challenge--be-excellent-to-each-other",
+      "name": "Be Excellent to Each Other",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Send a Gift Drop to another player",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 96,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s02-summer--daily-challenge--short-circuit",
+      "name": "Short Circuit",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Win a race at the Shimanoyama Circuit in any car from the 1980s",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 97,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s02-summer--daily-challenge--ghostbuster",
+      "name": "Ghostbuster",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Beat a Rivals Ghost in any car from the 1980s",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 98,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s02-summer--daily-challenge--life-moves-pretty-fast",
+      "name": "Life Moves Pretty Fast",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Reach 150 mph in any Ferrari",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 99,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s02-summer--photo-challenge--thejoyofdrifting",
+      "name": "#TheJoyOfDrifting",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo any car from the 1980s whilst drifting",
+      "reward": "QuickChat: Just a happy little accident",
+      "routeRaw": "",
+      "routes": [],
+      "row": 100,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s02-summer--treasure-hunt--nangan-region",
+      "name": "Nangan Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 101,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s02-summer--championship--street-runner",
+      "name": "Street Runner",
+      "requirement": {
+        "carIds": [
+          "1987-ford-sierra-cosworth-rs500",
+          "1987-mercedes-benz-amg-hammer-coupe",
+          "1988-bmw-m3",
+          "1988-bmw-m5"
+        ],
+        "class": "C",
+        "decade": 1980,
+        "scope": "car-type",
+        "scopeLabel": "1980s Retro Super Saloons",
+        "status": "parsed"
+      },
+      "requirementRaw": "1980s Retro Super Saloons - C Class",
+      "reward": "Car: 1982 DeLorean DMC-12",
+      "routeRaw": "Street: Norikura Descent, Hokubu Ascent, River Descent",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Norikura Descent"
+        },
+        {
+          "discipline": "street",
+          "name": "Hokubu Ascent"
+        },
+        {
+          "discipline": "street",
+          "name": "River Descent"
+        }
+      ],
+      "row": 102,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "id": "s02-summer--championship--whats-the-hatch",
+      "name": "What's the Hatch?",
+      "requirement": {
+        "carIds": [
+          "1983-volkswagen-golf-gti",
+          "1986-honda-civic-si"
+        ],
+        "class": "D",
+        "decade": 1980,
+        "scope": "car-type",
+        "scopeLabel": "1980s Retro Hot Hatch",
+        "status": "parsed"
+      },
+      "requirementRaw": "1980s Retro Hot Hatch - D Class",
+      "reward": "Car: 1988 BMW M3",
+      "routeRaw": "Road: Ito Sprint, Highway Circuit, Festival Sprint",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Ito Sprint"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Highway Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Festival Sprint"
+        }
+      ],
+      "row": 103,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "drag",
+      "id": "s02-summer--horizon-life-drag-meet--ito-half-mile",
+      "name": "Ito Half Mile",
+      "requirement": {
+        "carIds": [
+          "1980-abarth-fiat-131",
+          "1980-renault-5-turbo",
+          "1980-subaru-brat-gl",
+          "1981-bmw-m1",
+          "1982-delorean-dmc-12",
+          "1982-lancia-037-stradale",
+          "1982-porsche-911-turbo-3-3",
+          "1982-volkswagen-pickup-lx",
+          "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
+          "1983-nissan-240rs",
+          "1983-nissan-skyline-2000-turbo-rs",
+          "1983-volkswagen-golf-gti",
+          "1983-volvo-242-turbo-evolution",
+          "1984-audi-sport-quattro",
+          "1984-de-tomaso-pantera-gt5",
+          "1984-ferrari-288-gto",
+          "1984-honda-city-e-ii",
+          "1984-honda-civic-crx-mugen",
+          "1984-opel-manta-400",
+          "1984-peugeot-205-turbo-16",
+          "1985-ford-rs200-evolution",
+          "1985-mazda-rx-7-gsl-se",
+          "1985-nissan-safari-turbo",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1986-audi-2-audi-sport-quattro-s1",
+          "1986-ford-f-150-xlt-lariat",
+          "1986-ford-f-150-xlt-lariat-forza-edition",
+          "1986-honda-civic-si",
+          "1986-lancia-delta-s4",
+          "1986-mg-metro-6r4",
+          "1987-buick-regal-gnx",
+          "1987-ferrari-f40",
+          "1987-fiat-panda",
+          "1987-ford-sierra-cosworth-rs500",
+          "1987-mercedes-benz-amg-hammer-coupe",
+          "1987-nissan-be-1",
+          "1987-nissan-skyline-gts-r",
+          "1987-pontiac-firebird-trans-am-gta",
+          "1987-porsche-203-porsche-ag-961",
+          "1987-porsche-959",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "1988-bmw-m3",
+          "1988-bmw-m5",
+          "1988-chevrolet-monte-carlo-super-sport",
+          "1988-lamborghini-countach-lp5000-qv",
+          "1988-mitsubishi-starion-esi-r",
+          "1989-ferrari-f40-competizione",
+          "1989-formula-drift-98-bmw-325i",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1989-nissan-s-cargo-forza-edition",
+          "1989-nissan-silvia-ks",
+          "1989-porsche-944-turbo",
+          "1989-toyota-mr2-sc",
+          "1989-volkswagen-rallye-golf"
+        ],
+        "class": "B",
+        "decade": 1980,
+        "scope": "any",
+        "scopeLabel": "1980s",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "21.000 seconds",
+          "unit": "s",
+          "value": 21
+        }
+      },
+      "requirementRaw": "1980s - B Class - 21.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 104,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": "road",
+      "type": "Horizon Life - Drag Meet"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s02-summer--pr-stunt-speed-zone--deep-forest",
+      "name": "Deep Forest",
+      "requirement": {
+        "carIds": [
+          "1980-abarth-fiat-131",
+          "1980-renault-5-turbo",
+          "1980-subaru-brat-gl",
+          "1981-bmw-m1",
+          "1982-delorean-dmc-12",
+          "1982-lancia-037-stradale",
+          "1982-porsche-911-turbo-3-3",
+          "1982-volkswagen-pickup-lx",
+          "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
+          "1983-nissan-240rs",
+          "1983-nissan-skyline-2000-turbo-rs",
+          "1983-volkswagen-golf-gti",
+          "1983-volvo-242-turbo-evolution",
+          "1984-audi-sport-quattro",
+          "1984-de-tomaso-pantera-gt5",
+          "1984-ferrari-288-gto",
+          "1984-honda-city-e-ii",
+          "1984-honda-civic-crx-mugen",
+          "1984-opel-manta-400",
+          "1984-peugeot-205-turbo-16",
+          "1985-ford-rs200-evolution",
+          "1985-mazda-rx-7-gsl-se",
+          "1985-nissan-safari-turbo",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1986-audi-2-audi-sport-quattro-s1",
+          "1986-ford-f-150-xlt-lariat",
+          "1986-ford-f-150-xlt-lariat-forza-edition",
+          "1986-honda-civic-si",
+          "1986-lancia-delta-s4",
+          "1986-mg-metro-6r4",
+          "1987-buick-regal-gnx",
+          "1987-ferrari-f40",
+          "1987-fiat-panda",
+          "1987-ford-sierra-cosworth-rs500",
+          "1987-mercedes-benz-amg-hammer-coupe",
+          "1987-nissan-be-1",
+          "1987-nissan-skyline-gts-r",
+          "1987-pontiac-firebird-trans-am-gta",
+          "1987-porsche-203-porsche-ag-961",
+          "1987-porsche-959",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "1988-bmw-m3",
+          "1988-bmw-m5",
+          "1988-chevrolet-monte-carlo-super-sport",
+          "1988-lamborghini-countach-lp5000-qv",
+          "1988-mitsubishi-starion-esi-r",
+          "1989-ferrari-f40-competizione",
+          "1989-formula-drift-98-bmw-325i",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1989-nissan-s-cargo-forza-edition",
+          "1989-nissan-silvia-ks",
+          "1989-porsche-944-turbo",
+          "1989-toyota-mr2-sc",
+          "1989-volkswagen-rallye-golf"
+        ],
+        "class": "B",
+        "decade": 1980,
+        "scope": "any",
+        "scopeLabel": "1980s",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "95.0 mph",
+          "unit": "mph",
+          "value": 95
+        }
+      },
+      "requirementRaw": "1980s - B Class - 95.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 105,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "trailblazer",
+      "id": "s02-summer--pr-stunt-trailblazer--nachi-falls",
+      "name": "Nachi Falls",
+      "requirement": {
+        "carIds": [
+          "1980-abarth-fiat-131",
+          "1980-renault-5-turbo",
+          "1980-subaru-brat-gl",
+          "1981-bmw-m1",
+          "1982-delorean-dmc-12",
+          "1982-lancia-037-stradale",
+          "1982-porsche-911-turbo-3-3",
+          "1982-volkswagen-pickup-lx",
+          "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
+          "1983-nissan-240rs",
+          "1983-nissan-skyline-2000-turbo-rs",
+          "1983-volkswagen-golf-gti",
+          "1983-volvo-242-turbo-evolution",
+          "1984-audi-sport-quattro",
+          "1984-de-tomaso-pantera-gt5",
+          "1984-ferrari-288-gto",
+          "1984-honda-city-e-ii",
+          "1984-honda-civic-crx-mugen",
+          "1984-opel-manta-400",
+          "1984-peugeot-205-turbo-16",
+          "1985-ford-rs200-evolution",
+          "1985-mazda-rx-7-gsl-se",
+          "1985-nissan-safari-turbo",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1986-audi-2-audi-sport-quattro-s1",
+          "1986-ford-f-150-xlt-lariat",
+          "1986-ford-f-150-xlt-lariat-forza-edition",
+          "1986-honda-civic-si",
+          "1986-lancia-delta-s4",
+          "1986-mg-metro-6r4",
+          "1987-buick-regal-gnx",
+          "1987-ferrari-f40",
+          "1987-fiat-panda",
+          "1987-ford-sierra-cosworth-rs500",
+          "1987-mercedes-benz-amg-hammer-coupe",
+          "1987-nissan-be-1",
+          "1987-nissan-skyline-gts-r",
+          "1987-pontiac-firebird-trans-am-gta",
+          "1987-porsche-203-porsche-ag-961",
+          "1987-porsche-959",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "1988-bmw-m3",
+          "1988-bmw-m5",
+          "1988-chevrolet-monte-carlo-super-sport",
+          "1988-lamborghini-countach-lp5000-qv",
+          "1988-mitsubishi-starion-esi-r",
+          "1989-ferrari-f40-competizione",
+          "1989-formula-drift-98-bmw-325i",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1989-nissan-s-cargo-forza-edition",
+          "1989-nissan-silvia-ks",
+          "1989-porsche-944-turbo",
+          "1989-toyota-mr2-sc",
+          "1989-volkswagen-rallye-golf"
+        ],
+        "class": "B",
+        "decade": 1980,
+        "scope": "any",
+        "scopeLabel": "1980s",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "43 seconds",
+          "unit": "s",
+          "value": 43
+        }
+      },
+      "requirementRaw": "1980s - B Class - 43 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 106,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": "cross-country",
+      "type": "PR Stunt - Trailblazer"
+    },
+    {
+      "category": "trial",
+      "discipline": "sprint",
+      "id": "s02-summer--horizon-life-the-trial--push-it-to-the-limit",
+      "name": "Push it to the Limit",
+      "requirement": {
+        "carIds": [
+          "1980-abarth-fiat-131",
+          "1980-renault-5-turbo",
+          "1982-lancia-037-stradale",
+          "1983-nissan-240rs",
+          "1983-volvo-242-turbo-evolution",
+          "1984-audi-sport-quattro",
+          "1984-opel-manta-400",
+          "1984-peugeot-205-turbo-16",
+          "1985-ford-rs200-evolution",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1986-audi-2-audi-sport-quattro-s1",
+          "1986-lancia-delta-s4",
+          "1986-mg-metro-6r4",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "1989-volkswagen-rallye-golf"
+        ],
+        "class": "B",
+        "decade": 1980,
+        "scope": "car-type",
+        "scopeLabel": "1980s Total Rally",
+        "status": "parsed"
+      },
+      "requirementRaw": "1980s Total Rally - B Class",
+      "reward": "Car: 1986 Audi #2 Audi Sport quattro S1",
+      "routeRaw": "Dirt: Sunflower Scramble, Bamboo Forest Scramble, Ine Scramble",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Sunflower Scramble"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Bamboo Forest Scramble"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Ine Scramble"
+        }
+      ],
+      "row": 107,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": "dirt",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s02-summer--horizon-play-touge-showdown--my-little-pony",
+      "name": "My Little Pony",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Touge Showdown event",
+      "reward": "Car: 1986 Ford F-150 XLT Lariat",
+      "routeRaw": "",
+      "routes": [],
+      "row": 108,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Horizon Play - Touge Showdown"
+    },
+    {
+      "category": "online",
+      "id": "s02-summer--horizon-play-hide-and-seek--5-vs-1",
+      "name": "5 VS 1",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a game of Hide & Seek",
+        "pt-br": "Complete uma partida de Hide & Seek (esconde-esconde)"
+      },
+      "requirementRaw": "Complete a game of Hide & Seek",
+      "reward": "Car: 1987 Mercedes-Benz AMG Hammer Coupe",
+      "routeRaw": "",
+      "routes": [],
+      "row": 109,
+      "seasonId": "s02-summer",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Horizon Play - Hide & Seek"
+    }
+  ],
+  "schemaVersion": 1
+}

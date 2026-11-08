@@ -1,0 +1,14 @@
+---
+import TunerPage from '../../components/TunerPage.astro';
+import { loadTuners } from '../../lib/data';
+
+export function getStaticPaths() {
+  return loadTuners()
+    .filter((tuner) => tuner.tuneCount > 0)
+    .map((tuner) => ({ params: { id: tuner.id }, props: { tuner } }));
+}
+
+const { tuner } = Astro.props;
+---
+
+<TunerPage locale="pt-br" tuner={tuner} />

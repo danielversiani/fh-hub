@@ -4,6 +4,8 @@
 # permission:
 #   not-required → official/factual data, published normally
 #   granted      → tuner authorised publication
+#   prelaunch    → published during the pre-launch while we ask the tuner (ADR-0015);
+#                  set back to pending/denied to take a tuner off the site
 #   pending      → synced only into .cache/preview (never committed or published)
 #   denied       → keep `active: false`
 version: 1
@@ -21,6 +23,84 @@ sources:
     weight: 1
     notes: Official roster. Master car list (ADR-0006).
 
+  - id: fandom-rarity
+    name: Forza Wiki (Fandom) — car rarity
+    kind: wiki
+    url: https://forza.fandom.com
+    fetcher: mediawiki
+    adapter: fandom-rarity
+    tabs:
+      - { id: common, role: attributes, path: 'Category:Common (FH6)' }
+      - { id: rare, role: attributes, path: 'Category:Rare (FH6)' }
+      - { id: epic, role: attributes, path: 'Category:Epic (FH6)' }
+      - { id: legendary, role: attributes, path: 'Category:Legendary (FH6)' }
+      - { id: forza-edition, role: attributes, path: 'Category:Forza Edition (FH6)' }
+    permission: not-required
+    active: true
+    weight: 0.9
+    notes: Wiki content under CC BY-SA (attribution shown on the site). Only the rarity is used.
+
+  - id: fandom-drivetrain
+    name: Forza Wiki (Fandom) — stock drivetrain
+    kind: wiki
+    url: https://forza.fandom.com
+    fetcher: mediawiki
+    adapter: fandom-drivetrain
+    tabs:
+      - { id: fwd, role: attributes, path: 'Category:Front-Wheel Drive' }
+      - { id: rwd, role: attributes, path: 'Category:Rear-Wheel Drive' }
+      - { id: awd, role: attributes, path: 'Category:All-Wheel Drive' }
+      # The drivetrain categories cover every Forza game: only cars also listed here are used.
+      - { id: fh6, role: attributes, path: 'Category:Cars (FH6)' }
+    permission: not-required
+    active: true
+    weight: 0.9
+    notes: Wiki content under CC BY-SA (attribution shown on the site). Only the stock drivetrain is used.
+
+  - id: fandom-images
+    name: Forza Wiki (Fandom) — car photos
+    kind: wiki
+    url: https://forza.fandom.com
+    fetcher: mediawiki-images
+    adapter: fandom-images
+    tabs:
+      - { id: fh6, role: attributes, path: 'Category:Cars (FH6)' }
+    permission: not-required
+    active: true
+    weight: 0.9
+    notes: >-
+      In-game screenshots (Microsoft's content, not CC BY-SA), used under Microsoft's Game Content
+      Usage Rules with the required notice on the site (ADR-0013). Only the thumbnail URL is
+      stored; the image is served by Fandom.
+
+  - id: forza-playlist
+    name: Forza Horizon 6 Festival Playlist (forza.net)
+    kind: forza-official
+    url: https://forza.net/fh6playlists
+    fetcher: forza-net
+    adapter: forza-playlist
+    tabs:
+      - { id: playlist, role: playlist, path: fh6playlists }
+    permission: not-required
+    active: true
+    weight: 1
+    notes: Official events, requirements and rewards since Series 1 (ADR-0009).
+
+  - id: noa-miyako
+    name: Noa Miyako (QQ Docs)
+    kind: qq-doc
+    url: https://docs.qq.com/sheet/DYWZVRWR0dnh3aHhZ
+    docId: DYWZVRWR0dnh3aHhZ
+    ownerTuner: Noa Miyako
+    fetcher: qq-docs
+    adapter: noa-miyako
+    tabs:
+      - { id: workbook, role: meta }
+    permission: prelaunch
+    active: true
+    weight: 0.9
+    notes: 'Sheet 地平线6线上车辆调校推荐. Meta tiers per class × surface. Undocumented QQ API (lib/qq-sheet.ts). No share codes.'
+
   - id: gbr-ozzy
     name: GBR Ozzy's FH6 Spreadsheet
     kind: google-sheet
@@ -31,7 +111,7 @@ sources:
     adapter: gbr-ozzy
     tabs:
       - { id: tune-list, role: tunes, gid: '711189847', label: '🛠️FH6 Tune List' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.8
     notes: Owner disabled downloads (/export → 401). Ask before publishing.
@@ -46,7 +126,7 @@ sources:
     adapter: kleis
     tabs:
       - { id: fh6, role: tunes, sheet: FH6, gid: '901186628' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.9
     notes: No share codes. Car class is encoded as the fill colour of column A.
@@ -61,7 +141,7 @@ sources:
     adapter: k1z-gray
     tabs:
       - { id: fh6-tunes, role: tunes, gid: '1914811100' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.7
 
@@ -77,7 +157,7 @@ sources:
       - { id: a700, role: laptimes, gid: '1109128970', carClass: A }
       - { id: s1-800, role: laptimes, gid: '1623307181', carClass: S1 }
       - { id: s2-900, role: laptimes, gid: '630549251', carClass: S2 }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.8
 
@@ -91,6 +171,6 @@ sources:
     adapter: whd-url
     tabs:
       - { id: cars-tracks, role: custom-event, gid: '0' }
-    permission: pending
+    permission: prelaunch
     active: true
     weight: 0.6

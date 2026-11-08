@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "other",
+      "id": "s03--playlist-history--playlist-history-reward",
+      "name": "Playlist History Reward",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "500 pts over multiple series",
+      "reward": "Car: 1972 Mazda Cosmo 11S Series II",
+      "routeRaw": "",
+      "routes": [],
+      "row": 170,
+      "seasonId": "s03",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Playlist History"
+    },
+    {
+      "category": "rivals",
+      "discipline": "circuit",
+      "id": "s03--monthly-rivals--electric-town-circuit",
+      "name": "Electric Town Circuit",
+      "requirement": {
+        "carIds": [
+          "2024-lamborghini-temerario"
+        ],
+        "scope": "car",
+        "scopeLabel": "2024 Lamborghini Temerario",
+        "status": "parsed"
+      },
+      "requirementRaw": "2024 Lamborghini Temerario",
+      "reward": "Super Wheelspin",
+      "routeRaw": "Electric Town Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Electric Town Circuit"
+        }
+      ],
+      "row": 171,
+      "seasonId": "s03",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "reward",
+      "id": "s03--series-reward--series-reward-1",
+      "name": "Series Reward 1",
+      "points": 80,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "80 pts",
+      "reward": "Car: 2024 Lamborghini Temerario",
+      "routeRaw": "",
+      "routes": [],
+      "row": 172,
+      "seasonId": "s03",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s03--series-reward--series-reward-2",
+      "name": "Series Reward 2",
+      "points": 160,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "160 pts",
+      "reward": "Car: 2022 Ferrari 296 GTB",
+      "routeRaw": "",
+      "routes": [],
+      "row": 173,
+      "seasonId": "s03",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Series Reward"
+    }
+  ],
+  "schemaVersion": 1
+}

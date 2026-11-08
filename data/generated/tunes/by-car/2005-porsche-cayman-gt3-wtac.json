@@ -1,0 +1,480 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-05fe29cdb7",
+      "metaRank": 70,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 144,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-2fa66dc785",
+      "metaRank": 30,
+      "name": "54.5 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Porsche Cayman GT3 WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "54.5 Shirakawa",
+            "Tuner": "trviis",
+            "fill": "FF7030A0"
+          },
+          "row": 2639,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.55,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-ba77a94c79",
+      "lapRefs": [
+        {
+          "time": "54.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川54.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 30,
+      "name": "S1 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 63,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.61,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "vladxlr"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-e19cfe2b84",
+      "metaRank": 30,
+      "name": "Wir Deutsche furchten Gott, aber sonst nichts in der Welt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Porsche Cayman GT3 WTAC",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Wir Deutsche furchten Gott, aber sonst nichts in der Welt",
+            "Tuner": "F1R Kilian",
+            "fill": "FF7030A0"
+          },
+          "row": 2638,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.55,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-10",
+      "drivetrain": "RWD",
+      "id": "sc-112457818",
+      "name": "Handling update",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "10/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Porsche",
+            "model": "Cayman GT3 WTAC",
+            "sharecode": "112 457 818",
+            "suspension": "Race",
+            "tuneName": "Handling update",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Drift"
+          },
+          "row": 2245,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.487,
+      "shareCode": "112457818",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-06-20",
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "sc-137336958",
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "20/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Porsche",
+            "model": "Cayman GT3 WTAC",
+            "sharecode": "137 336 958",
+            "suspension": "Race",
+            "tuneName": "AWD Allround",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Rally"
+          },
+          "row": 2248,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Make": "Porsche",
+            "Model": "Cayman GT3 WTAC",
+            "Road Surface": "Road",
+            "Share Code": "137336958",
+            "Tires": "Rally",
+            "Tune Name": "AWD Allround",
+            "Year": "2005"
+          },
+          "row": 70,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.631,
+      "shareCode": "137336958",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-20",
+      "drivetrain": "RWD",
+      "id": "sc-141832232",
+      "name": "Wir Deutsche furchten Gott, aber sonst nichts in der Welt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "20/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Porsche",
+            "model": "Cayman GT3 WTAC",
+            "sharecode": "141 832 232",
+            "suspension": "Race",
+            "tuneName": "Wir Deutsche furchten Gott, aber sonst nichts in der Welt",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Rally"
+          },
+          "row": 2244,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "141832232",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "AWD",
+      "id": "sc-148220649",
+      "name": "S2 road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "30/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Porsche",
+            "model": "Cayman GT3 WTAC",
+            "sharecode": "148 220 649",
+            "suspension": "Race",
+            "tuneName": "S2 road",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2247,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Porsche Cayman GT3 WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF0070C0"
+          },
+          "row": 2641,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "148220649",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-06-01",
+      "drivetrain": "RWD",
+      "id": "sc-155490559",
+      "name": "strong s2 road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "01/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Porsche",
+            "model": "Cayman GT3 WTAC",
+            "sharecode": "155 490 559",
+            "suspension": "Race",
+            "tuneName": "strong s2 road",
+            "tuner": "trviis",
+            "tyreCompound": "Rally"
+          },
+          "row": 2249,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Porsche Cayman GT3 WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "strong s2 road",
+            "Tuner": "trviis",
+            "fill": "FF0070C0"
+          },
+          "row": 2642,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "155490559",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-29",
+      "drivetrain": "RWD",
+      "id": "sc-164307616",
+      "name": "54.3 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "29/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Porsche",
+            "model": "Cayman GT3 WTAC",
+            "sharecode": "164 307 616",
+            "suspension": "Race",
+            "tuneName": "54.3 Shirakawa",
+            "tuner": "trviis",
+            "tyreCompound": "Drift"
+          },
+          "row": 2246,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "164307616",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-05-16",
+      "drivetrain": "AWD",
+      "id": "sc-697116332",
+      "name": "S2 Dirt Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "16/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Porsche",
+            "model": "Cayman GT3 WTAC",
+            "sharecode": "697 116 332",
+            "suspension": "Rally",
+            "tuneName": "S2 Dirt Grip",
+            "tuner": "VNX Eunos",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2250,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Porsche Cayman GT3 WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S2 Dirt Grip",
+            "Tuner": "VNX Eunos",
+            "fill": "FF0070C0"
+          },
+          "row": 2640,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "697116332",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "vnx-eunos"
+    }
+  ],
+  "schemaVersion": 1
+}

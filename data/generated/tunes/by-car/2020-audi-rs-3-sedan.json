@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-audi-rs-3-sedan",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-822adc5e76",
+      "name": "stock look rs5 engine",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Audi RS 3 Sedan",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "stock look rs5 engine",
+            "Tuner": "VER Korben",
+            "fill": "FFFF0000"
+          },
+          "row": 935,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ver-korben"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-audi-rs-3-sedan",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-26",
+      "drivetrain": "AWD",
+      "id": "sc-110545660",
+      "name": "A Road - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 3 Sedan",
+            "sharecode": "110 545 660",
+            "suspension": "Sport",
+            "tuneName": "A Road - Stock Look",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 224,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "110545660",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-rs-3-sedan",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-09",
+      "drivetrain": "AWD",
+      "id": "sc-159047857",
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "09/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 3 Sedan",
+            "sharecode": "159 047 857",
+            "suspension": "Sport",
+            "tuneName": "A Road",
+            "tuner": "KapienPL",
+            "tyreCompound": "Rally"
+          },
+          "row": 225,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "159047857",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-rs-3-sedan",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-637350284",
+      "name": "A Road RS5 V8 RC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 3 Sedan",
+            "sharecode": "637 350 284",
+            "suspension": "Race",
+            "tuneName": "A Road RS5 V8 RC",
+            "tuner": "JakeGTR9",
+            "tyreCompound": "Rally"
+          },
+          "row": 223,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.488,
+      "shareCode": "637350284",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "jakegtr9"
+    }
+  ],
+  "schemaVersion": 1
+}

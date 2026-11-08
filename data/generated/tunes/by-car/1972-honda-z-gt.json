@@ -1,0 +1,374 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1972-honda-z-gt",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-6f959a4917",
+      "name": "Shirakawa 1:04.7 META(TCS ON)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Honda Z GT",
+            "Comment": "Powerbuild, TCS advised",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Shirakawa 1:04.7 META(TCS ON)",
+            "Tuner": "Cirno1X",
+            "fill": "FFED7D31"
+          },
+          "row": 333,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8ac0cd5d6a",
+      "metaRank": 45,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 95,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.479,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-bad20930e9",
+      "name": "C Street Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Honda Z GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "C Street Purist",
+            "Tuner": "DRX Q3",
+            "fill": "theme:7"
+          },
+          "row": 50,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-c9e8119d81",
+      "name": "B Road VTEC \"Purist\" | 50.9 Narai Juku",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Honda Z GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road VTEC \"Purist\" | 50.9 Narai Juku",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 334,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-e896aaea1e",
+      "metaRank": 6,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-08",
+      "drivetrain": "AWD",
+      "id": "sc-135676605",
+      "name": "B Road AWD Accel",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Z GT",
+            "sharecode": "135 676 605",
+            "suspension": "Stock",
+            "tuneName": "B Road AWD Accel",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Vintage"
+          },
+          "row": 1238,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.494,
+      "shareCode": "135676605",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "vintage",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-06",
+      "drivetrain": "AWD",
+      "id": "sc-154806815",
+      "metaRank": 6,
+      "name": "B Dirt (1:03.7 Sunflower)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "06/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Z GT",
+            "sharecode": "154 806 815",
+            "suspension": "Street",
+            "tuneName": "B Dirt (1:03.7 Sunflower)",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1237,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "154806815",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-07",
+      "drivetrain": "FWD",
+      "id": "sc-299883968",
+      "name": "B Road VTEC \"Purist\" | 50.8 Narai Juku",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "07/08/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Z GT",
+            "sharecode": "299 883 968",
+            "suspension": "Sport",
+            "tuneName": "B Road VTEC \"Purist\" | 50.8 Narai Juku",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 1234,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.494,
+      "shareCode": "299883968",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1972-honda-z-gt",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-06",
+      "drivetrain": "FWD",
+      "id": "sc-383291252",
+      "name": "B Road - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "06/08/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "Z GT",
+            "sharecode": "383 291 252",
+            "suspension": "Street",
+            "tuneName": "B Road - Stock Look",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1235,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.494,
+      "shareCode": "383291252",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-06",
+      "drivetrain": "AWD",
+      "id": "sc-562880283",
+      "metaRank": 6,
+      "name": "Strong B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "06/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "Z GT",
+            "sharecode": "562 880 283",
+            "suspension": "Street",
+            "tuneName": "Strong B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1236,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "562880283",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

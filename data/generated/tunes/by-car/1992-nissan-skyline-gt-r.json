@@ -1,0 +1,1075 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0677f0e450",
+      "lapRefs": [
+        {
+          "time": "59.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 25,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-095fe29977",
+      "lapRefs": [
+        {
+          "time": "1:06.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 86,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 177,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-2fe59d75cd",
+      "metaRank": 25,
+      "name": "LFA Engine",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "LFA Engine",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 2453,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-31d2dce7b6",
+      "metaRank": 36,
+      "name": "A dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A dirt",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2449,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-31f623cc74",
+      "metaRank": 36,
+      "name": "Rally Ricer",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Rally Ricer",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 2448,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-4a62175526",
+      "metaRank": 25,
+      "name": "7000 ton experience",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "7000 ton experience",
+            "Tuner": "Nalak28",
+            "fill": "FFFF0000"
+          },
+          "row": 2456,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-57b0c146e8",
+      "lapRefs": [
+        {
+          "time": "59.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 25,
+      "name": "Road Allround Rocket Bunny 59.8 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "Rocket Bunny bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround Rocket Bunny 59.8 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF0000"
+          },
+          "row": 2455,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-5e9b53a631",
+      "lapRefs": [
+        {
+          "time": "35.1",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速路35.1 四改后GTR不是区",
+      "metaNotesI18n": {
+        "en": "Beats the GT-R after the fourth balance change.",
+        "pt-br": "Supera o GT-R depois do quarto ajuste de equilíbrio."
+      },
+      "metaRank": 121,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 247,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-6e5ff67e5b",
+      "metaRank": 25,
+      "name": "A Road | V6 Stock Look | 1:01.0 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road | V6 Stock Look | 1:01.0 Shirakawa",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 2451,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c2a92fa851",
+      "lapRefs": [
+        {
+          "time": "59.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 25,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-d4743d4a44",
+      "metaRank": 25,
+      "name": "Fat Shinigami",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "Rocket Bunny bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Fat Shinigami",
+            "Tuner": "NEPOSHA",
+            "fill": "FFFF0000"
+          },
+          "row": 2457,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "neposha"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d8b604a3f8",
+      "lapRefs": [
+        {
+          "time": "59.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 25,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-ane3tr"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-e24f17c551",
+      "metaRank": 86,
+      "name": "Wingless V6",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Wingless V6",
+            "Tuner": "koeseg",
+            "fill": "FFED7D31"
+          },
+          "row": 473,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "koeseg"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-e30828887a",
+      "metaRank": 36,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-21",
+      "drivetrain": "AWD",
+      "id": "sc-100191269",
+      "metaRank": 25,
+      "name": "1.6G Sprint V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "100 191 269",
+            "suspension": "Rally",
+            "tuneName": "1.6G Sprint V2",
+            "tuner": "SlowBakedPanda",
+            "tyreCompound": "Street"
+          },
+          "row": 2039,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "1.6G Sprint V2",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 2458,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.715,
+      "shareCode": "100191269",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-06",
+      "drivetrain": "AWD",
+      "id": "sc-104750545",
+      "metaRank": 36,
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "104 750 545",
+            "suspension": "Street",
+            "tuneName": "A Dirt",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2038,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "NDL Samu",
+            "fill": "FFFF0000"
+          },
+          "row": 2450,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.678,
+      "shareCode": "104750545",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "ndl-samu"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-126639648",
+      "metaRank": 86,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "126 639 648",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "Whatuplosers917",
+            "tyreCompound": "Standard"
+          },
+          "row": 2043,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "Whatuplosers917",
+            "fill": "FFED7D31"
+          },
+          "row": 475,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "Whatuplosers917",
+            "fill": "FFFF0000"
+          },
+          "row": 2459,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.645,
+      "shareCode": "126639648",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-143737685",
+      "metaRank": 25,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "143 737 685",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "Whatuplosers917",
+            "tyreCompound": "Standard"
+          },
+          "row": 2041,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.629,
+      "shareCode": "143737685",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-31",
+      "drivetrain": "AWD",
+      "id": "sc-148571445",
+      "metaRank": 36,
+      "name": "A Class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "31/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "148 571 445",
+            "suspension": "Rally",
+            "tuneName": "A Class Dirt",
+            "tuner": "TNR MaksJaga",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2040,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.585,
+      "shareCode": "148571445",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "tnr-maksjaga"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "drivetrain": "AWD",
+      "id": "sc-163050261",
+      "metaRank": 86,
+      "name": "Purist B Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "04/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "163 050 261",
+            "suspension": "Street",
+            "tuneName": "Purist B Road",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Standard"
+          },
+          "row": 2042,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Purist B Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 474,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.643,
+      "shareCode": "163050261",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "id": "sc-163997809",
+      "metaRank": 25,
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "163 997 809",
+            "suspension": "Street",
+            "tuneName": "A road",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2036,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2454,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.716,
+      "shareCode": "163997809",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-02",
+      "drivetrain": "AWD",
+      "id": "sc-850671061",
+      "metaRank": 25,
+      "name": "A Road Widebody Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "850 671 061",
+            "suspension": "Street",
+            "tuneName": "A Road Widebody Strong",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 2037,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.631,
+      "shareCode": "850671061",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-30",
+      "drivetrain": "AWD",
+      "id": "sc-880232201",
+      "metaRank": 36,
+      "name": "RB26 Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "880 232 201",
+            "suspension": "Street",
+            "tuneName": "RB26 Stock Look",
+            "tuner": "Grandma Driving",
+            "tyreCompound": "Rally"
+          },
+          "row": 2035,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1992 Nissan Skyline GT-R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "RB26 Stock Look",
+            "Tuner": "Grandma Driving",
+            "fill": "FFFF0000"
+          },
+          "row": 2452,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.671,
+      "shareCode": "880232201",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-04",
+      "drivetrain": "AWD",
+      "id": "sc-904347138",
+      "metaRank": 36,
+      "name": "A Dirt - Decent w/R35 engine (Takashiro Trail 2.01.7)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "04/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline GT-R",
+            "sharecode": "904 347 138",
+            "suspension": "Street",
+            "tuneName": "A Dirt - Decent w/R35 engine (Takashiro Trail 2.01.7)",
+            "tuner": "Falken JP",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2034,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.599,
+      "shareCode": "904347138",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "falken-jp"
+    }
+  ],
+  "schemaVersion": 1
+}

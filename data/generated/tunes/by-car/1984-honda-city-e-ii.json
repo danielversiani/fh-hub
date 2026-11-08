@@ -1,0 +1,724 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-01024d6130",
+      "metaRank": 8,
+      "name": "B16 Road Full Aero Grip Meta++ V1.2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B16 Road Full Aero Grip Meta++ V1.2",
+            "Tuner": "AIONS580Pio",
+            "fill": "FFED7D31"
+          },
+          "row": 337,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-1f8d40137b",
+      "metaRank": 71,
+      "name": "A Road | 1:00.1 Shira | No aero Rallies",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 1:00.1 Shira | No aero Rallies",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 1668,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-22e4516c95",
+      "metaRank": 8,
+      "name": "Purist | 06.8 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist | 06.8 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 340,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-421be5743c",
+      "metaNotes": "毛豆世界纪录",
+      "metaNotesI18n": {
+        "en": "World record at Edamame.",
+        "pt-br": "Recorde mundial no Edamame."
+      },
+      "metaRank": 8,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 18,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.732,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4e70668fc8",
+      "metaRank": 28,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 60,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.554,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6aadca71a4",
+      "metaNotes": "前中段加速很快 后段和极速劣势",
+      "metaNotesI18n": {
+        "en": "Very quick low and mid-range acceleration; weaker top end and top speed.",
+        "pt-br": "Acelera muito rápido em baixa e média; perde em aceleração alta e velocidade máxima."
+      },
+      "metaRank": 31,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 66,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-6b7df43b0a",
+      "metaNotes": "大马力前驱",
+      "metaNotesI18n": {
+        "en": "High-power FWD.",
+        "pt-br": "Tração dianteira com muita potência."
+      },
+      "metaRank": 30,
+      "name": "C road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 64,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-74591df1a9",
+      "metaRank": 8,
+      "name": "handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "handling",
+            "Tuner": "dalwa XII",
+            "fill": "FFED7D31"
+          },
+          "row": 339,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "dalwa-xii"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-86c9d2fa13",
+      "metaRank": 81,
+      "name": "S1 road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 167,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-8928432190",
+      "metaRank": 71,
+      "name": "A Dirt (52.9 at sekibe)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Dirt (52.9 at sekibe)",
+            "Tuner": "VER EnderAU",
+            "fill": "FFFF0000"
+          },
+          "row": 1667,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ver-enderau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-97eb3e5d01",
+      "lapRefs": [
+        {
+          "time": "53.2",
+          "track": "Daikoku"
+        }
+      ],
+      "metaNotes": "大黑53.2 刹车入弯小心翻车",
+      "metaNotesI18n": {
+        "en": "Careful braking into corners: it can roll over.",
+        "pt-br": "Cuidado ao frear entrando na curva: pode capotar."
+      },
+      "metaRank": 71,
+      "name": "A road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 146,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.592,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-a34f37e113",
+      "metaRank": 20,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 43,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-bd43d570f0",
+      "metaRank": 7,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "id": "nc-de2ed40844",
+      "metaRank": 20,
+      "name": "Gripping my nuts",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Gripping my nuts",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 341,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-e7c153e9b9",
+      "metaRank": 8,
+      "name": "i guess this is just allowed to exist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "i guess this is just allowed to exist",
+            "Tuner": "AMS Carver",
+            "fill": "FFED7D31"
+          },
+          "row": 338,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-30",
+      "drivetrain": "FWD",
+      "id": "sc-130958387",
+      "metaRank": 28,
+      "name": "Legend Island Rallies",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "City E II",
+            "sharecode": "130 958 387",
+            "suspension": "Stock",
+            "tuneName": "Legend Island Rallies",
+            "tuner": "QuasarPole",
+            "tyreCompound": "Rally"
+          },
+          "row": 1132,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Legend Island Rallies",
+            "Tuner": "QuasarPole",
+            "fill": "FFFF0000"
+          },
+          "row": 1669,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.591,
+      "shareCode": "130958387",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "quasarpole"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-05",
+      "drivetrain": "FWD",
+      "id": "sc-167672327",
+      "name": "1:28 Legend Island",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "05/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "City E II",
+            "sharecode": "167 672 327",
+            "suspension": "Stock",
+            "tuneName": "1:28 Legend Island",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Drift"
+          },
+          "row": 1133,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "167672327",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-170391903",
+      "name": "still not for city",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "City E II",
+            "sharecode": "170 391 903",
+            "suspension": "Rally",
+            "tuneName": "still not for city",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1135,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1984 Honda City E II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "still not for city",
+            "Tuner": "IceFrice8724",
+            "fill": "FF7030A0"
+          },
+          "row": 1670,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "170391903",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-25",
+      "drivetrain": "FWD",
+      "id": "sc-605432242",
+      "name": "The Peel's Cousin",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "City E II",
+            "sharecode": "605 432 242",
+            "suspension": "Stock",
+            "tuneName": "The Peel's Cousin",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Drift"
+          },
+          "row": 1134,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.491,
+      "shareCode": "605432242",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "zombiejesus52"
+    }
+  ],
+  "schemaVersion": 1
+}

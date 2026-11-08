@@ -1,0 +1,703 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s03-spring--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 2022 Lamborghini Huracán EVO Spyder",
+      "routeRaw": "",
+      "routes": [],
+      "row": 239,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s03-spring--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 2021 Pagani Huayra R",
+      "routeRaw": "",
+      "routes": [],
+      "row": 240,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s03-spring--weekly-challenge--racing-spirit",
+      "name": "Racing Spirit",
+      "requirement": {
+        "activities": [
+          "Trailblazers",
+          "Dirt Races",
+          "Wreckage"
+        ],
+        "carIds": [
+          "1980-abarth-fiat-131"
+        ],
+        "scope": "car",
+        "scopeLabel": "1980 Abarth Fiat 131",
+        "status": "parsed"
+      },
+      "requirementRaw": "1980 Abarth Fiat 131; Trailblazers; Dirt Races; Wreckage",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 241,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-spring--daily-challenge--all-the-colors",
+      "name": "All the Colors",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Stars at the Rainbow Run Speed Trap",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 242,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-spring--daily-challenge--stadium-scenery",
+      "name": "Stadium Scenery",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of your car at the Horizon Stadium",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 243,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-spring--daily-challenge--thunderbird-2",
+      "name": "Thunderbird 2",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 2 Stars at the Thunderbird Drift Zone in any Italian Car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 244,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-spring--daily-challenge--whats-it-gonna-be",
+      "name": "What's It Gonna Be?",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Redeem a Wheelspin or Super Wheelspin",
+        "pt-br": "Use uma Roleta ou Superroleta"
+      },
+      "requirementRaw": "Redeem a Wheelspin or Super Wheelspin",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 245,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-spring--daily-challenge--flinging-mud",
+      "name": "Flinging Mud",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 5 Air Skills of any Grade in Dirt Races",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 246,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-spring--daily-challenge--taking-the-reins",
+      "name": "Taking the Reins",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn a Great Skill Chain in any Lamborghini",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 247,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-spring--daily-challenge--shopping-trip",
+      "name": "Shopping Trip",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Win a Road Circuit Race",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 248,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s03-spring--photo-challenge--skiholiday",
+      "name": "#SkiHoliday",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of any Lamborghini at the Sotoyama Ski Resort",
+      "reward": "Emote: Take Off",
+      "routeRaw": "",
+      "routes": [],
+      "row": 249,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s03-spring--treasure-hunt--takashiro-region",
+      "name": "Takashiro Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 250,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s03-spring--championship--out-of-the-loop",
+      "name": "Out of the Loop",
+      "requirement": {
+        "carIds": [
+          "1969-volkswagen-class-5-1600-baja-bug",
+          "1971-meyers-manx",
+          "2011-penhall-the-cholla",
+          "2015-alumicraft-class-10-race-car",
+          "2016-ariel-nomad",
+          "2018-funco-motorsports-f9",
+          "2020-jimco-179-hammerhead-class-1",
+          "2021-alumicraft-122-class-1-buggy",
+          "2023-meyers-manx-2-0",
+          "1972-nissan-patrol",
+          "1993-toyota-1-t100-baja-truck",
+          "1999-dodge-viper-gts-acr-forza-edition",
+          "2013-deberti-jeep-wrangler-unlimited",
+          "2013-mini-x-raid-all4-racing-countryman",
+          "2014-ford-11-rockstar-f-150-trophy-truck",
+          "2014-ford-ranger-t6-rally-raid",
+          "2014-mercedes-benz-unimog-u5023",
+          "2015-honda-ridgeline-baja-trophy-truck",
+          "2016-jeep-trailcat",
+          "2016-rj-anderson-37-polaris-rzr-pro-2-truck",
+          "2017-ford-25-brocky-ultra4-bronco-rtr",
+          "2018-mini-x-raid-john-cooper-works-buggy",
+          "2018-porsche-macan-lpr-rally-raid",
+          "2019-casey-currie-motorsports-4402-ultra-4-trophy-jeep",
+          "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+          "2019-jimco-240-fastball-racing-class-6100-spec-trophy-truck",
+          "2020-ford-2069-ford-performance-bronco-r",
+          "2021-rj-anderson-37-polaris-rzr-pro-4-truck",
+          "2022-alumicraft-6165-trick-truck",
+          "2022-subaru-brz-forza-edition",
+          "2554-amg-transport-dynamics-m12s-warthog-cst"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Total Buggies & Offroad",
+        "status": "parsed"
+      },
+      "requirementRaw": "Total Buggies & Offroad - B Class",
+      "reward": "Car: 2022 Maserati MC20",
+      "routeRaw": "Dirt: Kawazu Nanadaru Scramble, Cherry Field Trail, Chiheisen Scramble",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Kawazu Nanadaru Scramble"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Cherry Field Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Chiheisen Scramble"
+        }
+      ],
+      "row": 251,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": "dirt",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s03-spring--championship--its-snow-problem-at-all",
+      "name": "It's Snow Problem At All",
+      "requirement": {
+        "carIds": [
+          "1992-gmc-typhoon",
+          "2011-bmw-x5-m",
+          "2015-land-rover-range-rover-sport-svr",
+          "2016-bentley-bentayga",
+          "2018-jeep-grand-cherokee-trackhawk",
+          "2018-porsche-cayenne-turbo",
+          "2019-lamborghini-urus",
+          "2020-land-rover-defender-110-x",
+          "2021-aston-martin-dbx",
+          "2021-dodge-durango-srt-hellcat",
+          "2022-bmw-ix-xdrive50",
+          "2023-hyundai-ioniq-5-n",
+          "2024-bmw-x6-m-competition",
+          "2024-ferrari-purosangue",
+          "2025-porsche-macan-gts",
+          "2025-toyota-land-cruiser"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Sports Utility Heroes",
+        "status": "parsed"
+      },
+      "requirementRaw": "Sports Utility Heroes - A Class",
+      "reward": "Car: 2014 Lamborghini Huracán LP 610-4",
+      "routeRaw": "Cross Country: Snow Forest Cross Country Circuit, Tateyama Alpine Cross Country, Soni Highlands Cross Country",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Snow Forest Cross Country Circuit"
+        },
+        {
+          "name": "Tateyama Alpine Cross Country"
+        },
+        {
+          "name": "Soni Highlands Cross Country"
+        }
+      ],
+      "row": 252,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": "cross-country",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "drag",
+      "id": "s03-spring--horizon-life-drag-meet--festival-kilometer",
+      "name": "Festival Kilometer",
+      "requirement": {
+        "carIds": [
+          "1967-lamborghini-miura-p400",
+          "1973-lamborghini-espada-400-gt",
+          "1988-lamborghini-countach-lp5000-qv",
+          "1997-lamborghini-diablo-sv",
+          "1999-lamborghini-diablo-gtr",
+          "2010-lamborghini-murcielago-lp-670-4-sv",
+          "2011-lamborghini-sesto-elemento",
+          "2012-lamborghini-aventador-lp700-4",
+          "2012-lamborghini-gallardo-lp570-4-spyder-performante",
+          "2013-lamborghini-veneno",
+          "2014-lamborghini-huracan-lp-610-4",
+          "2016-lamborghini-centenario-lp-770-4",
+          "2018-lamborghini-aventador-svj",
+          "2019-lamborghini-urus",
+          "2020-lamborghini-essenza-scv12",
+          "2020-lamborghini-huracan-evo",
+          "2020-lamborghini-huracan-sto",
+          "2020-lamborghini-sian-roadster",
+          "2021-lamborghini-countach-lpi-800-4",
+          "2022-lamborghini-aventador-lp-780-4-ultimae",
+          "2022-lamborghini-huracan-evo-spyder",
+          "2022-lamborghini-huracan-sterrato",
+          "2022-lamborghini-huracan-tecnica",
+          "2024-lamborghini-revuelto",
+          "2024-lamborghini-temerario"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Lamborghini",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "18.000 seconds",
+          "unit": "s",
+          "value": 18
+        }
+      },
+      "requirementRaw": "Lamborghini - S1 Class - 18.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 253,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "Horizon Life - Drag Meet"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s03-spring--pr-stunt-speed-trap--takashiro-bridge",
+      "name": "Takashiro Bridge",
+      "requirement": {
+        "carIds": [
+          "1962-ferrari-250-gt-berlinetta-lusso",
+          "1962-ferrari-250-gto",
+          "1967-ferrari-24-ferrari-spa-330-p4",
+          "1967-ferrari-275-gtb4-spider",
+          "1969-ferrari-dino-246-gt",
+          "1970-ferrari-512-s",
+          "1984-ferrari-288-gto",
+          "1987-ferrari-f40",
+          "1989-ferrari-f40-competizione",
+          "1992-ferrari-512-tr",
+          "1994-ferrari-f355-berlinetta",
+          "1995-ferrari-f50",
+          "1996-ferrari-f50-gt",
+          "2002-ferrari-enzo-ferrari",
+          "2005-ferrari-fxx",
+          "2007-ferrari-430-scuderia",
+          "2009-ferrari-458-italia",
+          "2010-ferrari-599xx",
+          "2012-ferrari-599xx-evolution",
+          "2013-ferrari-458-speciale",
+          "2013-ferrari-laferrari",
+          "2014-ferrari-fxx-k",
+          "2015-ferrari-488-gtb",
+          "2015-ferrari-f12tdf",
+          "2017-ferrari-812-superfast",
+          "2017-ferrari-j50",
+          "2017-ferrari-j50-preorder-car",
+          "2018-ferrari-fxx-k-evo",
+          "2018-ferrari-fxx-k-evo-welcome-pack",
+          "2018-ferrari-portofino",
+          "2019-ferrari-488-pista",
+          "2019-ferrari-f8-tributo",
+          "2019-ferrari-monza-sp2",
+          "2020-ferrari-roma",
+          "2020-ferrari-sf90-stradale",
+          "2022-ferrari-296-gtb",
+          "2024-ferrari-purosangue",
+          "2025-ferrari-f80"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Ferrari",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "165.0 mph",
+          "unit": "mph",
+          "value": 165
+        }
+      },
+      "requirementRaw": "Ferrari - S1 Class - 165.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 254,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s03-spring--pr-stunt-speed-zone--kozokudoro",
+      "name": "Kōzokudōro",
+      "requirement": {
+        "carIds": [
+          "1962-ferrari-250-gt-berlinetta-lusso",
+          "1962-ferrari-250-gto",
+          "1967-ferrari-24-ferrari-spa-330-p4",
+          "1967-ferrari-275-gtb4-spider",
+          "1969-ferrari-dino-246-gt",
+          "1970-ferrari-512-s",
+          "1984-ferrari-288-gto",
+          "1987-ferrari-f40",
+          "1989-ferrari-f40-competizione",
+          "1992-ferrari-512-tr",
+          "1994-ferrari-f355-berlinetta",
+          "1995-ferrari-f50",
+          "1996-ferrari-f50-gt",
+          "2002-ferrari-enzo-ferrari",
+          "2005-ferrari-fxx",
+          "2007-ferrari-430-scuderia",
+          "2009-ferrari-458-italia",
+          "2010-ferrari-599xx",
+          "2012-ferrari-599xx-evolution",
+          "2013-ferrari-458-speciale",
+          "2013-ferrari-laferrari",
+          "2014-ferrari-fxx-k",
+          "2015-ferrari-488-gtb",
+          "2015-ferrari-f12tdf",
+          "2017-ferrari-812-superfast",
+          "2017-ferrari-j50",
+          "2017-ferrari-j50-preorder-car",
+          "2018-ferrari-fxx-k-evo",
+          "2018-ferrari-fxx-k-evo-welcome-pack",
+          "2018-ferrari-portofino",
+          "2019-ferrari-488-pista",
+          "2019-ferrari-f8-tributo",
+          "2019-ferrari-monza-sp2",
+          "2020-ferrari-roma",
+          "2020-ferrari-sf90-stradale",
+          "2022-ferrari-296-gtb",
+          "2024-ferrari-purosangue",
+          "2025-ferrari-f80"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Ferrari",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "200.0 mph",
+          "unit": "mph",
+          "value": 200
+        }
+      },
+      "requirementRaw": "Ferrari - S1 Class - 200.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 255,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "drift",
+      "id": "s03-spring--pr-stunt-drift-zone--nukabira-turn",
+      "name": "Nukabira Turn",
+      "requirement": {
+        "carIds": [
+          "1962-ferrari-250-gt-berlinetta-lusso",
+          "1962-ferrari-250-gto",
+          "1967-ferrari-24-ferrari-spa-330-p4",
+          "1967-ferrari-275-gtb4-spider",
+          "1969-ferrari-dino-246-gt",
+          "1970-ferrari-512-s",
+          "1984-ferrari-288-gto",
+          "1987-ferrari-f40",
+          "1989-ferrari-f40-competizione",
+          "1992-ferrari-512-tr",
+          "1994-ferrari-f355-berlinetta",
+          "1995-ferrari-f50",
+          "1996-ferrari-f50-gt",
+          "2002-ferrari-enzo-ferrari",
+          "2005-ferrari-fxx",
+          "2007-ferrari-430-scuderia",
+          "2009-ferrari-458-italia",
+          "2010-ferrari-599xx",
+          "2012-ferrari-599xx-evolution",
+          "2013-ferrari-458-speciale",
+          "2013-ferrari-laferrari",
+          "2014-ferrari-fxx-k",
+          "2015-ferrari-488-gtb",
+          "2015-ferrari-f12tdf",
+          "2017-ferrari-812-superfast",
+          "2017-ferrari-j50",
+          "2017-ferrari-j50-preorder-car",
+          "2018-ferrari-fxx-k-evo",
+          "2018-ferrari-fxx-k-evo-welcome-pack",
+          "2018-ferrari-portofino",
+          "2019-ferrari-488-pista",
+          "2019-ferrari-f8-tributo",
+          "2019-ferrari-monza-sp2",
+          "2020-ferrari-roma",
+          "2020-ferrari-sf90-stradale",
+          "2022-ferrari-296-gtb",
+          "2024-ferrari-purosangue",
+          "2025-ferrari-f80"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Ferrari",
+        "status": "parsed",
+        "target": {
+          "kind": "score",
+          "raw": "64,000 points",
+          "unit": "pts",
+          "value": 64000
+        }
+      },
+      "requirementRaw": "Ferrari - S1 Class - 64,000 points",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 256,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "PR Stunt - Drift Zone"
+    },
+    {
+      "category": "trial",
+      "id": "s03-spring--horizon-life-the-trial--daily-commute",
+      "name": "Daily Commute",
+      "requirement": {
+        "carIds": [
+          "1965-alfa-romeo-giulia-sprint-gta-stradale",
+          "1965-alfa-romeo-giulia-tz2",
+          "1968-alfa-romeo-33-stradale",
+          "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+          "1990-alfa-romeo-se-048sp",
+          "1992-alfa-romeo-155-q4",
+          "2007-alfa-romeo-8c-competizione",
+          "2011-alfa-romeo-giulietta-quadrifoglio-verde",
+          "2014-alfa-romeo-4c",
+          "2017-alfa-romeo-giulia-quadrifoglio",
+          "2021-alfa-romeo-giulia-gtam"
+        ],
+        "class": "A",
+        "scope": "make",
+        "scopeLabel": "Alfa Romeo",
+        "status": "parsed"
+      },
+      "requirementRaw": "Alfa Romeo - A Class",
+      "reward": "Car: 2020 Ferrari SF90 Stradale",
+      "routeRaw": "Road: Ito Sprint, Tokyo Railway Sprint, Highway Circuit",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Ito Sprint"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Tokyo Railway Sprint"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Highway Circuit"
+        }
+      ],
+      "row": 257,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s03-spring--horizon-play-spec-racing--up-to-spec",
+      "name": "Up to Spec?",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Spec Racing Championship",
+        "pt-br": "Complete um campeonato Spec Racing"
+      },
+      "requirementRaw": "Complete a Spec Racing Championship",
+      "reward": "Car: 2007 Alfa Romeo 8C Competizione",
+      "routeRaw": "",
+      "routes": [],
+      "row": 258,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Horizon Play - Spec Racing"
+    },
+    {
+      "category": "online",
+      "id": "s03-spring--horizon-play-horizon-stunt-party--mini-games",
+      "name": "Mini Games",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete any Horizon Stunt Party",
+        "pt-br": "Complete qualquer Horizon Stunt Party"
+      },
+      "requirementRaw": "Complete any Horizon Stunt Party",
+      "reward": "Car Horn: Wah Wah Wah Wahhh",
+      "routeRaw": "",
+      "routes": [],
+      "row": 259,
+      "seasonId": "s03-spring",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Horizon Play - Horizon Stunt Party"
+    }
+  ],
+  "schemaVersion": 1
+}

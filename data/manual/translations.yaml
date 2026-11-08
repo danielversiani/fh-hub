@@ -1,0 +1,516 @@
+# Translations of text that sources write in another language (today: Noa Miyako's notes in
+# Chinese, and a few tune names). The pipeline shows the translation instead of the original
+# (ADR-0014). Lap times like "白川1:04.3" are left out of the translation: the site already
+# shows them as "1:04.3 · Shirakawa" (data/manual/track-aliases.yaml).
+# New untranslated texts are listed in data/review/untranslated-texts.json; translate them here
+# (by hand or by the AI curation routine, via PR). Keys must match the source text exactly.
+'1750匹 但是圈速很慢 建议开越野胎版本':
+  pt-br: '1750 cv, mas o tempo de volta é lento; prefira a versão com pneus off-road.'
+  en: '1750 hp, but slow lap times; use the off-road tire version.'
+'3.3G 操控很好 缺后段加速和极速':
+  pt-br: 'Versão 3.3: ótima nas curvas, mas falta aceleração em alta e velocidade máxima.'
+  en: '3.3 version: great handling, but lacks top-end acceleration and top speed.'
+'3.3G 赛用全热熔偏操控':
+  pt-br: 'Versão 3.3: pneus slick de corrida, voltada para curvas.'
+  en: '3.3 version: race slicks, handling-focused.'
+'3.6G 操控很好 缺后段加速和极速':
+  pt-br: 'Versão 3.6: ótima nas curvas, mas falta aceleração em alta e velocidade máxima.'
+  en: '3.6 version: great handling, but lacks top-end acceleration and top speed.'
+'3.9G前驱操控车 仅限小赛道':
+  pt-br: 'Versão 3.9: tração dianteira voltada para curvas; só para pistas curtas.'
+  en: '3.9 version: FWD handling car; short tracks only.'
+'C Road Powerbuild Sunshine 五其策拉拉':
+  pt-br: 'C Road Powerbuild Sunshine'
+  en: 'C Road Powerbuild Sunshine'
+'Miyako的偏动力，Sola的偏操控':
+  pt-br: 'A tune de Miyako puxa para potência; a de Sola, para curvas.'
+  en: "Miyako's tune leans power; Sola's leans handling."
+'Purist调教，适用于外观党，要慢一点，有点推头':
+  pt-br: 'Tune purista, para quem quer o visual original; um pouco mais lenta e sai um pouco de frente.'
+  en: 'Purist tune for the stock-look crowd; a bit slower and slightly understeers.'
+'R级非常少见的均衡强车 线上推荐驾驶':
+  pt-br: 'Carro equilibrado e forte, coisa rara na classe R; recomendado para corridas online.'
+  en: 'A balanced, strong car, rare in R class; recommended for online racing.'
+'dirt 拉 力 +CC 越 野':
+  pt-br: 'Terra (rali) + cross country'
+  en: 'Dirt (rally) + cross country'
+'东京铁道世界纪录 加速非常快 弯速也不错':
+  pt-br: 'Recorde mundial no Tokyo Railway. Acelera muito e faz curva bem.'
+  en: 'World record at Tokyo Railway. Very fast acceleration and good cornering speed.'
+'中后段比F1 GT有优势':
+  pt-br: 'Vantagem sobre o F1 GT na aceleração média e alta.'
+  en: 'Beats the F1 GT on mid and top-end acceleration.'
+'伊根01.7 糠平2:52.772 低速弯推头 操控优秀':
+  pt-br: 'Sai de frente em curvas lentas; ótimo nas curvas no geral.'
+  en: 'Understeers in slow corners; excellent handling overall.'
+'伊根01.8 冲刺图强势 前中段加速非常快':
+  pt-br: 'Forte em provas de sprint; aceleração muito rápida em baixa e média.'
+  en: 'Strong on sprint tracks; very fast low and mid-range acceleration.'
+'伊根01.8 石部50.2 加速很暴力 烂路抓地力很强':
+  pt-br: 'Aceleração brutal e muita aderência em piso ruim.'
+  en: 'Brutal acceleration and great grip on rough surfaces.'
+'伊根02.8 向日葵56.8干净圈 推荐用赛悬 直线加速快 适合线上':
+  pt-br: 'Volta limpa no Sunflower. Use a suspensão de corrida; acelera rápido nas retas; bom para online.'
+  en: 'Clean lap at Sunflower. Use race suspension; quick in a straight line; good for online.'
+'伊根02.8 外山53.8 加速很暴力 适合线上':
+  pt-br: 'Aceleração brutal; bom para online.'
+  en: 'Brutal acceleration; good for online.'
+'伊根1:05.8 推头 多用手刹或顶油辅助过弯':
+  pt-br: 'Sai de frente: use bastante o freio de mão ou o acelerador para ajudar nas curvas.'
+  en: 'Understeers: lean on the handbrake or throttle to help it turn.'
+'伊根1:05.8 综合简单车':
+  pt-br: 'Carro completo e simples de pilotar.'
+  en: 'Simple, well-rounded car.'
+'伊根1:06.394 均衡水桶操控车':
+  pt-br: 'Equilibrado, sem ponto fraco, voltado para curvas.'
+  en: 'Balanced handling car with no weak spot.'
+'伊根1:06.5 手感很肉 像开船':
+  pt-br: 'Direção pesada e lenta, parece um barco.'
+  en: 'Feels heavy and sluggish, like driving a boat.'
+'伊根1:06.5 操控很强 公路段优势':
+  pt-br: 'Muito bom nas curvas; vantagem nos trechos de asfalto.'
+  en: 'Very strong handling; an edge on the tarmac sections.'
+'伊根1:06.6 操控很强 公路段优势':
+  pt-br: 'Muito bom nas curvas; vantagem nos trechos de asfalto.'
+  en: 'Very strong handling; an edge on the tarmac sections.'
+'全段加速和操控优秀':
+  pt-br: 'Ótima aceleração em toda a faixa e ótimo nas curvas.'
+  en: 'Excellent acceleration across the range and excellent handling.'
+'全面弱化的宾利':
+  pt-br: 'Um Bentley mais fraco em tudo.'
+  en: 'A Bentley that is weaker at everything.'
+'前中段加速很强 注意控油':
+  pt-br: 'Aceleração forte em baixa e média; cuidado com o acelerador.'
+  en: 'Strong low and mid-range acceleration; watch the throttle.'
+'前中段加速很快 后段和极速劣势':
+  pt-br: 'Acelera muito rápido em baixa e média; perde em aceleração alta e velocidade máxima.'
+  en: 'Very quick low and mid-range acceleration; weaker top end and top speed.'
+'前中段加速很快 推荐线上驾驶':
+  pt-br: 'Acelera muito rápido em baixa e média; recomendado para pilotar online.'
+  en: 'Very quick low and mid-range acceleration; recommended for online.'
+'前中段加速极快，出弯很快，前驱平台＋宽后胎，部分情况下会推头，整体操控比较简单':
+  pt-br: 'Aceleração em baixa e média extremamente rápida, sai muito bem das curvas. Tração dianteira com pneus traseiros largos; às vezes sai de frente, mas no geral é simples de pilotar.'
+  en: 'Extremely quick low and mid-range acceleration, great corner exit. FWD with wide rear tires; can understeer at times, but overall simple to drive.'
+'前段加速还可以，后段一般，前驱平台有一点推头，不过很好控':
+  pt-br: 'Aceleração inicial razoável, média no final. Tração dianteira, sai um pouco de frente, mas é fácil de controlar.'
+  en: 'Decent early acceleration, average top end. FWD, slight understeer, but easy to control.'
+'北部WR 2:20.314 倒转19.7 入弯略推略笨重 加速无敌快 半滑过弯':
+  pt-br: 'Invertido: 19.7. Sai um pouco de frente e é meio pesado na entrada de curva; aceleração imbatível; faça as curvas deslizando de leve.'
+  en: 'Reversed: 19.7. Slight understeer and a bit heavy on turn-in; unbeatable acceleration; take corners in a light slide.'
+'原厂引擎 季节赛':
+  pt-br: 'Motor original; para eventos sazonais.'
+  en: 'Stock engine; for seasonal events.'
+'原矿机器':
+  pt-br: 'Carro bruto, sem refinamento.'
+  en: 'A raw, unrefined machine.'
+'可爱小车，注意控油':
+  pt-br: 'Carrinho fofo; cuidado com o acelerador.'
+  en: 'Cute little car; watch the throttle.'
+'向日葵55.3 出弯有点推':
+  pt-br: 'Sai um pouco de frente na saída das curvas.'
+  en: 'Slight understeer on corner exit.'
+'向日葵55.9 赛悬稳定 拉悬灵活':
+  pt-br: 'Estável com suspensão de corrida, ágil com suspensão de rali.'
+  en: 'Stable with race suspension, nimble with rally suspension.'
+'向日葵56.7 手感有点重':
+  pt-br: 'Direção um pouco pesada.'
+  en: 'Steering feels a bit heavy.'
+'向日葵57.464 手感和五代一样 动力偏弱了一些':
+  pt-br: 'A sensação é igual à do FH5; um pouco mais fraco de potência.'
+  en: 'Feels the same as in FH5; a little down on power.'
+'四季彩2:16.9 低速弯优秀':
+  pt-br: 'Ótimo em curvas lentas.'
+  en: 'Excellent in slow corners.'
+'地平线攀爬赛1:01.368 轮椅操控车':
+  pt-br: 'Muito fácil de pilotar nas curvas.'
+  en: 'Very easy to drive through corners.'
+'均衡好开':
+  pt-br: 'Equilibrado e fácil de pilotar.'
+  en: 'Balanced and easy to drive.'
+'外山世界纪录 纯劲大':
+  pt-br: 'Recorde mundial no Sotoyama; pura força.'
+  en: 'World record at Sotoyama; pure grunt.'
+'多个环道以及冲刺图世界纪录':
+  pt-br: 'Recordes mundiais em vários circuitos e sprints.'
+  en: 'World records on several circuits and sprints.'
+'多图世界纪录':
+  pt-br: 'Recordes mundiais em várias pistas.'
+  en: 'World records on several tracks.'
+'大佛寺前世界纪录':
+  pt-br: 'Recorde mundial na prova em frente ao templo do Grande Buda.'
+  en: 'World record on the route in front of the Great Buddha temple.'
+'大马力前驱':
+  pt-br: 'Tração dianteira com muita potência.'
+  en: 'High-power FWD.'
+'大马力前驱 高速路54.5':
+  pt-br: 'Tração dianteira com muita potência.'
+  en: 'High-power FWD.'
+'大黑53.2 刹车入弯小心翻车':
+  pt-br: 'Cuidado ao frear entrando na curva: pode capotar.'
+  en: 'Careful braking into corners: it can roll over.'
+'季节赛调校 EZ Car':
+  pt-br: 'Tune de evento sazonal; carro fácil.'
+  en: 'Seasonal event tune; an easy car.'
+'峠道世界纪录':
+  pt-br: 'Recorde mundial no touge.'
+  en: 'Touge world record.'
+'开荒 任务':
+  pt-br: 'Para o começo do jogo.'
+  en: 'For the early game.'
+'开荒 用 车':
+  pt-br: 'Carro para o começo do jogo.'
+  en: 'Early-game car.'
+'开荒任务':
+  pt-br: 'Para o começo do jogo.'
+  en: 'For the early game.'
+'拉力 測速 、 拓 芒 者 、 跳 台':
+  pt-br: 'Rali, radares de velocidade, desbravadores e saltos.'
+  en: 'Rally, speed traps, trailblazers and jumps.'
+'控油非常非常简单 最适合新手的大后之一':
+  pt-br: 'Acelerador muito, muito fácil de controlar; um dos melhores carros de tração traseira potentes para iniciantes.'
+  en: 'Very, very easy throttle control; one of the best high-power RWD cars for beginners.'
+'操控很舒服但是加速太差':
+  pt-br: 'Muito confortável nas curvas, mas acelera mal.'
+  en: 'Very comfortable handling, but poor acceleration.'
+'操控版本 赛用变速箱':
+  pt-br: 'Versão de curvas, com câmbio de corrida.'
+  en: 'Handling version, with a race gearbox.'
+'操控还行':
+  pt-br: 'Comportamento nas curvas razoável.'
+  en: 'Handling is okay.'
+'无穷无尽的后段加速':
+  pt-br: 'Aceleração em alta que não acaba nunca.'
+  en: 'Endless top-end acceleration.'
+'曾尔世界纪录 毛豆世界纪录':
+  pt-br: 'Recorde mundial em Soni e no Edamame.'
+  en: 'World records at Soni and Edamame.'
+'有v8dsc和77v12两个版本 都特别好控':
+  pt-br: 'Tem duas versões, V8 DSC e 77 V12; as duas são muito fáceis de controlar.'
+  en: 'Two versions, V8 DSC and 77 V12; both are very easy to control.'
+'有两个调校，一个拉力胎一个半热熔（semi slicks），拉力胎快一点，半热熔是轨道车，都好开':
+  pt-br: 'Duas tunes: uma com pneus de rali e outra com semi-slick. A de rali é um pouco mais rápida; a semi-slick é para pista. As duas são fáceis de pilotar.'
+  en: 'Two tunes: one on rally tires, one on semi-slicks. The rally one is slightly faster; the semi-slick one is for tracks. Both are easy to drive.'
+'极限竟速':
+  pt-br: 'Forza'
+  en: 'Forza'
+'樱桃园2:03high 小心点开':
+  pt-br: 'Cherry Field na casa de 2:03; pilote com cuidado.'
+  en: 'Cherry Field in the high 2:03s; drive carefully.'
+'樱桃园2:32.946 线上起步优势':
+  pt-br: 'Vantagem na largada em corridas online.'
+  en: 'Launch advantage in online races.'
+'歌莉娅世界纪录':
+  pt-br: 'Recorde mundial em Gloria.'
+  en: 'World record at Gloria.'
+'毛豆世界纪录':
+  pt-br: 'Recorde mundial no Edamame.'
+  en: 'World record at Edamame.'
+'电器街世界纪录':
+  pt-br: 'Recorde mundial no Electric Town.'
+  en: 'World record at Electric Town.'
+'白川 1:01.7 可用 比Glanza差远了':
+  pt-br: 'Dá para usar, mas fica bem atrás do Glanza.'
+  en: 'Usable, but far behind the Glanza.'
+'白川 54.9 均衡四驱':
+  pt-br: 'Tração integral equilibrada.'
+  en: 'Balanced AWD.'
+'白川 55.4 手感不错 悬挂一般 加速很快':
+  pt-br: 'Boa sensação, suspensão mediana, acelera muito rápido.'
+  en: 'Good feel, average suspension, very quick acceleration.'
+'白川 55.5 阻力低 操控优秀':
+  pt-br: 'Pouco arrasto aerodinâmico; ótimo nas curvas.'
+  en: 'Low drag; excellent handling.'
+'白川 55.6 加速可以 操控一般 比较均衡':
+  pt-br: 'Aceleração boa, curvas medianas; bem equilibrado.'
+  en: 'Decent acceleration, average handling; fairly balanced.'
+'白川 56.1 MC20不是区!':
+  pt-br: 'Supera o MC20!'
+  en: 'Beats the MC20!'
+'白川 59.2 全能无短板':
+  pt-br: 'Completo, sem ponto fraco.'
+  en: 'All-rounder with no weak spot.'
+'白川02.3 非常好开 适合新手练习后驱':
+  pt-br: 'Muito fácil de pilotar; bom para iniciantes treinarem tração traseira.'
+  en: 'Very easy to drive; good for beginners to practise RWD.'
+'白川02.6，强度能玩，注意重心转移，有R34前脸的瓦罐车那还说啥了':
+  pt-br: 'Forte o bastante para jogar; atenção à transferência de peso. Uma perua com a frente do R34, precisa dizer mais?'
+  en: 'Strong enough to play; mind the weight transfer. A wagon with an R34 face, need we say more?'
+'白川1:00.1 拉力胎四驱强车 极速360 刹车差':
+  pt-br: 'Carro forte de tração integral com pneus de rali; velocidade máxima 360; freio fraco.'
+  en: 'Strong AWD car on rally tires; 360 top speed; weak brakes.'
+'白川1:00.1 拉力胎四驱强车 稳定好开 全天气可用 可上草':
+  pt-br: 'Carro forte de tração integral com pneus de rali; estável, fácil de pilotar, serve para qualquer clima e aguenta grama.'
+  en: 'Strong AWD car on rally tires; stable, easy to drive, works in any weather and copes with grass.'
+'白川1:00.2 高速弯弯速快':
+  pt-br: 'Rápido em curvas de alta velocidade.'
+  en: 'Fast through high-speed corners.'
+'白川1:00.3 前中段加速快 相对好控':
+  pt-br: 'Acelera rápido em baixa e média; relativamente fácil de controlar.'
+  en: 'Quick low and mid-range acceleration; fairly easy to control.'
+'白川1:00.3 最强拉力胎大前 可以一战 比漂移胎控油简单但弯速慢一些':
+  pt-br: 'O melhor tração dianteira potente com pneus de rali; dá para brigar. Mais fácil de controlar no acelerador que com pneus de drift, mas um pouco mais lento nas curvas.'
+  en: 'The best high-power FWD on rally tires; can fight for the win. Easier throttle control than on drift tires, but a little slower in corners.'
+'白川1:00.4 推头 刹车不稳定':
+  pt-br: 'Sai de frente; freio instável.'
+  en: 'Understeers; unstable braking.'
+'白川1:00.6干净':
+  pt-br: 'Volta limpa.'
+  en: 'Clean lap.'
+'白川1:00.7 意外地比155Q4强 弯速快 略推头':
+  pt-br: 'Surpreendentemente melhor que o 155 Q4: rápido nas curvas, sai um pouco de frente.'
+  en: 'Surprisingly better than the 155 Q4: fast in corners, slight understeer.'
+'白川1:00.7 超级推重比加魔法拐弯 涡轮在3000转起压 需要十分小心地控油 中高速图强势':
+  pt-br: 'Relação peso-potência absurda e curvas mágicas. O turbo enche a partir de 3000 rpm: controle o acelerador com muito cuidado. Forte em pistas de média e alta velocidade.'
+  en: 'Huge power-to-weight and magic cornering. The turbo spools from 3000 rpm: be very careful with the throttle. Strong on medium and high-speed tracks.'
+'白川1:00.7 转向有点硬':
+  pt-br: 'Direção um pouco dura.'
+  en: 'Steering is a bit stiff.'
+'白川1:00.9 变速箱需要适应':
+  pt-br: 'O câmbio exige costume.'
+  en: 'The gearbox takes some getting used to.'
+'白川1:01.0 起步慢，弯道直线表现都不错':
+  pt-br: 'Largada lenta, mas vai bem em curvas e retas.'
+  en: 'Slow launch, but good in corners and on straights.'
+'白川1:01.0干净圈 高速路34.2 中段加速不错 高速弯性能好 有一定驾驶难度':
+  pt-br: 'Volta limpa. Boa aceleração média e ótimo em curvas rápidas; exige alguma habilidade.'
+  en: 'Clean lap. Good mid-range acceleration and strong in fast corners; takes some skill.'
+'白川1:01.3 非常帅的车':
+  pt-br: 'Carro muito bonito.'
+  en: 'A really good-looking car.'
+'白川1:01.5干净圈':
+  pt-br: 'Volta limpa.'
+  en: 'Clean lap.'
+'白川1:01.7 Purist纯粹调校':
+  pt-br: 'Tune purista.'
+  en: 'Purist tune.'
+'白川1:01.8，需要一定控车手法，车尾不老实，原厂变速箱快一点点，但是建议二档起步':
+  pt-br: 'Exige técnica: a traseira é arisca. O câmbio original é um pouquinho mais rápido, mas é melhor largar em segunda.'
+  en: 'Takes technique: the rear is twitchy. The stock gearbox is a touch faster, but launch in second gear.'
+'白川1:01.8，需要控油，中马力前驱，起步较慢':
+  pt-br: 'Exige controle do acelerador; tração dianteira de potência média; largada lenta.'
+  en: 'Needs throttle control; mid-power FWD; slow launch.'
+'白川1:02.4 Purist纯粹调校':
+  pt-br: 'Tune purista.'
+  en: 'Purist tune.'
+'白川1:02.5 手感不错 玩具车':
+  pt-br: 'Boa sensação; um carro de brinquedo.'
+  en: 'Good feel; a toy car.'
+'白川1:02.6 弯道不错，加速略差':
+  pt-br: 'Bom nas curvas, acelera um pouco mal.'
+  en: 'Good in corners, slightly weak acceleration.'
+'白川1:02.7 Purist纯粹调校':
+  pt-br: 'Tune purista.'
+  en: 'Purist tune.'
+'白川1:04.8 前中段加速很快 注意翻车':
+  pt-br: 'Acelera muito rápido em baixa e média; cuidado para não capotar.'
+  en: 'Very quick low and mid-range acceleration; careful not to roll it.'
+'白川1:04.9 冲刺图优势 街车变速箱建议4 5档驾驶':
+  pt-br: 'Vantagem em sprints. Com o câmbio de rua, use 4ª e 5ª marchas.'
+  en: 'An edge on sprints. With the street gearbox, drive in 4th and 5th gear.'
+'白川1:04.9干净极限04.6 相对简单好开 有后段':
+  pt-br: 'Volta limpa; 1:04.6 no limite. Relativamente simples e fácil; tem fôlego no fim.'
+  en: 'Clean lap; 1:04.6 at the limit. Fairly simple and easy; pulls well at the top end.'
+'白川1:05.1 操控不错':
+  pt-br: 'Bom nas curvas.'
+  en: 'Good handling.'
+'白川1:05.2 弯速优势':
+  pt-br: 'Vantagem na velocidade de curva.'
+  en: 'An edge in cornering speed.'
+'白川1:05.2 有点假震动':
+  pt-br: 'Tem uma vibração estranha no volante.'
+  en: 'Has some odd fake vibration.'
+'白川1:05.3 相对好控 加速很快 没多少后段':
+  pt-br: 'Relativamente fácil de controlar, acelera muito rápido, mas tem pouco fôlego no fim.'
+  en: 'Fairly easy to control, very quick acceleration, but not much top end.'
+'白川1:05.4 刹车较差要小心':
+  pt-br: 'Freio fraco: cuidado.'
+  en: 'Weak brakes: be careful.'
+'白川1:05.4 操控不错':
+  pt-br: 'Bom nas curvas.'
+  en: 'Good handling.'
+'白川1:05.4 操控不错有后段':
+  pt-br: 'Bom nas curvas e com fôlego no fim.'
+  en: 'Good handling and pulls well at the top end.'
+'白川1:05.7 控油较简单':
+  pt-br: 'Acelerador fácil de controlar.'
+  en: 'Easy throttle control.'
+'白川1:05.8 控油简单 手感较推头 街车变速箱建议4 5档驾驶':
+  pt-br: 'Acelerador fácil de controlar; sai de frente. Com o câmbio de rua, use 4ª e 5ª marchas.'
+  en: 'Easy throttle control; feels understeery. With the street gearbox, drive in 4th and 5th gear.'
+'白川1:06.2 非常综合好开':
+  pt-br: 'Muito completo e fácil de pilotar.'
+  en: 'Very well-rounded and easy to drive.'
+'白川1:06.4 均衡好开':
+  pt-br: 'Equilibrado e fácil de pilotar.'
+  en: 'Balanced and easy to drive.'
+'白川1:06.4 均衡稳定好开':
+  pt-br: 'Equilibrado, estável e fácil de pilotar.'
+  en: 'Balanced, stable and easy to drive.'
+'白川1:06.6 前中段加速很快':
+  pt-br: 'Acelera muito rápido em baixa e média.'
+  en: 'Very quick low and mid-range acceleration.'
+'白川47.2 灵活四驱操控车':
+  pt-br: 'Tração integral ágil, voltada para curvas.'
+  en: 'Nimble AWD handling car.'
+'白川48.1 操控向后驱 锁极速':
+  pt-br: 'Tração traseira voltada para curvas; velocidade máxima limitada.'
+  en: 'Handling-oriented RWD; top speed is capped.'
+'白川48.7 偏操控 手感很舒服':
+  pt-br: 'Puxa para curvas; sensação muito confortável.'
+  en: 'Leans towards handling; very comfortable feel.'
+'白川52.5 时代的眼泪':
+  pt-br: 'Uma relíquia de outra época.'
+  en: 'A relic of a bygone era.'
+'白川55.0 前段加速快':
+  pt-br: 'Acelera rápido na saída.'
+  en: 'Quick early acceleration.'
+'白川56.1，全空半热熔，不能上草，可跑湿地，手感不错':
+  pt-br: 'Aero completo e semi-slick: não pode ir para a grama, mas aguenta pista molhada. Boa sensação.'
+  en: "Full aero on semi-slicks: can't go on grass, but handles wet track. Good feel."
+'白川56.3 加速极速不错 弯道一般 空力不平衡有点推头':
+  pt-br: 'Boa aceleração e velocidade máxima, curvas medianas; a aerodinâmica desequilibrada faz sair um pouco de frente.'
+  en: 'Good acceleration and top speed, average in corners; unbalanced aero makes it understeer a bit.'
+'白川56.7，手感偏推，整体好控':
+  pt-br: 'Sai um pouco de frente, mas no geral é fácil de controlar.'
+  en: 'Feels a bit understeery, but easy to control overall.'
+'白川59.0 后段弱':
+  pt-br: 'Fraco no fim (aceleração em alta).'
+  en: 'Weak at the top end.'
+'白川59.2 全段加速优势':
+  pt-br: 'Vantagem de aceleração em toda a faixa.'
+  en: 'Acceleration advantage across the range.'
+'白川59.3 开TC会快很多':
+  pt-br: 'Fica bem mais rápido com o controle de tração ligado.'
+  en: 'Much faster with traction control on.'
+'白川59.5 高速公路环道32.7干净/32.0':
+  pt-br: '32.0 no Highway Circuit em volta suja.'
+  en: '32.0 at Highway Circuit on a dirty lap.'
+'白川59.6 操控很好 加速稍慢':
+  pt-br: 'Ótimo nas curvas, acelera um pouco devagar.'
+  en: 'Great handling, slightly slow acceleration.'
+'白川59.6 越野胎四驱 稳重好开':
+  pt-br: 'Tração integral com pneus off-road; estável e fácil de pilotar.'
+  en: 'AWD on off-road tires; steady and easy to drive.'
+'白川59.7 前段加速快 锁极速':
+  pt-br: 'Acelera rápido na saída; velocidade máxima limitada.'
+  en: 'Quick early acceleration; top speed is capped.'
+'白川59.7 高速公路环道34Mid':
+  pt-br: 'Highway Circuit na casa dos 34 e meio.'
+  en: 'Highway Circuit in the mid 34s.'
+'白川59.7 高速路32.8 手感稳重':
+  pt-br: 'Sensação firme e estável.'
+  en: 'Steady, planted feel.'
+'白川59.8 手感最好的拉力胎 操控很强 推荐圈图':
+  pt-br: 'O pneu de rali com a melhor sensação; muito forte nas curvas; recomendado para circuitos.'
+  en: 'The best-feeling rally tire setup; very strong handling; recommended for circuits.'
+'白川59.8 火箭般的加速 锁极速342':
+  pt-br: 'Aceleração de foguete; velocidade máxima limitada em 342.'
+  en: 'Rocket-like acceleration; top speed capped at 342.'
+'白川59.8 阻力低后段好弯速高':
+  pt-br: 'Pouco arrasto, bom fôlego no fim e curvas rápidas.'
+  en: 'Low drag, strong top end and high cornering speed.'
+'白川59.8干净 高速路32.7 手感有点推':
+  pt-br: 'Volta limpa. Sai um pouco de frente.'
+  en: 'Clean lap. Feels a bit understeery.'
+'白川59.9 手感最好的拉力胎 均衡性能':
+  pt-br: 'O pneu de rali com a melhor sensação; desempenho equilibrado.'
+  en: 'The best-feeling rally tire setup; balanced performance.'
+'白川59.9 拉力胎四驱强车 稳定好开 全天气可用 可上草 宽体套件十分帅气':
+  pt-br: 'Carro forte de tração integral com pneus de rali; estável, fácil de pilotar, serve para qualquer clima e aguenta grama. O kit widebody é lindo.'
+  en: 'Strong AWD car on rally tires; stable, easy to drive, works in any weather and copes with grass. The widebody kit looks great.'
+'白川59.9 经典A级强车 完美复刻FH4手感':
+  pt-br: 'Um clássico forte da classe A; recria perfeitamente a sensação do FH4.'
+  en: 'A classic strong A-class car; perfectly recreates the FH4 feel.'
+'纯玩具车 没什么强度':
+  pt-br: 'Puro brinquedo, sem força para competir.'
+  en: 'Just a toy, not competitive.'
+'综合好开':
+  pt-br: 'Completo e fácil de pilotar.'
+  en: 'Well-rounded and easy to drive.'
+'调校师备注倒转极限圈速伊根 1:05.790 推头多给油滑动辅助过弯':
+  pt-br: 'Nota do tunador: volta-limite no Ine invertido. Sai de frente: acelere mais e deixe deslizar para ajudar na curva.'
+  en: "Tuner's note: limit lap on Ine reversed. Understeers: add throttle and let it slide to help it turn."
+'起步加速非常快 推荐线上使用':
+  pt-br: 'Largada muito rápida; recomendado para online.'
+  en: 'Very fast launch; recommended for online.'
+'超级冲冲火箭车 抓地力很强 悬挂有点颠':
+  pt-br: 'Um foguetinho com muita aderência; suspensão um pouco saltitante.'
+  en: 'A little rocket with lots of grip; suspension is a bit bouncy.'
+'跟GR GT坐一桌，能玩，手感还可以':
+  pt-br: 'No mesmo nível do GR GT; dá para jogar, sensação razoável.'
+  en: 'On par with the GR GT; playable, decent feel.'
+'轮椅综合车 通过性非常强 建议纯泥地驾驶':
+  pt-br: 'Carro completo e muito fácil; passa por qualquer terreno. Melhor em terra pura.'
+  en: 'Very easy all-rounder with great off-road capability. Best on pure dirt.'
+'过水稍差一些 加速、烂路抓地力viper之下第一车':
+  pt-br: 'Um pouco pior ao atravessar água. Aceleração e aderência em piso ruim: o melhor depois do Viper.'
+  en: 'A little worse through water. Acceleration and rough-road grip: second only to the Viper.'
+'还是跟GR GT坐一桌，手感好，拐弯挺不错的，加速平均水平':
+  pt-br: 'Também no nível do GR GT: boa sensação, faz curva bem, aceleração na média.'
+  en: 'Also on par with the GR GT: good feel, turns well, average acceleration.'
+'阻力低后段好弯速高':
+  pt-br: 'Pouco arrasto, bom fôlego no fim e curvas rápidas.'
+  en: 'Low drag, strong top end and high cornering speed.'
+'雨 神 副 驾 口 主 播':
+  pt-br: 'Rain (雨神), o streamer, no banco do carona'
+  en: 'Rain (雨神), the streamer, riding shotgun'
+'霜山 26.5':
+  pt-br: '26.5 em Shuangshan (霜山).'
+  en: '26.5 at Shuangshan (霜山).'
+'霜山世界纪录':
+  pt-br: 'Recorde mundial em Shuangshan (霜山).'
+  en: 'World record at Shuangshan (霜山).'
+'非常均衡 全段加速和操控优秀':
+  pt-br: 'Muito equilibrado: ótima aceleração em toda a faixa e ótimo nas curvas.'
+  en: 'Very balanced: excellent acceleration across the range and excellent handling.'
+'高城 2:37.8干净 越野胎冲刺快 越野圈图也同样非常快 而且非常好开 强烈推荐':
+  pt-br: 'Volta limpa. Rápido em sprints com pneus off-road e igualmente rápido em circuitos off-road; muito fácil de pilotar. Muito recomendado.'
+  en: 'Clean lap. Fast on sprints with off-road tires and just as fast on off-road circuits; very easy to drive. Highly recommended.'
+'高速公路16.7 高速弯强势 刹车一般般':
+  pt-br: 'Forte em curvas rápidas; freio mediano.'
+  en: 'Strong in fast corners; so-so brakes.'
+'高速公路42.1 阻力低后段好':
+  pt-br: 'Pouco arrasto e bom fôlego no fim.'
+  en: 'Low drag and strong top end.'
+'高速公路42.3 弯速操控不错':
+  pt-br: 'Boa velocidade de curva e bom nas curvas.'
+  en: 'Good cornering speed and handling.'
+'高速弯有点推头':
+  pt-br: 'Sai um pouco de frente em curvas rápidas.'
+  en: 'Slight understeer in fast corners.'
+'高速路 52.9 加速很快 高速弯偏推':
+  pt-br: 'Acelera muito rápido; sai de frente em curvas rápidas.'
+  en: 'Very quick acceleration; understeers in fast corners.'
+'高速路33.2干净33.0脏':
+  pt-br: 'Volta limpa; 33.0 em volta suja.'
+  en: 'Clean lap; 33.0 on a dirty lap.'
+'高速路35.1 四改后GTR不是区':
+  pt-br: 'Supera o GT-R depois do quarto ajuste de equilíbrio.'
+  en: 'Beats the GT-R after the fourth balance change.'
+'高速路35.7 四改后GTR不是区':
+  pt-br: 'Supera o GT-R depois do quarto ajuste de equilíbrio.'
+  en: 'Beats the GT-R after the fourth balance change.'
+'高速路40.7 弯速优势':
+  pt-br: 'Vantagem na velocidade de curva.'
+  en: 'An edge in cornering speed.'
+'高速路49.9 三轮之下第一车':
+  pt-br: 'O melhor carro abaixo dos de três rodas.'
+  en: 'The best car short of the three-wheelers.'
+'高速路51.4 嘉年华38.5干净圈':
+  pt-br: 'Volta limpa no Festival Sprint.'
+  en: 'Clean lap at Festival Sprint.'
+'高速路52.6 加速优势':
+  pt-br: 'Vantagem na aceleração.'
+  en: 'Acceleration advantage.'
+'高速路52.6 高速弯和中后段加速优势':
+  pt-br: 'Vantagem em curvas rápidas e na aceleração média e alta.'
+  en: 'An edge in fast corners and in mid and top-end acceleration.'
+'高速路52.8(53.0干净) 加速非常快 相对好控油':
+  pt-br: '53.0 em volta limpa. Acelera muito rápido; acelerador relativamente fácil de controlar.'
+  en: '53.0 on a clean lap. Very quick acceleration; fairly easy throttle control.'
+'高速路53.2 弯速比肌肉车快很多':
+  pt-br: 'Bem mais rápido nas curvas que os muscle cars.'
+  en: 'Much faster in corners than the muscle cars.'
+'高速路54.0 稳定好开':
+  pt-br: 'Estável e fácil de pilotar.'
+  en: 'Stable and easy to drive.'

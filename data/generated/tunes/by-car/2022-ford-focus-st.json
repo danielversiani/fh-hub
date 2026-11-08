@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-ford-focus-st",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-0af6342c80",
+      "metaRank": 20,
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Ford Focus ST",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 1582,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "zaz490"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-ford-focus-st",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-8b95988a8a",
+      "metaRank": 20,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Ford Focus ST",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1581,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ford-focus-st",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-91df971274",
+      "lapRefs": [
+        {
+          "time": "59.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 20,
+      "name": "A road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 43,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-ford-focus-st",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-27",
+      "drivetrain": "FWD",
+      "id": "sc-101694492",
+      "name": "Purist RC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "27/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Ford",
+            "model": "Focus ST",
+            "sharecode": "101 694 492",
+            "suspension": "Street",
+            "tuneName": "Purist RC",
+            "tuner": "AMS Carver",
+            "tyreCompound": "Rally"
+          },
+          "row": 935,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2022 Ford Focus ST",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist RC",
+            "Tuner": "AMS Carver",
+            "fill": "FFFF0000"
+          },
+          "row": 1580,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "101694492",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ams-carver"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,550 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1b1107d26c",
+      "name": "Ram meta users to turn it",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Ford Mustang GT 2+2 Fastback",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Ram meta users to turn it",
+            "Tuner": "Nomv1",
+            "fill": "FFFF0000"
+          },
+          "row": 1491,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1b505e129d",
+      "lapRefs": [
+        {
+          "time": "1:05.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 41,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 86,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        },
+        {
+          "raw": {},
+          "row": 88,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-2417154e6b",
+      "metaRank": 7,
+      "name": "B OFFROAD V3",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Ford Mustang GT 2+2 Fastback",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B OFFROAD V3",
+            "Tuner": "Zookiiwi",
+            "fill": "FFED7D31"
+          },
+          "row": 293,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.618,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-2e7b70df06",
+      "lapRefs": [
+        {
+          "time": "1:05.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.8 控油简单 手感较推头 街车变速箱建议4 5档驾驶",
+      "metaNotesI18n": {
+        "en": "Easy throttle control; feels understeery. With the street gearbox, drive in 4th and 5th gear.",
+        "pt-br": "Acelerador fácil de controlar; sai de frente. Com o câmbio de rua, use 4ª e 5ª marchas."
+      },
+      "metaRank": 43,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 90,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3bb6a3c01d",
+      "metaRank": 2,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 5,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.685,
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5043b9e00d",
+      "metaRank": 7,
+      "name": "It has more power, that means it's better. That's how it works.",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Ford Mustang GT 2+2 Fastback",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "It has more power, that means it's better. That's how it works.",
+            "Tuner": "GreetedDust8",
+            "fill": "theme:7"
+          },
+          "row": 43,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.618,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-55905c7ff4",
+      "metaRank": 7,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.685,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b01e28b0a3",
+      "metaRank": 18,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 39,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.61,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-be8cf2be42",
+      "metaRank": 7,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.685,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-29",
+      "drivetrain": "AWD",
+      "id": "sc-124759659",
+      "metaRank": 7,
+      "name": "B OFFROAD / STREET V4",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang GT 2+2 Fastback",
+            "sharecode": "124 759 659",
+            "suspension": "Street",
+            "tuneName": "B OFFROAD / STREET V4",
+            "tuner": "Zookiiwi",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 971,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.614,
+      "shareCode": "124759659",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-05",
+      "drivetrain": "AWD",
+      "id": "sc-493201835",
+      "name": "Kinky Trail World Record (Kinkaku-ji)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "05/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang GT 2+2 Fastback",
+            "sharecode": "493 201 835",
+            "suspension": "Stock",
+            "tuneName": "Kinky Trail World Record (Kinkaku-ji)",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 969,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.479,
+      "shareCode": "493201835",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-24",
+      "drivetrain": "AWD",
+      "id": "sc-580008746",
+      "metaRank": 2,
+      "name": "B Dirt (Sekibe WR)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "24/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang GT 2+2 Fastback",
+            "sharecode": "580 008 746",
+            "suspension": "Stock",
+            "tuneName": "B Dirt (Sekibe WR)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 970,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1968 Ford Mustang GT 2+2 Fastback",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt (Sekibe WR)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 292,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.693,
+      "shareCode": "580008746",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-24",
+      "drivetrain": "AWD",
+      "id": "sc-709302947",
+      "name": "1500 hp go brrrrr",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang GT 2+2 Fastback",
+            "sharecode": "709 302 947",
+            "suspension": "Stock",
+            "tuneName": "1500 hp go brrrrr",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 967,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1968 Ford Mustang GT 2+2 Fastback",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "1500 hp go brrrrr",
+            "Tuner": "Cast Haste",
+            "fill": "FFED7D31"
+          },
+          "row": 291,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "709302947",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-26",
+      "drivetrain": "AWD",
+      "id": "sc-740051319",
+      "name": "Strong A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "Mustang GT 2+2 Fastback",
+            "sharecode": "740 051 319",
+            "suspension": "Rally",
+            "tuneName": "Strong A Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 968,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "740051319",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

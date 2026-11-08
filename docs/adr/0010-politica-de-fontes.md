@@ -38,3 +38,7 @@ O valor do portal vem do trabalho de tunadores e curadores da comunidade. Tecnic
   - O workflow agendado usa `--public-only` e nem baixa as fontes pendentes.
   - As fixtures de teste são **amostras** (cerca de 100 linhas por planilha), não cópias completas.
   - Hoje só o roster oficial está publicado. Os dados dos tunadores aparecem no site à medida que as autorizações chegam.
+- **2026-11-08, conteúdo com licença aberta:** dados de wikis sob CC BY-SA (ex.: raridade da Forza Wiki) entram como `not-required`, desde que o site dê crédito visível à fonte e à licença (rodapé). Sites comerciais sem licença de reuso (ex.: codmunity/forzacity) não são usados como fonte.
+- **2026-11-08, imagens do jogo:** o item 5 ganha uma exceção: capturas de tela do jogo (fotos dos carros da Forza Wiki), usadas sob as regras de conteúdo da Microsoft ([ADR-0013](0013-miniaturas-dos-carros.md)).
+- **2026-11-08, pré-lançamento:** o item 2 ("só vão ao ar com `granted`") fica suspenso durante o pré-lançamento, por decisão do dono ([ADR-0015](0015-pre-lancamento-com-todas-as-fontes.md)). Crédito, link para a fonte e remoção em 7 dias continuam valendo.
+- **2026-11-08, traduções:** as observações das fontes podem aparecer traduzidas, sempre com o crédito à fonte original ([ADR-0014](0014-traducao-dos-textos-das-fontes.md)).

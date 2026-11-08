@@ -44,3 +44,17 @@ export function formatDate(locale: Locale, iso: string | undefined): string {
     }).format(new Date(iso)) + ' UTC'
   );
 }
+
+/** Translation of a key built at run time (e.g. `carType.<slug>`), or `fallback` when missing. */
+export function tMaybe(locale: Locale, key: string, fallback: string): string {
+  return (dictionaries[locale] as Record<string, string>)[key] ?? fallback;
+}
+
+/** Every key with a prefix, without the prefix (e.g. all `carType.*` for the Preact islands). */
+export function tGroup(locale: Locale, prefix: string): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(dictionaries[locale])
+      .filter(([key]) => key.startsWith(`${prefix}.`))
+      .map(([key, value]) => [key.slice(prefix.length + 1), value]),
+  );
+}

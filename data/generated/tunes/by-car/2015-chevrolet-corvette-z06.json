@@ -1,0 +1,373 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-125e1f50a3",
+      "metaRank": 38,
+      "name": "Shirakawa 58.7 META+",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Chevrolet Corvette Z06",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Shirakawa 58.7 META+",
+            "Tuner": "Cirno1X",
+            "fill": "FF7030A0"
+          },
+          "row": 1135,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-01",
+      "drivetrain": "AWD",
+      "id": "sc-103301512",
+      "name": "Dirty C7 Happiness",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "01/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2015)",
+            "sharecode": "103 301 512",
+            "suspension": "Rally",
+            "tuneName": "Dirty C7 Happiness",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 530,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "103301512",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-10",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-121377600",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 38,
+      "name": "Road Allround 54.9 Shirakawa Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "10/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2015)",
+            "sharecode": "121 377 600",
+            "suspension": "Rally",
+            "tuneName": "Road Allround 54.9 Shirakawa Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 534,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.632,
+      "shareCode": "121377600",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-02",
+      "drivetrain": "AWD",
+      "id": "sc-133808419",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "02/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2015)",
+            "sharecode": "133 808 419",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 535,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Chevrolet Corvette Z06",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 1133,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "133808419",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-09-22",
+      "drivetrain": "AWD",
+      "id": "sc-149749358",
+      "metaRank": 38,
+      "name": "S1 - Road ( Power )",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "22/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2015)",
+            "sharecode": "149 749 358",
+            "suspension": "Race",
+            "tuneName": "S1 - Road ( Power )",
+            "tuner": "ESV Rapture",
+            "tyreCompound": "Rally"
+          },
+          "row": 531,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.598,
+      "shareCode": "149749358",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-07-03",
+      "drivetrain": "AWD",
+      "id": "sc-176257756",
+      "metaRank": 38,
+      "name": "S1 Road (Kinda Stronk)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "03/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2015)",
+            "sharecode": "176 257 756",
+            "suspension": "Rally",
+            "tuneName": "S1 Road (Kinda Stronk)",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Rally"
+          },
+          "row": 529,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.588,
+      "shareCode": "176257756",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-31",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-178475157",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 38,
+      "name": "Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2015)",
+            "sharecode": "178 475 157",
+            "suspension": "Race",
+            "tuneName": "Road Allround",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 533,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 Chevrolet Corvette Z06",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1134,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.717,
+      "shareCode": "178475157",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-chevrolet-corvette-z06",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-19",
+      "drivetrain": "AWD",
+      "id": "sc-524955539",
+      "name": "Strong+ S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "19/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette Z06 (2015)",
+            "sharecode": "524 955 539",
+            "suspension": "Race",
+            "tuneName": "Strong+ S1 Dirt",
+            "tuner": "Korrrupt EU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 532,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.489,
+      "shareCode": "524955539",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "korrrupt-eu"
+    }
+  ],
+  "schemaVersion": 1
+}

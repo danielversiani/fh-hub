@@ -1,0 +1,590 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-083e929179",
+      "metaRank": 13,
+      "name": "jester",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 McLaren W1",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "jester",
+            "Tuner": "Ax1435",
+            "fill": "FF0070C0"
+          },
+          "row": 2261,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "ax1435"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0c70532ea4",
+      "lapRefs": [
+        {
+          "time": "54.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 4,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 10,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.73,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-birdy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-264c4ed4e8",
+      "lapRefs": [
+        {
+          "time": "51.1",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "石部51.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 28,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 61,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-3978e9bb30",
+      "lapRefs": [
+        {
+          "time": "54.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 4,
+      "name": "mcsauce v2",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 McLaren W1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "mcsauce v2",
+            "Tuner": "WIL Eclipse",
+            "fill": "FF7030A0"
+          },
+          "row": 2257,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.73,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "wil-eclipse"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "nc-76a078cc4e",
+      "lapRefs": [
+        {
+          "time": "54.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 4,
+      "name": "mcsauce v2 sprints",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 McLaren W1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "mcsauce v2 sprints",
+            "Tuner": "WIL Eclipse",
+            "fill": "FF7030A0"
+          },
+          "row": 2258,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.73,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "wil-eclipse"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c827e207f8",
+      "lapRefs": [
+        {
+          "time": "54.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 4,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 10,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.73,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-d8be300dde",
+      "metaRank": 13,
+      "name": "S2-Road V3",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 McLaren W1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2-Road V3",
+            "Tuner": "ESV Barcode",
+            "fill": "FF0070C0"
+          },
+          "row": 2259,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-barcode"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-09-17",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-107034433",
+      "lapRefs": [
+        {
+          "time": "48.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川48.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 13,
+      "name": "S2 48.3 Shirakawa Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "17/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "W1",
+            "sharecode": "107 034 433",
+            "suspension": "Race",
+            "tuneName": "S2 48.3 Shirakawa Clean",
+            "tuner": "WIL Eclipse",
+            "tyreCompound": "Slick"
+          },
+          "row": 1699,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 McLaren W1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 48.3 Shirakawa Clean",
+            "Tuner": "WIL Eclipse",
+            "fill": "FF0070C0"
+          },
+          "row": 2260,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.782,
+      "shareCode": "107034433",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "wil-eclipse"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-09-14",
+      "drivetrain": "AWD",
+      "id": "sc-181717665",
+      "metaRank": 4,
+      "name": "S1 Road No aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "14/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "W1",
+            "sharecode": "181 717 665",
+            "suspension": "Race",
+            "tuneName": "S1 Road No aero",
+            "tuner": "DarkZ704",
+            "tyreCompound": "Rally"
+          },
+          "row": 1695,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.675,
+      "shareCode": "181717665",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-09-11",
+      "drivetrain": "AWD",
+      "id": "sc-183686677",
+      "metaRank": 13,
+      "name": "kirkaversary",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "11/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "W1",
+            "sharecode": "183 686 677",
+            "suspension": "Race",
+            "tuneName": "kirkaversary",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Slick"
+          },
+          "row": 1697,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.639,
+      "shareCode": "183686677",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-09-14",
+      "drivetrain": "AWD",
+      "id": "sc-341717307",
+      "metaRank": 13,
+      "name": "Race-Slick V1.1 Terminal Balanced (low aero)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "14/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "W1",
+            "sharecode": "341 717 307",
+            "suspension": "Race",
+            "tuneName": "Race-Slick V1.1 Terminal Balanced (low aero)",
+            "tuner": "nyasmowisher",
+            "tyreCompound": "Slick"
+          },
+          "row": 1698,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.639,
+      "shareCode": "341717307",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "nyasmowisher"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-09-14",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 + Centri",
+      "id": "sc-929897282",
+      "lapRefs": [
+        {
+          "time": "54.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 4,
+      "name": "Road Handling 54.2 Shira Clean",
+      "notes": ".297 by birdy and .317 by eclipse, check out their tunes too",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "14/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "W1",
+            "sharecode": "929 897 282",
+            "suspension": "Race",
+            "tuneName": "Road Handling 54.2 Shira Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1696,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 McLaren W1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling 54.2 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2256,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Handling",
+            "Car": "Mclaren W1",
+            "Difficulty": "Brain AFK",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 + Centri",
+            "Laptime": "0:54.294",
+            "Notes": ".297 by birdy and .317 by eclipse, check out their tunes too",
+            "Tier": "Meta < 54.500",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Handling 54.2 Shira Clean"
+          },
+          "row": 6,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.875,
+      "shareCode": "929897282",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    }
+  ],
+  "schemaVersion": 1
+}

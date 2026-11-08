@@ -1,0 +1,405 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-56e07741c5",
+      "lapRefs": [
+        {
+          "time": "55.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.4 手感不错 悬挂一般 加速很快",
+      "metaNotesI18n": {
+        "en": "Good feel, average suspension, very quick acceleration.",
+        "pt-br": "Boa sensação, suspensão mediana, acelera muito rápido."
+      },
+      "metaRank": 61,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 126,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5d68f283d3",
+      "metaRank": 61,
+      "name": "S1 Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 McLaren 570S Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Grip",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 2224,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ea17bdff59",
+      "metaRank": 79,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 162,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-24",
+      "drivetrain": "AWD",
+      "id": "sc-108544970",
+      "name": "Dirty 570s",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "570S Coupé",
+            "sharecode": "108 544 970",
+            "suspension": "Sport",
+            "tuneName": "Dirty 570s",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1647,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 McLaren 570S Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty 570s",
+            "Tuner": "Cast Haste",
+            "fill": "FFFF0000"
+          },
+          "row": 2222,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "108544970",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-23",
+      "drivetrain": "AWD",
+      "id": "sc-145720314",
+      "metaRank": 79,
+      "name": "A Road - Allround Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "23/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "570S Coupé",
+            "sharecode": "145 720 314",
+            "suspension": "Sport",
+            "tuneName": "A Road - Allround Meta",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1648,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "145720314",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-147243649",
+      "metaRank": 79,
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "570S Coupé",
+            "sharecode": "147 243 649",
+            "suspension": "Sport",
+            "tuneName": "A Road",
+            "tuner": "KcnaXii",
+            "tyreCompound": "Rally"
+          },
+          "row": 1649,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2015 McLaren 570S Coupé",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "KcnaXii",
+            "fill": "FFFF0000"
+          },
+          "row": 2223,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.669,
+      "shareCode": "147243649",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "kcnaxii"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-488666949",
+      "metaRank": 79,
+      "name": "a road (Shirakawa 1:01.795)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "570S Coupé",
+            "sharecode": "488 666 949",
+            "suspension": "Race",
+            "tuneName": "a road (Shirakawa 1:01.795)",
+            "tuner": "KorbenDallas709",
+            "tyreCompound": "Rally"
+          },
+          "row": 1650,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.586,
+      "shareCode": "488666949",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "korbendallas709"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-26",
+      "drivetrain": "AWD",
+      "engine": "5.2L V10",
+      "id": "sc-560144672",
+      "metaRank": 61,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "26/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "570S Coupé",
+            "sharecode": "560 144 672",
+            "suspension": "Rally",
+            "tuneName": "S1 Road",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Slick"
+          },
+          "row": 1652,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Build": "Huracan engine Full Aero",
+            "Class": "S1",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10",
+            "Make": "McLaren",
+            "Model": "570S Coupé",
+            "Road Surface": "Road",
+            "Share Code": "560144672",
+            "Tires": "Slicks",
+            "Tune Name": "S1 Road",
+            "Year": "2015"
+          },
+          "row": 46,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.654,
+      "shareCode": "560144672",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-mclaren-570s-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "drivetrain": "AWD",
+      "id": "sc-729174189",
+      "metaRank": 61,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "04/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "570S Coupé",
+            "sharecode": "729 174 189",
+            "suspension": "Race",
+            "tuneName": "S1 Road",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 1651,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.585,
+      "shareCode": "729174189",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

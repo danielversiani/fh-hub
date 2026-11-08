@@ -1,0 +1,685 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-130cf3c39e",
+      "metaRank": 21,
+      "name": "1.3L 2Rotor No Aero 185 Rears",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Mazda Cosmo 110S Series II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "1.3L 2Rotor No Aero 185 Rears",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 400,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-34fc42ad30",
+      "name": "Purist C Street",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Mazda Cosmo 110S Series II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist C Street",
+            "Tuner": "DRX Q3",
+            "fill": "theme:7"
+          },
+          "row": 58,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-b097fb5d38",
+      "lapRefs": [
+        {
+          "time": "40.7",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速路40.7 弯速优势",
+      "metaNotesI18n": {
+        "en": "An edge in cornering speed.",
+        "pt-br": "Vantagem na velocidade de curva."
+      },
+      "metaRank": 21,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 45,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d7546315f7",
+      "metaRank": 34,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 72,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-21",
+      "drivetrain": "AWD",
+      "id": "sc-102633303",
+      "metaRank": 34,
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "102 633 303",
+            "suspension": "Rally",
+            "tuneName": "A Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1563,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.594,
+      "shareCode": "102633303",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-30",
+      "drivetrain": "AWD",
+      "id": "sc-142419428",
+      "metaRank": 34,
+      "name": "Dirt Allround META Sunflower 59.4 A/M",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "142 419 428",
+            "suspension": "Stock",
+            "tuneName": "Dirt Allround META Sunflower 59.4 A/M",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1564,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.592,
+      "shareCode": "142419428",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-09-11",
+      "drivetrain": "RWD",
+      "id": "sc-155004826",
+      "name": "ok",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "11/09/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "155 004 826",
+            "suspension": "Race",
+            "tuneName": "ok",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Drift"
+          },
+          "row": 1569,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.502,
+      "shareCode": "155004826",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-30",
+      "drivetrain": "RWD",
+      "id": "sc-170056178",
+      "metaRank": 34,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "170 056 178",
+            "suspension": "Race",
+            "tuneName": "Purist",
+            "tuner": "keerj",
+            "tyreCompound": "Rally"
+          },
+          "row": 1562,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1972 Mazda Cosmo 110S Series II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "keerj",
+            "fill": "FFFF0000"
+          },
+          "row": 2075,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.677,
+      "shareCode": "170056178",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "keerj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-08",
+      "drivetrain": "RWD",
+      "id": "sc-173395698",
+      "metaRank": 21,
+      "name": "Purist Road Balance",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "173 395 698",
+            "suspension": "Street",
+            "tuneName": "Purist Road Balance",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 1566,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1972 Mazda Cosmo 110S Series II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road Balance",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 399,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.58,
+      "shareCode": "173395698",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage-race",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-31",
+      "drivetrain": "RWD",
+      "id": "sc-174917468",
+      "metaRank": 21,
+      "name": "1.3L 2 Rotor No Aero 185 Rears",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "31/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "174 917 468",
+            "suspension": "Race",
+            "tuneName": "1.3L 2 Rotor No Aero 185 Rears",
+            "tuner": "Dumbo GT49",
+            "tyreCompound": "Street"
+          },
+          "row": 1567,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.493,
+      "shareCode": "174917468",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-08",
+      "drivetrain": "AWD",
+      "id": "sc-242918584",
+      "name": "B dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "242 918 584",
+            "suspension": "Stock",
+            "tuneName": "B dirt",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1568,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1972 Mazda Cosmo 110S Series II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B dirt",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 397,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.677,
+      "shareCode": "242918584",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-07",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-289945781",
+      "lapRefs": [
+        {
+          "time": "1:06.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 83,
+      "name": "B Road General V1.2 Shirakawa 01:06.5",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "07/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "289 945 781",
+            "suspension": "Stock",
+            "tuneName": "B Road General V1.2 Shirakawa 01:06.5",
+            "tuner": "Noa Miyako",
+            "tyreCompound": "Vintage"
+          },
+          "row": 1570,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "allround",
+      "score": 0.603,
+      "shareCode": "289945781",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-30",
+      "drivetrain": "RWD",
+      "id": "sc-429287866",
+      "name": "A Road - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "429 287 866",
+            "suspension": "Street",
+            "tuneName": "A Road - Stock Look",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1561,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "429287866",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-07",
+      "drivetrain": "RWD",
+      "id": "sc-624535952",
+      "metaRank": 21,
+      "name": "Purist Power | Max HP Street",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "07/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "624 535 952",
+            "suspension": "Street",
+            "tuneName": "Purist Power | Max HP Street",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Vintage"
+          },
+          "row": 1565,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1972 Mazda Cosmo 110S Series II",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Power | Max HP Street",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 398,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.579,
+      "shareCode": "624535952",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-08-06",
+      "drivetrain": "AWD",
+      "id": "sc-776895935",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "06/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mazda",
+            "model": "Cosmo 110S Series II",
+            "sharecode": "776 895 935",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1571,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1972 Mazda Cosmo 110S Series II",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2076,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.676,
+      "shareCode": "776895935",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

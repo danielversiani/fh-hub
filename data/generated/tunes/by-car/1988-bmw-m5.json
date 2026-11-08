@@ -1,0 +1,112 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1988-bmw-m5",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-26",
+      "drivetrain": "RWD",
+      "id": "sc-138000753",
+      "name": "E36 motor no aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "BMW",
+            "model": "M5 (1988)",
+            "sharecode": "138 000 753",
+            "suspension": "Sport",
+            "tuneName": "E36 motor no aero",
+            "tuner": "SilvaSUPERBEE",
+            "tyreCompound": "Rally"
+          },
+          "row": 387,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1988 BMW M5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "E36 motor no aero",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 976,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "138000753",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1988-bmw-m5",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-143030735",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "BMW",
+            "model": "M5 (1988)",
+            "sharecode": "143 030 735",
+            "suspension": "Street",
+            "tuneName": "A Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 385,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1988 BMW M5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFFF0000"
+          },
+          "row": 975,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.664,
+      "shareCode": "143030735",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}

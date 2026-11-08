@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2005-mitsubishi-1-sierra-sierra-enterprises-lancer-evolution-time-attack",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0cb654787f",
+      "metaNotes": "霜山 26.5",
+      "metaNotesI18n": {
+        "en": "26.5 at Shuangshan (霜山).",
+        "pt-br": "26.5 em Shuangshan (霜山)."
+      },
+      "metaRank": 26,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 55,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "qurgo"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-mitsubishi-1-sierra-sierra-enterprises-lancer-evolution-time-attack",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-28c87ffa4c",
+      "metaRank": 30,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 65,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-mitsubishi-1-sierra-sierra-enterprises-lancer-evolution-time-attack",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "engine": "1.6L I4 - Turbo Rally",
+      "id": "sc-743633217",
+      "metaRank": 30,
+      "name": "GRIP GOD",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "1.6L I4 - Turbo Rally",
+            "Make": "Mitsubishi",
+            "Model": "#1 Sierra Sierra Enterprises Lancer Evolution Time Attack",
+            "Road Surface": "Road",
+            "Share Code": "743633217",
+            "Tires": "Super Slicks",
+            "Tune Name": "GRIP GOD",
+            "Year": "2005"
+          },
+          "row": 53,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.505,
+      "shareCode": "743633217",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

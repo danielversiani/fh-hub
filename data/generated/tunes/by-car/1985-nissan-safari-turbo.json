@@ -1,0 +1,253 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1985-nissan-safari-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0b7b1c84a7",
+      "metaRank": 37,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 78,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.554,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-nissan-safari-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-732e80331c",
+      "metaRank": 17,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-nissan-safari-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d274a8010c",
+      "metaRank": 23,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 49,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.648,
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-nissan-safari-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "nc-f6bfc4569d",
+      "metaRank": 17,
+      "name": "B Dirt (56.9 Sekibe, LFA CSC + Cage + 10 Spd)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Nissan Safari Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt (56.9 Sekibe, LFA CSC + Cage + 10 Spd)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 455,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-nissan-safari-turbo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-18",
+      "drivetrain": "AWD",
+      "id": "sc-170824026",
+      "name": "Dirt Allround OFFMETA Sunflower 59.2 M/C",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Safari Turbo",
+            "sharecode": "170 824 026",
+            "suspension": "Rally",
+            "tuneName": "Dirt Allround OFFMETA Sunflower 59.2 M/C",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2002,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.497,
+      "shareCode": "170824026",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-nissan-safari-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-19",
+      "drivetrain": "AWD",
+      "id": "sc-172734912",
+      "metaRank": 23,
+      "name": "A Cross Country",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Safari Turbo",
+            "sharecode": "172 734 912",
+            "suspension": "Rally",
+            "tuneName": "A Cross Country",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2001,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.582,
+      "shareCode": "172734912",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-nissan-safari-turbo",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-360140869",
+      "name": "1.3G Dirt/CC V2",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "18/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Safari Turbo",
+            "sharecode": "360 140 869",
+            "suspension": "Stock",
+            "tuneName": "1.3G Dirt/CC V2",
+            "tuner": "SlowBakedPanda",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2003,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "360140869",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "slowbakedpanda"
+    }
+  ],
+  "schemaVersion": 1
+}

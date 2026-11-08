@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-485813dd18",
+      "name": "Cross Country Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 DeBerti Ford Super Duty F-250 Lariat \"Transformer\"",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Cross Country Allround",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1212,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-64e7759706",
+      "name": "CC Circuit T2 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 DeBerti Ford Super Duty F-250 Lariat \"Transformer\"",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "CC Circuit T2 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 1213,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-13",
+      "drivetrain": "AWD",
+      "id": "sc-153687507",
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "13/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "DeBerti",
+            "model": "Ford Super Duty F-250 Lariat \"Transformer\"",
+            "sharecode": "153 687 507",
+            "suspension": "Rally",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 648,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 DeBerti Ford Super Duty F-250 Lariat \"Transformer\"",
+            "Comment": "",
+            "Design": "ILLINOIS STATE POLICE",
+            "Designer": "Cvpi2527",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 249,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "153687507",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-590211565",
+      "name": "Actually Decent",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "DeBerti",
+            "model": "Ford Super Duty F-250 Lariat \"Transformer\"",
+            "sharecode": "590 211 565",
+            "suspension": "Rally",
+            "tuneName": "Actually Decent",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 649,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 DeBerti Ford Super Duty F-250 Lariat \"Transformer\"",
+            "Comment": "",
+            "Design": "FALLOUT",
+            "Designer": "Opelfighter",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Actually Decent",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 248,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "590211565",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    }
+  ],
+  "schemaVersion": 1
+}

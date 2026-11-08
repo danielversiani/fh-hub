@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-hyundai-i30-n",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-28770c41fe",
+      "name": "1.8G Sprint V1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Hyundai i30 N",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "1.8G Sprint V1",
+            "Tuner": "SlowBakedPanda",
+            "fill": "FFFF0000"
+          },
+          "row": 1776,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-hyundai-i30-n",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-08",
+      "drivetrain": "FWD",
+      "id": "sc-101076078",
+      "name": "A Road 01.1 Shirakawa - LC Friendly",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/07/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Hyundai",
+            "model": "I30 N",
+            "sharecode": "101 076 078",
+            "suspension": "Street",
+            "tuneName": "A Road 01.1 Shirakawa - LC Friendly",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Rally"
+          },
+          "row": 1253,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Hyundai i30 N",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road 01.1 Shirakawa - LC Friendly",
+            "Tuner": "zombiejesus52",
+            "fill": "FFFF0000"
+          },
+          "row": 1777,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.669,
+      "shareCode": "101076078",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-hyundai-i30-n",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-18",
+      "drivetrain": "FWD",
+      "id": "sc-884582820",
+      "name": "A Road Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Hyundai",
+            "model": "I30 N",
+            "sharecode": "884 582 820",
+            "suspension": "Street",
+            "tuneName": "A Road Strong",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1252,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Hyundai i30 N",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road Strong",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1775,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "884582820",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

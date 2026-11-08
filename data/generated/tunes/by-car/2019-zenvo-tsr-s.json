@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-zenvo-tsr-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-13bd4af2ed",
+      "lapRefs": [
+        {
+          "time": "56.7",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵56.7 手感有点重",
+      "metaNotesI18n": {
+        "en": "Steering feels a bit heavy.",
+        "pt-br": "Direção um pouco pesada."
+      },
+      "metaRank": 35,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 75,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.517,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-zenvo-tsr-s",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1cfe13ff65",
+      "name": "Road Allround T2 Shirakawa 56.4",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Zenvo TSR-S",
+            "Comment": "",
+            "Design": "GOD PRINTSTREAM",
+            "Designer": "Bones VI",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround T2 Shirakawa 56.4",
+            "Tuner": "ZVTCJAU",
+            "fill": "FF7030A0"
+          },
+          "row": 3010,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-zenvo-tsr-s",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-2fea90a536",
+      "name": "S2 RWD EZ car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Zenvo TSR-S",
+            "Comment": "",
+            "Design": "FORZA LIVERY",
+            "Designer": "SeeyeahBoss",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S2 RWD EZ car",
+            "Tuner": "SeeyeahBoss",
+            "fill": "FF0070C0"
+          },
+          "row": 3014,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "seeyeahboss"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2019-zenvo-tsr-s",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8eac0f90bb",
+      "name": "This one is better trust (full aero)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Zenvo TSR-S",
+            "Comment": "",
+            "Design": "RUSINOV ZENVO",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "This one is better trust (full aero)",
+            "Tuner": "LetzeLU",
+            "fill": "FF0070C0"
+          },
+          "row": 3012,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-zenvo-tsr-s",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ae7ab304a3",
+      "name": "Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Zenvo TSR-S",
+            "Comment": "",
+            "Design": "GO PRO ZENVO TSR-S",
+            "Designer": "Zero Dark Gamer",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround",
+            "Tuner": "LetzeLU",
+            "fill": "FF0070C0"
+          },
+          "row": 3011,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2019-zenvo-tsr-s",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "engine": "Racing 7.2L V8",
+      "id": "sc-131922718",
+      "name": "S2 Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "RWD",
+            "Engine": "Racing 7.2L V8",
+            "Make": "Zenvo",
+            "Model": "TSR-S",
+            "Road Surface": "Road",
+            "Share Code": "131922718",
+            "Tires": "Rally",
+            "Tune Name": "S2 Powerbuild",
+            "Year": "2019"
+          },
+          "row": 79,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        },
+        {
+          "raw": {
+            "Car": "2019 Zenvo TSR-S",
+            "Comment": "",
+            "Design": "YUI",
+            "Designer": "RiotousBubble21",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S2 Powerbuild",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 3013,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "shareCode": "131922718",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

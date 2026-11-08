@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2017-mercedes-amg-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1809125e7f",
+      "metaRank": 111,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 228,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.517,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-mercedes-amg-gt-r",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-26487e3b9a",
+      "name": "S1 Dirt Responsiveness++",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Mercedes-AMG GT R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Responsiveness++",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2265,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-mercedes-amg-gt-r",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-68fa065055",
+      "name": "S1 Dirt Stability++",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Mercedes-AMG GT R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Stability++",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2266,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-mercedes-amg-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6c65774a11",
+      "metaRank": 111,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 228,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.517,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-mercedes-amg-gt-r",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a83215196f",
+      "name": "S1 Dirt (5.2+Cage+Front Width)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2017 Mercedes-AMG GT R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt (5.2+Cage+Front Width)",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2267,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

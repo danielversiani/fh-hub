@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "rivals",
+      "discipline": "circuit",
+      "id": "s02--monthly-rivals--narai-juku-circuit",
+      "name": "Narai-Juku Circuit",
+      "requirement": {
+        "carIds": [
+          "1993-porsche-911-turbo-s-leichtbau"
+        ],
+        "scope": "car",
+        "scopeLabel": "1993 Porsche 911 Turbo S Leichtbau",
+        "status": "parsed"
+      },
+      "requirementRaw": "1993 Porsche 911 Turbo S Leichtbau",
+      "reward": "Super Wheelspin",
+      "routeRaw": "Narai-Juku Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Narai-Juku Circuit"
+        }
+      ],
+      "row": 86,
+      "seasonId": "s02",
+      "seriesId": "s02",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "reward",
+      "id": "s02--series-reward--series-reward-1",
+      "name": "Series Reward 1",
+      "points": 80,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "80 pts",
+      "reward": "Car: 1993 Porsche 911 Turbo S Leichtbau",
+      "routeRaw": "",
+      "routes": [],
+      "row": 87,
+      "seasonId": "s02",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s02--series-reward--series-reward-2",
+      "name": "Series Reward 2",
+      "points": 160,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "160 pts",
+      "reward": "Car: 2018 Lotus Exige Cup 430",
+      "routeRaw": "",
+      "routes": [],
+      "row": 88,
+      "seasonId": "s02",
+      "seriesId": "s02",
+      "surface": null,
+      "type": "Series Reward"
+    }
+  ],
+  "schemaVersion": 1
+}

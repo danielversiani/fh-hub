@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-aston-martin-valhalla-concept-car",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1baf0343f3",
+      "lapRefs": [
+        {
+          "time": "51.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川51.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 31,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 68,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-aston-martin-valhalla-concept-car",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-43c59ee4c8",
+      "name": "s1 road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Aston Martin Valhalla Concept Car",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "s1 road",
+            "Tuner": "Nalak28",
+            "fill": "FF7030A0"
+          },
+          "row": 866,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-aston-martin-valhalla-concept-car",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-777da31df7",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Aston Martin Valhalla Concept Car",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 865,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-aston-martin-valhalla-concept-car",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "engine": "7.0L V12",
+      "id": "sc-109792778",
+      "metaRank": 31,
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Vulcan engine",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "7.0L V12",
+            "Make": "Aston Martin",
+            "Model": "Valhalla Concept Car",
+            "Road Surface": "Road",
+            "Share Code": "109792778",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2019"
+          },
+          "row": 5,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.46,
+      "shareCode": "109792778",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

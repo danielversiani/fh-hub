@@ -1,0 +1,241 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1996-chevrolet-impala-super-sport",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-03f3a0ca7b",
+      "name": "B POWEEER",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Chevrolet Impala Super Sport",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B POWEEER",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFED7D31"
+          },
+          "row": 231,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1996-chevrolet-impala-super-sport",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-f2711a1c91",
+      "name": "B Class purist / playlist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1996 Chevrolet Impala Super Sport",
+            "Comment": "Purist",
+            "Design": "SLICKBACK",
+            "Designer": "DXWarlock",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Class purist / playlist",
+            "Tuner": "JSR Chronic",
+            "fill": "FFED7D31"
+          },
+          "row": 232,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "jsr-chronic"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-chevrolet-impala-super-sport",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-12",
+      "drivetrain": "AWD",
+      "id": "sc-101383471",
+      "name": "B Class Road Maintaining Fat Chud Agenda is Our Top Priority",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Impala Super Sport",
+            "sharecode": "101 383 471",
+            "suspension": "Rally",
+            "tuneName": "B Class Road Maintaining Fat Chud Agenda is Our Top Priority",
+            "tuner": "GoodReiShun",
+            "tyreCompound": "Standard"
+          },
+          "row": 569,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Chevrolet Impala Super Sport",
+            "Comment": "",
+            "Design": "POLICIA MILITAR DE SÃO PAULO",
+            "Designer": "prg2012br",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Class Road Maintaining Fat Chud Agenda is Our Top Priority",
+            "Tuner": "GoodReiShun",
+            "fill": "FFED7D31"
+          },
+          "row": 229,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "101383471",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "goodreishun"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1996-chevrolet-impala-super-sport",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-29",
+      "drivetrain": "AWD",
+      "id": "sc-290112468",
+      "name": "Dirt AWD Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "29/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Impala Super Sport",
+            "sharecode": "290 112 468",
+            "suspension": "Stock",
+            "tuneName": "Dirt AWD Stock Look",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 568,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Chevrolet Impala Super Sport",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt AWD Stock Look",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1121,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "290112468",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1996-chevrolet-impala-super-sport",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-608227984",
+      "name": "Road AWD Stock Look Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Impala Super Sport",
+            "sharecode": "608 227 984",
+            "suspension": "Street",
+            "tuneName": "Road AWD Stock Look Grip",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 570,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1996 Chevrolet Impala Super Sport",
+            "Comment": "",
+            "Design": "DUB CITY",
+            "Designer": "Ryan x LFC",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road AWD Stock Look Grip",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 230,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "608227984",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

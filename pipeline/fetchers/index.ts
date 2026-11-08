@@ -5,8 +5,11 @@ import type { TabPayload } from '../adapters/types';
 import { fetchBytes, HttpError } from '../lib/http';
 import { parseCsv } from '../lib/table';
 import type { SourceDef, SourceTab } from '../schema/source';
+import { downloadCategory, downloadPageImages } from './mediawiki';
+import { downloadQqDoc } from './qq-docs';
 
-export type RawExt = 'csv' | 'xlsx' | 'json';
+/** `qq.json` is a QQ Docs bundle (fetchers/qq-docs.ts); `json` is a forza.net Nuxt payload. */
+export type RawExt = 'csv' | 'xlsx' | 'json' | 'qq.json' | 'wiki.json';
 
 /** Bytes exactly as downloaded, kept for caching and fixtures. */
 export interface RawTab {
@@ -51,11 +54,25 @@ export const xlsxExportUrl = (docId: string): string =>
 export const forzaPayloadUrl = (pagePath: string): string =>
   `https://forza.net/${pagePath}/_payload.json`;
 
-const extFor = (source: SourceDef): RawExt =>
-  source.fetcher === 'google-csv' ? 'csv' : source.fetcher === 'google-xlsx' ? 'xlsx' : 'json';
+const EXT: Record<SourceDef['fetcher'], RawExt> = {
+  'google-csv': 'csv',
+  'google-xlsx': 'xlsx',
+  'forza-net': 'json',
+  'qq-docs': 'qq.json',
+  mediawiki: 'wiki.json',
+  'mediawiki-images': 'wiki.json',
+};
+const extFor = (source: SourceDef): RawExt => EXT[source.fetcher];
 
 async function downloadTab(source: SourceDef, tab: SourceTab): Promise<Buffer> {
   switch (source.fetcher) {
+    case 'mediawiki-images':
+      return Buffer.from(JSON.stringify(await downloadPageImages(source.url, tab.path!)), 'utf8');
+    case 'mediawiki':
+      return Buffer.from(JSON.stringify(await downloadCategory(source.url, tab.path!)), 'utf8');
+    case 'qq-docs':
+      // The whole spreadsheet (every tab) as one JSON bundle of still-encoded blobs.
+      return Buffer.from(JSON.stringify(await downloadQqDoc(source.docId!, () => true)), 'utf8');
     case 'google-csv':
       return downloadGoogleCsv(source, tab);
     case 'google-xlsx': {
@@ -129,5 +146,8 @@ export function toPayload(tab: RawTab): TabPayload {
       return { kind: 'workbook', bytes: tab.bytes };
     case 'json':
       return { kind: 'json', data: decodeNuxtPayload(tab.bytes.toString('utf8')) };
+    case 'qq.json':
+    case 'wiki.json':
+      return { kind: 'json', data: JSON.parse(tab.bytes.toString('utf8')) as unknown };
   }
 }

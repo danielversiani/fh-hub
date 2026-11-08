@@ -1,0 +1,346 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a92a642a48",
+      "lapRefs": [
+        {
+          "time": "52.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川52.5 时代的眼泪",
+      "metaNotesI18n": {
+        "en": "A relic of a bygone era.",
+        "pt-br": "Uma relíquia de outra época."
+      },
+      "metaRank": 34,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 74,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-05-25",
+      "drivetrain": "AWD",
+      "id": "sc-109122756",
+      "name": "R Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "R",
+            "date": "25/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "Vulcan",
+            "sharecode": "109 122 756",
+            "suspension": "Race",
+            "tuneName": "R Road",
+            "tuner": "VNX Ruinz",
+            "tyreCompound": "Slick"
+          },
+          "row": 175,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "109122756",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-13",
+      "drivetrain": "RWD",
+      "id": "sc-126586779",
+      "metaRank": 34,
+      "name": "S2 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "13/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Aston Martin",
+            "model": "Vulcan",
+            "sharecode": "126 586 779",
+            "suspension": "Race",
+            "tuneName": "S2 Road",
+            "tuner": "VNX Eunos",
+            "tyreCompound": "Slick"
+          },
+          "row": 180,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "126586779",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "vnx-eunos"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-06-03",
+      "drivetrain": "AWD",
+      "id": "sc-153489665",
+      "metaRank": 34,
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "03/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "Vulcan",
+            "sharecode": "153 489 665",
+            "suspension": "Race",
+            "tuneName": "S2 Allround",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Slick"
+          },
+          "row": 176,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2016 Aston Martin Vulcan",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Allround",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF0070C0"
+          },
+          "row": 862,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.572,
+      "shareCode": "153489665",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-23",
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "sc-681668984",
+      "metaRank": 34,
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "23/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "Vulcan",
+            "sharecode": "681 668 984",
+            "suspension": "Race",
+            "tuneName": "AWD Allround",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Slick"
+          },
+          "row": 177,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Make": "Aston Martin",
+            "Model": "Vulcan",
+            "Road Surface": "Road",
+            "Share Code": "681668984",
+            "Tires": "Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2016"
+          },
+          "row": 7,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.555,
+      "shareCode": "681668984",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-16",
+      "drivetrain": "AWD",
+      "id": "sc-776522857",
+      "metaRank": 34,
+      "name": "S2 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "16/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "Vulcan",
+            "sharecode": "776 522 857",
+            "suspension": "Race",
+            "tuneName": "S2 Road",
+            "tuner": "Nalak28",
+            "tyreCompound": "Slick"
+          },
+          "row": 179,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "776522857",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-29",
+      "drivetrain": "RWD",
+      "id": "sc-919720538",
+      "metaRank": 34,
+      "name": "S2 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "29/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Aston Martin",
+            "model": "Vulcan",
+            "sharecode": "919 720 538",
+            "suspension": "Race",
+            "tuneName": "S2 Road",
+            "tuner": "VNX Ruinz",
+            "tyreCompound": "Slick"
+          },
+          "row": 181,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "919720538",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-aston-martin-vulcan",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-953733070",
+      "metaRank": 34,
+      "name": "S2 Road v1.2",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Aston Martin",
+            "model": "Vulcan",
+            "sharecode": "953 733 070",
+            "suspension": "Race",
+            "tuneName": "S2 Road v1.2",
+            "tuner": "K1Z Jumpy",
+            "tyreCompound": "Slick"
+          },
+          "row": 178,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.486,
+      "shareCode": "953733070",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-jumpy"
+    }
+  ],
+  "schemaVersion": 1
+}

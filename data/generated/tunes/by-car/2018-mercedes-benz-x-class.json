@@ -1,0 +1,633 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-15a85cd0c5",
+      "lapRefs": [
+        {
+          "time": "1:06.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.4 均衡好开",
+      "metaNotesI18n": {
+        "en": "Balanced and easy to drive.",
+        "pt-br": "Equilibrado e fácil de pilotar."
+      },
+      "metaRank": 85,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 175,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-18406edb4b",
+      "metaRank": 85,
+      "name": "X63 AMG V2 | Road Widebody 6.2L V8 | ~1:06 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Mercedes-Benz X-Class",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "X63 AMG V2 | Road Widebody 6.2L V8 | ~1:06 Shirakawa",
+            "Tuner": "Saeenu",
+            "fill": "FFED7D31"
+          },
+          "row": 441,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "saeenu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3ac0df3fbf",
+      "metaRank": 1,
+      "name": "B Dirt/CC Meta M/C",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Mercedes-Benz X-Class",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt/CC Meta M/C",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 439,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.582,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-422d903438",
+      "metaRank": 1,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.723,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-4e212f952a",
+      "name": "X63 AMG A 700 | Road Widebody 6.2L V8 | ~1:01 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Mercedes-Benz X-Class",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "X63 AMG A 700 | Road Widebody 6.2L V8 | ~1:01 Shirakawa",
+            "Tuner": "Saeenu",
+            "fill": "FFFF0000"
+          },
+          "row": 2342,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "saeenu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-664ec596b3",
+      "metaNotes": "起步加速非常快 推荐线上使用",
+      "metaNotesI18n": {
+        "en": "Very fast launch; recommended for online.",
+        "pt-br": "Largada muito rápida; recomendado para online."
+      },
+      "metaRank": 25,
+      "name": "C road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9cb921b524",
+      "metaRank": 1,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        },
+        {
+          "raw": {},
+          "row": 22,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.657,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ad986ce313",
+      "metaRank": 1,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.723,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-de76379810",
+      "metaRank": 25,
+      "name": "Street Racing",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 Mercedes-Benz X-Class",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Street Racing",
+            "Tuner": "GreetedDust8",
+            "fill": "theme:7"
+          },
+          "row": 64,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "id": "sc-102999622",
+      "name": "Huracan Engine",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "X-Class",
+            "sharecode": "102 999 622",
+            "suspension": "Stock",
+            "tuneName": "Huracan Engine",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1796,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Mercedes-Benz X-Class",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Huracan Engine",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 438,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "102999622",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-21",
+      "drivetrain": "AWD",
+      "id": "sc-113756556",
+      "name": "Full Power V1",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "X-Class",
+            "sharecode": "113 756 556",
+            "suspension": "Stock",
+            "tuneName": "Full Power V1",
+            "tuner": "Falken JP",
+            "tyreCompound": "Rally"
+          },
+          "row": 1795,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.497,
+      "shareCode": "113756556",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "falken-jp"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
+      "drivetrain": "AWD",
+      "id": "sc-128525783",
+      "metaRank": 1,
+      "name": "A CC META v1.1 (M/C) Rally suspension",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "X-Class",
+            "sharecode": "128 525 783",
+            "suspension": "Rally",
+            "tuneName": "A CC META v1.1 (M/C) Rally suspension",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1794,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.646,
+      "shareCode": "128525783",
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-17",
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "id": "sc-164344657",
+      "metaRank": 1,
+      "name": "B CC IZU",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "17/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "X-Class",
+            "sharecode": "164 344 657",
+            "suspension": "Stock",
+            "tuneName": "B CC IZU",
+            "tuner": "Zookiiwi",
+            "tyreCompound": "Rally"
+          },
+          "row": 1799,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "power",
+      "score": 0.657,
+      "shareCode": "164344657",
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-25",
+      "drivetrain": "AWD",
+      "id": "sc-179702588",
+      "metaRank": 85,
+      "name": "B road",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "X-Class",
+            "sharecode": "179 702 588",
+            "suspension": "Stock",
+            "tuneName": "B road",
+            "tuner": "Inayamei",
+            "tyreCompound": "Rally"
+          },
+          "row": 1797,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.563,
+      "shareCode": "179702588",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-935666170",
+      "metaRank": 1,
+      "name": "A CC Meta M/C",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "X-Class",
+            "sharecode": "935 666 170",
+            "suspension": "Rally",
+            "tuneName": "A CC Meta M/C",
+            "tuner": "Rocklxd",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1793,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.641,
+      "shareCode": "935666170",
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "rocklxd"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-mercedes-benz-x-class",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-29",
+      "drivetrain": "AWD",
+      "id": "sc-936382883",
+      "metaRank": 85,
+      "name": "B Road Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "X-Class",
+            "sharecode": "936 382 883",
+            "suspension": "Stock",
+            "tuneName": "B Road Strong",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1798,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 Mercedes-Benz X-Class",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Strong",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 440,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.646,
+      "shareCode": "936382883",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

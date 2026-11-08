@@ -1,0 +1,511 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-2ce090c7af",
+      "lapRefs": [
+        {
+          "time": "42.3",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速公路42.3 弯速操控不错",
+      "metaNotesI18n": {
+        "en": "Good cornering speed and handling.",
+        "pt-br": "Boa velocidade de curva e bom nas curvas."
+      },
+      "metaRank": 57,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 118,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-ad6cdc2ede",
+      "name": "C Class Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1983 Nissan Skyline 2000 Turbo RS",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Class Purist",
+            "Tuner": "GamerLogicFTW",
+            "fill": "theme:7"
+          },
+          "row": 71,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-09-05",
+      "drivetrain": "RWD",
+      "id": "sc-146953075",
+      "metaRank": 57,
+      "name": "i6 engine",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "05/09/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "146 953 075",
+            "suspension": "Stock",
+            "tuneName": "i6 engine",
+            "tuner": "Myra Driving",
+            "tyreCompound": "Street"
+          },
+          "row": 2029,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "146953075",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "myra-driving"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-09-07",
+      "drivetrain": "RWD",
+      "id": "sc-149404531",
+      "metaRank": 57,
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "07/09/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "149 404 531",
+            "suspension": "Stock",
+            "tuneName": "Road Purist",
+            "tuner": "LogikJ",
+            "tyreCompound": "Street"
+          },
+          "row": 2028,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "149404531",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-09-03",
+      "drivetrain": "RWD",
+      "id": "sc-167218213",
+      "metaRank": 57,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/09/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "167 218 213",
+            "suspension": "Stock",
+            "tuneName": "Purist",
+            "tuner": "DarkZ704",
+            "tyreCompound": "Street"
+          },
+          "row": 2026,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1983 Nissan Skyline 2000 Turbo RS",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "DarkZ704",
+            "fill": "FFED7D31"
+          },
+          "row": 454,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.575,
+      "shareCode": "167218213",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-09-03",
+      "drivetrain": "AWD",
+      "id": "sc-231518191",
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "231 518 191",
+            "suspension": "Street",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2030,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.5,
+      "shareCode": "231518191",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-03",
+      "drivetrain": "AWD",
+      "id": "sc-293824225",
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "293 824 225",
+            "suspension": "Street",
+            "tuneName": "A Road",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 2024,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.5,
+      "shareCode": "293824225",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-09-03",
+      "drivetrain": "AWD",
+      "id": "sc-493068816",
+      "metaRank": 57,
+      "name": "SR20 turbolag + widebody",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "493 068 816",
+            "suspension": "Stock",
+            "tuneName": "SR20 turbolag + widebody",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Street"
+          },
+          "row": 2027,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "493068816",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-03",
+      "drivetrain": "AWD",
+      "id": "sc-495079902",
+      "name": "A700 01s@Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "495 079 902",
+            "suspension": "Street",
+            "tuneName": "A700 01s@Shirakawa",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 2023,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.5,
+      "shareCode": "495079902",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-06",
+      "drivetrain": "AWD",
+      "id": "sc-738573958",
+      "name": "3.2 Dirt Widebody V1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "06/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "738 573 958",
+            "suspension": "Stock",
+            "tuneName": "3.2 Dirt Widebody V1.1",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2022,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.501,
+      "shareCode": "738573958",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-03",
+      "drivetrain": "AWD",
+      "id": "sc-792965892",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "03/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "792 965 892",
+            "suspension": "Rally",
+            "tuneName": "A Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2025,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1983 Nissan Skyline 2000 Turbo RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 2393,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.683,
+      "shareCode": "792965892",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1983-nissan-skyline-2000-turbo-rs",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-09-03",
+      "drivetrain": "AWD",
+      "id": "sc-985351839",
+      "metaRank": 57,
+      "name": "B Road Purist (Widebody)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "03/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Nissan",
+            "model": "Skyline 2000 Turbo RS",
+            "sharecode": "985 351 839",
+            "suspension": "Street",
+            "tuneName": "B Road Purist (Widebody)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Street"
+          },
+          "row": 2031,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "985351839",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

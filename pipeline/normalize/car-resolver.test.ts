@@ -22,6 +22,7 @@ const CARS = [
   car(2016, 'Lamborghini', 'Centenario LP 770-4'),
   car(2010, 'Lamborghini', 'Murciélago LP 670-4 SV'),
   car(2023, 'Porsche', '911 GT3 RS'),
+  car(2007, 'Peugeot', '207 Super 2000'),
 ];
 
 const resolver = new CarResolver(CARS, {
@@ -76,6 +77,12 @@ describe('CarResolver', () => {
     expect(resolve('2016 Lamborghini Centernario LP 770-4')).toMatchObject({
       ok: true,
       method: 'fuzzy',
+    }));
+
+  it('does not mistake a trailing model number for a year', () =>
+    expect(resolve('Peugeot 207 Super 2000')).toMatchObject({
+      ok: true,
+      carId: '2007-peugeot-207-super-2000',
     }));
 
   it('uses the alias table', () =>

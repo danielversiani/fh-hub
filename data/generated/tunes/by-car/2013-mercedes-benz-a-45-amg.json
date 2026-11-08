@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-a-45-amg",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5721579a72",
+      "name": "A Road - Mercedes Kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Mercedes-Benz A 45 AMG",
+            "Comment": "Bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Mercedes Kit",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2337,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-a-45-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f80483763c",
+      "lapRefs": [
+        {
+          "time": "1:06.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 84,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 173,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-a-45-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-15",
+      "drivetrain": "AWD",
+      "id": "sc-107846893",
+      "metaRank": 84,
+      "name": "Hey Mercedes",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "15/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "A 45 AMG",
+            "sharecode": "107 846 893",
+            "suspension": "Street",
+            "tuneName": "Hey Mercedes",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Street"
+          },
+          "row": 1759,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2013 Mercedes-Benz A 45 AMG",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Hey Mercedes",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 434,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.651,
+      "shareCode": "107846893",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-a-45-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-18",
+      "drivetrain": "AWD",
+      "id": "sc-130303511",
+      "metaRank": 84,
+      "name": "K20A Road AMG Kit V1.3",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "18/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "A 45 AMG",
+            "sharecode": "130 303 511",
+            "suspension": "Street",
+            "tuneName": "K20A Road AMG Kit V1.3",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Rally"
+          },
+          "row": 1758,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.565,
+      "shareCode": "130303511",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2013-mercedes-benz-a-45-amg",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-19",
+      "drivetrain": "AWD",
+      "id": "sc-242243631",
+      "name": "A Road Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mercedes-Benz",
+            "model": "A 45 AMG",
+            "sharecode": "242 243 631",
+            "suspension": "Street",
+            "tuneName": "A Road Stock Look",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1757,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2013 Mercedes-Benz A 45 AMG",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Stock Look",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 2336,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.657,
+      "shareCode": "242243631",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

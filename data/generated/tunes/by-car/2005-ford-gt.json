@@ -1,0 +1,955 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-248a2af5e4",
+      "metaRank": 17,
+      "name": "S1 Grip & Speed",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Grip & Speed",
+            "Tuner": "ESV Rapture",
+            "fill": "FF7030A0"
+          },
+          "row": 1550,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.597,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-34a512418a",
+      "metaRank": 3,
+      "name": "TBZ CRAX WOEMOSEXUAL",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "TBZ CRAX WOEMOSEXUAL",
+            "Tuner": "GRT PRETO",
+            "fill": "FFFF0000"
+          },
+          "row": 1546,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "grt-preto"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3ecc3a2391",
+      "lapRefs": [
+        {
+          "time": "59.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.2 全段加速优势",
+      "metaNotesI18n": {
+        "en": "Acceleration advantage across the range.",
+        "pt-br": "Vantagem de aceleração em toda a faixa."
+      },
+      "metaRank": 3,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 7,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-7e79e376cb",
+      "metaRank": 3,
+      "name": "A Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road Purist",
+            "Tuner": "CTE seasons",
+            "fill": "FFFF0000"
+          },
+          "row": 1545,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "engine": "8.4L V10 + Centri",
+      "id": "nc-85994408e9",
+      "metaRank": 17,
+      "name": "Road Handling Shirakawa 54.5 Clean",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Ford GT 2005",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "8.4L V10 + Centri",
+            "Laptime": "0:54.527",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Slick",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Handling Shirakawa 54.5 Clean"
+          },
+          "row": 13,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "power",
+      "score": 0.663,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-94e37b3ee5",
+      "lapRefs": [
+        {
+          "time": "59.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.2 全段加速优势",
+      "metaNotesI18n": {
+        "en": "Acceleration advantage across the range.",
+        "pt-br": "Vantagem de aceleração em toda a faixa."
+      },
+      "metaRank": 3,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 7,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b7b5ef429e",
+      "metaRank": 17,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c06a7a10b7",
+      "metaRank": 2,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 5,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.77,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-d192e81617",
+      "metaRank": 3,
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 1549,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "zaz490"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-de4c6359a0",
+      "lapRefs": [
+        {
+          "time": "59.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.2 全段加速优势",
+      "metaNotesI18n": {
+        "en": "Acceleration advantage across the range.",
+        "pt-br": "Vantagem de aceleração em toda a faixa."
+      },
+      "metaRank": 3,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 7,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-e106837347",
+      "metaRank": 3,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1548,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ec82fb6726",
+      "metaRank": 5,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 12,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-f6f6a34462",
+      "metaRank": 3,
+      "name": "drift tyres",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "drift tyres",
+            "Tuner": "Russian man177",
+            "fill": "FFFF0000"
+          },
+          "row": 1547,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.695,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "russian-man177"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-fb83d5c863",
+      "metaRank": 17,
+      "name": "Old king is back",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Old king is back",
+            "Tuner": "NDL Mazrsg",
+            "fill": "FF7030A0"
+          },
+          "row": 1552,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.597,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "ndl-mazrsg"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-26",
+      "drivetrain": "AWD",
+      "id": "sc-120946282",
+      "metaRank": 5,
+      "name": "AWD No Aero NoSwap | 46.9 Narai Flag 47.2 Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "120 946 282",
+            "suspension": "Sport",
+            "tuneName": "AWD No Aero NoSwap | 46.9 Narai Flag 47.2 Clean",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 938,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "AWD No Aero NoSwap | 46.9 Narai Flag 47.2 Clean",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1543,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.748,
+      "shareCode": "120946282",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-08",
+      "drivetrain": "AWD",
+      "id": "sc-127433271",
+      "metaRank": 3,
+      "name": "A Road - Allround Meta+",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "127 433 271",
+            "suspension": "Sport",
+            "tuneName": "A Road - Allround Meta+",
+            "tuner": "ZaZ490",
+            "tyreCompound": "Rally"
+          },
+          "row": 941,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.684,
+      "shareCode": "127433271",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zaz490"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-17",
+      "drivetrain": "AWD",
+      "id": "sc-141884121",
+      "metaRank": 5,
+      "name": "ONLINE CAR 2.0",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "141 884 121",
+            "suspension": "Rally",
+            "tuneName": "ONLINE CAR 2.0",
+            "tuner": "AP CODCAOS",
+            "tyreCompound": "Rally"
+          },
+          "row": 936,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "141884121",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "ap-codcaos"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-05",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-145732450",
+      "metaRank": 17,
+      "name": "Road Allround 54.5 Shirakawa Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "05/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "145 732 450",
+            "suspension": "Race",
+            "tuneName": "Road Allround 54.5 Shirakawa Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Slick"
+          },
+          "row": 943,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 54.5 Shirakawa Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1551,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.741,
+      "shareCode": "145732450",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-151509569",
+      "name": "Dirty Ford GT v3.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "151 509 569",
+            "suspension": "Sport",
+            "tuneName": "Dirty Ford GT v3.1",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 937,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "151509569",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-14",
+      "drivetrain": "AWD",
+      "id": "sc-154600043",
+      "metaRank": 17,
+      "name": "save",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "14/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "154 600 043",
+            "suspension": "Rally",
+            "tuneName": "save",
+            "tuner": "dalwa XII",
+            "tyreCompound": "Slick"
+          },
+          "row": 942,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.597,
+      "shareCode": "154600043",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "dalwa-xii"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-164088233",
+      "metaRank": 3,
+      "name": "a road- Allround beast",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "164 088 233",
+            "suspension": "Sport",
+            "tuneName": "a road- Allround beast",
+            "tuner": "ZaZ490",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 940,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "a road- Allround beast",
+            "Tuner": "ZaZ490",
+            "fill": "FFFF0000"
+          },
+          "row": 1544,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.771,
+      "shareCode": "164088233",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zaz490"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-17",
+      "drivetrain": "AWD",
+      "id": "sc-884866115",
+      "metaRank": 3,
+      "name": "A Class - Road Racing (59.2 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "884 866 115",
+            "suspension": "Rally",
+            "tuneName": "A Class - Road Racing (59.2 Shirakawa Circuit)",
+            "tuner": "VNX Ardent",
+            "tyreCompound": "Rally"
+          },
+          "row": 939,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.689,
+      "shareCode": "884866115",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-01",
+      "drivetrain": "AWD",
+      "id": "sc-965302969",
+      "metaRank": 17,
+      "name": "CAR!",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "01/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ford",
+            "model": "GT (2005)",
+            "sharecode": "965 302 969",
+            "suspension": "Race",
+            "tuneName": "CAR!",
+            "tuner": "RazkinzMango",
+            "tyreCompound": "Slick"
+          },
+          "row": 944,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Ford GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "CAR!",
+            "Tuner": "RazkinzMango",
+            "fill": "FF7030A0"
+          },
+          "row": 1553,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.669,
+      "shareCode": "965302969",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "razkinzmango"
+    }
+  ],
+  "schemaVersion": 1
+}

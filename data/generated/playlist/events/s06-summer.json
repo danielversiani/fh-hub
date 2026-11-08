@@ -1,0 +1,675 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s06-summer--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 2000 Honda Prelude Type SH",
+      "routeRaw": "",
+      "routes": [],
+      "row": 438,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s06-summer--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 1973 Toyota Corolla SR5",
+      "routeRaw": "",
+      "routes": [],
+      "row": 439,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s06-summer--weekly-challenge--turbocharged",
+      "name": "Turbocharged",
+      "requirement": {
+        "activities": [
+          "Speed Skills",
+          "Time Attack",
+          "Speed Traps"
+        ],
+        "carIds": [
+          "1973-bmw-2002-turbo"
+        ],
+        "scope": "car",
+        "scopeLabel": "1973 BMW Turbo 2002",
+        "status": "parsed"
+      },
+      "requirementRaw": "1973 BMW Turbo 2002; Speed Skills; Time Attack; Speed Traps",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 440,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-summer--daily-challenge--drift-skills",
+      "name": "Drift Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 5 Drift or E-Drift Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 441,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-summer--daily-challenge--speed-trap",
+      "name": "Speed Trap",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn at least 1 Star from Speed Traps",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 442,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-summer--daily-challenge--kangaroo-skills",
+      "name": "Kangaroo Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Kangaroo Skills",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 443,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-summer--daily-challenge--gift-drop",
+      "name": "Gift Drop",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Send a Gift Drop to another player",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 444,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-summer--daily-challenge--wheelspin",
+      "name": "Wheelspin",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Redeem a Wheelspin or Super Wheelspin",
+        "pt-br": "Use uma Roleta ou Superroleta"
+      },
+      "requirementRaw": "Redeem a Wheelspin or Super Wheelspin",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 445,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-summer--daily-challenge--drive",
+      "name": "Drive",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Drive 10 miles",
+        "pt-br": "Dirija 16 km (10 milhas)"
+      },
+      "requirementRaw": "Drive 10 miles",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 446,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s06-summer--daily-challenge--skill-chain",
+      "name": "Skill Chain",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Bank a 15,000 Point Skill Chain",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 447,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s06-summer--photo-challenge--lightlunch",
+      "name": "#LightLunch",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of any Eclectic Domestic car at the 7-11 Car Meet",
+      "reward": "Clothing: 7-11 Uniform",
+      "routeRaw": "",
+      "routes": [],
+      "row": 448,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s06-summer--treasure-hunt--ito-region",
+      "name": "Ito Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 449,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s06-summer--championship--vetting-the-competition",
+      "name": "Vetting the Competition",
+      "requirement": {
+        "class": "S1",
+        "scope": "unknown",
+        "scopeLabel": "Track Life",
+        "status": "unparsed"
+      },
+      "requirementRaw": "Track Life - S1 Class",
+      "reward": "Car: 1970 Chevrolet Corvette ZR-1",
+      "routeRaw": "Street: Hokubu Ascent, Norikura Descent, Kita Ine",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Hokubu Ascent"
+        },
+        {
+          "discipline": "street",
+          "name": "Norikura Descent"
+        },
+        {
+          "discipline": "street",
+          "name": "Kita Ine"
+        }
+      ],
+      "row": 450,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s06-summer--championship--ghost-hunter",
+      "name": "Ghost Hunter",
+      "requirement": {
+        "carIds": [
+          "1983-nissan-240rs",
+          "1984-opel-manta-400",
+          "1985-ford-rs200-evolution",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1986-audi-2-audi-sport-quattro-s1",
+          "1986-mg-metro-6r4",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "2001-ford-4-ford-focus-rs",
+          "2007-peugeot-207-super-2000",
+          "2017-ford-14-rahal-letterman-lanigan-racing-fiesta",
+          "2017-ford-m-sport-fiesta-rs",
+          "2017-volkswagen-34-andretti-rally-cross-beetle",
+          "2018-subaru-wrx-sti-arx-supercar",
+          "2022-lamborghini-huracan-sterrato",
+          "2023-porsche-911-rallye"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Rally Monsters",
+        "status": "parsed"
+      },
+      "requirementRaw": "Rally Monsters - A Class",
+      "reward": "Car: 1973 BMW 2002 Turbo",
+      "routeRaw": "Cross Country: Takashiro Cross Country, Oka Cross Country Circuit, Temple Cross Country",
+      "routes": [
+        {
+          "name": "Takashiro Cross Country"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Oka Cross Country Circuit"
+        },
+        {
+          "name": "Temple Cross Country"
+        }
+      ],
+      "row": 451,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": "cross-country",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s06-summer--championship--bee-happy",
+      "name": "Bee Happy",
+      "requirement": {
+        "carIds": [
+          "2004-mitsubishi-lancer-evolution-viii-mr",
+          "2004-mitsubishi-lancer-evolution-viii-mr-welcome-pack",
+          "2004-subaru-impreza-wrx-sti",
+          "2005-subaru-impreza-wrx-sti",
+          "2006-mitsubishi-lancer-evolution-ix-mr",
+          "2008-mitsubishi-lancer-evolution-x-gsr",
+          "2008-subaru-impreza-wrx-sti",
+          "2011-subaru-wrx-sti",
+          "2015-subaru-wrx-sti",
+          "2019-subaru-sti-s209",
+          "2021-toyota-gr-yaris",
+          "2022-subaru-wrx"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Modern Rally",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Rally - B Class",
+      "reward": "Car: 1970 Dodge Coronet Super Bee",
+      "routeRaw": "Dirt: Kawazu Nanadaru Scramble, Cherry Field Trail, Sunflower Scramble",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Kawazu Nanadaru Scramble"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Cherry Field Trail"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Sunflower Scramble"
+        }
+      ],
+      "row": 452,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": "dirt",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "time-attack",
+      "id": "s06-summer--horizon-life-time-attack--soni-time-attack",
+      "name": "Soni Time Attack",
+      "requirement": {
+        "carIds": [
+          "1970-porsche-3-917-lh",
+          "1970-porsche-3-917-lh-forza-edition",
+          "1973-porsche-911-carrera-rs",
+          "1982-porsche-911-turbo-3-3",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1987-porsche-203-porsche-ag-961",
+          "1987-porsche-959",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "1989-porsche-944-turbo",
+          "1993-porsche-911-turbo-s-leichtbau",
+          "1993-porsche-928-gts",
+          "1993-porsche-968-turbo-s",
+          "1995-porsche-911-gt2",
+          "1997-porsche-911-gt1-strassenversion",
+          "2003-porsche-carrera-gt",
+          "2004-porsche-911-gt3",
+          "2005-porsche-cayman-gt3-wtac",
+          "2012-porsche-911-gt3-rs-4-0",
+          "2014-porsche-918-spyder",
+          "2018-porsche-718-cayman-gts",
+          "2018-porsche-911-gt2-rs",
+          "2018-porsche-cayenne-turbo",
+          "2018-porsche-macan-lpr-rally-raid",
+          "2019-porsche-70-porsche-motorsport-935",
+          "2019-porsche-911-carrera-s",
+          "2019-porsche-911-gt3-rs",
+          "2020-porsche-taycan-turbo-s",
+          "2021-porsche-911-gt3",
+          "2021-porsche-mission-r",
+          "2022-porsche-718-cayman-gt4-rs",
+          "2023-porsche-911-gt3-rs",
+          "2023-porsche-911-rallye",
+          "2023-porsche-911-turbo-s",
+          "2025-porsche-macan-gts"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Porsche",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "49.000 seconds",
+          "unit": "s",
+          "value": 49
+        }
+      },
+      "requirementRaw": "Porsche - S1 Class - 49.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 453,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Horizon Life - Time Attack"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s06-summer--pr-stunt-danger-sign--highway-jump",
+      "name": "Highway Jump",
+      "requirement": {
+        "carIds": [
+          "1970-porsche-3-917-lh",
+          "1970-porsche-3-917-lh-forza-edition",
+          "1973-porsche-911-carrera-rs",
+          "1982-porsche-911-turbo-3-3",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1987-porsche-203-porsche-ag-961",
+          "1987-porsche-959",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "1989-porsche-944-turbo",
+          "1993-porsche-911-turbo-s-leichtbau",
+          "1993-porsche-928-gts",
+          "1993-porsche-968-turbo-s",
+          "1995-porsche-911-gt2",
+          "1997-porsche-911-gt1-strassenversion",
+          "2003-porsche-carrera-gt",
+          "2004-porsche-911-gt3",
+          "2005-porsche-cayman-gt3-wtac",
+          "2012-porsche-911-gt3-rs-4-0",
+          "2014-porsche-918-spyder",
+          "2018-porsche-718-cayman-gts",
+          "2018-porsche-911-gt2-rs",
+          "2018-porsche-cayenne-turbo",
+          "2018-porsche-macan-lpr-rally-raid",
+          "2019-porsche-70-porsche-motorsport-935",
+          "2019-porsche-911-carrera-s",
+          "2019-porsche-911-gt3-rs",
+          "2020-porsche-taycan-turbo-s",
+          "2021-porsche-911-gt3",
+          "2021-porsche-mission-r",
+          "2022-porsche-718-cayman-gt4-rs",
+          "2023-porsche-911-gt3-rs",
+          "2023-porsche-911-rallye",
+          "2023-porsche-911-turbo-s",
+          "2025-porsche-macan-gts"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Porsche",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "853.0 feet",
+          "unit": "ft",
+          "value": 853
+        }
+      },
+      "requirementRaw": "Porsche - S1 Class - 853.0 feet",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 454,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s06-summer--pr-stunt-speed-trap--konbini-dash",
+      "name": "Konbini Dash",
+      "requirement": {
+        "carIds": [
+          "1970-porsche-3-917-lh",
+          "1970-porsche-3-917-lh-forza-edition",
+          "1973-porsche-911-carrera-rs",
+          "1982-porsche-911-turbo-3-3",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1987-porsche-203-porsche-ag-961",
+          "1987-porsche-959",
+          "1987-porsche-carrera-coupe-luftauto-002",
+          "1989-porsche-944-turbo",
+          "1993-porsche-911-turbo-s-leichtbau",
+          "1993-porsche-928-gts",
+          "1993-porsche-968-turbo-s",
+          "1995-porsche-911-gt2",
+          "1997-porsche-911-gt1-strassenversion",
+          "2003-porsche-carrera-gt",
+          "2004-porsche-911-gt3",
+          "2005-porsche-cayman-gt3-wtac",
+          "2012-porsche-911-gt3-rs-4-0",
+          "2014-porsche-918-spyder",
+          "2018-porsche-718-cayman-gts",
+          "2018-porsche-911-gt2-rs",
+          "2018-porsche-cayenne-turbo",
+          "2018-porsche-macan-lpr-rally-raid",
+          "2019-porsche-70-porsche-motorsport-935",
+          "2019-porsche-911-carrera-s",
+          "2019-porsche-911-gt3-rs",
+          "2020-porsche-taycan-turbo-s",
+          "2021-porsche-911-gt3",
+          "2021-porsche-mission-r",
+          "2022-porsche-718-cayman-gt4-rs",
+          "2023-porsche-911-gt3-rs",
+          "2023-porsche-911-rallye",
+          "2023-porsche-911-turbo-s",
+          "2025-porsche-macan-gts"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Porsche",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "125.0 mph",
+          "unit": "mph",
+          "value": 125
+        }
+      },
+      "requirementRaw": "Porsche - S1 Class - 125.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 455,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "trial",
+      "id": "s06-summer--horizon-life-the-trial--aim-for-the-top",
+      "name": "Aim For the Top",
+      "requirement": {
+        "carIds": [
+          "1965-ford-mustang-gt-coupe",
+          "1967-chevrolet-corvette-stingray-427",
+          "1968-dodge-dart-hemi-super-stock",
+          "1968-ford-mustang-gt-2-2-fastback",
+          "1968-holden-monaro-gts-327",
+          "1968-plymouth-barracuda-formula-s",
+          "1969-chevrolet-camaro-super-sport-coupe",
+          "1969-chevrolet-nova-super-sport-396",
+          "1969-dodge-charger-daytona-hemi",
+          "1969-dodge-charger-r-t",
+          "1969-ford-mustang-boss-302",
+          "1970-chevrolet-camaro-z28",
+          "1970-chevrolet-chevelle-super-sport-454",
+          "1970-chevrolet-corvette-zr-1",
+          "1970-dodge-challenger-r-t",
+          "1970-dodge-coronet-super-bee",
+          "1971-plymouth-cuda-426-hemi",
+          "1973-ford-xb-falcon-gt",
+          "1977-holden-torana-a9x",
+          "1977-pontiac-firebird-trans-am",
+          "1979-chevrolet-camaro-z28",
+          "1987-buick-regal-gnx",
+          "1987-pontiac-firebird-trans-am-gta",
+          "1988-chevrolet-monte-carlo-super-sport",
+          "1993-ford-mustang-svt-cobra-r",
+          "1995-chevrolet-corvette-zr-1",
+          "1996-chevrolet-impala-super-sport",
+          "1999-dodge-viper-gts-acr",
+          "2000-ford-mustang-svt-cobra-r",
+          "2002-chevrolet-corvette-z06",
+          "2006-dodge-ram-srt-10",
+          "2009-chevrolet-corvette-zr1",
+          "2010-ford-crown-victoria-police-interceptor",
+          "2013-ford-mustang-shelby-gt500",
+          "2013-srt-viper-gts",
+          "2014-hsv-gen-f-gts",
+          "2015-chevrolet-corvette-z06",
+          "2015-dodge-challenger-srt-hellcat",
+          "2015-dodge-charger-srt-hellcat",
+          "2016-cadillac-ats-v",
+          "2016-cadillac-cts-v-sedan",
+          "2017-chevrolet-camaro-zl1",
+          "2018-deberti-ford-mustang-gt",
+          "2018-dodge-challenger-srt-demon",
+          "2018-ford-mustang-rtr-spec-5",
+          "2020-ford-mustang-shelby-gt500",
+          "2022-cadillac-ct4-v-blackwing",
+          "2022-cadillac-ct5-v-blackwing",
+          "2022-dodge-challenger-srt-super-stock",
+          "2023-dodge-challenger-srt-demon-170",
+          "2024-chevrolet-camaro-zl1",
+          "2024-ford-mustang-dark-horse",
+          "2024-ford-mustang-gt"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Total Muscle",
+        "status": "parsed"
+      },
+      "requirementRaw": "Total Muscle - A Class",
+      "reward": "Car: 2017 Volkswagen #34 Andretti Rally Cross Beetle",
+      "routeRaw": "Road: Soni Circuit, Hokubu Circuit, Shikisai Sprint",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Soni Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Hokubu Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Shikisai Sprint"
+        }
+      ],
+      "row": 456,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": "road",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s06-summer--horizon-play-drift--smooth-and-steady",
+      "name": "Smooth and Steady",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Horizon Drift Championship",
+        "pt-br": "Complete um campeonato Horizon Drift"
+      },
+      "requirementRaw": "Complete a Horizon Drift Championship",
+      "reward": "Clothing: White Haori",
+      "routeRaw": "",
+      "routes": [],
+      "row": 457,
+      "seasonId": "s06-summer",
+      "seriesId": "s06",
+      "surface": null,
+      "type": "Horizon Play - Drift"
+    }
+  ],
+  "schemaVersion": 1
+}

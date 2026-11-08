@@ -1,0 +1,361 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-062cafe4fb",
+      "metaRank": 76,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ferrari 488 Pista",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1445,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-5fc9d0275d",
+      "metaRank": 76,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 157,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c1e9c12fd6",
+      "metaRank": 76,
+      "name": "S1 Class - Road Racing - 9 Gears - (55.2 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Ferrari 488 Pista",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - 9 Gears - (55.2 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1447,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-21",
+      "drivetrain": "RWD",
+      "id": "sc-108874821",
+      "name": "Majoritat hat viele Herzen, aber ein Herz hat sie nicht",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "21/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Ferrari",
+            "model": "488 Pista",
+            "sharecode": "108 874 821",
+            "suspension": "Rally",
+            "tuneName": "Majoritat hat viele Herzen, aber ein Herz hat sie nicht",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Rally"
+          },
+          "row": 809,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "108874821",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-31",
+      "drivetrain": "AWD",
+      "id": "sc-127772670",
+      "metaRank": 76,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "488 Pista",
+            "sharecode": "127 772 670",
+            "suspension": "Race",
+            "tuneName": "S1 Road",
+            "tuner": "ESV Vini",
+            "tyreCompound": "Rally"
+          },
+          "row": 806,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.557,
+      "shareCode": "127772670",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-vini"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-29",
+      "drivetrain": "AWD",
+      "id": "sc-151200648",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "29/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "488 Pista",
+            "sharecode": "151 200 648",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 808,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "151200648",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-23",
+      "drivetrain": "AWD",
+      "id": "sc-160488340",
+      "metaRank": 76,
+      "name": "S1 Road/Street AWD Full Aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "23/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "488 Pista",
+            "sharecode": "160 488 340",
+            "suspension": "Race",
+            "tuneName": "S1 Road/Street AWD Full Aero",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 811,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 Ferrari 488 Pista",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road/Street AWD Full Aero",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 1446,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.641,
+      "shareCode": "160488340",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
+      "drivetrain": "AWD",
+      "id": "sc-476590696",
+      "metaRank": 76,
+      "name": "S1 Road V1.2 (Stock Rims)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "01/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "488 Pista",
+            "sharecode": "476 590 696",
+            "suspension": "Race",
+            "tuneName": "S1 Road V1.2 (Stock Rims)",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 807,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.564,
+      "shareCode": "476590696",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-488-pista",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-07",
+      "drivetrain": "AWD",
+      "id": "sc-776231164",
+      "metaRank": 76,
+      "name": "Road Allround 55.4 Shira Clean (nicest car ever)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "07/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Ferrari",
+            "model": "488 Pista",
+            "sharecode": "776 231 164",
+            "suspension": "Rally",
+            "tuneName": "Road Allround 55.4 Shira Clean (nicest car ever)",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 810,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.557,
+      "shareCode": "776231164",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,593 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-516eff43ae",
+      "name": "A Road | 1:01.8 Shira | Purist + Mugen kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "Purist, Mugen bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 1:01.8 Shira | Purist + Mugen kit",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 1688,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-76a3704509",
+      "metaRank": 48,
+      "name": "Mugen Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "Purist, Mugen bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Mugen Purist",
+            "Tuner": "Nemercs",
+            "fill": "FFED7D31"
+          },
+          "row": 358,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "nemercs"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-7de768aece",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 48,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 100,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-96a801e504",
+      "metaRank": 48,
+      "name": "B16B Road Mugen Kit V1.1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "Mugen bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B16B Road Mugen Kit V1.1",
+            "Tuner": "AIONS580Pio",
+            "fill": "FFED7D31"
+          },
+          "row": 354,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "id": "nc-aedc83ee27",
+      "metaRank": 48,
+      "name": "B Road Mugen Kit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "Mugen bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road Mugen Kit",
+            "Tuner": "AMS Carver",
+            "fill": "FFED7D31"
+          },
+          "row": 355,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-d048da72ca",
+      "name": "C Road B-Speed",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "C Road B-Speed",
+            "Tuner": "Destrukdi",
+            "fill": "theme:7"
+          },
+          "row": 55,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-d6251a690e",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 48,
+      "name": "B road FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 100,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-fd3aaee354",
+      "name": "Purist Road Slicks",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road Slicks",
+            "Tuner": "keerj",
+            "fill": "FFFF0000"
+          },
+          "row": 1689,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "keerj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-30",
+      "drivetrain": "AWD",
+      "id": "sc-165016895",
+      "name": "Dirty False Numbers",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "CR-X SIR",
+            "sharecode": "165 016 895",
+            "suspension": "Stock",
+            "tuneName": "Dirty False Numbers",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1181,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "165016895",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-322820677",
+      "name": "Good B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "CR-X SIR",
+            "sharecode": "322 820 677",
+            "suspension": "Stock",
+            "tuneName": "Good B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1184,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good B Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 353,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "322820677",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-21",
+      "drivetrain": "AWD",
+      "id": "sc-407815810",
+      "name": "B Dirt No aero (M) 1:03.9 Sunflower",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "CR-X SIR",
+            "sharecode": "407 815 810",
+            "suspension": "Stock",
+            "tuneName": "B Dirt No aero (M) 1:03.9 Sunflower",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1185,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "407815810",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-16",
+      "drivetrain": "FWD",
+      "id": "sc-778221795",
+      "metaRank": 48,
+      "name": "B16B Road Mugen Kit V3.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "16/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "CR-X SIR",
+            "sharecode": "778 221 795",
+            "suspension": "Stock",
+            "tuneName": "B16B Road Mugen Kit V3.1",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1180,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "778221795",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-29",
+      "drivetrain": "FWD",
+      "id": "sc-812774738",
+      "metaRank": 48,
+      "name": "Purist Kaminari Kit | 50.9 Narai Juku Circuit",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "29/05/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Honda",
+            "model": "CR-X SIR",
+            "sharecode": "812 774 738",
+            "suspension": "Street",
+            "tuneName": "Purist Kaminari Kit | 50.9 Narai Juku Circuit",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 1182,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "Purist, Kaminari bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Kaminari Kit | 50.9 Narai Juku Circuit",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 356,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "812774738",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1991-honda-cr-x-sir",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-973285517",
+      "metaRank": 48,
+      "name": "Purist B Road - Mugen Kit",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "CR-X SIR",
+            "sharecode": "973 285 517",
+            "suspension": "Stock",
+            "tuneName": "Purist B Road - Mugen Kit",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1183,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda CR-X SIR",
+            "Comment": "Purist, Mugen bodykit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist B Road - Mugen Kit",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 357,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.67,
+      "shareCode": "973285517",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

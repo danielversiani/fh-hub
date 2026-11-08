@@ -1,0 +1,714 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s03-winter--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 1982 Lancia 037 Stradale",
+      "routeRaw": "",
+      "routes": [],
+      "row": 215,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s03-winter--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 2020 Ferrari Roma",
+      "routeRaw": "",
+      "routes": [],
+      "row": 216,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s03-winter--weekly-challenge--hurricane",
+      "name": "Hurricane",
+      "requirement": {
+        "activities": [
+          "Skill Chain",
+          "Time Attack",
+          "Photo"
+        ],
+        "carIds": [
+          "2014-lamborghini-huracan-lp-610-4"
+        ],
+        "scope": "car",
+        "scopeLabel": "2014 Lamborghini Huracán LP 610-4",
+        "status": "parsed"
+      },
+      "requirementRaw": "2014 Lamborghini Huracán LP 610-4; Skill Chain; Time Attack; Photo",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 217,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-winter--daily-challenge--money-well-spent",
+      "name": "Money Well Spent",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Spend 15,000 CR on upgrades on any Italian Car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 218,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-winter--daily-challenge--top-of-the-class",
+      "name": "Top of the Class",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Win 2 Road Sprint Race Events in any A Class Car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 219,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-winter--daily-challenge--manta-ray",
+      "name": "Manta Ray",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 4 Under the Sea Skills in the 1984 Opel Manta 400",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 220,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-winter--daily-challenge--picture-perfect",
+      "name": "Picture Perfect",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of your car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 221,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-winter--daily-challenge--to-the-beat",
+      "name": "To the Beat",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn a total of 6 Stars at Speed Traps in the 1991 Honda Beat",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 222,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-winter--daily-challenge--fresh-deals",
+      "name": "Fresh Deals",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Purchase an Aftermarket Car",
+        "pt-br": "Compre um carro na loja de usados (Aftermarket)"
+      },
+      "requirementRaw": "Purchase an Aftermarket Car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 223,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s03-winter--daily-challenge--clean-competition",
+      "name": "Clean Competition",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 Clean Racing Skills of any Grade in any Street Race",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 224,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s03-winter--photo-challenge--classycastle",
+      "name": "#ClassyCastle",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of any Classic Sports Car at Hirosaki Castle",
+      "reward": "Clothing: White Suit",
+      "routeRaw": "",
+      "routes": [],
+      "row": 225,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s03-winter--treasure-hunt--hokubu-region",
+      "name": "Hokubu Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 226,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "id": "s03-winter--championship--play-time",
+      "name": "Play Time",
+      "requirement": {
+        "carIds": [
+          "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+          "1989-nissan-s-cargo-forza-edition",
+          "1990-mercedes-benz-190-e-2-5-16-evolution-ii-forza-edition",
+          "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+          "1994-ford-supervan-3",
+          "2008-dodge-viper-srt-10-acr",
+          "2010-bmw-m3-gts",
+          "2012-porsche-911-gt3-rs-4-0",
+          "2013-ferrari-458-speciale",
+          "2013-toyota-86-stories",
+          "2013-wuling-sunshine-s-forza-edition",
+          "2014-bac-mono",
+          "2015-chevrolet-camaro-z-28",
+          "2015-jaguar-xkr-s-gt",
+          "2016-bmw-m4-gts",
+          "2016-dodge-viper-acr",
+          "2016-ford-mustang-shelby-gt350r",
+          "2017-mazda-mx-5-cup",
+          "2018-chevrolet-camaro-zl1-1le",
+          "2018-exomotive-exocet-sport-v8-xp-5",
+          "2018-lotus-exige-cup-430",
+          "2018-mclaren-600lt-coupe",
+          "2018-porsche-911-gt2-rs",
+          "2019-chevrolet-corvette-zr1",
+          "2019-ferrari-488-pista",
+          "2019-ginetta-g40-junior",
+          "2019-porsche-911-gt3-rs",
+          "2020-lamborghini-huracan-sto",
+          "2020-mercedes-amg-gt-black-series",
+          "2020-mercedes-amg-gt-black-series-welcome-pack",
+          "2020-nissan-gt-r-nismo-r35",
+          "2021-mclaren-620r",
+          "2021-mclaren-765lt-coupe",
+          "2021-porsche-911-gt3",
+          "2022-hyundai-n-vision-74",
+          "2022-porsche-718-cayman-gt4-rs",
+          "2023-bmw-m2-forza-edition",
+          "2023-chevrolet-corvette-z06",
+          "2023-porsche-911-gt3-rs",
+          "2024-nissan-gt-r-nismo",
+          "2025-ford-mustang-gtd"
+        ],
+        "class": "S1",
+        "scope": "car-type",
+        "scopeLabel": "Track Toys",
+        "status": "parsed"
+      },
+      "requirementRaw": "Track Toys - S1 Class",
+      "reward": "Car: 2017 Alfa Romeo Giulia Quadrifoglio",
+      "routeRaw": "Road: Narai-Juku Circuit, Hokubu Circuit, Venus Sprint",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Narai-Juku Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Hokubu Circuit"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Venus Sprint"
+        }
+      ],
+      "row": 227,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s03-winter--championship--spyder-sense",
+      "name": "Spyder Sense",
+      "requirement": {
+        "carIds": [
+          "1982-delorean-dmc-12",
+          "1983-nissan-skyline-2000-turbo-rs",
+          "1984-honda-civic-crx-mugen",
+          "1985-mazda-rx-7-gsl-se",
+          "1985-toyota-sprinter-trueno-gt-apex",
+          "1987-nissan-skyline-gts-r",
+          "1988-mitsubishi-starion-esi-r",
+          "1989-nissan-silvia-ks",
+          "1989-porsche-944-turbo",
+          "1989-toyota-mr2-sc",
+          "1990-eunos-cosmo",
+          "1990-mazda-savanna-rx-7",
+          "1992-honda-nsx-r",
+          "1992-mazda-rx-7-type-r",
+          "1992-nissan-skyline-gt-r",
+          "1992-toyota-supra-2-0-gt",
+          "1993-nissan-240sx",
+          "1993-porsche-911-turbo-s-leichtbau",
+          "1993-porsche-928-gts",
+          "1993-porsche-968-turbo-s",
+          "1994-mazda-mx-5-miata",
+          "1994-mazda-mx-5-miata-forza-edition",
+          "1994-nissan-fairlady-z-version-s-twin-turbo",
+          "1994-nissan-silvia-ks",
+          "1995-bmw-850csi",
+          "1995-mitsubishi-eclipse-gsx",
+          "1995-nissan-nismo-gt-r-lm",
+          "1995-toyota-mr2-gt",
+          "1996-subaru-svx",
+          "1997-maserati-ghibli-cup",
+          "1997-mitsubishi-gto",
+          "1997-nissan-skyline-gt-r-v-spec",
+          "1997-toyota-soarer-2-5-gt-t",
+          "1998-nissan-silvia-ks-aero",
+          "1998-nissan-skyline-gt-r-40th-anniversary",
+          "1998-renault-sport-spider",
+          "1998-toyota-supra-rz",
+          "1999-lotus-elise-series-1-sport-190",
+          "2000-honda-prelude-type-sh",
+          "2000-nissan-skyline-gt-r-v-spec-ii",
+          "2002-nissan-silvia-spec-r",
+          "2003-aston-martin-db7-gt",
+          "2003-nissan-fairlady-z",
+          "2003-toyota-celica-sport-specialty-ii",
+          "2005-honda-nsx-r",
+          "2005-honda-nsx-r-gt",
+          "2005-mazda-mazdaspeed-mx-5",
+          "2005-tvr-sagaris"
+        ],
+        "class": "C",
+        "scope": "car-type",
+        "scopeLabel": "Retro Sports Cars",
+        "status": "parsed"
+      },
+      "requirementRaw": "Retro Sports Cars - C Class",
+      "reward": "Car: 2012 Lamborghini Gallardo LP570-4 Spyder Performante",
+      "routeRaw": "Street: River Descent, Matsumi Climb, Rainbow Bridge Descent",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "River Descent"
+        },
+        {
+          "discipline": "street",
+          "name": "Matsumi Climb"
+        },
+        {
+          "discipline": "street",
+          "name": "Rainbow Bridge Descent"
+        }
+      ],
+      "row": 228,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "time-attack",
+      "id": "s03-winter--horizon-life-time-attack--hokubu-time-attack",
+      "name": "Hokubu Time Attack",
+      "requirement": {
+        "class": "A",
+        "scope": "any",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "01:03.00",
+          "unit": "s",
+          "value": 63
+        }
+      },
+      "requirementRaw": "A Class - 01:03.00",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 229,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "Horizon Life - Time Attack"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s03-winter--pr-stunt-danger-sign--festival-leap",
+      "name": "Festival Leap",
+      "requirement": {
+        "carIds": [
+          "2003-honda-s2000",
+          "2008-bmw-z4-m-coupe",
+          "2010-audi-tt-rs-coupe",
+          "2010-nissan-370z",
+          "2011-mazda-rx-8-r3",
+          "2013-mazda-mx-5",
+          "2013-subaru-brz",
+          "2013-toyota-86",
+          "2014-alfa-romeo-4c",
+          "2015-bmw-i8",
+          "2016-mazda-mx-5",
+          "2017-abarth-124-spider",
+          "2018-porsche-718-cayman-gts",
+          "2018-tvr-griffith",
+          "2019-bmw-z4-roadster",
+          "2019-nissan-370z-nismo",
+          "2019-porsche-911-carrera-s",
+          "2020-mercedes-amg-slc-43-final-edition",
+          "2020-toyota-gr-supra",
+          "2022-mazda-mx-5-miata-rf",
+          "2022-subaru-brz",
+          "2022-toyota-gr86",
+          "2023-lotus-emira",
+          "2024-nissan-z-nismo"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Modern Sports Cars",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "1000.7 feet",
+          "unit": "ft",
+          "value": 1000.7
+        }
+      },
+      "requirementRaw": "Modern Sports Cars - A Class - 1000.7 feet",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 230,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "trailblazer",
+      "id": "s03-winter--pr-stunt-trailblazer--forest-cut-through",
+      "name": "Forest Cut-Through",
+      "requirement": {
+        "carIds": [
+          "2003-honda-s2000",
+          "2008-bmw-z4-m-coupe",
+          "2010-audi-tt-rs-coupe",
+          "2010-nissan-370z",
+          "2011-mazda-rx-8-r3",
+          "2013-mazda-mx-5",
+          "2013-subaru-brz",
+          "2013-toyota-86",
+          "2014-alfa-romeo-4c",
+          "2015-bmw-i8",
+          "2016-mazda-mx-5",
+          "2017-abarth-124-spider",
+          "2018-porsche-718-cayman-gts",
+          "2018-tvr-griffith",
+          "2019-bmw-z4-roadster",
+          "2019-nissan-370z-nismo",
+          "2019-porsche-911-carrera-s",
+          "2020-mercedes-amg-slc-43-final-edition",
+          "2020-toyota-gr-supra",
+          "2022-mazda-mx-5-miata-rf",
+          "2022-subaru-brz",
+          "2022-toyota-gr86",
+          "2023-lotus-emira",
+          "2024-nissan-z-nismo"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Modern Sports Cars",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "42 seconds",
+          "unit": "s",
+          "value": 42
+        }
+      },
+      "requirementRaw": "Modern Sports Cars - A Class - 42 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 231,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": "cross-country",
+      "type": "PR Stunt - Trailblazer"
+    },
+    {
+      "category": "trial",
+      "discipline": "circuit",
+      "id": "s03-winter--horizon-life-the-trial--feeling-bugged",
+      "name": "Feeling Bugged",
+      "requirement": {
+        "carIds": [
+          "1969-volkswagen-class-5-1600-baja-bug",
+          "1971-meyers-manx",
+          "2011-penhall-the-cholla",
+          "2015-alumicraft-class-10-race-car",
+          "2016-ariel-nomad",
+          "2018-funco-motorsports-f9",
+          "2020-jimco-179-hammerhead-class-1",
+          "2021-alumicraft-122-class-1-buggy",
+          "2023-meyers-manx-2-0",
+          "1972-nissan-patrol",
+          "1993-toyota-1-t100-baja-truck",
+          "1999-dodge-viper-gts-acr-forza-edition",
+          "2013-deberti-jeep-wrangler-unlimited",
+          "2013-mini-x-raid-all4-racing-countryman",
+          "2014-ford-11-rockstar-f-150-trophy-truck",
+          "2014-ford-ranger-t6-rally-raid",
+          "2014-mercedes-benz-unimog-u5023",
+          "2015-honda-ridgeline-baja-trophy-truck",
+          "2016-jeep-trailcat",
+          "2016-rj-anderson-37-polaris-rzr-pro-2-truck",
+          "2017-ford-25-brocky-ultra4-bronco-rtr",
+          "2018-mini-x-raid-john-cooper-works-buggy",
+          "2018-porsche-macan-lpr-rally-raid",
+          "2019-casey-currie-motorsports-4402-ultra-4-trophy-jeep",
+          "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+          "2019-jimco-240-fastball-racing-class-6100-spec-trophy-truck",
+          "2020-ford-2069-ford-performance-bronco-r",
+          "2021-rj-anderson-37-polaris-rzr-pro-4-truck",
+          "2022-alumicraft-6165-trick-truck",
+          "2022-subaru-brz-forza-edition",
+          "2554-amg-transport-dynamics-m12s-warthog-cst"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Total Buggies & Offroad",
+        "status": "parsed"
+      },
+      "requirementRaw": "Total Buggies & Offroad - A Class",
+      "reward": "Car: 2015 Ferrari 488 GTB",
+      "routeRaw": "Cross Country: Temple Cross Country, Edogawa Cross Country Circuit, Izu Cross Country",
+      "routes": [
+        {
+          "name": "Temple Cross Country"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Edogawa Cross Country Circuit"
+        },
+        {
+          "name": "Izu Cross Country"
+        }
+      ],
+      "row": 232,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": "cross-country",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s03-winter--horizon-play-horizon-racing--delta-time",
+      "name": "Delta Time",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete a Horizon Racing Championship",
+      "reward": "Car: 1986 Lancia Delta S4",
+      "routeRaw": "",
+      "routes": [],
+      "row": 233,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Horizon Play - Horizon Racing"
+    },
+    {
+      "category": "online",
+      "id": "s03-winter--horizon-play-hide-and-seek--5-vs-1",
+      "name": "5 VS 1",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a game of Hide & Seek",
+        "pt-br": "Complete uma partida de Hide & Seek (esconde-esconde)"
+      },
+      "requirementRaw": "Complete a game of Hide & Seek",
+      "reward": "Car: 2019 Lamborghini Urus",
+      "routeRaw": "",
+      "routes": [],
+      "row": 234,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Horizon Play - Hide & Seek"
+    },
+    {
+      "category": "online",
+      "id": "s03-winter--horizon-play-horizon-stunt-party--mini-games",
+      "name": "Mini Games",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete any Horizon Stunt Party",
+        "pt-br": "Complete qualquer Horizon Stunt Party"
+      },
+      "requirementRaw": "Complete any Horizon Stunt Party",
+      "reward": "QuickChat: Oooh... shiny!",
+      "routeRaw": "",
+      "routes": [],
+      "row": 235,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Horizon Play - Horizon Stunt Party"
+    },
+    {
+      "category": "reward",
+      "id": "s03-winter--community-gift--gift-car",
+      "name": "Gift Car",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Custom livery - LEGO Technic partnership",
+      "reward": "Car: 2016 Dodge Viper ACR",
+      "routeRaw": "",
+      "routes": [],
+      "row": 236,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Community Gift"
+    },
+    {
+      "category": "reward",
+      "id": "s03-winter--community-gift--gift-car-2",
+      "name": "Gift Car",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Custom livery - LEGO Technic partnership",
+      "reward": "Car: 2019 Ferrari 488 Pista",
+      "routeRaw": "",
+      "routes": [],
+      "row": 237,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Community Gift"
+    },
+    {
+      "category": "reward",
+      "id": "s03-winter--community-gift--gift-car-3",
+      "name": "Gift Car",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Custom livery - Master Chief",
+      "reward": "Car: 2019 Lamborghini Urus",
+      "routeRaw": "",
+      "routes": [],
+      "row": 238,
+      "seasonId": "s03-winter",
+      "seriesId": "s03",
+      "surface": null,
+      "type": "Community Gift"
+    }
+  ],
+  "schemaVersion": 1
+}

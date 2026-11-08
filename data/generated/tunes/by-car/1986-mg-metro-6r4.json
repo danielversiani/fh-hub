@@ -1,0 +1,230 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1986-mg-metro-6r4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-34bf6dfa52",
+      "metaRank": 40,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 86,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.507,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-mg-metro-6r4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-132031746",
+      "metaRank": 40,
+      "name": "Dirt Offmeta",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "MG",
+            "model": "Metro 6R4",
+            "sharecode": "132 031 746",
+            "suspension": "Drift",
+            "tuneName": "Dirt Offmeta",
+            "tuner": "Fenrir3268",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1803,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "132031746",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fenrir3268"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-mg-metro-6r4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "drivetrain": "AWD",
+      "id": "sc-157101208",
+      "name": "mg metro",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "15/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "MG",
+            "model": "Metro 6R4",
+            "sharecode": "157 101 208",
+            "suspension": "Rally",
+            "tuneName": "mg metro",
+            "tuner": "Myra Driving",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1805,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "157101208",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "myra-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-mg-metro-6r4",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-210479404",
+      "metaRank": 40,
+      "name": "S1 Dirt V8",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "MG",
+            "model": "Metro 6R4",
+            "sharecode": "210 479 404",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt V8",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1804,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "210479404",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1986-mg-metro-6r4",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-21",
+      "drivetrain": "AWD",
+      "id": "sc-393409712",
+      "name": "A Dirt Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "MG",
+            "model": "Metro 6R4",
+            "sharecode": "393 409 712",
+            "suspension": "Rally",
+            "tuneName": "A Dirt Purist",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1802,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "393409712",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1986-mg-metro-6r4",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-17",
+      "drivetrain": "AWD",
+      "id": "sc-854729141",
+      "name": "Humble Dirt Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "17/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "MG",
+            "model": "Metro 6R4",
+            "sharecode": "854 729 141",
+            "suspension": "Drift",
+            "tuneName": "Humble Dirt Purist",
+            "tuner": "Fenrir3268",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1801,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "854729141",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "fenrir3268"
+    }
+  ],
+  "schemaVersion": 1
+}

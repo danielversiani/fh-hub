@@ -95,8 +95,16 @@ export class CarResolver {
   private resolveUncached(ref: CarRef): Resolution {
     const alias = this.aliases.get(normalizeName(ref.text));
     if (alias && this.cars.has(alias)) return { ok: true, carId: alias, method: 'alias' };
+    const first = this.resolveWith(ref, splitYear(ref.text));
+    // A trailing number can be part of the name ("Peugeot 207 Super 2000"): retry without a year.
+    if (!first.ok && ref.year === undefined && /\s(?:19|20)\d{2}$/.test(ref.text.trim())) {
+      const retry = this.resolveWith(ref, { rest: ref.text.trim() });
+      if (retry.ok) return retry;
+    }
+    return first;
+  }
 
-    const split = splitYear(ref.text);
+  private resolveWith(ref: CarRef, split: { year?: number; rest: string }): Resolution {
     const year = ref.year ?? split.year;
     const makeModel = normalizeName(split.rest);
     const make = ref.make

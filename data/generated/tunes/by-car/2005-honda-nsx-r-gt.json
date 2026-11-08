@@ -1,0 +1,501 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2a62a24016",
+      "name": "S1 Dirt/CC Power",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Honda NSX-R GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt/CC Power",
+            "Tuner": "F1R Kilian",
+            "fill": "FF7030A0"
+          },
+          "row": 1734,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-5b3f7d527a",
+      "lapRefs": [
+        {
+          "time": "1:02.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川02.3 非常好开 适合新手练习后驱",
+      "metaNotesI18n": {
+        "en": "Very easy to drive; good for beginners to practise RWD.",
+        "pt-br": "Muito fácil de pilotar; bom para iniciantes treinarem tração traseira."
+      },
+      "metaRank": 158,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 323,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-72faf29c46",
+      "metaRank": 158,
+      "name": "A Road | 1:01.7 Shira | Purist Rallies",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Honda NSX-R GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road | 1:01.7 Shira | Purist Rallies",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 1730,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-8787d4fa8d",
+      "metaRank": 158,
+      "name": "Ein gutes Pferd stirbt in den Sielen",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Honda NSX-R GT",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Ein gutes Pferd stirbt in den Sielen",
+            "Tuner": "F1R Kilian",
+            "fill": "FFFF0000"
+          },
+          "row": 1731,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-fb03968206",
+      "metaRank": 49,
+      "name": "S1 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 102,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-101681689",
+      "metaRank": 158,
+      "name": "A Road B-Handling",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "NSX-R GT",
+            "sharecode": "101 681 689",
+            "suspension": "Rally",
+            "tuneName": "A Road B-Handling",
+            "tuner": "Destrukdi",
+            "tyreCompound": "Rally"
+          },
+          "row": 1206,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "101681689",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-26",
+      "drivetrain": "AWD",
+      "id": "sc-118047407",
+      "metaRank": 158,
+      "name": "A Road Handling v1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "26/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "NSX-R GT",
+            "sharecode": "118 047 407",
+            "suspension": "Rally",
+            "tuneName": "A Road Handling v1.1",
+            "tuner": "Destrukdi",
+            "tyreCompound": "Rally"
+          },
+          "row": 1207,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Honda NSX-R GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Handling v1.1",
+            "Tuner": "Destrukdi",
+            "fill": "FFFF0000"
+          },
+          "row": 1729,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.578,
+      "shareCode": "118047407",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-25",
+      "drivetrain": "AWD",
+      "id": "sc-138945460",
+      "name": "When you find out your goat washed </3 </3",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "25/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "NSX-R GT",
+            "sharecode": "138 945 460",
+            "suspension": "Race",
+            "tuneName": "When you find out your goat washed </3 </3",
+            "tuner": "Fenrir3268",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1209,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Honda NSX-R GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "When you find out your goat washed </3 </3",
+            "Tuner": "Fenrir3268",
+            "fill": "FF7030A0"
+          },
+          "row": 1732,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "138945460",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "fenrir3268"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-07-01",
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-230211456",
+      "metaRank": 49,
+      "name": "S1 Road RWD Balanced",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "01/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "NSX-R GT",
+            "sharecode": "230 211 456",
+            "suspension": "Race",
+            "tuneName": "S1 Road RWD Balanced",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1212,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "role": "power",
+      "score": 0.493,
+      "shareCode": "230211456",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-25",
+      "drivetrain": "AWD",
+      "id": "sc-409878634",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "25/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "NSX-R GT",
+            "sharecode": "409 878 634",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1210,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2005 Honda NSX-R GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1733,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "409878634",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-21",
+      "drivetrain": "AWD",
+      "id": "sc-436163691",
+      "name": "S1 Dirt/CC Power",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "21/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Honda",
+            "model": "NSX-R GT",
+            "sharecode": "436 163 691",
+            "suspension": "Sport",
+            "tuneName": "S1 Dirt/CC Power",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1211,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "436163691",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-21",
+      "drivetrain": "RWD",
+      "id": "sc-707163229",
+      "name": "Ein gutes Pferd stirbt in den Sielen",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "21/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Honda",
+            "model": "NSX-R GT",
+            "sharecode": "707 163 229",
+            "suspension": "Race",
+            "tuneName": "Ein gutes Pferd stirbt in den Sielen",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1208,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "707163229",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kilianfirebold"
+    }
+  ],
+  "schemaVersion": 1
+}

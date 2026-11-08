@@ -1,0 +1,1012 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-01ee07ffe2",
+      "metaRank": 8,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "Noa Miyako",
+            "fill": "FF7030A0"
+          },
+          "row": 2943,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-304ae6c0ec",
+      "name": "Ine 01.1 Clean Still strong (Meta 1.0)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Ine 01.1 Clean Still strong (Meta 1.0)",
+            "Tuner": "Iphanhan",
+            "fill": "FF7030A0"
+          },
+          "row": 2941,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "iphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-33e5fc148f",
+      "metaRank": 8,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 18,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-51f3472101",
+      "metaRank": 118,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 242,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5afbfe8f79",
+      "name": "god i need a joot job so bad",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "Powerbuild",
+            "Design": "BRITISH GT 1998",
+            "Designer": "DonatProdan",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "god i need a joot job so bad",
+            "Tuner": "Myra Driving",
+            "fill": "FF0070C0"
+          },
+          "row": 2954,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "myra-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-804ed5fa34",
+      "metaRank": 106,
+      "name": "S1 RWD Drift Tyre Zoomer",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S1 RWD Drift Tyre Zoomer",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 2953,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.475,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-8969ba7a38",
+      "metaRank": 106,
+      "name": "Purist Sprints / Street | 1:32.1 Highway Circuit",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "Purist",
+            "Design": "GRAFFITI SPEED 12",
+            "Designer": "StancedL",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Sprints / Street | 1:32.1 Highway Circuit",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2951,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.475,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a104388ce6",
+      "name": "Lighter Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Lighter Handling",
+            "Tuner": "ZVTCJAU",
+            "fill": "FF7030A0"
+          },
+          "row": 2948,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-af09ce1660",
+      "metaRank": 106,
+      "name": "S1 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 217,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.517,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-bf0c943849",
+      "metaRank": 106,
+      "name": "S1 Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FF7030A0"
+          },
+          "row": 2949,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.475,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ed0003180f",
+      "name": "Dirty Speed 12 Meta Monster 8 Speed Donk",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirty Speed 12 Meta Monster 8 Speed Donk",
+            "Tuner": "Cast Haste",
+            "fill": "FF7030A0"
+          },
+          "row": 2940,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ef7a0b1948",
+      "metaRank": 8,
+      "name": "Dirt META Sunflower 55.1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "LAMY TVR",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt META Sunflower 55.1",
+            "Tuner": "ZVTCJAU",
+            "fill": "FF7030A0"
+          },
+          "row": 2947,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-07-01",
+      "drivetrain": "AWD",
+      "id": "sc-103987343",
+      "name": "accel guy",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "01/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "103 987 343",
+            "suspension": "Race",
+            "tuneName": "accel guy",
+            "tuner": "Nalak28",
+            "tyreCompound": "Rally"
+          },
+          "row": 2591,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "accel guy",
+            "Tuner": "Nalak28",
+            "fill": "FF0070C0"
+          },
+          "row": 2955,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.668,
+      "shareCode": "103987343",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-26",
+      "drivetrain": "RWD",
+      "id": "sc-115866994",
+      "metaRank": 106,
+      "name": "Purist Sprints / Street | 1:32.1 Highway Citcuit",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "26/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "115 866 994",
+            "suspension": "Race",
+            "tuneName": "Purist Sprints / Street | 1:32.1 Highway Citcuit",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Drift"
+          },
+          "row": 2581,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "115866994",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-29",
+      "drivetrain": "AWD",
+      "id": "sc-117028952",
+      "metaRank": 8,
+      "name": "S1 Dirt Meta (Rally Sus + Full Aero)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "29/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "117 028 952",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt Meta (Rally Sus + Full Aero)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2589,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "TSUKATSUKI RIO",
+            "Designer": "DaimonEXE",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Meta (Rally Sus + Full Aero)",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2945,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.744,
+      "shareCode": "117028952",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-31",
+      "drivetrain": "AWD",
+      "id": "sc-125934774",
+      "name": "S1 Dirt/CC Meta v1.1 - More Power",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "125 934 774",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt/CC Meta v1.1 - More Power",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2590,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "ZAKSPEED TVR",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt/CC Meta v1.1 - More Power",
+            "Tuner": "TheDannny",
+            "fill": "FF7030A0"
+          },
+          "row": 2946,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.675,
+      "shareCode": "125934774",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-31",
+      "drivetrain": "AWD",
+      "id": "sc-154939150",
+      "name": "Dirty 9 Speed Meta Monster",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "31/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "154 939 150",
+            "suspension": "Rally",
+            "tuneName": "Dirty 9 Speed Meta Monster",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2580,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "154939150",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    },
+    {
+      "buildTags": [
+        "powerbuild",
+        "purist"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-26",
+      "drivetrain": "RWD",
+      "id": "sc-162950412",
+      "metaRank": 106,
+      "name": "Purist Road Powerbuild (Yes, it works) 1:30.7 Highway C",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "26/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "162 950 412",
+            "suspension": "Race",
+            "tuneName": "Purist Road Powerbuild (Yes, it works) 1:30.7 Highway C",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2582,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "Purist, powerbuild",
+            "Design": "TYR GT",
+            "Designer": "SiberiaCorn",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road Powerbuild (Yes, it works) 1:30.7 Highway C",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2950,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.566,
+      "shareCode": "162950412",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-364142447",
+      "metaRank": 8,
+      "name": "S1 Dirt (No Aero)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "364 142 447",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt (No Aero)",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2588,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "364142447",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-475387328",
+      "metaRank": 106,
+      "name": "S1 Road AWD Full Aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "475 387 328",
+            "suspension": "Rally",
+            "tuneName": "S1 Road AWD Full Aero",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 2585,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.48,
+      "shareCode": "475387328",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-552585738",
+      "metaRank": 8,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "552 585 738",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2584,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "MOTOR SPORT UK",
+            "Designer": "X30 Neo",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 2942,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.744,
+      "shareCode": "552585738",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-08-13",
+      "drivetrain": "RWD",
+      "id": "sc-555701481",
+      "metaRank": 106,
+      "name": "sattasticular",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "13/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "555 701 481",
+            "suspension": "Race",
+            "tuneName": "sattasticular",
+            "tuner": "Dumbo GT49",
+            "tyreCompound": "Street"
+          },
+          "row": 2583,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "Powerbuild",
+            "Design": "LDAC HKS",
+            "Designer": "Imago1978",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "sattasticular",
+            "Tuner": "Dumbo GT49",
+            "fill": "FF7030A0"
+          },
+          "row": 2952,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.571,
+      "shareCode": "555701481",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-630822495",
+      "metaRank": 8,
+      "name": "S1 Dirt Well-Balanced",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "630 822 495",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt Well-Balanced",
+            "tuner": "Rocklxd",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2586,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1998 TVR Cerbera Speed 12",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Well-Balanced",
+            "Tuner": "Rocklxd",
+            "fill": "FF7030A0"
+          },
+          "row": 2944,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.744,
+      "shareCode": "630822495",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "rocklxd"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-939513860",
+      "metaRank": 8,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Cerbera Speed 12",
+            "sharecode": "939 513 860",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2587,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "939513860",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,12 @@
+---
+import PlaylistPage from '../../../components/PlaylistPage.astro';
+import { loadSeasons } from '../../../lib/data';
+
+export function getStaticPaths() {
+  return loadSeasons().map((season) => ({ params: { season: season.id }, props: { season } }));
+}
+
+const { season } = Astro.props;
+---
+
+<PlaylistPage locale="en" season={season} />

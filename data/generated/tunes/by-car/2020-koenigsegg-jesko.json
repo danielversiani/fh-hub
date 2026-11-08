@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-koenigsegg-jesko",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ac51ee574d",
+      "metaRank": 33,
+      "name": "S1 Dirt Jessie",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Koenigsegg Jesko",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Jessie",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1830,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-koenigsegg-jesko",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-bea5b94cb9",
+      "lapRefs": [
+        {
+          "time": "56.8",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵56.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 33,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 71,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-koenigsegg-jesko",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "engine": "Stock",
+      "id": "sc-816704535",
+      "name": "insectivore",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "RWD",
+            "Engine": "Stock",
+            "Make": "Koenigsegg",
+            "Model": "Jesko",
+            "Road Surface": "Road",
+            "Share Code": "816704535",
+            "Tires": "Rally",
+            "Tune Name": "insectivore",
+            "Year": "2020"
+          },
+          "row": 31,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "816704535",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-koenigsegg-jesko",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-12",
+      "drivetrain": "AWD",
+      "id": "sc-840544304",
+      "metaRank": 33,
+      "name": "So... This Exists",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Koenigsegg",
+            "model": "Jesko",
+            "sharecode": "840 544 304",
+            "suspension": "Rally",
+            "tuneName": "So... This Exists",
+            "tuner": "zombiejesus52",
+            "tyreCompound": "Rally"
+          },
+          "row": 1324,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Koenigsegg Jesko",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "So... This Exists",
+            "Tuner": "zombiejesus52",
+            "fill": "FF7030A0"
+          },
+          "row": 1831,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.616,
+      "shareCode": "840544304",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "zombiejesus52"
+    }
+  ],
+  "schemaVersion": 1
+}

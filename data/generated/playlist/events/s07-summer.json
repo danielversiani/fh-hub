@@ -1,0 +1,696 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s07-summer--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 15,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "15 pts",
+      "reward": "Car: 2025 Citroën Ami",
+      "routeRaw": "",
+      "routes": [],
+      "row": 524,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s07-summer--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 30,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "30 pts",
+      "reward": "Car: 1996 Toyota Starlet Glanza V",
+      "routeRaw": "",
+      "routes": [],
+      "row": 525,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s07-summer--weekly-challenge--big-city-little-city",
+      "name": "Big City Little City",
+      "requirement": {
+        "activities": [],
+        "carIds": [
+          "1984-honda-city-e-ii"
+        ],
+        "scope": "car",
+        "scopeLabel": "1984 Honda City E II",
+        "status": "parsed"
+      },
+      "requirementRaw": "1984 Honda City E II",
+      "reward": "Credits: 150000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 526,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-summer--daily-challenge--crash-landing-skills",
+      "name": "Crash Landing Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Earn a Crash Landing Skill",
+        "pt-br": "Consiga uma habilidade Crash Landing"
+      },
+      "requirementRaw": "Earn a Crash Landing Skill",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 527,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-summer--daily-challenge--road-race",
+      "name": "Road Race",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Road Race",
+        "pt-br": "Complete uma corrida de asfalto"
+      },
+      "requirementRaw": "Complete a Road Race",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 528,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-summer--daily-challenge--drift-attack",
+      "name": "Drift Attack",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete 1 lap at any Drift Attack",
+        "pt-br": "Complete 1 volta em qualquer Drift Attack"
+      },
+      "requirementRaw": "Complete 1 lap at any Drift Attack",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 529,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-summer--daily-challenge--trading-paint-skills",
+      "name": "Trading Paint Skills",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Earn 3 Trading Paint Skills",
+        "pt-br": "Consiga 3 habilidades Trading Paint"
+      },
+      "requirementRaw": "Earn 3 Trading Paint Skills",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 530,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-summer--daily-challenge--horizon-rush",
+      "name": "Horizon Rush",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Horizon Rush",
+        "pt-br": "Complete um Horizon Rush"
+      },
+      "requirementRaw": "Complete a Horizon Rush",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 531,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-summer--daily-challenge--rivals",
+      "name": "Rivals",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Beat a Rival's Ghost",
+        "pt-br": "Vença o fantasma de um rival"
+      },
+      "requirementRaw": "Beat a Rival's Ghost",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 532,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s07-summer--daily-challenge--car-photo",
+      "name": "Car Photo",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Take a photo of any car",
+        "pt-br": "Tire uma foto de qualquer carro"
+      },
+      "requirementRaw": "Take a photo of any car",
+      "reward": "Credits: 20000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 533,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s07-summer--photo-challenge--cityliving",
+      "name": "#CityLiving",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Take a photo at the Tokyo House",
+        "pt-br": "Tire uma foto na Tokyo House"
+      },
+      "requirementRaw": "Take a photo at the Tokyo House",
+      "reward": "Emote: Pop 'n' Lock",
+      "routeRaw": "",
+      "routes": [],
+      "row": 534,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s07-summer--treasure-hunt--tokyo-city-region",
+      "name": "Tokyo City Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 535,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s07-summer--championship--urban-legend",
+      "name": "Urban Legend",
+      "requirement": {
+        "carIds": [
+          "1953-chevrolet-corvette",
+          "1954-mercedes-benz-300-sl-coupe",
+          "1955-mercedes-benz-300-slr",
+          "1956-jaguar-d-type",
+          "1962-ferrari-250-gt-berlinetta-lusso",
+          "1962-ferrari-250-gto",
+          "1962-peel-p50",
+          "1962-peel-p50-trolli-edition",
+          "1963-volkswagen-beetle",
+          "1964-jaguar-lightweight-e-type",
+          "1965-alfa-romeo-giulia-tz2",
+          "1965-shelby-cobra-427-s-c",
+          "1965-shelby-cobra-daytona-coupe",
+          "1966-ford-2-gt40-mk-ii",
+          "1967-ferrari-24-ferrari-spa-330-p4",
+          "1967-lamborghini-miura-p400",
+          "1968-alfa-romeo-33-stradale",
+          "1968-dodge-dart-hemi-super-stock",
+          "1968-ford-mustang-gt-2-2-fastback",
+          "1970-ferrari-512-s",
+          "1970-porsche-3-917-lh",
+          "1972-datsun-240z-5-rallye",
+          "1973-bmw-2002-turbo",
+          "1973-porsche-911-carrera-rs",
+          "1974-mazda-123-mad-mike-808-wagon-fursty",
+          "1982-delorean-dmc-12",
+          "1984-de-tomaso-pantera-gt5",
+          "1984-ferrari-288-gto",
+          "1985-porsche-185-959-prodrive-rally-raid",
+          "1986-audi-2-audi-sport-quattro-s1",
+          "1986-mg-metro-6r4",
+          "1987-ferrari-f40",
+          "1987-porsche-203-porsche-ag-961",
+          "1989-ferrari-f40-competizione",
+          "1990-alfa-romeo-se-048sp",
+          "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
+          "1991-jaguar-sport-xjr-15",
+          "1993-jaguar-xj220",
+          "1993-mclaren-f1",
+          "1993-porsche-911-turbo-s-leichtbau",
+          "1993-toyota-1-t100-baja-truck",
+          "1995-ferrari-f50",
+          "1995-nissan-nismo-gt-r-lm",
+          "1996-ferrari-f50-gt",
+          "1997-lotus-elise-gt1",
+          "1997-mclaren-f1-gt",
+          "1997-porsche-911-gt1-strassenversion",
+          "1998-mercedes-benz-amg-clk-gtr",
+          "1998-nissan-skyline-gt-r-40th-anniversary",
+          "1998-subaru-impreza-22b-sti-version",
+          "1999-dodge-viper-gts-acr",
+          "2002-ferrari-enzo-ferrari",
+          "2004-mitsubishi-lancer-evolution-viii-mr-welcome-pack",
+          "2005-ferrari-fxx",
+          "2008-koenigsegg-ccgt",
+          "2008-maserati-mc12-versione-corsa",
+          "2008-mazda-furai",
+          "2009-pagani-zonda-r",
+          "2010-ferrari-599xx",
+          "2010-jaguar-c-x75",
+          "2010-pagani-zonda-cinque-roadster",
+          "2011-koenigsegg-agera",
+          "2011-lamborghini-sesto-elemento",
+          "2012-ferrari-599xx-evolution",
+          "2012-hennessey-venom-gt",
+          "2013-ferrari-laferrari",
+          "2013-lamborghini-veneno",
+          "2013-mclaren-p1",
+          "2013-toyota-86-stories",
+          "2014-ferrari-fxx-k",
+          "2014-porsche-918-spyder",
+          "2015-koenigsegg-one-1",
+          "2016-aston-martin-vulcan",
+          "2016-koenigsegg-regera",
+          "2016-lamborghini-centenario-lp-770-4",
+          "2016-pagani-huayra-bc-coupe",
+          "2017-aston-martin-vulcan-amr-pro",
+          "2017-ferrari-812-superfast",
+          "2017-ferrari-j50-preorder-car",
+          "2017-koenigsegg-agera-rs",
+          "2018-ferrari-fxx-k-evo",
+          "2018-ferrari-fxx-k-evo-welcome-pack",
+          "2018-lamborghini-aventador-svj",
+          "2018-lotus-scura-motorsports-exige-wtac",
+          "2019-apollo-intensa-emozione",
+          "2019-aston-martin-valhalla-concept-car",
+          "2019-ferrari-f8-tributo",
+          "2019-ferrari-monza-sp2",
+          "2019-hennessey-ford-f-150-velociraptor-6x6",
+          "2019-mclaren-speedtail",
+          "2019-porsche-70-porsche-motorsport-935",
+          "2019-zenvo-tsr-s",
+          "2020-ferrari-sf90-stradale",
+          "2020-gordon-murray-automotive-t-50",
+          "2020-koenigsegg-jesko",
+          "2020-lamborghini-essenza-scv12",
+          "2020-lamborghini-huracan-sto",
+          "2020-lamborghini-sian-roadster",
+          "2020-lotus-evija",
+          "2020-mercedes-amg-gt-black-series-welcome-pack",
+          "2021-bmw-m4-competition-coupe-welcome-pack",
+          "2021-hennessey-venom-f5",
+          "2021-lamborghini-countach-lpi-800-4",
+          "2021-mercedes-amg-mercedes-amg-one",
+          "2021-pagani-huayra-r",
+          "2021-porsche-mission-r",
+          "2021-rimac-nevera",
+          "2022-aston-martin-valkyrie-amr-pro",
+          "2022-lamborghini-aventador-lp-780-4-ultimae",
+          "2022-lamborghini-huracan-sterrato",
+          "2022-lamborghini-huracan-tecnica",
+          "2023-aston-martin-valkyrie",
+          "2023-ford-f-150-raptor-r-welcome-pack",
+          "2024-lamborghini-revuelto",
+          "2024-lamborghini-temerario",
+          "2025-ferrari-f80",
+          "2025-gr-gt-prototype",
+          "2025-mclaren-w1",
+          "2554-amg-transport-dynamics-m12s-warthog-cst"
+        ],
+        "class": "S2",
+        "scope": "rarity",
+        "scopeLabel": "Legendary",
+        "status": "parsed"
+      },
+      "requirementRaw": "Rarity: Legendary - S2 Class",
+      "reward": "Car: 2009 Ferrari 458 Italia",
+      "routeRaw": "Road: Tokyo Railway Sprint, Festival Sprint, Shimanoyama Sprint",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Tokyo Railway Sprint"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Festival Sprint"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Shimanoyama Sprint"
+        }
+      ],
+      "row": 536,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "street",
+      "id": "s07-summer--championship--rise-to-the-challenge",
+      "name": "Rise to the Challenge",
+      "requirement": {
+        "carIds": [
+          "1970-dodge-challenger-r-t",
+          "2015-dodge-challenger-srt-hellcat",
+          "2018-dodge-challenger-srt-demon",
+          "2022-dodge-challenger-srt-super-stock",
+          "2023-dodge-challenger-srt-demon-170"
+        ],
+        "class": "A",
+        "scope": "family",
+        "scopeLabel": "Dodge Challenger",
+        "status": "parsed"
+      },
+      "requirementRaw": "Dodge Challenger - A Class",
+      "reward": "Car: 2008 Dodge Viper SRT-10 ACR",
+      "routeRaw": "Street: Daikoku Chase, Sunflower Charge, Norikura Descent",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Daikoku Chase"
+        },
+        {
+          "discipline": "street",
+          "name": "Sunflower Charge"
+        },
+        {
+          "discipline": "street",
+          "name": "Norikura Descent"
+        }
+      ],
+      "row": 537,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s07-summer--championship--paint-the-town-red",
+      "name": "Paint the Town Red",
+      "requirement": {
+        "carIds": [
+          "1962-ferrari-250-gt-berlinetta-lusso",
+          "1962-ferrari-250-gto",
+          "1967-ferrari-24-ferrari-spa-330-p4",
+          "1967-ferrari-275-gtb4-spider",
+          "1969-ferrari-dino-246-gt",
+          "1970-ferrari-512-s",
+          "1984-ferrari-288-gto",
+          "1987-ferrari-f40",
+          "1989-ferrari-f40-competizione",
+          "1992-ferrari-512-tr",
+          "1994-ferrari-f355-berlinetta",
+          "1995-ferrari-f50",
+          "1996-ferrari-f50-gt",
+          "2002-ferrari-enzo-ferrari",
+          "2005-ferrari-fxx",
+          "2007-ferrari-430-scuderia",
+          "2009-ferrari-458-italia",
+          "2010-ferrari-599xx",
+          "2012-ferrari-599xx-evolution",
+          "2013-ferrari-458-speciale",
+          "2013-ferrari-laferrari",
+          "2014-ferrari-fxx-k",
+          "2015-ferrari-488-gtb",
+          "2015-ferrari-f12tdf",
+          "2017-ferrari-812-superfast",
+          "2017-ferrari-j50",
+          "2017-ferrari-j50-preorder-car",
+          "2018-ferrari-fxx-k-evo",
+          "2018-ferrari-fxx-k-evo-welcome-pack",
+          "2018-ferrari-portofino",
+          "2019-ferrari-488-pista",
+          "2019-ferrari-f8-tributo",
+          "2019-ferrari-monza-sp2",
+          "2020-ferrari-roma",
+          "2020-ferrari-sf90-stradale",
+          "2022-ferrari-296-gtb",
+          "2024-ferrari-purosangue",
+          "2025-ferrari-f80"
+        ],
+        "class": "S1",
+        "scope": "make",
+        "scopeLabel": "Ferrari",
+        "status": "parsed"
+      },
+      "requirementRaw": "Ferrari - S1 Class",
+      "reward": "Car: 2023 Chevrolet Corvette Z06",
+      "routeRaw": "Road: Edo Circuit, Electric Town Circuit, Daikoku Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Edo Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Electric Town Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Daikoku Circuit"
+        }
+      ],
+      "row": 538,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "drag",
+      "id": "s07-summer--horizon-life-drag-meet--ito-half-mile",
+      "name": "Ito Half Mile",
+      "requirement": {
+        "carIds": [
+          "1991-toyota-sera"
+        ],
+        "class": "B",
+        "scope": "car",
+        "scopeLabel": "1991 Toyota Sera",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "19.000 seconds",
+          "unit": "s",
+          "value": 19
+        }
+      },
+      "requirementRaw": "1991 Toyota Sera - B Class - 19.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 539,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Horizon Life - Drag Meet"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s07-summer--pr-stunt-speed-trap--akihabara-straight",
+      "name": "Akihabara Straight",
+      "requirement": {
+        "carIds": [
+          "1991-toyota-sera"
+        ],
+        "class": "B",
+        "scope": "car",
+        "scopeLabel": "1991 Toyota Sera",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "140.0 mph",
+          "unit": "mph",
+          "value": 140
+        }
+      },
+      "requirementRaw": "1991 Toyota Sera - B Class - 140.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 540,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "drift",
+      "id": "s07-summer--pr-stunt-drift-zone--inner-city-run",
+      "name": "Inner City Run",
+      "requirement": {
+        "carIds": [
+          "1991-toyota-sera"
+        ],
+        "class": "B",
+        "scope": "car",
+        "scopeLabel": "1991 Toyota Sera",
+        "status": "parsed",
+        "target": {
+          "kind": "score",
+          "raw": "45,000 points",
+          "unit": "pts",
+          "value": 45000
+        }
+      },
+      "requirementRaw": "1991 Toyota Sera - B Class - 45,000 points",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 541,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "PR Stunt - Drift Zone"
+    },
+    {
+      "category": "trial",
+      "discipline": "street",
+      "id": "s07-summer--horizon-life-the-trial--domestic-dash",
+      "name": "Domestic Dash",
+      "requirement": {
+        "carIds": [
+          "1972-honda-z-gt",
+          "1984-honda-city-e-ii",
+          "1987-nissan-be-1",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1991-honda-beat",
+          "1991-nissan-figaro",
+          "1991-toyota-sera",
+          "1993-autozam-az-1",
+          "1994-honda-acty",
+          "1994-subaru-vivio-rx-r",
+          "2016-honda-s2260-alpha",
+          "2017-toyota-jpn-taxi"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Eclectic Domestic",
+        "status": "parsed"
+      },
+      "requirementRaw": "Eclectic Domestic - B Class",
+      "reward": "Car: 2013 McLaren P1",
+      "routeRaw": "Street: Rainbow Bridge Descent, Shuto Charge, Tokyo City Docks Charge",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Rainbow Bridge Descent"
+        },
+        {
+          "discipline": "street",
+          "name": "Shuto Charge"
+        },
+        {
+          "discipline": "street",
+          "name": "Tokyo City Docks Charge"
+        }
+      ],
+      "row": 542,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": "road",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s07-summer--horizon-play-racing--even-stevens",
+      "name": "Even Stevens",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Spec Racing Championship",
+        "pt-br": "Complete um campeonato Spec Racing"
+      },
+      "requirementRaw": "Complete a Spec Racing Championship",
+      "reward": "Car Horn: Pedestrian Crossing Chirp",
+      "routeRaw": "",
+      "routes": [],
+      "row": 543,
+      "seasonId": "s07-summer",
+      "seriesId": "s07",
+      "surface": null,
+      "type": "Horizon Play - Racing"
+    }
+  ],
+  "schemaVersion": 1
+}

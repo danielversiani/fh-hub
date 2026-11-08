@@ -1,0 +1,608 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "carId": "1997-lotus-elise-gt1",
+      "category": "meta",
+      "confidence": 0.85,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.692,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-987442572"
+    },
+    {
+      "carId": "2005-ford-gt",
+      "category": "meta",
+      "confidence": 1,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.laptime",
+          "params": {
+            "class": "S1",
+            "rank": 8,
+            "track": "Shirakawa"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.741,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-145732450"
+    },
+    {
+      "carId": "2004-maserati-mc12",
+      "category": "meta",
+      "confidence": 1,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.laptime",
+          "params": {
+            "class": "S1",
+            "rank": 7,
+            "track": "Shirakawa"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.777,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-160651896"
+    },
+    {
+      "carId": "2002-ferrari-enzo-ferrari",
+      "category": "off-meta",
+      "confidence": 0.85,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.718,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-704360964"
+    },
+    {
+      "carId": "1993-mclaren-f1",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.638,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-2eaa89c2ce"
+    },
+    {
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.638,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-1137f2e45f"
+    },
+    {
+      "carId": "1997-lotus-elise-gt1",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.717,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-105228217"
+    },
+    {
+      "carId": "1998-mercedes-benz-amg-clk-gtr",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.673,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-779647291"
+    },
+    {
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-drift-attack--shimanoyama-drift-attack",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.545,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-b097fb5d38"
+    },
+    {
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s06-spring--horizon-life-drift-attack--shimanoyama-drift-attack",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.58,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-173395698"
+    },
+    {
+      "carId": "2013-mazda-mx-5",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s06-spring--horizon-life-drift-attack--shimanoyama-drift-attack",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.672,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-166785505"
+    },
+    {
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.545,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-b097fb5d38"
+    },
+    {
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s06-spring--pr-stunt-speed-trap--konbini-dash",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.58,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-173395698"
+    },
+    {
+      "carId": "2013-mazda-mx-5",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s06-spring--pr-stunt-speed-trap--konbini-dash",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.672,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-166785505"
+    },
+    {
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--pr-stunt-drift-zone--kodachi-run",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.545,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-b097fb5d38"
+    },
+    {
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s06-spring--pr-stunt-drift-zone--kodachi-run",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.58,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-173395698"
+    },
+    {
+      "carId": "2013-mazda-mx-5",
+      "category": "purist",
+      "confidence": 0.4,
+      "eventId": "s06-spring--pr-stunt-drift-zone--kodachi-run",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.672,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-166785505"
+    },
+    {
+      "carId": "1962-peel-p50",
+      "category": "meta",
+      "confidence": 0.85,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        }
+      ],
+      "score": 0.617,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-180994762"
+    },
+    {
+      "carId": "1989-nissan-silvia-ks",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-acade1f690"
+    },
+    {
+      "carId": "1991-honda-beat",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.732,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-621782db3d"
+    },
+    {
+      "carId": "2001-acura-integra-type-r",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.732,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-6ede4a7e4a"
+    },
+    {
+      "carId": "1968-abarth-595-esseesse",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.526,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-48ad93b4ee"
+    },
+    {
+      "carId": "1973-bmw-2002-turbo",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.488,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-25502f3d76"
+    },
+    {
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.526,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-2b3e74e440"
+    },
+    {
+      "carId": "1989-nissan-silvia-ks",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.627,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-326076887"
+    },
+    {
+      "carId": "2001-acura-integra-type-r",
+      "category": "purist",
+      "confidence": 0.85,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.659,
+      "seasonId": "s06-spring",
+      "tuneId": "sc-127573360"
+    }
+  ],
+  "schemaVersion": 1
+}

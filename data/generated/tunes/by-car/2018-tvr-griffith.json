@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2018-tvr-griffith",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-585e0454b2",
+      "metaRank": 71,
+      "name": "S1 Class - Road Racing (55.0 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2018 TVR Griffith",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing (55.0 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 2964,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.44,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-tvr-griffith",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-80dcb5fa67",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 71,
+      "name": "S1 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 146,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-tvr-griffith",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-177853634",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "TVR",
+            "model": "Griffith",
+            "sharecode": "177 853 634",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2592,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2018 TVR Griffith",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2963,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.663,
+      "shareCode": "177853634",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

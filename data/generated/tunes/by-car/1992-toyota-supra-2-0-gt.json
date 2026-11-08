@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1992-toyota-supra-2-0-gt",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-3584f22450",
+      "name": "Khao Neaw Moo Ping",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Toyota Supra 2.0 GT",
+            "Comment": "",
+            "Design": "BIYO GR.A JTC SUPRA",
+            "Designer": "JACK B X 91",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Khao Neaw Moo Ping",
+            "Tuner": "Aeroplane7616",
+            "fill": "FFED7D31"
+          },
+          "row": 569,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-toyota-supra-2-0-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-45d4923df0",
+      "name": "B Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Toyota Supra 2.0 GT",
+            "Comment": "Purist",
+            "Design": "DO-LUCK SUPRA",
+            "Designer": "mumareyoumydad",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "B Purist",
+            "Tuner": "ESV Ruinz",
+            "fill": "FFED7D31"
+          },
+          "row": 570,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-ruinz"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1992-toyota-supra-2-0-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-b335f6126d",
+      "name": "A Class Road Power \"Yes, I'm on offroads, so what?\"",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Toyota Supra 2.0 GT",
+            "Comment": "Powerbuild",
+            "Design": "HATTORI SUPRA",
+            "Designer": "Wombi 62",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Class Road Power \"Yes, I'm on offroads, so what?\"",
+            "Tuner": "GoodReiShun",
+            "fill": "FFFF0000"
+          },
+          "row": 2820,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "goodreishun"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-toyota-supra-2-0-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-05",
+      "drivetrain": "RWD",
+      "id": "sc-141332980",
+      "name": "B Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "05/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "Supra 2.0 GT",
+            "sharecode": "141 332 980",
+            "suspension": "Street",
+            "tuneName": "B Purist",
+            "tuner": "VNX Ruinz",
+            "tyreCompound": "Street"
+          },
+          "row": 2561,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.479,
+      "shareCode": "141332980",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-toyota-supra-2-0-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "drivetrain": "RWD",
+      "id": "sc-882542175",
+      "name": "Do-Luck B Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "15/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "Supra 2.0 GT",
+            "sharecode": "882 542 175",
+            "suspension": "Street",
+            "tuneName": "Do-Luck B Road Purist",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Street"
+          },
+          "row": 2560,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "882542175",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "ndl-samu"
+    }
+  ],
+  "schemaVersion": 1
+}

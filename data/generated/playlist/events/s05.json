@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-08T11:35:19.565Z",
+  "items": [
+    {
+      "category": "rivals",
+      "discipline": "sprint",
+      "id": "s05--monthly-rivals--shimanoyama-sprint",
+      "name": "Shimanoyama Sprint",
+      "requirement": {
+        "carIds": [
+          "2025-mclaren-w1"
+        ],
+        "scope": "car",
+        "scopeLabel": "2025 McLaren W1",
+        "status": "parsed"
+      },
+      "requirementRaw": "2025 McLaren W1",
+      "reward": "Super Wheelspin",
+      "routeRaw": "Shimanoyama Sprint",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Shimanoyama Sprint"
+        }
+      ],
+      "row": 347,
+      "seasonId": "s05",
+      "seriesId": "s05",
+      "surface": "road",
+      "type": "Monthly Rivals"
+    },
+    {
+      "category": "reward",
+      "id": "s05--series-reward--series-reward-1",
+      "name": "Series Reward 1",
+      "points": 80,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "80 pts",
+      "reward": "Car: 2025 Bently Continental GT Speed",
+      "routeRaw": "",
+      "routes": [],
+      "row": 348,
+      "seasonId": "s05",
+      "seriesId": "s05",
+      "surface": null,
+      "type": "Series Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s05--series-reward--series-reward-2",
+      "name": "Series Reward 2",
+      "points": 160,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "160 pts",
+      "reward": "Car: 2019 Aston Martin Valhalla Concept Car",
+      "routeRaw": "",
+      "routes": [],
+      "row": 349,
+      "seasonId": "s05",
+      "seriesId": "s05",
+      "surface": null,
+      "type": "Series Reward"
+    }
+  ],
+  "schemaVersion": 1
+}

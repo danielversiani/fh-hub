@@ -1,0 +1,537 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "nc-b2ab7e5086",
+      "lapRefs": [
+        {
+          "time": "54.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 21,
+      "name": "(WIP, Not uploaded yet)",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Handling",
+            "Car": "Lamborghini Huracan STO",
+            "Difficulty": "Brain AFK",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Laptime": "0:54.360",
+            "Notes": "",
+            "Tier": "Meta < 54.500",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "(WIP, Not uploaded yet)"
+          },
+          "row": 9,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.712,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-d871eded3f",
+      "metaRank": 21,
+      "name": "S1 Class - Road Racing - (54.8 Shirakawa Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Huracán STO",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Road Racing - (54.8 Shirakawa Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1928,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.644,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ddf45e6529",
+      "lapRefs": [
+        {
+          "time": "50.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川50.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 29,
+      "name": "S2 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 63,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "engine": "Racing V12",
+      "id": "sc-122550746",
+      "metaRank": 29,
+      "name": "lumber jumber",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "28/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "122 550 746",
+            "suspension": "Race",
+            "tuneName": "lumber jumber",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Slick"
+          },
+          "row": 1403,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Build": "Full Aero",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Racing V12",
+            "Make": "Lamborghini",
+            "Model": "Huracan STO",
+            "Road Surface": "Road",
+            "Share Code": "122550746",
+            "Tires": "Slicks",
+            "Tune Name": "lumber jumber",
+            "Year": "2020"
+          },
+          "row": 35,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.601,
+      "shareCode": "122550746",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-10",
+      "drivetrain": "AWD",
+      "id": "sc-174047751",
+      "metaRank": 21,
+      "name": "S1 Class - Grip - Road Racing (47.1 Hokobu Circuit)",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "10/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "174 047 751",
+            "suspension": "Race",
+            "tuneName": "S1 Class - Grip - Road Racing (47.1 Hokobu Circuit)",
+            "tuner": "VNX Ardent",
+            "tyreCompound": "Rally"
+          },
+          "row": 1402,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Huracán STO",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Class - Grip - Road Racing (47.1 Hokobu Circuit)",
+            "Tuner": "VNX Ardent",
+            "fill": "FF7030A0"
+          },
+          "row": 1929,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.711,
+      "shareCode": "174047751",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-12",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-175835371",
+      "lapRefs": [
+        {
+          "time": "54.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 21,
+      "name": "Road Handling Shirakawa 54.5 Clean",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "12/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "175 835 371",
+            "suspension": "Race",
+            "tuneName": "Road Handling Shirakawa 54.5 Clean",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1399,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Huracán STO",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Handling Shirakawa 54.5 Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1927,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.786,
+      "shareCode": "175835371",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-27",
+      "drivetrain": "AWD",
+      "id": "sc-220264032",
+      "name": "S1 Sprint",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "27/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "220 264 032",
+            "suspension": "Race",
+            "tuneName": "S1 Sprint",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 1397,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Huracán STO",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Sprint",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1926,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "220264032",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-08-05",
+      "drivetrain": "AWD",
+      "id": "sc-291897733",
+      "name": "S1 Dirt All-Around",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "05/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "291 897 733",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt All-Around",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1401,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.493,
+      "shareCode": "291897733",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-26",
+      "drivetrain": "AWD",
+      "id": "sc-564922981",
+      "metaRank": 21,
+      "name": "S1 Road V1.5",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "26/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "564 922 981",
+            "suspension": "Race",
+            "tuneName": "S1 Road V1.5",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1398,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.643,
+      "shareCode": "564922981",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-03",
+      "drivetrain": "AWD",
+      "id": "sc-896481934",
+      "metaRank": 21,
+      "name": "S1 Road Stronk",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "03/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "896 481 934",
+            "suspension": "Race",
+            "tuneName": "S1 Road Stronk",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Rally"
+          },
+          "row": 1396,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.638,
+      "shareCode": "896481934",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-huracan-sto",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-07-16",
+      "drivetrain": "AWD",
+      "id": "sc-995548003",
+      "metaRank": 21,
+      "name": "S1 Road Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "16/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lamborghini",
+            "model": "Huracán STO",
+            "sharecode": "995 548 003",
+            "suspension": "Race",
+            "tuneName": "S1 Road Strong Allround",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 1400,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.642,
+      "shareCode": "995548003",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

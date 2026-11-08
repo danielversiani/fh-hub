@@ -1,0 +1,707 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-32213dc033",
+      "metaRank": 33,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 70,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3fe6fefb8e",
+      "metaRank": 6,
+      "name": "B CC Sprint",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B CC Sprint",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 660,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.58,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4a11e79deb",
+      "metaRank": 6,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        },
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-7a8c990078",
+      "metaRank": 33,
+      "name": "Offroad",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Offroad",
+            "Tuner": "KillerSpectre21",
+            "fill": "FFFF0000"
+          },
+          "row": 2936,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "killerspectre21"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-9ea3187a6b",
+      "metaRank": 6,
+      "name": "B CC Sprint Autogear",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B CC Sprint Autogear",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 661,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.58,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ca75ba59b7",
+      "metaRank": 33,
+      "name": "A CC Allround META M/C",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A CC Allround META M/C",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFFF0000"
+          },
+          "row": 2939,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-e848082da8",
+      "metaRank": 6,
+      "name": "LFA CC Sprint T1 M/C",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "LFA CC Sprint T1 M/C",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 662,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.58,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-01",
+      "drivetrain": "AWD",
+      "id": "sc-102971559",
+      "name": "Cover Car OP",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "01/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "102 971 559",
+            "suspension": "Street",
+            "tuneName": "Cover Car OP",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2512,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Cover Car OP",
+            "Tuner": "GreetedDust8",
+            "fill": "FFED7D31"
+          },
+          "row": 657,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "102971559",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-150331503",
+      "metaRank": 33,
+      "name": "A Dirt/CC Very Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "11/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "150 331 503",
+            "suspension": "Street",
+            "tuneName": "A Dirt/CC Very Strong",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2510,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt/CC Very Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 2937,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.628,
+      "shareCode": "150331503",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-155289036",
+      "metaRank": 33,
+      "name": "A Class Cross Country",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "18/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "155 289 036",
+            "suspension": "Street",
+            "tuneName": "A Class Cross Country",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2509,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.539,
+      "shareCode": "155289036",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-16",
+      "drivetrain": "AWD",
+      "id": "sc-161468738",
+      "metaRank": 33,
+      "name": "A Dirt/CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "16/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "161 468 738",
+            "suspension": "Street",
+            "tuneName": "A Dirt/CC",
+            "tuner": "AMS Carver",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2507,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.539,
+      "shareCode": "161468738",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-19",
+      "drivetrain": "AWD",
+      "id": "sc-171176306",
+      "metaRank": 6,
+      "name": "B Dirt/CC Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "171 176 306",
+            "suspension": "Street",
+            "tuneName": "B Dirt/CC Purist",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2514,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt/CC Purist",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 658,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.66,
+      "shareCode": "171176306",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-17",
+      "drivetrain": "AWD",
+      "id": "sc-378213077",
+      "metaRank": 6,
+      "name": "B CC",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "17/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "378 213 077",
+            "suspension": "Street",
+            "tuneName": "B CC",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Rally"
+          },
+          "row": 2513,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.585,
+      "shareCode": "378213077",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-388213018",
+      "metaRank": 6,
+      "name": "B Dirt/CC V8",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "388 213 018",
+            "suspension": "Street",
+            "tuneName": "B Dirt/CC V8",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2515,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt/CC V8",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 659,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "388213018",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-27",
+      "drivetrain": "AWD",
+      "id": "sc-521035896",
+      "name": "Cruising on land... or something like that... i guess",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "27/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "521 035 896",
+            "suspension": "Street",
+            "tuneName": "Cruising on land... or something like that... i guess",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2508,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Cruising on land... or something like that... I guess",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 2935,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.667,
+      "shareCode": "521035896",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-24",
+      "drivetrain": "AWD",
+      "id": "sc-963227877",
+      "metaRank": 33,
+      "name": "A CC M/C",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "24/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "Land Cruiser",
+            "sharecode": "963 227 877",
+            "suspension": "Street",
+            "tuneName": "A CC M/C",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2511,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2025 Toyota Land Cruiser",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A CC M/C",
+            "Tuner": "TheDannny",
+            "fill": "FFFF0000"
+          },
+          "row": 2938,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.626,
+      "shareCode": "963227877",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    }
+  ],
+  "schemaVersion": 1
+}

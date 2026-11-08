@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0a0f2416a7",
+      "lapRefs": [
+        {
+          "time": "1:01.7",
+          "track": "Ine"
+        },
+        {
+          "time": "2:52.772",
+          "track": "Nukabira"
+        }
+      ],
+      "metaNotes": "伊根01.7 糠平2:52.772 低速弯推头 操控优秀",
+      "metaNotesI18n": {
+        "en": "Understeers in slow corners; excellent handling overall.",
+        "pt-br": "Sai de frente em curvas lentas; ótimo nas curvas no geral."
+      },
+      "metaRank": 22,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 48,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-1720b7b515",
+      "metaRank": 22,
+      "name": "Good S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Schuppan 962CR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Good S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2728,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-7002846d2a",
+      "lapRefs": [
+        {
+          "time": "16.7",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速公路16.7 高速弯强势 刹车一般般",
+      "metaNotesI18n": {
+        "en": "Strong in fast corners; so-so brakes.",
+        "pt-br": "Forte em curvas rápidas; freio mediano."
+      },
+      "metaRank": 22,
+      "name": "S2 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 48,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7de90f5b6d",
+      "metaRank": 102,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 209,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-915da24d5e",
+      "name": "Schoupette",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Schuppan 962CR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Schoupette",
+            "Tuner": "Fenrir3268",
+            "fill": "FF7030A0"
+          },
+          "row": 2726,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "fenrir3268"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-08-16",
+      "drivetrain": "RWD",
+      "id": "sc-105056340",
+      "metaRank": 22,
+      "name": "Purist upd Rally Tires",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "16/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Schuppan",
+            "model": "962CR",
+            "sharecode": "105 056 340",
+            "suspension": "Race",
+            "tuneName": "Purist upd Rally Tires",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 2302,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Schuppan 962CR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist upd Rally Tires",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2731,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.679,
+      "shareCode": "105056340",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-07",
+      "drivetrain": "AWD",
+      "id": "sc-144254269",
+      "metaRank": 22,
+      "name": "S1 Dirt AWD Strong",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "07/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Schuppan",
+            "model": "962CR",
+            "sharecode": "144 254 269",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt AWD Strong",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2304,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Schuppan 962CR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt AWD Strong",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 2727,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.671,
+      "shareCode": "144254269",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "id": "sc-193223568",
+      "metaRank": 22,
+      "name": "S1 Dirt / Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "28/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Schuppan",
+            "model": "962CR",
+            "sharecode": "193 223 568",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt / Stock Look",
+            "tuner": "VER Polaksz",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2305,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Schuppan 962CR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt / Stock Look",
+            "Tuner": "VER Polaksz",
+            "fill": "FF7030A0"
+          },
+          "row": 2729,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "193223568",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "ver-polaksz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "engine": "3.8 F6TT",
+      "id": "sc-672518568",
+      "metaRank": 22,
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Schuppan",
+            "model": "962CR",
+            "sharecode": "672 518 568",
+            "suspension": "Race",
+            "tuneName": "AWD Allround",
+            "tuner": "K1Z Gray",
+            "tyreCompound": "Slick"
+          },
+          "row": 2307,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Build": "911 GT2 RS engine",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "3.8 F6TT",
+            "Make": "Schuppan",
+            "Model": "962CR",
+            "Road Surface": "Road",
+            "Share Code": "672518568",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "1993"
+          },
+          "row": 72,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.549,
+      "shareCode": "672518568",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-06-30",
+      "drivetrain": "AWD",
+      "id": "sc-737791394",
+      "metaRank": 22,
+      "name": "S2 road",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "30/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Schuppan",
+            "model": "962CR",
+            "sharecode": "737 791 394",
+            "suspension": "Race",
+            "tuneName": "S2 road",
+            "tuner": "IceFrice8724",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 2306,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Schuppan 962CR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 road",
+            "Tuner": "IceFrice8724",
+            "fill": "FF0070C0"
+          },
+          "row": 2732,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.568,
+      "shareCode": "737791394",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-23",
+      "drivetrain": "AWD",
+      "id": "sc-875226290",
+      "metaRank": 22,
+      "name": "S1 AWD Allround Beast",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "23/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Schuppan",
+            "model": "962CR",
+            "sharecode": "875 226 290",
+            "suspension": "Race",
+            "tuneName": "S1 AWD Allround Beast",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 2303,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Schuppan 962CR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 AWD Allround Beast",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 2730,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.673,
+      "shareCode": "875226290",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-07-22",
+      "drivetrain": "AWD",
+      "id": "sc-905833308",
+      "name": "Dirty Light Schupp De Whoop",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "22/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Schuppan",
+            "model": "962CR",
+            "sharecode": "905 833 308",
+            "suspension": "Rally",
+            "tuneName": "Dirty Light Schupp De Whoop",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2301,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "905833308",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    }
+  ],
+  "schemaVersion": 1
+}

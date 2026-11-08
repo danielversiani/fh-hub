@@ -1,0 +1,251 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-24cbf782e0",
+      "name": "C Dirt 600hp",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1979 Toyota FJ40",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt 600hp",
+            "Tuner": "Frolix II",
+            "fill": "FFFFC000"
+          },
+          "row": 82,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "frolix-ii"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ea9ab925cc",
+      "metaRank": 30,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 64,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f84398e6ca",
+      "metaRank": 48,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 102,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.46,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-04",
+      "drivetrain": "AWD",
+      "id": "sc-144486429",
+      "metaRank": 30,
+      "name": "LFA's Grandpa during his RALLY prime",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "04/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "FJ40",
+            "sharecode": "144 486 429",
+            "suspension": "Stock",
+            "tuneName": "LFA's Grandpa during his RALLY prime",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2460,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1979 Toyota FJ40",
+            "Comment": "",
+            "Design": "SARGE - CARS MOVIE CHARACTER",
+            "Designer": "UK Eagle Eye",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "LFA's Grandpa during his RALLY prime",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 552,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "144486429",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-01",
+      "drivetrain": "AWD",
+      "id": "sc-158487654",
+      "metaRank": 30,
+      "name": "4.8 Dirt Rear Aero V1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "01/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "FJ40",
+            "sharecode": "158 487 654",
+            "suspension": "Stock",
+            "tuneName": "4.8 Dirt Rear Aero V1.1",
+            "tuner": "AIONS580Pio",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2461,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.585,
+      "shareCode": "158487654",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-12",
+      "drivetrain": "AWD",
+      "id": "sc-584572571",
+      "metaRank": 30,
+      "name": "LFA Dirt Circuit T1+ Sunflower 04.5 M/C",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "12/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "FJ40",
+            "sharecode": "584 572 571",
+            "suspension": "Stock",
+            "tuneName": "LFA Dirt Circuit T1+ Sunflower 04.5 M/C",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2459,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1979 Toyota FJ40",
+            "Comment": "",
+            "Design": "SNOW PATROL",
+            "Designer": "RtwoDtw0",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "LFA Dirt Circuit T1+ Sunflower 04.5 M/C",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 553,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.679,
+      "shareCode": "584572571",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    }
+  ],
+  "schemaVersion": 1
+}

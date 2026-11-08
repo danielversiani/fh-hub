@@ -5,7 +5,9 @@ import { readJson, stableStringify, writeFileEnsuringDir } from '../lib/json';
 import { generatedDir, reviewDir, snapshotsDir, type Visibility } from '../paths';
 import {
   SCHEMA_VERSION,
+  type Highlight,
   type SourceStatus,
+  type Suggestion,
   type Tune,
   type TuneIndexEntry,
 } from '../schema/entities';
@@ -47,14 +49,51 @@ const toIndexEntry = (t: Tune): TuneIndexEntry => ({
   class: t.class,
   surface: t.surface,
   drivetrain: t.drivetrain,
+  tires: t.tires,
   buildTags: t.buildTags,
+  tier: t.tier,
+  tierSource: t.tierSource,
+  metaRank: t.metaRank,
+  credited: t.credited,
+  score: t.score,
+  categories: t.categories,
+  fromMeta: t.fromMeta,
+  difficulty: t.difficulty,
+  role: t.role,
+  metaNotes: t.metaNotes,
+  metaNotesI18n: t.metaNotesI18n,
+  nameI18n: t.nameI18n,
+  lapRefs: t.lapRefs,
   sourceIds: [...new Set(t.observations.map((o) => o.sourceId))].sort(),
 });
+
+/** Groups items by key into `<dir>/<key>.json` and deletes files whose key disappeared. */
+function writeGroups<T>(
+  dir: string,
+  items: readonly T[],
+  keyOf: (item: T) => string,
+  now: string,
+  report: WriteReport,
+): void {
+  const groups = new Map<string, T[]>();
+  for (const item of items) groups.set(keyOf(item), [...(groups.get(keyOf(item)) ?? []), item]);
+  for (const [key, group] of groups)
+    writeEnvelope(path.join(dir, `${key}.json`), group, now, report);
+  if (!fs.existsSync(dir)) return;
+  for (const file of fs.readdirSync(dir)) {
+    if (file.endsWith('.json') && !groups.has(path.basename(file, '.json'))) {
+      fs.rmSync(path.join(dir, file));
+      report.removed.push(path.join(dir, file));
+    }
+  }
+}
 
 export function writeDataset(
   visibility: Visibility,
   dataset: Dataset,
   statuses: SourceStatus[],
+  suggestions: Suggestion[],
+  highlights: Highlight[],
   now = new Date().toISOString(),
 ): WriteReport {
   const report: WriteReport = { written: [], removed: [] };
@@ -70,32 +109,37 @@ export function writeDataset(
     now,
     report,
   );
-
-  const byCar = new Map<string, Tune[]>();
-  for (const t of dataset.tunes) byCar.set(t.carId, [...(byCar.get(t.carId) ?? []), t]);
-  const byCarDir = path.join(out, 'tunes', 'by-car');
-  for (const [carId, tunes] of byCar) {
-    writeEnvelope(path.join(byCarDir, `${carId}.json`), tunes, now, report);
-  }
-  if (fs.existsSync(byCarDir)) {
-    for (const file of fs.readdirSync(byCarDir)) {
-      if (!byCar.has(path.basename(file, '.json'))) {
-        fs.rmSync(path.join(byCarDir, file));
-        report.removed.push(path.join(byCarDir, file));
-      }
-    }
-  }
+  writeGroups(path.join(out, 'tunes', 'by-car'), dataset.tunes, (t) => t.carId, now, report);
+  writeGroups(path.join(out, 'meta'), dataset.meta, (m) => m.sourceId, now, report);
+  writeEnvelope(path.join(out, 'playlist', 'seasons.json'), dataset.seasons, now, report);
+  writeEnvelope(path.join(out, 'highlights.json'), highlights, now, report);
+  writeGroups(path.join(out, 'playlist', 'events'), dataset.events, (e) => e.seasonId, now, report);
+  writeGroups(
+    path.join(out, 'playlist', 'suggestions'),
+    suggestions,
+    (s) => s.seasonId,
+    now,
+    report,
+  );
 
   const review = reviewDir(visibility);
+  const byKind = (kind: string) => dataset.review.filter((r) => r.kind === kind);
+  writeEnvelope(path.join(review, 'unmatched-cars.json'), byKind('unmatched-car'), now, report);
   writeEnvelope(
-    path.join(review, 'unmatched-cars.json'),
-    dataset.review.filter((r) => r.kind === 'unmatched-car'),
+    path.join(review, 'untranslated-texts.json'),
+    byKind('untranslated-text'),
+    now,
+    report,
+  );
+  writeEnvelope(
+    path.join(review, 'unparsed-requirements.json'),
+    byKind('unparsed-requirement'),
     now,
     report,
   );
   writeEnvelope(
     path.join(review, 'unknown-values.json'),
-    dataset.review.filter((r) => r.kind !== 'unmatched-car'),
+    dataset.review.filter((r) => r.kind === 'unknown-value' || r.kind === 'unmatched-tuner'),
     now,
     report,
   );

@@ -1,0 +1,233 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1965-austin-healey-3000-mkiii",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-28a219fb7f",
+      "lapRefs": [
+        {
+          "time": "49.9",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速路49.9 三轮之下第一车",
+      "metaNotesI18n": {
+        "en": "The best car short of the three-wheelers.",
+        "pt-br": "O melhor carro abaixo dos de três rodas."
+      },
+      "metaRank": 3,
+      "name": "C road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 8,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1965-austin-healey-3000-mkiii",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-ebf788a185",
+      "metaRank": 3,
+      "name": "C Speedy Boi",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1965 Austin-Healey 3000 MKIII",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Speedy Boi",
+            "Tuner": "ESV Lawrence",
+            "fill": "theme:7"
+          },
+          "row": 24,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.515,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-austin-healey-3000-mkiii",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-22",
+      "drivetrain": "AWD",
+      "id": "sc-156911166",
+      "name": "DIRTY AHH FROG CAR (1:06.7 Sunflower)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "22/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Austin-Healey",
+            "model": "3000 MKIII",
+            "sharecode": "156 911 166",
+            "suspension": "Rally",
+            "tuneName": "DIRTY AHH FROG CAR (1:06.7 Sunflower)",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 284,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "156911166",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-austin-healey-3000-mkiii",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-15",
+      "drivetrain": "AWD",
+      "id": "sc-456081836",
+      "name": "A Class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "15/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Austin-Healey",
+            "model": "3000 MKIII",
+            "sharecode": "456 081 836",
+            "suspension": "Rally",
+            "tuneName": "A Class Dirt",
+            "tuner": "Zaabry",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 282,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1965 Austin-Healey 3000 MKIII",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Class Dirt",
+            "Tuner": "Zaabry",
+            "fill": "FFFF0000"
+          },
+          "row": 950,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.656,
+      "shareCode": "456081836",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "zaabry"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1965-austin-healey-3000-mkiii",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-25",
+      "drivetrain": "RWD",
+      "id": "sc-588108091",
+      "name": "Purist | 52.6 Narai Juku Circuit",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Austin-Healey",
+            "model": "3000 MKIII",
+            "sharecode": "588 108 091",
+            "suspension": "Stock",
+            "tuneName": "Purist | 52.6 Narai Juku Circuit",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Vintage Race"
+          },
+          "row": 283,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1965 Austin-Healey 3000 MKIII",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist | 52.6 Narai Juku Circuit",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 177,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.659,
+      "shareCode": "588108091",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "vintage-race",
+      "tunerId": "drx-q3"
+    }
+  ],
+  "schemaVersion": 1
+}

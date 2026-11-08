@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-deberti-toyota-tacoma-trd-the-performance-truck",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2faf40fa1a",
+      "name": "S1 Weirdly Good On Right Track",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 DeBerti Toyota Tacoma TRD \"The Performance Truck\"",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Weirdly Good On Right Track",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF7030A0"
+          },
+          "row": 1215,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-deberti-toyota-tacoma-trd-the-performance-truck",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-07",
+      "drivetrain": "AWD",
+      "id": "sc-733219768",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "07/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "DeBerti",
+            "model": "Toyota Tacoma TRD \"The Performance Truck\"",
+            "sharecode": "733 219 768",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 650,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2019 DeBerti Toyota Tacoma TRD \"The Performance Truck\"",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1214,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "733219768",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    }
+  ],
+  "schemaVersion": 1
+}

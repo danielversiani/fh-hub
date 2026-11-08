@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1977-pontiac-firebird-trans-am",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-74636eccbb",
+      "lapRefs": [
+        {
+          "time": "1:05.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.2 有点假震动",
+      "metaNotesI18n": {
+        "en": "Has some odd fake vibration.",
+        "pt-br": "Tem uma vibração estranha no volante."
+      },
+      "metaRank": 64,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 132,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1977-pontiac-firebird-trans-am",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7e68c92c68",
+      "metaRank": 16,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 35,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1977-pontiac-firebird-trans-am",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-a5e0ba6b80",
+      "metaRank": 123,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 251,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1977-pontiac-firebird-trans-am",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-28",
+      "drivetrain": "AWD",
+      "id": "sc-642285098",
+      "name": "Dirty Bibi Hendl",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Pontiac",
+            "model": "Firebird Trans AM",
+            "sharecode": "642 285 098",
+            "suspension": "Stock",
+            "tuneName": "Dirty Bibi Hendl",
+            "tuner": "Cast Haste",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2130,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.492,
+      "shareCode": "642285098",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "cast-haste"
+    }
+  ],
+  "schemaVersion": 1
+}

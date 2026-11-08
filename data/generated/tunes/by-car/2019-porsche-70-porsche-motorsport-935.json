@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-porsche-70-porsche-motorsport-935",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6daac4de65",
+      "metaRank": 99,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 203,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-porsche-70-porsche-motorsport-935",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f523862e9d",
+      "metaRank": 99,
+      "name": "S1 AWD Road | Stock Motor | 16.0 Legends (Will 15)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Porsche #70 Porsche Motorsports 935",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 AWD Road | Stock Motor | 16.0 Legends (Will 15)",
+            "Tuner": "DRX Q3",
+            "fill": "FF7030A0"
+          },
+          "row": 2660,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.56,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-porsche-70-porsche-motorsport-935",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "engine": "Racing V12",
+      "id": "sc-139472599",
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Racing V12",
+            "Make": "Porsche",
+            "Model": "#70 Porsche Motorsport 935",
+            "Road Surface": "Road",
+            "Share Code": "139472599",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "2019"
+          },
+          "row": 64,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "139472599",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

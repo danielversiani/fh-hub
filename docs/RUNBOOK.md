@@ -15,7 +15,7 @@
 ## 1. Rotina semanal (quinta-feira, depois da virada da playlist)
 
 1. Conferir se a nova season apareceu em `data/generated/playlist/seasons.json`.
-2. Ver `data/review/unparsed-requirements.json`: restrições que as regras não entenderam.
+2. Ver `data/review/unparsed-requirements.json`: restrições que as regras não entenderam. Formato novo e recorrente → adicionar em `pipeline/normalize/requirement.ts` com um teste em `requirement.test.ts`.
 3. Revisar o **PR semanal da IA** (§9).
 4. Conferir `data/review/unmatched-cars.json`: carros novos da season costumam aparecer aqui (§4).
 5. Abrir a página da playlist no site e conferir visualmente.
@@ -31,7 +31,7 @@
 | HTTP 401/403/404 | Planilha ficou privada, foi apagada ou o dono restringiu o acesso | Marcar `active: false` em `data/sources.yaml` e falar com o tunador |
 | `HeaderMismatchError` | O tunador mudou colunas ou abas | §3 |
 | `RowDropGuard` | Queda de mais de 30% das linhas | Abrir a planilha manualmente: se a queda for intencional (limpeza), aprovar com `pnpm sync --source=<id> --accept-drop`; se for acidente, esperar o tunador corrigir |
-| Erro de decodificação (QQ Docs) | Mudança no formato interno | Ativar o plano B (`fetcher: qq-docs-browser`) e abrir issue |
+| Erro de decodificação ou `unexpected opendoc response` (QQ Docs) | Mudança no formato interno da API | O site segue com o último dado bom. Rode `pnpm fixtures:update --source=noa-miyako` e compare a estrutura com o mapeamento documentado em `pipeline/lib/qq-sheet.ts`. ⏳ Plano B com navegador headless |
 
 O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](adr/0005-pipeline-adaptadores.md)).
 
@@ -57,6 +57,9 @@ O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](
    - **É lixo** (linha de cabeçalho, texto solto): adicione um padrão de exclusão no adaptador.
 3. Mantenha os arquivos de alias em ordem alfabética (a CI verifica).
 4. O mesmo vale para tunadores em `data/manual/tuner-aliases.yaml`.
+5. **Textos sem tradução** (`data/review/untranslated-texts.json`, [ADR-0014](adr/0014-traducao-dos-textos-das-fontes.md)): observações e nomes em chinês vão para `data/manual/translations.yaml` (`pt-br` e `en`, sem os tempos de volta que já viram selo). Desafios da playlist em inglês vão para `data/manual/playlist-texts.yaml`. Enquanto não forem traduzidos, o site esconde o texto.
+6. **Tune caindo no piso errado:** se um tunador é especialista num piso e as linhas dele não dizem o piso, registre a especialidade em `data/manual/tuner-surfaces.yaml` (ex.: `sr1-rain: dirt`). Só vale para tunes sem nenhuma pista de piso (nome, coluna ou pneu).
+7. **Pistas citadas nas observações** (ex.: "白川1:04.3"): o nome vira inglês por `data/manual/track-aliases.yaml`. Uma pista nova que aparece nas notas sem tradução simplesmente não vira referência de tempo. Para incluir, adicione a linha `<nome nas notas>: "<nome oficial em inglês>"` (use o nome das rotas em forza.net/fh6playlists) e só quando tiver certeza da tradução.
 
 ## 5. Chegou um pacote de carros novos (DLC ou atualização)
 

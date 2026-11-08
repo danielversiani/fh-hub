@@ -1,0 +1,537 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "nc-1f9b47f95f",
+      "lapRefs": [
+        {
+          "time": "53.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 53.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 29,
+      "name": "Legend Island WR",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "Powerbuild",
+            "Design": "MEOWSCARADA",
+            "Designer": "Saffies",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Legend Island WR",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2829,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ea15f2ea04",
+      "name": "S2 fast grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 fast grip",
+            "Tuner": "Raceboy77",
+            "fill": "FF0070C0"
+          },
+          "row": 2832,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "raceboy77"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-22",
+      "drivetrain": "AWD",
+      "id": "sc-128253470",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "22/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "128 253 470",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2491,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "ATK Mang0",
+            "fill": "FF7030A0"
+          },
+          "row": 2826,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "128253470",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "drivetrain": "RWD",
+      "id": "sc-134174565",
+      "name": "Is that a Supra?",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "15/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "134 174 565",
+            "suspension": "Race",
+            "tuneName": "Is that a Supra?",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Drift"
+          },
+          "row": 2493,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.481,
+      "shareCode": "134174565",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-05-14",
+      "drivetrain": "AWD",
+      "id": "sc-166968063",
+      "name": "S2 Full Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "14/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "166 968 063",
+            "suspension": "Race",
+            "tuneName": "S2 Full Grip",
+            "tuner": "ESV Rapture",
+            "tyreCompound": "Slick"
+          },
+          "row": 2497,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Full Grip",
+            "Tuner": "ESV Rapture",
+            "fill": "FF0070C0"
+          },
+          "row": 2831,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.656,
+      "shareCode": "166968063",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "esv-rapture"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "engine": "Stock",
+      "id": "sc-168450637",
+      "name": "S2 Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "RWD",
+            "Engine": "Stock",
+            "Make": "Toyota",
+            "Model": "J&J Motorsport Supra WTAC",
+            "Road Surface": "Road",
+            "Share Code": "168450637",
+            "Tires": "Race",
+            "Tune Name": "S2 Powerbuild",
+            "Year": "1995"
+          },
+          "row": 74,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.416,
+      "shareCode": "168450637",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "slick",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-07-02",
+      "drivetrain": "AWD",
+      "id": "sc-174858718",
+      "metaRank": 29,
+      "name": "S1 Road AWD Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "02/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "174 858 718",
+            "suspension": "Race",
+            "tuneName": "S1 Road AWD Grip",
+            "tuner": "LogikJ",
+            "tyreCompound": "Rally"
+          },
+          "row": 2494,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.49,
+      "shareCode": "174858718",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-06",
+      "drivetrain": "AWD",
+      "id": "sc-182460948",
+      "name": "S1 Dirt Circuits Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "06/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "182 460 948",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt Circuits Grip",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 2495,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "",
+            "Design": "RAIDEN MEI",
+            "Designer": "DaimonEXE",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Circuits Grip",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 2827,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "182460948",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-21",
+      "drivetrain": "RWD",
+      "id": "sc-399933583",
+      "metaRank": 29,
+      "name": "improved",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "21/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "399 933 583",
+            "suspension": "Race",
+            "tuneName": "improved",
+            "tuner": "dalwa XII",
+            "tyreCompound": "Drift"
+          },
+          "row": 2492,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "improved",
+            "Tuner": "dalwa XII",
+            "fill": "FF7030A0"
+          },
+          "row": 2828,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.571,
+      "shareCode": "399933583",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "dalwa-xii"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-06-05",
+      "drivetrain": "RWD",
+      "id": "sc-783657955",
+      "name": "amanda s2",
+      "observations": [
+        {
+          "raw": {
+            "class": "S2",
+            "date": "05/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "783 657 955",
+            "suspension": "Race",
+            "tuneName": "amanda s2",
+            "tuner": "RazkinzMango",
+            "tyreCompound": "Semi-Slick"
+          },
+          "row": 2498,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "amanda s2",
+            "Tuner": "RazkinzMango",
+            "fill": "FF0070C0"
+          },
+          "row": 2833,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.661,
+      "shareCode": "783657955",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "semi-slick",
+      "tunerId": "razkinzmango"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "drivetrain": "RWD",
+      "id": "sc-869448169",
+      "metaRank": 29,
+      "name": "pretty good",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "04/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Toyota",
+            "model": "J&J Motorsport Supra WTAC",
+            "sharecode": "869 448 169",
+            "suspension": "Rally",
+            "tuneName": "pretty good",
+            "tuner": "Nalak28",
+            "tyreCompound": "Drift"
+          },
+          "row": 2496,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1995 Toyota J&J Motorspsort Supra WTAC",
+            "Comment": "Powerbuild",
+            "Design": "FORZA",
+            "Designer": "yo dad 1231",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "pretty good",
+            "Tuner": "Nalak28",
+            "fill": "FF7030A0"
+          },
+          "row": 2830,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.572,
+      "shareCode": "869448169",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "nalak28"
+    }
+  ],
+  "schemaVersion": 1
+}

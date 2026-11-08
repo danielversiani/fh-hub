@@ -1,0 +1,292 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2002-lotus-esprit-v8",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3499035278",
+      "metaRank": 42,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 89,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.563,
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-lotus-esprit-v8",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-ad56d64b1c",
+      "lapRefs": [
+        {
+          "time": "55.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 55,
+      "name": "S1 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 114,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-lotus-esprit-v8",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-10-01",
+      "drivetrain": "AWD",
+      "id": "sc-100880139",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "01/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lotus",
+            "model": "Esprit V8",
+            "sharecode": "100 880 139",
+            "suspension": "Race",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1503,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.507,
+      "shareCode": "100880139",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2002-lotus-esprit-v8",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-01",
+      "drivetrain": "RWD",
+      "id": "sc-128780743",
+      "name": "Purist A Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/10/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Lotus",
+            "model": "Esprit V8",
+            "sharecode": "128 780 743",
+            "suspension": "Race",
+            "tuneName": "Purist A Road",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 1500,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.507,
+      "shareCode": "128780743",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-lotus-esprit-v8",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-01",
+      "drivetrain": "AWD",
+      "id": "sc-146470663",
+      "name": "A Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lotus",
+            "model": "Esprit V8",
+            "sharecode": "146 470 663",
+            "suspension": "Rally",
+            "tuneName": "A Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1502,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.507,
+      "shareCode": "146470663",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2002-lotus-esprit-v8",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-01",
+      "drivetrain": "RWD",
+      "id": "sc-161868012",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "01/10/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Lotus",
+            "model": "Esprit V8",
+            "sharecode": "161 868 012",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "LetzeLU",
+            "tyreCompound": "Rally"
+          },
+          "row": 1501,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.507,
+      "shareCode": "161868012",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2002-lotus-esprit-v8",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-02",
+      "drivetrain": "RWD",
+      "id": "sc-184214060",
+      "name": "Purist | 1:02.2 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "02/10/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Lotus",
+            "model": "Esprit V8",
+            "sharecode": "184 214 060",
+            "suspension": "Street",
+            "tuneName": "Purist | 1:02.2 Shirakawa",
+            "tuner": "DarkZ704",
+            "tyreCompound": "Rally"
+          },
+          "row": 1499,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2002 Lotus Esprit V8",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist | 1:02.2 Shirakawa",
+            "Tuner": "DarkZ704",
+            "fill": "FFFF0000"
+          },
+          "row": 2000,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.69,
+      "shareCode": "184214060",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "darkz704"
+    }
+  ],
+  "schemaVersion": 1
+}

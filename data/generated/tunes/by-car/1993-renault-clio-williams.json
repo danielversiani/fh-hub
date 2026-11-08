@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1993-renault-clio-williams",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "fromMeta": true,
+      "id": "nc-16f424fc6e",
+      "lapRefs": [
+        {
+          "time": "1:01.368",
+          "track": "Chiheisen"
+        }
+      ],
+      "metaNotes": "地平线攀爬赛1:01.368 轮椅操控车",
+      "metaNotesI18n": {
+        "en": "Very easy to drive through corners.",
+        "pt-br": "Muito fácil de pilotar nas curvas."
+      },
+      "metaRank": 5,
+      "name": "C dirt FWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 13,
+          "sourceId": "noa-miyako",
+          "tab": "c-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-renault-clio-williams",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-21",
+      "drivetrain": "FWD",
+      "id": "sc-441517546",
+      "name": "B Road/Street FWD v1.1 (K20)",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "21/06/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Renault",
+            "model": "Clio Williams",
+            "sharecode": "441 517 546",
+            "suspension": "Rally",
+            "tuneName": "B Road/Street FWD v1.1 (K20)",
+            "tuner": "TheDannny",
+            "tyreCompound": "Rally"
+          },
+          "row": 2266,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Renault Clio Williams",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "B Road/Street FWD v1.1 (K20)",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 506,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "441517546",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "thedannny"
+    }
+  ],
+  "schemaVersion": 1
+}

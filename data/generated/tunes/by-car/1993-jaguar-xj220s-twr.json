@@ -1,0 +1,424 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-0877d11ae7",
+      "name": "A ROAD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Jaguar XJ220S TWR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A ROAD",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFFF0000"
+          },
+          "row": 1794,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-3a1e6602b0",
+      "name": "A Class - Road Race",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Jaguar XJ220S TWR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Class - Road Race",
+            "Tuner": "VNX Ardent",
+            "fill": "FFFF0000"
+          },
+          "row": 1795,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-66b6e58e16",
+      "metaRank": 85,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 175,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.601,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8f5d880f8d",
+      "metaRank": 25,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 54,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ef28cc399b",
+      "metaRank": 25,
+      "name": "S1 Dirt Machinery",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Jaguar XJ220S TWR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt Machinery",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1796,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-25",
+      "drivetrain": "RWD",
+      "id": "sc-123350293",
+      "name": "Purist - It's Alright",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "25/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Jaguar",
+            "model": "XJ220S TWR",
+            "sharecode": "123 350 293",
+            "suspension": "Rally",
+            "tuneName": "Purist - It's Alright",
+            "tuner": "SulexPagMan",
+            "tyreCompound": "Street"
+          },
+          "row": 1289,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.476,
+      "shareCode": "123350293",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "sulexpagman"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-08-13",
+      "drivetrain": "RWD",
+      "id": "sc-169404404",
+      "metaRank": 25,
+      "name": "56.170 Shirakawa | Lightweight Purist with Anti-Lag",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "13/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Jaguar",
+            "model": "XJ220S TWR",
+            "sharecode": "169 404 404",
+            "suspension": "Race",
+            "tuneName": "56.170 Shirakawa | Lightweight Purist with Anti-Lag",
+            "tuner": "KilianFirebold",
+            "tyreCompound": "Rally"
+          },
+          "row": 1291,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.593,
+      "shareCode": "169404404",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-08-05",
+      "drivetrain": "RWD",
+      "id": "sc-303114345",
+      "name": "A Road | XJR-15 V12",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "05/08/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Jaguar",
+            "model": "XJ220S TWR",
+            "sharecode": "303 114 345",
+            "suspension": "Race",
+            "tuneName": "A Road | XJR-15 V12",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Street"
+          },
+          "row": 1287,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1993 Jaguar XJ220S TWR",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road | XJR-15 V12",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 1793,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.676,
+      "shareCode": "303114345",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-19",
+      "drivetrain": "RWD",
+      "id": "sc-350276087",
+      "name": "1993 Jaguar XJR-220S TWR",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Jaguar",
+            "model": "XJ220S TWR",
+            "sharecode": "350 276 087",
+            "suspension": "Race",
+            "tuneName": "1993 Jaguar XJR-220S TWR",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Street"
+          },
+          "row": 1288,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.482,
+      "shareCode": "350276087",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "ndl-samu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-20",
+      "drivetrain": "AWD",
+      "id": "sc-714284747",
+      "metaRank": 25,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "20/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Jaguar",
+            "model": "XJ220S TWR",
+            "sharecode": "714 284 747",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "ATK Mang0",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1290,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.587,
+      "shareCode": "714284747",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-05",
+      "drivetrain": "AWD",
+      "id": "sc-949441018",
+      "metaRank": 25,
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "05/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Jaguar",
+            "model": "XJ220S TWR",
+            "sharecode": "949 441 018",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "Whatuplosers917",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1292,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.585,
+      "shareCode": "949441018",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "whatuplosers917"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,636 @@
+{
+  "generatedAt": "2026-11-08T15:02:27.693Z",
+  "items": [
+    {
+      "category": "reward",
+      "id": "s04-winter--season-reward--season-reward-1",
+      "name": "Season Reward 1",
+      "points": 20,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "20 pts",
+      "reward": "Car: 1974 Toyota Celica GT",
+      "routeRaw": "",
+      "routes": [],
+      "row": 305,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "reward",
+      "id": "s04-winter--season-reward--season-reward-2",
+      "name": "Season Reward 2",
+      "points": 40,
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "40 pts",
+      "reward": "Car: 1989 Toyota MR2 SC",
+      "routeRaw": "",
+      "routes": [],
+      "row": 306,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Season Reward"
+    },
+    {
+      "category": "weekly-challenge",
+      "id": "s04-winter--weekly-challenge--autozoom",
+      "name": "AutoZOOM",
+      "requirement": {
+        "activities": [
+          "Upgrades",
+          "Speed",
+          "Touge Race"
+        ],
+        "carIds": [
+          "1993-autozam-az-1"
+        ],
+        "scope": "car",
+        "scopeLabel": "1993 Autozam AZ-1",
+        "status": "parsed"
+      },
+      "requirementRaw": "1993 Autozam AZ-1; Upgrades; Speed; Touge Race",
+      "reward": "Credits: 25000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 307,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Weekly Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-winter--daily-challenge--test-drive",
+      "name": "Test Drive",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Test Drive any Aftermarket or Upsell car",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 308,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-winter--daily-challenge--feed-me-skill",
+      "name": "Feed Me Skill",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn a Feed Me Skill by smashing Vending Machines",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 309,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-winter--daily-challenge--time-attack",
+      "name": "Time Attack",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete 3 laps of any Time Attack circuit",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 310,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-winter--daily-challenge--dirt-race",
+      "name": "Dirt Race",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete a Dirt Race",
+        "pt-br": "Complete uma corrida de terra"
+      },
+      "requirementRaw": "Complete a Dirt Race",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 311,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-winter--daily-challenge--drag-meet",
+      "name": "Drag Meet",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Complete any Drag Meet",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 312,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-winter--daily-challenge--car-meet",
+      "name": "Car Meet",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Park at any Car Meet",
+        "pt-br": "Estacione em qualquer encontro de carros (Car Meet)"
+      },
+      "requirementRaw": "Park at any Car Meet",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 313,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "daily-challenge",
+      "id": "s04-winter--daily-challenge--horizon-story",
+      "name": "Horizon Story",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn at least 1 Star from any Horizon Story",
+      "reward": "Credits: 5000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 314,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Daily Challenge"
+    },
+    {
+      "category": "photo",
+      "id": "s04-winter--photo-challenge--cultclassic",
+      "name": "#CultClassic",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Take a photo of any Cult Car at the Edamame Circuit",
+      "reward": "Car Horn: Pinball Machine",
+      "routeRaw": "",
+      "routes": [],
+      "row": 315,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Photo Challenge"
+    },
+    {
+      "category": "treasure-hunt",
+      "id": "s04-winter--treasure-hunt--ohtani-region",
+      "name": "Ohtani Region",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Follow the Photo Clue to Discover the Treasure!",
+        "pt-br": "Siga a pista da foto para encontrar o tesouro!"
+      },
+      "requirementRaw": "Follow the Photo Clue to Discover the Treasure!",
+      "reward": "Credits: 100000",
+      "routeRaw": "",
+      "routes": [],
+      "row": 316,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Treasure Hunt"
+    },
+    {
+      "category": "championship",
+      "discipline": "circuit",
+      "id": "s04-winter--championship--micro-circuits",
+      "name": "Micro Circuits",
+      "requirement": {
+        "class": "A",
+        "scope": "unknown",
+        "scopeLabel": "Microcar Madness",
+        "status": "unparsed"
+      },
+      "requirementRaw": "Microcar Madness - A Class",
+      "reward": "Car: 2014 Mercedes-Benz Unimog U5023",
+      "routeRaw": "Road: Soni Circuit, Hokubu Circuit, Edamame Circuit",
+      "routes": [
+        {
+          "discipline": "circuit",
+          "name": "Soni Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Hokubu Circuit"
+        },
+        {
+          "discipline": "circuit",
+          "name": "Edamame Circuit"
+        }
+      ],
+      "row": 317,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "Championship"
+    },
+    {
+      "category": "championship",
+      "discipline": "sprint",
+      "id": "s04-winter--championship--modern-marvels",
+      "name": "Modern Marvels",
+      "requirement": {
+        "carIds": [
+          "2004-mitsubishi-lancer-evolution-viii-mr",
+          "2004-mitsubishi-lancer-evolution-viii-mr-welcome-pack",
+          "2004-subaru-impreza-wrx-sti",
+          "2005-subaru-impreza-wrx-sti",
+          "2006-mitsubishi-lancer-evolution-ix-mr",
+          "2008-mitsubishi-lancer-evolution-x-gsr",
+          "2008-subaru-impreza-wrx-sti",
+          "2011-subaru-wrx-sti",
+          "2015-subaru-wrx-sti",
+          "2019-subaru-sti-s209",
+          "2021-toyota-gr-yaris",
+          "2022-subaru-wrx"
+        ],
+        "class": "B",
+        "scope": "car-type",
+        "scopeLabel": "Modern Rally",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Rally - B Class",
+      "reward": "Car: 1993 Autozam AZ-1",
+      "routeRaw": "Dirt: Taiyaki Scramble, Kawazu Nanadaru, Scramble, Kinkaku-ji Trail",
+      "routes": [
+        {
+          "discipline": "sprint",
+          "name": "Taiyaki Scramble"
+        },
+        {
+          "name": "Kawazu Nanadaru"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Scramble"
+        },
+        {
+          "discipline": "sprint",
+          "name": "Kinkaku-ji Trail"
+        }
+      ],
+      "row": 318,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": "dirt",
+      "type": "Championship"
+    },
+    {
+      "category": "horizon-life",
+      "discipline": "time-attack",
+      "id": "s04-winter--horizon-life-time-attack--edamame-time-attack",
+      "name": "Edamame Time Attack",
+      "requirement": {
+        "carIds": [
+          "1970-chevrolet-camaro-z28",
+          "1970-chevrolet-chevelle-super-sport-454",
+          "1970-chevrolet-corvette-zr-1",
+          "1970-chevrolet-el-camino-super-sport-454",
+          "1970-citroen-2cv",
+          "1970-datsun-510",
+          "1970-dodge-challenger-r-t",
+          "1970-dodge-coronet-super-bee",
+          "1970-ferrari-512-s",
+          "1970-gmc-jimmy",
+          "1970-honda-n600",
+          "1970-honda-s800",
+          "1970-porsche-3-917-lh",
+          "1970-porsche-3-917-lh-forza-edition",
+          "1971-meyers-manx",
+          "1971-nissan-skyline-2000gt-r",
+          "1971-plymouth-cuda-426-hemi",
+          "1972-chevrolet-k-10-custom",
+          "1972-datsun-240z-5-rallye",
+          "1972-datsun-269-attacking-the-clock-racing-240z-all-carbon-hill-climb-beast",
+          "1972-honda-z-gt",
+          "1972-mazda-cosmo-110s-series-ii",
+          "1972-nissan-patrol",
+          "1972-reliant-supervan-iii",
+          "1973-bmw-2002-turbo",
+          "1973-ford-capri-rs3100",
+          "1973-ford-xb-falcon-gt",
+          "1973-lamborghini-espada-400-gt",
+          "1973-mazda-rx-3",
+          "1973-mazda-rx-3-forza-edition",
+          "1973-nissan-skyline-h-t-2000gt-r",
+          "1973-porsche-911-carrera-rs",
+          "1974-honda-civic-rs",
+          "1974-lancia-stratos-hf-stradale",
+          "1974-mazda-123-mad-mike-808-wagon-fursty",
+          "1974-toyota-celica-gt",
+          "1974-toyota-corolla-sr5",
+          "1977-ford-5-escort-rs1800-mkii",
+          "1977-holden-torana-a9x",
+          "1977-pontiac-firebird-trans-am",
+          "1979-chevrolet-camaro-z28",
+          "1979-toyota-fj40"
+        ],
+        "class": "C",
+        "decade": 1970,
+        "scope": "any",
+        "scopeLabel": "1970s",
+        "status": "parsed",
+        "target": {
+          "kind": "time",
+          "raw": "44.000 seconds",
+          "unit": "s",
+          "value": 44
+        }
+      },
+      "requirementRaw": "1970s - C Class - 44.000 seconds",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 319,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "Horizon Life - Time Attack"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "danger-sign",
+      "id": "s04-winter--pr-stunt-danger-sign--shirakawa-go",
+      "name": "Shirakawa-go",
+      "requirement": {
+        "carIds": [
+          "1972-honda-z-gt",
+          "1984-honda-city-e-ii",
+          "1987-nissan-be-1",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1991-honda-beat",
+          "1991-nissan-figaro",
+          "1991-toyota-sera",
+          "1993-autozam-az-1",
+          "1994-honda-acty",
+          "1994-subaru-vivio-rx-r",
+          "2016-honda-s2260-alpha",
+          "2017-toyota-jpn-taxi"
+        ],
+        "class": "D",
+        "scope": "car-type",
+        "scopeLabel": "Eclectic Domestics",
+        "status": "parsed",
+        "target": {
+          "kind": "distance",
+          "raw": "492.1 feet",
+          "unit": "ft",
+          "value": 492.1
+        }
+      },
+      "requirementRaw": "Eclectic Domestics - D Class - 492.1 feet",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 320,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "PR Stunt - Danger Sign"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-trap",
+      "id": "s04-winter--pr-stunt-speed-trap--highland-road",
+      "name": "Highland Road",
+      "requirement": {
+        "carIds": [
+          "1972-honda-z-gt",
+          "1984-honda-city-e-ii",
+          "1987-nissan-be-1",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1991-honda-beat",
+          "1991-nissan-figaro",
+          "1991-toyota-sera",
+          "1993-autozam-az-1",
+          "1994-honda-acty",
+          "1994-subaru-vivio-rx-r",
+          "2016-honda-s2260-alpha",
+          "2017-toyota-jpn-taxi"
+        ],
+        "class": "D",
+        "scope": "car-type",
+        "scopeLabel": "Eclectic Domestics",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "90.0 mph",
+          "unit": "mph",
+          "value": 90
+        }
+      },
+      "requirementRaw": "Eclectic Domestics - D Class - 90.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 321,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "PR Stunt - Speed Trap"
+    },
+    {
+      "category": "pr-stunt",
+      "discipline": "speed-zone",
+      "id": "s04-winter--pr-stunt-speed-zone--matsumi-curve",
+      "name": "Matsumi Curve",
+      "requirement": {
+        "carIds": [
+          "1972-honda-z-gt",
+          "1984-honda-city-e-ii",
+          "1987-nissan-be-1",
+          "1989-nissan-pao",
+          "1989-nissan-s-cargo",
+          "1991-honda-beat",
+          "1991-nissan-figaro",
+          "1991-toyota-sera",
+          "1993-autozam-az-1",
+          "1994-honda-acty",
+          "1994-subaru-vivio-rx-r",
+          "2016-honda-s2260-alpha",
+          "2017-toyota-jpn-taxi"
+        ],
+        "class": "D",
+        "scope": "car-type",
+        "scopeLabel": "Eclectic Domestics",
+        "status": "parsed",
+        "target": {
+          "kind": "speed",
+          "raw": "70.0 mph",
+          "unit": "mph",
+          "value": 70
+        }
+      },
+      "requirementRaw": "Eclectic Domestics - D Class - 70.0 mph",
+      "reward": "Wheelspin",
+      "routeRaw": "",
+      "routes": [],
+      "row": 322,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "PR Stunt - Speed Zone"
+    },
+    {
+      "category": "trial",
+      "discipline": "street",
+      "id": "s04-winter--horizon-life-the-trial--vision-chaser",
+      "name": "Vision Chaser",
+      "requirement": {
+        "carIds": [
+          "2006-audi-rs-4",
+          "2008-bmw-m3",
+          "2009-audi-rs-6",
+          "2009-bmw-m5",
+          "2011-audi-rs-5-coupe",
+          "2012-bmw-m5",
+          "2012-mercedes-benz-c-63-amg-coupe-black-series",
+          "2013-audi-rs-4-avant",
+          "2013-audi-rs-7-sportback",
+          "2013-cadillac-xts-limousine",
+          "2014-bmw-m4-coupe",
+          "2015-audi-rs-6-avant",
+          "2015-lexus-rc-f",
+          "2016-mercedes-amg-c-63-s-coupe",
+          "2017-alfa-romeo-giulia-quadrifoglio",
+          "2018-audi-rs-4-avant",
+          "2018-mercedes-amg-e-63-s",
+          "2018-mercedes-amg-gt-4-door-coupe",
+          "2020-audi-rs-3-sedan",
+          "2020-bmw-m2-competition-coupe",
+          "2020-porsche-taycan-turbo-s",
+          "2021-alfa-romeo-giulia-gtam",
+          "2021-audi-rs-6-avant",
+          "2021-audi-rs-7-sportback",
+          "2021-audi-rs-e-tron-gt",
+          "2021-bmw-m4-competition-coupe",
+          "2021-bmw-m4-competition-coupe-welcome-pack",
+          "2022-bmw-m5-cs",
+          "2023-bmw-m2",
+          "2023-toyota-camry-trd",
+          "2024-lucid-air-sapphire",
+          "2025-bmw-m4-cs"
+        ],
+        "class": "A",
+        "scope": "car-type",
+        "scopeLabel": "Modern Super Saloons",
+        "status": "parsed"
+      },
+      "requirementRaw": "Modern Super Saloons - A Class",
+      "reward": "Car: 2022 Hyundai N Vision 74",
+      "routeRaw": "Street: Festival Chase, Cedar Run, Matsumi Climb",
+      "routes": [
+        {
+          "discipline": "street",
+          "name": "Festival Chase"
+        },
+        {
+          "discipline": "street",
+          "name": "Cedar Run"
+        },
+        {
+          "discipline": "street",
+          "name": "Matsumi Climb"
+        }
+      ],
+      "row": 323,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": "road",
+      "type": "Horizon Life - The Trial"
+    },
+    {
+      "category": "online",
+      "id": "s04-winter--horizon-play-horizon-drift--drift-tandem",
+      "name": "Drift Tandem",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementRaw": "Earn 3 LINK Drift Skills in a Horizon Drift event",
+      "reward": "Car: 2023 Meyers Manx 2.0",
+      "routeRaw": "",
+      "routes": [],
+      "row": 324,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Horizon Play - Horizon Drift"
+    },
+    {
+      "category": "online",
+      "id": "s04-winter--horizon-play-horizon-stunt-party--mini-games",
+      "name": "Mini Games",
+      "requirement": {
+        "scope": "any",
+        "status": "no-car"
+      },
+      "requirementI18n": {
+        "en": "Complete any Horizon Stunt Party",
+        "pt-br": "Complete qualquer Horizon Stunt Party"
+      },
+      "requirementRaw": "Complete any Horizon Stunt Party",
+      "reward": "QuickChat: Evasive maneuvres",
+      "routeRaw": "",
+      "routes": [],
+      "row": 325,
+      "seasonId": "s04-winter",
+      "seriesId": "s04",
+      "surface": null,
+      "type": "Horizon Play - Horizon Stunt Party"
+    }
+  ],
+  "schemaVersion": 1
+}

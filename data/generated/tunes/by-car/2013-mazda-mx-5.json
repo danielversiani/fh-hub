@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2013-mazda-mx-5",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8e15b70a21",
+      "name": "Surprisingly Good A-Class Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2013 Mazda MX-5",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Surprisingly Good A-Class Road",
+            "Tuner": "Don Joewon Song",
+            "fill": "FFFF0000"
+          },
+          "row": 2177,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "don-joewon-song"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2013-mazda-mx-5",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-05-20",
+      "drivetrain": "RWD",
+      "id": "sc-124720921",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "20/05/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "MX-5 (2013)",
+            "sharecode": "124 720 921",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "K1Z Suimin",
+            "tyreCompound": "Street"
+          },
+          "row": 1582,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2013 Mazda MX-5",
+            "Comment": "Purist",
+            "Design": "MX5 2013 DELL INTEL",
+            "Designer": "EaglezRock",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "K1Z Suimin",
+            "fill": "FFED7D31"
+          },
+          "row": 423,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.658,
+      "shareCode": "124720921",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "k1z-suimin"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2013-mazda-mx-5",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-07-19",
+      "drivetrain": "RWD",
+      "id": "sc-166785505",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "19/07/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Mazda",
+            "model": "MX-5 (2013)",
+            "sharecode": "166 785 505",
+            "suspension": "Street",
+            "tuneName": "Purist",
+            "tuner": "Dumbo GT49",
+            "tyreCompound": "Street"
+          },
+          "row": 1581,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2013 Mazda MX-5",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 422,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "166785505",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "street",
+      "tunerId": "dumbo-gt49"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,308 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [
+        "purist"
+      ],
+      "class": "S1",
+      "confidence": 0.65,
+      "drivetrain": "RWD",
+      "engine": "Stock",
+      "id": "nc-19961625be",
+      "name": "Road Purist",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Mclaren F1 GT",
+            "Difficulty": "Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "RWD",
+            "Engine": "Stock",
+            "Laptime": "0:55.785",
+            "Notes": "",
+            "Tier": "Average < 56.500",
+            "Tires": "Stock",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Purist"
+          },
+          "row": 44,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "score": 0.55,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.65,
+      "drivetrain": "RWD",
+      "id": "nc-abbd509a0c",
+      "name": "55.392 Shirakawa | Full Aero Stock Engine RWD",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 McLaren F1 GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "55.392 Shirakawa | Full Aero Stock Engine RWD",
+            "Tuner": "F1R Kilian",
+            "fill": "FF7030A0"
+          },
+          "row": 2195,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.549,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-b7404b84eb",
+      "lapRefs": [
+        {
+          "time": "15.2",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速公路15.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 14,
+      "name": "S2 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 31,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.65,
+      "drivetrain": "RWD",
+      "id": "nc-fd93c885cf",
+      "name": "R",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 McLaren F1 GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "R",
+            "Tuner": "K1Z Howzer",
+            "fill": "FF7030A0"
+          },
+          "row": 2196,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.549,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-16",
+      "drivetrain": "AWD",
+      "id": "sc-130783386",
+      "name": "S1 Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "16/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "McLaren",
+            "model": "F1 GT",
+            "sharecode": "130 783 386",
+            "suspension": "Rally",
+            "tuneName": "S1 Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1687,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1997 McLaren F1 GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt",
+            "Tuner": "SR1 Rain",
+            "fill": "FF7030A0"
+          },
+          "row": 2193,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.664,
+      "shareCode": "130783386",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.7,
+      "createdAt": "2026-06-10",
+      "drivetrain": "RWD",
+      "id": "sc-192481476",
+      "name": "Arasaka tuned",
+      "observations": [
+        {
+          "raw": {
+            "class": "S1",
+            "date": "10/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "McLaren",
+            "model": "F1 GT",
+            "sharecode": "192 481 476",
+            "suspension": "Rally",
+            "tuneName": "Arasaka tuned",
+            "tuner": "Inayamei",
+            "tyreCompound": "Drift"
+          },
+          "row": 1686,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1997 McLaren F1 GT",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Arasaka tuned",
+            "Tuner": "Inayamei",
+            "fill": "FF7030A0"
+          },
+          "row": 2194,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.652,
+      "shareCode": "192481476",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "engine": "Stock",
+      "id": "sc-599325985",
+      "metaRank": 14,
+      "name": "AWD Allround",
+      "observations": [
+        {
+          "raw": {
+            "Build": "Full Aero",
+            "Class": "S2",
+            "Drivetrain": "AWD",
+            "Engine": "Stock",
+            "Make": "McLaren",
+            "Model": "F1 GT",
+            "Road Surface": "Road",
+            "Share Code": "599325985",
+            "Tires": "Super Slicks",
+            "Tune Name": "AWD Allround",
+            "Year": "1997"
+          },
+          "row": 48,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.497,
+      "shareCode": "599325985",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "k1z-gray"
+    }
+  ],
+  "schemaVersion": 1
+}

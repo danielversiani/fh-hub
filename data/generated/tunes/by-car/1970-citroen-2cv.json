@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1970-citroen-2cv",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-50ff723380",
+      "name": "Louis Xuatorze Mobil",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Citroën 2CV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Louis Xuatorze Mobil",
+            "Tuner": "Kende7030",
+            "fill": "FFED7D31"
+          },
+          "row": 239,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kende7030"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-citroen-2cv",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8c71e81df7",
+      "metaRank": 11,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-citroen-2cv",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-95d5304ca0",
+      "metaRank": 11,
+      "name": "B Class Dirt Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Citroën 2CV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Class Dirt Meta",
+            "Tuner": "GamerLogicFTW",
+            "fill": "FFED7D31"
+          },
+          "row": 238,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.588,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "1970-citroen-2cv",
+      "categories": [
+        "purist"
+      ],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-a2d0fc1e0e",
+      "name": "C Class Road Purist Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Citroën 2CV",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "C Class Road Purist Stock Look",
+            "Tuner": "GamerLogicFTW",
+            "fill": "theme:7"
+          },
+          "row": 37,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-citroen-2cv",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-ab72572d4f",
+      "metaRank": 11,
+      "name": "B Dirt Accel Meta 55.4 Sekibe",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Citroën 2CV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Accel Meta 55.4 Sekibe",
+            "Tuner": "TheDannny",
+            "fill": "FFED7D31"
+          },
+          "row": 241,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.588,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-citroen-2cv",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-c0ca610b4b",
+      "name": "C Class Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1970 Citroën 2CV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "C Class Road",
+            "Tuner": "GamerLogicFTW",
+            "fill": "theme:7"
+          },
+          "row": 36,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-citroen-2cv",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-10-07",
+      "drivetrain": "FWD",
+      "id": "sc-592938329",
+      "name": "FWD No Aero Road",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "07/10/2026",
+            "drivetrain": "FWD",
+            "manufacturer": "Citroën",
+            "model": "2CV",
+            "sharecode": "592 938 329",
+            "suspension": "Race",
+            "tuneName": "FWD No Aero Road",
+            "tuner": "DRX Q3",
+            "tyreCompound": "Rally"
+          },
+          "row": 600,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1970 Citroën 2CV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD No Aero Road",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 242,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.691,
+      "shareCode": "592938329",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-citroen-2cv",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-10-05",
+      "drivetrain": "AWD",
+      "id": "sc-967355050",
+      "metaRank": 11,
+      "name": "B Dirt Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "05/10/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Citroën",
+            "model": "2CV",
+            "sharecode": "967 355 050",
+            "suspension": "Race",
+            "tuneName": "B Dirt Meta",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 601,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1970 Citroën 2CV",
+            "Comment": "",
+            "Design": "2CV CHARLESTON",
+            "Designer": "Pike Factory",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Meta",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 240,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.683,
+      "shareCode": "967355050",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    }
+  ],
+  "schemaVersion": 1
+}

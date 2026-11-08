@@ -1,0 +1,12 @@
+---
+import CarPage from '../../components/CarPage.astro';
+import { loadCars } from '../../lib/data';
+
+export function getStaticPaths() {
+  return loadCars().map((car) => ({ params: { id: car.id }, props: { car } }));
+}
+
+const { car } = Astro.props;
+---
+
+<CarPage locale="pt-br" car={car} />

@@ -1,0 +1,283 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1962-lincoln-continental",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-2fb65cd083",
+      "metaRank": 24,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 52,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-lincoln-continental",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-40db845c4d",
+      "metaRank": 31,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 66,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.592,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-lincoln-continental",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-881c429835",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 52,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 108,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-lincoln-continental",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-08",
+      "drivetrain": "AWD",
+      "id": "sc-121991626",
+      "metaRank": 24,
+      "name": "B Dirt/CC No Aero",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "08/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lincoln",
+            "model": "Continental",
+            "sharecode": "121 991 626",
+            "suspension": "Stock",
+            "tuneName": "B Dirt/CC No Aero",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1480,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.589,
+      "shareCode": "121991626",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-lincoln-continental",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-125337331",
+      "metaRank": 31,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lincoln",
+            "model": "Continental",
+            "sharecode": "125 337 331",
+            "suspension": "Stock",
+            "tuneName": "B Dirt",
+            "tuner": "SR1 Rain",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1479,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.543,
+      "shareCode": "125337331",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-lincoln-continental",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-14",
+      "drivetrain": "AWD",
+      "id": "sc-137868471",
+      "metaRank": 31,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "14/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lincoln",
+            "model": "Continental",
+            "sharecode": "137 868 471",
+            "suspension": "Stock",
+            "tuneName": "B Dirt",
+            "tuner": "KapienPL",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1478,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1962 Lincoln Continental",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt",
+            "Tuner": "KapienPL",
+            "fill": "FFED7D31"
+          },
+          "row": 393,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.628,
+      "shareCode": "137868471",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-lincoln-continental",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-08",
+      "drivetrain": "AWD",
+      "id": "sc-161207111",
+      "name": "CrossCountry President",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "08/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Lincoln",
+            "model": "Continental",
+            "sharecode": "161 207 111",
+            "suspension": "Rally",
+            "tuneName": "CrossCountry President",
+            "tuner": "TheDannny",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 1477,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.487,
+      "shareCode": "161207111",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "thedannny"
+    }
+  ],
+  "schemaVersion": 1
+}

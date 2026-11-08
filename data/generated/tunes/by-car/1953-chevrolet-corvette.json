@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1953-chevrolet-corvette",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-5e5418c98e",
+      "lapRefs": [
+        {
+          "time": "54.8",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速路54.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 34,
+      "name": "C road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 72,
+          "sourceId": "noa-miyako",
+          "tab": "c-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1953-chevrolet-corvette",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b03ab5d4a8",
+      "metaRank": 9,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 21,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1953-chevrolet-corvette",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-30",
+      "drivetrain": "AWD",
+      "id": "sc-163185239",
+      "name": "Ine 05.2Rewind/05.5Clean Well-Balanced Meta",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "30/09/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette (1953)",
+            "sharecode": "163 185 239",
+            "suspension": "Street",
+            "tuneName": "Ine 05.2Rewind/05.5Clean Well-Balanced Meta",
+            "tuner": "Iphanhan",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 489,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.507,
+      "shareCode": "163185239",
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "iphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1953-chevrolet-corvette",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-13",
+      "drivetrain": "AWD",
+      "id": "sc-726669743",
+      "metaRank": 9,
+      "name": "Dirt Convertible OFFMETA Sunflower 59.1 A/M V1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette (1953)",
+            "sharecode": "726 669 743",
+            "suspension": "Stock",
+            "tuneName": "Dirt Convertible OFFMETA Sunflower 59.1 A/M V1.1",
+            "tuner": "ZVTCJAU",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 490,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.635,
+      "shareCode": "726669743",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1953-chevrolet-corvette",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-13",
+      "drivetrain": "AWD",
+      "id": "sc-923206296",
+      "name": "B Dirt Rally Grip",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "13/08/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Chevrolet",
+            "model": "Corvette (1953)",
+            "sharecode": "923 206 296",
+            "suspension": "Stock",
+            "tuneName": "B Dirt Rally Grip",
+            "tuner": "LogikJ",
+            "tyreCompound": "Off-Road"
+          },
+          "row": 491,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.495,
+      "shareCode": "923206296",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "offroad",
+      "tunerId": "logikj"
+    }
+  ],
+  "schemaVersion": 1
+}

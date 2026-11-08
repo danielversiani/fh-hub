@@ -78,6 +78,9 @@ describe('inferSurface', () => {
   it('treats road-only tyres as road when nothing else is known', () => {
     expect(inferSurface({ name: 'Allround', tires: 'slick' })).toBe('road');
   });
+  it('treats rally tyres as dirt when nothing else is known', () => {
+    expect(inferSurface({ name: 'Purist', tires: 'rally' })).toBe('dirt');
+  });
 });
 
 describe('other parsers', () => {

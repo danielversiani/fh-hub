@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1984-ferrari-288-gto",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-22e6516dfc",
+      "name": "A Dirt V1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Ferrari 288 GTO",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt V1",
+            "Tuner": "SR1 Rain",
+            "fill": "FFFF0000"
+          },
+          "row": 1380,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-ferrari-288-gto",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d93a7c714b",
+      "name": "Road + Dirt 1.0",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1984 Ferrari 288 GTO",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road + Dirt 1.0",
+            "Tuner": "NDL RB38",
+            "fill": "FFFF0000"
+          },
+          "row": 1381,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ndl-rb38"
+    }
+  ],
+  "schemaVersion": 1
+}

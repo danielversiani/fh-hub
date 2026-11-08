@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2021-audi-rs-7-sportback",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-269e2344e9",
+      "metaRank": 140,
+      "name": "A Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Audi RS 7 Sportback",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 943,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.53,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-audi-rs-7-sportback",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-89706fd521",
+      "metaRank": 140,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 286,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.563,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2021-audi-rs-7-sportback",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-d6cde6f656",
+      "name": "B Road - Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Audi RS 7 Sportback",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road - Stock Look",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 176,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-audi-rs-7-sportback",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-05",
+      "drivetrain": "AWD",
+      "id": "sc-456418456",
+      "metaRank": 140,
+      "name": "A Road V1.1",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "05/07/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 7 Sportback (2021)",
+            "sharecode": "456 418 456",
+            "suspension": "Sport",
+            "tuneName": "A Road V1.1",
+            "tuner": "K1Z Bard",
+            "tyreCompound": "Rally"
+          },
+          "row": 265,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.532,
+      "shareCode": "456418456",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-audi-rs-7-sportback",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "drivetrain": "AWD",
+      "id": "sc-579453626",
+      "metaRank": 140,
+      "name": "A Road BigBoi",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "19/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 7 Sportback (2021)",
+            "sharecode": "579 453 626",
+            "suspension": "Sport",
+            "tuneName": "A Road BigBoi",
+            "tuner": "ESV Lawrence",
+            "tyreCompound": "Rally"
+          },
+          "row": 264,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "2021 Audi RS 7 Sportback",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road BigBoi",
+            "Tuner": "ESV Lawrence",
+            "fill": "FFFF0000"
+          },
+          "row": 942,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.616,
+      "shareCode": "579453626",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2021-audi-rs-7-sportback",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-07",
+      "drivetrain": "AWD",
+      "id": "sc-843922234",
+      "metaRank": 140,
+      "name": "A Road | 4.2 V8/Stock Look",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "07/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Audi",
+            "model": "RS 7 Sportback (2021)",
+            "sharecode": "843 922 234",
+            "suspension": "Sport",
+            "tuneName": "A Road | 4.2 V8/Stock Look",
+            "tuner": "CTE seasons",
+            "tyreCompound": "Rally"
+          },
+          "row": 263,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.529,
+      "shareCode": "843922234",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "cte-seasons"
+    }
+  ],
+  "schemaVersion": 1
+}

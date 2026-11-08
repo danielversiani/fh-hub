@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1997-mitsubishi-gto",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-854b8f3652",
+      "metaRank": 118,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 241,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.554,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mitsubishi-gto",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-e8618c8274",
+      "metaRank": 118,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 241,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.554,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mitsubishi-gto",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-05-28",
+      "drivetrain": "AWD",
+      "id": "sc-164824062",
+      "name": "LFA Engine, Bozz Front bumper",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "28/05/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "GTO",
+            "sharecode": "164 824 062",
+            "suspension": "Stock",
+            "tuneName": "LFA Engine, Bozz Front bumper",
+            "tuner": "GreetedDust8",
+            "tyreCompound": "Rally"
+          },
+          "row": 1822,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.477,
+      "shareCode": "164824062",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mitsubishi-gto",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "drivetrain": "AWD",
+      "id": "sc-451808694",
+      "name": "Tokyo Xtreme Racer",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "25/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "GTO",
+            "sharecode": "451 808 694",
+            "suspension": "Sport",
+            "tuneName": "Tokyo Xtreme Racer",
+            "tuner": "NDL Samu",
+            "tyreCompound": "Rally"
+          },
+          "row": 1824,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "451808694",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "ndl-samu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mitsubishi-gto",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-13",
+      "drivetrain": "AWD",
+      "id": "sc-585506948",
+      "metaRank": 118,
+      "name": "a road (lfa engine)",
+      "observations": [
+        {
+          "raw": {
+            "class": "A",
+            "date": "13/06/2026",
+            "drivetrain": "AWD",
+            "manufacturer": "Mitsubishi",
+            "model": "GTO",
+            "sharecode": "585 506 948",
+            "suspension": "Rally",
+            "tuneName": "a road (lfa engine)",
+            "tuner": "KorbenDallas709",
+            "tyreCompound": "Rally"
+          },
+          "row": 1823,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        }
+      ],
+      "score": 0.514,
+      "shareCode": "585506948",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "korbendallas709"
+    }
+  ],
+  "schemaVersion": 1
+}

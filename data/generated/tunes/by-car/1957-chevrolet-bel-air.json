@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-59df973334",
+      "lapRefs": [
+        {
+          "time": "1:05.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 36,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-722a7f2f58",
+      "metaRank": 36,
+      "name": "V1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1957 Chevrolet Bel Air",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "V1",
+            "Tuner": "SilvaSUPERBEE",
+            "fill": "FFED7D31"
+          },
+          "row": 205,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-8471eddf8c",
+      "lapRefs": [
+        {
+          "time": "1:05.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 36,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        },
+        {
+          "raw": {},
+          "row": 159,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.526,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "lnvrtebrate"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "nc-8cf045c1b9",
+      "lapRefs": [
+        {
+          "time": "54.0",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速路54.0 稳定好开",
+      "metaNotesI18n": {
+        "en": "Stable and easy to drive.",
+        "pt-br": "Estável e fácil de pilotar."
+      },
+      "metaRank": 16,
+      "name": "C Road Powerbuild V1.1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1957 Chevrolet Bel Air",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "C Road Powerbuild V1.1",
+            "Tuner": "Noa Miyako",
+            "fill": "theme:7"
+          },
+          "row": 33,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-b2f0fd6a99",
+      "name": "BOATYYYYYYYYYY Dirt T1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1957 Chevrolet Bel Air",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "BOATYYYYYYYYYY Dirt T1",
+            "Tuner": "ZVTCJAU",
+            "fill": "FFED7D31"
+          },
+          "row": 203,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-30",
+      "drivetrain": "RWD",
+      "id": "sc-118622419",
+      "metaRank": 36,
+      "name": "Purist 08 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "class": "B",
+            "date": "30/06/2026",
+            "drivetrain": "RWD",
+            "manufacturer": "Chevrolet",
+            "model": "Bel Air",
+            "sharecode": "118 622 419",
+            "suspension": "Sport",
+            "tuneName": "Purist 08 Shirakawa",
+            "tuner": "DareanBLR",
+            "tyreCompound": "Street"
+          },
+          "row": 445,
+          "sourceId": "gbr-ozzy",
+          "tab": "tune-list"
+        },
+        {
+          "raw": {
+            "Car": "1957 Chevrolet Bel Air",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist 08 Shirakawa",
+            "Tuner": "DareanBLR",
+            "fill": "FFED7D31"
+          },
+          "row": 204,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.568,
+      "shareCode": "118622419",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "dareanblr"
+    }
+  ],
+  "schemaVersion": 1
+}
