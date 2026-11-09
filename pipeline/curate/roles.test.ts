@@ -101,12 +101,22 @@ describe('computeRoles (alternatives formula, ADR-0017)', () => {
     expect(roles.find((r) => r.carId === 'essenza')?.tier).toBe('meta');
   });
 
+  it("Noa Miyako's T0.5 counts as a Meta vote, but never makes a car Meta+", () => {
+    const roles = computeRoles(
+      dataset({
+        meta: [meta('viper', 't0.5')],
+        lists: [list('fhstats', 'viper', 'meta-plus')],
+      }),
+    );
+    expect(roles.find((r) => r.carId === 'viper')?.tier).toBe('meta');
+  });
+
   it('a single pure-handling build only adds the rivals tag', () => {
     const roles = computeRoles(
       dataset({
-        meta: [meta('r8', 't0.5')],
+        meta: [meta('r8', 't1')],
         lists: [
-          list('fhstats', 'r8', 'meta'),
+          list('fhstats', 'r8', 'strong'),
           list('logikj', 'r8', 'offmeta', { style: 'handling', extreme: true }),
         ],
       }),

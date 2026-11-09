@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-09: **T0.5 de Noa Miyako conta como voto de Meta** no ranking do Forza Paddock (dono): 34 carros passam de Off-meta para Meta (ex.: S1 asfalto: Viper ACR, Centenario, AG 961, Aventador SVJ, Huracán STO, R8 LMS). As escolhas do Forza Paddock aparecem nos Destaques qualquer que seja o tier.
 - 2026-11-09: **Foco em alternativas ao meta** ([ADR-0017](docs/adr/0017-ranking-proprio-e-alternativas.md)).
   - **Fontes novas:** `fhstats` (lista de meta online e estatísticas de Rivais), `logikj` (escolhas online) e `attax-johnson` (lista por classe). Os nomes abreviados dessas fontes ficam em `data/manual/car-aliases.yaml`.
   - **Ranking do Forza Paddock** (Meta+, Meta, Off-meta, Nicho, Outros), calculado a partir de todas as fontes em `data/generated/roles.json`. Ele substitui o tier de Noa Miyako como ranking principal na lista de tunes, na página do carro e nas sugestões da playlist. Cada carro mostra as evidências.

@@ -141,6 +141,10 @@ lastPhysicsPatch: 2026-11-05   # tunes anteriores perdem o bônus de recência
 3. Definir **Meme** com exemplos concretos (PRODUCT Q5).
 4. As sugestões da playlist devem priorizar **iniciantes** (facilidade e carros fáceis de obter) ou **competitivos** (desempenho máximo)? Proposta: perfil iniciante por padrão, com uma alternância no site.
 5. Fornecer de 5 a 10 casos-âncora.
+6. **Revisar o T0.5 de Noa Miyako no ranking** (pedido do dono, 2026-11-09). Hoje ele conta como voto de Meta ([§10.2](#102-tier)). Em nome de um ranking próprio, talvez não deva virar Meta quando só Noa Miyako o classifica assim. Por outro lado, há carros que só ele põe em T0.5 e que o dono concorda que são meta. Opções a avaliar:
+   - exigir 3 fontes quando um dos votos é T0.5;
+   - uma lista manual de exceções (`data/manual/tier-overrides.yaml`);
+   - manter como está.
 
 ## 10. Ranking do Forza Paddock e alternativas
 
@@ -160,7 +164,7 @@ Implementado em `pipeline/curate/roles.ts` ([ADR-0017](adr/0017-ranking-proprio-
 
 ### 10.2 Tier
 
-1. **Meta:** 2 ou mais fontes no topo (Meta+ ou Meta), ou 1 no topo com Rivais ≥ 0,6 ou 10+ pontos na planilha de Rivais.
+1. **Meta:** 2 ou mais fontes no topo, ou 1 no topo com Rivais ≥ 0,6 ou 10+ pontos na planilha de Rivais. "No topo" = Meta+ ou Meta, e também o **T0.5 de Noa Miyako**, que o dono lê como mais perto de Meta do que de Off-meta (2026-11-09). O T0.5 mantém a nota 0,75, então sozinho nunca faz um carro virar Meta+.
 2. **Meta+:** um carro Meta com consenso ≥ 0,9 e pelo menos um voto Meta+. Se as fontes se dividem entre Meta+ e Meta, ele precisa também de Rivais ≥ 0,8, comparado com o carro Meta mais forte da classe (não com o líder do ranking, que costuma ser um especialista em contra o relógio).
 3. **Off-meta (alternativa):** citado por alguma fonte e com força ≥ 0,55.
 4. **Outros:** citado, mas abaixo disso.

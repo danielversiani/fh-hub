@@ -144,13 +144,13 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
   }, [data, cls, altSurface, tuner]);
   const highlights = useMemo(() => {
     const has = (tag: AltTag) => alternatives.filter((r) => r.tags?.includes(tag));
-    const picked = [
-      ...has('featured'),
-      ...has('recent').slice(0, 2),
-      ...has('sleeper').slice(0, 2),
-    ];
+    // The platform's own picks show up whatever their tier (a pick can be Meta, e.g. the SVJ).
+    const featured = (data?.roles ?? []).filter(
+      (r) => r.cls === cls && r.surface === altSurface && r.tags?.includes('featured'),
+    );
+    const picked = [...featured, ...has('recent').slice(0, 2), ...has('sleeper').slice(0, 2)];
     return [...new Map(picked.map((r) => [r.car, r])).values()].slice(0, 6);
-  }, [alternatives]);
+  }, [data, cls, altSurface, alternatives]);
   const carById = useMemo(() => new Map((data?.cars ?? []).map((c) => [c.id, c])), [data]);
   const openCar = (id: string) => {
     setOpen(new Set(open).add(id));

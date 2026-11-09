@@ -117,7 +117,9 @@ export function computeRoles(dataset: Dataset): CarRole[] {
       sourceId: m.sourceId,
       label: TIER_LABEL[m.tier],
       score: TIER_SCORE[m.tier],
-      top: m.tier === 'meta-plus' || m.tier === 'meta',
+      // Owner (2026-11-09): Noa Miyako's T0.5 is closer to Meta than to Off-meta, so it counts as
+      // a Meta vote (its score stays below Meta, so it never makes a car Meta+).
+      top: m.tier === 'meta-plus' || m.tier === 'meta' || m.tier === 't0.5',
       style: m.role,
       onlineNote: /线上/.test(m.notes ?? '') || undefined,
       noaT1: m.tier === 't1' || undefined,
