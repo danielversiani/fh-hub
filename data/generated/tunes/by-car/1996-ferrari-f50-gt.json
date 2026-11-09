@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -138,6 +138,40 @@
       "tierSource": "default",
       "tires": "rally",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1996-ferrari-f50-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "sc-977189217",
+      "metaRank": 18,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 248,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 24,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.562,
+      "shareCode": "977189217",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

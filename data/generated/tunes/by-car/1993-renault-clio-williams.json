@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1993-renault-clio-williams",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "FWD",
-      "fromMeta": true,
-      "id": "nc-16f424fc6e",
-      "lapRefs": [
-        {
-          "time": "1:01.368",
-          "track": "Chiheisen"
-        }
-      ],
-      "metaNotes": "地平线攀爬赛1:01.368 轮椅操控车",
-      "metaNotesI18n": {
-        "en": "Very easy to drive through corners.",
-        "pt-br": "Muito fácil de pilotar nas curvas."
-      },
-      "metaRank": 5,
-      "name": "C dirt FWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 13,
-          "sourceId": "noa-miyako",
-          "tab": "c-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [],
       "carId": "1993-renault-clio-williams",
@@ -75,6 +33,49 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-renault-clio-williams",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-05-26",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "sc-114943845",
+      "lapRefs": [
+        {
+          "time": "1:01.368",
+          "track": "Chiheisen"
+        }
+      ],
+      "metaNotes": "地平线攀爬赛1:01.368 轮椅操控车",
+      "metaNotesI18n": {
+        "en": "Very easy to drive through corners.",
+        "pt-br": "Muito fácil de pilotar nas curvas."
+      },
+      "metaRank": 5,
+      "name": "C Dirt Grip Meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 229,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.642,
+      "shareCode": "114943845",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

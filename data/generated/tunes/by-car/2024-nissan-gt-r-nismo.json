@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [],
@@ -33,48 +33,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-nissan-gt-r-nismo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-1296dbda37",
-      "lapRefs": [
-        {
-          "time": "59.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 85,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 174,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
@@ -225,6 +183,31 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "id": "nc-65f639b554",
+      "metaRank": 28,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 198,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.621,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu-nalak28"
     },
     {
       "buildTags": [],
@@ -408,6 +391,99 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "sc-141773439",
+      "name": "S2 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 236,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "141773439",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-10",
+      "id": "sc-553416609",
+      "metaRank": 85,
+      "name": "ROAD HANDLING/ T1",
+      "notes": "Road circuit handling tune recommended by LES Venturi.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 281,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.611,
+      "shareCode": "553416609",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "syokora996"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-779813648",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 85,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 120,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.626,
+      "shareCode": "779813648",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

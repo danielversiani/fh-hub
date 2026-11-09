@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -670,6 +670,48 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-amemiya"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-nissan-skyline-gt-r-v-spec",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-992919354",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 88,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 124,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.626,
+      "shareCode": "992919354",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

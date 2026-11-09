@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -66,52 +66,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lamborghini-diablo-gtr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-33a2c8b1e6",
-      "lapRefs": [
-        {
-          "time": "1:02.8",
-          "track": "Ine"
-        },
-        {
-          "time": "56.8",
-          "track": "Sunflower"
-        }
-      ],
-      "metaNotes": "伊根02.8 向日葵56.8干净圈 推荐用赛悬 直线加速快 适合线上",
-      "metaNotesI18n": {
-        "en": "Clean lap at Sunflower. Use race suspension; quick in a straight line; good for online.",
-        "pt-br": "Volta limpa no Sunflower. Use a suspensão de corrida; acelera rápido nas retas; bom para online."
-      },
-      "metaRank": 31,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 67,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "fuzzytexas81292"
     },
     {
       "buildTags": [],
@@ -372,6 +326,76 @@
       "tierSource": "default",
       "tires": "rally",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-lamborghini-diablo-gtr",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "sc-508073688",
+      "name": "S2 Speed-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 225,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "508073688",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-lamborghini-diablo-gtr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-29",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-888489822",
+      "lapRefs": [
+        {
+          "time": "1:02.8",
+          "track": "Ine"
+        },
+        {
+          "time": "56.8",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "伊根02.8 向日葵56.8干净圈 推荐用赛悬 直线加速快 适合线上",
+      "metaNotesI18n": {
+        "en": "Clean lap at Sunflower. Use race suspension; quick in a straight line; good for online.",
+        "pt-br": "Volta limpa no Sunflower. Use a suspensão de corrida; acelera rápido nas retas; bom para online."
+      },
+      "metaRank": 31,
+      "name": "S1 Dirt 2.0",
+      "observations": [
+        {
+          "raw": {},
+          "row": 105,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.571,
+      "shareCode": "888489822",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fuzzytexas81292"
     }
   ],
   "schemaVersion": 1

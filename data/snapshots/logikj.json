@@ -1,0 +1,995 @@
+{
+  "output": {
+    "carAttributes": [],
+    "catalog": [],
+    "customEvents": [],
+    "lapTimes": [],
+    "lists": [
+      {
+        "car": {
+          "make": "Nissan",
+          "model": "Patrol",
+          "text": "1972 Nissan Patrol",
+          "year": 1972
+        },
+        "carClass": "D",
+        "label": "Meta",
+        "level": "meta",
+        "row": 3,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "Civic SI",
+          "text": "1986 Honda Civic SI",
+          "year": 1986
+        },
+        "carClass": "D",
+        "extreme": true,
+        "label": "Strong",
+        "level": "strong",
+        "row": 4,
+        "style": "handling",
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "BMW",
+          "model": "2002 Turbo",
+          "text": "1973 BMW 2002 Turbo",
+          "year": 1973
+        },
+        "carClass": "C",
+        "date": "2026-06-11",
+        "label": "Pick",
+        "level": "pick",
+        "online": true,
+        "row": 5,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Toyota",
+          "model": "Altezza RS200 Z Edition",
+          "text": "1999 Toyota Altezza RS200 Z Edition",
+          "year": 1999
+        },
+        "carClass": "C",
+        "label": "Pick",
+        "level": "pick",
+        "online": true,
+        "row": 6,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Chevrolet",
+          "model": "Silverado LT Trail Boss",
+          "text": "2020 Chevrolet Silverado LT Trail Boss",
+          "year": 2020
+        },
+        "carClass": "C",
+        "label": "Offmeta",
+        "level": "offmeta",
+        "online": true,
+        "row": 7,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Jeep",
+          "model": "JT",
+          "text": "2020 Jeep JT",
+          "year": 2020
+        },
+        "carClass": "C",
+        "label": "Strong",
+        "level": "strong",
+        "online": true,
+        "row": 8,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "Civic SI",
+          "text": "1986 Honda Civic SI",
+          "year": 1986
+        },
+        "carClass": "C",
+        "label": "Meta",
+        "level": "meta",
+        "online": true,
+        "row": 9,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Ford",
+          "model": "Super Duty F-450 DRW PLATINUM",
+          "text": "2020 Ford Super Duty F-450 DRW PLATINUM",
+          "year": 2020
+        },
+        "carClass": "B",
+        "label": "Strong",
+        "level": "strong",
+        "online": true,
+        "row": 10,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Mazda",
+          "model": "MX-5 Cup",
+          "text": "2017 Mazda MX-5 Cup",
+          "year": 2017
+        },
+        "carClass": "B",
+        "extreme": true,
+        "label": "Pick",
+        "level": "pick",
+        "row": 11,
+        "style": "handling",
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Toyota",
+          "model": "Celica Sport Specialty II",
+          "text": "2003 Toyota Celica Sport Specialty II",
+          "year": 2003
+        },
+        "carClass": "B",
+        "label": "Strong",
+        "level": "strong",
+        "online": true,
+        "row": 12,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Volkswagen",
+          "model": "Rallye Golf",
+          "text": "1989 Volkswagen Rallye Golf",
+          "year": 1989
+        },
+        "carClass": "B",
+        "label": "Strong",
+        "level": "strong",
+        "online": true,
+        "row": 13,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "NSX-R",
+          "text": "1992 Honda NSX-R",
+          "year": 1992
+        },
+        "carClass": "B",
+        "label": "Pick",
+        "level": "pick",
+        "online": true,
+        "row": 14,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Chevrolet",
+          "model": "Silverado LT Trail Boss",
+          "text": "2020 Chevrolet Silverado LT Trail Boss",
+          "year": 2020
+        },
+        "carClass": "B",
+        "date": "2026-06-15",
+        "label": "Meta",
+        "level": "meta",
+        "row": 15,
+        "style": "power",
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Subaru",
+          "model": "WRX",
+          "text": "2022 Subaru WRX",
+          "year": 2022
+        },
+        "carClass": "B",
+        "date": "2026-06-08",
+        "label": "Pick",
+        "level": "pick",
+        "online": true,
+        "row": 16,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Chevrolet",
+          "model": "Camaro ZL1",
+          "text": "2017 Chevrolet Camaro ZL1",
+          "year": 2017
+        },
+        "carClass": "A",
+        "label": "Offmeta",
+        "level": "offmeta",
+        "online": true,
+        "row": 17,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "NSX-R",
+          "text": "2005 Honda NSX-R",
+          "year": 2005
+        },
+        "carClass": "A",
+        "date": "2026-07-01",
+        "label": "Pick",
+        "level": "pick",
+        "online": true,
+        "row": 18,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Dodge",
+          "model": "Ram SRT-10",
+          "text": "2006 Dodge Ram SRT-10",
+          "year": 2006
+        },
+        "carClass": "A",
+        "date": "2026-07-03",
+        "label": "Strong",
+        "level": "strong",
+        "online": true,
+        "row": 19,
+        "style": "allround",
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Ferrari",
+          "model": "512 TR",
+          "text": "1992 Ferrari 512 TR",
+          "year": 1992
+        },
+        "carClass": "A",
+        "date": "2026-06-26",
+        "label": "Strong",
+        "level": "strong",
+        "online": true,
+        "row": 20,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Mercedes-Benz",
+          "model": "X-Class",
+          "text": "2018 Mercedes-Benz X-Class",
+          "year": 2018
+        },
+        "carClass": "A",
+        "label": "Meta",
+        "level": "meta",
+        "online": true,
+        "row": 21,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Dodge",
+          "model": "Viper SRT-10 ACR",
+          "text": "2008 Dodge Viper SRT-10 ACR",
+          "year": 2008
+        },
+        "carClass": "A",
+        "date": "2026-06-28",
+        "label": "Strong",
+        "level": "strong",
+        "online": true,
+        "row": 22,
+        "style": "handling",
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "McLaren",
+          "model": "570S Coupé",
+          "text": "2015 McLaren 570S Coupé",
+          "year": 2015
+        },
+        "carClass": "A",
+        "date": "2026-07-04",
+        "label": "Pick",
+        "level": "pick",
+        "online": true,
+        "row": 23,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Porsche",
+          "model": "Cayenne Turbo",
+          "text": "2018 Porsche Cayenne Turbo",
+          "year": 2018
+        },
+        "carClass": "A",
+        "date": "2026-07-02",
+        "label": "Offmeta",
+        "level": "offmeta",
+        "online": true,
+        "row": 24,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Lamborghini",
+          "model": "Huracán STO",
+          "text": "2020 Lamborghini Huracán STO",
+          "year": 2020
+        },
+        "carClass": "S1",
+        "date": "2026-07-16",
+        "label": "Offmeta",
+        "level": "offmeta",
+        "online": true,
+        "row": 25,
+        "style": "allround",
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "BMW",
+          "model": "M4 Competition Coupé Welcome Pack",
+          "text": "2021 BMW M4 Competition Coupé Welcome Pack",
+          "year": 2021
+        },
+        "carClass": "S1",
+        "date": "2026-05-18",
+        "label": "Pick",
+        "level": "pick",
+        "online": true,
+        "row": 26,
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Audi",
+          "model": "R8 LMS",
+          "text": "2009 Audi R8 LMS",
+          "year": 2009
+        },
+        "carClass": "S1",
+        "extreme": true,
+        "label": "Offmeta",
+        "level": "offmeta",
+        "row": 27,
+        "style": "handling",
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Schuppan",
+          "model": "962CR",
+          "text": "1993 Schuppan 962CR",
+          "year": 1993
+        },
+        "carClass": "S1",
+        "label": "Offmeta",
+        "level": "offmeta",
+        "row": 28,
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "Alfa Romeo",
+          "model": "SE 048SP",
+          "text": "1990 Alfa Romeo SE 048SP",
+          "year": 1990
+        },
+        "carClass": "S2",
+        "date": "2026-07-14",
+        "extreme": true,
+        "label": "Offmeta",
+        "level": "offmeta",
+        "row": 29,
+        "style": "handling",
+        "surface": "dirt",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      }
+    ],
+    "meta": [],
+    "metaUpdates": [],
+    "playlists": [],
+    "rivals": [],
+    "rivalsStats": [],
+    "tunes": [
+      {
+        "car": {
+          "make": "Nissan",
+          "model": "Patrol",
+          "text": "1972 Nissan Patrol",
+          "year": 1972
+        },
+        "carClass": "D",
+        "name": "Dirt Circuit Rivals",
+        "notes": "Circuit Rivals Meta - Currently has WR on Sunflower Scramble",
+        "raw": {},
+        "row": 3,
+        "shareCode": "494 294 362",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "Civic SI",
+          "text": "1986 Honda Civic SI",
+          "year": 1986
+        },
+        "carClass": "D",
+        "name": "Road AWD Seasonal/Rivals Strong",
+        "notes": "Seasonal, Rivals - Stock tires lacking a little grip but is fast",
+        "raw": {},
+        "row": 4,
+        "shareCode": "151 869 422",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "BMW",
+          "model": "2002 Turbo",
+          "text": "1973 BMW 2002 Turbo",
+          "year": 1973
+        },
+        "carClass": "C",
+        "createdAt": "2026-06-11",
+        "name": "C Road/Street AWD Stock Look",
+        "notes": "Online, Seasonal - Easy + Good Accel",
+        "raw": {},
+        "row": 5,
+        "shareCode": "923 888 496",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Toyota",
+          "model": "Altezza RS200 Z Edition",
+          "text": "1999 Toyota Altezza RS200 Z Edition",
+          "year": 1999
+        },
+        "carClass": "C",
+        "name": "C Road/Street Purist Easy",
+        "notes": "Online",
+        "raw": {},
+        "row": 6,
+        "shareCode": "225 950 073",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Chevrolet",
+          "model": "Silverado LT Trail Boss",
+          "text": "2020 Chevrolet Silverado LT Trail Boss",
+          "year": 2020
+        },
+        "carClass": "C",
+        "name": "C Dirt/CC Strong Offmeta Stock Look",
+        "notes": "Online, Rivals, Seasonal - Strong off meta",
+        "raw": {},
+        "row": 7,
+        "shareCode": "381 491 293",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Jeep",
+          "model": "JT",
+          "text": "2020 Jeep JT",
+          "year": 2020
+        },
+        "carClass": "C",
+        "name": "C Dirt/CC Purist Strong",
+        "notes": "Online, Rivals - Decent pace + very easy",
+        "raw": {},
+        "row": 8,
+        "shareCode": "153 838 391",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "Civic SI",
+          "text": "1986 Honda Civic SI",
+          "year": 1986
+        },
+        "carClass": "C",
+        "name": "C Dirt Meta",
+        "notes": "Rivals, Online, Seasonal - Meta dirt car in C class",
+        "raw": {},
+        "row": 9,
+        "shareCode": "175 605 880",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Ford",
+          "model": "Super Duty F-450 DRW PLATINUM",
+          "text": "2020 Ford Super Duty F-450 DRW PLATINUM",
+          "year": 2020
+        },
+        "carClass": "B",
+        "name": "B Road Very Strong (Stock Look)",
+        "notes": "Online, Rivals - Very strong AWD accel for road - 06.5 shira clean def does low 06s",
+        "raw": {},
+        "row": 10,
+        "shareCode": "299 964 368",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Mazda",
+          "model": "MX-5 Cup",
+          "text": "2017 Mazda MX-5 Cup",
+          "year": 2017
+        },
+        "carClass": "B",
+        "name": "B Road Grip",
+        "notes": "Togue Grip",
+        "raw": {},
+        "row": 11,
+        "shareCode": "140 998 267",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Toyota",
+          "model": "Celica Sport Specialty II",
+          "text": "2003 Toyota Celica Sport Specialty II",
+          "year": 2003
+        },
+        "carClass": "B",
+        "name": "Road Purist Strong",
+        "notes": "Online Very Strong, Seasonal",
+        "raw": {},
+        "row": 12,
+        "shareCode": "182 893 646",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Volkswagen",
+          "model": "Rallye Golf",
+          "text": "1989 Volkswagen Rallye Golf",
+          "year": 1989
+        },
+        "carClass": "B",
+        "name": "Road Purist Strong",
+        "notes": "Online, Seasonal - Very strong AWD Purist in B",
+        "raw": {},
+        "row": 13,
+        "shareCode": "329 130 481",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "NSX-R",
+          "text": "1992 Honda NSX-R",
+          "year": 1992
+        },
+        "carClass": "B",
+        "name": "Road Purist Easy",
+        "notes": "Online, Seasonal - Easy to drive",
+        "raw": {},
+        "row": 14,
+        "shareCode": "126 326 350",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Chevrolet",
+          "model": "Silverado LT Trail Boss",
+          "text": "2020 Chevrolet Silverado LT Trail Boss",
+          "year": 2020
+        },
+        "carClass": "B",
+        "createdAt": "2026-06-15",
+        "name": "B Dirt/CC Allround Meta",
+        "notes": "Rivals - Allround Meta everywhere except power tracks",
+        "raw": {},
+        "row": 15,
+        "shareCode": "178 427 155",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Subaru",
+          "model": "WRX",
+          "text": "2022 Subaru WRX",
+          "year": 2022
+        },
+        "carClass": "B",
+        "createdAt": "2026-06-08",
+        "name": "B Dirt Rally Stock Look Easy",
+        "notes": "Online, Campaign, Seasonals - Easy to drive",
+        "raw": {},
+        "row": 16,
+        "shareCode": "865 826 962",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Chevrolet",
+          "model": "Camaro ZL1",
+          "text": "2017 Chevrolet Camaro ZL1",
+          "year": 2017
+        },
+        "carClass": "A",
+        "name": "Road AWD Widebody Very Strong (Stock Rims)",
+        "notes": "Online, Seasonal - Very strong A class car - offmeta pace",
+        "raw": {},
+        "row": 17,
+        "shareCode": "151 150 269",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Honda",
+          "model": "NSX-R",
+          "text": "2005 Honda NSX-R",
+          "year": 2005
+        },
+        "carClass": "A",
+        "createdAt": "2026-07-01",
+        "name": "Road AWD Full Aero Stock Engine",
+        "notes": "Online, Seasonal - Easy and fast",
+        "raw": {},
+        "row": 18,
+        "shareCode": "447 024 784",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Dodge",
+          "model": "Ram SRT-10",
+          "text": "2006 Dodge Ram SRT-10",
+          "year": 2006
+        },
+        "carClass": "A",
+        "createdAt": "2026-07-03",
+        "name": "Road AWD Strong Allround",
+        "notes": "Online - Strong Allround, strong accel",
+        "raw": {},
+        "row": 19,
+        "shareCode": "121 555 835",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Ferrari",
+          "model": "512 TR",
+          "text": "1992 Ferrari 512 TR",
+          "year": 1992
+        },
+        "carClass": "A",
+        "createdAt": "2026-06-26",
+        "name": "Road Purist Easy",
+        "notes": "Online, Seasonal - Easy to use for Purist and Strong too",
+        "raw": {},
+        "row": 20,
+        "shareCode": "852 583 050",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Mercedes-Benz",
+          "model": "X-Class",
+          "text": "2018 Mercedes-Benz X-Class",
+          "year": 2018
+        },
+        "carClass": "A",
+        "name": "CC Rivals Meta",
+        "notes": "Rivals, Online Meta",
+        "raw": {},
+        "row": 21,
+        "shareCode": "118 260 950",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Dodge",
+          "model": "Viper SRT-10 ACR",
+          "text": "2008 Dodge Viper SRT-10 ACR",
+          "year": 2008
+        },
+        "carClass": "A",
+        "createdAt": "2026-06-28",
+        "name": "A700 Dirt or Road - Strong on Both",
+        "notes": "Online, Rivals - Very strong grip/pace on dirt and road, can be used for either equally",
+        "raw": {},
+        "row": 22,
+        "shareCode": "762 849 256",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "McLaren",
+          "model": "570S Coupé",
+          "text": "2015 McLaren 570S Coupé",
+          "year": 2015
+        },
+        "carClass": "A",
+        "createdAt": "2026-07-04",
+        "name": "Dirt AWD Stock Look",
+        "notes": "Online Lobbies - Great lobby car, looks good with stock wing moving",
+        "raw": {},
+        "row": 23,
+        "shareCode": "661 217 039",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Porsche",
+          "model": "Cayenne Turbo",
+          "text": "2018 Porsche Cayenne Turbo",
+          "year": 2018
+        },
+        "carClass": "A",
+        "createdAt": "2026-07-02",
+        "name": "A Dirt/CC Very Stong",
+        "notes": "Online, Seasonal - Offmeta strong, fastest sport utility hero",
+        "raw": {},
+        "row": 24,
+        "shareCode": "616 660 933",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Lamborghini",
+          "model": "Huracán STO",
+          "text": "2020 Lamborghini Huracán STO",
+          "year": 2020
+        },
+        "carClass": "S1",
+        "createdAt": "2026-07-16",
+        "name": "S1 Road Strong Allround",
+        "notes": "Online, Seasonal, Rivals - Very strong AWD car, offmeta",
+        "raw": {},
+        "row": 25,
+        "shareCode": "995 548 003",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "BMW",
+          "model": "M4 Competition Coupé Welcome Pack",
+          "text": "2021 BMW M4 Competition Coupé Welcome Pack",
+          "year": 2021
+        },
+        "carClass": "S1",
+        "createdAt": "2026-05-18",
+        "name": "S1 Road AWD Easy",
+        "notes": "Online - Very easy and nice to drive",
+        "raw": {},
+        "row": 26,
+        "shareCode": "127 785 238",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Audi",
+          "model": "R8 LMS",
+          "text": "2009 Audi R8 LMS",
+          "year": 2009
+        },
+        "carClass": "S1",
+        "name": "S1 Road AWD Strong Grip",
+        "notes": "Offmeta Grip Car",
+        "raw": {},
+        "row": 27,
+        "shareCode": "311 807 794",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Schuppan",
+          "model": "962CR",
+          "text": "1993 Schuppan 962CR",
+          "year": 1993
+        },
+        "carClass": "S1",
+        "name": "S1 Dirt AWD Strong",
+        "notes": "Onlie, Rivals - Very strong early off meta",
+        "raw": {},
+        "row": 28,
+        "shareCode": "144 254 269",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "Alfa Romeo",
+          "model": "SE 048SP",
+          "text": "1990 Alfa Romeo SE 048SP",
+          "year": 1990
+        },
+        "carClass": "S2",
+        "createdAt": "2026-07-14",
+        "name": "S2 Dirt Grip Offmeta Rivals",
+        "notes": "Rivals Grip Offmeta - 2nd fastest car on grip stuff",
+        "raw": {},
+        "row": 29,
+        "shareCode": "902 691 185",
+        "surfaceText": "dirt",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      }
+    ],
+    "warnings": []
+  },
+  "records": 54,
+  "schemaVersion": 1,
+  "sourceId": "logikj"
+}

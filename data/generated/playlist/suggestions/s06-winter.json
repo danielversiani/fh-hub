@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "carId": "1991-honda-beat",
@@ -119,6 +119,31 @@
       "tuneId": "nc-1809125e7f"
     },
     {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.651,
+      "seasonId": "s06-winter",
+      "tuneId": "sc-508952921"
+    },
+    {
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
       "category": "off-meta",
       "confidence": 0.8,
@@ -137,26 +162,6 @@
       "score": 0.563,
       "seasonId": "s06-winter",
       "tuneId": "nc-101ce859b8"
-    },
-    {
-      "carId": "2003-toyota-celica-sport-specialty-ii",
-      "category": "off-meta",
-      "confidence": 0.8,
-      "eventId": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t2"
-          }
-        }
-      ],
-      "score": 0.563,
-      "seasonId": "s06-winter",
-      "tuneId": "nc-15153e7e18"
     },
     {
       "carId": "2003-toyota-celica-sport-specialty-ii",
@@ -182,20 +187,50 @@
       "tuneId": "nc-83df85ef1a"
     },
     {
-      "carId": "2024-toyota-prius-prime-xse-premium",
+      "carId": "1999-toyota-altezza-rs200-z-edition",
       "category": "purist",
       "confidence": 0.35,
       "eventId": "s06-winter--horizon-life-time-attack--hokubu-time-attack",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.474,
+      "score": 0.654,
       "seasonId": "s06-winter",
-      "tuneId": "nc-579609ad39"
+      "tuneId": "sc-225950073"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.651,
+      "seasonId": "s06-winter",
+      "tuneId": "sc-508952921"
     },
     {
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
@@ -216,26 +251,6 @@
       "score": 0.563,
       "seasonId": "s06-winter",
       "tuneId": "nc-101ce859b8"
-    },
-    {
-      "carId": "2003-toyota-celica-sport-specialty-ii",
-      "category": "off-meta",
-      "confidence": 0.8,
-      "eventId": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t2"
-          }
-        }
-      ],
-      "score": 0.563,
-      "seasonId": "s06-winter",
-      "tuneId": "nc-15153e7e18"
     },
     {
       "carId": "2003-toyota-celica-sport-specialty-ii",
@@ -261,20 +276,50 @@
       "tuneId": "nc-83df85ef1a"
     },
     {
-      "carId": "2024-toyota-prius-prime-xse-premium",
+      "carId": "1999-toyota-altezza-rs200-z-edition",
       "category": "purist",
       "confidence": 0.35,
       "eventId": "s06-winter--horizon-life-drag-meet--irokawa-quarter-mile",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.474,
+      "score": 0.654,
       "seasonId": "s06-winter",
-      "tuneId": "nc-579609ad39"
+      "tuneId": "sc-225950073"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-danger-sign--alpine-heights",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.651,
+      "seasonId": "s06-winter",
+      "tuneId": "sc-508952921"
     },
     {
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
@@ -295,26 +340,6 @@
       "score": 0.563,
       "seasonId": "s06-winter",
       "tuneId": "nc-101ce859b8"
-    },
-    {
-      "carId": "2003-toyota-celica-sport-specialty-ii",
-      "category": "off-meta",
-      "confidence": 0.8,
-      "eventId": "s06-winter--pr-stunt-danger-sign--alpine-heights",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t2"
-          }
-        }
-      ],
-      "score": 0.563,
-      "seasonId": "s06-winter",
-      "tuneId": "nc-15153e7e18"
     },
     {
       "carId": "2003-toyota-celica-sport-specialty-ii",
@@ -340,20 +365,50 @@
       "tuneId": "nc-83df85ef1a"
     },
     {
-      "carId": "2024-toyota-prius-prime-xse-premium",
+      "carId": "1999-toyota-altezza-rs200-z-edition",
       "category": "purist",
       "confidence": 0.35,
       "eventId": "s06-winter--pr-stunt-danger-sign--alpine-heights",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.474,
+      "score": 0.654,
       "seasonId": "s06-winter",
-      "tuneId": "nc-579609ad39"
+      "tuneId": "sc-225950073"
+    },
+    {
+      "carId": "2003-toyota-celica-sport-specialty-ii",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-winter--pr-stunt-speed-trap--konbini-dash",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.651,
+      "seasonId": "s06-winter",
+      "tuneId": "sc-508952921"
     },
     {
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
@@ -374,26 +429,6 @@
       "score": 0.563,
       "seasonId": "s06-winter",
       "tuneId": "nc-101ce859b8"
-    },
-    {
-      "carId": "2003-toyota-celica-sport-specialty-ii",
-      "category": "off-meta",
-      "confidence": 0.8,
-      "eventId": "s06-winter--pr-stunt-speed-trap--konbini-dash",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t2"
-          }
-        }
-      ],
-      "score": 0.563,
-      "seasonId": "s06-winter",
-      "tuneId": "nc-15153e7e18"
     },
     {
       "carId": "2003-toyota-celica-sport-specialty-ii",
@@ -419,27 +454,31 @@
       "tuneId": "nc-83df85ef1a"
     },
     {
-      "carId": "2024-toyota-prius-prime-xse-premium",
+      "carId": "1999-toyota-altezza-rs200-z-edition",
       "category": "purist",
       "confidence": 0.35,
       "eventId": "s06-winter--pr-stunt-speed-trap--konbini-dash",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        },
         {
           "key": "reason.purist"
         }
       ],
-      "score": 0.474,
+      "score": 0.654,
       "seasonId": "s06-winter",
-      "tuneId": "nc-579609ad39"
+      "tuneId": "sc-225950073"
     },
     {
       "carId": "2005-subaru-impreza-wrx-sti",
       "category": "off-meta",
-      "confidence": 0.8,
+      "confidence": 0.85,
       "eventId": "s06-winter--horizon-life-the-trial--full-send",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -450,9 +489,9 @@
           }
         }
       ],
-      "score": 0.638,
+      "score": 0.646,
       "seasonId": "s06-winter",
-      "tuneId": "nc-b5df99bfec"
+      "tuneId": "sc-397447672"
     },
     {
       "carId": "1994-subaru-vivio-rx-r",

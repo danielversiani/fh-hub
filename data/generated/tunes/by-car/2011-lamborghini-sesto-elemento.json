@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -274,6 +274,91 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-lamborghini-sesto-elemento",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-129628890",
+      "metaNotes": "R级非常少见的均衡强车 线上推荐驾驶",
+      "metaNotesI18n": {
+        "en": "A balanced, strong car, rare in R class; recommended for online racing.",
+        "pt-br": "Carro equilibrado e forte, coisa rara na classe R; recomendado para corridas online."
+      },
+      "metaRank": 8,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 252,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 15,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.774,
+      "shareCode": "129628890",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-lamborghini-sesto-elemento",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-153244644",
+      "lapRefs": [
+        {
+          "time": "48.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川48.7 偏操控 手感很舒服",
+      "metaNotesI18n": {
+        "en": "Leans towards handling; very comfortable feel.",
+        "pt-br": "Puxa para curvas; sensação muito confortável."
+      },
+      "metaRank": 12,
+      "name": "even better S2 road 48.7 Shirakawa",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 260,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "shareCode": "153244644",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-howzer"
     },
     {
       "buildTags": [

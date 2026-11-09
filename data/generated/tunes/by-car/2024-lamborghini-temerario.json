@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -180,6 +180,48 @@
       ],
       "role": "allround",
       "score": 0.628,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-lamborghini-temerario",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-117850079",
+      "lapRefs": [
+        {
+          "time": "1:00.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 75,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 104,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.618,
+      "shareCode": "117850079",
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

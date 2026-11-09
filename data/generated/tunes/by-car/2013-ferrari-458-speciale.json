@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -78,6 +78,32 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-ferrari-458-speciale",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-133458941",
+      "metaRank": 124,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 159,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.518,
+      "shareCode": "133458941",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

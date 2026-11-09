@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -228,16 +228,42 @@
     {
       "buildTags": [],
       "carId": "1988-lamborghini-countach-lp5000-qv",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-152731940",
+      "metaRank": 156,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 98,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.473,
+      "shareCode": "152731940",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1988-lamborghini-countach-lp5000-qv",
       "categories": [
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-10",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-f1c56e1331",
+      "id": "sc-479045651",
       "lapRefs": [
         {
           "time": "1:05.8",
@@ -250,17 +276,18 @@
         "pt-br": "Carro completo e simples de pilotar."
       },
       "metaRank": 31,
-      "name": "A dirt AWD",
+      "name": "5.2 Dirt Full Aero Grip V1.3",
       "observations": [
         {
           "raw": {},
-          "row": 66,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
+          "row": 127,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "handling",
-      "score": 0.638,
+      "score": 0.643,
+      "shareCode": "479045651",
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -174,44 +174,6 @@
       "buildTags": [],
       "carId": "2004-subaru-impreza-wrx-sti",
       "categories": [],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-e1fd3ac63e",
-      "metaRank": 51,
-      "name": "A Dirt Grip",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2004 Subaru Impreza WRX STI",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt Grip",
-            "Tuner": "Noa Miyako",
-            "fill": "FFFF0000"
-          },
-          "row": 2777,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.507,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2004-subaru-impreza-wrx-sti",
-      "categories": [],
       "class": "B",
       "confidence": 0.35,
       "drivetrain": "AWD",
@@ -273,6 +235,52 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-subaru-impreza-wrx-sti",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-08",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-980710463",
+      "metaRank": 51,
+      "name": "A Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 147,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2004 Subaru Impreza WRX STI",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Grip",
+            "Tuner": "Noa Miyako",
+            "fill": "FFFF0000"
+          },
+          "row": 2777,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.598,
+      "shareCode": "980710463",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

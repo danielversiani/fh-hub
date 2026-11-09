@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -37,37 +37,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-honda-civic-type-r",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-273c3daf0b",
-      "metaRank": 24,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 52,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -227,32 +196,26 @@
       "buildTags": [],
       "carId": "1997-honda-civic-type-r",
       "categories": [
-        "meta"
+        "off-meta"
       ],
-      "class": "C",
+      "class": "B",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-98058b06a5",
-      "metaRank": 19,
-      "name": "C road AWD",
+      "id": "nc-a215760e95",
+      "metaRank": 47,
+      "name": "B Handling Allround",
       "observations": [
         {
           "raw": {},
-          "row": 41,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
+          "row": 36,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
         }
       ],
-      "role": "allround",
-      "score": 0.695,
+      "score": 0.577,
       "surface": "road",
-      "tier": "t0.5",
+      "tier": "t1",
       "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "msr-sola"
+      "tunerId": "slowbakedpanda-k1z-bard"
     },
     {
       "buildTags": [
@@ -329,6 +292,102 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-09",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-149350687",
+      "metaRank": 24,
+      "name": "Good B Dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 192,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.65,
+      "shareCode": "149350687",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-202635324",
+      "metaRank": 19,
+      "name": "C Road V2.1 New",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 87,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.774,
+      "shareCode": "202635324",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-honda-civic-type-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-779453499",
+      "metaRank": 47,
+      "name": "B road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 86,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.59,
+      "shareCode": "779453499",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "grandma-driving"
     }
   ],
   "schemaVersion": 1

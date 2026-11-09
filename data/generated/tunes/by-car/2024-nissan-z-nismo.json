@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -217,6 +217,32 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-z-nismo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-137188277",
+      "metaRank": 84,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 125,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "137188277",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -111,6 +111,32 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-tvr-griffith",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-798884939",
+      "metaRank": 71,
+      "name": "S1 Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 211,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.427,
+      "shareCode": "798884939",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ruinz"
     }
   ],
   "schemaVersion": 1

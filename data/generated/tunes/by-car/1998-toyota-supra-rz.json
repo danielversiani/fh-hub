@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -384,48 +384,6 @@
       "tunerId": "k1z-amemiya"
     },
     {
-      "buildTags": [],
-      "carId": "1998-toyota-supra-rz",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-79f92fc821",
-      "lapRefs": [
-        {
-          "time": "59.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 98,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 200,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -658,6 +616,75 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-toyota-supra-rz",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-07",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-154761397",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 98,
+      "name": "A Road Strong Allround V1.1 Shirakawa 0:59.8",
+      "observations": [
+        {
+          "raw": {},
+          "row": 265,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.657,
+      "shareCode": "154761397",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-toyota-supra-rz",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-169391841",
+      "metaRank": 98,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 137,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "169391841",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

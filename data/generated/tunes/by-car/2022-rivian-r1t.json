@@ -1,0 +1,181 @@
+{
+  "generatedAt": "2026-11-09T15:23:27.499Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2022-rivian-r1t",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-508af71d02",
+      "metaRank": 5,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 12,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-rivian-r1t",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b12638229e",
+      "metaRank": 26,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 56,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-rivian-r1t",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d0f0752d4e",
+      "metaRank": 5,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 12,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-rivian-r1t",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-133002976",
+      "name": "A Cross Country",
+      "observations": [
+        {
+          "raw": {},
+          "row": 129,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "133002976",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-rivian-r1t",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-24",
+      "id": "sc-142401702",
+      "metaRank": 5,
+      "name": "A CC Grip Meta V2",
+      "observations": [
+        {
+          "raw": {},
+          "row": 157,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "142401702",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-rivian-r1t",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-05",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-456336816",
+      "metaRank": 26,
+      "name": "B CC Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 224,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.595,
+      "shareCode": "456336816",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    }
+  ],
+  "schemaVersion": 1
+}

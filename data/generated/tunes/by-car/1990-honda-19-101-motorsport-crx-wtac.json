@@ -1,51 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T14:51:56.223Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1990-honda-19-101-motorsport-crx-wtac",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S2",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "FWD",
-      "id": "nc-4d20334bbb",
-      "metaNotes": "3.9G前驱操控车 仅限小赛道",
-      "metaNotesI18n": {
-        "en": "3.9 version: FWD handling car; short tracks only.",
-        "pt-br": "Versão 3.9: tração dianteira voltada para curvas; só para pistas curtas."
-      },
-      "metaRank": 17,
-      "name": "Soni WR V2",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1990 Honda #19 101 Motorsport CRX WTAC",
-            "Comment": "",
-            "Design": "MUGEN FORZA TIME ATTACK",
-            "Designer": "DaimonEXE",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Soni WR V2",
-            "Tuner": "ESV Mars",
-            "fill": "FF0070C0"
-          },
-          "row": 1674,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "handling",
-      "score": 0.638,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "esv-mars"
-    },
     {
       "buildTags": [],
       "carId": "1990-honda-19-101-motorsport-crx-wtac",
@@ -266,29 +221,10 @@
       "class": "S2",
       "confidence": 0.8,
       "drivetrain": "FWD",
-      "engine": "Stock",
-      "id": "sc-231984668",
+      "id": "nc-e98b3fe32d",
       "metaRank": 8,
       "name": "james",
       "observations": [
-        {
-          "raw": {
-            "Build": "",
-            "Class": "S2",
-            "Drivetrain": "FWD",
-            "Engine": "Stock",
-            "Make": "Honda",
-            "Model": "#19 101 Motorsport CRX WTAC",
-            "Road Surface": "Road",
-            "Share Code": "231984668",
-            "Tires": "Super Slicks",
-            "Tune Name": "james",
-            "Year": "1990"
-          },
-          "row": 24,
-          "sourceId": "k1z-gray",
-          "tab": "fh6-tunes"
-        },
         {
           "raw": {
             "Car": "1990 Honda #19 101 Motorsport CRX WTAC",
@@ -306,13 +242,138 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.735,
+      "score": 0.665,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-honda-19-101-motorsport-crx-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "FWD",
+      "engine": "Stock",
+      "id": "sc-231984668",
+      "metaRank": 8,
+      "name": "S2 Pure Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 222,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {
+            "Build": "",
+            "Class": "S2",
+            "Drivetrain": "FWD",
+            "Engine": "Stock",
+            "Make": "Honda",
+            "Model": "#19 101 Motorsport CRX WTAC",
+            "Road Surface": "Road",
+            "Share Code": "231984668",
+            "Tires": "Super Slicks",
+            "Tune Name": "james",
+            "Year": "1990"
+          },
+          "row": 24,
+          "sourceId": "k1z-gray",
+          "tab": "fh6-tunes"
+        }
+      ],
+      "score": 0.727,
       "shareCode": "231984668",
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-honda-19-101-motorsport-crx-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-518782669",
+      "metaRank": 7,
+      "name": "Electric Town",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 291,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "518782669",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "f1r-patch"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-honda-19-101-motorsport-crx-wtac",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "FWD",
+      "id": "sc-539044904",
+      "metaNotes": "3.9G前驱操控车 仅限小赛道",
+      "metaNotesI18n": {
+        "en": "3.9 version: FWD handling car; short tracks only.",
+        "pt-br": "Versão 3.9: tração dianteira voltada para curvas; só para pistas curtas."
+      },
+      "metaRank": 17,
+      "name": "Soni WR V2",
+      "notes": "Road Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 259,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1990 Honda #19 101 Motorsport CRX WTAC",
+            "Comment": "",
+            "Design": "MUGEN FORZA TIME ATTACK",
+            "Designer": "DaimonEXE",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Soni WR V2",
+            "Tuner": "ESV Mars",
+            "fill": "FF0070C0"
+          },
+          "row": 1674,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.726,
+      "shareCode": "539044904",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "esv-mars"
     }
   ],
   "schemaVersion": 1

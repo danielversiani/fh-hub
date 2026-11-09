@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1992-ferrari-512-tr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "nc-094385817d",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 78,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "jsr-chronic-k1z-bard-zombiejesus52"
+    },
     {
       "buildTags": [
         "purist"
@@ -107,6 +129,35 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-ferrari-512-tr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-26",
+      "id": "sc-852583050",
+      "name": "Road Purist Easy",
+      "notes": "Online, Seasonal - Easy to use for Purist and Strong too",
+      "observations": [
+        {
+          "raw": {},
+          "row": 20,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.484,
+      "shareCode": "852583050",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -530,6 +530,32 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-lamborghini-huracan-lp-610-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-871274812",
+      "metaRank": 90,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 177,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.547,
+      "shareCode": "871274812",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "attax-johnson"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -530,6 +530,55 @@
       "tunerId": "k1z-bard"
     },
     {
+      "buildTags": [],
+      "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-18",
+      "drivetrain": "AWD",
+      "id": "sc-127785238",
+      "name": "S1 Road AWD Easy",
+      "notes": "Online - Very easy and nice to drive",
+      "observations": [
+        {
+          "raw": {},
+          "row": 26,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.475,
+      "shareCode": "127785238",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-177085364",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 60,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "177085364",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
       "buildTags": [
         "full-aero"
       ],
@@ -584,6 +633,53 @@
       "tierSource": "default",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "sc-824973895",
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 217,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "824973895",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-08-11",
+      "id": "sc-841979896",
+      "name": "Dirt Allround META Sunflower 55.3 A/M",
+      "observations": [
+        {
+          "raw": {},
+          "row": 56,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.519,
+      "shareCode": "841979896",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -350,75 +350,6 @@
     {
       "buildTags": [],
       "carId": "1973-bmw-2002-turbo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-9ce667279e",
-      "metaRank": 33,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 70,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "1973-bmw-2002-turbo",
-      "categories": [
-        "meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-d3f79f09f8",
-      "metaRank": 5,
-      "name": "C Road/Street AWD Stock Look",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1973 BMW 2002 Turbo",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "C Road/Street AWD Stock Look",
-            "Tuner": "LogikJ",
-            "fill": "theme:7"
-          },
-          "row": 25,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1973-bmw-2002-turbo",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -448,6 +379,85 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-04",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-577480613",
+      "metaRank": 33,
+      "name": "B Dirt Good",
+      "observations": [
+        {
+          "raw": {},
+          "row": 191,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.649,
+      "shareCode": "577480613",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1973-bmw-2002-turbo",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-06-11",
+      "drivetrain": "AWD",
+      "id": "sc-923888496",
+      "metaRank": 5,
+      "name": "C Road/Street AWD Stock Look",
+      "notes": "Online, Seasonal - Easy + Good Accel",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1973 BMW 2002 Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "C Road/Street AWD Stock Look",
+            "Tuner": "LogikJ",
+            "fill": "theme:7"
+          },
+          "row": 25,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 5,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.742,
+      "shareCode": "923888496",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

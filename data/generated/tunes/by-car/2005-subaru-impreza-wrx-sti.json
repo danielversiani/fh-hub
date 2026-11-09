@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -206,37 +206,6 @@
       "tunerId": "drx-q3"
     },
     {
-      "buildTags": [],
-      "carId": "2005-subaru-impreza-wrx-sti",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-b5df99bfec",
-      "metaRank": 27,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 58,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
       "buildTags": [
         "stock-look"
       ],
@@ -306,6 +275,61 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-subaru-impreza-wrx-sti",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-106869025",
+      "name": "A Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 133,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "106869025",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "attax-johnson"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-subaru-impreza-wrx-sti",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-03",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-397447672",
+      "metaRank": 27,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 194,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.646,
+      "shareCode": "397447672",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

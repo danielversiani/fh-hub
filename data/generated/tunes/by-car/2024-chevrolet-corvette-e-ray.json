@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -201,57 +201,6 @@
       ],
       "class": "S1",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-82aa87729b",
-      "lapRefs": [
-        {
-          "time": "54.6",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 54.6",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 13,
-      "name": "Road Allround 54.6 Shirakawa Clean (Cybrexz is lying again)",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2024 Chevrolet Corvette E-Ray",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround 54.6 Shirakawa Clean (Cybrexz is lying again)",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 1186,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-chevrolet-corvette-e-ray",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-9c726ff4a6",
       "metaRank": 13,
@@ -315,6 +264,91 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "les-comodoro"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-chevrolet-corvette-e-ray",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-144199108",
+      "metaRank": 13,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 152,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.622,
+      "shareCode": "144199108",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "attax-johnson"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-chevrolet-corvette-e-ray",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-181376034",
+      "lapRefs": [
+        {
+          "time": "54.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 13,
+      "name": "Road Allround 54.6 Shirakawa Clean (Cybrexz is lying again)",
+      "notes": "Circuits, sprints and street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 75,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2024 Chevrolet Corvette E-Ray",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 54.6 Shirakawa Clean (Cybrexz is lying again)",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1186,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.782,
+      "shareCode": "181376034",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

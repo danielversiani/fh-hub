@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -186,6 +186,32 @@
         }
       ],
       "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ford-mustang-rtr-spec-5",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-155497381",
+      "metaRank": 64,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 89,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "155497381",
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

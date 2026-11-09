@@ -1,37 +1,6 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2013-mercedes-benz-g-65-amg",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-1684b81b1b",
-      "metaRank": 39,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 83,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "cross-country",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
     {
       "buildTags": [],
       "carId": "2013-mercedes-benz-g-65-amg",
@@ -102,25 +71,58 @@
       "categories": [
         "off-meta"
       ],
-      "class": "B",
-      "confidence": 0.8,
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-22",
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-ea37e44a77",
-      "metaRank": 18,
-      "name": "B cross-country AWD",
+      "id": "sc-143574926",
+      "metaRank": 39,
+      "name": "CC T1 1.1",
       "observations": [
         {
           "raw": {},
-          "row": 40,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
+          "row": 170,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.571,
+      "shareCode": "143574926",
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-mercedes-benz-g-65-amg",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-11",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-734360857",
+      "metaRank": 18,
+      "name": "B CC Sprint Strong",
+      "observations": [
+        {
+          "raw": {},
+          "row": 219,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "power",
-      "score": 0.592,
+      "score": 0.606,
+      "shareCode": "734360857",
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",

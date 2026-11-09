@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "carId": "1997-lotus-elise-gt1",
@@ -26,7 +26,6 @@
       "category": "meta",
       "confidence": 0.95,
       "eventId": "s06-spring--championship--dockside-drive",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -45,16 +44,15 @@
           }
         }
       ],
-      "score": 0.673,
+      "score": 0.663,
       "seasonId": "s06-spring",
-      "tuneId": "nc-cf5e654016"
+      "tuneId": "sc-157872553"
     },
     {
       "carId": "2004-maserati-mc12",
       "category": "meta",
       "confidence": 0.95,
       "eventId": "s06-spring--championship--dockside-drive",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -73,9 +71,9 @@
           }
         }
       ],
-      "score": 0.714,
+      "score": 0.703,
       "seasonId": "s06-spring",
-      "tuneId": "nc-71b2de0576"
+      "tuneId": "sc-213577493"
     },
     {
       "carId": "2002-ferrari-enzo-ferrari",
@@ -373,7 +371,6 @@
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -386,14 +383,13 @@
       ],
       "score": 0.62,
       "seasonId": "s06-spring",
-      "tuneId": "nc-c2ad2bc115"
+      "tuneId": "sc-153762630"
     },
     {
       "carId": "1989-nissan-silvia-ks",
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -406,14 +402,13 @@
       ],
       "score": 0.62,
       "seasonId": "s06-spring",
-      "tuneId": "nc-acade1f690"
+      "tuneId": "sc-113670138"
     },
     {
       "carId": "1991-honda-beat",
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -422,11 +417,17 @@
             "source": "noa-miyako",
             "tier": "meta"
           }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
         }
       ],
-      "score": 0.732,
+      "score": 0.82,
       "seasonId": "s06-spring",
-      "tuneId": "nc-621782db3d"
+      "tuneId": "sc-726769731"
     },
     {
       "carId": "2001-acura-integra-type-r",

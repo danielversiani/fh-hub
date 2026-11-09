@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T03:28:16.105Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "carId": "1986-honda-civic-si",
@@ -1768,6 +1768,24 @@
       "tires": "stock",
       "tunerIds": [
         "lphanhan"
+      ]
+    },
+    {
+      "carId": "2022-rivian-r1t",
+      "class": "B",
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "rank": 26,
+      "role": "allround",
+      "row": 56,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "b-cross-country",
+      "tier": "t1",
+      "tires": "stock",
+      "tunerIds": [
+        "noa-miyako",
+        "caigou-yyy"
       ]
     },
     {
@@ -5450,6 +5468,24 @@
       ]
     },
     {
+      "carId": "2022-rivian-r1t",
+      "class": "A",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "rank": 5,
+      "role": "allround",
+      "row": 12,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "a-cross-country",
+      "tier": "meta",
+      "tires": "offroad",
+      "tunerIds": [
+        "lphanhan",
+        "noa-seako"
+      ]
+    },
+    {
       "carId": "2019-toyota-tacoma-trd-pro",
       "class": "A",
       "difficulty": "normal",
@@ -5943,6 +5979,23 @@
       ]
     },
     {
+      "carId": "2023-ford-f-150-raptor-r",
+      "class": "A",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "rank": 38,
+      "role": "allround",
+      "row": 81,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "a-cross-country",
+      "tier": "t2",
+      "tires": "offroad",
+      "tunerIds": [
+        "caigou-yyy"
+      ]
+    },
+    {
       "carId": "2013-mercedes-benz-g-65-amg",
       "class": "A",
       "difficulty": "easy",
@@ -6024,6 +6077,23 @@
       "rank": 43,
       "role": "handling",
       "row": 91,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "a-cross-country",
+      "tier": "t2",
+      "tires": "offroad",
+      "tunerIds": [
+        "caigou-yyy"
+      ]
+    },
+    {
+      "carId": "2021-dodge-durango-srt-hellcat",
+      "class": "A",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "rank": 44,
+      "role": "allround",
+      "row": 93,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -11139,6 +11209,24 @@
       ]
     },
     {
+      "carId": "1965-alfa-romeo-giulia-tz2",
+      "class": "S1",
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "notes": "比33S加速更快 但抓地力稍差 过水依然很差",
+      "rank": 8,
+      "role": "allround",
+      "row": 19,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "s1-cross-country",
+      "tier": "t1",
+      "tires": "offroad",
+      "tunerIds": [
+        "lphanhan"
+      ]
+    },
+    {
       "carId": "1969-dodge-charger-daytona-hemi",
       "class": "S1",
       "difficulty": "normal",
@@ -11881,6 +11969,34 @@
       "rank": 35,
       "role": "allround",
       "row": 75,
+      "sourceId": "noa-miyako",
+      "surface": "dirt",
+      "tab": "s1-dirt",
+      "tier": "t2",
+      "tires": "offroad",
+      "tunerIds": [
+        "aions580pio"
+      ]
+    },
+    {
+      "carId": "2020-mercedes-amg-gt-black-series",
+      "class": "S1",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "56.8",
+          "track": "Sunflower"
+        }
+      ],
+      "notes": "向日葵56.8",
+      "notesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "rank": 36,
+      "role": "handling",
+      "row": 77,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "s1-dirt",
@@ -14684,6 +14800,24 @@
       "tires": "stock",
       "tunerIds": [
         "noa-miyako"
+      ]
+    },
+    {
+      "carId": "2020-mercedes-amg-gt-black-series",
+      "class": "S1",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "notes": "哪哪都好就是慢",
+      "rank": 134,
+      "role": "allround",
+      "row": 275,
+      "sourceId": "noa-miyako",
+      "surface": "road",
+      "tab": "s1-road",
+      "tier": "t3",
+      "tires": "rally",
+      "tunerIds": [
+        "msr-sola"
       ]
     },
     {

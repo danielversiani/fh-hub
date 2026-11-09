@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -74,49 +74,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "lnvrtebrate"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-reliant-supervan-iii",
-      "categories": [
-        "meta",
-        "meme"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-3d81b3560c",
-      "metaNotes": "多个环道以及冲刺图世界纪录",
-      "metaNotesI18n": {
-        "en": "World records on several circuits and sprints.",
-        "pt-br": "Recordes mundiais em vários circuitos e sprints."
-      },
-      "metaRank": 2,
-      "name": "C road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 5,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
-        },
-        {
-          "raw": {},
-          "row": 59,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.62,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -267,6 +224,98 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1972-reliant-supervan-iii",
+      "categories": [
+        "meta",
+        "meme"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-106598234",
+      "metaNotes": "多个环道以及冲刺图世界纪录",
+      "metaNotesI18n": {
+        "en": "World records on several circuits and sprints.",
+        "pt-br": "Recordes mundiais em vários circuitos e sprints."
+      },
+      "metaRank": 2,
+      "name": "C Road Meta Powerbuild",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 293,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.62,
+      "shareCode": "106598234",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-reliant-supervan-iii",
+      "categories": [
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "id": "sc-140676079",
+      "name": "B Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 42,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "140676079",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "gtz-liquid"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-reliant-supervan-iii",
+      "categories": [
+        "meta",
+        "meme"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "id": "sc-334326434",
+      "metaRank": 2,
+      "name": "C Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 18,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.532,
+      "shareCode": "334326434",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "zombiejesus52"
     }
   ],
   "schemaVersion": 1

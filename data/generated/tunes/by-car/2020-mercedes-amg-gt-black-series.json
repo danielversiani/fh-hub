@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-11-09T13:11:21.974Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2020-mercedes-amg-gt-black-series",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5529624329",
+      "name": "A road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Mercedes-AMG GT Black Series",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A road",
+            "Tuner": "major esus",
+            "fill": "FFFF0000"
+          },
+          "row": 2273,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "major-esus"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-mercedes-amg-gt-black-series",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-a482b1a67a",
+      "name": "S2 Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Mercedes-AMG GT Black Series",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Grip",
+            "Tuner": "ESV Lawrence",
+            "fill": "FF0070C0"
+          },
+          "row": 2274,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-mercedes-amg-gt-black-series",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-de94c18853",
+      "metaNotes": "哪哪都好就是慢",
+      "metaRank": 134,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 275,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.507,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-mercedes-amg-gt-black-series",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-282767040",
+      "lapRefs": [
+        {
+          "time": "56.8",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵56.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 36,
+      "name": "Dirt Stock Look Grip V1.2",
+      "observations": [
+        {
+          "raw": {},
+          "row": 110,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.573,
+      "shareCode": "282767040",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,37 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2018-ferrari-fxx-k-evo-welcome-pack",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "R",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-9d664ed283",
-      "metaRank": 15,
-      "name": "R road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 34,
-          "sourceId": "noa-miyako",
-          "tab": "r-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.592,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [],
       "carId": "2018-ferrari-fxx-k-evo-welcome-pack",
@@ -67,6 +36,86 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ferrari-fxx-k-evo-welcome-pack",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-157050681",
+      "metaRank": 15,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 21,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "shareCode": "157050681",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ferrari-fxx-k-evo-welcome-pack",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "sc-567139100",
+      "metaRank": 15,
+      "name": "R Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 249,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.531,
+      "shareCode": "567139100",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "nyasmowisher"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ferrari-fxx-k-evo-welcome-pack",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "sc-791880253",
+      "name": "X Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 264,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "791880253",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "trviis"
     }
   ],
   "schemaVersion": 1

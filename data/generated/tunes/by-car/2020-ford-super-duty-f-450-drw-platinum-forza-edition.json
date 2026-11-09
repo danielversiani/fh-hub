@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -264,6 +264,78 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-118238176",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 83,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "118238176",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-10-23",
+      "id": "sc-182288226",
+      "name": "Heavy Hitters",
+      "notes": "Cross Country Meta+ recommendation from LES Venturi.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 279,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.537,
+      "shareCode": "182288226",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-08",
+      "id": "sc-441207872",
+      "name": "S1 CC Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 60,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.497,
+      "shareCode": "441207872",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

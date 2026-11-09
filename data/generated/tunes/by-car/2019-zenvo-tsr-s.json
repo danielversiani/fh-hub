@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2019-zenvo-tsr-s",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-13bd4af2ed",
-      "lapRefs": [
-        {
-          "time": "56.7",
-          "track": "Sunflower"
-        }
-      ],
-      "metaNotes": "向日葵56.7 手感有点重",
-      "metaNotesI18n": {
-        "en": "Steering feels a bit heavy.",
-        "pt-br": "Direção um pouco pesada."
-      },
-      "metaRank": 35,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 75,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.517,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
     {
       "buildTags": [],
       "carId": "2019-zenvo-tsr-s",
@@ -232,6 +190,51 @@
       "tierSource": "default",
       "tires": "rally",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2019-zenvo-tsr-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-176374453",
+      "lapRefs": [
+        {
+          "time": "56.7",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵56.7 手感有点重",
+      "metaNotesI18n": {
+        "en": "Steering feels a bit heavy.",
+        "pt-br": "Direção um pouco pesada."
+      },
+      "metaRank": 35,
+      "name": "RV8 Dirt Stock Look V1.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 109,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.529,
+      "shareCode": "176374453",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
     }
   ],
   "schemaVersion": 1

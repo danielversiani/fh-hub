@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [],
@@ -33,68 +33,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-exomotive-exocet-sport-v8-xp-5",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-20b68205a2",
-      "metaRank": 7,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 16,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "handling",
-      "score": 0.685,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "k1z-jeremy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-exomotive-exocet-sport-v8-xp-5",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-2c1b02b811",
-      "metaRank": 8,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 18,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "handling",
-      "score": 0.732,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -240,37 +178,6 @@
       ],
       "class": "A",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-d2edd6b0eb",
-      "metaRank": 7,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 16,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "handling",
-      "score": 0.685,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-exomotive-exocet-sport-v8-xp-5",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-d85ceb647e",
       "metaRank": 7,
@@ -298,6 +205,107 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "darkz704"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-exomotive-exocet-sport-v8-xp-5",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-170594234",
+      "metaRank": 8,
+      "name": "S1 Handling Meta World Record",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 157,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 246,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.811,
+      "shareCode": "170594234",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-exomotive-exocet-sport-v8-xp-5",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-673640498",
+      "metaRank": 7,
+      "name": "A Pure Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 74,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.673,
+      "shareCode": "673640498",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "k1z-jeremy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-exomotive-exocet-sport-v8-xp-5",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-713929975",
+      "metaRank": 7,
+      "name": "A Road Handling Meta",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 243,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.685,
+      "shareCode": "713929975",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

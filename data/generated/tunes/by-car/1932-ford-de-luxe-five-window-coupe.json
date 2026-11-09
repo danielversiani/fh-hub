@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -31,42 +31,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "shinnosuke"
-    },
-    {
-      "buildTags": [],
-      "carId": "1932-ford-de-luxe-five-window-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-5e50686a4d",
-      "metaNotes": "樱桃园2:03high 小心点开",
-      "metaNotesI18n": {
-        "en": "Cherry Field in the high 2:03s; drive carefully.",
-        "pt-br": "Cherry Field na casa de 2:03; pilote com cuidado."
-      },
-      "metaRank": 47,
-      "name": "A dirt RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 99,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "power",
-      "score": 0.413,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "fuzzytexas81292"
     },
     {
       "buildTags": [],
@@ -146,6 +110,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1932-ford-de-luxe-five-window-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-20",
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-263240671",
+      "metaNotes": "樱桃园2:03high 小心点开",
+      "metaNotesI18n": {
+        "en": "Cherry Field in the high 2:03s; drive carefully.",
+        "pt-br": "Cherry Field na casa de 2:03; pilote com cuidado."
+      },
+      "metaRank": 47,
+      "name": "A Dirt Power 1.0",
+      "observations": [
+        {
+          "raw": {},
+          "row": 142,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.429,
+      "shareCode": "263240671",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fuzzytexas81292"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -313,6 +313,55 @@
     {
       "buildTags": [],
       "carId": "2015-ultima-evolution-coupe-1020",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-137520106",
+      "name": "R Dirt Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 262,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "137520106",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "rfnd-domodel"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-ultima-evolution-coupe-1020",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "id": "sc-179652488",
+      "metaRank": 23,
+      "name": "S2 Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 243,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.465,
+      "shareCode": "179652488",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "kilianfirebold"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-ultima-evolution-coupe-1020",
       "categories": [
         "off-meta"
       ],
@@ -350,6 +399,38 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2015-ultima-evolution-coupe-1020",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-949038135",
+      "name": "R dirt",
+      "notes": "Useful for PR Stunts",
+      "observations": [
+        {
+          "raw": {},
+          "row": 44,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 45,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "949038135",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thegr8lebowski"
     }
   ],
   "schemaVersion": 1

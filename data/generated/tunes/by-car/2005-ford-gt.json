@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:22:45.231Z",
   "items": [
     {
       "buildTags": [],
@@ -74,6 +74,7 @@
       "tunerId": "grt-preto"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2005-ford-gt",
       "categories": [
@@ -207,39 +208,22 @@
       ],
       "class": "A",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-94e37b3ee5",
-      "lapRefs": [
-        {
-          "time": "59.2",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.2 全段加速优势",
-      "metaNotesI18n": {
-        "en": "Acceleration advantage across the range.",
-        "pt-br": "Vantagem de aceleração em toda a faixa."
-      },
-      "metaRank": 3,
-      "name": "A road AWD",
+      "id": "nc-ac7f162280",
+      "metaRank": 5,
+      "name": "A Dirt-Allround",
       "observations": [
         {
           "raw": {},
-          "row": 7,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
+          "row": 82,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
         }
       ],
-      "role": "allround",
-      "score": 0.77,
-      "surface": "road",
-      "tier": "meta-plus",
+      "score": 0.653,
+      "surface": "dirt",
+      "tier": "meta",
       "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
+      "tunerId": "thedannny-zaz490-noa-miyako"
     },
     {
       "buildTags": [],
@@ -491,6 +475,7 @@
       "tunerId": "razkinzmango"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2005-ford-gt",
       "categories": [
@@ -673,6 +658,110 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "ndl-mazrsg"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-25",
+      "id": "sc-149719472",
+      "metaRank": 5,
+      "name": "8.4 Dirt Full Aero Meta+ V1.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 132,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "149719472",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-157872553",
+      "metaRank": 17,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 164,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.663,
+      "shareCode": "157872553",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-965753005",
+      "lapRefs": [
+        {
+          "time": "59.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.2 全段加速优势",
+      "metaNotesI18n": {
+        "en": "Acceleration advantage across the range.",
+        "pt-br": "Vantagem de aceleração em toda a faixa."
+      },
+      "metaRank": 3,
+      "name": "A Road Meta+Offroad Tire Shirakawa 0:59.2",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 79,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.77,
+      "shareCode": "965753005",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

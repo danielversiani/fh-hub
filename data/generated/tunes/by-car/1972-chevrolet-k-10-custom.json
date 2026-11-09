@@ -1,37 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1972-chevrolet-k-10-custom",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-260e59858f",
-      "metaRank": 32,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 68,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "power",
-      "score": 0.592,
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
     {
       "buildTags": [],
       "carId": "1972-chevrolet-k-10-custom",
@@ -186,37 +155,6 @@
       "tunerId": "logikj"
     },
     {
-      "buildTags": [],
-      "carId": "1972-chevrolet-k-10-custom",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-92940bbf91",
-      "metaRank": 3,
-      "name": "B cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 7,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.723,
-      "surface": "cross-country",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -332,51 +270,6 @@
       ],
       "class": "B",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-d35946683e",
-      "metaNotes": "综合好开",
-      "metaNotesI18n": {
-        "en": "Well-rounded and easy to drive.",
-        "pt-br": "Completo e fácil de pilotar."
-      },
-      "metaRank": 12,
-      "name": "B Dirt Grip V2",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1972 Chevrolet K-10 Custom",
-            "Comment": "",
-            "Design": "CT SHOP TRUCK",
-            "Designer": "BongJovi94",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt Grip V2",
-            "Tuner": "Noa Miyako",
-            "fill": "FFED7D31"
-          },
-          "row": 225,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-chevrolet-k-10-custom",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-d7d69a95a3",
       "metaRank": 3,
@@ -477,6 +370,123 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-chevrolet-k-10-custom",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-20",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-167116779",
+      "metaNotes": "综合好开",
+      "metaNotesI18n": {
+        "en": "Well-rounded and easy to drive.",
+        "pt-br": "Completo e fácil de pilotar."
+      },
+      "metaRank": 12,
+      "name": "B Dirt Grip V2",
+      "observations": [
+        {
+          "raw": {},
+          "row": 187,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1972 Chevrolet K-10 Custom",
+            "Comment": "",
+            "Design": "CT SHOP TRUCK",
+            "Designer": "BongJovi94",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Grip V2",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 225,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.78,
+      "shareCode": "167116779",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-chevrolet-k-10-custom",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-02",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-624854335",
+      "metaRank": 3,
+      "name": "B CC Very strong",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.729,
+      "shareCode": "624854335",
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-chevrolet-k-10-custom",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-02",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-833095214",
+      "metaRank": 32,
+      "name": "CC Sprint Strong",
+      "observations": [
+        {
+          "raw": {},
+          "row": 163,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.605,
+      "shareCode": "833095214",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

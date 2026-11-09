@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T14:51:56.223Z",
   "items": [
     {
       "buildTags": [],
@@ -156,8 +156,14 @@
       "engine": "Stock",
       "id": "sc-357300055",
       "metaRank": 9,
-      "name": "AWD Allround",
+      "name": "S2 Allround",
       "observations": [
+        {
+          "raw": {},
+          "row": 226,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
         {
           "raw": {
             "Build": "",
@@ -177,13 +183,97 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.61,
+      "score": 0.697,
       "shareCode": "357300055",
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-586453142",
+      "metaRank": 9,
+      "name": "S2 Road",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 67,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "shareCode": "586453142",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "sc-757325454",
+      "metaRank": 12,
+      "name": "R Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 251,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "757325454",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-essenza-scv12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "sc-854226895",
+      "metaRank": 12,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 19,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.59,
+      "shareCode": "854226895",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

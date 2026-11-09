@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -279,9 +279,9 @@
       "categories": [],
       "class": "S2",
       "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-ea7a2d0c32",
-      "name": "S2 ROAD",
+      "drivetrain": "RWD",
+      "id": "nc-d8b5a6cca1",
+      "name": "Queenology",
       "observations": [
         {
           "raw": {
@@ -289,13 +289,13 @@
             "Comment": "",
             "Design": "",
             "Designer": "",
-            "Drivetrain": "AWD",
+            "Drivetrain": "RWD",
             "Terrain": "Road",
-            "Tune": "S2 ROAD",
-            "Tuner": "Cirno1X",
+            "Tune": "Queenology",
+            "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 1836,
+          "row": 1838,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -304,11 +304,12 @@
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tunerId": "cirno1x"
+      "tunerId": "k1z-gray"
     },
     {
       "buildTags": [
-        "full-aero"
+        "full-aero",
+        "powerbuild"
       ],
       "carId": "2024-koenigsegg-gemera",
       "categories": [],
@@ -317,8 +318,15 @@
       "drivetrain": "RWD",
       "engine": "Stock",
       "id": "sc-128439824",
-      "name": "Queenology",
+      "name": "S2 road",
+      "notes": "Arpan's sheet lists a Colossus world record.",
       "observations": [
+        {
+          "raw": {},
+          "row": 271,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
         {
           "raw": {
             "Build": "Full Aero",
@@ -343,24 +351,96 @@
             "Comment": "",
             "Design": "",
             "Designer": "",
-            "Drivetrain": "RWD",
+            "Drivetrain": "AWD",
             "Terrain": "Road",
-            "Tune": "Queenology",
-            "Tuner": "K1Z Gray",
+            "Tune": "S2 ROAD",
+            "Tuner": "Cirno1X",
             "fill": "FF0070C0"
           },
-          "row": 1838,
+          "row": 1836,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.635,
+      "score": 0.789,
       "shareCode": "128439824",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
       "tires": "drift",
-      "tunerId": "k1z-gray"
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2024-koenigsegg-gemera",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-173973406",
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "173973406",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "vsm-huon"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-koenigsegg-gemera",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "sc-248356210",
+      "name": "X Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 265,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "248356210",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "rfnd-domodel"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-koenigsegg-gemera",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "sc-373159217",
+      "name": "Too Heavy",
+      "notes": "A heavy but competitive S2 option that rewards smooth inputs.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 68,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "373159217",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "grandma-driving"
     }
   ],
   "schemaVersion": 1

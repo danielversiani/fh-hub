@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -155,6 +155,32 @@
         }
       ],
       "score": 0.522,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ford-focus-st",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-101694492",
+      "metaRank": 20,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 85,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.51,
+      "shareCode": "101694492",
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",

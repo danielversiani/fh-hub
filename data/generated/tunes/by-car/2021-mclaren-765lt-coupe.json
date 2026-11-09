@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -351,6 +351,48 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mclaren-765lt-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-830934864",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9 均衡四驱",
+      "metaNotesI18n": {
+        "en": "Balanced AWD.",
+        "pt-br": "Tração integral equilibrada."
+      },
+      "metaRank": 58,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 188,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.61,
+      "shareCode": "830934864",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-howzer"
     }
   ],
   "schemaVersion": 1

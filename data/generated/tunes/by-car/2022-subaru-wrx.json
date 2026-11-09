@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -37,41 +37,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2022-subaru-wrx",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-5f4e7e89e4",
-      "name": "B Dirt Rally Stock Look Easy",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2022 Subaru WRX",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt Rally Stock Look Easy",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 544,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -138,6 +103,50 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "wisteriadrop"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2022-subaru-wrx",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-06-08",
+      "drivetrain": "AWD",
+      "id": "sc-865826962",
+      "name": "B Dirt Rally Stock Look Easy",
+      "notes": "Online, Campaign, Seasonals - Easy to drive",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Subaru WRX",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Rally Stock Look Easy",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 544,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "865826962",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

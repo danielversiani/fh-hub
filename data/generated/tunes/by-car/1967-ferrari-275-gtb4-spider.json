@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -227,37 +227,6 @@
       "buildTags": [],
       "carId": "1967-ferrari-275-gtb4-spider",
       "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-cc7faaadd7",
-      "metaRank": 46,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 97,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.563,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1967-ferrari-275-gtb4-spider",
-      "categories": [
         "meta"
       ],
       "class": "A",
@@ -334,6 +303,64 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1967-ferrari-275-gtb4-spider",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-140559754",
+      "metaRank": 19,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.51,
+      "shareCode": "140559754",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1967-ferrari-275-gtb4-spider",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-14",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-162439137",
+      "metaRank": 46,
+      "name": "A Dirt OK",
+      "observations": [
+        {
+          "raw": {},
+          "row": 141,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.576,
+      "shareCode": "162439137",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

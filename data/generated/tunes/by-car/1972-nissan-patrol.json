@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -148,35 +148,6 @@
       "buildTags": [],
       "carId": "1972-nissan-patrol",
       "categories": [],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-593ef06b35",
-      "metaRank": 47,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 100,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.507,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "AWD",
@@ -282,46 +253,6 @@
     {
       "buildTags": [],
       "carId": "1972-nissan-patrol",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-b69677a669",
-      "metaRank": 12,
-      "name": "C Dirt Grip",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1972 Nissan Patrol",
-            "Comment": "",
-            "Design": "MONA RACING",
-            "Designer": "| DopeGirL |",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "C Dirt Grip",
-            "Tuner": "Noa Miyako",
-            "fill": "theme:7"
-          },
-          "row": 68,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "handling",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
       "categories": [],
       "class": "B",
       "confidence": 0.8,
@@ -419,39 +350,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-nissan-patrol",
-      "categories": [],
-      "class": "D",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-ce6f6b8b27",
-      "name": "Dirt Circuit Rivals",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1972 Nissan Patrol",
-            "Comment": "",
-            "Design": "TIGER (HOBBES) STRIPES",
-            "Designer": "Hobbes6959",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Dirt Circuit Rivals",
-            "Tuner": "LogikJ",
-            "fill": "FF9FC5E8"
-          },
-          "row": 10,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -560,6 +458,125 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-nissan-patrol",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-07-23",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-133400089",
+      "metaRank": 12,
+      "name": "C Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 236,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1972 Nissan Patrol",
+            "Comment": "",
+            "Design": "MONA RACING",
+            "Designer": "| DopeGirL |",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt Grip",
+            "Tuner": "Noa Miyako",
+            "fill": "theme:7"
+          },
+          "row": 68,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.73,
+      "shareCode": "133400089",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-nissan-patrol",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-23",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-169357413",
+      "metaRank": 47,
+      "name": "B Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 208,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.525,
+      "shareCode": "169357413",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-nissan-patrol",
+      "categories": [],
+      "class": "D",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "sc-494294362",
+      "name": "Dirt Circuit Rivals",
+      "notes": "Circuit Rivals Meta - Currently has WR on Sunflower Scramble",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1972 Nissan Patrol",
+            "Comment": "",
+            "Design": "TIGER (HOBBES) STRIPES",
+            "Designer": "Hobbes6959",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt Circuit Rivals",
+            "Tuner": "LogikJ",
+            "fill": "FF9FC5E8"
+          },
+          "row": 10,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.654,
+      "shareCode": "494294362",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

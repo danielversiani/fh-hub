@@ -1,12 +1,11 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "carId": "1986-honda-civic-si",
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-autumn--championship--coming-in-hot",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -15,18 +14,23 @@
             "source": "noa-miyako",
             "tier": "meta-plus"
           }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
         }
       ],
-      "score": 0.695,
+      "score": 0.774,
       "seasonId": "s06-autumn",
-      "tuneId": "nc-341cc4d527"
+      "tuneId": "sc-175605880"
     },
     {
       "carId": "1993-renault-clio-williams",
       "category": "off-meta",
-      "confidence": 0.8,
+      "confidence": 0.85,
       "eventId": "s06-autumn--championship--coming-in-hot",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -37,9 +41,9 @@
           }
         }
       ],
-      "score": 0.638,
+      "score": 0.642,
       "seasonId": "s06-autumn",
-      "tuneId": "nc-16f424fc6e"
+      "tuneId": "sc-114943845"
     },
     {
       "carId": "1974-honda-civic-rs",
@@ -275,7 +279,6 @@
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -288,14 +291,13 @@
       ],
       "score": 0.62,
       "seasonId": "s06-autumn",
-      "tuneId": "nc-acade1f690"
+      "tuneId": "sc-113670138"
     },
     {
       "carId": "1993-nissan-240sx",
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -306,9 +308,9 @@
           }
         }
       ],
-      "score": 0.695,
+      "score": 0.682,
       "seasonId": "s06-autumn",
-      "tuneId": "nc-46fde2adc9"
+      "tuneId": "sc-921519403"
     },
     {
       "carId": "1987-nissan-skyline-gts-r",
@@ -421,7 +423,6 @@
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -434,14 +435,13 @@
       ],
       "score": 0.62,
       "seasonId": "s06-autumn",
-      "tuneId": "nc-acade1f690"
+      "tuneId": "sc-113670138"
     },
     {
       "carId": "1993-nissan-240sx",
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -452,9 +452,9 @@
           }
         }
       ],
-      "score": 0.695,
+      "score": 0.682,
       "seasonId": "s06-autumn",
-      "tuneId": "nc-46fde2adc9"
+      "tuneId": "sc-921519403"
     },
     {
       "carId": "1987-nissan-skyline-gts-r",

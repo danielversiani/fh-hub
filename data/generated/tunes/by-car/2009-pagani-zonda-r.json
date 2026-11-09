@@ -1,42 +1,6 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2009-pagani-zonda-r",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "R",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-8f1a930ee4",
-      "metaNotes": "高速弯有点推头",
-      "metaNotesI18n": {
-        "en": "Slight understeer in fast corners.",
-        "pt-br": "Sai um pouco de frente em curvas rápidas."
-      },
-      "metaRank": 16,
-      "name": "R road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 37,
-          "sourceId": "noa-miyako",
-          "tab": "r-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.479,
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [],
       "carId": "2009-pagani-zonda-r",
@@ -161,6 +125,44 @@
       ],
       "carId": "2009-pagani-zonda-r",
       "categories": [
+        "off-meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "id": "sc-101982645",
+      "metaNotes": "高速弯有点推头",
+      "metaNotesI18n": {
+        "en": "Slight understeer in fast corners.",
+        "pt-br": "Sai um pouco de frente em curvas rápidas."
+      },
+      "metaRank": 16,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 22,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.479,
+      "shareCode": "101982645",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2009-pagani-zonda-r",
+      "categories": [
         "meta"
       ],
       "class": "S2",
@@ -186,8 +188,14 @@
         "pt-br": ""
       },
       "metaRank": 10,
-      "name": "S2 Powerbuild",
+      "name": "S2 Allround",
       "observations": [
+        {
+          "raw": {},
+          "row": 238,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
         {
           "raw": {
             "Build": "",
@@ -208,7 +216,7 @@
         }
       ],
       "role": "power",
-      "score": 0.52,
+      "score": 0.607,
       "shareCode": "131940042",
       "surface": "road",
       "tier": "t0.5",

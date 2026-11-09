@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [
@@ -7,12 +7,14 @@
       ],
       "carId": "2023-ford-f-150-raptor-r",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-4d888f6613",
+      "metaRank": 38,
       "name": "Purist CC / Dirt",
       "observations": [
         {
@@ -32,10 +34,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.53,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
     {
@@ -107,6 +109,62 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-ford-f-150-raptor-r",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.4,
+      "createdAt": "2026-08-01",
+      "id": "sc-106082480",
+      "name": "Good B CC Sprint",
+      "observations": [
+        {
+          "raw": {},
+          "row": 214,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.517,
+      "shareCode": "106082480",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-ford-f-150-raptor-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-108713071",
+      "metaRank": 38,
+      "name": "A CC OK",
+      "observations": [
+        {
+          "raw": {},
+          "row": 168,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.579,
+      "shareCode": "108713071",
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

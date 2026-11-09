@@ -1,37 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1994-honda-acty",
-      "categories": [
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-15c024a680",
-      "metaRank": 50,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 106,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.46,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [],
       "carId": "1994-honda-acty",
@@ -104,6 +73,89 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-honda-acty",
+      "categories": [
+        "meme"
+      ],
+      "class": "C",
+      "confidence": 0.35,
+      "id": "sc-405207315",
+      "name": "C Dirt Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 9,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "405207315",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "jsr-chronic"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-honda-acty",
+      "categories": [
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-10",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-584994637",
+      "metaRank": 50,
+      "name": "B Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 210,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.472,
+      "shareCode": "584994637",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-honda-acty",
+      "categories": [
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-938379144",
+      "metaRank": 50,
+      "name": "B Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 30,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.426,
+      "shareCode": "938379144",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "ams-carver"
     }
   ],
   "schemaVersion": 1

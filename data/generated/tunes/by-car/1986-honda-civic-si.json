@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -34,51 +34,6 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "fuzzytexas81292"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-honda-civic-si",
-      "categories": [
-        "meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-1d3b04cf54",
-      "metaNotes": "前中段加速很快 推荐线上驾驶",
-      "metaNotesI18n": {
-        "en": "Very quick low and mid-range acceleration; recommended for online.",
-        "pt-br": "Acelera muito rápido em baixa e média; recomendado para pilotar online."
-      },
-      "metaRank": 21,
-      "name": "C Road General",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1986 Honda Civic SI",
-            "Comment": "",
-            "Design": "PIAA HONDA PRIMO",
-            "Designer": "xXAzaazelXx",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "C Road General",
-            "Tuner": "Noa Miyako",
-            "fill": "theme:7"
-          },
-          "row": 54,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -208,42 +163,6 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1986-honda-civic-si",
-      "categories": [
-        "meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-341cc4d527",
-      "metaRank": 1,
-      "name": "C Dirt Meta",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1986 Honda Civic SI",
-            "Comment": "",
-            "Design": "MUGEN",
-            "Designer": "ESV Troot",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "C Dirt Meta",
-            "Tuner": "LogikJ",
-            "fill": "theme:7"
-          },
-          "row": 51,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.695,
-      "surface": "dirt",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -585,6 +504,208 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [],
+      "class": "D",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "sc-151869422",
+      "name": "Road AWD Seasonal/Rivals Strong",
+      "notes": "Seasonal, Rivals - Stock tires lacking a little grip but is fast",
+      "observations": [
+        {
+          "raw": {},
+          "row": 4,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "151869422",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-164359616",
+      "metaNotes": "前中段加速很快 推荐线上驾驶",
+      "metaNotesI18n": {
+        "en": "Very quick low and mid-range acceleration; recommended for online.",
+        "pt-br": "Acelera muito rápido em baixa e média; recomendado para pilotar online."
+      },
+      "metaRank": 21,
+      "name": "C Road General",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 89,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "PIAA HONDA PRIMO",
+            "Designer": "xXAzaazelXx",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "C Road General",
+            "Tuner": "Noa Miyako",
+            "fill": "theme:7"
+          },
+          "row": 54,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.782,
+      "shareCode": "164359616",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "sc-175605880",
+      "metaRank": 1,
+      "name": "C Dirt Meta",
+      "notes": "Rivals, Online, Seasonal - Meta dirt car in C class",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1986 Honda Civic SI",
+            "Comment": "",
+            "Design": "MUGEN",
+            "Designer": "ESV Troot",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "C Dirt Meta",
+            "Tuner": "LogikJ",
+            "fill": "theme:7"
+          },
+          "row": 51,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 9,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.774,
+      "shareCode": "175605880",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-06-01",
+      "id": "sc-177917533",
+      "metaRank": 1,
+      "name": "C Dirt META 2.0",
+      "notes": "Works very well, grips hard and has very good handling.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 227,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.695,
+      "shareCode": "177917533",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-833654371",
+      "metaRank": 8,
+      "name": "B Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 35,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.606,
+      "shareCode": "833654371",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1986-honda-civic-si",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "id": "sc-840518824",
+      "metaRank": 21,
+      "name": "C Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 13,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.622,
+      "shareCode": "840518824",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "jsr-chronic"
     }
   ],
   "schemaVersion": 1

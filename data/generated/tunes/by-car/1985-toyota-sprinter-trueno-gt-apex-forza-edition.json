@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "nc-171b31f402",
+      "name": "R Pure Speed Dirt Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 261,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "trviis-rfnd-domodel"
+    },
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
@@ -136,6 +158,104 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-151016761",
+      "name": "A Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 138,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "151016761",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "vnx-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-633212380",
+      "name": "S1 Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 210,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "633212380",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "osm-cinnabar"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-882418132",
+      "name": "Meta+++++",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 287,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "882418132",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "lnvrtebrate"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-929950902",
+      "name": "WRs",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 289,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "929950902",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "lnvrtebrate"
     }
   ],
   "schemaVersion": 1

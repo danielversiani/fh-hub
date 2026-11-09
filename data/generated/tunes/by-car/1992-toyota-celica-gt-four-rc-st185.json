@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [
@@ -45,29 +45,84 @@
         "off-meta"
       ],
       "class": "B",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-07-25",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-755f675bf7",
+      "id": "sc-165599417",
       "metaRank": 40,
-      "name": "B dirt AWD",
+      "name": "EZ B Dirt",
       "observations": [
         {
           "raw": {},
-          "row": 85,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
+          "row": 201,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "handling",
-      "score": 0.563,
+      "score": 0.578,
+      "shareCode": "165599417",
       "surface": "dirt",
       "tier": "t2",
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-toyota-celica-gt-four-rc-st185",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-603589057",
+      "metaRank": 40,
+      "name": "B dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 200,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.563,
+      "shareCode": "603589057",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-toyota-celica-gt-four-rc-st185",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-783191216",
+      "name": "A Dirt-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 135,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "783191216",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

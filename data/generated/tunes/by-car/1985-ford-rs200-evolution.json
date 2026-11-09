@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -279,37 +279,6 @@
       ],
       "class": "S1",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-d577adfbd6",
-      "metaRank": 10,
-      "name": "S1 cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 24,
-          "sourceId": "noa-miyako",
-          "tab": "s1-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.517,
-      "surface": "cross-country",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1985-ford-rs200-evolution",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-dff8a52792",
       "metaRank": 10,
@@ -371,6 +340,39 @@
       "tier": "t3",
       "tierSource": "meta-table",
       "tunerId": "seeyeahboss"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-ford-rs200-evolution",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-23",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-988578071",
+      "metaRank": 10,
+      "name": "Dirt/CC T0.5",
+      "notes": "Decent free rally car",
+      "observations": [
+        {
+          "raw": {},
+          "row": 119,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.526,
+      "shareCode": "988578071",
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
     }
   ],
   "schemaVersion": 1

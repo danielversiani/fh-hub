@@ -1,37 +1,6 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2005-honda-nsx-r-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-1af9ff4a7f",
-      "metaRank": 49,
-      "name": "S1 road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 102,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.488,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "letzelu"
-    },
     {
       "buildTags": [],
       "carId": "2005-honda-nsx-r-gt",
@@ -311,6 +280,61 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-127028619",
+      "metaRank": 158,
+      "name": "A Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 96,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.473,
+      "shareCode": "127028619",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "attax-johnson"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-148818830",
+      "metaRank": 49,
+      "name": "S1 Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 169,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.476,
+      "shareCode": "148818830",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

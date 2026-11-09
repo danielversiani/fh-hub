@@ -1,37 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2021-dodge-durango-srt-hellcat",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-4241d29bd8",
-      "metaRank": 28,
-      "name": "B cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 61,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        }
-      ],
-      "role": "handling",
-      "score": 0.563,
-      "surface": "cross-country",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [
         "purist"
@@ -75,12 +44,14 @@
       ],
       "carId": "2021-dodge-durango-srt-hellcat",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-d5754a2336",
+      "metaRank": 44,
       "name": "Purist cc / dirt",
       "observations": [
         {
@@ -100,11 +71,75 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.53,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-dodge-durango-srt-hellcat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-161647428",
+      "metaRank": 44,
+      "name": "A CC Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 174,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.579,
+      "shareCode": "161647428",
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-dodge-durango-srt-hellcat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-10",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-309326170",
+      "metaRank": 28,
+      "name": "B CC Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 226,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.576,
+      "shareCode": "309326170",
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

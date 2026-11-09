@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -148,48 +148,6 @@
     {
       "buildTags": [],
       "carId": "1997-mclaren-f1-gt",
-      "categories": [
-        "meta"
-      ],
-      "class": "S2",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-b7404b84eb",
-      "lapRefs": [
-        {
-          "time": "15.2",
-          "track": "Highway Circuit"
-        }
-      ],
-      "metaNotes": "高速公路15.2",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 14,
-      "name": "S2 road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 31,
-          "sourceId": "noa-miyako",
-          "tab": "s2-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.582,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-mclaren-f1-gt",
       "categories": [],
       "class": "S1",
       "confidence": 0.65,
@@ -219,6 +177,58 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "id": "sc-104162693",
+      "metaRank": 14,
+      "name": "pPpower",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 297,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.522,
+      "shareCode": "104162693",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bala"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.65,
+      "id": "sc-153560670",
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 189,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.55,
+      "shareCode": "153560670",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [
@@ -262,6 +272,48 @@
       "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-mclaren-f1-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "id": "sc-678642145",
+      "lapRefs": [
+        {
+          "time": "15.2",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "高速公路15.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 14,
+      "name": "S2 Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 227,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.57,
+      "shareCode": "678642145",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

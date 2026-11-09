@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -885,6 +885,58 @@
       "tierSource": "meta-table",
       "tires": "semi-slick",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-gr-gt-prototype",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-103929051",
+      "metaRank": 80,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 166,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.547,
+      "shareCode": "103929051",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-gr-gt-prototype",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-877279953",
+      "metaRank": 21,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 92,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.622,
+      "shareCode": "877279953",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

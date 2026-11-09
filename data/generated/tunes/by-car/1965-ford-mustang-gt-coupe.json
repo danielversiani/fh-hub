@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -42,37 +42,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-ford-mustang-gt-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-5f7b04ff44",
-      "metaRank": 25,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 54,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
     },
     {
       "buildTags": [],
@@ -155,6 +124,38 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-ford-mustang-gt-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-17",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-141856335",
+      "metaRank": 25,
+      "name": "Dirt Allround Meta Sunflower 58.1 A/M V1.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 130,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.651,
+      "shareCode": "141856335",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
     }
   ],
   "schemaVersion": 1

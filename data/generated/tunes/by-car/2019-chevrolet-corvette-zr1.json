@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -300,6 +300,75 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "wisteriadrop"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-chevrolet-corvette-zr1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-174056838",
+      "lapRefs": [
+        {
+          "time": "54.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 39,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 151,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.626,
+      "shareCode": "174056838",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-chevrolet-corvette-zr1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-849249316",
+      "metaRank": 39,
+      "name": "S1 road",
+      "notes": "It can compete with the 620R, although the McLaren is still the better car.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 73,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.59,
+      "shareCode": "849249316",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "cybrexzzz"
     }
   ],
   "schemaVersion": 1

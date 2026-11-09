@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T15:24:07.278Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "id": "nc-06110b826d",
+      "metaRank": 1,
+      "name": "S2 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 231,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.682,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu-letzelu"
+    },
     {
       "buildTags": [],
       "carId": "2008-mazda-furai",
@@ -74,6 +99,7 @@
       "tunerId": "zombiejesus52"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2008-mazda-furai",
       "categories": [
@@ -119,48 +145,7 @@
       "tunerId": "k1z-howzer"
     },
     {
-      "buildTags": [],
-      "carId": "2008-mazda-furai",
-      "categories": [
-        "meta"
-      ],
-      "class": "R",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-69815bd844",
-      "lapRefs": [
-        {
-          "time": "58.2",
-          "track": "Legend Island"
-        }
-      ],
-      "metaNotes": "传奇岛 58.2",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 11,
-      "name": "R road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 25,
-          "sourceId": "noa-miyako",
-          "tab": "r-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.582,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-howzer"
-    },
-    {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2008-mazda-furai",
       "categories": [
@@ -203,6 +188,7 @@
       "tunerId": "letzelu"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2008-mazda-furai",
       "categories": [
@@ -243,48 +229,6 @@
       "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-mazda-furai",
-      "categories": [
-        "meta"
-      ],
-      "class": "R",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-cf5356f0d9",
-      "lapRefs": [
-        {
-          "time": "58.2",
-          "track": "Legend Island"
-        }
-      ],
-      "metaNotes": "传奇岛 58.2",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 11,
-      "name": "R road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 25,
-          "sourceId": "noa-miyako",
-          "tab": "r-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.582,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -397,6 +341,29 @@
     {
       "buildTags": [],
       "carId": "2008-mazda-furai",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "sc-118163456",
+      "name": "X Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 269,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "118163456",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
       "categories": [
         "meta"
       ],
@@ -434,6 +401,148 @@
       "tierSource": "meta-table",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-123466342",
+      "name": "R dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 32,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 33,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "123466342",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "shaggyscroll660"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "id": "sc-135787217",
+      "metaRank": 1,
+      "name": "S2 Road Grip Meta 3.2G Furai V1.1",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 66,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.695,
+      "shareCode": "135787217",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "id": "sc-169649413",
+      "lapRefs": [
+        {
+          "time": "58.2",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 58.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 11,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 18,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "shareCode": "169649413",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-mazda-furai",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "id": "sc-960758367",
+      "lapRefs": [
+        {
+          "time": "58.2",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 58.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 11,
+      "name": "R Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 256,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.57,
+      "shareCode": "960758367",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

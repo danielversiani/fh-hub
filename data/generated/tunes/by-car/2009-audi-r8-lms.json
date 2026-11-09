@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -76,37 +76,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "esv-vini"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-144b6c677b",
-      "metaRank": 9,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 21,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.684,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -755,42 +724,6 @@
     {
       "buildTags": [],
       "carId": "2009-audi-r8-lms",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "drivetrain": "AWD",
-      "id": "nc-db482365a3",
-      "metaRank": 9,
-      "name": "S1 Road AWD Strong Grip",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2009 Audi R8 LMS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road AWD Strong Grip",
-            "Tuner": "LogikJ",
-            "fill": "FF7030A0"
-          },
-          "row": 895,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.634,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
       "categories": [],
       "class": "S2",
       "confidence": 0.35,
@@ -913,6 +846,113 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-127367605",
+      "metaRank": 9,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 146,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.699,
+      "shareCode": "127367605",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "sc-311807794",
+      "metaRank": 9,
+      "name": "S1 Road AWD Strong Grip",
+      "notes": "Offmeta Grip Car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Audi R8 LMS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road AWD Strong Grip",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 895,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.701,
+      "shareCode": "311807794",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-789012241",
+      "metaRank": 9,
+      "name": "Great S1 Road",
+      "notes": "Circuits, sprints and street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 248,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.684,
+      "shareCode": "789012241",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

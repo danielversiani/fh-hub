@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -259,6 +259,48 @@
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-bmw-m4-competition-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-156476112",
+      "lapRefs": [
+        {
+          "time": "1:00.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 43,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 59,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.626,
+      "shareCode": "156476112",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "k1z-bard"
     }
   ],

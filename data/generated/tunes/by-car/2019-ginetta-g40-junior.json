@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -786,48 +786,6 @@
       "tunerId": "noa-miyako"
     },
     {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "2019-ginetta-g40-junior",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "id": "nc-f14f773dd1",
-      "metaRank": 105,
-      "name": "SKYFALL",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2019 Ginetta G40 Junior",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "SKYFALL",
-            "Tuner": "OSM Cinnabar",
-            "fill": "FF7030A0"
-          },
-          "row": 1619,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "power",
-      "score": 0.451,
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "osm-cinnabar"
-    },
-    {
       "buildTags": [],
       "carId": "2019-ginetta-g40-junior",
       "categories": [
@@ -862,6 +820,241 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-105840018",
+      "metaRank": 105,
+      "name": "SKYFALL",
+      "notes": "High-speed Road circuits, sprints and Street races.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 50,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2019 Ginetta G40 Junior",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "SKYFALL",
+            "Tuner": "OSM Cinnabar",
+            "fill": "FF7030A0"
+          },
+          "row": 1619,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "power",
+      "score": 0.538,
+      "shareCode": "105840018",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "osm-cinnabar"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-09-11",
+      "id": "sc-161705930",
+      "metaRank": 41,
+      "name": "A Dirt Super Handling Meta",
+      "notes": "Meta+ Alternative 1 for tighter, handling-heavy A Dirt layouts.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 54,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.551,
+      "shareCode": "161705930",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-172077951",
+      "lapRefs": [
+        {
+          "time": "1:00.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:00.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 66,
+      "name": "A Road Meta V1.1",
+      "notes": "Road circuits, some balanced sprints, and handling or balanced Street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 49,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "shareCode": "172077951",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-178646643",
+      "metaRank": 150,
+      "name": "A Road 2.2G V1.1",
+      "notes": "Road circuits and handling-focused Street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 47,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.563,
+      "shareCode": "178646643",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-479951949",
+      "metaRank": 102,
+      "name": "New B Road Meta God",
+      "notes": "Road circuits and handling-focused Street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 46,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.53,
+      "shareCode": "479951949",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-09-10",
+      "id": "sc-567021240",
+      "metaRank": 41,
+      "name": "A Dirt Well-Balanced Meta",
+      "notes": "Meta+ primary recommendation for the wider A Dirt circuit set.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 52,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.551,
+      "shareCode": "567021240",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "rocklxd"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-864570163",
+      "metaRank": 66,
+      "name": "Ty Sola 1.2",
+      "notes": "Balanced build for Road circuits, balanced sprints and handling or balanced Street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 48,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.59,
+      "shareCode": "864570163",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "msr-sam"
     }
   ],
   "schemaVersion": 1

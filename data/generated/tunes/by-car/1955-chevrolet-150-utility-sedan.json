@@ -1,68 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1955-chevrolet-150-utility-sedan",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-0c3e2edd73",
-      "metaRank": 12,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 27,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "power",
-      "score": 0.648,
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1955-chevrolet-150-utility-sedan",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-120e40f645",
-      "metaRank": 16,
-      "name": "B cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 35,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
     {
       "buildTags": [
         "powerbuild",
@@ -196,6 +134,70 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1955-chevrolet-150-utility-sedan",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-11",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-119832685",
+      "metaRank": 12,
+      "name": "A CC Sprint Strong",
+      "observations": [
+        {
+          "raw": {},
+          "row": 153,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.659,
+      "shareCode": "119832685",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1955-chevrolet-150-utility-sedan",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-13",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-120894207",
+      "metaRank": 16,
+      "name": "Good B CC",
+      "observations": [
+        {
+          "raw": {},
+          "row": 212,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.703,
+      "shareCode": "120894207",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

@@ -1,43 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-046f34382e",
-      "metaRank": 2,
-      "name": "B cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 5,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        },
-        {
-          "raw": {},
-          "row": 20,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.723,
-      "surface": "cross-country",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "caigou-yyy"
-    },
     {
       "buildTags": [
         "purist"
@@ -219,37 +182,6 @@
       "categories": [
         "meta"
       ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-ebcd8d6258",
-      "metaRank": 8,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 18,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-silverado-lt-trail-boss",
-      "categories": [
-        "meta"
-      ],
       "class": "B",
       "confidence": 0.8,
       "credited": true,
@@ -288,29 +220,149 @@
         "off-meta"
       ],
       "class": "B",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-07-18",
       "credited": true,
       "difficulty": "normal",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-fd7dd8201f",
+      "id": "sc-103711137",
       "metaRank": 21,
-      "name": "B dirt AWD",
+      "name": "B Dirt",
       "observations": [
         {
           "raw": {},
-          "row": 46,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
+          "row": 197,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.603,
+      "shareCode": "103711137",
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-chevrolet-silverado-lt-trail-boss",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-19",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-103890037",
+      "metaRank": 2,
+      "name": "B CC Sprint META+",
+      "notes": "Takashiro Cross Country 2:35.8. Fast through corners and strong at the rear. The sprint chart is recommended. It feels good.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 1,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.72,
+      "shareCode": "103890037",
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-chevrolet-silverado-lt-trail-boss",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "id": "sc-178427155",
+      "metaRank": 21,
+      "name": "B Dirt/CC Allround Meta",
+      "notes": "Rivals - Allround Meta everywhere except power tracks",
+      "observations": [
+        {
+          "raw": {},
+          "row": 15,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.542,
+      "shareCode": "178427155",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-chevrolet-silverado-lt-trail-boss",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-31",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-332643726",
+      "metaRank": 8,
+      "name": "CC Sprint Meta+",
+      "observations": [
+        {
+          "raw": {},
+          "row": 151,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.73,
+      "shareCode": "332643726",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-chevrolet-silverado-lt-trail-boss",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "id": "sc-381491293",
+      "name": "C Dirt/CC Strong Offmeta Stock Look",
+      "notes": "Online, Rivals, Seasonal - Strong off meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 7,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "381491293",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

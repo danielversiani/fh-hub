@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -323,6 +323,30 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zaabry"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-mazda-mx-5-cup",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "id": "sc-140998267",
+      "name": "B Road Grip",
+      "notes": "Togue Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 11,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "140998267",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

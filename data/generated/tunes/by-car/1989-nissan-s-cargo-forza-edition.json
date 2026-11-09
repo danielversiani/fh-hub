@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -270,6 +270,59 @@
       "tierSource": "default",
       "tires": "rally",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-nissan-s-cargo-forza-edition",
+      "categories": [
+        "meme"
+      ],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-789221991",
+      "name": "S1 Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 199,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "789221991",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1989-nissan-s-cargo-forza-edition",
+      "categories": [
+        "meme"
+      ],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-820851007",
+      "name": "SOMEHOW FASTER",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 292,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "820851007",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "osm-cinnabar"
     }
   ],
   "schemaVersion": 1

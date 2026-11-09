@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -241,6 +241,38 @@
       "tunerId": "logikj"
     },
     {
+      "buildTags": [],
+      "carId": "2020-jeep-jt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-09",
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "AWD",
+      "id": "sc-136165602",
+      "metaRank": 25,
+      "name": "O M G ? !",
+      "observations": [
+        {
+          "raw": {},
+          "row": 223,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.502,
+      "shareCode": "136165602",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "lphanhan"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -251,8 +283,9 @@
       "class": "C",
       "confidence": 0.35,
       "drivetrain": "AWD",
-      "id": "nc-d69627ba8e",
+      "id": "sc-153838391",
       "name": "C Dirt/CC Purist Strong",
+      "notes": "Online, Rivals - Decent pace + very easy",
       "observations": [
         {
           "raw": {
@@ -269,10 +302,17 @@
           "row": 56,
           "sourceId": "kleis",
           "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 8,
+          "sourceId": "logikj",
+          "tab": "online-picks"
         }
       ],
-      "score": 0.474,
-      "surface": "cross-country",
+      "score": 0.654,
+      "shareCode": "153838391",
+      "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
@@ -280,33 +320,27 @@
     {
       "buildTags": [],
       "carId": "2020-jeep-jt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-e51a2d569d",
-      "metaRank": 25,
-      "name": "B cross-country AWD",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.4,
+      "createdAt": "2026-10-07",
+      "id": "sc-174298302",
+      "name": "C RIVALS V1",
+      "notes": "Recommended by LES Venturi after a Cross Country world record. Tune intended for C class Rivals.",
       "observations": [
         {
           "raw": {},
-          "row": 54,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
+          "row": 261,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
-      "role": "power",
-      "score": 0.488,
+      "score": 0.533,
+      "shareCode": "174298302",
       "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "lphanhan"
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zookiiwi"
     }
   ],
   "schemaVersion": 1

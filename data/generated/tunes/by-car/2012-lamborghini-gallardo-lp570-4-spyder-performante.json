@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [
@@ -111,16 +111,40 @@
     {
       "buildTags": [],
       "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "nc-ff07f89fab",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 101,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard-letzelu"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
       "categories": [
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-05-27",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-f4ff2b3316",
+      "id": "sc-170371888",
       "lapRefs": [
         {
           "time": "1:06.394",
@@ -133,17 +157,18 @@
         "pt-br": "Equilibrado, sem ponto fraco, voltado para curvas."
       },
       "metaRank": 39,
-      "name": "A dirt AWD",
+      "name": "Dirt Full Aero Grip V1.2",
       "observations": [
         {
           "raw": {},
-          "row": 83,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
+          "row": 135,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "handling",
-      "score": 0.563,
+      "score": 0.571,
+      "shareCode": "170371888",
       "surface": "dirt",
       "tier": "t2",
       "tierSource": "meta-table",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -231,6 +231,28 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "iphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "nc-46b287dc32",
+      "name": "S2 Speed Dirt-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 232,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "osm-cinnabar-kapienpl"
     },
     {
       "buildTags": [],
@@ -604,41 +626,6 @@
       "tunerId": "kapienpl"
     },
     {
-      "buildTags": [
-        "powerbuild"
-      ],
-      "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.35,
-      "drivetrain": "RWD",
-      "id": "nc-bebb55956b",
-      "name": "S2 Road Meta Powerbuild V1.2",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1994 Mazda MX-5 Miata Forza Edition",
-            "Comment": "Powerbuild",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "S2 Road Meta Powerbuild V1.2",
-            "Tuner": "Noa Miyako",
-            "fill": "FF0070C0"
-          },
-          "row": 2152,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "noa-miyako"
-    },
-    {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
       "categories": [],
@@ -839,6 +826,132 @@
       "tunerId": "kapienpl"
     },
     {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-128928248",
+      "name": "S1 Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 183,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "128928248",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "rocklxd"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-07-05",
+      "id": "sc-134466646",
+      "name": "The Holy Grail",
+      "observations": [
+        {
+          "raw": {},
+          "row": 7,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.51,
+      "shareCode": "134466646",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "vsm-tachyon"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "sc-141272844",
+      "name": "X Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 270,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "141272844",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-27",
+      "id": "sc-148537263",
+      "name": "Dirt Grip Meta 1.3",
+      "observations": [
+        {
+          "raw": {},
+          "row": 59,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.501,
+      "shareCode": "148537263",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "sc-157911395",
+      "name": "S2 dirt",
+      "notes": "Arpan's sheet lists multiple Dirt and Cross Country circuit world records.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 274,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 275,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "157911395",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "falken-jp"
+    },
+    {
       "buildTags": [
         "full-aero",
         "powerbuild"
@@ -894,6 +1007,127 @@
       "tierSource": "default",
       "tires": "drift",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "sc-395112114",
+      "name": "S2 Road Meta Powerbuild V1.2",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 296,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1994 Mazda MX-5 Miata Forza Edition",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road Meta Powerbuild V1.2",
+            "Tuner": "Noa Miyako",
+            "fill": "FF0070C0"
+          },
+          "row": 2152,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "395112114",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-479201039",
+      "name": "R Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 257,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "479201039",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "osm-cinnabar"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-09-12",
+      "id": "sc-520951650",
+      "name": "R Izu CC / Cherry Fields WR",
+      "observations": [
+        {
+          "raw": {},
+          "row": 28,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 29,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.527,
+      "shareCode": "520951650",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-918915341",
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 11,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "918915341",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ptw-hiyori"
     }
   ],
   "schemaVersion": 1

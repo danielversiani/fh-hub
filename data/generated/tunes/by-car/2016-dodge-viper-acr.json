@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [],
@@ -33,6 +33,31 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-dodge-viper-acr",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "id": "nc-286a93d992",
+      "metaRank": 16,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 155,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard-letzelu-nismowm"
     },
     {
       "buildTags": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -144,6 +144,57 @@
         }
       ],
       "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-honda-nsx-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-110890238",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 95,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "110890238",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2005-honda-nsx-r",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-01",
+      "drivetrain": "AWD",
+      "id": "sc-447024784",
+      "name": "Road AWD Full Aero Stock Engine",
+      "notes": "Online, Seasonal - Easy and fast",
+      "observations": [
+        {
+          "raw": {},
+          "row": 18,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "447024784",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",

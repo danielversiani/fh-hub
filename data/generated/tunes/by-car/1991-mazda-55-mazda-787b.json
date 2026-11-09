@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T15:22:45.231Z",
   "items": [
     {
       "buildTags": [],
@@ -110,6 +110,7 @@
       "tunerId": "marethu1"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-mazda-55-mazda-787b",
       "categories": [
@@ -273,6 +274,7 @@
       "tunerId": "esv-ruinz"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-mazda-55-mazda-787b",
       "categories": [
@@ -456,48 +458,7 @@
       "tunerId": "marethu1"
     },
     {
-      "buildTags": [],
-      "carId": "1991-mazda-55-mazda-787b",
-      "categories": [
-        "meta"
-      ],
-      "class": "S2",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-77203055c7",
-      "lapRefs": [
-        {
-          "time": "46.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川46.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 3,
-      "name": "S2 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 7,
-          "sourceId": "noa-miyako",
-          "tab": "s2-road"
-        }
-      ],
-      "role": "handling",
-      "score": 0.77,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "trviis"
-    },
-    {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-mazda-55-mazda-787b",
       "categories": [
@@ -617,6 +578,31 @@
       "categories": [
         "meta"
       ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "nc-91d7c72d63",
+      "metaRank": 3,
+      "name": "R Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 255,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.682,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ruinz-letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
       "confidence": 0.8,
       "drivetrain": "AWD",
@@ -648,6 +634,7 @@
       "tunerId": "quasarpole"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-mazda-55-mazda-787b",
       "categories": [
@@ -828,6 +815,7 @@
       "tunerId": "nyasmowisher"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-mazda-55-mazda-787b",
       "categories": [
@@ -906,17 +894,19 @@
       "tunerId": "tpr-hydra"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-mazda-55-mazda-787b",
       "categories": [
         "meta"
       ],
       "class": "S1",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-10-07",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "nc-df04034f2f",
+      "id": "sc-106443648",
       "lapRefs": [
         {
           "time": "52.9",
@@ -930,7 +920,20 @@
       },
       "metaRank": 1,
       "name": "S1 Road Meta+ Allround",
+      "notes": "S1 Road Meta+ tune shared by LES Venturi with Shirakawa leaderboard evidence.",
       "observations": [
+        {
+          "raw": {},
+          "row": 182,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 262,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
         {
           "raw": {
             "Car": "1991 Mazda #55 Mazda 787B",
@@ -949,7 +952,8 @@
         }
       ],
       "role": "allround",
-      "score": 0.77,
+      "score": 0.916,
+      "shareCode": "106443648",
       "surface": "road",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -996,6 +1000,218 @@
       "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "sc-159675124",
+      "name": "X Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 268,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "159675124",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "sc-183966991",
+      "metaRank": 3,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 8,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.695,
+      "shareCode": "183966991",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "trviis"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-555045813",
+      "lapRefs": [
+        {
+          "time": "46.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川46.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 3,
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 230,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.758,
+      "shareCode": "555045813",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "trviis"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-10-06",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-710830589",
+      "lapRefs": [
+        {
+          "time": "46.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川46.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 3,
+      "name": "Yuzo Koshiro - Still Alive",
+      "notes": "S2 Road Meta+ tune recommended by LES Venturi.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 263,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.78,
+      "shareCode": "710830589",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-913111802",
+      "lapRefs": [
+        {
+          "time": "46.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川46.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 3,
+      "name": "",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 258,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.77,
+      "shareCode": "913111802",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-mazda-55-mazda-787b",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "id": "sc-992921106",
+      "metaRank": 10,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 17,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.61,
+      "shareCode": "992921106",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "esv-mars"
     }
   ],
   "schemaVersion": 1

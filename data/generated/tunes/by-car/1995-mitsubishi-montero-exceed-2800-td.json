@@ -1,66 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1995-mitsubishi-montero-exceed-2800-td",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-28df580fcd",
-      "metaRank": 44,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 94,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.507,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-mitsubishi-montero-exceed-2800-td",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-2f238da47b",
-      "metaRank": 15,
-      "name": "B cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 33,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        }
-      ],
-      "role": "power",
-      "score": 0.61,
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "caigou-yyy"
-    },
     {
       "buildTags": [],
       "carId": "1995-mitsubishi-montero-exceed-2800-td",
@@ -91,37 +31,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-mitsubishi-montero-exceed-2800-td",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-9de97d90d9",
-      "metaRank": 22,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 47,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "power",
-      "score": 0.648,
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [
@@ -164,26 +73,121 @@
     {
       "buildTags": [],
       "carId": "1995-mitsubishi-montero-exceed-2800-td",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-08-02",
       "credited": true,
       "difficulty": "normal",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-b989d2da0f",
-      "metaRank": 50,
-      "name": "A cross-country AWD",
+      "id": "sc-123978928",
+      "metaRank": 22,
+      "name": "CC Sprint Strong V1.2",
       "observations": [
         {
           "raw": {},
-          "row": 106,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
+          "row": 154,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.658,
+      "shareCode": "123978928",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-mitsubishi-montero-exceed-2800-td",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-04",
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "sc-182235511",
+      "metaRank": 15,
+      "name": "B CC Sprint",
+      "observations": [
+        {
+          "raw": {},
+          "row": 218,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.623,
+      "shareCode": "182235511",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-mitsubishi-montero-exceed-2800-td",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-20",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-627600958",
+      "metaRank": 44,
+      "name": "B Dirt OK",
+      "observations": [
+        {
+          "raw": {},
+          "row": 205,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "allround",
-      "score": 0.46,
+      "score": 0.517,
+      "shareCode": "627600958",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-mitsubishi-montero-exceed-2800-td",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-25",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-672544128",
+      "metaRank": 50,
+      "name": "CC Circuit Power T1.5 1.0",
+      "observations": [
+        {
+          "raw": {},
+          "row": 176,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.477,
+      "shareCode": "672544128",
       "surface": "cross-country",
       "tier": "t3",
       "tierSource": "meta-table",

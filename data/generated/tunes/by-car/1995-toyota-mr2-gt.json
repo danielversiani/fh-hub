@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -366,37 +366,6 @@
     {
       "buildTags": [],
       "carId": "1995-toyota-mr2-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-5fbe812509",
-      "metaRank": 29,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 62,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-toyota-mr2-gt",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -459,6 +428,38 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-mr2-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-25",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-514260425",
+      "metaRank": 29,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 190,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.648,
+      "shareCode": "514260425",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

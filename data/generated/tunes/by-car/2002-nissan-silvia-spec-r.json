@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -420,6 +420,32 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "grt-nicck"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-nissan-silvia-spec-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-203327954",
+      "metaRank": 68,
+      "name": "S1 Acceleration-Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 200,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.427,
+      "shareCode": "203327954",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "osm-cinnabar"
     }
   ],
   "schemaVersion": 1

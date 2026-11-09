@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -564,42 +564,6 @@
       "categories": [
         "meta"
       ],
-      "class": "A",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-9e90465ffa",
-      "metaRank": 15,
-      "name": "A Road Meta - Goodbye Drags, HELLO Offroads",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2020 Chevrolet Corvette Stingray Coupé",
-            "Comment": "Fuoristrada technology",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road Meta - Goodbye Drags, HELLO Offroads",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1157,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.635,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-chevrolet-corvette-stingray-coupe",
-      "categories": [
-        "meta"
-      ],
       "class": "S1",
       "confidence": 0.8,
       "drivetrain": "AWD",
@@ -929,6 +893,82 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "dex-muka"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-chevrolet-corvette-stingray-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "sc-149333502",
+      "metaRank": 15,
+      "name": "A Road Meta – Goodbye Drags, HELLO Offroads.",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 67,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 242,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2020 Chevrolet Corvette Stingray Coupé",
+            "Comment": "Fuoristrada technology",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Meta - Goodbye Drags, HELLO Offroads",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1157,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.779,
+      "shareCode": "149333502",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-chevrolet-corvette-stingray-coupe",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-310718703",
+      "metaRank": 11,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 153,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.622,
+      "shareCode": "310718703",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "attax-johnson"
     }
   ],
   "schemaVersion": 1

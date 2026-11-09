@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -208,6 +208,32 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-audi-r8-v10-performance",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "id": "sc-702964327",
+      "metaRank": 73,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 148,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.55,
+      "shareCode": "702964327",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "letzelu"
     }
   ],

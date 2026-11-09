@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -343,37 +343,6 @@
       "tunerId": "sr1-rain"
     },
     {
-      "buildTags": [],
-      "carId": "1972-mazda-cosmo-110s-series-ii",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-d7546315f7",
-      "metaRank": 34,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 72,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -411,6 +380,38 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-mazda-cosmo-110s-series-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-06",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-453952810",
+      "metaRank": 34,
+      "name": "Good A Dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 144,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.65,
+      "shareCode": "453952810",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

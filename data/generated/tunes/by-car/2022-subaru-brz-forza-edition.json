@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -33,39 +33,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "don-joewon-song"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-104ae733a0",
-      "name": "S1 CC Grip Meta",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2022 Subaru BRZ Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 CC Grip Meta",
-            "Tuner": "Noa Miyako",
-            "fill": "FF7030A0"
-          },
-          "row": 2801,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -327,6 +294,47 @@
       ],
       "score": 0.474,
       "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-subaru-brz-forza-edition",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-05-08",
+      "drivetrain": "AWD",
+      "id": "sc-381012195",
+      "name": "S1 CC Grip Meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 58,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2022 Subaru BRZ Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 CC Grip Meta",
+            "Tuner": "Noa Miyako",
+            "fill": "FF7030A0"
+          },
+          "row": 2801,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.672,
+      "shareCode": "381012195",
+      "surface": "cross-country",
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "noa-miyako"

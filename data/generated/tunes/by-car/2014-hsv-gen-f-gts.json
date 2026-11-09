@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -126,6 +126,75 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-hsv-gen-f-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-143976599",
+      "metaRank": 73,
+      "name": "A road",
+      "notes": "Can match Honda Beat",
+      "observations": [
+        {
+          "raw": {},
+          "row": 83,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.543,
+      "shareCode": "143976599",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-hsv-gen-f-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-638567489",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 73,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 97,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.579,
+      "shareCode": "638567489",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

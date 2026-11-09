@@ -1,29 +1,36 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1986-mg-metro-6r4",
       "categories": [],
       "class": "S1",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-05-16",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-34bf6dfa52",
+      "id": "sc-162328536",
       "metaRank": 40,
-      "name": "S1 dirt AWD",
+      "name": "Rally T1",
       "observations": [
         {
           "raw": {},
-          "row": 86,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
+          "row": 192,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 115,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "handling",
-      "score": 0.507,
+      "score": 0.591,
+      "shareCode": "162328536",
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "meta-table",

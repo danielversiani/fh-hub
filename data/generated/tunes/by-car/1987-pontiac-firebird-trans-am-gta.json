@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -179,6 +179,33 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-pontiac-firebird-trans-am-gta",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-724579666",
+      "metaRank": 132,
+      "name": "A road",
+      "notes": "Perfect rammer, too heavy.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.53,
+      "shareCode": "724579666",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
     }
   ],
   "schemaVersion": 1

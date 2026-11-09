@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -33,6 +33,78 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "keunotorrr"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lotus-evija-forza-edition",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "sc-161923306",
+      "name": "X Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 266,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "161923306",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "rfnd-domodel"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lotus-evija-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-171073717",
+      "name": "R Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 253,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "171073717",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-jeremy"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2020-lotus-evija-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.4,
+      "createdAt": "2026-08-06",
+      "id": "sc-795820362",
+      "name": "R Meta 2",
+      "observations": [
+        {
+          "raw": {},
+          "row": 9,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.518,
+      "shareCode": "795820362",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "vsm-huon"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -349,6 +349,30 @@
       "buildTags": [],
       "carId": "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
       "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-113356460",
+      "name": "S1 dirt",
+      "notes": "Easy to drive with excellent handling.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 61,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "113356460",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
+      "categories": [],
       "class": "S2",
       "confidence": 0.35,
       "drivetrain": "AWD",
@@ -382,6 +406,52 @@
       "tierSource": "default",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "sc-474077090",
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 234,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "474077090",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "attax-johnson"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-11-tomica-skyline-turbo-super-silhouette",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.65,
+      "id": "sc-697292924",
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 195,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.677,
+      "shareCode": "697292924",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

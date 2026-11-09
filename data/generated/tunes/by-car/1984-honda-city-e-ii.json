@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [
@@ -154,32 +154,26 @@
       "buildTags": [],
       "carId": "1984-honda-city-e-ii",
       "categories": [
-        "off-meta"
+        "meta"
       ],
-      "class": "A",
+      "class": "B",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-4e70668fc8",
-      "metaRank": 28,
-      "name": "A dirt AWD",
+      "id": "nc-56505fcdee",
+      "metaRank": 8,
+      "name": "B Handling",
       "observations": [
         {
           "raw": {},
-          "row": 60,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
+          "row": 32,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
         }
       ],
-      "role": "handling",
-      "score": 0.554,
-      "surface": "dirt",
-      "tier": "t1",
+      "score": 0.653,
+      "surface": "road",
+      "tier": "meta",
       "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
+      "tunerId": "attax-johnson-jsr-chronic"
     },
     {
       "buildTags": [],
@@ -328,6 +322,31 @@
       "categories": [
         "off-meta"
       ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "nc-8357c6dea6",
+      "metaRank": 71,
+      "name": "A Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 94,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.531,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako-vnx-ruinz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
@@ -393,48 +412,6 @@
       "buildTags": [],
       "carId": "1984-honda-city-e-ii",
       "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "FWD",
-      "fromMeta": true,
-      "id": "nc-97eb3e5d01",
-      "lapRefs": [
-        {
-          "time": "53.2",
-          "track": "Daikoku"
-        }
-      ],
-      "metaNotes": "大黑53.2 刹车入弯小心翻车",
-      "metaNotesI18n": {
-        "en": "Careful braking into corners: it can roll over.",
-        "pt-br": "Cuidado ao frear entrando na curva: pode capotar."
-      },
-      "metaRank": 71,
-      "name": "A road FWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 146,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "handling",
-      "score": 0.592,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-honda-city-e-ii",
-      "categories": [
         "meta"
       ],
       "class": "B",
@@ -461,37 +438,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1984-honda-city-e-ii",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-bd43d570f0",
-      "metaRank": 7,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 16,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
     },
     {
       "buildTags": [],
@@ -604,6 +550,228 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "quasarpole"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "id": "sc-124042530",
+      "metaRank": 30,
+      "name": "C Pure Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 11,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.427,
+      "shareCode": "124042530",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "jsr-chronic"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-25",
+      "id": "sc-136089882",
+      "metaRank": 8,
+      "name": "WR Okishinaimura - WHEEL TUNE",
+      "notes": "Okishinaimura Run world-record wheel tune; added as another B-class alternative.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 240,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.677,
+      "shareCode": "136089882",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "jst-haaland"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-03",
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "sc-158286102",
+      "metaRank": 28,
+      "name": "A Dirt Jiahao",
+      "observations": [
+        {
+          "raw": {},
+          "row": 126,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.57,
+      "shareCode": "158286102",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "id": "sc-167672327",
+      "metaRank": 20,
+      "name": "1:28 legend island",
+      "notes": "Circuits and handling based street tracks",
+      "observations": [
+        {
+          "raw": {},
+          "row": 284,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.545,
+      "shareCode": "167672327",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "FWD",
+      "id": "sc-358461613",
+      "lapRefs": [
+        {
+          "time": "53.2",
+          "track": "Daikoku"
+        }
+      ],
+      "metaNotes": "大黑53.2 刹车入弯小心翻车",
+      "metaNotesI18n": {
+        "en": "Careful braking into corners: it can roll over.",
+        "pt-br": "Cuidado ao frear entrando na curva: pode capotar."
+      },
+      "metaRank": 71,
+      "name": "A road",
+      "notes": "Cornering monster with limited top speed. Can roll over when braking into corners.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 78,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.592,
+      "shareCode": "358461613",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-797341735",
+      "metaRank": 8,
+      "name": "Circuit META v2.2",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 85,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "797341735",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "thicksea214561"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1984-honda-city-e-ii",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-23",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-916566685",
+      "metaRank": 7,
+      "name": "B16 Dirt Full Aero Grip Meta++ V1.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 181,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.729,
+      "shareCode": "916566685",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
     }
   ],
   "schemaVersion": 1

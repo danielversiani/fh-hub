@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [
@@ -40,37 +40,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-alfa-romeo-giulia-tz2",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-4f8a27be35",
-      "metaRank": 20,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 44,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -154,52 +123,6 @@
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-tz2",
       "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-79985c6400",
-      "lapRefs": [
-        {
-          "time": "1:01.8",
-          "track": "Ine"
-        },
-        {
-          "time": "50.2",
-          "track": "Sekibe"
-        }
-      ],
-      "metaNotes": "伊根01.8 石部50.2 加速很暴力 烂路抓地力很强",
-      "metaNotesI18n": {
-        "en": "Brutal acceleration and great grip on rough surfaces.",
-        "pt-br": "Aceleração brutal e muita aderência em piso ruim."
-      },
-      "metaRank": 17,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 38,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "power",
-      "score": 0.526,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1965-alfa-romeo-giulia-tz2",
-      "categories": [
         "meta"
       ],
       "class": "A",
@@ -237,6 +160,38 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-alfa-romeo-giulia-tz2",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9c1562af60",
+      "metaNotes": "比33S加速更快 但抓地力稍差 过水依然很差",
+      "metaRank": 8,
+      "name": "S1 cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 19,
+          "sourceId": "noa-miyako",
+          "tab": "s1-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.526,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],
@@ -357,6 +312,85 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-alfa-romeo-giulia-tz2",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-07-22",
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "id": "sc-166587457",
+      "lapRefs": [
+        {
+          "time": "1:01.8",
+          "track": "Ine"
+        },
+        {
+          "time": "50.2",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "伊根01.8 石部50.2 加速很暴力 烂路抓地力很强",
+      "metaNotesI18n": {
+        "en": "Brutal acceleration and great grip on rough surfaces.",
+        "pt-br": "Aceleração brutal e muita aderência em piso ruim."
+      },
+      "metaRank": 17,
+      "name": "Dirt Sprint Meta Ine 01.8Clean/Sekibe 50.2Clean",
+      "observations": [
+        {
+          "raw": {},
+          "row": 95,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.542,
+      "shareCode": "166587457",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-alfa-romeo-giulia-tz2",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-30",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-174037628",
+      "metaRank": 20,
+      "name": "A Dirt V1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 133,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.645,
+      "shareCode": "174037628",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

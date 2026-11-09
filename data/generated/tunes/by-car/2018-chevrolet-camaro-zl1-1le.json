@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -322,6 +322,74 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-chevrolet-camaro-zl1-1le",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-107710092",
+      "lapRefs": [
+        {
+          "time": "54.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 36,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 150,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.642,
+      "shareCode": "107710092",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-chevrolet-camaro-zl1-1le",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "id": "sc-117544334",
+      "metaRank": 14,
+      "name": "A Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 66,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.644,
+      "shareCode": "117544334",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

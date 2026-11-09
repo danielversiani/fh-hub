@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -174,6 +174,32 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-porsche-911-turbo-s-leichtbau",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-147395599",
+      "metaRank": 97,
+      "name": "S1 Acceleration-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 204,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.463,
+      "shareCode": "147395599",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

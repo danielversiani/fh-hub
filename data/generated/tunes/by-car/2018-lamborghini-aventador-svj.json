@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -141,10 +141,17 @@
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "nc-c6b62a3757",
+      "id": "sc-107980204",
       "metaRank": 22,
       "name": "S1 Road V1.5 Shirakawa 54.6",
+      "notes": "Circuits, sprints and street tracks.",
       "observations": [
+        {
+          "raw": {},
+          "row": 251,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
         {
           "raw": {
             "Car": "2018 Lamborghini Aventador SVJ",
@@ -163,12 +170,39 @@
         }
       ],
       "role": "allround",
-      "score": 0.674,
+      "score": 0.748,
+      "shareCode": "107980204",
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lamborghini-aventador-svj",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "id": "sc-167405431",
+      "metaRank": 22,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 173,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.635,
+      "shareCode": "167405431",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

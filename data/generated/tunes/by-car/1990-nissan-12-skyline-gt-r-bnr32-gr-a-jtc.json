@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [],
@@ -316,6 +316,31 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "nc-6e0bfd9823",
+      "metaRank": 67,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 196,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi-letzelu"
     },
     {
       "buildTags": [],

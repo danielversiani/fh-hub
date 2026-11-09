@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [
@@ -348,6 +348,48 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "plutokaskade641"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-volkswagen-golf-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-691042841",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 102,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 141,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.626,
+      "shareCode": "691042841",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

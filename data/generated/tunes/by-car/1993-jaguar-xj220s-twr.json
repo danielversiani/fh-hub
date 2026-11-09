@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -75,6 +75,31 @@
       ],
       "class": "S1",
       "confidence": 0.8,
+      "id": "nc-3d4742f172",
+      "metaRank": 25,
+      "name": "S1 Dirt Allround Road Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 170,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl-letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
@@ -97,37 +122,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-jaguar-xj220s-twr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-8f5d880f8d",
-      "metaRank": 25,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 54,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
     },
     {
       "buildTags": [],
@@ -197,6 +191,38 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-01",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-240331604",
+      "metaRank": 25,
+      "name": "EZ Dirt Allround META",
+      "observations": [
+        {
+          "raw": {},
+          "row": 98,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.642,
+      "shareCode": "240331604",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
     }
   ],
   "schemaVersion": 1

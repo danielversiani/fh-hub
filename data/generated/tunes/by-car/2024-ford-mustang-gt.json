@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -231,48 +231,6 @@
       ],
       "class": "A",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-baee20b263",
-      "lapRefs": [
-        {
-          "time": "1:06.5",
-          "track": "Ine"
-        }
-      ],
-      "metaNotes": "伊根1:06.5 手感很肉 像开船",
-      "metaNotesI18n": {
-        "en": "Feels heavy and sluggish, like driving a boat.",
-        "pt-br": "Direção pesada e lenta, parece um barco."
-      },
-      "metaRank": 48,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 101,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.517,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-be3cd48610",
       "metaRank": 63,
@@ -453,6 +411,77 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2024-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-06",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-129743973",
+      "lapRefs": [
+        {
+          "time": "1:06.5",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:06.5 手感很肉 像开船",
+      "metaNotesI18n": {
+        "en": "Feels heavy and sluggish, like driving a boat.",
+        "pt-br": "Direção pesada e lenta, parece um barco."
+      },
+      "metaRank": 48,
+      "name": "8.4 Dirt Full Aero Kit V1.2",
+      "observations": [
+        {
+          "raw": {},
+          "row": 143,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.528,
+      "shareCode": "129743973",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-ford-mustang-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-167368907",
+      "metaRank": 63,
+      "name": "A Acceleration-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 88,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "167368907",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

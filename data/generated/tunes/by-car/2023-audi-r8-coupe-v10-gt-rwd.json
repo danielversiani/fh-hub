@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -274,6 +274,32 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-audi-r8-coupe-v10-gt-rwd",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "id": "sc-400008374",
+      "metaRank": 74,
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 72,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.517,
+      "shareCode": "400008374",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "grandma-driving"
     }
   ],
   "schemaVersion": 1

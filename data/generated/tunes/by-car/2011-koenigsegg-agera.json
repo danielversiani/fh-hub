@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-09T13:17:39.765Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2011-koenigsegg-agera",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-3bea66d624",
-      "lapRefs": [
-        {
-          "time": "56.4",
-          "track": "Sunflower"
-        }
-      ],
-      "metaNotes": "向日葵56.4",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 34,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 73,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
     {
       "buildTags": [],
       "carId": "2011-koenigsegg-agera",
@@ -181,6 +139,79 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-koenigsegg-agera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-14",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-115117536",
+      "lapRefs": [
+        {
+          "time": "56.4",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵56.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 34,
+      "name": "头顶戴帽子",
+      "nameI18n": {
+        "en": "Hat on the head",
+        "pt-br": "Chapéu na cabeça"
+      },
+      "observations": [
+        {
+          "raw": {},
+          "row": 108,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.573,
+      "shareCode": "115117536",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-koenigsegg-agera",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-772652002",
+      "metaRank": 113,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 171,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.518,
+      "shareCode": "772652002",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

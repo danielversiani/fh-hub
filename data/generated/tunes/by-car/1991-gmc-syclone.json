@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -141,37 +141,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-gmc-syclone",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-33f91840d7",
-      "metaRank": 14,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 31,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.648,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zvtcjau"
     },
     {
       "buildTags": [],
@@ -626,6 +595,117 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-177134214",
+      "metaRank": 35,
+      "name": "B Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 28,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.518,
+      "shareCode": "177134214",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-30",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-447995749",
+      "metaRank": 14,
+      "name": "Dirt Allround META Sunflower 59.0 A/M",
+      "notes": "Cheap and good but Shelby Daytona is better.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 128,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.654,
+      "shareCode": "447995749",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-598425233",
+      "metaRank": 35,
+      "name": "B dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 204,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.53,
+      "shareCode": "598425233",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-gmc-syclone",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-832220937",
+      "metaRank": 14,
+      "name": "A Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 91,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.576,
+      "shareCode": "832220937",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

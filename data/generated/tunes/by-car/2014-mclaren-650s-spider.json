@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -223,7 +223,7 @@
       "difficulty": "easy",
       "drivetrain": "AWD",
       "engine": "5.2L V10 + Centri",
-      "id": "nc-f0700013b6",
+      "id": "sc-169726361",
       "lapRefs": [
         {
           "time": "54.6",
@@ -237,7 +237,14 @@
       },
       "metaRank": 27,
       "name": "Road Allround 54.6 Shirakawa Clean",
+      "notes": "Circuits, sprints and street tracks.",
       "observations": [
+        {
+          "raw": {},
+          "row": 250,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
         {
           "raw": {
             "Car": "2014 McLaren 650S Spider",
@@ -276,7 +283,50 @@
         }
       ],
       "role": "allround",
-      "score": 0.77,
+      "score": 0.824,
+      "shareCode": "169726361",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-mclaren-650s-spider",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-870262719",
+      "lapRefs": [
+        {
+          "time": "54.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 27,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 187,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.693,
+      "shareCode": "870262719",
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",

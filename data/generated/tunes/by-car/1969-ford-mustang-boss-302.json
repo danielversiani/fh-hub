@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -288,6 +288,59 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-08",
+      "id": "sc-624947009",
+      "metaRank": 4,
+      "name": "A Dirt 1.1 7 Gears",
+      "observations": [
+        {
+          "raw": {},
+          "row": 131,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.588,
+      "shareCode": "624947009",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-ford-mustang-boss-302",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-993666147",
+      "metaRank": 4,
+      "name": "A Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 87,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.568,
+      "shareCode": "993666147",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "jimka"
     }
   ],
   "schemaVersion": 1

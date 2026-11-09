@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -334,6 +334,48 @@
       "tierSource": "default",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-177250900",
+      "lapRefs": [
+        {
+          "time": "53.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 53.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 29,
+      "name": "S1 Acceleration-Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 209,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.532,
+      "shareCode": "177250900",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

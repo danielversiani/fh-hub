@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1962-peel-p50",
+      "categories": [
+        "meta",
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "nc-0b5a49c77d",
+      "metaRank": 1,
+      "name": "B Acceleration-Allround Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 41,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.532,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako-greeteddust8"
+    },
     {
       "buildTags": [],
       "carId": "1962-peel-p50",
@@ -75,38 +101,6 @@
         "meta",
         "meme"
       ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-8d5defc751",
-      "metaRank": 1,
-      "name": "C road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 3,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.62,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "msr-mian"
-    },
-    {
-      "buildTags": [],
-      "carId": "1962-peel-p50",
-      "categories": [
-        "meta",
-        "meme"
-      ],
       "class": "B",
       "confidence": 0.8,
       "credited": true,
@@ -147,44 +141,6 @@
       "buildTags": [],
       "carId": "1962-peel-p50",
       "categories": [
-        "meta",
-        "meme"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-c2ad2bc115",
-      "metaRank": 1,
-      "name": "B road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 3,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        },
-        {
-          "raw": {},
-          "row": 5,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.62,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "msr-mian"
-    },
-    {
-      "buildTags": [],
-      "carId": "1962-peel-p50",
-      "categories": [
         "meme"
       ],
       "class": "A",
@@ -215,6 +171,102 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zombiejesus52"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1962-peel-p50",
+      "categories": [
+        "meta",
+        "meme"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-153762630",
+      "metaRank": 1,
+      "name": "*Shira 1:02.8Clean/2026 Peel P50 “invincible”",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 286,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "shareCode": "153762630",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-peel-p50",
+      "categories": [
+        "meta",
+        "meme"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "id": "sc-155458462",
+      "metaRank": 1,
+      "name": "the C(ircuit) destroyer",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 295,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.545,
+      "shareCode": "155458462",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "brainbowbash"
+    },
+    {
+      "buildTags": [],
+      "carId": "1962-peel-p50",
+      "categories": [
+        "meta",
+        "meme"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-644275377",
+      "metaRank": 1,
+      "name": "*Shira 1:07.5Clean/I'm lost for words",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 294,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "shareCode": "644275377",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "msr-mian"
     }
   ],
   "schemaVersion": 1

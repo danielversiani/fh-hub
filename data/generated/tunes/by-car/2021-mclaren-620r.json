@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [],
@@ -120,64 +120,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-mclaren-620r",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "drivetrain": "AWD",
-      "engine": "5.2L V10 + Centri",
-      "id": "nc-5bd05393e4",
-      "metaRank": 3,
-      "name": "Shirakawa 54.3 Clean (unlike Cybrexz tune)",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2021 McLaren 620R",
-            "Comment": "",
-            "Design": "#47 MCLAREN 620R FEDEX RACING TEAM",
-            "Designer": "Alou Cuero",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Shirakawa 54.3 Clean (unlike Cybrexz tune)",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 2245,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {
-            "Aero": "FA",
-            "Build": "Balanced",
-            "Car": "Mclaren 620R",
-            "Difficulty": "Very Easy",
-            "Driver": "LetzeLU",
-            "Drivetrain": "AWD",
-            "Engine": "5.2L V10 + Centri",
-            "Laptime": "0:54.335",
-            "Notes": "",
-            "Tier": "Meta < 54.500",
-            "Tires": "Rally",
-            "Tune": "LetzeLU",
-            "Tune Name": "Shirakawa 54.3 Clean (unlike Cybrexz tune)"
-          },
-          "row": 8,
-          "sourceId": "letzelu-shirakawa",
-          "tab": "s1-800"
-        }
-      ],
-      "score": 0.765,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -576,6 +518,98 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mclaren-620r",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 + Centri",
+      "id": "sc-108102993",
+      "metaRank": 3,
+      "name": "Shirakawa 54.3 Clean (unlike Cybrexz tune)",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 69,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2021 McLaren 620R",
+            "Comment": "",
+            "Design": "#47 MCLAREN 620R FEDEX RACING TEAM",
+            "Designer": "Alou Cuero",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Shirakawa 54.3 Clean (unlike Cybrexz tune)",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2245,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Mclaren 620R",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 + Centri",
+            "Laptime": "0:54.335",
+            "Notes": "",
+            "Tier": "Meta < 54.500",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Shirakawa 54.3 Clean (unlike Cybrexz tune)"
+          },
+          "row": 8,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "score": 0.82,
+      "shareCode": "108102993",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-mclaren-620r",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "id": "sc-156085736",
+      "metaRank": 3,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 186,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.688,
+      "shareCode": "156085736",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [],
@@ -29,6 +29,59 @@
         }
       ],
       "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-porsche-3-917-lh-forza-edition",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "nc-ad31e5218a",
+      "name": "X Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 272,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "ttv-n1coawesome-trviis"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1970-porsche-3-917-lh-forza-edition",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-406087106",
+      "name": "R dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 30,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 31,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "406087106",
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "default",

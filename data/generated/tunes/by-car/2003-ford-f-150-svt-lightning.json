@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -146,24 +146,25 @@
       "carId": "2003-ford-f-150-svt-lightning",
       "categories": [],
       "class": "B",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-06",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-f977f14326",
+      "id": "sc-382809559",
       "metaRank": 49,
-      "name": "B dirt AWD",
+      "name": "B Dirt V1.1",
       "observations": [
         {
           "raw": {},
-          "row": 104,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
+          "row": 209,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "allround",
-      "score": 0.507,
+      "score": 0.519,
+      "shareCode": "382809559",
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "meta-table",

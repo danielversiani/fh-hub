@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -71,18 +71,20 @@
       "tunerId": "kapienpl"
     },
     {
-      "buildTags": [],
+      "buildTags": [
+        "stock-look"
+      ],
       "carId": "2020-koenigsegg-jesko",
       "categories": [
         "off-meta"
       ],
       "class": "S1",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-14",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-bea5b94cb9",
+      "id": "sc-512014310",
       "lapRefs": [
         {
           "time": "56.8",
@@ -95,17 +97,18 @@
         "pt-br": ""
       },
       "metaRank": 33,
-      "name": "S1 dirt AWD",
+      "name": "5.0 Dirt Stock Look Grip V1.2",
       "observations": [
         {
           "raw": {},
-          "row": 71,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
+          "row": 107,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "allround",
-      "score": 0.563,
+      "score": 0.573,
+      "shareCode": "512014310",
       "surface": "dirt",
       "tier": "t2",
       "tierSource": "meta-table",

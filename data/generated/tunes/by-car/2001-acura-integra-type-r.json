@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [
@@ -908,6 +908,31 @@
       "tunerId": "jsr-chronic"
     },
     {
+      "buildTags": [],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "nc-daff405681",
+      "metaRank": 5,
+      "name": "B Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 21,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.653,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard-noa-miyako"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -1126,6 +1151,33 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-acura-integra-type-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-143543552",
+      "metaRank": 5,
+      "name": "B road",
+      "notes": "Can match Honda Beat",
+      "observations": [
+        {
+          "raw": {},
+          "row": 82,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "143543552",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

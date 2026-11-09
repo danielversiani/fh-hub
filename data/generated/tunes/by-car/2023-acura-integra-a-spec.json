@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T14:51:56.223Z",
   "items": [
     {
       "buildTags": [
@@ -227,48 +227,6 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tires": "rally",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-acura-integra-a-spec",
-      "categories": [
-        "meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-47053630c4",
-      "lapRefs": [
-        {
-          "time": "1:10.3",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:10.3",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 4,
-      "name": "C road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 10,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "stock",
       "tunerId": "noa-miyako"
     },
     {
@@ -681,6 +639,79 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-acura-integra-a-spec",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-11-03",
+      "drivetrain": "FWD",
+      "id": "sc-524256134",
+      "metaRank": 4,
+      "name": "FWD Momentum Meta (Daikoku Tune)",
+      "notes": "Road circuit handling tune recommended by LES Venturi.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 277,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.684,
+      "shareCode": "524256134",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "vsm-seated"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-acura-integra-a-spec",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-11-03",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-648684722",
+      "lapRefs": [
+        {
+          "time": "1:10.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:10.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 4,
+      "name": "C Road Street Strong Allround",
+      "notes": "Road and Street all-round tune recommended by LES Venturi.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 276,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.748,
+      "shareCode": "648684722",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

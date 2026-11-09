@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -85,46 +85,6 @@
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "nc-b710eb8972",
-      "metaRank": 37,
-      "name": "B Dirt Grip",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1969 Datsun 2000 Roadster",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "B Dirt Grip",
-            "Tuner": "Noa Miyako",
-            "fill": "FFED7D31"
-          },
-          "row": 243,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1969-datsun-2000-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b9a1950fea",
       "metaRank": 37,
@@ -177,6 +137,54 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-datsun-2000-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-490269753",
+      "metaRank": 37,
+      "name": "B Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 195,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1969 Datsun 2000 Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Grip",
+            "Tuner": "Noa Miyako",
+            "fill": "FFED7D31"
+          },
+          "row": 243,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.654,
+      "shareCode": "490269753",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

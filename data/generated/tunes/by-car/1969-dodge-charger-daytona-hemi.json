@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -612,6 +612,55 @@
       "tierSource": "meta-table",
       "tires": "vintage",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-dodge-charger-daytona-hemi",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-100304375",
+      "metaRank": 37,
+      "name": "B Acceleration-Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 24,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.531,
+      "shareCode": "100304375",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "silvasuperbee"
+    },
+    {
+      "buildTags": [],
+      "carId": "1969-dodge-charger-daytona-hemi",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-977053345",
+      "name": "A Dirt-Acceleration",
+      "observations": [
+        {
+          "raw": {},
+          "row": 70,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "977053345",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "trviis"
     }
   ],
   "schemaVersion": 1

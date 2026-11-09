@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -36,48 +36,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-lamborghini-centenario-lp-770-4",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-3c4d41ea48",
-      "lapRefs": [
-        {
-          "time": "1:13.7",
-          "track": "Legend Island"
-        }
-      ],
-      "metaNotes": "传奇岛 1:13.7",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 23,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 49,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "handling",
-      "score": 0.67,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "k1z-howzer"
     },
     {
       "buildTags": [],
@@ -480,6 +438,75 @@
       "tierSource": "default",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "id": "sc-405993175",
+      "metaRank": 23,
+      "name": "Road Allround META Shirakawa 54.7",
+      "notes": "Circuits, sprints and street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 252,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.619,
+      "shareCode": "405993175",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-lamborghini-centenario-lp-770-4",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-827734874",
+      "lapRefs": [
+        {
+          "time": "1:13.7",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛 1:13.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 23,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 174,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.659,
+      "shareCode": "827734874",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "k1z-howzer"
     }
   ],
   "schemaVersion": 1

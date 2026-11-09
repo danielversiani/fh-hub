@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1970-dodge-coronet-super-bee",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-171ca5a2d7",
-      "lapRefs": [
-        {
-          "time": "1:00.1",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:00.1 拉力胎四驱强车 稳定好开 全天气可用 可上草",
-      "metaNotesI18n": {
-        "en": "Strong AWD car on rally tires; stable, easy to drive, works in any weather and copes with grass.",
-        "pt-br": "Carro forte de tração integral com pneus de rali; estável, fácil de pilotar, serve para qualquer clima e aguenta grama."
-      },
-      "metaRank": 52,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 108,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [],
       "carId": "1970-dodge-coronet-super-bee",
@@ -392,6 +350,78 @@
       "tierSource": "meta-table",
       "tires": "vintage",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1970-dodge-coronet-super-bee",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-26",
+      "id": "sc-802663552",
+      "metaRank": 3,
+      "name": "8.4 Dirt Full Aero Power Meta+ V1.1",
+      "notes": "Very fast A 700 Dirt option.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 122,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.666,
+      "shareCode": "802663552",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-dodge-coronet-super-bee",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-912549667",
+      "lapRefs": [
+        {
+          "time": "1:00.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.1 拉力胎四驱强车 稳定好开 全天气可用 可上草",
+      "metaNotesI18n": {
+        "en": "Strong AWD car on rally tires; stable, easy to drive, works in any weather and copes with grass.",
+        "pt-br": "Carro forte de tração integral com pneus de rali; estável, fácil de pilotar, serve para qualquer clima e aguenta grama."
+      },
+      "metaRank": 52,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 71,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.626,
+      "shareCode": "912549667",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

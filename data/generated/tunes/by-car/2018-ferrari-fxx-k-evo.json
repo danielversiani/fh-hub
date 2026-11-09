@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2018-ferrari-fxx-k-evo",
-      "categories": [
-        "meta"
-      ],
-      "class": "S2",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-da6ad79ae9",
-      "lapRefs": [
-        {
-          "time": "1:05.9",
-          "track": "Legend Island"
-        }
-      ],
-      "metaNotes": "传奇岛1:05.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 11,
-      "name": "S2 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 25,
-          "sourceId": "noa-miyako",
-          "tab": "s2-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
     {
       "buildTags": [],
       "carId": "2018-ferrari-fxx-k-evo",
@@ -83,6 +41,48 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-ferrari-fxx-k-evo",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-522233852",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Legend Island"
+        }
+      ],
+      "metaNotes": "传奇岛1:05.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 11,
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 221,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "522233852",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

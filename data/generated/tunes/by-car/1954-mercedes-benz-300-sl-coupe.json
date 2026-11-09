@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -96,6 +96,32 @@
         }
       ],
       "score": 0.59,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1954-mercedes-benz-300-sl-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-107124683",
+      "metaRank": 35,
+      "name": "A Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 110,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "107124683",
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",

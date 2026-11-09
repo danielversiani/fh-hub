@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [],
@@ -505,52 +505,6 @@
     {
       "buildTags": [],
       "carId": "2018-lotus-exige-cup-430",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a5541ba094",
-      "lapRefs": [
-        {
-          "time": "1:02.8",
-          "track": "Ine"
-        },
-        {
-          "time": "53.8",
-          "track": "Sotoyama"
-        }
-      ],
-      "metaNotes": "伊根02.8 外山53.8 加速很暴力 适合线上",
-      "metaNotesI18n": {
-        "en": "Brutal acceleration; good for online.",
-        "pt-br": "Aceleração brutal; bom para online."
-      },
-      "metaRank": 30,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 65,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.451,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-exige-cup-430",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -697,6 +651,31 @@
       ],
       "class": "S1",
       "confidence": 0.95,
+      "id": "nc-cb456f2f4c",
+      "metaRank": 56,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 180,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.472,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu-nalak28-letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-exige-cup-430",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
       "drivetrain": "AWD",
       "id": "nc-d190f3d33a",
       "metaRank": 56,
@@ -790,6 +769,53 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-exige-cup-430",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-10",
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "id": "sc-117992407",
+      "lapRefs": [
+        {
+          "time": "1:02.8",
+          "track": "Ine"
+        },
+        {
+          "time": "53.8",
+          "track": "Sotoyama"
+        }
+      ],
+      "metaNotes": "伊根02.8 外山53.8 加速很暴力 适合线上",
+      "metaNotesI18n": {
+        "en": "Brutal acceleration; good for online.",
+        "pt-br": "Aceleração brutal; bom para online."
+      },
+      "metaRank": 30,
+      "name": "Dirt T0.5 v2.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 104,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.467,
+      "shareCode": "117992407",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],

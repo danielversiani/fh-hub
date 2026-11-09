@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T14:51:56.223Z",
   "items": [
     {
       "buildTags": [
@@ -35,37 +35,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "cirno1x"
-    },
-    {
-      "buildTags": [],
-      "carId": "1972-honda-z-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-8ac0cd5d6a",
-      "metaRank": 45,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 95,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "power",
-      "score": 0.479,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [
@@ -171,6 +140,89 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-06",
+      "id": "sc-154015217",
+      "metaRank": 6,
+      "name": "B Dirt Strong",
+      "observations": [
+        {
+          "raw": {},
+          "row": 188,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "154015217",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-06",
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "sc-351294936",
+      "metaRank": 45,
+      "name": "A Dirt Jiahao",
+      "observations": [
+        {
+          "raw": {},
+          "row": 140,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.5,
+      "shareCode": "351294936",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1972-honda-z-gt",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-653831249",
+      "name": "Okishinaimura WR ( Sim Steering Recommended)",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 245,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "653831249",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "xdrzl"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -512,37 +512,6 @@
     {
       "buildTags": [],
       "carId": "1989-nissan-silvia-ks",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-acade1f690",
-      "metaRank": 3,
-      "name": "B road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 7,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.62,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1989-nissan-silvia-ks",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -717,37 +686,6 @@
       "tier": "meta-plus",
       "tierSource": "meta-table",
       "tunerId": "raceboy77"
-    },
-    {
-      "buildTags": [],
-      "carId": "1989-nissan-silvia-ks",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-e10fdfa232",
-      "metaRank": 3,
-      "name": "B road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 7,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.62,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "msr-sam"
     },
     {
       "buildTags": [],
@@ -937,6 +875,71 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "lnvrtebrate"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-113670138",
+      "metaRank": 3,
+      "name": "Meta++ V2",
+      "notes": "Road sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 285,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.62,
+      "shareCode": "113670138",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-161510162",
+      "metaRank": 3,
+      "name": "B Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 40,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.607,
+      "shareCode": "161510162",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "lphanhan"
     }
   ],
   "schemaVersion": 1

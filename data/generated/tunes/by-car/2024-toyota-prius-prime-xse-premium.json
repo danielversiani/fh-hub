@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -549,6 +549,37 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-toyota-prius-prime-xse-premium",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "FWD",
+      "id": "sc-173823473",
+      "metaRank": 149,
+      "name": "A Speed",
+      "observations": [
+        {
+          "raw": {},
+          "row": 136,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.439,
+      "shareCode": "173823473",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

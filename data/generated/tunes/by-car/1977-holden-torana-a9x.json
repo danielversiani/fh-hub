@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -162,48 +162,6 @@
       "buildTags": [],
       "carId": "1977-holden-torana-a9x",
       "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-b9be5d1aa2",
-      "lapRefs": [
-        {
-          "time": "1:05.8",
-          "track": "Ine"
-        }
-      ],
-      "metaNotes": "伊根1:05.8 推头 多用手刹或顶油辅助过弯",
-      "metaNotesI18n": {
-        "en": "Understeers: lean on the handbrake or throttle to help it turn.",
-        "pt-br": "Sai de frente: use bastante o freio de mão ou o acelerador para ajudar nas curvas."
-      },
-      "metaRank": 29,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 62,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.592,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [],
-      "carId": "1977-holden-torana-a9x",
-      "categories": [
         "meta"
       ],
       "class": "A",
@@ -230,6 +188,51 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "1977-holden-torana-a9x",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-30",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-154860278",
+      "lapRefs": [
+        {
+          "time": "1:05.8",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:05.8 推头 多用手刹或顶油辅助过弯",
+      "metaNotesI18n": {
+        "en": "Understeers: lean on the handbrake or throttle to help it turn.",
+        "pt-br": "Sai de frente: use bastante o freio de mão ou o acelerador para ajudar nas curvas."
+      },
+      "metaRank": 29,
+      "name": "8.4 Dirt Full Aero Power V1.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 125,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.598,
+      "shareCode": "154860278",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
     }
   ],
   "schemaVersion": 1

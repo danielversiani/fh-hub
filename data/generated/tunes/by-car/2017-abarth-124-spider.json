@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -247,35 +247,6 @@
       "carId": "2017-abarth-124-spider",
       "categories": [],
       "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-bbc96acd3e",
-      "metaRank": 46,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 98,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.507,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-abarth-124-spider",
-      "categories": [],
-      "class": "B",
       "confidence": 0.35,
       "drivetrain": "RWD",
       "id": "nc-bd512f945d",
@@ -371,6 +342,36 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "promethiium"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-abarth-124-spider",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-23",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-143586924",
+      "metaRank": 46,
+      "name": "B Dirt Girp",
+      "observations": [
+        {
+          "raw": {},
+          "row": 207,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.525,
+      "shareCode": "143586924",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

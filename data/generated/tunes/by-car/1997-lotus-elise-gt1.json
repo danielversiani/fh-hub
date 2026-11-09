@@ -1,48 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1997-lotus-elise-gt1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-3ca981d312",
-      "lapRefs": [
-        {
-          "time": "55.9",
-          "track": "Sunflower"
-        }
-      ],
-      "metaNotes": "向日葵55.9 赛悬稳定 拉悬灵活",
-      "metaNotesI18n": {
-        "en": "Stable with race suspension, nimble with rally suspension.",
-        "pt-br": "Estável com suspensão de corrida, ágil com suspensão de rali."
-      },
-      "metaRank": 23,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 50,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [],
       "carId": "1997-lotus-elise-gt1",
@@ -294,6 +252,49 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-lotus-elise-gt1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-09",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-189772072",
+      "lapRefs": [
+        {
+          "time": "55.9",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵55.9 赛悬稳定 拉悬灵活",
+      "metaNotesI18n": {
+        "en": "Stable with race suspension, nimble with rally suspension.",
+        "pt-br": "Estável com suspensão de corrida, ágil com suspensão de rali."
+      },
+      "metaRank": 23,
+      "name": "S1 Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 101,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.64,
+      "shareCode": "189772072",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

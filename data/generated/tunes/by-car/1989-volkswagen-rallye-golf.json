@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -66,37 +66,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "cast-haste"
-    },
-    {
-      "buildTags": [],
-      "carId": "1989-volkswagen-rallye-golf",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-1fa9a55d9b",
-      "metaRank": 43,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 91,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.517,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -198,45 +167,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sir-brandya1"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1989-volkswagen-rallye-golf",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-771be9c051",
-      "metaRank": 91,
-      "name": "Road Purist Strong",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1989 Volkswagen Rallye Golf",
-            "Comment": "Purist",
-            "Design": "MEOWSCARADA",
-            "Designer": "Saffies",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist Strong",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 680,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.56,
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "logikj"
     },
     {
       "buildTags": [
@@ -651,6 +581,111 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-volkswagen-rallye-golf",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-18",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-149130286",
+      "metaRank": 43,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 203,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.529,
+      "shareCode": "149130286",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-volkswagen-rallye-golf",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-157648077",
+      "metaRank": 43,
+      "name": "B Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 49,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.471,
+      "shareCode": "157648077",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1989-volkswagen-rallye-golf",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "sc-329130481",
+      "metaRank": 91,
+      "name": "Road Purist Strong",
+      "notes": "Online, Seasonal - Very strong AWD Purist in B",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Volkswagen Rallye Golf",
+            "Comment": "Purist",
+            "Design": "MEOWSCARADA",
+            "Designer": "Saffies",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 680,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 13,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.639,
+      "shareCode": "329130481",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

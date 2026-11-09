@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [],
@@ -135,37 +135,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-tvr-cerbera-speed-12",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-33e5fc148f",
-      "metaRank": 8,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 18,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],
@@ -537,37 +506,6 @@
       ],
       "class": "S1",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-af09ce1660",
-      "metaRank": 106,
-      "name": "S1 road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 217,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.517,
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1998-tvr-cerbera-speed-12",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-bf0c943849",
       "metaRank": 106,
@@ -664,6 +602,72 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "id": "sc-278819848",
+      "metaRank": 106,
+      "name": "S1 road",
+      "notes": "Very difficult S1 Road powerbuild.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 283,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.517,
+      "shareCode": "278819848",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-tvr-cerbera-speed-12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-25",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-508532344",
+      "metaRank": 8,
+      "name": "Ine 01.1 Clean Still strong (Meta 1.0)",
+      "observations": [
+        {
+          "raw": {},
+          "row": 91,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.733,
+      "shareCode": "508532344",
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
     }
   ],
   "schemaVersion": 1

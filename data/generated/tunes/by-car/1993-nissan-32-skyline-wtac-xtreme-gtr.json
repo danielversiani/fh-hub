@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -250,6 +250,81 @@
       "tierSource": "default",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-154090805",
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 13,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "154090805",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-169065597",
+      "name": "R dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 34,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 35,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "169065597",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "acn-vegas"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-434858691",
+      "name": "R Pure Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 259,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "434858691",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

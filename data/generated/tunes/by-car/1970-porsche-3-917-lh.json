@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1970-porsche-3-917-lh",
       "categories": [],
       "class": "S1",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-05-18",
       "credited": true,
       "difficulty": "normal",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-5770a5e07f",
+      "id": "sc-765834758",
       "lapRefs": [
         {
           "time": "57.464",
@@ -24,17 +24,18 @@
         "pt-br": "A sensação é igual à do FH5; um pouco mais fraco de potência."
       },
       "metaRank": 39,
-      "name": "S1 dirt AWD",
+      "name": "maybe t1+?",
       "observations": [
         {
           "raw": {},
-          "row": 84,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
+          "row": 114,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "handling",
-      "score": 0.46,
+      "score": 0.473,
+      "shareCode": "765834758",
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "meta-table",

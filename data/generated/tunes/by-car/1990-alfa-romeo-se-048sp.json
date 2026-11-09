@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:24:07.278Z",
   "items": [
     {
       "buildTags": [
@@ -281,6 +281,7 @@
       "tunerId": "esv-rapture"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1990-alfa-romeo-se-048sp",
       "categories": [
@@ -425,6 +426,7 @@
       "tunerId": "thedannny"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1990-alfa-romeo-se-048sp",
       "categories": [
@@ -456,6 +458,7 @@
       "tunerId": "lphanhan"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1990-alfa-romeo-se-048sp",
       "categories": [
@@ -492,6 +495,7 @@
       "tunerId": "trviis"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1990-alfa-romeo-se-048sp",
       "categories": [
@@ -573,6 +577,121 @@
       "categories": [
         "meta"
       ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "sc-112800061",
+      "metaRank": 9,
+      "name": "R Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 246,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.622,
+      "shareCode": "112800061",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "id": "sc-114887697",
+      "metaRank": 5,
+      "name": "S2 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 213,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.653,
+      "shareCode": "114887697",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-143454712",
+      "name": "R dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 36,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "143454712",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "tenbreaths"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-788873337",
+      "metaRank": 5,
+      "name": "S2 Road Handling 3.3G V1.2 Meta++",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 64,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "shareCode": "788873337",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
@@ -581,8 +700,15 @@
       "engine": "4.7L V8",
       "id": "sc-823312187",
       "metaRank": 5,
-      "name": "Shira",
+      "name": "Intercooler (Shirakawa)",
+      "notes": "Road Circuits and handling based street tracks.",
       "observations": [
+        {
+          "raw": {},
+          "row": 63,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
         {
           "raw": {
             "Build": "8c engine Race Intercooler",
@@ -603,13 +729,64 @@
         }
       ],
       "role": "allround",
-      "score": 0.707,
+      "score": 0.803,
       "shareCode": "823312187",
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
       "tires": "slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "sc-888488563",
+      "metaRank": 9,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.635,
+      "shareCode": "888488563",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-07-14",
+      "id": "sc-902691185",
+      "name": "S2 Dirt Grip Offmeta Rivals",
+      "notes": "Rivals Grip Offmeta - 2nd fastest car on grip stuff",
+      "observations": [
+        {
+          "raw": {},
+          "row": 29,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.488,
+      "shareCode": "902691185",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

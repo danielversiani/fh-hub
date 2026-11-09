@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -41,37 +41,6 @@
       "buildTags": [],
       "carId": "2025-toyota-land-cruiser",
       "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-32213dc033",
-      "metaRank": 33,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 70,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.592,
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-toyota-land-cruiser",
-      "categories": [
         "meta"
       ],
       "class": "B",
@@ -103,43 +72,6 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-toyota-land-cruiser",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-4a11e79deb",
-      "metaRank": 6,
-      "name": "B cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 14,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        },
-        {
-          "raw": {},
-          "row": 27,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        }
-      ],
-      "role": "power",
-      "score": 0.648,
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -461,6 +393,70 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-08-03",
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "sc-105434953",
+      "metaRank": 6,
+      "name": "B CC Sprint",
+      "observations": [
+        {
+          "raw": {},
+          "row": 215,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.658,
+      "shareCode": "105434953",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-toyota-land-cruiser",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-30",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-177892394",
+      "metaRank": 33,
+      "name": "Great CC",
+      "observations": [
+        {
+          "raw": {},
+          "row": 164,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.598,
+      "shareCode": "177892394",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

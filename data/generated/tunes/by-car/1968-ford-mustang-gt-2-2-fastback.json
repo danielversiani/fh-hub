@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -203,37 +203,6 @@
       ],
       "class": "B",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-3bb6a3c01d",
-      "metaRank": 2,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 5,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "power",
-      "score": 0.685,
-      "surface": "dirt",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-ford-mustang-gt-2-2-fastback",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-483c1d30b5",
       "metaRank": 2,
@@ -366,25 +335,117 @@
       "categories": [
         "meta"
       ],
-      "class": "B",
+      "class": "C",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-be8cf2be42",
+      "id": "sc-516396403",
       "metaRank": 7,
-      "name": "B cross-country AWD",
+      "name": "C road",
+      "notes": "Extremely fast on the straights and with good traction, but reluctant to turn. The handbrake is sometimes needed to rotate it through corners.",
       "observations": [
         {
           "raw": {},
-          "row": 16,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
+          "row": 8,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 88,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.697,
+      "shareCode": "516396403",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "sc-627857817",
+      "metaRank": 2,
+      "name": "B dirt",
+      "notes": "Best dirt B 600 car.Better than Honda Bea(s)t",
+      "observations": [
+        {
+          "raw": {},
+          "row": 184,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.685,
+      "shareCode": "627857817",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-811732620",
+      "metaRank": 2,
+      "name": "B Dirt Acceleration-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.598,
+      "shareCode": "811732620",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-ford-mustang-gt-2-2-fastback",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-04",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-833100594",
+      "metaRank": 7,
+      "name": "B CC Sprint META+",
+      "observations": [
+        {
+          "raw": {},
+          "row": 213,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "allround",
-      "score": 0.685,
+      "score": 0.687,
+      "shareCode": "833100594",
       "surface": "cross-country",
       "tier": "meta",
       "tierSource": "meta-table",

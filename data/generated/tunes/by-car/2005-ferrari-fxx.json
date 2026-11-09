@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -250,6 +250,29 @@
       "categories": [],
       "class": "S2",
       "confidence": 0.35,
+      "id": "sc-147950971",
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 220,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "147950971",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ferrari-fxx",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "Stock",
       "id": "sc-153632333",
@@ -281,6 +304,56 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ferrari-fxx",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.4,
+      "createdAt": "2026-06-15",
+      "id": "sc-240233267",
+      "name": "S1 Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 113,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.506,
+      "shareCode": "240233267",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ferrari-fxx",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-565454863",
+      "metaRank": 42,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 163,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "565454863",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

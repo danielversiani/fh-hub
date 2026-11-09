@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [],
@@ -44,37 +44,6 @@
       "tunerId": "k1z-bard"
     },
     {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-4518eb40ef",
-      "metaRank": 11,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 25,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.648,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
-    {
       "buildTags": [
         "stock-look"
       ],
@@ -108,62 +77,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "darkz704"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-porsche-203-porsche-ag-961",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "engine": "5.2L V10 + Centri",
-      "id": "nc-665fb157f2",
-      "lapRefs": [
-        {
-          "time": "54.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 54.5",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 31,
-      "name": "Road Handling 54.5 Shira Clean",
-      "observations": [
-        {
-          "raw": {
-            "Aero": "FA",
-            "Build": "Handling",
-            "Car": "Porsche 961",
-            "Difficulty": "Very Easy",
-            "Driver": "LetzeLU",
-            "Drivetrain": "AWD",
-            "Engine": "5.2L V10 + Centri",
-            "Laptime": "0:54.552",
-            "Notes": "",
-            "Tier": "Offmeta < 55.000",
-            "Tires": "Rally",
-            "Tune": "LetzeLU",
-            "Tune Name": "Road Handling 54.5 Shira Clean"
-          },
-          "row": 14,
-          "sourceId": "letzelu-shirakawa",
-          "tab": "s1-800"
-        }
-      ],
-      "role": "allround",
-      "score": 0.661,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -251,6 +164,31 @@
       ],
       "class": "S1",
       "confidence": 0.95,
+      "id": "nc-b01cdcf315",
+      "metaRank": 31,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 205,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.586,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu-letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-porsche-203-porsche-ag-961",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
       "drivetrain": "AWD",
       "id": "nc-b9d82ae77d",
       "metaRank": 31,
@@ -311,6 +249,102 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-porsche-203-porsche-ag-961",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-08-13",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-157990158",
+      "metaRank": 11,
+      "name": "Ine 01.5Clean/01.3 Dirt Meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 96,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.659,
+      "shareCode": "157990158",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1987-porsche-203-porsche-ag-961",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "engine": "5.2L V10 + Centri",
+      "id": "sc-944180172",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 31,
+      "name": "Road Handling 54.5 Shira Clean",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 249,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Handling",
+            "Car": "Porsche 961",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 + Centri",
+            "Laptime": "0:54.552",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Handling 54.5 Shira Clean"
+          },
+          "row": 14,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
+        }
+      ],
+      "role": "allround",
+      "score": 0.738,
+      "shareCode": "944180172",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

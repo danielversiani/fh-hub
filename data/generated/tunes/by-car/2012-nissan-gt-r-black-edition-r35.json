@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -551,6 +551,48 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-170879220",
+      "lapRefs": [
+        {
+          "time": "59.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 12,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 119,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.72,
+      "shareCode": "170879220",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

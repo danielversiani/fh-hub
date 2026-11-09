@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -45,48 +45,6 @@
       ],
       "class": "A",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-b455004484",
-      "lapRefs": [
-        {
-          "time": "59.8",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.8",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 23,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 49,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2015-lexus-rc-f",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-fc59fe68d9",
       "metaRank": 23,
@@ -114,6 +72,48 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-lexus-rc-f",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-106790952",
+      "lapRefs": [
+        {
+          "time": "59.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 23,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 106,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "106790952",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

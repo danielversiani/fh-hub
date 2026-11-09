@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -66,37 +66,6 @@
     {
       "buildTags": [],
       "carId": "2012-jeep-wrangler-rubicon",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-7887ff804a",
-      "metaRank": 29,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 62,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-jeep-wrangler-rubicon",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -134,28 +103,61 @@
         "off-meta"
       ],
       "class": "C",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
       "credited": true,
       "difficulty": "normal",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-e39ab86dc5",
+      "id": "sc-155264287",
       "metaRank": 10,
-      "name": "C dirt AWD",
+      "name": "C Dirt General",
       "observations": [
         {
           "raw": {},
-          "row": 23,
-          "sourceId": "noa-miyako",
-          "tab": "c-dirt"
+          "row": 234,
+          "sourceId": "fhstats",
+          "tab": "online"
         }
       ],
       "role": "handling",
-      "score": 0.592,
+      "score": 0.605,
+      "shareCode": "155264287",
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
       "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-jeep-wrangler-rubicon",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-04",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-806952723",
+      "metaRank": 29,
+      "name": "A CC General",
+      "observations": [
+        {
+          "raw": {},
+          "row": 159,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.649,
+      "shareCode": "806952723",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "caigou-yyy"
     }
   ],

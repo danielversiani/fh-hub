@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -75,39 +75,6 @@
       "buildTags": [],
       "carId": "2001-honda-33-integra-wtac",
       "categories": [],
-      "class": "S1",
-      "confidence": 0.35,
-      "drivetrain": "FWD",
-      "id": "nc-f5906db15c",
-      "name": "Road Circuit Beast",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2001 Honda #33 Integra WTAC",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "FWD",
-            "Terrain": "Road",
-            "Tune": "Road Circuit Beast",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 1719,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2001-honda-33-integra-wtac",
-      "categories": [],
       "class": "S2",
       "confidence": 0.35,
       "drivetrain": "FWD",
@@ -141,6 +108,47 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2001-honda-33-integra-wtac",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "sc-152992835",
+      "name": "Road Circuit Beast",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 290,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2001 Honda #33 Integra WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Road Circuit Beast",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 1719,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.674,
+      "shareCode": "152992835",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

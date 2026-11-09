@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:24:07.278Z",
   "items": [
     {
       "buildTags": [],
@@ -100,6 +100,7 @@
       "tunerId": "letzelu"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2024-chevrolet-camaro-zl1",
       "categories": [
@@ -200,6 +201,7 @@
       "tunerId": "letzelu"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2024-chevrolet-camaro-zl1",
       "categories": [
@@ -284,48 +286,7 @@
       "tunerId": "msr-sam"
     },
     {
-      "buildTags": [],
-      "carId": "2024-chevrolet-camaro-zl1",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a1d0cc9ab6",
-      "lapRefs": [
-        {
-          "time": "59.2",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 59.2 全能无短板",
-      "metaNotesI18n": {
-        "en": "All-rounder with no weak spot.",
-        "pt-br": "Completo, sem ponto fraco."
-      },
-      "metaRank": 2,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 5,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.773,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
-    },
-    {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2024-chevrolet-camaro-zl1",
       "categories": [
@@ -525,6 +486,76 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "2024-chevrolet-camaro-zl1",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-171034876",
+      "lapRefs": [
+        {
+          "time": "59.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 59.2 全能无短板",
+      "metaNotesI18n": {
+        "en": "All-rounder with no weak spot.",
+        "pt-br": "Completo, sem ponto fraco."
+      },
+      "metaRank": 2,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 65,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.763,
+      "shareCode": "171034876",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-chevrolet-camaro-zl1",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 1,
+      "createdAt": "2026-08-24",
+      "id": "sc-459957577",
+      "metaRank": 2,
+      "name": "A Road Meta V1.2",
+      "observations": [
+        {
+          "raw": {},
+          "row": 238,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.718,
+      "shareCode": "459957577",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

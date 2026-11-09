@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:22:45.231Z",
   "items": [
     {
       "buildTags": [],
@@ -68,37 +68,6 @@
     {
       "buildTags": [],
       "carId": "2018-lotus-scura-motorsports-exige-wtac",
-      "categories": [
-        "meta"
-      ],
-      "class": "R",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-410f504bdb",
-      "metaRank": 1,
-      "name": "R road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 3,
-          "sourceId": "noa-miyako",
-          "tab": "r-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.62,
-      "surface": "road",
-      "tier": "meta-plus",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "vsm-huon"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-lotus-scura-motorsports-exige-wtac",
       "categories": [],
       "class": "R",
       "confidence": 0.35,
@@ -130,6 +99,7 @@
       "tunerId": "sr1-rain"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2018-lotus-scura-motorsports-exige-wtac",
       "categories": [
@@ -166,6 +136,7 @@
       "tunerId": "letzelu"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2018-lotus-scura-motorsports-exige-wtac",
       "categories": [
@@ -209,6 +180,53 @@
       "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-scura-motorsports-exige-wtac",
+      "categories": [],
+      "class": "X",
+      "confidence": 0.35,
+      "id": "nc-8d212f20f1",
+      "name": "X Pure Handling Dirt Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 267,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "trviis-trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-scura-motorsports-exige-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "id": "nc-9d4188635c",
+      "metaRank": 1,
+      "name": "R Pure Handling Acceleration-Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 254,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.532,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu-k1z-howzer"
     },
     {
       "buildTags": [],
@@ -273,6 +291,103 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-scura-motorsports-exige-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "id": "sc-129324822",
+      "metaRank": 1,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 6,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "shareCode": "129324822",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "vsm-huon"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "2018-lotus-scura-motorsports-exige-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-174957486",
+      "metaNotes": "曾尔世界纪录 毛豆世界纪录",
+      "metaNotesI18n": {
+        "en": "World records at Soni and Edamame.",
+        "pt-br": "Recorde mundial em Soni e no Edamame."
+      },
+      "metaRank": 5,
+      "name": "R road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 10,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.732,
+      "shareCode": "174957486",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-lotus-scura-motorsports-exige-wtac",
+      "categories": [],
+      "class": "R",
+      "confidence": 0.35,
+      "id": "sc-690152859",
+      "name": "R dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 26,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "690152859",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -164,6 +164,55 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-lamborghini-countach-lpi-800-4",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-175446002",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 99,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "175446002",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-lamborghini-countach-lpi-800-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-673224871",
+      "metaRank": 91,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 175,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.547,
+      "shareCode": "673224871",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

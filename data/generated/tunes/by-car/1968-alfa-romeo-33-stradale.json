@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -196,42 +196,6 @@
       "tunerId": "thedannny"
     },
     {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-33-stradale",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-5cd52b34e2",
-      "metaNotes": "过水稍差一些 加速、烂路抓地力viper之下第一车",
-      "metaNotesI18n": {
-        "en": "A little worse through water. Acceleration and rough-road grip: second only to the Viper.",
-        "pt-br": "Um pouco pior ao atravessar água. Aceleração e aderência em piso ruim: o melhor depois do Viper."
-      },
-      "metaRank": 7,
-      "name": "S1 cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 17,
-          "sourceId": "noa-miyako",
-          "tab": "s1-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.554,
-      "surface": "cross-country",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -312,56 +276,6 @@
       "categories": [
         "meta"
       ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "slightly-hard",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-8e2f2d3d98",
-      "lapRefs": [
-        {
-          "time": "55.8",
-          "track": "Sunflower"
-        },
-        {
-          "time": "1:01.4",
-          "track": "Ine"
-        },
-        {
-          "time": "59.7",
-          "track": "Taiyaki"
-        }
-      ],
-      "metaNotes": "向日葵55.8 伊根01.4 鲷鱼烧59.7(lphanhan)",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 10,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 23,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.61,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "fuzzytexas81292"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-33-stradale",
-      "categories": [
-        "meta"
-      ],
       "class": "A",
       "confidence": 0.8,
       "credited": true,
@@ -397,46 +311,6 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "1968-alfa-romeo-33-stradale",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-b3c8d1cf3d",
-      "metaRank": 19,
-      "name": "A Dirt Grip Meta",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1968 Alfa Romeo 33 Stradale",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "A Dirt Grip Meta",
-            "Tuner": "Noa Miyako",
-            "fill": "FFFF0000"
-          },
-          "row": 734,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [
@@ -621,6 +495,196 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-123200713",
+      "metaRank": 10,
+      "name": "S1 Dirt Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 145,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.538,
+      "shareCode": "123200713",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-09",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-173178013",
+      "metaRank": 19,
+      "name": "A Dirt Grip Meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 134,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1968 Alfa Romeo 33 Stradale",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt Grip Meta",
+            "Tuner": "Noa Miyako",
+            "fill": "FFFF0000"
+          },
+          "row": 734,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.722,
+      "shareCode": "173178013",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-174880415",
+      "metaRank": 19,
+      "name": "A Dirt Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 52,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "174880415",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-25",
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "sc-225991300",
+      "lapRefs": [
+        {
+          "time": "55.8",
+          "track": "Sunflower"
+        },
+        {
+          "time": "1:01.4",
+          "track": "Ine"
+        },
+        {
+          "time": "59.7",
+          "track": "Taiyaki"
+        }
+      ],
+      "metaNotes": "向日葵55.8 伊根01.4 鲷鱼烧59.7(lphanhan)",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 10,
+      "name": "S1 Dirt Meta",
+      "notes": "Too much power for its weight.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 94,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.615,
+      "shareCode": "225991300",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-33-stradale",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-08-09",
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "AWD",
+      "id": "sc-975421257",
+      "metaNotes": "过水稍差一些 加速、烂路抓地力viper之下第一车",
+      "metaNotesI18n": {
+        "en": "A little worse through water. Acceleration and rough-road grip: second only to the Viper.",
+        "pt-br": "Um pouco pior ao atravessar água. Aceleração e aderência em piso ruim: o melhor depois do Viper."
+      },
+      "metaRank": 7,
+      "name": "Dirt/CC Meta V2",
+      "notes": "Extremely fast and light, but demanding over rough terrain.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 117,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.571,
+      "shareCode": "975421257",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -809,6 +809,48 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-133299972",
+      "lapRefs": [
+        {
+          "time": "59.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 25,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 123,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "133299972",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

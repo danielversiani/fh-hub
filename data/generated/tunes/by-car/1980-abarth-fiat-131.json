@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -101,48 +101,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "1980-abarth-fiat-131",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-705b124f23",
-      "lapRefs": [
-        {
-          "time": "1:18.285",
-          "track": "Ine"
-        }
-      ],
-      "metaNotes": "伊根1:18.285",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 9,
-      "name": "C dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 21,
-          "sourceId": "noa-miyako",
-          "tab": "c-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "fuzzytexas81292"
     },
     {
       "buildTags": [],
@@ -517,6 +475,49 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-abarth-fiat-131",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-05-24",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-217776373",
+      "lapRefs": [
+        {
+          "time": "1:18.285",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:18.285",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 9,
+      "name": "C Dirt META",
+      "observations": [
+        {
+          "raw": {},
+          "row": 233,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.641,
+      "shareCode": "217776373",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fuzzytexas81292"
     }
   ],
   "schemaVersion": 1

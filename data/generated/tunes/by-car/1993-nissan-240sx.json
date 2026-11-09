@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:45:31.250Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -75,68 +75,6 @@
       "tierSource": "meta-table",
       "tires": "street",
       "tunerId": "noa-seako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-nissan-240sx",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-44a6c95da3",
-      "metaRank": 11,
-      "name": "C dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 25,
-          "sourceId": "noa-miyako",
-          "tab": "c-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1993-nissan-240sx",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-46fde2adc9",
-      "metaRank": 22,
-      "name": "B road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 47,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -349,6 +287,93 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "id": "sc-818878533",
+      "name": "C ROAD",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 256,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "818878533",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "mustuff124"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-838108912",
+      "metaRank": 11,
+      "name": "C Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 235,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.644,
+      "shareCode": "838108912",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-nissan-240sx",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-921519403",
+      "metaRank": 22,
+      "name": "B Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 39,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "921519403",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

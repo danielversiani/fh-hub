@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -107,44 +107,6 @@
       "tunerId": "k1z-bard"
     },
     {
-      "buildTags": [],
-      "carId": "1982-lancia-037-stradale",
-      "categories": [],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "id": "nc-843f7ace50",
-      "metaRank": 37,
-      "name": "S1 Dirt General",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1982 Lancia 037",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "S1 Dirt General",
-            "Tuner": "Noa Miyako",
-            "fill": "FF7030A0"
-          },
-          "row": 1954,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.46,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -180,6 +142,52 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "neposha"
+    },
+    {
+      "buildTags": [],
+      "carId": "1982-lancia-037-stradale",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-07-30",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-804317851",
+      "metaRank": 37,
+      "name": "S1 Dirt General",
+      "observations": [
+        {
+          "raw": {},
+          "row": 111,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1982 Lancia 037",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "S1 Dirt General",
+            "Tuner": "Noa Miyako",
+            "fill": "FF7030A0"
+          },
+          "row": 1954,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.564,
+      "shareCode": "804317851",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

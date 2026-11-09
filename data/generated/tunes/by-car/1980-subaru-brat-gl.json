@@ -1,35 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1980-subaru-brat-gl",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-81fbd5b211",
-      "metaRank": 51,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 108,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.507,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [],
       "carId": "1980-subaru-brat-gl",
@@ -60,6 +31,42 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1980-subaru-brat-gl",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-08",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-132221883",
+      "metaRank": 51,
+      "name": "B Dirt Grip @5.3K",
+      "observations": [
+        {
+          "raw": {},
+          "row": 43,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 211,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.59,
+      "shareCode": "132221883",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

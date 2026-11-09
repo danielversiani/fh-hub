@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [],
@@ -105,6 +105,31 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "quasarpole"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "nc-cb3f72630f",
+      "metaRank": 11,
+      "name": "A Pure Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 118,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.502,
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "vnx-ruinz-ptw-ausax"
     },
     {
       "buildTags": [],
@@ -225,6 +250,86 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "vladxlr"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "id": "sc-129053608",
+      "name": "C Pure Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 15,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "129053608",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "qurgo"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-175719047",
+      "metaRank": 9,
+      "name": "Shimanoyama 30.180",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 38,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 241,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.744,
+      "shareCode": "175719047",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "qurgo"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mitsubishi-269-attacking-the-clock-racing-minicab-time-attack",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.35,
+      "id": "sc-901438283",
+      "name": "C Touge Meta+ (#2 Nanamagari)",
+      "notes": "Circuits and handling based street tracks.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 253,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.474,
+      "shareCode": "901438283",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "madoshi8676"
     }
   ],
   "schemaVersion": 1

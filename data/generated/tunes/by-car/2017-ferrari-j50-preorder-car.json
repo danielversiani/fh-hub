@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -113,48 +113,6 @@
       "buildTags": [],
       "carId": "2017-ferrari-j50-preorder-car",
       "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-88f3cf6485",
-      "lapRefs": [
-        {
-          "time": "55.3",
-          "track": "Sunflower"
-        }
-      ],
-      "metaNotes": "向日葵55.3 出弯有点推",
-      "metaNotesI18n": {
-        "en": "Slight understeer on corner exit.",
-        "pt-br": "Sai um pouco de frente na saída das curvas."
-      },
-      "metaRank": 13,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 29,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.695,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-ferrari-j50-preorder-car",
-      "categories": [
         "off-meta"
       ],
       "class": "S1",
@@ -252,6 +210,51 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2017-ferrari-j50-preorder-car",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-117424737",
+      "lapRefs": [
+        {
+          "time": "55.3",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "向日葵55.3 出弯有点推",
+      "metaNotesI18n": {
+        "en": "Slight understeer on corner exit.",
+        "pt-br": "Sai um pouco de frente na saída das curvas."
+      },
+      "metaRank": 13,
+      "name": "RV12 Dirt Full Aero Grip V1.4",
+      "observations": [
+        {
+          "raw": {},
+          "row": 102,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.697,
+      "shareCode": "117424737",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
     }
   ],
   "schemaVersion": 1

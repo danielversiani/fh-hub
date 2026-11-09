@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -553,6 +553,32 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-alfa-romeo-155-q4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-154660384",
+      "metaRank": 35,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.531,
+      "shareCode": "154660384",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "attax-johnson"
     }
   ],
   "schemaVersion": 1

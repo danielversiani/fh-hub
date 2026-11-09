@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [
@@ -42,42 +42,6 @@
     {
       "buildTags": [],
       "carId": "1991-honda-beat",
-      "categories": [
-        "meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-1a6eda4ce7",
-      "metaNotes": "非常均衡 全段加速和操控优秀",
-      "metaNotesI18n": {
-        "en": "Very balanced: excellent acceleration across the range and excellent handling.",
-        "pt-br": "Muito equilibrado: ótima aceleração em toda a faixa e ótimo nas curvas."
-      },
-      "metaRank": 20,
-      "name": "C road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 43,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1991-honda-beat",
       "categories": [],
       "class": "B",
       "confidence": 0.35,
@@ -109,6 +73,7 @@
       "tunerId": "jimka"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-honda-beat",
       "categories": [
@@ -280,37 +245,22 @@
       ],
       "class": "B",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-621782db3d",
-      "metaRank": 4,
-      "name": "B Road Meta",
+      "id": "nc-578bf8c11b",
+      "metaRank": 1,
+      "name": "B Dirt Acceleration-Allround",
       "observations": [
         {
-          "raw": {
-            "Car": "1991 Honda Beat",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "B Road Meta",
-            "Tuner": "K1Z Bard",
-            "fill": "FFED7D31"
-          },
-          "row": 351,
-          "sourceId": "kleis",
-          "tab": "fh6"
+          "raw": {},
+          "row": 31,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
         }
       ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "road",
-      "tier": "meta",
+      "score": 0.682,
+      "surface": "dirt",
+      "tier": "meta-plus",
       "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
+      "tunerId": "jsr-chronic-k1z-bard"
     },
     {
       "buildTags": [],
@@ -455,45 +405,29 @@
       "buildTags": [],
       "carId": "1991-honda-beat",
       "categories": [
-        "off-meta"
+        "meta"
       ],
-      "class": "C",
+      "class": "A",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-940ed5eac3",
-      "lapRefs": [
-        {
-          "time": "1:01.4",
-          "track": "Chiheisen"
-        }
-      ],
-      "metaNotes": "地平线攀爬赛1:01.4",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 8,
-      "name": "C dirt AWD",
+      "id": "nc-abf19f12d7",
+      "metaRank": 7,
+      "name": "A Dirt-Allround Handling-Allround Speed",
       "observations": [
         {
           "raw": {},
-          "row": 19,
-          "sourceId": "noa-miyako",
-          "tab": "c-dirt"
+          "row": 93,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
         }
       ],
-      "role": "handling",
-      "score": 0.638,
+      "score": 0.653,
       "surface": "dirt",
-      "tier": "t1",
+      "tier": "meta",
       "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
+      "tunerId": "kapienpl-esv-mars-zombiejesus52"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-honda-beat",
       "categories": [
@@ -525,6 +459,7 @@
       "tunerId": "k1z-howzer"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-honda-beat",
       "categories": [
@@ -681,6 +616,7 @@
       "tunerId": "ndl-ardno"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "1991-honda-beat",
       "categories": [
@@ -730,6 +666,265 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-09",
+      "id": "sc-111497699",
+      "metaRank": 1,
+      "name": "B Dirt Meta",
+      "notes": "Extremely strong B 600 Dirt option.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 182,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.693,
+      "shareCode": "111497699",
+      "surface": "dirt",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "id": "sc-114206866",
+      "metaRank": 20,
+      "name": "C Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 10,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.622,
+      "shareCode": "114206866",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "jsr-chronic"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-171136081",
+      "metaNotes": "非常均衡 全段加速和操控优秀",
+      "metaNotesI18n": {
+        "en": "Very balanced: excellent acceleration across the range and excellent handling.",
+        "pt-br": "Muito equilibrado: ótima aceleração em toda a faixa e ótimo nas curvas."
+      },
+      "metaRank": 20,
+      "name": "C Road General Meta",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 257,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "shareCode": "171136081",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.85,
+      "createdAt": "2026-07-07",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-236233952",
+      "lapRefs": [
+        {
+          "time": "1:01.4",
+          "track": "Chiheisen"
+        }
+      ],
+      "metaNotes": "地平线攀爬赛1:01.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 8,
+      "name": "C Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 232,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.646,
+      "shareCode": "236233952",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-341956270",
+      "metaRank": 4,
+      "name": "A Road – Allround Meta (No Cage)",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 77,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.695,
+      "shareCode": "341956270",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard-more-handling-alternative-is-msr-mian-and-noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-582429320",
+      "metaRank": 4,
+      "name": "B Class NEW TOP META",
+      "notes": "Circuits and handling based street tracks. But performs overall very strong on the entire road and street selection.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 81,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.665,
+      "shareCode": "582429320",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "jsr-chronic"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-726769731",
+      "metaRank": 4,
+      "name": "B Road Meta",
+      "notes": "Circuits and handling based street tracks. But performs overall very strong on the entire road and street selection.",
+      "observations": [
+        {
+          "raw": {},
+          "row": 80,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "1991 Honda Beat",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Road Meta",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 351,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.82,
+      "shareCode": "726769731",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-869854729",
+      "name": "S1 Dirt Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 167,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "869854729",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -33,48 +33,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1955-mercedes-benz-300-slr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-30a7712d75",
-      "lapRefs": [
-        {
-          "time": "1:06.8",
-          "track": "Ine"
-        }
-      ],
-      "metaNotes": "伊根 1:06.8",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 40,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 85,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -184,6 +142,72 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "kapienpl"
+    },
+    {
+      "buildTags": [],
+      "carId": "1955-mercedes-benz-300-slr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-10",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-362534392",
+      "lapRefs": [
+        {
+          "time": "1:06.8",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:06.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 40,
+      "name": "A Dirt Grip Meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 136,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.569,
+      "shareCode": "362534392",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1955-mercedes-benz-300-slr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-545759342",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 111,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "545759342",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

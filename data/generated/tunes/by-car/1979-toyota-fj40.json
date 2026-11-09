@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -104,35 +104,6 @@
     {
       "buildTags": [],
       "carId": "1979-toyota-fj40",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-f84398e6ca",
-      "metaRank": 48,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 102,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "power",
-      "score": 0.46,
-      "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1979-toyota-fj40",
       "categories": [
         "off-meta"
       ],
@@ -165,6 +136,69 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-07",
+      "id": "sc-100463734",
+      "metaRank": 30,
+      "name": "B Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 47,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {},
+          "row": 189,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "score": 0.668,
+      "shareCode": "100463734",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1979-toyota-fj40",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-596145743",
+      "metaRank": 48,
+      "name": "A CC Sprint",
+      "observations": [
+        {
+          "raw": {},
+          "row": 172,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.481,
+      "shareCode": "596145743",
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

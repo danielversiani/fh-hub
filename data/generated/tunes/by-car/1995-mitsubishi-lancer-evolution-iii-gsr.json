@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -37,35 +37,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "f1r-kilian"
-    },
-    {
-      "buildTags": [],
-      "carId": "1995-mitsubishi-lancer-evolution-iii-gsr",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-8ab78de07f",
-      "metaRank": 52,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 110,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.507,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [
@@ -140,6 +111,36 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-mitsubishi-lancer-evolution-iii-gsr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-08",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-152090134",
+      "metaRank": 52,
+      "name": "A Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 148,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.516,
+      "shareCode": "152090134",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

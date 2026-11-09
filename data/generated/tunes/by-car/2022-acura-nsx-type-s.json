@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:11:21.974Z",
   "items": [
     {
       "buildTags": [],
@@ -646,6 +646,32 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "htln-magnus"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-acura-nsx-type-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "id": "sc-684084657",
+      "metaRank": 72,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 144,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.547,
+      "shareCode": "684084657",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

@@ -1,35 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2006-dodge-ram-srt-10",
-      "categories": [],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-1d7032120b",
-      "metaRank": 45,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 96,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.507,
-      "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
     {
       "buildTags": [],
       "carId": "2006-dodge-ram-srt-10",
@@ -137,37 +108,6 @@
       "tunerId": "lphanhan"
     },
     {
-      "buildTags": [],
-      "carId": "2006-dodge-ram-srt-10",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-6eef454130",
-      "metaRank": 11,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 25,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "aions580pio"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -205,37 +145,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "silvasuperbee"
-    },
-    {
-      "buildTags": [],
-      "carId": "2006-dodge-ram-srt-10",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-7f9f5f16c0",
-      "metaRank": 17,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 37,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "cross-country",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],
@@ -303,6 +212,155 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-03",
+      "drivetrain": "AWD",
+      "id": "sc-121555835",
+      "metaRank": 54,
+      "name": "Road AWD Strong Allround",
+      "notes": "Online - Strong Allround, strong accel",
+      "observations": [
+        {
+          "raw": {},
+          "row": 19,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.483,
+      "shareCode": "121555835",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-02",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-121832896",
+      "metaRank": 45,
+      "name": "B Dirt",
+      "observations": [
+        {
+          "raw": {},
+          "row": 206,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.522,
+      "shareCode": "121832896",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-03",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-181189646",
+      "metaRank": 11,
+      "name": "Dirt pi flex tech V1.3",
+      "observations": [
+        {
+          "raw": {},
+          "row": 123,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.699,
+      "shareCode": "181189646",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-419376752",
+      "metaRank": 54,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 72,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.465,
+      "shareCode": "419376752",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2006-dodge-ram-srt-10",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-09",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-962768818",
+      "metaRank": 17,
+      "name": "Legend 32.1 Clean CC Allround Meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 161,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.699,
+      "shareCode": "962768818",
+      "surface": "cross-country",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
     }
   ],
   "schemaVersion": 1

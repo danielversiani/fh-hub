@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -157,6 +157,29 @@
       "categories": [],
       "class": "S2",
       "confidence": 0.35,
+      "id": "sc-256342369",
+      "name": "S2 Handling",
+      "observations": [
+        {
+          "raw": {},
+          "row": 235,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "256342369",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
       "drivetrain": "AWD",
       "engine": "4.8L V10",
       "id": "sc-639236522",
@@ -188,6 +211,29 @@
       "tierSource": "default",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "id": "sc-722266510",
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 197,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "722266510",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -35,57 +35,6 @@
       "tunerId": "thedannny"
     },
     {
-      "buildTags": [],
-      "carId": "2008-dodge-viper-srt-10-acr",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-2bd64144bb",
-      "lapRefs": [
-        {
-          "time": "59.6",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.6 操控很好 加速稍慢",
-      "metaNotesI18n": {
-        "en": "Great handling, slightly slow acceleration.",
-        "pt-br": "Ótimo nas curvas, acelera um pouco devagar."
-      },
-      "metaRank": 17,
-      "name": "Shirakawa 59.6 Allaround META+",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2008 Dodge Viper SRT-10 ACR",
-            "Comment": "",
-            "Design": "JOES VIPER",
-            "Designer": "LetsPlayOnkel",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Shirakawa 59.6 Allaround META+",
-            "Tuner": "Cirno1X",
-            "fill": "FFFF0000"
-          },
-          "row": 1294,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "handling",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "cirno1x"
-    },
-    {
       "buildTags": [
         "full-aero"
       ],
@@ -118,42 +67,6 @@
         }
       ],
       "score": 0.642,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-dodge-viper-srt-10-acr",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.95,
-      "drivetrain": "AWD",
-      "id": "nc-39b0adb7f4",
-      "metaRank": 17,
-      "name": "A700 Dirt or Road - Strong on both",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2008 Dodge Viper SRT-10 ACR",
-            "Comment": "",
-            "Design": "PROSTREET - ARMAND WALKER DRIFT",
-            "Designer": "jadangus",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A700 Dirt or Road - Strong on both",
-            "Tuner": "LogikJ",
-            "fill": "FFFF0000"
-          },
-          "row": 1297,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.645,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -484,37 +397,6 @@
     {
       "buildTags": [],
       "carId": "2008-dodge-viper-srt-10-acr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a711ca7fdb",
-      "metaRank": 32,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 69,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-dodge-viper-srt-10-acr",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -824,48 +706,6 @@
     {
       "buildTags": [],
       "carId": "2008-dodge-viper-srt-10-acr",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-f551be9202",
-      "lapRefs": [
-        {
-          "time": "1:06.5",
-          "track": "Ine"
-        }
-      ],
-      "metaNotes": "伊根1:06.5 操控很强 公路段优势",
-      "metaNotesI18n": {
-        "en": "Very strong handling; an edge on the tarmac sections.",
-        "pt-br": "Muito bom nas curvas; vantagem nos trechos de asfalto."
-      },
-      "metaRank": 42,
-      "name": "A dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 89,
-          "sourceId": "noa-miyako",
-          "tab": "a-dirt"
-        }
-      ],
-      "role": "handling",
-      "score": 0.563,
-      "surface": "dirt",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2008-dodge-viper-srt-10-acr",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -982,6 +822,295 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-dodge-viper-srt-10-acr",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-114990715",
+      "lapRefs": [
+        {
+          "time": "59.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.6 操控很好 加速稍慢",
+      "metaNotesI18n": {
+        "en": "Great handling, slightly slow acceleration.",
+        "pt-br": "Ótimo nas curvas, acelera um pouco devagar."
+      },
+      "metaRank": 17,
+      "name": "Shirakawa 59.6 Allaround META+",
+      "notes": "Road Circuits, sprints and Street",
+      "observations": [
+        {
+          "raw": {},
+          "row": 244,
+          "sourceId": "fhstats",
+          "tab": "online"
+        },
+        {
+          "raw": {
+            "Car": "2008 Dodge Viper SRT-10 ACR",
+            "Comment": "",
+            "Design": "JOES VIPER",
+            "Designer": "LetsPlayOnkel",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Shirakawa 59.6 Allaround META+",
+            "Tuner": "Cirno1X",
+            "fill": "FFFF0000"
+          },
+          "row": 1294,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.769,
+      "shareCode": "114990715",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-dodge-viper-srt-10-acr",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.95,
+      "id": "sc-216751991",
+      "metaRank": 17,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 73,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.662,
+      "shareCode": "216751991",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-dodge-viper-srt-10-acr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-05-10",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-304401652",
+      "metaRank": 32,
+      "name": "S1 Dirt Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 106,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.569,
+      "shareCode": "304401652",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-dodge-viper-srt-10-acr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-10",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-376084137",
+      "lapRefs": [
+        {
+          "time": "1:06.5",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:06.5 操控很强 公路段优势",
+      "metaNotesI18n": {
+        "en": "Very strong handling; an edge on the tarmac sections.",
+        "pt-br": "Muito bom nas curvas; vantagem nos trechos de asfalto."
+      },
+      "metaRank": 42,
+      "name": "A Dirt Grip Meta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 137,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.569,
+      "shareCode": "376084137",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-dodge-viper-srt-10-acr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-28",
+      "drivetrain": "AWD",
+      "id": "sc-762849256",
+      "metaRank": 42,
+      "name": "A700 Dirt or Road - Strong on Both",
+      "notes": "Online, Rivals - Very strong grip/pace on dirt and road, can be used for either equally",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2008 Dodge Viper SRT-10 ACR",
+            "Comment": "",
+            "Design": "PROSTREET - ARMAND WALKER DRIFT",
+            "Designer": "jadangus",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A700 Dirt or Road - Strong on both",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 1297,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {},
+          "row": 22,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.617,
+      "shareCode": "762849256",
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-dodge-viper-srt-10-acr",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-844085233",
+      "lapRefs": [
+        {
+          "time": "54.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 15,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 154,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.709,
+      "shareCode": "844085233",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2008-dodge-viper-srt-10-acr",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-978997490",
+      "lapRefs": [
+        {
+          "time": "54.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 15,
+      "name": "S1 road",
+      "observations": [
+        {
+          "raw": {},
+          "row": 71,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.72,
+      "shareCode": "978997490",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

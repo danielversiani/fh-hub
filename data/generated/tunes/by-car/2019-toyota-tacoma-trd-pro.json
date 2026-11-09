@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -31,37 +31,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-toyota-tacoma-trd-pro",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-04dc713e9b",
-      "metaRank": 6,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 14,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "power",
-      "score": 0.685,
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],
@@ -135,37 +104,6 @@
       "categories": [
         "meta"
       ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a2b3276f1f",
-      "metaRank": 5,
-      "name": "B cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 12,
-          "sourceId": "noa-miyako",
-          "tab": "b-cross-country"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "cross-country",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-toyota-tacoma-trd-pro",
-      "categories": [
-        "meta"
-      ],
       "class": "A",
       "confidence": 0.8,
       "drivetrain": "AWD",
@@ -195,6 +133,70 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-toyota-tacoma-trd-pro",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-07",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-118127603",
+      "metaRank": 6,
+      "name": "Sprint Meta 1.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 156,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "power",
+      "score": 0.687,
+      "shareCode": "118127603",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-toyota-tacoma-trd-pro",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-06-05",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-183274898",
+      "metaRank": 5,
+      "name": "B CC General Offmeta",
+      "observations": [
+        {
+          "raw": {},
+          "row": 221,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.731,
+      "shareCode": "183274898",
+      "surface": "cross-country",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

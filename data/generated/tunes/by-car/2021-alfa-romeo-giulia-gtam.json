@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -499,6 +499,48 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-alfa-romeo-giulia-gtam",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-116246364",
+      "lapRefs": [
+        {
+          "time": "1:00.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 105,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 55,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.589,
+      "shareCode": "116246364",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

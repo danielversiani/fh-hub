@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T15:23:27.499Z",
   "items": [
     {
       "buildTags": [],
@@ -330,37 +330,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "2004-maserati-mc12",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-431b663414",
-      "metaRank": 24,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 52,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],
@@ -1105,6 +1074,103 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-213577493",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 24,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 181,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.703,
+      "shareCode": "213577493",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-06-20",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-279119210",
+      "metaRank": 24,
+      "name": "Ine 1:01.9 Dirt Meta 1.0 (CLK Mini)",
+      "observations": [
+        {
+          "raw": {},
+          "row": 99,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.644,
+      "shareCode": "279119210",
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "id": "sc-454937684",
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 229,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "454937684",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [

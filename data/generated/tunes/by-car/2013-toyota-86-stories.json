@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:18:28.821Z",
   "items": [
     {
       "buildTags": [],
@@ -156,6 +156,31 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-toyota-86-stories",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "nc-da2eff797b",
+      "metaRank": 97,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 134,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "destrukdi-k1z-bard"
     }
   ],
   "schemaVersion": 1

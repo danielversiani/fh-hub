@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -471,6 +471,77 @@
       ],
       "role": "allround",
       "score": 0.507,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-jeep-trailcat",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "id": "sc-113739534",
+      "metaNotes": "前中段加速很强 注意控油",
+      "metaNotesI18n": {
+        "en": "Strong low and mid-range acceleration; watch the throttle.",
+        "pt-br": "Aceleração forte em baixa e média; cuidado com o acelerador."
+      },
+      "metaRank": 4,
+      "name": "S1 cross-country",
+      "observations": [
+        {
+          "raw": {},
+          "row": 116,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "shareCode": "113739534",
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-jeep-trailcat",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-386037734",
+      "metaNotes": "轮椅综合车 通过性非常强 建议纯泥地驾驶",
+      "metaNotesI18n": {
+        "en": "Very easy all-rounder with great off-road capability. Best on pure dirt.",
+        "pt-br": "Carro completo e muito fácil; passa por qualquer terreno. Melhor em terra pura."
+      },
+      "metaRank": 50,
+      "name": "A Dirt Grip V1.1",
+      "observations": [
+        {
+          "raw": {},
+          "row": 146,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.521,
+      "shareCode": "386037734",
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "meta-table",

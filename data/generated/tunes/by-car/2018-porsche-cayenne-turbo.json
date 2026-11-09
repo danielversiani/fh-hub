@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [],
@@ -49,37 +49,6 @@
       "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
-      "id": "nc-b1f90b8ae2",
-      "metaRank": 43,
-      "name": "A cross-country AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 91,
-          "sourceId": "noa-miyako",
-          "tab": "a-cross-country"
-        }
-      ],
-      "role": "handling",
-      "score": 0.563,
-      "surface": "cross-country",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-porsche-cayenne-turbo",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
       "id": "nc-e244442fdd",
       "metaRank": 92,
       "name": "A road AWD",
@@ -104,6 +73,89 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-porsche-cayenne-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-554191136",
+      "metaRank": 92,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 128,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "554191136",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-porsche-cayenne-turbo",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-07-02",
+      "id": "sc-616660933",
+      "name": "A Dirt/CC Very Stong",
+      "notes": "Online, Seasonal - Offmeta strong, fastest sport utility hero",
+      "observations": [
+        {
+          "raw": {},
+          "row": 24,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.485,
+      "shareCode": "616660933",
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-porsche-cayenne-turbo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-01",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-774129265",
+      "metaRank": 43,
+      "name": "A CC Grip",
+      "observations": [
+        {
+          "raw": {},
+          "row": 173,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "handling",
+      "score": 0.579,
+      "shareCode": "774129265",
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1

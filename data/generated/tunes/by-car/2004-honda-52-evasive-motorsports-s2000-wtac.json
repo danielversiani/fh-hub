@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T00:13:14.922Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
     {
       "buildTags": [
@@ -111,6 +111,48 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-honda-52-evasive-motorsports-s2000-wtac",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "slightly-hard",
+      "drivetrain": "RWD",
+      "id": "sc-144642139",
+      "lapRefs": [
+        {
+          "time": "48.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川48.1 操控向后驱 锁极速",
+      "metaNotesI18n": {
+        "en": "Handling-oriented RWD; top speed is capped.",
+        "pt-br": "Tração traseira voltada para curvas; velocidade máxima limitada."
+      },
+      "metaRank": 16,
+      "name": "S2 Acceleration-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 224,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.614,
+      "shareCode": "144642139",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],

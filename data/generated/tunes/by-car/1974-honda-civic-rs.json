@@ -1,54 +1,6 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T13:08:17.947Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-46d6cbdde1",
-      "lapRefs": [
-        {
-          "time": "1:04.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:04.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 18,
-      "name": "B road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 39,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        },
-        {
-          "raw": {},
-          "row": 208,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
-    },
     {
       "buildTags": [
         "purist"
@@ -100,37 +52,6 @@
       "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
-      "id": "nc-6614cd13ae",
-      "metaRank": 41,
-      "name": "C road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 87,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
       "id": "nc-67e5ad1d6e",
       "lapRefs": [
         {
@@ -157,48 +78,6 @@
       "score": 0.563,
       "surface": "dirt",
       "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "stock",
-      "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "C",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-hard",
-      "drivetrain": "FWD",
-      "fromMeta": true,
-      "id": "nc-7d397fc71a",
-      "lapRefs": [
-        {
-          "time": "54.5",
-          "track": "Highway Circuit"
-        }
-      ],
-      "metaNotes": "大马力前驱 高速路54.5",
-      "metaNotesI18n": {
-        "en": "High-power FWD.",
-        "pt-br": "Tração dianteira com muita potência."
-      },
-      "metaRank": 33,
-      "name": "C road FWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 70,
-          "sourceId": "noa-miyako",
-          "tab": "c-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.488,
-      "surface": "road",
-      "tier": "t1",
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "noa-miyako"
@@ -235,79 +114,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-bf5fff1ec2",
-      "metaRank": 9,
-      "name": "B dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 21,
-          "sourceId": "noa-miyako",
-          "tab": "b-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1974-honda-civic-rs",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "FWD",
-      "fromMeta": true,
-      "id": "nc-d59b364e71",
-      "lapRefs": [
-        {
-          "time": "1:06.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:06.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 92,
-      "name": "B road FWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 190,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -379,6 +185,122 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1974-honda-civic-rs",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-07-25",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-140941576",
+      "metaRank": 9,
+      "name": "B Dirt Stronger!",
+      "observations": [
+        {
+          "raw": {},
+          "row": 180,
+          "sourceId": "fhstats",
+          "tab": "online"
+        }
+      ],
+      "role": "allround",
+      "score": 0.701,
+      "shareCode": "140941576",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1974-honda-civic-rs",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-253149788",
+      "lapRefs": [
+        {
+          "time": "1:04.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 18,
+      "name": "B Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 33,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "253149788",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1974-honda-civic-rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "C",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "FWD",
+      "id": "sc-734611884",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "大马力前驱 高速路54.5",
+      "metaNotesI18n": {
+        "en": "High-power FWD.",
+        "pt-br": "Tração dianteira com muita potência."
+      },
+      "metaRank": 33,
+      "name": "C Acceleration-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 12,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "power",
+      "score": 0.476,
+      "shareCode": "734611884",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1
