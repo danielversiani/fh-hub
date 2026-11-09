@@ -1,6 +1,6 @@
 # 0010. Política de fontes: crédito, autorização e remoção
 
-- **Status:** Proposta (depende de ação do dono: contato com os tunadores)
+- **Status:** Substituída em parte por [0016](0016-fontes-publicas-com-opcao-de-saida.md) (o item 2, autorização prévia, deixou de valer; crédito, remoção e o resto continuam)
 - **Data:** 2026-11-07
 
 ## Contexto

@@ -12,7 +12,7 @@ interface Props {
 const { locale } = Astro.props;
 const text = LEGAL[locale];
 // Only sources on the site; authorised ones first.
-const ORDER = ['granted', 'prelaunch', 'not-required'] as const;
+const ORDER = ['granted', 'public', 'not-required'] as const;
 const sources = loadSourceStatus()
   .filter((s): s is typeof s & { permission: (typeof ORDER)[number] } =>
     (ORDER as readonly string[]).includes(s.permission),
@@ -21,7 +21,7 @@ const sources = loadSourceStatus()
     (a, b) =>
       ORDER.indexOf(a.permission) - ORDER.indexOf(b.permission) || a.name.localeCompare(b.name),
   );
-const tone = { granted: 'text-ok', prelaunch: 'text-warn', 'not-required': 'text-muted' } as const;
+const tone = { granted: 'text-ok', public: 'text-text', 'not-required': 'text-muted' } as const;
 ---
 
 <Base locale={locale} path="/legal/" title={text.title}>

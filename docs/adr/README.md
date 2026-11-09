@@ -16,12 +16,13 @@ Eles explicam o *porquê* do projeto ser como é. Ver [ADR-0001](0001-registrar-
 | [0007](0007-i18n.md) | PT-BR + EN com rotas por idioma | Aceita |
 | [0008](0008-curadoria-regras-e-ia.md) | Curadoria por regras + camada de IA via Pull Request | Aceita |
 | [0009](0009-playlist-fonte-oficial.md) | Festival Playlist a partir da fonte oficial, com curadoria própria | Aceita |
-| [0010](0010-politica-de-fontes.md) | Política de fontes: crédito, autorização e remoção | Proposta |
+| [0010](0010-politica-de-fontes.md) | Política de fontes: crédito, autorização e remoção | Substituída em parte por 0016 |
 | [0011](0011-idioma-docs-e-codigo.md) | Documentação em PT-BR, código em inglês | Aceita |
 | [0012](0012-hospedagem-cloudflare-pages.md) | Hospedagem no Cloudflare Pages com deploy limitado | Aceita |
 | [0013](0013-miniaturas-dos-carros.md) | Miniaturas dos carros a partir da Forza Wiki, sob as regras de conteúdo da Microsoft | Aceita |
 | [0014](0014-traducao-dos-textos-das-fontes.md) | Traduzir os textos das fontes com uma memória de tradução revisada por PR | Aceita |
-| [0015](0015-pre-lancamento-com-todas-as-fontes.md) | Pré-lançamento público com todas as fontes, enquanto as autorizações são pedidas | Aceita |
+| [0015](0015-pre-lancamento-com-todas-as-fontes.md) | Pré-lançamento público com todas as fontes, enquanto as autorizações são pedidas | Substituída por 0016 |
+| [0016](0016-fontes-publicas-com-opcao-de-saida.md) | Publicar fontes públicas com crédito, e tirar quem pedir para sair | Aceita |
 
 ## Como escrever um novo ADR
 

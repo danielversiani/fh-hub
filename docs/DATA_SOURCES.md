@@ -11,7 +11,7 @@
 | `forza-cars` | forza.net/fh6cars | JSON oficial | **Roster oficial: 667 carros** (lista mestre) | ✅ `_payload.json` | not-required | ✅ Fase 0 |
 | `fandom-rarity` | Forza Wiki (Fandom) | API MediaWiki | **Raridade** de 641 carros (Comum, Raro, Épico, Lendário, Forza Edition) | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
 | `fandom-drivetrain` | Forza Wiki (Fandom) | API MediaWiki | **Tração de fábrica** (FWD, RWD, AWD) de 666 carros | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
-| `rivals-meta` | FH6 Rivals Meta Sheet (comunidade) | Google Sheets (CSV) | Carro **mais usado (1º) e segundo (2º)** no topo de cada ranking de Rivais, por pista e classe, em asfalto, terra e cross country | ✅ CSV | prelaunch (autor a identificar) | ✅ dados lidos; uso no site em discussão |
+| `rivals-meta` | FH6 Rivals Meta Sheet (comunidade) | Google Sheets (CSV) | Carro **mais usado (1º) e segundo (2º)** no topo de cada ranking de Rivais, por pista e classe, em asfalto, terra e cross country | ✅ CSV | public (autor a identificar) | ✅ dados lidos; uso no site em discussão |
 | `fandom-images` | Forza Wiki (Fandom) | API MediaWiki | **Foto** de 666 carros (captura de tela do FH6) | ✅ API pública | not-required (regras de conteúdo da Microsoft, [ADR-0013](adr/0013-miniaturas-dos-carros.md)) | ✅ Fase 1 |
 | `gbr-ozzy` (desligada: o autor pediu para ficar de fora, 2026-11-08) | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | pending (prioridade) | ✅ Fase 0 |
 | `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | pending | ✅ Fase 0 |

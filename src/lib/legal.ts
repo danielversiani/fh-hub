@@ -13,7 +13,7 @@ export interface LegalText {
   sections: { id: string; title: string; paragraphs: string[] }[];
   sourcesTitle: string;
   sourcesLead: string;
-  status: Record<'granted' | 'prelaunch' | 'not-required', string>;
+  status: Record<'granted' | 'public' | 'not-required', string>;
   requestsCta: string;
 }
 
@@ -53,7 +53,7 @@ export const LEGAL: Record<Locale, LegalText> = {
         title: 'Pedidos de remoção, correção ou crédito',
         paragraphs: [
           'Se você é autor de uma fonte e quer corrigir algo, mudar o crédito, tirar um link ou retirar seus dados do site, abra um pedido no link abaixo. Informe o link da sua planilha, o que deve mudar (linhas, campos ou a fonte inteira), sua relação com a fonte e o motivo.',
-          'Pedidos de autores sobre os próprios dados são atendidos em até 7 dias: a fonte sai do site na sincronização seguinte. Pedidos vagos, que não puderem ser confirmados ou que tratem de dados de outra pessoa podem precisar de mais informações.',
+          'Pedidos de autores sobre os próprios dados são atendidos em até 7 dias: o tunador (ou a planilha inteira) sai de todas as listas do site na sincronização seguinte e não volta nas atualizações. Pedidos vagos, que não puderem ser confirmados ou que tratem de dados de outra pessoa podem precisar de mais informações.',
         ],
       },
       {
@@ -76,7 +76,7 @@ export const LEGAL: Record<Locale, LegalText> = {
       'Estamos pedindo a autorização expressa de cada autor. A lista abaixo mostra a situação de cada fonte e é atualizada conforme as respostas chegam.',
     status: {
       granted: 'Autorização expressa do autor',
-      prelaunch: 'Pedido de autorização em andamento',
+      public: 'Fonte pública, com crédito',
       'not-required': 'Dado oficial ou de licença aberta',
     },
     requestsCta: 'Pedir remoção, correção ou mudança de crédito',
@@ -139,7 +139,7 @@ export const LEGAL: Record<Locale, LegalText> = {
       'We are asking each author for express permission. The list below shows where each source stands and is updated as answers come in.',
     status: {
       granted: 'Express permission from the author',
-      prelaunch: 'Permission request in progress',
+      public: 'Public source, credited',
       'not-required': 'Official data or open licence',
     },
     requestsCta: 'Ask for removal, correction or a credit change',

@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-08: **Nova regra de fontes** ([ADR-0016](docs/adr/0016-fontes-publicas-com-opcao-de-saida.md)): fontes públicas da comunidade entram com crédito (`permission: public`, no lugar de `prelaunch`), e quem pede para sair vai para `data/manual/opt-out.yaml` (tunador) ou `denied` (planilha inteira). Página "Uso de dados" e aviso do topo atualizados.
 - 2026-11-08: **Rivais** (fonte `rivals-meta`): o 1º e o 2º carro mais usados no topo de cada ranking de Rivais, por pista, classe e piso, em `data/generated/rivals.json` (uso no site em discussão). **Raridade manual** (`data/manual/car-rarity.yaml`): os 25 carros de tesouro/celeiro como Lendário e o BRZ Forza Edition, confirmados no jogo pelo dono.
 - 2026-11-08: **Página "Uso de dados"** (`/legal/`, link no rodapé): não reivindicamos a posse de nada, o site compila informações públicas, como pedir remoção ou correção, e a situação da autorização de cada fonte. **GBR Ozzy saiu do projeto a pedido do autor**; kleis passou a `granted` (autorização expressa).
 - 2026-11-08: **Pré-lançamento** ([ADR-0015](docs/adr/0015-pre-lancamento-com-todas-as-fontes.md)): o site público passa a mostrar as fontes dos tunadores (`permission: prelaunch`) enquanto as autorizações são pedidas, com aviso em todas as páginas, link para pedir remoção e sem indexação em buscadores. Nome do site: **Forza Paddock**.

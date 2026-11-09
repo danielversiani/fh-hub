@@ -1,6 +1,6 @@
 # 0015. Pré-lançamento público com todas as fontes, enquanto as autorizações são pedidas
 
-- **Status:** Aceita (decisão do dono, 2026-11-08)
+- **Status:** Substituída por [0016](0016-fontes-publicas-com-opcao-de-saida.md)
 - **Data:** 2026-11-08
 
 ## Contexto

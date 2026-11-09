@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T00:57:00.431Z",
+  "generatedAt": "2026-11-09T02:42:28.646Z",
   "items": [
     {
       "buildTags": [],
@@ -329,9 +329,22 @@
       ],
       "class": "A",
       "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
       "drivetrain": "AWD",
       "id": "nc-a66355f47a",
-      "metaRank": 67,
+      "lapRefs": [
+        {
+          "time": "1:00.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.9 变速箱需要适应",
+      "metaNotesI18n": {
+        "en": "The gearbox takes some getting used to.",
+        "pt-br": "O câmbio exige costume."
+      },
+      "metaRank": 114,
       "name": "A Road Grip Shirakawa 1:00.9",
       "observations": [
         {
@@ -351,10 +364,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "role": "power",
+      "score": 0.554,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t1.5",
       "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "noa-miyako"
     },
     {

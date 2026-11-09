@@ -26,6 +26,8 @@ export interface ManualData {
   playlistTexts: Record<string, string>;
   /** Car id → rarity confirmed in game by the owner (wins over the wiki). */
   carRarity: Record<string, string>;
+  /** Tuner (gamertag) → date/reason: tuners who asked to leave the site (ADR-0016). */
+  optOut: Record<string, string>;
 }
 
 const TranslationFile = z
@@ -48,6 +50,9 @@ export function loadManual(dir = paths.manual): ManualData {
     trackAliases: fs.existsSync(path.join(dir, 'track-aliases.yaml'))
       ? AliasFile.parse(readYaml(path.join(dir, 'track-aliases.yaml')))
       : {},
+    optOut: fs.existsSync(path.join(dir, 'opt-out.yaml'))
+      ? AliasFile.parse(readYaml(path.join(dir, 'opt-out.yaml')))
+      : {},
     carRarity: fs.existsSync(path.join(dir, 'car-rarity.yaml'))
       ? AliasFile.parse(readYaml(path.join(dir, 'car-rarity.yaml')))
       : {},
@@ -66,6 +71,7 @@ export function loadManual(dir = paths.manual): ManualData {
 export const MANUAL_ALIAS_FILES = [
   'car-aliases.yaml',
   'car-rarity.yaml',
+  'opt-out.yaml',
   'playlist-texts.yaml',
   'track-aliases.yaml',
   'tuner-aliases.yaml',

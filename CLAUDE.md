@@ -10,7 +10,7 @@ Este projeto é construído majoritariamente por um agente de IA, mas precisa po
 - Siga o `CONTRIBUTING.md`: TypeScript strict, zod nas fronteiras, testes sem rede, saídas determinísticas.
 - Atualize a documentação afetada **no mesmo PR**. Código sem a doc correspondente atualizada é considerado incompleto.
 - Nunca edite `data/generated/` à mão.
-- Nunca publique dados de uma fonte com `permission` diferente de `granted`, `not-required` ou `prelaunch` (pré-lançamento decidido pelo dono, [ADR-0015](docs/adr/0015-pre-lancamento-com-todas-as-fontes.md)). `pending` e `denied` nunca vão ao ar.
+- Publique só fontes com `permission` `granted`, `public` ou `not-required` ([ADR-0016](docs/adr/0016-fontes-publicas-com-opcao-de-saida.md)); `pending` e `denied` nunca vão ao ar. Tunadores em `data/manual/opt-out.yaml` nunca aparecem. Não acesse servidores do jogo (APIs internas, raspagem do Creative Hub ou de rankings).
 
 ## Ao fazer a curadoria semanal (rotina agendada)
 - Siga o [ADR-0008](docs/adr/0008-curadoria-regras-e-ia.md) e o `docs/CURATION.md`.

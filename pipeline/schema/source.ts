@@ -93,6 +93,6 @@ export const SourcesFile = z
   });
 export type SourcesFile = z.infer<typeof SourcesFile>;
 
-/** Sources whose data may be committed and published (ADR-0010; `prelaunch`: ADR-0015). */
+/** Sources whose data may be committed and published (ADR-0016). */
 export const isPublic = (s: Pick<SourceDef, 'permission'>): boolean =>
-  s.permission === 'granted' || s.permission === 'not-required' || s.permission === 'prelaunch';
+  s.permission === 'granted' || s.permission === 'not-required' || s.permission === 'public';

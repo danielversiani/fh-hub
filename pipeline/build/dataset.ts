@@ -209,11 +209,15 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
   }
 
   // --- tunes -------------------------------------------------------------------------------
+  // Tuners who asked to leave the site (ADR-0016): out of every source, tunes and credits.
+  // Matched by gamertag or by tuner id (slug), without registering the tuner.
+  const optedOut = new Set(Object.keys(manual.optOut).flatMap((name) => [slugify(name)]));
+  const isOptedOut = (name: string | undefined) => optedOut.has(slugify(cleanText(name)));
   const tunes = new Map<string, Tune>();
   for (const { source, output } of ordered) {
     const excluded = new Set(source.excludedTuners.map((t) => cleanText(t).toLowerCase()));
     for (const raw of output.tunes) {
-      if (excluded.has(cleanText(raw.tuner).toLowerCase())) continue;
+      if (excluded.has(cleanText(raw.tuner).toLowerCase()) || isOptedOut(raw.tuner)) continue;
       const carId = resolveCar(source.id, raw.car);
       const tuner = identifyTuner(raw.tuner);
       if (!carId || !tuner) continue;
@@ -370,6 +374,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
         tunerIds: [
           ...new Set(
             m.tuners.flatMap((name) => {
+              if (isOptedOut(name)) return [];
               const identity = identifyTuner(name);
               return identity ? [identity.id] : [];
             }),

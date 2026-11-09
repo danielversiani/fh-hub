@@ -44,6 +44,12 @@ O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](
 5. Rode `pnpm sync --source=<id> --dry-run` e confira o resumo (linhas lidas, carros não reconhecidos).
 6. Abra o PR com fixture + adaptador + doc juntos.
 
+## 3b. Um autor pediu para sair do site
+
+- **Um tunador:** adicione o gamertag em `data/manual/opt-out.yaml` com a data e por onde o pedido chegou. As tunes e as indicações dele somem de todas as fontes na próxima sincronização ([ADR-0016](adr/0016-fontes-publicas-com-opcao-de-saida.md)).
+- **Uma planilha inteira:** em `data/sources.yaml`, troque para `permission: denied` e `active: false`, e apague `data/snapshots/<fonte>.json` e `pipeline/__fixtures__/<fonte>/`.
+- Prazo: até 7 dias.
+
 ## 4. Carros ou tunadores não reconhecidos
 
 1. Abra `data/review/unmatched-cars.json`. Cada item mostra o texto original e os candidatos com a similaridade.

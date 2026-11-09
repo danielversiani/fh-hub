@@ -1,11 +1,11 @@
 # Source registry. Documentation for each source: docs/DATA_SOURCES.md
-# Policy (credit, permission, removal): docs/adr/0010-politica-de-fontes.md
+# Policy (credit, permission, removal): docs/adr/0016-fontes-publicas-com-opcao-de-saida.md
 #
 # permission:
 #   not-required → official/factual data, published normally
 #   granted      → tuner authorised publication
-#   prelaunch    → published during the pre-launch while we ask the tuner (ADR-0015);
-#                  set back to pending/denied to take a tuner off the site
+#   public       → public community source, published with credit (ADR-0016); a tuner who
+#                  asks to leave goes to data/manual/opt-out.yaml, a whole sheet → denied
 #   pending      → synced only into .cache/preview (never committed or published)
 #   denied       → keep `active: false`
 version: 1
@@ -96,7 +96,7 @@ sources:
     adapter: noa-miyako
     tabs:
       - { id: workbook, role: meta }
-    permission: prelaunch
+    permission: public
     active: true
     weight: 0.9
     notes: 'Sheet 地平线6线上车辆调校推荐. Meta tiers per class × surface. Undocumented QQ API (lib/qq-sheet.ts). No share codes.'
@@ -141,7 +141,7 @@ sources:
     adapter: k1z-gray
     tabs:
       - { id: fh6-tunes, role: tunes, gid: '1914811100' }
-    permission: prelaunch
+    permission: public
     active: true
     weight: 0.7
 
@@ -156,7 +156,7 @@ sources:
       - { id: road, role: rivals, gid: '1193692103' }
       - { id: dirt, role: rivals, gid: '403670286' }
       - { id: cross-country, role: rivals, gid: '1922376485' }
-    permission: prelaunch
+    permission: public
     active: true
     weight: 0.8
     notes: >-
@@ -175,7 +175,7 @@ sources:
       - { id: a700, role: laptimes, gid: '1109128970', carClass: A }
       - { id: s1-800, role: laptimes, gid: '1623307181', carClass: S1 }
       - { id: s2-900, role: laptimes, gid: '630549251', carClass: S2 }
-    permission: prelaunch
+    permission: public
     active: true
     weight: 0.8
 
@@ -189,6 +189,6 @@ sources:
     adapter: whd-url
     tabs:
       - { id: cars-tracks, role: custom-event, gid: '0' }
-    permission: prelaunch
+    permission: public
     active: true
     weight: 0.6

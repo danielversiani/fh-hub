@@ -100,6 +100,13 @@ describe('buildDataset (fixtures)', () => {
     expect(dataset.review.filter((r) => r.kind === 'untranslated-text')).toEqual([]);
   });
 
+  it('removes tuners who opted out from every source (ADR-0016)', () => {
+    const tuner = dataset.tunes[0]!.tunerId;
+    const without = buildDataset(results, { ...manual, optOut: { [tuner]: 'test' } });
+    expect(without.tunes.some((t) => t.tunerId === tuner)).toBe(false);
+    expect(without.meta.some((m) => m.tunerIds.includes(tuner))).toBe(false);
+  });
+
   it('extracts lap-time references from meta notes', () =>
     expect(dataset.meta.some((m) => m.lapRefs?.some((r) => r.track === 'Shirakawa'))).toBe(true));
 });
