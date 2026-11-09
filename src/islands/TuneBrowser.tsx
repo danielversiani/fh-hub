@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
-import type { BrowseData, BrowseLap, BrowseMeta, BrowseTune } from '../lib/browse';
+import type { BrowseData, BrowseLap, BrowseMeta, BrowseRole, BrowseTune } from '../lib/browse';
 import { CLASS_ORDER } from '../lib/ui';
-import type { Tier } from '../../pipeline/schema/enums';
 import CarCard, {
   buildsFor,
   carTypeName,
+  formatDay,
   obtainText,
   RarityChip,
-  TierChip,
+  PlatformChip,
+  platformIndex,
   type CarCardLabels,
 } from './CarCard';
 
@@ -23,7 +24,27 @@ export interface TuneBrowserLabels extends CarCardLabels {
   showMore: string;
   tunesCount: string;
   orderHint: string;
+  alt: {
+    title: string;
+    lead: string;
+    pickClass: string;
+    sources: string;
+    rivals: string;
+    updated: string;
+    how: string;
+    howText: string;
+    highlights: string;
+    showAll: string;
+    showLess: string;
+    none: string;
+    tags: Record<AltTag, string>;
+    tagHelp: Record<AltTag, string>;
+  };
 }
+
+type AltTag = 'recent' | 'sleeper' | 'featured' | 'rivals';
+/** Alternatives listed before "show all". */
+const ALT_PAGE = 10;
 
 interface Props {
   labels: TuneBrowserLabels;
@@ -33,7 +54,6 @@ interface Props {
   tuner?: string;
 }
 
-const TIER_ORDER: readonly Tier[] = ['meta-plus', 'meta', 't0.5', 't1', 't1.5', 't2', 't3'];
 const PAGE = 60;
 
 const group = <T,>(items: readonly T[], key: (item: T) => string) => {
@@ -44,8 +64,8 @@ const group = <T,>(items: readonly T[], key: (item: T) => string) => {
 
 /**
  * Tunes, listed by car (owner's request: one tab instead of "Cars" + "Tunes"). Without a class
- * filter the list is alphabetical; with a class, cars come in the meta table's order — best tier
- * first, then the table's rank — and cars the table does not list come last (T3).
+ * filter the list is alphabetical; with a class, cars come in the platform's ranking (ADR-0017):
+ * Meta+, Meta, Off-meta, Niche, Other, then the rank inside the tier; uncited cars come last.
  */
 export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
   const [data, setData] = useState<BrowseData | null>(null);
@@ -55,6 +75,7 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
   const [category, setCategory] = useState('');
   const [open, setOpen] = useState<Set<string>>(new Set());
   const [limit, setLimit] = useState(PAGE);
+  const [allAlts, setAllAlts] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
@@ -72,6 +93,9 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
       tunesByCar: group<BrowseTune>(tunes, (t) => t.car),
       metaByCar: group<BrowseMeta>(data.meta, (m) => m.car),
       lapsByCar: group<BrowseLap>(data.laps, (l) => l.car),
+      roles: new Map<string, BrowseRole>(
+        data.roles.map((r) => [`${r.car}|${r.cls}|${r.surface}`, r]),
+      ),
     };
   }, [data, tuner]);
 
@@ -100,16 +124,40 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
       })
       .sort((a, b) => {
         if (!cls) return a.car.name.localeCompare(b.car.name);
-        const ta = TIER_ORDER.indexOf(a.best?.tier ?? 't3');
-        const tb = TIER_ORDER.indexOf(b.best?.tier ?? 't3');
+        // The platform's ranking (ADR-0017): tier, then the rank inside the tier.
         return (
-          ta - tb ||
-          Number(Boolean(b.best?.listed)) - Number(Boolean(a.best?.listed)) ||
+          platformIndex(a.best?.tier) - platformIndex(b.best?.tier) ||
           (a.best?.rank ?? 9999) - (b.best?.rank ?? 9999) ||
           a.car.name.localeCompare(b.car.name)
         );
       });
   }, [data, index, query, cls, surface, category, labels]);
+
+  // Competitive alternatives to the current meta for the chosen class (owner's focus, ADR-0017):
+  // the whole ranked list, plus a few highlights (platform picks, recent finds, sleepers).
+  const altSurface = surface || 'road';
+  const alternatives = useMemo(() => {
+    if (!data || !cls || tuner) return [];
+    return data.roles
+      .filter((r) => r.cls === cls && r.surface === altSurface && r.role === 'alternative')
+      .sort((a, b) => a.rank - b.rank);
+  }, [data, cls, altSurface, tuner]);
+  const highlights = useMemo(() => {
+    const has = (tag: AltTag) => alternatives.filter((r) => r.tags?.includes(tag));
+    const picked = [
+      ...has('featured'),
+      ...has('recent').slice(0, 2),
+      ...has('sleeper').slice(0, 2),
+    ];
+    return [...new Map(picked.map((r) => [r.car, r])).values()].slice(0, 6);
+  }, [alternatives]);
+  const carById = useMemo(() => new Map((data?.cars ?? []).map((c) => [c.id, c])), [data]);
+  const openCar = (id: string) => {
+    setOpen(new Set(open).add(id));
+    requestAnimationFrame(() =>
+      document.getElementById(`car-${id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
+    );
+  };
 
   const toggle = (id: string) => {
     const next = new Set(open);
@@ -122,18 +170,19 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
 
   return (
     <div>
-      <div class="flex flex-col gap-3">
-        <input
-          type="search"
-          class="w-full rounded border border-border bg-surface px-4 py-2.5"
-          placeholder={labels.search}
-          value={query}
-          onInput={(e) => {
-            setQuery(e.currentTarget.value);
-            setLimit(PAGE);
-          }}
-        />
-        <div class="flex flex-wrap items-center gap-1.5">
+      <input
+        type="search"
+        class="w-full rounded border border-border bg-surface px-4 py-2.5"
+        placeholder={labels.search}
+        value={query}
+        onInput={(e) => {
+          setQuery(e.currentTarget.value);
+          setLimit(PAGE);
+        }}
+      />
+      {/* Fixed under the menu while scrolling (like fhstats); one scrolling line each on phones. */}
+      <div class="sticky-filters mt-3 flex flex-col gap-2">
+        <div class="filter-row">
           <span class="label mr-2">{labels.classLabel}</span>
           <button type="button" class={pill(!cls)} onClick={() => setCls('')}>
             {labels.all}
@@ -148,7 +197,7 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
             </button>
           ))}
         </div>
-        <div class="flex flex-wrap items-center gap-1.5">
+        <div class="filter-row">
           <span class="label mr-2">{labels.surfaceLabel}</span>
           <button type="button" class={pill(!surface)} onClick={() => setSurface('')}>
             {labels.all}
@@ -179,6 +228,86 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
         <p class="mt-8 text-muted">{labels.loading}</p>
       ) : (
         <>
+          {!tuner && (
+            <section class="alt-box mt-6">
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h2 class="display text-xl text-accent">{labels.alt.title}</h2>
+                <details class="text-xs text-muted">
+                  <summary class="underline">{labels.alt.how}</summary>
+                  <p class="mt-2 max-w-xl">{labels.alt.howText}</p>
+                </details>
+              </div>
+              {!cls ? (
+                <p class="mt-1 text-sm text-muted">{labels.alt.pickClass}</p>
+              ) : (
+                <>
+                  <p class="mt-1 text-sm text-muted">
+                    {labels.alt.lead} · {cls} · {labels.surfaces[altSurface]}
+                  </p>
+                  {highlights.length > 0 && (
+                    <div class="alt-highlights mt-4">
+                      <p class="label">{labels.alt.highlights}</p>
+                      <ul class="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                        {highlights.map((r) => {
+                          const car = carById.get(r.car);
+                          if (!car) return null;
+                          return (
+                            <li>
+                              <button type="button" class="alt-card" onClick={() => openCar(r.car)}>
+                                <AltTags tags={r.tags} labels={labels} />
+                                <span class="mt-1 block font-semibold">{car.model}</span>
+                                <span class="block text-xs text-muted">
+                                  {car.make} · {car.year}
+                                </span>
+                                {r.note && (
+                                  <span class="mt-1.5 block text-sm">
+                                    {r.note[labels.lang === 'en' ? 'en' : 'pt-br']}
+                                  </span>
+                                )}
+                                <AltFacts r={r} labels={labels} />
+                              </button>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+                  {alternatives.length === 0 ? (
+                    <p class="mt-3 text-sm text-muted">{labels.alt.none}</p>
+                  ) : (
+                    <ol class="alt-list mt-4">
+                      {(allAlts ? alternatives : alternatives.slice(0, ALT_PAGE)).map((r, i) => {
+                        const car = carById.get(r.car);
+                        if (!car) return null;
+                        return (
+                          <li>
+                            <button type="button" class="alt-row" onClick={() => openCar(r.car)}>
+                              <span class="alt-rank">{i + 1}</span>
+                              <span class="min-w-0">
+                                <span class="font-semibold">{car.model}</span>{' '}
+                                <span class="text-xs text-muted">
+                                  {car.make} · {car.year}
+                                </span>{' '}
+                                <AltTags tags={r.tags} labels={labels} />
+                                <AltFacts r={r} labels={labels} />
+                              </span>
+                            </button>
+                          </li>
+                        );
+                      })}
+                    </ol>
+                  )}
+                  {alternatives.length > ALT_PAGE && (
+                    <button type="button" class="pill mt-3" onClick={() => setAllAlts(!allAlts)}>
+                      {allAlts
+                        ? labels.alt.showLess
+                        : labels.alt.showAll.replace('{n}', String(alternatives.length))}
+                    </button>
+                  )}
+                </>
+              )}
+            </section>
+          )}
           <p class="mt-5 text-sm text-muted">
             {labels.results.replace('{n}', String(rows.length))}
             {cls && ` · ${labels.orderHint}`}
@@ -186,10 +315,14 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
           {rows.length === 0 && <p class="mt-4 text-muted">{labels.empty}</p>}
           <ul class="mt-3 flex flex-col gap-1">
             {rows.slice(0, limit).map(({ car, builds, best, shown }) => {
+              const rowRole =
+                best?.cls && best.surface
+                  ? index?.roles.get(`${car.id}|${best.cls}|${best.surface}`)
+                  : undefined;
               const isOpen = open.has(car.id);
               const obtain = obtainText(car.obtain, labels);
               return (
-                <li class="row relative overflow-hidden" data-open={isOpen}>
+                <li id={`car-${car.id}`} class="row relative overflow-hidden" data-open={isOpen}>
                   {car.image && (
                     <img
                       src={car.image}
@@ -206,7 +339,11 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
                     aria-expanded={isOpen}
                     onClick={() => toggle(car.id)}
                   >
-                    <span>{best && <TierChip tier={best.tier} muted={!best.listed} />}</span>
+                    <span>
+                      {best?.tier && (
+                        <PlatformChip tier={best.tier} label={labels.tiers[best.tier]} />
+                      )}
+                    </span>
                     {/* Phone: name on one line, details below. Wider screens: one line. */}
                     <span class="flex flex-wrap items-center gap-x-2 gap-y-0.5">
                       <span class="font-semibold">{car.model}</span>
@@ -214,6 +351,7 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
                         rarity={car.rarity}
                         label={car.rarity ? labels.rarities[car.rarity]! : ''}
                       />
+                      {rowRole && <AltTags tags={rowRole.tags} labels={labels} />}
                       <span class="w-full text-xs text-muted sm:ml-1 sm:w-auto sm:text-sm">
                         {car.make} · {car.year}
                         {obtain.text && ` · ${obtain.text}`}
@@ -248,5 +386,37 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
         </>
       )}
     </div>
+  );
+}
+
+/** "Escolha do Forza Paddock", "Achado recente", "Sleeper" chips. */
+function AltTags({ tags, labels }: { tags?: AltTag[]; labels: TuneBrowserLabels }) {
+  if (!tags?.length) return null;
+  return (
+    <span class="inline-flex flex-wrap gap-1 align-middle">
+      {tags.map((tag) => (
+        <span class={`alt-tag alt-tag-${tag}`} title={labels.alt.tagHelp[tag] || undefined}>
+          {labels.alt.tags[tag]}
+        </span>
+      ))}
+    </span>
+  );
+}
+
+/** Sources, evidence, Rivals top-10 count and last update of one alternative. */
+function AltFacts({ r, labels }: { r: BrowseRole; labels: TuneBrowserLabels }) {
+  const extra = [
+    r.rivalsTop10 ? labels.alt.rivals.replace('{n}', String(r.rivalsTop10)) : '',
+    r.updated ? labels.alt.updated.replace('{date}', formatDay(r.updated, labels.lang)) : '',
+  ].filter(Boolean);
+  return (
+    <>
+      {r.sources > 0 && (
+        <span class="mt-1 block text-xs">
+          {labels.alt.sources.replace('{n}', String(r.sources))}: {r.evidence.join(' · ')}
+        </span>
+      )}
+      {extra.length > 0 && <span class="mt-0.5 block text-xs text-muted">{extra.join(' · ')}</span>}
+    </>
   );
 }

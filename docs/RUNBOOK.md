@@ -50,6 +50,16 @@ O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](
 - **Uma planilha inteira:** em `data/sources.yaml`, troque para `permission: denied` e `active: false`, e apague `data/snapshots/<fonte>.json` e `pipeline/__fixtures__/<fonte>/`.
 - Prazo: até 7 dias.
 
+## 3c. Ajustes manuais do ranking (dono e, no futuro, colaboradores)
+
+Todos ficam em `data/manual/`, valem na próxima sincronização e têm instruções no topo de cada arquivo ([CURATION.md §10](CURATION.md#10-ranking-do-forza-paddock-e-alternativas)):
+
+- **Escolha do Forza Paddock:** `featured-picks.yaml` (carro, classe, piso, data e comentário). Tom do comentário: "competitivo" basta.
+- **Nicho ou correção de tier:** `tier-overrides.yaml`. Vale mais que a fórmula.
+- **Cérebro desligado:** `brain-afk.yaml`. Marca tunes; com `brainAfk: false`, tira uma marca automática.
+
+Depois de editar, rode `pnpm validate` (o id do carro precisa existir em `data/generated/cars.json`).
+
 ## 4. Carros ou tunadores não reconhecidos
 
 1. Abra `data/review/unmatched-cars.json`. Cada item mostra o texto original e os candidatos com a similaridade.
@@ -76,18 +86,18 @@ O site continua com o **último dado bom** durante todo o incidente ([ADR-0005](
 
 ## 6. Adicionar uma nova fonte
 
-1. Confirme a autorização do tunador e registre como `permission: pending` ou `granted` ([ADR-0010](adr/0010-politica-de-fontes.md)).
+1. Registre a permissão: `public` para fonte pública da comunidade, `granted` com autorização expressa ([ADR-0016](adr/0016-fontes-publicas-com-opcao-de-saida.md)).
 2. Adicione a entrada em `data/sources.yaml`.
 3. Baixe a fixture: `pnpm fixtures:update --source=<id>`.
 4. Escreva `pipeline/adapters/<id>.ts` e o teste correspondente.
 5. Rode `pnpm sync --source=<id> --dry-run` e resolva os itens de revisão (§4).
 6. Escreva a ficha em [DATA_SOURCES.md](DATA_SOURCES.md).
-7. Abra o PR. A fonte só vai ao ar com `permission: granted` e `active: true`.
+7. Abra o PR. A fonte vai ao ar com `permission` `granted`, `public` ou `not-required` e `active: true`.
 
 ## 7. Um tunador pediu remoção
 
 1. Confirme a identidade (mensagem vinda da conta oficial do tunador).
-2. Para tirar uma fonte inteira, use `active: false` em `data/sources.yaml`. Para tirar só um tunador, adicione-o em `excludedTuners` no mesmo arquivo.
+2. Siga o [§3b](#3b-um-autor-pediu-para-sair-do-site): tunador em `data/manual/opt-out.yaml`; planilha inteira com `permission: denied` e `active: false`.
 3. O próximo sync remove os dados. Para acelerar, rode o workflow `sync` manualmente.
 4. Responda ao tunador com a confirmação. Prazo: 7 dias.
 

@@ -1,10 +1,14 @@
 # Curadoria: notas, categorias e sugestões
 
-> **Status:** v0.2, implementada por regras em `pipeline/curate/` · **Atualizado em:** 2026-11-08
+> **Status:** v0.3, implementada por regras em `pipeline/curate/` · **Atualizado em:** 2026-11-09
 > Estes são os **critérios do dono do produto**, traduzidos em regras. Todos os pesos e limiares ficam em `data/curation/config.yaml`, não no código: ajustar um critério = editar o YAML num PR.
 > ⚠️ Os valores abaixo são um **ponto de partida** e precisam ser validados pelo dono com dados reais (ver [§9](#9-pendências-com-o-dono)).
 
-## Regras do dono (2026-11-08) — prevalecem sobre o resto deste documento
+## Regras do dono (2026-11-09) — ranking do Forza Paddock
+
+O ranking principal do site é o **tier do Forza Paddock** (Meta+, Meta, Off-meta, Nicho, Outros), calculado a partir de todas as fontes ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md), [§10](#10-ranking-do-forza-paddock-e-alternativas)). As regras 1, 2 e 6 abaixo ficam **substituídas** nesse ponto: a tabela de Noa Miyako continua como fonte e como referência creditada, mas não é mais o ranking do site. Falta um passo: as categorias Meta / Off-meta das sugestões da playlist (regra 2) ainda vêm do tier de Noa Miyako, e devem passar para o tier do Forza Paddock num PR próprio.
+
+## Regras do dono (2026-11-08) — prevalecem sobre o resto deste documento, exceto onde a seção acima as substitui
 
 1. **A tabela de meta de Noa Miyako é a referência.** O tier de um carro numa classe × piso vem dela. Carro que a tabela não lista recebe **T3** (`defaultTier`) até ser avaliado.
 2. **Meta / Off-meta vêm só desse tier**: Meta = Meta+, Meta, T0.5; Off-meta = T1, T1.5, T2.
@@ -137,3 +141,51 @@ lastPhysicsPatch: 2026-11-05   # tunes anteriores perdem o bônus de recência
 3. Definir **Meme** com exemplos concretos (PRODUCT Q5).
 4. As sugestões da playlist devem priorizar **iniciantes** (facilidade e carros fáceis de obter) ou **competitivos** (desempenho máximo)? Proposta: perfil iniciante por padrão, com uma alternância no site.
 5. Fornecer de 5 a 10 casos-âncora.
+
+## 10. Ranking do Forza Paddock e alternativas
+
+Implementado em `pipeline/curate/roles.ts` ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)). Saída: `data/generated/roles.json`, uma linha por carro × classe × piso. Os limiares ficam no topo do arquivo (constantes), com testes em `roles.test.ts`.
+
+### 10.1 Opiniões das fontes (0 a 1)
+
+| Fonte | Escala | Nota |
+|---|---|---|
+| Noa Miyako (tabela de meta) | Meta+ / Meta / T0.5 / T1 / T1.5 / T2 / T3 | 1 / 0,85 / 0,75 / 0,65 / 0,55 / 0,45 / 0,3 |
+| fhstats (lista online), LogikJ | Meta+ / Meta / Strong / Offmeta | 1 / 0,85 / 0,7 / 0,6 |
+| Attax Johnson | "pick" (sem tier) | 0,65; conta como fonte, mas fica **fora da média** quando há fonte com tier |
+
+- **Consenso:** média das opiniões com tier.
+- **Rivais** (fhstats, aparições no top 10): `√(top10 do carro ÷ top10 do líder da classe × piso)`. Entra na força só quando o carro tem top 10: `0,65 × consenso + 0,35 × Rivais`.
+- **Fontes:** opiniões + 1 se tem top 10 em Rivais + 1 se aparece na planilha de Rivais.
+
+### 10.2 Tier
+
+1. **Meta:** 2 ou mais fontes no topo (Meta+ ou Meta), ou 1 no topo com Rivais ≥ 0,6 ou 10+ pontos na planilha de Rivais.
+2. **Meta+:** um carro Meta com consenso ≥ 0,9 e pelo menos um voto Meta+. Se as fontes se dividem entre Meta+ e Meta, ele precisa também de Rivais ≥ 0,8, comparado com o carro Meta mais forte da classe (não com o líder do ranking, que costuma ser um especialista em contra o relógio).
+3. **Off-meta (alternativa):** citado por alguma fonte e com força ≥ 0,55.
+4. **Outros:** citado, mas abaixo disso.
+5. **Builds de Rivais:** quando metade ou mais das opiniões citam uma build de handling puro ou velocidade pura (Attax "Pure Handling"/"Speed", LogikJ grip sem nota de online; o estilo do fhstats sozinho não conta), o carro vai para **Outros** com a etiqueta **Rivais**. Com uma só build dessas, ele mantém o tier e ganha só a etiqueta.
+6. **Nicho** e correções: só à mão, em `data/manual/tier-overrides.yaml` (vale mais que a fórmula). Exemplo: R390 GT1 no S1 asfalto, bom em sprints com curvas de média e alta velocidade.
+
+### 10.3 Ordem das alternativas
+
+1. **Mais fontes primeiro.**
+2. **+0,5** quando o T1 de Noa Miyako é confirmado por outra fonte (o "sweet spot" do dono).
+3. **−1** para carros **manjados**: 3 ou mais fontes, e a data mais antiga citada é de 90 dias ou mais antes da mais nova.
+4. **Desempate:** a força.
+
+### 10.4 Destaques ("Destaques" no topo das alternativas)
+
+- **Escolha do Forza Paddock:** `data/manual/featured-picks.yaml`, com comentário.
+  - Tom: "competitivo" basta; "muito competitivo" só para um achado raro.
+- **Achado recente:** o site viu o carro pela primeira vez há até 21 dias (`firstSeen`), com 2 ou mais fontes, e ele não é manjado.
+  - A etiqueta sai sozinha depois de 21 dias.
+  - O registro começou em 2026-11-09; os carros já listados contam desde o lançamento (2026-05-19).
+- **Sleeper:** uma só lista o cita, mas ele tem Rivais ≥ 0,35.
+- **Limite:** até 6 destaques por classe × piso.
+
+### 10.5 Cérebro desligado
+
+Ver [ADR-0018](adr/0018-cerebro-desligado.md).
+- **Automático:** a tune recomendada pela tabela de Noa Miyako e chamada de "fácil", em carro Meta+.
+- **Manual:** `data/manual/brain-afk.yaml`.

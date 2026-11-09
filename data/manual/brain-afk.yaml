@@ -1,0 +1,16 @@
+# "Cérebro desligado" (brain AFK, ADR-0018): tunes fortes demais e fáceis demais de pilotar.
+# A marca é automática para a tune que a tabela de meta recomenda e chama de "fácil", em carros
+# Meta+ no ranking da plataforma. Aqui o dono (e, no futuro, colaboradores) marca outras tunes ou tira
+# uma marca automática. Sem `tuner`, vale para todas as tunes do carro naquela classe/piso.
+# Exemplos:
+# - carId: 1991-mazda-55-mazda-787b
+#   class: S1
+#   surface: road
+#   tuner: Noa Miyako
+# - carId: 2020-lamborghini-huracan-sto
+#   class: S1
+#   brainAfk: false   # tira a marca automática
+- carId: 2020-lamborghini-huracan-sto
+  class: S1
+  surface: road
+  tuner: LetzeLU

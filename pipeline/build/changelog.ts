@@ -6,6 +6,7 @@ import type { Tier } from '../schema/enums';
 import {
   SCHEMA_VERSION,
   type ChangeLogEntry,
+  type ListEntry,
   type MetaRanking,
   type TuneIndexEntry,
 } from '../schema/entities';
@@ -17,6 +18,59 @@ const rankingKey = (m: Pick<MetaRanking, 'sourceId' | 'carId' | 'class' | 'surfa
 
 function readItems<T>(file: string): T[] | undefined {
   return readJson<{ items: T[] }>(file)?.items;
+}
+
+/** Community list levels, worst to best (fhstats, LogikJ, Attax Johnson…). */
+const LEVEL_ORDER: readonly ListEntry['level'][] = [
+  'offmeta',
+  'pick',
+  'strong',
+  'meta',
+  'meta-plus',
+];
+const listKey = (e: Pick<ListEntry, 'sourceId' | 'carId' | 'class' | 'surface'>) =>
+  `${e.sourceId}|${e.carId}|${e.class}|${e.surface}`;
+
+function previousLists(dir: string): ListEntry[] | undefined {
+  const listsDir = path.join(dir, 'lists');
+  if (!fs.existsSync(listsDir)) return undefined;
+  return fs
+    .readdirSync(listsDir)
+    .flatMap((f) => readItems<ListEntry>(path.join(listsDir, f)) ?? []);
+}
+
+/** Entries added, removed or moved in each community list (shown per list on the home page). */
+function diffLists(dir: string, next: Dataset, now: string): ChangeLogEntry[] {
+  const before = previousLists(dir);
+  if (!before || before.length === 0) return [];
+  const entries: ChangeLogEntry[] = [];
+  const old = new Map(before.map((e) => [listKey(e), e]));
+  const current = new Map(next.lists.map((e) => [listKey(e), e]));
+  const base = (e: ListEntry) => ({
+    at: now,
+    sourceId: e.sourceId,
+    entity: { type: 'list-entry' as const, id: listKey(e) },
+    carId: e.carId,
+    class: e.class,
+    surface: e.surface,
+  });
+  for (const [key, e] of current) {
+    const prev = old.get(key);
+    if (!prev) entries.push({ ...base(e), kind: 'added', after: e.label });
+    else if (prev.level !== e.level) {
+      const up = LEVEL_ORDER.indexOf(e.level) > LEVEL_ORDER.indexOf(prev.level);
+      entries.push({
+        ...base(e),
+        kind: up ? 'tier-up' : 'tier-down',
+        before: prev.label,
+        after: e.label,
+      });
+    }
+  }
+  for (const [key, e] of old) {
+    if (!current.has(key)) entries.push({ ...base(e), kind: 'removed', before: e.label });
+  }
+  return entries;
 }
 
 function previousMeta(dir: string): MetaRanking[] | undefined {
@@ -110,6 +164,7 @@ export function diffDataset(visibility: Visibility, next: Dataset, now: string):
       }
     }
   }
+  entries.push(...diffLists(dir, next, now));
   return entries.sort(
     (a, b) => a.entity.type.localeCompare(b.entity.type) || a.entity.id.localeCompare(b.entity.id),
   );

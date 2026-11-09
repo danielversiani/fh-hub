@@ -3,7 +3,7 @@ import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { z } from 'zod';
 import { paths } from './paths';
-import { Localized } from './schema/entities';
+import { BrainAfkRule, FeaturedPick, Localized, TierOverride } from './schema/entities';
 import { SourcesFile } from './schema/source';
 
 const AliasFile = z
@@ -28,7 +28,28 @@ export interface ManualData {
   carRarity: Record<string, string>;
   /** Tuner (gamertag) → date/reason: tuners who asked to leave the site (ADR-0016). */
   optOut: Record<string, string>;
+  /** The platform's own picks shown in the highlights box (ADR-0017). */
+  featured: FeaturedPick[];
+  /** Tunes marked (or unmarked) as "brain AFK" by hand (ADR-0018). */
+  brainAfk: BrainAfkRule[];
+  /** The platform's tier set by hand (e.g. Niche), ADR-0017. */
+  tierOverrides: TierOverride[];
 }
+
+const FeaturedFile = z
+  .array(FeaturedPick)
+  .nullable()
+  .transform((v) => v ?? []);
+
+const BrainAfkFile = z
+  .array(BrainAfkRule)
+  .nullable()
+  .transform((v) => v ?? []);
+
+const TierOverrideFile = z
+  .array(TierOverride)
+  .nullable()
+  .transform((v) => v ?? []);
 
 const TranslationFile = z
   .record(z.string(), Localized)
@@ -62,6 +83,15 @@ export function loadManual(dir = paths.manual): ManualData {
     tunerSurfaces: fs.existsSync(path.join(dir, 'tuner-surfaces.yaml'))
       ? AliasFile.parse(readYaml(path.join(dir, 'tuner-surfaces.yaml')))
       : {},
+    featured: fs.existsSync(path.join(dir, 'featured-picks.yaml'))
+      ? FeaturedFile.parse(readYaml(path.join(dir, 'featured-picks.yaml')))
+      : [],
+    brainAfk: fs.existsSync(path.join(dir, 'brain-afk.yaml'))
+      ? BrainAfkFile.parse(readYaml(path.join(dir, 'brain-afk.yaml')))
+      : [],
+    tierOverrides: fs.existsSync(path.join(dir, 'tier-overrides.yaml'))
+      ? TierOverrideFile.parse(readYaml(path.join(dir, 'tier-overrides.yaml')))
+      : [],
     translations: fs.existsSync(path.join(dir, 'translations.yaml'))
       ? TranslationFile.parse(readYaml(path.join(dir, 'translations.yaml')))
       : {},

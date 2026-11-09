@@ -85,6 +85,23 @@ e os guias que o próprio jogo não oferece.
 - **Menções a Noa Miyako:** sempre o nome completo e, em português, no masculino ou neutro ("tabela de Noa Miyako").
 - **Sem estatísticas de carro** (velocidade, aceleração etc.): o sistema do jogo que as calcula não é confiável.
 
+### 5.4 Foco em alternativas ao meta (2026-11-09)
+
+- **Missão do site** (manifesto no topo da página inicial): o online do FH6 está cheio de meta-abusers. O site existe para mostrar **alternativas competitivas ao meta atual** e sugestões divertidas da comunidade e da equipe do Forza Paddock, e para aproveitar a enorme lista de carros do jogo.
+- **Ranking próprio** ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)): Meta+, Meta, Off-meta, Nicho e Outros, calculados a partir de todas as fontes, com as evidências de cada carro ("Noa Miyako: T0.5 · fhstats: Meta"). A tabela de Noa Miyako continua como referência creditada, mas não é mais o ranking do site.
+- **"Alternativas competitivas ao meta atual"** na aba Tunes, ao escolher uma classe:
+  - a lista completa, numerada da mais forte para a menos forte (10 primeiras e "Ver todas");
+  - em cima, a caixa **Destaques**: escolha do Forza Paddock, achados recentes e sleepers.
+- **Etiquetas:** Rivais (tem build de handling ou velocidade pura), Achado recente, Sleeper, Escolha do Forza Paddock.
+- **"Cérebro desligado"** ([ADR-0018](adr/0018-cerebro-desligado.md)): selo para tunes fortes e fáceis demais, um empurrão para escolher algo mais desafiador.
+- **Datas** em cada tune ("atualizada em …") e nas sugestões da playlist.
+- **Novidades por fonte** na página inicial:
+  - cada fonte tem o seu bloco, só quando há atualização detectada;
+  - a tabela de Noa Miyako mantém o bloco grande com fotos;
+  - as mudanças usam a escala e as palavras da própria fonte.
+- **Navegação:** o menu fica fixo no topo e fica translúcido ao rolar. Os filtros da aba Tunes e os atalhos de classe da página Meta ficam fixos logo abaixo dele, como no fhstats.
+- **Página do carro:** a foto fica atrás do nome, esmaecendo em degradê para a esquerda e para baixo.
+
 ## 6. Fases
 
 | Fase | Entrega | Critério de pronto |
@@ -136,6 +153,6 @@ O que faz o jogador voltar toda semana são os dados vivos: tunes, meta e playli
 | Q1 | **Team Wars:** o que é exatamente (modo do jogo? evento da comunidade?) e onde os combos são registrados? Não foi encontrada referência a um modo com esse nome no FH6. Os modos online documentados são Eliminator, Hide & Seek, Touge Showdown e Horizon Drift | Define se M14 é viável | Daniel |
 | Q2 | Nome e domínio | Branding, SEO | Daniel |
 | Q3 | Repositório público ou privado | Custo de GitHub Actions ([ADR-0004](adr/0004-github-como-fonte-da-verdade.md)) | Daniel |
-| Q4 | Autorização dos tunadores, começando pelo GBR Ozzy, que bloqueou o download da planilha | Ético e de reputação ([ADR-0010](adr/0010-politica-de-fontes.md)) | Daniel |
+| Q4 | ~~Autorização dos tunadores~~ Resolvida pelo [ADR-0016](adr/0016-fontes-publicas-com-opcao-de-saida.md): fontes públicas com crédito e saída a pedido | — | — |
 | Q5 | Definição exata da categoria **Meme** | Curadoria ([CURATION.md](CURATION.md)) | Daniel |
 | Q6 | Identidade visual | Front-end | Daniel |

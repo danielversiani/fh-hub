@@ -2,6 +2,7 @@ import type { Dataset } from '../build/dataset';
 import type { Category, Difficulty, Tier } from '../schema/enums';
 import type {
   Car,
+  CarRole,
   LapTime,
   MetaRanking,
   PlaylistEvent,
@@ -10,6 +11,8 @@ import type {
 } from '../schema/entities';
 import type { SourceDef } from '../schema/source';
 import type { CurationConfig, Signal, Weights } from './config';
+import { computeRoles } from './roles';
+import { markBrainAfk } from './brain-afk';
 
 /**
  * Curation (docs/CURATION.md, ADR-0008), following the owner's rules:
@@ -57,6 +60,8 @@ interface Evidence {
 export interface CurationResult {
   tunes: Tune[];
   suggestions: Suggestion[];
+  /** Meta / alternative / rivals role of each car per class × surface (roles.ts). */
+  roles: CarRole[];
 }
 
 function weighted(
@@ -217,7 +222,13 @@ export function curate(
     };
   });
 
-  return { tunes, suggestions: suggest(dataset, config, tunes, evidenceById, cars) };
+  const roles = computeRoles({ ...dataset, tunes });
+  const marked = markBrainAfk(tunes, roles, dataset);
+  return {
+    tunes: marked,
+    suggestions: suggest(dataset, config, marked, evidenceById, cars),
+    roles,
+  };
 }
 
 const isObtainable = (car: Car | undefined) =>

@@ -163,6 +163,52 @@ sources:
       Community sheet of the most used cars at the top of each Rivals leaderboard (also used by
       fh6meta.com). Author still to be identified. Tabs said "Last updated June 2026" when added.
 
+  - id: fhstats
+    name: FHStats (online meta list and Rivals statistics)
+    kind: website
+    url: https://fhstats.com
+    fetcher: fhstats
+    adapter: fhstats
+    tabs:
+      - { id: online, role: list, path: metacars/horizon-racing }
+      - { id: rivals, role: rivals, path: rivals/stats/cars }
+    permission: public
+    active: true
+    weight: 0.9
+    notes: >-
+      Online Racing meta list (curated from arpanjpr's sheet; tiers S+/S/A/B = Meta+/Meta/
+      Strong/Offmeta, with tune codes) and Rivals leaderboard statistics read from the game
+      screens (top-10/top-50 appearances, wins). Used under ADR-0016; authors can opt out.
+
+  - id: logikj
+    name: LogikJ's FH6 Tune Sheet (Online Racing Tune Picks)
+    kind: google-sheet
+    url: https://docs.google.com/spreadsheets/d/1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo
+    docId: 1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo
+    ownerTuner: LogikJ
+    fetcher: google-csv
+    adapter: logikj
+    tabs:
+      - { id: online-picks, role: list, gid: '1457186910' }
+    permission: public
+    active: true
+    weight: 0.8
+    notes: His "best of the best" online list; notes label each car Meta / Strong / Offmeta.
+
+  - id: attax-johnson
+    name: aTTaX Johnson's tune list (Horizon 6)
+    kind: google-sheet
+    url: https://docs.google.com/spreadsheets/d/1F3xqy6yodUmnuua08YU-fet4KDDoIbaoNZRiZ9U8yxk
+    docId: 1F3xqy6yodUmnuua08YU-fet4KDDoIbaoNZRiZ9U8yxk
+    fetcher: google-csv
+    adapter: attax-johnson
+    tabs:
+      - { id: horizon-6, role: list, gid: '1371665614' }
+    permission: public
+    active: true
+    weight: 0.8
+    notes: Recommended cars per class with what the tune is "made for" (Allround, Pure Handling…).
+
   - id: letzelu-shirakawa
     name: Letz' Shirakawa Tune & Hotlap Sheet
     kind: google-sheet

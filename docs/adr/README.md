@@ -23,6 +23,8 @@ Eles explicam o *porquê* do projeto ser como é. Ver [ADR-0001](0001-registrar-
 | [0014](0014-traducao-dos-textos-das-fontes.md) | Traduzir os textos das fontes com uma memória de tradução revisada por PR | Aceita |
 | [0015](0015-pre-lancamento-com-todas-as-fontes.md) | Pré-lançamento público com todas as fontes, enquanto as autorizações são pedidas | Substituída por 0016 |
 | [0016](0016-fontes-publicas-com-opcao-de-saida.md) | Publicar fontes públicas com crédito, e tirar quem pedir para sair | Aceita |
+| [0017](0017-ranking-proprio-e-alternativas.md) | Ranking próprio a partir de todas as fontes, com destaque para as alternativas ao meta | Aceita |
+| [0018](0018-cerebro-desligado.md) | Marcar tunes fortes demais e fáceis demais como "Cérebro desligado" | Aceita |
 
 ## Como escrever um novo ADR
 

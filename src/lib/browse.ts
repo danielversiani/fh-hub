@@ -3,12 +3,13 @@ import type {
   Category,
   Difficulty,
   Drivetrain,
+  PlatformTier,
   Rarity,
   Surface,
   Tier,
 } from '../../pipeline/schema/enums';
 import type { LapRef, Localized } from '../../pipeline/schema/entities';
-import { loadCars, loadLapTimes, loadMeta, loadSourceStatus, loadTuneIndex, maps } from './data';
+import { loadCars, loadLapTimes, loadRoles, loadSourceStatus, loadTuneIndex, maps } from './data';
 import { formatLapTime } from './ui';
 
 /**
@@ -51,27 +52,32 @@ export interface BrowseTune {
   tags: string[];
   cats: Category[];
   tier?: Tier;
-  /** true when the tier comes from the meta table; false = default T3 */
-  listed: boolean;
   rank?: number;
   credited: boolean;
   /** Only a meta-table recommendation (no share code): search the tuner's gamertag in game. */
   fromMeta: boolean;
   difficulty?: Difficulty;
+  /** "Cérebro desligado": overpowered and easy (ADR-0018). */
+  brainAfk?: 'auto' | 'curator';
   role?: string;
   /** The meta table's note for this tune, translated (ADR-0014). */
   notes?: Localized;
   laps?: LapRef[];
+  /** When the tune was published or last updated, if a source says (ISO date). */
+  date?: string;
   sources: string[];
   score: number;
 }
 
+/** The platform's ranking of a car in a class × surface (ADR-0017): the main ranking. */
 export interface BrowseMeta {
   car: string;
   cls: CarClass;
   surface: Surface;
-  tier: Tier;
+  tier: PlatformTier;
   rank: number;
+  /** "Noa Miyako: T0.5", "fhstats: Meta"… */
+  evidence: string[];
 }
 
 /** A lap time from a time sheet (e.g. LetzeLU's Shirakawa list), shown on the car's builds. */
@@ -84,15 +90,42 @@ export interface BrowseLap {
   tuner?: string;
 }
 
+/** Role of a car in a class × surface (formula, ADR-0017): meta, alternative or rivals. */
+export interface BrowseRole {
+  car: string;
+  cls: CarClass;
+  surface: Surface;
+  role: 'meta' | 'alternative' | 'niche' | 'other';
+  tier: PlatformTier;
+  rank: number;
+  sources: number;
+  /** "fhstats: Meta", "Attax Johnson: Allround"… */
+  evidence: string[];
+  rivalsTop10?: number;
+  updated?: string;
+  wellKnown?: boolean;
+  tags?: ('recent' | 'sleeper' | 'featured' | 'rivals')[];
+  /** The platform's comment, in both languages. */
+  note?: { 'pt-br': string; en: string };
+}
+
+/** Short names of the sources, for the evidence lines. */
+const SOURCE_SHORT: Readonly<Record<string, string>> = {
+  'noa-miyako': 'Noa Miyako',
+  fhstats: 'fhstats',
+  logikj: 'LogikJ',
+  'attax-johnson': 'Attax Johnson',
+  kleis: 'kleis',
+};
+
 export interface BrowseData {
   cars: BrowseCar[];
   tunes: BrowseTune[];
   meta: BrowseMeta[];
   laps: BrowseLap[];
+  roles: BrowseRole[];
   sources: Record<string, { name: string; url: string }>;
 }
-
-const TIER_ORDER: readonly Tier[] = ['meta-plus', 'meta', 't0.5', 't1', 't1.5', 't2', 't3'];
 
 let cached: BrowseData | undefined;
 
@@ -133,31 +166,18 @@ export function buildBrowseData(): BrowseData {
     tags: t.buildTags,
     cats: (t.categories ?? []).filter((c) => c !== 'meme'),
     tier: t.tier,
-    listed: t.tierSource === 'meta-table',
     rank: t.metaRank,
     credited: Boolean(t.credited),
     fromMeta: Boolean(t.fromMeta),
     difficulty: t.difficulty,
+    brainAfk: t.brainAfk,
     role: t.role,
     notes: t.metaNotesI18n,
     laps: t.lapRefs,
+    date: t.createdAt,
     sources: t.sourceIds,
     score: t.score ?? 0,
   }));
-
-  // Best meta entry per car × class × surface (the build's tier and rank).
-  const best = new Map<string, BrowseMeta>();
-  for (const m of loadMeta()) {
-    const key = `${m.carId}|${m.class}|${m.surface}`;
-    const current = best.get(key);
-    if (
-      !current ||
-      TIER_ORDER.indexOf(m.tier) < TIER_ORDER.indexOf(current.tier) ||
-      (m.tier === current.tier && m.rank < current.rank)
-    ) {
-      best.set(key, { car: m.carId, cls: m.class, surface: m.surface, tier: m.tier, rank: m.rank });
-    }
-  }
 
   const laps: BrowseLap[] = loadLapTimes().map((l) => ({
     car: l.carId,
@@ -171,6 +191,30 @@ export function buildBrowseData(): BrowseData {
   const sources = Object.fromEntries(
     loadSourceStatus().map((s) => [s.id, { name: s.name, url: s.url }]),
   );
-  cached = { cars, tunes, meta: [...best.values()], laps, sources };
+  const roles: BrowseRole[] = loadRoles().map((r) => ({
+    car: r.carId,
+    cls: r.class,
+    surface: r.surface,
+    role: r.role,
+    tier: r.tier,
+    rank: r.rank,
+    sources: r.sources,
+    evidence: r.evidence.map((e) => `${SOURCE_SHORT[e.sourceId] ?? e.sourceId}: ${e.label}`),
+    rivalsTop10: r.rivalsTop10,
+    updated: r.updated,
+    wellKnown: r.wellKnown,
+    tags: r.tags,
+    note: r.note,
+  }));
+  // The main ranking is the platform's own (ADR-0017), not one source's tier list.
+  const meta: BrowseMeta[] = roles.map((r) => ({
+    car: r.car,
+    cls: r.cls,
+    surface: r.surface,
+    tier: r.tier,
+    rank: r.rank,
+    evidence: r.evidence,
+  }));
+  cached = { cars, tunes, meta, laps, roles, sources };
   return cached;
 }

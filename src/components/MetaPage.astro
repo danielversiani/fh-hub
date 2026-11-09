@@ -42,11 +42,11 @@ const anchor = (s: { cls: string; surface: string }) => `${s.cls.toLowerCase()}-
     <p class="mt-8 text-muted">{t(locale, 'meta.empty')}</p>
   ) : (
     <>
-      <nav class="mt-6 flex flex-wrap gap-2 text-sm">
+      <nav class="sticky-filters mt-6 flex gap-2 overflow-x-auto text-sm">
         {sections.map((s) => (
           <a
             href={`#${anchor(s)}`}
-            class="flex items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1 hover:border-accent"
+            class="flex shrink-0 items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1 hover:border-accent"
           >
             <ClassBadge value={s.cls as (typeof CLASS_ORDER)[number]} />
             {t(locale, `surface.${s.surface}` as MessageKey)}
@@ -54,7 +54,7 @@ const anchor = (s: { cls: string; surface: string }) => `${s.cls.toLowerCase()}-
         ))}
       </nav>
       {sections.map((s) => (
-        <section id={anchor(s)} class="mt-10 scroll-mt-4">
+        <section id={anchor(s)} class="sticky-target mt-10">
           <h2 class="flex items-center gap-2 text-xl font-semibold">
             <ClassBadge value={s.cls as (typeof CLASS_ORDER)[number]} />
             {t(locale, `surface.${s.surface}` as MessageKey)}

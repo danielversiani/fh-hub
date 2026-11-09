@@ -285,8 +285,40 @@ details > summary::-webkit-details-marker {
   height: 100%;
   object-fit: cover;
 }
-.car-photo-hero {
-  border: 1px solid var(--color-border);
+/* Car page: the photo behind the name, fading to the left and to the bottom. */
+.car-hero {
+  position: relative;
+}
+.car-hero-with-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 13rem;
+  padding-top: 1rem;
+}
+.car-hero-photo {
+  position: absolute;
+  top: -2.5rem;
+  right: -1rem;
+  width: calc(100% + 2rem);
+  height: calc(100% + 2.5rem);
+  object-fit: cover;
+  object-position: center 60%;
+  opacity: 0.4;
+  pointer-events: none;
+  mask-image:
+    linear-gradient(to left, black 35%, transparent 95%),
+    linear-gradient(to top, transparent, black 45%);
+  mask-composite: intersect;
+}
+@media (min-width: 768px) {
+  .car-hero-with-photo {
+    min-height: 19rem;
+  }
+  .car-hero-photo {
+    width: min(72%, 48rem);
+    opacity: 0.6;
+  }
 }
 
 /* Home: the featured car's photo behind the text, fading into the card. */
@@ -378,4 +410,152 @@ details > summary::-webkit-details-marker {
 }
 .row-photo ~ * {
   position: relative;
+}
+
+/* Highlighted "competitive alternatives" box (ADR-0017). */
+.alt-box {
+  border: 1px solid color-mix(in srgb, var(--color-accent) 45%, var(--color-border));
+  border-radius: 6px;
+  padding: 1rem;
+  background:
+    radial-gradient(
+      500px 160px at 0% 0%,
+      color-mix(in srgb, var(--color-accent) 10%, transparent),
+      transparent 70%
+    ),
+    var(--color-surface);
+}
+.alt-card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  padding: 0.6rem 0.75rem;
+  transition: border-color 120ms;
+}
+.alt-card:hover {
+  border-color: var(--color-accent);
+}
+
+/* Full ranked list of alternatives and the highlight chips. */
+.alt-list {
+  display: grid;
+  gap: 2px;
+}
+.alt-row {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+.alt-row:hover {
+  border-color: var(--color-border);
+  background: var(--color-bg);
+}
+.alt-rank {
+  flex: none;
+  width: 1.75rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--color-muted);
+  text-align: right;
+}
+.alt-tag {
+  border-radius: 3px;
+  padding: 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.alt-tag-featured {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+.alt-tag-recent {
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+}
+.alt-tag-sleeper {
+  border: 1px solid var(--color-muted);
+  color: var(--color-text);
+}
+
+/* "Cérebro desligado" (ADR-0018): deliberately a little mocking. */
+.brain-afk {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0 0.4rem;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #ff8fd2;
+  border: 1px dashed #ff8fd2;
+  cursor: help;
+  white-space: nowrap;
+}
+.alt-tag-rivals {
+  border: 1px solid #1f6fd6;
+  color: #6ea8ff;
+}
+
+/* Home hero: the site's mini manifesto (owner's text). */
+.manifesto h1 {
+  line-height: 1.02;
+}
+
+/* Fixed menu, translucent once the page scrolls (Base.astro sets data-scrolled). */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--color-bg);
+  transition: background-color 200ms;
+}
+.site-header[data-scrolled] {
+  background: color-mix(in srgb, var(--color-bg) 80%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+/* Filter bars that stay right under the fixed menu (tunes list, meta table). */
+.sticky-filters {
+  position: sticky;
+  top: var(--header-h, 0px);
+  z-index: 30;
+  margin-inline: -1rem;
+  padding: 0.6rem 1rem;
+  background: color-mix(in srgb, var(--color-bg) 85%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-border) 70%, transparent);
+}
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.filter-row > * {
+  flex-shrink: 0;
+}
+@media (min-width: 640px) {
+  .filter-row {
+    flex-wrap: wrap;
+  }
+}
+/* Anchors and "open this car" land below the menu and the filter bar. */
+.sticky-target,
+.row {
+  scroll-margin-top: calc(var(--header-h, 0px) + 7rem);
 }

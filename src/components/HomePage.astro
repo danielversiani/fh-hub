@@ -3,7 +3,16 @@ import type { Highlight } from '../../pipeline/schema/entities';
 import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
 import { ClassChip, TierChip } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
-import { currentSeason, isPreview, loadEvents, loadHighlights, maps } from '../lib/data';
+import {
+  currentSeason,
+  isPreview,
+  loadChanges,
+  loadEvents,
+  loadHighlights,
+  loadList,
+  loadSourceStatus,
+  maps,
+} from '../lib/data';
 import { eventTypeLabel, formatReward, requirementText, seasonEndsAt } from '../lib/playlist';
 import { TIER_LABELS } from '../lib/ui';
 import EventIcon from './EventIcon.astro';
@@ -15,8 +24,9 @@ interface Props {
 const { locale } = Astro.props;
 const { cars, tuners } = maps();
 
-// News: last 14 days before the newest item; bigger upgrades first (owner's rule); one per car.
-const all = loadHighlights();
+// Noa Miyako's meta table: last 14 days before the newest item; bigger upgrades first (owner's
+// rule); one per car. Each reference list has its own block (owner: the site is an aggregator).
+const all = loadHighlights().filter((h) => h.sourceId === 'noa-miyako');
 const newest = all.reduce((max, h) => (h.date > max ? h.date : max), '');
 const cutoff = newest
   ? new Date(Date.parse(newest) - 14 * 86_400_000).toISOString().slice(0, 10)
@@ -28,6 +38,114 @@ const news: Highlight[] = all
   .filter((h) => (seen.has(h.carId) ? false : (seen.add(h.carId), true)))
   .slice(0, 7);
 const [feature, ...rest] = news;
+
+// Every other reference source (lists and tune sheets: fhstats, LogikJ, Attax Johnson, kleis,
+// LetzeLU, K1Z Gray…) gets its own block, only when an update was detected in the last 14 days.
+// Changes are described in the source's own words (its labels and tune names), not ours.
+const statuses = new Map(loadSourceStatus().map((st) => [st.id, st]));
+const NOA = statuses.get('noa-miyako');
+/** Short names: the author, as the community calls each source. */
+const SHORT: Record<string, string> = {
+  'noa-miyako': 'Noa Miyako',
+  fhstats: 'fhstats',
+  logikj: 'LogikJ',
+  'attax-johnson': 'Attax Johnson',
+  kleis: 'kleis',
+  'letzelu-shirakawa': 'LetzeLU',
+  'k1z-gray': 'K1Z Gray',
+};
+const today = new Date().toISOString().slice(0, 10);
+const since = new Date(Date.parse(today) - 14 * 86_400_000).toISOString().slice(0, 10);
+/**
+ * More changes than this from one source in one sync are our own processing (a new source, a
+ * tuner leaving, a name fix), not the author's update: left out.
+ */
+const BULK = 25;
+interface SourceNews {
+  kind: 'added' | 'removed' | 'tier-up' | 'tier-down' | 'updated' | 'tune-added' | 'tune-removed';
+  date: string;
+  carId: string;
+  cls: string | null;
+  surface: string | null;
+  before?: string;
+  after?: string;
+}
+const recent = loadChanges().filter(
+  (c) => c.sourceId && c.sourceId !== 'noa-miyako' && c.at.slice(0, 10) >= since,
+);
+const batch = (c: (typeof recent)[number]) => `${c.sourceId}|${c.at}|${c.entity.type}`;
+const batchSize = new Map<string, number>();
+for (const c of recent) batchSize.set(batch(c), (batchSize.get(batch(c)) ?? 0) + 1);
+// A tune removed and added for the same car in the same sync is a re-read, not news.
+const slot = (c: (typeof recent)[number]) =>
+  `${c.sourceId}|${c.at}|${c.entity.type}|${c.carId}|${c.class}|${c.surface}`;
+const kinds = new Map<string, Set<string>>();
+for (const c of recent) kinds.set(slot(c), (kinds.get(slot(c)) ?? new Set()).add(c.kind));
+const bySource = new Map<string, SourceNews[]>();
+const push = (id: string, n: SourceNews) => bySource.set(id, [...(bySource.get(id) ?? []), n]);
+for (const c of recent) {
+  if ((batchSize.get(batch(c)) ?? 0) > BULK) continue;
+  const k = kinds.get(slot(c))!;
+  if (k.has('added') && k.has('removed')) continue;
+  if (c.entity.type === 'meta-ranking') continue;
+  push(c.sourceId!, {
+    kind:
+      c.entity.type === 'tune' ? (c.kind === 'removed' ? 'tune-removed' : 'tune-added') : c.kind,
+    date: c.at.slice(0, 10),
+    carId: c.carId,
+    cls: c.class,
+    surface: c.surface,
+    before: c.before,
+    after: c.after,
+  });
+}
+// Lists that date their own entries (fhstats): entries updated in the window.
+for (const id of ['fhstats', 'logikj', 'attax-johnson']) {
+  const logged = new Set((bySource.get(id) ?? []).map((n) => `${n.carId}|${n.cls}|${n.surface}`));
+  for (const e of loadList(id)) {
+    if (!e.date || e.date < since || logged.has(`${e.carId}|${e.class}|${e.surface}`)) continue;
+    push(id, {
+      kind: 'updated',
+      date: e.date,
+      carId: e.carId,
+      cls: e.class,
+      surface: e.surface,
+      after: e.label,
+    });
+  }
+}
+// The same tune going out and back in within the window (a re-read) is not news either.
+for (const [id, list] of bySource) {
+  const tuneKey = (n: SourceNews) =>
+    `${n.carId}|${n.cls}|${n.surface}|${n.after ?? n.before ?? ''}`;
+  const both = new Map<string, Set<string>>();
+  for (const n of list) {
+    if (n.kind === 'tune-added' || n.kind === 'tune-removed') {
+      both.set(tuneKey(n), (both.get(tuneKey(n)) ?? new Set()).add(n.kind));
+    }
+  }
+  const seenTune = new Set<string>();
+  const kept = list.filter((n) => {
+    if (n.kind !== 'tune-added' && n.kind !== 'tune-removed') return true;
+    const k = tuneKey(n);
+    if (both.get(k)!.size > 1 || seenTune.has(k)) return false;
+    seenTune.add(k);
+    return true;
+  });
+  if (kept.length) bySource.set(id, kept);
+  else bySource.delete(id);
+}
+const sourceBlocks = [...bySource]
+  .map(([id, list]) => ({
+    id,
+    status: statuses.get(id),
+    items: list
+      .sort((a, b) => b.date.localeCompare(a.date) || a.carId.localeCompare(b.carId))
+      .slice(0, 6),
+    latest: list.reduce((max, n) => (n.date > max ? n.date : max), ''),
+  }))
+  .filter((b) => b.status?.public !== false && b.status)
+  .sort((a, b) => b.latest.localeCompare(a.latest) || a.id.localeCompare(b.id));
 
 const season = currentSeason();
 const tiles = season
@@ -47,14 +165,34 @@ const tunerNames = (h: Highlight) =>
 ---
 
 <Base locale={locale} path="/">
-  <section>
+  <section class="manifesto">
     <p class="eyebrow text-season">{t(locale, 'home.eyebrow')}</p>
-    <h1 class="display mt-2 text-4xl sm:text-6xl">{t(locale, 'home.title')}</h1>
-    <p class="mt-4 max-w-2xl text-muted">{t(locale, 'home.lead')}</p>
+    <h1 class="display mt-2 max-w-4xl text-4xl sm:text-6xl">{t(locale, 'home.title')}</h1>
+    <p class="mt-4 max-w-2xl text-lg">{t(locale, 'home.lead')}</p>
+    <a href={localePath(locale, '/tunes/')} class="btn-accent mt-6">
+      {t(locale, 'home.cta')} →
+    </a>
+  </section>
 
-    {!feature ? (
+  <section class="mt-16">
+    <h2 class="display text-4xl sm:text-5xl">{t(locale, 'home.listsTitle')}</h2>
+    <p class="mt-2 max-w-2xl text-muted">{t(locale, 'home.listsLead')}</p>
+
+    {NOA && feature && (
+      <div class="mt-8 flex flex-wrap items-baseline justify-between gap-2">
+        <h3 class="display text-2xl">{SHORT['noa-miyako']}</h3>
+        <p class="text-xs text-muted">
+          {NOA.lastChangedAt &&
+            t(locale, 'home.listChecked', { date: fmt(NOA.lastChangedAt) }) + ' · '}
+          <a href={NOA.url} class="underline hover:text-accent" rel="noopener" target="_blank">
+            {t(locale, 'home.openList')} ↗
+          </a>
+        </p>
+      </div>
+    )}
+    {!feature && sourceBlocks.length === 0 ? (
       <p class="mt-8 text-muted">{t(locale, 'home.noHighlights')}</p>
-    ) : (
+    ) : !feature ? null : (
       <div class="mt-8 grid gap-4 lg:grid-cols-3">
         <a
           href={localePath(locale, `/cars/${feature.carId}/`)}
@@ -142,6 +280,55 @@ const tunerNames = (h: Highlight) =>
         ))}
       </div>
     )}
+
+    <div class="mt-10 grid gap-4 lg:grid-cols-3">
+      {sourceBlocks.map((b) => (
+        <div class="card flex flex-col gap-3 p-5">
+          <div>
+            <h3 class="display text-2xl">{SHORT[b.id] ?? b.status!.name}</h3>
+            <p class="mt-0.5 text-xs text-muted">
+              {b.status!.lastChangedAt &&
+                t(locale, 'home.listChecked', { date: fmt(b.status!.lastChangedAt) }) + ' · '}
+              <a
+                href={b.status!.url}
+                class="underline hover:text-accent"
+                rel="noopener"
+                target="_blank"
+              >
+                {t(locale, 'home.openList')} ↗
+              </a>
+            </p>
+          </div>
+          {
+            <ul class="flex flex-col divide-y divide-border">
+              {b.items.map((n) => (
+                <li class="py-2">
+                  <a
+                    href={localePath(locale, `/cars/${n.carId}/`)}
+                    class="font-semibold hover:text-accent"
+                  >
+                    {cars.get(n.carId)?.model ?? n.carId}
+                  </a>
+                  <p class="mt-0.5 flex flex-wrap items-center gap-x-2 text-xs text-muted">
+                    <ClassChip cls={n.cls as never} />
+                    {n.surface && <span>{t(locale, `surface.${n.surface}` as MessageKey)}</span>}
+                    <span class="text-season">
+                      {t(locale, `home.change.${n.kind}` as MessageKey)}
+                    </span>
+                    <span>
+                      {n.before && n.after
+                        ? `${n.before} → ${n.after}`
+                        : (n.after ?? n.before ?? '')}
+                    </span>
+                    <span>· {fmt(n.date)}</span>
+                  </p>
+                </li>
+              ))}
+            </ul>
+          }
+        </div>
+      ))}
+    </div>
   </section>
 
   {season && (

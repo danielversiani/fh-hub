@@ -2,9 +2,15 @@
 import type { PlaylistEvent, PlaylistSeason, Suggestion } from '../../pipeline/schema/entities';
 import type { Tier } from '../../pipeline/schema/enums';
 import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
-import { ClassChip, DifficultyText, RarityChip, TierChip } from '../islands/CarCard';
+import {
+  BrainAfkChip,
+  ClassChip,
+  DifficultyText,
+  PlatformChip,
+  RarityChip,
+} from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
-import { loadEvents, loadSeasons, loadSuggestions, maps } from '../lib/data';
+import { loadEvents, loadRoles, loadSeasons, loadSuggestions, maps } from '../lib/data';
 import {
   challengeText,
   eventName,
@@ -25,6 +31,8 @@ interface Props {
 const { locale, season } = Astro.props;
 const seasons = loadSeasons();
 const { cars, tuners, tuneIndex, sources } = maps();
+// The platform's own tier of each car per class × surface (ADR-0017).
+const tierOf = new Map(loadRoles().map((r) => [`${r.carId}|${r.class}|${r.surface}`, r.tier]));
 
 const CAR_CATEGORIES = [
   'championship',
@@ -222,6 +230,9 @@ const reasonText = (pick: Suggestion) => {
                             {list.map((pick) => {
                               const tune = tuneIndex.get(pick.tuneId);
                               const car = cars.get(pick.carId);
+                              const platformTier = tune
+                                ? tierOf.get(`${pick.carId}|${tune.class}|${tune.surface}`)
+                                : undefined;
                               const tunerName = tune
                                 ? (tuners.get(tune.tunerId)?.displayName ?? tune.tunerId)
                                 : '';
@@ -233,10 +244,10 @@ const reasonText = (pick: Suggestion) => {
                               return (
                                 <div class="build-card flex flex-col gap-2">
                                   <div class="flex items-center gap-2">
-                                    {tune?.tier && (
-                                      <TierChip
-                                        tier={tune.tier}
-                                        muted={tune.tierSource !== 'meta-table'}
+                                    {platformTier && (
+                                      <PlatformChip
+                                        tier={platformTier}
+                                        label={t(locale, `tier.${platformTier}` as MessageKey)}
                                       />
                                     )}
                                     {car?.rarity && (
@@ -281,6 +292,14 @@ const reasonText = (pick: Suggestion) => {
                                       {tunerName}
                                     </a>
                                   </p>
+                                  {tune?.brainAfk && (
+                                    <p>
+                                      <BrainAfkChip
+                                        label={t(locale, 'card.brainAfk')}
+                                        help={t(locale, 'card.brainAfkHelp')}
+                                      />
+                                    </p>
+                                  )}
                                   {(specs.length > 0 || tune?.difficulty) && (
                                     <p class="text-sm">
                                       {specs.join(' · ')}
@@ -295,7 +314,11 @@ const reasonText = (pick: Suggestion) => {
                                       )}
                                     </p>
                                   )}
-                                  <p class="text-xs text-muted">{reasonText(pick)}</p>
+                                  <p class="text-xs text-muted">
+                                    {reasonText(pick)}
+                                    {tune?.createdAt &&
+                                      ` · ${t(locale, 'card.tuneDate', { date: fmt(tune.createdAt) })}`}
+                                  </p>
                                 </div>
                               );
                             })}

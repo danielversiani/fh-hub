@@ -164,3 +164,54 @@ describe('fandom-drivetrain (Forza Wiki)', () => {
   it('reads a known car', () =>
     expect(attrs.find((a) => a.car.text === 'Honda Civic Type R (2008)')?.drivetrain).toBe('FWD'));
 });
+
+const out_fhstats = await fixtureOutput('fhstats');
+describe('fhstats (online meta list + Rivals statistics)', () => {
+  const out = out_fhstats;
+  it('reads the online list with tier, class, surface, tuner and date', () => {
+    expect(out.lists.length).toBeGreaterThan(40);
+    expect(out.lists[0]).toMatchObject({
+      carClass: 'B',
+      surface: 'cross-country',
+      level: 'meta-plus',
+      online: true,
+      tuners: ['CaiGou YYY'],
+      date: '2026-08-23',
+    });
+  });
+  it('keeps the listed tunes with their share codes', () =>
+    expect(out.tunes.filter((t) => t.shareCode).length).toBeGreaterThan(40));
+  it('aggregates Rivals top-10 appearances per car × class × surface', () => {
+    expect(out.rivalsStats.length).toBeGreaterThan(100);
+    expect(out.rivalsStats.every((r) => r.top10 <= r.top50)).toBe(true);
+  });
+});
+
+const out_logikj = await fixtureOutput('logikj');
+describe('logikj (online picks sheet)', () => {
+  const out = out_logikj;
+  it('reads every pick with class, surface and level', () => {
+    expect(out.lists.length).toBe(27);
+    expect(out.lists[0]).toMatchObject({ carClass: 'D', surface: 'dirt', level: 'meta' });
+  });
+  it('flags grip builds as extreme', () =>
+    expect(out.lists[1]).toMatchObject({ style: 'handling', extreme: true }));
+});
+
+const out_attax = await fixtureOutput('attax-johnson');
+describe('attax-johnson (Horizon 6 sheet)', () => {
+  const out = out_attax;
+  it('reads the picks and the tuner of each one', () => {
+    expect(out.lists.length).toBe(51);
+    expect(out.lists[0]).toMatchObject({
+      carClass: 'D',
+      surface: 'road',
+      level: 'pick',
+      tuners: ['JSR Chronic'],
+    });
+  });
+  it('reads the dirt label from the build text', () =>
+    expect(out.lists[1]).toMatchObject({ carClass: 'C', surface: 'dirt' }));
+  it('marks "Pure Handling" / "Speed" builds as extreme', () =>
+    expect(out.lists.some((l) => l.extreme)).toBe(true));
+});

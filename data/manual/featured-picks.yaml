@@ -1,0 +1,20 @@
+# Escolhas da plataforma (Forza Paddock): carros que o dono recomenda numa classe × piso.
+# Aparecem primeiro na caixa "Destaques" das alternativas competitivas (ADR-0017), com a etiqueta
+# "Escolha do Forza Paddock" e o comentário abaixo. Use o id do carro de data/generated/cars.json.
+# Tom do comentário: sem superlativo ("competitivo" basta); "muito competitivo" só para um
+# achado raro (hidden gem).
+# Exemplo:
+# - carId: 2018-lamborghini-aventador-svj
+#   class: S1
+#   surface: road
+#   date: 2026-11-09
+#   note:
+#     pt-br: 'Comentário em português.'
+#     en: 'Comment in English.'
+- carId: 2018-lamborghini-aventador-svj
+  class: S1
+  surface: road
+  date: 2026-11-09
+  note:
+    pt-br: 'Pouco usado online e competitivo no S1 asfalto.'
+    en: 'Rarely seen online and competitive in S1 road.'

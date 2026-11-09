@@ -47,7 +47,8 @@ const stats = loadStats();
     <link rel="alternate" hreflang="en" href={localePath('en', path)} />
   </head>
   <body class="min-h-screen">
-    <header class="border-b border-border/70">
+    {/* Fixed on top; turns translucent once the page scrolls (see the script below). */}
+    <header class="site-header border-b border-border/70" data-site-header>
       <nav class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-3 px-4 py-3 sm:py-4">
         <a href={localePath(locale, '/')} class="display text-2xl text-accent">
           {t(locale, 'site.name')}
@@ -135,6 +136,19 @@ const stats = loadStats();
       </p>
     </footer>
     <script>
+      // Fixed menu: translucent after scrolling; its height feeds the sticky filter bars
+      // (--header-h), so they stop right under it.
+      const header = document.querySelector<HTMLElement>('[data-site-header]');
+      if (header) {
+        const onScroll = () => header.toggleAttribute('data-scrolled', window.scrollY > 8);
+        const onResize = () =>
+          document.documentElement.style.setProperty('--header-h', `${header.offsetHeight}px`);
+        onScroll();
+        onResize();
+        window.addEventListener('scroll', onScroll, { passive: true });
+        new ResizeObserver(onResize).observe(header);
+      }
+
       // Copy share codes: any element with data-copy (cards, playlist suggestions).
       document.addEventListener('click', (event) => {
         const button = (event.target as HTMLElement | null)?.closest<HTMLElement>('[data-copy]');

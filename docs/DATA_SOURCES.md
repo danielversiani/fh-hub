@@ -1,7 +1,7 @@
 # Fontes de dados
 
-> **Status:** rascunho v0.1 · **Levantamento feito em:** 2026-11-07 (testes reais de acesso)
-> Política de uso: [ADR-0010](adr/0010-politica-de-fontes.md). Arquitetura de ingestão: [ADR-0005](adr/0005-pipeline-adaptadores.md).
+> **Status:** v0.2 · **Levantamento feito em:** 2026-11-07 (testes reais de acesso) · **Atualizado em:** 2026-11-09
+> Política de uso: [ADR-0016](adr/0016-fontes-publicas-com-opcao-de-saida.md). Arquitetura de ingestão: [ADR-0005](adr/0005-pipeline-adaptadores.md).
 > Estrutura das colunas observada nesta data. Se uma fonte mudar, atualize esta ficha **no mesmo PR** do adaptador.
 
 ## Resumo
@@ -11,14 +11,17 @@
 | `forza-cars` | forza.net/fh6cars | JSON oficial | **Roster oficial: 667 carros** (lista mestre) | ✅ `_payload.json` | not-required | ✅ Fase 0 |
 | `fandom-rarity` | Forza Wiki (Fandom) | API MediaWiki | **Raridade** de 641 carros (Comum, Raro, Épico, Lendário, Forza Edition) | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
 | `fandom-drivetrain` | Forza Wiki (Fandom) | API MediaWiki | **Tração de fábrica** (FWD, RWD, AWD) de 666 carros | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
-| `rivals-meta` | FH6 Rivals Meta Sheet (comunidade) | Google Sheets (CSV) | Carro **mais usado (1º) e segundo (2º)** no topo de cada ranking de Rivais, por pista e classe, em asfalto, terra e cross country | ✅ CSV | public (autor a identificar) | ✅ dados lidos; uso no site em discussão |
+| `rivals-meta` | FH6 Rivals Meta Sheet (comunidade) | Google Sheets (CSV) | Carro **mais usado (1º) e segundo (2º)** no topo de cada ranking de Rivais, por pista e classe, em asfalto, terra e cross country | ✅ CSV | public (autor a identificar) | ✅ entra no ranking do Forza Paddock |
+| `fhstats` | fhstats.com | Site (Next.js) | **Lista de meta online** (S+/S/A/B, com código e data) e **estatísticas de Rivais** por carro (aparições no top 10/top 50, vitórias) | ✅ dados da própria página | public | ✅ ranking do Forza Paddock |
+| `logikj` | LogikJ's FH6 Tune Sheet, aba "Online Racing Tune Picks" | Google Sheets (CSV) | ~27 escolhas para corridas online, com nível (Meta, Strong, Offmeta) e código | ✅ CSV | public | ✅ ranking do Forza Paddock |
+| `attax-johnson` | aTTaX Johnson's tune list (Horizon 6) | Google Sheets (CSV) | Carros recomendados por classe, para que a tune serve ("Allround", "Pure Handling", "Speed"…), criador e código | ✅ CSV | public | ✅ ranking do Forza Paddock |
 | `fandom-images` | Forza Wiki (Fandom) | API MediaWiki | **Foto** de 666 carros (captura de tela do FH6) | ✅ API pública | not-required (regras de conteúdo da Microsoft, [ADR-0013](adr/0013-miniaturas-dos-carros.md)) | ✅ Fase 1 |
-| `gbr-ozzy` (desligada: o autor pediu para ficar de fora, 2026-11-08) | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | pending (prioridade) | ✅ Fase 0 |
-| `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | pending | ✅ Fase 0 |
-| `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | pending | ✅ Fase 0 |
-| `letzelu-shirakawa` | Letz' Shirakawa Tune & Hotlap Sheet | Google Sheets | Tempos de volta A/S1/S2 com tier | ✅ exportação CSV | pending | ✅ Fase 0 |
-| `whd-url` | Underground Racing League (Wrong Hand Drive) | Google Sheets | Série da comunidade: ~60 carros com tune e pintura, mais rotas de evento | ✅ exportação CSV | pending | ✅ Fase 0 |
-| `noa-miyako` | Noa Miyako, "地平线6线上车辆调校推荐" | QQ Docs | Tiers de meta por classe × piso (~800 carros) | ⚠️ API interna (protobuf) | pending | ✅ Fase 1 |
+| `gbr-ozzy` (desligada: o autor pediu para ficar de fora, 2026-11-08) | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | denied | desligada |
+| `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | granted | ✅ Fase 0 |
+| `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | public | ✅ Fase 0 |
+| `letzelu-shirakawa` | Letz' Shirakawa Tune & Hotlap Sheet | Google Sheets | Tempos de volta A/S1/S2 com tier | ✅ exportação CSV | public | ✅ Fase 0 |
+| `whd-url` | Underground Racing League (Wrong Hand Drive) | Google Sheets | Série da comunidade: ~60 carros com tune e pintura, mais rotas de evento | ✅ exportação CSV | public | ✅ Fase 0 |
+| `noa-miyako` | Noa Miyako, "地平线6线上车辆调校推荐" | QQ Docs | Tiers de meta por classe × piso (~800 carros) | ⚠️ API interna (protobuf) | public | ✅ Fase 1 |
 | `forza-playlist` | forza.net/fh6playlists | JSON oficial | Festival Playlist completa (604 linhas) | ✅ `_payload.json` | not-required | ✅ Fase 1 |
 | `base-events` | Levantamento próprio | YAML manual | Eventos-base do mapa | Manual | not-required | Fase 2 |
 
@@ -35,7 +38,9 @@ O registro executável dessas fontes é `data/sources.yaml`.
 
 `pnpm fixtures:update` grava em `pipeline/__fixtures__/` **amostras**, não cópias: as 40 primeiras linhas, 1 a cada 40 depois disso e as 12 últimas. É o suficiente para testar os adaptadores sem republicar a planilha de ninguém ([ADR-0010](adr/0010-politica-de-fontes.md)). O payload oficial do forza.net é mantido inteiro.
 
-**Candidatas** (fora da lista inicial, a avaliar): LogikJ, Johnson Racing, planilha de Rivals e as planilhas listadas no hub do Ozzy (ver [§ Candidatas](#candidatas)).
+**Candidatas** (fora da lista inicial, a avaliar): as planilhas ligadas à de LogikJ e as listadas no hub do Ozzy (ver [§ Candidatas](#candidatas)).
+
+fhstats não é planilha: a amostra guarda os dados já extraídos da página (`*.data.json`), com o mesmo corte (40 primeiros itens, 1 a cada 40 e os 12 últimos).
 
 ---
 
@@ -65,7 +70,32 @@ O registro executável dessas fontes é `data/sources.yaml`.
 - **Por que não direto do jogo:** o Forza não tem API pública de rankings. Acessar os servidores com a conta de um jogador viola os termos da Microsoft e arrisca banir a conta (discutido com o dono em 2026-11-08).
 - **Apelidos:** os carros vêm com apelidos ("MX-5 FE 1994", "Mit. Minicab TA"), traduzidos em `data/manual/car-aliases.yaml`. "Acura Integra" = 2001 Type R e "Ford Mustang 2024" = GT (dono, 2026-11-08); "Subaru BRZ" (2013 ou 2022) segue sem correspondência.
 - **Atenção:** quando foi incluída (2026-11-08), as abas diziam "Last updated: June 9–12th 2026"; os dados podem estar desatualizados.
-- **Uso:** os dados vão para `data/generated/rivals.json`; como usá-los no site (selo, sugestões, página) está em discussão com o dono.
+- **Uso:** os dados vão para `data/generated/rivals.json` e entram no ranking do Forza Paddock como fonte ([CURATION.md §10](CURATION.md#10-ranking-do-forza-paddock-e-alternativas)).
+
+### `fhstats`: lista de meta online e estatísticas de Rivais
+- **URL:** https://fhstats.com. O fetcher `pipeline/fetchers/fhstats.ts` lê os dados que a própria página entrega ao navegador (Next.js, `self.__next_f.push`). Não é API interna do jogo nem raspagem de ranking: são as páginas públicas do site.
+- **Abas no `sources.yaml`:**
+  - `online` (`metacars/horizon-racing`): lista de meta online, montada a partir da planilha de arpanjpr. Cada item tem disciplina, classe, tier, carro, código, tunador, tipo de build e as datas da tune e da última atualização. Os tiers S+/S/A/B viram os níveis Meta+/Meta/Strong/Offmeta.
+  - `rivals` (`rivals/stats/cars`): por carro e ranking (disciplina × classe), as aparições no top 10, no top 50 e as vitórias. Asfalto e rua somam no piso asfalto.
+- **Adaptador:** `pipeline/adapters/fhstats.ts`. A lista vira `ListEntry` e tunes com código; as estatísticas viram `RivalsStat`.
+- **Nomes de carro:** vêm abreviados ("MX-5 FE '94"); os apelidos ficam em `data/manual/car-aliases.yaml`.
+- **Uso:** fonte do ranking do Forza Paddock ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)). As datas aparecem como "atualizada em" e nas novidades da página inicial.
+
+### `logikj`: escolhas online de LogikJ
+- **URL:** planilha `1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo`, aba "Online Racing Tune Picks" (gid 1457186910). As outras abas (tunes, lista de carros, aba semanal) não são lidas.
+- **Conteúdo:** carro, classe, piso, nome da tune, código e uma nota que diz o nível ("Meta", "Strong", "Offmeta"), se a tune é grip e se é para online ou Rivais.
+- **Adaptador:** `pipeline/adapters/logikj.ts`. Uma tune "grip" sem a palavra "online" conta como build de Rivais (handling puro).
+- **Planilhas ligadas** (candidatas futuras): Johnson Racing, JSR Chronic, Dumbo's Garage, Fenrir, snosaes, World Records, ZVTCJAU, PTW Club.
+
+### `attax-johnson`: lista de tunes de aTTaX Johnson
+- **URL:** planilha `1F3xqy6yodUmnuua08YU-fet4KDDoIbaoNZRiZ9U8yxk`, aba "Horizon 6" (gid 1371665614).
+- **Colunas:** *CLASS, CAR, MADE FOR, CREATOR, Share Code*. Uma célula pode ter várias tunes, uma por linha; as colunas se correspondem linha a linha.
+- **Adaptador:** `pipeline/adapters/attax-johnson.ts`.
+  - "MADE FOR" dá o piso ("Dirt …" = terra) e o estilo.
+  - "Pure Handling" e "Speed" (sem "Allround") contam como build de Rivais.
+  - Uma palavra repetida ("Allround Allround") vira uma só.
+  - O sufixo `'84` no nome do carro vira o ano.
+- **Sem tier:** cada linha é uma "escolha". Conta como fonte no ranking, mas fica fora da média ([CURATION.md §10.1](CURATION.md#101-opiniões-das-fontes-0-a-1)).
 
 ### `fandom-images`: fotos dos carros (Forza Wiki)
 - **Por quê:** o dono quer a miniatura de cada carro na lista e na página do carro ([ADR-0013](adr/0013-miniaturas-dos-carros.md)).
@@ -172,9 +202,7 @@ O registro executável dessas fontes é `data/sources.yaml`.
 
 | Fonte | ID da planilha | Observação |
 |---|---|---|
-| LogikJ FH6 Tune Sheet | `1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo` | ~530 tunes com código; abas de tunes, "Cars List" (catálogo limpo, com tipos múltiplos por carro) e "Online Racing Tune Picks". A aba semanal **não** é usada (ADR-0009) |
-| Johnson Racing FH6 Tunes | `1F3xqy6yodUmnuua08YU-fet4KDDoIbaoNZRiZ9U8yxk` | *CLASS, CAR, MADE FOR, CREATOR, Share Code…* |
-| FH6 Rivals Meta Sheet | `1mHbd09yLGEy3gAlplREnrIbk6xHcLieExw--CuYp0e8` | Usada pelo fh6meta no módulo de Rivals; dono a identificar |
+| LogikJ FH6 Tune Sheet (abas de tunes) | `1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo` | ~530 tunes com código e "Cars List". A aba "Online Racing Tune Picks" já é a fonte `logikj`; a aba semanal **não** é usada (ADR-0009) |
 | Dumbo, "Tunes in my Garage" | `13mOXgh-tqSodjh4DzepWjuwBsci7wkve` | Via links da planilha do kleis |
 | SR1 Rain, "53Rain's Tune List" | `19sGnavfTsp3iPYN_OnNmPBW87I0Pz2ODuNFFhZgaU8g` | Via links da planilha do kleis |
 | CTE seasons | `1_f6nPIqEkd1TUNsw_vuO3Hc8zxQrQUNVcppbyTL_Oz0` | Via links da planilha do kleis |

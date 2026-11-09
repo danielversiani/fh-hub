@@ -78,7 +78,12 @@ const dataset: Dataset = {
   customEvents: [],
   meta: [ranking('fast', 'meta-plus', ['alice']), ranking('ok', 't1', [])],
   rivals: [],
+  lists: [],
+  rivalsStats: [],
   highlights: [],
+  featured: [],
+  brainAfk: [],
+  tierOverrides: [],
   seasons: [
     {
       id: 's07-summer',

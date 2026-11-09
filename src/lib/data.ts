@@ -2,7 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type {
   Car,
+  CarRole,
   ChangeLogEntry,
+  ListEntry,
   Highlight,
   LapTime,
   MetaRanking,
@@ -10,7 +12,6 @@ import type {
   PlaylistSeason,
   SourceStatus,
   Suggestion,
-  Tune,
   TuneIndexEntry,
   Tuner,
 } from '../../pipeline/schema/entities';
@@ -45,7 +46,6 @@ function listDir(dir: string): string[] {
 export const loadCars = () => readItems<Car>('cars.json');
 export const loadTuners = () => readItems<Tuner>('tuners.json');
 export const loadTuneIndex = () => readItems<TuneIndexEntry>('tunes/index.json');
-export const loadTunesForCar = (carId: string) => readItems<Tune>(`tunes/by-car/${carId}.json`);
 export const loadLapTimes = () => readItems<LapTime>('laptimes.json');
 export const loadSourceStatus = () => readItems<SourceStatus>('sources-status.json');
 export const loadSeasons = () =>
@@ -57,14 +57,14 @@ export const loadSuggestions = (seasonId: string) =>
 export const loadMeta = (): MetaRanking[] =>
   listDir('meta').flatMap((f) => readItems<MetaRanking>(`meta/${f}`));
 
-export function loadRecentChanges(limit: number): ChangeLogEntry[] {
-  return listDir('changelog')
-    .sort()
-    .reverse()
+/** One community list (fhstats, LogikJ, Attax Johnson…) as used by the ranking. */
+export const loadList = (sourceId: string) => readItems<ListEntry>(`lists/${sourceId}.json`);
+
+/** Every change log entry, newest first. */
+export const loadChanges = (): ChangeLogEntry[] =>
+  listDir('changelog')
     .flatMap((f) => readItems<ChangeLogEntry>(`changelog/${f}`))
-    .sort((a, b) => b.at.localeCompare(a.at))
-    .slice(0, limit);
-}
+    .sort((a, b) => b.at.localeCompare(a.at));
 
 export function maps() {
   const key = '__maps';
@@ -101,3 +101,4 @@ export function loadStats() {
 export const currentSeason = () => loadSeasons().find((s) => s.current);
 
 export const loadHighlights = () => readItems<Highlight>('highlights.json');
+export const loadRoles = () => readItems<CarRole>('roles.json');

@@ -1,4 +1,4 @@
-import type { CarClass, Difficulty, Rarity, Tier } from '../../pipeline/schema/enums';
+import type { CarClass, Difficulty, PlatformTier, Rarity, Tier } from '../../pipeline/schema/enums';
 
 /** In-game class colours (also used by kleis' sheet). */
 export const CLASS_COLORS: Readonly<Record<CarClass, string>> = {
@@ -20,6 +20,22 @@ export const TIER_COLORS: Readonly<Record<Tier, string>> = {
   't1.5': '#0f9aa8',
   t2: '#6e7781',
   t3: '#9aa1a9',
+};
+
+/** The platform's own tiers (ADR-0017): the site's main ranking. */
+export const PLATFORM_TIER_ORDER: readonly PlatformTier[] = [
+  'meta-plus',
+  'meta',
+  'off-meta',
+  'niche',
+  'other',
+];
+export const PLATFORM_TIER_COLORS: Readonly<Record<PlatformTier, string>> = {
+  'meta-plus': '#d6336c',
+  meta: '#e8742a',
+  'off-meta': '#2ea043',
+  niche: '#8957e5',
+  other: '#6e7781',
 };
 
 export const TIER_LABELS: Readonly<Record<Tier, string>> = {

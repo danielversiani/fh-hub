@@ -1,4 +1,4 @@
-import type { CarClass, Surface } from '../schema/enums';
+import type { CarClass, ListLevel, Surface, TuneStyle } from '../schema/enums';
 import type { SourceDef } from '../schema/source';
 import type { Table } from '../lib/table';
 
@@ -168,6 +168,40 @@ export interface RawRivalsPick {
   car: CarRef;
 }
 
+/** A car picked by a community list (fhstats online meta, LogikJ, Attax Johnson…). */
+export interface RawListEntry {
+  tab: string;
+  row: number;
+  car: CarRef;
+  carClass: CarClass;
+  surface: Surface;
+  level: ListLevel;
+  /** As written by the source ("Meta+", "Offmeta", "Pure Handling"…). */
+  label: string;
+  style?: TuneStyle;
+  /** The source says the build is pure handling / pure power (strong in Rivals, weak online). */
+  extreme?: boolean;
+  /** The source says the car is good online (lobbies), not only in Rivals. */
+  online?: boolean;
+  tuners: string[];
+  /** When the source last changed this pick (ISO date), if it says. */
+  date?: string;
+}
+
+/** Rivals leaderboard statistics of a car in a class × surface (e.g. fhstats). */
+export interface RawRivalsStat {
+  tab: string;
+  row: number;
+  car: CarRef;
+  /** Other names the source uses for the same car. */
+  altNames: string[];
+  carClass: CarClass;
+  surface: Surface;
+  top10: number;
+  top50: number;
+  wins: number;
+}
+
 /** Everything an adapter can extract. This object is also the per-source snapshot. */
 export interface AdapterOutput {
   catalog: CatalogCar[];
@@ -179,6 +213,8 @@ export interface AdapterOutput {
   metaUpdates: RawMetaUpdate[];
   carAttributes: RawCarAttribute[];
   rivals: RawRivalsPick[];
+  lists: RawListEntry[];
+  rivalsStats: RawRivalsStat[];
   warnings: string[];
 }
 
@@ -207,6 +243,8 @@ export const emptyOutput = (): AdapterOutput => ({
   metaUpdates: [],
   carAttributes: [],
   rivals: [],
+  lists: [],
+  rivalsStats: [],
   warnings: [],
 });
 
@@ -225,7 +263,9 @@ export const countRecords = (o: AdapterOutput): number =>
   o.meta.length +
   o.metaUpdates.length +
   o.carAttributes.length +
-  o.rivals.length;
+  o.rivals.length +
+  o.lists.length +
+  o.rivalsStats.length;
 
 export function requireTab<K extends TabPayload['kind']>(
   input: AdapterInput,

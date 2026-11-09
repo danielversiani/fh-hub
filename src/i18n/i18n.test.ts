@@ -18,5 +18,5 @@ describe('i18n', () => {
     expect(localePath('en', '/')).toBe('/en/');
   });
 
-  it('translates', () => expect(t('en', 'nav.home')).toBe('Home'));
+  it('translates', () => expect(t('en', 'nav.tunes')).toBe('Tunes'));
 });

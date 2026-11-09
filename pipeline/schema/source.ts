@@ -4,6 +4,7 @@ import { CarClass, Permission, Slug, SourceKind } from './enums';
 export const TabRole = z.enum([
   'tunes',
   'rivals',
+  'list',
   'catalog',
   'attributes',
   'meta',
@@ -35,6 +36,7 @@ export type SourceTab = z.infer<typeof SourceTab>;
  * qq-docs     → every tab of a public QQ Docs spreadsheet (fetchers/qq-docs.ts)
  * mediawiki   → members of a wiki category through the MediaWiki API (`path` = category)
  * mediawiki-images → the lead image of every page in a wiki category (`path` = category)
+ * fhstats    → data embedded in a fhstats.com page (`path` = page path; tab `online` or `rivals`)
  */
 export const Fetcher = z.enum([
   'google-csv',
@@ -43,6 +45,7 @@ export const Fetcher = z.enum([
   'qq-docs',
   'mediawiki',
   'mediawiki-images',
+  'fhstats',
 ]);
 export type Fetcher = z.infer<typeof Fetcher>;
 
@@ -75,7 +78,12 @@ export const SourceDef = z
     for (const tab of s.tabs) {
       if (s.fetcher === 'google-csv' && !tab.gid) fail(`tab ${tab.id} needs \`gid\``);
       if (s.fetcher === 'google-xlsx' && !tab.sheet) fail(`tab ${tab.id} needs \`sheet\``);
-      if ((s.fetcher === 'forza-net' || s.fetcher.startsWith('mediawiki')) && !tab.path) {
+      if (
+        (s.fetcher === 'forza-net' ||
+          s.fetcher === 'fhstats' ||
+          s.fetcher.startsWith('mediawiki')) &&
+        !tab.path
+      ) {
         fail(`tab ${tab.id} needs \`path\``);
       }
     }

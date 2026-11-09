@@ -5,11 +5,12 @@ import type { TabPayload } from '../adapters/types';
 import { fetchBytes, HttpError } from '../lib/http';
 import { parseCsv } from '../lib/table';
 import type { SourceDef, SourceTab } from '../schema/source';
+import { downloadFhstatsOnline, downloadFhstatsRivals } from './fhstats';
 import { downloadCategory, downloadPageImages } from './mediawiki';
 import { downloadQqDoc } from './qq-docs';
 
 /** `qq.json` is a QQ Docs bundle (fetchers/qq-docs.ts); `json` is a forza.net Nuxt payload. */
-export type RawExt = 'csv' | 'xlsx' | 'json' | 'qq.json' | 'wiki.json';
+export type RawExt = 'csv' | 'xlsx' | 'json' | 'qq.json' | 'wiki.json' | 'data.json';
 
 /** Bytes exactly as downloaded, kept for caching and fixtures. */
 export interface RawTab {
@@ -61,11 +62,18 @@ const EXT: Record<SourceDef['fetcher'], RawExt> = {
   'qq-docs': 'qq.json',
   mediawiki: 'wiki.json',
   'mediawiki-images': 'wiki.json',
+  fhstats: 'data.json',
 };
 const extFor = (source: SourceDef): RawExt => EXT[source.fetcher];
 
 async function downloadTab(source: SourceDef, tab: SourceTab): Promise<Buffer> {
   switch (source.fetcher) {
+    case 'fhstats': {
+      const url = `${source.url.replace(/\/$/, '')}/${tab.path!}`;
+      const data =
+        tab.id === 'rivals' ? await downloadFhstatsRivals(url) : await downloadFhstatsOnline(url);
+      return Buffer.from(JSON.stringify(data), 'utf8');
+    }
     case 'mediawiki-images':
       return Buffer.from(JSON.stringify(await downloadPageImages(source.url, tab.path!)), 'utf8');
     case 'mediawiki':
@@ -148,6 +156,7 @@ export function toPayload(tab: RawTab): TabPayload {
       return { kind: 'json', data: decodeNuxtPayload(tab.bytes.toString('utf8')) };
     case 'qq.json':
     case 'wiki.json':
+    case 'data.json':
       return { kind: 'json', data: JSON.parse(tab.bytes.toString('utf8')) as unknown };
   }
 }

@@ -3,7 +3,7 @@ import { countRecords, withDefaults, type AdapterOutput, type TabPayload } from 
 import { appendChangelog, diffDataset } from '../build/changelog';
 import { highlightsFromChanges, mergeHighlights, readChangelog } from '../build/highlights';
 import { buildDataset, datasetStats, type SourceResult } from '../build/dataset';
-import { readSnapshot, readStatuses, writeDataset, writeSnapshot } from '../build/write';
+import { readRoles, readSnapshot, readStatuses, writeDataset, writeSnapshot } from '../build/write';
 import { loadManual, loadSources } from '../config';
 import { loadCurationConfig } from '../curate/config';
 import { curate } from '../curate';
@@ -57,6 +57,25 @@ export async function runAdapter(source: SourceDef, tabs: RawTab[]): Promise<Ada
   return getAdapter(source.adapter).parse({ source, tabs: payloads });
 }
 
+/** The game's launch: cars already listed when the "first seen" record started count from here. */
+const FIRST_SEEN_BASELINE = '2026-05-19';
+
+/** Each car's "first seen" date, carried from the previous roles.json (ADR-0017). */
+function firstSeenOf(visibility: Visibility, now: string) {
+  const previous = readRoles(visibility);
+  const firstSeen = Object.fromEntries(
+    previous
+      .filter((r) => r.firstSeen)
+      .map((r) => [`${r.carId}|${r.class}|${r.surface}`, r.firstSeen!]),
+  );
+  const started = Object.keys(firstSeen).length > 0;
+  return {
+    firstSeen,
+    firstSeenBaseline: started ? undefined : FIRST_SEEN_BASELINE,
+    today: now.slice(0, 10),
+  };
+}
+
 export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
   const { sources } = loadSources();
   const manual = loadManual();
@@ -70,6 +89,10 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
 
   const results: SourceResult[] = [];
   const statuses: SourceStatus[] = [];
+  // Sources whose data really changed in this run (and that existed before): only their
+  // changes are logged. Everything else in the diff comes from our own processing (a name fix, a
+  // new source, a tuner leaving), which is not the author's update.
+  const updatedSources = new Set<string>();
   let catalogMissing = false;
 
   for (const source of active) {
@@ -115,6 +138,7 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
       const changed =
         !dryRun &&
         writeSnapshot(visibility, { schemaVersion: 1, sourceId: source.id, records, output });
+      if (changed && previous) updatedSources.add(source.id);
       results.push({ source, output });
       statuses.push({
         ...base,
@@ -153,7 +177,7 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
   for (const visibility of VISIBILITIES) {
     if (visibility === 'preview' && options.publicOnly) continue;
     const visible = visibility === 'public' ? results.filter((r) => isPublic(r.source)) : results;
-    const base = buildDataset(visible, manual);
+    const base = { ...buildDataset(visible, manual), ...firstSeenOf(visibility, now) };
     const curated = curate(base, curation, sources);
     const dataset = { ...base, tunes: curated.tunes };
     const s = datasetStats(dataset);
@@ -180,7 +204,9 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
     }
     if (!dryRun) {
       // Diff against what is on disk BEFORE overwriting it.
-      const changes = diffDataset(visibility, dataset, now);
+      const changes = diffDataset(visibility, dataset, now).filter(
+        (c) => !c.sourceId || updatedSources.has(c.sourceId),
+      );
       if (changes.length) {
         appendChangelog(visibility, changes, now);
         log(`[${visibility}] changelog: ${changes.length} changes`);
@@ -195,6 +221,7 @@ export async function sync(options: SyncOptions): Promise<{ ok: boolean }> {
         visibility === 'public' ? statuses.filter((st) => st.public) : statuses,
         curated.suggestions,
         news,
+        curated.roles,
         now,
       );
       log(

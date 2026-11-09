@@ -7,6 +7,19 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-09: **Foco em alternativas ao meta** ([ADR-0017](docs/adr/0017-ranking-proprio-e-alternativas.md)).
+  - **Fontes novas:** `fhstats` (lista de meta online e estatísticas de Rivais), `logikj` (escolhas online) e `attax-johnson` (lista por classe). Os nomes abreviados dessas fontes ficam em `data/manual/car-aliases.yaml`.
+  - **Ranking do Forza Paddock** (Meta+, Meta, Off-meta, Nicho, Outros), calculado a partir de todas as fontes em `data/generated/roles.json`. Ele substitui o tier de Noa Miyako como ranking principal na lista de tunes, na página do carro e nas sugestões da playlist. Cada carro mostra as evidências.
+  - **"Alternativas competitivas ao meta atual"** na aba Tunes: a lista completa, da mais forte para a menos forte. Em cima, a caixa **Destaques**: escolha do Forza Paddock (`data/manual/featured-picks.yaml`), achados recentes (o site agora guarda quando viu cada carro pela primeira vez) e sleepers.
+  - **Etiquetas:** Rivais, Achado recente, Sleeper e Escolha do Forza Paddock. **Nicho** e correções de tier à mão (`data/manual/tier-overrides.yaml`).
+  - **Datas** nas tunes e nas sugestões da playlist.
+- 2026-11-09: **"Cérebro desligado"** ([ADR-0018](docs/adr/0018-cerebro-desligado.md)): selo automático para a tune fácil e recomendada de carros Meta+, e marcação manual em `data/manual/brain-afk.yaml`.
+- 2026-11-09: **Página inicial:**
+  - manifesto no topo, com botão para as alternativas;
+  - novidades separadas por fonte (tabela de Noa Miyako, listas e planilhas de tunes), só quando há atualização detectada, com as palavras da própria fonte;
+  - o registro de mudanças ignora o que vem do nosso processamento.
+- 2026-11-09: **Navegação:** menu fixo e translúcido ao rolar; filtros da aba Tunes e atalhos da página Meta fixos abaixo dele. **Página do carro** com a foto atrás do nome, em degradê.
+- 2026-11-09: **Limpeza:** saíram textos, estilos e funções que sobraram de versões anteriores das páginas (cerca de 50 chaves de tradução sem uso, selos de papel antigos e a ordem pelo tier de Noa Miyako). As amostras de teste do fhstats foram reduzidas ao corte padrão.
 - 2026-11-08: **Nova regra de fontes** ([ADR-0016](docs/adr/0016-fontes-publicas-com-opcao-de-saida.md)): fontes públicas da comunidade entram com crédito (`permission: public`, no lugar de `prelaunch`), e quem pede para sair vai para `data/manual/opt-out.yaml` (tunador) ou `denied` (planilha inteira). Página "Uso de dados" e aviso do topo atualizados.
 - 2026-11-08: **Rivais** (fonte `rivals-meta`): o 1º e o 2º carro mais usados no topo de cada ranking de Rivais, por pista, classe e piso, em `data/generated/rivals.json` (uso no site em discussão). **Raridade manual** (`data/manual/car-rarity.yaml`): os 25 carros de tesouro/celeiro como Lendário e o BRZ Forza Edition, confirmados no jogo pelo dono.
 - 2026-11-08: **Página "Uso de dados"** (`/legal/`, link no rodapé): não reivindicamos a posse de nada, o site compila informações públicas, como pedir remoção ou correção, e a situação da autorização de cada fonte. **GBR Ozzy saiu do projeto a pedido do autor**; kleis passou a `granted` (autorização expressa).

@@ -53,6 +53,14 @@
 | Off-meta | Competitivo, mas fora do topo |
 | Meme | Escolha divertida ou improvável, ainda jogável ([CURATION.md](CURATION.md)) |
 | Tier (Meta+, Meta, T0.5, T1, T1.5, T2, T3) | Escala de força usada por Noa Miyako |
+| Tier do Forza Paddock (Meta+, Meta, Off-meta, Nicho, Outros) | Ranking principal do site, calculado a partir de todas as fontes ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)) |
+| Alternativa competitiva | Carro Off-meta: competitivo além do meta óbvio |
+| Nicho | Carro forte em eventos específicos (ex.: sprints de curvas rápidas); só definido à mão |
+| Manjado | Carro citado há muito tempo por muitas fontes; desce na lista de alternativas |
+| Sleeper | Carro pouco citado nas listas, mas forte nos rankings de Rivais |
+| Achado recente | Carro que o site viu pela primeira vez nas últimas 3 semanas, citado por 2 ou mais fontes |
+| Cérebro desligado (Brain AFK) | Tune forte e fácil demais, que não exige nada do piloto ([ADR-0018](adr/0018-cerebro-desligado.md)) |
+| Meta-abuser | Jogador que só usa o meta online; o site existe para oferecer alternativas |
 | Tunador (tuner) | Quem cria e publica tunes |
 | Hotlap | Volta rápida cronometrada (ex.: planilha do Letz em Shirakawa) |
 

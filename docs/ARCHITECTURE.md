@@ -71,11 +71,12 @@ fh-hub/
 ├─ pipeline/
 │  ├─ cli.ts                     # pnpm sync | fixtures:update | validate
 │  ├─ commands/                  # sync.ts, fixtures.ts, validate.ts
-│  ├─ fetchers/                  # index.ts (google-csv, google-xlsx, forza-net) e qq-docs.ts
+│  ├─ fetchers/                  # index.ts (google-csv, google-xlsx, forza-net), qq-docs.ts e fhstats.ts
 │  ├─ adapters/                  # um arquivo por fonte + types.ts (contrato) + index.ts (registro)
 │  ├─ normalize/                 # fields.ts (classe, piso, pneus…), car-resolver.ts, tuners.ts
 │  ├─ build/                     # dataset.ts (junta tudo), write.ts (gravação determinística), changelog.ts
-│  ├─ curate/                    # config.ts (schema do config.yaml) e index.ts (notas, categorias, sugestões)
+│  ├─ curate/                    # config.ts (schema do config.yaml), index.ts (notas, categorias, sugestões),
+│  │                             # roles.ts (ranking do Forza Paddock, ADR-0017) e brain-afk.ts (ADR-0018)
 │  ├─ schema/                    # schemas zod: fonte única de verdade dos tipos
 │  ├─ lib/                       # http, tabelas, markdown, texto, similaridade, JSON estável, protobuf, qq-sheet
 │  ├─ testing.ts                 # roda os adaptadores sobre as fixtures (usado nos testes)

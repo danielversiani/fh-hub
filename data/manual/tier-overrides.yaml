@@ -1,0 +1,11 @@
+# Tier do Forza Paddock definido à mão (ADR-0017). Vale mais que a fórmula para aquele carro,
+# classe e piso. Uso principal: "niche" (Nicho), para carros fortes em eventos específicos, que a
+# fórmula não consegue detectar. Também aceita meta-plus, meta, off-meta e other.
+# O comentário (note) aparece junto do carro. Use o id do carro de data/generated/cars.json.
+- carId: 1998-nissan-r390-gt1
+  class: S1
+  surface: road
+  tier: niche
+  note:
+    pt-br: 'Muito bom em sprints com curvas de média e alta velocidade, como o Satta Sprint.'
+    en: 'Very good in sprints with medium and high speed corners, like Satta Sprint.'

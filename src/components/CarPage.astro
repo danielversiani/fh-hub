@@ -1,7 +1,7 @@
 ---
 import type { Car } from '../../pipeline/schema/entities';
 import { localePath, t, type Locale } from '../i18n';
-import CarCard, { buildsFor, CarPhoto, RarityChip } from '../islands/CarCard';
+import CarCard, { buildsFor, RarityChip } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
 import { buildBrowseData } from '../lib/browse';
 import { carCardLabels } from '../lib/labels';
@@ -28,15 +28,25 @@ const builds = buildsFor(
   title={car.displayName}
   description={`${car.displayName}: ${t(locale, 'site.tagline')}`}
 >
-  <p class="label">
-    <a href={localePath(locale, '/tunes/')} class="hover:text-text">
-      {t(locale, 'nav.tunes')}
-    </a>
-  </p>
-  <div class="mt-3 grid items-end gap-6 md:grid-cols-[1fr_minmax(0,26rem)]">
-    <div>
-      <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
-        <h1 class="display text-4xl sm:text-5xl">{car.model}</h1>
+  {/* The car's photo sits behind the name and fades into the page (owner's request). */}
+  <section class:list={['car-hero', browseCar.image && 'car-hero-with-photo']}>
+    {browseCar.image && (
+      <img
+        src={browseCar.image}
+        alt=""
+        class="car-hero-photo"
+        decoding="async"
+        referrerpolicy="no-referrer"
+      />
+    )}
+    <div class="relative">
+      <p class="label">
+        <a href={localePath(locale, '/tunes/')} class="hover:text-text">
+          {t(locale, 'nav.tunes')}
+        </a>
+      </p>
+      <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+        <h1 class="display text-4xl sm:text-6xl">{car.model}</h1>
         <RarityChip
           rarity={car.rarity}
           label={car.rarity ? t(locale, `rarity.${car.rarity}`) : ''}
@@ -46,8 +56,7 @@ const builds = buildsFor(
         {car.make} · {car.year}
       </p>
     </div>
-    <CarPhoto car={browseCar} class="car-photo-hero" />
-  </div>
+  </section>
 
   <div class="mt-8">
     <CarCard

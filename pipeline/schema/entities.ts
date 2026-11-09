@@ -1,11 +1,13 @@
 import { z } from 'zod';
 import {
+  PlatformTier,
   BuildTag,
   CarClass,
   Category,
   Difficulty,
   Discipline,
   Drivetrain,
+  ListLevel,
   Permission,
   Rarity,
   Season,
@@ -14,6 +16,7 @@ import {
   Surface,
   TireCompound,
   Tier,
+  TuneStyle,
 } from './enums';
 
 export const SCHEMA_VERSION = 1;
@@ -112,6 +115,11 @@ export const Tune = z.object({
   fromMeta: z.boolean().optional(),
   /** From the meta-table row that credits this tune's tuner (difficulty, style, lap times). */
   difficulty: Difficulty.optional(),
+  /**
+   * "Cérebro desligado" (brain AFK): overpowered and very easy to drive (ADR-0018). "auto" = easy
+   * tune of a Meta / Meta+ car; "curator" = set in data/manual/brain-afk.yaml.
+   */
+  brainAfk: z.enum(['auto', 'curator']).optional(),
   role: TuneRole.optional(),
   metaNotes: z.string().optional(),
   /** `metaNotes` translated (lap times left out: they are in `lapRefs`). */
@@ -139,7 +147,9 @@ export const TuneIndexEntry = Tune.pick({
   score: true,
   categories: true,
   fromMeta: true,
+  createdAt: true,
   difficulty: true,
+  brainAfk: true,
   role: true,
   metaNotes: true,
   metaNotesI18n: true,
@@ -208,6 +218,107 @@ export const RivalsPick = z.object({
   carId: Slug,
 });
 export type RivalsPick = z.infer<typeof RivalsPick>;
+
+/** A car picked by a community list for a class × surface (ADR-0017). */
+export const ListEntry = z.object({
+  sourceId: Slug,
+  carId: Slug,
+  class: CarClass,
+  surface: Surface,
+  level: ListLevel,
+  label: z.string(),
+  style: TuneStyle.optional(),
+  extreme: z.boolean().optional(),
+  online: z.boolean().optional(),
+  tunerIds: z.array(Slug),
+  date: z.iso.date().optional(),
+});
+export type ListEntry = z.infer<typeof ListEntry>;
+
+/** Rivals leaderboard statistics of a car in a class × surface. */
+export const RivalsStat = z.object({
+  sourceId: Slug,
+  carId: Slug,
+  class: CarClass,
+  surface: Surface,
+  top10: z.number().int().nonnegative(),
+  top50: z.number().int().nonnegative(),
+  wins: z.number().int().nonnegative(),
+});
+export type RivalsStat = z.infer<typeof RivalsStat>;
+
+/**
+ * Role and tier of a car in a class × surface, computed by the "alternatives" formula (ADR-0017):
+ * meta (Meta+ / Meta: what you meet online), alternative (Off-meta: competitive beyond the
+ * obvious), niche (set by hand) or other (cited, but weaker or mostly pure handling/speed builds).
+ */
+export const CarRole = z.object({
+  carId: Slug,
+  class: CarClass,
+  surface: Surface,
+  role: z.enum(['meta', 'alternative', 'niche', 'other']),
+  /** The platform's tier (Meta+, Meta, Off-meta, Rivals, Niche). */
+  tier: PlatformTier,
+  /** Order inside the role (1 = first). */
+  rank: z.number().int().positive(),
+  /** How many independent sources back the car (lists + Rivals data). */
+  sources: z.number().int().nonnegative(),
+  evidence: z.array(z.object({ sourceId: Slug, label: z.string() })),
+  rivalsTop10: z.number().int().nonnegative().optional(),
+  rivalsWins: z.number().int().nonnegative().optional(),
+  /** Points in the Rivals Meta Sheet (2 per track as 1st choice, 1 as 2nd). */
+  rivalsPicks: z.number().int().nonnegative().optional(),
+  /** When the site first saw the car in this class × surface (kept from sync to sync). */
+  firstSeen: z.iso.date().optional(),
+  /** Earliest date a source mentions (how long the car has been known). */
+  since: z.iso.date().optional(),
+  /** Latest change any source reports. */
+  updated: z.iso.date().optional(),
+  /** Known for a long time by many sources ("manjado"): ranked lower among alternatives. */
+  wellKnown: z.boolean().optional(),
+  /**
+   * Highlights (ADR-0017): "recent" = first listed in the last weeks by 2+ sources;
+   * "sleeper" = strong in the Rivals data but cited by a single list;
+   * "featured" = the platform's own pick (data/manual/featured-picks.yaml);
+   * "rivals" = a source lists a pure handling / pure speed build of it (good for time trials).
+   */
+  tags: z.array(z.enum(['recent', 'sleeper', 'featured', 'rivals'])).optional(),
+  /** The platform's comment (featured pick or tier override). */
+  note: Localized.optional(),
+});
+export type CarRole = z.infer<typeof CarRole>;
+
+/** The platform's own tier for a car, by hand (data/manual/tier-overrides.yaml), e.g. Niche. */
+export const TierOverride = z.object({
+  carId: Slug,
+  class: CarClass,
+  surface: Surface,
+  tier: PlatformTier,
+  note: Localized.optional(),
+});
+export type TierOverride = z.infer<typeof TierOverride>;
+
+/** A rule of data/manual/brain-afk.yaml: marks (or unmarks) tunes as "brain AFK". */
+export const BrainAfkRule = z.object({
+  carId: Slug,
+  class: CarClass.optional(),
+  surface: Surface.optional(),
+  /** Tuner's gamertag; without it the rule covers every tune of the car. */
+  tuner: z.string().optional(),
+  /** false removes an automatic mark. */
+  brainAfk: z.boolean().default(true),
+});
+export type BrainAfkRule = z.infer<typeof BrainAfkRule>;
+
+/** A car the platform itself recommends in a class × surface (data/manual/featured-picks.yaml). */
+export const FeaturedPick = z.object({
+  carId: Slug,
+  class: CarClass,
+  surface: Surface,
+  date: z.iso.date(),
+  note: Localized.optional(),
+});
+export type FeaturedPick = z.infer<typeof FeaturedPick>;
 
 /** One car in a meta ranking for a class × surface (e.g. Noa Miyako's "S1 800 Road"). */
 export const MetaRanking = z.object({
@@ -345,7 +456,7 @@ export const ChangeLogEntry = z.object({
   at: z.iso.datetime(),
   sourceId: Slug.optional(),
   kind: z.enum(['added', 'removed', 'tier-up', 'tier-down']),
-  entity: z.object({ type: z.enum(['tune', 'meta-ranking']), id: z.string() }),
+  entity: z.object({ type: z.enum(['tune', 'meta-ranking', 'list-entry']), id: z.string() }),
   carId: Slug,
   class: CarClass.nullable(),
   surface: Surface.nullable(),

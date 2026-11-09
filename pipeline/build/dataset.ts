@@ -25,6 +25,9 @@ import { TunerRegistry, type TunerIdentity } from '../normalize/tuners';
 import { magnitude } from './highlights';
 import { CAR_CLASSES, Drivetrain, Rarity, Surface } from '../schema/enums';
 import type {
+  BrainAfkRule,
+  TierOverride,
+  FeaturedPick,
   Car,
   CustomEvent,
   Highlight,
@@ -32,6 +35,8 @@ import type {
   MetaRanking,
   PlaylistEvent,
   RivalsPick,
+  ListEntry,
+  RivalsStat,
   PlaylistSeason,
   ReviewItem,
   Tune,
@@ -53,8 +58,27 @@ export interface Dataset {
   meta: MetaRanking[];
   /** Rivals leaderboard top picks per track × class (not used by curation yet). */
   rivals: RivalsPick[];
+  /** Community list picks (fhstats online, LogikJ, Attax Johnson…). */
+  lists: ListEntry[];
+  /** Rivals leaderboard statistics per car × class × surface. */
+  rivalsStats: RivalsStat[];
   /** News from the meta table's update log (merged with the change log in sync). */
   highlights: Highlight[];
+  /** The platform's own picks (data/manual/featured-picks.yaml), only cars that exist. */
+  featured: FeaturedPick[];
+  /** Hand-made "brain AFK" rules (data/manual/brain-afk.yaml). */
+  brainAfk: BrainAfkRule[];
+  /** The platform's tier set by hand (data/manual/tier-overrides.yaml). */
+  tierOverrides: TierOverride[];
+  /**
+   * When the site first saw each car × class × surface ("car|class|surface" → date), from the
+   * previous roles.json; filled in by sync. Missing keys are new, unless `firstSeenBaseline` is set
+   * (first run of the record: everything already there counts as old).
+   */
+  firstSeen?: Record<string, string>;
+  firstSeenBaseline?: string;
+  /** The sync's date (YYYY-MM-DD); defaults to the newest date in the data. */
+  today?: string;
   seasons: PlaylistSeason[];
   events: PlaylistEvent[];
   review: ReviewItem[];
@@ -458,6 +482,89 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
       a.choice - b.choice,
   );
 
+  // --- community lists and Rivals statistics ------------------------------------------------
+  const lists: ListEntry[] = [];
+  for (const { source, output } of ordered) {
+    const seenList = new Set<string>();
+    for (const e of output.lists) {
+      if (e.tuners.some((t) => isOptedOut(t)) && e.tuners.length === 1) continue;
+      const carId = resolveCar(source.id, e.car);
+      if (!carId) continue;
+      const key = `${carId}|${e.carClass}|${e.surface}`;
+      if (seenList.has(key)) continue; // one pick per car × class × surface per source
+      seenList.add(key);
+      lists.push({
+        sourceId: source.id,
+        carId,
+        class: e.carClass,
+        surface: e.surface,
+        level: e.level,
+        label: cleanText(e.label),
+        style: e.style,
+        extreme: e.extreme,
+        online: e.online,
+        tunerIds: [
+          ...new Set(
+            e.tuners.flatMap((name) => {
+              if (isOptedOut(name)) return [];
+              const identity = identifyTuner(name);
+              return identity ? [identity.id] : [];
+            }),
+          ),
+        ],
+        date: e.date,
+      });
+    }
+  }
+  lists.sort(
+    (a, b) =>
+      a.sourceId.localeCompare(b.sourceId) ||
+      a.surface.localeCompare(b.surface) ||
+      (CLASS_ORDER.get(a.class) ?? 0) - (CLASS_ORDER.get(b.class) ?? 0) ||
+      a.carId.localeCompare(b.carId),
+  );
+
+  const rivalsStats: RivalsStat[] = [];
+  for (const { source, output } of ordered) {
+    const totals = new Map<string, RivalsStat>();
+    for (const r of output.rivalsStats) {
+      let carId: string | undefined;
+      for (const text of [r.car.text, ...r.altNames]) {
+        const resolution = resolver.resolve({ text });
+        if (resolution.ok) {
+          carId = resolution.carId;
+          break;
+        }
+      }
+      if (!carId) {
+        resolveCar(source.id, r.car); // lists the name for review
+        continue;
+      }
+      const key = `${carId}|${r.carClass}|${r.surface}`;
+      const t = totals.get(key) ?? {
+        sourceId: source.id,
+        carId,
+        class: r.carClass,
+        surface: r.surface,
+        top10: 0,
+        top50: 0,
+        wins: 0,
+      };
+      t.top10 += r.top10;
+      t.top50 += r.top50;
+      t.wins += r.wins;
+      totals.set(key, t);
+    }
+    rivalsStats.push(...totals.values());
+  }
+  rivalsStats.sort(
+    (a, b) =>
+      a.surface.localeCompare(b.surface) ||
+      (CLASS_ORDER.get(a.class) ?? 0) - (CLASS_ORDER.get(b.class) ?? 0) ||
+      b.top10 - a.top10 ||
+      a.carId.localeCompare(b.carId),
+  );
+
   // --- news from the meta table's update tabs ----------------------------------------------
   const highlights: Highlight[] = [];
   for (const { source, output } of ordered) {
@@ -574,7 +681,12 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     customEvents,
     meta,
     rivals,
+    lists,
+    rivalsStats,
     highlights,
+    featured: manual.featured.filter((p) => carById.has(p.carId)),
+    brainAfk: manual.brainAfk.filter((r) => carById.has(r.carId)),
+    tierOverrides: manual.tierOverrides.filter((r) => carById.has(r.carId)),
     seasons,
     events,
     review: review.list(),

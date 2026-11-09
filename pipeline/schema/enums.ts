@@ -74,8 +74,24 @@ export const BuildTag = z.enum([
 ]);
 export type BuildTag = z.infer<typeof BuildTag>;
 
+/** How a community list rates a car (lists without tiers just "pick" it). */
+export const ListLevel = z.enum(['meta-plus', 'meta', 'strong', 'offmeta', 'pick']);
+export type ListLevel = z.infer<typeof ListLevel>;
+
+export const TuneStyle = z.enum(['allround', 'power', 'handling']);
+export type TuneStyle = z.infer<typeof TuneStyle>;
+
 export const Tier = z.enum(['meta-plus', 'meta', 't0.5', 't1', 't1.5', 't2', 't3']);
 export type Tier = z.infer<typeof Tier>;
+
+/**
+ * The platform's own ranking of a car in a class × surface (ADR-0017), replacing the meta table's
+ * tiers as the site's main ranking: Meta+, Meta, Off-meta (competitive alternative), Niche (strong
+ * in specific events; set by hand, data/manual/tier-overrides.yaml) and Other (cited, but below the
+ * others, or mostly pure handling / speed builds). "Good for Rivals" is a tag on top of the tier.
+ */
+export const PlatformTier = z.enum(['meta-plus', 'meta', 'off-meta', 'niche', 'other']);
+export type PlatformTier = z.infer<typeof PlatformTier>;
 
 export const Difficulty = z.enum(['easy', 'normal', 'slightly-hard', 'hard', 'very-hard']);
 export type Difficulty = z.infer<typeof Difficulty>;
@@ -93,6 +109,7 @@ export const SourceKind = z.enum([
   'google-xlsx',
   'qq-doc',
   'forza-official',
+  'website',
   'manual',
 ]);
 export type SourceKind = z.infer<typeof SourceKind>;

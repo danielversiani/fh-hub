@@ -5,11 +5,20 @@ import {
   DIFFICULTY_COLORS,
   formatShareCode,
   RARITY_COLORS,
+  PLATFORM_TIER_COLORS,
+  PLATFORM_TIER_ORDER,
   TIER_COLORS,
   TIER_LABELS,
 } from '../lib/ui';
 import { slugify } from '../../pipeline/lib/text';
-import type { CarClass, Difficulty, Rarity, Surface, Tier } from '../../pipeline/schema/enums';
+import type {
+  CarClass,
+  Difficulty,
+  PlatformTier,
+  Rarity,
+  Surface,
+  Tier,
+} from '../../pipeline/schema/enums';
 
 export interface CarCardLabels {
   shareCode: string;
@@ -19,7 +28,6 @@ export interface CarCardLabels {
   tuneBy: string;
   recommendedWhy: string;
   defaultTier: string;
-  metaRank: string;
   otherTunes: string;
   noTunes: string;
   obtain: string;
@@ -31,6 +39,12 @@ export interface CarCardLabels {
   lang: 'pt-br' | 'en';
   worldRecord: string;
   lapBy: string;
+  /** "atualizada em {date}" */
+  tuneDate: string;
+  /** Platform tier names (Meta+, Meta, Off-meta, Rivais, Nicho). */
+  tiers: Record<PlatformTier, string>;
+  brainAfk: string;
+  brainAfkHelp: string;
   spec: { drivetrain: string; tires: string; style: string; difficulty: string };
   surfaces: Record<string, string>;
   categories: Record<string, string>;
@@ -46,9 +60,11 @@ export interface CarCardLabels {
 export interface Build {
   cls: CarClass | null;
   surface: Surface | null;
-  tier: Tier;
-  listed: boolean;
+  /** The platform's tier here; undefined when no source cites the car in this class × surface. */
+  tier?: PlatformTier;
   rank?: number;
+  /** Why: "Noa Miyako: T0.5 · fhstats: Meta". */
+  evidence: string[];
   tunes: BrowseTune[];
   /** Lap times from time sheets for this car in this class (road only). */
   laps: BrowseLap[];
@@ -56,6 +72,9 @@ export interface Build {
 
 const TIER_ORDER: readonly Tier[] = ['meta-plus', 'meta', 't0.5', 't1', 't1.5', 't2', 't3'];
 const tierIndex = (t: Tier) => TIER_ORDER.indexOf(t);
+/** Platform tier order; builds no source cites come last. */
+export const platformIndex = (t: PlatformTier | undefined) =>
+  t ? PLATFORM_TIER_ORDER.indexOf(t) : PLATFORM_TIER_ORDER.length;
 const SURFACE_ORDER: readonly (Surface | null)[] = ['road', 'dirt', 'cross-country', null];
 
 /** Better tier, credited by the meta table, has a share code, table rank, internal score. */
@@ -68,9 +87,8 @@ export const compareTunes = (a: BrowseTune, b: BrowseTune) =>
   a.id.localeCompare(b.id);
 
 /**
- * One "build" per class × surface: the car's tier there (meta table, or T3 by default) and its
- * tunes, best first. Every tuner the meta table recommends has a tune (pipeline: "tunes known only
- * from the meta table"), so a listed build is never empty.
+ * One "build" per class × surface: the car's tier there in the platform's ranking (ADR-0017; none
+ * when no source cites it) and its tunes, best first.
  */
 export function buildsFor(
   tunes: readonly BrowseTune[],
@@ -84,12 +102,12 @@ export function buildsFor(
   for (const t of tunes) {
     const key = keyOf(t.cls, t.surface);
     const m = metaByKey.get(key);
-    const build = builds.get(key) ?? {
+    const build: Build = builds.get(key) ?? {
       cls: t.cls,
       surface: t.surface,
-      tier: m?.tier ?? t.tier ?? 't3',
-      listed: Boolean(m) || t.listed,
-      rank: m?.rank ?? t.rank,
+      tier: m?.tier,
+      rank: m?.rank,
+      evidence: m?.evidence ?? [],
       tunes: [],
       laps: laps.filter((l) => t.surface === 'road' && l.cls === t.cls),
     };
@@ -104,7 +122,7 @@ export function buildsFor(
     .map((b) => ({ ...b, tunes: [...b.tunes].sort(compareTunes) }))
     .sort(
       (a, b) =>
-        tierIndex(a.tier) - tierIndex(b.tier) ||
+        platformIndex(a.tier) - platformIndex(b.tier) ||
         CLASS_ORDER.indexOf(b.cls ?? 'D') - CLASS_ORDER.indexOf(a.cls ?? 'D') ||
         (a.surface ?? 'z').localeCompare(b.surface ?? 'z'),
     );
@@ -176,6 +194,24 @@ export function TierChip({ tier, muted = false }: { tier: Tier; muted?: boolean 
   );
 }
 
+/** The platform's tier chip (Meta+, Meta, Off-meta, Rivais, Nicho). */
+export function PlatformChip({ tier, label }: { tier: PlatformTier; label: string }) {
+  return (
+    <span class="chip text-white" style={{ background: PLATFORM_TIER_COLORS[tier] }}>
+      {label}
+    </span>
+  );
+}
+
+/** "Cérebro desligado": a tune so strong and easy it needs no thinking (ADR-0018). */
+export function BrainAfkChip({ label, help }: { label: string; help: string }) {
+  return (
+    <span class="brain-afk" title={help}>
+      {label}
+    </span>
+  );
+}
+
 export function DifficultyText({ difficulty, label }: { difficulty: Difficulty; label: string }) {
   return (
     <span class="font-semibold" style={{ color: DIFFICULTY_COLORS[difficulty] }}>
@@ -216,7 +252,12 @@ function Specs({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) {
   if (tune.drivetrain) specs.push([labels.spec.drivetrain, tune.drivetrain]);
   if (tune.tires) specs.push([labels.spec.tires, labels.tires[tune.tires] ?? tune.tires]);
   if (tune.role) specs.push([labels.spec.style, labels.roles[tune.role] ?? tune.role]);
-  if (tune.difficulty)
+  if (tune.brainAfk)
+    specs.push([
+      labels.spec.difficulty,
+      <BrainAfkChip label={labels.brainAfk} help={labels.brainAfkHelp} />,
+    ]);
+  else if (tune.difficulty)
     specs.push([
       labels.spec.difficulty,
       <DifficultyText
@@ -278,6 +319,15 @@ function Notes({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) {
   );
 }
 
+/** "19 ago 2026" in the site's language. */
+export const formatDay = (iso: string, lang: string) =>
+  new Intl.DateTimeFormat(lang === 'en' ? 'en' : 'pt-BR', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(iso));
+
 /** The tune's name in the site's language (a few tuners write it in Chinese). */
 const tuneName = (tune: BrowseTune, labels: CarCardLabels) =>
   tune.nameI18n?.[labels.lang] || tune.name;
@@ -290,15 +340,14 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
   return (
     <div class="build-card flex flex-col gap-3">
       <div class="flex flex-wrap items-center gap-2">
-        <TierChip tier={build.tier} muted={!build.listed} />
+        {build.tier && <PlatformChip tier={build.tier} label={labels.tiers[build.tier]} />}
         <ClassChip cls={build.cls} />
-        {build.listed && build.rank && (
-          <span class="text-xs text-muted">
-            {labels.metaRank.replace('{n}', String(build.rank))}
-          </span>
-        )}
       </div>
-      {!build.listed && <p class="text-xs text-muted">{labels.defaultTier}</p>}
+      {build.evidence.length > 0 ? (
+        <p class="text-xs text-muted">{build.evidence.join(' · ')}</p>
+      ) : (
+        <p class="text-xs text-muted">{labels.defaultTier}</p>
+      )}
       {top ? (
         <>
           <div>
@@ -307,6 +356,11 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
               {top.tunerName}
             </a>
             {!top.fromMeta && <p class="mt-0.5 text-sm text-muted">{tuneName(top, labels)}</p>}
+            {top.date && (
+              <p class="mt-0.5 text-xs text-muted">
+                {labels.tuneDate.replace('{date}', formatDay(top.date, labels.lang))}
+              </p>
+            )}
           </div>
           <CodeBox tune={top} labels={labels} />
           <Specs tune={top} labels={labels} />
@@ -332,7 +386,14 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
                     {t.tunerName}
                   </a>
                   {!t.fromMeta && <span class="text-xs text-muted">{tuneName(t, labels)}</span>}
-                  {t.listed && t.tier && t.tier !== build.tier && <TierChip tier={t.tier} />}
+                  {t.date && (
+                    <span class="text-xs text-muted">
+                      · {labels.tuneDate.replace('{date}', formatDay(t.date, labels.lang))}
+                    </span>
+                  )}
+                  {t.brainAfk && (
+                    <BrainAfkChip label={labels.brainAfk} help={labels.brainAfkHelp} />
+                  )}
                   <span class="ml-auto">
                     {t.code ? (
                       <button

@@ -25,10 +25,13 @@
 | `TireCompound` | `stock`, `street`, `sport`, `semi-slick`, `slick`, `super-slick`, `rally`, `offroad`, `drift`, `drag`, `other` | Lista a confirmar com o jogo; valores vistos: Stock, Street, Semi-Slicks, Slicks, Super Slicks, Rally, Offroad, Drift |
 | `BuildTag` | `purist`, `stock-look`, `full-aero`, `powerbuild`, `engine-swap`, `drivetrain-swap` | Vários por tune |
 | `Tier` | `meta-plus`, `meta`, `t0.5`, `t1`, `t1.5`, `t2`, `t3` | Escala de Noa Miyako; cada valor tem um `rank` numérico para ordenação |
+| `PlatformTier` | `meta-plus`, `meta`, `off-meta`, `niche`, `other` | Tier do Forza Paddock, o ranking principal do site ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)) |
+| `ListLevel` | `meta-plus`, `meta`, `strong`, `offmeta`, `pick` | Nível de um carro numa lista da comunidade (fhstats, LogikJ; `pick` = Attax Johnson, sem tier) |
+| `TuneStyle` | `allround`, `power`, `handling` | Estilo da build citado por uma lista |
 | `Difficulty` | `easy`, `normal`, `slightly-hard`, `hard`, `very-hard` | Rótulos em chinês mapeados em `data/manual/zh-labels.yaml` |
 | `Category` | `meta`, `off-meta`, `purist`, `meme` | Categorias de curadoria ([CURATION.md](CURATION.md)) |
 | `SourceKind` | `google-sheet`, `google-xlsx`, `qq-doc`, `forza-official`, `manual` | |
-| `Permission` | `granted`, `pending`, `denied`, `not-required` | [ADR-0010](adr/0010-politica-de-fontes.md) |
+| `Permission` | `granted`, `public`, `pending`, `denied`, `not-required` | [ADR-0016](adr/0016-fontes-publicas-com-opcao-de-saida.md) |
 | `SourceHealth` | `healthy`, `degraded`, `failing` | |
 
 ## 3. Entidades
@@ -118,6 +121,7 @@ erDiagram
   categories: Category[]     // calculado na curadoria
   fromMeta?: boolean         // só existe como indicação da tabela de meta (sem código: buscar o gamertag)
   difficulty?: Difficulty    // colunas da tabela de meta, só na tune do tunador indicado
+  brainAfk?: "auto" | "curator" // "Cérebro desligado" (ADR-0018): forte e fácil demais; automático ou por data/manual/brain-afk.yaml
   role?: "allround" | "power" | "handling"
   metaNotes?: string         // observação da tabela, no original (muitas vezes em chinês)
   metaNotesI18n?: Localized  // a observação traduzida, sem os tempos (que estão em lapRefs)
@@ -159,6 +163,37 @@ erDiagram
 ### RivalsPick
 ```ts
 { sourceId: string; track: string; surface: Surface; class: CarClass; choice: 1 | 2; carId: string }  // 1º/2º carro mais usado no topo do ranking de Rivais
+```
+
+### ListEntry (listas da comunidade)
+```ts
+{ sourceId: string; carId: string; class: CarClass; surface: Surface; level: ListLevel;
+  label: string /* como a fonte escreve: "Meta", "Pure Handling"… */; style?: TuneStyle;
+  extreme?: boolean /* build de handling ou velocidade pura */; online?: boolean; tunerIds: string[];
+  date?: string /* AAAA-MM-DD, quando a fonte data a entrada */ }
+```
+
+### RivalsStat (estatísticas de Rivais, fhstats)
+```ts
+{ sourceId: string; carId: string; class: CarClass; surface: Surface; top10: number; top50: number; wins: number }
+```
+
+### CarRole (ranking do Forza Paddock, [ADR-0017](adr/0017-ranking-proprio-e-alternativas.md))
+```ts
+{ carId: string; class: CarClass; surface: Surface;
+  role: "meta" | "alternative" | "niche" | "other"; tier: PlatformTier; rank: number /* dentro do papel */;
+  sources: number; evidence: { sourceId: string; label: string }[];
+  rivalsTop10?: number; rivalsWins?: number; rivalsPicks?: number;
+  firstSeen?: string /* quando o site viu o carro pela primeira vez; mantido entre sincronizações */;
+  since?: string; updated?: string /* datas citadas pelas fontes */; wellKnown?: boolean /* manjado */;
+  tags?: ("recent" | "sleeper" | "featured" | "rivals")[]; note?: Localized /* comentário da plataforma */ }
+```
+
+### Arquivos manuais do ranking
+```ts
+FeaturedPick  { carId; class; surface; date; note?: Localized }        // data/manual/featured-picks.yaml
+TierOverride  { carId; class; surface; tier: PlatformTier; note?: Localized }  // data/manual/tier-overrides.yaml
+BrainAfkRule  { carId; class?; surface?; tuner?: string; brainAfk: boolean }   // data/manual/brain-afk.yaml
 ```
 
 ### LapTime
@@ -227,8 +262,9 @@ PlaylistEvent {
 ### ChangeLogEntry
 ```ts
 { at: string; sourceId: string; kind: "added"|"removed"|"tier-up"|"tier-down"|"code-changed"|"moved";
-  entity: { type: "tune"|"meta-ranking"|"car"; id: string }; before?: unknown; after?: unknown }
+  entity: { type: "tune"|"meta-ranking"|"list-entry"|"car"; id: string }; before?: unknown; after?: unknown }
 ```
+Só entram mudanças de fontes cujos dados realmente mudaram naquela sincronização (e que já existiam antes). O que muda só por causa do nosso processamento (fonte nova, correção de apelido, autor que saiu) fica de fora ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)). `before`/`after` usam as palavras da fonte (tier de Noa Miyako, nível da lista, nome da tune).
 
 ### ReviewItem
 ```ts
@@ -255,7 +291,11 @@ O mesmo conjunto de arquivos existe em dois lugares: `data/generated/` (público
 | `playlist/events/<season-id>.json` | Eventos de uma temporada (ou `s07.json` para linhas de série inteira) | Página da playlist | ✅ |
 | `playlist/suggestions/<season-id>.json` | Sugestões por evento (hoje só por regras) | Página da playlist | ✅ |
 | `base-events.json` | Eventos-base com sugestões | Módulo M11 | ⏳ Fase 2 |
-| `changelog/<AAAA-MM>.json` | Mudanças do mês | Início | ✅ |
+| `changelog/<AAAA-MM>.json` | Mudanças do mês | Início (novidades por fonte) | ✅ |
+| `roles.json` | Ranking do Forza Paddock (`CarRole`) por carro × classe × piso | Lista de tunes, página do carro, playlist, alternativas | ✅ |
+| `lists/<source-id>.json` | Entradas das listas da comunidade (`ListEntry`) | Ranking, novidades do início | ✅ |
+| `rivals-stats.json` | Estatísticas de Rivais (`RivalsStat`) | Ranking | ✅ |
+| `rivals.json` | Carros do topo da planilha de Rivais (`RivalsPick`) | Ranking | ✅ |
 
 Filas de revisão (`data/review/` e `.cache/preview/review/`):
 - `unmatched-cars.json`: nomes de carro que não casaram com a lista mestre;

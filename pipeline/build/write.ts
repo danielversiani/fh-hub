@@ -10,6 +10,7 @@ import {
   type Suggestion,
   type Tune,
   type TuneIndexEntry,
+  type CarRole,
 } from '../schema/entities';
 import type { Dataset } from './dataset';
 
@@ -58,7 +59,9 @@ const toIndexEntry = (t: Tune): TuneIndexEntry => ({
   score: t.score,
   categories: t.categories,
   fromMeta: t.fromMeta,
+  createdAt: t.createdAt,
   difficulty: t.difficulty,
+  brainAfk: t.brainAfk,
   role: t.role,
   metaNotes: t.metaNotes,
   metaNotesI18n: t.metaNotesI18n,
@@ -94,6 +97,7 @@ export function writeDataset(
   statuses: SourceStatus[],
   suggestions: Suggestion[],
   highlights: Highlight[],
+  roles: CarRole[] = [],
   now = new Date().toISOString(),
 ): WriteReport {
   const report: WriteReport = { written: [], removed: [] };
@@ -102,6 +106,9 @@ export function writeDataset(
   writeEnvelope(path.join(out, 'tuners.json'), dataset.tuners, now, report);
   writeEnvelope(path.join(out, 'laptimes.json'), dataset.lapTimes, now, report);
   writeEnvelope(path.join(out, 'rivals.json'), dataset.rivals, now, report);
+  writeEnvelope(path.join(out, 'rivals-stats.json'), dataset.rivalsStats, now, report);
+  writeEnvelope(path.join(out, 'roles.json'), roles, now, report);
+  writeGroups(path.join(out, 'lists'), dataset.lists, (e) => e.sourceId, now, report);
   writeEnvelope(path.join(out, 'custom-events.json'), dataset.customEvents, now, report);
   writeEnvelope(path.join(out, 'sources-status.json'), statuses, now, report);
   writeEnvelope(
@@ -169,6 +176,11 @@ export function writeSnapshot(v: Visibility, snapshot: Snapshot): boolean {
   if (fs.existsSync(file) && fs.readFileSync(file, 'utf8') === content) return false;
   writeFileEnsuringDir(file, content);
   return true;
+}
+
+/** The roles of the previous sync (to keep each car's "first seen" date). */
+export function readRoles(v: Visibility): CarRole[] {
+  return readJson<Envelope<CarRole>>(path.join(generatedDir(v), 'roles.json'))?.items ?? [];
 }
 
 export function readStatuses(v: Visibility): SourceStatus[] {
