@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-09: **Novidades da página inicial com o mesmo visual para todas as fontes** (`SourceNews.astro`): card grande com foto para o maior destaque e cards menores com foto, com as mesmas regras de ordem para todas. Toda atualização aparece, para melhor ou para pior (quedas e saídas incluídas), sem limite de cards por fonte. Mudanças anteriores do mesmo carro ficam num histórico em linhas finas.
 - 2026-11-09: **T0.5 de Noa Miyako conta como voto de Meta** no ranking do Forza Paddock (dono): 34 carros passam de Off-meta para Meta (ex.: S1 asfalto: Viper ACR, Centenario, AG 961, Aventador SVJ, Huracán STO, R8 LMS). As escolhas do Forza Paddock aparecem nos Destaques qualquer que seja o tier.
 - 2026-11-09: **Foco em alternativas ao meta** ([ADR-0017](docs/adr/0017-ranking-proprio-e-alternativas.md)).
   - **Fontes novas:** `fhstats` (lista de meta online e estatísticas de Rivais), `logikj` (escolhas online) e `attax-johnson` (lista por classe). Os nomes abreviados dessas fontes ficam em `data/manual/car-aliases.yaml`.

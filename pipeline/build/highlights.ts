@@ -23,7 +23,8 @@ const TIER_POINTS: Readonly<Record<Tier, number>> = {
 export function magnitude(kind: Highlight['kind'], tier: Tier, previous?: Tier): number {
   const points = TIER_POINTS[tier];
   if (kind === 'tier-up' && previous) return (points - TIER_POINTS[previous]) * 3 + points;
-  if (kind === 'tier-down') return 0;
+  if (kind === 'tier-down' && previous)
+    return (TIER_POINTS[previous] - points) * 3 + TIER_POINTS[previous];
   if (kind === 'new-car') return points + 1;
   return points;
 }

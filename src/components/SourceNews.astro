@@ -1,0 +1,196 @@
+---
+import type { Tier } from '../../pipeline/schema/enums';
+import { localePath, t, type Locale, type MessageKey } from '../i18n';
+import { ClassChip, TierChip } from '../islands/CarCard';
+import { maps } from '../lib/data';
+
+/** A label as the source writes it; `tier` when it is Noa Miyako's scale (coloured chip). */
+export interface NewsChip {
+  label: string;
+  tier?: Tier;
+}
+
+/** One update of a reference source, already in the source's own words. */
+export interface NewsItem {
+  carId: string;
+  cls: string | null;
+  surface: string | null;
+  date: string;
+  kind: string;
+  magnitude: number;
+  before?: NewsChip;
+  after?: NewsChip;
+  tuners?: string;
+}
+
+interface Props {
+  locale: Locale;
+  title: string;
+  url: string;
+  checked?: string;
+  items: NewsItem[];
+  /** Earlier changes of the same car × class × surface, newest first (thin rows). */
+  history?: NewsItem[];
+}
+
+/**
+ * Updates of one reference source (owner: every source gets the same look): the biggest update
+ * as a large card with the car's photo, the others as smaller cards, all linking to the car.
+ */
+const { locale, title, url, checked, items, history = [] } = Astro.props;
+const { cars } = maps();
+const [feature, ...rest] = items;
+const kindLabel = (kind: string) => t(locale, `home.news.${kind}` as MessageKey);
+---
+
+{feature && (
+  <div class="mt-10">
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+      <h3 class="display text-2xl">{title}</h3>
+      <p class="text-xs text-muted">
+        {checked && `${t(locale, 'home.listChecked', { date: checked })} · `}
+        <a href={url} class="underline hover:text-accent" rel="noopener" target="_blank">
+          {t(locale, 'home.openList')} ↗
+        </a>
+      </p>
+    </div>
+    <div class="mt-4 grid gap-4 lg:grid-cols-3">
+      <a
+        href={localePath(locale, `/cars/${feature.carId}/`)}
+        class:list={[
+          'card group relative flex min-h-80 flex-col justify-end overflow-hidden p-6',
+          rest.length > 0 && 'lg:col-span-2 lg:row-span-2',
+          rest.length === 0 && 'lg:col-span-3',
+        ]}
+      >
+        {cars.get(feature.carId)?.image && (
+          <img
+            src={cars.get(feature.carId)?.image}
+            alt=""
+            class="feature-photo"
+            decoding="async"
+            referrerpolicy="no-referrer"
+          />
+        )}
+        {/* Big background label only for short tiers ("Meta+", "T0.5"), not tune names. */}
+        {feature.after && feature.after.label.length <= 6 && (
+          <span
+            class="display pointer-events-none absolute -right-3 -top-6 select-none text-[11rem] text-season opacity-10"
+            aria-hidden="true"
+          >
+            {feature.after.label}
+          </span>
+        )}
+        <p class="eyebrow text-season">
+          {kindLabel(feature.kind)} · {feature.date}
+        </p>
+        <h2 class="display mt-2 text-5xl group-hover:text-accent sm:text-6xl">
+          {cars.get(feature.carId)?.model ?? feature.carId}
+        </h2>
+        <p class="mt-1 text-muted">
+          {cars.get(feature.carId)?.make} · {cars.get(feature.carId)?.year}
+        </p>
+        <div class="mt-4 flex flex-wrap items-center gap-2">
+          <ClassChip cls={feature.cls as never} />
+          {feature.surface && (
+            <span class="text-sm">{t(locale, `surface.${feature.surface}` as MessageKey)}</span>
+          )}
+          {feature.before && (
+            <>
+              {feature.before.tier ? (
+                <TierChip tier={feature.before.tier} muted />
+              ) : (
+                <span class="chip news-chip opacity-60">{feature.before.label}</span>
+              )}
+              <span class="text-muted">→</span>
+            </>
+          )}
+          {feature.after &&
+            (feature.after.tier ? (
+              <TierChip tier={feature.after.tier} />
+            ) : (
+              <span class="chip news-chip">{feature.after.label}</span>
+            ))}
+          {feature.tuners && (
+            <span class="text-sm text-muted">
+              · {t(locale, 'card.by')} {feature.tuners}
+            </span>
+          )}
+        </div>
+      </a>
+      {rest.map((n) => (
+        <a
+          href={localePath(locale, `/cars/${n.carId}/`)}
+          class="card group relative flex flex-col gap-2 overflow-hidden p-4 hover:border-season"
+        >
+          {cars.get(n.carId)?.image && (
+            <img
+              src={cars.get(n.carId)?.image}
+              alt=""
+              class="news-photo"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+          )}
+          <p class="eyebrow text-season">
+            {kindLabel(n.kind)} · {n.date}
+          </p>
+          <p class="display text-2xl group-hover:text-accent">
+            {cars.get(n.carId)?.model ?? n.carId}
+          </p>
+          <div class="flex flex-wrap items-center gap-2 text-sm">
+            <ClassChip cls={n.cls as never} />
+            {n.surface && (
+              <span class="text-muted">{t(locale, `surface.${n.surface}` as MessageKey)}</span>
+            )}
+            {n.before && (
+              <>
+                {n.before.tier ? (
+                  <TierChip tier={n.before.tier} muted />
+                ) : (
+                  <span class="chip news-chip opacity-60">{n.before.label}</span>
+                )}
+                <span class="text-muted">→</span>
+              </>
+            )}
+            {n.after &&
+              (n.after.tier ? (
+                <TierChip tier={n.after.tier} />
+              ) : (
+                <span class="chip news-chip">{n.after.label}</span>
+              ))}
+          </div>
+          {n.tuners && (
+            <p class="text-xs text-muted">
+              {t(locale, 'card.by')} {n.tuners}
+            </p>
+          )}
+        </a>
+      ))}
+    </div>
+    {history.length > 0 && (
+      <div class="mt-3">
+        <p class="label">{t(locale, 'home.history')}</p>
+        <ul class="mt-1 divide-y divide-border text-xs text-muted">
+          {history.map((n) => (
+            <li class="flex flex-wrap items-center gap-x-2 py-1">
+              <span>{n.date}</span>
+              <a href={localePath(locale, `/cars/${n.carId}/`)} class="text-text hover:text-accent">
+                {cars.get(n.carId)?.model ?? n.carId}
+              </a>
+              <ClassChip cls={n.cls as never} />
+              {n.surface && <span>{t(locale, `surface.${n.surface}` as MessageKey)}</span>}
+              <span class="text-season">{kindLabel(n.kind)}</span>
+              <span>
+                {n.before && n.after
+                  ? `${n.before.label} → ${n.after.label}`
+                  : (n.after?.label ?? n.before?.label ?? '')}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </div>
+)}

@@ -559,3 +559,10 @@ details > summary::-webkit-details-marker {
 .row {
   scroll-margin-top: calc(var(--header-h, 0px) + 7rem);
 }
+
+/* A source's own label on the home news ("Meta", "Strong"…), neutral next to Noa Miyako's tiers. */
+.news-chip {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-2);
+  color: var(--color-text);
+}

@@ -97,8 +97,9 @@ e os guias que o próprio jogo não oferece.
 - **Datas** em cada tune ("atualizada em …") e nas sugestões da playlist.
 - **Novidades por fonte** na página inicial:
   - cada fonte tem o seu bloco, só quando há atualização detectada;
-  - a tabela de Noa Miyako mantém o bloco grande com fotos;
-  - as mudanças usam a escala e as palavras da própria fonte.
+  - **todas as fontes têm o mesmo visual** (2026-11-09): o maior destaque num card grande com a foto do carro e os outros em cards menores, também com foto;
+  - **as mesmas regras de ordem para todas:** últimos 14 dias da fonte; **toda atualização entra, para melhor ou para pior** (subiu, caiu, entrou, saiu, tune nova ou removida); maiores mudanças primeiro (mudança de nível > entrada ou saída da lista > tune atualizada > tune nova ou removida); um card por carro × classe × piso, com a mudança mais recente; as anteriores do mesmo carro ficam num **histórico** em linhas finas, embaixo dos cards da fonte; **sem limite por fonte** (a página inicial pode ficar longa); as fontes vêm da atualização mais recente para a mais antiga;
+  - as mudanças usam a escala e as palavras da própria fonte (tier de Noa Miyako colorido; nível ou nome da tune das outras fontes num selo neutro).
 - **Navegação:** o menu fica fixo no topo e fica translúcido ao rolar. Os filtros da aba Tunes e os atalhos de classe da página Meta ficam fixos logo abaixo dele, como no fhstats.
 - **Página do carro:** a foto fica atrás do nome, esmaecendo em degradê para a esquerda e para baixo.
 
