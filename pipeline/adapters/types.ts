@@ -157,6 +157,17 @@ export interface RawMetaUpdate {
   notes?: string;
 }
 
+/** A car at the top of a Rivals leaderboard (1st or 2nd most used) for a track and class. */
+export interface RawRivalsPick {
+  tab: string;
+  row: number;
+  track: string;
+  surface: Surface;
+  carClass: CarClass;
+  choice: 1 | 2;
+  car: CarRef;
+}
+
 /** Everything an adapter can extract. This object is also the per-source snapshot. */
 export interface AdapterOutput {
   catalog: CatalogCar[];
@@ -167,6 +178,7 @@ export interface AdapterOutput {
   meta: RawMetaEntry[];
   metaUpdates: RawMetaUpdate[];
   carAttributes: RawCarAttribute[];
+  rivals: RawRivalsPick[];
   warnings: string[];
 }
 
@@ -194,6 +206,7 @@ export const emptyOutput = (): AdapterOutput => ({
   meta: [],
   metaUpdates: [],
   carAttributes: [],
+  rivals: [],
   warnings: [],
 });
 
@@ -211,7 +224,8 @@ export const countRecords = (o: AdapterOutput): number =>
   o.playlists.reduce((n, p) => n + p.rows.length, 0) +
   o.meta.length +
   o.metaUpdates.length +
-  o.carAttributes.length;
+  o.carAttributes.length +
+  o.rivals.length;
 
 export function requireTab<K extends TabPayload['kind']>(
   input: AdapterInput,

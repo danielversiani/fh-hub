@@ -31,6 +31,7 @@ import type {
   LapTime,
   MetaRanking,
   PlaylistEvent,
+  RivalsPick,
   PlaylistSeason,
   ReviewItem,
   Tune,
@@ -50,6 +51,8 @@ export interface Dataset {
   lapTimes: LapTime[];
   customEvents: CustomEvent[];
   meta: MetaRanking[];
+  /** Rivals leaderboard top picks per track × class (not used by curation yet). */
+  rivals: RivalsPick[];
   /** News from the meta table's update log (merged with the change log in sync). */
   highlights: Highlight[];
   seasons: PlaylistSeason[];
@@ -196,6 +199,13 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
       if (drivetrain.success && !car.drivetrain) car.drivetrain = drivetrain.data;
       if (attr.image && !car.image) car.image = attr.image;
     }
+  }
+
+  // Rarity confirmed in game by the owner wins over the wiki (data/manual/car-rarity.yaml).
+  for (const [carId, value] of Object.entries(manual.carRarity)) {
+    const car = carById.get(carId);
+    const rarity = Rarity.safeParse(value);
+    if (car && rarity.success) car.rarity = rarity.data;
   }
 
   // --- tunes -------------------------------------------------------------------------------
@@ -419,6 +429,30 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     }
   }
 
+  // --- rivals -------------------------------------------------------------------------------
+  const rivals: RivalsPick[] = [];
+  for (const { source, output } of ordered) {
+    for (const r of output.rivals) {
+      const carId = resolveCar(source.id, r.car);
+      if (!carId) continue;
+      rivals.push({
+        sourceId: source.id,
+        track: cleanText(r.track),
+        surface: r.surface,
+        class: r.carClass,
+        choice: r.choice,
+        carId,
+      });
+    }
+  }
+  rivals.sort(
+    (a, b) =>
+      a.surface.localeCompare(b.surface) ||
+      (CLASS_ORDER.get(a.class) ?? 0) - (CLASS_ORDER.get(b.class) ?? 0) ||
+      a.track.localeCompare(b.track) ||
+      a.choice - b.choice,
+  );
+
   // --- news from the meta table's update tabs ----------------------------------------------
   const highlights: Highlight[] = [];
   for (const { source, output } of ordered) {
@@ -534,6 +568,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     lapTimes,
     customEvents,
     meta,
+    rivals,
     highlights,
     seasons,
     events,

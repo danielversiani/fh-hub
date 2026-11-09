@@ -3,6 +3,7 @@ import { CarClass, Permission, Slug, SourceKind } from './enums';
 
 export const TabRole = z.enum([
   'tunes',
+  'rivals',
   'catalog',
   'attributes',
   'meta',

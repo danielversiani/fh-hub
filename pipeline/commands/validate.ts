@@ -12,6 +12,7 @@ import {
   generatedFile,
   Highlight,
   LapTime,
+  RivalsPick,
   MetaRanking,
   PlaylistEvent,
   PlaylistSeason,
@@ -27,6 +28,7 @@ const GENERATED: [string, z.ZodType][] = [
   ['cars.json', Car],
   ['tuners.json', Tuner],
   ['laptimes.json', LapTime],
+  ['rivals.json', RivalsPick],
   ['custom-events.json', CustomEvent],
   ['sources-status.json', SourceStatus],
   ['tunes/index.json', TuneIndexEntry],
@@ -92,6 +94,9 @@ export function validate(): string[] {
       );
       for (const [name, id] of Object.entries(manual.carAliases)) {
         if (!ids.has(id)) errors.push(`car-aliases.yaml: "${name}" points to unknown car id ${id}`);
+      }
+      for (const id of Object.keys(manual.carRarity)) {
+        if (!ids.has(id)) errors.push(`car-rarity.yaml: unknown car id ${id}`);
       }
     }
   } catch (error) {

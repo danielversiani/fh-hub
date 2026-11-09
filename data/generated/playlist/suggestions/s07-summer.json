@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T00:12:04.793Z",
   "items": [
     {
       "carId": "1984-honda-city-e-ii",
@@ -65,6 +65,26 @@
       "tuneId": "nc-7027e46016"
     },
     {
+      "carId": "1991-mazda-55-mazda-787b",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s07-summer--championship--urban-legend",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        }
+      ],
+      "score": 0.77,
+      "seasonId": "s07-summer",
+      "tuneId": "nc-251d6dda84"
+    },
+    {
       "carId": "1990-alfa-romeo-se-048sp",
       "category": "meta",
       "confidence": 0.8,
@@ -101,31 +121,6 @@
       "score": 0.52,
       "seasonId": "s07-summer",
       "tuneId": "sc-131940042"
-    },
-    {
-      "carId": "2011-lamborghini-sesto-elemento",
-      "category": "meta",
-      "confidence": 0.8,
-      "eventId": "s07-summer--championship--urban-legend",
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t0.5"
-          }
-        },
-        {
-          "key": "reason.sources",
-          "params": {
-            "count": 2
-          }
-        }
-      ],
-      "score": 0.765,
-      "seasonId": "s07-summer",
-      "tuneId": "sc-972419705"
     },
     {
       "carId": "2019-apollo-intensa-emozione",

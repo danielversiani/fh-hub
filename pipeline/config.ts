@@ -24,6 +24,8 @@ export interface ManualData {
   tunerSurfaces: Record<string, string>;
   /** Festival Playlist challenge text (English) → Portuguese. */
   playlistTexts: Record<string, string>;
+  /** Car id → rarity confirmed in game by the owner (wins over the wiki). */
+  carRarity: Record<string, string>;
 }
 
 const TranslationFile = z
@@ -46,6 +48,9 @@ export function loadManual(dir = paths.manual): ManualData {
     trackAliases: fs.existsSync(path.join(dir, 'track-aliases.yaml'))
       ? AliasFile.parse(readYaml(path.join(dir, 'track-aliases.yaml')))
       : {},
+    carRarity: fs.existsSync(path.join(dir, 'car-rarity.yaml'))
+      ? AliasFile.parse(readYaml(path.join(dir, 'car-rarity.yaml')))
+      : {},
     playlistTexts: fs.existsSync(path.join(dir, 'playlist-texts.yaml'))
       ? AliasFile.parse(readYaml(path.join(dir, 'playlist-texts.yaml')))
       : {},
@@ -60,6 +65,7 @@ export function loadManual(dir = paths.manual): ManualData {
 
 export const MANUAL_ALIAS_FILES = [
   'car-aliases.yaml',
+  'car-rarity.yaml',
   'playlist-texts.yaml',
   'track-aliases.yaml',
   'tuner-aliases.yaml',

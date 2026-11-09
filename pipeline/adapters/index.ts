@@ -6,6 +6,7 @@ import { k1zGray } from './k1z-gray';
 import { kleis } from './kleis';
 import { letzeluShirakawa } from './letzelu-shirakawa';
 import { noaMiyako } from './noa-miyako';
+import { rivalsSheet } from './rivals-sheet';
 import type { Adapter } from './types';
 import { whdUrl } from './whd-url';
 
@@ -22,6 +23,7 @@ export const ADAPTERS: Readonly<Record<string, Adapter>> = Object.fromEntries(
     kleis,
     letzeluShirakawa,
     noaMiyako,
+    rivalsSheet,
     whdUrl,
   ].map((a) => [a.id, a]),
 );

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T00:13:14.922Z",
   "items": [
     {
       "buildTags": [
@@ -6312,7 +6312,7 @@
       "drivetrain": "RWD",
       "id": "nc-140463df35",
       "name": "Somewhat Drivable",
-      "score": 0.474,
+      "score": 0.569,
       "sourceIds": [
         "kleis"
       ],
@@ -8860,7 +8860,7 @@
       "drivetrain": "RWD",
       "id": "nc-1bf8b477e5",
       "name": "Powerbuild Biological Specemin",
-      "score": 0.474,
+      "score": 0.525,
       "sourceIds": [
         "kleis"
       ],
@@ -10287,7 +10287,9 @@
       "tunerId": "drx-q3"
     },
     {
-      "buildTags": [],
+      "buildTags": [
+        "powerbuild"
+      ],
       "carId": "2004-honda-52-evasive-motorsports-s2000-wtac",
       "categories": [
         "off-meta"
@@ -10311,9 +10313,10 @@
       "metaRank": 16,
       "name": "Shirakawa WR",
       "role": "handling",
-      "score": 0.554,
+      "score": 0.691,
       "sourceIds": [
-        "kleis"
+        "kleis",
+        "letzelu-shirakawa"
       ],
       "surface": "road",
       "tier": "t1",
@@ -14805,7 +14808,7 @@
       "drivetrain": "AWD",
       "id": "nc-2ee6f27b89",
       "name": "Road Allround 48.7 Shira Clean",
-      "score": 0.814,
+      "score": 0.769,
       "sourceIds": [
         "kleis",
         "letzelu-shirakawa"
@@ -33190,7 +33193,7 @@
       "drivetrain": "AWD",
       "id": "nc-6a5fb941be",
       "name": "S2 road allround",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -36815,7 +36818,7 @@
       "drivetrain": "AWD",
       "id": "nc-762e64e548",
       "name": "S2 Road Circuit",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -36877,7 +36880,7 @@
       "drivetrain": "RWD",
       "id": "nc-765d0e16e6",
       "name": "Technological Biological Demon",
-      "score": 0.474,
+      "score": 0.525,
       "sourceIds": [
         "kleis"
       ],
@@ -42334,7 +42337,7 @@
       "drivetrain": "AWD",
       "id": "nc-88dee81d4b",
       "name": "S2 Road Strong",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -44897,7 +44900,7 @@
       "drivetrain": "AWD",
       "id": "nc-8fc9f2e518",
       "name": "RV12 Road Allround T1 Shirakawa 49.5 A/M",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -54532,7 +54535,7 @@
       "drivetrain": "AWD",
       "id": "nc-aef0069a21",
       "name": "S2 Full Grip",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -55460,7 +55463,7 @@
       "drivetrain": "AWD",
       "id": "nc-b1a18174c2",
       "name": "S2 Road All-Around",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -56751,7 +56754,7 @@
       "id": "nc-b5220218a6",
       "metaRank": 16,
       "name": "shirakawa",
-      "score": 0.505,
+      "score": 0.552,
       "sourceIds": [
         "kleis"
       ],
@@ -59298,6 +59301,27 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "drivetrain-swap",
+        "powerbuild"
+      ],
+      "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
+      "categories": [],
+      "class": "S2",
+      "drivetrain": "RWD",
+      "id": "nc-bc778043ab",
+      "name": "48.3 Shira (TCS Recommended)",
+      "score": 0.554,
+      "sourceIds": [
+        "letzelu-shirakawa"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "trviis"
     },
     {
       "buildTags": [],
@@ -71229,7 +71253,7 @@
       "drivetrain": "AWD",
       "id": "nc-e3230c9733",
       "name": "S2 Class - Road Racing (High 48's Shirakawa Circuit)",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -74034,7 +74058,7 @@
       "drivetrain": "AWD",
       "id": "nc-ebc3c9d077",
       "name": "High Tier S2 Road",
-      "score": 0.67,
+      "score": 0.635,
       "sourceIds": [
         "kleis"
       ],
@@ -80472,7 +80496,7 @@
       "drivetrain": "AWD",
       "id": "sc-148023520",
       "name": "prime LogikJ weight",
-      "score": 0.416,
+      "score": 0.494,
       "shareCode": "148023520",
       "sourceIds": [
         "k1z-gray"
@@ -80894,7 +80918,7 @@
       "id": "sc-482208585",
       "metaRank": 16,
       "name": "AWD Handling",
-      "score": 0.48,
+      "score": 0.531,
       "shareCode": "482208585",
       "sourceIds": [
         "k1z-gray"
@@ -81331,7 +81355,7 @@
       "drivetrain": "AWD",
       "id": "sc-873070429",
       "name": "AWD Grip",
-      "score": 0.64,
+      "score": 0.604,
       "shareCode": "873070429",
       "sourceIds": [
         "k1z-gray"

@@ -138,6 +138,21 @@ describe('fandom-images (Forza Wiki)', () => {
   });
 });
 
+const out_rivals = await fixtureOutput('rivals-meta');
+describe('rivals-meta (Rivals leaderboard sheet)', () => {
+  const picks = out_rivals.rivals;
+  it('reads every surface tab, first and second choice', () => {
+    expect(new Set(picks.map((p) => p.surface))).toEqual(
+      new Set(['road', 'dirt', 'cross-country']),
+    );
+    expect(new Set(picks.map((p) => p.choice))).toEqual(new Set([1, 2]));
+  });
+  it('reads a known row', () =>
+    expect(
+      picks.find((p) => p.track === 'Highway Circuit' && p.carClass === 'R' && p.choice === 1),
+    ).toMatchObject({ surface: 'road', car: { text: 'Lotus Evija FE' } }));
+});
+
 const out_fandom_drivetrain = await fixtureOutput('fandom-drivetrain');
 describe('fandom-drivetrain (Forza Wiki)', () => {
   const attrs = out_fandom_drivetrain.carAttributes;

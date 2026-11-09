@@ -11,6 +11,7 @@
 | `forza-cars` | forza.net/fh6cars | JSON oficial | **Roster oficial: 667 carros** (lista mestre) | ✅ `_payload.json` | not-required | ✅ Fase 0 |
 | `fandom-rarity` | Forza Wiki (Fandom) | API MediaWiki | **Raridade** de 641 carros (Comum, Raro, Épico, Lendário, Forza Edition) | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
 | `fandom-drivetrain` | Forza Wiki (Fandom) | API MediaWiki | **Tração de fábrica** (FWD, RWD, AWD) de 666 carros | ✅ API pública | not-required (CC BY-SA, com crédito) | ✅ Fase 1 |
+| `rivals-meta` | FH6 Rivals Meta Sheet (comunidade) | Google Sheets (CSV) | Carro **mais usado (1º) e segundo (2º)** no topo de cada ranking de Rivais, por pista e classe, em asfalto, terra e cross country | ✅ CSV | prelaunch (autor a identificar) | ✅ dados lidos; uso no site em discussão |
 | `fandom-images` | Forza Wiki (Fandom) | API MediaWiki | **Foto** de 666 carros (captura de tela do FH6) | ✅ API pública | not-required (regras de conteúdo da Microsoft, [ADR-0013](adr/0013-miniaturas-dos-carros.md)) | ✅ Fase 1 |
 | `gbr-ozzy` (desligada: o autor pediu para ficar de fora, 2026-11-08) | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | pending (prioridade) | ✅ Fase 0 |
 | `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | pending | ✅ Fase 0 |
@@ -56,7 +57,15 @@ O registro executável dessas fontes é `data/sources.yaml`.
 - **Cobertura (2026-11-08):** 641 dos 667 carros. Os carros sem raridade conhecida **não** entram em provas com restrição de raridade.
 - **Ignorados:** veículos de tráfego (`… Traffic`, `Playground …`) e variantes de evento (`'Touge Edition'`, `'Initial Drive'`, `'RakuRaku Express'`), que não estão no roster.
 - **Por que não outras fontes:** codmunity/forzacity têm a raridade, mas são sites concorrentes, sem licença de reuso. A aba "Car Collection" do Ozzy só tem o logo da marca na coluna BADGE.
-- **Lacunas conhecidas:** 26 carros não estão em nenhuma categoria de raridade da wiki (ex.: Mazda 787B, Porsche 959, Ford GT 2005). Eles ficam fora das provas com restrição de raridade até a wiki ser completada. Qualquer pessoa pode completar a wiki; a próxima sincronização pega a correção.
+- **Lacunas conhecidas:** 26 carros não estão em nenhuma categoria de raridade da wiki (ex.: Mazda 787B, Porsche 959, Ford GT 2005). O dono confirmou no jogo: são carros de tesouro/celeiro, todos Lendários (e o BRZ Forza Edition é Forza Edition). Ficam em `data/manual/car-rarity.yaml`, que vale mais que a wiki.
+
+### `rivals-meta`: carros do topo dos rankings de Rivais
+- **Por quê:** Rivais (contra o relógio) é uma métrica importante para o dono: mostra quais carros a comunidade usa para os melhores tempos de cada pista. O fh6meta usa a mesma planilha.
+- **Fonte:** [FH6 Rivals Meta Sheet](https://docs.google.com/spreadsheets/d/1mHbd09yLGEy3gAlplREnrIbk6xHcLieExw--CuYp0e8), abas "Road Race", "Dirt" e "Cross Country". Cada linha é uma pista; para cada classe há o 1º e o 2º carro ("R-Class", "R-Class 2nd Choice").
+- **Por que não direto do jogo:** o Forza não tem API pública de rankings. Acessar os servidores com a conta de um jogador viola os termos da Microsoft e arrisca banir a conta (discutido com o dono em 2026-11-08).
+- **Apelidos:** os carros vêm com apelidos ("MX-5 FE 1994", "Mit. Minicab TA"), traduzidos em `data/manual/car-aliases.yaml`. Três ficam sem correspondência por serem ambíguos: "Acura Integra", "Ford Mustang 2024" e "Subaru BRZ".
+- **Atenção:** quando foi incluída (2026-11-08), as abas diziam "Last updated: June 9–12th 2026"; os dados podem estar desatualizados.
+- **Uso:** os dados vão para `data/generated/rivals.json`; como usá-los no site (selo, sugestões, página) está em discussão com o dono.
 
 ### `fandom-images`: fotos dos carros (Forza Wiki)
 - **Por quê:** o dono quer a miniatura de cada carro na lista e na página do carro ([ADR-0013](adr/0013-miniaturas-dos-carros.md)).

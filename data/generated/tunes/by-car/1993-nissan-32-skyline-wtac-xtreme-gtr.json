@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T00:13:14.922Z",
   "items": [
     {
       "buildTags": [
@@ -8,7 +8,7 @@
       "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
       "categories": [],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.65,
       "drivetrain": "RWD",
       "id": "nc-140463df35",
       "name": "Somewhat Drivable",
@@ -30,7 +30,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.569,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
@@ -43,7 +43,7 @@
       "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
       "categories": [],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.65,
       "drivetrain": "RWD",
       "id": "nc-1bf8b477e5",
       "name": "Powerbuild Biological Specemin",
@@ -65,7 +65,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.525,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
@@ -76,7 +76,7 @@
       "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
       "categories": [],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.65,
       "drivetrain": "RWD",
       "id": "nc-765d0e16e6",
       "name": "Technological Biological Demon",
@@ -98,7 +98,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.525,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
@@ -171,11 +171,54 @@
       "tunerId": "dalwa-xii"
     },
     {
+      "buildTags": [
+        "drivetrain-swap",
+        "powerbuild"
+      ],
+      "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.65,
+      "drivetrain": "RWD",
+      "engine": "Stock",
+      "id": "nc-bc778043ab",
+      "name": "48.3 Shira (TCS Recommended)",
+      "notes": "RWD Swap and 295mm rears, watch out at low speed",
+      "observations": [
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Powerbuild",
+            "Car": "#32 Skyline WTAC",
+            "Difficulty": "Hard",
+            "Driver": "trviis",
+            "Drivetrain": "RWD",
+            "Engine": "Stock",
+            "Laptime": "0:48.351",
+            "Notes": "RWD Swap and 295mm rears, watch out at low speed",
+            "Tier": "Offmeta < 49.0",
+            "Tires": "Drift",
+            "Tune": "trviis",
+            "Tune Name": "48.3 Shira (TCS Recommended)"
+          },
+          "row": 8,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s2-900"
+        }
+      ],
+      "score": 0.554,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "drift",
+      "tunerId": "trviis"
+    },
+    {
       "buildTags": [],
       "carId": "1993-nissan-32-skyline-wtac-xtreme-gtr",
       "categories": [],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.65,
       "drivetrain": "AWD",
       "engine": "Stock",
       "id": "sc-148023520",
@@ -200,7 +243,7 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.416,
+      "score": 0.494,
       "shareCode": "148023520",
       "surface": "road",
       "tier": "t3",

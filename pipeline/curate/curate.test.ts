@@ -77,6 +77,7 @@ const dataset: Dataset = {
   lapTimes: [],
   customEvents: [],
   meta: [ranking('fast', 'meta-plus', ['alice']), ranking('ok', 't1', [])],
+  rivals: [],
   highlights: [],
   seasons: [
     {

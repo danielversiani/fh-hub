@@ -156,6 +156,11 @@ erDiagram
   notesI18n?: Localized /* notas traduzidas; ausente enquanto não houver tradução */ }
 ```
 
+### RivalsPick
+```ts
+{ sourceId: string; track: string; surface: Surface; class: CarClass; choice: 1 | 2; carId: string }  // 1º/2º carro mais usado no topo do ranking de Rivais
+```
+
 ### LapTime
 ```ts
 { sourceId: string; track: string; class: CarClass; carId: string; timeMs: number; driver: string;

@@ -101,6 +101,7 @@ export function writeDataset(
   writeEnvelope(path.join(out, 'cars.json'), dataset.cars, now, report);
   writeEnvelope(path.join(out, 'tuners.json'), dataset.tuners, now, report);
   writeEnvelope(path.join(out, 'laptimes.json'), dataset.lapTimes, now, report);
+  writeEnvelope(path.join(out, 'rivals.json'), dataset.rivals, now, report);
   writeEnvelope(path.join(out, 'custom-events.json'), dataset.customEvents, now, report);
   writeEnvelope(path.join(out, 'sources-status.json'), statuses, now, report);
   writeEnvelope(

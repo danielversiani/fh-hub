@@ -145,6 +145,24 @@ sources:
     active: true
     weight: 0.7
 
+  - id: rivals-meta
+    name: FH6 Rivals Meta Sheet
+    kind: google-sheet
+    url: https://docs.google.com/spreadsheets/d/1mHbd09yLGEy3gAlplREnrIbk6xHcLieExw--CuYp0e8
+    docId: 1mHbd09yLGEy3gAlplREnrIbk6xHcLieExw--CuYp0e8
+    fetcher: google-csv
+    adapter: rivals-sheet
+    tabs:
+      - { id: road, role: rivals, gid: '1193692103' }
+      - { id: dirt, role: rivals, gid: '403670286' }
+      - { id: cross-country, role: rivals, gid: '1922376485' }
+    permission: prelaunch
+    active: true
+    weight: 0.8
+    notes: >-
+      Community sheet of the most used cars at the top of each Rivals leaderboard (also used by
+      fh6meta.com). Author still to be identified. Tabs said "Last updated June 2026" when added.
+
   - id: letzelu-shirakawa
     name: Letz' Shirakawa Tune & Hotlap Sheet
     kind: google-sheet

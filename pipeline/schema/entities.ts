@@ -195,6 +195,20 @@ export const CustomEvent = z.object({
 });
 export type CustomEvent = z.infer<typeof CustomEvent>;
 
+/**
+ * A car at the top of a Rivals leaderboard (community "Rivals Meta" sheet): for a track and a
+ * class, the most used car (choice 1) and the runner-up (choice 2).
+ */
+export const RivalsPick = z.object({
+  sourceId: Slug,
+  track: z.string(),
+  surface: Surface,
+  class: CarClass,
+  choice: z.union([z.literal(1), z.literal(2)]),
+  carId: Slug,
+});
+export type RivalsPick = z.infer<typeof RivalsPick>;
+
 /** One car in a meta ranking for a class × surface (e.g. Noa Miyako's "S1 800 Road"). */
 export const MetaRanking = z.object({
   sourceId: Slug,

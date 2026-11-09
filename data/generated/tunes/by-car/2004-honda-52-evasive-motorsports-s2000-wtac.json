@@ -1,17 +1,20 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T00:13:14.922Z",
   "items": [
     {
-      "buildTags": [],
+      "buildTags": [
+        "powerbuild"
+      ],
       "carId": "2004-honda-52-evasive-motorsports-s2000-wtac",
       "categories": [
         "off-meta"
       ],
       "class": "S2",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "credited": true,
       "difficulty": "slightly-hard",
       "drivetrain": "RWD",
+      "engine": "Stock",
       "id": "nc-20ad0923e8",
       "lapRefs": [
         {
@@ -26,6 +29,7 @@
       },
       "metaRank": 16,
       "name": "Shirakawa WR",
+      "notes": "carefull at low speed, planted at mid and high speed",
       "observations": [
         {
           "raw": {
@@ -42,10 +46,30 @@
           "row": 1724,
           "sourceId": "kleis",
           "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Powerbuild",
+            "Car": "#52 S2000 WTAC",
+            "Difficulty": "Medium",
+            "Driver": "LetzeLU",
+            "Drivetrain": "RWD",
+            "Engine": "Stock",
+            "Laptime": "0:48.260",
+            "Notes": "carefull at low speed, planted at mid and high speed",
+            "Tier": "Offmeta < 49.0",
+            "Tires": "Drift",
+            "Tune": "LetzeLU",
+            "Tune Name": "Shirakawa WR"
+          },
+          "row": 7,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s2-900"
         }
       ],
       "role": "handling",
-      "score": 0.554,
+      "score": 0.691,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -59,7 +83,7 @@
         "off-meta"
       ],
       "class": "S2",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "drivetrain": "RWD",
       "id": "nc-b5220218a6",
       "metaRank": 16,
@@ -82,7 +106,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.505,
+      "score": 0.552,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -95,7 +119,7 @@
         "off-meta"
       ],
       "class": "S2",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "drivetrain": "AWD",
       "engine": "Stock",
       "id": "sc-482208585",
@@ -121,7 +145,7 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.48,
+      "score": 0.531,
       "shareCode": "482208585",
       "surface": "road",
       "tier": "t1",
