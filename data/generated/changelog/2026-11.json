@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T03:28:16.105Z",
+  "generatedAt": "2026-11-09T08:00:15.952Z",
   "items": [
     {
       "after": "32 Narai",
@@ -51039,6 +51039,141 @@
       "kind": "added",
       "sourceId": "noa-miyako",
       "surface": "dirt"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-09T08:00:15.952Z",
+      "before": "t1",
+      "carId": "1965-toyota-sports-800",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1965-toyota-sports-800|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-09T08:00:15.952Z",
+      "before": "t1.5",
+      "carId": "1991-gmc-syclone",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|1991-gmc-syclone|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-09T08:00:15.952Z",
+      "before": "t1.5",
+      "carId": "2009-audi-r8-lms",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2009-audi-r8-lms|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-09T08:00:15.952Z",
+      "before": "t1.5",
+      "carId": "2010-lamborghini-murcielago-lp-670-4-sv",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2010-lamborghini-murcielago-lp-670-4-sv|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-09T08:00:15.952Z",
+      "before": "t1.5",
+      "carId": "2018-porsche-cayenne-turbo",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2018-porsche-cayenne-turbo|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road RWD",
+      "at": "2026-11-09T08:00:15.952Z",
+      "carId": "1965-toyota-sports-800",
+      "class": "B",
+      "entity": {
+        "id": "nc-1c2d007d59",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-09T08:00:15.952Z",
+      "before": "A road AWD",
+      "carId": "2010-lamborghini-murcielago-lp-670-4-sv",
+      "class": "A",
+      "entity": {
+        "id": "nc-28008b3150",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-09T08:00:15.952Z",
+      "before": "A road AWD",
+      "carId": "2009-audi-r8-lms",
+      "class": "A",
+      "entity": {
+        "id": "nc-5480ed2326",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "A road AWD",
+      "at": "2026-11-09T08:00:15.952Z",
+      "carId": "2010-lamborghini-murcielago-lp-670-4-sv",
+      "class": "A",
+      "entity": {
+        "id": "nc-adbbe43b43",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "32 Narai",
+      "at": "2026-11-09T08:00:15.952Z",
+      "carId": "1991-mazda-55-mazda-787b",
+      "class": "R",
+      "entity": {
+        "id": "nc-b8625ce115",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
     }
   ],
   "schemaVersion": 1

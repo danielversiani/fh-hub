@@ -1,11 +1,53 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T08:00:15.952Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1965-toyota-sports-800",
       "categories": [
-        "off-meta"
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-1c2d007d59",
+      "lapRefs": [
+        {
+          "time": "1:04.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 24,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 51,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "shinnosuke"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-toyota-sports-800",
+      "categories": [
+        "meta"
       ],
       "class": "B",
       "confidence": 0.8,
@@ -14,20 +56,31 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-55ae7d1ebc",
-      "metaRank": 69,
+      "lapRefs": [
+        {
+          "time": "1:04.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 24,
       "name": "B road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 142,
+          "row": 51,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
       ],
       "role": "power",
-      "score": 0.488,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "lnvrtebrate"
