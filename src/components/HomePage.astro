@@ -3,7 +3,6 @@ import type { Highlight } from '../../pipeline/schema/entities';
 import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
 import { ClassChip, TierChip } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
-import DonateBox from './DonateBox.astro';
 import { currentSeason, isPreview, loadEvents, loadHighlights, maps } from '../lib/data';
 import { eventTypeLabel, formatReward, requirementText, seasonEndsAt } from '../lib/playlist';
 import { TIER_LABELS } from '../lib/ui';
@@ -218,7 +217,4 @@ const tunerNames = (h: Highlight) =>
       }
     }
   </script>
-  <div id="apoie" class="mt-16">
-    <DonateBox locale={locale} />
-  </div>
 </Base>

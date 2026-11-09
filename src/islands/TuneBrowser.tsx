@@ -189,7 +189,17 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
               const isOpen = open.has(car.id);
               const obtain = obtainText(car.obtain, labels);
               return (
-                <li class="row" data-open={isOpen}>
+                <li class="row relative overflow-hidden" data-open={isOpen}>
+                  {car.image && (
+                    <img
+                      src={car.image}
+                      alt=""
+                      class="row-photo"
+                      loading="lazy"
+                      decoding="async"
+                      referrerpolicy="no-referrer"
+                    />
+                  )}
                   <button
                     type="button"
                     class="grid w-full grid-cols-[3.25rem_minmax(0,1fr)_auto] items-center gap-x-3 px-3 py-2.5 text-left sm:px-4"

@@ -70,7 +70,7 @@ const stats = loadStats();
           })}
         </div>
         <a
-          href={`${localePath(locale, '/')}#apoie`}
+          href={localePath(locale, '/apoie/')}
           class="eyebrow ml-auto text-sm text-accent hover:text-text"
         >
           ♥ {t(locale, 'nav.donate')}
@@ -128,6 +128,9 @@ const stats = loadStats();
         </a>
         <a href={localePath(locale, '/legal/')} class="hover:text-text">
           {t(locale, 'nav.legal')}
+        </a>
+        <a href={localePath(locale, '/apoie/')} class="hover:text-text">
+          {t(locale, 'footer.support')}
         </a>
       </p>
     </footer>

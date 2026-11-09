@@ -362,3 +362,20 @@ details > summary::-webkit-details-marker {
     var(--color-surface);
   border-color: color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
 }
+
+/* Car list rows: the car's photo faded on the right of the collapsed row (owner's request). */
+.row-photo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 3.25rem;
+  width: min(40%, 15rem);
+  object-fit: cover;
+  object-position: center 60%;
+  opacity: 0.22;
+  mask-image: linear-gradient(to left, black 35%, transparent);
+  pointer-events: none;
+}
+.row-photo ~ * {
+  position: relative;
+}
