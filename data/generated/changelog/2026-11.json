@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T03:28:16.105Z",
   "items": [
     {
       "after": "32 Narai",
@@ -51000,6 +51000,45 @@
       "kind": "removed",
       "sourceId": "kleis",
       "surface": "road"
+    },
+    {
+      "at": "2026-11-09T03:28:16.105Z",
+      "before": "S1 dirt AWD",
+      "carId": "2004-saleen-s7",
+      "class": "S1",
+      "entity": {
+        "id": "nc-a0330c5877",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "at": "2026-11-09T03:28:16.105Z",
+      "before": "S1 dirt AWD",
+      "carId": "2018-deberti-ford-mustang-gt",
+      "class": "S1",
+      "entity": {
+        "id": "nc-ccfeb9c7c9",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "S1 dirt AWD",
+      "at": "2026-11-09T03:28:16.105Z",
+      "carId": "2004-saleen-s7",
+      "class": "S1",
+      "entity": {
+        "id": "nc-f15233434e",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
     }
   ],
   "schemaVersion": 1

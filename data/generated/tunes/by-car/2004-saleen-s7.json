@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T03:28:16.105Z",
   "items": [
     {
       "buildTags": [],
@@ -110,37 +110,6 @@
       "credited": true,
       "difficulty": "normal",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a0330c5877",
-      "metaRank": 16,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 35,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "power",
-      "score": 0.648,
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rian"
-    },
-    {
-      "buildTags": [],
-      "carId": "2004-saleen-s7",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
       "id": "nc-e43fb63942",
       "metaRank": 16,
       "name": "S1 Dirt All-Around (55.6 Sunflower)",
@@ -169,6 +138,37 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-saleen-s7",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f15233434e",
+      "metaRank": 16,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 35,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
     }
   ],
   "schemaVersion": 1

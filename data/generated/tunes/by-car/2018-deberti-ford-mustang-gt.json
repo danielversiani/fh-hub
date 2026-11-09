@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-09T03:28:16.105Z",
   "items": [
     {
       "buildTags": [],
@@ -288,8 +288,21 @@
       ],
       "class": "S1",
       "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "nc-c2b15d34e0",
+      "lapRefs": [
+        {
+          "time": "50.8",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "石部50.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
       "metaRank": 20,
       "name": "S1 Dirt (50.8 Sekibe)",
       "observations": [
@@ -310,53 +323,13 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-ccfeb9c7c9",
-      "lapRefs": [
-        {
-          "time": "50.8",
-          "track": "Sekibe"
-        }
-      ],
-      "metaNotes": "石部50.8",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 20,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 44,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
       "role": "allround",
       "score": 0.638,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
       "tires": "offroad",
-      "tunerId": "sr1-rian"
+      "tunerId": "sr1-rain"
     }
   ],
   "schemaVersion": 1

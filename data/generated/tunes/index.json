@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:42:28.646Z",
+  "generatedAt": "2026-11-09T03:28:16.105Z",
   "items": [
     {
       "buildTags": [
@@ -50049,31 +50049,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2004-saleen-s7",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a0330c5877",
-      "metaRank": 16,
-      "name": "S1 dirt AWD",
-      "role": "power",
-      "score": 0.648,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "dirt",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rian"
-    },
-    {
-      "buildTags": [],
       "carId": "2018-ktm-x-bow-gt4",
       "categories": [],
       "class": "S1",
@@ -61464,17 +61439,32 @@
         "off-meta"
       ],
       "class": "S1",
+      "credited": true,
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "nc-c2b15d34e0",
+      "lapRefs": [
+        {
+          "time": "50.8",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "石部50.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
       "metaRank": 20,
       "name": "S1 Dirt (50.8 Sekibe)",
-      "score": 0.59,
+      "role": "allround",
+      "score": 0.638,
       "sourceIds": [
         "kleis"
       ],
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "sr1-rain"
     },
     {
@@ -64764,42 +64754,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-deberti-ford-mustang-gt",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-ccfeb9c7c9",
-      "lapRefs": [
-        {
-          "time": "50.8",
-          "track": "Sekibe"
-        }
-      ],
-      "metaNotes": "石部50.8",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 20,
-      "name": "S1 dirt AWD",
-      "role": "allround",
-      "score": 0.638,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "dirt",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "sr1-rian"
     },
     {
       "buildTags": [],
@@ -75865,6 +75819,31 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "osm-cinnabar"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-saleen-s7",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f15233434e",
+      "metaRank": 16,
+      "name": "S1 dirt AWD",
+      "role": "power",
+      "score": 0.648,
+      "sourceIds": [
+        "noa-miyako"
+      ],
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
