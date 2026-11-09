@@ -63,7 +63,7 @@ O registro executável dessas fontes é `data/sources.yaml`.
 - **Por quê:** Rivais (contra o relógio) é uma métrica importante para o dono: mostra quais carros a comunidade usa para os melhores tempos de cada pista. O fh6meta usa a mesma planilha.
 - **Fonte:** [FH6 Rivals Meta Sheet](https://docs.google.com/spreadsheets/d/1mHbd09yLGEy3gAlplREnrIbk6xHcLieExw--CuYp0e8), abas "Road Race", "Dirt" e "Cross Country". Cada linha é uma pista; para cada classe há o 1º e o 2º carro ("R-Class", "R-Class 2nd Choice").
 - **Por que não direto do jogo:** o Forza não tem API pública de rankings. Acessar os servidores com a conta de um jogador viola os termos da Microsoft e arrisca banir a conta (discutido com o dono em 2026-11-08).
-- **Apelidos:** os carros vêm com apelidos ("MX-5 FE 1994", "Mit. Minicab TA"), traduzidos em `data/manual/car-aliases.yaml`. Três ficam sem correspondência por serem ambíguos: "Acura Integra", "Ford Mustang 2024" e "Subaru BRZ".
+- **Apelidos:** os carros vêm com apelidos ("MX-5 FE 1994", "Mit. Minicab TA"), traduzidos em `data/manual/car-aliases.yaml`. "Acura Integra" = 2001 Type R e "Ford Mustang 2024" = GT (dono, 2026-11-08); "Subaru BRZ" (2013 ou 2022) segue sem correspondência.
 - **Atenção:** quando foi incluída (2026-11-08), as abas diziam "Last updated: June 9–12th 2026"; os dados podem estar desatualizados.
 - **Uso:** os dados vão para `data/generated/rivals.json`; como usá-los no site (selo, sugestões, página) está em discussão com o dono.
 
