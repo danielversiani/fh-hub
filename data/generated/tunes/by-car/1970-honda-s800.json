@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-10T17:52:47.194Z",
   "items": [
     {
       "buildTags": [],
@@ -40,13 +40,13 @@
       ],
       "carId": "1970-honda-s800",
       "categories": [
-        "off-meta"
+        "meta"
       ],
       "class": "A",
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-16536352e4",
-      "metaRank": 69,
+      "metaRank": 22,
       "name": "Amazing Meta Powerbuild Best Grip All map WR for BKG XEN",
       "observations": [
         {
@@ -66,9 +66,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.477,
+      "score": 0.522,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "cirno1x"
     },
@@ -198,6 +198,48 @@
     {
       "buildTags": [],
       "carId": "1970-honda-s800",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-4bc0e0a501",
+      "lapRefs": [
+        {
+          "time": "1:04.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 18,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 39,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "msr-pyke"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-honda-s800",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -234,15 +276,13 @@
       ],
       "carId": "1970-honda-s800",
       "categories": [
-        "off-meta"
+        "meta"
       ],
       "class": "A",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
       "drivetrain": "RWD",
       "id": "nc-bd89eb4fc6",
-      "metaRank": 69,
+      "metaRank": 22,
       "name": "A Road Meta Powerbuild V1.1",
       "observations": [
         {
@@ -262,13 +302,53 @@
           "tab": "fh6"
         }
       ],
-      "role": "power",
-      "score": 0.526,
+      "score": 0.522,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-honda-s800",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-c1e77ea013",
+      "lapRefs": [
+        {
+          "time": "59.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 22,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 47,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "drift",
-      "tunerId": "noa-miyako"
+      "tunerId": "msr-pyke"
     }
   ],
   "schemaVersion": 1
