@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T17:52:47.194Z",
+  "generatedAt": "2026-11-10T23:25:08.523Z",
   "items": [
     {
       "buildTags": [
@@ -43,11 +43,14 @@
     {
       "buildTags": [],
       "carId": "1996-toyota-starlet-glanza-v",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-0f356ef27a",
+      "metaRank": 17,
       "name": "A Dirt Not Bad",
       "observations": [
         {
@@ -67,10 +70,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.588,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "rocklxd"
     },
     {
@@ -252,12 +255,12 @@
         "en": "The best high-power FWD on rally tires; can fight for the win. Easier throttle control than on drift tires, but a little slower in corners.",
         "pt-br": "O melhor tração dianteira potente com pneus de rali; dá para brigar. Mais fácil de controlar no acelerador que com pneus de drift, mas um pouco mais lento nas curvas."
       },
-      "metaRank": 102,
+      "metaRank": 103,
       "name": "A road FWD",
       "observations": [
         {
           "raw": {},
-          "row": 208,
+          "row": 210,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }
@@ -269,6 +272,37 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-57be084e76",
+      "metaRank": 17,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [
@@ -437,11 +471,14 @@
     {
       "buildTags": [],
       "carId": "1996-toyota-starlet-glanza-v",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-ee176b2d6d",
+      "metaRank": 17,
       "name": "B Dirt",
       "observations": [
         {
@@ -461,11 +498,42 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.588,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1996-toyota-starlet-glanza-v",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "normal",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f3168954e9",
+      "metaRank": 17,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T17:52:47.194Z",
+  "generatedAt": "2026-11-10T23:25:08.523Z",
   "items": [
     {
       "after": "32 Narai",
@@ -51320,6 +51320,85 @@
       "kind": "added",
       "sourceId": "noa-miyako",
       "surface": "road"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-10T23:25:08.523Z",
+      "carId": "1996-toyota-starlet-glanza-v",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|1996-toyota-starlet-glanza-v|A|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-10T23:25:08.523Z",
+      "carId": "1996-toyota-starlet-glanza-v",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1996-toyota-starlet-glanza-v|B|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-10T23:25:08.523Z",
+      "before": "t1.5",
+      "carId": "2010-lexus-lfa",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2010-lexus-lfa|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "S1 dirt AWD",
+      "at": "2026-11-10T23:25:08.523Z",
+      "carId": "1993-schuppan-962cr",
+      "class": "S1",
+      "entity": {
+        "id": "nc-122de11122",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "A dirt AWD",
+      "at": "2026-11-10T23:25:08.523Z",
+      "carId": "1996-toyota-starlet-glanza-v",
+      "class": "A",
+      "entity": {
+        "id": "nc-57be084e76",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "B dirt AWD",
+      "at": "2026-11-10T23:25:08.523Z",
+      "carId": "1996-toyota-starlet-glanza-v",
+      "class": "B",
+      "entity": {
+        "id": "nc-f3168954e9",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
     }
   ],
   "schemaVersion": 1

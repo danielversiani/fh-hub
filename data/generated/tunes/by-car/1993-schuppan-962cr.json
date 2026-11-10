@@ -1,6 +1,37 @@
 {
-  "generatedAt": "2026-11-10T17:52:47.194Z",
+  "generatedAt": "2026-11-10T23:25:08.523Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1993-schuppan-962cr",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-122de11122",
+      "metaRank": 24,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 52,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
     {
       "buildTags": [],
       "carId": "1993-schuppan-962cr",
@@ -307,21 +338,6 @@
       "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "sc-117749041",
-      "lapRefs": [
-        {
-          "time": "1:01.7",
-          "track": "Ine"
-        },
-        {
-          "time": "2:52.772",
-          "track": "Nukabira"
-        }
-      ],
-      "metaNotes": "伊根01.7 糠平2:52.772 低速弯推头 操控优秀",
-      "metaNotesI18n": {
-        "en": "Understeers in slow corners; excellent handling overall.",
-        "pt-br": "Sai de frente em curvas lentas; ótimo nas curvas no geral."
-      },
       "metaRank": 24,
       "name": "4.0 Dirt Full Aero Grip V1.2",
       "observations": [
