@@ -172,7 +172,7 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
     <div>
       <input
         type="search"
-        class="w-full rounded border border-border bg-surface px-4 py-2.5"
+        class="w-full rounded-xs border border-border bg-surface px-4 py-2.5"
         placeholder={labels.search}
         value={query}
         onInput={(e) => {

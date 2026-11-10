@@ -203,9 +203,9 @@ const tiles = season
 ---
 
 <Base locale={locale} path="/">
-  <section class="manifesto">
-    <p class="eyebrow text-season">{t(locale, 'home.eyebrow')}</p>
-    <h1 class="display mt-2 max-w-4xl text-4xl sm:text-6xl">{t(locale, 'home.title')}</h1>
+  {/* data-stop: boards laid along the route in track mode (src/world/route.ts). */}
+  <section class="manifesto" data-stop="hero">
+    <h1 class="display max-w-4xl text-4xl sm:text-6xl">{t(locale, 'home.title')}</h1>
     <p class="mt-4 max-w-2xl text-lg">{t(locale, 'home.lead')}</p>
     <a href={localePath(locale, '/tunes/')} class="btn-accent mt-6">
       {t(locale, 'home.cta')} →
@@ -213,15 +213,21 @@ const tiles = season
   </section>
 
   <section class="mt-16">
-    <h2 class="display text-4xl sm:text-5xl">{t(locale, 'home.listsTitle')}</h2>
-    <p class="mt-2 max-w-2xl text-muted">{t(locale, 'home.listsLead')}</p>
+    {/* data-cap: in track mode, the fixed header above the tower (src/world/route.ts). */}
+    <div data-cap="news">
+      <h2 class="display text-4xl sm:text-5xl">{t(locale, 'home.listsTitle')}</h2>
+      <p class="mt-2 max-w-2xl text-muted">{t(locale, 'home.listsLead')}</p>
+    </div>
 
     {blocks.length === 0 ? (
-      <p class="mt-8 text-muted">{t(locale, 'home.noHighlights')}</p>
+      <p class="mt-8 text-muted" data-stop="head">
+        {t(locale, 'home.noHighlights')}
+      </p>
     ) : (
       blocks.map((b) => (
         <SourceNews
           locale={locale}
+          id={b.id}
           title={SHORT[b.id] ?? b.status!.name}
           url={b.status!.url}
           checked={b.status!.lastChangedAt ? fmt(b.status!.lastChangedAt) : undefined}
@@ -234,7 +240,7 @@ const tiles = season
 
   {season && (
     <section class="mt-16">
-      <div class="flex flex-wrap items-end justify-between gap-3">
+      <div class="flex flex-wrap items-end justify-between gap-3" data-cap="playlist">
         <div>
           <p class="eyebrow text-season">
             S{String(season.series).padStart(2, '0')} {season.seriesName} ·{' '}
@@ -257,10 +263,11 @@ const tiles = season
           </a>
         </div>
       </div>
-      <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-panel="playlist">
         {tiles.map((event) => (
           <a
             href={`${localePath(locale, '/playlist/')}#${event.id}`}
+            data-stop="tile"
             class="card group relative block min-h-44 overflow-hidden p-5 hover:border-season"
           >
             <span
@@ -290,19 +297,4 @@ const tiles = season
   )}
 
   {isPreview && <p class="mt-12 text-xs text-muted">{t(locale, 'home.preview')}</p>}
-
-  <script>
-    for (const el of document.querySelectorAll<HTMLElement>('[data-ends-at]')) {
-      const ms = Date.parse(el.dataset.endsAt ?? '') - Date.now();
-      if (Number.isNaN(ms)) continue;
-      if (ms <= 0) el.textContent = el.dataset.ended ?? '';
-      else {
-        const d = Math.floor(ms / 86_400_000);
-        const h = Math.floor((ms % 86_400_000) / 3_600_000);
-        el.textContent = (el.dataset.label ?? '')
-          .replace('{d}', String(d))
-          .replace('{h}', String(h));
-      }
-    }
-  </script>
 </Base>

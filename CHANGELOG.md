@@ -7,6 +7,13 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-10: **Modo pista** ([ADR-0019](docs/adr/0019-mundo-animado-e-modo-pista.md)):
+  - mundo animado de blocos (paddock, circuito, pessoas, carros com pit stop) atrás de todo o site;
+  - página inicial com logo 3D, manifesto fixo e uma volta completa no circuito ao rolar;
+  - novidades e playlist numa torre de cronometragem fixa;
+  - a câmera voa entre páginas;
+  - **modo normal** no menu: mesmo site sobre uma imagem parada, sem animação.
+- 2026-11-10: **Visual em blocos:** cantos retos, sombras duras, menu fixo translúcido, filtros fixos e a foto do carro esmaecida atrás do nome.
 - 2026-11-09: **Novidades da página inicial com o mesmo visual para todas as fontes** (`SourceNews.astro`): card grande com foto para o maior destaque e cards menores com foto, com as mesmas regras de ordem para todas. Toda atualização aparece, para melhor ou para pior (quedas e saídas incluídas), sem limite de cards por fonte. Mudanças anteriores do mesmo carro ficam num histórico em linhas finas.
 - 2026-11-09: **T0.5 de Noa Miyako conta como voto de Meta** no ranking do Forza Paddock (dono): 34 carros passam de Off-meta para Meta (ex.: S1 asfalto: Viper ACR, Centenario, AG 961, Aventador SVJ, Huracán STO, R8 LMS). As escolhas do Forza Paddock aparecem nos Destaques qualquer que seja o tier.
 - 2026-11-09: **Foco em alternativas ao meta** ([ADR-0017](docs/adr/0017-ranking-proprio-e-alternativas.md)).

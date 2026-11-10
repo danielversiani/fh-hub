@@ -6,6 +6,9 @@
 @import '@fontsource/barlow-condensed/700.css';
 
 /*
+ * Blocky look (2026-11-09, ADR-0019): square corners (2 px) and hard offset shadows, so cards and
+ * buttons match the voxel world behind the pages. No soft blurs, no gradients on surfaces.
+ *
  * Visual identity (owner's brief, 2026-11-08, revised the same day): follow forza.net's FH6
  * pages — black and charcoal surfaces, white text, the FH6 lime as the one accent, rows with a
  * lime bar on the left, uppercase condensed titles — but quieter: smaller titles and labels,
@@ -106,7 +109,8 @@ body {
 .card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: 6px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 0 rgb(0 0 0 / 0.5);
 }
 
 /* List rows (tunes, tuners): charcoal with the FH6 lime bar on the left, as on forza.net. */
@@ -114,7 +118,7 @@ body {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-left: 3px solid color-mix(in srgb, var(--color-accent) 70%, transparent);
-  border-radius: 4px;
+  border-radius: 2px;
   transition: background-color 120ms;
 }
 .row:hover,
@@ -128,7 +132,7 @@ body {
 /* Filter buttons. */
 .pill {
   border: 1px solid var(--color-border);
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 0.28rem 0.7rem;
   font-size: 0.82rem;
   color: var(--color-muted);
@@ -142,6 +146,7 @@ body {
 }
 .pill-on,
 .pill-on:hover {
+  box-shadow: 3px 3px 0 rgb(0 0 0 / 0.55);
   background: var(--color-accent);
   border-color: var(--color-accent);
   color: var(--color-on-accent);
@@ -152,7 +157,7 @@ body {
 .chip {
   display: inline-flex;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 0.05rem 0.4rem;
   font-family: var(--font-display);
   font-size: 0.78rem;
@@ -172,7 +177,7 @@ body {
 .build-card {
   background: var(--color-bg);
   border: 1px solid var(--color-border);
-  border-radius: 6px;
+  border-radius: 2px;
   padding: 1rem;
 }
 
@@ -222,7 +227,7 @@ a.tuner-name:hover {
 /* "1:04.3 · Shirakawa" */
 .lap-chip {
   border: 1px solid var(--color-border);
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 0.1rem 0.5rem;
   font-size: 0.8rem;
   background: var(--color-surface);
@@ -236,7 +241,7 @@ a.tuner-name:hover {
   gap: 0.75rem;
   background: #080808;
   border: 1px solid var(--color-border);
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 0.5rem 0.75rem;
 }
 .code-digits {
@@ -276,7 +281,7 @@ details > summary::-webkit-details-marker {
 .car-photo {
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: 2px;
   background: var(--color-surface-2);
   flex-shrink: 0;
 }
@@ -361,7 +366,7 @@ details > summary::-webkit-details-marker {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 4px;
+  border-radius: 2px;
   background: var(--color-accent);
   color: var(--color-on-accent);
   padding: 0.6rem 1.1rem;
@@ -370,8 +375,16 @@ details > summary::-webkit-details-marker {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+.btn-accent {
+  box-shadow: 4px 4px 0 rgb(0 0 0 / 0.6);
+  transition:
+    transform 120ms,
+    box-shadow 120ms;
+}
 .btn-accent:hover {
   filter: brightness(1.08);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 rgb(0 0 0 / 0.6);
 }
 .btn-secondary {
   background: transparent;
@@ -415,7 +428,8 @@ details > summary::-webkit-details-marker {
 /* Highlighted "competitive alternatives" box (ADR-0017). */
 .alt-box {
   border: 1px solid color-mix(in srgb, var(--color-accent) 45%, var(--color-border));
-  border-radius: 6px;
+  border-radius: 2px;
+  box-shadow: 6px 6px 0 rgb(0 0 0 / 0.5);
   padding: 1rem;
   background:
     radial-gradient(
@@ -431,7 +445,7 @@ details > summary::-webkit-details-marker {
   height: 100%;
   text-align: left;
   border: 1px solid var(--color-border);
-  border-radius: 4px;
+  border-radius: 2px;
   background: var(--color-bg);
   padding: 0.6rem 0.75rem;
   transition: border-color 120ms;
@@ -451,7 +465,7 @@ details > summary::-webkit-details-marker {
   width: 100%;
   text-align: left;
   padding: 0.5rem 0.6rem;
-  border-radius: 4px;
+  border-radius: 2px;
   border: 1px solid transparent;
 }
 .alt-row:hover {
@@ -468,7 +482,7 @@ details > summary::-webkit-details-marker {
   text-align: right;
 }
 .alt-tag {
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 0 0.35rem;
   font-family: var(--font-display);
   font-size: 0.66rem;
@@ -493,7 +507,7 @@ details > summary::-webkit-details-marker {
 /* "Cérebro desligado" (ADR-0018): deliberately a little mocking. */
 .brain-afk {
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 0 0.4rem;
   font-family: var(--font-display);
   font-size: 0.7rem;
@@ -565,4 +579,306 @@ details > summary::-webkit-details-marker {
   border: 1px solid var(--color-border);
   background: var(--color-surface-2);
   color: var(--color-text);
+}
+
+/* ---------------------------------------------------------------------------------------------
+ * Track mode (ADR-0019): the voxel world behind every page, the home page scrolling along the
+ * route, page changes sliding on the diagonal. Normal mode (html[data-mode='normal']) is the same
+ * site without any of it.
+ * ------------------------------------------------------------------------------------------- */
+
+#world {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 600ms ease;
+  /* Dot grid behind the world, like an old screen. */
+  background-image: radial-gradient(rgb(255 255 255 / 0.05) 1px, transparent 1.2px);
+  background-size: 7px 7px;
+}
+#world.world-on {
+  opacity: 1;
+}
+/* Pages with lists: the world stays behind a veil so the text reads well. */
+#world.world-on::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgb(13 13 13 / 0.74);
+  transition: background-color 600ms ease;
+}
+#world.world-home::after {
+  background: rgb(13 13 13 / 0.08);
+}
+.world-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+}
+/* Normal mode: the same place as a still picture (public/world/<spot>.webp), no animation. */
+html[data-mode='normal'] #world {
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+}
+html[data-mode='normal'] #world::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgb(13 13 13 / 0.74);
+}
+html[data-mode='normal'] body[data-spot='home'] #world {
+  background-image: url('/world/home.webp');
+}
+html[data-mode='normal'] body[data-spot='tunes'] #world {
+  background-image: url('/world/tunes.webp');
+}
+html[data-mode='normal'] body[data-spot='tuners'] #world {
+  background-image: url('/world/tuners.webp');
+}
+html[data-mode='normal'] body[data-spot='car'] #world {
+  background-image: url('/world/car.webp');
+}
+html[data-mode='normal'] body[data-spot='meta'] #world {
+  background-image: url('/world/meta.webp');
+}
+html[data-mode='normal'] body[data-spot='playlist'] #world {
+  background-image: url('/world/playlist.webp');
+}
+html[data-mode='normal'] body[data-spot='stands'] #world {
+  background-image: url('/world/stands.webp');
+}
+
+/* Content above the world. */
+.site-main,
+body > footer,
+body > div:not(#world) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Menu button: track mode ⇄ normal mode. */
+.mode-toggle {
+  color: var(--color-muted);
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  padding: 0.15rem 0.5rem;
+}
+.mode-toggle:hover {
+  color: var(--color-text);
+  border-color: var(--color-muted);
+}
+html[data-mode='normal'] .mode-when-track,
+html:not([data-mode='normal']) .mode-when-normal {
+  display: none;
+}
+
+/* Home page along the route: <main> becomes a fixed plane; its boards are placed by JS. */
+html.route-on .site-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  will-change: transform;
+}
+html.route-on .site-main .route-wrap {
+  display: contents;
+}
+html.route-on
+  .site-main
+  :not(
+    [data-stop],
+    [data-stop] *,
+    [data-source],
+    [data-source] *,
+    [data-panel],
+    [data-panel] *,
+    [data-cap],
+    [data-cap] *,
+    .route-wrap
+  ) {
+  display: none;
+}
+html.route-on [data-stop]:not([data-source] [data-stop], [data-panel] [data-stop]) {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+}
+/* Boards without a card of their own get a panel, so the text never floats on the scenery. */
+html.route-on [data-stop='head'],
+html.route-on [data-stop='footer'] {
+  background: rgb(13 13 13 / 0.88);
+  border: 1px solid var(--color-border);
+  padding: 1.25rem 1.4rem;
+  box-shadow: 6px 6px 0 rgb(0 0 0 / 0.55);
+  backdrop-filter: blur(3px);
+}
+html.route-on [data-stop='footer'] {
+  border-top: 1px solid var(--color-border);
+}
+
+/* Page changes: a short slide along the diagonal (both directions). */
+@keyframes fp-out {
+  to {
+    opacity: 0;
+    transform: translate(-56px, -30px);
+  }
+}
+@keyframes fp-in {
+  from {
+    opacity: 0;
+    transform: translate(56px, 30px);
+  }
+}
+@keyframes fp-out-back {
+  to {
+    opacity: 0;
+    transform: translate(56px, 30px);
+  }
+}
+@keyframes fp-in-back {
+  from {
+    opacity: 0;
+    transform: translate(-56px, -30px);
+  }
+}
+html[data-mode='normal']::view-transition-old(*),
+html[data-mode='normal']::view-transition-new(*),
+html[data-mode='normal']::view-transition-group(*) {
+  animation: none !important;
+}
+
+/* The manifesto over the scenery, no box (like the owner's reference): crisp white text with a
+   hard pixel shadow so it reads on any part of the world. */
+html.route-on [data-stop='hero'] {
+  text-shadow:
+    2px 2px 0 rgb(0 0 0 / 0.85),
+    0 0 14px rgb(0 0 0 / 0.6);
+}
+html.route-on [data-stop='hero'] .btn-accent {
+  text-shadow: none;
+}
+html.route-on [data-stop='hero'] h1 {
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+}
+
+/* Home in track mode: the timing tower (owner's choice, ADR-0019). Panels ([data-source] per
+   reference list, [data-panel] for the playlist) are fixed boxes whose list scrolls inside
+   (--news-scroll); the section header ([data-cap]) sits fixed above them. --src is the source's
+   colour (the playlist uses the season colour). */
+html.route-on [data-source],
+html.route-on [data-panel],
+html.route-on [data-cap] {
+  position: fixed !important;
+  z-index: 5;
+  margin: 0 !important;
+  opacity: 0;
+  pointer-events: none;
+}
+html.route-on [data-source].is-active,
+html.route-on [data-panel].is-active,
+html.route-on [data-cap].is-active {
+  pointer-events: auto;
+}
+html.route-on [data-cap] {
+  background: rgb(10 10 10 / 0.96);
+  border: 1px solid var(--color-border);
+  border-bottom: 0;
+  padding: 0.9rem 1.1rem 0.8rem;
+}
+html.route-on [data-cap] h2 {
+  font-size: 1.7rem;
+}
+html.route-on [data-cap] p {
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+}
+html.route-on [data-source],
+html.route-on [data-panel] {
+  overflow: hidden;
+  background: rgb(12 12 12 / 0.94);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--src, var(--season));
+  box-shadow: 6px 6px 0 rgb(0 0 0 / 0.55);
+  padding: 1rem 1.1rem;
+}
+html.route-on [data-source] > :not(:first-child),
+html.route-on [data-panel] > * {
+  transform: translateY(var(--news-scroll, 0px));
+}
+/* The source's name stays on top while its list scrolls under it. */
+html.route-on [data-source] > :first-child {
+  position: relative;
+  z-index: 1;
+  margin: -1rem -1.1rem 0;
+  padding: 0.75rem 1.1rem;
+  background: rgb(10 10 10 / 0.97);
+  border-bottom: 1px solid var(--color-border);
+}
+/* Compact rows like a broadcast timing tower, no photos. */
+html.route-on [data-source] .grid,
+html.route-on [data-panel] {
+  display: block !important;
+}
+html.route-on [data-source] .grid {
+  margin-top: 0.5rem !important;
+}
+html.route-on [data-source] .feature-photo,
+html.route-on [data-source] .news-photo,
+html.route-on [data-source] a.card > span[aria-hidden],
+html.route-on [data-panel] a.card > span[aria-hidden] {
+  display: none;
+}
+html.route-on [data-source] a.card,
+html.route-on [data-panel] a.card {
+  display: flex;
+  min-height: 0 !important;
+  padding: 0.55rem 0.75rem !important;
+  background: transparent;
+  border: 0;
+  border-left: 3px solid var(--src, var(--season));
+  border-bottom: 1px solid var(--color-border);
+  border-radius: 0;
+  box-shadow: none;
+}
+html.route-on [data-panel] a.card {
+  display: block;
+}
+html.route-on [data-source] a.card h2 {
+  margin-top: 0.2rem;
+  font-size: 1.6rem;
+}
+html.route-on [data-source] a.card .text-2xl,
+html.route-on [data-panel] a.card .text-2xl {
+  font-size: 1.15rem;
+}
+html.route-on [data-cap] .text-right {
+  text-align: left;
+}
+/* Phones: the header keeps only its title, to leave room for the list. */
+@media (max-width: 699px) {
+  html.route-on [data-cap] h2 + p {
+    display: none;
+  }
+}
+
+/* The manifesto and the footer: fixed boxes too (shown by src/world/route.ts). */
+html.route-on [data-stop='hero'],
+html.route-on [data-stop='footer'] {
+  position: fixed !important;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+}
+html.route-on [data-stop='hero'].is-active,
+html.route-on [data-stop='footer'].is-active {
+  pointer-events: auto;
 }

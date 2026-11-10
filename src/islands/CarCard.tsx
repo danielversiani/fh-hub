@@ -238,7 +238,7 @@ function CodeBox({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) 
         data-copied-label={labels.copied}
         title={labels.copy}
         aria-label={labels.copy}
-        class="rounded border border-border px-2.5 py-1.5 text-sm text-muted hover:border-accent hover:text-text"
+        class="rounded-xs border border-border px-2.5 py-1.5 text-sm text-muted hover:border-accent hover:text-text"
       >
         ⧉
       </button>
@@ -401,7 +401,7 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
                         data-copy={t.code}
                         data-copied-label={labels.copied}
                         title={labels.copy}
-                        class="rounded border border-border px-2 py-0.5 font-mono text-xs tabular-nums hover:border-accent"
+                        class="rounded-xs border border-border px-2 py-0.5 font-mono text-xs tabular-nums hover:border-accent"
                       >
                         {formatShareCode(t.code)}
                       </button>

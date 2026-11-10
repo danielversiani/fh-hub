@@ -46,7 +46,7 @@ const anchor = (s: { cls: string; surface: string }) => `${s.cls.toLowerCase()}-
         {sections.map((s) => (
           <a
             href={`#${anchor(s)}`}
-            class="flex shrink-0 items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1 hover:border-accent"
+            class="flex shrink-0 items-center gap-1.5 rounded-xs border border-border bg-surface px-2.5 py-1 hover:border-accent"
           >
             <ClassBadge value={s.cls as (typeof CLASS_ORDER)[number]} />
             {t(locale, `surface.${s.surface}` as MessageKey)}
@@ -69,7 +69,7 @@ const anchor = (s: { cls: string; surface: string }) => `${s.cls.toLowerCase()}-
               {t(locale, 'meta.credit', { source: sources.get(s.sourceId)?.name ?? s.sourceId })}
             </a>
           </p>
-          <div class="mt-3 overflow-x-auto rounded-lg border border-border bg-surface">
+          <div class="mt-3 overflow-x-auto rounded-xs border border-border bg-surface">
             <table class="w-full text-left text-sm">
               <thead class="border-b border-border text-muted">
                 <tr>

@@ -88,6 +88,7 @@ fh-hub/
 │  ├─ lib/data.ts                # leitura dos JSON gerados no build
 │  ├─ i18n/                      # pt-br.json, en.json + helpers
 │  ├─ islands/                   # componentes interativos (Preact): TuneSearch
+│  ├─ world/                     # modo pista (ADR-0019): mundo 3D (three.js), rota da página inicial, imagens do modo normal
 │  └─ content/                   # ⏳ coleções: guides, accessories, custom-events
 └─ .github/workflows/            # ci.yml, sync.yml (⏳ deploy.yml, health.yml)
 ```

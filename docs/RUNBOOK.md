@@ -60,6 +60,13 @@ Todos ficam em `data/manual/`, valem na próxima sincronização e têm instruç
 
 Depois de editar, rode `pnpm validate` (o id do carro precisa existir em `data/generated/cars.json`).
 
+## 3d. Imagens paradas do modo normal
+
+O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0019](adr/0019-mundo-animado-e-modo-pista.md)). Quando o mundo mudar (modelos, logo, cores):
+1. Rode `pnpm dev` e abra `http://localhost:4321/?snapshots` no modo pista.
+2. As imagens são salvas em `public/world/` em alguns segundos.
+3. Confira as imagens e faça o commit junto com a mudança.
+
 ## 4. Carros ou tunadores não reconhecidos
 
 1. Abra `data/review/unmatched-cars.json`. Cada item mostra o texto original e os candidatos com a similaridade.

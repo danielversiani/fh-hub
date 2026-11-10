@@ -103,6 +103,14 @@ e os guias que o próprio jogo não oferece.
 - **Navegação:** o menu fica fixo no topo e fica translúcido ao rolar. Os filtros da aba Tunes e os atalhos de classe da página Meta ficam fixos logo abaixo dele, como no fhstats.
 - **Página do carro:** a foto fica atrás do nome, esmaecendo em degradê para a esquerda e para baixo.
 
+### 5.5 Modo pista (2026-11-10)
+
+Ver [ADR-0019](adr/0019-mundo-animado-e-modo-pista.md).
+- **Mundo de blocos ao fundo:** um paddock e um circuito animados atrás de todo o site.
+- **Página inicial:** dá uma volta no circuito ao rolar, com as novidades e a playlist numa torre de cronometragem.
+- **Outras páginas:** a câmera estaciona num lugar próprio e voa até ele quando se troca de página.
+- **"Modo normal" no menu:** o mesmo site sobre uma imagem parada.
+
 ## 6. Fases
 
 | Fase | Entrega | Critério de pronto |
