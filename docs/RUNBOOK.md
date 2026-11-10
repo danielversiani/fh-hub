@@ -131,6 +131,12 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
 3. Rollback imediato: no painel do Cloudflare Pages → Deployments → promover o deploy anterior.
 4. Se o problema for o limite de builds do mês: aumente o intervalo mínimo do deploy de dados no `deploy.yml` até a virada do mês.
 
+## 10b. Domínio
+
+- Endereço oficial: **forzapaddock.racing**, registrado no Porkbun com renovação automática ligada (cerca de US$ 10,79 por ano; confira o cartão antes de renovar em 2027-11-10).
+- O DNS fica no Cloudflare: não mude os nameservers no Porkbun, senão o site sai do ar.
+- Para trocar ou acrescentar um endereço: `routes` em `wrangler.jsonc` ([ADR-0012](adr/0012-hospedagem-cloudflare-pages.md)).
+
 ## 11. O sync parou de rodar sozinho
 
 O GitHub desativa workflows agendados de repositórios públicos após 60 dias sem atividade.

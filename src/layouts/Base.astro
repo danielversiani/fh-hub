@@ -57,6 +57,8 @@ const diagonal = {
     <title>{pageTitle}</title>
     <meta name="description" content={description ?? t(locale, 'site.tagline')} />
     {PRELAUNCH && <meta name="robots" content="noindex" />}
+    {/* The .racing address is the official one; workers.dev copies point to it. */}
+    <link rel="canonical" href={new URL(localePath(locale, path), Astro.site).href} />
     <link rel="alternate" hreflang="pt-BR" href={localePath('pt-br', path)} />
     <link rel="alternate" hreflang="en" href={localePath('en', path)} />
     {/* Track mode (animated world) or normal mode, before the first paint (ADR-0019). */}

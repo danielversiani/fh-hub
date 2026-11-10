@@ -7,6 +7,10 @@
 
 Site estático ([ADR-0002](0002-site-estatico-sem-banco.md)), público global, custo zero desejado e possibilidade futura de monetização (ex.: anúncios ou apoio) que não deve violar os termos da hospedagem.
 
+## Atualização (2026-11-10): domínio próprio
+
+O site roda em **Cloudflare Workers** (assets estáticos, `wrangler.jsonc`) e o endereço oficial é **https://forzapaddock.racing** (`www` também responde). O domínio foi registrado no Porkbun (renovação anual de cerca de US$ 10,79), e o DNS fica no Cloudflare (nameservers trocados no Porkbun). O endereço `forzapaddock.danielversiani.workers.dev` continua funcionando, e toda página aponta o `.racing` como canônico (`<link rel="canonical">`). Os domínios estão declarados em `routes` no `wrangler.jsonc`.
+
 ## Decisão
 
 - **Cloudflare Pages**, plano gratuito: CDN global, HTTPS, domínio próprio e analytics sem cookies (Cloudflare Web Analytics).

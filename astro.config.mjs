@@ -43,7 +43,7 @@ function worldSnapshots() {
 
 // PT-BR is served at the root and English under /en/ (ADR-0007).
 export default defineConfig({
-  site: 'https://fh-hub.pages.dev',
+  site: 'https://forzapaddock.racing',
   integrations: [preact()],
   i18n: {
     locales: ['pt-br', 'en'],

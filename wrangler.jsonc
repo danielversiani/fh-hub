@@ -1,6 +1,12 @@
 // Cloudflare deploy (ADR-0012): the Astro build output in ./dist is served as static assets.
 {
   "name": "forzapaddock",
+  // Custom domain (registered at Porkbun, DNS at Cloudflare). The workers.dev address keeps
+  // working; every page names the .racing address as canonical.
+  "routes": [
+    { "pattern": "forzapaddock.racing", "custom_domain": true },
+    { "pattern": "www.forzapaddock.racing", "custom_domain": true },
+  ],
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./dist",

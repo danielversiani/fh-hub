@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-10: **Domínio próprio:** forzapaddock.racing (e www) no Cloudflare, declarado no `wrangler.jsonc`; todas as páginas apontam o endereço novo como canônico; o `workers.dev` continua funcionando ([ADR-0012](docs/adr/0012-hospedagem-cloudflare-pages.md), RUNBOOK §10b).
 - 2026-11-10: **Modo pista, acabamento:** sombras, grama em faixas, linhas e marcas na pista, alambrados, carros detalhados que freiam, inclinam e soltam fumaça, equipes de box, fiscais, arquibancada com "ola" atrás da reta oposta, balão ([ADR-0019](docs/adr/0019-mundo-animado-e-modo-pista.md), Atualizações).
 - 2026-11-10: **Modo pista** ([ADR-0019](docs/adr/0019-mundo-animado-e-modo-pista.md)):
   - mundo animado de blocos (paddock, circuito, pessoas, carros com pit stop) atrás de todo o site;
