@@ -2,9 +2,12 @@ import * as THREE from 'three';
 import {
   PAL,
   TEAMS,
+  balloon,
   billboard,
   car,
+  fence,
   flagPole,
+  handFlag,
   gantry,
   garage,
   grandstand,
@@ -18,6 +21,7 @@ import {
   tree,
   truck,
   type CarKind,
+  type PersonModel,
 } from './models';
 import type { SpotName } from './spots';
 import { Builder, SHARED_MATERIAL, pick, seeded } from './voxel';
@@ -117,7 +121,7 @@ const SPOTS: Record<Exclude<SpotName, 'home'>, [number, number]> = {
   car: [24, 2],
   meta: [72, 22],
   playlist: [600, -24],
-  stands: [84, 32],
+  stands: [214, -78],
 };
 
 const X0 = -100;
@@ -187,12 +191,10 @@ function groundTexture(
     }
   };
 
-  // Grass, with a few darker patches.
+  // Grass (mowed in diagonal stripes, see the pixel pass below).
   ctx.fillStyle = '#12260f';
   ctx.fillRect(0, 0, w, h);
-  for (let i = 0; i < 260; i++) {
-    disc(X0 + rand() * (X1 - X0), Z0 + rand() * (Z1 - Z0), 2 + rand() * 6, '#0f210d');
-  }
+  void rand;
 
   // Paddock (concrete), the sidewalk in front of the garages, the pit lane and its line.
   rect(-20, -54, 130, 4, '#1d1e22');
@@ -200,26 +202,64 @@ function groundTexture(
   rect(-20, 4, 140, 7, '#34353b'); // sidewalk (people walk here, never on the pit lane)
   for (const p of pit.getSpacedPoints(800)) disc(p.x, p.z, 3, '#28282d');
   rect(-14, 12, 140, 12.5, '#d0d0d0');
-  for (let i = 0; i < 8; i++) rect(1 + i * 13.5, 7.5, 11 + i * 13.5, 8, '#4a4b52'); // pit boxes
+  for (let i = 0; i < 8; i++) rect(1 + i * 14, 7.5, 11 + i * 14, 8, '#4a4b52'); // pit boxes
+  rect(-14, 7, 140, 7.3, '#c9ad00'); // pit lane line along the sidewalk
 
   // Stage square and the logo's plinth area.
   rect(574, -46, 626, -6, '#19191d');
   rect(LOGO_AT[0] - 6, LOGO_AT[1] - 6, LOGO_AT[0] + 92, LOGO_AT[1] + 6, '#1a1b1f');
 
-  // Track: gravel and curbs on the bends, then the asphalt.
+  // Track: gravel and curbs on the bends, white edge lines, the asphalt, then the rubbered
+  // racing line (towards the inside of each bend) and skid marks in the braking zones.
   const samples = circuit.getSpacedPoints(3600);
-  const bend = samples.map((b, i) => {
-    const a = samples[(i - 6 + samples.length) % samples.length]!;
-    const c = samples[(i + 6) % samples.length]!;
-    let turn = Math.atan2(c.z - b.z, c.x - b.x) - Math.atan2(b.z - a.z, b.x - a.x);
-    turn = Math.atan2(Math.sin(turn), Math.cos(turn));
-    return Math.abs(turn) > 0.05;
+  const n = samples.length;
+  const turns = samples.map((b, i) => {
+    const a = samples[(i - 6 + n) % n]!;
+    const c = samples[(i + 6) % n]!;
+    const turn = Math.atan2(c.z - b.z, c.x - b.x) - Math.atan2(b.z - a.z, b.x - a.x);
+    return Math.atan2(Math.sin(turn), Math.cos(turn));
   });
+  const bend = turns.map((t) => Math.abs(t) > 0.05);
+  // Smoothed turn, for a racing line that drifts gently rather than jumping.
+  const smooth = turns.map((_, i) => {
+    let sum = 0;
+    for (let k = -40; k <= 40; k++) sum += turns[(i + k + n) % n]!;
+    return sum / 81;
+  });
+  const normal = (i: number) => {
+    const a = samples[(i - 1 + n) % n]!;
+    const c = samples[(i + 1) % n]!;
+    const len = Math.hypot(c.x - a.x, c.z - a.z) || 1;
+    return { x: -(c.z - a.z) / len, z: (c.x - a.x) / len };
+  };
   samples.forEach((p, i) => bend[i] && disc(p.x, p.z, HALF + 7, '#3b3428'));
   samples.forEach((p, i) => {
     if (bend[i]) disc(p.x, p.z, HALF + 1.5, Math.floor(i / 6) % 2 ? '#d43a2f' : '#e6e6e6');
   });
+  samples.forEach((p) => disc(p.x, p.z, HALF + 0.5, '#d8d8d8'));
   samples.forEach((p) => disc(p.x, p.z, HALF, '#2d2d32'));
+  samples.forEach((p, i) => {
+    const nrm = normal(i);
+    const shift = Math.max(-2.4, Math.min(2.4, smooth[i]! * 40));
+    disc(p.x + nrm.x * shift, p.z + nrm.z * shift, 1.2, '#26262b');
+  });
+  samples.forEach((p, i) => {
+    // Braking zone: the 45 samples before a bend begins.
+    if (!bend[i] || bend[(i - 1 + n) % n]) return;
+    for (let k = 2; k < 45; k++) {
+      const q = samples[(i - k + n) % n]!;
+      const nrm = normal((i - k + n) % n);
+      const dark = k < 20 ? '#1a1a1e' : '#222226';
+      for (const side of [-1.4, 1.4])
+        rect(
+          q.x + nrm.x * side - 0.25,
+          q.z + nrm.z * side - 0.25,
+          q.x + nrm.x * side + 0.25,
+          q.z + nrm.z * side + 0.25,
+          dark,
+        );
+    }
+  });
   // Start/finish line (checkered) and grid slots.
   for (let z = 20 - HALF; z < 20 + HALF; z += 0.5) {
     for (let k = 0; k < 2; k++) {
@@ -237,13 +277,21 @@ function groundTexture(
     rect(START_X + 6 + i * 8, z, START_X + 9 + i * 8, z + 0.5, '#9a9a9a');
   }
 
-  // Fine checker everywhere, and edges fading into the page background.
+  // Mowed stripes on the grass, a fine checker everywhere, and edges fading into the page.
   const img = ctx.getImageData(0, 0, w, h);
   const d = img.data;
   const fade = 24 * TEX;
   for (let y = 0; y < h; y++) {
     for (let x = 0; x < w; x++) {
       const o = (y * w + x) * 4;
+      if (d[o] === 0x12 && d[o + 1] === 0x26 && d[o + 2] === 0x0f) {
+        const band = Math.floor((x + y * 0.6) / (12 * TEX)) % 2;
+        if (band) {
+          d[o] = 0x15;
+          d[o + 1] = 0x2c;
+          d[o + 2] = 0x11;
+        }
+      }
       if ((x + y) % 2) {
         d[o] = d[o]! * 0.88;
         d[o + 1] = d[o + 1]! * 0.88;
@@ -265,9 +313,7 @@ function groundTexture(
 
 // --- actors ------------------------------------------------------------------------------------
 
-interface Walker {
-  group: THREE.Group;
-  legs: [THREE.Mesh, THREE.Mesh];
+interface Walker extends PersonModel {
   target: THREE.Vector2;
   /** Graph node (paddock footpaths), or -1 for walkers that roam a small area. */
   node: number;
@@ -279,7 +325,10 @@ interface Walker {
 }
 
 interface Racer {
-  mesh: THREE.Mesh;
+  /** Heading (turned around Y); `body` inside it rolls into the bends. */
+  group: THREE.Group;
+  body: THREE.Group;
+  brakes: THREE.MeshBasicMaterial;
   garageX: number;
   state: 'track' | 'pit';
   u: number; // circuit position (0–1)
@@ -291,6 +340,21 @@ interface Racer {
   stop: number; // seconds left at the pit box
   stopped: boolean;
   laps: number;
+  lean: number;
+}
+
+/** A pit crew member: stands at the garage, runs to the car during a stop. */
+interface Crew extends PersonModel {
+  home: THREE.Vector2;
+  work: THREE.Vector2;
+  garageX: number;
+}
+
+/** A puff of tyre smoke. */
+interface Puff {
+  pos: THREE.Vector3;
+  vel: THREE.Vector3;
+  life: number;
 }
 
 /**
@@ -386,19 +450,20 @@ export function createWorld(container: HTMLElement, options: { season: string })
 
   // Static scenery, one mesh.
   const b = new Builder();
-  const garageXs = Array.from({ length: 8 }, (_, i) => 6 + i * 13.5);
+  const garageXs = Array.from({ length: 8 }, (_, i) => 6 + i * 14);
   garageXs.forEach((x, i) => garage(b, x, -1, TEAMS[i % TEAMS.length]!, rand));
   for (let i = 0; i < 5; i++) truck(b, 12 + i * 21, -18, TEAMS[(i * 3) % TEAMS.length]!);
   for (let i = 0; i < 5; i++) tent(b, 4 + i * 22, -36, TEAMS[(i * 3 + 1) % TEAMS.length]![0]);
   pitWall(b, -14, 140, 12.5, '#caff02');
-  const seats = grandstand(b, 24, 28, 104, 5);
+  // The grandstand faces the back straight from behind it (seen from the camera's side, a stand
+  // in front of the main straight would hide the grid).
+  const seats = grandstand(b, 262, -80, 104, 5, [options.season, '#caff02', '#ececec'], true);
   const lights = gantry(b, START_X, 20 - HALF, 20 + HALF);
   const tiles = stage(b, 600, -26);
-  const poles = [30, 52, 74, 96, 118].map((x) => flagPole(b, x, 41));
+  const poles = [168, 190, 212, 234, 256].map((x) => flagPole(b, x, -93));
   tireWall(b, 204, 64, 30);
   tireWall(b, 396, 64, 28);
-  marshalPost(b, 194, 66);
-  marshalPost(b, 474, 40);
+  const posts = [marshalPost(b, 194, 66), marshalPost(b, 474, 40), marshalPost(b, 660, -30)];
   billboard(b, 418, 66, ['#caff02', '#2f6fe0', '#ececec']);
   billboard(b, 316, 10, ['#d9372b', '#f2c200', '#ececec']);
   billboard(b, 530, 6, [options.season, '#ececec', '#1d1d1d']);
@@ -408,11 +473,41 @@ export function createWorld(container: HTMLElement, options: { season: string })
   const logoMesh = logoBuilder.mesh();
   logoMesh.position.set(LOGO_AT[0] + logoSize.width / 2, 0, LOGO_AT[1]);
   scene.add(logoMesh);
-  // Trees, away from the track and the busy areas.
+  // Catch fences along the outside of the bends.
   const trackPts = circuit.getSpacedPoints(700);
+  {
+    const m = trackPts.length;
+    const turnAt = (i: number) => {
+      const a = trackPts[(i - 2 + m) % m]!;
+      const p = trackPts[i]!;
+      const c = trackPts[(i + 2) % m]!;
+      const t = Math.atan2(c.z - p.z, c.x - p.x) - Math.atan2(p.z - a.z, p.x - a.x);
+      return Math.atan2(Math.sin(t), Math.cos(t));
+    };
+    let run: THREE.Vector3[] = [];
+    for (let i = 0; i <= m; i++) {
+      const turn = i < m ? turnAt(i) : 0;
+      if (Math.abs(turn) > 0.04) {
+        if (i % 2) continue;
+        const a = trackPts[(i - 1 + m) % m]!;
+        const c = trackPts[(i + 1) % m]!;
+        const len = Math.hypot(c.x - a.x, c.z - a.z) || 1;
+        // Outside of the bend: away from the turn's inside.
+        const side = turn > 0 ? 1 : -1;
+        const nx = (-(c.z - a.z) / len) * side;
+        const nz = ((c.x - a.x) / len) * side;
+        const p = trackPts[i]!;
+        run.push(new THREE.Vector3(p.x - nx * (HALF + 8.5), 0, p.z - nz * (HALF + 8.5)));
+      } else if (run.length) {
+        if (run.length > 2) fence(b, run);
+        run = [];
+      }
+    }
+  }
+  // Trees, away from the track and the busy areas.
   const clear: [number, number, number, number][] = [
     [-24, -58, 134, 16],
-    [18, 24, 134, 46],
+    [150, -96, 270, -72],
     [570, -50, 630, -4],
     [LOGO_AT[0] - 10, LOGO_AT[1] - 10, LOGO_AT[0] + 96, LOGO_AT[1] + 10],
   ];
@@ -428,6 +523,8 @@ export function createWorld(container: HTMLElement, options: { season: string })
     planted++;
   }
   scene.add(b.mesh());
+  const staticShadows = b.shadowMesh();
+  if (staticShadows) scene.add(staticShadows);
 
   // Start lights.
   const lightMeshes = lights.map((p) => {
@@ -445,7 +542,9 @@ export function createWorld(container: HTMLElement, options: { season: string })
   const flags = poles.map((top, i) =>
     [0, 1, 2, 3].map((k) => {
       const m = new THREE.Mesh(
-        new Builder().box(0, -1, -0.25, 1, 2, 0.5, flagColors[i % flagColors.length]!).geometry(),
+        new Builder(false)
+          .box(0, -0.75, -0.12, 1, 1.5, 0.25, flagColors[i % flagColors.length]!)
+          .geometry(),
         SHARED_MATERIAL,
       );
       m.position.set(top.x + k, top.y, top.z);
@@ -460,8 +559,9 @@ export function createWorld(container: HTMLElement, options: { season: string })
     .box(-0.5, 1, -0.5, 1, 1, 1, '#e0b090')
     .geometry();
   const instMat = new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.DoubleSide });
+  const standFans = seats.filter(() => rand() < (small() ? 0.5 : 0.8));
   const fans: THREE.Vector3[] = [
-    ...seats.filter(() => rand() < (small() ? 0.5 : 0.8)),
+    ...standFans,
     ...Array.from(
       { length: small() ? 40 : 70 },
       () => new THREE.Vector3(Math.round(588 + rand() * 24), 0, Math.round(-15 + rand() * 6)),
@@ -496,18 +596,36 @@ export function createWorld(container: HTMLElement, options: { season: string })
   const dark = new THREE.Color('#121212');
 
   // Cars: they keep their distance, overtake on the other line and stop in the pits now and then.
-  const kinds: CarKind[] = ['gt', 'proto', 'gt', 'hatch', 'gt', 'proto', 'gt', 'hatch'];
-  const racers: Racer[] = kinds.slice(0, small() ? 6 : 8).map((kind, i) => {
-    const [body, accent] = TEAMS[i % TEAMS.length]!;
-    const mesh = car(body, accent, kind);
-    scene.add(mesh);
+  // Twelve cars in a loose train over half the lap, so they read as a race going on.
+  const kinds: CarKind[] = [
+    'gt',
+    'proto',
+    'gt',
+    'hatch',
+    'gt',
+    'proto',
+    'gt',
+    'hatch',
+    'proto',
+    'gt',
+    'hatch',
+    'gt',
+  ];
+  const racers: Racer[] = kinds.slice(0, small() ? 8 : 12).map((kind, i) => {
+    const [bodyColor, accent] = TEAMS[i % TEAMS.length]!;
+    const model = car(bodyColor, accent, kind);
+    const group = new THREE.Group();
+    group.add(model.group);
+    scene.add(group);
     const base = 34 + rand() * 10;
     const lane = i % 2 ? 1.8 : -1.8;
     return {
-      mesh,
+      group,
+      body: model.group,
+      brakes: model.brakes,
       garageX: garageXs[i % garageXs.length]!,
       state: 'track',
-      u: (i / 8 + 0.3) % 1,
+      u: (0.3 + (i / kinds.length) * 0.55 + rand() * 0.02) % 1,
       s: 0,
       base,
       speed: base,
@@ -516,8 +634,42 @@ export function createWorld(container: HTMLElement, options: { season: string })
       stop: 0,
       stopped: false,
       laps: i,
+      lean: 0,
     };
   });
+  /** Signed curvature of the circuit at u (radians per block). */
+  const curvatureAt = (u: number) => {
+    const a = circuit.getTangentAt(u);
+    const c = circuit.getTangentAt((u + 0.002) % 1);
+    const turn = Math.atan2(-c.z, c.x) - Math.atan2(-a.z, a.x);
+    return Math.atan2(Math.sin(turn), Math.cos(turn)) / (0.002 * circuitLength);
+  };
+
+  // Tyre smoke: a pool of small grey cubes, spawned at the rear wheels in hard bends.
+  const PUFFS = small() ? 30 : 60;
+  const puffs: Puff[] = Array.from({ length: PUFFS }, () => ({
+    pos: new THREE.Vector3(),
+    vel: new THREE.Vector3(),
+    life: 0,
+  }));
+  const puffMesh = new THREE.InstancedMesh(
+    new Builder(false).box(-0.5, -0.5, -0.5, 1, 1, 1, '#9a9a9a').geometry(),
+    new THREE.MeshBasicMaterial({
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.55,
+      side: THREE.DoubleSide,
+    }),
+    PUFFS,
+  );
+  scene.add(puffMesh);
+  let nextPuff = 0;
+  const puff = (x: number, y: number, z: number) => {
+    const p = puffs[nextPuff++ % PUFFS]!;
+    p.pos.set(x, y, z);
+    p.vel.set((rand() - 0.5) * 2, 1.5 + rand(), (rand() - 0.5) * 2);
+    p.life = 1;
+  };
 
   // People: paddock walkers on footpaths, crews on the sidewalk, a few at the stage.
   const graph = paddockGraph();
@@ -527,7 +679,8 @@ export function createWorld(container: HTMLElement, options: { season: string })
     area?: [number, number, number, number];
     speed: number;
   }) => {
-    const { group, legs } = person(rand);
+    const model = person(rand);
+    const { group } = model;
     let start: THREE.Vector2;
     if (opts.area) {
       const [ax, az, bx, bz] = opts.area;
@@ -536,8 +689,7 @@ export function createWorld(container: HTMLElement, options: { season: string })
     group.position.set(start.x, 0, start.y);
     scene.add(group);
     walkers.push({
-      group,
-      legs,
+      ...model,
       target: start.clone(),
       node: opts.node ?? -1,
       area: opts.area,
@@ -552,6 +704,50 @@ export function createWorld(container: HTMLElement, options: { season: string })
   for (let i = 0; i < (small() ? 6 : 10); i++)
     addWalker({ area: [-12, 5, 114, 6.5], speed: 2 + rand() });
   for (let i = 0; i < 3; i++) addWalker({ area: [590, -12, 610, -9], speed: 1.5 });
+
+  // Pit crews: three per garage in the team's overalls, waiting on the sidewalk.
+  const crews: Crew[] = [];
+  garageXs.forEach((gx, i) => {
+    const color = TEAMS[i % TEAMS.length]![0];
+    const spots: [number, number][] = [
+      [gx - 3, 5.8],
+      [gx + 3, 5.8],
+      [gx, 5.8],
+    ];
+    const work: [number, number][] = [
+      [gx - 2.5, 7],
+      [gx + 2.5, 7],
+      [gx + 5.5, 9.5],
+    ];
+    spots.forEach(([x, z], k) => {
+      const model = person(rand, color);
+      model.group.position.set(x, 0, z);
+      model.group.rotation.y = -Math.PI / 2; // facing the pit lane (+Z)
+      scene.add(model.group);
+      crews.push({
+        ...model,
+        home: new THREE.Vector2(x, z),
+        work: new THREE.Vector2(work[k]![0], work[k]![1]),
+        garageX: gx,
+      });
+    });
+  });
+
+  // Marshals on their posts, waving a yellow flag when a car passes.
+  const marshals = posts.map((p) => {
+    const model = person(rand, '#ff7a1a');
+    model.group.position.copy(p);
+    const flag = handFlag(PAL.yellow);
+    flag.position.set(0.3, 2.6, 0.8);
+    model.arms[1].visible = false;
+    model.group.add(flag);
+    scene.add(model.group);
+    return { model, flag, at: p };
+  });
+
+  // A hot-air balloon drifting over the infield.
+  const balloonMesh = balloon(options.season, '#caff02');
+  scene.add(balloonMesh);
 
   // --- camera ----------------------------------------------------------------------------------
 
@@ -681,8 +877,11 @@ export function createWorld(container: HTMLElement, options: { season: string })
     const onTrack = racers.filter((r) => r.state === 'track');
     for (const r of racers) {
       if (r.state === 'track') {
-        // Keep the distance; overtake on the other line when it is clear.
-        let speed = r.base;
+        // Slow down for the bends; keep the distance; overtake on the other line when clear.
+        const curv = curvatureAt(r.u);
+        const curvAhead = curvatureAt((r.u + 0.012) % 1);
+        const tight = Math.min(1, Math.max(Math.abs(curv), Math.abs(curvAhead)) * 14);
+        let speed = r.base * (1 - 0.45 * tight);
         for (const o of onTrack) {
           if (o === r) continue;
           const gap = ahead(r.u, o.u);
@@ -699,7 +898,9 @@ export function createWorld(container: HTMLElement, options: { season: string })
             else speed = Math.min(speed, o.speed * (gap < 9 ? 0.9 : 1));
           }
         }
-        r.speed += (speed - r.speed) * Math.min(1, dt * 2);
+        const braking = speed < r.speed - 1.5;
+        r.speed += (speed - r.speed) * Math.min(1, dt * (braking ? 3 : 1.5));
+        r.brakes.color.set(braking ? '#ff2a1a' : '#5a1410');
         r.lane +=
           Math.sign(r.laneTarget - r.lane) * Math.min(Math.abs(r.laneTarget - r.lane), dt * 2.5);
         const before = r.u;
@@ -716,8 +917,20 @@ export function createWorld(container: HTMLElement, options: { season: string })
         }
         circuit.getPointAt(r.u, v);
         circuit.getTangentAt(r.u, tangent);
-        r.mesh.position.set(v.x - tangent.z * r.lane, 0, v.z + tangent.x * r.lane);
-        r.mesh.rotation.y = Math.atan2(-tangent.z, tangent.x);
+        r.group.position.set(v.x - tangent.z * r.lane, 0, v.z + tangent.x * r.lane);
+        r.group.rotation.y = Math.atan2(-tangent.z, tangent.x);
+        // Roll into the bend, and smoke from the rear tyres when it is tight and fast.
+        const wantLean = Math.max(-0.14, Math.min(0.14, curv * r.speed * 0.02));
+        r.lean += (wantLean - r.lean) * Math.min(1, dt * 4);
+        r.body.rotation.x = r.lean;
+        if (Math.abs(curv) * r.speed > 0.9 && rand() < dt * 18) {
+          const side = curv > 0 ? 1.8 : -1.8;
+          puff(
+            r.group.position.x - tangent.x * 3 - tangent.z * side,
+            0.6,
+            r.group.position.z - tangent.z * 3 + tangent.x * side,
+          );
+        }
       } else {
         // Pit lane at low speed, stop at the team's box, wait for a gap before rejoining.
         const boxS =
@@ -731,6 +944,8 @@ export function createWorld(container: HTMLElement, options: { season: string })
           r.stop -= dt;
           pitSpeed = 0;
         }
+        r.brakes.color.set(pitSpeed === 0 ? '#ff2a1a' : '#5a1410');
+        r.body.rotation.x = 0;
         const exitWait = pitLength - 4;
         if (r.s >= exitWait) {
           const clearExit = onTrack.every((q) => ahead(q.u, uOut) > 30 && ahead(uOut, q.u) > 8);
@@ -746,8 +961,8 @@ export function createWorld(container: HTMLElement, options: { season: string })
         r.s = Math.min(exitWait, r.s + pitSpeed * dt);
         pitPath.getPointAt(r.s / pitLength, v);
         pitPath.getTangentAt(r.s / pitLength, tangent);
-        r.mesh.position.set(v.x, 0, v.z);
-        r.mesh.rotation.y = Math.atan2(-tangent.z, tangent.x);
+        r.group.position.set(v.x, 0, v.z);
+        r.group.rotation.y = Math.atan2(-tangent.z, tangent.x);
       }
     }
   };
@@ -762,6 +977,8 @@ export function createWorld(container: HTMLElement, options: { season: string })
         w.wait -= dt;
         w.legs[0].rotation.z = 0;
         w.legs[1].rotation.z = 0;
+        w.arms[0].rotation.z = 0;
+        w.arms[1].rotation.z = 0;
         p.y = 0;
         continue;
       }
@@ -785,8 +1002,59 @@ export function createWorld(container: HTMLElement, options: { season: string })
       const swing = Math.sin(w.phase) * 0.55;
       w.legs[0].rotation.z = swing;
       w.legs[1].rotation.z = -swing;
+      w.arms[0].rotation.z = -swing * 0.7;
+      w.arms[1].rotation.z = swing * 0.7;
       p.y = Math.abs(Math.cos(w.phase)) * 0.15;
     }
+  };
+
+  const moveCrews = (dt: number) => {
+    for (const c of crews) {
+      const busy = racers.some(
+        (r) => r.state === 'pit' && r.stopped && r.stop > 0 && r.garageX === c.garageX,
+      );
+      const goal = busy ? c.work : c.home;
+      const p = c.group.position;
+      const dx = goal.x - p.x;
+      const dz = goal.y - p.z;
+      const dist = Math.hypot(dx, dz);
+      if (dist > 0.1) {
+        const step = Math.min(dist, 7 * dt);
+        p.x += (dx / dist) * step;
+        p.z += (dz / dist) * step;
+        c.group.rotation.y = Math.atan2(-dz, dx);
+        const swing = Math.sin(t * 16) * 0.6;
+        c.legs[0].rotation.z = swing;
+        c.legs[1].rotation.z = -swing;
+        c.arms[0].rotation.z = -swing;
+        c.arms[1].rotation.z = swing;
+      } else {
+        c.legs[0].rotation.z = 0;
+        c.legs[1].rotation.z = 0;
+        // Working on the car: arms forward; waiting: arms down.
+        c.arms[0].rotation.z = busy ? -1.3 : 0;
+        c.arms[1].rotation.z = busy ? -1.3 : 0;
+        if (busy) c.group.rotation.y = Math.atan2(-(9.5 - p.z), c.garageX - p.x);
+        else c.group.rotation.y = -Math.PI / 2;
+      }
+    }
+  };
+
+  const movePuffs = (dt: number) => {
+    puffs.forEach((p, i) => {
+      if (p.life > 0) {
+        p.life -= dt * 1.4;
+        p.pos.addScaledVector(p.vel, dt);
+        p.vel.y *= 0.96;
+      }
+      const size = p.life > 0 ? 0.6 + (1 - p.life) * 1.6 : 0;
+      tmp.position.copy(p.pos);
+      tmp.scale.setScalar(size);
+      tmp.updateMatrix();
+      puffMesh.setMatrixAt(i, tmp.matrix);
+    });
+    puffMesh.instanceMatrix.needsUpdate = true;
+    tmp.scale.setScalar(1);
   };
 
   let t = 0;
@@ -794,9 +1062,27 @@ export function createWorld(container: HTMLElement, options: { season: string })
     t += dt;
     moveRacers(dt);
     moveWalkers(dt);
+    moveCrews(dt);
+    movePuffs(dt);
 
+    // Marshals wave when a car is near; the balloon drifts in a slow loop.
+    for (const m of marshals) {
+      const near = racers.some((r) => r.group.position.distanceTo(m.at) < 45);
+      m.flag.rotation.z = near ? Math.sin(t * 7) * 0.6 - 0.2 : -0.9;
+      m.model.arms[0].rotation.z = near ? -2.4 + Math.sin(t * 7) * 0.3 : 0;
+    }
+    balloonMesh.position.set(
+      330 + 190 * Math.cos(t * 0.025),
+      38 + Math.sin(t * 0.6) * 0.6,
+      -16 + 36 * Math.sin(t * 0.025),
+    );
+
+    // The stands do a wave; the stage crowd jumps.
     fans.forEach((pos, i) => {
-      const jump = Math.max(0, Math.sin(t * 5 + fanPhase[i]!)) * 0.6;
+      const inStands = i < standFans.length;
+      const jump = inStands
+        ? Math.max(0, Math.sin(t * 2.2 - pos.x * 0.11)) * 0.8
+        : Math.max(0, Math.sin(t * 5 + fanPhase[i]!)) * 0.6;
       tmp.position.set(pos.x, pos.y + Math.round(jump * 2) / 2, pos.z);
       tmp.updateMatrix();
       crowd.setMatrixAt(i, tmp.matrix);
@@ -819,7 +1105,8 @@ export function createWorld(container: HTMLElement, options: { season: string })
 
     flags.forEach((segs, i) =>
       segs.forEach((m, k) => {
-        m.position.y = poles[i]!.y + Math.round(Math.sin(t * 4 + k * 0.9 + i) * k) * 0.25;
+        m.position.z = poles[i]!.z + Math.sin(t * 4 + k * 0.9 + i) * k * 0.22;
+        m.position.y = poles[i]!.y + Math.sin(t * 4 + k * 0.9 + i + 1) * k * 0.08;
       }),
     );
   };

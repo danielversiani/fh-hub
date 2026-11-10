@@ -53,3 +53,7 @@ O dono quis tirar o site do visual estático e dar a ele personalidade, de acord
   - cerca de 140 KB de 3D no modo pista;
   - celulares fracos podem esquentar (o desenho pausa com a aba oculta).
 - **Imagens do modo normal:** são geradas à mão quando o mundo muda. Rode `pnpm dev`, abra `http://localhost:4321/?snapshots` e confira o resultado em `public/world/` (ver RUNBOOK).
+
+## Atualizações
+
+- **2026-11-10, qualidade "de jogo de verdade"** (pedido do dono): sombras de contato em tudo; grama cortada em faixas; linhas brancas de borda, linha de corrida borrachada e marcas de frenagem na pista; alambrados nas curvas; carros refeitos (carroceria, rodas com aro, asa, faróis), que freiam e inclinam nas curvas, acendem as luzes de freio e soltam fumaça de pneu; equipes de box que correm até o carro no pit stop; pessoas com braços; fiscais de pista acenando bandeira; arquibancada com assentos e "ola", mudada para trás da reta oposta (na frente da reta principal ela escondia o grid); balão sobre o circuito; 12 carros em comboio.

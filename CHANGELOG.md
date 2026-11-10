@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-10: **Modo pista, acabamento:** sombras, grama em faixas, linhas e marcas na pista, alambrados, carros detalhados que freiam, inclinam e soltam fumaça, equipes de box, fiscais, arquibancada com "ola" atrás da reta oposta, balão ([ADR-0019](docs/adr/0019-mundo-animado-e-modo-pista.md), Atualizações).
 - 2026-11-10: **Modo pista** ([ADR-0019](docs/adr/0019-mundo-animado-e-modo-pista.md)):
   - mundo animado de blocos (paddock, circuito, pessoas, carros com pit stop) atrás de todo o site;
   - página inicial com logo 3D, manifesto fixo e uma volta completa no circuito ao rolar;

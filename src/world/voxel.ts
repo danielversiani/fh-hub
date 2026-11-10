@@ -5,7 +5,8 @@ import * as THREE from 'three';
  *
  * Everything in the world is made of axis-aligned boxes. Each face gets a fixed shade (top
  * brightest, sides darker), so the scene reads like pixel art without any lights: cheap to
- * render and crisp once the canvas is upscaled with nearest-neighbour filtering.
+ * render and crisp. Every model can also drop a flat contact shadow on the ground (`shadow`),
+ * which is what keeps things from looking like they float.
  */
 
 /** Shade of each face, by its normal. */
@@ -20,6 +21,8 @@ export class Builder {
   private colors: number[] = [];
   private indices: number[] = [];
   private readonly color = new THREE.Color();
+  /** Flat ground shadows of the boxes added with `shadow` (a separate mesh). */
+  private readonly shadows: Builder | null;
 
   /** Origin and quarter turn applied to the boxes added next (see `at`). */
   private ox = 0;
@@ -27,12 +30,17 @@ export class Builder {
   private oz = 0;
   private turn: Turn = 0;
 
+  constructor(withShadows = true) {
+    this.shadows = withShadows ? new Builder(false) : null;
+  }
+
   /** Place the next boxes relative to (x, y, z), turned `turn` quarter turns. */
   at(x: number, y: number, z: number, turn: Turn = 0): this {
     this.ox = x;
     this.oy = y;
     this.oz = z;
     this.turn = turn;
+    this.shadows?.at(x, 0, z, turn);
     return this;
   }
 
@@ -137,6 +145,17 @@ export class Builder {
     return this;
   }
 
+  /**
+   * A flat ground shadow for something standing on (x, z) with footprint w × d and height h:
+   * slightly bigger than the footprint and pushed towards +x/+z, as if the sun were behind the
+   * camera's left shoulder.
+   */
+  shadow(x: number, z: number, w: number, d: number, h: number): this {
+    const push = Math.min(2.2, 0.16 * h);
+    this.shadows?.box(x - 0.3 + push, 0.03, z - 0.3 + push * 0.7, w + 0.6, 0.02, d + 0.6, '#000');
+    return this;
+  }
+
   get empty(): boolean {
     return this.positions.length === 0;
   }
@@ -152,12 +171,38 @@ export class Builder {
   mesh(material: THREE.Material = SHARED_MATERIAL): THREE.Mesh {
     return new THREE.Mesh(this.geometry(), material);
   }
+
+  /** The shadows of everything built so far, as one translucent mesh (or null if none). */
+  shadowMesh(): THREE.Mesh | null {
+    if (!this.shadows || this.shadows.empty) return null;
+    const m = this.shadows.mesh(SHADOW_MATERIAL);
+    m.renderOrder = -1;
+    return m;
+  }
+
+  /** A group with the mesh and its shadow (dynamic models). */
+  group(material: THREE.Material = SHARED_MATERIAL): THREE.Group {
+    const g = new THREE.Group();
+    g.add(this.mesh(material));
+    const s = this.shadowMesh();
+    if (s) g.add(s);
+    return g;
+  }
 }
 
 /** One unlit material for every voxel mesh: colours come from the vertices. */
 export const SHARED_MATERIAL = new THREE.MeshBasicMaterial({
   vertexColors: true,
   // Both sides: faces are added in a fixed order, not a consistent winding.
+  side: THREE.DoubleSide,
+});
+
+/** Soft black for the contact shadows. */
+export const SHADOW_MATERIAL = new THREE.MeshBasicMaterial({
+  color: '#000000',
+  transparent: true,
+  opacity: 0.45,
+  depthWrite: false,
   side: THREE.DoubleSide,
 });
 
