@@ -36,3 +36,7 @@ O dono decidiu: quando um tunador compartilha uma tune ou uma planilha publicame
 - **Positivas:** o site pode usar toda informação pública da comunidade e cruzar fontes, que é o seu valor. As regras ficam simples e honestas na página "Uso de dados".
 - **Negativas:** algum autor pode não gostar de ver o trabalho reunido aqui. A saída rápida, o crédito e o link reduzem esse risco.
 - O aviso de pré-lançamento passa a dizer só que o site está em testes e como pedir remoção.
+
+## Atualização (2026-11-10): lançamento
+
+O aviso de pré-lançamento e o `noindex` saíram: o site está aberto e pode ser indexado. O caminho para pedir remoção, correção ou mudança de crédito fica na página "Uso de dados" (`/legal/`, link no rodapé), com o prazo de 7 dias.
