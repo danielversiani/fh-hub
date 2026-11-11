@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-11T22:00:42.304Z",
   "items": [
     {
       "buildTags": [],
@@ -126,6 +126,29 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-maserati-mc20",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "id": "sc-886561357",
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 113,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.446,
+      "shareCode": "886561357",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

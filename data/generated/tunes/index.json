@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T15:15:07.438Z",
+  "generatedAt": "2026-11-11T22:00:42.304Z",
   "items": [
     {
       "buildTags": [
@@ -13432,42 +13432,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ford-mustang-gtd",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S2",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-2ca683f6ad",
-      "lapRefs": [
-        {
-          "time": "49.8",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 49.8",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 26,
-      "name": "S2 road AWD",
-      "role": "allround",
-      "score": 0.563,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -41849,31 +41813,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "nalak28"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ford-mustang-gtd",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-8d0bfb11de",
-      "metaRank": 18,
-      "name": "S1 road AWD",
-      "role": "allround",
-      "score": 0.695,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -78642,6 +78581,42 @@
     },
     {
       "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-135913002",
+      "lapRefs": [
+        {
+          "time": "1:00.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:00.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 67,
+      "name": "A Handling-Allround",
+      "role": "handling",
+      "score": 0.626,
+      "shareCode": "135913002",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
       "carId": "2019-toyota-tacoma-trd-pro-forza-edition",
       "categories": [],
       "class": "R",
@@ -81698,6 +81673,42 @@
       "tunerId": "vsm-huon"
     },
     {
+      "buildTags": [],
+      "carId": "2025-ford-mustang-gtd",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-176126913",
+      "lapRefs": [
+        {
+          "time": "49.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 49.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 26,
+      "name": "S2 Allround",
+      "role": "allround",
+      "score": 0.551,
+      "shareCode": "176126913",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "letzelu"
+    },
+    {
       "buildTags": [
         "stock-look"
       ],
@@ -83695,6 +83706,23 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-lamborghini-revuelto",
+      "categories": [],
+      "class": "A",
+      "id": "sc-382402144",
+      "name": "A Allround",
+      "score": 0.446,
+      "shareCode": "382402144",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -86497,6 +86525,26 @@
     },
     {
       "buildTags": [],
+      "carId": "2025-ford-mustang-gtd",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "id": "sc-726474876",
+      "metaRank": 63,
+      "name": "A Allround",
+      "score": 0.531,
+      "shareCode": "726474876",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
       "carId": "1991-honda-beat",
       "categories": [
         "meta"
@@ -86508,7 +86556,7 @@
       "id": "sc-726769731",
       "metaRank": 4,
       "name": "B Road Meta",
-      "role": "allround",
+      "role": "handling",
       "score": 0.82,
       "shareCode": "726769731",
       "sourceIds": [
@@ -86801,6 +86849,31 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "trviis"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ford-mustang-gtd",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-760277793",
+      "metaRank": 18,
+      "name": "S1 Allround",
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "760277793",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -88116,6 +88189,23 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "lnvrtebrate"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-maserati-mc20",
+      "categories": [],
+      "class": "A",
+      "id": "sc-886561357",
+      "name": "A Allround",
+      "score": 0.446,
+      "shareCode": "886561357",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],

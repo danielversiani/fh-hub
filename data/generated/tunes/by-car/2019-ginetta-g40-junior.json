@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:25:08.523Z",
+  "generatedAt": "2026-11-11T22:00:42.304Z",
   "items": [
     {
       "buildTags": [],
@@ -870,6 +870,48 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "osm-cinnabar"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ginetta-g40-junior",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-135913002",
+      "lapRefs": [
+        {
+          "time": "1:00.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:00.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 67,
+      "name": "A Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 93,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "handling",
+      "score": 0.626,
+      "shareCode": "135913002",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],

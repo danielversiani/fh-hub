@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T17:52:47.194Z",
+  "generatedAt": "2026-11-11T22:00:42.304Z",
   "items": [
     {
       "buildTags": [],
@@ -69,48 +69,6 @@
       "buildTags": [],
       "carId": "2025-ford-mustang-gtd",
       "categories": [
-        "off-meta"
-      ],
-      "class": "S2",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-2ca683f6ad",
-      "lapRefs": [
-        {
-          "time": "49.8",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 49.8",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 26,
-      "name": "S2 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 57,
-          "sourceId": "noa-miyako",
-          "tab": "s2-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.563,
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ford-mustang-gtd",
-      "categories": [
         "meta"
       ],
       "class": "S1",
@@ -137,37 +95,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2025-ford-mustang-gtd",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-8d0bfb11de",
-      "metaRank": 18,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 39,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -307,6 +234,105 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ford-mustang-gtd",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-176126913",
+      "lapRefs": [
+        {
+          "time": "49.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 49.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 26,
+      "name": "S2 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 228,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.551,
+      "shareCode": "176126913",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ford-mustang-gtd",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-726474876",
+      "metaRank": 63,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 90,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.531,
+      "shareCode": "726474876",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-ford-mustang-gtd",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-760277793",
+      "metaRank": 18,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 170,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.682,
+      "shareCode": "760277793",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1
