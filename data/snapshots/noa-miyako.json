@@ -2521,11 +2521,10 @@
         "carClass": "S1",
         "difficulty": "简单",
         "drivetrain": "AWD",
-        "notes": "白川 54.5",
         "rank": 24,
         "raw": {
           "制造商": "Maserati 玛莎拉蒂",
-          "备注": "白川 54.5",
+          "备注": "",
           "定位": "全能",
           "竞争力": "T0.5",
           "调校师": "LetzeLU",
@@ -2541,7 +2540,8 @@
         "tier": "T0.5",
         "tires": "拉力胎",
         "tuners": [
-          "LetzeLU"
+          "LetzeLU",
+          "lphanhan"
         ]
       },
       {
@@ -9682,7 +9682,7 @@
           "text": "2023 Dodge Challenger SRT Demon 170"
         },
         "carClass": "A",
-        "difficulty": "简单",
+        "difficulty": "中等",
         "drivetrain": "AWD",
         "notes": "白川1:00.2",
         "rank": 59,
@@ -9694,7 +9694,7 @@
           "调校师": "K1Z Bard",
           "车辆型号": "2023 Dodge Challenger SRT Demon 170",
           "轮胎": "拉力胎",
-          "难度": "简单",
+          "难度": "中等",
           "驱动": "AWD"
         },
         "role": "全能",
@@ -24762,13 +24762,29 @@
       },
       {
         "car": {
+          "make": "Maserati",
+          "text": "2004 Maserati MC12"
+        },
+        "carClass": "S1",
+        "date": "2026-11-11",
+        "kind": "update",
+        "row": 5,
+        "surface": "dirt",
+        "tab": "updates",
+        "tier": "T0.5",
+        "tuners": [
+          "lphanhan"
+        ]
+      },
+      {
+        "car": {
           "make": "Toyota",
           "text": "1996 Toyota Starlet Glanza V"
         },
         "carClass": "B",
         "date": "2026-11-11",
         "kind": "update",
-        "row": 5,
+        "row": 7,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T0.5",
@@ -24784,7 +24800,7 @@
         "carClass": "A",
         "date": "2026-11-11",
         "kind": "update",
-        "row": 7,
+        "row": 9,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T0.5",
@@ -24800,7 +24816,7 @@
         "carClass": "S1",
         "date": "2026-11-11",
         "kind": "update",
-        "row": 9,
+        "row": 11,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T1",
@@ -24816,7 +24832,7 @@
         "carClass": "S1",
         "date": "2026-11-11",
         "kind": "update",
-        "row": 11,
+        "row": 13,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T0.5",
@@ -24832,7 +24848,7 @@
         "carClass": "B",
         "date": "2026-11-11",
         "kind": "update",
-        "row": 13,
+        "row": 15,
         "surface": "road",
         "tab": "updates",
         "tier": "T0.5",
@@ -24848,7 +24864,7 @@
         "carClass": "S1",
         "date": "2026-11-11",
         "kind": "update",
-        "row": 15,
+        "row": 17,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T1.5",
@@ -24864,7 +24880,7 @@
         "carClass": "S1",
         "date": "2026-11-10",
         "kind": "update",
-        "row": 17,
+        "row": 19,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T1",
@@ -24880,7 +24896,7 @@
         "carClass": "B",
         "date": "2026-11-09",
         "kind": "update",
-        "row": 19,
+        "row": 21,
         "surface": "road",
         "tab": "updates",
         "tier": "T0.5",
@@ -24896,7 +24912,7 @@
         "carClass": "A",
         "date": "2026-11-09",
         "kind": "update",
-        "row": 21,
+        "row": 23,
         "surface": "road",
         "tab": "updates",
         "tier": "T1",
@@ -24912,7 +24928,7 @@
         "carClass": "A",
         "date": "2026-11-09",
         "kind": "update",
-        "row": 23,
+        "row": 25,
         "surface": "road",
         "tab": "updates",
         "tier": "T1",
@@ -24928,7 +24944,7 @@
         "carClass": "B",
         "date": "2026-11-09",
         "kind": "update",
-        "row": 25,
+        "row": 27,
         "surface": "road",
         "tab": "updates",
         "tier": "T1",
@@ -24944,7 +24960,7 @@
         "carClass": "A",
         "date": "2026-11-08",
         "kind": "update",
-        "row": 27,
+        "row": 29,
         "surface": "road",
         "tab": "updates",
         "tier": "T1",
@@ -24960,7 +24976,7 @@
         "carClass": "A",
         "date": "2026-11-08",
         "kind": "update",
-        "row": 29,
+        "row": 31,
         "surface": "road",
         "tab": "updates",
         "tier": "T0.5",
@@ -24976,7 +24992,7 @@
         "carClass": "S1",
         "date": "2026-11-08",
         "kind": "update",
-        "row": 31,
+        "row": 33,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T0.5",
@@ -24992,7 +25008,7 @@
         "carClass": "A",
         "date": "2026-11-07",
         "kind": "update",
-        "row": 33,
+        "row": 35,
         "surface": "road",
         "tab": "updates",
         "tier": "T0.5",
@@ -25011,7 +25027,7 @@
         "carClass": "B",
         "date": "2026-11-05",
         "kind": "update",
-        "row": 37,
+        "row": 39,
         "surface": "dirt",
         "tab": "updates",
         "tier": "Meta",
@@ -25027,7 +25043,7 @@
         "carClass": "S2",
         "date": "2026-11-05",
         "kind": "update",
-        "row": 39,
+        "row": 41,
         "surface": "road",
         "tab": "updates",
         "tier": "T0.5",
@@ -25043,7 +25059,7 @@
         "carClass": "B",
         "date": "2026-11-05",
         "kind": "update",
-        "row": 41,
+        "row": 43,
         "surface": "dirt",
         "tab": "updates",
         "tier": "T1",
@@ -25059,7 +25075,7 @@
         "carClass": "S1",
         "date": "2026-11-04",
         "kind": "update",
-        "row": 43,
+        "row": 45,
         "surface": "road",
         "tab": "updates",
         "tier": "T1",
@@ -25077,27 +25093,12 @@
         "carClass": "S2",
         "date": "2026-11-04",
         "kind": "update",
-        "row": 47,
+        "row": 49,
         "surface": "road",
         "tab": "updates",
         "tier": "T1",
         "tuners": [
           "MSR Pyke"
-        ]
-      },
-      {
-        "car": {
-          "make": "Lamborghini",
-          "text": "2022 Lamborghini Huracan EVO Spyder"
-        },
-        "carClass": "S1",
-        "kind": "update",
-        "row": 49,
-        "surface": "road",
-        "tab": "updates",
-        "tier": "T1.5",
-        "tuners": [
-          "Noa Seako"
         ]
       },
       {
@@ -25148,7 +25149,8 @@
         "tab": "updates",
         "tier": "T0.5",
         "tuners": [
-          "LetzeLU"
+          "LetzeLU",
+          "lphanhan"
         ]
       },
       {
