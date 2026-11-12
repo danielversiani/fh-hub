@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T17:52:47.194Z",
+  "generatedAt": "2026-11-12T11:17:14.265Z",
   "items": [
     {
       "buildTags": [
@@ -74,11 +74,45 @@
     {
       "buildTags": [],
       "carId": "1970-chevrolet-corvette-zr-1",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-648a78e7ef",
+      "metaRank": 3,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 8,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.732,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-821cab9075",
+      "metaRank": 3,
       "name": "Off-Meta A Dirt",
       "observations": [
         {
@@ -98,20 +132,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.665,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "eojz7294"
     },
     {
       "buildTags": [],
       "carId": "1970-chevrolet-corvette-zr-1",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-8498e71472",
+      "metaRank": 3,
       "name": "A class Dirt",
       "observations": [
         {
@@ -131,10 +168,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.665,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "polarbear690"
     },
     {

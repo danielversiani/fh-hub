@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:00:42.304Z",
+  "generatedAt": "2026-11-12T11:17:14.265Z",
   "items": [
     {
       "buildTags": [],
@@ -165,6 +165,37 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-chevrolet-camaro-zl1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f5098d7924",
+      "metaRank": 36,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],

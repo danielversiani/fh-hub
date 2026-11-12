@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:02:20.379Z",
+  "generatedAt": "2026-11-12T11:17:14.265Z",
   "items": [
     {
       "after": "32 Narai",
@@ -51775,6 +51775,84 @@
       },
       "kind": "added",
       "sourceId": "attax-johnson",
+      "surface": "road"
+    },
+    {
+      "after": "meta",
+      "at": "2026-11-12T11:17:14.265Z",
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|1970-chevrolet-corvette-zr-1|A|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-12T11:17:14.265Z",
+      "carId": "2016-abarth-695-biposto",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|2016-abarth-695-biposto|B|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-12T11:17:14.265Z",
+      "carId": "2017-chevrolet-camaro-zl1",
+      "class": "S1",
+      "entity": {
+        "id": "noa-miyako|2017-chevrolet-camaro-zl1|S1|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "A dirt AWD",
+      "at": "2026-11-12T11:17:14.265Z",
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "class": "A",
+      "entity": {
+        "id": "nc-648a78e7ef",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "B dirt AWD",
+      "at": "2026-11-12T11:17:14.265Z",
+      "carId": "2016-abarth-695-biposto",
+      "class": "B",
+      "entity": {
+        "id": "nc-ca71c37a7e",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "S1 road AWD",
+      "at": "2026-11-12T11:17:14.265Z",
+      "carId": "2017-chevrolet-camaro-zl1",
+      "class": "S1",
+      "entity": {
+        "id": "nc-f5098d7924",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
       "surface": "road"
     }
   ],

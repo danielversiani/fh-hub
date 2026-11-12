@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T17:52:47.194Z",
+  "generatedAt": "2026-11-12T11:17:14.265Z",
   "items": [
     {
       "buildTags": [
@@ -191,6 +191,37 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-abarth-695-biposto",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ca71c37a7e",
+      "metaRank": 22,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 48,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.638,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [
