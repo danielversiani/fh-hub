@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:08:17.947Z",
+  "generatedAt": "2026-11-12T03:02:20.379Z",
   "items": [
     {
       "carId": "2021-bmw-m4-competition-coupe",
@@ -279,6 +279,25 @@
       "tuneId": "sc-726769731"
     },
     {
+      "carId": "2023-acura-integra-a-spec",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s07-spring--championship--streets-ahead",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.72,
+      "seasonId": "s07-spring",
+      "tuneId": "sc-101219833"
+    },
+    {
       "carId": "2001-acura-integra-type-r",
       "category": "meta",
       "confidence": 0.8,
@@ -297,26 +316,6 @@
       "score": 0.732,
       "seasonId": "s07-spring",
       "tuneId": "nc-6ede4a7e4a"
-    },
-    {
-      "carId": "2023-acura-integra-a-spec",
-      "category": "meta",
-      "confidence": 0.8,
-      "eventId": "s07-spring--championship--streets-ahead",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "meta"
-          }
-        }
-      ],
-      "score": 0.732,
-      "seasonId": "s07-spring",
-      "tuneId": "nc-40c22ee82e"
     },
     {
       "carId": "1984-honda-city-e-ii",

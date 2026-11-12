@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:08:17.947Z",
+  "generatedAt": "2026-11-12T03:02:20.379Z",
   "items": [
     {
       "carId": "1986-honda-civic-si",
@@ -66,6 +66,25 @@
       "tuneId": "nc-67e5ad1d6e"
     },
     {
+      "carId": "2023-acura-integra-a-spec",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.72,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-101219833"
+    },
+    {
       "carId": "2001-acura-integra-type-r",
       "category": "meta",
       "confidence": 0.8,
@@ -84,26 +103,6 @@
       "score": 0.732,
       "seasonId": "s06-autumn",
       "tuneId": "nc-6ede4a7e4a"
-    },
-    {
-      "carId": "2023-acura-integra-a-spec",
-      "category": "meta",
-      "confidence": 0.8,
-      "eventId": "s06-autumn--championship--weekend-break",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "meta"
-          }
-        }
-      ],
-      "score": 0.732,
-      "seasonId": "s06-autumn",
-      "tuneId": "nc-40c22ee82e"
     },
     {
       "carId": "1932-ford-de-luxe-five-window-coupe",

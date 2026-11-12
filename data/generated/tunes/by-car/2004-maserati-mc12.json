@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:00:42.304Z",
+  "generatedAt": "2026-11-12T03:02:20.379Z",
   "items": [
     {
       "buildTags": [],
@@ -706,6 +706,31 @@
       ],
       "class": "S1",
       "confidence": 0.95,
+      "id": "nc-9ac37ed8c4",
+      "metaRank": 24,
+      "name": "S1 Handling-Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 191,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.627,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu-letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
       "drivetrain": "AWD",
       "id": "nc-9c5f0bb87b",
       "metaRank": 24,
@@ -1077,32 +1102,44 @@
       "tunerId": "greeteddust8"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2004-maserati-mc12",
       "categories": [
         "meta"
       ],
-      "class": "S1",
+      "class": "A",
       "confidence": 0.95,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "id": "sc-213577493",
-      "metaRank": 24,
-      "name": "S1 Handling-Allround",
+      "id": "sc-226863222",
+      "lapRefs": [
+        {
+          "time": "59.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 5,
+      "name": "A Allround",
       "observations": [
         {
           "raw": {},
-          "row": 187,
+          "row": 113,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
         }
       ],
       "role": "allround",
-      "score": 0.703,
-      "shareCode": "213577493",
+      "score": 0.796,
+      "shareCode": "226863222",
       "surface": "road",
-      "tier": "t0.5",
+      "tier": "meta-plus",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
@@ -1150,7 +1187,7 @@
       "observations": [
         {
           "raw": {},
-          "row": 236,
+          "row": 241,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
         }

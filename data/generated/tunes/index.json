@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:00:42.304Z",
+  "generatedAt": "2026-11-12T03:02:20.379Z",
   "items": [
     {
       "buildTags": [
@@ -19597,42 +19597,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "vnx-ardent"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-acura-integra-a-spec",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-40c22ee82e",
-      "lapRefs": [
-        {
-          "time": "1:04.3",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:04.3",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 6,
-      "name": "B road AWD",
-      "role": "allround",
-      "score": 0.732,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -46048,6 +46012,25 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "id": "nc-9ac37ed8c4",
+      "metaRank": 24,
+      "name": "S1 Handling-Allround",
+      "score": 0.627,
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu-letzelu"
     },
     {
       "buildTags": [],
@@ -76073,6 +76056,42 @@
     },
     {
       "buildTags": [],
+      "carId": "2023-acura-integra-a-spec",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-101219833",
+      "lapRefs": [
+        {
+          "time": "1:04.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 6,
+      "name": "B Allround",
+      "role": "allround",
+      "score": 0.72,
+      "shareCode": "101219833",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
       "carId": "2010-pagani-zonda-cinque-roadster",
       "categories": [],
       "class": "S2",
@@ -78779,6 +78798,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2017-ford-gt",
+      "categories": [],
+      "class": "S1",
+      "id": "sc-137517439",
+      "name": "S1 Speed-Allround",
+      "score": 0.446,
+      "shareCode": "137517439",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
       "carId": "2015-ultima-evolution-coupe-1020",
       "categories": [],
       "class": "R",
@@ -80893,6 +80929,26 @@
     },
     {
       "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "id": "sc-168029612",
+      "metaRank": 83,
+      "name": "A Allround",
+      "score": 0.577,
+      "shareCode": "168029612",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
       "carId": "2020-lamborghini-sian-roadster",
       "categories": [],
       "class": "A",
@@ -82425,31 +82481,6 @@
       "tunerId": "caigou-yyy"
     },
     {
-      "buildTags": [],
-      "carId": "2004-maserati-mc12",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-213577493",
-      "metaRank": 24,
-      "name": "S1 Handling-Allround",
-      "role": "allround",
-      "score": 0.703,
-      "shareCode": "213577493",
-      "sourceIds": [
-        "attax-johnson"
-      ],
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
       "buildTags": [
         "full-aero"
       ],
@@ -82613,6 +82644,43 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "fuzzytexas81292"
+    },
+    {
+      "brainAfk": "auto",
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-226863222",
+      "lapRefs": [
+        {
+          "time": "59.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 5,
+      "name": "A Allround",
+      "role": "allround",
+      "score": 0.796,
+      "shareCode": "226863222",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -83596,6 +83664,26 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-ferrari-f8-tributo",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "id": "sc-370574019",
+      "metaRank": 125,
+      "name": "S1 Allround",
+      "score": 0.518,
+      "shareCode": "370574019",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -88870,6 +88958,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-969881490",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川54.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 25,
+      "name": "S1 Allround",
+      "role": "allround",
+      "score": 0.701,
+      "shareCode": "969881490",
+      "sourceIds": [
+        "attax-johnson"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [

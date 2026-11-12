@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T16:12:35.102Z",
+  "generatedAt": "2026-11-12T03:02:20.379Z",
   "items": [
     {
       "buildTags": [
@@ -186,48 +186,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-acura-integra-a-spec",
-      "categories": [
-        "meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-40c22ee82e",
-      "lapRefs": [
-        {
-          "time": "1:04.3",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:04.3",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 6,
-      "name": "B road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 14,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -639,6 +597,48 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "cte-seasons"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-acura-integra-a-spec",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-101219833",
+      "lapRefs": [
+        {
+          "time": "1:04.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 6,
+      "name": "B Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 22,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.72,
+      "shareCode": "101219833",
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],

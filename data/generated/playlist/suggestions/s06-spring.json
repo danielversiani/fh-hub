@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:08:17.947Z",
+  "generatedAt": "2026-11-12T03:02:20.379Z",
   "items": [
     {
       "carId": "1997-lotus-elise-gt1",
@@ -53,6 +53,7 @@
       "category": "meta",
       "confidence": 0.95,
       "eventId": "s06-spring--championship--dockside-drive",
+      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -71,9 +72,9 @@
           }
         }
       ],
-      "score": 0.703,
+      "score": 0.714,
       "seasonId": "s06-spring",
-      "tuneId": "sc-213577493"
+      "tuneId": "nc-71b2de0576"
     },
     {
       "carId": "2002-ferrari-enzo-ferrari",
@@ -430,11 +431,10 @@
       "tuneId": "sc-726769731"
     },
     {
-      "carId": "2001-acura-integra-type-r",
+      "carId": "2023-acura-integra-a-spec",
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
-      "needsGamertagSearch": true,
       "origin": "rules",
       "reasons": [
         {
@@ -445,9 +445,9 @@
           }
         }
       ],
-      "score": 0.732,
+      "score": 0.72,
       "seasonId": "s06-spring",
-      "tuneId": "nc-6ede4a7e4a"
+      "tuneId": "sc-101219833"
     },
     {
       "carId": "1968-abarth-595-esseesse",
@@ -470,6 +470,26 @@
       "tuneId": "nc-48ad93b4ee"
     },
     {
+      "carId": "2001-acura-integra-type-r",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.638,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-1b22e7039b"
+    },
+    {
       "carId": "1973-bmw-2002-turbo",
       "category": "off-meta",
       "confidence": 0.8,
@@ -488,26 +508,6 @@
       "score": 0.488,
       "seasonId": "s06-spring",
       "tuneId": "nc-25502f3d76"
-    },
-    {
-      "carId": "1964-chevrolet-impala-super-sport-409",
-      "category": "off-meta",
-      "confidence": 0.8,
-      "eventId": "s06-spring--horizon-life-the-trial--countryside-views",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t1"
-          }
-        }
-      ],
-      "score": 0.526,
-      "seasonId": "s06-spring",
-      "tuneId": "nc-2b3e74e440"
     },
     {
       "carId": "1989-nissan-silvia-ks",

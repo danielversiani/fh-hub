@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:25:08.523Z",
+  "generatedAt": "2026-11-12T03:02:20.379Z",
   "items": [
     {
       "buildTags": [],
@@ -248,6 +248,74 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-168029612",
+      "metaRank": 83,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 115,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.577,
+      "shareCode": "168029612",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-969881490",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川54.5",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 25,
+      "name": "S1 Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 203,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "role": "allround",
+      "score": 0.701,
+      "shareCode": "969881490",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1
