@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T11:17:14.265Z",
+  "generatedAt": "2026-11-12T18:59:45.499Z",
   "items": [
     {
       "after": "32 Narai",
@@ -51849,6 +51849,124 @@
       "class": "S1",
       "entity": {
         "id": "nc-f5098d7924",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-12T18:59:45.499Z",
+      "before": "t1",
+      "carId": "1977-pontiac-firebird-trans-am",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1977-pontiac-firebird-trans-am|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2016-honda-s2260-alpha|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|2016-honda-s2260-alpha|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t3",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "2025-volkswagen-electric-buzz",
+      "class": "S1",
+      "entity": {
+        "id": "noa-miyako|2025-volkswagen-electric-buzz|S1|cross-country",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "S1 cross-country AWD",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "2025-volkswagen-electric-buzz",
+      "class": "S1",
+      "entity": {
+        "id": "nc-12cff434e9",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "B road AWD",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "B",
+      "entity": {
+        "id": "nc-35ff69d002",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "A road AWD",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "A",
+      "entity": {
+        "id": "nc-38c19b023d",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "S1 road AWD",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "2004-maserati-mc12",
+      "class": "S1",
+      "entity": {
+        "id": "nc-561ca7a1aa",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road RWD",
+      "at": "2026-11-12T18:59:45.499Z",
+      "carId": "1977-pontiac-firebird-trans-am",
+      "class": "B",
+      "entity": {
+        "id": "nc-9f54ae3048",
         "type": "tune"
       },
       "kind": "added",

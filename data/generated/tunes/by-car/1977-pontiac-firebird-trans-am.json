@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-12T11:17:14.265Z",
+  "generatedAt": "2026-11-12T18:59:45.499Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1977-pontiac-firebird-trans-am",
       "categories": [
-        "off-meta"
+        "meta"
       ],
       "class": "B",
       "confidence": 0.8,
@@ -16,29 +16,25 @@
       "id": "nc-74636eccbb",
       "lapRefs": [
         {
-          "time": "1:05.2",
+          "time": "1:04.9",
           "track": "Shirakawa"
         }
       ],
-      "metaNotes": "白川1:05.2 有点假震动",
-      "metaNotesI18n": {
-        "en": "Has some odd fake vibration.",
-        "pt-br": "Tem uma vibração estranha no volante."
-      },
-      "metaRank": 66,
+      "metaNotes": "白川1:04.9 中后段优势 出弯小心打滑",
+      "metaRank": 26,
       "name": "B road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 136,
+          "row": 55,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
       ],
       "role": "power",
-      "score": 0.526,
+      "score": 0.582,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "vintage",
       "tunerId": "msr-sam"
@@ -78,6 +74,44 @@
       "buildTags": [],
       "carId": "1977-pontiac-firebird-trans-am",
       "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-9f54ae3048",
+      "lapRefs": [
+        {
+          "time": "1:04.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.9 中后段优势 出弯小心打滑",
+      "metaRank": 26,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 55,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-pyke"
+    },
+    {
+      "buildTags": [],
+      "carId": "1977-pontiac-firebird-trans-am",
+      "categories": [
         "off-meta"
       ],
       "class": "A",
@@ -87,12 +121,12 @@
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-a5e0ba6b80",
-      "metaRank": 121,
+      "metaRank": 122,
       "name": "A road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 247,
+          "row": 249,
           "sourceId": "noa-miyako",
           "tab": "a-road"
         }

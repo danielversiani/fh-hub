@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:02:20.379Z",
+  "generatedAt": "2026-11-12T18:59:45.499Z",
   "items": [
     {
       "buildTags": [],
@@ -356,6 +356,37 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "k1z-jumpy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-561ca7a1aa",
+      "metaRank": 25,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.688,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -1056,6 +1087,12 @@
         {
           "raw": {},
           "row": 51,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        },
+        {
+          "raw": {},
+          "row": 53,
           "sourceId": "noa-miyako",
           "tab": "s1-road"
         }

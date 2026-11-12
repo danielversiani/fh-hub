@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-11-12T18:59:45.499Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-35ff69d002",
+      "lapRefs": [
+        {
+          "time": "1:04.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:04.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 18,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 39,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.695,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-38c19b023d",
+      "lapRefs": [
+        {
+          "time": "1:00.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:00.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 69,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 142,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.638,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

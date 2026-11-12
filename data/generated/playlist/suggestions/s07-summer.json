@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T15:15:07.438Z",
+  "generatedAt": "2026-11-12T18:59:45.499Z",
   "items": [
     {
       "carId": "1984-honda-city-e-ii",
@@ -582,6 +582,26 @@
       "score": 0.732,
       "seasonId": "s07-summer",
       "tuneId": "nc-421be5743c"
+    },
+    {
+      "carId": "2016-honda-s2260-alpha",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s07-summer--horizon-life-the-trial--domestic-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.695,
+      "seasonId": "s07-summer",
+      "tuneId": "nc-35ff69d002"
     },
     {
       "carId": "1994-subaru-vivio-rx-r",
