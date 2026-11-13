@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T18:59:45.499Z",
+  "generatedAt": "2026-11-13T00:28:11.028Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "KorbenDallas709",
             "fill": "FFFF0000"
           },
-          "row": 2483,
+          "row": 2493,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -62,7 +62,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FFFF0000"
           },
-          "row": 2481,
+          "row": 2491,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -111,7 +111,7 @@
             "Tuner": "LetzeLU",
             "fill": "FFFF0000"
           },
-          "row": 2485,
+          "row": 2495,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -150,7 +150,7 @@
             "Tuner": "K1Z Amemiya",
             "fill": "FFED7D31"
           },
-          "row": 482,
+          "row": 485,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -183,7 +183,7 @@
             "Tuner": "GRT Breezy",
             "fill": "FFED7D31"
           },
-          "row": 481,
+          "row": 484,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -219,7 +219,7 @@
             "Tuner": "major esus",
             "fill": "FFFF0000"
           },
-          "row": 2486,
+          "row": 2496,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -255,7 +255,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 2477,
+          "row": 2487,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -322,7 +322,7 @@
             "Tuner": "GreetedDust8",
             "fill": "FFFF0000"
           },
-          "row": 2482,
+          "row": 2492,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -360,7 +360,7 @@
             "Tuner": "DarkZ704",
             "fill": "FFFF0000"
           },
-          "row": 2479,
+          "row": 2489,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -396,7 +396,7 @@
             "Tuner": "NEPOSHA",
             "fill": "FFFF0000"
           },
-          "row": 2487,
+          "row": 2497,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -432,7 +432,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2478,
+          "row": 2488,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -507,7 +507,7 @@
             "Tuner": "LetzeLU",
             "fill": "FF7030A0"
           },
-          "row": 2488,
+          "row": 2498,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -588,7 +588,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2480,
+          "row": 2490,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -627,7 +627,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 2484,
+          "row": 2494,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -637,6 +637,39 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-nissan-skyline-gt-r-v-spec",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e47d3e4bed",
+      "name": "B road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1997 Nissan Skyline GT-R V-Spec",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B road",
+            "Tuner": "IceFrice8724",
+            "fill": "FFED7D31"
+          },
+          "row": 483,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],
@@ -660,7 +693,7 @@
             "Tuner": "K1Z Amemiya",
             "fill": "FFED7D31"
           },
-          "row": 483,
+          "row": 486,
           "sourceId": "kleis",
           "tab": "fh6"
         }

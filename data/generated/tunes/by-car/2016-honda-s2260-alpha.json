@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-12T18:59:45.499Z",
+  "generatedAt": "2026-11-13T00:28:11.028Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-32108fbfe7",
+      "metaRank": 69,
+      "name": "カードが挿入されていません",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Honda S660 Alpha",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "カードが挿入されていません",
+            "Tuner": "Grandma Driving",
+            "fill": "FFFF0000"
+          },
+          "row": 1753,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.59,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "grandma-driving"
+    },
     {
       "buildTags": [],
       "carId": "2016-honda-s2260-alpha",
@@ -84,6 +120,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-4b5d4c94ba",
+      "metaRank": 18,
+      "name": "RWD Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Honda S660 Alpha",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "RWD Handling",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 379,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "dumbo-gt49"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T18:59:45.499Z",
+  "generatedAt": "2026-11-13T00:28:11.028Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "VER EnderAU",
             "fill": "FFFF0000"
           },
-          "row": 1771,
+          "row": 1776,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -72,7 +72,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 1772,
+          "row": 1778,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -84,6 +84,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-hsv-gen-f-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-98c60167f5",
+      "metaRank": 74,
+      "name": "A-Class Accel Beast",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2014 HSV Gen-F GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A-Class Accel Beast",
+            "Tuner": "Koarsse",
+            "fill": "FFFF0000"
+          },
+          "row": 1777,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "koarsse"
     },
     {
       "buildTags": [],
