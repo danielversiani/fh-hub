@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-11-12T03:02:20.379Z",
+  "generatedAt": "2026-11-13T16:27:39.804Z",
   "items": [
+    {
+      "carId": "2004-maserati-mc12",
+      "category": "meta",
+      "confidence": 0.95,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        },
+        {
+          "key": "reason.laptime",
+          "params": {
+            "class": "S1",
+            "rank": 7,
+            "track": "Shirakawa"
+          }
+        }
+      ],
+      "score": 0.72,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-561ca7a1aa"
+    },
     {
       "carId": "1997-lotus-elise-gt1",
       "category": "meta",
@@ -47,34 +75,6 @@
       "score": 0.663,
       "seasonId": "s06-spring",
       "tuneId": "sc-157872553"
-    },
-    {
-      "carId": "2004-maserati-mc12",
-      "category": "meta",
-      "confidence": 0.95,
-      "eventId": "s06-spring--championship--dockside-drive",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t0.5"
-          }
-        },
-        {
-          "key": "reason.laptime",
-          "params": {
-            "class": "S1",
-            "rank": 7,
-            "track": "Shirakawa"
-          }
-        }
-      ],
-      "score": 0.714,
-      "seasonId": "s06-spring",
-      "tuneId": "nc-71b2de0576"
     },
     {
       "carId": "2002-ferrari-enzo-ferrari",
@@ -137,6 +137,37 @@
       "tuneId": "nc-1137f2e45f"
     },
     {
+      "carId": "2004-maserati-mc12",
+      "category": "purist",
+      "confidence": 0.95,
+      "eventId": "s06-spring--championship--dockside-drive",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        },
+        {
+          "key": "reason.laptime",
+          "params": {
+            "class": "S1",
+            "rank": 7,
+            "track": "Shirakawa"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.663,
+      "seasonId": "s06-spring",
+      "tuneId": "nc-6fc71a23a9"
+    },
+    {
       "carId": "1997-lotus-elise-gt1",
       "category": "purist",
       "confidence": 0.8,
@@ -158,37 +189,6 @@
       "score": 0.635,
       "seasonId": "s06-spring",
       "tuneId": "nc-e944f267dd"
-    },
-    {
-      "carId": "2004-maserati-mc12",
-      "category": "purist",
-      "confidence": 0.95,
-      "eventId": "s06-spring--championship--dockside-drive",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tier",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t0.5"
-          }
-        },
-        {
-          "key": "reason.laptime",
-          "params": {
-            "class": "S1",
-            "rank": 7,
-            "track": "Shirakawa"
-          }
-        },
-        {
-          "key": "reason.purist"
-        }
-      ],
-      "score": 0.637,
-      "seasonId": "s06-spring",
-      "tuneId": "nc-6fc71a23a9"
     },
     {
       "carId": "1972-mazda-cosmo-110s-series-ii",
