@@ -133,7 +133,8 @@ export function layoutRoute(world: World): RouteLayout {
       const h = Math.min(vh() * 0.7, vh() - top - 16);
       return { x: 16, y: top + (vh() - top - 16 - h) / 2, w: vw() - 32, h };
     }
-    return { x: 24, y: top, w: Math.min(440, vw() * 0.38), h: vh() - top - 24 };
+    // Wide enough for legible cards with photos (owner, 2026-11-14).
+    return { x: 24, y: top, w: Math.min(720, Math.max(440, vw() * 0.46)), h: vh() - top - 24 };
   };
   const capHeight = new Map<HTMLElement, number>();
   /** The list part of the tower, under its section header. */
@@ -320,14 +321,24 @@ export function layoutRoute(world: World): RouteLayout {
     const el = (e.target as HTMLElement).closest<HTMLElement>(
       '[data-source], [data-panel], [data-stop]',
     );
+    // Only when the unit is off screen: a click inside the visible tower must not jump.
+    if (!el || el.classList.contains('is-active')) return;
     const seg = segments.find((q) => q.unit.el === el);
     if (seg) window.scrollTo({ top: (seg.s0 + seg.s1) / 2 });
+  };
+  // An update opened or closed in the tower: re-measure. Before the panel's own segment nothing
+  // changes, so the same scroll keeps the clicked card where it was.
+  const onRelayout = () => {
+    const y = window.scrollY;
+    layout();
+    window.scrollTo(0, y);
   };
 
   layout();
   window.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('resize', onResize);
   main.addEventListener('focusin', onFocus);
+  window.addEventListener('fp:relayout', onRelayout);
   // Fonts and photos can change heights after the first layout.
   const relayout = () => layout();
   void document.fonts?.ready.then(relayout);
@@ -341,6 +352,7 @@ export function layoutRoute(world: World): RouteLayout {
       window.removeEventListener('resize', onResize);
       window.removeEventListener('load', relayout);
       main.removeEventListener('focusin', onFocus);
+      window.removeEventListener('fp:relayout', onRelayout);
       root.classList.remove('route-on');
       main.style.transform = '';
       document.body.style.minHeight = '';

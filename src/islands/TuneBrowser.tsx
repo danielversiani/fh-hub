@@ -1,5 +1,12 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
-import type { BrowseData, BrowseLap, BrowseMeta, BrowseRole, BrowseTune } from '../lib/browse';
+import type {
+  BrowseCar,
+  BrowseData,
+  BrowseLap,
+  BrowseMeta,
+  BrowseRole,
+  BrowseTune,
+} from '../lib/browse';
 import { CLASS_ORDER } from '../lib/ui';
 import CarCard, {
   buildsFor,
@@ -18,6 +25,10 @@ export interface TuneBrowserLabels extends CarCardLabels {
   classLabel: string;
   surfaceLabel: string;
   categoryLabel: string;
+  carTypeLabel: string;
+  anyType: string;
+  drivetrainLabel: string;
+  rarityLabel: string;
   results: string;
   loading: string;
   empty: string;
@@ -73,6 +84,10 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
   const [cls, setCls] = useState('');
   const [surface, setSurface] = useState('');
   const [category, setCategory] = useState('');
+  // The car itself (owner, 2026-11-14): the game's car type, stock drivetrain and rarity.
+  const [carType, setCarType] = useState('');
+  const [drive, setDrive] = useState('');
+  const [rarity, setRarity] = useState('');
   const [open, setOpen] = useState<Set<string>>(new Set());
   const [limit, setLimit] = useState(PAGE);
   const [allAlts, setAllAlts] = useState(false);
@@ -99,10 +114,27 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
     };
   }, [data, tuner]);
 
+  /** The game's car types, by their name in the site's language (two spellings share one name). */
+  const typeNames = useMemo(
+    () =>
+      [...new Set((data?.cars ?? []).flatMap((c) => c.types.map((ty) => carTypeName(ty, labels))))]
+        .filter(Boolean)
+        .sort((a, b) => a.localeCompare(b)),
+    [data, labels],
+  );
+  const carOk = useMemo(
+    () => (car: BrowseCar) =>
+      (!carType || car.types.some((ty) => carTypeName(ty, labels) === carType)) &&
+      (!drive || car.drivetrain === drive) &&
+      (!rarity || car.rarity === rarity),
+    [carType, drive, rarity, labels],
+  );
+
   const rows = useMemo(() => {
     if (!data || !index) return [];
     const words = query.toLowerCase().split(/\s+/).filter(Boolean);
     return data.cars
+      .filter(carOk)
       .map((car) => {
         const tunes = (index.tunesByCar.get(car.id) ?? []).filter(
           (t) => !category || t.cats.includes(category as never),
@@ -131,27 +163,33 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
           a.car.name.localeCompare(b.car.name)
         );
       });
-  }, [data, index, query, cls, surface, category, labels]);
+  }, [data, index, query, cls, surface, category, labels, carOk]);
 
   // Competitive alternatives to the current meta for the chosen class (owner's focus, ADR-0017):
   // the whole ranked list, plus a few highlights (platform picks, recent finds, sleepers).
   const altSurface = surface || 'road';
+  const carById = useMemo(() => new Map((data?.cars ?? []).map((c) => [c.id, c])), [data]);
+  // The car filters narrow the alternatives too ("off-meta Track Toys in A").
+  const roleOk = (r: BrowseRole) => {
+    const car = carById.get(r.car);
+    return car !== undefined && carOk(car);
+  };
   const alternatives = useMemo(() => {
     if (!data || !cls || tuner) return [];
     return data.roles
       .filter((r) => r.cls === cls && r.surface === altSurface && r.role === 'alternative')
+      .filter(roleOk)
       .sort((a, b) => a.rank - b.rank);
-  }, [data, cls, altSurface, tuner]);
+  }, [data, cls, altSurface, tuner, carOk, carById]);
   const highlights = useMemo(() => {
     const has = (tag: AltTag) => alternatives.filter((r) => r.tags?.includes(tag));
     // The platform's own picks show up whatever their tier (a pick can be Meta, e.g. the SVJ).
     const featured = (data?.roles ?? []).filter(
-      (r) => r.cls === cls && r.surface === altSurface && r.tags?.includes('featured'),
+      (r) => r.cls === cls && r.surface === altSurface && r.tags?.includes('featured') && roleOk(r),
     );
     const picked = [...featured, ...has('recent').slice(0, 2), ...has('sleeper').slice(0, 2)];
     return [...new Map(picked.map((r) => [r.car, r])).values()].slice(0, 6);
-  }, [data, cls, altSurface, alternatives]);
-  const carById = useMemo(() => new Map((data?.cars ?? []).map((c) => [c.id, c])), [data]);
+  }, [data, cls, altSurface, alternatives, carOk, carById]);
   const openCar = (id: string) => {
     setOpen(new Set(open).add(id));
     requestAnimationFrame(() =>
@@ -217,6 +255,43 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
               type="button"
               class={pill(category === value)}
               onClick={() => setCategory(category === value ? '' : value)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        <div class="filter-row">
+          <span class="label mr-2">{labels.carTypeLabel}</span>
+          <select
+            class="filter-select"
+            value={carType}
+            aria-label={labels.carTypeLabel}
+            onChange={(e) => {
+              setCarType(e.currentTarget.value);
+              setLimit(PAGE);
+            }}
+          >
+            <option value="">{labels.anyType}</option>
+            {typeNames.map((name) => (
+              <option value={name}>{name}</option>
+            ))}
+          </select>
+          <span class="label ml-4 mr-2">{labels.drivetrainLabel}</span>
+          {['RWD', 'FWD', 'AWD'].map((d) => (
+            <button
+              type="button"
+              class={pill(drive === d)}
+              onClick={() => setDrive(drive === d ? '' : d)}
+            >
+              {d}
+            </button>
+          ))}
+          <span class="label ml-4 mr-2">{labels.rarityLabel}</span>
+          {Object.entries(labels.rarities).map(([value, label]) => (
+            <button
+              type="button"
+              class={pill(rarity === value)}
+              onClick={() => setRarity(rarity === value ? '' : value)}
             >
               {label}
             </button>

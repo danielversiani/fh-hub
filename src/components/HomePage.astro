@@ -82,6 +82,7 @@ for (const h of loadHighlights()) {
       : undefined,
     after: { label: TIER_LABELS[h.tier], tier: h.tier },
     tuners: tunerNames(h.tunerIds),
+    tunerIds: h.tunerIds,
   });
 }
 
@@ -143,6 +144,7 @@ for (const c of recent) {
         : 2 + labelPoints(c.after ?? c.before),
     before: !isTune && c.before ? noaTier(c.before) : undefined,
     after: removed && !isTune ? undefined : noaTier(c.after ?? c.before),
+    tuneId: isTune ? c.entity.id : undefined,
   });
 }
 // Lists that date their own entries (fhstats): entries updated in the window.
@@ -158,6 +160,7 @@ for (const id of ['fhstats', 'logikj', 'attax-johnson']) {
       magnitude: labelPoints(e.label),
       after: { label: e.label },
       tuners: tunerNames(e.tunerIds),
+      tunerIds: e.tunerIds,
     });
   }
 }

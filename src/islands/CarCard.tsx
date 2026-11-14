@@ -335,6 +335,93 @@ const tuneName = (tune: BrowseTune, labels: CarCardLabels) =>
 export const carTypeName = (type: string, labels: Pick<CarCardLabels, 'carTypes'>) =>
   labels.carTypes[slugify(type)] ?? type;
 
+/** A tune in full: tuner, name, date, share code, specs, laps and notes. */
+function TopTune({
+  tune,
+  laps = [],
+  labels,
+  base,
+}: {
+  tune: BrowseTune;
+  laps?: readonly BrowseLap[];
+  labels: CarCardLabels;
+  base: string;
+}) {
+  return (
+    <>
+      <div>
+        <p class="label">{labels.tuneBy}</p>
+        <a href={`${base}/tuners/${tune.tuner}/`} class="tuner-name">
+          {tune.tunerName}
+        </a>
+        {!tune.fromMeta && <p class="mt-0.5 text-sm text-muted">{tuneName(tune, labels)}</p>}
+        {tune.date && (
+          <p class="mt-0.5 text-xs text-muted">
+            {labels.tuneDate.replace('{date}', formatDay(tune.date, labels.lang))}
+          </p>
+        )}
+      </div>
+      <CodeBox tune={tune} labels={labels} />
+      <Specs tune={tune} labels={labels} />
+      <LapChips tune={tune} laps={laps} labels={labels} />
+      <Notes tune={tune} labels={labels} />
+      {tune.credited && !tune.fromMeta && <p class="text-xs text-muted">{labels.recommendedWhy}</p>}
+    </>
+  );
+}
+
+/** A tune in one line (tuner, name, date, code), with its specs and notes below. */
+function TuneRow({
+  tune: t,
+  labels,
+  base,
+  surface = false,
+}: {
+  tune: BrowseTune;
+  labels: CarCardLabels;
+  base: string;
+  /** Show the tune's surface (lists that mix surfaces). */
+  surface?: boolean;
+}) {
+  return (
+    <li class="flex flex-col gap-1.5 py-2.5">
+      <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+        <a href={`${base}/tuners/${t.tuner}/`} class="font-semibold hover:text-accent">
+          {t.tunerName}
+        </a>
+        {!t.fromMeta && <span class="text-xs text-muted">{tuneName(t, labels)}</span>}
+        {surface && t.surface && (
+          <span class="text-xs text-season">· {labels.surfaces[t.surface]}</span>
+        )}
+        {t.date && (
+          <span class="text-xs text-muted">
+            · {labels.tuneDate.replace('{date}', formatDay(t.date, labels.lang))}
+          </span>
+        )}
+        {t.brainAfk && <BrainAfkChip label={labels.brainAfk} help={labels.brainAfkHelp} />}
+        <span class="ml-auto">
+          {t.code ? (
+            <button
+              type="button"
+              data-copy={t.code}
+              data-copied-label={labels.copied}
+              title={labels.copy}
+              class="rounded-xs border border-border px-2 py-0.5 font-mono text-xs tabular-nums hover:border-accent"
+            >
+              {formatShareCode(t.code)}
+            </button>
+          ) : (
+            <span class="text-xs text-muted">{labels.noCode.replace('{tuner}', t.tunerName)}</span>
+          )}
+        </span>
+      </div>
+      <Specs tune={t} labels={labels} />
+      {(t.laps?.length ?? 0) > 0 && <LapChips tune={t} laps={[]} labels={labels} />}
+      <Notes tune={t} labels={labels} />
+    </li>
+  );
+}
+
 function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabels; base: string }) {
   const [top, ...others] = build.tunes;
   return (
@@ -349,27 +436,7 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
         <p class="text-xs text-muted">{labels.defaultTier}</p>
       )}
       {top ? (
-        <>
-          <div>
-            <p class="label">{labels.tuneBy}</p>
-            <a href={`${base}/tuners/${top.tuner}/`} class="tuner-name">
-              {top.tunerName}
-            </a>
-            {!top.fromMeta && <p class="mt-0.5 text-sm text-muted">{tuneName(top, labels)}</p>}
-            {top.date && (
-              <p class="mt-0.5 text-xs text-muted">
-                {labels.tuneDate.replace('{date}', formatDay(top.date, labels.lang))}
-              </p>
-            )}
-          </div>
-          <CodeBox tune={top} labels={labels} />
-          <Specs tune={top} labels={labels} />
-          <LapChips tune={top} laps={build.laps} labels={labels} />
-          <Notes tune={top} labels={labels} />
-          {top.credited && !top.fromMeta && (
-            <p class="text-xs text-muted">{labels.recommendedWhy}</p>
-          )}
-        </>
+        <TopTune tune={top} laps={build.laps} labels={labels} base={base} />
       ) : (
         <p class="text-sm text-muted">{labels.noTunes}</p>
       )}
@@ -380,46 +447,69 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
           </summary>
           <ul class="mt-2 divide-y divide-border">
             {others.map((t) => (
-              <li class="flex flex-col gap-1.5 py-2.5">
-                <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-                  <a href={`${base}/tuners/${t.tuner}/`} class="font-semibold hover:text-accent">
-                    {t.tunerName}
-                  </a>
-                  {!t.fromMeta && <span class="text-xs text-muted">{tuneName(t, labels)}</span>}
-                  {t.date && (
-                    <span class="text-xs text-muted">
-                      · {labels.tuneDate.replace('{date}', formatDay(t.date, labels.lang))}
-                    </span>
-                  )}
-                  {t.brainAfk && (
-                    <BrainAfkChip label={labels.brainAfk} help={labels.brainAfkHelp} />
-                  )}
-                  <span class="ml-auto">
-                    {t.code ? (
-                      <button
-                        type="button"
-                        data-copy={t.code}
-                        data-copied-label={labels.copied}
-                        title={labels.copy}
-                        class="rounded-xs border border-border px-2 py-0.5 font-mono text-xs tabular-nums hover:border-accent"
-                      >
-                        {formatShareCode(t.code)}
-                      </button>
-                    ) : (
-                      <span class="text-xs text-muted">
-                        {labels.noCode.replace('{tuner}', t.tunerName)}
-                      </span>
-                    )}
-                  </span>
-                </div>
-                <Specs tune={t} labels={labels} />
-                {(t.laps?.length ?? 0) > 0 && <LapChips tune={t} laps={[]} labels={labels} />}
-                <Notes tune={t} labels={labels} />
-              </li>
+              <TuneRow tune={t} labels={labels} base={base} />
             ))}
           </ul>
         </details>
       )}
+    </div>
+  );
+}
+
+export interface NewsTunesLabels {
+  /** "Tune desta atualização" */
+  updated: string;
+  /** "Outras tunes deste carro na classe {cls} ({n})" */
+  more: string;
+}
+
+/**
+ * The tunes behind one home-page update (owner, 2026-11-14): the updated tune(s) first, in full,
+ * then the site's other tunes for the same car and class, so the update can be explored in place.
+ */
+export function NewsTunes({
+  updated,
+  others,
+  cls,
+  labels,
+  newsLabels,
+  base,
+  href,
+}: {
+  updated: readonly BrowseTune[];
+  others: readonly BrowseTune[];
+  cls: CarClass | null;
+  labels: CarCardLabels;
+  newsLabels: NewsTunesLabels;
+  base: string;
+  href: string;
+}) {
+  return (
+    <div class="flex flex-col gap-3">
+      {updated.map((t) => (
+        <div class="build-card news-updated flex flex-col gap-3">
+          <p class="label text-season">{newsLabels.updated}</p>
+          <TopTune tune={t} labels={labels} base={base} />
+        </div>
+      ))}
+      {others.length > 0 && (
+        <div class="text-sm">
+          <p class="label">
+            {newsLabels.more.replace('{cls}', cls ?? '').replace('{n}', String(others.length))}
+          </p>
+          <ul class="mt-1 divide-y divide-border">
+            {others.map((t) => (
+              <TuneRow tune={t} labels={labels} base={base} surface />
+            ))}
+          </ul>
+        </div>
+      )}
+      {updated.length === 0 && others.length === 0 && (
+        <p class="text-sm text-muted">{labels.noTunes}</p>
+      )}
+      <a href={href} class="self-end text-sm text-accent hover:underline">
+        {labels.openPage} →
+      </a>
     </div>
   );
 }

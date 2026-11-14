@@ -49,7 +49,8 @@ export const forzaCars: Adapter = {
           displayName: cleanText(carName),
           carTypes: cell(row, col['Car Type'])
             .split(',')
-            .map((t) => t.trim())
+            // The list spells one type "Electic Domestics" once.
+            .map((t) => t.trim().replace(/^Electic /, 'Eclectic '))
             .filter(Boolean),
           country: cell(row, col.Country) || undefined,
           stockClass,

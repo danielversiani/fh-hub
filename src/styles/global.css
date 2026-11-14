@@ -152,6 +152,19 @@ body {
   color: var(--color-on-accent);
   font-weight: 600;
 }
+/* The car-type list in the tune filters: a pill-sized dropdown (too many types for pills). */
+.filter-select {
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  background: var(--color-surface);
+  padding: 0.28rem 0.5rem;
+  font-size: 0.82rem;
+  color: var(--color-text);
+}
+.filter-select:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
 
 /* Tier, class and rarity tags. */
 .chip {
@@ -359,6 +372,21 @@ details > summary::-webkit-details-marker {
 }
 .news-photo ~ * {
   position: relative;
+}
+/* Home updates open in place (owner, 2026-11-14): the open card takes the whole row. */
+.news-card[data-open] {
+  grid-column: 1 / -1;
+  border-color: var(--season);
+}
+.news-close-label,
+.news-card[data-open] .news-open-label {
+  display: none;
+}
+.news-card[data-open] .news-close-label {
+  display: inline;
+}
+.news-updated {
+  border-left: 3px solid var(--season);
 }
 
 /* Primary button (lime, like forza.net's call-to-action). */
@@ -823,21 +851,60 @@ html.route-on [data-source] > :first-child {
   background: rgb(10 10 10 / 0.97);
   border-bottom: 1px solid var(--color-border);
 }
-/* Compact rows like a broadcast timing tower, no photos. */
+/* Rows like a broadcast timing tower: one per update, wide and legible, with the car's photo on
+   the right (owner, 2026-11-14: the narrow rows made cars and classes hard to tell apart). */
 html.route-on [data-source] .grid,
 html.route-on [data-panel] {
   display: block !important;
 }
 html.route-on [data-source] .grid {
-  margin-top: 0.5rem !important;
+  margin-top: 0.6rem !important;
 }
-html.route-on [data-source] .feature-photo,
-html.route-on [data-source] .news-photo,
-html.route-on [data-source] a.card > span[aria-hidden],
+html.route-on [data-source] .news-bg,
 html.route-on [data-panel] a.card > span[aria-hidden] {
   display: none;
 }
-html.route-on [data-source] a.card,
+html.route-on [data-source] .news-card {
+  margin-bottom: 0.6rem;
+  background: rgb(22 22 22 / 0.85);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--src, var(--season));
+  border-radius: 0;
+  box-shadow: none;
+}
+html.route-on [data-source] .news-card[data-open] {
+  border-color: var(--src, var(--season));
+}
+html.route-on [data-source] .news-head {
+  min-height: 0 !important;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.9rem 1.1rem !important;
+}
+html.route-on [data-source] .feature-photo,
+html.route-on [data-source] .news-photo {
+  inset: 0 0 auto auto;
+  width: 46%;
+  height: 100%;
+  opacity: 0.5;
+  transform: none;
+  mask-image: linear-gradient(to left, black 35%, transparent);
+}
+html.route-on [data-source] .news-name {
+  margin-top: 0.1rem;
+  font-size: 1.75rem;
+  line-height: 1.05;
+}
+html.route-on [data-source] .news-chips .chip {
+  padding: 0.15rem 0.55rem;
+  font-size: 0.92rem;
+}
+html.route-on [data-source] .news-chips {
+  font-size: 0.95rem;
+}
+html.route-on [data-source] .news-tunes {
+  background: rgb(12 12 12 / 0.96);
+}
 html.route-on [data-panel] a.card {
   display: flex;
   min-height: 0 !important;
@@ -852,11 +919,6 @@ html.route-on [data-panel] a.card {
 html.route-on [data-panel] a.card {
   display: block;
 }
-html.route-on [data-source] a.card h2 {
-  margin-top: 0.2rem;
-  font-size: 1.6rem;
-}
-html.route-on [data-source] a.card .text-2xl,
 html.route-on [data-panel] a.card .text-2xl {
   font-size: 1.15rem;
 }

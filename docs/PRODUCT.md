@@ -75,7 +75,8 @@ e os guias que o próprio jogo não oferece.
   - cada tune mostra as colunas da tabela de Noa Miyako: tração, pneu, estilo, dificuldade, tempos de referência ("1:04.3 · Shirakawa") e a observação, **já traduzida** ([ADR-0014](adr/0014-traducao-dos-textos-das-fontes.md));
   - o **tunador** ganha destaque (nome grande, com link para a página dele);
   - classe e PI **de fábrica** saíram da linha e viraram nota de rodapé dentro da caixa, porque a tune muda os dois;
-  - Meme saiu dos filtros: é só uma categoria das sugestões de campeonato.
+  - Meme saiu dos filtros: é só uma categoria das sugestões de campeonato;
+  - **filtros do próprio carro** (2026-11-14): tipo do jogo (Brinquedos de pista, Muscle moderno… numa lista suspensa), tração original (RWD, FWD, AWD) e raridade (Comum a Forza Edition). Eles também filtram as "Alternativas competitivas".
 - **Página do tunador** usa a mesma lista e os mesmos filtros da aba Tunes.
 - **Playlist** (2026-11-08): eventos separados por tipo (Campeonatos, The Trial, Desafio semanal, Rivals, PR Stunts, Horizon Life, outros), com título e linha entre os grupos. Cada sugestão mostra tração, pneu, estilo e dificuldade.
 - **Fotos dos carros** ([ADR-0013](adr/0013-miniaturas-dos-carros.md)): na caixa do carro, na página do carro e nas novidades do início.
@@ -99,7 +100,8 @@ e os guias que o próprio jogo não oferece.
   - cada fonte tem o seu bloco, só quando há atualização detectada;
   - **todas as fontes têm o mesmo visual** (2026-11-09): o maior destaque num card grande com a foto do carro e os outros em cards menores, também com foto;
   - **as mesmas regras de ordem para todas:** últimos 14 dias da fonte; **toda atualização entra, para melhor ou para pior** (subiu, caiu, entrou, saiu, tune nova ou removida); maiores mudanças primeiro (mudança de nível > entrada ou saída da lista > tune atualizada > tune nova ou removida); um card por carro × classe × piso, com a mudança mais recente; as anteriores do mesmo carro ficam num **histórico** em linhas finas, embaixo dos cards da fonte; **sem limite por fonte** (a página inicial pode ficar longa); as fontes vêm da atualização mais recente para a mais antiga;
-  - as mudanças usam a escala e as palavras da própria fonte (tier de Noa Miyako colorido; nível ou nome da tune das outras fontes num selo neutro).
+  - as mudanças usam a escala e as palavras da própria fonte (tier de Noa Miyako colorido; nível ou nome da tune das outras fontes num selo neutro);
+  - **clicar numa novidade abre as tunes ali mesmo** (2026-11-14), em vez de ir para a página do carro: primeiro a tune da atualização, depois as outras tunes do site para o mesmo carro e classe (o mesmo piso primeiro). Assim dá para seguir pelas novidades sem recomeçar. O link para a página do carro fica no fim.
 - **Navegação:** o menu fica fixo no topo e fica translúcido ao rolar. Os filtros da aba Tunes e os atalhos de classe da página Meta ficam fixos logo abaixo dele, como no fhstats.
 - **Página do carro:** a foto fica atrás do nome, esmaecendo em degradê para a esquerda e para baixo.
 
@@ -107,7 +109,7 @@ e os guias que o próprio jogo não oferece.
 
 Ver [ADR-0019](adr/0019-mundo-animado-e-modo-pista.md).
 - **Mundo de blocos ao fundo:** um paddock e um circuito animados atrás de todo o site.
-- **Página inicial:** dá uma volta no circuito ao rolar, com as novidades e a playlist numa torre de cronometragem.
+- **Página inicial:** dá uma volta no circuito ao rolar, com as novidades e a playlist numa torre de cronometragem. A torre ocupa quase metade da tela (até 720 px) e cada novidade mostra a foto do carro, o nome grande, marca e ano, e a classe e a mudança em selos maiores (2026-11-14).
 - **Outras páginas:** a câmera estaciona num lugar próprio e voa até ele quando se troca de página.
 - **"Modo normal" no menu:** o mesmo site sobre uma imagem parada.
 

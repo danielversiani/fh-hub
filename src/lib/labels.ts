@@ -100,6 +100,10 @@ export function tuneBrowserLabels(locale: Locale): TuneBrowserLabels {
     classLabel: t(locale, 'common.class'),
     surfaceLabel: t(locale, 'common.surface'),
     categoryLabel: t(locale, 'tunes.category'),
+    carTypeLabel: t(locale, 'tunes.carType'),
+    anyType: t(locale, 'tunes.anyType'),
+    drivetrainLabel: t(locale, 'tunes.drivetrain'),
+    rarityLabel: t(locale, 'tunes.rarity'),
     results: t(locale, 'browse.results', { n: '{n}' }),
     alt: {
       title: t(locale, 'alt.title'),

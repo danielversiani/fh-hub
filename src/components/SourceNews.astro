@@ -1,8 +1,10 @@
 ---
 import type { Tier } from '../../pipeline/schema/enums';
 import { localePath, t, type Locale, type MessageKey } from '../i18n';
-import { ClassChip, TierChip } from '../islands/CarCard';
+import { ClassChip, compareTunes, NewsTunes, TierChip } from '../islands/CarCard';
+import { buildBrowseData, type BrowseTune } from '../lib/browse';
 import { maps } from '../lib/data';
+import { carCardLabels } from '../lib/labels';
 
 /** A label as the source writes it; `tier` when it is Noa Miyako's scale (coloured chip). */
 export interface NewsChip {
@@ -21,6 +23,10 @@ export interface NewsItem {
   before?: NewsChip;
   after?: NewsChip;
   tuners?: string;
+  /** Tuners of the entry (finds the updated tune among the site's tunes). */
+  tunerIds?: readonly string[];
+  /** The tune itself, when the update is a tune added to the source. */
+  tuneId?: string;
 }
 
 interface Props {
@@ -37,12 +43,42 @@ interface Props {
 
 /**
  * Updates of one reference source (owner: every source gets the same look): the biggest update
- * as a large card with the car's photo, the others as smaller cards, all linking to the car.
+ * as a large card with the car's photo, the others as smaller cards. A card opens in place to
+ * show the updated tune first and then the site's other tunes for that car and class (owner,
+ * 2026-11-14), so the reader can keep going through the updates.
  */
 const { locale, id, title, url, checked, items, history = [] } = Astro.props;
 const { cars } = maps();
 const [feature, ...rest] = items;
 const kindLabel = (kind: string) => t(locale, `home.news.${kind}` as MessageKey);
+const labels = carCardLabels(locale);
+const base = locale === 'en' ? '/en' : '';
+const newsLabels = {
+  updated: t(locale, 'home.news.updatedTune'),
+  more: t(locale, 'home.news.moreTunes'),
+};
+
+const byCar = new Map<string, BrowseTune[]>();
+for (const tune of buildBrowseData().tunes)
+  byCar.set(tune.car, [...(byCar.get(tune.car) ?? []), tune]);
+/** The updated tune(s) of an update, then the car's other tunes in the same class. */
+const tunesOf = (n: NewsItem) => {
+  const all = (byCar.get(n.carId) ?? []).filter((tune) => !n.cls || tune.cls === n.cls);
+  const isUpdated = (tune: BrowseTune) =>
+    n.tuneId
+      ? tune.id === n.tuneId
+      : tune.sources.includes(id) &&
+        (!n.surface || tune.surface === n.surface) &&
+        (!n.tunerIds?.length || n.tunerIds.includes(tune.tuner));
+  const updated = all.filter(isUpdated).sort(compareTunes);
+  const others = all
+    .filter((tune) => !updated.includes(tune))
+    .sort(
+      (a, b) =>
+        Number(b.surface === n.surface) - Number(a.surface === n.surface) || compareTunes(a, b),
+    );
+  return { updated, others };
+};
 ---
 
 {feature && (
@@ -56,122 +92,107 @@ const kindLabel = (kind: string) => t(locale, `home.news.${kind}` as MessageKey)
         </a>
       </p>
     </div>
-    <div class="mt-4 grid gap-4 lg:grid-cols-3">
-      <a
-        href={localePath(locale, `/cars/${feature.carId}/`)}
-        data-stop="feature"
-        class:list={[
-          'card group relative flex min-h-80 flex-col justify-end overflow-hidden p-6',
-          rest.length > 0 && 'lg:col-span-2 lg:row-span-2',
-          rest.length === 0 && 'lg:col-span-3',
-        ]}
-      >
-        {cars.get(feature.carId)?.image && (
-          <img
-            src={cars.get(feature.carId)?.image}
-            alt=""
-            class="feature-photo"
-            decoding="async"
-            referrerpolicy="no-referrer"
-          />
-        )}
-        {/* Big background label only for short tiers ("Meta+", "T0.5"), not tune names. */}
-        {feature.after && feature.after.label.length <= 6 && (
-          <span
-            class="display pointer-events-none absolute -right-3 -top-6 select-none text-[11rem] text-season opacity-10"
-            aria-hidden="true"
+    <div class="news-grid mt-4 grid gap-4 lg:grid-cols-3">
+      {items.map((n, i) => {
+        const car = cars.get(n.carId);
+        const big = i === 0;
+        const { updated, others } = tunesOf(n);
+        return (
+          <div
+            data-stop={big ? 'feature' : 'card'}
+            data-news
+            class:list={[
+              'card news-card group relative overflow-hidden',
+              big && rest.length > 0 && 'lg:col-span-2 lg:row-span-2',
+              big && rest.length === 0 && 'lg:col-span-3',
+            ]}
           >
-            {feature.after.label}
-          </span>
-        )}
-        <p class="eyebrow text-season">
-          {kindLabel(feature.kind)} · {feature.date}
-        </p>
-        <h2 class="display mt-2 text-5xl group-hover:text-accent sm:text-6xl">
-          {cars.get(feature.carId)?.model ?? feature.carId}
-        </h2>
-        <p class="mt-1 text-muted">
-          {cars.get(feature.carId)?.make} · {cars.get(feature.carId)?.year}
-        </p>
-        <div class="mt-4 flex flex-wrap items-center gap-2">
-          <ClassChip cls={feature.cls as never} />
-          {feature.surface && (
-            <span class="text-sm">{t(locale, `surface.${feature.surface}` as MessageKey)}</span>
-          )}
-          {feature.before && (
-            <>
-              {feature.before.tier ? (
-                <TierChip tier={feature.before.tier} muted />
-              ) : (
-                <span class="chip news-chip opacity-60">{feature.before.label}</span>
+            <button
+              type="button"
+              class:list={[
+                'news-head relative flex w-full flex-col text-left',
+                big ? 'min-h-80 justify-end p-6' : 'gap-2 p-4',
+              ]}
+              aria-expanded="false"
+              data-news-toggle
+            >
+              {car?.image && (
+                <img
+                  src={car.image}
+                  alt=""
+                  class={big ? 'feature-photo' : 'news-photo'}
+                  loading={big ? undefined : 'lazy'}
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
               )}
-              <span class="text-muted">→</span>
-            </>
-          )}
-          {feature.after &&
-            (feature.after.tier ? (
-              <TierChip tier={feature.after.tier} />
-            ) : (
-              <span class="chip news-chip">{feature.after.label}</span>
-            ))}
-          {feature.tuners && (
-            <span class="text-sm text-muted">
-              · {t(locale, 'card.by')} {feature.tuners}
-            </span>
-          )}
-        </div>
-      </a>
-      {rest.map((n) => (
-        <a
-          href={localePath(locale, `/cars/${n.carId}/`)}
-          data-stop="card"
-          class="card group relative flex flex-col gap-2 overflow-hidden p-4 hover:border-season"
-        >
-          {cars.get(n.carId)?.image && (
-            <img
-              src={cars.get(n.carId)?.image}
-              alt=""
-              class="news-photo"
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-          )}
-          <p class="eyebrow text-season">
-            {kindLabel(n.kind)} · {n.date}
-          </p>
-          <p class="display text-2xl group-hover:text-accent">
-            {cars.get(n.carId)?.model ?? n.carId}
-          </p>
-          <div class="flex flex-wrap items-center gap-2 text-sm">
-            <ClassChip cls={n.cls as never} />
-            {n.surface && (
-              <span class="text-muted">{t(locale, `surface.${n.surface}` as MessageKey)}</span>
-            )}
-            {n.before && (
-              <>
-                {n.before.tier ? (
-                  <TierChip tier={n.before.tier} muted />
-                ) : (
-                  <span class="chip news-chip opacity-60">{n.before.label}</span>
+              {/* Big background label only for short tiers ("Meta+", "T0.5"), not tune names. */}
+              {big && n.after && n.after.label.length <= 6 && (
+                <span
+                  class="news-bg display pointer-events-none absolute -right-3 -top-6 select-none text-[11rem] text-season opacity-10"
+                  aria-hidden="true"
+                >
+                  {n.after.label}
+                </span>
+              )}
+              <span class="eyebrow block text-season">
+                {kindLabel(n.kind)} · {n.date}
+              </span>
+              <span
+                class:list={[
+                  'news-name display block group-hover:text-accent',
+                  big ? 'mt-2 text-5xl sm:text-6xl' : 'text-2xl',
+                ]}
+              >
+                {car?.model ?? n.carId}
+              </span>
+              <span class="news-sub block text-sm text-muted">
+                {car?.make} · {car?.year}
+              </span>
+              <span class="news-chips mt-1 flex flex-wrap items-center gap-2 text-sm">
+                <ClassChip cls={n.cls as never} />
+                {n.surface && <span>{t(locale, `surface.${n.surface}` as MessageKey)}</span>}
+                {n.before && (
+                  <>
+                    {n.before.tier ? (
+                      <TierChip tier={n.before.tier} muted />
+                    ) : (
+                      <span class="chip news-chip opacity-60">{n.before.label}</span>
+                    )}
+                    <span class="text-muted">→</span>
+                  </>
                 )}
-                <span class="text-muted">→</span>
-              </>
-            )}
-            {n.after &&
-              (n.after.tier ? (
-                <TierChip tier={n.after.tier} />
-              ) : (
-                <span class="chip news-chip">{n.after.label}</span>
-              ))}
+                {n.after &&
+                  (n.after.tier ? (
+                    <TierChip tier={n.after.tier} />
+                  ) : (
+                    <span class="chip news-chip">{n.after.label}</span>
+                  ))}
+              </span>
+              {n.tuners && (
+                <span class="news-by block text-xs text-muted">
+                  {t(locale, 'card.by')} {n.tuners}
+                </span>
+              )}
+              <span class="news-toggle mt-1 block text-xs text-accent">
+                <span class="news-open-label">{t(locale, 'home.news.showTunes')} ▾</span>
+                <span class="news-close-label">{t(locale, 'home.news.hideTunes')} ▴</span>
+              </span>
+            </button>
+            <div class="news-tunes border-t border-border px-4 py-4 sm:px-5" hidden>
+              <NewsTunes
+                updated={updated}
+                others={others}
+                cls={n.cls as never}
+                labels={labels}
+                newsLabels={newsLabels}
+                base={base}
+                href={localePath(locale, `/cars/${n.carId}/`)}
+              />
+            </div>
           </div>
-          {n.tuners && (
-            <p class="text-xs text-muted">
-              {t(locale, 'card.by')} {n.tuners}
-            </p>
-          )}
-        </a>
-      ))}
+        );
+      })}
     </div>
     {history.length > 0 && (
       <div class="mt-3" data-stop="list">
@@ -198,3 +219,20 @@ const kindLabel = (kind: string) => t(locale, `home.news.${kind}` as MessageKey)
     )}
   </div>
 )}
+
+<script>
+  // Open or close an update's tunes in place. In track mode the tower re-measures its list
+  // (src/world/route.ts listens for fp:relayout).
+  document.addEventListener('click', (event) => {
+    const button = (event.target as HTMLElement | null)?.closest<HTMLElement>('[data-news-toggle]');
+    if (!button) return;
+    const card = button.closest<HTMLElement>('[data-news]');
+    const panel = card?.querySelector<HTMLElement>('.news-tunes');
+    if (!card || !panel) return;
+    const open = panel.hidden;
+    panel.hidden = !open;
+    card.toggleAttribute('data-open', open);
+    button.setAttribute('aria-expanded', String(open));
+    window.dispatchEvent(new CustomEvent('fp:relayout'));
+  });
+</script>

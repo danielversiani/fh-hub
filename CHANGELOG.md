@@ -7,6 +7,9 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-14: **Novidades que abrem no lugar:** clicar numa novidade mostra a tune atualizada e as outras tunes do carro na classe, sem sair da página inicial. Torre do modo pista mais larga, com foto e textos maiores ([ADR-0019](docs/adr/0019-mundo-animado-e-modo-pista.md)).
+- 2026-11-14: **Filtros por tipo de carro, tração original e raridade** na aba Tunes (também nas alternativas). O tipo "Electic Domestics" da lista oficial passa a ser lido como "Eclectic Domestics".
+- 2026-11-14: **Tunadores a bordo** na página "Uso de dados": LogikJ e K1Z Bard.
 - 2026-11-10: **LogikJ** passou a `granted` (autorização expressa do autor); K1Z Bard também está a bordo.
 - 2026-11-10: **Lançamento:** saiu o aviso de pré-lançamento e o `noindex` (o site pode ser indexado). O pedido de remoção, correção ou crédito fica só na página "Uso de dados".
 - 2026-11-10: **Domínio próprio:** forzapaddock.racing (e www) no Cloudflare, declarado no `wrangler.jsonc`; todas as páginas apontam o endereço novo como canônico; o `workers.dev` continua funcionando ([ADR-0012](docs/adr/0012-hospedagem-cloudflare-pages.md), RUNBOOK §10b).

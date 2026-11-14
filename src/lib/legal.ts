@@ -14,8 +14,17 @@ export interface LegalText {
   sourcesTitle: string;
   sourcesLead: string;
   status: Record<'granted' | 'public' | 'not-required', string>;
+  onboardTitle: string;
+  onboardLead: string;
+  onboardTunes: string;
   requestsCta: string;
 }
+
+/**
+ * Tuners who told the owner they are on board with the project (owner, 2026-11-10). Tuners, not
+ * sources: a tuner's tunes can come from several lists. Add new ones at the end.
+ */
+export const ONBOARD_TUNERS: readonly string[] = ['logikj', 'k1z-bard'];
 
 export const LEGAL: Record<Locale, LegalText> = {
   'pt-br': {
@@ -79,6 +88,10 @@ export const LEGAL: Record<Locale, LegalText> = {
       public: 'Fonte pública, com crédito',
       'not-required': 'Dado oficial ou de licença aberta',
     },
+    onboardTitle: 'Tunadores a bordo',
+    onboardLead:
+      'Tunadores que conhecem o projeto e apoiam a publicação das tunes deles aqui, com crédito. Obrigado!',
+    onboardTunes: '{n} tunes no site',
     requestsCta: 'Pedir remoção, correção ou mudança de crédito',
   },
   en: {
@@ -142,6 +155,10 @@ export const LEGAL: Record<Locale, LegalText> = {
       public: 'Public source, credited',
       'not-required': 'Official data or open licence',
     },
+    onboardTitle: 'Tuners on board',
+    onboardLead:
+      'Tuners who know the project and support having their tunes here, with credit. Thank you!',
+    onboardTunes: '{n} tunes on the site',
     requestsCta: 'Ask for removal, correction or a credit change',
   },
 };

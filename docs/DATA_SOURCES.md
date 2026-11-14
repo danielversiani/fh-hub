@@ -52,6 +52,7 @@ fhstats não é planilha: a amostra guarda os dados já extraídos da página (`
   - *Car Name* inclui o ano: `1968 Abarth 595 esseesse`.
   - *Car Class* junta PI e classe: `100 D`.
   - *Collection* lista as formas de obter: `Autoshow, Wheelspin`.
+  - *Car Type* tem um erro de digitação num carro ("Electic Domestics"): o adaptador lê como "Eclectic Domestics" (2026-11-14), para o filtro de tipo da aba Tunes não mostrar o tipo duas vezes.
 - Inclui carros anunciados que ainda vão sair (Car Pass e recompensas futuras).
 - É a **única fonte que cria carros** ([ADR-0006](adr/0006-identidade-canonica.md)). ID do carro = slug do *Car Name*.
 
