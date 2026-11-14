@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -10,7 +10,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-34944a09f0",
@@ -87,7 +87,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-970494fa34",
@@ -260,7 +260,7 @@
       "confidence": 0.85,
       "createdAt": "2026-08-13",
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "sc-157990158",
       "metaRank": 11,
@@ -289,9 +289,10 @@
         "meta"
       ],
       "class": "S1",
-      "confidence": 0.95,
+      "confidence": 1,
+      "createdAt": "2026-08-13",
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "engine": "5.2L V10 + Centri",
       "id": "sc-944180172",
@@ -318,6 +319,22 @@
         },
         {
           "raw": {
+            "Date Created": "2026-08-13",
+            "Difficulty": "Meedium",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Porsche",
+            "Model/Car": "87 #203 Porsche AG 961",
+            "Sharecode": "944 180 172",
+            "Tune Name": "Road Handling 54.5 Shira Clean",
+            "Tuner": "LetzeLU",
+            "Tyre Compound": "Rally"
+          },
+          "row": 15,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        },
+        {
+          "raw": {
             "Aero": "FA",
             "Build": "Handling",
             "Car": "Porsche 961",
@@ -337,8 +354,9 @@
           "tab": "s1-800"
         }
       ],
+      "recommended": true,
       "role": "allround",
-      "score": 0.738,
+      "score": 0.8,
       "shareCode": "944180172",
       "surface": "road",
       "tier": "t0.5",

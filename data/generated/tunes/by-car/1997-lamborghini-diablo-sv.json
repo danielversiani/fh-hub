@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -104,39 +104,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "cte-mag"
-    },
-    {
-      "buildTags": [],
-      "carId": "1997-lamborghini-diablo-sv",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-2f2ee23d43",
-      "name": "A Road - Strong Allround",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1997 Lamborghini Diablo SV",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road - Strong Allround",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1864,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
@@ -371,6 +338,60 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "id": "sc-108313092",
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-25",
+            "Difficulty": "Very Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Lamborghini",
+            "Model/Car": "97 Diablo SV",
+            "Sharecode": "108 313 092",
+            "Tune Name": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "Tyre Compound": "Rally"
+          },
+          "row": 10,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        },
+        {
+          "raw": {
+            "Car": "1997 Lamborghini Diablo SV",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1864,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "recommended": true,
+      "score": 0.698,
+      "shareCode": "108313092",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

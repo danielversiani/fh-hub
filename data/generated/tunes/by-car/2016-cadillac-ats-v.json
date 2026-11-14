@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -82,7 +82,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-1c1a3a66e8",
@@ -308,7 +308,7 @@
       "confidence": 0.85,
       "createdAt": "2026-05-27",
       "credited": true,
-      "difficulty": "slightly-hard",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-399509423",
       "lapRefs": [
@@ -348,23 +348,44 @@
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-15",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
       "id": "sc-445475404",
       "metaRank": 47,
-      "name": "A Allround",
+      "name": "A Road - Allround Meta",
       "observations": [
         {
           "raw": {},
           "row": 63,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
+        },
+        {
+          "raw": {
+            "Date Created": "2026-06-15",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Cadillac",
+            "Model/Car": "2016 ATS-V",
+            "Sharecode": "445 475 404",
+            "Tune Name": "A Road - Allround Meta",
+            "Tuner": "K1Z Bard",
+            "Tyre Compound": "Rally"
+          },
+          "row": 5,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
         }
       ],
-      "score": 0.531,
+      "recommended": true,
+      "score": 0.636,
       "shareCode": "445475404",
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "k1z-bard"
     }
   ],

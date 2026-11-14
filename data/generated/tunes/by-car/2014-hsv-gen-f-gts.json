@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -33,57 +33,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ver-enderau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2014-hsv-gen-f-gts",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "normal",
-      "drivetrain": "AWD",
-      "id": "nc-31ada873f9",
-      "lapRefs": [
-        {
-          "time": "59.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 74,
-      "name": "1969 Chevrolet Nova Forza Edition",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2014 HSV Gen-F GTS",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "1969 Chevrolet Nova Forza Edition",
-            "Tuner": "K1Z Bard",
-            "fill": "FFFF0000"
-          },
-          "row": 1782,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.592,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
@@ -130,7 +79,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b0bf53f357",
@@ -197,9 +146,10 @@
         "off-meta"
       ],
       "class": "A",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-13",
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "sc-638567489",
       "lapRefs": [
@@ -214,17 +164,50 @@
         "pt-br": ""
       },
       "metaRank": 74,
-      "name": "A Allround",
+      "name": "1969 Chevrolet Nova Forza Edition",
       "observations": [
         {
           "raw": {},
           "row": 100,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
+        },
+        {
+          "raw": {
+            "Date Created": "2026-06-13",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "HSV",
+            "Model/Car": "GEN-F GTS",
+            "Sharecode": "638 567 489",
+            "Tune Name": "1969 Chevrolet Nova Forza Edition",
+            "Tuner": "K1Z Bard",
+            "Tyre Compound": "Rally"
+          },
+          "row": 7,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        },
+        {
+          "raw": {
+            "Car": "2014 HSV Gen-F GTS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "1969 Chevrolet Nova Forza Edition",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1782,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
+      "recommended": true,
       "role": "allround",
-      "score": 0.579,
+      "score": 0.741,
       "shareCode": "638567489",
       "surface": "road",
       "tier": "t1",

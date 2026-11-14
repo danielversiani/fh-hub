@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [
@@ -260,13 +260,31 @@
         "off-meta"
       ],
       "class": "S2",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "difficulty": "death",
       "drivetrain": "RWD",
       "engine": "Racing V12",
       "id": "sc-114265938",
       "metaRank": 23,
       "name": "smoothie",
       "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-19",
+            "Difficulty": "Very Hard",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Ultima",
+            "Model/Car": "15 Evolution Coupe 1020",
+            "Sharecode": "114 265 938",
+            "Tune Name": "smoothie",
+            "Tuner": "K1Z Gray",
+            "Tyre Compound": "Drift"
+          },
+          "row": 13,
+          "sourceId": "forza-paddock",
+          "tab": "s2-900-road"
+        },
         {
           "raw": {
             "Build": "",
@@ -302,7 +320,8 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "recommended": true,
+      "score": 0.628,
       "shareCode": "114265938",
       "surface": "road",
       "tier": "t1",

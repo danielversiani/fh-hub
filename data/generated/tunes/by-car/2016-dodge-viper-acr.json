@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -53,7 +53,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.62,
+      "score": 0.604,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -89,7 +89,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -137,7 +137,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-3ee482e591",
@@ -152,7 +152,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.681,
+      "score": 0.665,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -189,7 +189,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -225,42 +225,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-dodge-viper-acr",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-60bfd02279",
-      "metaRank": 17,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 37,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.681,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],
@@ -292,7 +261,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -353,7 +322,7 @@
           "tab": "s1-800"
         }
       ],
-      "score": 0.72,
+      "score": 0.705,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -390,7 +359,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -479,7 +448,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -515,7 +484,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -551,7 +520,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -590,7 +559,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -626,7 +595,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -665,7 +634,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -701,7 +670,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -740,7 +709,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.63,
+      "score": 0.614,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -755,7 +724,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-f66c8e70d9",
@@ -770,7 +739,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.681,
+      "score": 0.665,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -809,6 +778,49 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-dodge-viper-acr",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-08-23",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-110174128",
+      "metaRank": 17,
+      "name": "Shirakawa 34.7 Clean/54.6 Rewind (Race Suspension) v1.1",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-08-23",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Dodge",
+            "Model/Car": "16 Viper ACR",
+            "Sharecode": "110 174 128",
+            "Tune Name": "Shirakawa 34.7 Clean/54.6 Rewind (Race Suspension) v1.1",
+            "Tuner": "Lphanhan",
+            "Tyre Compound": "Rally"
+          },
+          "row": 8,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "role": "allround",
+      "score": 0.684,
+      "shareCode": "110174128",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "lphanhan"
     },
     {
       "buildTags": [],

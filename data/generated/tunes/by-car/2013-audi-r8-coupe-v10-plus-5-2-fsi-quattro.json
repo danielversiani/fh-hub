@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [
@@ -111,7 +111,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-55c0d794e9",
@@ -137,7 +137,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.563,
+      "score": 0.545,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -174,7 +174,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.53,
+      "score": 0.511,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -272,6 +272,44 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-19",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-162568615",
+      "name": "*Shira 1:00.3/Road Off Meta (WB+RoofRack)",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-19",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Audi",
+            "Model/Car": "13 R8 Coupé V10 Plus 5.2 FSI quattro",
+            "Sharecode": "162 568 615",
+            "Tune Name": "*Shira 1:00.3/Road Off Meta (WB+RoofRack)",
+            "Tuner": "MSR Mian",
+            "Tyre Compound": "Rally"
+          },
+          "row": 13,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.529,
+      "shareCode": "162568615",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "msr-mian"
     }
   ],
   "schemaVersion": 1

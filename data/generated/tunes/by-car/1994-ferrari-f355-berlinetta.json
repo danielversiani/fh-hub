@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [
@@ -34,7 +34,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.541,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -204,7 +204,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.56,
+      "score": 0.541,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -291,7 +291,7 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-edb867b8a6",
@@ -317,12 +317,50 @@
         }
       ],
       "role": "allround",
-      "score": 0.601,
+      "score": 0.582,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-ferrari-f355-berlinetta",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-09-07",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "id": "sc-519174013",
+      "name": "1.9G Strong Allrounder V2",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-09-07",
+            "Difficulty": "Very Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Ferrari",
+            "Model/Car": "94 F355 Berlinetta",
+            "Sharecode": "519 174 013",
+            "Tune Name": "1.9G Strong Allrounder V2",
+            "Tuner": "SlowBakedPanda",
+            "Tyre Compound": "Rally"
+          },
+          "row": 8,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.548,
+      "shareCode": "519174013",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "slowbakedpanda"
     }
   ],
   "schemaVersion": 1

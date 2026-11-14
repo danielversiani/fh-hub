@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -61,12 +61,30 @@
       "carId": "2023-aston-martin-valkyrie",
       "categories": [],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.4,
+      "createdAt": "2026-06-14",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "engine": "7.0L V12",
       "id": "sc-103482103",
       "name": "AWD Allround",
       "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-14",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Aston Martin",
+            "Model/Car": "23 Valkyrie",
+            "Sharecode": "103 482 103",
+            "Tune Name": "AWD Allround",
+            "Tuner": "K1Z Gray",
+            "Tyre Compound": "Slick"
+          },
+          "row": 6,
+          "sourceId": "forza-paddock",
+          "tab": "s2-900-road"
+        },
         {
           "raw": {
             "Build": "Vulcan engine",
@@ -86,12 +104,13 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.416,
+      "recommended": true,
+      "score": 0.663,
       "shareCode": "103482103",
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
-      "tires": "super-slick",
+      "tires": "slick",
       "tunerId": "k1z-gray"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -82,7 +82,7 @@
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "very-hard",
+      "difficulty": "death",
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-dad1fcaa62",
@@ -130,7 +130,7 @@
       "class": "R",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "slightly-hard",
+      "difficulty": "medium",
       "drivetrain": "RWD",
       "id": "sc-101982645",
       "metaNotes": "高速弯有点推头",
@@ -166,9 +166,10 @@
         "meta"
       ],
       "class": "S2",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-07-05",
       "credited": true,
-      "difficulty": "very-hard",
+      "difficulty": "hard",
       "drivetrain": "RWD",
       "engine": "Racing V12",
       "id": "sc-131940042",
@@ -188,13 +189,29 @@
         "pt-br": ""
       },
       "metaRank": 10,
-      "name": "S2 Allround",
+      "name": "S2 Powerbuild",
       "observations": [
         {
           "raw": {},
           "row": 250,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
+        },
+        {
+          "raw": {
+            "Date Created": "2026-07-05",
+            "Difficulty": "Hard",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Pagani",
+            "Model/Car": "09 Zonda R",
+            "Sharecode": "131 940 042",
+            "Tune Name": "S2 Powerbuild",
+            "Tuner": "K1Z Gray",
+            "Tyre Compound": "Drift"
+          },
+          "row": 10,
+          "sourceId": "forza-paddock",
+          "tab": "s2-900-road"
         },
         {
           "raw": {
@@ -215,8 +232,9 @@
           "tab": "fh6-tunes"
         }
       ],
+      "recommended": true,
       "role": "power",
-      "score": 0.607,
+      "score": 0.687,
       "shareCode": "131940042",
       "surface": "road",
       "tier": "t0.5",

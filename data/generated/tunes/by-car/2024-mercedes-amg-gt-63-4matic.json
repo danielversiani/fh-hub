@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -8,12 +8,215 @@
         "meta"
       ],
       "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4f53369928",
+      "metaRank": 6,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.713,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8b3bbde321",
+      "lapRefs": [
+        {
+          "time": "1:00.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 84,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 172,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "drift",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-9ae2d9e001",
+      "metaRank": 6,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.713,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
       "confidence": 0.95,
+      "drivetrain": "AWD",
+      "id": "nc-bf6bc852e7",
+      "metaRank": 26,
+      "name": "Strong S1 Class Road",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Mercedes-AMG GT 63 4MATIC+",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Strong S1 Class Road",
+            "Tuner": "GamerLogicFTW",
+            "fill": "FF7030A0"
+          },
+          "row": 2310,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f808dbfd08",
+      "metaRank": 6,
+      "name": "Strong S1 Class Dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Mercedes-AMG GT 63 4MATIC+",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Strong S1 Class Dirt",
+            "Tuner": "GamerLogicFTW",
+            "fill": "FF7030A0"
+          },
+          "row": 2309,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.646,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "id": "sc-168029612",
+      "metaRank": 84,
+      "name": "A Allround",
+      "observations": [
+        {
+          "raw": {},
+          "row": 115,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        }
+      ],
+      "score": 0.559,
+      "shareCode": "168029612",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-mercedes-amg-gt-63-4matic",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-10-30",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
       "engine": "5.2L V10 + Centri",
-      "id": "nc-11edc80729",
+      "id": "sc-969881490",
       "lapRefs": [
         {
           "time": "54.5",
@@ -28,6 +231,28 @@
       "metaRank": 26,
       "name": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)",
       "observations": [
+        {
+          "raw": {},
+          "row": 203,
+          "sourceId": "attax-johnson",
+          "tab": "horizon-6"
+        },
+        {
+          "raw": {
+            "Date Created": "2026-10-30",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Mercedes-AMG",
+            "Model/Car": "GT 63 4MATIC+",
+            "Sharecode": "969 881 490",
+            "Tune Name": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)",
+            "Tuner": "LetzeLU",
+            "Tyre Compound": "Rally"
+          },
+          "row": 13,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        },
         {
           "raw": {
             "Car": "2024 Mercedes-AMG GT 63 4MATIC+",
@@ -65,251 +290,9 @@
           "tab": "s1-800"
         }
       ],
+      "recommended": true,
       "role": "allround",
-      "score": 0.778,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-4f53369928",
-      "metaRank": 6,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 14,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-8b3bbde321",
-      "lapRefs": [
-        {
-          "time": "1:00.4",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:00.4",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 84,
-      "name": "A road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 172,
-          "sourceId": "noa-miyako",
-          "tab": "a-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "drift",
-      "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-9ae2d9e001",
-      "metaRank": 6,
-      "name": "S1 dirt AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 14,
-          "sourceId": "noa-miyako",
-          "tab": "s1-dirt"
-        }
-      ],
-      "role": "allround",
-      "score": 0.732,
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "offroad",
-      "tunerId": "lphanhan"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "drivetrain": "AWD",
-      "id": "nc-bf6bc852e7",
-      "metaRank": 26,
-      "name": "Strong S1 Class Road",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2024 Mercedes-AMG GT 63 4MATIC+",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Strong S1 Class Road",
-            "Tuner": "GamerLogicFTW",
-            "fill": "FF7030A0"
-          },
-          "row": 2310,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.635,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tunerId": "gamerlogicftw"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-f808dbfd08",
-      "metaRank": 6,
-      "name": "Strong S1 Class Dirt",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2024 Mercedes-AMG GT 63 4MATIC+",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Dirt/CC",
-            "Tune": "Strong S1 Class Dirt",
-            "Tuner": "GamerLogicFTW",
-            "fill": "FF7030A0"
-          },
-          "row": 2309,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.665,
-      "surface": "dirt",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tunerId": "gamerlogicftw"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "id": "sc-168029612",
-      "metaRank": 84,
-      "name": "A Allround",
-      "observations": [
-        {
-          "raw": {},
-          "row": 115,
-          "sourceId": "attax-johnson",
-          "tab": "horizon-6"
-        }
-      ],
-      "score": 0.577,
-      "shareCode": "168029612",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-969881490",
-      "lapRefs": [
-        {
-          "time": "54.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川54.5",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 26,
-      "name": "S1 Allround",
-      "observations": [
-        {
-          "raw": {},
-          "row": 203,
-          "sourceId": "attax-johnson",
-          "tab": "horizon-6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.701,
+      "score": 0.844,
       "shareCode": "969881490",
       "surface": "road",
       "tier": "t0.5",

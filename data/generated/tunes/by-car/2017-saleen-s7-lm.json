@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-14T18:08:07.161Z",
   "items": [
     {
       "buildTags": [],
@@ -10,7 +10,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-316ee6c8f9",
@@ -31,7 +31,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.583,
+      "score": 0.567,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -68,7 +68,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -110,7 +110,7 @@
           "tab": "s1-800"
         }
       ],
-      "score": 0.557,
+      "score": 0.542,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -216,7 +216,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -241,7 +241,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.538,
+      "score": 0.522,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -277,7 +277,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -316,11 +316,52 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-11",
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "id": "sc-220033138",
+      "metaRank": 102,
+      "name": "surely more drivable",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-11",
+            "Difficulty": "Medium",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Saleen",
+            "Model/Car": "17 S7 LM",
+            "Sharecode": "220 033 138",
+            "Tune Name": "surely more drivable",
+            "Tuner": "AnK x Natsu",
+            "Tyre Compound": "Rally"
+          },
+          "row": 17,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.551,
+      "shareCode": "220033138",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "ank-x-natsu"
     }
   ],
   "schemaVersion": 1
