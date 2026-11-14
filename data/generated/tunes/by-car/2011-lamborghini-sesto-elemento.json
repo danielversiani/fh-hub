@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -10,7 +10,7 @@
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-085b809c0d",
@@ -36,7 +36,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.695,
+      "score": 0.676,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -68,12 +68,12 @@
             "Tuner": "Destrukdi",
             "fill": "FF0070C0"
           },
-          "row": 1874,
+          "row": 1878,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.635,
+      "score": 0.616,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -88,7 +88,7 @@
       "class": "R",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-730a85f548",
@@ -108,7 +108,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.695,
+      "score": 0.676,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -124,7 +124,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "normal",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-7ceb5b847d",
@@ -155,7 +155,7 @@
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-c2e27dc65e",
       "lapRefs": [
@@ -184,63 +184,18 @@
             "Tuner": "K1Z Howzer",
             "fill": "FF0070C0"
           },
-          "row": 1876,
+          "row": 1880,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
       "role": "allround",
-      "score": 0.695,
+      "score": 0.676,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-howzer"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-lamborghini-sesto-elemento",
-      "categories": [
-        "meta"
-      ],
-      "class": "R",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-e0c502dee5",
-      "metaNotes": "R级非常少见的均衡强车 线上推荐驾驶",
-      "metaNotesI18n": {
-        "en": "A balanced, strong car, rare in R class; recommended for online racing.",
-        "pt-br": "Carro equilibrado e forte, coisa rara na classe R; recomendado para corridas online."
-      },
-      "metaRank": 8,
-      "name": "stock rims",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2011 Lamborghini Sesto Elemento",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "stock rims",
-            "Tuner": "trviis",
-            "fill": "FFFF00FF"
-          },
-          "row": 1877,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.695,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "trviis"
     },
     {
       "buildTags": [],
@@ -264,7 +219,7 @@
             "Tuner": "KapienPL",
             "fill": "FF7030A0"
           },
-          "row": 1873,
+          "row": 1877,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -282,7 +237,8 @@
         "meta"
       ],
       "class": "R",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-10",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
@@ -293,7 +249,7 @@
         "pt-br": "Carro equilibrado e forte, coisa rara na classe R; recomendado para corridas online."
       },
       "metaRank": 8,
-      "name": "R road",
+      "name": "stock rims",
       "observations": [
         {
           "raw": {},
@@ -306,15 +262,48 @@
           "row": 15,
           "sourceId": "fhstats",
           "tab": "online"
+        },
+        {
+          "raw": {
+            "Date Created": "2026-06-10",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Lamborghini",
+            "Model/Car": "11 Sesto Elemento",
+            "Sharecode": "129 628 890",
+            "Tune Name": "stock rims",
+            "Tuner": "trviis",
+            "Tyre Compound": "Slick"
+          },
+          "row": 7,
+          "sourceId": "forza-paddock",
+          "tab": "r-998-road"
+        },
+        {
+          "raw": {
+            "Car": "2011 Lamborghini Sesto Elemento",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "stock rims",
+            "Tuner": "trviis",
+            "fill": "FFFF00FF"
+          },
+          "row": 1881,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
+      "recommended": true,
       "role": "allround",
-      "score": 0.774,
+      "score": 0.836,
       "shareCode": "129628890",
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "super-slick",
+      "tires": "slick",
       "tunerId": "trviis"
     },
     {
@@ -326,7 +315,7 @@
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-153244644",
       "lapRefs": [
@@ -352,7 +341,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.695,
+      "score": 0.676,
       "shareCode": "153244644",
       "surface": "road",
       "tier": "t0.5",
@@ -371,7 +360,7 @@
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "engine": "5.2L V10",
       "id": "sc-972419705",
@@ -419,13 +408,13 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 1875,
+          "row": 1879,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
       "role": "allround",
-      "score": 0.765,
+      "score": 0.747,
       "shareCode": "972419705",
       "surface": "road",
       "tier": "t0.5",

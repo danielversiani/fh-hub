@@ -1,0 +1,566 @@
+{
+  "generatedAt": "2026-11-14T16:54:07.808Z",
+  "items": [
+    {
+      "carId": "1986-honda-civic-si",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--coming-in-hot",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        },
+        {
+          "key": "reason.sources",
+          "params": {
+            "count": 2
+          }
+        }
+      ],
+      "score": 0.755,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-175605880"
+    },
+    {
+      "carId": "1993-renault-clio-williams",
+      "category": "off-meta",
+      "confidence": 0.85,
+      "eventId": "s06-autumn--championship--coming-in-hot",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.624,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-114943845"
+    },
+    {
+      "carId": "1974-honda-civic-rs",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--coming-in-hot",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t2"
+          }
+        }
+      ],
+      "score": 0.545,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-67e5ad1d6e"
+    },
+    {
+      "carId": "2023-acura-integra-a-spec",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.701,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-101219833"
+    },
+    {
+      "carId": "2001-acura-integra-type-r",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.713,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-6ede4a7e4a"
+    },
+    {
+      "carId": "1932-ford-de-luxe-five-window-coupe",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-8a7b0cd3e1"
+    },
+    {
+      "carId": "1970-chevrolet-camaro-z28",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.582,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-757d028b25"
+    },
+    {
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.526,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-2b3e74e440"
+    },
+    {
+      "carId": "1969-chevrolet-nova-super-sport-396",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.526,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-aeab90bfb6"
+    },
+    {
+      "carId": "1970-chevrolet-corvette-zr-1",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.592,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-85804dcd92"
+    },
+    {
+      "carId": "2001-acura-integra-type-r",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.646,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-206243a7c9"
+    },
+    {
+      "carId": "2023-acura-integra-a-spec",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.646,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-01a7a781d1"
+    },
+    {
+      "carId": "2013-cadillac-xts-limousine",
+      "category": "meme",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1.5"
+          }
+        },
+        {
+          "key": "reason.meme"
+        }
+      ],
+      "score": 0.554,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-9d4f5b3b0a"
+    },
+    {
+      "carId": "1989-nissan-silvia-ks",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-113670138"
+    },
+    {
+      "carId": "1993-nissan-240sx",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.664,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-921519403"
+    },
+    {
+      "carId": "1987-nissan-skyline-gts-r",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-86e6a6bebf"
+    },
+    {
+      "carId": "1998-nissan-silvia-ks-aero",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-32a74eb030"
+    },
+    {
+      "carId": "2003-nissan-fairlady-z",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-65f0f05533"
+    },
+    {
+      "carId": "1989-nissan-silvia-ks",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.545,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-028b04b5e0"
+    },
+    {
+      "carId": "2003-nissan-fairlady-z",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-speed-trap--konbini-dash",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.571,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-2236fa605a"
+    },
+    {
+      "carId": "1989-nissan-silvia-ks",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-113670138"
+    },
+    {
+      "carId": "1993-nissan-240sx",
+      "category": "meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        }
+      ],
+      "score": 0.664,
+      "seasonId": "s06-autumn",
+      "tuneId": "sc-921519403"
+    },
+    {
+      "carId": "1987-nissan-skyline-gts-r",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-86e6a6bebf"
+    },
+    {
+      "carId": "1998-nissan-silvia-ks-aero",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-32a74eb030"
+    },
+    {
+      "carId": "2003-nissan-fairlady-z",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.62,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-65f0f05533"
+    },
+    {
+      "carId": "1989-nissan-silvia-ks",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "meta-plus"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.545,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-028b04b5e0"
+    },
+    {
+      "carId": "2003-nissan-fairlady-z",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--pr-stunt-drift-zone--shiro-switch",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.571,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-2236fa605a"
+    }
+  ],
+  "schemaVersion": 1
+}

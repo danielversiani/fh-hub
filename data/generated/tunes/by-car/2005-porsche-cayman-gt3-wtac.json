@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2005-porsche-cayman-gt3-wtac",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-1623e6c53e",
-      "name": "strong s2 road",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2005 Porsche Cayman GT3 WTAC",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "strong s2 road",
-            "Tuner": "trviis",
-            "fill": "FF0070C0"
-          },
-          "row": 2653,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "trviis"
-    },
     {
       "buildTags": [],
       "carId": "2005-porsche-cayman-gt3-wtac",
@@ -56,7 +23,7 @@
             "Tuner": "VNX Eunos",
             "fill": "FF0070C0"
           },
-          "row": 2651,
+          "row": 2655,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -92,7 +59,7 @@
             "Tuner": "trviis",
             "fill": "FF7030A0"
           },
-          "row": 2650,
+          "row": 2654,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -125,7 +92,7 @@
             "Tuner": "IceFrice8724",
             "fill": "FF0070C0"
           },
-          "row": 2652,
+          "row": 2656,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -145,7 +112,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "slightly-hard",
+      "difficulty": "medium",
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-ba77a94c79",
@@ -206,7 +173,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FF7030A0"
           },
-          "row": 2649,
+          "row": 2653,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -226,7 +193,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "slightly-hard",
+      "difficulty": "medium",
       "drivetrain": "RWD",
       "id": "sc-112457818",
       "lapRefs": [
@@ -268,7 +235,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-115748081",
       "metaRank": 72,
@@ -283,7 +250,7 @@
         }
       ],
       "role": "handling",
-      "score": 0.638,
+      "score": 0.62,
       "shareCode": "115748081",
       "surface": "road",
       "tier": "t1",
@@ -328,6 +295,60 @@
       "tierSource": "default",
       "tires": "rally",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-porsche-cayman-gt3-wtac",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.4,
+      "createdAt": "2026-06-01",
+      "difficulty": "medium",
+      "drivetrain": "RWD",
+      "id": "sc-155490559",
+      "name": "strong s2 road",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-01",
+            "Difficulty": "Medium",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Porsche",
+            "Model/Car": "05 Cayman GT3 WTAC",
+            "Sharecode": "155 490 559",
+            "Tune Name": "strong s2 road",
+            "Tuner": "trviis",
+            "Tyre Compound": "Rally"
+          },
+          "row": 12,
+          "sourceId": "forza-paddock",
+          "tab": "s2-900-road"
+        },
+        {
+          "raw": {
+            "Car": "2005 Porsche Cayman GT3 WTAC",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "strong s2 road",
+            "Tuner": "trviis",
+            "fill": "FF0070C0"
+          },
+          "row": 2657,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "recommended": true,
+      "score": 0.692,
+      "shareCode": "155490559",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "trviis"
     }
   ],
   "schemaVersion": 1

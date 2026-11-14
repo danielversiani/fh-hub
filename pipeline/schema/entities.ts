@@ -113,8 +113,13 @@ export const Tune = z.object({
    * find it in game by the tuner's gamertag.
    */
   fromMeta: z.boolean().optional(),
-  /** From the meta-table row that credits this tune's tuner (difficulty, style, lap times). */
+  /**
+   * The tune's own rating (Forza Paddock's sheet) or, failing that, the meta-table row that
+   * credits this tune's tuner (difficulty, style, lap times).
+   */
   difficulty: Difficulty.optional(),
+  /** Recommended by the Forza Paddock itself (owner's sheet, ADR-0020). */
+  recommended: z.boolean().optional(),
   /**
    * "Cérebro desligado" (brain AFK): overpowered and very easy to drive (ADR-0018). "auto" = easy
    * tune of a Meta / Meta+ car; "curator" = set in data/manual/brain-afk.yaml.
@@ -149,6 +154,7 @@ export const TuneIndexEntry = Tune.pick({
   fromMeta: true,
   createdAt: true,
   difficulty: true,
+  recommended: true,
   brainAfk: true,
   role: true,
   metaNotes: true,
@@ -487,6 +493,25 @@ export const Suggestion = z.object({
   commentary: z.object({ 'pt-br': z.string(), en: z.string() }).optional(),
 });
 export type Suggestion = z.infer<typeof Suggestion>;
+
+/**
+ * A car (and tune) a community sheet recommends for one playlist event, credited to the sheet
+ * (LogikJ, Noa Miyako…), shown next to the site's own suggestions (ADR-0020).
+ */
+export const EventPick = z.object({
+  eventId: z.string(),
+  seasonId: Slug,
+  sourceId: Slug,
+  carId: Slug,
+  tunerId: Slug.optional(),
+  shareCode: ShareCode.optional(),
+  /** The site's tune with that share code, when it has it. */
+  tuneId: z.string().optional(),
+  tuneName: z.string().optional(),
+  /** Where it came from in the sheet (row), for review. */
+  row: z.number().int().positive(),
+});
+export type EventPick = z.infer<typeof EventPick>;
 
 export const SourceStatus = z.object({
   id: Slug,

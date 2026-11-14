@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "KapienPL",
             "fill": "FF7030A0"
           },
-          "row": 1146,
+          "row": 1150,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -43,7 +43,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "engine": "5.5L V8 + Centri",
       "id": "nc-241bdd8c88",
@@ -73,7 +73,7 @@
             "Tuner": "LetzeLU",
             "fill": "FF7030A0"
           },
-          "row": 1148,
+          "row": 1152,
           "sourceId": "kleis",
           "tab": "fh6"
         },
@@ -99,7 +99,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.719,
+      "score": 0.703,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -115,7 +115,7 @@
       "class": "A",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-2ecc154ef3",
       "lapRefs": [
@@ -144,13 +144,13 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 1143,
+          "row": 1147,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
       "role": "allround",
-      "score": 0.681,
+      "score": 0.665,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -179,7 +179,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 1147,
+          "row": 1151,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -216,7 +216,7 @@
             "Tuner": "LetzeLU",
             "fill": "FFFF0000"
           },
-          "row": 1144,
+          "row": 1148,
           "sourceId": "kleis",
           "tab": "fh6"
         },
@@ -241,7 +241,7 @@
           "tab": "a700"
         }
       ],
-      "score": 0.721,
+      "score": 0.705,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -270,7 +270,7 @@
             "Tuner": "BluecarterEX",
             "fill": "FF7030A0"
           },
-          "row": 1145,
+          "row": 1149,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -290,7 +290,7 @@
       "class": "A",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-dd54d2aba0",
@@ -316,7 +316,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.681,
+      "score": 0.665,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -332,7 +332,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-107710092",
       "lapRefs": [
@@ -357,7 +357,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.642,
+      "score": 0.626,
       "shareCode": "107710092",
       "surface": "road",
       "tier": "t1",
@@ -384,12 +384,53 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.644,
+      "score": 0.629,
       "shareCode": "117544334",
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-chevrolet-camaro-zl1-1le",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-08-25",
+      "difficulty": "hard",
+      "drivetrain": "AWD",
+      "id": "sc-806523639",
+      "metaRank": 38,
+      "name": "SHIRA 54.5",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-08-25",
+            "Difficulty": "Hard",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Chevrolet",
+            "Model/Car": "18 Camaro ZL1 1LE",
+            "Sharecode": "806 523 639",
+            "Tune Name": "SHIRA 54.5",
+            "Tuner": "OSM Cinnabar",
+            "Tyre Compound": "Rally"
+          },
+          "row": 6,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.596,
+      "shareCode": "806523639",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "osm-cinnabar"
     }
   ],
   "schemaVersion": 1

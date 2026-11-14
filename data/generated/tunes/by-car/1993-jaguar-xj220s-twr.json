@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "SilvaSUPERBEE",
             "fill": "FFFF0000"
           },
-          "row": 1800,
+          "row": 1804,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "VNX Ardent",
             "fill": "FFFF0000"
           },
-          "row": 1801,
+          "row": 1805,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -86,7 +86,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.622,
+      "score": 0.604,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -101,7 +101,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-5e73a35872",
@@ -116,7 +116,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.695,
+      "score": 0.676,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -132,7 +132,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-66b6e58e16",
@@ -147,7 +147,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.601,
+      "score": 0.582,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -179,12 +179,12 @@
             "Tuner": "KapienPL",
             "fill": "FF7030A0"
           },
-          "row": 1802,
+          "row": 1806,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.635,
+      "score": 0.616,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -212,7 +212,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 1799,
+          "row": 1803,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -227,13 +227,54 @@
       "buildTags": [],
       "carId": "1993-jaguar-xj220s-twr",
       "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-07-06",
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "id": "sc-126207847",
+      "metaRank": 87,
+      "name": "S1 Class - Road Racing",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-07-06",
+            "Difficulty": "Medium",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Jaguar",
+            "Model/Car": "93 XJ220S TWR",
+            "Sharecode": "126 207 847",
+            "Tune Name": "S1 Class - Road Racing",
+            "Tuner": "VNX Ardent",
+            "Tyre Compound": "Rally"
+          },
+          "row": 11,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.565,
+      "shareCode": "126207847",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [],
+      "carId": "1993-jaguar-xj220s-twr",
+      "categories": [
         "meta"
       ],
       "class": "S1",
       "confidence": 0.85,
       "createdAt": "2026-06-01",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-240331604",
       "metaRank": 16,
@@ -247,7 +288,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.695,
+      "score": 0.677,
       "shareCode": "240331604",
       "surface": "dirt",
       "tier": "t0.5",

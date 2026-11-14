@@ -14,6 +14,9 @@ import CarCard, {
   formatDay,
   obtainText,
   RarityChip,
+  compareTunes,
+  DifficultyText,
+  RecommendedChip,
   PlatformChip,
   platformIndex,
   type CarCardLabels,
@@ -45,6 +48,8 @@ export interface TuneBrowserLabels extends CarCardLabels {
     how: string;
     howText: string;
     highlights: string;
+    /** "Recomendadas pelo Forza Paddock" (owner's sheet, ADR-0020). */
+    fpPicks: string;
     showAll: string;
     showLess: string;
     none: string;
@@ -181,15 +186,54 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
       .filter(roleOk)
       .sort((a, b) => a.rank - b.rank);
   }, [data, cls, altSurface, tuner, carOk, carById]);
+  // The Forza Paddock's own recommended tunes for this class × surface (ADR-0020), best first.
+  const fpPicks = useMemo(() => {
+    if (!data || !cls || tuner) return [];
+    const best = new Map<string, BrowseTune>();
+    for (const t of data.tunes) {
+      if (!t.recommended || t.cls !== cls || t.surface !== altSurface) continue;
+      const car = carById.get(t.car);
+      if (!car || !carOk(car)) continue;
+      const kept = best.get(t.car);
+      if (!kept || compareTunes(t, kept) < 0) best.set(t.car, t);
+    }
+    return [...best.values()].sort(
+      (a, b) =>
+        platformIndex(index?.roles.get(`${a.car}|${cls}|${altSurface}`)?.tier) -
+          platformIndex(index?.roles.get(`${b.car}|${cls}|${altSurface}`)?.tier) ||
+        (carById.get(a.car)?.name ?? '').localeCompare(carById.get(b.car)?.name ?? ''),
+    );
+  }, [data, cls, altSurface, tuner, carById, carOk, index]);
   const highlights = useMemo(() => {
     const has = (tag: AltTag) => alternatives.filter((r) => r.tags?.includes(tag));
-    // The platform's own picks show up whatever their tier (a pick can be Meta, e.g. the SVJ).
+    // The platform's own picks show up whatever their tier (a pick can be Meta, e.g. the SVJ):
+    // the hand-made ones and every car of the owner's recommendations sheet (ADR-0020).
     const featured = (data?.roles ?? []).filter(
       (r) => r.cls === cls && r.surface === altSurface && r.tags?.includes('featured') && roleOk(r),
     );
-    const picked = [...featured, ...has('recent').slice(0, 2), ...has('sleeper').slice(0, 2)];
-    return [...new Map(picked.map((r) => [r.car, r])).values()].slice(0, 6);
-  }, [data, cls, altSurface, alternatives, carOk, carById]);
+    const recommended = fpPicks.map((t): BrowseRole => {
+      const role = index?.roles.get(`${t.car}|${cls}|${altSurface}`);
+      return role
+        ? { ...role, tags: [...new Set<AltTag>(['featured', ...(role.tags ?? [])])] }
+        : {
+            car: t.car,
+            cls: t.cls!,
+            surface: t.surface!,
+            role: 'other',
+            tier: 'other',
+            rank: 9999,
+            sources: 0,
+            evidence: [],
+            tags: ['featured'],
+          };
+    });
+    const picks = [...new Map([...featured, ...recommended].map((r) => [r.car, r])).values()];
+    const extra = [...has('recent').slice(0, 2), ...has('sleeper').slice(0, 2)].filter(
+      (r) => !picks.some((p) => p.car === r.car),
+    );
+    // Every platform pick is shown; recent finds and sleepers fill up to six cards.
+    return [...picks, ...extra.slice(0, Math.max(0, 6 - picks.length))];
+  }, [data, cls, altSurface, alternatives, carOk, carById, fpPicks, index]);
   const openCar = (id: string) => {
     setOpen(new Set(open).add(id));
     requestAnimationFrame(() =>
@@ -326,6 +370,7 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
                         {highlights.map((r) => {
                           const car = carById.get(r.car);
                           if (!car) return null;
+                          const pick = fpPicks.find((t) => t.car === r.car);
                           return (
                             <li>
                               <button type="button" class="alt-card" onClick={() => openCar(r.car)}>
@@ -337,6 +382,22 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
                                 {r.note && (
                                   <span class="mt-1.5 block text-sm">
                                     {r.note[labels.lang === 'en' ? 'en' : 'pt-br']}
+                                  </span>
+                                )}
+                                {pick && (
+                                  <span class="mt-1.5 block text-sm">
+                                    {labels.tuneBy} <strong>{pick.tunerName}</strong>
+                                    {pick.difficulty && (
+                                      <>
+                                        {' · '}
+                                        <DifficultyText
+                                          difficulty={pick.difficulty}
+                                          label={
+                                            labels.difficulties[pick.difficulty] ?? pick.difficulty
+                                          }
+                                        />
+                                      </>
+                                    )}
                                   </span>
                                 )}
                                 <AltFacts r={r} labels={labels} />
@@ -426,6 +487,9 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
                         rarity={car.rarity}
                         label={car.rarity ? labels.rarities[car.rarity]! : ''}
                       />
+                      {builds.some((b) => b.tunes.some((t) => t.recommended)) && (
+                        <RecommendedChip label={labels.recommended} />
+                      )}
                       {rowRole && <AltTags tags={rowRole.tags} labels={labels} />}
                       <span class="w-full text-xs text-muted sm:ml-1 sm:w-auto sm:text-sm">
                         {car.make} · {car.year}

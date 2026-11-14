@@ -29,9 +29,9 @@ describe('markBrainAfk (ADR-0018)', () => {
   it('marks the easy recommended tune of Meta+ cars automatically', () => {
     const [a, b, c] = markBrainAfk(
       [
-        tune('sc-000000001', '787b', 'easy'),
+        tune('sc-000000001', '787b', 'very-easy'),
         tune('sc-000000002', '787b', 'hard'),
-        tune('sc-000000003', 'svj', 'easy'),
+        tune('sc-000000003', 'svj', 'very-easy'),
       ],
       roles,
       { brainAfk: [] },
@@ -43,7 +43,7 @@ describe('markBrainAfk (ADR-0018)', () => {
 
   it('lets the curator mark a tune or remove an automatic mark', () => {
     const [a, c] = markBrainAfk(
-      [tune('sc-000000001', '787b', 'easy'), tune('sc-000000003', 'svj', 'easy')],
+      [tune('sc-000000001', '787b', 'very-easy'), tune('sc-000000003', 'svj', 'very-easy')],
       roles,
       {
         brainAfk: [

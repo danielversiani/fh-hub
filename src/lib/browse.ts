@@ -57,6 +57,8 @@ export interface BrowseTune {
   /** Only a meta-table recommendation (no share code): search the tuner's gamertag in game. */
   fromMeta: boolean;
   difficulty?: Difficulty;
+  /** Recommended by the Forza Paddock itself (ADR-0020). */
+  recommended?: boolean;
   /** "Cérebro desligado": overpowered and easy (ADR-0018). */
   brainAfk?: 'auto' | 'curator';
   role?: string;
@@ -170,6 +172,7 @@ export function buildBrowseData(): BrowseData {
     credited: Boolean(t.credited),
     fromMeta: Boolean(t.fromMeta),
     difficulty: t.difficulty,
+    recommended: t.recommended || undefined,
     brainAfk: t.brainAfk,
     role: t.role,
     notes: t.metaNotesI18n,

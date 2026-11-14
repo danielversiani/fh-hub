@@ -1,5 +1,10 @@
 ---
-import type { PlaylistEvent, PlaylistSeason, Suggestion } from '../../pipeline/schema/entities';
+import type {
+  EventPick,
+  PlaylistEvent,
+  PlaylistSeason,
+  Suggestion,
+} from '../../pipeline/schema/entities';
 import type { Tier } from '../../pipeline/schema/enums';
 import { htmlLang, localePath, t, type Locale, type MessageKey } from '../i18n';
 import {
@@ -10,7 +15,14 @@ import {
   RarityChip,
 } from '../islands/CarCard';
 import Base from '../layouts/Base.astro';
-import { loadEvents, loadRoles, loadSeasons, loadSuggestions, maps } from '../lib/data';
+import {
+  loadEventPicks,
+  loadEvents,
+  loadRoles,
+  loadSeasons,
+  loadSuggestions,
+  maps,
+} from '../lib/data';
 import {
   challengeText,
   eventName,
@@ -47,6 +59,19 @@ const SLOT_ORDER = ['meta', 'off-meta', 'purist', 'meme'];
 const events: PlaylistEvent[] = season
   ? [...loadEvents(season.id), ...(season.current ? loadEvents(season.seriesId) : [])]
   : [];
+// Community picks per event, grouped by who recommends them (ADR-0020).
+const PICK_SOURCES: Readonly<Record<string, string>> = {
+  'logikj-playlist': 'LogikJ',
+  'noa-miyako': 'Noa Miyako',
+};
+const sheetPicks = new Map<string, Map<string, EventPick[]>>();
+for (const p of season
+  ? [...loadEventPicks(season.id), ...(season.current ? loadEventPicks(season.seriesId) : [])]
+  : []) {
+  const bySource = sheetPicks.get(p.eventId) ?? new Map<string, EventPick[]>();
+  bySource.set(p.sourceId, [...(bySource.get(p.sourceId) ?? []), p]);
+  sheetPicks.set(p.eventId, bySource);
+}
 const picks = new Map<string, Suggestion[]>();
 for (const s of season
   ? [...loadSuggestions(season.id), ...(season.current ? loadSuggestions(season.seriesId) : [])]
@@ -178,6 +203,7 @@ const reasonText = (pick: Suggestion) => {
                 picks: (picks.get(event.id) ?? []).filter((p) => p.category === category),
               })).filter((s) => s.picks.length > 0);
               const reward = formatReward(locale, event.reward);
+              const community = [...(sheetPicks.get(event.id) ?? new Map<string, EventPick[]>())];
               return (
                 <details id={event.id} class="card group relative overflow-hidden">
                   <summary class="relative block min-h-44 p-5">
@@ -218,129 +244,224 @@ const reasonText = (pick: Suggestion) => {
                         {t(locale, 'playlist.seeSuggestions')} ▾
                       </span>
                     </div>
+                    {community.length > 0 && (
+                      <p class="mt-2 text-xs text-muted">
+                        {t(locale, 'playlist.recommendedBy', {
+                          who: [
+                            ...community.map(([id]) => PICK_SOURCES[id] ?? id),
+                            ...(byCategory.length > 0 ? ['Forza Paddock'] : []),
+                          ].join(' · '),
+                        })}
+                      </p>
+                    )}
                   </summary>
                   <div class="flex flex-col gap-5 border-t border-border p-5">
-                    {byCategory.length > 0 ? (
-                      byCategory.map(({ category, picks: list }) => (
-                        <section>
-                          <h4 class="surface-divider">
-                            <span>{t(locale, `category.${category}` as MessageKey)}</span>
-                          </h4>
-                          <div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                            {list.map((pick) => {
-                              const tune = tuneIndex.get(pick.tuneId);
-                              const car = cars.get(pick.carId);
-                              const platformTier = tune
-                                ? tierOf.get(`${pick.carId}|${tune.class}|${tune.surface}`)
-                                : undefined;
-                              const tunerName = tune
-                                ? (tuners.get(tune.tunerId)?.displayName ?? tune.tunerId)
-                                : '';
-                              const specs = [
-                                tune?.drivetrain,
-                                tune?.tires && t(locale, `tires.${tune.tires}` as MessageKey),
-                                tune?.role && t(locale, `role.${tune.role}` as MessageKey),
-                              ].filter(Boolean);
-                              return (
-                                <div class="build-card flex flex-col gap-2">
-                                  <div class="flex items-center gap-2">
-                                    {platformTier && (
-                                      <PlatformChip
-                                        tier={platformTier}
-                                        label={t(locale, `tier.${platformTier}` as MessageKey)}
-                                      />
-                                    )}
-                                    {car?.rarity && (
-                                      <RarityChip
-                                        rarity={car.rarity}
-                                        label={t(locale, `rarity.${car.rarity}`)}
-                                      />
-                                    )}
-                                  </div>
-                                  <div>
-                                    <a
-                                      href={localePath(locale, `/cars/${pick.carId}/`)}
-                                      class="text-lg font-semibold leading-tight hover:text-accent"
-                                    >
-                                      {car?.model ?? pick.carId}
-                                    </a>
-                                    <p class="text-xs text-muted">
-                                      {car?.make} · {car?.year}
-                                    </p>
-                                  </div>
-                                  {tune?.shareCode ? (
-                                    <button
-                                      type="button"
-                                      data-copy={tune.shareCode}
-                                      data-copied-label={t(locale, 'common.copied')}
-                                      title={t(locale, 'common.copy')}
-                                      class="code-box code-digits w-full text-left text-lg hover:border-accent"
-                                    >
-                                      {formatShareCode(tune.shareCode)}
-                                    </button>
-                                  ) : (
+                    {community.map(([sourceId, list]) => (
+                      <section>
+                        <h4 class="surface-divider">
+                          <span>
+                            {t(locale, 'playlist.recommendedBy', {
+                              who: PICK_SOURCES[sourceId] ?? sourceId,
+                            })}
+                          </span>
+                        </h4>
+                        <div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                          {list.map((p) => {
+                            const car = cars.get(p.carId);
+                            const tune = p.tuneId ? tuneIndex.get(p.tuneId) : undefined;
+                            const tunerName = p.tunerId
+                              ? (tuners.get(p.tunerId)?.displayName ?? p.tunerId)
+                              : '';
+                            return (
+                              <div class="build-card flex flex-col gap-2">
+                                <div>
+                                  <a
+                                    href={localePath(locale, `/cars/${p.carId}/`)}
+                                    class="text-lg font-semibold leading-tight hover:text-accent"
+                                  >
+                                    {car?.model ?? p.carId}
+                                  </a>
+                                  <p class="text-xs text-muted">
+                                    {car?.make} · {car?.year}
+                                  </p>
+                                </div>
+                                {p.shareCode ? (
+                                  <button
+                                    type="button"
+                                    data-copy={p.shareCode}
+                                    data-copied-label={t(locale, 'common.copied')}
+                                    title={t(locale, 'common.copy')}
+                                    class="code-box code-digits w-full text-left text-lg hover:border-accent"
+                                  >
+                                    {formatShareCode(p.shareCode)}
+                                  </button>
+                                ) : (
+                                  tunerName && (
                                     <p class="code-box text-xs text-muted">
                                       {t(locale, 'common.noCode', { tuner: tunerName })}
                                     </p>
-                                  )}
+                                  )
+                                )}
+                                {tunerName && (
                                   <p>
                                     <span class="label mr-1.5">{t(locale, 'card.tuneBy')}</span>
                                     <a
-                                      href={localePath(locale, `/tuners/${tune?.tunerId}/`)}
+                                      href={localePath(locale, `/tuners/${p.tunerId}/`)}
                                       class="font-semibold hover:text-accent"
                                     >
                                       {tunerName}
                                     </a>
                                   </p>
-                                  {tune?.brainAfk && (
-                                    <p>
-                                      <BrainAfkChip
-                                        label={t(locale, 'card.brainAfk')}
-                                        help={t(locale, 'card.brainAfkHelp')}
-                                      />
-                                    </p>
-                                  )}
-                                  {(specs.length > 0 || tune?.difficulty) && (
-                                    <p class="text-sm">
-                                      {specs.join(' · ')}
-                                      {tune?.difficulty && (
-                                        <>
-                                          {specs.length > 0 && ' · '}
-                                          <DifficultyText
-                                            difficulty={tune.difficulty}
-                                            label={t(locale, `difficulty.${tune.difficulty}`)}
-                                          />
-                                        </>
-                                      )}
-                                    </p>
-                                  )}
+                                )}
+                                {(p.tuneName || tune?.difficulty) && (
                                   <p class="text-xs text-muted">
-                                    {reasonText(pick)}
-                                    {tune?.createdAt &&
-                                      ` · ${t(locale, 'card.tuneDate', { date: fmt(tune.createdAt) })}`}
+                                    {p.tuneName}
+                                    {tune?.difficulty && (
+                                      <>
+                                        {p.tuneName && ' · '}
+                                        <DifficultyText
+                                          difficulty={tune.difficulty}
+                                          label={t(locale, `difficulty.${tune.difficulty}`)}
+                                        />
+                                      </>
+                                    )}
                                   </p>
-                                </div>
-                              );
-                            })}
-                          </div>
-                        </section>
-                      ))
-                    ) : (
-                      <p class="text-sm text-muted">
-                        {req.status === 'partial'
-                          ? t(locale, 'playlist.partialNote', {
-                              what: t(
-                                locale,
-                                req.scope === 'drivetrain'
-                                  ? 'playlist.partial.drivetrain'
-                                  : 'playlist.partial.rarity',
-                              ),
-                            })
-                          : req.status === 'unparsed'
-                            ? t(locale, 'playlist.unknownNote')
-                            : t(locale, 'playlist.noSuggestions')}
-                      </p>
+                                )}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </section>
+                    ))}
+                    {community.length > 0 && byCategory.length > 0 && (
+                      <div>
+                        <h4 class="display text-lg text-accent">
+                          {t(locale, 'playlist.autoTitle')}
+                        </h4>
+                        <p class="text-xs text-muted">{t(locale, 'playlist.autoLead')}</p>
+                      </div>
                     )}
+                    {byCategory.length > 0
+                      ? byCategory.map(({ category, picks: list }) => (
+                          <section>
+                            <h4 class="surface-divider">
+                              <span>{t(locale, `category.${category}` as MessageKey)}</span>
+                            </h4>
+                            <div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                              {list.map((pick) => {
+                                const tune = tuneIndex.get(pick.tuneId);
+                                const car = cars.get(pick.carId);
+                                const platformTier = tune
+                                  ? tierOf.get(`${pick.carId}|${tune.class}|${tune.surface}`)
+                                  : undefined;
+                                const tunerName = tune
+                                  ? (tuners.get(tune.tunerId)?.displayName ?? tune.tunerId)
+                                  : '';
+                                const specs = [
+                                  tune?.drivetrain,
+                                  tune?.tires && t(locale, `tires.${tune.tires}` as MessageKey),
+                                  tune?.role && t(locale, `role.${tune.role}` as MessageKey),
+                                ].filter(Boolean);
+                                return (
+                                  <div class="build-card flex flex-col gap-2">
+                                    <div class="flex items-center gap-2">
+                                      {platformTier && (
+                                        <PlatformChip
+                                          tier={platformTier}
+                                          label={t(locale, `tier.${platformTier}` as MessageKey)}
+                                        />
+                                      )}
+                                      {car?.rarity && (
+                                        <RarityChip
+                                          rarity={car.rarity}
+                                          label={t(locale, `rarity.${car.rarity}`)}
+                                        />
+                                      )}
+                                    </div>
+                                    <div>
+                                      <a
+                                        href={localePath(locale, `/cars/${pick.carId}/`)}
+                                        class="text-lg font-semibold leading-tight hover:text-accent"
+                                      >
+                                        {car?.model ?? pick.carId}
+                                      </a>
+                                      <p class="text-xs text-muted">
+                                        {car?.make} · {car?.year}
+                                      </p>
+                                    </div>
+                                    {tune?.shareCode ? (
+                                      <button
+                                        type="button"
+                                        data-copy={tune.shareCode}
+                                        data-copied-label={t(locale, 'common.copied')}
+                                        title={t(locale, 'common.copy')}
+                                        class="code-box code-digits w-full text-left text-lg hover:border-accent"
+                                      >
+                                        {formatShareCode(tune.shareCode)}
+                                      </button>
+                                    ) : (
+                                      <p class="code-box text-xs text-muted">
+                                        {t(locale, 'common.noCode', { tuner: tunerName })}
+                                      </p>
+                                    )}
+                                    <p>
+                                      <span class="label mr-1.5">{t(locale, 'card.tuneBy')}</span>
+                                      <a
+                                        href={localePath(locale, `/tuners/${tune?.tunerId}/`)}
+                                        class="font-semibold hover:text-accent"
+                                      >
+                                        {tunerName}
+                                      </a>
+                                    </p>
+                                    {tune?.brainAfk && (
+                                      <p>
+                                        <BrainAfkChip
+                                          label={t(locale, 'card.brainAfk')}
+                                          help={t(locale, 'card.brainAfkHelp')}
+                                        />
+                                      </p>
+                                    )}
+                                    {(specs.length > 0 || tune?.difficulty) && (
+                                      <p class="text-sm">
+                                        {specs.join(' · ')}
+                                        {tune?.difficulty && (
+                                          <>
+                                            {specs.length > 0 && ' · '}
+                                            <DifficultyText
+                                              difficulty={tune.difficulty}
+                                              label={t(locale, `difficulty.${tune.difficulty}`)}
+                                            />
+                                          </>
+                                        )}
+                                      </p>
+                                    )}
+                                    <p class="text-xs text-muted">
+                                      {reasonText(pick)}
+                                      {tune?.createdAt &&
+                                        ` · ${t(locale, 'card.tuneDate', { date: fmt(tune.createdAt) })}`}
+                                    </p>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          </section>
+                        ))
+                      : community.length === 0 && (
+                          <p class="text-sm text-muted">
+                            {req.status === 'partial'
+                              ? t(locale, 'playlist.partialNote', {
+                                  what: t(
+                                    locale,
+                                    req.scope === 'drivetrain'
+                                      ? 'playlist.partial.drivetrain'
+                                      : 'playlist.partial.rarity',
+                                  ),
+                                })
+                              : req.status === 'unparsed'
+                                ? t(locale, 'playlist.unknownNote')
+                                : t(locale, 'playlist.noSuggestions')}
+                          </p>
+                        )}
                   </div>
                 </details>
               );

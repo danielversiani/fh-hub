@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 1858,
+          "row": 1862,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "GreetedDust8",
             "fill": "FFFF0000"
           },
-          "row": 1857,
+          "row": 1861,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -115,7 +115,7 @@
             "Tuner": "VER Polaksz",
             "fill": "FFFF0000"
           },
-          "row": 1859,
+          "row": 1863,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -125,6 +125,44 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ver-polaksz"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-25",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "id": "sc-108313092",
+      "name": "A Road - Strong Allround",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-25",
+            "Difficulty": "Very Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Lamborghini",
+            "Model/Car": "97 Diablo SV",
+            "Sharecode": "108 313 092",
+            "Tune Name": "A Road - Strong Allround",
+            "Tuner": "K1Z Bard",
+            "Tyre Compound": "Rally"
+          },
+          "row": 10,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.53,
+      "shareCode": "108313092",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

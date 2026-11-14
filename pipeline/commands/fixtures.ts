@@ -26,23 +26,32 @@ function sampleCsv(bytes: Buffer): Buffer {
   return Buffer.from(toCsv(rows.filter((_, i) => keepRow(i, rows.length))), 'utf8');
 }
 
+/** `sheetName` "*": every tab (sources that read a whole workbook, ADR-0020). */
 async function sampleXlsx(bytes: Buffer, sheetName: string): Promise<Buffer> {
   const source = new ExcelJS.Workbook();
   await source.xlsx.load(bytes as unknown as ArrayBuffer);
-  const sheet = source.getWorksheet(sheetName);
-  if (!sheet) throw new Error(`worksheet "${sheetName}" not found`);
+  const sheets =
+    sheetName === '*' ? source.worksheets : [source.getWorksheet(sheetName)].filter(Boolean);
+  if (sheets.length === 0) throw new Error(`worksheet "${sheetName}" not found`);
   const target = new ExcelJS.Workbook();
-  const out = target.addWorksheet(sheetName);
-  let next = 1;
-  for (let r = 1; r <= sheet.rowCount; r++) {
-    if (!keepRow(r - 1, sheet.rowCount)) continue;
-    const from = sheet.getRow(r);
-    const to = out.getRow(next++);
-    for (let c = 1; c <= sheet.columnCount; c++) {
-      to.getCell(c).value = from.getCell(c).value;
-      to.getCell(c).style = JSON.parse(JSON.stringify(from.getCell(c).style ?? {}));
+  for (const sheet of sheets as ExcelJS.Worksheet[]) {
+    const out = target.addWorksheet(sheet.name);
+    let next = 1;
+    for (let r = 1; r <= sheet.rowCount; r++) {
+      if (!keepRow(r - 1, sheet.rowCount)) continue;
+      const from = sheet.getRow(r);
+      const to = out.getRow(next++);
+      for (let c = 1; c <= sheet.columnCount; c++) {
+        // Formulas are copied as their result (shared formulas cannot be copied row by row).
+        const value = from.getCell(c).value as ExcelJS.CellValue & { result?: ExcelJS.CellValue };
+        to.getCell(c).value =
+          value && typeof value === 'object' && ('formula' in value || 'sharedFormula' in value)
+            ? (value.result ?? null)
+            : value;
+        to.getCell(c).style = JSON.parse(JSON.stringify(from.getCell(c).style ?? {}));
+      }
+      to.commit();
     }
-    to.commit();
   }
   return Buffer.from(await target.xlsx.writeBuffer());
 }

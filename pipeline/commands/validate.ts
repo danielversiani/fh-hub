@@ -22,6 +22,7 @@ import {
   ReviewItem,
   SourceStatus,
   Suggestion,
+  EventPick,
   Tune,
   TuneIndexEntry,
   Tuner,
@@ -48,6 +49,7 @@ const GENERATED_DIRS: [string, z.ZodType][] = [
   ['lists', ListEntry],
   ['playlist/events', PlaylistEvent],
   ['playlist/suggestions', Suggestion],
+  ['playlist/picks', EventPick],
   ['changelog', ChangeLogEntry],
 ];
 

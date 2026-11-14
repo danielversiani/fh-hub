@@ -23,6 +23,7 @@ import { buildSeasons, eventCategory, eventId, parseSeasonLabel } from '../norma
 import { parseRoute, RequirementParser } from '../normalize/requirement';
 import { TunerRegistry, type TunerIdentity } from '../normalize/tuners';
 import { magnitude } from './highlights';
+import { placeEventPicks, type ResolvedPick } from './event-picks';
 import { CAR_CLASSES, Drivetrain, Rarity, Surface } from '../schema/enums';
 import type {
   BrainAfkRule,
@@ -33,6 +34,7 @@ import type {
   Highlight,
   LapTime,
   MetaRanking,
+  EventPick,
   PlaylistEvent,
   RivalsPick,
   ListEntry,
@@ -81,6 +83,8 @@ export interface Dataset {
   today?: string;
   seasons: PlaylistSeason[];
   events: PlaylistEvent[];
+  /** Community picks per playlist event (LogikJ, Noa Miyako…, ADR-0020). */
+  eventPicks: EventPick[];
   review: ReviewItem[];
 }
 
@@ -164,6 +168,8 @@ function absorb(target: Tune, other: Tune): void {
   target.engine ??= other.engine;
   target.notes ??= other.notes;
   target.createdAt ??= other.createdAt;
+  target.difficulty ??= other.difficulty;
+  if (other.recommended) target.recommended = true;
   target.buildTags = [...new Set([...target.buildTags, ...other.buildTags])].sort();
 }
 
@@ -270,6 +276,8 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
         buildTags: parseBuildTags(raw.build, name, raw.notes),
         notes: cleanText(raw.notes) || undefined,
         createdAt: raw.createdAt,
+        difficulty: parseDifficulty(raw.difficulty),
+        recommended: raw.recommended || undefined,
         observations: [{ sourceId: source.id, tab: raw.tab, row: raw.row, raw: raw.raw }],
       };
 
@@ -660,6 +668,33 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     }
   }
 
+  // --- community picks per event (ADR-0020) ------------------------------------------------
+  const resolvedPicks: ResolvedPick[] = [];
+  for (const { source, output } of ordered) {
+    for (const pick of output.eventPicks) {
+      if (pick.tuner && isOptedOut(pick.tuner)) continue;
+      const carId = resolveCar(source.id, pick.car);
+      if (!carId) continue;
+      resolvedPicks.push({
+        sourceId: source.id,
+        pick,
+        carId,
+        tunerId: identifyTuner(pick.tuner)?.id,
+      });
+    }
+  }
+  const tuneIdByCode = new Map(
+    [...tunes.values()].filter((t) => t.shareCode).map((t) => [t.shareCode!, t.id]),
+  );
+  const { placed: eventPicks, unplaced } = placeEventPicks(resolvedPicks, events, tuneIdByCode);
+  for (const p of unplaced) {
+    review.add(
+      'unknown-value',
+      p.sourceId,
+      `event pick not placed: ${p.pick.series} ${p.pick.season} ${p.pick.kind} "${p.pick.eventName}" (${p.carId})`,
+    );
+  }
+
   // --- tuners ------------------------------------------------------------------------------
   const tuneCount = new Map<string, number>();
   for (const t of tunes.values()) tuneCount.set(t.tunerId, (tuneCount.get(t.tunerId) ?? 0) + 1);
@@ -689,6 +724,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
     tierOverrides: manual.tierOverrides.filter((r) => carById.has(r.carId)),
     seasons,
     events,
+    eventPicks,
     review: review.list(),
   };
 }

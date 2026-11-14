@@ -18,6 +18,8 @@
 | `fandom-images` | Forza Wiki (Fandom) | API MediaWiki | **Foto** de 666 carros (captura de tela do FH6) | ✅ API pública | not-required (regras de conteúdo da Microsoft, [ADR-0013](adr/0013-miniaturas-dos-carros.md)) | ✅ Fase 1 |
 | `gbr-ozzy` (desligada: o autor pediu para ficar de fora, 2026-11-08) | GBR Ozzy's FH6 Spreadsheet | Google Sheets | ~2.660 tunes com código | ✅ gviz (exportação bloqueada pelo dono) | denied | desligada |
 | `kleis` | Forza Tune & Design Sheet by kleis | `.xlsx` no Drive | ~3.000 tunes, 562 carros, 194 tunadores, **sem códigos** | ✅ xlsx | granted | ✅ Fase 0 |
+| `forza-paddock` | Forza Paddock Tune Recommendations (planilha do dono) | Google Sheets (.xlsx) | Tunes recomendadas pelo próprio site, por classe × piso, com dificuldade de 6 níveis | ✅ exportação .xlsx | granted | ✅ selo "Recomendada pelo Forza Paddock" |
+| `logikj-playlist` | LogikJ's FH6 Tune Sheet, abas "Series <n> <estação>" | Google Sheets (.xlsx) | Carros e tunes recomendados por evento da Playlist | ✅ exportação .xlsx | granted | ✅ Playlist |
 | `k1z-gray` | My Fh6 Tunes (K1Z Gray) | Google Sheets | 78 tunes S2/S1 com código | ✅ exportação CSV | public | ✅ Fase 0 |
 | `letzelu-shirakawa` | Letz' Shirakawa Tune & Hotlap Sheet | Google Sheets | Tempos de volta A/S1/S2 com tier | ✅ exportação CSV | public | ✅ Fase 0 |
 | `whd-url` | Underground Racing League (Wrong Hand Drive) | Google Sheets | Série da comunidade: ~60 carros com tune e pintura, mais rotas de evento | ✅ exportação CSV | public | ✅ Fase 0 |
@@ -82,6 +84,21 @@ fhstats não é planilha: a amostra guarda os dados já extraídos da página (`
 - **Nomes de carro:** vêm abreviados ("MX-5 FE '94"); os apelidos ficam em `data/manual/car-aliases.yaml`.
 - **Uso:** fonte do ranking do Forza Paddock ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)). As datas aparecem como "atualizada em" e nas novidades da página inicial.
 
+### `forza-paddock`: recomendações do próprio site
+- **URL:** https://docs.google.com/spreadsheets/d/1Lh2bk_Qy4ePUZK9ZR4W3aTvBEbOklDTl4bw7zCBIppI (do dono; link aberto só para leitura desde 2026-11-14, para a sincronização ler sem login).
+- **Formato:** uma aba por classe × piso ("S1 800 - Road", "A 700 - CC"). O site lê **todas** as abas nesse formato, inclusive novas. Colunas usadas: Manufacturer, Model/Car, Tuner, Tune Name, Drivetrain, Tyre Compound, Date Created, Sharecode, Difficulty.
+- **Regras** ([ADR-0020](adr/0020-recomendacoes-do-forza-paddock.md)):
+  - linha sem "Date Created" fica de fora;
+  - o ano do modelo pode vir com dois dígitos ("22 Valkyrie AMR Pro" = 2022);
+  - a data é dia/mês/ano.
+- **"10 R8 V10 PLUS"** (2010) é o R8 V10 Plus de 2016, o único no jogo: apelido em `data/manual/car-aliases.yaml`.
+
+### `logikj-playlist`: recomendações de LogikJ por evento
+- **Mesma planilha** da fonte `logikj`, lida inteira (.xlsx). Abas "Series 7 Autumn/Fall", "Series 7 Winter WIP"… (na exportação, a barra some: "AutumnFall").
+- Cada evento começa um bloco (coluna Event, célula mesclada); cada linha com carro é uma recomendação, quase sempre com a tune de LogikJ.
+- Os códigos de chassi entre parênteses ("IMPREZA WRX STI (GR)", "Focus RS (Mk 3.5)") são removidos antes de reconhecer o carro.
+- A aba "Series 3 Summer" tem outro formato e é ignorada (com aviso).
+
 ### `logikj`: escolhas online de LogikJ
 - **URL:** planilha `1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo`, aba "Online Racing Tune Picks" (gid 1457186910). As outras abas (tunes, lista de carros, aba semanal) não são lidas.
 - **Conteúdo:** carro, classe, piso, nome da tune, código e uma nota que diz o nível ("Meta", "Strong", "Offmeta"), se a tune é grip e se é para online ou Rivais.
@@ -111,6 +128,8 @@ fhstats não é planilha: a amostra guarda os dados já extraídos da página (`
 - **Cobertura (2026-11-08):** 666 dos 667 carros (falta o Subaru BRZ Forza Edition, cujo nome na wiki não bate com o roster).
 
 ### `noa-miyako`: tabela de meta de Noa Miyako
+
+**Recomendações por evento (2026-11-14, [ADR-0020](adr/0020-recomendacoes-do-forza-paddock.md)):** a aba "季节赛 每周更新" traz, para cada semana ("系列赛7 城市生活 秋季" = série 7, outono), o carro e a tune recomendados para cada evento: tipo (coluna A), nome em chinês (C), carro com a marca em chinês (E) e "调校师: <tunador> 调校代码: <código>" (I). As marcas são traduzidas por `ZH_MAKES` em `pipeline/adapters/noa-season.ts`; o evento é encontrado pela semana, pelo tipo e pelo carro elegível.
 
 > **Observações em chinês:** aparecem traduzidas pela memória de tradução (`data/manual/translations.yaml`, [ADR-0014](adr/0014-traducao-dos-textos-das-fontes.md)). Os tempos citados ("白川1:04.3") viram selos "1:04.3 · Shirakawa" (`data/manual/track-aliases.yaml`).
 - **URL:** https://docs.qq.com/sheet/DYWZVRWR0dnh3aHhZ (aba inicial `mmc7rv`)

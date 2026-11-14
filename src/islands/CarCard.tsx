@@ -45,6 +45,8 @@ export interface CarCardLabels {
   tiers: Record<PlatformTier, string>;
   brainAfk: string;
   brainAfkHelp: string;
+  /** "Recomendada pelo Forza Paddock" */
+  recommended: string;
   spec: { drivetrain: string; tires: string; style: string; difficulty: string };
   surfaces: Record<string, string>;
   categories: Record<string, string>;
@@ -77,8 +79,12 @@ export const platformIndex = (t: PlatformTier | undefined) =>
   t ? PLATFORM_TIER_ORDER.indexOf(t) : PLATFORM_TIER_ORDER.length;
 const SURFACE_ORDER: readonly (Surface | null)[] = ['road', 'dirt', 'cross-country', null];
 
-/** Better tier, credited by the meta table, has a share code, table rank, internal score. */
+/**
+ * The Forza Paddock's own pick first (ADR-0020), then better tier, credited by the meta table,
+ * has a share code, table rank, internal score.
+ */
 export const compareTunes = (a: BrowseTune, b: BrowseTune) =>
+  Number(Boolean(b.recommended)) - Number(Boolean(a.recommended)) ||
   tierIndex(a.tier ?? 't3') - tierIndex(b.tier ?? 't3') ||
   Number(b.credited) - Number(a.credited) ||
   Number(Boolean(b.code)) - Number(Boolean(a.code)) ||
@@ -210,6 +216,11 @@ export function BrainAfkChip({ label, help }: { label: string; help: string }) {
       {label}
     </span>
   );
+}
+
+/** The Forza Paddock's own pick (owner's sheet, ADR-0020). */
+export function RecommendedChip({ label }: { label: string }) {
+  return <span class="fp-pick">★ {label}</span>;
 }
 
 export function DifficultyText({ difficulty, label }: { difficulty: Difficulty; label: string }) {
@@ -349,6 +360,7 @@ function TopTune({
 }) {
   return (
     <>
+      {tune.recommended && <RecommendedChip label={labels.recommended} />}
       <div>
         <p class="label">{labels.tuneBy}</p>
         <a href={`${base}/tuners/${tune.tuner}/`} class="tuner-name">
@@ -398,6 +410,7 @@ function TuneRow({
             · {labels.tuneDate.replace('{date}', formatDay(t.date, labels.lang))}
           </span>
         )}
+        {t.recommended && <RecommendedChip label={labels.recommended} />}
         {t.brainAfk && <BrainAfkChip label={labels.brainAfk} help={labels.brainAfkHelp} />}
         <span class="ml-auto">
           {t.code ? (

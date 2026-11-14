@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -26,12 +26,12 @@
             "Tuner": "LetzeLU",
             "fill": "FF7030A0"
           },
-          "row": 1413,
+          "row": 1417,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -62,12 +62,12 @@
             "Tuner": "Noa Miyako",
             "fill": "FF7030A0"
           },
-          "row": 1415,
+          "row": 1419,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -98,12 +98,12 @@
             "Tuner": "ESV Rapture",
             "fill": "FF7030A0"
           },
-          "row": 1411,
+          "row": 1415,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -118,7 +118,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-cdee0a8e42",
       "lapRefs": [
@@ -147,13 +147,13 @@
             "Tuner": "K1Z Howzer",
             "fill": "FF7030A0"
           },
-          "row": 1412,
+          "row": 1416,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -187,12 +187,12 @@
             "Tuner": "LogikJ",
             "fill": "FF7030A0"
           },
-          "row": 1414,
+          "row": 1418,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -217,12 +217,53 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.577,
+      "score": 0.559,
       "shareCode": "128854671",
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-ferrari-enzo-ferrari",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-10-09",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-996383195",
+      "metaRank": 43,
+      "name": "shira54(ok the first Ferrari to get 54 is enzo)",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-10-09",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Ferrari",
+            "Model/Car": "02 Enzo",
+            "Sharecode": "996 383 195",
+            "Tune Name": "shira54(ok the first Ferrari to get 54 is enzo)",
+            "Tuner": "MayuriSakura",
+            "Tyre Compound": "Rally"
+          },
+          "row": 9,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.604,
+      "shareCode": "996383195",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "mayurisakura"
     }
   ],
   "schemaVersion": 1

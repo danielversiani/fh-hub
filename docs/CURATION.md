@@ -51,7 +51,7 @@ Cada sinal é normalizado entre 0 e 1. **Sinal ausente não vale zero**: ele sim
 | `endorsement` | Quantas fontes independentes listam o tune | `log2(1 + n) / log2(1 + nMax)`; listas curadas (ex.: kleis) contam com o peso da fonte |
 | `tuner` | Reputação do tunador, **definida pelo dono** | Valor por tunador no config; padrão 0,5 |
 | `recency` | Data do tune, quando a fonte informa | 1,0 se criado depois do último patch de física relevante; decai com o tempo |
-| `ease` | Dificuldade (Noa, Letz) | `easy` 1,0 … `very-hard` 0,2. Peso maior nas sugestões para iniciantes |
+| `ease` | Dificuldade (planilha do Forza Paddock, Noa, Letz) | Escala de 6 níveis ([ADR-0020](adr/0020-recomendacoes-do-forza-paddock.md)): Cérebro desligado 1,0, Muito fácil 0,9, Fácil 0,75, Médio 0,55, Difícil 0,4, Muito difícil 0,2. Peso maior nas sugestões para iniciantes |
 | `community` | Votos (Fase 3) | Ainda não existe |
 
 ## 3. Nota

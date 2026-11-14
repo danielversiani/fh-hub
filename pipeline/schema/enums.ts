@@ -93,7 +93,11 @@ export type Tier = z.infer<typeof Tier>;
 export const PlatformTier = z.enum(['meta-plus', 'meta', 'off-meta', 'niche', 'other']);
 export type PlatformTier = z.infer<typeof PlatformTier>;
 
-export const Difficulty = z.enum(['easy', 'normal', 'slightly-hard', 'hard', 'very-hard']);
+/**
+ * Tune difficulty, the Forza Paddock scale (owner's sheet, ADR-0020): Brain AFK (Cérebro desligado),
+ * Very Easy (Muito fácil), Easy (Fácil), Medium (Médio), Hard (Difícil), Death (Muito difícil).
+ */
+export const Difficulty = z.enum(['brain-afk', 'very-easy', 'easy', 'medium', 'hard', 'death']);
 export type Difficulty = z.infer<typeof Difficulty>;
 
 export const Category = z.enum(['meta', 'off-meta', 'purist', 'meme']);

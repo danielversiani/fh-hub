@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:15.157Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -10,7 +10,7 @@
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-80437a2e71",
@@ -25,7 +25,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.563,
+      "score": 0.545,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -65,13 +65,54 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.505,
+      "score": 0.486,
       "shareCode": "111123368",
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-ferrari-fxx-k",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.85,
+      "createdAt": "2026-10-06",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-653738901",
+      "metaRank": 27,
+      "name": "S2 Road All-round",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-10-06",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Ferrari",
+            "Model/Car": "14 FXX K",
+            "Sharecode": "653 738 901",
+            "Tune Name": "S2 Road All-round",
+            "Tuner": "TheDannny",
+            "Tyre Compound": "Semi-Slick"
+          },
+          "row": 7,
+          "sourceId": "forza-paddock",
+          "tab": "s2-900-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.547,
+      "shareCode": "653738901",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "semi-slick",
+      "tunerId": "thedannny"
     }
   ],
   "schemaVersion": 1

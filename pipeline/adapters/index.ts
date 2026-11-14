@@ -2,12 +2,14 @@ import { attaxJohnson } from './attax-johnson';
 import { fandomDrivetrain, fandomImages, fandomRarity } from './fandom-rarity';
 import { fhstats } from './fhstats';
 import { forzaCars } from './forza-cars';
+import { forzaPaddock } from './forza-paddock';
 import { forzaPlaylist } from './forza-playlist';
 import { gbrOzzy } from './gbr-ozzy';
 import { k1zGray } from './k1z-gray';
 import { kleis } from './kleis';
 import { letzeluShirakawa } from './letzelu-shirakawa';
 import { logikj } from './logikj';
+import { logikjPlaylist } from './logikj-playlist';
 import { noaMiyako } from './noa-miyako';
 import { rivalsSheet } from './rivals-sheet';
 import type { Adapter } from './types';
@@ -22,12 +24,14 @@ export const ADAPTERS: Readonly<Record<string, Adapter>> = Object.fromEntries(
     fandomRarity,
     fhstats,
     forzaCars,
+    forzaPaddock,
     forzaPlaylist,
     gbrOzzy,
     k1zGray,
     kleis,
     letzeluShirakawa,
     logikj,
+    logikjPlaylist,
     noaMiyako,
     rivalsSheet,
     whdUrl,

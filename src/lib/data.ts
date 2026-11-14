@@ -10,6 +10,7 @@ import type {
   MetaRanking,
   PlaylistEvent,
   PlaylistSeason,
+  EventPick,
   SourceStatus,
   Suggestion,
   TuneIndexEntry,
@@ -54,6 +55,9 @@ export const loadEvents = (seasonId: string) =>
   readItems<PlaylistEvent>(`playlist/events/${seasonId}.json`);
 export const loadSuggestions = (seasonId: string) =>
   readItems<Suggestion>(`playlist/suggestions/${seasonId}.json`);
+/** Community picks per event (LogikJ, Noa Miyako…, ADR-0020). */
+export const loadEventPicks = (seasonId: string) =>
+  readItems<EventPick>(`playlist/picks/${seasonId}.json`);
 export const loadMeta = (): MetaRanking[] =>
   listDir('meta').flatMap((f) => readItems<MetaRanking>(`meta/${f}`));
 
@@ -98,7 +102,20 @@ export function loadStats() {
   };
 }
 
-export const currentSeason = () => loadSeasons().find((s) => s.current);
+/**
+ * The live season. forza.net can take a while to switch after Thursday's change: once the flagged
+ * season is over, the one whose dates cover today takes its place (owner, 2026-11-14).
+ */
+export const currentSeason = (): PlaylistSeason | undefined => {
+  const seasons = loadSeasons();
+  const flagged = seasons.find((s) => s.current);
+  const today = new Date().toISOString().slice(0, 10);
+  if (!flagged?.endsOn || today <= flagged.endsOn) return flagged;
+  const next = seasons.find(
+    (s) => s.startsOn && s.endsOn && s.startsOn <= today && today < s.endsOn,
+  );
+  return next ? { ...next, current: true } : flagged;
+};
 
 export const loadHighlights = () => readItems<Highlight>('highlights.json');
 export const loadRoles = () => readItems<CarRole>('roles.json');

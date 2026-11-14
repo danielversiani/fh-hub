@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -10,7 +10,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-053fa1217a",
       "lapRefs": [
@@ -39,13 +39,13 @@
             "Tuner": "LetzeLU",
             "fill": "FF7030A0"
           },
-          "row": 1152,
+          "row": 1156,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -77,12 +77,12 @@
             "Tuner": "K1Z Jumpy",
             "fill": "FF7030A0"
           },
-          "row": 1151,
+          "row": 1155,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -113,12 +113,12 @@
             "Tuner": "ESV Vini",
             "fill": "FF7030A0"
           },
-          "row": 1150,
+          "row": 1154,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -149,12 +149,12 @@
             "Tuner": "VNX Ardent",
             "fill": "FF7030A0"
           },
-          "row": 1153,
+          "row": 1157,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -185,12 +185,12 @@
             "Tuner": "WASTE312",
             "fill": "FF7030A0"
           },
-          "row": 1154,
+          "row": 1158,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -221,12 +221,12 @@
             "Tuner": "WASTE312",
             "fill": "FF7030A0"
           },
-          "row": 1155,
+          "row": 1159,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -254,7 +254,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 1149,
+          "row": 1153,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -290,12 +290,12 @@
             "Tuner": "wisteriadrop",
             "fill": "FF7030A0"
           },
-          "row": 1156,
+          "row": 1160,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -310,7 +310,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-174056838",
       "lapRefs": [
@@ -335,8 +335,62 @@
         }
       ],
       "role": "allround",
-      "score": 0.626,
+      "score": 0.607,
       "shareCode": "174056838",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-chevrolet-corvette-zr1",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.85,
+      "createdAt": "2026-08-12",
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "id": "sc-491677501",
+      "lapRefs": [
+        {
+          "time": "54.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 41,
+      "name": "54.7 Shira Clean | 1:55.7 Tokyo Clean",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-08-12",
+            "Difficulty": "Medium",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Chevrolet",
+            "Model/Car": "19 Corvette ZR1",
+            "Sharecode": "491 677 501",
+            "Tune Name": "54.7 Shira Clean | 1:55.7 Tokyo Clean",
+            "Tuner": "LetzeLU",
+            "Tyre Compound": "Rally"
+          },
+          "row": 7,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "role": "allround",
+      "score": 0.643,
+      "shareCode": "491677501",
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -363,7 +417,7 @@
           "tab": "online"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "shareCode": "849249316",
       "surface": "road",
       "tier": "t1",

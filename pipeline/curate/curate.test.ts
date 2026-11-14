@@ -97,6 +97,7 @@ const dataset: Dataset = {
     },
   ],
   events: [event],
+  eventPicks: [],
   review: [],
 };
 

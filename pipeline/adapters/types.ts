@@ -28,6 +28,10 @@ export interface RawTune {
   notes?: string;
   shareCode?: string;
   createdAt?: string;
+  /** The tune's difficulty as written ("Very Easy", "简单"…). */
+  difficulty?: string;
+  /** Recommended by the Forza Paddock itself (owner's sheet, ADR-0020). */
+  recommended?: boolean;
   raw: Record<string, string>;
 }
 
@@ -203,6 +207,39 @@ export interface RawRivalsStat {
 }
 
 /** Everything an adapter can extract. This object is also the per-source snapshot. */
+/** Kind of playlist event a community sheet recommends a car for (matched to forza.net's types). */
+export type EventPickKind =
+  | 'championship'
+  | 'trial'
+  | 'weekly-challenge'
+  | 'time-attack'
+  | 'speed-trap'
+  | 'speed-zone'
+  | 'drift-zone'
+  | 'danger-sign'
+  | 'drag'
+  | 'trailblazer';
+
+/**
+ * A car (and usually a tune) a community sheet recommends for one event of a playlist week
+ * (LogikJ's season tabs, Noa Miyako's weekly tab).
+ */
+export interface RawEventPick {
+  tab: string;
+  row: number;
+  /** The week: series number and season. */
+  series: number;
+  season: 'summer' | 'autumn' | 'winter' | 'spring';
+  kind: EventPickKind;
+  /** The event's name as the sheet writes it (may differ from forza.net's, or be in Chinese). */
+  eventName: string;
+  car: CarRef;
+  tuner?: string;
+  tuneName?: string;
+  shareCode?: string;
+  notes?: string;
+}
+
 export interface AdapterOutput {
   catalog: CatalogCar[];
   tunes: RawTune[];
@@ -215,6 +252,7 @@ export interface AdapterOutput {
   rivals: RawRivalsPick[];
   lists: RawListEntry[];
   rivalsStats: RawRivalsStat[];
+  eventPicks: RawEventPick[];
   warnings: string[];
 }
 
@@ -245,6 +283,7 @@ export const emptyOutput = (): AdapterOutput => ({
   rivals: [],
   lists: [],
   rivalsStats: [],
+  eventPicks: [],
   warnings: [],
 });
 
@@ -265,7 +304,8 @@ export const countRecords = (o: AdapterOutput): number =>
   o.carAttributes.length +
   o.rivals.length +
   o.lists.length +
-  o.rivalsStats.length;
+  o.rivalsStats.length +
+  o.eventPicks.length;
 
 export function requireTab<K extends TabPayload['kind']>(
   input: AdapterInput,

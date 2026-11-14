@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [
@@ -25,7 +25,7 @@
             "Tuner": "ZaZ490",
             "fill": "FFFF0000"
           },
-          "row": 923,
+          "row": 927,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -58,7 +58,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FFFF0000"
           },
-          "row": 921,
+          "row": 925,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -91,7 +91,7 @@
             "Tuner": "EoJz7294",
             "fill": "FFFF0000"
           },
-          "row": 919,
+          "row": 923,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -111,7 +111,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-55c0d794e9",
@@ -137,7 +137,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.563,
+      "score": 0.545,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -169,12 +169,12 @@
             "Tuner": "StoryVS TTV",
             "fill": "FF7030A0"
           },
-          "row": 924,
+          "row": 928,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.53,
+      "score": 0.511,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -202,7 +202,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 922,
+          "row": 926,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -239,7 +239,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 920,
+          "row": 924,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -272,6 +272,44 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.4,
+      "createdAt": "2026-06-19",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-162568615",
+      "name": "*Shira 1:00.3/Road Off Meta (WB+RoofRack)",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-19",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Audi",
+            "Model/Car": "13 R8 Coupé V10 Plus 5.2 FSI quattro",
+            "Sharecode": "162 568 615",
+            "Tune Name": "*Shira 1:00.3/Road Off Meta (WB+RoofRack)",
+            "Tuner": "MSR Mian",
+            "Tyre Compound": "Rally"
+          },
+          "row": 13,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.529,
+      "shareCode": "162568615",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "rally",
+      "tunerId": "msr-mian"
     }
   ],
   "schemaVersion": 1

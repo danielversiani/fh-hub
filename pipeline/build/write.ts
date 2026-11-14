@@ -61,6 +61,7 @@ const toIndexEntry = (t: Tune): TuneIndexEntry => ({
   fromMeta: t.fromMeta,
   createdAt: t.createdAt,
   difficulty: t.difficulty,
+  recommended: t.recommended,
   brainAfk: t.brainAfk,
   role: t.role,
   metaNotes: t.metaNotes,
@@ -122,6 +123,13 @@ export function writeDataset(
   writeEnvelope(path.join(out, 'playlist', 'seasons.json'), dataset.seasons, now, report);
   writeEnvelope(path.join(out, 'highlights.json'), highlights, now, report);
   writeGroups(path.join(out, 'playlist', 'events'), dataset.events, (e) => e.seasonId, now, report);
+  writeGroups(
+    path.join(out, 'playlist', 'picks'),
+    dataset.eventPicks,
+    (p) => p.seasonId,
+    now,
+    report,
+  );
   writeGroups(
     path.join(out, 'playlist', 'suggestions'),
     suggestions,

@@ -1,78 +1,6 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2024-mercedes-amg-gt-63-4matic",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "engine": "5.2L V10 + Centri",
-      "id": "nc-11edc80729",
-      "lapRefs": [
-        {
-          "time": "54.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川54.5",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 26,
-      "name": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2024 Mercedes-AMG GT 63 4MATIC+",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)",
-            "Tuner": "LetzeLU",
-            "fill": "FF7030A0"
-          },
-          "row": 2300,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {
-            "Aero": "FA",
-            "Build": "Balanced",
-            "Car": "Mercedes AMG GT 63",
-            "Difficulty": "Very Easy",
-            "Driver": "LetzeLU",
-            "Drivetrain": "AWD",
-            "Engine": "5.2L V10 + Centri",
-            "Laptime": "0:54.552",
-            "Notes": "",
-            "Tier": "Offmeta < 55.000",
-            "Tires": "Rally",
-            "Tune": "LetzeLU",
-            "Tune Name": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)"
-          },
-          "row": 15,
-          "sourceId": "letzelu-shirakawa",
-          "tab": "s1-800"
-        }
-      ],
-      "role": "allround",
-      "score": 0.778,
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
     {
       "buildTags": [],
       "carId": "2024-mercedes-amg-gt-63-4matic",
@@ -82,7 +10,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-4f53369928",
@@ -97,7 +25,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.732,
+      "score": 0.713,
       "surface": "dirt",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -113,7 +41,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-8b3bbde321",
@@ -139,7 +67,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -155,7 +83,7 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-9ae2d9e001",
@@ -170,7 +98,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.732,
+      "score": 0.713,
       "surface": "dirt",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -202,12 +130,12 @@
             "Tuner": "GamerLogicFTW",
             "fill": "FF7030A0"
           },
-          "row": 2299,
+          "row": 2303,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.635,
+      "score": 0.62,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -238,12 +166,12 @@
             "Tuner": "GamerLogicFTW",
             "fill": "FF7030A0"
           },
-          "row": 2298,
+          "row": 2302,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.665,
+      "score": 0.646,
       "surface": "dirt",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -268,7 +196,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.577,
+      "score": 0.559,
       "shareCode": "168029612",
       "surface": "road",
       "tier": "t1",
@@ -282,10 +210,12 @@
         "meta"
       ],
       "class": "S1",
-      "confidence": 0.95,
+      "confidence": 1,
+      "createdAt": "2026-10-30",
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
+      "engine": "5.2L V10 + Centri",
       "id": "sc-969881490",
       "lapRefs": [
         {
@@ -299,17 +229,70 @@
         "pt-br": ""
       },
       "metaRank": 26,
-      "name": "S1 Allround",
+      "name": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)",
       "observations": [
         {
           "raw": {},
           "row": 203,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
+        },
+        {
+          "raw": {
+            "Date Created": "2026-10-30",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Mercedes-AMG",
+            "Model/Car": "GT 63 4MATIC+",
+            "Sharecode": "969 881 490",
+            "Tune Name": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)",
+            "Tuner": "LetzeLU",
+            "Tyre Compound": "Rally"
+          },
+          "row": 13,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        },
+        {
+          "raw": {
+            "Car": "2024 Mercedes-AMG GT 63 4MATIC+",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2304,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        },
+        {
+          "raw": {
+            "Aero": "FA",
+            "Build": "Balanced",
+            "Car": "Mercedes AMG GT 63",
+            "Difficulty": "Very Easy",
+            "Driver": "LetzeLU",
+            "Drivetrain": "AWD",
+            "Engine": "5.2L V10 + Centri",
+            "Laptime": "0:54.552",
+            "Notes": "",
+            "Tier": "Offmeta < 55.000",
+            "Tires": "Rally",
+            "Tune": "LetzeLU",
+            "Tune Name": "Road Allround 54.5 Shira Clean (GTz LiQuiD sauce)"
+          },
+          "row": 15,
+          "sourceId": "letzelu-shirakawa",
+          "tab": "s1-800"
         }
       ],
+      "recommended": true,
       "role": "allround",
-      "score": 0.701,
+      "score": 0.844,
       "shareCode": "969881490",
       "surface": "road",
       "tier": "t0.5",

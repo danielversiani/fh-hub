@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "TheDannny",
             "fill": "FF7030A0"
           },
-          "row": 2580,
+          "row": 2584,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -43,7 +43,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "engine": "4.8L V10 + Centri",
       "id": "nc-416aa588e2",
@@ -73,7 +73,7 @@
             "Tuner": "LetzeLU",
             "fill": "FF7030A0"
           },
-          "row": 2584,
+          "row": 2588,
           "sourceId": "kleis",
           "tab": "fh6"
         },
@@ -99,7 +99,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.772,
+      "score": 0.757,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -134,12 +134,12 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 2581,
+          "row": 2585,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.631,
+      "score": 0.615,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -173,12 +173,12 @@
             "Tuner": "DarkZ704",
             "fill": "FFFF0000"
           },
-          "row": 2577,
+          "row": 2581,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -203,7 +203,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.621,
+      "score": 0.605,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -231,7 +231,7 @@
             "Tuner": "KcnaXii",
             "fill": "FF7030A0"
           },
-          "row": 2579,
+          "row": 2583,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -267,12 +267,12 @@
             "Tuner": "NDL ardno",
             "fill": "FFFF0000"
           },
-          "row": 2578,
+          "row": 2582,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -303,12 +303,12 @@
             "Tuner": "KcnaXii",
             "fill": "FF7030A0"
           },
-          "row": 2583,
+          "row": 2587,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.631,
+      "score": 0.615,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -339,12 +339,12 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 2582,
+          "row": 2586,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.631,
+      "score": 0.615,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -359,7 +359,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-e9328a38a3",
@@ -385,7 +385,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -436,7 +436,7 @@
           "tab": "online"
         }
       ],
-      "score": 0.611,
+      "score": 0.593,
       "shareCode": "553416609",
       "surface": "road",
       "tier": "t1",
@@ -447,12 +447,53 @@
       "buildTags": [],
       "carId": "2024-nissan-gt-r-nismo",
       "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-10-08",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "id": "sc-691628963",
+      "metaRank": 29,
+      "name": "https://www.pixiv.net/artworks/148622108",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-10-08",
+            "Difficulty": "Very Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Nissan",
+            "Model/Car": "24 GT-R Nismo",
+            "Sharecode": "691 628 963",
+            "Tune Name": "https://www.pixiv.net/artworks/148622108",
+            "Tuner": "NismoWM",
+            "Tyre Compound": "Rally"
+          },
+          "row": 14,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.641,
+      "shareCode": "691628963",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "nismowm"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-nissan-gt-r-nismo",
+      "categories": [
         "off-meta"
       ],
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-779813648",
       "lapRefs": [
@@ -477,7 +518,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.626,
+      "score": 0.607,
       "shareCode": "779813648",
       "surface": "road",
       "tier": "t1",

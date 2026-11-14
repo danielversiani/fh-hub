@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -10,7 +10,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-316ee6c8f9",
@@ -31,7 +31,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.583,
+      "score": 0.567,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -63,12 +63,12 @@
             "Tuner": "ESV Lawrence",
             "fill": "FF7030A0"
           },
-          "row": 2733,
+          "row": 2737,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -110,7 +110,7 @@
           "tab": "s1-800"
         }
       ],
-      "score": 0.557,
+      "score": 0.542,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -139,7 +139,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 2732,
+          "row": 2736,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -172,7 +172,7 @@
             "Tuner": "Fenrir3268",
             "fill": "FF7030A0"
           },
-          "row": 2731,
+          "row": 2735,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -211,12 +211,12 @@
             "Tuner": "K1Z Jumpy",
             "fill": "FF7030A0"
           },
-          "row": 2735,
+          "row": 2739,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -241,7 +241,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.538,
+      "score": 0.522,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -272,12 +272,12 @@
             "Tuner": "NDL Ramen",
             "fill": "FF7030A0"
           },
-          "row": 2734,
+          "row": 2738,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -311,16 +311,57 @@
             "Tuner": "Nomv1",
             "fill": "FF7030A0"
           },
-          "row": 2736,
+          "row": 2740,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "score": 0.533,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "nomv1"
+    },
+    {
+      "buildTags": [],
+      "carId": "2017-saleen-s7-lm",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 1,
+      "createdAt": "2026-06-11",
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "id": "sc-220033138",
+      "metaRank": 102,
+      "name": "surely more drivable",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-11",
+            "Difficulty": "Medium",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Saleen",
+            "Model/Car": "17 S7 LM",
+            "Sharecode": "220 033 138",
+            "Tune Name": "surely more drivable",
+            "Tuner": "AnK x Natsu",
+            "Tyre Compound": "Rally"
+          },
+          "row": 17,
+          "sourceId": "forza-paddock",
+          "tab": "s1-800-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.551,
+      "shareCode": "220033138",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "ank-x-natsu"
     }
   ],
   "schemaVersion": 1

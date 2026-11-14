@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [
@@ -25,7 +25,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF00FF"
           },
-          "row": 2981,
+          "row": 2985,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -58,7 +58,7 @@
             "Tuner": "GReddy295",
             "fill": "FF0070C0"
           },
-          "row": 2977,
+          "row": 2981,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -96,7 +96,7 @@
             "Tuner": "SeeyeahBoss",
             "fill": "FF0070C0"
           },
-          "row": 2980,
+          "row": 2984,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -131,7 +131,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FF7030A0"
           },
-          "row": 2976,
+          "row": 2980,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -166,7 +166,7 @@
             "Tuner": "ESV Ruinz",
             "fill": "FFFF00FF"
           },
-          "row": 2982,
+          "row": 2986,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -240,7 +240,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FF0070C0"
           },
-          "row": 2978,
+          "row": 2982,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -260,13 +260,31 @@
         "off-meta"
       ],
       "class": "S2",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "createdAt": "2026-06-19",
+      "difficulty": "death",
       "drivetrain": "RWD",
       "engine": "Racing V12",
       "id": "sc-114265938",
       "metaRank": 23,
       "name": "smoothie",
       "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-06-19",
+            "Difficulty": "Very Hard",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Ultima",
+            "Model/Car": "15 Evolution Coupe 1020",
+            "Sharecode": "114 265 938",
+            "Tune Name": "smoothie",
+            "Tuner": "K1Z Gray",
+            "Tyre Compound": "Drift"
+          },
+          "row": 13,
+          "sourceId": "forza-paddock",
+          "tab": "s2-900-road"
+        },
         {
           "raw": {
             "Build": "",
@@ -297,12 +315,13 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 2979,
+          "row": 2983,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.548,
+      "recommended": true,
+      "score": 0.628,
       "shareCode": "114265938",
       "surface": "road",
       "tier": "t1",

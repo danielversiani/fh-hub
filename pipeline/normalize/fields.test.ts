@@ -88,8 +88,11 @@ describe('other parsers', () => {
   it('build tags', () =>
     expect(parseBuildTags('AWD Full Aero', 'Road Purist Grip')).toEqual(['full-aero', 'purist']));
   it('difficulty in English and Chinese', () => {
-    expect(parseDifficulty('Brain AFK')).toBe('easy');
-    expect(parseDifficulty('非常困难')).toBe('very-hard');
+    expect(parseDifficulty('Brain AFK')).toBe('brain-afk');
+    expect(parseDifficulty('Very Easy')).toBe('very-easy');
+    expect(parseDifficulty('简单')).toBe('very-easy');
+    expect(parseDifficulty('普通')).toBe('easy');
+    expect(parseDifficulty('非常困难')).toBe('death');
   });
   it('lap time', () => {
     expect(parseLapTime('0:59.227')).toBe(59_227);

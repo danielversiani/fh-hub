@@ -1,6 +1,6 @@
 # 0018. Marcar tunes fortes demais e fáceis demais como "Cérebro desligado"
 
-- **Status:** Aceita (decisão do dono, 2026-11-09)
+- **Status:** Aceita (decisão do dono, 2026-11-09). Atualizada pelo [ADR-0020](0020-recomendacoes-do-forza-paddock.md): a escala de dificuldade agora tem 6 níveis; o selo automático usa o nível "Muito fácil", e "Brain AFK" na planilha do Forza Paddock vale como marcação da curadoria.
 - **Data:** 2026-11-09
 
 ## Contexto

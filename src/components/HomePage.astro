@@ -92,8 +92,15 @@ for (const h of loadHighlights()) {
  * tuner leaving, a name fix), not the author's update: left out.
  */
 const BULK = 25;
+// The Forza Paddock's own sheet (ADR-0020) shows up only inside the site (tune list, car cards),
+// not as an update of a reference list (owner, 2026-11-14).
+const INTERNAL_SOURCES = new Set(['forza-paddock']);
 const recent = loadChanges().filter(
-  (c) => c.sourceId && c.sourceId !== 'noa-miyako' && c.at.slice(0, 10) >= daysBefore(today, 14),
+  (c) =>
+    c.sourceId &&
+    c.sourceId !== 'noa-miyako' &&
+    !INTERNAL_SOURCES.has(c.sourceId) &&
+    c.at.slice(0, 10) >= daysBefore(today, 14),
 );
 const batch = (c: (typeof recent)[number]) => `${c.sourceId}|${c.at}|${c.entity.type}`;
 const batchSize = new Map<string, number>();

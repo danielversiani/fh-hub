@@ -38,11 +38,12 @@ const TIER_VALUE: Readonly<Record<Tier, number>> = {
 };
 
 const EASE_VALUE: Readonly<Record<Difficulty, number>> = {
-  easy: 1,
-  normal: 0.75,
-  'slightly-hard': 0.55,
+  'brain-afk': 1,
+  'very-easy': 0.9,
+  easy: 0.75,
+  medium: 0.55,
   hard: 0.4,
-  'very-hard': 0.2,
+  death: 0.2,
 };
 
 const CATEGORY_ORDER: readonly Category[] = ['meta', 'off-meta', 'purist', 'meme'];
@@ -214,7 +215,7 @@ export function curate(
       categories,
       drivetrain: tune.drivetrain ?? own?.drivetrain,
       tires: tune.tires ?? own?.tires,
-      difficulty: own?.difficulty,
+      difficulty: tune.difficulty ?? own?.difficulty,
       role: own?.role,
       metaNotes: own?.notes,
       metaNotesI18n: own?.notesI18n,

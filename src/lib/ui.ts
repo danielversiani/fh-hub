@@ -59,11 +59,12 @@ export const RARITY_COLORS: Readonly<Record<Rarity, string>> = {
 
 /** Tune difficulty, from relaxed (green) to demanding (red). */
 export const DIFFICULTY_COLORS: Readonly<Record<Difficulty, string>> = {
-  easy: '#4ade80',
-  normal: '#d4d4d4',
-  'slightly-hard': '#facc15',
+  'brain-afk': '#22d3ee',
+  'very-easy': '#4ade80',
+  easy: '#a3e635',
+  medium: '#facc15',
   hard: '#fb923c',
-  'very-hard': '#f87171',
+  death: '#f87171',
 };
 
 export const CLASS_ORDER: readonly CarClass[] = ['D', 'C', 'B', 'A', 'S1', 'S2', 'R', 'X'];

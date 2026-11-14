@@ -129,23 +129,30 @@ export function parseBuildTags(...texts: (string | undefined)[]): BuildTag[] {
   return [...tags].sort();
 }
 
+/**
+ * Words of every source on the Forza Paddock scale (ADR-0020). Noa Miyako's five levels move one
+ * step each: 简单 (easy) → Very Easy, 普通 (normal) → Easy, 稍微困难 → Medium, 困难 → Hard,
+ * 非常困难 (very hard) → Death.
+ */
 const DIFFICULTY: Record<string, Difficulty> = {
-  'brain afk': 'easy',
-  'very easy': 'easy',
+  'brain afk': 'brain-afk',
+  'very easy': 'very-easy',
   easy: 'easy',
-  medium: 'normal',
-  normal: 'normal',
-  'slightly hard': 'slightly-hard',
+  medium: 'medium',
+  meedium: 'medium',
+  normal: 'easy',
+  'slightly hard': 'medium',
   hard: 'hard',
-  'very hard': 'very-hard',
+  'very hard': 'death',
+  death: 'death',
   // Noa Miyako's sheet (Chinese)
-  非常简单: 'easy',
-  简单: 'easy',
-  普通: 'normal',
-  中等: 'normal',
-  稍微困难: 'slightly-hard',
+  非常简单: 'very-easy',
+  简单: 'very-easy',
+  普通: 'easy',
+  中等: 'easy',
+  稍微困难: 'medium',
   困难: 'hard',
-  非常困难: 'very-hard',
+  非常困难: 'death',
 };
 
 export const parseDifficulty = (text: string | undefined): Difficulty | undefined =>

@@ -42,6 +42,8 @@ const MONTHS = [
   'december',
 ];
 
+const SEASON_ORDER: readonly Season[] = ['summer', 'autumn', 'winter', 'spring'];
+
 const isoDate = (d: Date) => d.toISOString().slice(0, 10);
 const DAY = 86_400_000;
 
@@ -51,9 +53,15 @@ const DAY = 86_400_000;
  * derived from the table order and flagged `datesDerived`.
  */
 export function buildSeasons(playlist: RawPlaylist): PlaylistSeason[] {
+  // Calendar order, not table order: each series runs Summer → Autumn → Winter → Spring (the
+  // table lists them in another order, which put the derived dates of other weeks off).
   const labels = [...new Set(playlist.rows.map((r) => r.seasonLabel))]
     .map(parseSeasonLabel)
-    .filter((l): l is SeasonLabel & { season: Season } => Boolean(l?.season));
+    .filter((l): l is SeasonLabel & { season: Season } => Boolean(l?.season))
+    .sort(
+      (a, b) =>
+        a.series - b.series || SEASON_ORDER.indexOf(a.season) - SEASON_ORDER.indexOf(b.season),
+    );
 
   const current = playlist.currentSeasonLabel?.toLowerCase();
   const currentIndex = current

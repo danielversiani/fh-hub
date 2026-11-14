@@ -26,6 +26,7 @@ Eles explicam o *porquê* do projeto ser como é. Ver [ADR-0001](0001-registrar-
 | [0017](0017-ranking-proprio-e-alternativas.md) | Ranking próprio a partir de todas as fontes, com destaque para as alternativas ao meta | Aceita |
 | [0018](0018-cerebro-desligado.md) | Marcar tunes fortes demais e fáceis demais como "Cérebro desligado" | Aceita |
 | [0019](0019-mundo-animado-e-modo-pista.md) | Mundo animado de blocos (modo pista) com um modo normal | Aceita |
+| [0020](0020-recomendacoes-do-forza-paddock.md) | Recomendações do Forza Paddock, escala de dificuldade de 6 níveis e recomendações por evento | Aceita |
 
 ## Como escrever um novo ADR
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "VNX Ardent",
             "fill": "FF7030A0"
           },
-          "row": 1872,
+          "row": 1876,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FF7030A0"
           },
-          "row": 1871,
+          "row": 1875,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -92,12 +92,12 @@
             "Tuner": "Inayamei",
             "fill": "FFFF0000"
           },
-          "row": 1869,
+          "row": 1873,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -112,7 +112,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-adbbe43b43",
@@ -138,7 +138,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -173,16 +173,57 @@
             "Tuner": "koeseg",
             "fill": "FFFF0000"
           },
-          "row": 1870,
+          "row": 1874,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "koeseg"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-lamborghini-murcielago-lp-670-4-sv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-07-07",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "id": "sc-109207577",
+      "metaRank": 79,
+      "name": "What the fricker? Murci finally usable in a horiSON game? Wow.",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-07-07",
+            "Difficulty": "Very Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Lamborghini",
+            "Model/Car": "10 Murciélago LP 670-4 SV",
+            "Sharecode": "109 207 577",
+            "Tune Name": "What the fricker? Murci finally usable in a horiSON game? Wow.",
+            "Tuner": "TheDannny",
+            "Tyre Compound": "Rally"
+          },
+          "row": 11,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.593,
+      "shareCode": "109207577",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "thedannny"
     },
     {
       "buildTags": [],
@@ -203,7 +244,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.577,
+      "score": 0.559,
       "shareCode": "880277117",
       "surface": "road",
       "tier": "t1",

@@ -27,8 +27,10 @@ export function markBrainAfk(
           (!r.surface || r.surface === t.surface) &&
           (!r.tuner || slugify(r.tuner) === t.tunerId),
       );
+    // The tune's own rating says Brain AFK (Forza Paddock's sheet): marked as the curator's.
+    if (!rule && t.difficulty === 'brain-afk') return { ...t, brainAfk: 'curator' };
     const auto =
-      t.difficulty === 'easy' &&
+      (t.difficulty === 'very-easy' || t.difficulty === 'brain-afk') &&
       Boolean(t.credited) &&
       top.has(`${t.carId}|${t.class ?? ''}|${t.surface ?? ''}`);
     const brainAfk = rule ? (rule.brainAfk ? 'curator' : undefined) : auto ? 'auto' : undefined;

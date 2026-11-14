@@ -131,6 +131,38 @@ sources:
     weight: 0.9
     notes: No share codes. Car class is encoded as the fill colour of column A.
 
+  - id: forza-paddock
+    name: Forza Paddock Tune Recommendations
+    kind: google-xlsx
+    url: https://docs.google.com/spreadsheets/d/1Lh2bk_Qy4ePUZK9ZR4W3aTvBEbOklDTl4bw7zCBIppI
+    docId: 1Lh2bk_Qy4ePUZK9ZR4W3aTvBEbOklDTl4bw7zCBIppI
+    fetcher: google-xlsx
+    adapter: forza-paddock
+    tabs:
+      # The whole workbook: the adapter reads every "<class> <PI> - <Road|Dirt|CC>" tab.
+      - { id: workbook, role: tunes, sheet: '*' }
+    permission: granted
+    active: true
+    # The site's own picks (ADR-0020): first among sources, so its difficulty wins on merges.
+    weight: 1
+    notes: The owner's own recommendations. Rows without "Date Created" are skipped.
+
+  - id: logikj-playlist
+    name: LogikJ's FH6 Tune Sheet (playlist picks)
+    kind: google-xlsx
+    url: https://docs.google.com/spreadsheets/d/1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo
+    docId: 1ZDLQ1Jg6E6VWfMZUZX-GWflVRl75xSYPj4NHUYwZnLo
+    ownerTuner: LogikJ
+    fetcher: google-xlsx
+    adapter: logikj-playlist
+    tabs:
+      # The whole workbook: the adapter reads every "Series <n> <season>" tab (ADR-0020).
+      - { id: workbook, role: playlist, sheet: '*' }
+    permission: granted
+    active: true
+    weight: 0.8
+    notes: Recommended cars and tunes per playlist event, one tab per week.
+
   - id: k1z-gray
     name: My Fh6 Tunes (K1Z Gray)
     kind: google-sheet

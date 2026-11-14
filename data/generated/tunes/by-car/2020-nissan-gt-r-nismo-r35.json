@@ -1,59 +1,6 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T17:10:59.529Z",
   "items": [
-    {
-      "buildTags": [
-        "stock-look"
-      ],
-      "carId": "2020-nissan-gt-r-nismo-r35",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "nc-0d76d20582",
-      "lapRefs": [
-        {
-          "time": "59.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川59.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 89,
-      "name": "Road Allround Stock Look 1:00.0 Shira Clean",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2020 Nissan GT-R Nismo (R35)",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Road Allround Stock Look 1:00.0 Shira Clean",
-            "Tuner": "LetzeLU",
-            "fill": "FFFF0000"
-          },
-          "row": 2575,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "role": "allround",
-      "score": 0.638,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
     {
       "buildTags": [
         "purist"
@@ -82,12 +29,12 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2574,
+          "row": 2578,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -102,7 +49,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-51bea1241c",
@@ -128,7 +75,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -157,7 +104,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FF7030A0"
           },
-          "row": 2576,
+          "row": 2580,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -167,6 +114,78 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2020-nissan-gt-r-nismo-r35",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-10-07",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "id": "sc-132782426",
+      "lapRefs": [
+        {
+          "time": "59.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 89,
+      "name": "Road Allround Stock Look 1:00.0 Shira Clean",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-10-07",
+            "Difficulty": "Easy",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Nissan",
+            "Model/Car": "20 GT-R Nismo (R35)",
+            "Sharecode": "132 782 426",
+            "Tune Name": "Road Allround Stock Look 1:00.0 Shira Clean",
+            "Tuner": "LetzeLU",
+            "Tyre Compound": "Rally"
+          },
+          "row": 12,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        },
+        {
+          "raw": {
+            "Car": "2020 Nissan GT-R Nismo (R35)",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Road Allround Stock Look 1:00.0 Shira Clean",
+            "Tuner": "LetzeLU",
+            "fill": "FFFF0000"
+          },
+          "row": 2579,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "recommended": true,
+      "role": "allround",
+      "score": 0.728,
+      "shareCode": "132782426",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

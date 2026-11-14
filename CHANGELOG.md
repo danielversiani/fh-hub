@@ -7,6 +7,10 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-14: **Recomendações do Forza Paddock** (planilha do dono): selo "Recomendada pelo Forza Paddock" e primeira posição na classe × piso; linhas sem data ficam de fora ([ADR-0020](docs/adr/0020-recomendacoes-do-forza-paddock.md)).
+- 2026-11-14: **Escala de dificuldade de 6 níveis** no site todo (Cérebro desligado, Muito fácil, Fácil, Médio, Difícil, Muito difícil); a de Noa Miyako sobe um degrau.
+- 2026-11-14: **Recomendações por evento na Playlist**, de LogikJ e de Noa Miyako, com o nome de quem recomendou, antes das sugestões automáticas do site.
+- 2026-11-14: **Playlist na temporada certa:** as estações seguem a ordem Verão → Outono → Inverno → Primavera (as datas das outras semanas estavam trocadas), e o site usa a temporada cujas datas cobrem o dia se o forza.net demorar a virar.
 - 2026-11-14: **Novidades que abrem no lugar:** clicar numa novidade mostra a tune atualizada e as outras tunes do carro na classe, sem sair da página inicial. Torre do modo pista mais larga, com foto e textos maiores ([ADR-0019](docs/adr/0019-mundo-animado-e-modo-pista.md)).
 - 2026-11-14: **Filtros por tipo de carro, tração original e raridade** na aba Tunes (também nas alternativas). O tipo "Electic Domestics" da lista oficial passa a ser lido como "Eclectic Domestics".
 - 2026-11-14: **Tunadores a bordo** na página "Uso de dados": LogikJ e K1Z Bard.

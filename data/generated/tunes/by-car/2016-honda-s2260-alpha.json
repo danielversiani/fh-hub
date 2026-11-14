@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:39:42.140Z",
+  "generatedAt": "2026-11-14T16:46:21.670Z",
   "items": [
     {
       "buildTags": [],
@@ -26,12 +26,12 @@
             "Tuner": "Grandma Driving",
             "fill": "FFFF0000"
           },
-          "row": 1753,
+          "row": 1757,
           "sourceId": "kleis",
           "tab": "fh6"
         }
       ],
-      "score": 0.59,
+      "score": 0.571,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -46,7 +46,7 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-35ff69d002",
@@ -72,7 +72,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.695,
+      "score": 0.676,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -88,7 +88,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-38c19b023d",
@@ -114,7 +114,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -151,7 +151,43 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.635,
+      "score": 0.616,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-93d05b28bb",
+      "metaRank": 18,
+      "name": "RWD WB Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Honda S660 Alpha",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "RWD WB Handling",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 380,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.616,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -166,7 +202,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-c0ca382c4a",
@@ -192,7 +228,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.638,
+      "score": 0.62,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

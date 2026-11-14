@@ -4,6 +4,7 @@ import { cleanText } from '../lib/text';
 import type { QqBundle } from '../fetchers/qq-docs';
 import type { CarClass, Surface } from '../schema/enums';
 import { parseClass } from '../normalize/fields';
+import { parseNoaSeasonTab } from './noa-season';
 import { emptyOutput, requireTab, type Adapter, type RawMetaUpdate } from './types';
 
 /** Column labels of every class × surface tab (Chinese). */
@@ -116,6 +117,13 @@ export const noaMiyako: Adapter = {
       let unrated = 0;
 
       for (const sheet of bundle.sheets) {
+        // The weekly playlist tab: a recommended car and tune per event (ADR-0020).
+        if (sheet.name.startsWith('季节赛')) {
+          out.eventPicks.push(
+            ...parseNoaSeasonTab(decodeCells(sheet.relatedSheet).rows, `${tab.id}/weekly`),
+          );
+          continue;
+        }
         const updateKind = UPDATE_TABS[sheet.name];
         if (updateKind) {
           out.metaUpdates.push(...parseUpdateTab(sheet, updateKind, input.source.id, tab.id));
