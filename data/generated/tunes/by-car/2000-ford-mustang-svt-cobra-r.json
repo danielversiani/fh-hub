@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T17:10:59.529Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
     {
       "buildTags": [
@@ -80,6 +80,42 @@
       "tunerId": "silvasuperbee"
     },
     {
+      "buildTags": [],
+      "carId": "2000-ford-mustang-svt-cobra-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-85b2121f10",
+      "metaRank": 115,
+      "name": "Ramming Meta",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2000 Ford Mustang SVT Cobra R",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Ramming Meta",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 1538,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.513,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "greeteddust8"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -127,7 +163,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "normal",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b20d511215",
@@ -185,63 +221,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "dumbo-gt49"
-    },
-    {
-      "buildTags": [],
-      "carId": "2000-ford-mustang-svt-cobra-r",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.85,
-      "createdAt": "2026-06-06",
-      "difficulty": "medium",
-      "drivetrain": "AWD",
-      "id": "sc-144545650",
-      "metaRank": 115,
-      "name": "Ramming Meta",
-      "observations": [
-        {
-          "raw": {
-            "Date Created": "2026-06-06",
-            "Difficulty": "Medium",
-            "Drivetrain": "AWD",
-            "Manufacturer": "Ford",
-            "Model/Car": "00 Mustang SVT Cobra R",
-            "Sharecode": "144 545 650",
-            "Tune Name": "Ramming Meta",
-            "Tuner": "GreetedDust8",
-            "Tyre Compound": "Rally"
-          },
-          "row": 9,
-          "sourceId": "forza-paddock",
-          "tab": "a-700-road"
-        },
-        {
-          "raw": {
-            "Car": "2000 Ford Mustang SVT Cobra R",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "Ramming Meta",
-            "Tuner": "GreetedDust8",
-            "fill": "FFFF0000"
-          },
-          "row": 1538,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "recommended": true,
-      "score": 0.614,
-      "shareCode": "144545650",
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "greeteddust8"
     }
   ],
   "schemaVersion": 1

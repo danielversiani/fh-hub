@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T17:10:59.529Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
     {
       "buildTags": [],
@@ -8,7 +8,7 @@
       "class": "S2",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "very-easy",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-1baf0343f3",
@@ -34,7 +34,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.488,
+      "score": 0.507,
       "surface": "road",
       "tier": "t3",
       "tierSource": "meta-table",
@@ -144,52 +144,13 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.528,
+      "score": 0.547,
       "shareCode": "109792778",
       "surface": "road",
       "tier": "t3",
       "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-aston-martin-valhalla-concept-car",
-      "categories": [],
-      "class": "S2",
-      "confidence": 0.85,
-      "createdAt": "2026-09-30",
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-317154723",
-      "metaRank": 31,
-      "name": "Road Allround",
-      "observations": [
-        {
-          "raw": {
-            "Date Created": "30/09/2-26",
-            "Difficulty": "Easy",
-            "Drivetrain": "AWD",
-            "Manufacturer": "Aston Martin",
-            "Model/Car": "19 Valhalla Concept Car",
-            "Sharecode": "317 154 723",
-            "Tune Name": "Road Allround",
-            "Tuner": "LetzeLU",
-            "Tyre Compound": "Slick"
-          },
-          "row": 5,
-          "sourceId": "forza-paddock",
-          "tab": "s2-900-road"
-        }
-      ],
-      "recommended": true,
-      "score": 0.504,
-      "shareCode": "317154723",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tires": "slick",
-      "tunerId": "letzelu"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T17:10:59.529Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
     {
       "buildTags": [],
@@ -28,7 +28,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.593,
+      "score": 0.616,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
@@ -64,7 +64,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.562,
+      "score": 0.578,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -97,11 +97,53 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.593,
+      "score": 0.616,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "cirno1x"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-audi-r8-v10-plus",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-4018dafbca",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 34,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 72,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.619,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -130,7 +172,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.593,
+      "score": 0.616,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
@@ -168,7 +210,7 @@
           "tab": "a700"
         }
       ],
-      "score": 0.611,
+      "score": 0.634,
       "surface": "road",
       "tier": "t3",
       "tierSource": "default",
@@ -205,7 +247,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.562,
+      "score": 0.578,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -253,7 +295,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "very-easy",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "engine": "5.2L V10 LMS",
       "id": "nc-cbce27cff7",
@@ -309,7 +351,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.69,
+      "score": 0.706,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -335,66 +377,12 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.552,
+      "score": 0.568,
       "shareCode": "114373165",
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "attax-johnson"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-audi-r8-v10-plus",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 1,
-      "createdAt": "2026-06-25",
-      "credited": true,
-      "difficulty": "easy",
-      "drivetrain": "AWD",
-      "id": "sc-583841781",
-      "lapRefs": [
-        {
-          "time": "54.9",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 54.9",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 34,
-      "name": "Good S1 Road T0.5",
-      "observations": [
-        {
-          "raw": {
-            "Date Created": "2026-06-25",
-            "Difficulty": "Easy",
-            "Drivetrain": "AWD",
-            "Manufacturer": "Audi",
-            "Model/Car": "10 R8 V10 PLUS",
-            "Sharecode": "583 841 781",
-            "Tune Name": "Good S1 Road T0.5",
-            "Tuner": "CaiGou YYY",
-            "Tyre Compound": "Rally"
-          },
-          "row": 5,
-          "sourceId": "forza-paddock",
-          "tab": "s1-800-road"
-        }
-      ],
-      "recommended": true,
-      "role": "allround",
-      "score": 0.62,
-      "shareCode": "583841781",
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1
