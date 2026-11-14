@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:39:42.140Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "Grandma Driving",
             "fill": "FFFF0000"
           },
-          "row": 1753,
+          "row": 1757,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -147,6 +147,42 @@
             "fill": "FFED7D31"
           },
           "row": 379,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.635,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-93d05b28bb",
+      "metaRank": 18,
+      "name": "RWD WB Handling",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Honda S660 Alpha",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "RWD WB Handling",
+            "Tuner": "Dumbo GT49",
+            "fill": "FFED7D31"
+          },
+          "row": 380,
           "sourceId": "kleis",
           "tab": "fh6"
         }

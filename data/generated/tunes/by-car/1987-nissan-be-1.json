@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-097586e944",
+      "name": "FWD Road | Stock Look VTEC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 Nissan Be-1",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD Road | Stock Look VTEC",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 461,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [],
       "carId": "1987-nissan-be-1",
@@ -23,7 +58,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FFED7D31"
           },
-          "row": 457,
+          "row": 458,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -58,7 +93,7 @@
             "Tuner": "CTE seasons",
             "fill": "FFED7D31"
           },
-          "row": 459,
+          "row": 460,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -91,7 +126,7 @@
             "Tuner": "IceFrice8724",
             "fill": "FFED7D31"
           },
-          "row": 461,
+          "row": 463,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -124,7 +159,7 @@
             "Tuner": "IceFrice8724",
             "fill": "FFED7D31"
           },
-          "row": 460,
+          "row": 462,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -157,7 +192,7 @@
             "Tuner": "Zookiiwi",
             "fill": "FFED7D31"
           },
-          "row": 458,
+          "row": 459,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -194,7 +229,7 @@
             "Tuner": "LogikJ",
             "fill": "FFED7D31"
           },
-          "row": 462,
+          "row": 464,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -229,7 +264,7 @@
             "Tuner": "F1R Patch",
             "fill": "FFFF0000"
           },
-          "row": 2413,
+          "row": 2424,
           "sourceId": "kleis",
           "tab": "fh6"
         }

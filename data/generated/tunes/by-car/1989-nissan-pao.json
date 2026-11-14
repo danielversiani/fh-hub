@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-12T11:17:14.265Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1989-nissan-pao",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-dde86a24c8",
+      "name": "FWD Road | Stock Look VTEC",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1989 Nissan Pao",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD Road | Stock Look VTEC",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 465,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [],
       "carId": "1989-nissan-pao",

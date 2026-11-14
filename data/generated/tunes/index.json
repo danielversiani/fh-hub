@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:39:42.140Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
     {
       "buildTags": [
@@ -798,6 +798,25 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2011-alfa-romeo-giulietta-quadrifoglio-verde",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "FWD",
+      "id": "nc-02809e53ee",
+      "name": "FWD Powerbuild",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [
@@ -2810,6 +2829,25 @@
       "tierSource": "meta-table",
       "tires": "street",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1987-nissan-be-1",
+      "categories": [],
+      "class": "B",
+      "drivetrain": "FWD",
+      "id": "nc-097586e944",
+      "name": "FWD Road | Stock Look VTEC",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -10478,6 +10516,28 @@
       "tunerId": "gamerlogicftw"
     },
     {
+      "buildTags": [
+        "drivetrain-swap",
+        "purist"
+      ],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-22af4a45d7",
+      "name": "Purist dirt Car (awd Swapped fakee purist Alert)",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "cte-mag"
+    },
+    {
       "buildTags": [],
       "carId": "1996-toyota-starlet-glanza-v",
       "categories": [
@@ -14183,6 +14243,23 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "nalak28"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-2f2ee23d43",
+      "name": "A Road - Strong Allround",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
@@ -37806,6 +37883,31 @@
       "tunerId": "slowbakedpanda"
     },
     {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7f6641cd92",
+      "metaRank": 8,
+      "name": "S1 road AWD",
+      "role": "allround",
+      "score": 0.72,
+      "sourceIds": [
+        "noa-miyako"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "noa-seako"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -38415,6 +38517,27 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "seeyeahboss"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "drivetrain": "RWD",
+      "id": "nc-8120bd917b",
+      "name": "Purist",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [
@@ -41888,6 +42011,27 @@
       "buildTags": [
         "purist"
       ],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "drivetrain": "RWD",
+      "id": "nc-8ca3f1c13f",
+      "name": "A Road Purist Speed",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
       "carId": "2008-honda-civic-type-r-fd2",
       "categories": [
         "purist"
@@ -44283,6 +44427,26 @@
     },
     {
       "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "drivetrain": "RWD",
+      "id": "nc-93d05b28bb",
+      "metaRank": 18,
+      "name": "RWD WB Handling",
+      "score": 0.635,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
       "carId": "2016-jeep-trailcat",
       "categories": [
         "off-meta"
@@ -44374,6 +44538,23 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-94328081ea",
+      "name": "Road Allround T1 Shirakawa 00.8 A/M",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "zvtcjau"
     },
     {
       "buildTags": [],
@@ -52426,6 +52607,25 @@
     },
     {
       "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-af674c4f4a",
+      "name": "Stock Engine Stock Look",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "grandma-driving"
+    },
+    {
+      "buildTags": [
         "purist"
       ],
       "carId": "2008-bmw-m3",
@@ -55277,6 +55477,23 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "tpr-hydra"
+    },
+    {
+      "buildTags": [],
+      "carId": "1997-lamborghini-diablo-sv",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-b8802a5ff9",
+      "name": "EZ AWD Road (I hate it)",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "thedannny"
     },
     {
       "buildTags": [],
@@ -66780,6 +66997,25 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1989-nissan-pao",
+      "categories": [],
+      "class": "B",
+      "drivetrain": "FWD",
+      "id": "nc-dde86a24c8",
+      "name": "FWD Road | Stock Look VTEC",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],

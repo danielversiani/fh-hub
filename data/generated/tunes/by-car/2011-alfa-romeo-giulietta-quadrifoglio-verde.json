@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-13T00:28:11.028Z",
+  "generatedAt": "2026-11-14T18:06:01.360Z",
   "items": [
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2011-alfa-romeo-giulietta-quadrifoglio-verde",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-02809e53ee",
+      "name": "FWD Powerbuild",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 Alfa Romeo Giulietta Quadrifoglio Verde",
+            "Comment": "Powerbuild",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "FWD Powerbuild",
+            "Tuner": "DRX Q3",
+            "fill": "FFFF0000"
+          },
+          "row": 764,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [
         "powerbuild",
@@ -16,7 +51,7 @@
       "observations": [
         {
           "raw": {
-            "Car": "2011 Alfa Romeo Giuletta Quadrifoglio Verde",
+            "Car": "2011 Alfa Romeo Giulietta Quadrifoglio Verde",
             "Comment": "Powerbuild",
             "Design": "",
             "Designer": "",
@@ -26,7 +61,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 761,
+          "row": 765,
           "sourceId": "kleis",
           "tab": "fh6"
         }
