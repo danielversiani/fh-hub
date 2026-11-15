@@ -85,6 +85,7 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
    - Deixe `camber: flat` até haver uma medida de cambagem confiável.
    - **Checkpoints:** o tempo parcial (canto superior direito) muda na passagem por cada checkpoint, e o cronômetro da volta diz em que metro isso acontece. A distância que o jogo mostra sobre o checkpoint serve de conferência. Anote em `checkpoints:` no arquivo de cenário.
    - **Conferência:** em `pnpm dev`, abra `/tracks/<rota>/`, clique em "Dirigir" e compare a vista com os quadros do vídeo nos mesmos metros. A câmera imita a do jogo.
+   - **Sobreposição com o vídeo:** em `pnpm dev`, no console da página da pista, `__track.shot(metro, 1280, 536)` devolve a visão "Dirigir" daquele metro, sem as linhas do guia. Mandada por POST para `/__track-shot` (`{ name, data }`), a imagem é gravada em `.cache/track-shots/<name>.png`. Sobreponha-a ao quadro do vídeo do mesmo metro. Primeiro confira a câmera pelas lanternas do carro (mesma largura e altura na tela) e depois as faixas das bordas. Os scripts de sobreposição e medição usados na Irokawa ainda não estão no repositório.
    - **Guia de traçado:** em `data/tracks/<rota>.lines.yaml`, com linhas (posição de −1 = carro encostado na borda direita a +1 = na esquerda), setas e textos por sequência. Uma linha com `visible: false` começa desligada.
    - Só marque `published: true` quando o dono aprovar. A pista passa a aparecer no Paddock Lab (`/lab/`), com o aviso de trabalho em andamento.
 

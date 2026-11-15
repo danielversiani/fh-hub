@@ -654,13 +654,14 @@ export const TrackScene = z.object({
   }),
   /**
    * Where the recorded lap runs across the road, read from the reference video, on the racing
-   * lines' scale (−1 = car against the right edge, 0 = middle, +1 = against the left edge). The
+   * lines' scale (−1 = car against the right edge, 0 = middle, +1 = against the left edge; beyond
+   * ±1 the car ran off the asphalt, on the grass or kerb). The
    * measured line is the driver's line, not the road's middle: with this the model puts the road
    * where it really is, instead of bending it along the driver's line. Widths come from
    * `sections[].width`.
    */
   drivenLine: z
-    .array(z.object({ at: z.number().nonnegative(), pos: z.number().min(-1).max(1) }))
+    .array(z.object({ at: z.number().nonnegative(), pos: z.number().min(-1.6).max(1.6) }))
     .default([]),
   /**
    * Camber: `measured` uses the telemetry; `flat` draws the road level. The first method mixed the
@@ -776,8 +777,9 @@ export const TrackLines = z.object({
       /** Where the line starts and ends (m); without them it covers the whole lap. */
       from: z.number().nonnegative().optional(),
       to: z.number().nonnegative().optional(),
+      /** Beyond ±1 the line runs off the asphalt (kerb or grass), as the recorded lap does at T1. */
       points: z
-        .array(z.object({ at: z.number().nonnegative(), pos: z.number().min(-1.2).max(1.2) }))
+        .array(z.object({ at: z.number().nonnegative(), pos: z.number().min(-1.6).max(1.6) }))
         .min(2),
     }),
   ),

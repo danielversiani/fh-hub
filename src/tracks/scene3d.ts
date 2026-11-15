@@ -1490,25 +1490,8 @@ export function mountTrack(
     const now = performance.now();
     const dt = Math.min(0.1, (now - then) / 1000);
     then = now;
-    if (mode === 'drive') {
-      // The game's chase camera (measured on the reference video): about 2 m up and 6.3 m behind
-      // the car's tail, looking a little ahead, with ~67° of horizontal view.
-      const here = lineAt(distance).add(root.position);
-      const fore = lineAt(distance + 3);
-      const aft = lineAt(distance - 3);
-      car.position.copy(here);
-      // Heading along the line, nose up or down with the slope.
-      car.rotation.set(
-        -Math.atan2(fore.y - aft.y, Math.hypot(fore.x - aft.x, fore.z - aft.z)),
-        Math.atan2(fore.x - aft.x, fore.z - aft.z),
-        0,
-        'YXZ',
-      );
-      camera.position.copy(lineAt(distance - 8.6).add(root.position));
-      camera.position.y = here.y + 2.1;
-      const ahead = lineAt(distance + 9).add(root.position);
-      camera.lookAt(ahead.setY(ahead.y + 0.9));
-    } else {
+    if (mode === 'drive') drivePose();
+    else {
       if (flight) {
         flight.t = Math.min(1, flight.t + dt / 0.7);
         const k = flight.t * flight.t * (3 - 2 * flight.t);
@@ -1520,8 +1503,56 @@ export function mountTrack(
     }
     renderer.render(world, camera);
   };
+  /**
+   * The game's chase camera (measured on the reference video): about 2 m up and 6.3 m behind the
+   * car's tail, looking a little ahead, with ~67° of horizontal view.
+   */
+  function drivePose() {
+    const here = lineAt(distance).add(root.position);
+    const fore = lineAt(distance + 3);
+    const aft = lineAt(distance - 3);
+    car.position.copy(here);
+    // Heading along the line, nose up or down with the slope.
+    car.rotation.set(
+      -Math.atan2(fore.y - aft.y, Math.hypot(fore.x - aft.x, fore.z - aft.z)),
+      Math.atan2(fore.x - aft.x, fore.z - aft.z),
+      0,
+      'YXZ',
+    );
+    camera.position.copy(lineAt(distance - 8.6).add(root.position));
+    camera.position.y = here.y + 2.0;
+    const ahead = lineAt(distance + 9).add(root.position);
+    camera.lookAt(ahead.setY(ahead.y + 1.45));
+  }
   tick();
-  if (import.meta.env.DEV) Object.assign(window, { __track: { camera, car, controls } }); // debugging aid
+  if (import.meta.env.DEV) {
+    // Debugging aids. `shot` renders the drive view at `m` metres at w × h (no guide lines), to lay
+    // the model over frames of a race video and check how well it fits.
+    const shot = (m: number, w: number, h: number) => {
+      const was = { mode, distance, ratio: renderer.getPixelRatio() };
+      mode = 'drive';
+      distance = ((m % length) + length) % length;
+      car.visible = true;
+      turnLabels.forEach((l) => (l.visible = false));
+      lineGroups.forEach((g) => (g.userData.was = g.visible));
+      lineGroups.forEach((g) => (g.visible = false));
+      renderer.setPixelRatio(1);
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+      fitFov();
+      drivePose();
+      renderer.render(world, camera);
+      const url = canvas.toDataURL('image/png');
+      lineGroups.forEach((g) => (g.visible = Boolean(g.userData.was)));
+      ({ mode, distance } = was);
+      car.visible = mode === 'drive';
+      turnLabels.forEach((l) => (l.visible = mode === 'orbit'));
+      renderer.setPixelRatio(was.ratio);
+      resize();
+      return url;
+    };
+    Object.assign(window, { __track: { camera, car, controls, shot } });
+  }
 
   return {
     length,

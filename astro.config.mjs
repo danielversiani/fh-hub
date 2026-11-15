@@ -41,6 +41,42 @@ function worldSnapshots() {
   };
 }
 
+/**
+ * Dev server only: saves renders of a track model posted by a fidelity check (RUNBOOK §3e) to
+ * .cache/track-shots/<name>.png, to lay them over frames of a race video.
+ * @returns {import('astro').ViteUserConfig['plugins'] extends (infer P)[] | undefined ? P : never}
+ */
+function trackShots() {
+  return {
+    name: 'track-shots',
+    apply: 'serve',
+    configureServer(server) {
+      server.middlewares.use('/__track-shot', (req, res) => {
+        if (req.method !== 'POST') {
+          res.statusCode = 405;
+          res.end();
+          return;
+        }
+        let body = '';
+        req.on('data', (chunk) => (body += chunk));
+        req.on('end', () => {
+          const { name, data } = JSON.parse(body);
+          const base64 = String(data).replace(/^data:image\/png;base64,/, '');
+          if (!/^[a-z0-9-]+$/.test(name) || base64 === data) {
+            res.statusCode = 400;
+            res.end();
+            return;
+          }
+          const dir = path.join(process.cwd(), '.cache', 'track-shots');
+          fs.mkdirSync(dir, { recursive: true });
+          fs.writeFileSync(path.join(dir, `${name}.png`), Buffer.from(base64, 'base64'));
+          res.end('ok');
+        });
+      });
+    },
+  };
+}
+
 // PT-BR is served at the root and English under /en/ (ADR-0007).
 export default defineConfig({
   site: 'https://forzapaddock.racing',
@@ -51,6 +87,6 @@ export default defineConfig({
     routing: { prefixDefaultLocale: false },
   },
   vite: {
-    plugins: [tailwindcss(), worldSnapshots()],
+    plugins: [tailwindcss(), worldSnapshots(), trackShots()],
   },
 });
