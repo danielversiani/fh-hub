@@ -1,0 +1,118 @@
+---
+import type { Track } from '../../pipeline/schema/entities';
+import { localePath, t, type Locale } from '../i18n';
+import Base from '../layouts/Base.astro';
+import { loadTrackModels } from '../lib/data';
+import { labFeedbackUrl } from '../lib/site';
+
+interface Props {
+  locale: Locale;
+}
+
+/**
+ * Paddock Lab: prototypes shown to the public before they are finished, with a work-in-progress
+ * note and a way to send feedback. First project: the 3D tracks (ADR-0021).
+ */
+const { locale } = Astro.props;
+const km = (m: number) =>
+  (m / 1000).toLocaleString(locale === 'en' ? 'en' : 'pt-BR', { maximumFractionDigits: 2 });
+const models = loadTrackModels();
+
+/** The route seen from above, north up (image x = game x, image y = −game z). */
+function outline(track: Track) {
+  const pts = track.path.map(([x, z]) => [x, -z] as const);
+  const xs = pts.map((p) => p[0]);
+  const ys = pts.map((p) => p[1]);
+  const minX = Math.min(...xs);
+  const minY = Math.min(...ys);
+  const w = Math.max(...xs) - minX;
+  const h = Math.max(...ys) - minY;
+  const box = 120;
+  const pad = 10;
+  const scale = (box - pad * 2) / Math.max(w, h, 1);
+  const ox = pad + (box - pad * 2 - w * scale) / 2;
+  const oy = pad + (box - pad * 2 - h * scale) / 2;
+  const at = ([x, y]: readonly [number, number]) =>
+    [ox + (x - minX) * scale, oy + (y - minY) * scale] as const;
+  const d =
+    pts
+      .map((p, i) => {
+        const [x, y] = at(p);
+        return `${i ? 'L' : 'M'}${x.toFixed(1)},${y.toFixed(1)}`;
+      })
+      .join(' ') + (track.kind === 'circuit' ? ' Z' : '');
+  return { d, start: at(pts[0]!) };
+}
+---
+
+<Base locale={locale} path="/lab/" title="Paddock Lab" description={t(locale, 'lab.description')}>
+  <p class="eyebrow text-season">{t(locale, 'lab.kicker')}</p>
+  <h1 class="display mt-2 text-4xl sm:text-5xl">Paddock Lab</h1>
+  <p class="mt-4 max-w-3xl text-muted">{t(locale, 'lab.lead')}</p>
+
+  {/* `.card` sets every border, so the warning stripe goes inline. */}
+  <aside class="card mt-6 max-w-3xl p-4" style="border-left: 4px solid var(--color-warn)">
+    <p class="eyebrow text-warn">WIP · {t(locale, 'lab.wipTitle')}</p>
+    <p class="mt-2 text-sm leading-relaxed">{t(locale, 'lab.wipText')}</p>
+    <p class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
+      <a href={labFeedbackUrl()} target="_blank" rel="noopener" class="btn-accent">
+        {t(locale, 'lab.feedback')}
+      </a>
+      <span class="text-xs text-muted">{t(locale, 'lab.feedbackHint')}</span>
+    </p>
+  </aside>
+
+  <section class="mt-10">
+    <h2 class="surface-divider">
+      <span>{t(locale, 'lab.tracks.title')}</span>
+    </h2>
+    <p class="mt-3 max-w-3xl leading-relaxed">{t(locale, 'lab.tracks.text')}</p>
+    <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {models.map(({ track, scene }) => {
+        const shape = outline(track);
+        return (
+          <li>
+            <a
+              href={localePath(locale, `/tracks/${track.id}/`)}
+              class="card flex items-center gap-4 p-4 hover:border-accent"
+            >
+              <svg viewBox="0 0 120 120" class="h-24 w-24 shrink-0" aria-hidden="true">
+                <path
+                  d={shape.d}
+                  fill="none"
+                  stroke="var(--color-accent)"
+                  stroke-width="3"
+                  stroke-linejoin="round"
+                />
+                <circle cx={shape.start[0]} cy={shape.start[1]} r="4.5" fill="var(--season)" />
+              </svg>
+              <span class="flex min-w-0 flex-col gap-1">
+                <span class="font-semibold">{track.name}</span>
+                <span class="text-xs text-muted">
+                  {km(track.lengthM)} km · {track.turns.length} {t(locale, 'lab.turns')} ·{' '}
+                  {track.stats.elevationMin}–{track.stats.elevationMax} m
+                </span>
+                {!scene.published && (
+                  <span class="text-xs text-muted">{t(locale, 'track.draft')}</span>
+                )}
+                <span class="text-xs text-accent">{t(locale, 'lab.open3d')} ▸</span>
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <section class="mt-10">
+    <h2 class="surface-divider">
+      <span>{t(locale, 'lab.next.title')}</span>
+    </h2>
+    <ul class="mt-3 flex max-w-3xl list-disc flex-col gap-1.5 pl-5 text-sm leading-relaxed">
+      <li>{t(locale, 'lab.next.tracks')}</li>
+      <li>{t(locale, 'lab.next.edges')}</li>
+      <li>{t(locale, 'lab.next.lines')}</li>
+      <li>{t(locale, 'lab.next.recorders')}</li>
+    </ul>
+  </section>
+</Base>

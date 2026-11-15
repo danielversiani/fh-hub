@@ -23,6 +23,9 @@ import {
   SourceStatus,
   Suggestion,
   EventPick,
+  Track,
+  TrackLines,
+  TrackScene,
   Tune,
   TuneIndexEntry,
   Tuner,
@@ -125,6 +128,43 @@ export function validate(): string[] {
     'untranslated-texts.json',
   ]) {
     checkFile(path.join(reviewDir('public'), file), ReviewItem, errors);
+  }
+
+  // Routes measured from telemetry (ADR-0021): one plain JSON per route.
+  const tracksDir = path.join(path.dirname(paths.manual), 'tracks');
+  if (fs.existsSync(tracksDir)) {
+    for (const file of fs.readdirSync(tracksDir).filter((f) => f.endsWith('.json'))) {
+      const result = Track.safeParse(
+        JSON.parse(fs.readFileSync(path.join(tracksDir, file), 'utf8')),
+      );
+      if (!result.success) {
+        const first = result.error.issues[0];
+        errors.push(`data/tracks/${file}: ${first?.path.join('.')} ${first?.message}`);
+      } else if (`${result.data.id}.json` !== file)
+        errors.push(`data/tracks/${file}: id ${result.data.id} does not match the file name`);
+    }
+  }
+
+  // The 3D model's scene and the racing-line guides of each route (ADR-0021).
+  if (fs.existsSync(tracksDir)) {
+    for (const file of fs.readdirSync(tracksDir)) {
+      const schema = file.endsWith('.scene.yaml')
+        ? TrackScene
+        : file.endsWith('.lines.yaml')
+          ? TrackLines
+          : undefined;
+      if (!schema) continue;
+      const route = file.replace(/\.(scene|lines)\.yaml$/, '');
+      if (!fs.existsSync(path.join(tracksDir, `${route}.json`)))
+        errors.push(`data/tracks/${file}: no measured route ${route}.json`);
+      const result = schema.safeParse(
+        parseDocument(fs.readFileSync(path.join(tracksDir, file), 'utf8')).toJS(),
+      );
+      if (!result.success) {
+        const first = result.error.issues[0];
+        errors.push(`data/tracks/${file}: ${first?.path.join('.')} ${first?.message}`);
+      }
+    }
   }
 
   const locales = fs.readdirSync(paths.i18n).filter((f) => f.endsWith('.json'));

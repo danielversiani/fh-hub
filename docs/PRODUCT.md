@@ -117,6 +117,14 @@ Ver [ADR-0019](adr/0019-mundo-animado-e-modo-pista.md).
 - **Outras páginas:** a câmera estaciona num lugar próprio e voa até ele quando se troca de página.
 - **"Modo normal" no menu:** o mesmo site sobre uma imagem parada.
 
+### 5.6 Paddock Lab (2026-11-14)
+
+Seção de protótipos (`/lab/`, "Lab" no menu), pedida pelo dono para mostrar ideias em construção e colher opiniões antes de elas ficarem prontas.
+- **Aviso de WIP:** a página do Lab e cada página de protótipo dizem que é trabalho em andamento, com medidas aproximadas e possíveis erros.
+- **Opinião:** o botão "Dar opinião" abre uma issue no GitHub com o título já começado (`[Lab] …`); o canal é o mesmo dos pedidos de remoção (`FEEDBACK_URL` em `src/lib/site.ts`) e exige uma conta gratuita.
+- **Primeiro projeto: pistas em 3D** ([ADR-0021](adr/0021-pistas-pela-telemetria.md)). Cada pista entra no Lab quando o dono a libera (`published: true`); a primeira foi a Irokawa Circuit. As páginas das pistas ficam em `/tracks/<rota>/` e contam como parte do Lab no menu.
+- **Saída do Lab:** quando um protótipo amadurece, ele ganha lugar próprio no site e perde o aviso.
+
 ## 6. Fases
 
 | Fase | Entrega | Critério de pronto |

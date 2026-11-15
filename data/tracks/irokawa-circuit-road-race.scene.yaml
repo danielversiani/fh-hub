@@ -1,0 +1,186 @@
+# Irokawa Circuit: how the route looks (ADR-0021). Written from the owner's race video (lap 2 of
+# 5). The HUD lap timer dates every frame exactly; the speedometer, integrated over the lap, gives
+# 1,832 m against the 1,830 m measured by telemetry, so distances below are good to a few metres.
+# Released by the owner as a work in progress in the Paddock Lab (2026-11-14).
+published: true
+references:
+  - url: https://www.youtube.com/live/akn8HS0Q54c
+    lapStart: '31:13'
+road:
+  width: 12
+  surface: asphalt
+  centerLine: none
+  edgeLines: true
+# The road is drawn level: the first camber reading mixed in the car's body roll (see the schema).
+camber: flat
+# Where the recorded lap ran across the road, on the racing lines' scale (+1 = car against the left
+# edge, −1 = against the right edge, 0 = middle), read on 38 frames with a metre ruler drawn in
+# perspective (car width as the scale). About ±0.2.
+drivenLine:
+  - { at: 41, pos: -0.13 }
+  - { at: 96, pos: 0.57 }
+  - { at: 154, pos: 0.95 }
+  - { at: 212, pos: 0.95 }
+  - { at: 260, pos: 0.51 }
+  - { at: 300, pos: 0 }
+  - { at: 336, pos: -0.77 }
+  - { at: 373, pos: -0.64 }
+  - { at: 413, pos: 0.77 }
+  - { at: 457, pos: 0.84 }
+  - { at: 504, pos: 0.9 }
+  - { at: 555, pos: -0.84 }
+  - { at: 609, pos: 0.26 }
+  - { at: 666, pos: 0.9 }
+  - { at: 725, pos: 0.72 }
+  - { at: 784, pos: -0.78 }
+  - { at: 841, pos: -0.42 }
+  - { at: 899, pos: -0.3 }
+  - { at: 956, pos: 0.96 }
+  - { at: 1009, pos: -0.89 }
+  - { at: 1057, pos: -0.84 }
+  - { at: 1104, pos: 0.9 }
+  - { at: 1153, pos: 0.97 }
+  - { at: 1203, pos: 0.84 }
+  - { at: 1258, pos: 0.23 }
+  - { at: 1316, pos: 0.09 }
+  - { at: 1377, pos: 0.4 }
+  - { at: 1438, pos: 1 }
+  - { at: 1486, pos: 0.93 }
+  - { at: 1519, pos: -0.74 }
+  - { at: 1545, pos: -0.93 }
+  - { at: 1569, pos: -0.93 }
+  - { at: 1596, pos: -0.96 }
+  - { at: 1628, pos: -0.96 }
+  - { at: 1665, pos: 0.7 }
+  - { at: 1705, pos: 0.96 }
+  - { at: 1746, pos: -0.06 }
+  - { at: 1790, pos: -0.32 }
+markings:
+  - { from: 330, to: 430, type: center-dashed }
+  - { from: 974, to: 980, type: crosswalk }
+  # Yellow line at the foot of the cutting's left wall, beyond the paved shoulder.
+  - { from: 1248, to: 1338, type: block, pos: 1.4, width: 0.2, color: '#e8b520' }
+ground: grass
+foliage: autumn
+sections:
+  - from: 0
+    width: 12.5
+    note: start straight, Festival stands on both sides
+    left: { edge: sidewalk, barrier: boards, scenery: [{ type: stands, offset: 2, density: 1, height: 9 }] }
+    right: { edge: sidewalk, barrier: boards, scenery: [{ type: stands, offset: 2, density: 1, height: 9 }] }
+  - from: 30
+    note: stands on the left; on the right a paved strip up to a tall black fence, then trees
+    left: { edge: sidewalk, barrier: boards, scenery: [{ type: stands, offset: 2, density: 1, height: 9 }, { type: banners, offset: 0.5, density: 0.4 }] }
+    right: { edge: paved, edgeWidth: 4, barrier: fence, scenery: [{ type: trees, offset: 10, density: 0.6 }] }
+  - from: 170
+    note: end of the straight, crowd behind the boards on the left, wooded hill on the right
+    left: { edge: grass, edgeWidth: 1.5, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.6, height: 3.5 }, { type: banners, offset: 0.5, density: 0.4 }] }
+    right: { edge: paved, edgeWidth: 4, barrier: fence, scenery: [{ type: buildings, offset: 14, density: 0.4, height: 14 }, { type: trees, offset: 30, density: 0.6 }] }
+  - from: 225
+    width: 12.5
+    note: T1 (right), chevrons outside, tall retaining wall inside
+    left: { edge: grass, scenery: [{ type: chevrons, offset: 1, density: 1 }, { type: trees, offset: 15, density: 0.7 }] }
+    right: { edge: grass, scenery: [{ type: retaining-wall, offset: 3, density: 1, height: 10 }] }
+  - from: 280
+    note: T1 turn-in, orange cones along both edges, no curbs
+    left: { edge: grass, scenery: [{ type: cones, offset: 0, density: 1 }, { type: chevrons, offset: 1, density: 1 }, { type: trees, offset: 15, density: 0.7 }] }
+    right: { edge: grass, scenery: [{ type: cones, offset: 0, density: 1 }, { type: retaining-wall, offset: 3, density: 1, height: 10 }] }
+  - from: 330
+    width: 12
+    note: T1 apex, two-lane road with a dashed centre line; the wall comes close on the right
+    left: { edge: grass, scenery: [{ type: chevrons, offset: 1, density: 1 }, { type: trees, offset: 15, density: 0.7 }] }
+    right: { edge: grass, edgeWidth: 1.5, scenery: [{ type: retaining-wall, offset: 0.5, density: 1, height: 10 }] }
+  - from: 420
+    width: 11.5
+    note: T1 exit, crowd on the left; guardrail on the right before the wall with stands on top
+    left: { edge: grass, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.7, height: 6 }, { type: banners, offset: 0.5, density: 0.4 }] }
+    right: { edge: grass, barrier: guardrail, scenery: [{ type: retaining-wall, offset: 3, density: 1, height: 8 }, { type: stands, offset: 9, density: 0.6, height: 14 }] }
+  - from: 490
+    note: concrete sidewalk and a black fence on the left, wall on the right
+    left: { edge: sidewalk, edgeWidth: 2, barrier: fence, scenery: [{ type: trees, offset: 8, density: 0.5 }] }
+    right: { edge: grass, scenery: [{ type: retaining-wall, offset: 3, density: 1, height: 8 }] }
+  - from: 570
+    note: sidewalk and fence with tents behind on the left; low walls and stands on the right
+    left: { edge: sidewalk, edgeWidth: 2, barrier: fence, scenery: [{ type: tents, offset: 6, density: 0.8 }] }
+    right: { edge: grass, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.6, height: 6 }] }
+  - from: 690
+    width: 16
+    note: T2 (right) opens into a wide paved plaza; crowd and tents behind the boards on both sides
+    left: { edge: grass, edgeWidth: 1, barrier: boards, scenery: [{ type: stands, offset: 2, density: 0.7, height: 6 }, { type: tents, offset: 14, density: 0.6 }] }
+    right: { edge: paved, edgeWidth: 8, barrier: boards, scenery: [{ type: stands, offset: 2, density: 0.8, height: 7 }, { type: tents, offset: 16, density: 0.5 }, { type: banners, offset: 0.5, density: 0.4 }] }
+  - from: 780
+    note: CP4 by the roofed stand on the right; chevrons on the outside, paved run-off on the left
+    left: { edge: paved, edgeWidth: 6, barrier: boards, scenery: [{ type: chevrons, offset: 0.5, density: 1 }, { type: stands, offset: 3, density: 0.5, height: 6 }] }
+    right: { edge: sidewalk, edgeWidth: 1, barrier: boards, scenery: [{ type: stands, offset: 2, density: 1, height: 8 }, { type: tents, offset: 18, density: 0.5 }] }
+  - from: 940
+    width: 12
+    note: T3 (right), the low walls are the edges; chevrons outside, stands inside, gas holder beyond
+    left: { edge: sidewalk, edgeWidth: 0.6, barrier: boards, scenery: [{ type: chevrons, offset: 1, density: 1 }, { type: trees, offset: 10, density: 0.6 }] }
+    right: { edge: sidewalk, edgeWidth: 0.6, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.7, height: 6 }] }
+  - from: 985
+    note: T3 apex, wide paved area on the left up to the boards and chevrons
+    left: { edge: paved, edgeWidth: 10, barrier: boards, scenery: [{ type: chevrons, offset: 0.5, density: 1 }, { type: tents, offset: 8, density: 0.5 }] }
+    right: { edge: sidewalk, edgeWidth: 0.6, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.8, height: 7 }] }
+  - from: 1040
+    width: 11.5
+    note: T3 exit, grass and low walls on the right, low walls at the edge on the left
+    left: { edge: sidewalk, edgeWidth: 0.6, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.5, height: 6 }] }
+    right: { edge: grass, barrier: boards, scenery: [{ type: trees, offset: 12, density: 0.5 }] }
+  - from: 1180
+    note: CP6, guardrail on the left, the road drops towards the bridge
+    left: { edge: grass, edgeWidth: 0.8, barrier: guardrail, scenery: [{ type: trees, offset: 8, density: 0.6 }] }
+    right: { edge: grass, scenery: [{ type: trees, offset: 8, density: 0.6 }] }
+  - from: 1240
+    width: 12.5
+    note: under the bridge and through a cutting between concrete walls, cones on the left shoulder
+    left: { edge: paved, edgeWidth: 2.6, scenery: [{ type: cones, offset: 1.5, density: 0.4 }, { type: concrete-wall, offset: 0, density: 1, height: 6.5 }] }
+    right: { edge: grass, edgeWidth: 2, scenery: [{ type: concrete-wall, offset: 0, density: 1, height: 6.5 }] }
+  - from: 1340
+    width: 10.5
+    note: back straight, grass bank with a tall wall and stands on the left, black fence on the right
+    left: { edge: grass, edgeWidth: 4, scenery: [{ type: cones, offset: 2, density: 0.3 }, { type: retaining-wall, offset: 6, density: 1, height: 8 }, { type: stands, offset: 14, density: 0.6, height: 8 }] }
+    right: { edge: grass, edgeWidth: 6, barrier: fence, scenery: [{ type: buildings, offset: 30, density: 0.3, height: 12 }] }
+  - from: 1440
+    width: 13.5
+    note: T4 hairpin (right), crowd behind the boards outside, grass and cones inside
+    left: { edge: grass, edgeWidth: 1.5, barrier: boards, scenery: [{ type: chevrons, offset: 1, density: 1 }, { type: stands, offset: 3, density: 0.6, height: 6 }] }
+    right: { edge: grass, edgeWidth: 4, scenery: [{ type: cones, offset: 0.5, density: 0.6 }, { type: tents, offset: 10, density: 0.7 }] }
+  - from: 1580
+    width: 12
+    note: out of the hairpin towards T5, boards and a Festival banner tower on the left, sidewalk and a gas holder on the right
+    left: { edge: grass, barrier: boards, scenery: [{ type: banners, offset: 0.5, density: 0.4 }, { type: buildings, offset: 16, density: 0.3, height: 8 }] }
+    right: { edge: sidewalk, edgeWidth: 2, scenery: [{ type: buildings, offset: 8, density: 0.3, height: 6 }] }
+  - from: 1655
+    note: T5 (left), dark sidewalk and a grass bank with autumn trees inside, chevrons outside
+    left: { edge: sidewalk, edgeWidth: 2, scenery: [{ type: trees, offset: 3, density: 0.9, height: 7 }] }
+    right: { edge: grass, barrier: boards, scenery: [{ type: chevrons, offset: 1, density: 1 }, { type: tents, offset: 8, density: 0.5 }] }
+  - from: 1695
+    note: T5 exit, grandstand behind the boards on the right, trees on the left
+    left: { edge: grass, scenery: [{ type: trees, offset: 4, density: 0.8, height: 8 }] }
+    right: { edge: grass, barrier: boards, scenery: [{ type: stands, offset: 3, density: 1, height: 8 }] }
+  - from: 1730
+    width: 12.5
+    note: back on the start straight
+    left: { edge: sidewalk, barrier: boards, scenery: [{ type: stands, offset: 2, density: 1, height: 9 }] }
+    right: { edge: sidewalk, barrier: boards, scenery: [{ type: stands, offset: 2, density: 1, height: 9 }] }
+# Checkpoints (2 tall green flags each). Each one's passage time comes from the HUD's split-time
+# change; the frame clock turns it into metres. The HUD's distance readouts agree within 1–3 m.
+checkpoints:
+  - { at: 240, note: before T1 }
+  - { at: 387, note: T1 apex }
+  - { at: 518, note: after T1 }
+  - { at: 785, note: T2 apex, by the roofed stand }
+  - { at: 1043, note: T3 exit }
+  - { at: 1181, note: before the bridge }
+  - { at: 1555, note: apex of the T4 hairpin }
+  - { at: 1692, note: T5 }
+  - { at: 0, note: the line (lap / finish) }
+landmarks:
+  - { at: 130, side: right, offset: 70, type: tower, size: 40, note: lattice tower by the start straight }
+  - { at: 150, side: right, offset: 260, type: rocket, size: 70, note: the rocket on its launch tower (Irokawa Space Center) }
+  - { at: 0, side: left, type: arch, note: Festival start arch (pink banner) }
+  - { at: 70, side: left, type: truss, note: footbridge over the start straight }
+  - { at: 800, side: left, offset: 70, type: tower, size: 45, note: lattice tower behind T2 (straight ahead from 555 m) }
+  - { at: 1290, side: left, type: overpass, length: 30, note: the road dips under a bridge into the cutting }
+  - { at: 1560, side: right, offset: 40, type: sphere, size: 26, note: second gas holder, inside the hairpin }
+  - { at: 1772, side: left, type: truss, note: steel footbridge before the line }

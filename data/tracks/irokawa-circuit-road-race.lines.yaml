@@ -1,0 +1,129 @@
+# Irokawa Circuit: racing-line guide (ADR-0021). DRAFT by the Forza Paddock for the owner's
+# review. Lateral position: −1 = car against the right edge, 0 = middle, +1 = against the left edge.
+# Distances in metres from the line. The road's middle comes from the recorded lap and where it ran
+# across the road (read from the video), so positions are approximate until the edges are recorded.
+lines:
+  - id: ideal
+    name: { pt-br: Linha ideal (rascunho), en: Ideal line (draft) }
+    for:
+      pt-br: Rascunho para revisão do dono. Pensada para carros de tração integral com boa aderência.
+      en: Draft for the owner's review. Meant for all-wheel-drive cars with good grip.
+    colors: ['#2fb7ff', '#3ee07a', '#c84cff', '#2fb7ff']
+    points:
+      - { at: 0, pos: -0.3 }
+      - { at: 150, pos: 0.85 }
+      - { at: 230, pos: 0.9 }
+      - { at: 360, pos: -0.9 }
+      - { at: 470, pos: 0.7 }
+      - { at: 560, pos: 0.55 }
+      - { at: 690, pos: 0.85 }
+      - { at: 810, pos: -0.8 }
+      - { at: 900, pos: 0.3 }
+      - { at: 965, pos: 0.85 }
+      - { at: 1060, pos: -0.85 }
+      - { at: 1140, pos: 0.55 }
+      - { at: 1220, pos: 0.15 }
+      - { at: 1350, pos: 0 }
+      - { at: 1445, pos: 0.9 }
+      - { at: 1561, pos: -0.9 }
+      - { at: 1620, pos: -0.25 }
+      - { at: 1665, pos: -0.85 }
+      - { at: 1745, pos: 0.9 }
+      - { at: 1830, pos: -0.3 }
+  - id: erro-t4
+    name: { pt-br: Erro comum na T4, en: Common mistake at T4 }
+    for:
+      pt-br: Sair do grampo aberto à esquerda parece rápido, mas obriga a fazer a T5 por dentro e fechar a saída para a reta.
+      en: Running wide to the left out of the hairpin feels fast, but it forces a tight T5 and a slow exit onto the straight.
+    colors: ['#ff6a2b', '#ff3b30']
+    from: 1440
+    to: 1830
+    points:
+      - { at: 1440, pos: 0.9 }
+      - { at: 1561, pos: -0.9 }
+      - { at: 1630, pos: 0.85 }
+      - { at: 1700, pos: 0.55 }
+      - { at: 1725, pos: 0.85 }
+      - { at: 1815, pos: -0.95 }
+  - id: volta-gravada
+    name: { pt-br: Volta gravada, en: Recorded lap }
+    for:
+      pt-br: Por onde passou a volta usada de referência (do vencedor da corrida), lida no vídeo.
+      en: Where the reference lap (the race winner's) ran, read from the video.
+    colors: ['#f2f2ee', '#b8bcc2']
+    visible: false
+    points:
+      - { at: 41, pos: -0.13 }
+      - { at: 96, pos: 0.57 }
+      - { at: 154, pos: 0.95 }
+      - { at: 212, pos: 0.95 }
+      - { at: 260, pos: 0.51 }
+      - { at: 300, pos: 0 }
+      - { at: 336, pos: -0.77 }
+      - { at: 373, pos: -0.64 }
+      - { at: 413, pos: 0.77 }
+      - { at: 457, pos: 0.84 }
+      - { at: 504, pos: 0.9 }
+      - { at: 555, pos: -0.84 }
+      - { at: 609, pos: 0.26 }
+      - { at: 666, pos: 0.9 }
+      - { at: 725, pos: 0.72 }
+      - { at: 784, pos: -0.78 }
+      - { at: 841, pos: -0.42 }
+      - { at: 899, pos: -0.3 }
+      - { at: 956, pos: 0.96 }
+      - { at: 1009, pos: -0.89 }
+      - { at: 1057, pos: -0.84 }
+      - { at: 1104, pos: 0.9 }
+      - { at: 1153, pos: 0.97 }
+      - { at: 1203, pos: 0.84 }
+      - { at: 1258, pos: 0.23 }
+      - { at: 1316, pos: 0.09 }
+      - { at: 1377, pos: 0.4 }
+      - { at: 1438, pos: 1 }
+      - { at: 1486, pos: 0.93 }
+      - { at: 1519, pos: -0.74 }
+      - { at: 1545, pos: -0.93 }
+      - { at: 1569, pos: -0.93 }
+      - { at: 1596, pos: -0.96 }
+      - { at: 1628, pos: -0.96 }
+      - { at: 1665, pos: 0.7 }
+      - { at: 1705, pos: 0.96 }
+      - { at: 1746, pos: -0.06 }
+      - { at: 1790, pos: -0.32 }
+marks:
+  - { at: 362, pos: -0.95, kind: good, line: ideal }
+  - { at: 1561, pos: -0.95, kind: good, line: ideal }
+  - { at: 1628, pos: 0.85, kind: avoid, line: erro-t4 }
+  - { at: 1628, pos: -0.25, kind: best, line: ideal }
+  - { at: 1712, pos: 0.85, kind: avoid, line: erro-t4 }
+  - { at: 1745, pos: 0.95, kind: good, line: ideal }
+notes:
+  - from: 0
+    to: 230
+    line: ideal
+    title: { pt-br: Reta → T1, en: Straight → T1 }
+    text:
+      pt-br: Venha para a esquerda antes do CP1 para entrar largo na T1.
+      en: Move over to the left before CP1 to enter T1 wide.
+  - from: 230
+    to: 495
+    line: ideal
+    title: { pt-br: 'T1: ápice tardio', en: 'T1: late apex' }
+    text:
+      pt-br: Curva longa de 137°. Segure a entrada e toque a bandeira de dentro do CP2; depois deixe o carro abrir para a esquerda até o CP3.
+      en: A long 137° bend. Hold the entry and touch the inside flag of CP2, then let the car run out to the left by CP3.
+  - from: 680
+    to: 1140
+    line: ideal
+    title: { pt-br: T2 e T3, en: T2 and T3 }
+    text:
+      pt-br: Duas direitas abertas. Use a pista toda em cada uma, com ápice por dentro, e saia aberto para preparar a próxima.
+      en: Two open right-handers. Use the full width in each, apex on the inside, and exit wide to set up the next one.
+  - from: 1440
+    to: 1830
+    line: ideal
+    title: { pt-br: 'T4 → T5 → reta: sacrifique o grampo', en: 'T4 → T5 → straight: sacrifice the hairpin' }
+    text:
+      pt-br: É a sequência que mais pesa na volta. Na saída do grampo (T4), em vez de abrir à esquerda, segure o carro à direita. Assim a T5 fica por fora e com ápice tardio. Perde-se um pouco no grampo, mas sai-se mais rápido na reta principal, a maior da volta.
+      en: The sequence that matters most on the lap. Out of the hairpin (T4), instead of running wide left, keep the car on the right. That gives a wide, late-apex T5. A little is lost in the hairpin, but the exit onto the main straight, the longest of the lap, is faster.

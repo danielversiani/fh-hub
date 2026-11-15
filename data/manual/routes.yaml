@@ -1,0 +1,6 @@
+# Routes missing from the public race list used to recognise recordings (ADR-0021).
+# id → name, surface (road | dirt | cross-country), kind (sprint | circuit), laps.
+tokyo-railway-sprint:
+  name: Tokyo Railway Sprint
+  surface: road
+  kind: sprint

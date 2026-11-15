@@ -1,0 +1,331 @@
+---
+import type { Track, TrackLines, TrackScene } from '../../pipeline/schema/entities';
+import { localePath, t, type Locale, type MessageKey } from '../i18n';
+import Base from '../layouts/Base.astro';
+import { labFeedbackUrl } from '../lib/site';
+
+interface Props {
+  locale: Locale;
+  track: Track;
+  scene: TrackScene;
+  lines?: TrackLines | undefined;
+}
+
+/** A route measured from telemetry, with its simplified realistic 3D model (ADR-0021). */
+const { locale, track, scene, lines } = Astro.props;
+const lang = locale === 'en' ? 'en' : 'pt-br';
+const km = (m: number) =>
+  (m / 1000).toLocaleString(locale === 'en' ? 'en' : 'pt-BR', { maximumFractionDigits: 2 });
+
+// Elevation profile (SVG): one point per 10 m of the line.
+const W = 800;
+const H = 140;
+const ys = track.path.map((p) => p[2]);
+const yMin = Math.min(...ys);
+const ySpan = Math.max(10, Math.max(...ys) - yMin);
+const profile = track.path
+  .map(
+    (p, i) =>
+      `${((i / (track.path.length - 1)) * W).toFixed(1)},${(H - 10 - ((p[2] - yMin) / ySpan) * (H - 30)).toFixed(1)}`,
+  )
+  .join(' ');
+const xOf = (m: number) => ((m / track.lengthM) * W).toFixed(1);
+// The camber figures are only shown once they are trustworthy (scene `camber: measured`).
+const showCamber = scene.camber === 'measured';
+---
+
+<Base locale={locale} path={`/tracks/${track.id}/`} title={track.name}>
+  {/* The 3D tracks are a Paddock Lab prototype: say so, and ask for feedback. */}
+  <p class="mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-l-4 border-l-warn bg-surface px-3 py-2 text-xs">
+    <a href={localePath(locale, '/lab/')} class="eyebrow text-warn hover:text-text">
+      ← Paddock Lab · WIP
+    </a>
+    <span class="text-muted">{t(locale, 'track.wip')}</span>
+    <a
+      href={labFeedbackUrl(`${track.name}: `)}
+      target="_blank"
+      rel="noopener"
+      class="font-semibold text-accent hover:underline"
+    >
+      {t(locale, 'lab.feedback')} ▸
+    </a>
+  </p>
+  <p class="eyebrow text-season">
+    {t(locale, `surface.${track.surface}` as MessageKey)} ·{' '}
+    {t(locale, track.kind === 'circuit' ? 'track.circuit' : 'track.sprint')}
+    {!scene.published && ` · ${t(locale, 'track.draft')}`}
+  </p>
+  <h1 class="display mt-2 text-4xl sm:text-5xl">{track.name}</h1>
+  <dl class="mt-4 flex flex-wrap gap-x-8 gap-y-2 text-sm">
+    <div>
+      <dt class="label">
+        {t(locale, track.kind === 'circuit' ? 'track.lapLength' : 'track.length')}
+      </dt>
+      <dd class="display text-2xl">
+        {km(track.lengthM)} km
+        {track.laps && track.laps > 1 && <span class="text-base text-muted"> × {track.laps}</span>}
+      </dd>
+    </div>
+    <div>
+      <dt class="label">{t(locale, 'track.turns')}</dt>
+      <dd class="display text-2xl">{track.turns.length}</dd>
+    </div>
+    <div>
+      <dt class="label">{t(locale, 'track.elevation')}</dt>
+      <dd class="display text-2xl">
+        {track.stats.elevationMin}–{track.stats.elevationMax} m
+      </dd>
+    </div>
+    <div>
+      <dt class="label">{t(locale, 'track.climb')}</dt>
+      <dd class="display text-2xl">
+        ↑{track.stats.climbM} ↓{track.stats.descentM} m
+      </dd>
+    </div>
+    <div>
+      <dt class="label">{t(locale, 'track.maxGrade')}</dt>
+      <dd class="display text-2xl">{track.stats.maxGradePct}%</dd>
+    </div>
+  </dl>
+
+  <div class="card relative mt-6 overflow-hidden" data-track-3d>
+    <canvas class="block h-[62vh] min-h-[360px] w-full"></canvas>
+    <div class="flex flex-wrap items-center gap-3 border-t border-border px-4 py-3 text-sm">
+      <button type="button" class="pill pill-on" data-mode="orbit">
+        {t(locale, 'track.view.orbit')}
+      </button>
+      <button type="button" class="pill" data-mode="drive">
+        {t(locale, 'track.view.drive')}
+      </button>
+      <input
+        type="range"
+        min="0"
+        max="1000"
+        value="0"
+        class="min-w-40 flex-1"
+        data-distance
+        aria-label={t(locale, 'track.view.position')}
+      />
+      <span class="text-xs text-muted tabular-nums" data-distance-label>
+        0 m
+      </span>
+    </div>
+    {lines && lines.lines.length > 0 && (
+      <div class="flex flex-wrap items-center gap-2 border-t border-border px-4 py-3 text-sm">
+        <span class="label mr-1">{t(locale, 'track.lines')}</span>
+        {lines.lines.map((line) => (
+          <button
+            type="button"
+            class:list={['pill inline-flex items-center gap-1.5', line.visible && 'pill-on']}
+            data-line={line.id}
+          >
+            <span
+              class="inline-block h-2.5 w-5 rounded-xs"
+              style={`background: linear-gradient(90deg, ${line.colors.join(', ')})`}
+            />
+            {line.name[lang]}
+          </button>
+        ))}
+      </div>
+    )}
+    <script
+      type="application/json"
+      data-track-json
+      set:html={JSON.stringify({ track, scene, lines, lang })}
+    />
+  </div>
+
+  {lines && lines.notes.length > 0 && (
+    <section class="mt-8">
+      <h2 class="surface-divider">
+        <span>{t(locale, 'track.guide')}</span>
+      </h2>
+      <ol class="mt-3 grid gap-3 md:grid-cols-2">
+        {lines.notes.map((n) => (
+          <li class="build-card flex flex-col gap-1.5">
+            <button
+              type="button"
+              class="self-start text-xs text-accent hover:underline"
+              data-goto={n.from}
+            >
+              {n.from}–{n.to} m ▸
+            </button>
+            <p class="font-semibold">{n.title[lang]}</p>
+            <p class="text-sm text-muted">{n.text[lang]}</p>
+          </li>
+        ))}
+      </ol>
+      {lines.lines.some((l) => l.for) && (
+        <ul class="mt-3 flex flex-col gap-1 text-xs text-muted">
+          {lines.lines
+            .filter((l) => l.for)
+            .map((l) => (
+              <li>
+                <strong class="text-text">{l.name[lang]}:</strong> {l.for![lang]}
+              </li>
+            ))}
+        </ul>
+      )}
+    </section>
+  )}
+
+  <section class="mt-8">
+    <h2 class="surface-divider">
+      <span>{t(locale, 'track.profile')}</span>
+    </h2>
+    <svg
+      viewBox={`0 0 ${W} ${H}`}
+      class="mt-3 w-full"
+      role="img"
+      aria-label={t(locale, 'track.profile')}
+    >
+      {track.turns.map((turn) => (
+        <rect
+          x={xOf(turn.startM)}
+          y="0"
+          width={Math.max(2, Number(xOf(turn.endM)) - Number(xOf(turn.startM)))}
+          height={H}
+          fill="var(--season)"
+          opacity="0.12"
+        />
+      ))}
+      <polyline points={profile} fill="none" stroke="var(--color-accent)" stroke-width="2" />
+      {track.turns.map((turn) => (
+        <text
+          x={xOf((turn.startM + turn.endM) / 2)}
+          y="14"
+          text-anchor="middle"
+          font-size="11"
+          fill="var(--color-muted)"
+        >
+          T{turn.n}
+        </text>
+      ))}
+    </svg>
+  </section>
+
+  <section class="mt-8">
+    <h2 class="surface-divider">
+      <span>{t(locale, 'track.turnList')}</span>
+    </h2>
+    <table class="mt-3 w-full text-sm">
+      <thead class="text-left text-xs text-muted">
+        <tr>
+          <th class="py-1">#</th>
+          <th>{t(locale, 'track.col.dir')}</th>
+          <th>{t(locale, 'track.col.angle')}</th>
+          <th>{t(locale, 'track.col.radius')}</th>
+          {showCamber && <th>{t(locale, 'track.col.camber')}</th>}
+          <th>{t(locale, 'track.col.grade')}</th>
+          <th>{t(locale, 'track.col.at')}</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-border">
+        {track.turns.map((turn) => (
+          <tr>
+            <td class="py-1.5 font-semibold">T{turn.n}</td>
+            <td>{t(locale, turn.dir === 'L' ? 'track.left' : 'track.right')}</td>
+            <td class="tabular-nums">{turn.angleDeg}°</td>
+            <td class="tabular-nums">{turn.radiusM} m</td>
+            {showCamber && (
+              <td class="tabular-nums">
+                {turn.camberDeg > 0 ? '+' : ''}
+                {turn.camberDeg}°
+              </td>
+            )}
+            <td class="tabular-nums">
+              {turn.gradePct > 0 ? '+' : ''}
+              {turn.gradePct}%
+            </td>
+            <td class="tabular-nums text-muted">
+              {turn.startM}–{turn.endM} m
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="mt-3 text-xs text-muted">
+      {t(locale, 'track.note')}{' '}
+      {t(locale, showCamber ? 'track.noteCamber' : 'track.noteCamberPending')}
+    </p>
+  </section>
+</Base>
+
+<script>
+  // The 3D model loads only on this page (three.js is already split out for the world).
+  let stop: (() => void) | undefined;
+  const boot = async () => {
+    const box = document.querySelector<HTMLElement>('[data-track-3d]');
+    if (!box || box.dataset.ready) return;
+    box.dataset.ready = '1';
+    const { track, scene, lines, lang } = JSON.parse(
+      box.querySelector('[data-track-json]')!.textContent!,
+    );
+    const { mountTrack } = await import('../tracks/scene3d');
+    // The visitor may have left while the 3D code was loading.
+    if (!box.isConnected) return;
+    const view = mountTrack(box.querySelector('canvas')!, track, scene, lines, lang);
+    let alive = true;
+    box.querySelectorAll<HTMLButtonElement>('[data-line]').forEach((b) =>
+      b.addEventListener('click', () => {
+        const on = !b.classList.contains('pill-on');
+        b.classList.toggle('pill-on', on);
+        view.setLine(b.dataset.line!, on);
+      }),
+    );
+    const slider = box.querySelector<HTMLInputElement>('[data-distance]')!;
+    const label = box.querySelector<HTMLElement>('[data-distance-label]')!;
+    const modes = [...box.querySelectorAll<HTMLButtonElement>('[data-mode]')];
+    let playing = false;
+    const setMode = (m: 'orbit' | 'drive') => {
+      view.setMode(m);
+      modes.forEach((b) => b.classList.toggle('pill-on', b.dataset.mode === m));
+      playing = m === 'drive';
+    };
+    modes.forEach((b) =>
+      b.addEventListener('click', () => setMode(b.dataset.mode as 'orbit' | 'drive')),
+    );
+    const show = (m: number) => {
+      view.setDistance(m);
+      label.textContent = `${Math.round(m)} m`;
+    };
+    // "Go to this stretch": the camera drives to a little before it.
+    document.querySelectorAll<HTMLButtonElement>('[data-goto]').forEach((b) =>
+      b.addEventListener('click', () => {
+        setMode('drive');
+        playing = false;
+        const m = Math.max(0, Number(b.dataset.goto) - 60);
+        slider.value = String(Math.round((m / view.length) * 1000));
+        show(m);
+        box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }),
+    );
+    slider.addEventListener('input', () => {
+      setMode('drive');
+      playing = false;
+      show((Number(slider.value) / 1000) * view.length);
+    });
+    let d = 0;
+    const roll = () => {
+      if (!alive) return;
+      if (playing) {
+        d = (d + 0.6) % view.length;
+        slider.value = String(Math.round((d / view.length) * 1000));
+        show(d);
+      }
+      requestAnimationFrame(roll);
+    };
+    roll();
+    stop = () => {
+      alive = false;
+      view.destroy();
+    };
+  };
+  // Leaving the page (the site swaps pages in place): stop the model and free its 3D context.
+  document.addEventListener('astro:before-swap', () => {
+    stop?.();
+    stop = undefined;
+  });
+  document.addEventListener('astro:page-load', boot);
+  boot();
+</script>

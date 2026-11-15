@@ -25,11 +25,13 @@ interface Props {
 const { locale, title, description, path } = Astro.props;
 const pageTitle = title ? `${title} · ${t(locale, 'site.name')}` : t(locale, 'site.name');
 const other = otherLocale(locale);
-const nav: [MessageKey, string][] = [
+// Section, its page, and other paths that belong to it (the 3D tracks are a Lab prototype).
+const nav: [MessageKey, string, string[]?][] = [
   ['nav.playlist', '/playlist/'],
   ['nav.tunes', '/tunes/'],
   ['nav.meta', '/meta/'],
   ['nav.tuners', '/tuners/'],
+  ['nav.lab', '/lab/', ['/tracks/']],
 ];
 const current = Astro.url.pathname;
 // The live Festival Playlist season tints the whole site (see styles/global.css).
@@ -96,14 +98,15 @@ const diagonal = {
         </a>
         {/* Phone: the sections get a row of their own, below the logo; wider: inline. */}
         <div class="order-last -mx-4 flex w-[calc(100%+2rem)] gap-6 overflow-x-auto border-t border-border/70 px-4 pt-3 sm:order-none sm:mx-0 sm:w-auto sm:border-0 sm:p-0">
-          {nav.map(([key, href]) => {
+          {nav.map(([key, href, also = []]) => {
             const target = localePath(locale, href);
+            const active = [href, ...also].some((p) => current.startsWith(localePath(locale, p)));
             return (
               <a
                 href={target}
                 class:list={[
                   'eyebrow whitespace-nowrap text-sm hover:text-text',
-                  current.startsWith(target) ? 'text-season' : 'text-muted',
+                  active ? 'text-season' : 'text-muted',
                 ]}
               >
                 {t(locale, key)}

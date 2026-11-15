@@ -67,6 +67,27 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
 2. As imagens são salvas em `public/world/` em alguns segundos.
 3. Confira as imagens e faça o commit junto com a mudança.
 
+## 3e. Gravar pistas pela telemetria ([ADR-0021](adr/0021-pistas-pela-telemetria.md))
+
+1. **No jogo:** o Data Out deve mandar para o SimHub. **No SimHub**, ligue o repasse de UDP (UDP forwarding) para `127.0.0.1`, porta **5301**.
+2. **Gravar:** `pnpm telemetry:record -- --name=<algo>`. Corra as rotas normalmente (várias numa gravação só) e pare com Ctrl+C. Os pacotes ficam em `.cache/telemetry/`.
+3. **Processar:** `pnpm telemetry:process`.
+   - Cada corrida é reconhecida pelo formato da rota, comparado com as imagens públicas do labsgg.com (baixadas uma vez para `.cache/tracks/`).
+   - O nome da rota dá o piso.
+   - O resultado vai para `data/tracks/<rota>.json`, e a gravação bruta é apagada.
+4. **Corrida "not recognised":** a rota não está na lista do labsgg ou o formato ficou ambíguo. Se faltar, acrescente a rota em `data/manual/routes.yaml` (nome, piso, tipo) e rode de novo com `--route=<id>`. A gravação só é apagada quando todas as corridas foram identificadas; `--keep` guarda a gravação de qualquer jeito.
+5. Rode `pnpm validate` e abra o PR com os arquivos de `data/tracks/`.
+6. **Modelo 3D:** crie `data/tracks/<rota>.scene.yaml` a partir de um vídeo de corrida.
+   - Extraia uma volta, um quadro por segundo, com o ffmpeg do projeto (`node_modules/ffmpeg-static`).
+   - **Em que metro está cada quadro:** o cronômetro da volta no HUD dá o instante exato de cada quadro. Some a velocidade do painel segundo a segundo; o total deve fechar com a extensão medida pela telemetria (na Irokawa, 1.832 m contra 1.830 m).
+   - **Posição do carro na pista (`drivenLine`):** desenhe sobre cada quadro uma régua em metros na linha da imagem que fica uns 7 m à frente do carro. A escala vem da perspectiva da câmera, calibrada pela largura do carro (1,9 m). Leia onde ficam as faixas brancas das bordas. A posição vai de −1 (carro encostado na borda direita) a +1 (na esquerda), na mesma escala das linhas do guia. A largura de cada trecho vai em `sections[].width` e vale até outro trecho mudá-la.
+   - Anote cada trecho: acostamento (`edge`, `edgeWidth`), barreira e cenário de cada lado, mais os marcos. Dentro da pista vale caprichar: pintura (`markings`), cones, área asfaltada, muros. Fora dela, basta o essencial.
+   - Deixe `camber: flat` até haver uma medida de cambagem confiável.
+   - **Checkpoints:** o tempo parcial (canto superior direito) muda na passagem por cada checkpoint, e o cronômetro da volta diz em que metro isso acontece. A distância que o jogo mostra sobre o checkpoint serve de conferência. Anote em `checkpoints:` no arquivo de cenário.
+   - **Conferência:** em `pnpm dev`, abra `/tracks/<rota>/`, clique em "Dirigir" e compare a vista com os quadros do vídeo nos mesmos metros. A câmera imita a do jogo.
+   - **Guia de traçado:** em `data/tracks/<rota>.lines.yaml`, com linhas (posição de −1 = carro encostado na borda direita a +1 = na esquerda), setas e textos por sequência. Uma linha com `visible: false` começa desligada.
+   - Só marque `published: true` quando o dono aprovar. A pista passa a aparecer no Paddock Lab (`/lab/`), com o aviso de trabalho em andamento.
+
 ## 4. Carros ou tunadores não reconhecidos
 
 1. Abra `data/review/unmatched-cars.json`. Cada item mostra o texto original e os candidatos com a similaridade.

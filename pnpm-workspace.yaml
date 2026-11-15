@@ -1,3 +1,4 @@
 # Only packages listed here may run install scripts (pnpm blocks the rest by default).
 allowBuilds:
   esbuild: true
+  ffmpeg-static: true

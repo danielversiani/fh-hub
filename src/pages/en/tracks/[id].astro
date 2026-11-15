@@ -1,0 +1,15 @@
+---
+import TrackPage from '../../../components/TrackPage.astro';
+import { loadTrackModels } from '../../../lib/data';
+
+export function getStaticPaths() {
+  return loadTrackModels().map(({ track, scene, lines }) => ({
+    params: { id: track.id },
+    props: { track, scene, lines },
+  }));
+}
+
+const { track, scene, lines } = Astro.props;
+---
+
+<TrackPage locale="en" track={track} scene={scene} lines={lines} />

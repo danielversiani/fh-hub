@@ -93,6 +93,14 @@ fhstats não é planilha: a amostra guarda os dados já extraídos da página (`
   - a data é dia/mês/ano.
 - **"10 R8 V10 PLUS"** (2010) é o R8 V10 Plus de 2016, o único no jogo: apelido em `data/manual/car-aliases.yaml`.
 
+### Telemetria do jogo (pistas, [ADR-0021](adr/0021-pistas-pela-telemetria.md))
+- **Fonte:** o recurso oficial **Data Out** do FH6, gravado no PC de quem joga (primeiro o dono; no futuro, convidados). Não toca servidor nenhum do jogo.
+- **Formato:** pacotes UDP de 324 bytes, o mesmo layout "Dash" do FH4/FH5, cerca de 90 por segundo. Posição x, y e z nos bytes 244–255; rolagem e inclinação do carro em 60–67; aceleração lateral em 20; suspensão de cada roda em 68–83. Fora de corrida, os pacotes vêm zerados.
+- **Reconhecimento da rota:** pelo formato, comparado com as imagens públicas das rotas do labsgg.com (88 corridas; a lista e o tipo de cada corrida em labsgg.com/all-race-tracks). É conteúdo do jogo e não precisa de crédito (decisão do dono). Rotas fora dessa lista ficam em `data/manual/routes.yaml`.
+- **O que fica no site** (`data/tracks/<rota>.json`): só o que vale para qualquer carro (traçado a cada 10 m com elevação e cambagem; curvas com direção, ângulo, raio, cambagem e inclinação; retas; saltos; lombadas; e estatísticas de elevação). Nada de velocidade.
+- **Cambagem:** é a rolagem do carro menos a rolagem do próprio carro na curva (ajustada a cada corrida pela aceleração lateral). É aproximada: positiva quando a pista inclina para dentro da curva.
+- **Primeiras pistas (2026-11-14):** Irokawa Circuit, Hokubu Circuit, Daikoku Circuit, Electric Town Circuit, Satta Sprint, Tateyama Kurobe Sprint, Shimanoyama Sprint e Tokyo Railway Sprint.
+
 ### `logikj-playlist`: recomendações de LogikJ por evento
 - **Mesma planilha** da fonte `logikj`, lida inteira (.xlsx). Abas "Series 7 Autumn/Fall", "Series 7 Winter WIP"… (na exportação, a barra some: "AutumnFall").
 - Cada evento começa um bloco (coluna Event, célula mesclada); cada linha com carro é uma recomendação, quase sempre com a tune de LogikJ.

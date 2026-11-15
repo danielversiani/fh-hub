@@ -551,3 +551,258 @@ export const generatedFile = <T extends z.ZodType>(item: T) =>
     generatedAt: z.iso.datetime(),
     items: z.array(item),
   });
+
+/**
+ * A route measured from the game's Data Out telemetry (ADR-0021): only what holds for any car
+ * (no speeds). Distances in metres along the driven line; angles in degrees.
+ */
+export const Track = z.object({
+  id: Slug,
+  name: z.string(),
+  /** From the route's name (its race type), not from the telemetry. */
+  surface: Surface,
+  kind: z.enum(['sprint', 'circuit']),
+  /** Length of one lap (circuit) or of the whole route (sprint). */
+  lengthM: z.number().positive(),
+  laps: z.number().int().positive().optional(),
+  recordings: z.number().int().positive(),
+  updatedAt: z.iso.date(),
+  /** Every 10 m: x, z (map plane), y (elevation), camber (+ = tilted into the turn). */
+  path: z.array(z.tuple([z.number(), z.number(), z.number(), z.number()])).min(2),
+  turns: z.array(
+    z.object({
+      n: z.number().int().positive(),
+      dir: z.enum(['L', 'R']),
+      startM: z.number(),
+      endM: z.number(),
+      angleDeg: z.number(),
+      radiusM: z.number(),
+      camberDeg: z.number(),
+      gradePct: z.number(),
+    }),
+  ),
+  straights: z.array(z.object({ startM: z.number(), endM: z.number() })),
+  jumps: z.array(z.object({ atM: z.number(), lengthM: z.number() })),
+  crests: z.array(z.object({ atM: z.number() })),
+  stats: z.object({
+    elevationMin: z.number(),
+    elevationMax: z.number(),
+    climbM: z.number(),
+    descentM: z.number(),
+    maxGradePct: z.number(),
+    maxCamberDeg: z.number(),
+  }),
+});
+export type Track = z.infer<typeof Track>;
+
+/** What lines one side of the road along a stretch (ADR-0021, 3D model). */
+export const TrackSide = z.object({
+  /** Right next to the road; `paved` is asphalt run-off beyond the edge line. */
+  edge: z
+    .enum(['grass', 'gravel', 'sand', 'curb', 'sidewalk', 'dirt', 'snow', 'paved'])
+    .default('grass'),
+  /** How wide that edge strip is (m). */
+  edgeWidth: z.number().positive().optional(),
+  /** `boards`: the Festival's low blue walls with banners. */
+  barrier: z
+    .enum(['none', 'guardrail', 'wall', 'fence', 'tires', 'cones', 'boards'])
+    .default('none'),
+  /** Further out: what you see. */
+  scenery: z
+    .array(
+      z.object({
+        type: z.enum([
+          'trees',
+          'buildings',
+          'hangars',
+          'tanks',
+          'water',
+          'field',
+          'rocks',
+          'stands',
+          'lights',
+          'chevrons',
+          'tents',
+          'retaining-wall',
+          'concrete-wall',
+          'banners',
+          'cones',
+        ]),
+        /** Distance from the road edge (m) and how full the stretch is (0–1). */
+        offset: z.number().nonnegative().default(15),
+        density: z.number().min(0).max(1).default(0.5),
+        height: z.number().positive().optional(),
+      }),
+    )
+    .default([]),
+});
+
+/**
+ * How a measured route looks (data/tracks/<id>.scene.yaml), written from race videos and
+ * reviewed by the owner. With the measured line it is enough to build a simplified, realistic 3D
+ * model; a route only goes on the site when `published` is true (owner releases them gradually).
+ */
+export const TrackScene = z.object({
+  published: z.boolean().default(false),
+  /** Videos used as reference, with the moment the lap starts. */
+  references: z.array(z.object({ url: z.url(), lapStart: z.string() })).default([]),
+  road: z.object({
+    width: z.number().positive().default(12),
+    surface: z.enum(['asphalt', 'concrete', 'dirt', 'gravel', 'snow']).default('asphalt'),
+    centerLine: z.enum(['none', 'dashed', 'solid', 'double']).default('none'),
+    edgeLines: z.boolean().default(true),
+  }),
+  /**
+   * Where the recorded lap runs across the road, read from the reference video, on the racing
+   * lines' scale (−1 = car against the right edge, 0 = middle, +1 = against the left edge). The
+   * measured line is the driver's line, not the road's middle: with this the model puts the road
+   * where it really is, instead of bending it along the driver's line. Widths come from
+   * `sections[].width`.
+   */
+  drivenLine: z
+    .array(z.object({ at: z.number().nonnegative(), pos: z.number().min(-1).max(1) }))
+    .default([]),
+  /**
+   * Camber: `measured` uses the telemetry; `flat` draws the road level. The first method mixed the
+   * car's own body roll into the road's tilt, so it stays `flat` until re-measured.
+   */
+  camber: z.enum(['measured', 'flat']).default('flat'),
+  /** Paint on the road (between `from` and `to`, metres along the lap). */
+  markings: z
+    .array(
+      z.object({
+        from: z.number().nonnegative(),
+        to: z.number().nonnegative(),
+        type: z.enum([
+          'center-dashed',
+          'center-solid',
+          'center-yellow',
+          'crosswalk',
+          'block',
+          'text',
+        ]),
+        /**
+         * Lateral position for blocks and text (−1 right edge … +1 left edge; beyond ±1 is paint
+         * on the shoulder), their size and the painted text.
+         */
+        pos: z.number().min(-1.6).max(1.6).default(0),
+        width: z.number().positive().optional(),
+        color: z.string().optional(),
+        text: z.string().optional(),
+      }),
+    )
+    .default([]),
+  /** Stretches along the lap (metres from the start line); the last one runs to the end. */
+  sections: z
+    .array(
+      z.object({
+        from: z.number().nonnegative(),
+        note: z.string().optional(),
+        /** Road width (m); it carries on to the next stretches until one sets another. */
+        width: z.number().positive().optional(),
+        left: TrackSide.default({ edge: 'grass', barrier: 'none', scenery: [] }),
+        right: TrackSide.default({ edge: 'grass', barrier: 'none', scenery: [] }),
+      }),
+    )
+    .min(1),
+  /** One-off things that make the place recognisable (a rocket, a bridge, a tower…). */
+  landmarks: z
+    .array(
+      z.object({
+        at: z.number().nonnegative(),
+        side: z.enum(['left', 'right']),
+        offset: z.number().default(40),
+        /** `arch`, `overpass` and `truss` span the road at `at` (`length` along it). */
+        type: z.enum([
+          'rocket',
+          'tower',
+          'bridge',
+          'building',
+          'gantry',
+          'dome',
+          'tank',
+          'sign',
+          'sphere',
+          'arch',
+          'overpass',
+          'truss',
+        ]),
+        length: z.number().positive().optional(),
+        size: z.number().positive().default(20),
+        note: z.string().optional(),
+      }),
+    )
+    .default([]),
+  /** The ground around the track. */
+  ground: z.enum(['grass', 'dry-grass', 'dirt', 'snow', 'concrete', 'sand']).default('grass'),
+  /**
+   * The race's checkpoints (metres along the lap), each marked in game by a pair of tall flags.
+   * Racing lines aim at them, so their place matters. Flags sit at the road edges unless an
+   * offset from the edge is given (m, + = further out).
+   */
+  checkpoints: z
+    .array(
+      z.object({
+        at: z.number().nonnegative(),
+        left: z.number().optional(),
+        right: z.number().optional(),
+        note: z.string().optional(),
+      }),
+    )
+    .default([]),
+  /** Tree colours (the game's season changes them). */
+  foliage: z.enum(['green', 'autumn', 'snow']).default('green'),
+});
+export type TrackScene = z.infer<typeof TrackScene>;
+
+const LocalizedText = z.object({ 'pt-br': z.string(), en: z.string() });
+
+/**
+ * Racing-line guides of a route (data/tracks/<id>.lines.yaml, ADR-0021): lines painted on the
+ * road, aiming arrows and the reasoning, corner sequence by corner sequence. Lateral positions go
+ * from −1 (the car against the right edge) to +1 (against the left edge), 0 being the middle.
+ */
+export const TrackLines = z.object({
+  lines: z.array(
+    z.object({
+      id: Slug,
+      name: LocalizedText,
+      /** Which cars or conditions the line is for. */
+      for: LocalizedText.optional(),
+      /** Colours along the line, from its start to its end (like the reference videos). */
+      colors: z.array(z.string()).min(1).default(['#2fb7ff', '#3ee07a']),
+      /** Shown when the page opens (the others can be switched on). */
+      visible: z.boolean().default(true),
+      /** Where the line starts and ends (m); without them it covers the whole lap. */
+      from: z.number().nonnegative().optional(),
+      to: z.number().nonnegative().optional(),
+      points: z
+        .array(z.object({ at: z.number().nonnegative(), pos: z.number().min(-1.2).max(1.2) }))
+        .min(2),
+    }),
+  ),
+  /** Aiming arrows: `best` ✓, `good` green arrow, `ok` orange arrow, `avoid` ✗. */
+  marks: z
+    .array(
+      z.object({
+        at: z.number().nonnegative(),
+        pos: z.number().min(-1.3).max(1.3),
+        kind: z.enum(['best', 'good', 'ok', 'avoid']),
+        line: Slug.optional(),
+      }),
+    )
+    .default([]),
+  /** The reasoning, per stretch (shown next to the model and as labels in it). */
+  notes: z
+    .array(
+      z.object({
+        from: z.number().nonnegative(),
+        to: z.number().nonnegative(),
+        title: LocalizedText,
+        text: LocalizedText,
+        line: Slug.optional(),
+      }),
+    )
+    .default([]),
+});
+export type TrackLines = z.infer<typeof TrackLines>;

@@ -1,5 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { parse as parseYaml } from 'yaml';
+import {
+  Track as TrackSchema,
+  TrackLines as TrackLinesSchema,
+  TrackScene as TrackSceneSchema,
+  type Track,
+  type TrackLines,
+  type TrackScene,
+} from '../../pipeline/schema/entities';
 import type {
   Car,
   CarRole,
@@ -119,3 +128,29 @@ export const currentSeason = (): PlaylistSeason | undefined => {
 
 export const loadHighlights = () => readItems<Highlight>('highlights.json');
 export const loadRoles = () => readItems<CarRole>('roles.json');
+
+/**
+ * Routes measured from telemetry (data/tracks, ADR-0021) that have a scene file. Only the ones
+ * the owner released (`published: true`) are built for the site; `pnpm dev` shows all of them.
+ */
+export function loadTrackModels(): { track: Track; scene: TrackScene; lines?: TrackLines }[] {
+  const dir = path.resolve(process.cwd(), 'data/tracks');
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.scene.yaml'))
+    .map((f) => {
+      const id = f.replace(/\.scene\.yaml$/, '');
+      const track = TrackSchema.parse(
+        JSON.parse(fs.readFileSync(path.join(dir, `${id}.json`), 'utf8')),
+      );
+      const scene = TrackSceneSchema.parse(parseYaml(fs.readFileSync(path.join(dir, f), 'utf8')));
+      // Racing-line guides, when written (data/tracks/<id>.lines.yaml).
+      const linesFile = path.join(dir, `${id}.lines.yaml`);
+      const lines = fs.existsSync(linesFile)
+        ? TrackLinesSchema.parse(parseYaml(fs.readFileSync(linesFile, 'utf8')))
+        : undefined;
+      return { track, scene, lines };
+    })
+    .filter(({ scene }) => scene.published || import.meta.env.DEV);
+}

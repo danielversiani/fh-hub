@@ -64,6 +64,7 @@ fh-hub/
 │  ├─ curation/config.yaml       # pesos e regras de curadoria (⏳ weekly/<season-id>.json da IA, via PR)
 │  ├─ generated/                 # SAÍDA do pipeline: nunca editar à mão
 │  ├─ review/                    # filas de revisão humana (carros não reconhecidos, valores desconhecidos)
+│  ├─ tracks/                    # pistas medidas pela telemetria (<rota>.json) e o modelo 3D: .scene.yaml (cenário), .lines.yaml (guia)
 │  └─ snapshots/                 # último dado bom de cada fonte pública
 ├─ .cache/                       # git-ignored
 │  ├─ raw/                       # última resposta bruta de cada fonte (depuração, --offline)
@@ -77,6 +78,7 @@ fh-hub/
 │  ├─ build/                     # dataset.ts (junta tudo), write.ts (gravação determinística), changelog.ts
 │  ├─ curate/                    # config.ts (schema do config.yaml), index.ts (notas, categorias, sugestões),
 │  │                             # roles.ts (ranking do Forza Paddock, ADR-0017) e brain-afk.ts (ADR-0018)
+│  ├─ telemetry/                 # pistas pela telemetria (ADR-0021): gravação UDP, leitura dos pacotes, medidas, reconhecimento da rota
 │  ├─ schema/                    # schemas zod: fonte única de verdade dos tipos
 │  ├─ lib/                       # http, tabelas, markdown, texto, similaridade, JSON estável, protobuf, qq-sheet
 │  ├─ testing.ts                 # roda os adaptadores sobre as fixtures (usado nos testes)
@@ -89,6 +91,7 @@ fh-hub/
 │  ├─ i18n/                      # pt-br.json, en.json + helpers
 │  ├─ islands/                   # componentes interativos (Preact): TuneSearch
 │  ├─ world/                     # modo pista (ADR-0019): mundo 3D (three.js), rota da página inicial, imagens do modo normal
+│  ├─ tracks/                    # modelo 3D das pistas (ADR-0021): scene3d.ts (pista, cenário, câmera) e guides.ts (checkpoints, linhas)
 │  └─ content/                   # ⏳ coleções: guides, accessories, custom-events
 └─ .github/workflows/            # ci.yml, sync.yml (⏳ deploy.yml, health.yml)
 ```

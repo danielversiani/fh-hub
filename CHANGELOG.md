@@ -7,6 +7,19 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-14: **Paddock Lab** ([PRODUCT §5.6](docs/PRODUCT.md)): seção nova de protótipos ("Lab" no menu, `/lab/`), com aviso de trabalho em andamento e botão "Dar opinião" (issue no GitHub com o título começado). Primeiro projeto: as pistas em 3D; a **Irokawa Circuit** vai ao ar como protótipo. A página da pista mostra o aviso e libera o modelo 3D ao sair dela ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
+- 2026-11-14: **Irokawa revisada pelo vídeo** (protótipo, não publicado):
+  - a visão "Dirigir" usa a câmera do jogo (2 m de altura, 8,6 m atrás, 67°) e mostra um carro de referência;
+  - a pista fica no lugar certo: a posição do carro, lida em 38 quadros, entra em `drivenLine`;
+  - a cambagem fica nivelada até haver medida confiável;
+  - saiu o "caroço" entre o CP7 e o CP8, que era do terreno e não da telemetria;
+  - os checkpoints estão nas posições exatas;
+  - entraram pintura na pista, cones, área asfaltada, guard-rail, muros de grade e de concreto, e a linha "Volta gravada" (desligada ao abrir).
+
+  No formato de cenário, entram `drivenLine`, `camber`, `markings`, `edgeWidth`, acostamento `paved` e os tipos `cones` e `concrete-wall`. A largura de um trecho vale até outro trecho mudá-la ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
+- 2026-11-14: **Checkpoints e guia de traçado no modelo 3D** (protótipo, não publicado): bandeiras de checkpoint nas posições lidas do HUD do vídeo; linhas pintadas na pista com setas ✓/✗ e textos por sequência de curvas; primeiro rascunho na Irokawa (T4 → T5 → reta) ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
+- 2026-11-14: **Modelo 3D realista das pistas (protótipo, não publicado):** página `/tracks/<rota>/` com o modelo em three.js (traçado medido, elevação, cambagem e cenário anotado a partir de vídeo), modos "Vista livre" e "Dirigir", perfil de elevação e lista de curvas. Primeiro rascunho: Irokawa Circuit. Só vai ao ar com `published: true` ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
+- 2026-11-14: **Pistas pela telemetria** ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)): `pnpm telemetry:record` grava o Data Out do jogo (repassado pelo SimHub) e `pnpm telemetry:process` reconhece a rota pelo formato, mede traçado, elevação, inclinação, cambagem, curvas, retas, saltos e lombadas, e grava `data/tracks/<rota>.json`. As 8 primeiras pistas foram medidas; a página do site vem depois.
 - 2026-11-14: **Recomendações do Forza Paddock** (planilha do dono): selo "Recomendada pelo Forza Paddock" e primeira posição na classe × piso; linhas sem data ficam de fora ([ADR-0020](docs/adr/0020-recomendacoes-do-forza-paddock.md)).
 - 2026-11-14: **Escala de dificuldade de 6 níveis** no site todo (Cérebro desligado, Muito fácil, Fácil, Médio, Difícil, Muito difícil); a de Noa Miyako sobe um degrau.
 - 2026-11-14: **Recomendações por evento na Playlist**, de LogikJ e de Noa Miyako, com o nome de quem recomendou, antes das sugestões automáticas do site.
