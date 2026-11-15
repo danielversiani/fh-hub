@@ -41,6 +41,8 @@ const store = {
 };
 
 const trackMode = () => root.dataset.mode !== 'normal';
+/** Pending "hold still" of the background on pages with a 3D view of their own. */
+let stillTimer = 0;
 
 async function getWorld(): Promise<World | null> {
   if (world) return world;
@@ -64,6 +66,7 @@ async function getWorld(): Promise<World | null> {
 }
 
 async function apply(animate: boolean) {
+  clearTimeout(stillTimer);
   routeLayout?.destroy();
   routeLayout = null;
   const container = document.getElementById('world');
@@ -86,6 +89,10 @@ async function apply(animate: boolean) {
     w.setScroll(window.scrollY);
   }
   w.start();
+  // Pages with a 3D view of their own (the track models) keep the background still once the
+  // camera has arrived, so the two do not compete for the graphics card.
+  if (document.querySelector('[data-still-world]'))
+    stillTimer = window.setTimeout(() => w.stop(), animate ? 1600 : 200);
   if (import.meta.env.DEV && new URLSearchParams(location.search).has('snapshots'))
     void snapshots(w);
 }

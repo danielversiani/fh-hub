@@ -88,8 +88,16 @@ const showCamber = scene.camber === 'measured';
     </div>
   </dl>
 
-  <div class="card relative mt-6 overflow-hidden" data-track-3d>
+  {/* data-still-world: the site's animated background holds still here (one 3D view at a time). */}
+  <div class="card relative mt-6 overflow-hidden" data-track-3d data-still-world>
     <canvas class="block h-[62vh] min-h-[360px] w-full"></canvas>
+    <p
+      class="pointer-events-none absolute top-3 left-3 max-w-[calc(100%-1.5rem)] bg-black/60 px-2 py-1 text-[11px] leading-snug text-white/90"
+      data-orbit-hint
+    >
+      <span class="[@media(hover:none)]:hidden">{t(locale, 'track.view.hint')}</span>
+      <span class="hidden [@media(hover:none)]:inline">{t(locale, 'track.view.hintTouch')}</span>
+    </p>
     <div class="flex flex-wrap items-center gap-3 border-t border-border px-4 py-3 text-sm">
       <button type="button" class="pill pill-on" data-mode="orbit">
         {t(locale, 'track.view.orbit')}
@@ -276,16 +284,21 @@ const showCamber = scene.camber === 'measured';
     const slider = box.querySelector<HTMLInputElement>('[data-distance]')!;
     const label = box.querySelector<HTMLElement>('[data-distance-label]')!;
     const modes = [...box.querySelectorAll<HTMLButtonElement>('[data-mode]')];
+    const hint = box.querySelector<HTMLElement>('[data-orbit-hint]');
     let playing = false;
     const setMode = (m: 'orbit' | 'drive') => {
       view.setMode(m);
       modes.forEach((b) => b.classList.toggle('pill-on', b.dataset.mode === m));
+      if (hint) hint.hidden = m === 'drive';
       playing = m === 'drive';
     };
     modes.forEach((b) =>
       b.addEventListener('click', () => setMode(b.dataset.mode as 'orbit' | 'drive')),
     );
+    // Where the car is on the lap (m); the slider, the "go to" buttons and the drive share it.
+    let d = 0;
     const show = (m: number) => {
+      d = m;
       view.setDistance(m);
       label.textContent = `${Math.round(m)} m`;
     };
@@ -305,17 +318,20 @@ const showCamber = scene.camber === 'measured';
       playing = false;
       show((Number(slider.value) / 1000) * view.length);
     });
-    let d = 0;
-    const roll = () => {
+    // Driving: about 140 km/h, whatever the screen's refresh rate.
+    let then = performance.now();
+    const roll = (now: number) => {
       if (!alive) return;
+      const dt = Math.min(0.1, (now - then) / 1000);
+      then = now;
       if (playing) {
-        d = (d + 0.6) % view.length;
-        slider.value = String(Math.round((d / view.length) * 1000));
-        show(d);
+        const next = (d + 38 * dt) % view.length;
+        slider.value = String(Math.round((next / view.length) * 1000));
+        show(next);
       }
       requestAnimationFrame(roll);
     };
-    roll();
+    requestAnimationFrame(roll);
     stop = () => {
       alive = false;
       view.destroy();

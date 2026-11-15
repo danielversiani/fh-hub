@@ -7,6 +7,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-14: **Pistas em 3D, navegação:** o carro da visão "Dirigir" não treme mais (desliza entre os pontos, em velocidade constante, e inclina nas subidas). A vista livre funciona como um mapa: arrastar move, botão direito ou Ctrl gira, a roda aproxima em direção ao cursor e o duplo clique foca; há uma dica na tela. Na página da pista, o fundo animado do site fica parado ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
 - 2026-11-14: **Paddock Lab** ([PRODUCT §5.6](docs/PRODUCT.md)): seção nova de protótipos ("Lab" no menu, `/lab/`), com aviso de trabalho em andamento e botão "Dar opinião" (issue no GitHub com o título começado). Primeiro projeto: as pistas em 3D; a **Irokawa Circuit** vai ao ar como protótipo. A página da pista mostra o aviso e libera o modelo 3D ao sair dela ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
 - 2026-11-14: **Irokawa revisada pelo vídeo** (protótipo, não publicado):
   - a visão "Dirigir" usa a câmera do jogo (2 m de altura, 8,6 m atrás, 67°) e mostra um carro de referência;

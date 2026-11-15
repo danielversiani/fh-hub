@@ -67,6 +67,10 @@ O jogo tem um recurso oficial, o **Data Out**, que envia a telemetria do carro (
   - **Dentro da pista:** pintura (faixa central tracejada, faixa de pedestres, linhas e blocos coloridos), cones, área asfaltada (praça da T2, ápice da T3), calçadas, guard-rail, muros de grade inclinados (T1, reta oposta) e muros de concreto no corte sob o viaduto. Fora da pista, o cenário segue simples, como o dono pediu.
   - **Larguras:** a largura de um trecho vale até outro trecho mudá-la.
   - **Limitação conhecida:** as bordas continuam estimadas pelo vídeo. As voltas que o dono vai gravar coladas em cada borda podem substituir essa leitura.
+- **2026-11-14, navegação** (o dono viu o carro "pulando" e achou a vista livre ruim):
+  - **Carro sem tremer:** carro e câmera pegavam o ponto de 2 em 2 m mais próximo, cada um num instante, e por isso saltavam. Agora deslizam entre os pontos, a uma velocidade constante (cerca de 140 km/h) que não depende da tela. O carro também inclina nas subidas e descidas.
+  - **Vista livre como um mapa:** arrastar move pelo chão; botão direito (ou Ctrl/Shift + arrastar) gira e inclina; a roda aproxima em direção ao cursor; duplo clique voa até o ponto; as setas do teclado também movem. Uma dica na tela explica (no celular: um dedo move, dois giram e aproximam). Ao voltar de "Dirigir", a vista começa acima e atrás do carro.
+  - **Uma cena 3D por vez:** na página da pista, o fundo animado do site para depois que a câmera chega, para não disputar a placa de vídeo com o modelo.
 - **2026-11-14, publicada como protótipo:** o dono liberou a Irokawa (`published: true`) para servir de vitrine e colher opiniões, numa seção nova do site, o Paddock Lab (`/lab/`, [PRODUCT §5.6](../PRODUCT.md)). A página da pista mostra o aviso de trabalho em andamento e o botão "Dar opinião". As linhas do guia continuam marcadas como rascunho.
 
 ## Alternativas consideradas

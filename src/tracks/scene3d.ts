@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { MapControls } from 'three/examples/jsm/controls/MapControls.js';
 import type { Track, TrackLines, TrackScene } from '../../pipeline/schema/entities';
 import { CAR_EDGE, checkpointFlags, racingLines } from './guides';
 
@@ -1286,17 +1286,16 @@ export function mountTrack(
 
   // Road, lines, ground, scenery.
   const surface = asphaltTexture(scene.road.surface);
-  root.add(
-    strip(
-      samples,
-      (f) => -f.width / 2,
-      (f) => f.width / 2,
-      0,
-      new THREE.MeshStandardMaterial({ map: surface, roughness: 0.95 }),
-      undefined,
-      0.08,
-    ),
+  const road = strip(
+    samples,
+    (f) => -f.width / 2,
+    (f) => f.width / 2,
+    0,
+    new THREE.MeshStandardMaterial({ map: surface, roughness: 0.95 }),
+    undefined,
+    0.08,
   );
+  root.add(road);
   const lineMat = mat(COLORS.line, { roughness: 0.6 });
   if (scene.road.edgeLines) {
     root.add(
@@ -1331,7 +1330,8 @@ export function mountTrack(
       ),
     );
   }
-  root.add(terrain(samples, scene.ground));
+  const ground = terrain(samples, scene.ground);
+  root.add(ground);
   paint(samples, scene, root);
   dressing(samples, root, scene.foliage);
   for (const l of scene.landmarks) {
@@ -1397,27 +1397,40 @@ export function mountTrack(
 
   const camera = new THREE.PerspectiveCamera(50, 1, 0.5, 8000);
   camera.position.set(radius * 0.6, radius * 0.7, radius * 0.9);
-  const controls = new OrbitControls(camera, canvas);
+  // Free view, like a map: drag to move over the ground, right button (or Ctrl / Shift + drag)
+  // to turn and tilt, wheel to zoom towards the pointer, arrow keys once the view has focus.
+  const controls = new MapControls(camera, canvas);
   controls.enableDamping = true;
-  controls.maxPolarAngle = Math.PI / 2.05;
+  controls.dampingFactor = 0.08;
+  controls.zoomToCursor = true;
+  controls.zoomSpeed = 1.6;
+  controls.minDistance = 6;
+  controls.maxDistance = radius * 3;
+  controls.maxPolarAngle = Math.PI / 2.1;
+  controls.keyPanSpeed = 25;
+  canvas.tabIndex = 0;
+  canvas.style.outline = 'none';
+  controls.listenToKeyEvents(canvas);
 
   let mode: 'orbit' | 'drive' = 'orbit';
   let distance = 0;
   const length = samples[samples.length - 1]!.s;
   const closed = track.kind === 'circuit';
-  const frameAt = (m: number) => {
-    const at = closed ? ((m % length) + length) % length : m;
-    return samples[
-      Math.min(samples.length - 1, Math.max(0, Math.round((at / length) * (samples.length - 1))))
-    ]!;
-  };
-  /** The driven line at `m` metres; on a sprint it carries on straight beyond either end. */
+  const last = samples.length - 1;
+  /**
+   * The driven line at `m` metres, interpolated between samples so the car and the camera glide
+   * instead of hopping from one sample to the next; on a sprint it carries on straight beyond
+   * either end.
+   */
   const lineAt = (m: number) => {
     if (!closed && (m < 0 || m > length)) {
-      const end = m < 0 ? samples[0]! : samples[samples.length - 1]!;
+      const end = m < 0 ? samples[0]! : samples[last]!;
       return end.line.clone().addScaledVector(end.dir, m < 0 ? m : m - length);
     }
-    return frameAt(m).line.clone();
+    const at = closed ? ((m % length) + length) % length : m;
+    const k = (at / length) * last;
+    const i = Math.min(last - 1, Math.floor(k));
+    return samples[i]!.line.clone().lerp(samples[i + 1]!.line, k - i);
   };
 
   /** Free view: 50° vertical. Driving: the game's ~67° horizontal, whatever the page's shape. */
@@ -1442,35 +1455,94 @@ export function mountTrack(
   const observer = new ResizeObserver(resize);
   observer.observe(canvas);
 
+  // Double-click (or double-tap) in the free view: glide over to that spot of the ground.
+  const pointer = new THREE.Vector2();
+  const raycaster = new THREE.Raycaster();
+  let flight:
+    | { target: [THREE.Vector3, THREE.Vector3]; camera: [THREE.Vector3, THREE.Vector3]; t: number }
+    | undefined;
+  const onDoubleClick = (e: MouseEvent) => {
+    if (mode !== 'orbit') return;
+    const r = canvas.getBoundingClientRect();
+    pointer.set(
+      ((e.clientX - r.left) / r.width) * 2 - 1,
+      -((e.clientY - r.top) / r.height) * 2 + 1,
+    );
+    raycaster.setFromCamera(pointer, camera);
+    const hit = raycaster.intersectObjects([road, ground], false)[0];
+    if (!hit) return;
+    const offset = camera.position.clone().sub(controls.target);
+    offset.setLength(Math.min(offset.length(), 70));
+    flight = {
+      target: [controls.target.clone(), hit.point.clone()],
+      camera: [camera.position.clone(), hit.point.clone().add(offset)],
+      t: 0,
+    };
+  };
+  canvas.addEventListener('dblclick', onDoubleClick);
+  // Grabbing the view stops a glide on its way.
+  controls.addEventListener('start', () => (flight = undefined));
+
   let raf = 0;
+  let then = performance.now();
   const tick = () => {
     raf = requestAnimationFrame(tick);
+    const now = performance.now();
+    const dt = Math.min(0.1, (now - then) / 1000);
+    then = now;
     if (mode === 'drive') {
       // The game's chase camera (measured on the reference video): about 2 m up and 6.3 m behind
       // the car's tail, looking a little ahead, with ~67° of horizontal view.
       const here = lineAt(distance).add(root.position);
-      const fore = lineAt(distance + 2);
-      const aft = lineAt(distance - 2);
+      const fore = lineAt(distance + 3);
+      const aft = lineAt(distance - 3);
       car.position.copy(here);
-      car.rotation.y = Math.atan2(fore.x - aft.x, fore.z - aft.z);
+      // Heading along the line, nose up or down with the slope.
+      car.rotation.set(
+        -Math.atan2(fore.y - aft.y, Math.hypot(fore.x - aft.x, fore.z - aft.z)),
+        Math.atan2(fore.x - aft.x, fore.z - aft.z),
+        0,
+        'YXZ',
+      );
       camera.position.copy(lineAt(distance - 8.6).add(root.position));
       camera.position.y = here.y + 2.1;
       const ahead = lineAt(distance + 9).add(root.position);
       camera.lookAt(ahead.setY(ahead.y + 0.9));
-    } else controls.update();
+    } else {
+      if (flight) {
+        flight.t = Math.min(1, flight.t + dt / 0.7);
+        const k = flight.t * flight.t * (3 - 2 * flight.t);
+        controls.target.lerpVectors(flight.target[0], flight.target[1], k);
+        camera.position.lerpVectors(flight.camera[0], flight.camera[1], k);
+        if (flight.t >= 1) flight = undefined;
+      }
+      controls.update();
+    }
     renderer.render(world, camera);
   };
   tick();
+  if (import.meta.env.DEV) Object.assign(window, { __track: { camera, car, controls } }); // debugging aid
 
   return {
     length,
     setMode(next) {
+      if (next === 'orbit' && mode === 'drive') {
+        // Back to the free view: from above and behind the car, looking at where it was.
+        const fwd = new THREE.Vector3(Math.sin(car.rotation.y), 0, Math.cos(car.rotation.y));
+        controls.target.copy(car.position);
+        camera.position
+          .copy(car.position)
+          .addScaledVector(fwd, -45)
+          .setY(car.position.y + 32);
+        flight = undefined;
+      }
       mode = next;
       controls.enabled = next === 'orbit';
       // From the driver's seat the turn numbers are too big; the checkpoints guide instead.
       turnLabels.forEach((l) => (l.visible = next === 'orbit'));
       car.visible = next === 'drive';
       fitFov();
+      if (next === 'orbit') controls.update();
     },
     setLine(id, visible) {
       const g = lineGroups.get(id);
@@ -1482,6 +1554,8 @@ export function mountTrack(
     destroy() {
       cancelAnimationFrame(raf);
       observer.disconnect();
+      canvas.removeEventListener('dblclick', onDoubleClick);
+      controls.stopListenToKeyEvents();
       controls.dispose();
       // Free the GPU memory and the WebGL context (browsers allow only a few at a time).
       world.traverse((o) => {
