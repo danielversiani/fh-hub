@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-14T18:08:07.161Z",
+  "generatedAt": "2026-11-15T17:44:14.926Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2554-amg-transport-dynamics-m12s-warthog-cst",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-11102f5bae",
+      "name": "A Dirt/CC Handling Easy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2554 AMG Transport Dynamics M12S Warthog CST",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A Dirt/CC Handling Easy",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 792,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "cross-country",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
     {
       "buildTags": [],
       "carId": "2554-amg-transport-dynamics-m12s-warthog-cst",
@@ -23,7 +56,7 @@
             "Tuner": "Sir BrandyA1",
             "fill": "FFFF0000"
           },
-          "row": 791,
+          "row": 794,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -59,7 +92,7 @@
             "Tuner": "Noa Miyako",
             "fill": "FFFF0000"
           },
-          "row": 790,
+          "row": 793,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -94,7 +127,7 @@
             "Tuner": "AMS Carver",
             "fill": "FFFF0000"
           },
-          "row": 792,
+          "row": 795,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -104,6 +137,72 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "ams-carver"
+    },
+    {
+      "buildTags": [],
+      "carId": "2554-amg-transport-dynamics-m12s-warthog-cst",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-6b93e25ad4",
+      "name": "xd",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2554 AMG Transport Dynamics M12S Warthog CST",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "xd",
+            "Tuner": "Aeroplane7616",
+            "fill": "FFFF0000"
+          },
+          "row": 790,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [],
+      "carId": "2554-amg-transport-dynamics-m12s-warthog-cst",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-be9bec5184",
+      "name": "Master Keef",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2554 AMG Transport Dynamics M12S Warthog CST",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Master Keef",
+            "Tuner": "GreetedDust8",
+            "fill": "FFFF0000"
+          },
+          "row": 791,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "greeteddust8"
     }
   ],
   "schemaVersion": 1

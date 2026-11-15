@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:27:01.325Z",
+  "generatedAt": "2026-11-15T22:50:40.692Z",
   "items": [
     {
       "carId": "1986-honda-civic-si",
@@ -1935,23 +1935,6 @@
       ]
     },
     {
-      "carId": "1984-honda-city-e-ii",
-      "class": "B",
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "rank": 7,
-      "role": "allround",
-      "row": 16,
-      "sourceId": "noa-miyako",
-      "surface": "dirt",
-      "tab": "b-dirt",
-      "tier": "meta",
-      "tires": "offroad",
-      "tunerIds": [
-        "aions580pio"
-      ]
-    },
-    {
       "carId": "1986-honda-civic-si",
       "class": "B",
       "difficulty": "easy",
@@ -1967,9 +1950,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 8,
+      "rank": 7,
       "role": "allround",
-      "row": 18,
+      "row": 16,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -1982,13 +1965,48 @@
       ]
     },
     {
-      "carId": "1974-honda-civic-rs",
+      "carId": "1970-citroen-2cv",
+      "class": "B",
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "rank": 8,
+      "role": "allround",
+      "row": 18,
+      "sourceId": "noa-miyako",
+      "surface": "dirt",
+      "tab": "b-dirt",
+      "tier": "meta",
+      "tires": "offroad",
+      "tunerIds": [
+        "caigou-yyy",
+        "sr1-rain"
+      ]
+    },
+    {
+      "carId": "1984-honda-city-e-ii",
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
       "rank": 9,
       "role": "allround",
       "row": 21,
+      "sourceId": "noa-miyako",
+      "surface": "dirt",
+      "tab": "b-dirt",
+      "tier": "t0.5",
+      "tires": "offroad",
+      "tunerIds": [
+        "aions580pio"
+      ]
+    },
+    {
+      "carId": "1974-honda-civic-rs",
+      "class": "B",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "rank": 10,
+      "role": "allround",
+      "row": 23,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -2014,23 +2032,6 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 10,
-      "role": "allround",
-      "row": 23,
-      "sourceId": "noa-miyako",
-      "surface": "dirt",
-      "tab": "b-dirt",
-      "tier": "t0.5",
-      "tires": "offroad",
-      "tunerIds": [
-        "zvtcjau"
-      ]
-    },
-    {
-      "carId": "1970-citroen-2cv",
-      "class": "B",
-      "difficulty": "easy",
-      "drivetrain": "AWD",
       "rank": 11,
       "role": "allround",
       "row": 25,
@@ -2040,7 +2041,7 @@
       "tier": "t0.5",
       "tires": "offroad",
       "tunerIds": [
-        "caigou-yyy"
+        "zvtcjau"
       ]
     },
     {
@@ -5007,6 +5008,34 @@
       ]
     },
     {
+      "carId": "1990-nissan-pulsar-gti-r",
+      "class": "B",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "1:06.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "notes": "白川1:06.2",
+      "notesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "rank": 89,
+      "role": "allround",
+      "row": 183,
+      "sourceId": "noa-miyako",
+      "surface": "road",
+      "tab": "b-road",
+      "tier": "t1.5",
+      "tires": "rally",
+      "tunerIds": [
+        "noa-miyako"
+      ]
+    },
+    {
       "carId": "1992-nissan-skyline-gt-r",
       "class": "B",
       "difficulty": "very-easy",
@@ -5022,9 +5051,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 89,
+      "rank": 90,
       "role": "allround",
-      "row": 183,
+      "row": 185,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5050,9 +5079,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 90,
+      "rank": 91,
       "role": "allround",
-      "row": 185,
+      "row": 187,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5078,14 +5107,42 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 91,
+      "rank": 92,
       "role": "allround",
-      "row": 187,
+      "row": 189,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
       "tier": "t1.5",
       "tires": "offroad",
+      "tunerIds": [
+        "noa-miyako"
+      ]
+    },
+    {
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "class": "B",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "1:06.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "notes": "白川1:06.1",
+      "notesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "rank": 93,
+      "role": "allround",
+      "row": 191,
+      "sourceId": "noa-miyako",
+      "surface": "road",
+      "tab": "b-road",
+      "tier": "t1.5",
+      "tires": "rally",
       "tunerIds": [
         "noa-miyako"
       ]
@@ -5106,9 +5163,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 92,
+      "rank": 94,
       "role": "power",
-      "row": 189,
+      "row": 193,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5134,9 +5191,9 @@
         "en": "Very well-rounded and easy to drive.",
         "pt-br": "Muito completo e fácil de pilotar."
       },
-      "rank": 93,
+      "rank": 95,
       "role": "allround",
-      "row": 191,
+      "row": 195,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5162,9 +5219,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 94,
+      "rank": 96,
       "role": "allround",
-      "row": 194,
+      "row": 198,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5190,9 +5247,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 95,
+      "rank": 97,
       "role": "handling",
-      "row": 196,
+      "row": 200,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5207,9 +5264,9 @@
       "class": "B",
       "difficulty": "death",
       "drivetrain": "FWD",
-      "rank": 96,
+      "rank": 98,
       "role": "power",
-      "row": 198,
+      "row": 202,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5225,9 +5282,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 97,
+      "rank": 99,
       "role": "handling",
-      "row": 200,
+      "row": 204,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5253,9 +5310,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 98,
+      "rank": 100,
       "role": "allround",
-      "row": 202,
+      "row": 206,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5281,9 +5338,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 99,
+      "rank": 101,
       "role": "allround",
-      "row": 204,
+      "row": 208,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5310,9 +5367,9 @@
         "en": "Very quick low and mid-range acceleration.",
         "pt-br": "Acelera muito rápido em baixa e média."
       },
-      "rank": 100,
+      "rank": 102,
       "role": "allround",
-      "row": 206,
+      "row": 210,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5327,9 +5384,9 @@
       "class": "B",
       "difficulty": "death",
       "drivetrain": "FWD",
-      "rank": 101,
+      "rank": 103,
       "role": "power",
-      "row": 208,
+      "row": 212,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5355,9 +5412,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 102,
+      "rank": 104,
       "role": "allround",
-      "row": 210,
+      "row": 214,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5372,9 +5429,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 103,
+      "rank": 105,
       "role": "allround",
-      "row": 212,
+      "row": 216,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5389,9 +5446,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 104,
+      "rank": 106,
       "role": "allround",
-      "row": 214,
+      "row": 218,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5406,9 +5463,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "FWD",
-      "rank": 106,
+      "rank": 108,
       "role": "allround",
-      "row": 218,
+      "row": 222,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5428,9 +5485,9 @@
         "en": "Endless top-end acceleration.",
         "pt-br": "Aceleração em alta que não acaba nunca."
       },
-      "rank": 107,
+      "rank": 109,
       "role": "power",
-      "row": 220,
+      "row": 224,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5457,9 +5514,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 108,
+      "rank": 110,
       "role": "allround",
-      "row": 223,
+      "row": 227,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5479,9 +5536,9 @@
         "en": "Purist tune for the stock-look crowd; a bit slower and slightly understeers.",
         "pt-br": "Tune purista, para quem quer o visual original; um pouco mais lenta e sai um pouco de frente."
       },
-      "rank": 109,
+      "rank": 111,
       "role": "allround",
-      "row": 225,
+      "row": 229,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -5501,9 +5558,9 @@
         "en": "Very comfortable handling, but poor acceleration.",
         "pt-br": "Muito confortável nas curvas, mas acelera mal."
       },
-      "rank": 110,
+      "rank": 112,
       "role": "allround",
-      "row": 227,
+      "row": 231,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -8973,7 +9030,7 @@
     {
       "carId": "2016-honda-s2260-alpha",
       "class": "A",
-      "difficulty": "very-easy",
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "lapRefs": [
         {
@@ -12351,7 +12408,8 @@
       "tunerIds": [
         "caigou-yyy",
         "noa-seako",
-        "lphanhan"
+        "lphanhan",
+        "noa-miyako"
       ]
     },
     {
