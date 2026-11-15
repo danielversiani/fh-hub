@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:06:01.360Z",
+  "generatedAt": "2026-11-15T22:50:40.692Z",
   "items": [
     {
       "buildTags": [],
@@ -33,6 +33,48 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "icefrice8724"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-nissan-pulsar-gti-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d0647d0237",
+      "lapRefs": [
+        {
+          "time": "1:06.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 89,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 183,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-15T17:44:14.926Z",
+  "generatedAt": "2026-11-15T22:50:40.692Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-02bf5da033",
+      "metaRank": 93,
       "name": "B AE86",
       "observations": [
         {
@@ -28,10 +31,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "zookiiwi"
     },
     {
@@ -292,11 +295,14 @@
         "stock-look"
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-5136682548",
+      "metaRank": 93,
       "name": "ep3 engine stock look street cage",
       "observations": [
         {
@@ -316,10 +322,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "dumbo-gt49"
     },
     {
@@ -328,12 +334,14 @@
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-66a95e9c47",
+      "metaRank": 93,
       "name": "b purist keiichi look",
       "observations": [
         {
@@ -353,10 +361,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "k1z-amemiya"
     },
     {
@@ -365,12 +373,14 @@
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-7619085f97",
+      "metaRank": 93,
       "name": "B Road Purist",
       "observations": [
         {
@@ -390,10 +400,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "esv-ruinz"
     },
     {
@@ -402,12 +412,14 @@
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-9491443f37",
+      "metaRank": 93,
       "name": "Purist ▯",
       "observations": [
         {
@@ -427,11 +439,53 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "wisteriadrop"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ae196eef56",
+      "lapRefs": [
+        {
+          "time": "1:06.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 93,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 191,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [

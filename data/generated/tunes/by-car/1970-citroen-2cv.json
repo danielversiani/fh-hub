@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:46:21.670Z",
+  "generatedAt": "2026-11-15T22:50:40.692Z",
   "items": [
     {
       "buildTags": [],
@@ -9,9 +9,11 @@
       ],
       "class": "B",
       "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "nc-2a03363333",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B Dirt Meta",
       "observations": [
         {
@@ -31,10 +33,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.588,
+      "role": "allround",
+      "score": 0.685,
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "sr1-rain"
     },
     {
@@ -83,20 +87,20 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-8c71e81df7",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B dirt AWD",
       "observations": [
         {
           "raw": {},
-          "row": 25,
+          "row": 18,
           "sourceId": "noa-miyako",
           "tab": "b-dirt"
         }
       ],
       "role": "allround",
-      "score": 0.648,
+      "score": 0.685,
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
@@ -111,7 +115,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-95d5304ca0",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B Class Dirt Meta",
       "observations": [
         {
@@ -131,9 +135,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.588,
+      "score": 0.618,
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
     },
@@ -185,7 +189,7 @@
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-ab72572d4f",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B Dirt Accel Meta 55.4 Sekibe",
       "observations": [
         {
@@ -205,9 +209,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.588,
+      "score": 0.618,
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "thedannny"
     },

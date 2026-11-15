@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:44:14.926Z",
+  "generatedAt": "2026-11-15T22:50:40.692Z",
   "items": [
     {
       "buildTags": [
@@ -403,7 +403,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-01195121de",
-      "metaRank": 96,
+      "metaRank": 98,
       "name": "Normal Prius",
       "score": 0.38,
       "sourceIds": [
@@ -878,18 +878,21 @@
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-02bf5da033",
+      "metaRank": 93,
       "name": "B AE86",
-      "score": 0.474,
+      "score": 0.541,
       "sourceIds": [
         "kleis"
       ],
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "zookiiwi"
     },
     {
@@ -1290,7 +1293,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-044389ab39",
-      "metaRank": 95,
+      "metaRank": 97,
       "name": "Road",
       "score": 0.511,
       "sourceIds": [
@@ -2817,7 +2820,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 89,
+      "metaRank": 90,
       "name": "B road AWD",
       "role": "allround",
       "score": 0.582,
@@ -3500,7 +3503,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-0bad374cd7",
-      "metaRank": 110,
+      "metaRank": 112,
       "name": "Purist Race Cage",
       "score": 0.466,
       "sourceIds": [
@@ -4722,7 +4725,7 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-10700bff7e",
-      "metaRank": 97,
+      "metaRank": 99,
       "name": "B road AWD",
       "role": "handling",
       "score": 0.545,
@@ -5256,7 +5259,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-1182f0a941",
-      "metaRank": 92,
+      "metaRank": 94,
       "name": "Road Allround Strong",
       "score": 0.41,
       "sourceIds": [
@@ -5608,7 +5611,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-127d24941e",
-      "metaRank": 110,
+      "metaRank": 112,
       "name": "purist",
       "score": 0.466,
       "sourceIds": [
@@ -11647,7 +11650,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-269359fc0a",
-      "metaRank": 99,
+      "metaRank": 101,
       "name": "B Road",
       "score": 0.511,
       "sourceIds": [
@@ -12628,17 +12631,21 @@
         "meta"
       ],
       "class": "B",
+      "credited": true,
+      "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "nc-2a03363333",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B Dirt Meta",
-      "score": 0.588,
+      "role": "allround",
+      "score": 0.685,
       "sourceIds": [
         "kleis"
       ],
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "sr1-rain"
     },
     {
@@ -13122,7 +13129,7 @@
         "en": "Very quick low and mid-range acceleration.",
         "pt-br": "Acelera muito rápido em baixa e média."
       },
-      "metaRank": 100,
+      "metaRank": 102,
       "name": "B road AWD",
       "role": "allround",
       "score": 0.517,
@@ -14074,7 +14081,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 8,
+      "metaRank": 7,
       "name": "B dirt AWD",
       "role": "allround",
       "score": 0.685,
@@ -14888,7 +14895,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 8,
+      "metaRank": 7,
       "name": "B16 Dirt Allround META Sunflower 03.2 A/M",
       "role": "allround",
       "score": 0.685,
@@ -15345,7 +15352,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-3241b0b786",
-      "metaRank": 95,
+      "metaRank": 97,
       "name": "B Road Purist Grip",
       "score": 0.511,
       "sourceIds": [
@@ -15586,7 +15593,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-3346afb0aa",
-      "metaRank": 8,
+      "metaRank": 7,
       "name": "B Dirt Meta (M) - 1:03.502 Sunflower",
       "score": 0.618,
       "sourceIds": [
@@ -17134,7 +17141,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 92,
+      "metaRank": 94,
       "name": "B Road RWD Powerbuild",
       "role": "power",
       "score": 0.451,
@@ -21667,7 +21674,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-491c653cf3",
-      "metaRank": 96,
+      "metaRank": 98,
       "name": "your Purist daily",
       "score": 0.38,
       "sourceIds": [
@@ -21951,7 +21958,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-4a1ef0174c",
-      "metaRank": 110,
+      "metaRank": 112,
       "name": "Road 1.0",
       "score": 0.466,
       "sourceIds": [
@@ -23063,7 +23070,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-4d2dbd6a35",
-      "metaRank": 90,
+      "metaRank": 91,
       "name": "FWD Road No Aero Stock Look 2.0L I4 VTEC | ~1:06 Shirakawa",
       "score": 0.541,
       "sourceIds": [
@@ -23624,7 +23631,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 102,
+      "metaRank": 104,
       "name": "B road FWD",
       "role": "allround",
       "score": 0.545,
@@ -23973,7 +23980,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 90,
+      "metaRank": 91,
       "name": "B road AWD",
       "role": "allround",
       "score": 0.582,
@@ -24432,18 +24439,21 @@
         "stock-look"
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-5136682548",
+      "metaRank": 93,
       "name": "ep3 engine stock look street cage",
-      "score": 0.474,
+      "score": 0.541,
       "sourceIds": [
         "kleis"
       ],
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "dumbo-gt49"
     },
     {
@@ -24787,7 +24797,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-5249cf80aa",
-      "metaRank": 108,
+      "metaRank": 110,
       "name": "B Road - INGS Kit",
       "score": 0.466,
       "sourceIds": [
@@ -26551,7 +26561,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-58b7b82ab1",
-      "metaRank": 8,
+      "metaRank": 7,
       "name": "B Dirt",
       "score": 0.618,
       "sourceIds": [
@@ -28138,7 +28148,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-5da1838d32",
-      "metaRank": 95,
+      "metaRank": 97,
       "name": "B class touge",
       "score": 0.511,
       "sourceIds": [
@@ -29831,7 +29841,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 8,
+      "metaRank": 7,
       "name": "B dirt AWD",
       "role": "allround",
       "score": 0.685,
@@ -30430,19 +30440,21 @@
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-66a95e9c47",
+      "metaRank": 93,
       "name": "b purist keiichi look",
-      "score": 0.474,
+      "score": 0.541,
       "sourceIds": [
         "kleis"
       ],
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "k1z-amemiya"
     },
     {
@@ -32755,7 +32767,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-6dbe2e8036",
-      "metaRank": 95,
+      "metaRank": 97,
       "name": "Purist/Touge",
       "score": 0.511,
       "sourceIds": [
@@ -35132,19 +35144,21 @@
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-7619085f97",
+      "metaRank": 93,
       "name": "B Road Purist",
-      "score": 0.474,
+      "score": 0.541,
       "sourceIds": [
         "kleis"
       ],
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "esv-ruinz"
     },
     {
@@ -35584,7 +35598,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-7798b48450",
-      "metaRank": 89,
+      "metaRank": 90,
       "name": "v2 bild",
       "score": 0.541,
       "sourceIds": [
@@ -37169,7 +37183,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-7dc58767d2",
-      "metaRank": 95,
+      "metaRank": 97,
       "name": "Rocket Bunny Slicks",
       "score": 0.511,
       "sourceIds": [
@@ -37808,7 +37822,7 @@
         "en": "Endless top-end acceleration.",
         "pt-br": "Aceleração em alta que não acaba nunca."
       },
-      "metaRank": 107,
+      "metaRank": 109,
       "name": "B Road Powerbuild",
       "role": "power",
       "score": 0.413,
@@ -40738,7 +40752,7 @@
       "drivetrain": "FWD",
       "fromMeta": true,
       "id": "nc-8988ff1eb2",
-      "metaRank": 96,
+      "metaRank": 98,
       "name": "B road FWD",
       "role": "power",
       "score": 0.413,
@@ -41754,15 +41768,15 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-8c71e81df7",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B dirt AWD",
       "role": "allround",
-      "score": 0.648,
+      "score": 0.685,
       "sourceIds": [
         "noa-miyako"
       ],
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
@@ -41833,7 +41847,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-8caad7c2ed",
-      "metaRank": 108,
+      "metaRank": 110,
       "name": "B Road Purist",
       "score": 0.466,
       "sourceIds": [
@@ -41966,7 +41980,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-8d000fc642",
-      "metaRank": 110,
+      "metaRank": 112,
       "name": "Purist w Watanabe",
       "score": 0.466,
       "sourceIds": [
@@ -42075,7 +42089,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-8d60317ef7",
-      "metaRank": 96,
+      "metaRank": 98,
       "name": "TOYOTA bZ3 DM-P",
       "score": 0.38,
       "sourceIds": [
@@ -43820,7 +43834,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 99,
+      "metaRank": 101,
       "name": "T1.5 AWD Road (Shirakawa 06.7 Seasonal Usable)",
       "role": "allround",
       "score": 0.545,
@@ -44393,19 +44407,21 @@
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-9491443f37",
+      "metaRank": 93,
       "name": "Purist ▯",
-      "score": 0.474,
+      "score": 0.541,
       "sourceIds": [
         "kleis"
       ],
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "wisteriadrop"
     },
     {
@@ -44792,14 +44808,14 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-95d5304ca0",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B Class Dirt Meta",
-      "score": 0.588,
+      "score": 0.618,
       "sourceIds": [
         "kleis"
       ],
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
     },
@@ -45112,7 +45128,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-96c933a79f",
-      "metaRank": 93,
+      "metaRank": 95,
       "name": "B Road/Street (M/C) Rallies",
       "score": 0.541,
       "sourceIds": [
@@ -45854,7 +45870,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 95,
+      "metaRank": 97,
       "name": "B road AWD",
       "role": "handling",
       "score": 0.545,
@@ -46666,7 +46682,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-9bd905f15d",
-      "metaRank": 93,
+      "metaRank": 95,
       "name": "1:06.353 Shirakawa | 62 PSI / 4.28 Bar Stock Engine Centri",
       "score": 0.541,
       "sourceIds": [
@@ -47583,7 +47599,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-9f62c1ce91",
-      "metaRank": 89,
+      "metaRank": 90,
       "name": "Purist B Road",
       "score": 0.541,
       "sourceIds": [
@@ -48778,7 +48794,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-a35aaa5ffc",
-      "metaRank": 110,
+      "metaRank": 112,
       "name": "Purist Road",
       "score": 0.466,
       "sourceIds": [
@@ -49107,7 +49123,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-a4da15c3b7",
-      "metaRank": 92,
+      "metaRank": 94,
       "name": "Road Allround OFFMETA Shirakawa 05.9 A/M",
       "score": 0.41,
       "sourceIds": [
@@ -49940,7 +49956,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-a822ef049c",
-      "metaRank": 92,
+      "metaRank": 94,
       "name": "Road Purist Grip",
       "score": 0.41,
       "sourceIds": [
@@ -49963,7 +49979,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-a82bfa0d52",
-      "metaRank": 100,
+      "metaRank": 102,
       "name": "On-road Purist Sprints / Street",
       "score": 0.483,
       "sourceIds": [
@@ -50401,7 +50417,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-a97095ebcc",
-      "metaRank": 91,
+      "metaRank": 92,
       "name": "B critter",
       "score": 0.541,
       "sourceIds": [
@@ -50666,7 +50682,7 @@
       "difficulty": "death",
       "drivetrain": "FWD",
       "id": "nc-aacc2b00b1",
-      "metaRank": 101,
+      "metaRank": 103,
       "name": "B Road Grip",
       "role": "power",
       "score": 0.413,
@@ -50867,14 +50883,14 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-ab72572d4f",
-      "metaRank": 11,
+      "metaRank": 8,
       "name": "B Dirt Accel Meta 55.4 Sekibe",
-      "score": 0.588,
+      "score": 0.618,
       "sourceIds": [
         "kleis"
       ],
       "surface": "dirt",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "thedannny"
     },
@@ -51883,6 +51899,42 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ae196eef56",
+      "lapRefs": [
+        {
+          "time": "1:06.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.1",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 93,
+      "name": "B road AWD",
+      "role": "allround",
+      "score": 0.582,
+      "sourceIds": [
+        "noa-miyako"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [
@@ -53205,7 +53257,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-b1f465deb9",
-      "metaRank": 99,
+      "metaRank": 101,
       "name": "Road Grip Strong",
       "score": 0.511,
       "sourceIds": [
@@ -53882,7 +53934,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-b36f966419",
-      "metaRank": 89,
+      "metaRank": 90,
       "name": "Purist",
       "score": 0.541,
       "sourceIds": [
@@ -57690,7 +57742,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-bf9a10c498",
-      "metaRank": 93,
+      "metaRank": 95,
       "name": "Purist 51.1 Narai Juku (Can 50)",
       "score": 0.541,
       "sourceIds": [
@@ -57946,7 +57998,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-c0a8065f06",
-      "metaRank": 96,
+      "metaRank": 98,
       "name": "TRD Purist + Stock Rims",
       "score": 0.38,
       "sourceIds": [
@@ -59218,7 +59270,7 @@
       "drivetrain": "FWD",
       "fromMeta": true,
       "id": "nc-c3c1088156",
-      "metaRank": 96,
+      "metaRank": 98,
       "name": "B road FWD",
       "role": "power",
       "score": 0.413,
@@ -62290,7 +62342,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 98,
+      "metaRank": 100,
       "name": "B road AWD",
       "role": "allround",
       "score": 0.545,
@@ -62324,7 +62376,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 108,
+      "metaRank": 110,
       "name": "B road FWD",
       "role": "allround",
       "score": 0.488,
@@ -62978,6 +63030,42 @@
     },
     {
       "buildTags": [],
+      "carId": "1990-nissan-pulsar-gti-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d0647d0237",
+      "lapRefs": [
+        {
+          "time": "1:06.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 89,
+      "name": "B road AWD",
+      "role": "allround",
+      "score": 0.582,
+      "sourceIds": [
+        "noa-miyako"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
       "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
       "categories": [],
       "class": "S2",
@@ -63607,7 +63695,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-d2a8797281",
-      "metaRank": 90,
+      "metaRank": 91,
       "name": "B road",
       "score": 0.541,
       "sourceIds": [
@@ -64144,7 +64232,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-d4e68446dc",
-      "metaRank": 108,
+      "metaRank": 110,
       "name": "Purist | Ings kit",
       "score": 0.466,
       "sourceIds": [
@@ -64500,7 +64588,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-d60cedbb82",
-      "metaRank": 90,
+      "metaRank": 91,
       "name": "This Is A Civic",
       "score": 0.541,
       "sourceIds": [
@@ -65102,7 +65190,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-d7e0034b00",
-      "metaRank": 95,
+      "metaRank": 97,
       "name": "Supercharger",
       "score": 0.511,
       "sourceIds": [
@@ -66931,7 +67019,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 99,
+      "metaRank": 101,
       "name": "B Road Grip Shirakawa 01:06.6",
       "role": "allround",
       "score": 0.545,
@@ -67947,7 +68035,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-e1c9b773a4",
-      "metaRank": 96,
+      "metaRank": 98,
       "name": "Purist Road w/ Stock rims",
       "score": 0.38,
       "sourceIds": [
@@ -68032,7 +68120,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-e24f17c551",
-      "metaRank": 89,
+      "metaRank": 90,
       "name": "Wingless V6",
       "score": 0.541,
       "sourceIds": [
@@ -69179,7 +69267,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-e66eb4df2a",
-      "metaRank": 98,
+      "metaRank": 100,
       "name": "e92 m3 engine",
       "score": 0.511,
       "sourceIds": [
@@ -70346,7 +70434,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 91,
+      "metaRank": 92,
       "name": "B road AWD",
       "role": "allround",
       "score": 0.582,
@@ -70372,7 +70460,7 @@
       "difficulty": "death",
       "drivetrain": "FWD",
       "id": "nc-ea41600e4a",
-      "metaRank": 101,
+      "metaRank": 103,
       "name": "B Road Powerbuild",
       "role": "power",
       "score": 0.413,
@@ -70605,7 +70693,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-eacf5f21fd",
-      "metaRank": 98,
+      "metaRank": 100,
       "name": "purist",
       "score": 0.511,
       "sourceIds": [
@@ -70822,7 +70910,7 @@
       "class": "B",
       "drivetrain": "FWD",
       "id": "nc-eb848f82de",
-      "metaRank": 108,
+      "metaRank": 110,
       "name": "Purist Mugen Wing",
       "score": 0.466,
       "sourceIds": [
@@ -71607,7 +71695,7 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-edde6e603e",
-      "metaRank": 104,
+      "metaRank": 106,
       "name": "B road AWD",
       "role": "allround",
       "score": 0.545,
@@ -73209,7 +73297,7 @@
         "en": "Very comfortable handling, but poor acceleration.",
         "pt-br": "Muito confortável nas curvas, mas acelera mal."
       },
-      "metaRank": 110,
+      "metaRank": 112,
       "name": "B road RWD",
       "role": "allround",
       "score": 0.488,
@@ -73382,7 +73470,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "nc-f3eb1b52d2",
-      "metaRank": 93,
+      "metaRank": 95,
       "name": "Let's go golfing",
       "score": 0.541,
       "sourceIds": [
@@ -74703,7 +74791,7 @@
         "en": "Very well-rounded and easy to drive.",
         "pt-br": "Muito completo e fácil de pilotar."
       },
-      "metaRank": 93,
+      "metaRank": 95,
       "name": "B Road Grip OffroadTire V1.1 Shirakawa 1:06.2",
       "role": "allround",
       "score": 0.582,
@@ -75224,7 +75312,7 @@
         "en": "Endless top-end acceleration.",
         "pt-br": "Aceleração em alta que não acaba nunca."
       },
-      "metaRank": 107,
+      "metaRank": 109,
       "name": "B road RWD",
       "role": "power",
       "score": 0.413,
@@ -76221,7 +76309,7 @@
       "class": "B",
       "drivetrain": "RWD",
       "id": "nc-ff00acef0d",
-      "metaRank": 104,
+      "metaRank": 106,
       "name": "Allaround Meta | 04.9 Shirakawa",
       "score": 0.511,
       "sourceIds": [
@@ -78515,7 +78603,7 @@
       ],
       "class": "B",
       "id": "sc-125416592",
-      "metaRank": 102,
+      "metaRank": 104,
       "name": "B Allround",
       "score": 0.499,
       "shareCode": "125416592",
@@ -79668,7 +79756,7 @@
       "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-140941576",
-      "metaRank": 9,
+      "metaRank": 10,
       "name": "B Dirt Stronger!",
       "role": "allround",
       "score": 0.683,
@@ -84219,7 +84307,7 @@
       "class": "B",
       "drivetrain": "AWD",
       "id": "sc-329130481",
-      "metaRank": 93,
+      "metaRank": 95,
       "name": "Road Purist Strong",
       "score": 0.62,
       "shareCode": "329130481",
@@ -85486,7 +85574,7 @@
       ],
       "class": "B",
       "id": "sc-479951949",
-      "metaRank": 104,
+      "metaRank": 106,
       "name": "New B Road Meta God",
       "score": 0.511,
       "shareCode": "479951949",
@@ -87838,7 +87926,7 @@
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 10,
+      "metaRank": 11,
       "name": "B Dirt EZ Meta",
       "role": "allround",
       "score": 0.677,
@@ -88871,7 +88959,7 @@
       ],
       "class": "B",
       "id": "sc-833654371",
-      "metaRank": 8,
+      "metaRank": 7,
       "name": "B Dirt Allround",
       "score": 0.606,
       "shareCode": "833654371",
@@ -89617,16 +89705,16 @@
       "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-916566685",
-      "metaRank": 7,
+      "metaRank": 9,
       "name": "B16 Dirt Full Aero Grip Meta++ V1.1",
       "role": "allround",
-      "score": 0.711,
+      "score": 0.676,
       "shareCode": "916566685",
       "sourceIds": [
         "fhstats"
       ],
       "surface": "dirt",
-      "tier": "meta",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "aions580pio"
