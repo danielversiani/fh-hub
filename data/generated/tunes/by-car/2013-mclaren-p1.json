@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:44:14.926Z",
+  "generatedAt": "2026-11-16T11:24:07.653Z",
   "items": [
     {
       "buildTags": [],
@@ -209,48 +209,6 @@
       "tunerId": "msr-mian"
     },
     {
-      "buildTags": [],
-      "carId": "2013-mclaren-p1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-f37f46425e",
-      "lapRefs": [
-        {
-          "time": "55.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 55.5 阻力低 操控优秀",
-      "metaNotesI18n": {
-        "en": "Low drag; excellent handling.",
-        "pt-br": "Pouco arrasto aerodinâmico; ótimo nas curvas."
-      },
-      "metaRank": 84,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 173,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.582,
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
-    },
-    {
       "buildTags": [
         "full-aero"
       ],
@@ -299,7 +257,21 @@
       ],
       "class": "S1",
       "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
       "id": "sc-330496592",
+      "lapRefs": [
+        {
+          "time": "55.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.5 阻力低 操控优秀",
+      "metaNotesI18n": {
+        "en": "Low drag; excellent handling.",
+        "pt-br": "Pouco arrasto aerodinâmico; ótimo nas curvas."
+      },
       "metaRank": 84,
       "name": "S1 Allround",
       "observations": [
@@ -310,11 +282,13 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.529,
+      "role": "allround",
+      "score": 0.57,
       "shareCode": "330496592",
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "letzelu"
     },
     {

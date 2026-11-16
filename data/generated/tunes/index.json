@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T02:45:37.269Z",
+  "generatedAt": "2026-11-16T11:24:07.653Z",
   "items": [
     {
       "buildTags": [
@@ -73336,42 +73336,6 @@
       "tunerId": "msr-sam"
     },
     {
-      "buildTags": [],
-      "carId": "2013-mclaren-p1",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "credited": true,
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-f37f46425e",
-      "lapRefs": [
-        {
-          "time": "55.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 55.5 阻力低 操控优秀",
-      "metaNotesI18n": {
-        "en": "Low drag; excellent handling.",
-        "pt-br": "Pouco arrasto aerodinâmico; ótimo nas curvas."
-      },
-      "metaRank": 84,
-      "name": "S1 road AWD",
-      "role": "allround",
-      "score": 0.582,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -84352,10 +84316,25 @@
         "off-meta"
       ],
       "class": "S1",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
       "id": "sc-330496592",
+      "lapRefs": [
+        {
+          "time": "55.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.5 阻力低 操控优秀",
+      "metaNotesI18n": {
+        "en": "Low drag; excellent handling.",
+        "pt-br": "Pouco arrasto aerodinâmico; ótimo nas curvas."
+      },
       "metaRank": 84,
       "name": "S1 Allround",
-      "score": 0.529,
+      "role": "allround",
+      "score": 0.57,
       "shareCode": "330496592",
       "sourceIds": [
         "attax-johnson"
@@ -84363,6 +84342,7 @@
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "letzelu"
     },
     {
