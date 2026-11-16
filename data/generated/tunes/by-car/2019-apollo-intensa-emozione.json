@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-15T17:44:14.926Z",
+  "generatedAt": "2026-11-16T22:06:13.748Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-041b814c1d",
+      "metaRank": 24,
+      "name": "S2 Road Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 Road Grip",
+            "Tuner": "DRX Q3",
+            "fill": "FF0070C0"
+          },
+          "row": 880,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.511,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [],
       "carId": "2019-apollo-intensa-emozione",
@@ -23,7 +59,7 @@
             "Tuner": "K1Z Jumpy",
             "fill": "FFFF00FF"
           },
-          "row": 884,
+          "row": 887,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -59,7 +95,7 @@
             "Tuner": "ESV Rapture",
             "fill": "FF0070C0"
           },
-          "row": 878,
+          "row": 881,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -92,7 +128,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FF7030A0"
           },
-          "row": 877,
+          "row": 879,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -128,7 +164,7 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 882,
+          "row": 885,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -161,7 +197,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FFFF00FF"
           },
-          "row": 883,
+          "row": 886,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -228,7 +264,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FF0070C0"
           },
-          "row": 880,
+          "row": 883,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -264,7 +300,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FF0070C0"
           },
-          "row": 881,
+          "row": 884,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -361,7 +397,7 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 879,
+          "row": 882,
           "sourceId": "kleis",
           "tab": "fh6"
         }
