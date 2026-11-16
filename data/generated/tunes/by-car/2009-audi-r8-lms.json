@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:44:14.926Z",
+  "generatedAt": "2026-11-16T02:45:37.269Z",
   "items": [
     {
       "buildTags": [],
@@ -494,6 +494,37 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "sakuramxspd"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.95,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-81a8f0243c",
+      "metaRank": 10,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 23,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.669,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vladxlr"
     },
     {
       "buildTags": [],
