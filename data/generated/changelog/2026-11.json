@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-17T14:27:45.929Z",
   "items": [
     {
       "after": "32 Narai",
@@ -52572,6 +52572,58 @@
       "kind": "added",
       "sourceId": "kleis",
       "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-17T14:27:45.929Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2016-honda-s2260-alpha|A|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-17T14:27:45.929Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|2016-honda-s2260-alpha|B|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "A dirt AWD",
+      "at": "2026-11-17T14:27:45.929Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "A",
+      "entity": {
+        "id": "nc-461ae22226",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "B dirt AWD",
+      "at": "2026-11-17T14:27:45.929Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "B",
+      "entity": {
+        "id": "nc-b7f8a9a730",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-17T14:27:45.929Z",
   "items": [
     {
       "buildTags": [],
@@ -125,6 +125,37 @@
       "buildTags": [],
       "carId": "2016-honda-s2260-alpha",
       "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-461ae22226",
+      "metaRank": 31,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 66,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
         "meta"
       ],
       "class": "B",
@@ -192,6 +223,37 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "dumbo-gt49"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b7f8a9a730",
+      "metaRank": 12,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.676,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
