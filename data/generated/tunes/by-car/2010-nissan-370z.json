@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-17T22:54:48.534Z",
   "items": [
     {
       "buildTags": [],
@@ -72,6 +72,48 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "inayamei"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-nissan-370z",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-62b7230ed8",
+      "lapRefs": [
+        {
+          "time": "1:06.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 107,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 220,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],

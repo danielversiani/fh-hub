@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:54:07.808Z",
+  "generatedAt": "2026-11-17T22:54:48.534Z",
   "items": [
     {
       "carId": "1986-honda-civic-si",
@@ -125,7 +125,7 @@
       "tuneId": "nc-8a7b0cd3e1"
     },
     {
-      "carId": "1970-chevrolet-camaro-z28",
+      "carId": "1964-chevrolet-impala-super-sport-409",
       "category": "meta",
       "confidence": 0.8,
       "eventId": "s06-autumn--championship--weekend-break",
@@ -142,27 +142,7 @@
       ],
       "score": 0.582,
       "seasonId": "s06-autumn",
-      "tuneId": "nc-757d028b25"
-    },
-    {
-      "carId": "1964-chevrolet-impala-super-sport-409",
-      "category": "off-meta",
-      "confidence": 0.8,
-      "eventId": "s06-autumn--championship--weekend-break",
-      "needsGamertagSearch": true,
-      "origin": "rules",
-      "reasons": [
-        {
-          "key": "reason.tierCredited",
-          "params": {
-            "source": "noa-miyako",
-            "tier": "t1"
-          }
-        }
-      ],
-      "score": 0.526,
-      "seasonId": "s06-autumn",
-      "tuneId": "nc-2b3e74e440"
+      "tuneId": "nc-80f97ea58e"
     },
     {
       "carId": "1969-chevrolet-nova-super-sport-396",
@@ -203,6 +183,26 @@
       "score": 0.592,
       "seasonId": "s06-autumn",
       "tuneId": "nc-85804dcd92"
+    },
+    {
+      "carId": "1969-chevrolet-camaro-super-sport-coupe",
+      "category": "off-meta",
+      "confidence": 0.8,
+      "eventId": "s06-autumn--championship--weekend-break",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tierCredited",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t1"
+          }
+        }
+      ],
+      "score": 0.526,
+      "seasonId": "s06-autumn",
+      "tuneId": "nc-7b90c3ce08"
     },
     {
       "carId": "2001-acura-integra-type-r",

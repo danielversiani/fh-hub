@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T14:27:45.929Z",
+  "generatedAt": "2026-11-17T22:54:48.534Z",
   "items": [
     {
       "after": "32 Narai",
@@ -52624,6 +52624,177 @@
       "kind": "added",
       "sourceId": "noa-miyako",
       "surface": "dirt"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-17T22:54:48.534Z",
+      "before": "t1",
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1964-chevrolet-impala-super-sport-409|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-17T22:54:48.534Z",
+      "before": "t1",
+      "carId": "1970-chevrolet-el-camino-super-sport-454",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1970-chevrolet-el-camino-super-sport-454|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t2",
+      "at": "2026-11-17T22:54:48.534Z",
+      "carId": "2010-nissan-370z",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|2010-nissan-370z|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-17T22:54:48.534Z",
+      "carId": "2013-cadillac-xts-limousine",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|2013-cadillac-xts-limousine|B|cross-country",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "B cross-country AWD",
+      "at": "2026-11-17T22:54:48.534Z",
+      "carId": "2013-cadillac-xts-limousine",
+      "class": "B",
+      "entity": {
+        "id": "nc-2612983cb2",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "at": "2026-11-17T22:54:48.534Z",
+      "before": "B road RWD",
+      "carId": "1970-chevrolet-el-camino-super-sport-454",
+      "class": "B",
+      "entity": {
+        "id": "nc-267171a6f4",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-17T22:54:48.534Z",
+      "before": "B road RWD",
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "class": "B",
+      "entity": {
+        "id": "nc-2b3e74e440",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road RWD",
+      "at": "2026-11-17T22:54:48.534Z",
+      "carId": "1970-chevrolet-el-camino-super-sport-454",
+      "class": "B",
+      "entity": {
+        "id": "nc-3c88e33225",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-17T22:54:48.534Z",
+      "before": "B road RWD",
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "class": "B",
+      "entity": {
+        "id": "nc-433a7b33a8",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-17T22:54:48.534Z",
+      "before": "B road RWD",
+      "carId": "1957-chevrolet-bel-air",
+      "class": "B",
+      "entity": {
+        "id": "nc-59df973334",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road AWD",
+      "at": "2026-11-17T22:54:48.534Z",
+      "carId": "2010-nissan-370z",
+      "class": "B",
+      "entity": {
+        "id": "nc-62b7230ed8",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road RWD",
+      "at": "2026-11-17T22:54:48.534Z",
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "class": "B",
+      "entity": {
+        "id": "nc-80f97ea58e",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road RWD",
+      "at": "2026-11-17T22:54:48.534Z",
+      "carId": "1957-chevrolet-bel-air",
+      "class": "B",
+      "entity": {
+        "id": "nc-cd3bfa239b",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
     }
   ],
   "schemaVersion": 1

@@ -1,61 +1,19 @@
 {
-  "generatedAt": "2026-11-14T16:46:21.670Z",
+  "generatedAt": "2026-11-17T22:54:48.534Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "1957-chevrolet-bel-air",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-59df973334",
-      "lapRefs": [
-        {
-          "time": "1:05.2",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:05.2",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 40,
-      "name": "B road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 84,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.526,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage",
-      "tunerId": "msr-sam"
-    },
     {
       "buildTags": [
         "powerbuild"
       ],
       "carId": "1957-chevrolet-bel-air",
       "categories": [
-        "off-meta"
+        "meta"
       ],
       "class": "B",
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-722a7f2f58",
-      "metaRank": 40,
+      "metaRank": 17,
       "name": "V1",
       "observations": [
         {
@@ -75,9 +33,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.477,
+      "score": 0.522,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "silvasuperbee"
     },
@@ -90,30 +48,18 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "hard",
+      "difficulty": "death",
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-8471eddf8c",
-      "lapRefs": [
-        {
-          "time": "1:05.2",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:05.2",
+      "metaNotes": "操控还行",
       "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
+        "en": "Handling is okay.",
+        "pt-br": "Comportamento nas curvas razoável."
       },
-      "metaRank": 40,
+      "metaRank": 80,
       "name": "B road RWD",
       "observations": [
-        {
-          "raw": {},
-          "row": 84,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        },
         {
           "raw": {},
           "row": 165,
@@ -122,9 +68,9 @@
         }
       ],
       "role": "power",
-      "score": 0.526,
+      "score": 0.451,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t1.5",
       "tierSource": "meta-table",
       "tires": "vintage",
       "tunerId": "lnvrtebrate"
@@ -188,14 +134,14 @@
       ],
       "carId": "1957-chevrolet-bel-air",
       "categories": [
-        "off-meta",
+        "meta",
         "purist"
       ],
       "class": "B",
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-9e8469b384",
-      "metaRank": 40,
+      "metaRank": 17,
       "name": "Purist 08 Shirakawa",
       "observations": [
         {
@@ -215,9 +161,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.477,
+      "score": 0.522,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "dareanblr"
     },
@@ -253,6 +199,48 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "1957-chevrolet-bel-air",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-cd3bfa239b",
+      "lapRefs": [
+        {
+          "time": "1:04.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 17,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 37,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-pyke"
     }
   ],
   "schemaVersion": 1

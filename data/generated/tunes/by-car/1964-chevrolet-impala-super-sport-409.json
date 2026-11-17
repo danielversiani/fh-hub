@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-17T22:54:48.534Z",
   "items": [
     {
       "buildTags": [],
@@ -33,90 +33,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "1964-chevrolet-impala-super-sport-409",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-2b3e74e440",
-      "lapRefs": [
-        {
-          "time": "1:05.3",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:05.3",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 33,
-      "name": "B road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 70,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.526,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage",
-      "tunerId": "lnvrtebrate"
-    },
-    {
-      "buildTags": [],
-      "carId": "1964-chevrolet-impala-super-sport-409",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "credited": true,
-      "difficulty": "hard",
-      "drivetrain": "RWD",
-      "fromMeta": true,
-      "id": "nc-433a7b33a8",
-      "lapRefs": [
-        {
-          "time": "1:05.3",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:05.3",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 33,
-      "name": "B road RWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 70,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
-        }
-      ],
-      "role": "power",
-      "score": 0.526,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tires": "vintage",
-      "tunerId": "msr-sam"
     },
     {
       "buildTags": [],
@@ -181,6 +97,48 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-seako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "hard",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-80f97ea58e",
+      "lapRefs": [
+        {
+          "time": "1:04.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 12,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-pyke"
     },
     {
       "buildTags": [],
@@ -256,14 +214,14 @@
       ],
       "carId": "1964-chevrolet-impala-super-sport-409",
       "categories": [
-        "off-meta",
+        "meta",
         "purist"
       ],
       "class": "B",
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-e055c402a2",
-      "metaRank": 33,
+      "metaRank": 12,
       "name": "Purist",
       "observations": [
         {
@@ -283,9 +241,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.477,
+      "score": 0.522,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
     }

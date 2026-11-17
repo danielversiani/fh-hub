@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-17T22:54:48.534Z",
   "items": [
     {
       "buildTags": [
@@ -7,14 +7,14 @@
       ],
       "carId": "1970-chevrolet-el-camino-super-sport-454",
       "categories": [
-        "off-meta",
+        "meta",
         "purist"
       ],
       "class": "B",
       "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-10cc01f2a2",
-      "metaRank": 39,
+      "metaRank": 13,
       "name": "Purist",
       "observations": [
         {
@@ -34,9 +34,9 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.477,
+      "score": 0.522,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
@@ -86,7 +86,7 @@
       "buildTags": [],
       "carId": "1970-chevrolet-el-camino-super-sport-454",
       "categories": [
-        "off-meta"
+        "meta"
       ],
       "class": "B",
       "confidence": 0.8,
@@ -94,35 +94,35 @@
       "difficulty": "hard",
       "drivetrain": "RWD",
       "fromMeta": true,
-      "id": "nc-267171a6f4",
+      "id": "nc-3c88e33225",
       "lapRefs": [
         {
-          "time": "1:05.3",
+          "time": "1:04.8",
           "track": "Shirakawa"
         }
       ],
-      "metaNotes": "白川1:05.3",
+      "metaNotes": "白川1:04.8",
       "metaNotesI18n": {
         "en": "",
         "pt-br": ""
       },
-      "metaRank": 39,
+      "metaRank": 13,
       "name": "B road RWD",
       "observations": [
         {
           "raw": {},
-          "row": 82,
+          "row": 29,
           "sourceId": "noa-miyako",
           "tab": "b-road"
         }
       ],
       "role": "power",
-      "score": 0.526,
+      "score": 0.582,
       "surface": "road",
-      "tier": "t1",
+      "tier": "t0.5",
       "tierSource": "meta-table",
       "tires": "vintage",
-      "tunerId": "msr-sam"
+      "tunerId": "msr-pyke"
     },
     {
       "buildTags": [
