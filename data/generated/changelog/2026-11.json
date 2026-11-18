@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:01:54.341Z",
+  "generatedAt": "2026-11-18T21:58:38.004Z",
   "items": [
     {
       "after": "32 Narai",
@@ -52821,6 +52821,110 @@
       "kind": "added",
       "sourceId": "noa-miyako",
       "surface": "dirt"
+    },
+    {
+      "after": "B road V2",
+      "at": "2026-11-18T21:58:38.004Z",
+      "carId": "2018-renault-megane-r-s",
+      "class": "B",
+      "entity": {
+        "id": "nc-00cb24948f",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "V6 All Around | Nismo Wing",
+      "at": "2026-11-18T21:58:38.004Z",
+      "carId": "1998-nissan-skyline-gt-r-40th-anniversary",
+      "class": "B",
+      "entity": {
+        "id": "nc-03b112f282",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "S1 Class Road Purist All-Around",
+      "at": "2026-11-18T21:58:38.004Z",
+      "carId": "2025-ford-mustang-gtd",
+      "class": "S1",
+      "entity": {
+        "id": "nc-2905de7f97",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "Stock Look V6 Road",
+      "at": "2026-11-18T21:58:38.004Z",
+      "carId": "2000-nissan-skyline-gt-r-v-spec-ii",
+      "class": "B",
+      "entity": {
+        "id": "nc-2e4b2c8753",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "Purist Road | 06.9 Shirakawa",
+      "at": "2026-11-18T21:58:38.004Z",
+      "carId": "1993-renault-clio-williams",
+      "class": "B",
+      "entity": {
+        "id": "nc-49eb9130c6",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "V6 Stock Look Road",
+      "at": "2026-11-18T21:58:38.004Z",
+      "carId": "1997-nissan-skyline-gt-r-v-spec",
+      "class": "B",
+      "entity": {
+        "id": "nc-a19bd77db8",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "A road AWD",
+      "at": "2026-11-18T21:58:38.004Z",
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "class": "A",
+      "entity": {
+        "id": "nc-b3f4f9f26d",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-18T21:58:38.004Z",
+      "before": "B road",
+      "carId": "2018-renault-megane-r-s",
+      "class": "B",
+      "entity": {
+        "id": "nc-d2a8797281",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "kleis",
+      "surface": "road"
     }
   ],
   "schemaVersion": 1

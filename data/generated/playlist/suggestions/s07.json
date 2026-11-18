@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:46:21.670Z",
+  "generatedAt": "2026-11-18T21:58:38.004Z",
   "items": [
     {
       "carId": "2016-honda-s2260-alpha",
@@ -39,6 +39,29 @@
       "score": 0.664,
       "seasonId": "s07",
       "tuneId": "sc-760277793"
+    },
+    {
+      "carId": "2025-ford-mustang-gtd",
+      "category": "purist",
+      "confidence": 0.8,
+      "eventId": "s07--monthly-rivals--edo-circuit",
+      "needsGamertagSearch": true,
+      "origin": "rules",
+      "reasons": [
+        {
+          "key": "reason.tier",
+          "params": {
+            "source": "noa-miyako",
+            "tier": "t0.5"
+          }
+        },
+        {
+          "key": "reason.purist"
+        }
+      ],
+      "score": 0.616,
+      "seasonId": "s07",
+      "tuneId": "nc-2905de7f97"
     }
   ],
   "schemaVersion": 1

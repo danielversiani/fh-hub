@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:01:54.341Z",
+  "generatedAt": "2026-11-18T21:58:38.004Z",
   "items": [
     {
       "buildTags": [
@@ -172,6 +172,26 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2018-renault-megane-r-s",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "drivetrain": "FWD",
+      "id": "nc-00cb24948f",
+      "metaRank": 92,
+      "name": "B road V2",
+      "score": 0.541,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],
@@ -1209,6 +1229,23 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "dabananass"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-skyline-gt-r-40th-anniversary",
+      "categories": [],
+      "class": "B",
+      "drivetrain": "AWD",
+      "id": "nc-03b112f282",
+      "name": "V6 All Around | Nismo Wing",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -12454,6 +12491,29 @@
       "tunerId": "lphanhan"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2025-ford-mustang-gtd",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "S1",
+      "drivetrain": "RWD",
+      "id": "nc-2905de7f97",
+      "metaRank": 19,
+      "name": "S1 Class Road Purist All-Around",
+      "score": 0.616,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "gamerlogicftw"
+    },
+    {
       "buildTags": [],
       "carId": "2002-chevrolet-corvette-z06",
       "categories": [
@@ -13853,6 +13913,25 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2000-nissan-skyline-gt-r-v-spec-ii",
+      "categories": [],
+      "class": "B",
+      "drivetrain": "AWD",
+      "id": "nc-2e4b2c8753",
+      "name": "Stock Look V6 Road",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -21917,6 +21996,27 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1993-renault-clio-williams",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "drivetrain": "FWD",
+      "id": "nc-49eb9130c6",
+      "name": "Purist Road | 06.9 Shirakawa",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -48394,6 +48494,25 @@
     },
     {
       "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1997-nissan-skyline-gt-r-v-spec",
+      "categories": [],
+      "class": "B",
+      "drivetrain": "AWD",
+      "id": "nc-a19bd77db8",
+      "name": "V6 Stock Look Road",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
         "purist"
       ],
       "carId": "1992-mazda-rx-7-type-r",
@@ -54083,6 +54202,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b3f4f9f26d",
+      "lapRefs": [
+        {
+          "time": "59.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 12,
+      "name": "A road AWD",
+      "role": "allround",
+      "score": 0.713,
+      "sourceIds": [
+        "noa-miyako"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-seako"
     },
     {
       "buildTags": [
@@ -63880,26 +64035,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2018-renault-megane-r-s",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "B",
-      "drivetrain": "FWD",
-      "id": "nc-d2a8797281",
-      "metaRank": 92,
-      "name": "B road",
-      "score": 0.541,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],

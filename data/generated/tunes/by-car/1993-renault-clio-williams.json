@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-18T21:58:38.004Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1993-renault-clio-williams",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "FWD",
+      "id": "nc-49eb9130c6",
+      "name": "Purist Road | 06.9 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1993 Renault Clio Williams",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "FWD",
+            "Terrain": "Road",
+            "Tune": "Purist Road | 06.9 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 516,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
     {
       "buildTags": [],
       "carId": "1993-renault-clio-williams",
@@ -23,7 +60,7 @@
             "Tuner": "TheDannny",
             "fill": "FFED7D31"
           },
-          "row": 513,
+          "row": 517,
           "sourceId": "kleis",
           "tab": "fh6"
         }
