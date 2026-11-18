@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-18T14:01:54.341Z",
   "items": [
     {
       "buildTags": [
@@ -332,11 +332,14 @@
     {
       "buildTags": [],
       "carId": "1991-honda-beat",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-7ec8ab32d8",
+      "metaRank": 16,
       "name": "Fast and Funny S1 Dirt",
       "observations": [
         {
@@ -356,10 +359,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     },
     {
@@ -425,6 +428,37 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "kapienpl-esv-mars-zombiejesus52"
+    },
+    {
+      "buildTags": [],
+      "carId": "1991-honda-beat",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-be40b48290",
+      "metaRank": 16,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 35,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.676,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     },
     {
       "brainAfk": "auto",
@@ -906,10 +940,13 @@
     {
       "buildTags": [],
       "carId": "1991-honda-beat",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-869854729",
+      "metaRank": 16,
       "name": "S1 Dirt Handling-Allround",
       "observations": [
         {
@@ -919,11 +956,11 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.604,
       "shareCode": "869854729",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     }
   ],
