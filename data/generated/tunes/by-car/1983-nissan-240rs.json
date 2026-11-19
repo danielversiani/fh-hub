@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-240rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6f47ac37dc",
+      "metaNotes": "白川1：00.5 加速很不错，可惜轮胎太窄，驾驶时小心打滑",
+      "metaRank": 95,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 194,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-240rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-840affba0a",
+      "metaRank": 39,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 82,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.592,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-240rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-97effb908e",
+      "metaRank": 39,
+      "name": "A dirt",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1983 Nissan 240RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "A dirt",
+            "Tuner": "IceFrice8724",
+            "fill": "FFFF0000"
+          },
+          "row": 2426,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "icefrice8724"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T21:58:38.004Z",
+  "generatedAt": "2026-11-19T21:38:29.742Z",
   "items": [
     {
       "after": "32 Narai",
@@ -52924,6 +52924,136 @@
       },
       "kind": "removed",
       "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1983-nissan-240rs",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|1983-nissan-240rs|A|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1983-nissan-240rs",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|1983-nissan-240rs|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "meta",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1987-fiat-panda",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1987-fiat-panda|B|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1987-fiat-panda",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1987-fiat-panda|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B dirt AWD",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1987-fiat-panda",
+      "class": "B",
+      "entity": {
+        "id": "nc-35441eccc6",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "A road AWD",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1983-nissan-240rs",
+      "class": "A",
+      "entity": {
+        "id": "nc-6f47ac37dc",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road AWD",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1987-fiat-panda",
+      "class": "B",
+      "entity": {
+        "id": "nc-71d69693e1",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "A dirt AWD",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1983-nissan-240rs",
+      "class": "A",
+      "entity": {
+        "id": "nc-840affba0a",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "A dirt",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1983-nissan-240rs",
+      "class": "A",
+      "entity": {
+        "id": "nc-97effb908e",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "dirt"
+    },
+    {
+      "after": "B road AWD",
+      "at": "2026-11-19T21:38:29.742Z",
+      "carId": "1987-fiat-panda",
+      "class": "B",
+      "entity": {
+        "id": "nc-c2c9e38593",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
       "surface": "road"
     }
   ],
