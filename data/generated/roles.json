@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "generatedAt": "2026-11-20T12:56:21.105Z",
   "items": [
     {
       "carId": "1965-shelby-cobra-daytona-coupe",
@@ -1075,7 +1075,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 14,
-      "rivalsTop10": 71,
+      "rivalsTop10": 70,
       "rivalsWins": 4,
       "role": "meta",
       "since": "2026-05-19",
@@ -1148,10 +1148,36 @@
       "firstSeen": "2026-05-19",
       "rank": 4,
       "rivalsPicks": 3,
-      "rivalsTop10": 17,
+      "rivalsTop10": 18,
       "rivalsWins": 4,
       "role": "meta",
       "since": "2026-08-02",
+      "sources": 4,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "updated": "2026-08-23",
+      "wellKnown": true
+    },
+    {
+      "carId": "2018-mercedes-benz-x-class",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "Meta+",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Meta+",
+          "sourceId": "fhstats"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 5,
+      "rivalsPicks": 2,
+      "rivalsTop10": 13,
+      "rivalsWins": 3,
+      "role": "meta",
+      "since": "2026-06-01",
       "sources": 4,
       "surface": "cross-country",
       "tier": "meta-plus",
@@ -1172,7 +1198,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 5,
+      "rank": 6,
       "role": "meta",
       "since": "2026-08-13",
       "sources": 2,
@@ -1194,7 +1220,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 6,
+      "rank": 7,
       "role": "meta",
       "since": "2026-08-04",
       "sources": 2,
@@ -1216,39 +1242,13 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 7,
+      "rank": 8,
       "role": "meta",
       "since": "2026-08-23",
       "sources": 2,
       "surface": "cross-country",
       "tier": "meta",
       "updated": "2026-08-23"
-    },
-    {
-      "carId": "2018-mercedes-benz-x-class",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "Meta+",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Meta+",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 8,
-      "rivalsPicks": 2,
-      "rivalsTop10": 13,
-      "rivalsWins": 3,
-      "role": "meta",
-      "since": "2026-06-01",
-      "sources": 4,
-      "surface": "cross-country",
-      "tier": "meta-plus",
-      "updated": "2026-08-23",
-      "wellKnown": true
     },
     {
       "carId": "1968-ford-mustang-gt-2-2-fastback",
@@ -3118,7 +3118,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 3,
-      "rivalsTop10": 14,
+      "rivalsTop10": 16,
       "rivalsWins": 1,
       "role": "alternative",
       "since": "2026-08-27",
@@ -3629,7 +3629,7 @@
       "firstSeen": "2026-05-19",
       "rank": 2,
       "rivalsPicks": 21,
-      "rivalsTop10": 54,
+      "rivalsTop10": 52,
       "rivalsWins": 3,
       "role": "meta",
       "since": "2026-10-11",
@@ -4257,6 +4257,23 @@
       "tier": "other"
     },
     {
+      "carId": "1994-toyota-celica-gt-four-st205",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T2",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 21,
+      "rivalsPicks": 1,
+      "role": "other",
+      "sources": 2,
+      "surface": "dirt",
+      "tier": "other"
+    },
+    {
       "carId": "1979-toyota-fj40",
       "class": "B",
       "evidence": [
@@ -4274,8 +4291,8 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 21,
-      "rivalsTop10": 2,
+      "rank": 22,
+      "rivalsTop10": 1,
       "role": "other",
       "since": "2026-05-07",
       "sources": 4,
@@ -4283,23 +4300,6 @@
       "tier": "other",
       "updated": "2026-08-23",
       "wellKnown": true
-    },
-    {
-      "carId": "1994-toyota-celica-gt-four-st205",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T2",
-          "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 22,
-      "rivalsPicks": 1,
-      "role": "other",
-      "sources": 2,
-      "surface": "dirt",
-      "tier": "other"
     },
     {
       "carId": "1967-renault-8-gordini",
@@ -5003,7 +5003,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 5,
-      "rivalsTop10": 9,
+      "rivalsTop10": 8,
       "role": "alternative",
       "since": "2026-08-24",
       "sources": 2,
@@ -5323,7 +5323,7 @@
       "firstSeen": "2026-05-19",
       "rank": 6,
       "rivalsPicks": 23,
-      "rivalsTop10": 9,
+      "rivalsTop10": 10,
       "role": "meta",
       "since": "2026-05-27",
       "sources": 4,
@@ -5826,7 +5826,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 1,
-      "rivalsTop10": 192,
+      "rivalsTop10": 193,
       "rivalsWins": 20,
       "role": "meta",
       "since": "2026-10-22",
@@ -5846,7 +5846,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 1,
-      "rivalsTop10": 9,
+      "rivalsTop10": 8,
       "role": "other",
       "since": "2026-07-14",
       "sources": 2,
@@ -5940,7 +5940,7 @@
       "firstSeen": "2026-05-19",
       "rank": 2,
       "rivalsPicks": 2,
-      "rivalsTop10": 15,
+      "rivalsTop10": 16,
       "rivalsWins": 2,
       "role": "alternative",
       "since": "2026-08-19",
@@ -8205,7 +8205,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 16,
-      "rivalsTop10": 58,
+      "rivalsTop10": 57,
       "rivalsWins": 4,
       "role": "meta",
       "since": "2026-08-19",
@@ -8242,34 +8242,6 @@
       "wellKnown": true
     },
     {
-      "carId": "2024-chevrolet-camaro-zl1",
-      "class": "A",
-      "evidence": [
-        {
-          "label": "Meta+",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Allround",
-          "sourceId": "attax-johnson"
-        },
-        {
-          "label": "Meta",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 3,
-      "rivalsTop10": 41,
-      "rivalsWins": 1,
-      "role": "meta",
-      "since": "2026-08-24",
-      "sources": 4,
-      "surface": "road",
-      "tier": "meta-plus",
-      "updated": "2026-08-27"
-    },
-    {
       "carId": "2020-chevrolet-corvette-stingray-coupe",
       "class": "A",
       "evidence": [
@@ -8287,7 +8259,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 4,
+      "rank": 3,
       "role": "meta",
       "since": "2026-08-19",
       "sources": 3,
@@ -8295,6 +8267,34 @@
       "tier": "meta",
       "updated": "2026-08-19",
       "wellKnown": true
+    },
+    {
+      "carId": "2024-chevrolet-camaro-zl1",
+      "class": "A",
+      "evidence": [
+        {
+          "label": "Meta+",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Allround",
+          "sourceId": "attax-johnson"
+        },
+        {
+          "label": "Meta",
+          "sourceId": "fhstats"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 4,
+      "rivalsTop10": 40,
+      "rivalsWins": 1,
+      "role": "meta",
+      "since": "2026-08-24",
+      "sources": 4,
+      "surface": "road",
+      "tier": "meta-plus",
+      "updated": "2026-08-27"
     },
     {
       "carId": "2004-maserati-mc12",
@@ -8400,7 +8400,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 8,
-      "rivalsTop10": 127,
+      "rivalsTop10": 128,
       "rivalsWins": 18,
       "role": "other",
       "since": "2026-08-19",
@@ -10259,7 +10259,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 1,
-      "rivalsTop10": 143,
+      "rivalsTop10": 147,
       "rivalsWins": 18,
       "role": "meta",
       "since": "2026-08-19",
@@ -10572,7 +10572,7 @@
       "firstSeen": "2026-05-19",
       "rank": 8,
       "rivalsPicks": 2,
-      "rivalsTop10": 6,
+      "rivalsTop10": 5,
       "rivalsWins": 1,
       "role": "other",
       "sources": 4,
@@ -10593,7 +10593,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 9,
-      "rivalsTop10": 4,
+      "rivalsTop10": 3,
       "role": "other",
       "since": "2026-10-28",
       "sources": 2,
@@ -11216,7 +11216,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 1,
-      "rivalsTop10": 163,
+      "rivalsTop10": 162,
       "rivalsWins": 20,
       "role": "meta",
       "since": "2026-08-19",
@@ -11273,7 +11273,7 @@
       "firstSeen": "2026-05-19",
       "rank": 3,
       "rivalsPicks": 23,
-      "rivalsTop10": 57,
+      "rivalsTop10": 56,
       "rivalsWins": 12,
       "role": "meta",
       "since": "2026-08-19",
@@ -12010,7 +12010,7 @@
       "firstSeen": "2026-05-19",
       "rank": 2,
       "rivalsPicks": 21,
-      "rivalsTop10": 67,
+      "rivalsTop10": 68,
       "rivalsWins": 4,
       "role": "meta",
       "since": "2026-10-04",
@@ -12065,7 +12065,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 1,
-      "rivalsTop10": 101,
+      "rivalsTop10": 100,
       "rivalsWins": 14,
       "role": "other",
       "since": "2026-07-05",
@@ -14985,7 +14985,7 @@
       "firstSeen": "2026-05-19",
       "rank": 3,
       "rivalsPicks": 9,
-      "rivalsTop10": 65,
+      "rivalsTop10": 66,
       "rivalsWins": 4,
       "role": "meta",
       "since": "2026-08-19",

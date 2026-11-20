@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T21:58:38.004Z",
+  "generatedAt": "2026-11-20T12:56:21.105Z",
   "items": [
     {
       "buildTags": [],
@@ -50,7 +50,7 @@
       "drivetrain": "AWD",
       "engine": "4.7L V8 + Centri",
       "id": "nc-12485debc9",
-      "metaRank": 25,
+      "metaRank": 8,
       "name": "Road Allround 54.5 Shira Clean",
       "notes": "Insane Top Speed",
       "observations": [
@@ -76,9 +76,9 @@
         }
       ],
       "role": "allround",
-      "score": 0.688,
+      "score": 0.719,
       "surface": "road",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
@@ -364,37 +364,6 @@
         "meta"
       ],
       "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-561ca7a1aa",
-      "metaRank": 8,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 18,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.704,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2004-maserati-mc12",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
       "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-5cb38a8f48",
@@ -475,7 +444,7 @@
       "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-71b2de0576",
-      "metaRank": 25,
+      "metaRank": 8,
       "name": "Road Allround 55.0 Shirakawa Clean",
       "observations": [
         {
@@ -496,11 +465,11 @@
         }
       ],
       "role": "allround",
-      "score": 0.698,
+      "score": 0.729,
       "surface": "road",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
-      "tires": "rally",
+      "tires": "super-slick",
       "tunerId": "letzelu"
     },
     {
@@ -574,37 +543,6 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "kit-silter"
-    },
-    {
-      "buildTags": [],
-      "carId": "2004-maserati-mc12",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "confidence": 0.95,
-      "credited": true,
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-7f6641cd92",
-      "metaRank": 8,
-      "name": "S1 road AWD",
-      "observations": [
-        {
-          "raw": {},
-          "row": 18,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        }
-      ],
-      "role": "allround",
-      "score": 0.704,
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tires": "super-slick",
-      "tunerId": "noa-seako"
     },
     {
       "buildTags": [],
@@ -909,7 +847,7 @@
       "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-cb12cab2f3",
-      "metaRank": 25,
+      "metaRank": 8,
       "name": "Road Allround 55.0 Shirakawa Clean (Stock Engine)",
       "observations": [
         {
@@ -930,11 +868,11 @@
         }
       ],
       "role": "allround",
-      "score": 0.698,
+      "score": 0.729,
       "surface": "road",
-      "tier": "t0.5",
+      "tier": "meta",
       "tierSource": "meta-table",
-      "tires": "rally",
+      "tires": "super-slick",
       "tunerId": "letzelu"
     },
     {
@@ -1188,15 +1126,9 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-f1dafa0591",
-      "metaRank": 8,
+      "metaRank": 25,
       "name": "S1 road AWD",
       "observations": [
-        {
-          "raw": {},
-          "row": 18,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
-        },
         {
           "raw": {},
           "row": 53,
@@ -1205,11 +1137,11 @@
         }
       ],
       "role": "allround",
-      "score": 0.704,
+      "score": 0.672,
       "surface": "road",
-      "tier": "meta",
+      "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "super-slick",
+      "tires": "rally",
       "tunerId": "lphanhan"
     },
     {
