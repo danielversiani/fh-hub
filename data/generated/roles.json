@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:56:21.105Z",
+  "generatedAt": "2026-11-20T21:07:44.893Z",
   "items": [
     {
       "carId": "1965-shelby-cobra-daytona-coupe",
@@ -561,7 +561,8 @@
       "sources": 3,
       "surface": "cross-country",
       "tier": "meta",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "1968-plymouth-barracuda-formula-s",
@@ -1370,7 +1371,8 @@
       "sources": 3,
       "surface": "cross-country",
       "tier": "other",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "2020-jeep-jt",
@@ -1834,11 +1836,11 @@
       "firstSeen": "2026-11-12",
       "rank": 6,
       "role": "other",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "cross-country",
       "tier": "other",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1999-dodge-viper-gts-acr-forza-edition",
@@ -2317,11 +2319,11 @@
       "firstSeen": "2026-11-19",
       "rank": 22,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1992-nissan-skyline-gt-r",
@@ -2435,11 +2437,11 @@
       "firstSeen": "2026-11-17",
       "rank": 29,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "2018-deberti-ford-mustang-gt",
@@ -2534,7 +2536,8 @@
       "sources": 5,
       "surface": "dirt",
       "tier": "meta-plus",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "1991-honda-beat",
@@ -2563,7 +2566,8 @@
       "sources": 5,
       "surface": "dirt",
       "tier": "meta",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "2005-ford-gt",
@@ -3104,7 +3108,8 @@
       "sources": 3,
       "surface": "dirt",
       "tier": "other",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "1969-dodge-charger-r-t",
@@ -3131,32 +3136,6 @@
       "updated": "2026-08-27"
     },
     {
-      "carId": "1991-gmc-syclone",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T2",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Dirt Allround",
-          "sourceId": "attax-johnson"
-        },
-        {
-          "label": "Strong",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 2,
-      "role": "alternative",
-      "since": "2026-08-23",
-      "sources": 3,
-      "surface": "dirt",
-      "tier": "off-meta",
-      "updated": "2026-08-23"
-    },
-    {
       "carId": "2020-chevrolet-silverado-lt-trail-boss",
       "class": "B",
       "evidence": [
@@ -3174,7 +3153,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 3,
+      "rank": 2,
       "role": "alternative",
       "since": "2026-06-15",
       "sources": 3,
@@ -3197,7 +3176,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 4,
+      "rank": 3,
       "role": "alternative",
       "since": "2026-08-04",
       "sources": 2,
@@ -3219,7 +3198,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 5,
+      "rank": 4,
       "role": "alternative",
       "since": "2026-07-25",
       "sources": 2,
@@ -3241,7 +3220,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 6,
+      "rank": 5,
       "role": "alternative",
       "since": "2026-08-09",
       "sources": 2,
@@ -3263,13 +3242,40 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 7,
+      "rank": 6,
       "role": "alternative",
       "since": "2026-07-03",
       "sources": 2,
       "surface": "dirt",
       "tier": "off-meta",
       "updated": "2026-11-05"
+    },
+    {
+      "carId": "1989-volkswagen-rallye-golf",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Dirt Allround",
+          "sourceId": "attax-johnson"
+        },
+        {
+          "label": "Offmeta",
+          "sourceId": "fhstats"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 7,
+      "role": "alternative",
+      "since": "2026-06-18",
+      "sources": 3,
+      "surface": "dirt",
+      "tier": "off-meta",
+      "updated": "2026-11-21",
+      "wellKnown": true
     },
     {
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
@@ -3294,6 +3300,33 @@
       "updated": "2026-08-23"
     },
     {
+      "carId": "1991-gmc-syclone",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T2",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Dirt Allround",
+          "sourceId": "attax-johnson"
+        },
+        {
+          "label": "Strong",
+          "sourceId": "fhstats"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 9,
+      "role": "alternative",
+      "since": "2026-08-23",
+      "sources": 3,
+      "surface": "dirt",
+      "tier": "off-meta",
+      "updated": "2026-08-23",
+      "wellKnown": true
+    },
+    {
       "carId": "1987-fiat-panda",
       "class": "B",
       "evidence": [
@@ -3303,13 +3336,13 @@
         }
       ],
       "firstSeen": "2026-11-19",
-      "rank": 9,
+      "rank": 10,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "2001-acura-integra-type-r",
@@ -3321,7 +3354,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 10,
+      "rank": 11,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3337,7 +3370,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 11,
+      "rank": 12,
       "role": "alternative",
       "since": "2026-11-05",
       "sources": 1,
@@ -3355,7 +3388,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 13,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3371,7 +3404,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 14,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3387,7 +3420,7 @@
         }
       ],
       "firstSeen": "2026-11-10",
-      "rank": 14,
+      "rank": 15,
       "role": "alternative",
       "since": "2026-11-11",
       "sources": 1,
@@ -3405,7 +3438,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 15,
+      "rank": 16,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3421,32 +3454,16 @@
         }
       ],
       "firstSeen": "2026-11-17",
-      "rank": 16,
+      "rank": 17,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1968-plymouth-barracuda-formula-s",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T1",
-          "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 17,
-      "role": "alternative",
-      "sources": 1,
-      "surface": "dirt",
-      "tier": "off-meta"
-    },
-    {
-      "carId": "1970-honda-n600",
       "class": "B",
       "evidence": [
         {
@@ -3462,6 +3479,22 @@
       "tier": "off-meta"
     },
     {
+      "carId": "1970-honda-n600",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T1",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 19,
+      "role": "alternative",
+      "sources": 1,
+      "surface": "dirt",
+      "tier": "off-meta"
+    },
+    {
       "carId": "1992-gmc-typhoon",
       "class": "B",
       "evidence": [
@@ -3471,7 +3504,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 19,
+      "rank": 20,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3487,7 +3520,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 20,
+      "rank": 21,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3503,7 +3536,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 21,
+      "rank": 22,
       "role": "alternative",
       "since": "2026-10-20",
       "sources": 1,
@@ -3521,7 +3554,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 22,
+      "rank": 23,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3537,7 +3570,7 @@
         }
       ],
       "firstSeen": "2026-11-12",
-      "rank": 23,
+      "rank": 24,
       "role": "alternative",
       "since": "2026-11-12",
       "sources": 1,
@@ -3555,7 +3588,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 24,
+      "rank": 25,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3571,7 +3604,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 25,
+      "rank": 26,
       "role": "alternative",
       "since": "2026-06-08",
       "sources": 1,
@@ -3759,7 +3792,8 @@
       "sources": 5,
       "surface": "dirt",
       "tier": "meta",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "1974-honda-civic-rs",
@@ -3853,7 +3887,8 @@
       "sources": 5,
       "surface": "dirt",
       "tier": "other",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "1985-nissan-safari-turbo",
@@ -3985,33 +4020,6 @@
       "updated": "2026-08-23"
     },
     {
-      "carId": "1989-volkswagen-rallye-golf",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T2",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Dirt Allround",
-          "sourceId": "attax-johnson"
-        },
-        {
-          "label": "Offmeta",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 9,
-      "role": "other",
-      "since": "2026-06-18",
-      "sources": 3,
-      "surface": "dirt",
-      "tier": "other",
-      "updated": "2026-08-23",
-      "wellKnown": true
-    },
-    {
       "carId": "1992-toyota-celica-gt-four-rc-st185",
       "class": "B",
       "evidence": [
@@ -4025,7 +4033,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 10,
+      "rank": 9,
       "role": "other",
       "since": "2026-07-25",
       "sources": 2,
@@ -4047,7 +4055,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 11,
+      "rank": 10,
       "rivalsPicks": 1,
       "rivalsTop10": 3,
       "role": "other",
@@ -4072,7 +4080,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 11,
       "role": "other",
       "since": "2026-07-23",
       "sources": 2,
@@ -4098,7 +4106,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 12,
       "role": "other",
       "since": "2026-05-08",
       "sources": 3,
@@ -4125,7 +4133,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 14,
+      "rank": 13,
       "role": "other",
       "since": "2026-05-10",
       "sources": 3,
@@ -4148,7 +4156,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 15,
+      "rank": 14,
       "role": "other",
       "since": "2026-05-20",
       "sources": 2,
@@ -4170,7 +4178,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 16,
+      "rank": 15,
       "role": "other",
       "since": "2026-06-06",
       "sources": 2,
@@ -4192,7 +4200,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 17,
+      "rank": 16,
       "role": "other",
       "since": "2026-07-02",
       "sources": 2,
@@ -4214,7 +4222,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 18,
+      "rank": 17,
       "role": "other",
       "since": "2026-07-23",
       "sources": 2,
@@ -4232,7 +4240,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 19,
+      "rank": 18,
       "rivalsTop10": 3,
       "role": "other",
       "sources": 2,
@@ -4249,7 +4257,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 20,
+      "rank": 19,
       "rivalsTop10": 2,
       "role": "other",
       "sources": 2,
@@ -4266,7 +4274,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 21,
+      "rank": 20,
       "rivalsPicks": 1,
       "role": "other",
       "sources": 2,
@@ -4291,7 +4299,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 22,
+      "rank": 21,
       "rivalsTop10": 1,
       "role": "other",
       "since": "2026-05-07",
@@ -4311,7 +4319,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 23,
+      "rank": 22,
       "role": "other",
       "sources": 1,
       "surface": "dirt",
@@ -4327,7 +4335,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 24,
+      "rank": 23,
       "role": "other",
       "sources": 1,
       "surface": "dirt",
@@ -4589,7 +4597,8 @@
       "sources": 3,
       "surface": "dirt",
       "tier": "meta-plus",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "1986-honda-civic-si",
@@ -4641,7 +4650,8 @@
       "sources": 3,
       "surface": "dirt",
       "tier": "meta",
-      "updated": "2026-08-23"
+      "updated": "2026-08-23",
+      "wellKnown": true
     },
     {
       "carId": "1991-honda-beat",
@@ -5100,11 +5110,11 @@
       "firstSeen": "2026-05-19",
       "rank": 10,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1994-ford-supervan-3",
@@ -6542,11 +6552,11 @@
       "firstSeen": "2026-05-19",
       "rank": 29,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 2,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1932-ford-de-luxe-five-window-coupe",
@@ -7205,11 +7215,11 @@
       "firstSeen": "2026-11-19",
       "rank": 67,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1987-mercedes-benz-amg-hammer-coupe",
@@ -7651,11 +7661,11 @@
       "firstSeen": "2026-11-12",
       "rank": 94,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "2017-ford-focus-rs",
@@ -9811,11 +9821,11 @@
       "firstSeen": "2026-11-19",
       "rank": 39,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 1,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1991-honda-cr-x-sir",
@@ -10489,11 +10499,11 @@
       "rank": 4,
       "rivalsTop10": 2,
       "role": "other",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 2,
       "surface": "road",
       "tier": "other",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "1970-chevrolet-chevelle-super-sport-454",
@@ -11643,11 +11653,11 @@
       "rank": 12,
       "rivalsTop10": 1,
       "role": "other",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 2,
       "surface": "road",
       "tier": "other",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "2021-sierra-cars-700r",
@@ -12680,11 +12690,11 @@
       "firstSeen": "2026-05-19",
       "rank": 23,
       "role": "alternative",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 2,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "2023-audi-r8-coupe-v10-gt-rwd",
@@ -15292,11 +15302,11 @@
       "firstSeen": "2026-05-19",
       "rank": 10,
       "role": "other",
-      "since": "2026-11-18",
+      "since": "2026-11-21",
       "sources": 2,
       "surface": "road",
       "tier": "other",
-      "updated": "2026-11-18"
+      "updated": "2026-11-21"
     },
     {
       "carId": "2013-mclaren-p1",

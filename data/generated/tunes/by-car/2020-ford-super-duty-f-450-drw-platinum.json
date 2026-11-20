@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "generatedAt": "2026-11-20T21:07:44.893Z",
   "items": [
     {
       "buildTags": [],
@@ -61,6 +61,39 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-2c51232e92",
+      "name": "F4Nifty",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Ford Super Duty F-450 DRW PLATINUM",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "F4Nifty",
+            "Tuner": "Koarsse",
+            "fill": "FFED7D31"
+          },
+          "row": 311,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": null,
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "koarsse"
     },
     {
       "buildTags": [],
@@ -239,7 +272,7 @@
             "Tuner": "SilvaSUPERBEE",
             "fill": "FFFF0000"
           },
-          "row": 1591,
+          "row": 1593,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -325,7 +358,7 @@
             "Tuner": "LogikJ",
             "fill": "FFED7D31"
           },
-          "row": 310,
+          "row": 312,
           "sourceId": "kleis",
           "tab": "fh6"
         },

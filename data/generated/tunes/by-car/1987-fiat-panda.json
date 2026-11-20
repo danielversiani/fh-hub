@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:56:21.105Z",
+  "generatedAt": "2026-11-20T21:07:44.893Z",
   "items": [
     {
       "buildTags": [],
@@ -33,7 +33,9 @@
       "tunerId": "caigou-yyy"
     },
     {
-      "buildTags": [],
+      "buildTags": [
+        "stock-look"
+      ],
       "carId": "1987-fiat-panda",
       "categories": [
         "off-meta"
@@ -43,16 +45,25 @@
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-71d69693e1",
+      "id": "nc-fd5b798e65",
       "metaRank": 57,
-      "name": "B road AWD",
+      "name": "I Paused GTA VI To Tune This (B Road Very Strong Stock Look)",
       "observations": [
         {
-          "raw": {},
-          "row": 118,
-          "sourceId": "noa-miyako",
-          "tab": "b-road"
+          "raw": {
+            "Car": "1987 FIAT Panda",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "I Paused GTA VI To Tune This (B Road Very Strong Stock Look)",
+            "Tuner": "K1Z Bard",
+            "fill": "FFED7D31"
+          },
+          "row": 291,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
       "role": "allround",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:56:21.105Z",
+  "generatedAt": "2026-11-20T21:07:44.893Z",
   "items": [
     {
       "after": "32 Narai",
@@ -53106,6 +53106,124 @@
       },
       "kind": "removed",
       "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-20T21:07:44.893Z",
+      "before": "t2",
+      "carId": "1989-volkswagen-rallye-golf",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1989-volkswagen-rallye-golf|B|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-up",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "F4Nifty",
+      "at": "2026-11-20T21:07:44.893Z",
+      "carId": "2020-ford-super-duty-f-450-drw-platinum",
+      "class": "B",
+      "entity": {
+        "id": "nc-2c51232e92",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": null
+    },
+    {
+      "after": "Dirt LFA Very Strong",
+      "at": "2026-11-20T21:07:44.893Z",
+      "carId": "1983-nissan-240rs",
+      "class": "A",
+      "entity": {
+        "id": "nc-2df8c935f5",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "dirt"
+    },
+    {
+      "after": "purist",
+      "at": "2026-11-20T21:07:44.893Z",
+      "carId": "2010-nissan-370z",
+      "class": "A",
+      "entity": {
+        "id": "nc-6913c6eec9",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-20T21:07:44.893Z",
+      "before": "B road AWD",
+      "carId": "1987-fiat-panda",
+      "class": "B",
+      "entity": {
+        "id": "nc-71d69693e1",
+        "type": "tune"
+      },
+      "kind": "removed",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "Road Allround 54.1 Shira Clean",
+      "at": "2026-11-20T21:07:44.893Z",
+      "carId": "2004-maserati-mc12",
+      "class": "S1",
+      "entity": {
+        "id": "nc-757bd25315",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "letzelu-shirakawa",
+      "surface": "road"
+    },
+    {
+      "after": "Road Allround 54.1 Shira Clean (Volk Racing GT-P)",
+      "at": "2026-11-20T21:07:44.893Z",
+      "carId": "2004-maserati-mc12",
+      "class": "S1",
+      "entity": {
+        "id": "nc-9791c5de49",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "after": "Goofy Ahh Dirt Car",
+      "at": "2026-11-20T21:07:44.893Z",
+      "carId": "2016-honda-s2260-alpha",
+      "class": "S1",
+      "entity": {
+        "id": "nc-e77e9a117d",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
+      "surface": "dirt"
+    },
+    {
+      "after": "I Paused GTA VI To Tune This (B Road Very Strong Stock Look)",
+      "at": "2026-11-20T21:07:44.893Z",
+      "carId": "1987-fiat-panda",
+      "class": "B",
+      "entity": {
+        "id": "nc-fd5b798e65",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "kleis",
       "surface": "road"
     }
   ],

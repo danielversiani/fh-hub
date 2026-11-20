@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "generatedAt": "2026-11-20T21:07:44.893Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "Grandma Driving",
             "fill": "FFFF0000"
           },
-          "row": 1768,
+          "row": 1770,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -177,7 +177,7 @@
             "Tuner": "Dumbo GT49",
             "fill": "FFED7D31"
           },
-          "row": 380,
+          "row": 382,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -213,7 +213,7 @@
             "Tuner": "Dumbo GT49",
             "fill": "FFED7D31"
           },
-          "row": 381,
+          "row": 383,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -296,6 +296,39 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-honda-s2260-alpha",
+      "categories": [],
+      "class": "S1",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-e77e9a117d",
+      "name": "Goofy Ahh Dirt Car",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2016 Honda S660 Alpha",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Goofy Ahh Dirt Car",
+            "Tuner": "KapienPL",
+            "fill": "FF7030A0"
+          },
+          "row": 1771,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "kapienpl"
     }
   ],
   "schemaVersion": 1

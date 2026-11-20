@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "generatedAt": "2026-11-20T21:07:44.893Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1983-nissan-240rs",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-2df8c935f5",
+      "metaRank": 39,
+      "name": "Dirt LFA Very Strong",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1983 Nissan 240RS",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "Dirt LFA Very Strong",
+            "Tuner": "LogikJ",
+            "fill": "FFFF0000"
+          },
+          "row": 2431,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
     {
       "buildTags": [],
       "carId": "1983-nissan-240rs",
@@ -89,7 +125,7 @@
             "Tuner": "IceFrice8724",
             "fill": "FFFF0000"
           },
-          "row": 2426,
+          "row": 2430,
           "sourceId": "kleis",
           "tab": "fh6"
         }

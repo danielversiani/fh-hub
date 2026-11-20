@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "generatedAt": "2026-11-20T21:07:44.893Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "Inayamei",
             "fill": "FFFF0000"
           },
-          "row": 2578,
+          "row": 2583,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -62,7 +62,7 @@
             "Tuner": "Inayamei",
             "fill": "FFFF0000"
           },
-          "row": 2577,
+          "row": 2582,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -114,6 +114,45 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2010-nissan-370z",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-6913c6eec9",
+      "metaRank": 146,
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Nissan 370Z",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 2584,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.511,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [],
