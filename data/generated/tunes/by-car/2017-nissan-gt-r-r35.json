@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "generatedAt": "2026-11-20T03:19:35.866Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2017-nissan-gt-r-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1a4e25c657",
+      "lapRefs": [
+        {
+          "time": "59.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 27,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 57,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.676,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-seako"
+    },
     {
       "buildTags": [],
       "carId": "2017-nissan-gt-r-r35",
