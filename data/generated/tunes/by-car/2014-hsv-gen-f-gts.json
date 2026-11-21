@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-21T17:59:17.561Z",
   "items": [
     {
       "buildTags": [],
@@ -146,6 +146,34 @@
         "off-meta"
       ],
       "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "sc-251125561",
+      "metaRank": 74,
+      "name": "Road AWD Allround Very Strong",
+      "notes": "Online, Seasonal, Rivals - Offmeta AWD, very strong overall",
+      "observations": [
+        {
+          "raw": {},
+          "row": 21,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.531,
+      "shareCode": "251125561",
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2014-hsv-gen-f-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
       "confidence": 0.85,
       "createdAt": "2026-06-13",
       "credited": true,
@@ -168,7 +196,7 @@
       "observations": [
         {
           "raw": {},
-          "row": 100,
+          "row": 102,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
         },

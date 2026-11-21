@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:08:17.947Z",
+  "generatedAt": "2026-11-21T17:59:17.561Z",
   "items": [
     {
       "carId": "1972-nissan-patrol",
@@ -129,6 +129,7 @@
     {
       "carId": "1993-schuppan-962cr",
       "class": "S1",
+      "date": "2026-06-06",
       "label": "Offmeta",
       "level": "offmeta",
       "sourceId": "logikj",
@@ -140,7 +141,6 @@
     {
       "carId": "1990-alfa-romeo-se-048sp",
       "class": "S2",
-      "date": "2026-07-14",
       "extreme": true,
       "label": "Offmeta",
       "level": "offmeta",
@@ -202,10 +202,10 @@
       ]
     },
     {
-      "carId": "1992-honda-nsx-r",
+      "carId": "1992-nissan-skyline-gt-r",
       "class": "B",
-      "label": "Pick",
-      "level": "pick",
+      "label": "Offmeta",
+      "level": "offmeta",
       "online": true,
       "sourceId": "logikj",
       "surface": "road",
@@ -291,6 +291,19 @@
       ]
     },
     {
+      "carId": "2014-hsv-gen-f-gts",
+      "class": "A",
+      "label": "Offmeta",
+      "level": "offmeta",
+      "online": true,
+      "sourceId": "logikj",
+      "style": "allround",
+      "surface": "road",
+      "tunerIds": [
+        "logikj"
+      ]
+    },
+    {
       "carId": "2017-chevrolet-camaro-zl1",
       "class": "A",
       "label": "Offmeta",
@@ -337,6 +350,19 @@
       "level": "pick",
       "online": true,
       "sourceId": "logikj",
+      "surface": "road",
+      "tunerIds": [
+        "logikj"
+      ]
+    },
+    {
+      "carId": "2025-mclaren-w1",
+      "class": "S1",
+      "label": "Meta",
+      "level": "meta",
+      "online": true,
+      "sourceId": "logikj",
+      "style": "handling",
       "surface": "road",
       "tunerIds": [
         "logikj"

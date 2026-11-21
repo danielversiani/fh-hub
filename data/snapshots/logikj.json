@@ -208,14 +208,14 @@
       },
       {
         "car": {
-          "make": "Honda",
-          "model": "NSX-R",
-          "text": "1992 Honda NSX-R",
+          "make": "Nissan",
+          "model": "Skyline GT-R",
+          "text": "1992 Nissan Skyline GT-R",
           "year": 1992
         },
         "carClass": "B",
-        "label": "Pick",
-        "level": "pick",
+        "label": "Offmeta",
+        "level": "offmeta",
         "online": true,
         "row": 14,
         "surface": "road",
@@ -340,6 +340,25 @@
       },
       {
         "car": {
+          "make": "HSV",
+          "model": "GEN-F GTS",
+          "text": "2014 HSV GEN-F GTS",
+          "year": 2014
+        },
+        "carClass": "A",
+        "label": "Offmeta",
+        "level": "offmeta",
+        "online": true,
+        "row": 21,
+        "style": "allround",
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
           "make": "Mercedes-Benz",
           "model": "X-Class",
           "text": "2018 Mercedes-Benz X-Class",
@@ -349,7 +368,7 @@
         "label": "Meta",
         "level": "meta",
         "online": true,
-        "row": 21,
+        "row": 22,
         "surface": "dirt",
         "tab": "online-picks",
         "tuners": [
@@ -368,7 +387,7 @@
         "label": "Strong",
         "level": "strong",
         "online": true,
-        "row": 22,
+        "row": 23,
         "style": "handling",
         "surface": "dirt",
         "tab": "online-picks",
@@ -388,7 +407,7 @@
         "label": "Pick",
         "level": "pick",
         "online": true,
-        "row": 23,
+        "row": 24,
         "surface": "dirt",
         "tab": "online-picks",
         "tuners": [
@@ -407,7 +426,7 @@
         "label": "Offmeta",
         "level": "offmeta",
         "online": true,
-        "row": 24,
+        "row": 25,
         "surface": "dirt",
         "tab": "online-picks",
         "tuners": [
@@ -426,7 +445,7 @@
         "label": "Offmeta",
         "level": "offmeta",
         "online": true,
-        "row": 25,
+        "row": 26,
         "style": "allround",
         "surface": "road",
         "tab": "online-picks",
@@ -446,7 +465,7 @@
         "label": "Pick",
         "level": "pick",
         "online": true,
-        "row": 26,
+        "row": 27,
         "surface": "road",
         "tab": "online-picks",
         "tuners": [
@@ -464,7 +483,26 @@
         "extreme": true,
         "label": "Offmeta",
         "level": "offmeta",
-        "row": 27,
+        "row": 28,
+        "style": "handling",
+        "surface": "road",
+        "tab": "online-picks",
+        "tuners": [
+          "LogikJ"
+        ]
+      },
+      {
+        "car": {
+          "make": "McLaren",
+          "model": "W1",
+          "text": "2025 McLaren W1",
+          "year": 2025
+        },
+        "carClass": "S1",
+        "label": "Meta",
+        "level": "meta",
+        "online": true,
+        "row": 29,
         "style": "handling",
         "surface": "road",
         "tab": "online-picks",
@@ -480,9 +518,10 @@
           "year": 1993
         },
         "carClass": "S1",
+        "date": "2026-06-06",
         "label": "Offmeta",
         "level": "offmeta",
-        "row": 28,
+        "row": 30,
         "surface": "dirt",
         "tab": "online-picks",
         "tuners": [
@@ -497,11 +536,10 @@
           "year": 1990
         },
         "carClass": "S2",
-        "date": "2026-07-14",
         "extreme": true,
         "label": "Offmeta",
         "level": "offmeta",
-        "row": 29,
+        "row": 31,
         "style": "handling",
         "surface": "dirt",
         "tab": "online-picks",
@@ -706,17 +744,17 @@
       },
       {
         "car": {
-          "make": "Honda",
-          "model": "NSX-R",
-          "text": "1992 Honda NSX-R",
+          "make": "Nissan",
+          "model": "Skyline GT-R",
+          "text": "1992 Nissan Skyline GT-R",
           "year": 1992
         },
         "carClass": "B",
-        "name": "Road Purist Easy",
-        "notes": "Online, Seasonal - Easy to drive",
+        "name": "Road Widebody Very Strong",
+        "notes": "Online, Seasonal - Very strong, offmeta on some sprints/street tracks",
         "raw": {},
         "row": 14,
-        "shareCode": "126 326 350",
+        "shareCode": "481 340 077",
         "surfaceText": "road",
         "tab": "online-picks",
         "tuner": "LogikJ"
@@ -830,6 +868,23 @@
       },
       {
         "car": {
+          "make": "HSV",
+          "model": "GEN-F GTS",
+          "text": "2014 HSV GEN-F GTS",
+          "year": 2014
+        },
+        "carClass": "A",
+        "name": "Road AWD Allround Very Strong",
+        "notes": "Online, Seasonal, Rivals - Offmeta AWD, very strong overall",
+        "raw": {},
+        "row": 21,
+        "shareCode": "251 125 561",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
           "make": "Mercedes-Benz",
           "model": "X-Class",
           "text": "2018 Mercedes-Benz X-Class",
@@ -839,7 +894,7 @@
         "name": "CC Rivals Meta",
         "notes": "Rivals, Online Meta",
         "raw": {},
-        "row": 21,
+        "row": 22,
         "shareCode": "118 260 950",
         "surfaceText": "dirt",
         "tab": "online-picks",
@@ -857,7 +912,7 @@
         "name": "A700 Dirt or Road - Strong on Both",
         "notes": "Online, Rivals - Very strong grip/pace on dirt and road, can be used for either equally",
         "raw": {},
-        "row": 22,
+        "row": 23,
         "shareCode": "762 849 256",
         "surfaceText": "dirt",
         "tab": "online-picks",
@@ -875,7 +930,7 @@
         "name": "Dirt AWD Stock Look",
         "notes": "Online Lobbies - Great lobby car, looks good with stock wing moving",
         "raw": {},
-        "row": 23,
+        "row": 24,
         "shareCode": "661 217 039",
         "surfaceText": "dirt",
         "tab": "online-picks",
@@ -893,7 +948,7 @@
         "name": "A Dirt/CC Very Stong",
         "notes": "Online, Seasonal - Offmeta strong, fastest sport utility hero",
         "raw": {},
-        "row": 24,
+        "row": 25,
         "shareCode": "616 660 933",
         "surfaceText": "dirt",
         "tab": "online-picks",
@@ -911,7 +966,7 @@
         "name": "S1 Road Strong Allround",
         "notes": "Online, Seasonal, Rivals - Very strong AWD car, offmeta",
         "raw": {},
-        "row": 25,
+        "row": 26,
         "shareCode": "995 548 003",
         "surfaceText": "road",
         "tab": "online-picks",
@@ -929,7 +984,7 @@
         "name": "S1 Road AWD Easy",
         "notes": "Online - Very easy and nice to drive",
         "raw": {},
-        "row": 26,
+        "row": 27,
         "shareCode": "127 785 238",
         "surfaceText": "road",
         "tab": "online-picks",
@@ -946,8 +1001,25 @@
         "name": "S1 Road AWD Strong Grip",
         "notes": "Offmeta Grip Car",
         "raw": {},
-        "row": 27,
+        "row": 28,
         "shareCode": "311 807 794",
+        "surfaceText": "road",
+        "tab": "online-picks",
+        "tuner": "LogikJ"
+      },
+      {
+        "car": {
+          "make": "McLaren",
+          "model": "W1",
+          "text": "2025 McLaren W1",
+          "year": 2025
+        },
+        "carClass": "S1",
+        "name": "Road Handling Strong",
+        "notes": "Online, Seasonal Hypercars - Very strong allround car, AWD meta on some tracks",
+        "raw": {},
+        "row": 29,
+        "shareCode": "167 392 449",
         "surfaceText": "road",
         "tab": "online-picks",
         "tuner": "LogikJ"
@@ -960,10 +1032,11 @@
           "year": 1993
         },
         "carClass": "S1",
+        "createdAt": "2026-06-06",
         "name": "S1 Dirt AWD Strong",
         "notes": "Onlie, Rivals - Very strong early off meta",
         "raw": {},
-        "row": 28,
+        "row": 30,
         "shareCode": "144 254 269",
         "surfaceText": "dirt",
         "tab": "online-picks",
@@ -977,11 +1050,10 @@
           "year": 1990
         },
         "carClass": "S2",
-        "createdAt": "2026-07-14",
         "name": "S2 Dirt Grip Offmeta Rivals",
         "notes": "Rivals Grip Offmeta - 2nd fastest car on grip stuff",
         "raw": {},
-        "row": 29,
+        "row": 31,
         "shareCode": "902 691 185",
         "surfaceText": "dirt",
         "tab": "online-picks",
@@ -990,7 +1062,7 @@
     ],
     "warnings": []
   },
-  "records": 54,
+  "records": 58,
   "schemaVersion": 1,
   "sourceId": "logikj"
 }

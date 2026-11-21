@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-21T17:59:17.561Z",
   "items": [
     {
       "buildTags": [
@@ -46175,6 +46175,27 @@
       "tunerId": "logikj"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-honda-nsx-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "drivetrain": "RWD",
+      "id": "nc-98b87b9d66",
+      "name": "Road Purist Easy",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
       "buildTags": [],
       "carId": "2014-hsv-gen-f-gts",
       "categories": [
@@ -79248,29 +79269,6 @@
       "tunerId": "vnx-ardent"
     },
     {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1992-honda-nsx-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "drivetrain": "RWD",
-      "id": "sc-126326350",
-      "name": "Road Purist Easy",
-      "score": 0.654,
-      "shareCode": "126326350",
-      "sourceIds": [
-        "kleis",
-        "logikj"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "logikj"
-    },
-    {
       "buildTags": [],
       "carId": "2021-pagani-huayra-r",
       "categories": [],
@@ -80663,11 +80661,12 @@
         "off-meta"
       ],
       "class": "S1",
+      "createdAt": "2026-06-06",
       "drivetrain": "AWD",
       "id": "sc-144254269",
       "metaRank": 25,
       "name": "S1 Dirt AWD Strong",
-      "score": 0.65,
+      "score": 0.653,
       "shareCode": "144254269",
       "sourceIds": [
         "kleis",
@@ -82396,6 +82395,26 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-mclaren-w1",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "id": "sc-167392449",
+      "metaRank": 4,
+      "name": "Road Handling Strong",
+      "score": 0.647,
+      "shareCode": "167392449",
+      "sourceIds": [
+        "logikj"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -84421,6 +84440,27 @@
     },
     {
       "buildTags": [],
+      "carId": "2014-hsv-gen-f-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "sc-251125561",
+      "metaRank": 74,
+      "name": "Road AWD Allround Very Strong",
+      "score": 0.531,
+      "shareCode": "251125561",
+      "sourceIds": [
+        "logikj"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
       "carId": "1974-honda-civic-rs",
       "categories": [
         "meta"
@@ -86189,6 +86229,26 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "id": "sc-481340077",
+      "metaRank": 91,
+      "name": "Road Widebody Very Strong",
+      "score": 0.529,
+      "shareCode": "481340077",
+      "sourceIds": [
+        "logikj"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
     },
     {
       "buildTags": [],
@@ -89189,7 +89249,7 @@
       ],
       "class": "S1",
       "createdAt": "2026-08-25",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-806523639",
       "metaRank": 38,
@@ -90212,10 +90272,9 @@
       "carId": "1990-alfa-romeo-se-048sp",
       "categories": [],
       "class": "S2",
-      "createdAt": "2026-07-14",
       "id": "sc-902691185",
       "name": "S2 Dirt Grip Offmeta Rivals",
-      "score": 0.487,
+      "score": 0.446,
       "shareCode": "902691185",
       "sourceIds": [
         "logikj"

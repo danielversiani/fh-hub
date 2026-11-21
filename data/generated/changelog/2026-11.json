@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-21T17:59:17.561Z",
   "items": [
     {
       "after": "32 Narai",
@@ -53263,6 +53263,97 @@
       },
       "kind": "added",
       "sourceId": "kleis",
+      "surface": "road"
+    },
+    {
+      "at": "2026-11-21T17:59:17.561Z",
+      "before": "Pick",
+      "carId": "1992-honda-nsx-r",
+      "class": "B",
+      "entity": {
+        "id": "logikj|1992-honda-nsx-r|B|road",
+        "type": "list-entry"
+      },
+      "kind": "removed",
+      "sourceId": "logikj",
+      "surface": "road"
+    },
+    {
+      "after": "Offmeta",
+      "at": "2026-11-21T17:59:17.561Z",
+      "carId": "1992-nissan-skyline-gt-r",
+      "class": "B",
+      "entity": {
+        "id": "logikj|1992-nissan-skyline-gt-r|B|road",
+        "type": "list-entry"
+      },
+      "kind": "added",
+      "sourceId": "logikj",
+      "surface": "road"
+    },
+    {
+      "after": "Offmeta",
+      "at": "2026-11-21T17:59:17.561Z",
+      "carId": "2014-hsv-gen-f-gts",
+      "class": "A",
+      "entity": {
+        "id": "logikj|2014-hsv-gen-f-gts|A|road",
+        "type": "list-entry"
+      },
+      "kind": "added",
+      "sourceId": "logikj",
+      "surface": "road"
+    },
+    {
+      "after": "Meta",
+      "at": "2026-11-21T17:59:17.561Z",
+      "carId": "2025-mclaren-w1",
+      "class": "S1",
+      "entity": {
+        "id": "logikj|2025-mclaren-w1|S1|road",
+        "type": "list-entry"
+      },
+      "kind": "added",
+      "sourceId": "logikj",
+      "surface": "road"
+    },
+    {
+      "after": "Road Handling Strong",
+      "at": "2026-11-21T17:59:17.561Z",
+      "carId": "2025-mclaren-w1",
+      "class": "S1",
+      "entity": {
+        "id": "sc-167392449",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "logikj",
+      "surface": "road"
+    },
+    {
+      "after": "Road AWD Allround Very Strong",
+      "at": "2026-11-21T17:59:17.561Z",
+      "carId": "2014-hsv-gen-f-gts",
+      "class": "A",
+      "entity": {
+        "id": "sc-251125561",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "logikj",
+      "surface": "road"
+    },
+    {
+      "after": "Road Widebody Very Strong",
+      "at": "2026-11-21T17:59:17.561Z",
+      "carId": "1992-nissan-skyline-gt-r",
+      "class": "B",
+      "entity": {
+        "id": "sc-481340077",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "logikj",
       "surface": "road"
     }
   ],

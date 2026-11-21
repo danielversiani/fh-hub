@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-21T17:59:17.561Z",
   "items": [
     {
       "buildTags": [],
@@ -450,6 +450,43 @@
       "tunerId": "atk-mang0"
     },
     {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1992-honda-nsx-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-98b87b9d66",
+      "name": "Road Purist Easy",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1992 Honda NSX-R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Road Purist Easy",
+            "Tuner": "LogikJ",
+            "fill": "FFED7D31"
+          },
+          "row": 363,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "logikj"
+    },
+    {
       "buildTags": [],
       "carId": "1992-honda-nsx-r",
       "categories": [],
@@ -648,51 +685,6 @@
       "tunerId": "destrukdi"
     },
     {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "1992-honda-nsx-r",
-      "categories": [
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.35,
-      "drivetrain": "RWD",
-      "id": "sc-126326350",
-      "name": "Road Purist Easy",
-      "notes": "Online, Seasonal - Easy to drive",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1992 Honda NSX-R",
-            "Comment": "Purist",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Road Purist Easy",
-            "Tuner": "LogikJ",
-            "fill": "FFED7D31"
-          },
-          "row": 363,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        },
-        {
-          "raw": {},
-          "row": 14,
-          "sourceId": "logikj",
-          "tab": "online-picks"
-        }
-      ],
-      "score": 0.654,
-      "shareCode": "126326350",
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "logikj"
-    },
-    {
       "buildTags": [],
       "carId": "1992-honda-nsx-r",
       "categories": [],
@@ -703,7 +695,7 @@
       "observations": [
         {
           "raw": {},
-          "row": 178,
+          "row": 180,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
         }

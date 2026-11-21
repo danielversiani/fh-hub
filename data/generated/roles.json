@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-21T17:59:17.561Z",
   "items": [
     {
       "carId": "1965-shelby-cobra-daytona-coupe",
@@ -5856,14 +5856,12 @@
       "rank": 1,
       "rivalsTop10": 8,
       "role": "other",
-      "since": "2026-07-14",
       "sources": 2,
       "surface": "dirt",
       "tags": [
         "rivals"
       ],
-      "tier": "other",
-      "updated": "2026-07-14"
+      "tier": "other"
     },
     {
       "carId": "1999-dodge-viper-gts-acr-forza-edition",
@@ -6035,6 +6033,37 @@
       "tier": "off-meta"
     },
     {
+      "carId": "2014-hsv-gen-f-gts",
+      "class": "A",
+      "evidence": [
+        {
+          "label": "T1",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Allround",
+          "sourceId": "attax-johnson"
+        },
+        {
+          "label": "Strong",
+          "sourceId": "fhstats"
+        },
+        {
+          "label": "Offmeta",
+          "sourceId": "logikj"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 6,
+      "role": "alternative",
+      "since": "2026-06-13",
+      "sources": 4,
+      "surface": "road",
+      "tier": "off-meta",
+      "updated": "2026-06-13",
+      "wellKnown": true
+    },
+    {
       "carId": "1998-toyota-supra-rz",
       "class": "A",
       "evidence": [
@@ -6052,7 +6081,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 6,
+      "rank": 7,
       "role": "alternative",
       "since": "2026-10-07",
       "sources": 3,
@@ -6078,7 +6107,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 7,
+      "rank": 8,
       "role": "alternative",
       "since": "2026-10-11",
       "sources": 3,
@@ -6104,40 +6133,13 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 8,
+      "rank": 9,
       "role": "alternative",
       "since": "2026-07-03",
       "sources": 3,
       "surface": "road",
       "tier": "off-meta",
       "updated": "2026-07-03",
-      "wellKnown": true
-    },
-    {
-      "carId": "2014-hsv-gen-f-gts",
-      "class": "A",
-      "evidence": [
-        {
-          "label": "T1",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Allround",
-          "sourceId": "attax-johnson"
-        },
-        {
-          "label": "Strong",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 9,
-      "role": "alternative",
-      "since": "2026-06-13",
-      "sources": 3,
-      "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-06-13",
       "wellKnown": true
     },
     {
@@ -9418,25 +9420,27 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1957-chevrolet-bel-air",
+      "carId": "1992-nissan-skyline-gt-r",
       "class": "B",
       "evidence": [
         {
-          "label": "T0.5",
+          "label": "T1.5",
           "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Offmeta",
+          "sourceId": "logikj"
         }
       ],
       "firstSeen": "2026-05-19",
       "rank": 14,
       "role": "alternative",
-      "since": "2026-11-18",
-      "sources": 1,
+      "sources": 2,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-11-18"
+      "tier": "off-meta"
     },
     {
-      "carId": "1964-chevrolet-impala-super-sport-409",
+      "carId": "1957-chevrolet-bel-air",
       "class": "B",
       "evidence": [
         {
@@ -9454,7 +9458,7 @@
       "updated": "2026-11-18"
     },
     {
-      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
+      "carId": "1964-chevrolet-impala-super-sport-409",
       "class": "B",
       "evidence": [
         {
@@ -9465,12 +9469,14 @@
       "firstSeen": "2026-05-19",
       "rank": 16,
       "role": "alternative",
+      "since": "2026-11-18",
       "sources": 1,
       "surface": "road",
-      "tier": "off-meta"
+      "tier": "off-meta",
+      "updated": "2026-11-18"
     },
     {
-      "carId": "1965-alfa-romeo-giulia-tz2",
+      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
       "class": "B",
       "evidence": [
         {
@@ -9486,7 +9492,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1965-toyota-sports-800",
+      "carId": "1965-alfa-romeo-giulia-tz2",
       "class": "B",
       "evidence": [
         {
@@ -9502,7 +9508,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1968-holden-monaro-gts-327",
+      "carId": "1965-toyota-sports-800",
       "class": "B",
       "evidence": [
         {
@@ -9518,7 +9524,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1970-chevrolet-camaro-z28",
+      "carId": "1968-holden-monaro-gts-327",
       "class": "B",
       "evidence": [
         {
@@ -9534,7 +9540,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1970-chevrolet-el-camino-super-sport-454",
+      "carId": "1970-chevrolet-camaro-z28",
       "class": "B",
       "evidence": [
         {
@@ -9544,6 +9550,22 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 21,
+      "role": "alternative",
+      "sources": 1,
+      "surface": "road",
+      "tier": "off-meta"
+    },
+    {
+      "carId": "1970-chevrolet-el-camino-super-sport-454",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 22,
       "role": "alternative",
       "since": "2026-11-18",
       "sources": 1,
@@ -9561,7 +9583,7 @@
         }
       ],
       "firstSeen": "2026-11-10",
-      "rank": 22,
+      "rank": 23,
       "role": "alternative",
       "since": "2026-11-11",
       "sources": 1,
@@ -9579,7 +9601,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 23,
+      "rank": 24,
       "role": "alternative",
       "since": "2026-11-09",
       "sources": 1,
@@ -9597,7 +9619,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 24,
+      "rank": 25,
       "role": "alternative",
       "since": "2026-11-12",
       "sources": 1,
@@ -9615,7 +9637,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 25,
+      "rank": 26,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9631,7 +9653,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 26,
+      "rank": 27,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9647,7 +9669,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 27,
+      "rank": 28,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9663,7 +9685,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 28,
+      "rank": 29,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9679,7 +9701,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 29,
+      "rank": 30,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9695,7 +9717,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 30,
+      "rank": 31,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9711,7 +9733,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 31,
+      "rank": 32,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9727,7 +9749,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 32,
+      "rank": 33,
       "role": "alternative",
       "since": "2026-10-28",
       "sources": 1,
@@ -9745,7 +9767,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 33,
+      "rank": 34,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9761,7 +9783,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 34,
+      "rank": 35,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9777,7 +9799,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 35,
+      "rank": 36,
       "role": "alternative",
       "since": "2026-10-30",
       "sources": 1,
@@ -9795,7 +9817,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 36,
+      "rank": 37,
       "role": "alternative",
       "since": "2026-10-28",
       "sources": 1,
@@ -9813,7 +9835,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 37,
+      "rank": 38,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9829,7 +9851,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 38,
+      "rank": 39,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9845,7 +9867,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 39,
+      "rank": 40,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9861,7 +9883,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 40,
+      "rank": 41,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9877,7 +9899,7 @@
         }
       ],
       "firstSeen": "2026-11-19",
-      "rank": 41,
+      "rank": 42,
       "role": "alternative",
       "since": "2026-11-21",
       "sources": 1,
@@ -9892,22 +9914,6 @@
         {
           "label": "T1",
           "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 42,
-      "role": "alternative",
-      "sources": 1,
-      "surface": "road",
-      "tier": "off-meta"
-    },
-    {
-      "carId": "1992-honda-nsx-r",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "Pick",
-          "sourceId": "logikj"
         }
       ],
       "firstSeen": "2026-05-19",
@@ -10164,7 +10170,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1992-nissan-skyline-gt-r",
+      "carId": "1994-ferrari-f355-berlinetta",
       "class": "B",
       "evidence": [
         {
@@ -10180,7 +10186,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1994-ferrari-f355-berlinetta",
+      "carId": "1994-subaru-vivio-rx-r",
       "class": "B",
       "evidence": [
         {
@@ -10196,7 +10202,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1994-subaru-vivio-rx-r",
+      "carId": "2004-honda-civic-type-r",
       "class": "B",
       "evidence": [
         {
@@ -10212,7 +10218,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "2004-honda-civic-type-r",
+      "carId": "2005-bmw-m3",
       "class": "B",
       "evidence": [
         {
@@ -10228,7 +10234,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "2005-bmw-m3",
+      "carId": "2013-cadillac-xts-limousine",
       "class": "B",
       "evidence": [
         {
@@ -10244,7 +10250,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "2013-cadillac-xts-limousine",
+      "carId": "2013-mercedes-benz-a-45-amg",
       "class": "B",
       "evidence": [
         {
@@ -10260,7 +10266,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "2013-mercedes-benz-a-45-amg",
+      "carId": "2018-mercedes-benz-x-class",
       "class": "B",
       "evidence": [
         {
@@ -10276,22 +10282,6 @@
       "tier": "off-meta"
     },
     {
-      "carId": "2018-mercedes-benz-x-class",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T1.5",
-          "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 66,
-      "role": "alternative",
-      "sources": 1,
-      "surface": "road",
-      "tier": "off-meta"
-    },
-    {
       "carId": "2018-renault-megane-r-s",
       "class": "B",
       "evidence": [
@@ -10301,7 +10291,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 67,
+      "rank": 66,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13586,13 +13576,17 @@
         {
           "label": "Meta+",
           "sourceId": "fhstats"
+        },
+        {
+          "label": "Meta",
+          "sourceId": "logikj"
         }
       ],
       "firstSeen": "2026-05-19",
       "rank": 2,
       "role": "meta",
       "since": "2026-09-11",
-      "sources": 3,
+      "sources": 4,
       "surface": "road",
       "tier": "meta",
       "updated": "2026-09-11"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-21T17:59:17.561Z",
   "items": [
     {
       "buildTags": [],
@@ -874,7 +874,7 @@
       "observations": [
         {
           "raw": {},
-          "row": 130,
+          "row": 132,
           "sourceId": "attax-johnson",
           "tab": "horizon-6"
         }
@@ -887,6 +887,33 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "1992-nissan-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "id": "sc-481340077",
+      "metaRank": 91,
+      "name": "Road Widebody Very Strong",
+      "notes": "Online, Seasonal - Very strong, offmeta on some sprints/street tracks",
+      "observations": [
+        {
+          "raw": {},
+          "row": 14,
+          "sourceId": "logikj",
+          "tab": "online-picks"
+        }
+      ],
+      "score": 0.529,
+      "shareCode": "481340077",
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1
