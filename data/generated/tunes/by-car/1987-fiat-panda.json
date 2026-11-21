@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:07:44.893Z",
+  "generatedAt": "2026-11-21T11:06:18.277Z",
   "items": [
     {
       "buildTags": [],
@@ -42,6 +42,44 @@
       ],
       "class": "B",
       "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-5db77dde4e",
+      "metaRank": 57,
+      "name": "Stock Look Road | <06.2 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1987 FIAT Panda",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look Road | <06.2 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 291,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.543,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "1987-fiat-panda",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
@@ -61,7 +99,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFED7D31"
           },
-          "row": 291,
+          "row": 292,
           "sourceId": "kleis",
           "tab": "fh6"
         }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:07:44.893Z",
+  "generatedAt": "2026-11-21T11:06:18.277Z",
   "items": [
     {
       "buildTags": [
@@ -27,7 +27,7 @@
             "Tuner": "MCR Ginza",
             "fill": "FFFF0000"
           },
-          "row": 2504,
+          "row": 2507,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -37,6 +37,77 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "mcr-ginza"
+    },
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "1994-nissan-fairlady-z-version-s-twin-turbo",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-4ca99e110e",
+      "name": "Purist Stock Look | 07.9 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Nissan Fairlady Z Version S Twin Turbo",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Stock Look | 07.9 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 489,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-nissan-fairlady-z-version-s-twin-turbo",
+      "categories": [],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-9404eec745",
+      "name": "Do-Luck V6 Road | No Aero | 06.9 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1994 Nissan Fairlady Z Version S Twin Turbo",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Do-Luck V6 Road | No Aero | 06.9 Shirakawa",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 488,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
@@ -60,7 +131,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FFED7D31"
           },
-          "row": 487,
+          "row": 490,
           "sourceId": "kleis",
           "tab": "fh6"
         }
