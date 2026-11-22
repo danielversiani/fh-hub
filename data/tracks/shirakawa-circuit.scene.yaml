@@ -47,6 +47,16 @@ linePins:
     note:
       pt-br: "Venha encostado no lado direito e só vire quando a curva começar: entrando tarde, você chega ao ápice já apontado para a saída. Da curva 4 até a 6 é quase uma reta só: as curvas são rápidas e só carros muito velozes e com pouca aderência precisam ajustar alguma coisa."
       en: "Stay against the right-hand side and turn in only when the corner starts: turning in late, you reach the apex already pointed at the exit. From turn 4 to turn 6 it is nearly one long straight; the bends are fast, and only very fast cars with little grip need to adjust."
+  # Turn 4 exit: the same as the corner-by-corner line, out to the right-hand edge (owner,
+  # 2026-11-22: "a entrada é diferente, a saída é igual").
+  - at: 1080
+    pos: 0.11
+  - at: 1100
+    pos: -0.57
+  - at: 1120
+    pos: -0.92
+  - at: 1140
+    pos: -1
   - at: 1770
     pos: 1.2
     note:
