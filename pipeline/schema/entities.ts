@@ -92,6 +92,11 @@ export const Tune = z.object({
   buildTags: z.array(BuildTag),
   notes: z.string().optional(),
   createdAt: z.iso.date().optional(),
+  /**
+   * A source logged a newer version of this tune after `createdAt` (Noa Miyako's update tab):
+   * the share code shown may be the old version's (owner, 2026-11-22).
+   */
+  newerVersion: z.object({ date: z.iso.date(), sourceId: Slug }).optional(),
   observations: z.array(Observation).min(1),
   /**
    * Tier of the car in the tune's class × surface: from the meta table (Noa Miyako) or, when the
@@ -153,6 +158,7 @@ export const TuneIndexEntry = Tune.pick({
   categories: true,
   fromMeta: true,
   createdAt: true,
+  newerVersion: true,
   difficulty: true,
   recommended: true,
   brainAfk: true,

@@ -53,6 +53,12 @@ export function carCardLabels(locale: Locale): CarCardLabels {
     worldRecord: t(locale, 'card.worldRecord'),
     lapBy: t(locale, 'card.lapBy', { driver: '{driver}' }),
     tuneDate: t(locale, 'card.tuneDate', { date: '{date}' }),
+    newerVersion: t(locale, 'card.newerVersion', { source: '{source}', date: '{date}' }),
+    newerVersionCode: t(locale, 'card.newerVersionCode', {
+      source: '{source}',
+      date: '{date}',
+      tuner: '{tuner}',
+    }),
     tiers: {
       'meta-plus': t(locale, 'tier.meta-plus'),
       meta: t(locale, 'tier.meta'),

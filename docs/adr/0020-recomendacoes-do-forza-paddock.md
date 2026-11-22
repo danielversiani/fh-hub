@@ -37,6 +37,10 @@ O dono começou a montar uma planilha própria de tunes recomendadas ("Forza Pad
    - **Na página do evento:** um bloco por fonte, "Recomendado por LogikJ" e "Recomendado por Noa Miyako", e depois as sugestões automáticas do Forza Paddock. O card fechado já diz quem recomendou.
 4. **Temporada atual:** cada série vai Verão → Outono → Inverno → Primavera. As datas das outras semanas seguem essa ordem (antes seguiam a ordem da tabela do forza.net, que é outra). Se o forza.net demorar a virar a semana, o site usa a temporada cujas datas cobrem o dia.
 
+## Atualizações
+
+- **2026-11-22, 中等 = Médio** (dono): a planilha de Noa Miyako também usa 中等 ("médio"), que não estava na regra acima. O código o tratava como Fácil, e um carro marcado 中等 aparecia como "Fácil" no site. Agora 中等 é Médio, como escrito; os demais níveis seguem a regra de subir um degrau.
+
 ## Alternativas consideradas
 
 - **Converter a escala do dono para a de Noa Miyako:** o dono preferiu adotar a escala nova no site todo.

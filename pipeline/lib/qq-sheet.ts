@@ -12,11 +12,13 @@ import { Message } from './protobuf';
  *   3 → {1: sheet id}   5 → {1: sheet name}   7 → {1: row count}   8 → {1: column count}
  *
  * related_sheet blob (cells) — mutation kind 18, field 19 = body:
- *   5 → string pool: repeated {1: text}
+ *   5 → string pools: repeated 1 = plain {1: text}; repeated 2 = rich text (2026-11-22):
+ *       {3: run}* where run = {1: style, 3: {1: text}}; the cell's text is its runs joined.
  *   6 → repeated cell: {1: row (default 0), 2: column (default 0), 3: value}
- *       value: {1: type, 2: {1: string pool index (default 0)}}
- *       type 4 = string from the pool; other types may carry a double (numbers).
- *       type 6 = rich content (links/chips) whose text is NOT in the payload → unsupported.
+ *       value: {1: type, 2: {1: pool index (default 0)}}
+ *       type 4 = string from the plain pool; type 6 = text from the rich pool (formatted notes,
+ *       several colours or lines); other types may carry a double (numbers). A type 6 cell whose
+ *       rich entry is missing or empty (links/chips) stays unsupported.
  */
 
 export interface QqSheetInfo {
@@ -68,6 +70,14 @@ export function decodeCells(relatedSheetBase64: readonly string[]): QqGrid {
       const body = mutation.message(19);
       if (!body) continue;
       const pool = (body.message(5)?.messages(1) ?? []).map((s) => s.string(1) ?? '');
+      // Formatted cells: each entry is a list of styled runs; the text is the runs joined.
+      const rich = (body.message(5)?.messages(2) ?? []).map((entry) =>
+        entry
+          .messages(3)
+          .map((run) => run.message(3)?.string(1) ?? '')
+          .join('')
+          .trim(),
+      );
       for (const cell of body.messages(6)) {
         const row = cell.int(1);
         const col = cell.int(2);
@@ -76,10 +86,12 @@ export function decodeCells(relatedSheetBase64: readonly string[]): QqGrid {
         const type = value.int(1);
         let text: string | undefined;
         if (type === 4) text = pool[value.message(2)?.int(1) ?? 0];
-        else if (type !== 0) {
+        else if (type === 6) {
+          text = rich[value.message(2)?.int(1) ?? 0] || undefined;
+          if (text === undefined) unsupported.push({ row, col });
+        } else if (type !== 0) {
           const n = value.firstDouble();
           if (n !== undefined && Number.isFinite(n)) text = String(n);
-          else if (type === 6) unsupported.push({ row, col });
         }
         if (text === undefined) continue;
         grid[row] ??= [];

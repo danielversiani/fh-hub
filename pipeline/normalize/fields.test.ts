@@ -93,6 +93,7 @@ describe('other parsers', () => {
     expect(parseDifficulty('简单')).toBe('very-easy');
     expect(parseDifficulty('普通')).toBe('easy');
     expect(parseDifficulty('非常困难')).toBe('death');
+    expect(parseDifficulty('中等')).toBe('medium');
   });
   it('lap time', () => {
     expect(parseLapTime('0:59.227')).toBe(59_227);

@@ -67,6 +67,8 @@ export interface BrowseTune {
   laps?: LapRef[];
   /** When the tune was published or last updated, if a source says (ISO date). */
   date?: string;
+  /** A source logged a newer version after `date` ({date, source name}): the code may be old. */
+  newer?: { date: string; source: string };
   sources: string[];
   score: number;
 }
@@ -153,6 +155,10 @@ export function buildBrowseData(): BrowseData {
     addOns: c.addOns,
   }));
 
+  // "Noa Miyako (QQ Docs)" → "Noa Miyako": the person, for sentences on the tune card.
+  const statusName = new Map(loadSourceStatus().map((s) => [s.id, s.name]));
+  const sourceName = (id: string) => (statusName.get(id) ?? id).replace(/\s*\(.*\)\s*$/, '');
+
   const tunes: BrowseTune[] = loadTuneIndex().map((t) => ({
     id: t.id,
     car: t.carId,
@@ -178,6 +184,9 @@ export function buildBrowseData(): BrowseData {
     notes: t.metaNotesI18n,
     laps: t.lapRefs,
     date: t.createdAt,
+    newer: t.newerVersion
+      ? { date: t.newerVersion.date, source: sourceName(t.newerVersion.sourceId) }
+      : undefined,
     sources: t.sourceIds,
     score: t.score ?? 0,
   }));

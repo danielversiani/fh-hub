@@ -6,6 +6,12 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
 ## [Não lançado]
 
+### Corrigido
+- 2026-11-22: **Dados da tabela de Noa Miyako** (caso do Rallye Golf, apontado pelo dono):
+  - **Dificuldade:** 中等 aparecia como "Fácil"; agora é "Médio" ([ADR-0020](docs/adr/0020-recomendacoes-do-forza-paddock.md)). Afeta 129 linhas.
+  - **Células de texto formatado:** o leitor da planilha (QQ Docs) agora entende o texto formatado. Entram 268 observações que estavam de fora e 48 linhas do ranking cujo nome do carro estava formatado. As observações novas foram traduzidas ([ADR-0014](docs/adr/0014-traducao-dos-textos-das-fontes.md)), e as pistas Irokawa, Satta, Tateyama, Ito, Rurikoji, Nangan e Chiheisen passam a ser reconhecidas nos tempos.
+  - **Versão nova de uma tune:** quando a aba de atualizações registra uma tune mais nova que a data do código mostrado, o cartão avisa que o código pode ser da versão anterior e indica o gamertag (6 tunes hoje, entre elas a do Golf).
+
 ### Adicionado
 - 2026-11-22: **Seção de Guias** ([ADR-0024](docs/adr/0024-secao-de-guias-para-iniciantes.md)):
   - páginas `/guides/` e `/en/guides/`, com guias em Markdown (`src/content/guides/`), selo "conferido no jogo em…" e lista de fontes;

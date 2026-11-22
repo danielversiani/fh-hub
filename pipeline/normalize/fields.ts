@@ -130,9 +130,10 @@ export function parseBuildTags(...texts: (string | undefined)[]): BuildTag[] {
 }
 
 /**
- * Words of every source on the Forza Paddock scale (ADR-0020). Noa Miyako's five levels move one
- * step each: 简单 (easy) → Very Easy, 普通 (normal) → Easy, 稍微困难 → Medium, 困难 → Hard,
- * 非常困难 (very hard) → Death.
+ * Words of every source on the Forza Paddock scale (ADR-0020). Noa Miyako's levels move one step
+ * each: 简单 (easy) → Very Easy, 普通 (normal) → Easy, 稍微困难 → Medium, 困难 → Hard,
+ * 非常困难 (very hard) → Death. Her sheet also uses 中等 ("medium"): that one stays Medium, as
+ * written (owner, 2026-11-22: a 中等 tune shown as "Easy" was wrong).
  */
 const DIFFICULTY: Record<string, Difficulty> = {
   'brain afk': 'brain-afk',
@@ -149,7 +150,7 @@ const DIFFICULTY: Record<string, Difficulty> = {
   非常简单: 'very-easy',
   简单: 'very-easy',
   普通: 'easy',
-  中等: 'easy',
+  中等: 'medium',
   稍微困难: 'medium',
   困难: 'hard',
   非常困难: 'death',

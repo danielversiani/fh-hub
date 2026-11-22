@@ -697,6 +697,20 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
 
   // --- tuners ------------------------------------------------------------------------------
   const tuneCount = new Map<string, number>();
+  // A tune update logged by a meta table (e.g. Noa Miyako's 老车调校更新 tab) after a coded tune's
+  // own date means a newer version exists: the share code we show may be the old one. Tunes with
+  // no code (players search the gamertag, which finds the latest) or no date are left alone.
+  for (const h of highlights) {
+    if (h.kind !== 'tune-update') continue;
+    for (const t of tunes.values()) {
+      if (t.carId !== h.carId || t.class !== h.class || t.surface !== h.surface) continue;
+      if (!h.tunerIds.includes(t.tunerId)) continue;
+      if (!t.shareCode || !t.createdAt || t.createdAt >= h.date) continue;
+      if (!t.newerVersion || t.newerVersion.date < h.date)
+        t.newerVersion = { date: h.date, sourceId: h.sourceId };
+    }
+  }
+
   for (const t of tunes.values()) tuneCount.set(t.tunerId, (tuneCount.get(t.tunerId) ?? 0) + 1);
   const tunerList: Tuner[] = [...tuners.values()]
     .map(({ identity, aliases }) => ({

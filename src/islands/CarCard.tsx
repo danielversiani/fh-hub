@@ -41,6 +41,9 @@ export interface CarCardLabels {
   lapBy: string;
   /** "atualizada em {date}" */
   tuneDate: string;
+  /** "{source} logged a newer version on {date}…" (with and without a share code). */
+  newerVersion: string;
+  newerVersionCode: string;
   /** Platform tier names (Meta+, Meta, Off-meta, Rivais, Nicho). */
   tiers: Record<PlatformTier, string>;
   brainAfk: string;
@@ -370,6 +373,14 @@ function TopTune({
         {tune.date && (
           <p class="mt-0.5 text-xs text-muted">
             {labels.tuneDate.replace('{date}', formatDay(tune.date, labels.lang))}
+          </p>
+        )}
+        {tune.newer && (
+          <p class="mt-1 border-l-2 border-l-warn pl-2 text-xs text-warn">
+            {(tune.code ? labels.newerVersionCode : labels.newerVersion)
+              .replace('{date}', formatDay(tune.newer.date, labels.lang))
+              .replace('{source}', tune.newer.source)
+              .replace('{tuner}', tune.tunerName)}
           </p>
         )}
       </div>

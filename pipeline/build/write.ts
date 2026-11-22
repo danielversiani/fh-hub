@@ -60,6 +60,7 @@ const toIndexEntry = (t: Tune): TuneIndexEntry => ({
   categories: t.categories,
   fromMeta: t.fromMeta,
   createdAt: t.createdAt,
+  newerVersion: t.newerVersion,
   difficulty: t.difficulty,
   recommended: t.recommended,
   brainAfk: t.brainAfk,
