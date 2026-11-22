@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -253,10 +253,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "FWD",
       "fromMeta": true,
       "id": "nc-4c2fda16dc",
+      "lapRefs": [
+        {
+          "time": "56.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川56.5 前驱街车独苗 比动力车有操控 比操控车有动力 但是意外地不慢",
+      "metaNotesI18n": {
+        "en": "The only front-wheel-drive street car: better cornering than the power cars, more power than the handling cars, and surprisingly not slow.",
+        "pt-br": "O único carro de rua de tração dianteira: tem mais curva que os carros de potência e mais potência que os de curva, e surpreende por não ser lento."
+      },
       "metaRank": 119,
       "name": "S1 road FWD",
       "observations": [
@@ -268,7 +279,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.517,
+      "score": 0.479,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",

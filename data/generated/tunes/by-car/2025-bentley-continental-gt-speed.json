@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -108,7 +108,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -144,7 +144,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -159,10 +159,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-965022d20f",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.7 弯速一般加速一般 手感略重",
+      "metaNotesI18n": {
+        "en": "Average cornering and acceleration, a slightly heavy feel.",
+        "pt-br": "Curvas e aceleração medianas, sensação um pouco pesada."
+      },
       "metaRank": 45,
       "name": "A road AWD",
       "observations": [
@@ -174,7 +185,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -194,6 +205,21 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-978ab5fe45",
+      "lapRefs": [
+        {
+          "time": "2:23.5",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.1",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:23.5 瑠璃光寺 2:00.1 前中段加速一般 后段不错 弯速很快 车尾微滑 像是更稳定的肌肉车 强度意外的还不错 越野也可以优雅 适合后段图",
+      "metaNotesI18n": {
+        "en": "Average low and mid-range acceleration, good top end and very fast in corners, with a slightly loose rear. Like a more stable muscle car and surprisingly strong; it is graceful even off-road. Suits top-speed tracks.",
+        "pt-br": "Aceleração mediana em baixa e média, boa em alta e muito rápido nas curvas, com traseira levemente solta. Parece um muscle car mais estável e é surpreendentemente forte; até no off-road anda bonito. Bom para pistas de velocidade final."
+      },
       "metaRank": 7,
       "name": "A cross-country AWD",
       "observations": [
@@ -246,7 +272,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -265,6 +291,21 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-f6d3107199",
+      "lapRefs": [
+        {
+          "time": "2:23.5",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.1",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:23.5 瑠璃光寺 2:00.1 前中段加速一般 后段不错 弯速很快 车尾微滑 像是更稳定的肌肉车 强度意外的还不错 越野也可以优雅 适合后段图",
+      "metaNotesI18n": {
+        "en": "Average low and mid-range acceleration, good top end and very fast in corners, with a slightly loose rear. Like a more stable muscle car and surprisingly strong; it is graceful even off-road. Suits top-speed tracks.",
+        "pt-br": "Aceleração mediana em baixa e média, boa em alta e muito rápido nas curvas, com traseira levemente solta. Parece um muscle car mais estável e é surpreendentemente forte; até no off-road anda bonito. Bom para pistas de velocidade final."
+      },
       "metaRank": 7,
       "name": "A cross-country AWD",
       "observations": [

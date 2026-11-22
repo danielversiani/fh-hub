@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -67,7 +67,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -82,7 +82,7 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-2ba4d173cd",
@@ -108,7 +108,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.517,
+      "score": 0.479,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -145,7 +145,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -184,7 +184,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -223,7 +223,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -259,7 +259,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -328,7 +328,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -364,7 +364,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -379,10 +379,15 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-de64f58fe6",
+      "metaNotes": "5.5 V8版本 需要一定控车要求及越野理解 长冲刺劣势 请尽可能稳住高转速以获得动力",
+      "metaNotesI18n": {
+        "en": "5.5 V8 version: needs car control and off-road sense. Weak on long sprints; keep the revs high for power.",
+        "pt-br": "Versão V8 5.5: exige controle do carro e noção de off-road. Perde em sprints longos; mantenha a rotação alta para ter potência."
+      },
       "metaRank": 31,
       "name": "A cross-country AWD",
       "observations": [
@@ -400,7 +405,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -470,9 +475,24 @@
       "confidence": 0.85,
       "createdAt": "2026-08-02",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-624854335",
+      "lapRefs": [
+        {
+          "time": "2:34.9",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:06.2",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:34.9 瑠璃光寺 2:06.2 前中段加速非常快 阻力极高没有后段 刚性略微欠缺 手感可能有些奇怪 车尾有些甩 有一点驾驶难度",
+      "metaNotesI18n": {
+        "en": "Very strong low and mid-range acceleration, very high drag and no top end; slightly lacking rigidity, the feel can be odd and the rear steps out a little. Somewhat difficult.",
+        "pt-br": "Acelera fortíssimo em baixa e média, arrasto altíssimo e sem fôlego em alta; falta um pouco de rigidez, sensação pode ser estranha e a traseira escapa um pouco. Tem certa dificuldade."
+      },
       "metaRank": 3,
       "name": "B CC Very strong",
       "observations": [
@@ -484,7 +504,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.728,
+      "score": 0.693,
       "shareCode": "624854335",
       "surface": "cross-country",
       "tier": "meta-plus",
@@ -502,9 +522,24 @@
       "confidence": 0.85,
       "createdAt": "2026-08-02",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-833095214",
+      "lapRefs": [
+        {
+          "time": "2:25.6",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:01.6",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:25.6 瑠璃光寺 2:01.6 7.2 V8版本 需要一定控车要求及越野理解 车尾较甩 比5.5V8版本更适合长冲刺",
+      "metaNotesI18n": {
+        "en": "7.2 V8 version: needs car control and off-road sense; a loose rear. Better than the 5.5 V8 on long sprints.",
+        "pt-br": "Versão V8 7.2: exige controle do carro e noção de off-road; traseira solta. Melhor que a V8 5.5 em sprints longos."
+      },
       "metaRank": 32,
       "name": "CC Sprint Strong",
       "observations": [
@@ -516,7 +551,7 @@
         }
       ],
       "role": "power",
-      "score": 0.605,
+      "score": 0.569,
       "shareCode": "833095214",
       "surface": "cross-country",
       "tier": "t1",

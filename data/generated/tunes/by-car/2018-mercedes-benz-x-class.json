@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -157,10 +157,15 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-422d903438",
+      "metaNotes": "无需用圈速证明强度的车 A越野断档 请一律选用最新版本 Seako有自动挡新手调校",
+      "metaNotesI18n": {
+        "en": "A car that needs no lap time to prove its strength. There is a gap in A-class cross country: always use the latest version. Seako has an automatic-gearbox tune for beginners.",
+        "pt-br": "Um carro que não precisa de tempo de volta para provar a força. Há um vazio na classe A de cross country: use sempre a versão mais recente. Seako tem uma tune com câmbio automático para iniciantes."
+      },
       "metaRank": 1,
       "name": "A cross-country AWD",
       "observations": [
@@ -172,7 +177,7 @@
         }
       ],
       "role": "power",
-      "score": 0.723,
+      "score": 0.685,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -297,6 +302,25 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-bae4d59bb3",
+      "lapRefs": [
+        {
+          "time": "2:32.9",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:07.5",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:19.5",
+          "track": "Izu"
+        }
+      ],
+      "metaNotes": "高城2:32.9 瑠璃光寺2:07.5 伊豆2:19.5 冲刺超快核弹皮卡 原厂胎满动力RV8 全段加速非常暴力 适合直线很多的地图 都有着极强的竞争力 但是控车难度较高",
+      "metaNotesI18n": {
+        "en": "An ultra-fast nuclear pickup on sprints: stock tires and a full-power RV8, violent acceleration throughout. Very competitive on tracks with lots of straights, but hard to control.",
+        "pt-br": "Uma picape-bomba ultrarrápida nos sprints: pneus de fábrica e RV8 com potência total, aceleração violenta em toda a faixa. Muito competitiva em pistas com muitas retas, mas difícil de controlar."
+      },
       "metaRank": 1,
       "name": "B cross-country AWD",
       "observations": [
@@ -388,6 +412,25 @@
       "difficulty": "hard",
       "drivetrain": "AWD",
       "id": "sc-127627239",
+      "lapRefs": [
+        {
+          "time": "2:32.9",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:07.5",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:19.5",
+          "track": "Izu"
+        }
+      ],
+      "metaNotes": "高城2:32.9 瑠璃光寺2:07.5 伊豆2:19.5 冲刺超快核弹皮卡 原厂胎满动力RV8 全段加速非常暴力 适合直线很多的地图 都有着极强的竞争力 但是控车难度较高",
+      "metaNotesI18n": {
+        "en": "An ultra-fast nuclear pickup on sprints: stock tires and a full-power RV8, violent acceleration throughout. Very competitive on tracks with lots of straights, but hard to control.",
+        "pt-br": "Uma picape-bomba ultrarrápida nos sprints: pneus de fábrica e RV8 com potência total, aceleração violenta em toda a faixa. Muito competitiva em pistas com muitas retas, mas difícil de controlar."
+      },
       "metaRank": 1,
       "name": "CC Sprint META++ BOOOOOOOOOM!!!!!!!!!!!!",
       "observations": [
@@ -417,9 +460,14 @@
       "confidence": 0.85,
       "createdAt": "2026-06-18",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-174448569",
+      "metaNotes": "无需用圈速证明强度的车 A越野断档 请一律选用最新版本 Seako有自动挡新手调校",
+      "metaNotesI18n": {
+        "en": "A car that needs no lap time to prove its strength. There is a gap in A-class cross country: always use the latest version. Seako has an automatic-gearbox tune for beginners.",
+        "pt-br": "Um carro que não precisa de tempo de volta para provar a força. Há um vazio na classe A de cross country: use sempre a versão mais recente. Seako tem uma tune com câmbio automático para iniciantes."
+      },
       "metaRank": 1,
       "name": "Sprint Meta+ 2.0 New",
       "observations": [
@@ -431,7 +479,7 @@
         }
       ],
       "role": "power",
-      "score": 0.723,
+      "score": 0.688,
       "shareCode": "174448569",
       "surface": "cross-country",
       "tier": "meta-plus",

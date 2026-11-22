@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -103,7 +103,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -247,7 +247,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -283,7 +283,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -407,8 +407,27 @@
       "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-105434953",
+      "lapRefs": [
+        {
+          "time": "2:33.8",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:07.8",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:33.8 瑠璃光寺 2:07.8 虽然推重一般般 但是阻力低加速不慢 原厂胎机械抓地极差 侧滑非常明显 需要较强的手法控车",
+      "metaNotesI18n": {
+        "en": "Average power-to-weight, but low drag keeps acceleration from being slow. Stock tires with terrible mechanical grip: it slides sideways a lot and needs a firm hand.",
+        "pt-br": "Relação peso-potência mediana, mas o arrasto baixo deixa a aceleração nada lenta. Pneus de fábrica com aderência mecânica péssima: desliza muito de lado e exige mão firme."
+      },
       "metaRank": 6,
       "name": "B CC Sprint",
+      "newerVersion": {
+        "date": "2026-11-02",
+        "sourceId": "noa-miyako"
+      },
       "observations": [
         {
           "raw": {},
@@ -436,9 +455,24 @@
       "confidence": 0.85,
       "createdAt": "2026-05-30",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-177892394",
+      "lapRefs": [
+        {
+          "time": "2:01.3",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:25.2",
+          "track": "Takashiro"
+        }
+      ],
+      "metaNotes": "瑠璃光寺 2:01.3 高城2:25.2 高速弯极快 悬挂还行 极低的阻力淡化了相对一般的推重比 加速表现很强 后段很快",
+      "metaNotesI18n": {
+        "en": "Extremely fast in high-speed corners with decent suspension; very low drag makes up for the average power-to-weight. Strong acceleration and quick at the top end.",
+        "pt-br": "Rapidíssimo nas curvas de alta e suspensão razoável; o arrasto baixíssimo compensa a relação peso-potência mediana. Aceleração forte e rápido em alta."
+      },
       "metaRank": 33,
       "name": "Great CC",
       "observations": [
@@ -450,7 +484,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.598,
+      "score": 0.562,
       "shareCode": "177892394",
       "surface": "cross-country",
       "tier": "t1",

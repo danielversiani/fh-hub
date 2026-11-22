@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -14,6 +14,17 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-35441eccc6",
+      "lapRefs": [
+        {
+          "time": "1:09.8",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:09.8 前中段加速很快 弯速很快 205胎宽但是出弯速度并不慢 机抓足够 悬挂有点Q弹 但是手感并不差 难度不高",
+      "metaNotesI18n": {
+        "en": "Strong low and mid-range acceleration and fast in corners; even on 205 tires it exits corners well. Enough grip, slightly springy suspension that does not get in the way. Easy.",
+        "pt-br": "Acelera muito em baixa e média e é rápido nas curvas; mesmo com pneus de 205 sai bem das curvas. Aderência suficiente, suspensão um pouco elástica mas sem atrapalhar. Fácil."
+      },
       "metaRank": 6,
       "name": "B dirt AWD",
       "observations": [
@@ -64,7 +75,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -81,9 +92,20 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "nc-fd5b798e65",
+      "lapRefs": [
+        {
+          "time": "1:05.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:05.6 前中段加速很不错 悬挂较软 刹车一般导致动态有些多变 有一点难度",
+      "metaNotesI18n": {
+        "en": "Great low and mid-range acceleration; soft suspension and average brakes make its behaviour changeable. A bit tricky.",
+        "pt-br": "Ótima aceleração em baixa e média; suspensão mole e freio mediano deixam o comportamento variável. Um pouco difícil."
+      },
       "metaRank": 57,
       "name": "I Paused GTA VI To Tune This (B Road Very Strong Stock Look)",
       "observations": [
@@ -105,7 +127,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

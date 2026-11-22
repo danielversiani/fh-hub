@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -10,10 +10,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-3b5da4769b",
+      "lapRefs": [
+        {
+          "time": "55.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.5 悬挂不好 动态诡异 有一定驾驶难度",
+      "metaNotesI18n": {
+        "en": "Poor suspension and odd behaviour: somewhat difficult.",
+        "pt-br": "Suspensão ruim e comportamento estranho: tem certa dificuldade."
+      },
       "metaRank": 85,
       "name": "S1 road AWD",
       "observations": [
@@ -25,7 +36,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.554,
+      "score": 0.517,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",

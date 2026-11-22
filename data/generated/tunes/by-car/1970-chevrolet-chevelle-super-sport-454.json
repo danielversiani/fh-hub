@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -83,10 +83,15 @@
       "class": "C",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-2f3f1b171c",
+      "metaNotes": "更均衡的68野马 全空均衡 无空上限更高",
+      "metaNotesI18n": {
+        "en": "A more balanced '68 Mustang. With full aero it is balanced; with no aero it has a higher ceiling.",
+        "pt-br": "Um Mustang 68 mais equilibrado. Com aero completa é equilibrado; sem aero, tem teto mais alto."
+      },
       "metaRank": 6,
       "name": "C road AWD",
       "observations": [
@@ -98,7 +103,7 @@
         }
       ],
       "role": "power",
-      "score": 0.685,
+      "score": 0.648,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -376,8 +381,23 @@
       "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-709515763",
+      "lapRefs": [
+        {
+          "time": "1:10.2",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根1:10.2 标题为Sprint的调校 冲刺图更快 肌肉车不减重 刚性一般 弯中姿态多变 较难开快 重刹时打死方向可以甩起来辅助过弯",
+      "metaNotesI18n": {
+        "en": "Tune titled \"Sprint\": faster on sprints. A muscle car with no weight reduction, average rigidity and a changing attitude mid-corner; hard to drive fast. Under heavy braking, full lock swings the rear round and helps it turn.",
+        "pt-br": "Tune com \"Sprint\" no título: mais rápida nos sprints. Muscle car sem redução de peso, rigidez mediana e postura que muda no meio da curva; difícil de andar rápido. Numa freada forte, esterçar tudo faz a traseira girar e ajuda a contornar."
+      },
       "metaRank": 15,
       "name": "B Dirt Sprint V1.2",
+      "newerVersion": {
+        "date": "2026-10-31",
+        "sourceId": "noa-miyako"
+      },
       "observations": [
         {
           "raw": {},

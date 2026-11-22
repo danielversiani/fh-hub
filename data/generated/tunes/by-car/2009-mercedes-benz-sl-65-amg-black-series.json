@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -37,11 +37,14 @@
     {
       "buildTags": [],
       "carId": "2009-mercedes-benz-sl-65-amg-black-series",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-2be9b1b6a8",
+      "metaRank": 83,
       "name": "my favorite yacht",
       "observations": [
         {
@@ -61,20 +64,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "cte-mag"
     },
     {
       "buildTags": [],
       "carId": "2009-mercedes-benz-sl-65-amg-black-series",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-5b57c84f82",
+      "metaRank": 83,
       "name": "a road",
       "observations": [
         {
@@ -94,10 +100,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "korbendallas709"
     },
     {
@@ -136,11 +142,56 @@
     {
       "buildTags": [],
       "carId": "2009-mercedes-benz-sl-65-amg-black-series",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-8a93f220e3",
+      "lapRefs": [
+        {
+          "time": "1:00.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.4 均衡车，各方各面表现都很不错",
+      "metaNotesI18n": {
+        "en": "A balanced car, very good in every respect.",
+        "pt-br": "Carro equilibrado, muito bom em todos os aspectos."
+      },
+      "metaRank": 83,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 170,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-hokaze"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-mercedes-benz-sl-65-amg-black-series",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-a603678170",
+      "metaRank": 83,
       "name": "Heavy Power Tank Road T1 Shirakawa 00.6",
       "observations": [
         {
@@ -160,10 +211,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
     {
@@ -202,6 +253,48 @@
     {
       "buildTags": [],
       "carId": "2009-mercedes-benz-sl-65-amg-black-series",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-cdb535030b",
+      "lapRefs": [
+        {
+          "time": "1:00.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.4 均衡车，各方各面表现都很不错",
+      "metaNotesI18n": {
+        "en": "A balanced car, very good in every respect.",
+        "pt-br": "Carro equilibrado, muito bom em todos os aspectos."
+      },
+      "metaRank": 83,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 170,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-mercedes-benz-sl-65-amg-black-series",
       "categories": [],
       "class": "A",
       "confidence": 0.35,
@@ -235,11 +328,14 @@
     {
       "buildTags": [],
       "carId": "2009-mercedes-benz-sl-65-amg-black-series",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-dffb6ab253",
+      "metaRank": 83,
       "name": "oem++++++++++...",
       "observations": [
         {
@@ -259,19 +355,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "f1r-kilian"
     },
     {
       "buildTags": [],
       "carId": "2009-mercedes-benz-sl-65-amg-black-series",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-324106900",
+      "metaRank": 83,
       "name": "A Allround",
       "observations": [
         {
@@ -281,11 +380,11 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.559,
       "shareCode": "324106900",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "kilianfirebold"
     }
   ],

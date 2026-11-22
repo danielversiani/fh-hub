@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -34,7 +34,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -103,7 +103,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -139,7 +139,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -310,7 +310,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -379,7 +379,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -448,7 +448,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -484,7 +484,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -532,10 +532,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-e443ef1ae1",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:00.7 加，前中还行，中后一般略差 拐，低中还行，中高不错 *适合均衡赛道",
+      "metaNotesI18n": {
+        "en": "Decent low and mid-range acceleration, average top end; decent in slow corners and good in fast ones. Suits balanced tracks.",
+        "pt-br": "Aceleração razoável em baixa e média, mediana em alta; curvas razoáveis nas lentas e boas nas rápidas. Bom para pistas equilibradas."
+      },
       "metaRank": 36,
       "name": "A road AWD",
       "observations": [
@@ -547,7 +558,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -573,7 +584,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.531,
+      "score": 0.493,
       "shareCode": "154660384",
       "surface": "road",
       "tier": "t1",

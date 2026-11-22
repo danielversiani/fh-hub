@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -99,6 +99,52 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-deberti-ford-super-duty-f-250-lariat-transformer",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a004e894b2",
+      "lapRefs": [
+        {
+          "time": "2:10.9",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:39.9",
+          "track": "Takashiro"
+        }
+      ],
+      "metaNotes": "瑠璃光寺 2:10.9 高城 2:39.9 完全没有后段 不需要后段的图表现还可以 原厂小越野胎操控不算难 1/2档齿比密集 起步注意升档",
+      "metaNotesI18n": {
+        "en": "No top end at all: fine only where top speed does not matter. On the small stock off-road tires it is not hard. Very short 1st and 2nd gears: mind the upshifts at the start.",
+        "pt-br": "Sem nenhum fôlego em alta: vai bem só onde a velocidade final não importa. Com os pneus off-road pequenos de fábrica não é difícil. 1ª e 2ª marchas muito curtas: atenção às trocas na largada."
+      },
+      "metaRank": 28,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 61,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.545,
+      "surface": "cross-country",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],

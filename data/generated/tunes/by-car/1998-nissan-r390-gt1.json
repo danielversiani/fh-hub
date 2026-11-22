@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -34,7 +34,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -82,10 +82,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-7602a20885",
+      "lapRefs": [
+        {
+          "time": "55.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川55.8 冲刺车，前中段加速快，空力差不怎么拐弯",
+      "metaNotesI18n": {
+        "en": "A sprint car: strong low and mid-range acceleration, weak aero and barely turns.",
+        "pt-br": "Carro de sprint: acelera forte em baixa e média, aerodinâmica fraca e quase não faz curva."
+      },
       "metaRank": 86,
       "name": "S1 road AWD",
       "observations": [
@@ -97,7 +108,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.554,
+      "score": 0.517,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",

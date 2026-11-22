@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -243,11 +243,14 @@
         "stock-look"
       ],
       "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-92bf1fe68e",
+      "metaRank": 65,
       "name": "S1 Road Grip Stock Look",
       "observations": [
         {
@@ -267,20 +270,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "goodreishun"
     },
     {
       "buildTags": [],
       "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-a44a42a0b4",
+      "metaRank": 65,
       "name": "Got buffed i guess",
       "observations": [
         {
@@ -300,20 +306,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "nomv1"
     },
     {
       "buildTags": [],
       "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-b62d21db66",
+      "metaRank": 65,
       "name": "S1 Road",
       "observations": [
         {
@@ -333,11 +342,53 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "ndl-ramen"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii-forza-edition",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b836efa3ef",
+      "lapRefs": [
+        {
+          "time": "27.6",
+          "track": "Edamame"
+        }
+      ],
+      "metaNotes": "毛豆 27.6",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 65,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 134,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "handling",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -378,12 +429,14 @@
       ],
       "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii-forza-edition",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-fdf3654f63",
+      "metaRank": 65,
       "name": "Purist",
       "observations": [
         {
@@ -403,10 +456,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "k1z-jumpy"
     }
   ],

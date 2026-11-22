@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -154,10 +154,44 @@
     {
       "buildTags": [],
       "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-df9ac3037e",
+      "metaRank": 20,
+      "name": "S2 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 44,
+          "sourceId": "noa-miyako",
+          "tab": "s2-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
       "id": "sc-256342369",
+      "metaRank": 20,
       "name": "S2 Handling",
       "observations": [
         {
@@ -167,22 +201,25 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.427,
       "shareCode": "256342369",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "letzelu"
     },
     {
       "buildTags": [],
       "carId": "1998-nissan-23-pennzoil-nismo-skyline-gt-r",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "engine": "4.8L V10",
       "id": "sc-639236522",
+      "metaRank": 20,
       "name": "AWD Handling",
       "observations": [
         {
@@ -204,11 +241,11 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.416,
+      "score": 0.415,
       "shareCode": "639236522",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
     },

@@ -1,16 +1,19 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
         "stock-look"
       ],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-02e4630b04",
+      "metaRank": 41,
       "name": "stock look (use all 10 gears)",
       "observations": [
         {
@@ -30,20 +33,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "zaz490"
     },
     {
       "buildTags": [],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-27ccb9b22f",
+      "metaRank": 41,
       "name": "A Road - USE ALL GEARS",
       "observations": [
         {
@@ -63,10 +69,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "esv-lawrence"
     },
     {
@@ -183,11 +189,14 @@
     {
       "buildTags": [],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-6c5d447637",
+      "metaRank": 41,
       "name": "A Road - Strong Allround",
       "observations": [
         {
@@ -207,10 +216,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard"
     },
     {
@@ -219,12 +228,14 @@
       ],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-f551913c50",
+      "metaRank": 41,
       "name": "LMS \"Purist\" | 47.5 Narai (Could 46?)",
       "observations": [
         {
@@ -244,19 +255,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-142319068",
+      "metaRank": 41,
       "name": "A Allround",
       "observations": [
         {
@@ -266,23 +280,38 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.559,
       "shareCode": "142319068",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
       "carId": "2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-06-19",
+      "credited": true,
       "difficulty": "easy",
       "drivetrain": "AWD",
       "id": "sc-162568615",
+      "lapRefs": [
+        {
+          "time": "1:00.1",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.1 加一般，拐不错（宽体+行李架） *这车有问题，服务器不给上传和下载调校。 调校数据可以加群找眠眠要~",
+      "metaNotesI18n": {
+        "en": "Average acceleration, good in corners (widebody and roof rack). This car has a bug: the server will not let you upload or download tunes; the settings can be requested in Noa Miyako's group.",
+        "pt-br": "Aceleração mediana, bom nas curvas (widebody e bagageiro). Este carro tem um problema: o servidor não deixa enviar nem baixar tunes; os ajustes podem ser pedidos no grupo de Noa Miyako."
+      },
+      "metaRank": 41,
       "name": "*Shira 1:00.3/Road Off Meta (WB+RoofRack)",
       "observations": [
         {
@@ -303,11 +332,12 @@
         }
       ],
       "recommended": true,
-      "score": 0.529,
+      "role": "allround",
+      "score": 0.637,
       "shareCode": "162568615",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "msr-mian"
     }

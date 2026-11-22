@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -37,11 +37,112 @@
     {
       "buildTags": [],
       "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3b147ff27d",
+      "lapRefs": [
+        {
+          "time": "2:26.6",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:01.8",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:26.6 瑠璃光寺 2:01.8 鸣尾1:03.8 和FH5差不多 没有后段纯冲刺图较弱 操控较好 动力一般需要抓地跑法 不能漂移 漂移掉速严重",
+      "metaNotesI18n": {
+        "en": "Similar to FH5: no top end, weak on pure sprints. Good handling, average power: drive it on grip. You cannot drift it; it loses a lot of speed.",
+        "pt-br": "Parecido com o do FH5: sem fôlego em alta, fraco em sprints puros. Bom nas curvas, potência mediana: pilote na aderência. Não dá para driftar, perde muita velocidade."
+      },
+      "metaRank": 34,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 72,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        },
+        {
+          "raw": {},
+          "row": 74,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-3d630ccb4c",
+      "lapRefs": [
+        {
+          "time": "2:26.6",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:01.8",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:26.6 瑠璃光寺 2:01.8 鸣尾1:03.8 和FH5差不多 没有后段纯冲刺图较弱 操控较好 动力一般需要抓地跑法 不能漂移 漂移掉速严重",
+      "metaNotesI18n": {
+        "en": "Similar to FH5: no top end, weak on pure sprints. Good handling, average power: drive it on grip. You cannot drift it; it loses a lot of speed.",
+        "pt-br": "Parecido com o do FH5: sem fôlego em alta, fraco em sprints puros. Bom nas curvas, potência mediana: pilote na aderência. Não dá para driftar, perde muita velocidade."
+      },
+      "metaRank": 34,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 72,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
+      "categories": [
+        "off-meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-5cebf7447b",
+      "metaRank": 23,
       "name": "B Dirt/CC Race tire not Stocks",
       "observations": [
         {
@@ -61,20 +162,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.505,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "logikj"
     },
     {
       "buildTags": [],
       "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-6583cf03eb",
+      "metaRank": 34,
       "name": "A Dirt CC | Centri V 10",
       "observations": [
         {
@@ -94,20 +198,69 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
       "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6dd99cc0c7",
+      "lapRefs": [
+        {
+          "time": "2:37.9",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:06.9",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:37.9 瑠璃光寺 2:06.9 加速弯速还可以 手感较为奇怪 车尾外抛 不是很好开",
+      "metaNotesI18n": {
+        "en": "Decent acceleration and cornering; an odd feel and the rear gets thrown wide. Not very easy.",
+        "pt-br": "Aceleração e curvas razoáveis; sensação estranha e a traseira é jogada para fora. Não é muito fácil."
+      },
+      "metaRank": 23,
+      "name": "B cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 50,
+          "sourceId": "noa-miyako",
+          "tab": "b-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.554,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-abc8a5842e",
+      "metaRank": 34,
       "name": "A CC (M/C)",
       "observations": [
         {
@@ -127,10 +280,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "thedannny"
     },
     {
@@ -169,11 +322,14 @@
     {
       "buildTags": [],
       "carId": "2016-toyota-land-cruiser-arctic-trucks-at37",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-d882238383",
+      "metaRank": 34,
       "name": "A DIrt/CC (Use this one)",
       "observations": [
         {
@@ -193,10 +349,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
     }
   ],

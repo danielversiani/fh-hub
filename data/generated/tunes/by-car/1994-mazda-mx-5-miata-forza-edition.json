@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-025d26d252",
+      "metaRank": 2,
       "name": "380 2.9G Sprint Allrounder V2",
       "observations": [
         {
@@ -28,20 +31,69 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
     },
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0373f96f27",
+      "lapRefs": [
+        {
+          "time": "55.1",
+          "track": "Sunflower"
+        },
+        {
+          "time": "51.590",
+          "track": "Hokubu"
+        }
+      ],
+      "metaNotes": "向日葵55.1 北部51.590干净圈 比CLK更均衡",
+      "metaNotesI18n": {
+        "en": "More balanced than the CLK.",
+        "pt-br": "Mais equilibrado que o CLK."
+      },
+      "metaRank": 7,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 16,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.713,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "fuzzytexas81292"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-0bf6be7b74",
+      "metaRank": 7,
       "name": "S1 Dirt Meta",
       "observations": [
         {
@@ -61,10 +113,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.646,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     },
     {
@@ -136,11 +188,14 @@
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-26df02cf3f",
+      "metaRank": 2,
       "name": "R Road Awd",
       "observations": [
         {
@@ -160,10 +215,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "eojz7294"
     },
     {
@@ -202,11 +257,14 @@
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-3be698a29b",
+      "metaRank": 7,
       "name": "Dirt Grip Meta 1.3",
       "observations": [
         {
@@ -226,19 +284,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.646,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "iphanhan"
     },
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "nc-46b287dc32",
+      "metaRank": 4,
       "name": "S2 Speed Dirt-Allround",
       "observations": [
         {
@@ -248,10 +309,10 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.532,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "osm-cinnabar-kapienpl"
     },
     {
@@ -290,11 +351,14 @@
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-61105153f4",
+      "metaRank": 4,
       "name": "S2 Road AWD Accel",
       "observations": [
         {
@@ -314,10 +378,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "destrukdi"
     },
     {
@@ -325,11 +389,14 @@
         "powerbuild"
       ],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-677354785a",
+      "metaRank": 4,
       "name": "this is a lamborghini",
       "observations": [
         {
@@ -349,10 +416,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "scaans"
     },
     {
@@ -428,11 +495,14 @@
         "powerbuild"
       ],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-720d747a62",
+      "metaRank": 4,
       "name": "Strong For Stop&GO Tracks",
       "observations": [
         {
@@ -452,10 +522,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
     },
     {
@@ -463,11 +533,14 @@
         "powerbuild"
       ],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-7a8b4478e5",
+      "metaRank": 4,
       "name": "accelerating i think",
       "observations": [
         {
@@ -487,10 +560,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "scaans"
     },
     {
@@ -529,11 +602,14 @@
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-97901c8050",
+      "metaRank": 7,
       "name": "S1 Dirt",
       "observations": [
         {
@@ -553,20 +629,30 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.646,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "kcnaxii"
     },
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
       "drivetrain": "AWD",
       "id": "nc-a30d0c9e5c",
+      "metaNotes": "长冲刺强车 中后段优势",
+      "metaNotesI18n": {
+        "en": "Strong on long sprints, with an advantage in the mid and top range.",
+        "pt-br": "Forte em sprints longos, com vantagem na faixa média e alta."
+      },
+      "metaRank": 4,
       "name": "i hate this car",
       "observations": [
         {
@@ -586,10 +672,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.62,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "drift",
       "tunerId": "k1z-gray"
     },
     {
@@ -696,11 +784,21 @@
         "powerbuild"
       ],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
       "drivetrain": "RWD",
       "id": "nc-ccdbd8ef56",
+      "metaNotes": "长冲刺强车 中后段优势",
+      "metaNotesI18n": {
+        "en": "Strong on long sprints, with an advantage in the mid and top range.",
+        "pt-br": "Forte em sprints longos, com vantagem na faixa média e alta."
+      },
+      "metaRank": 4,
       "name": "venturi",
       "observations": [
         {
@@ -720,10 +818,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.62,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "drift",
       "tunerId": "vsm-huon"
     },
     {
@@ -758,6 +858,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1994-mazda-mx-5-miata-forza-edition",
+      "categories": [
+        "meta"
+      ],
+      "class": "R",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-f4e060132c",
+      "metaNotes": "传奇岛世界纪录 嘉年华世界纪录 维纳斯世界纪录 海滨世界纪录 霜山世界纪录",
+      "metaNotesI18n": {
+        "en": "World record at Legend Island, the Festival Sprint and three other routes.",
+        "pt-br": "Recorde mundial em Legend Island, no Festival Sprint e em outros três traçados."
+      },
+      "metaRank": 2,
+      "name": "R road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 5,
+          "sourceId": "noa-miyako",
+          "tab": "r-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "slick",
+      "tunerId": "vsm-huon"
     },
     {
       "buildTags": [],
@@ -828,10 +964,13 @@
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-128928248",
+      "metaRank": 7,
       "name": "S1 Dirt Allround",
       "observations": [
         {
@@ -841,11 +980,11 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.634,
       "shareCode": "128928248",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "rocklxd"
     },
     {
@@ -853,11 +992,14 @@
         "powerbuild"
       ],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-07-05",
       "id": "sc-134466646",
+      "metaRank": 2,
       "name": "The Holy Grail",
       "observations": [
         {
@@ -867,11 +1009,11 @@
           "tab": "online"
         }
       ],
-      "score": 0.51,
+      "score": 0.557,
       "shareCode": "134466646",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "vsm-tachyon"
     },
     {
@@ -900,11 +1042,32 @@
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-05-27",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
       "id": "sc-148537263",
+      "lapRefs": [
+        {
+          "time": "55.1",
+          "track": "Sunflower"
+        },
+        {
+          "time": "51.590",
+          "track": "Hokubu"
+        }
+      ],
+      "metaNotes": "向日葵55.1 北部51.590干净圈 比CLK更均衡",
+      "metaNotesI18n": {
+        "en": "More balanced than the CLK.",
+        "pt-br": "Mais equilibrado que o CLK."
+      },
+      "metaRank": 7,
       "name": "Dirt Grip Meta 1.3",
       "observations": [
         {
@@ -914,11 +1077,13 @@
           "tab": "online"
         }
       ],
-      "score": 0.5,
+      "role": "handling",
+      "score": 0.712,
       "shareCode": "148537263",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "lphanhan"
     },
     {
@@ -957,12 +1122,22 @@
         "powerbuild"
       ],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
       "drivetrain": "RWD",
       "engine": "Stock",
       "id": "sc-170595380",
+      "metaNotes": "长冲刺强车 中后段优势",
+      "metaNotesI18n": {
+        "en": "Strong on long sprints, with an advantage in the mid and top range.",
+        "pt-br": "Forte em sprints longos, com vantagem na faixa média e alta."
+      },
+      "metaRank": 4,
       "name": "worst car they've ever added",
       "observations": [
         {
@@ -1000,11 +1175,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.635,
+      "role": "power",
+      "score": 0.69,
       "shareCode": "170595380",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "k1z-gray"
     },
@@ -1013,11 +1189,14 @@
         "powerbuild"
       ],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "sc-395112114",
+      "metaRank": 4,
       "name": "S2 Road Meta Powerbuild V1.2",
       "notes": "Road sprints and Street",
       "observations": [
@@ -1044,20 +1223,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.674,
+      "score": 0.632,
       "shareCode": "395112114",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-479201039",
+      "metaRank": 2,
       "name": "R Speed",
       "observations": [
         {
@@ -1067,11 +1249,11 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.532,
       "shareCode": "479201039",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "osm-cinnabar"
     },
     {
@@ -1109,10 +1291,13 @@
     {
       "buildTags": [],
       "carId": "1994-mazda-mx-5-miata-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-918915341",
+      "metaRank": 2,
       "name": "R road",
       "observations": [
         {
@@ -1122,11 +1307,11 @@
           "tab": "online"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "shareCode": "918915341",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "ptw-hiyori"
     }
   ],

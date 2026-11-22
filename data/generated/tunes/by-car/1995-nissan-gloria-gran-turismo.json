@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -97,7 +97,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -136,7 +136,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -184,9 +184,20 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "nc-a00fba02e6",
+      "lapRefs": [
+        {
+          "time": "1:01.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:01.6 超级大砖头，加速还不错，不拐弯",
+      "metaNotesI18n": {
+        "en": "A huge brick: accelerates well, but will not turn.",
+        "pt-br": "Um tijolão: acelera bem, mas não faz curva."
+      },
       "metaRank": 144,
       "name": "A Road BIG BRICK",
       "observations": [
@@ -208,7 +219,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.517,
+      "score": 0.479,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -278,7 +289,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",

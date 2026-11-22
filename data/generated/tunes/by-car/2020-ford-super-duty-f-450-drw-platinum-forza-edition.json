@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-0323709da3",
+      "metaRank": 3,
       "name": "A Dirt/CC Strong",
       "observations": [
         {
@@ -28,10 +31,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.676,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "logikj"
     },
     {
@@ -70,11 +73,56 @@
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6484166a8a",
+      "lapRefs": [
+        {
+          "time": "52.3",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "石部 52.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 13,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 29,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.676,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-759cca0122",
+      "metaRank": 13,
       "name": "Fun A Dirt",
       "observations": [
         {
@@ -94,10 +142,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
     },
     {
@@ -169,6 +217,48 @@
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a74a507667",
+      "lapRefs": [
+        {
+          "time": "1:01.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:01.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 115,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 235,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
       "categories": [],
       "class": "S1",
       "confidence": 0.35,
@@ -235,11 +325,14 @@
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-e54fc86a2b",
+      "metaRank": 115,
       "name": "A road",
       "observations": [
         {
@@ -259,19 +352,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "silvasuperbee"
     },
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-118238176",
+      "metaRank": 115,
       "name": "A Allround",
       "observations": [
         {
@@ -281,21 +377,43 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.529,
       "shareCode": "118238176",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "grandma-driving"
     },
     {
+      "brainAfk": "auto",
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-10-23",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
       "id": "sc-182288226",
+      "lapRefs": [
+        {
+          "time": "2:24.3",
+          "track": "Takashiro"
+        },
+        {
+          "time": "1:59.5",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:24.3 瑠璃光寺 1:59.5 传奇岛 冈城 鸣尾世界纪录 弯速非常恐怖 同时加速快 也有一定后段 但是悬挂会莫名其妙起飞 线上蹭墙容易被减速 小心驾驶 在部分圈图有断档圈速",
+      "metaNotesI18n": {
+        "en": "World record at Legend Island, Okajo and Naruo. Frighteningly fast in corners, strong acceleration and some top end; but the suspension sometimes takes off for no reason, and online, scraping a wall slows it down. Drive carefully; on some circuits it posts unmatched lap times.",
+        "pt-br": "Recorde mundial em Legend Island, Okajo e Naruo. Assustadoramente rápido nas curvas, acelera muito e tem algum fôlego em alta; mas a suspensão às vezes decola do nada, e no online raspar na parede faz perder velocidade. Pilote com cuidado; em alguns circuitos tem tempos isolados."
+      },
+      "metaRank": 3,
       "name": "Heavy Hitters",
       "notes": "Cross Country Meta+ recommendation from LES Venturi.",
       "observations": [
@@ -306,21 +424,29 @@
           "tab": "online"
         }
       ],
-      "score": 0.536,
+      "role": "handling",
+      "score": 0.764,
       "shareCode": "182288226",
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "greeteddust8"
     },
     {
       "buildTags": [],
       "carId": "2020-ford-super-duty-f-450-drw-platinum-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-05-08",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
       "id": "sc-441207872",
+      "metaRank": 5,
       "name": "S1 CC Grip",
       "observations": [
         {
@@ -330,11 +456,13 @@
           "tab": "online"
         }
       ],
-      "score": 0.496,
+      "role": "allround",
+      "score": 0.622,
       "shareCode": "441207872",
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "noa-miyako"
     }
   ],

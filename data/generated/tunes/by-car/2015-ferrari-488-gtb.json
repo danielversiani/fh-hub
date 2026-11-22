@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -10,10 +10,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-94a73cb698",
+      "lapRefs": [
+        {
+          "time": "55.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.6 加速还行 后段快 操控勉强合格 车尾有点甩",
+      "metaNotesI18n": {
+        "en": "Decent acceleration, quick at the top end; handling only acceptable, the rear steps out a little.",
+        "pt-br": "Aceleração razoável, rápido em alta; dirigibilidade apenas aceitável, a traseira escapa um pouco."
+      },
       "metaRank": 79,
       "name": "S1 road AWD",
       "observations": [
@@ -25,7 +36,7 @@
         }
       ],
       "role": "power",
-      "score": 0.554,
+      "score": 0.517,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -62,7 +73,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",

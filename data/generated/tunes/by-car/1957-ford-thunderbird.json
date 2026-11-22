@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -89,10 +89,25 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-cad5e32fd9",
+      "lapRefs": [
+        {
+          "time": "2:24.6",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:01.2",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:24.6 瑠璃光寺 2:01.2 前中段加速极快 弯速一般 悬挂在肌肉车算好 但是也是通病不能过水落地容易坠机",
+      "metaNotesI18n": {
+        "en": "Very strong low and mid-range acceleration, average cornering; a good suspension for a muscle car, but with the usual flaw: it cannot cross water and lands badly off jumps.",
+        "pt-br": "Aceleração fortíssima em baixa e média, curvas medianas; suspensão boa para um muscle car, mas com o mal de sempre: não atravessa água e cai mal dos saltos."
+      },
       "metaRank": 28,
       "name": "A cross-country AWD",
       "observations": [
@@ -104,7 +119,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "cross-country",
       "tier": "t1",
       "tierSource": "meta-table",

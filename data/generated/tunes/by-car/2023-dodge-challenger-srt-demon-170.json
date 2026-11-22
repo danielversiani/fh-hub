@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -60,7 +60,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -75,10 +75,29 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-794a02d68b",
+      "lapRefs": [
+        {
+          "time": "2:24.1",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.6",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "57.6",
+          "track": "Nangan"
+        }
+      ],
+      "metaNotes": "高城 2:24.1 瑠璃光寺 2:00.6 南岸 57.6 加速和弯速都还可以 整体刚性比老肌肉车强 底盘更低 涉水不如老肌肉车 但是颠簸 菜狗的解悬挂 落地保速能力强适合冲刺图 Seako没解悬挂的版本适合圈图",
+      "metaNotesI18n": {
+        "en": "Decent acceleration and cornering; stiffer than the old muscle cars and lower, it crosses water worse than they do and bounces. CaiGou's tune, with unlocked suspension, keeps its speed on landings and suits sprints; Seako's, without it, suits circuits.",
+        "pt-br": "Aceleração e curvas razoáveis; mais rígido que os muscle cars antigos e com chassi mais baixo, atravessa água pior que eles e balança. A tune de CaiGou, com suspensão liberada, mantém a velocidade nas aterrissagens e serve para sprints; a de Seako, sem suspensão liberada, para circuitos."
+      },
       "metaRank": 16,
       "name": "A cross-country AWD",
       "observations": [
@@ -90,7 +109,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -106,7 +125,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-85840c3592",
@@ -132,7 +151,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -148,10 +167,29 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-a930e02ce5",
+      "lapRefs": [
+        {
+          "time": "2:24.1",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.6",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "57.6",
+          "track": "Nangan"
+        }
+      ],
+      "metaNotes": "高城 2:24.1 瑠璃光寺 2:00.6 南岸 57.6 加速和弯速都还可以 整体刚性比老肌肉车强 底盘更低 涉水不如老肌肉车 但是颠簸 菜狗的解悬挂 落地保速能力强适合冲刺图 Seako没解悬挂的版本适合圈图",
+      "metaNotesI18n": {
+        "en": "Decent acceleration and cornering; stiffer than the old muscle cars and lower, it crosses water worse than they do and bounces. CaiGou's tune, with unlocked suspension, keeps its speed on landings and suits sprints; Seako's, without it, suits circuits.",
+        "pt-br": "Aceleração e curvas razoáveis; mais rígido que os muscle cars antigos e com chassi mais baixo, atravessa água pior que eles e balança. A tune de CaiGou, com suspensão liberada, mantém a velocidade nas aterrissagens e serve para sprints; a de Seako, sem suspensão liberada, para circuitos."
+      },
       "metaRank": 16,
       "name": "A cross-country AWD",
       "observations": [
@@ -163,7 +201,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -179,7 +217,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-dbb0134761",
@@ -205,7 +243,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

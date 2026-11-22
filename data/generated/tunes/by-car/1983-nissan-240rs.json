@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -51,6 +51,10 @@
       "fromMeta": true,
       "id": "nc-6f47ac37dc",
       "metaNotes": "白川1：00.5 加速很不错，可惜轮胎太窄，驾驶时小心打滑",
+      "metaNotesI18n": {
+        "en": "Accelerates very well, but the tires are too narrow: watch out for slides.",
+        "pt-br": "Acelera muito bem, mas os pneus são estreitos demais: cuidado com as derrapagens."
+      },
       "metaRank": 95,
       "name": "A road AWD",
       "observations": [
@@ -78,10 +82,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-840affba0a",
+      "lapRefs": [
+        {
+          "time": "1:05.6",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.6(4.8 V10)/1:05.8(3.7 V6) 前中段加速不错 弯速不错 但是空力极度不均导致高速弯容易甩尾外抛 需要一定控车手法 4.8版本更均衡 3.7版本更简单操控",
+      "metaNotesI18n": {
+        "en": "Good low and mid-range acceleration and cornering, but very unbalanced aero makes the rear step out in fast corners: needs control. The 4.8 V10 version is more balanced; the 3.7 V6 is easier.",
+        "pt-br": "Boa aceleração em baixa e média e boas curvas, mas a aerodinâmica muito desequilibrada faz a traseira escapar nas curvas de alta: exige controle. A versão V10 4.8 é mais equilibrada; a V6 3.7, mais fácil."
+      },
       "metaRank": 39,
       "name": "A dirt AWD",
       "observations": [
@@ -93,7 +108,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -130,7 +145,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",

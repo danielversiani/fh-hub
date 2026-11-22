@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -10,10 +10,25 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b1b5d8af3f",
+      "lapRefs": [
+        {
+          "time": "2:06.9",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:36.0",
+          "track": "Takashiro"
+        }
+      ],
+      "metaNotes": "瑠璃光寺 2:06.9 世界纪录 (han) 高城 2:36.0(限速320) 加速还行 限速280/320两个版本 前者前中段更快适合线上 后者则应对更需要后段的长冲刺图 前中段变慢",
+      "metaNotesI18n": {
+        "en": "World record (han's tune). Decent acceleration; there are versions capped at 280 and 320 km/h: the first is quicker low and mid-range and better online; the second suits long sprints that need top speed, but is slower low down.",
+        "pt-br": "Recorde mundial (tune de han). Aceleração razoável; há versões limitadas a 280 e a 320 km/h: a primeira é mais rápida em baixa e média e melhor no online; a segunda serve para sprints longos que pedem velocidade final, mas fica mais lenta em baixa."
+      },
       "metaRank": 8,
       "name": "B cross-country AWD",
       "observations": [
@@ -25,7 +40,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.685,
+      "score": 0.648,
       "surface": "cross-country",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -62,7 +77,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.618,
+      "score": 0.58,
       "surface": "cross-country",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -81,6 +96,21 @@
       "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-445494807",
+      "lapRefs": [
+        {
+          "time": "2:26.5",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.4",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:26.5 瑠璃光寺 2:00.4 缺一点动力 弯速很快 均衡图很强",
+      "metaNotesI18n": {
+        "en": "A little short on power, but very fast in corners; very strong on balanced tracks.",
+        "pt-br": "Falta um pouco de potência, mas é muito rápido nas curvas; muito forte em pistas equilibradas."
+      },
       "metaRank": 19,
       "name": "CC Grip",
       "observations": [
@@ -110,9 +140,24 @@
       "confidence": 0.85,
       "createdAt": "2026-06-10",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-953407455",
+      "lapRefs": [
+        {
+          "time": "2:06.9",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:36.0",
+          "track": "Takashiro"
+        }
+      ],
+      "metaNotes": "瑠璃光寺 2:06.9 世界纪录 (han) 高城 2:36.0(限速320) 加速还行 限速280/320两个版本 前者前中段更快适合线上 后者则应对更需要后段的长冲刺图 前中段变慢",
+      "metaNotesI18n": {
+        "en": "World record (han's tune). Decent acceleration; there are versions capped at 280 and 320 km/h: the first is quicker low and mid-range and better online; the second suits long sprints that need top speed, but is slower low down.",
+        "pt-br": "Recorde mundial (tune de han). Aceleração razoável; há versões limitadas a 280 e a 320 km/h: a primeira é mais rápida em baixa e média e melhor no online; a segunda serve para sprints longos que pedem velocidade final, mas fica mais lenta em baixa."
+      },
       "metaRank": 8,
       "name": "B CC General 320KM",
       "observations": [
@@ -124,7 +169,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.687,
+      "score": 0.652,
       "shareCode": "953407455",
       "surface": "cross-country",
       "tier": "meta",

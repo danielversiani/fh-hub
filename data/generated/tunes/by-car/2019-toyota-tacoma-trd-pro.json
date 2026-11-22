@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -10,10 +10,25 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-00179f1eb1",
+      "lapRefs": [
+        {
+          "time": "1:59.8",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:23.1",
+          "track": "Takashiro"
+        }
+      ],
+      "metaNotes": "瑠璃光寺 1:59.8 高城 2:23.1 悬挂不错 加速不错 hanhan不解变速箱动力更大 Seako解变速箱综合性能更强",
+      "metaNotesI18n": {
+        "en": "Good suspension and acceleration. hanhan's tune, on the stock gearbox, has more power; Seako's, with an unlocked gearbox, is more complete.",
+        "pt-br": "Boa suspensão e boa aceleração. A tune de hanhan, com câmbio de fábrica, tem mais potência; a de Seako, com câmbio liberado, é mais completa."
+      },
       "metaRank": 6,
       "name": "A cross-country AWD",
       "observations": [
@@ -25,7 +40,7 @@
         }
       ],
       "role": "power",
-      "score": 0.685,
+      "score": 0.648,
       "surface": "cross-country",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -128,7 +143,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.618,
+      "score": 0.58,
       "surface": "cross-country",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -144,9 +159,24 @@
       "confidence": 0.85,
       "createdAt": "2026-06-07",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-118127603",
+      "lapRefs": [
+        {
+          "time": "1:59.8",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "2:23.1",
+          "track": "Takashiro"
+        }
+      ],
+      "metaNotes": "瑠璃光寺 1:59.8 高城 2:23.1 悬挂不错 加速不错 hanhan不解变速箱动力更大 Seako解变速箱综合性能更强",
+      "metaNotesI18n": {
+        "en": "Good suspension and acceleration. hanhan's tune, on the stock gearbox, has more power; Seako's, with an unlocked gearbox, is more complete.",
+        "pt-br": "Boa suspensão e boa aceleração. A tune de hanhan, com câmbio de fábrica, tem mais potência; a de Seako, com câmbio liberado, é mais completa."
+      },
       "metaRank": 6,
       "name": "Sprint Meta 1.1",
       "observations": [
@@ -158,7 +188,7 @@
         }
       ],
       "role": "power",
-      "score": 0.687,
+      "score": 0.651,
       "shareCode": "118127603",
       "surface": "cross-country",
       "tier": "meta",
@@ -179,6 +209,21 @@
       "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-183274898",
+      "lapRefs": [
+        {
+          "time": "2:36.4",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:05.8",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:36.4 瑠璃光寺 2:05.8 4.8V10版本 原厂小越野胎操控不错 动力一般 弯速极快且非常好开的原厂胎 均衡图实力非常强大",
+      "metaNotesI18n": {
+        "en": "4.8 V10 version: on the small stock off-road tires it handles well with average power; extremely fast in corners and very easy on stock tires. Very strong on balanced tracks.",
+        "pt-br": "Versão V10 4.8: com os pneus off-road pequenos de fábrica tem boa dirigibilidade e potência mediana; rapidíssimo nas curvas e muito fácil com pneus de fábrica. Muito forte em pistas equilibradas."
+      },
       "metaRank": 5,
       "name": "B CC General Offmeta",
       "observations": [

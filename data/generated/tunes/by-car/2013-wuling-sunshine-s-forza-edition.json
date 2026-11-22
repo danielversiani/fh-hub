@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -7,12 +7,14 @@
       ],
       "carId": "2013-wuling-sunshine-s-forza-edition",
       "categories": [
+        "meta",
         "meme"
       ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-189fa93ee2",
+      "metaRank": 6,
       "name": "Deathtrap TCR",
       "observations": [
         {
@@ -32,10 +34,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.515,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "k1z-jumpy"
     },
     {
@@ -79,12 +81,14 @@
       ],
       "carId": "2013-wuling-sunshine-s-forza-edition",
       "categories": [
+        "meta",
         "meme"
       ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-7be92cf10b",
+      "metaRank": 6,
       "name": "PB",
       "observations": [
         {
@@ -104,10 +108,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.515,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "dalwa-xii"
     },
     {
@@ -151,12 +155,14 @@
       ],
       "carId": "2013-wuling-sunshine-s-forza-edition",
       "categories": [
+        "meta",
         "meme"
       ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-7d0406ba20",
+      "metaRank": 7,
       "name": "S2 RWD Rocket (Satta Sprint WR)",
       "observations": [
         {
@@ -176,10 +182,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.515,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "zombiejesus52"
     },
     {
@@ -223,11 +229,21 @@
       ],
       "carId": "2013-wuling-sunshine-s-forza-edition",
       "categories": [
+        "meta",
         "meme"
       ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
       "id": "sc-176042477",
+      "metaNotes": "萨埵世界纪录",
+      "metaNotesI18n": {
+        "en": "World record at Satta.",
+        "pt-br": "Recorde mundial em Satta."
+      },
+      "metaRank": 7,
       "name": "S2 road",
       "notes": "Arpan's sheet lists a Satta Sprint world record.",
       "observations": [
@@ -238,11 +254,13 @@
           "tab": "online"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.582,
       "shareCode": "176042477",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "drift",
       "tunerId": "vsm-huon"
     },
     {
@@ -251,11 +269,21 @@
       ],
       "carId": "2013-wuling-sunshine-s-forza-edition",
       "categories": [
+        "meta",
         "meme"
       ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
       "id": "sc-463355023",
+      "metaNotes": "萨埵世界纪录",
+      "metaNotesI18n": {
+        "en": "World record at Satta.",
+        "pt-br": "Recorde mundial em Satta."
+      },
+      "metaRank": 6,
       "name": "R road",
       "observations": [
         {
@@ -265,22 +293,26 @@
           "tab": "online"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.582,
       "shareCode": "463355023",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
       "tunerId": "vsm-huon"
     },
     {
       "buildTags": [],
       "carId": "2013-wuling-sunshine-s-forza-edition",
       "categories": [
+        "meta",
         "meme"
       ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-851036716",
+      "metaRank": 7,
       "name": "S2 Speed",
       "observations": [
         {
@@ -290,24 +322,26 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.502,
       "shareCode": "851036716",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "nalak28"
     },
     {
       "buildTags": [],
       "carId": "2013-wuling-sunshine-s-forza-edition",
       "categories": [
+        "meta",
         "meme"
       ],
       "class": "S2",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "engine": "Stock",
       "id": "sc-896597514",
+      "metaRank": 7,
       "name": "Xiaomi Maf08 6L Air Fryer",
       "observations": [
         {
@@ -329,11 +363,11 @@
           "tab": "fh6-tunes"
         }
       ],
-      "score": 0.416,
+      "score": 0.49,
       "shareCode": "896597514",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tires": "super-slick",
       "tunerId": "k1z-gray"
     }

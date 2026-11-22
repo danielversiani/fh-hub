@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -253,10 +253,21 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-b9cb999800",
+      "lapRefs": [
+        {
+          "time": "56.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 56.2 比较全能 加速全段较好 阻力偏低 原厂外观与原厂驱动形式 注意出弯略微控油",
+      "metaNotesI18n": {
+        "en": "Quite versatile, good acceleration throughout, low drag; stock looks and stock drivetrain. Ease the throttle slightly on corner exit.",
+        "pt-br": "Bem versátil, boa aceleração em toda a faixa, arrasto baixo; visual e tração de fábrica. Dose um pouco o acelerador na saída das curvas."
+      },
       "metaRank": 110,
       "name": "S1 road RWD",
       "observations": [
@@ -268,7 +279,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.481,
+      "score": 0.449,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",

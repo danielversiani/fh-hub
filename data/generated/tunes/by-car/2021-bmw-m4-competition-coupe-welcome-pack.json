@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-16e317c5d4",
+      "metaRank": 35,
       "name": "Driving this BMW brings out the ******* inside you",
       "observations": [
         {
@@ -28,10 +31,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "grandma-driving"
     },
     {
@@ -70,11 +73,14 @@
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-1cf69938a6",
+      "metaRank": 35,
       "name": "Full Kit Allround T1+ Shirakawa 55.2",
       "observations": [
         {
@@ -94,10 +100,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
     {
@@ -136,11 +142,60 @@
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-47fe4a58b8",
+      "lapRefs": [
+        {
+          "time": "55.7",
+          "track": "Sunflower"
+        },
+        {
+          "time": "50.0",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "向日葵55.7 石部50.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 21,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 46,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.62,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "aions580pio"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-6ccca52c64",
+      "metaRank": 35,
       "name": "Babashi",
       "observations": [
         {
@@ -160,20 +215,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "aeroplane7616"
     },
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-84f5d45227",
+      "metaRank": 35,
       "name": "Road Allround Giga Easy",
       "observations": [
         {
@@ -193,20 +251,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "letzelu"
     },
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-85e9921101",
+      "metaRank": 35,
       "name": "Queenology",
       "observations": [
         {
@@ -226,10 +287,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "ams-carver"
     },
     {
@@ -301,11 +362,14 @@
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-9601acfd0b",
+      "metaRank": 35,
       "name": "S1 Road (Updated :D)",
       "observations": [
         {
@@ -325,20 +389,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "atk-mang0"
     },
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-a1228c1813",
+      "metaRank": 35,
       "name": "S1 - Grip Updated V2 42s @ Ice Sprint",
       "observations": [
         {
@@ -358,20 +425,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "esv-lawrence"
     },
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-b6bbd1d0e8",
+      "metaRank": 35,
       "name": "2.1G Good Sprint Allrounder V1",
       "observations": [
         {
@@ -391,20 +461,69 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
     },
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c3559abea0",
+      "lapRefs": [
+        {
+          "time": "55.7",
+          "track": "Sunflower"
+        },
+        {
+          "time": "50.0",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "向日葵55.7 石部50.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 21,
+      "name": "S1 dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 46,
+          "sourceId": "noa-miyako",
+          "tab": "s1-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.62,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-ccce467308",
+      "metaRank": 21,
       "name": "S1 Dirt",
       "observations": [
         {
@@ -424,20 +543,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-e06c2714ad",
+      "metaRank": 21,
       "name": "S1 Dirt Updated",
       "observations": [
         {
@@ -457,20 +579,36 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-e5fb898903",
+      "lapRefs": [
+        {
+          "time": "54.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 35,
       "name": "S1 Road V2.0",
       "observations": [
         {
@@ -490,10 +628,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "allround",
+      "score": 0.62,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "k1z-bard"
     },
     {
@@ -532,12 +672,15 @@
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-05-18",
       "drivetrain": "AWD",
       "id": "sc-127785238",
+      "metaRank": 35,
       "name": "S1 Road AWD Easy",
       "notes": "Online - Very easy and nice to drive",
       "observations": [
@@ -548,11 +691,11 @@
           "tab": "online-picks"
         }
       ],
-      "score": 0.474,
+      "score": 0.565,
       "shareCode": "127785238",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "logikj"
     },
     {
@@ -660,11 +803,14 @@
     {
       "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-08-11",
       "id": "sc-841979896",
+      "metaRank": 21,
       "name": "Dirt Allround META Sunflower 55.3 A/M",
       "observations": [
         {
@@ -674,11 +820,11 @@
           "tab": "online"
         }
       ],
-      "score": 0.519,
+      "score": 0.586,
       "shareCode": "841979896",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     }
   ],

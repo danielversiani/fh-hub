@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -124,10 +124,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-7ceb5b847d",
+      "lapRefs": [
+        {
+          "time": "56.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 56.0 越野胎像在陆地开船 弯速很快 阻力低有一点后段",
+      "metaNotesI18n": {
+        "en": "On off-road tires it feels like a boat on dry land; very fast in corners, low drag and some top end.",
+        "pt-br": "Com pneus off-road parece um barco em terra firme; muito rápido nas curvas, arrasto baixo e algum fôlego em alta."
+      },
       "metaRank": 132,
       "name": "S1 road AWD",
       "observations": [
@@ -139,7 +150,7 @@
         }
       ],
       "role": "handling",
-      "score": 0.517,
+      "score": 0.479,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",

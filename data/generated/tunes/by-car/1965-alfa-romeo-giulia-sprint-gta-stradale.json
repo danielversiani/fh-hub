@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-0a9c88dc10",
+      "metaRank": 42,
       "name": "Maserati GTA - A Dirt/FA/RC | 59.600 Sunflower",
       "observations": [
         {
@@ -28,20 +31,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.445,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "thedannny"
     },
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-22d7b70784",
+      "metaRank": 42,
       "name": "CJ4567 A Dirt Car",
       "observations": [
         {
@@ -61,10 +67,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.445,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     },
     {
@@ -107,11 +113,16 @@
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-4374c87139",
+      "metaRank": 17,
       "name": "K20A Dirt Allround META Sunflower 03.5 A/M",
       "observations": [
         {
@@ -131,10 +142,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "allround",
+      "score": 0.676,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "zvtcjau"
     },
     {
@@ -179,11 +192,14 @@
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-4fe7344f08",
+      "metaRank": 17,
       "name": "Grip Rally V1",
       "observations": [
         {
@@ -203,20 +219,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
     },
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-59087bbf8e",
+      "metaRank": 42,
       "name": "A Dirt :)",
       "observations": [
         {
@@ -236,20 +255,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.445,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-6d1df26628",
+      "metaRank": 17,
       "name": "CJ4567 Dirt Car",
       "observations": [
         {
@@ -269,10 +291,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     },
     {
@@ -331,11 +353,14 @@
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-95b20c208f",
+      "metaRank": 17,
       "name": "Dirt iSAD",
       "observations": [
         {
@@ -355,20 +380,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "cast-haste"
     },
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-aa656ed5bb",
+      "metaRank": 17,
       "name": "Great B class dirt",
       "observations": [
         {
@@ -388,20 +416,65 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "polarbear690"
     },
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-d80a093478",
+      "lapRefs": [
+        {
+          "time": "1:06.5",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:06.5 加速很快 弯速一般 需要手刹辅助过弯 偏船 稳定性一般",
+      "metaNotesI18n": {
+        "en": "Strong acceleration, average cornering; needs the handbrake in corners. Boat-like with average stability.",
+        "pt-br": "Acelera muito, curvas medianas; precisa do freio de mão nas curvas. Pesado como um barco e estabilidade mediana."
+      },
+      "metaRank": 42,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 89,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.479,
+      "surface": "dirt",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-da92af3f65",
+      "metaRank": 17,
       "name": "Fast B Dirt No aero / 1:04.601 Sunflower",
       "observations": [
         {
@@ -421,10 +494,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "thedannny"
     },
     {
@@ -463,11 +536,14 @@
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-f3c5ddcade",
+      "metaRank": 17,
       "name": "Dirt iSAD Heavy",
       "observations": [
         {
@@ -487,20 +563,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "cast-haste"
     },
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-f7a99577c7",
+      "metaRank": 42,
       "name": "8C Dirt Allround OFFMETA Sunflower 59.5 A/M",
       "observations": [
         {
@@ -520,19 +599,25 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.445,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
     {
       "buildTags": [],
       "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
       "id": "sc-643047034",
+      "metaRank": 17,
       "name": "B Dirt Handling-Allround",
       "observations": [
         {
@@ -542,11 +627,13 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "role": "allround",
+      "score": 0.664,
       "shareCode": "643047034",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "zvtcjau"
     }
   ],

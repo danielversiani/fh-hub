@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -152,7 +152,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -167,10 +167,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-eefb9f24d5",
+      "lapRefs": [
+        {
+          "time": "56.6",
+          "track": "Nangan"
+        }
+      ],
+      "metaNotes": "南岸56.6 悬挂本身不够稳定 而且会因为配重出现问题 偏推头注意油门刹车配合 操控更好的Dart",
+      "metaNotesI18n": {
+        "en": "Not very stable suspension, with issues from its weight balance; understeers, coordinate throttle and brakes. A Dart with better handling.",
+        "pt-br": "Suspensão pouco estável e com problemas por causa da distribuição de peso; sai de frente, combine bem acelerador e freio. Um Dart com melhor dirigibilidade."
+      },
       "metaRank": 21,
       "name": "A cross-country AWD",
       "observations": [
@@ -182,7 +193,7 @@
         }
       ],
       "role": "power",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -201,7 +212,7 @@
       "confidence": 0.85,
       "createdAt": "2026-05-30",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-154860278",
       "lapRefs": [
@@ -226,7 +237,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.598,
+      "score": 0.562,
       "shareCode": "154860278",
       "surface": "dirt",
       "tier": "t1",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -67,7 +67,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -103,7 +103,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -118,10 +118,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-76d6ae852b",
+      "lapRefs": [
+        {
+          "time": "1:01.299",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:01.299 （街头减重） 加，还行 拐，全段一般 2个尾翼！！！（建议打开ABS驾驶）",
+      "metaNotesI18n": {
+        "en": "Street weight-reduction version: decent acceleration, average handling. Two rear wings! (best driven with ABS on)",
+        "pt-br": "Versão de rua com redução de peso: aceleração razoável, curvas medianas. Duas asas traseiras! (melhor pilotar com ABS ligado)"
+      },
       "metaRank": 142,
       "name": "A road AWD",
       "observations": [
@@ -139,7 +150,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.517,
+      "score": 0.479,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -198,6 +209,17 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-bc73709b29",
+      "lapRefs": [
+        {
+          "time": "1:06.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:06.2 加，前段还行，中段一般，后段偏差 拐，全段不错（不比A级逊色多少）（1.7G） 搞笑外观（两个尾翼！）",
+      "metaNotesI18n": {
+        "en": "1.7 version: decent low-end acceleration, average mid-range, weak top end; good handling throughout (nearly A-class level). A funny look, with two rear wings!",
+        "pt-br": "Versão 1.7: aceleração razoável em baixa, mediana na média e fraca em alta; bom nas curvas em toda a faixa (quase no nível da classe A). Visual engraçado, com duas asas traseiras!"
+      },
       "metaRank": 78,
       "name": "B road AWD",
       "observations": [
@@ -279,7 +301,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.483,
+      "score": 0.445,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",

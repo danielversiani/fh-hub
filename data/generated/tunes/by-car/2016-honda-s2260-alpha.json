@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -88,7 +88,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-38c19b023d",
@@ -114,7 +114,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -130,10 +130,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-461ae22226",
+      "lapRefs": [
+        {
+          "time": "1:05.6",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.6 前中段加速还不错 弯速还行 胎宽窄低速需要控油 有一定难度",
+      "metaNotesI18n": {
+        "en": "Good low and mid-range acceleration, decent cornering; narrow tires: modulate the throttle in slow corners. Somewhat tricky.",
+        "pt-br": "Aceleração boa em baixa e média, curvas razoáveis; pneus estreitos: dose o acelerador nas lentas. Um pouco difícil."
+      },
       "metaRank": 31,
       "name": "A dirt AWD",
       "observations": [
@@ -145,7 +156,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -237,6 +248,17 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b7f8a9a730",
+      "lapRefs": [
+        {
+          "time": "1:10.1",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:10.1 中段加速还不错 弯速非常快 空力不均高速可能有点推头",
+      "metaNotesI18n": {
+        "en": "Good mid-range acceleration, very fast in corners; unbalanced aero, may understeer at speed.",
+        "pt-br": "Boa aceleração na média, muito rápido nas curvas; aerodinâmica desequilibrada, pode sair de frente em alta."
+      },
       "metaRank": 13,
       "name": "B dirt AWD",
       "observations": [
@@ -264,7 +286,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-c0ca382c4a",
@@ -290,7 +312,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

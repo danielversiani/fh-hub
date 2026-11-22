@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -67,7 +67,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -83,10 +83,25 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-2612983cb2",
+      "lapRefs": [
+        {
+          "time": "2:36.5",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:07.4",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:36.5 瑠璃光寺 2:07.4 加速和弯速都还不错 悬挂比较稳定 但是轴距太长容易被地形影响 转向角度也会比较奇怪",
+      "metaNotesI18n": {
+        "en": "Good acceleration and cornering, quite stable suspension; but the long wheelbase is affected by the terrain and the steering angle feels odd.",
+        "pt-br": "Bom na aceleração e nas curvas, suspensão bem estável; mas o entre-eixos longo sofre com o terreno e o ângulo de esterço fica estranho."
+      },
       "metaRank": 16,
       "name": "B cross-country AWD",
       "observations": [
@@ -98,7 +113,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -115,7 +130,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-7aa10c154c",
@@ -141,7 +156,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.517,
+      "score": 0.479,
       "surface": "road",
       "tier": "t2",
       "tierSource": "meta-table",
@@ -158,7 +173,7 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "FWD",
       "fromMeta": true,
       "id": "nc-9d4f5b3b0a",
@@ -184,7 +199,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.554,
+      "score": 0.517,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -211,7 +226,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.471,
+      "score": 0.433,
       "shareCode": "115797236",
       "surface": "road",
       "tier": "t2",

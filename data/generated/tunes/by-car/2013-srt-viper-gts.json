@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -181,7 +181,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -255,7 +255,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -405,7 +405,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -420,10 +420,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-63ca3c5e76",
+      "lapRefs": [
+        {
+          "time": "55.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.6 空力差 操控一般 偏推头 加速不错 甲沟炎晚期 不能上路肩 尽量不跑带路肩的图 虽然上限有 但是弹飞的概率较大",
+      "metaNotesI18n": {
+        "en": "Weak aero, average handling and understeers; accelerates well. It cannot take kerbs: avoid tracks with them, as the chance of being launched is high, despite the high ceiling.",
+        "pt-br": "Aerodinâmica fraca, curvas medianas e sai de frente; acelera bem. Não pode subir na zebra: evite pistas com zebras, porque a chance de ser arremessado é grande, apesar do teto alto."
+      },
       "metaRank": 105,
       "name": "S1 road AWD",
       "observations": [
@@ -435,7 +446,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.554,
+      "score": 0.517,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -472,7 +483,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -511,7 +522,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -547,7 +558,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -583,7 +594,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",
@@ -619,7 +630,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.513,
+      "score": 0.475,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",

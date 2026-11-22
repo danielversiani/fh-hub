@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -274,10 +274,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-a1a67cccbd",
+      "lapRefs": [
+        {
+          "time": "56.7",
+          "track": "Nangan"
+        }
+      ],
+      "metaNotes": "南岸56.7 悬挂还行 没有暗病 高速弯操控较弱 永远可以相信Dart叔叔的雷霆动力",
+      "metaNotesI18n": {
+        "en": "Decent suspension, no hidden flaws; weak in fast corners. You can always trust the Dart's thunderous power.",
+        "pt-br": "Suspensão razoável, sem defeitos escondidos; fraco nas curvas de alta. Sempre dá para confiar na potência do Dart."
+      },
       "metaRank": 14,
       "name": "A cross-country AWD",
       "observations": [
@@ -289,7 +300,7 @@
         }
       ],
       "role": "power",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "t0.5",
       "tierSource": "meta-table",

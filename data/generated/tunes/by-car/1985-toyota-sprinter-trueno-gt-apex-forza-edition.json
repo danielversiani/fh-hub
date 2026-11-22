@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-086d6cd9d4",
+      "metaNotes": "长冲刺强车 中后段和极速大优势",
+      "metaNotesI18n": {
+        "en": "Strong on long sprints, with a big advantage in the mid and top range and in top speed.",
+        "pt-br": "Forte em sprints longos, com grande vantagem na faixa média e alta e na velocidade final."
+      },
+      "metaRank": 1,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "ap-kaike"
+    },
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
@@ -26,11 +62,141 @@
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-2f18c2018c",
+      "lapRefs": [
+        {
+          "time": "1:05.3",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.3 加一般还行，拐不错 悬挂稳定性较差 注意颠簸",
+      "metaNotesI18n": {
+        "en": "Decent acceleration, good in corners; not very stable suspension, watch the bumps.",
+        "pt-br": "Aceleração razoável, bom nas curvas; suspensão pouco estável, cuidado com as ondulações."
+      },
+      "metaRank": 35,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 74,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.62,
+      "surface": "dirt",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-34b3310aca",
+      "metaNotes": "长冲刺强车 中后段和极速大优势",
+      "metaNotesI18n": {
+        "en": "Strong on long sprints, with a big advantage in the mid and top range and in top speed.",
+        "pt-br": "Forte em sprints longos, com grande vantagem na faixa média e alta e na velocidade final."
+      },
+      "metaRank": 1,
+      "name": "A road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 3,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "stock",
+      "tunerId": "vsm-huon"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-4be3e97254",
+      "metaNotes": "中后段加速和极速优势",
+      "metaNotesI18n": {
+        "en": "Advantage in top-end acceleration and top speed.",
+        "pt-br": "Vantagem na aceleração em alta e na velocidade máxima."
+      },
+      "metaRank": 2,
+      "name": "S1 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 5,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "vsm-huon"
+    },
+    {
+      "buildTags": [],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-4cdbe957e6",
+      "lapRefs": [
+        {
+          "time": "50.9",
+          "track": "Sekibe"
+        }
+      ],
+      "metaNotes": "石部50.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 28,
       "name": "S1 Dirt LFA-powered",
       "observations": [
         {
@@ -50,10 +216,12 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "allround",
+      "score": 0.62,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "kapienpl"
     },
     {
@@ -96,11 +264,14 @@
         "powerbuild"
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-c23ff6c7b0",
+      "metaRank": 1,
       "name": "BEAT THE BEAT?",
       "observations": [
         {
@@ -120,20 +291,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "offclshotz"
     },
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-e4ecd111bf",
+      "metaRank": 1,
       "name": "RWD Road Grip | 47.3 Nurai Juku Circuit",
       "observations": [
         {
@@ -153,19 +327,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.545,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-151016761",
+      "metaRank": 1,
       "name": "A Speed",
       "observations": [
         {
@@ -175,20 +352,23 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.532,
       "shareCode": "151016761",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "vnx-ruinz"
     },
     {
       "buildTags": [],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-633212380",
+      "metaRank": 2,
       "name": "S1 Speed",
       "observations": [
         {
@@ -198,11 +378,11 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.532,
       "shareCode": "633212380",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "osm-cinnabar"
     },
     {
@@ -210,10 +390,21 @@
         "powerbuild"
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
       "id": "sc-882418132",
+      "metaNotes": "长冲刺强车 中后段和极速大优势",
+      "metaNotesI18n": {
+        "en": "Strong on long sprints, with a big advantage in the mid and top range and in top speed.",
+        "pt-br": "Forte em sprints longos, com grande vantagem na faixa média e alta e na velocidade final."
+      },
+      "metaRank": 1,
       "name": "Meta+++++",
       "notes": "Road sprints and Street",
       "observations": [
@@ -224,11 +415,13 @@
           "tab": "online"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.62,
       "shareCode": "882418132",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "stock",
       "tunerId": "lnvrtebrate"
     },
     {
@@ -236,10 +429,21 @@
         "powerbuild"
       ],
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
       "id": "sc-929950902",
+      "metaNotes": "中后段加速和极速优势",
+      "metaNotesI18n": {
+        "en": "Advantage in top-end acceleration and top speed.",
+        "pt-br": "Vantagem na aceleração em alta e na velocidade máxima."
+      },
+      "metaRank": 2,
       "name": "WRs",
       "notes": "Road sprints and Street",
       "observations": [
@@ -250,11 +454,13 @@
           "tab": "online"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.62,
       "shareCode": "929950902",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "lnvrtebrate"
     }
   ],

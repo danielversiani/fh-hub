@@ -1,18 +1,62 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-62b1e1ea67",
+      "lapRefs": [
+        {
+          "time": "1:00.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.7 操控好",
+      "metaNotesI18n": {
+        "en": "Good handling.",
+        "pt-br": "Bom nas curvas."
+      },
+      "metaRank": 78,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 160,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-sola"
+    },
     {
       "buildTags": [
         "purist"
       ],
       "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-6a9159b392",
+      "metaRank": 78,
       "name": "Purist (ish)",
       "observations": [
         {
@@ -32,10 +76,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "ver-polaksz"
     },
     {
@@ -44,12 +88,14 @@
       ],
       "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-82bc6ec1f6",
+      "metaRank": 78,
       "name": "A road purist",
       "observations": [
         {
@@ -69,20 +115,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "icefrice8724"
     },
     {
       "buildTags": [],
       "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-a2def8fd00",
+      "metaRank": 78,
       "name": "A class - Road racing",
       "observations": [
         {
@@ -102,19 +151,22 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "ndl-mazrsg"
     },
     {
       "buildTags": [],
       "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "nc-ff07f89fab",
+      "metaRank": 78,
       "name": "A Allround",
       "observations": [
         {
@@ -124,10 +176,10 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.559,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard-letzelu"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -115,10 +115,21 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-3dff939f13",
+      "lapRefs": [
+        {
+          "time": "55.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.6 车尾较重 车身动态有些难以预测 悬挂有点小毛病 高速弯很快",
+      "metaNotesI18n": {
+        "en": "Heavy rear and hard-to-predict behaviour; the suspension has small flaws. Very fast in high-speed corners.",
+        "pt-br": "Traseira pesada e comportamento difícil de prever; a suspensão tem pequenos defeitos. Muito rápido nas curvas de alta."
+      },
       "metaRank": 96,
       "name": "S1 road AWD",
       "observations": [
@@ -130,7 +141,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.547,
+      "score": 0.516,
       "surface": "road",
       "tier": "t1.5",
       "tierSource": "meta-table",

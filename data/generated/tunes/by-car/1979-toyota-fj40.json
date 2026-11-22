@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -83,6 +83,17 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-ea9ab925cc",
+      "lapRefs": [
+        {
+          "time": "1:11.4",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:11.4 加速弯速都还可以 短轴车原厂悬挂有一点点驾驶难度",
+      "metaNotesI18n": {
+        "en": "Decent acceleration and cornering; short wheelbase on stock suspension, a little tricky.",
+        "pt-br": "Aceleração e curvas razoáveis; entre-eixos curto com suspensão de fábrica, um pouco difícil."
+      },
       "metaRank": 35,
       "name": "B dirt AWD",
       "observations": [
@@ -178,9 +189,24 @@
       "confidence": 0.85,
       "createdAt": "2026-08-01",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-596145743",
+      "lapRefs": [
+        {
+          "time": "2:28.2",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:02.9",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:28.2 瑠璃光寺 2:02.9 前中段加速很快 后段一般 超大马力",
+      "metaNotesI18n": {
+        "en": "Strong low and mid-range acceleration, average top end; huge power.",
+        "pt-br": "Acelera muito em baixa e média, mediano em alta; potência enorme."
+      },
       "metaRank": 48,
       "name": "A CC Sprint",
       "observations": [
@@ -192,7 +218,7 @@
         }
       ],
       "role": "power",
-      "score": 0.481,
+      "score": 0.446,
       "shareCode": "596145743",
       "surface": "cross-country",
       "tier": "t3",

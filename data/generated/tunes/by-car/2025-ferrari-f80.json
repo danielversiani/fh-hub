@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -67,7 +67,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -368,10 +368,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b4ba092b18",
+      "lapRefs": [
+        {
+          "time": "55.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.3 加，前中段较差，中后一般偏差 拐，低速一般，中高速不错！ *越野胎 驾驶需要一定技术",
+      "metaNotesI18n": {
+        "en": "Weak low and mid-range acceleration, average top end; average in slow corners and good in medium and fast ones. Off-road tires: needs some technique.",
+        "pt-br": "Aceleração fraca em baixa e média, mediana em alta; mediano nas curvas lentas e bom nas médias e rápidas. Pneus off-road: pede alguma técnica."
+      },
       "metaRank": 45,
       "name": "S1 road AWD",
       "observations": [
@@ -383,7 +394,7 @@
         }
       ],
       "role": "handling",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -475,7 +486,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.531,
+      "score": 0.493,
       "shareCode": "350346496",
       "surface": "road",
       "tier": "t1",

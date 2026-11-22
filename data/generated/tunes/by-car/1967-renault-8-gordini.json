@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:38:29.742Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -8,10 +8,25 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-a83c37ac93",
+      "lapRefs": [
+        {
+          "time": "1:13.6",
+          "track": "Ine"
+        },
+        {
+          "time": "1:07.4",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "伊根 1:13.6 向日葵 1:07.4 自行车胎宽转向抓不住容易侧滑 需限制滑移角度 不然轮胎抓不住",
+      "metaNotesI18n": {
+        "en": "Bicycle-thin tires: the front does not hold and the car slides sideways. Limit the slip angle or the tires lose grip.",
+        "pt-br": "Pneus finos como de bicicleta: a frente não segura e o carro escorrega de lado. Limite o ângulo de deslizamento, senão os pneus perdem aderência."
+      },
       "metaRank": 56,
       "name": "B dirt AWD",
       "observations": [
@@ -23,7 +38,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.46,
+      "score": 0.423,
       "surface": "dirt",
       "tier": "t3",
       "tierSource": "meta-table",

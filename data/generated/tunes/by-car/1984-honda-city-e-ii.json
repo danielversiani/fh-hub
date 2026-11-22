@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -69,7 +69,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -335,7 +335,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.531,
+      "score": 0.493,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -354,6 +354,17 @@
       "drivetrain": "FWD",
       "fromMeta": true,
       "id": "nc-86c9d2fa13",
+      "lapRefs": [
+        {
+          "time": "55.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川55.9 圈图限定 需要极高的前驱驾驶手法",
+      "metaNotesI18n": {
+        "en": "Circuits only; needs very high front-wheel-drive skill.",
+        "pt-br": "Só para circuitos; exige técnica altíssima de tração dianteira."
+      },
       "metaRank": 83,
       "name": "S1 road FWD",
       "observations": [
@@ -402,7 +413,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -421,6 +432,17 @@
       "drivetrain": "FWD",
       "fromMeta": true,
       "id": "nc-a34f37e113",
+      "lapRefs": [
+        {
+          "time": "1:04.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.0 传奇岛1:18 世界纪录 静态起步劣势",
+      "metaNotesI18n": {
+        "en": "World record. At a disadvantage from a standing start.",
+        "pt-br": "Recorde mundial. Desvantagem na largada parada."
+      },
       "metaRank": 26,
       "name": "B road FWD",
       "observations": [
@@ -451,6 +473,17 @@
       "difficulty": "death",
       "drivetrain": "FWD",
       "id": "nc-de2ed40844",
+      "lapRefs": [
+        {
+          "time": "1:04.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.0 传奇岛1:18 世界纪录 静态起步劣势",
+      "metaNotesI18n": {
+        "en": "World record. At a disadvantage from a standing start.",
+        "pt-br": "Recorde mundial. Desvantagem na largada parada."
+      },
       "metaRank": 26,
       "name": "Gripping my nuts",
       "observations": [
@@ -545,7 +578,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -618,6 +651,17 @@
       "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-158286102",
+      "lapRefs": [
+        {
+          "time": "1:05.5",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.5 加速非常快 弯速也还可以 250极速 但是0-250都快 车身动态比较诡异 控车难度较高 不能跑冲刺图",
+      "metaNotesI18n": {
+        "en": "Very strong acceleration, decent cornering, 250 top speed but quick from 0 to 250. Strange behaviour, hard to control; not for sprints.",
+        "pt-br": "Acelera fortíssimo, curvas razoáveis, máxima de 250 mas rápido de 0 a 250. Comportamento estranho, difícil de controlar; não serve para sprints."
+      },
       "metaRank": 30,
       "name": "A Dirt Jiahao",
       "observations": [
@@ -649,6 +693,17 @@
       "difficulty": "death",
       "drivetrain": "FWD",
       "id": "sc-167672327",
+      "lapRefs": [
+        {
+          "time": "1:04.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.0 传奇岛1:18 世界纪录 静态起步劣势",
+      "metaNotesI18n": {
+        "en": "World record. At a disadvantage from a standing start.",
+        "pt-br": "Recorde mundial. Desvantagem na largada parada."
+      },
       "metaRank": 26,
       "name": "1:28 legend island",
       "notes": "Circuits and handling based street tracks",
@@ -678,7 +733,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "FWD",
       "id": "sc-358461613",
       "lapRefs": [
@@ -704,7 +759,7 @@
         }
       ],
       "role": "handling",
-      "score": 0.592,
+      "score": 0.554,
       "shareCode": "358461613",
       "surface": "road",
       "tier": "t1",

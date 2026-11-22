@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -31,7 +31,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.597,
+      "score": 0.566,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -164,10 +164,21 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "engine": "8.4L V10 + Centri",
       "id": "nc-85994408e9",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.5 加速很快 空力略差弯速一般般 比较难开 需要滑移角 不能雨天开",
+      "metaNotesI18n": {
+        "en": "Strong acceleration, slightly weak aero and average cornering. Hard: needs slip angle. Not for the rain.",
+        "pt-br": "Acelera muito, aerodinâmica um pouco fraca e curvas medianas. Difícil: precisa de ângulo de deslizamento. Não serve na chuva."
+      },
       "metaRank": 18,
       "name": "Road Handling Shirakawa 54.5 Clean",
       "observations": [
@@ -193,7 +204,7 @@
         }
       ],
       "role": "power",
-      "score": 0.663,
+      "score": 0.631,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -270,10 +281,21 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b7b5ef429e",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.5 加速很快 空力略差弯速一般般 比较难开 需要滑移角 不能雨天开",
+      "metaNotesI18n": {
+        "en": "Strong acceleration, slightly weak aero and average cornering. Hard: needs slip angle. Not for the rain.",
+        "pt-br": "Acelera muito, aerodinâmica um pouco fraca e curvas medianas. Difícil: precisa de ângulo de deslizamento. Não serve na chuva."
+      },
       "metaRank": 18,
       "name": "S1 road AWD",
       "observations": [
@@ -285,7 +307,7 @@
         }
       ],
       "role": "power",
-      "score": 0.648,
+      "score": 0.616,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -341,6 +363,11 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-c06a7a10b7",
+      "metaNotes": "江户川 码头 体育场世界纪录 跳台少的圈图都是这辆车快",
+      "metaNotesI18n": {
+        "en": "World record at Edogawa, the docks and the stadium: the fastest on circuits with few jumps.",
+        "pt-br": "Recorde mundial em Edogawa, nas docas e no estádio: é o mais rápido nos circuitos com poucos saltos."
+      },
       "metaRank": 2,
       "name": "A cross-country AWD",
       "observations": [
@@ -368,9 +395,20 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "nc-cf5e654016",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.5 加速很快 空力略差弯速一般般 比较难开 需要滑移角 不能雨天开",
+      "metaNotesI18n": {
+        "en": "Strong acceleration, slightly weak aero and average cornering. Hard: needs slip angle. Not for the rain.",
+        "pt-br": "Acelera muito, aerodinâmica um pouco fraca e curvas medianas. Difícil: precisa de ângulo de deslizamento. Não serve na chuva."
+      },
       "metaRank": 18,
       "name": "Road Allround 54.5 Shirakawa Clean",
       "observations": [
@@ -392,7 +430,7 @@
         }
       ],
       "role": "power",
-      "score": 0.673,
+      "score": 0.642,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -468,7 +506,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.597,
+      "score": 0.566,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -569,6 +607,17 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-ec82fb6726",
+      "lapRefs": [
+        {
+          "time": "1:04.9",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:04.9 弯道很舒服 加速很快 公路段也无需多言 很好开",
+      "metaNotesI18n": {
+        "en": "Comfortable in corners, strong acceleration and good on tarmac. Very easy to drive.",
+        "pt-br": "Confortável nas curvas, acelera muito e vai bem no asfalto. Muito fácil de pilotar."
+      },
       "metaRank": 6,
       "name": "A dirt AWD",
       "observations": [
@@ -653,7 +702,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.597,
+      "score": 0.566,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -697,9 +746,20 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-157872553",
+      "lapRefs": [
+        {
+          "time": "54.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.5 加速很快 空力略差弯速一般般 比较难开 需要滑移角 不能雨天开",
+      "metaNotesI18n": {
+        "en": "Strong acceleration, slightly weak aero and average cornering. Hard: needs slip angle. Not for the rain.",
+        "pt-br": "Acelera muito, aerodinâmica um pouco fraca e curvas medianas. Difícil: precisa de ângulo de deslizamento. Não serve na chuva."
+      },
       "metaRank": 18,
       "name": "S1 Allround",
       "observations": [
@@ -711,7 +771,7 @@
         }
       ],
       "role": "power",
-      "score": 0.663,
+      "score": 0.631,
       "shareCode": "157872553",
       "surface": "road",
       "tier": "t0.5",

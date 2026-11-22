@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -367,11 +367,14 @@
     {
       "buildTags": [],
       "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-fdf03e7f13",
+      "metaRank": 21,
       "name": "Nice gearbox lmao",
       "observations": [
         {
@@ -391,19 +394,40 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "greeteddust8"
     },
     {
       "buildTags": [],
       "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
       "id": "sc-936989055",
+      "lapRefs": [
+        {
+          "time": "1:13.9",
+          "track": "Legend Island"
+        },
+        {
+          "time": "54.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "传奇岛 1:13.9 白川 54.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 21,
       "name": "S1 Handling-Allround",
       "observations": [
         {
@@ -413,11 +437,13 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "role": "allround",
+      "score": 0.664,
       "shareCode": "936989055",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "letzelu"
     }
   ],

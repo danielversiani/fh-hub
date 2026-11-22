@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-086bdddccd",
+      "metaRank": 27,
       "name": "Perfect A-Class Cross Country V2",
       "observations": [
         {
@@ -28,20 +31,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "don-joewon-song"
     },
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-13146ba647",
+      "metaRank": 27,
       "name": "CC Circuit Super Grip V2",
       "observations": [
         {
@@ -61,11 +67,57 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-subaru-brz-forza-edition",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-1aac92e8dc",
+      "lapRefs": [
+        {
+          "time": "2:26.3",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.3",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:26.3 瑠璃光寺 2:00.3 加速比较一般 弯速非常快 悬挂有点莫名其妙 想开快需要一点控车",
+      "metaNotesI18n": {
+        "en": "Average acceleration, very fast in corners; the suspension is a bit unpredictable: driving it fast needs control.",
+        "pt-br": "Aceleração mediana, muito rápido nas curvas; a suspensão é meio imprevisível: para andar rápido, exige controle."
+      },
+      "metaRank": 27,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 58,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "handling",
+      "score": 0.62,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     },
     {
       "buildTags": [],
@@ -136,11 +188,14 @@
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-a1157e458b",
+      "metaRank": 6,
       "name": "418 Monster CC V2",
       "observations": [
         {
@@ -160,20 +215,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
     },
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-a4cf7ae5fd",
+      "metaRank": 6,
       "name": "S1 Cross Country Brute",
       "observations": [
         {
@@ -193,20 +251,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-ad09f24dfd",
+      "metaRank": 27,
       "name": "A Class Cross Country Enforcer",
       "observations": [
         {
@@ -226,20 +287,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "kapienpl"
     },
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-c063502b4a",
+      "metaRank": 27,
       "name": "A Dirt/CC",
       "observations": [
         {
@@ -259,20 +323,30 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "sir-brandya1"
     },
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "nc-d2ac8b43cf",
+      "metaNotes": "悬挂很好 纯泥地抓地优势",
+      "metaNotesI18n": {
+        "en": "Great suspension and a grip advantage on pure dirt.",
+        "pt-br": "Ótima suspensão e vantagem de aderência na terra pura."
+      },
+      "metaRank": 32,
       "name": "S1 Dirt Grip Meta",
       "observations": [
         {
@@ -292,21 +366,28 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "allround",
+      "score": 0.545,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
       "carId": "2022-subaru-brz-forza-edition",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-05-08",
+      "credited": true,
+      "difficulty": "very-easy",
       "drivetrain": "AWD",
       "id": "sc-381012195",
+      "metaRank": 6,
       "name": "S1 CC Grip Meta",
       "observations": [
         {
@@ -332,11 +413,13 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.671,
+      "role": "allround",
+      "score": 0.704,
       "shareCode": "381012195",
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "noa-miyako"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -12,10 +12,21 @@
       "class": "A",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "engine": "8.4L V10 + Centri",
       "id": "nc-026e22b2b1",
+      "lapRefs": [
+        {
+          "time": "59.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.5 加速很快",
+      "metaNotesI18n": {
+        "en": "Strong acceleration.",
+        "pt-br": "Acelera muito."
+      },
       "metaRank": 9,
       "name": "Road Allround Rocket",
       "notes": "Essentially an AWD Powerbuild but easy to handle",
@@ -42,7 +53,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.709,
+      "score": 0.678,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -58,10 +69,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-06e3e4206c",
+      "lapRefs": [
+        {
+          "time": "1:04.2",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:04.2 加速很快 操控还行 (Zookiiwi 偏动力) (Mian&Boonhead 偏操控/均衡)",
+      "metaNotesI18n": {
+        "en": "Strong acceleration and decent handling. Zookiiwi's tune leans power; Mian and Boonhead's leans handling and balance.",
+        "pt-br": "Acelera muito e é razoável nas curvas. A tune de Zookiiwi puxa para potência; a de Mian e Boonhead, para curvas e equilíbrio."
+      },
       "metaRank": 1,
       "name": "A dirt AWD",
       "observations": [
@@ -73,7 +95,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.723,
+      "score": 0.685,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -110,7 +132,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -125,10 +147,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-143b292fb2",
+      "lapRefs": [
+        {
+          "time": "1:04.2",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:04.2 加速很快 操控还行 (Zookiiwi 偏动力) (Mian&Boonhead 偏操控/均衡)",
+      "metaNotesI18n": {
+        "en": "Strong acceleration and decent handling. Zookiiwi's tune leans power; Mian and Boonhead's leans handling and balance.",
+        "pt-br": "Acelera muito e é razoável nas curvas. A tune de Zookiiwi puxa para potência; a de Mian e Boonhead, para curvas e equilíbrio."
+      },
       "metaRank": 1,
       "name": "A dirt AWD",
       "observations": [
@@ -140,7 +173,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.723,
+      "score": 0.685,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -156,10 +189,15 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-242447b7d7",
+      "metaNotes": "大佛寺 南岸世界纪录 极致的加速配合纯粹的操控 硬实力过强的优点被卡底盘的悬挂平衡了(? 只要没有过水和大跳坡即可享受极致的越野",
+      "metaNotesI18n": {
+        "en": "World record at Daibutsu-ji and Nangan. Extreme acceleration and pure handling; the weak point is a suspension that scrapes the floor. Away from water and big jumps, it is off-road at its best.",
+        "pt-br": "Recorde mundial em Daibutsu-ji e em Nangan. Aceleração extrema e dirigibilidade pura; o ponto fraco é a suspensão que raspa o assoalho. Sem água e sem saltos grandes, é off-road no máximo."
+      },
       "metaRank": 4,
       "name": "A cross-country AWD",
       "observations": [
@@ -171,7 +209,7 @@
         }
       ],
       "role": "power",
-      "score": 0.723,
+      "score": 0.685,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -208,7 +246,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.634,
+      "score": 0.603,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -244,7 +282,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -259,9 +297,20 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "nc-3f8e6cb52a",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9 加速很快",
+      "metaNotesI18n": {
+        "en": "Strong acceleration.",
+        "pt-br": "Acelera muito."
+      },
       "metaRank": 69,
       "name": "Skibidi Daytona 2",
       "observations": [
@@ -283,7 +332,7 @@
         }
       ],
       "role": "power",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -299,10 +348,21 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-40e9e0e143",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9 加速很快",
+      "metaNotesI18n": {
+        "en": "Strong acceleration.",
+        "pt-br": "Acelera muito."
+      },
       "metaRank": 69,
       "name": "B road AWD",
       "observations": [
@@ -314,7 +374,7 @@
         }
       ],
       "role": "power",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -351,7 +411,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -420,7 +480,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -435,9 +495,20 @@
       "class": "A",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "nc-89b6e5f8e7",
+      "lapRefs": [
+        {
+          "time": "59.5",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川59.5 加速很快",
+      "metaNotesI18n": {
+        "en": "Strong acceleration.",
+        "pt-br": "Acelera muito."
+      },
       "metaRank": 9,
       "name": "A Road Sprint Strong Shirakawa 0:59.6",
       "observations": [
@@ -459,7 +530,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.691,
+      "score": 0.659,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -529,7 +600,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -544,10 +615,21 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-bc3502dcee",
+      "lapRefs": [
+        {
+          "time": "1:05.9",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:05.9 加速很快",
+      "metaNotesI18n": {
+        "en": "Strong acceleration.",
+        "pt-br": "Acelera muito."
+      },
       "metaRank": 69,
       "name": "B road AWD",
       "observations": [
@@ -559,7 +641,7 @@
         }
       ],
       "role": "power",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -575,10 +657,15 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-bc72fd5d86",
+      "metaNotes": "大佛寺 南岸世界纪录 极致的加速配合纯粹的操控 硬实力过强的优点被卡底盘的悬挂平衡了(? 只要没有过水和大跳坡即可享受极致的越野",
+      "metaNotesI18n": {
+        "en": "World record at Daibutsu-ji and Nangan. Extreme acceleration and pure handling; the weak point is a suspension that scrapes the floor. Away from water and big jumps, it is off-road at its best.",
+        "pt-br": "Recorde mundial em Daibutsu-ji e em Nangan. Aceleração extrema e dirigibilidade pura; o ponto fraco é a suspensão que raspa o assoalho. Sem água e sem saltos grandes, é off-road no máximo."
+      },
       "metaRank": 4,
       "name": "A cross-country AWD",
       "observations": [
@@ -590,7 +677,7 @@
         }
       ],
       "role": "power",
-      "score": 0.723,
+      "score": 0.685,
       "surface": "cross-country",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -606,9 +693,20 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "nc-c2bffa5f4e",
+      "lapRefs": [
+        {
+          "time": "1:04.2",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:04.2 加速很快 操控还行 (Zookiiwi 偏动力) (Mian&Boonhead 偏操控/均衡)",
+      "metaNotesI18n": {
+        "en": "Strong acceleration and decent handling. Zookiiwi's tune leans power; Mian and Boonhead's leans handling and balance.",
+        "pt-br": "Acelera muito e é razoável nas curvas. A tune de Zookiiwi puxa para potência; a de Mian e Boonhead, para curvas e equilíbrio."
+      },
       "metaRank": 1,
       "name": "A DIRT V3",
       "observations": [
@@ -630,7 +728,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.723,
+      "score": 0.685,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -667,7 +765,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -703,7 +801,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "meta-plus",
       "tierSource": "meta-table",
@@ -742,7 +840,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.634,
+      "score": 0.603,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -778,7 +876,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.634,
+      "score": 0.603,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -803,7 +901,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.636,
+      "score": 0.598,
       "shareCode": "105069888",
       "surface": "dirt",
       "tier": "meta-plus",

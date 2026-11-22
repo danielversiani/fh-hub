@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -67,7 +67,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -103,7 +103,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -118,10 +118,21 @@
       "class": "S1",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "RWD",
       "fromMeta": true,
       "id": "nc-c1d644f439",
+      "lapRefs": [
+        {
+          "time": "55.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.4 加，前中一般略差，中后还行 拐，全段一般还行 *漂移胎小后 驾驶需要一定技术",
+      "metaNotesI18n": {
+        "en": "Average-to-weak low and mid-range acceleration, decent top end; decent cornering. Drift tires and a small rear wing: needs some technique.",
+        "pt-br": "Aceleração mediana para fraca em baixa e média, razoável em alta; curvas razoáveis. Pneus de drift e asa traseira pequena: pede alguma técnica."
+      },
       "metaRank": 46,
       "name": "S1 road RWD",
       "observations": [
@@ -133,7 +144,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",
@@ -170,7 +181,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.543,
+      "score": 0.505,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

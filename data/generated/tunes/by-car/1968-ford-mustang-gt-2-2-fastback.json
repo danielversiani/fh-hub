@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -147,7 +147,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.618,
+      "score": 0.58,
       "surface": "cross-country",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -261,7 +261,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.618,
+      "score": 0.58,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -276,10 +276,15 @@
       "class": "C",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-55905c7ff4",
+      "metaNotes": "线上四驱最强车 全空均衡 无空上限更高",
+      "metaNotesI18n": {
+        "en": "The strongest all-wheel-drive car online. With full aero it is balanced; with no aero it has a higher ceiling.",
+        "pt-br": "O carro de tração 4x4 mais forte do online. Com aero completa é equilibrado; sem aero, tem teto mais alto."
+      },
       "metaRank": 7,
       "name": "C road AWD",
       "observations": [
@@ -291,7 +296,7 @@
         }
       ],
       "role": "power",
-      "score": 0.685,
+      "score": 0.648,
       "surface": "road",
       "tier": "meta",
       "tierSource": "meta-table",
@@ -311,6 +316,21 @@
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b01e28b0a3",
+      "lapRefs": [
+        {
+          "time": "2:23.8",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.7",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:23.8 瑠璃光寺 2:00.7 180MM的前胎有时候会推头 整体难度高 纯冲刺车 弯速较慢 依旧心情悬挂 有时容易弹车尾坠机 落地需谨慎",
+      "metaNotesI18n": {
+        "en": "The 180 mm front tire sometimes understeers; hard overall. A pure sprint car, slow in corners, with a moody suspension that sometimes kicks the rear and crashes it: careful on landings.",
+        "pt-br": "Pneu dianteiro de 180 mm às vezes sai de frente; difícil no geral. Carro de sprint puro, curvas lentas, suspensão de humor variável que às vezes joga a traseira e faz o carro cair: cuidado nas aterrissagens."
+      },
       "metaRank": 18,
       "name": "A cross-country AWD",
       "observations": [
@@ -355,7 +375,7 @@
           "tab": "online"
         }
       ],
-      "score": 0.697,
+      "score": 0.659,
       "shareCode": "516396403",
       "surface": "road",
       "tier": "meta",
@@ -374,6 +394,11 @@
       "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-627857817",
+      "metaNotes": "包揽冲刺图WR 超级冲刺车 动力极强 但是推头较难控制",
+      "metaNotesI18n": {
+        "en": "Holds the sprint world records: a sprint car with huge power, but the understeer is hard to control.",
+        "pt-br": "Domina os recordes de sprint: um carro de sprint com potência enorme, mas a saída de frente é difícil de controlar."
+      },
       "metaRank": 2,
       "name": "B dirt",
       "notes": "Best dirt B 600 car.Better than Honda Bea(s)t",
@@ -430,9 +455,24 @@
       "confidence": 0.85,
       "createdAt": "2026-06-04",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-833100594",
+      "lapRefs": [
+        {
+          "time": "2:34.7",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:09.7",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:34.7 瑠璃光寺 2:09.7 越野胎推重比与原厂胎相差无几的逆天肌肉车 180MM的前胎有时候会推头 但是整体难度并不高 心情悬挂 有时容易弹车尾坠机 落地需谨慎",
+      "metaNotesI18n": {
+        "en": "An absurd muscle car, with nearly the same power-to-weight on off-road and stock tires. The 180 mm front tire sometimes understeers, but it is not hard overall. A moody suspension: it sometimes kicks the rear and crashes it; careful on landings.",
+        "pt-br": "Um muscle car absurdo, com relação peso-potência quase igual com pneus off-road e de fábrica. O pneu dianteiro de 180 mm às vezes sai de frente, mas não é difícil no geral. Suspensão de humor variável: às vezes joga a traseira e faz o carro cair; cuidado nas aterrissagens."
+      },
       "metaRank": 7,
       "name": "B CC Sprint META+",
       "observations": [
@@ -444,7 +484,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.686,
+      "score": 0.651,
       "shareCode": "833100594",
       "surface": "cross-country",
       "tier": "meta",

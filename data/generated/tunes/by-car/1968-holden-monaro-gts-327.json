@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
@@ -50,10 +50,25 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-2db8574b4b",
+      "lapRefs": [
+        {
+          "time": "1:10.4",
+          "track": "Ine"
+        },
+        {
+          "time": "1:03.4",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "伊根1:10.4 向日葵1:03.4 加速非常快 弯速不太行 刚性极差动态极为诡异",
+      "metaNotesI18n": {
+        "en": "Very strong acceleration, but poor cornering; terrible rigidity and very strange behaviour.",
+        "pt-br": "Acelera fortíssimo, mas não faz curva bem; rigidez péssima e comportamento muito estranho."
+      },
       "metaRank": 22,
       "name": "B dirt AWD",
       "observations": [
@@ -65,7 +80,7 @@
         }
       ],
       "role": "power",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -81,10 +96,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-54d782032f",
+      "lapRefs": [
+        {
+          "time": "1:05.4",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.4 加速非常快 弯速不太行 偏船 上手难度较高",
+      "metaNotesI18n": {
+        "en": "Very strong acceleration, but poor cornering; heavy like a boat and hard to get the hang of.",
+        "pt-br": "Acelera fortíssimo, mas não faz curva bem; pesado como um barco e difícil de pegar a mão."
+      },
       "metaRank": 16,
       "name": "A dirt AWD",
       "observations": [
@@ -96,7 +122,7 @@
         }
       ],
       "role": "power",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -133,7 +159,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.588,
+      "score": 0.55,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -148,10 +174,25 @@
       "class": "B",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-785dddd52b",
+      "lapRefs": [
+        {
+          "time": "1:10.4",
+          "track": "Ine"
+        },
+        {
+          "time": "1:03.4",
+          "track": "Sunflower"
+        }
+      ],
+      "metaNotes": "伊根1:10.4 向日葵1:03.4 加速非常快 弯速不太行 刚性极差动态极为诡异",
+      "metaNotesI18n": {
+        "en": "Very strong acceleration, but poor cornering; terrible rigidity and very strange behaviour.",
+        "pt-br": "Acelera fortíssimo, mas não faz curva bem; rigidez péssima e comportamento muito estranho."
+      },
       "metaRank": 22,
       "name": "B dirt AWD",
       "observations": [
@@ -163,7 +204,7 @@
         }
       ],
       "role": "power",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -179,7 +220,7 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-7931f3c0aa",
@@ -205,7 +246,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

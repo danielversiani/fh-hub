@@ -1,16 +1,19 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [
         "powerbuild"
       ],
       "carId": "2011-alfa-romeo-giulietta-quadrifoglio-verde",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-02809e53ee",
+      "metaRank": 129,
       "name": "FWD Powerbuild",
       "observations": [
         {
@@ -30,10 +33,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.511,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
     {
@@ -42,11 +45,14 @@
         "stock-look"
       ],
       "carId": "2011-alfa-romeo-giulietta-quadrifoglio-verde",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "FWD",
       "id": "nc-708c49528e",
+      "metaRank": 129,
       "name": "A Road - Stock Look Rocket",
       "observations": [
         {
@@ -66,11 +72,53 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.511,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t2",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-alfa-romeo-giulietta-quadrifoglio-verde",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c995d6c745",
+      "lapRefs": [
+        {
+          "time": "1:01.2",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:01.2",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 129,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 264,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
     }
   ],
   "schemaVersion": 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -112,6 +112,48 @@
     {
       "buildTags": [],
       "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-19b25e6d26",
+      "lapRefs": [
+        {
+          "time": "1:00.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 119,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 243,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
       "categories": [],
       "class": "S2",
       "confidence": 0.35,
@@ -182,11 +224,14 @@
     {
       "buildTags": [],
       "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-4d5faed7b1",
+      "metaRank": 119,
       "name": "A Road Grip (Stock Rims)",
       "observations": [
         {
@@ -206,10 +251,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard"
     },
     {
@@ -414,11 +459,14 @@
     {
       "buildTags": [],
       "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-786cc94b0b",
+      "metaRank": 20,
       "name": "Dirt Handling All-Around META (1:00.5 Hirosaki, 59.4 Sunflower)",
       "observations": [
         {
@@ -438,10 +486,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "thedannny"
     },
     {
@@ -486,11 +534,14 @@
     {
       "buildTags": [],
       "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-7c4025b234",
+      "metaRank": 119,
       "name": "A Road Grip (Shift @7000RPM)",
       "observations": [
         {
@@ -510,10 +561,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard"
     },
     {
@@ -643,11 +694,14 @@
     {
       "buildTags": [],
       "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-b63306d322",
+      "metaRank": 119,
       "name": "1:00.999 Shirakawa | 3.7L V6",
       "observations": [
         {
@@ -667,10 +721,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "f1r-kilian"
     },
     {
@@ -864,6 +918,48 @@
       "buildTags": [],
       "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
       "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ea32e1977f",
+      "lapRefs": [
+        {
+          "time": "1:05.3",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.3 前段加速不算慢 空力高 高速弯非常快 车头略重低速可能推头",
+      "metaNotesI18n": {
+        "en": "Decent low-end acceleration, lots of aero and very fast in high-speed corners; slightly heavy nose, may understeer in slow ones.",
+        "pt-br": "Aceleração em baixa razoável, muita aerodinâmica e muito rápido nas curvas de alta; frente um pouco pesada, pode sair de frente nas lentas."
+      },
+      "metaRank": 20,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 43,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.676,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
+      "categories": [
         "off-meta"
       ],
       "class": "S1",
@@ -899,11 +995,14 @@
     {
       "buildTags": [],
       "carId": "1990-nissan-12-skyline-gt-r-bnr32-gr-a-jtc",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-f128cc696d",
+      "metaRank": 119,
       "name": "Strong A Road | <1:00.8 Shirakawa",
       "observations": [
         {
@@ -923,10 +1022,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.541,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
     {

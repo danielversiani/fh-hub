@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -10,10 +10,29 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-489c3e78d1",
+      "lapRefs": [
+        {
+          "time": "2:23.8",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.2",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "57.2",
+          "track": "Nangan"
+        }
+      ],
+      "metaNotes": "高城 2:23.8 琉璃光寺 2:00.2 南岸57.2 偏动力的车全段加速非常快 低速机械抓地力较差 高速弯有魔法 弯速奇快 有一定难度 陷地摧毁META梦",
+      "metaNotesI18n": {
+        "en": "A power car with very strong acceleration throughout; little mechanical grip in slow corners, but magic in fast ones, extremely quick. Somewhat difficult; bogging down ends its meta dreams.",
+        "pt-br": "Carro de potência com aceleração fortíssima em toda a faixa; pouca aderência mecânica nas lentas, mas mágico nas curvas de alta, rapidíssimo. Tem certa dificuldade; atolar acaba com o sonho de meta."
+      },
       "metaRank": 22,
       "name": "A cross-country AWD",
       "observations": [
@@ -25,7 +44,7 @@
         }
       ],
       "role": "power",
-      "score": 0.648,
+      "score": 0.61,
       "surface": "cross-country",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -80,9 +99,28 @@
       "confidence": 0.85,
       "createdAt": "2026-08-02",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-123978928",
+      "lapRefs": [
+        {
+          "time": "2:23.8",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.2",
+          "track": "Rurikoji"
+        },
+        {
+          "time": "57.2",
+          "track": "Nangan"
+        }
+      ],
+      "metaNotes": "高城 2:23.8 琉璃光寺 2:00.2 南岸57.2 偏动力的车全段加速非常快 低速机械抓地力较差 高速弯有魔法 弯速奇快 有一定难度 陷地摧毁META梦",
+      "metaNotesI18n": {
+        "en": "A power car with very strong acceleration throughout; little mechanical grip in slow corners, but magic in fast ones, extremely quick. Somewhat difficult; bogging down ends its meta dreams.",
+        "pt-br": "Carro de potência com aceleração fortíssima em toda a faixa; pouca aderência mecânica nas lentas, mas mágico nas curvas de alta, rapidíssimo. Tem certa dificuldade; atolar acaba com o sonho de meta."
+      },
       "metaRank": 22,
       "name": "CC Sprint Strong V1.2",
       "observations": [
@@ -94,7 +132,7 @@
         }
       ],
       "role": "power",
-      "score": 0.658,
+      "score": 0.622,
       "shareCode": "123978928",
       "surface": "cross-country",
       "tier": "t0.5",
@@ -115,6 +153,21 @@
       "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-182235511",
+      "lapRefs": [
+        {
+          "time": "2:36.7",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:08.9",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:36.7 琉璃光寺 2:08.9 全段加速快 低速机械抓地力较差 有一定难度",
+      "metaNotesI18n": {
+        "en": "Strong acceleration throughout, little mechanical grip in slow corners; somewhat difficult.",
+        "pt-br": "Aceleração forte em toda a faixa, pouca aderência mecânica nas lentas; tem certa dificuldade."
+      },
       "metaRank": 15,
       "name": "B CC Sprint",
       "observations": [
@@ -172,9 +225,20 @@
       "confidence": 0.85,
       "createdAt": "2026-06-25",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-672544128",
+      "lapRefs": [
+        {
+          "time": "2:04.8",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "冈城1:23.9 琉璃光寺2:04.8 偏一点动力的环道车 比较全能 但机械抓地力较差",
+      "metaNotesI18n": {
+        "en": "A circuit car leaning slightly towards power, quite versatile, but with little mechanical grip.",
+        "pt-br": "Carro de circuito puxando um pouco para potência, bem versátil, mas com pouca aderência mecânica."
+      },
       "metaRank": 50,
       "name": "CC Circuit Power T1.5 1.0",
       "observations": [
@@ -186,7 +250,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.477,
+      "score": 0.442,
       "shareCode": "672544128",
       "surface": "cross-country",
       "tier": "t3",

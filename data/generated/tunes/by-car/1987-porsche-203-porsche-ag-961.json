@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T06:52:08.826Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -10,7 +10,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-34944a09f0",
@@ -36,7 +36,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.646,
+      "score": 0.615,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -87,7 +87,7 @@
       "class": "S1",
       "confidence": 0.95,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-970494fa34",
@@ -113,7 +113,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.646,
+      "score": 0.615,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -150,7 +150,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.588,
+      "score": 0.55,
       "surface": "dirt",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -175,7 +175,7 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.586,
+      "score": 0.554,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -211,7 +211,7 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.596,
+      "score": 0.564,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
@@ -260,9 +260,20 @@
       "confidence": 0.85,
       "createdAt": "2026-08-13",
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "id": "sc-157990158",
+      "lapRefs": [
+        {
+          "time": "1:01.3",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根01.3/01.5干净 前中段加速不错 操控可以 但引擎在后面手感较怪 需要适应",
+      "metaNotesI18n": {
+        "en": "Good low and mid-range acceleration and decent handling, but the rear engine feels odd: takes getting used to.",
+        "pt-br": "Boa aceleração em baixa e média e curvas razoáveis, mas o motor traseiro dá uma sensação estranha: precisa se acostumar."
+      },
       "metaRank": 11,
       "name": "Ine 01.5Clean/01.3 Dirt Meta",
       "observations": [
@@ -274,7 +285,7 @@
         }
       ],
       "role": "handling",
-      "score": 0.659,
+      "score": 0.624,
       "shareCode": "157990158",
       "surface": "dirt",
       "tier": "t0.5",
@@ -356,7 +367,7 @@
       ],
       "recommended": true,
       "role": "allround",
-      "score": 0.8,
+      "score": 0.77,
       "shareCode": "944180172",
       "surface": "road",
       "tier": "t0.5",

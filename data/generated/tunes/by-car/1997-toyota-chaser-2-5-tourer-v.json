@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
@@ -342,10 +342,21 @@
       "class": "A",
       "confidence": 0.8,
       "credited": true,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "drivetrain": "AWD",
       "fromMeta": true,
       "id": "nc-b1f4cba743",
+      "lapRefs": [
+        {
+          "time": "1:00.6",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.6 冲刺车，不怎么拐弯，中段加速非常快",
+      "metaNotesI18n": {
+        "en": "A sprint car: barely turns, but has very strong mid-range acceleration.",
+        "pt-br": "Carro de sprint: quase não faz curva, mas acelera fortíssimo na faixa média."
+      },
       "metaRank": 104,
       "name": "A road AWD",
       "observations": [
@@ -357,7 +368,7 @@
         }
       ],
       "role": "power",
-      "score": 0.592,
+      "score": 0.554,
       "surface": "road",
       "tier": "t1",
       "tierSource": "meta-table",

@@ -1,14 +1,76 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-0f72bbb0ef",
+      "lapRefs": [
+        {
+          "time": "1:00.5",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "“请使用标题含Dirt/CC的调校” 伊根00.5 南岸世界纪录 更多的power 操作上限会更高 越野拉力通用调校",
+      "metaNotesI18n": {
+        "en": "Use the tune with \"Dirt/CC\" in the title. World record at Nangan. More power and a higher ceiling; an all-purpose off-road and rally tune.",
+        "pt-br": "Use a tune com \"Dirt/CC\" no título. Recorde mundial em Nangan. Mais potência e teto mais alto; tune versátil para off-road e rally."
+      },
+      "metaRank": 2,
+      "name": "S1 cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 5,
+          "sourceId": "noa-miyako",
+          "tab": "s1-cross-country"
+        }
+      ],
+      "role": "power",
+      "score": 0.685,
+      "surface": "cross-country",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
       "drivetrain": "AWD",
       "id": "nc-2c6b1bc4aa",
+      "lapRefs": [
+        {
+          "time": "54.7",
+          "track": "Shirakawa"
+        },
+        {
+          "time": "1:23.9",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "白川 54.7 高速公路 1:23.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 33,
       "name": "max handling",
       "observations": [
         {
@@ -28,20 +90,115 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.488,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
       "tunerId": "letzelu"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-2fec42551c",
+      "lapRefs": [
+        {
+          "time": "1:00.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 1:00.0 (1.8G) 加和拐全段都还可以",
+      "metaNotesI18n": {
+        "en": "1.8 version: decent acceleration and handling throughout.",
+        "pt-br": "Versão 1.8: aceleração e curvas razoáveis em toda a faixa."
+      },
+      "metaRank": 38,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 80,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        },
+        {
+          "raw": {},
+          "row": 82,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-32bbdd5e4f",
+      "lapRefs": [
+        {
+          "time": "1:05.1",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.1 加一般，拐很不错",
+      "metaNotesI18n": {
+        "en": "Average acceleration, very good in corners.",
+        "pt-br": "Aceleração mediana, muito bom nas curvas."
+      },
+      "metaRank": 9,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 21,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "handling",
+      "score": 0.676,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-34549630a8",
+      "metaRank": 1,
       "name": "S1 Class Dirt",
       "observations": [
         {
@@ -61,22 +218,71 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.61,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-454bda30af",
+      "lapRefs": [
+        {
+          "time": "54.7",
+          "track": "Shirakawa"
+        },
+        {
+          "time": "1:23.9",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "白川 54.7 高速公路 1:23.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 33,
+      "name": "S1 road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 70,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.488,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-sam"
     },
     {
       "buildTags": [
         "full-aero"
       ],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-4f90f2e47b",
+      "metaRank": 1,
       "name": "S1 Dirt Allround Meta+(Full Aero)",
       "observations": [
         {
@@ -96,20 +302,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.61,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "iphanhan"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-6311e5d34e",
+      "metaRank": 38,
       "name": "A Road - Very Strong Road",
       "observations": [
         {
@@ -129,10 +338,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard"
     },
     {
@@ -141,12 +350,14 @@
       ],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-6ca5058994",
+      "metaRank": 38,
       "name": "Purist Vintage Race + Stock Rims",
       "observations": [
         {
@@ -166,20 +377,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-81a959e3cf",
+      "metaRank": 1,
       "name": "8C Dirt Allround META+ Sunflower 54.4 A/M",
       "observations": [
         {
@@ -199,20 +413,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.61,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "zvtcjau"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-867dcf35c7",
+      "metaRank": 11,
       "name": "S1 accel v2",
       "observations": [
         {
@@ -232,20 +449,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.55,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "air-jerden"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-9718e9f80a",
+      "metaRank": 1,
       "name": "S1 Dirt META v1.2",
       "observations": [
         {
@@ -265,20 +485,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.61,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "thedannny"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-a8939a997c",
+      "metaRank": 2,
       "name": "Strong Dirt/CC Allround Meta+++",
       "observations": [
         {
@@ -298,20 +521,65 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.61,
       "surface": "cross-country",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "iphanhan"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-b4aeea0a22",
+      "lapRefs": [
+        {
+          "time": "54.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 54.4 刹车偏弱 全段加速优秀",
+      "metaNotesI18n": {
+        "en": "Slightly weak brakes, excellent acceleration throughout.",
+        "pt-br": "Freio um pouco fraco, aceleração excelente em toda a faixa."
+      },
+      "metaRank": 11,
+      "name": "S1 road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "s1-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.61,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [],
+      "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-be16fc3c5e",
+      "metaRank": 1,
       "name": "S1 Dirt Meta+",
       "observations": [
         {
@@ -331,10 +599,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.61,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
     },
     {
@@ -343,12 +611,14 @@
       ],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-bee6677f18",
+      "metaRank": 38,
       "name": "Purist A Road Strong",
       "observations": [
         {
@@ -368,10 +638,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "k1z-bard"
     },
     {
@@ -379,11 +649,14 @@
         "powerbuild"
       ],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-c25bc96186",
+      "metaRank": 11,
       "name": "52.3 HMC",
       "observations": [
         {
@@ -403,10 +676,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.55,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "zombiejesus52"
     },
     {
@@ -415,12 +688,14 @@
       ],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
       "categories": [
+        "off-meta",
         "purist"
       ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-c7772c4783",
+      "metaRank": 38,
       "name": "A Class Purist",
       "observations": [
         {
@@ -440,20 +715,40 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.571,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
       "tunerId": "gamerlogicftw"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "off-meta"
+      ],
       "class": "S1",
-      "confidence": 0.35,
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
       "drivetrain": "AWD",
       "id": "nc-c7f34b7f12",
+      "lapRefs": [
+        {
+          "time": "54.7",
+          "track": "Shirakawa"
+        },
+        {
+          "time": "1:23.9",
+          "track": "Highway Circuit"
+        }
+      ],
+      "metaNotes": "白川 54.7 高速公路 1:23.9",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 33,
       "name": "S1 Road Acceleration Beast",
       "observations": [
         {
@@ -473,20 +768,25 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "role": "power",
+      "score": 0.488,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "vintage",
       "tunerId": "letzelu"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "A",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-e26e822113",
+      "metaRank": 9,
       "name": "A Dirt Strong Handling All-Around",
       "observations": [
         {
@@ -506,10 +806,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "thedannny"
     },
     {
@@ -517,11 +817,22 @@
         "full-aero"
       ],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-08-27",
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
       "id": "sc-215156091",
+      "metaNotes": "“请使用标题为Dirt的调校” 伊根世界纪录 全段加速都不错 操控很好 抓地力很强",
+      "metaNotesI18n": {
+        "en": "Use the tune titled \"Dirt\". World record at Ine. Good acceleration throughout, great handling and lots of grip.",
+        "pt-br": "Use a tune com \"Dirt\" no título. Recorde mundial em Ine. Boa aceleração em toda a faixa, ótimo nas curvas e com muita aderência."
+      },
+      "metaRank": 1,
       "name": "S1 Dirt Allround Meta+ (Full Aero)",
       "observations": [
         {
@@ -531,22 +842,27 @@
           "tab": "online"
         }
       ],
-      "score": 0.522,
+      "role": "allround",
+      "score": 0.696,
       "shareCode": "215156091",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "offroad",
       "tunerId": "lphanhan"
     },
     {
       "buildTags": [],
       "carId": "1968-alfa-romeo-autodelta-tipo-33-2-daytona",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "S1",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-08-27",
       "drivetrain": "AWD",
       "id": "sc-228372389",
+      "metaRank": 1,
       "name": "S1 Dirt Meta",
       "observations": [
         {
@@ -572,11 +888,11 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.697,
+      "score": 0.708,
       "shareCode": "228372389",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
       "tunerId": "rocklxd"
     }
   ],

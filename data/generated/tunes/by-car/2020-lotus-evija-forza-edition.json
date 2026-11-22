@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-21T17:59:17.561Z",
+  "generatedAt": "2026-11-22T14:28:01.289Z",
   "items": [
     {
       "buildTags": [],
       "carId": "2020-lotus-evija-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-3b84f1f491",
+      "metaRank": 4,
       "name": "Highway Circuit 1:08.838",
       "observations": [
         {
@@ -28,10 +31,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.515,
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "keunotorrr"
     },
     {
@@ -60,10 +63,13 @@
     {
       "buildTags": [],
       "carId": "2020-lotus-evija-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "id": "sc-171073717",
+      "metaRank": 4,
       "name": "R Speed",
       "observations": [
         {
@@ -73,11 +79,11 @@
           "tab": "horizon-6"
         }
       ],
-      "score": 0.446,
+      "score": 0.502,
       "shareCode": "171073717",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "k1z-jeremy"
     },
     {
@@ -85,11 +91,22 @@
         "powerbuild"
       ],
       "carId": "2020-lotus-evija-forza-edition",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "R",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-08-06",
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
       "id": "sc-795820362",
+      "metaNotes": "高速路世界纪录 伊东世界纪录 四季彩世界纪录",
+      "metaNotesI18n": {
+        "en": "World record at the Highway Circuit, Ito and Shikisai.",
+        "pt-br": "Recorde mundial no Highway Circuit, em Ito e em Shikisai."
+      },
+      "metaRank": 4,
       "name": "R Meta 2",
       "observations": [
         {
@@ -99,11 +116,13 @@
           "tab": "online"
         }
       ],
-      "score": 0.517,
+      "role": "power",
+      "score": 0.596,
       "shareCode": "795820362",
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "rally",
       "tunerId": "vsm-huon"
     }
   ],
