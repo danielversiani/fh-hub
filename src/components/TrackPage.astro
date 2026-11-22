@@ -40,7 +40,10 @@ const sketch = track.source === 'map';
   locale={locale}
   path={`/tracks/${track.id}/`}
   title={track.name}
-  description={t(locale, 'seo.track', { track: track.name, km: km(track.lengthM) })}
+  description={t(locale, track.source === 'map' ? 'seo.trackSketch' : 'seo.track', {
+    track: track.name,
+    km: km(track.lengthM),
+  })}
 >
   {/* The 3D tracks are a Paddock Lab prototype: say so, and ask for feedback. */}
   <p class="mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-l-4 border-l-warn bg-surface px-3 py-2 text-xs">
