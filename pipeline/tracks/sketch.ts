@@ -279,8 +279,13 @@ const tSmooth = lapTime(placeLine(centre, normals, smoothest, half), closed).tim
 // 6. The lines file, with a note on each corner where the fastest line differs.
 const r2 = (v: number) => Math.round(v * 100) / 100;
 const every = 10 / STEP;
-const points = (pos: number[]) =>
-  pos.filter((_, i) => i % every === 0).map((v, j) => ({ at: j * 10, pos: r2(v) }));
+// On a circuit the last point is the first one again, at the finish line, so the line closes.
+const points = (pos: number[]) => {
+  const out = pos.filter((_, i) => i % every === 0).map((v, j) => ({ at: j * 10, pos: r2(v) }));
+  if (closed && out[out.length - 1]!.at < track.lengthM)
+    out.push({ at: track.lengthM, pos: out[0]!.pos });
+  return out;
+};
 // The pins' own notes first: they carry the reasoning of whoever knows the route.
 const turnAt = (m: number) =>
   track.turns.reduce((a, t) =>
@@ -358,7 +363,7 @@ const lines = {
         'pt-br': 'Cada curva do jeito clássico (aberto, ápice, aberto), como se fosse a única.',
         en: 'Each corner the textbook way (wide, apex, wide), as if it were the only one.',
       },
-      colors: ['#ffb02e', '#ff7a1a'],
+      colors: closed ? ['#ffb02e', '#ff7a1a', '#ffb02e'] : ['#ffb02e', '#ff7a1a'],
       visible: false,
       interpolation: 'spline',
       points: points(generic),
@@ -370,7 +375,7 @@ const lines = {
         'pt-br': `A volta mais rápida para um carro típico: pensa no que vem antes e depois${pins.size ? ', passando pelos pontos indicados por quem corre a pista' : ''}.`,
         en: `The fastest lap for a typical car: thinks about what comes before and after${pins.size ? ', through the points set by people who race the route' : ''}.`,
       },
-      colors: ['#2fb7ff', '#3ee07a'],
+      colors: closed ? ['#2fb7ff', '#3ee07a', '#2fb7ff'] : ['#2fb7ff', '#3ee07a'],
       visible: true,
       interpolation: 'spline',
       points: points(fastest),

@@ -10,6 +10,7 @@ lines:
     colors:
       - "#ffb02e"
       - "#ff7a1a"
+      - "#ffb02e"
     visible: false
     interpolation: spline
     points:
@@ -657,6 +658,8 @@ lines:
         pos: -0.24
       - at: 3210
         pos: -0.07
+      - at: 3215
+        pos: 0.1
   - id: otimizado
     name:
       pt-br: Otimizado
@@ -667,6 +670,7 @@ lines:
     colors:
       - "#2fb7ff"
       - "#3ee07a"
+      - "#2fb7ff"
     visible: true
     interpolation: spline
     points:
@@ -1314,6 +1318,8 @@ lines:
         pos: 0.16
       - at: 3210
         pos: 0.3
+      - at: 3215
+        pos: 0.43
 notes:
   - from: 214
     to: 314
