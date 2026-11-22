@@ -93,7 +93,7 @@ fh-hub/
 │  ├─ islands/                   # componentes interativos (Preact): TuneSearch
 │  ├─ world/                     # modo pista (ADR-0019): mundo 3D (three.js), rota da página inicial, imagens do modo normal
 │  ├─ tracks/                    # modelo 3D das pistas (ADR-0021): scene3d.ts (pista, cenário, câmera) e guides.ts (checkpoints, linhas)
-│  └─ content/                   # ⏳ coleções: guides, accessories, custom-events
+│  └─ content/guides/            # guias para iniciantes (ADR-0024): um .md por guia e idioma, cabeçalho validado em lib/guide-header.ts
 └─ .github/workflows/            # ci.yml, sync.yml (⏳ deploy.yml, health.yml)
 ```
 

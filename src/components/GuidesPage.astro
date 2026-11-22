@@ -1,0 +1,41 @@
+---
+import { localePath, t, type Locale } from '../i18n';
+import Base from '../layouts/Base.astro';
+import { loadGuides } from '../lib/guides';
+
+interface Props {
+  locale: Locale;
+}
+
+/** The guide list (ADR-0024): the tutorial the game does not give new players. */
+const { locale } = Astro.props;
+const guides = loadGuides(locale);
+---
+
+<Base
+  locale={locale}
+  path="/guides/"
+  title={t(locale, 'guides.title')}
+  description={t(locale, 'guides.description')}
+  noindex={guides.length === 0}
+>
+  <p class="eyebrow text-season">{t(locale, 'guides.kicker')}</p>
+  <h1 class="display mt-2 text-4xl sm:text-5xl">{t(locale, 'guides.title')}</h1>
+  <p class="mt-4 max-w-3xl text-muted">{t(locale, 'guides.lead')}</p>
+
+  <ul class="mt-8 grid max-w-3xl gap-3">
+    {guides.map((g) => (
+      <li>
+        <a
+          href={localePath(locale, `/guides/${g.slug}/`)}
+          class="card block p-4 hover:border-accent"
+        >
+          <span class="font-semibold">{g.title}</span>
+          {!g.published && <span class="ml-2 text-xs text-muted">{t(locale, 'track.draft')}</span>}
+          <span class="mt-1 block text-sm text-muted">{g.summary}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="mt-6 max-w-3xl text-sm text-muted">{t(locale, 'guides.more')}</p>
+</Base>

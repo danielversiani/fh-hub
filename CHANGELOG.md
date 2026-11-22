@@ -7,6 +7,11 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-22: **Seção de Guias** ([ADR-0024](docs/adr/0024-secao-de-guias-para-iniciantes.md)):
+  - páginas `/guides/` e `/en/guides/`, com guias em Markdown (`src/content/guides/`), selo "conferido no jogo em…" e lista de fontes;
+  - "Guias" aparece no menu e no `llms.txt` quando houver um guia publicado;
+  - primeiro guia, ainda rascunho: **"Comece aqui: as três trilhas do FH6"**, em PT-BR e EN;
+  - pesquisa em `reports/Guias para iniciantes no FH6.md`.
 - 2026-11-21: **Esboços de pista pelo mapa** ([ADR-0023](docs/adr/0023-esbocos-de-pista-pelo-mapa.md)):
   - `pnpm tracks:sketch -- --route=<id>` desenha uma pista ainda não gravada a partir da imagem da rota, com o tamanho tirado da distância da corrida.
   - A pista sai plana e de largura única, com dois traçados calculados: "Curva a curva" (o clássico de cada curva isolada) e "Otimizado" (a volta mais rápida para um carro típico, que sacrifica curvas quando compensa).

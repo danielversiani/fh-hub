@@ -11,6 +11,7 @@ import {
   type MessageKey,
 } from '../i18n';
 import { currentSeason, loadStats } from '../lib/data';
+import { loadGuides } from '../lib/guides';
 import { spotFor } from '../world/spots';
 import { MICROSOFT_NOTICE, MICROSOFT_RULES_URL } from '../lib/site';
 
@@ -52,6 +53,8 @@ const nav: [MessageKey, string, string[]?][] = [
   ['nav.tunes', '/tunes/'],
   ['nav.meta', '/meta/'],
   ['nav.tuners', '/tuners/'],
+  // Guides show in the menu once one is live (drafts only in development).
+  ...(loadGuides(locale).length ? [['nav.guides', '/guides/'] as [MessageKey, string]] : []),
   ['nav.lab', '/lab/', ['/tracks/']],
 ];
 const current = Astro.url.pathname;

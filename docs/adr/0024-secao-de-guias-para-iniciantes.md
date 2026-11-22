@@ -1,6 +1,6 @@
 # 0024. Seção de Guias: a trilha que o jogo não dá ao iniciante
 
-- **Status:** Proposta (aguarda aprovação do dono)
+- **Status:** Aceita (dono, 2026-11-22)
 - **Data:** 2026-11-22
 
 ## Contexto

@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { currentSeason, loadStats, loadTrackModels } from '../lib/data';
+import { loadGuides } from '../lib/guides';
 
 const SITE = 'https://forzapaddock.racing';
 
@@ -11,6 +12,7 @@ export const GET: APIRoute = () => {
   const stats = loadStats();
   const season = currentSeason();
   const tracks = loadTrackModels().filter((m) => m.scene.published);
+  const guides = loadGuides('en').filter((g) => g.published);
   const lines = [
     '# Forza Paddock',
     '',
@@ -34,6 +36,14 @@ export const GET: APIRoute = () => {
           '## Tracks',
           '',
           ...tracks.map((m) => `- [${m.track.name}](${SITE}/en/tracks/${m.track.id}/)`),
+        ]
+      : []),
+    ...(guides.length
+      ? [
+          '',
+          '## Beginner guides',
+          '',
+          ...guides.map((g) => `- [${g.title}](${SITE}/en/guides/${g.slug}/): ${g.summary}`),
         ]
       : []),
     '',

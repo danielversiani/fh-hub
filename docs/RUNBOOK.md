@@ -103,6 +103,16 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
 5. Uma pista já gravada pela telemetria não aceita esboço. Para gravar uma pista esboçada, siga o §3e: o arquivo da telemetria substitui o esboço.
 6. Só marque `published: true` quando o dono aprovar.
 
+## 3g. Escrever ou atualizar um guia ([ADR-0024](adr/0024-secao-de-guias-para-iniciantes.md))
+
+1. Cada guia tem dois arquivos com o mesmo nome: `src/content/guides/pt-br/<guia>.md` e `src/content/guides/en/<guia>.md`. O nome do arquivo vira o endereço (`/guides/<guia>/`).
+2. O cabeçalho tem `title`, `summary` (vira a descrição nas buscas), `order`, `verifiedAt`, `sources` e `published`.
+   - `verifiedAt`: a data em que o dono conferiu no jogo. Use `null` enquanto não for conferido; a página avisa.
+   - `sources`: toda fonte usada, com `label` e `url`. Fontes que vendem créditos ou boosting não servem de base.
+   - `published`: `false` deixa o guia visível só em `pnpm dev`.
+3. No texto, marque com _A conferir no jogo_ o que ainda não foi confirmado. Escreva com as próprias palavras, sem copiar texto de outros sites.
+4. As duas línguas devem ter a mesma ordem, a mesma data e o mesmo estado de publicação: `pnpm test` confere. O menu só mostra "Guias" quando há pelo menos um guia publicado.
+
 ## 4. Carros ou tunadores não reconhecidos
 
 1. Abra `data/review/unmatched-cars.json`. Cada item mostra o texto original e os candidatos com a similaridade.
