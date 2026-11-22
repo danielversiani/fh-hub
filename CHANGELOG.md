@@ -12,6 +12,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
   - **Células de texto formatado:** o leitor da planilha (QQ Docs) agora entende o texto formatado. Entram 268 observações que estavam de fora e 48 linhas do ranking cujo nome do carro estava formatado. As observações novas foram traduzidas ([ADR-0014](docs/adr/0014-traducao-dos-textos-das-fontes.md)), e as pistas Irokawa, Satta, Tateyama, Ito, Rurikoji, Nangan e Chiheisen passam a ser reconhecidas nos tempos.
   - **Versão nova de uma tune:** quando a aba de atualizações registra uma tune mais nova que a data do código mostrado, o cartão avisa que o código pode ser da versão anterior e indica o gamertag (6 tunes hoje, entre elas a do Golf).
   - **Datas das tunes** (dono, mesmo dia): a data da tune aparecia como "atualizada em" e se confundia com as atualizações das planilhas. Agora ela fica no campo "Publicada" do cartão. Nas novidades, a tune da atualização aparece em destaque com a data da mudança na planilha, inclusive quando o código vem de outra fonte (o Golf de CaiGou YYY). O aviso de versão nova também aparece nas listas de tunes, e uma tune publicada na semana anterior à atualização conta como a versão nova.
+  - **Novidades só com as tunes da lista** (dono, mesmo dia): ao abrir a novidade de uma planilha, aparecem só as tunes que aquela planilha lista para o carro. As de outras fontes ficam na página do carro.
 
 ### Adicionado
 - 2026-11-22: **Seção de Guias** ([ADR-0024](docs/adr/0024-secao-de-guias-para-iniciantes.md)):

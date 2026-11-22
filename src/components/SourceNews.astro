@@ -44,8 +44,9 @@ interface Props {
 /**
  * Updates of one reference source (owner: every source gets the same look): the biggest update
  * as a large card with the car's photo, the others as smaller cards. A card opens in place to
- * show the updated tune first and then the site's other tunes for that car and class (owner,
- * 2026-11-14), so the reader can keep going through the updates.
+ * show the updated tune first and then the other tunes this source lists for that car and class
+ * (owner, 2026-11-14; only this source's tunes since 2026-11-22: the car page has them all), so
+ * the reader can keep going through the updates.
  */
 const { locale, id, title, url, checked, items, history = [] } = Astro.props;
 const { cars } = maps();
@@ -56,22 +57,28 @@ const base = locale === 'en' ? '/en' : '';
 const newsLabels = {
   updated: t(locale, 'home.news.updatedTune', { date: '{date}' }),
   more: t(locale, 'home.news.moreTunes'),
+  none: t(locale, 'home.news.noTunes'),
 };
 
 const byCar = new Map<string, BrowseTune[]>();
 for (const tune of buildBrowseData().tunes)
   byCar.set(tune.car, [...(byCar.get(tune.car) ?? []), tune]);
-/** The updated tune(s) of an update, then the car's other tunes in the same class. */
+/**
+ * The tunes this source lists. The meta table (Noa Miyako) names tuners rather than tunes: its
+ * tunes are the ones it credits, even when the code comes from another source (CaiGou YYY's
+ * Rallye Golf, coded by fhstats).
+ */
+const inSource = (tune: BrowseTune) =>
+  tune.sources.includes(id) || (id === 'noa-miyako' && tune.credited);
+/** The updated tune(s) of an update, then this source's other tunes for the car in that class. */
 const tunesOf = (n: NewsItem) => {
-  const all = (byCar.get(n.carId) ?? []).filter((tune) => !n.cls || tune.cls === n.cls);
-  // The meta table (Noa Miyako) credits a tuner without listing the tune: its updates name the
-  // tuner, and the tune is the coded one the table credits (e.g. CaiGou YYY's Rallye Golf, whose
-  // code comes from fhstats).
+  const all = (byCar.get(n.carId) ?? []).filter(
+    (tune) => (!n.cls || tune.cls === n.cls) && inSource(tune),
+  );
   const isUpdated = (tune: BrowseTune) =>
     n.tuneId
       ? tune.id === n.tuneId
-      : (tune.sources.includes(id) || (id === 'noa-miyako' && tune.credited)) &&
-        (!n.surface || tune.surface === n.surface) &&
+      : (!n.surface || tune.surface === n.surface) &&
         (!n.tunerIds?.length || n.tunerIds.includes(tune.tuner));
   const updated = all.filter(isUpdated).sort(compareTunes);
   const others = all

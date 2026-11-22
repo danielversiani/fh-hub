@@ -479,15 +479,18 @@ function BuildCard({ build, labels, base }: { build: Build; labels: CarCardLabel
 }
 
 export interface NewsTunesLabels {
-  /** "Tune desta atualização" */
+  /** "Tune desta atualização · {date}" */
   updated: string;
-  /** "Outras tunes deste carro na classe {cls} ({n})" */
+  /** "Outras tunes deste carro na classe {cls} nesta lista ({n})" */
   more: string;
+  /** "Esta lista não tem outras tunes deste carro na classe {cls}." */
+  none: string;
 }
 
 /**
  * The tunes behind one home-page update (owner, 2026-11-14): the updated tune(s) first, in full,
- * then the site's other tunes for the same car and class, so the update can be explored in place.
+ * then the source's other tunes for the same car and class (only that source's, 2026-11-22), so
+ * the update can be explored in place.
  */
 export function NewsTunes({
   updated,
@@ -530,7 +533,7 @@ export function NewsTunes({
         </div>
       )}
       {updated.length === 0 && others.length === 0 && (
-        <p class="text-sm text-muted">{labels.noTunes}</p>
+        <p class="text-sm text-muted">{newsLabels.none.replace('{cls}', cls ?? '')}</p>
       )}
       <a href={href} class="self-end text-sm text-accent hover:underline">
         {labels.openPage} →
