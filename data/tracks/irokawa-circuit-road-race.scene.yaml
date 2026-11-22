@@ -5,7 +5,13 @@
 published: true
 references:
   - url: https://www.youtube.com/live/akn8HS0Q54c
-    lapStart: '31:13'
+    lapStart: '31:01'
+# Lap 2 of the reference video, cut into a short clip served by the site, and where the car is
+# at each second of it (metres along the lap; HUD lap clock and speedometer). Drives "Compare with
+# video": the clip loops next to the model, and both move together.
+lapVideo:
+  src: /tracks/irokawa-circuit-road-race/volta.mp4
+  sync: [[0, 0], [0.75, 41], [1.75, 96], [2.75, 154], [3.75, 212], [4.75, 260], [5.75, 300], [6.75, 336], [7.75, 373], [8.75, 413], [9.75, 457], [10.75, 504], [11.75, 555], [12.75, 609], [13.75, 666], [14.75, 725], [15.75, 784], [16.75, 841], [17.75, 899], [18.75, 956], [19.75, 1009], [20.75, 1057], [21.75, 1104], [22.75, 1153], [23.75, 1203], [24.75, 1258], [25.75, 1316], [26.75, 1377], [27.75, 1438], [28.75, 1486], [29.75, 1519], [30.75, 1545], [31.75, 1569], [32.75, 1596], [33.75, 1628], [34.75, 1665], [35.75, 1705], [36.75, 1746], [37.75, 1790], [38.65, 1830]]
 road:
   width: 13
   surface: asphalt
@@ -24,6 +30,7 @@ drivenLine:
   - { at: 260, pos: 0.33 }
   - { at: 300, pos: 0 }
   - { at: 336, pos: -1.27 }
+  - { at: 352, pos: -1.2 }
   - { at: 373, pos: -0.64 }
   - { at: 413, pos: 0.4 }
   - { at: 457, pos: 0.88 }
@@ -95,14 +102,14 @@ sections:
     right: { edge: grass, edgeWidth: 1.6, scenery: [{ type: retaining-wall, offset: 0, density: 1, height: 10 }] }
   - from: 420
     width: 15
-    note: T1 exit, crowd on the left; guardrail on the right before the wall with stands on top
+    note: T1 exit, crowd on the left; guardrail on the right before a plain concrete wall with stands on top (side views)
     left: { edge: grass, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.7, height: 6 }, { type: banners, offset: 0.5, density: 0.4 }] }
-    right: { edge: grass, barrier: guardrail, scenery: [{ type: retaining-wall, offset: 3, density: 1, height: 8 }, { type: stands, offset: 9, density: 0.6, height: 14 }] }
+    right: { edge: grass, barrier: guardrail, scenery: [{ type: concrete-wall, offset: 3, density: 1, height: 9 }, { type: stands, offset: 9, density: 0.6, height: 14 }] }
   - from: 490
     width: 12.5
-    note: concrete sidewalk and a black fence on the left, wall on the right
+    note: concrete sidewalk and a black fence on the left, plain concrete wall on the right
     left: { edge: sidewalk, edgeWidth: 2, barrier: fence, scenery: [{ type: trees, offset: 8, density: 0.5 }] }
-    right: { edge: grass, scenery: [{ type: retaining-wall, offset: 3, density: 1, height: 8 }] }
+    right: { edge: grass, scenery: [{ type: concrete-wall, offset: 3, density: 1, height: 9 }] }
   - from: 570
     note: sidewalk and fence with tents behind on the left; low walls and stands on the right
     left: { edge: sidewalk, edgeWidth: 2, barrier: fence, scenery: [{ type: tents, offset: 6, density: 0.8 }] }
@@ -153,11 +160,15 @@ sections:
     width: 11.5
     note: back straight, grass bank with a tall wall and stands on the left, black fence on the right
     left: { edge: grass, edgeWidth: 4, scenery: [{ type: cones, offset: 2, density: 0.3 }, { type: retaining-wall, offset: 6, density: 1, height: 8 }, { type: stands, offset: 14, density: 0.6, height: 8 }] }
-    right: { edge: grass, edgeWidth: 6, barrier: fence, scenery: [{ type: buildings, offset: 30, density: 0.3, height: 12 }] }
+    right: { edge: grass, edgeWidth: 6, barrier: fence, scenery: [{ type: buildings, offset: 60, density: 0.2, height: 8 }] }
+  - from: 1395
+    note: approach to the hairpin, roofed stands behind the boards on the left; open ground inside the hairpin (side views)
+    left: { edge: grass, edgeWidth: 1.5, barrier: boards, scenery: [{ type: stands, offset: 3, density: 0.9, height: 7 }, { type: trees, offset: 25, density: 0.5 }] }
+    right: { edge: grass, edgeWidth: 6, barrier: fence }
   - from: 1440
     width: 15
     note: T4 hairpin (right), crowd behind the boards outside, grass and cones inside
-    left: { edge: grass, edgeWidth: 1.5, barrier: boards, scenery: [{ type: chevrons, offset: 1, density: 1 }, { type: stands, offset: 3, density: 0.6, height: 6 }] }
+    left: { edge: grass, edgeWidth: 1.5, barrier: boards, scenery: [{ type: chevrons, offset: 1, density: 1 }, { type: stands, offset: 3, density: 0.6, height: 6 }, { type: retaining-wall, offset: 24, density: 1, height: 14 }] }
     right: { edge: grass, edgeWidth: 4, scenery: [{ type: cones, offset: 0.5, density: 0.6 }, { type: tents, offset: 10, density: 0.7 }] }
   - from: 1580
     width: 13
@@ -185,7 +196,7 @@ checkpoints:
   - { at: 518, note: after T1 }
   - { at: 785, note: T2 apex, by the roofed stand }
   - { at: 1043, note: T3 exit }
-  - { at: 1181, note: before the bridge }
+  - { at: 1181, note: before the tunnel }
   - { at: 1555, note: apex of the T4 hairpin }
   - { at: 1692, note: T5 }
   - { at: 0, note: the line (lap / finish) }
@@ -196,7 +207,9 @@ landmarks:
   - { at: 70, side: left, type: truss, note: footbridge over the start straight }
   - { at: 800, side: left, offset: 70, type: tower, size: 45, note: lattice tower behind T2 (straight ahead from 555 m) }
   - { at: 1150, side: right, offset: 25, type: sphere, size: 26, note: gas holder close on the right before CP6 }
-  - { at: 1135, side: left, offset: 45, type: sphere, size: 22, note: gas holder behind the stands on the left before CP6 }
-  - { at: 1290, side: left, type: overpass, length: 30, note: the road dips under a bridge into the cutting }
-  - { at: 1560, side: right, offset: 40, type: sphere, size: 26, note: second gas holder, inside the hairpin }
+  - { at: 1135, side: left, offset: 40, type: sphere, size: 22, note: gas holders in a row behind the stands on the left before CP6 }
+  - { at: 1162, side: left, offset: 40, type: sphere, size: 22, note: second gas holder of the row }
+  - { at: 1325, side: left, type: overpass, length: 70, note: covered tunnel from about 1,290 to 1,360 m (scenery video) }
+  - { at: 1560, side: right, offset: 110, type: sphere, size: 26, note: gas holders far inside the hairpin (side views) }
+  - { at: 1590, side: right, offset: 115, type: sphere, size: 26, note: second of the pair }
   - { at: 1772, side: left, type: truss, note: steel footbridge before the line }

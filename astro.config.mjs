@@ -77,10 +77,63 @@ function trackShots() {
   };
 }
 
+const SITE = 'https://forzapaddock.racing';
+/** Pages left out of the sitemap: operations, not-found, and the old car list (a redirect). */
+const NOT_IN_SITEMAP = /^(en\/)?(status|404|cars)\/?$/;
+
+/**
+ * Writes dist/sitemap.xml after the build: every page, with its PT-BR/EN pair as hreflang
+ * alternates (ADR-0022). Endpoints (paths with a file extension) are left out. Sorted, so the
+ * file only changes when pages do.
+ * @returns {import('astro').AstroIntegration}
+ */
+function sitemap() {
+  return {
+    name: 'sitemap',
+    hooks: {
+      'astro:build:done': ({ pages, dir }) => {
+        const paths = new Set(
+          pages
+            .map((p) => p.pathname.replace(/^\/+/, ''))
+            .filter((p) => !/\.[a-z0-9]+$/i.test(p) && !NOT_IN_SITEMAP.test(p)),
+        );
+        /** @param {string} p */
+        const url = (p) => `${SITE}/${p}`;
+        /** @param {string} p */
+        const ptOf = (p) => (p === 'en' || p === 'en/' ? '' : p.replace(/^en\//, ''));
+        /** @param {string} pt */
+        const enOf = (pt) => (pt === '' ? 'en/' : `en/${pt}`);
+        /** @param {string} s */
+        const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+        const entries = [...paths].sort().map((p) => {
+          const pt = ptOf(p);
+          /** @type {[string, string][]} */
+          const pair = [
+            ['pt-BR', pt],
+            ['en', enOf(pt)],
+          ];
+          const both = pair.every(([, q]) => paths.has(q));
+          const links = both
+            ? [...pair, /** @type {[string, string]} */ (['x-default', pt])]
+                .map(
+                  ([lang, q]) =>
+                    `\n    <xhtml:link rel="alternate" hreflang="${lang}" href="${escape(url(q))}"/>`,
+                )
+                .join('')
+            : '';
+          return `  <url>\n    <loc>${escape(url(p))}</loc>${links}\n  </url>`;
+        });
+        const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${entries.join('\n')}\n</urlset>\n`;
+        fs.writeFileSync(new URL('sitemap.xml', dir), xml);
+      },
+    },
+  };
+}
+
 // PT-BR is served at the root and English under /en/ (ADR-0007).
 export default defineConfig({
-  site: 'https://forzapaddock.racing',
-  integrations: [preact()],
+  site: SITE,
+  integrations: [preact(), sitemap()],
   i18n: {
     locales: ['pt-br', 'en'],
     defaultLocale: 'pt-br',

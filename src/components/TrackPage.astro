@@ -34,7 +34,12 @@ const xOf = (m: number) => ((m / track.lengthM) * W).toFixed(1);
 const showCamber = scene.camber === 'measured';
 ---
 
-<Base locale={locale} path={`/tracks/${track.id}/`} title={track.name}>
+<Base
+  locale={locale}
+  path={`/tracks/${track.id}/`}
+  title={track.name}
+  description={t(locale, 'seo.track', { track: track.name, km: km(track.lengthM) })}
+>
   {/* The 3D tracks are a Paddock Lab prototype: say so, and ask for feedback. */}
   <p class="mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-l-4 border-l-warn bg-surface px-3 py-2 text-xs">
     <a href={localePath(locale, '/lab/')} class="eyebrow text-warn hover:text-text">
@@ -90,14 +95,34 @@ const showCamber = scene.camber === 'measured';
 
   {/* data-still-world: the site's animated background holds still here (one 3D view at a time). */}
   <div class="card relative mt-6 overflow-hidden" data-track-3d data-still-world>
-    <canvas class="block h-[62vh] min-h-[360px] w-full"></canvas>
-    <p
-      class="pointer-events-none absolute top-3 left-3 max-w-[calc(100%-1.5rem)] bg-black/60 px-2 py-1 text-[11px] leading-snug text-white/90"
-      data-orbit-hint
-    >
-      <span class="[@media(hover:none)]:hidden">{t(locale, 'track.view.hint')}</span>
-      <span class="hidden [@media(hover:none)]:inline">{t(locale, 'track.view.hintTouch')}</span>
-    </p>
+    {/* Compare mode: the reference video and the model side by side (stacked on phones). */}
+    <div class="gap-1 bg-black" data-stage>
+      {scene.lapVideo && (
+        <div class="hidden aspect-[2.39/1] w-full bg-black" data-video>
+          <video
+            class="block h-full w-full object-cover"
+            src={scene.lapVideo.src}
+            muted
+            loop
+            playsinline
+            preload="none"
+            data-lap-video
+          />
+        </div>
+      )}
+      <div class="relative">
+        <canvas class="block h-[62vh] min-h-[360px] w-full"></canvas>
+        <p
+          class="pointer-events-none absolute top-3 left-3 max-w-[calc(100%-1.5rem)] bg-black/60 px-2 py-1 text-[11px] leading-snug text-white/90"
+          data-orbit-hint
+        >
+          <span class="[@media(hover:none)]:hidden">{t(locale, 'track.view.hint')}</span>
+          <span class="hidden [@media(hover:none)]:inline">
+            {t(locale, 'track.view.hintTouch')}
+          </span>
+        </p>
+      </div>
+    </div>
     <div class="flex flex-wrap items-center gap-3 border-t border-border px-4 py-3 text-sm">
       <button type="button" class="pill pill-on" data-mode="orbit">
         {t(locale, 'track.view.orbit')}
@@ -117,6 +142,21 @@ const showCamber = scene.camber === 'measured';
       <span class="text-xs text-muted tabular-nums" data-distance-label>
         0 m
       </span>
+      {scene.lapVideo && (
+        <>
+          <button type="button" class="pill" data-compare title={t(locale, 'track.compare.note')}>
+            {t(locale, 'track.compare.on')}
+          </button>
+          <button
+            type="button"
+            class="pill hidden min-w-12"
+            data-play
+            aria-label={t(locale, 'track.compare.play')}
+          >
+            ❚❚
+          </button>
+        </>
+      )}
     </div>
     {lines && lines.lines.length > 0 && (
       <div class="flex flex-wrap items-center gap-2 border-t border-border px-4 py-3 text-sm">
@@ -313,10 +353,17 @@ const showCamber = scene.camber === 'measured';
         box.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }),
     );
+    // Compare mode: the reference video next to the model, which follows the video's clock.
+    const compare = setupCompare(box, scene.lapVideo, () => {
+      setMode('drive');
+      playing = false;
+    });
     slider.addEventListener('input', () => {
       setMode('drive');
       playing = false;
-      show((Number(slider.value) / 1000) * view.length);
+      const m = (Number(slider.value) / 1000) * view.length;
+      show(m);
+      compare?.seekTo(m);
     });
     // Driving: about 140 km/h, whatever the screen's refresh rate.
     let then = performance.now();
@@ -324,7 +371,11 @@ const showCamber = scene.camber === 'measured';
       if (!alive) return;
       const dt = Math.min(0.1, (now - then) / 1000);
       then = now;
-      if (playing) {
+      const followed = compare?.metres();
+      if (followed !== undefined) {
+        slider.value = String(Math.round((followed / view.length) * 1000));
+        show(followed);
+      } else if (playing) {
         const next = (d + 38 * dt) % view.length;
         slider.value = String(Math.round((next / view.length) * 1000));
         show(next);
@@ -334,9 +385,88 @@ const showCamber = scene.camber === 'measured';
     requestAnimationFrame(roll);
     stop = () => {
       alive = false;
+      compare?.destroy();
       view.destroy();
     };
   };
+
+  /**
+   * "Compare with video": the measured lap's clip loops next to the model and drives it. One
+   * play/pause button and the lap slider move both together. While it is on, `metres()` says where
+   * the car is in the clip (linear between the sync points); `seekTo()` moves the clip.
+   */
+  function setupCompare(
+    box: HTMLElement,
+    lapVideo: { src: string; sync: [number, number][] } | undefined,
+    onStart: () => void,
+  ) {
+    const button = box.querySelector<HTMLButtonElement>('[data-compare]');
+    const play = box.querySelector<HTMLButtonElement>('[data-play]');
+    const stage = box.querySelector<HTMLElement>('[data-stage]');
+    const holder = box.querySelector<HTMLElement>('[data-video]');
+    const video = box.querySelector<HTMLVideoElement>('[data-lap-video]');
+    const canvas = box.querySelector('canvas');
+    if (!lapVideo || !button || !play || !stage || !holder || !video || !canvas) return undefined;
+    const sync = lapVideo.sync;
+    const labels = { on: button.textContent!.trim(), off: '✕ ' + button.textContent!.trim() };
+    let on = false;
+    const atTime = (t: number) => {
+      for (let i = 1; i < sync.length; i++) {
+        const [t1, m1] = sync[i]!;
+        const [t0, m0] = sync[i - 1]!;
+        if (t <= t1) return m0 + ((m1 - m0) * (t - t0)) / Math.max(1e-6, t1 - t0);
+      }
+      return sync[sync.length - 1]![1];
+    };
+    const timeAt = (m: number) => {
+      for (let i = 1; i < sync.length; i++) {
+        const [t1, m1] = sync[i]!;
+        const [t0, m0] = sync[i - 1]!;
+        if (m <= m1) return t0 + ((t1 - t0) * (m - m0)) / Math.max(1e-6, m1 - m0);
+      }
+      return sync[sync.length - 1]![0];
+    };
+    const showPlay = () => (play.textContent = video.paused ? '▶' : '❚❚');
+    const layout = () => {
+      stage.classList.toggle('grid', on);
+      stage.classList.toggle('md:grid-cols-2', on);
+      holder.classList.toggle('hidden', !on);
+      play.classList.toggle('hidden', !on);
+      canvas.classList.toggle('h-[62vh]', !on);
+      canvas.classList.toggle('min-h-[360px]', !on);
+      canvas.classList.toggle('aspect-[2.39/1]', on);
+      button.classList.toggle('pill-on', on);
+      button.textContent = on ? labels.off : labels.on;
+    };
+    button.addEventListener('click', () => {
+      on = !on;
+      layout();
+      if (on) {
+        onStart();
+        void video.play().catch(() => undefined);
+      } else video.pause();
+      showPlay();
+    });
+    play.addEventListener('click', () => {
+      if (video.paused) void video.play().catch(() => undefined);
+      else video.pause();
+    });
+    video.addEventListener('play', showPlay);
+    video.addEventListener('pause', showPlay);
+    return {
+      metres() {
+        return on ? atTime(video.currentTime) : undefined;
+      },
+      seekTo(m: number) {
+        if (on) video.currentTime = timeAt(m);
+      },
+      destroy() {
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+      },
+    };
+  }
   // Leaving the page (the site swaps pages in place): stop the model and free its 3D context.
   document.addEventListener('astro:before-swap', () => {
     stop?.();

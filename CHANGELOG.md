@@ -7,6 +7,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-21: **Busca e assistentes de IA** ([ADR-0022](docs/adr/0022-busca-e-assistentes-de-ia.md)):
+  - `sitemap.xml` gerado no build, com os pares PT/EN; `robots.txt` aberto a todos os robôs.
+  - `/llms.txt` com o resumo do site para assistentes de IA.
+  - Descrições próprias para carros, tunadores, pistas e seções.
+  - Prévia de compartilhamento (Open Graph) com imagem e ícone do site.
+  - hreflang com endereços completos e dados estruturados na home.
+  - Página de status fora das buscas.
+  - Passo a passo do Search Console e do Web Analytics no RUNBOOK §10c.
+- 2026-11-15: **"Comparar com o vídeo"** na página da pista: a volta medida, recortada em vídeo curto servido pelo site, toca em loop ao lado do modelo. Um só play/pausa e a barra da volta movem os dois juntos. Novo campo `lapVideo` no cenário; recorte da Irokawa em `public/tracks/irokawa-circuit-road-race/volta.mp4` ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
+- 2026-11-15: **Irokawa conferida com um vídeo de cenário e telemetria sincronizados:** túnel coberto no lugar do viaduto curto, muro alto do grampo, placas de seta maiores, chão que acompanha a pista sem deixá-la "flutuando", passagens pela grama visíveis (suavização menor) e, pelas vistas de lado, muro de concreto na saída da T1, esferas de gás em fila antes do CP6 e arquibancadas antes do grampo. Ferramenta de desenvolvimento para renderizar o modelo a partir de uma pose da telemetria ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
 - 2026-11-15: **Irokawa medida contra o vídeo:** a câmera da visão "Dirigir" ficou igual à do jogo (o carro aparece do mesmo tamanho e na mesma altura) e as larguras da pista subiram cerca de 8%. Nas retas, as bordas do modelo ficam a até 0,6 m das do vídeo. A T1 ficou com a largura real (15–17 m), e a volta de referência passa pela grama junto ao muro no ápice, como no jogo: a posição na pista (gravada e nas linhas do guia) agora aceita valores fora do asfalto. O alargamento antes do CP6 e as esferas de gás desse trecho também entraram. Ferramenta de desenvolvimento para renderizar o modelo em qualquer metro e sobrepor ao vídeo (RUNBOOK §3e, [ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
 - 2026-11-14: **Pistas em 3D, navegação:** o carro da visão "Dirigir" não treme mais (desliza entre os pontos, em velocidade constante, e inclina nas subidas). A vista livre funciona como um mapa: arrastar move, botão direito ou Ctrl gira, a roda aproxima em direção ao cursor e o duplo clique foca; há uma dica na tela. Na página da pista, o fundo animado do site fica parado ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).
 - 2026-11-14: **Paddock Lab** ([PRODUCT §5.6](docs/PRODUCT.md)): seção nova de protótipos ("Lab" no menu, `/lab/`), com aviso de trabalho em andamento e botão "Dar opinião" (issue no GitHub com o título começado). Primeiro projeto: as pistas em 3D; a **Irokawa Circuit** vai ao ar como protótipo. A página da pista mostra o aviso e libera o modelo 3D ao sair dela ([ADR-0021](docs/adr/0021-pistas-pela-telemetria.md)).

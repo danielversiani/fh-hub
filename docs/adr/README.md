@@ -28,6 +28,7 @@ Eles explicam o *porquê* do projeto ser como é. Ver [ADR-0001](0001-registrar-
 | [0019](0019-mundo-animado-e-modo-pista.md) | Mundo animado de blocos (modo pista) com um modo normal | Aceita |
 | [0020](0020-recomendacoes-do-forza-paddock.md) | Recomendações do Forza Paddock, escala de dificuldade de 6 níveis e recomendações por evento | Aceita |
 | [0021](0021-pistas-pela-telemetria.md) | Páginas de pista a partir da telemetria do jogo | Aceita |
+| [0022](0022-busca-e-assistentes-de-ia.md) | Abrir o site para buscadores e assistentes de IA | Aceita |
 
 ## Como escrever um novo ADR
 

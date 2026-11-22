@@ -26,7 +26,11 @@ const builds = buildsFor(
   locale={locale}
   path={`/cars/${car.id}/`}
   title={car.displayName}
-  description={`${car.displayName}: ${t(locale, 'site.tagline')}`}
+  description={t(locale, 'seo.car', {
+    car: car.displayName,
+    count: data.tunes.filter((tune) => tune.car === car.id).length,
+  })}
+  image={browseCar.image}
 >
   {/* The car's photo sits behind the name and fades into the page (owner's request). */}
   <section class:list={['car-hero', browseCar.image && 'car-hero-with-photo']}>

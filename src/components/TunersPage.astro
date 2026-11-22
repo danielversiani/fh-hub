@@ -13,7 +13,12 @@ const tuners = [...loadTuners()]
   .sort((a, b) => b.tuneCount - a.tuneCount || a.displayName.localeCompare(b.displayName));
 ---
 
-<Base locale={locale} path="/tuners/" title={t(locale, 'tuners.title')}>
+<Base
+  locale={locale}
+  path="/tuners/"
+  title={t(locale, 'tuners.title')}
+  description={t(locale, 'seo.tuners')}
+>
   <h1 class="display text-4xl sm:text-5xl">{t(locale, 'tuners.title')}</h1>
   <p class="mt-3 max-w-2xl text-muted">{t(locale, 'tuners.lead')}</p>
   <ul class="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">

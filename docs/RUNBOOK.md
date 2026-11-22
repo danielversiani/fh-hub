@@ -85,7 +85,8 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
    - Deixe `camber: flat` até haver uma medida de cambagem confiável.
    - **Checkpoints:** o tempo parcial (canto superior direito) muda na passagem por cada checkpoint, e o cronômetro da volta diz em que metro isso acontece. A distância que o jogo mostra sobre o checkpoint serve de conferência. Anote em `checkpoints:` no arquivo de cenário.
    - **Conferência:** em `pnpm dev`, abra `/tracks/<rota>/`, clique em "Dirigir" e compare a vista com os quadros do vídeo nos mesmos metros. A câmera imita a do jogo.
-   - **Sobreposição com o vídeo:** em `pnpm dev`, no console da página da pista, `__track.shot(metro, 1280, 536)` devolve a visão "Dirigir" daquele metro, sem as linhas do guia. Mandada por POST para `/__track-shot` (`{ name, data }`), a imagem é gravada em `.cache/track-shots/<name>.png`. Sobreponha-a ao quadro do vídeo do mesmo metro. Primeiro confira a câmera pelas lanternas do carro (mesma largura e altura na tela) e depois as faixas das bordas. Os scripts de sobreposição e medição usados na Irokawa ainda não estão no repositório.
+   - **Comparar com o vídeo:** recorte a volta medida com o ffmpeg do projeto: 1280 px de largura, 30 qps, sem som, `-crf 30 -movflags +faststart`. Salve o recorte em `public/tracks/<rota>/volta.mp4` e anote em `lapVideo` o caminho (`src`) e os pares `[segundo do recorte, metro da volta]` (`sync`), um por segundo. O cronômetro do HUD dá o instante, e o velocímetro, a distância. Com isso aparece na página o botão "Comparar com o vídeo".
+   - **Sobreposição com o vídeo:** em `pnpm dev`, no console da página da pista, `__track.shot(metro, 1280, 536)` devolve a visão "Dirigir" daquele metro, sem as linhas do guia. Mandada por POST para `/__track-shot` (`{ name, data }`), a imagem é gravada em `.cache/track-shots/<name>.png`. Sobreponha-a ao quadro do vídeo do mesmo metro. Primeiro confira a câmera pelas lanternas do carro (mesma largura e altura na tela) e depois as faixas das bordas. `__track.shotPose({ x, y, z, yaw }, w, h, look, { vfov })` faz o mesmo a partir de uma pose da telemetria. Para isso, grave a telemetria junto com o vídeo (`pnpm telemetry:record`) e sincronize os dois pela troca de volta no contador da tela. Os scripts de sobreposição e medição usados na Irokawa ainda não estão no repositório.
    - **Guia de traçado:** em `data/tracks/<rota>.lines.yaml`, com linhas (posição de −1 = carro encostado na borda direita a +1 = na esquerda), setas e textos por sequência. Uma linha com `visible: false` começa desligada.
    - Só marque `published: true` quando o dono aprovar. A pista passa a aparecer no Paddock Lab (`/lab/`), com o aviso de trabalho em andamento.
 
@@ -158,6 +159,21 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
 - Endereço oficial: **forzapaddock.racing**, registrado no Porkbun com renovação automática ligada (cerca de US$ 10,79 por ano; confira o cartão antes de renovar em 2027-11-10).
 - O DNS fica no Cloudflare: não mude os nameservers no Porkbun, senão o site sai do ar.
 - Para trocar ou acrescentar um endereço: `routes` em `wrangler.jsonc` ([ADR-0012](adr/0012-hospedagem-cloudflare-pages.md)).
+
+## 10c. Busca, assistentes de IA e visitas ([ADR-0022](adr/0022-busca-e-assistentes-de-ia.md))
+
+- **O que o site já entrega sozinho:** `/sitemap.xml`, `/robots.txt` e `/llms.txt`, gerados no build; a descrição e a prévia de compartilhamento de cada página.
+- **Google Search Console** (search.google.com/search-console, conta do dono):
+  1. Adicione a propriedade de **domínio** `forzapaddock.racing`.
+  2. Prove que o domínio é seu com o registro TXT. Como o DNS fica no Cloudflare, aceite a configuração automática ou cole o registro em DNS.
+  3. Em **Sitemaps**, envie `https://forzapaddock.racing/sitemap.xml`.
+- **Bing Webmaster Tools** (bing.com/webmasters): importe o site do Search Console. O Bing alimenta o ChatGPT e outros assistentes.
+- **Visitas:** no painel do Cloudflare, ative **Web Analytics** para o domínio, sem cookies. A contagem começa no dia em que for ativada.
+- **Conferir rapidamente:**
+  - No Google, a pesquisa `site:forzapaddock.racing` mostra as páginas indexadas.
+  - Para ver a prévia de um link, cole o endereço numa conversa do WhatsApp ou do Discord.
+- **Se o Cloudflare passar a bloquear robôs de IA** (opções "AI Crawl Control" ou "Block AI bots"): deixe os assistentes liberados, senão o site some das respostas deles.
+- **Imagem de prévia:** `public/og.jpg` (1200×630). Se a identidade visual mudar, refaça a imagem.
 
 ## 11. O sync parou de rodar sozinho
 

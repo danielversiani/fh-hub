@@ -81,6 +81,21 @@ O jogo tem um recurso oficial, o **Data Out**, que envia a telemetria do carro (
   - **Curvas:** a diferença na imagem sobe para 1–1,5 m porque a câmera do jogo atrasa ao virar e o carro aparece de lado. O modelo ainda não imita esse atraso.
   - **O que já era preciso:** a extensão da volta (1.830 m na telemetria, 1.832 m pelo velocímetro do vídeo), a elevação (posição do próprio jogo) e os checkpoints (1 a 3 m).
   - **Ainda aproximado:** a posição do cenário fora da pista (esferas de gás, torres, arquibancadas).
+- **2026-11-15, vídeo de cenário com telemetria** (gravado pelo dono): duas voltas lentas, uma com a câmera fixa e outra girando a câmera, gravadas junto com a telemetria. Outros dois vídeos mostram o modo foto.
+  - **Sincronia:** a troca de volta no contador do vídeo e na telemetria dá a diferença de relógio (24,49 s). A velocidade da telemetria confere com o velocímetro da tela. Cada quadro passa a ter a posição e a direção exatas do carro.
+  - **Câmera:** o jogo rodou em 16:9 dentro de uma gravação 21:9 (faixas pretas nas laterais). O jogo mantém o ângulo vertical (31°) e alarga o horizontal conforme a tela.
+  - **Checkpoints:** o marcador "Checkpoint xx M" do jogo, somado à pose do carro, dá a posição de cada portão ao longo da volta. As posições conferem com as medidas na live a poucos metros. As bandeiras ficam nas bordas da pista, confirmado pelo dono.
+  - **Corrigido pela comparação:** túnel coberto de cerca de 1.290 a 1.360 m (antes era um viaduto curto); o muro alto do lado de fora do grampo; placas de seta maiores e mais altas.
+  - **Erro corrigido:** cheguei a estreitar e deslocar os portões, mas medi as bandeiras altas do Festival (verde-limão, perto dos portões) no lugar das bandeiras dos checkpoints. O dono apontou o erro, e os portões voltaram às bordas.
+  - **Pista "flutuando":** o chão ficava abaixo da pista mais baixa num raio de 60 m e afundava sob os trechos altos. Agora cada ponto do chão segue o trecho de pista mais próximo e sobe ou desce em rampa suave (35%) entre trechos de alturas diferentes. Um talude desce da beira do acostamento até o chão.
+  - **Passagens pela grama:** a posição do carro na pista era suavizada em ±24 m, o que apagava as saídas curtas do asfalto. Agora a suavização é de ±8 m, e a T1 mostra o carro na grama junto ao muro.
+  - **Volta com a câmera girando:** o ângulo de cada quadro sai da orientação do carro na imagem (a comparação automática por céu e asfalto falhou em quadros com muros grandes). As vistas de lado corrigiram o muro liso de concreto na saída da T1 (era de grade), as esferas de gás em fila antes do CP6, as arquibancadas antes do grampo e o terreno aberto dentro dele.
+  - **Ainda aberto:** o posicionamento placa a placa do que fica fora da pista e outras passagens pela grama da volta de referência, além das da T1 e de antes do CP6.
+- **2026-11-15, "Comparar com o vídeo"** (pedido do dono): na página da pista, um botão mostra a volta medida em vídeo, em loop, ao lado do modelo, que segue o relógio do vídeo no modo "Dirigir". Um único botão de play/pausa e a barra da volta movem os dois juntos, para frente e para trás.
+  - **O vídeo:** é um recorte curto da volta, servido pelo próprio site (`public/tracks/<rota>/volta.mp4`, cerca de 7 MB). Só carrega quando alguém aperta o botão.
+  - **A sincronia:** a ligação entre tempo e metro fica em `lapVideo` no arquivo de cenário.
+  - **Por que não o YouTube:** o embed trazia a live inteira, os controles do player e um relógio impreciso. O recorte dá sincronia quadro a quadro e loop limpo.
+  - **Na Irokawa:** o recorte é a volta 2 da live, que começa aos 31:01 do vídeo, e não aos 31:13 anotados antes.
 - **2026-11-14, publicada como protótipo:** o dono liberou a Irokawa (`published: true`) para servir de vitrine e colher opiniões, numa seção nova do site, o Paddock Lab (`/lab/`, [PRODUCT §5.6](../PRODUCT.md)). A página da pista mostra o aviso de trabalho em andamento e o botão "Dar opinião". As linhas do guia continuam marcadas como rascunho.
 
 ## Alternativas consideradas

@@ -20,10 +20,31 @@ interface Props {
   description?: string;
   /** Path of this page without the locale prefix, used for the language switch. */
   path: string;
+  /** Picture shown when the page is shared (site path or full URL); the site card by default. */
+  image?: string | undefined;
+  /** Keep the page out of search results (operations pages). */
+  noindex?: boolean;
 }
 
-const { locale, title, description, path } = Astro.props;
+const { locale, title, description, path, image, noindex = false } = Astro.props;
 const pageTitle = title ? `${title} · ${t(locale, 'site.name')}` : t(locale, 'site.name');
+const pageDescription = description ?? t(locale, 'site.tagline');
+// Search engines and AI assistants read these (ADR-0022): absolute addresses only.
+const abs = (p: string) => new URL(p, Astro.site).href;
+const canonical = abs(localePath(locale, path));
+const shareImage = abs(image ?? '/og.jpg');
+const structured =
+  path === '/'
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: t(locale, 'site.name'),
+        url: canonical,
+        inLanguage: htmlLang(locale),
+        description: t(locale, 'site.about'),
+        about: { '@type': 'VideoGame', name: 'Forza Horizon 6' },
+      }
+    : undefined;
 const other = otherLocale(locale);
 // Section, its page, and other paths that belong to it (the 3D tracks are a Lab prototype).
 const nav: [MessageKey, string, string[]?][] = [
@@ -57,11 +78,29 @@ const diagonal = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
-    <meta name="description" content={description ?? t(locale, 'site.tagline')} />
+    <meta name="description" content={pageDescription} />
+    {noindex && <meta name="robots" content="noindex" />}
     {/* The .racing address is the official one; workers.dev copies point to it. */}
-    <link rel="canonical" href={new URL(localePath(locale, path), Astro.site).href} />
-    <link rel="alternate" hreflang="pt-BR" href={localePath('pt-br', path)} />
-    <link rel="alternate" hreflang="en" href={localePath('en', path)} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="pt-BR" href={abs(localePath('pt-br', path))} />
+    <link rel="alternate" hreflang="en" href={abs(localePath('en', path))} />
+    <link rel="alternate" hreflang="x-default" href={abs(localePath('pt-br', path))} />
+    {/* Link previews (WhatsApp, Discord, X, Facebook). */}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t(locale, 'site.name')} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:locale" content={locale === 'en' ? 'en_US' : 'pt_BR'} />
+    <meta property="og:locale:alternate" content={locale === 'en' ? 'pt_BR' : 'en_US'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {structured && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(structured)} />
+    )}
     {/* Track mode (animated world) or normal mode, before the first paint (ADR-0019). */}
     <script is:inline>
       (() => {

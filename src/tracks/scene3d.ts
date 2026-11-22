@@ -165,7 +165,7 @@ function sampleRoad(track: Track, scene: TrackScene, step = 2): Sample[] {
   );
   const offsets = average(
     raw.map((r, i) => smoothAt(drivenPts, r.s, length, closed) * (widths[i]! / 2 - CAR_EDGE)),
-    12,
+    4,
     closed,
   );
   const centers = raw.map((r, i) => r.line.clone().addScaledVector(r.left, -offsets[i]!));
@@ -246,6 +246,8 @@ function band(
   top: number,
   material: THREE.Material,
   include: (f: Sample) => boolean,
+  /** Moves the bottom edge sideways (m, + = left), for a sloping bank instead of a wall. */
+  spread: (f: Sample) => number = () => 0,
 ): THREE.Mesh {
   const pos: number[] = [];
   const idx: number[] = [];
@@ -257,8 +259,9 @@ function band(
     }
     const q = f.p.clone().addScaledVector(f.left, off(f));
     q.y += Math.tan(f.tilt) * off(f);
+    const b = q.clone().addScaledVector(f.left, spread(f));
     const v = pos.length / 3;
-    pos.push(q.x, q.y + bottom, q.z, q.x, q.y + top, q.z);
+    pos.push(b.x, q.y + bottom, b.z, q.x, q.y + top, q.z);
     if (open) idx.push(v - 2, v, v - 1, v - 1, v, v + 1);
     open = true;
   });
@@ -275,16 +278,17 @@ const mat = (color: string, extra: THREE.MeshStandardMaterialParameters = {}) =>
   new THREE.MeshStandardMaterial({ color, roughness: 0.9, metalness: 0, ...extra });
 
 /**
- * Ground that follows the road's height near it and flattens out far away. Every point of the
- * ground stays below the lowest piece of road within 60 m, so where two stretches of the route
- * pass close at different heights the ground never pokes up through the lower one.
+ * Ground that follows the road's height near it and flattens out far away. Each point takes the
+ * lowest of "road height plus a gentle slope with distance" over the road nearby: it hugs every
+ * stretch, so the road never seems to float, and where two stretches pass close at different
+ * heights it never pokes up through the lower one.
  */
 function terrain(samples: readonly Sample[], ground: TrackScene['ground']): THREE.Mesh {
   const box = new THREE.Box3();
   samples.forEach((f) => box.expandByPoint(f.p));
   box.expandByScalar(350);
   const size = box.getSize(new THREE.Vector3());
-  const seg = 220;
+  const seg = 300;
   const g = new THREE.PlaneGeometry(size.x, size.z, seg, seg);
   g.rotateX(-Math.PI / 2);
   g.translate((box.min.x + box.max.x) / 2, 0, (box.min.z + box.max.z) / 2);
@@ -311,7 +315,9 @@ function terrain(samples: readonly Sample[], ground: TrackScene['ground']): THRE
       for (let dz = -2; dz <= 2; dz++) {
         for (const f of cells.get(`${cx + dx},${cz + dz}`) ?? []) {
           const d = Math.hypot(f.p.x - x, f.p.z - z);
-          if (d < 60) low = Math.min(low, f.p.y);
+          // Hug every piece of road close by, and between pieces at different heights rise or
+          // fall in a gentle slope: the ground stays under each one without dropping away.
+          low = Math.min(low, f.p.y + 0.35 * Math.max(0, d - f.width / 2 - 3));
           nearest = Math.min(nearest, d);
         }
       }
@@ -354,6 +360,7 @@ function dressing(
   samples: readonly Sample[],
   root: THREE.Group,
   foliage: TrackScene['foliage'],
+  ground: TrackScene['ground'],
   seed = 7,
 ) {
   const paved = asphaltTexture('asphalt');
@@ -405,6 +412,19 @@ function dressing(
         ),
       );
     }
+    // A bank sloping down from the outer end of the shoulder into the ground, so no gap ever
+    // shows under the road and it catches the light like the ground does.
+    root.add(
+      band(
+        samples,
+        (f) => edge(f) + sign * shoulderOf(f),
+        -4,
+        -0.02,
+        mat(COLORS[ground] ?? COLORS.grass, { side: THREE.DoubleSide }),
+        () => true,
+        () => sign * 8,
+      ),
+    );
     const curbMat = new THREE.MeshStandardMaterial({ roughness: 0.7, vertexColors: false });
     curbMat.map = (() => {
       const c = document.createElement('canvas');
@@ -584,7 +604,7 @@ function dressing(
           // Facing the driver, pointing across the road (they stand on the outside of a bend).
           (sign > 0 ? chevronsL : chevronsR).push(
             new THREE.Matrix4().compose(
-              q.clone().setY(f.p.y + 1.2),
+              q.clone().setY(f.p.y + 2.4),
               new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), yaw(f) + Math.PI),
               new THREE.Vector3(1, 1, 1),
             ),
@@ -593,6 +613,11 @@ function dressing(
           // A crib wall leaning back from the road, like the game's diamond-pattern embankments.
           const h = item.height ?? 8;
           const lean = 0.45;
+          // Far out on the outside of a bend the wall runs longer than the road: stretch each
+          // piece to reach the next one, so it stays continuous.
+          const i = samples.indexOf(f);
+          const n = samples[Math.min(samples.length - 1, i + 1)]!;
+          const span = placeAt(n, edge(n) + sign * (shoulderOf(n) + item.offset)).distanceTo(q);
           walls.push(
             new THREE.Matrix4().compose(
               q
@@ -604,7 +629,7 @@ function dressing(
                 .multiply(
                   new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 0, 1), -sign * lean),
                 ),
-              new THREE.Vector3(0.6, h, 2.3),
+              new THREE.Vector3(0.6, h, Math.max(2.3, span * 1.15)),
             ),
           );
         } else if (item.type === 'concrete-wall') {
@@ -754,7 +779,8 @@ function dressing(
     mat('#ff6a1a', { roughness: 0.6 }),
     cones.map((m) => ({ m })),
   );
-  const sign = new THREE.PlaneGeometry(2.4, 1.3);
+  // The game's chevron boards are big and stand on posts (scenery video, 2026-11-15).
+  const sign = new THREE.PlaneGeometry(3.4, 2);
   instanced(
     sign,
     new THREE.MeshStandardMaterial({
@@ -1333,7 +1359,7 @@ export function mountTrack(
   const ground = terrain(samples, scene.ground);
   root.add(ground);
   paint(samples, scene, root);
-  dressing(samples, root, scene.foliage);
+  dressing(samples, root, scene.foliage, scene.ground);
   for (const l of scene.landmarks) {
     const f = samples.reduce((a, b) => (Math.abs(b.s - l.at) < Math.abs(a.s - l.at) ? b : a));
     if (l.type === 'arch' || l.type === 'overpass' || l.type === 'truss') {
@@ -1528,10 +1554,9 @@ export function mountTrack(
   if (import.meta.env.DEV) {
     // Debugging aids. `shot` renders the drive view at `m` metres at w × h (no guide lines), to lay
     // the model over frames of a race video and check how well it fits.
-    const shot = (m: number, w: number, h: number) => {
+    const snap = (w: number, h: number, pose: () => void, vfov?: number) => {
       const was = { mode, distance, ratio: renderer.getPixelRatio() };
       mode = 'drive';
-      distance = ((m % length) + length) % length;
       car.visible = true;
       turnLabels.forEach((l) => (l.visible = false));
       lineGroups.forEach((g) => (g.userData.was = g.visible));
@@ -1540,7 +1565,12 @@ export function mountTrack(
       renderer.setSize(w, h, false);
       camera.aspect = w / h;
       fitFov();
-      drivePose();
+      if (vfov) {
+        // A video recorded at another aspect: the game keeps the vertical angle (Hor+).
+        camera.fov = vfov;
+        camera.updateProjectionMatrix();
+      }
+      pose();
       renderer.render(world, camera);
       const url = canvas.toDataURL('image/png');
       lineGroups.forEach((g) => (g.visible = Boolean(g.userData.was)));
@@ -1551,7 +1581,45 @@ export function mountTrack(
       resize();
       return url;
     };
-    Object.assign(window, { __track: { camera, car, controls, shot } });
+    const shot = (m: number, w: number, h: number) =>
+      snap(w, h, () => {
+        distance = ((m % length) + length) % length;
+        drivePose();
+      });
+    /**
+     * The chase view from a telemetry pose (game x, y, z and yaw, as recorded), with the camera
+     * turned `look` radians from straight behind (+ = to the left), for frames synced to a video.
+     */
+    const shotPose = (
+      p: { x: number; y: number; z: number; yaw: number },
+      w: number,
+      h: number,
+      look = 0,
+      cam: { back?: number; up?: number; aim?: number; vfov?: number } = {},
+    ) =>
+      snap(
+        w,
+        h,
+        () => {
+          const at = new THREE.Vector3(p.x, p.y, -p.z).add(root.position);
+          const dir = new THREE.Vector3(Math.sin(p.yaw), 0, -Math.cos(p.yaw));
+          car.position.copy(at);
+          car.rotation.set(0, Math.atan2(dir.x, dir.z), 0, 'YXZ');
+          const view = dir.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), look);
+          camera.position
+            .copy(at)
+            .addScaledVector(view, -(cam.back ?? 8.6))
+            .setY(at.y + (cam.up ?? 2.0));
+          camera.lookAt(
+            at
+              .clone()
+              .addScaledVector(view, 9)
+              .setY(at.y + (cam.aim ?? 1.45)),
+          );
+        },
+        cam.vfov,
+      );
+    Object.assign(window, { __track: { camera, car, controls, shot, shotPose } });
   }
 
   return {

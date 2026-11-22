@@ -646,6 +646,17 @@ export const TrackScene = z.object({
   published: z.boolean().default(false),
   /** Videos used as reference, with the moment the lap starts. */
   references: z.array(z.object({ url: z.url(), lapStart: z.string() })).default([]),
+  /**
+   * The measured lap as a short clip served by the site (`src`, under public/), and where the car
+   * is along the lap at moments of it (`sync`: [clip seconds, metres]). Lets the page loop the
+   * clip next to the model, both moving together.
+   */
+  lapVideo: z
+    .object({
+      src: z.string().startsWith('/'),
+      sync: z.array(z.tuple([z.number().nonnegative(), z.number().nonnegative()])).min(2),
+    })
+    .optional(),
   road: z.object({
     width: z.number().positive().default(12),
     surface: z.enum(['asphalt', 'concrete', 'dirt', 'gravel', 'snow']).default('asphalt'),

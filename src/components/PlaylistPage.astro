@@ -115,7 +115,12 @@ const reasonText = (pick: Suggestion) => {
 };
 ---
 
-<Base locale={locale} path={path} title={t(locale, 'playlist.title')}>
+<Base
+  locale={locale}
+  path={path}
+  title={t(locale, 'playlist.title')}
+  description={t(locale, 'seo.playlist')}
+>
   {!season ? (
     <p class="text-muted">{t(locale, 'playlist.none')}</p>
   ) : (

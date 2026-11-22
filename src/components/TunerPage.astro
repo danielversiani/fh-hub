@@ -13,7 +13,12 @@ interface Props {
 const { locale, tuner } = Astro.props;
 ---
 
-<Base locale={locale} path={`/tuners/${tuner.id}/`} title={tuner.displayName}>
+<Base
+  locale={locale}
+  path={`/tuners/${tuner.id}/`}
+  title={tuner.displayName}
+  description={t(locale, 'seo.tuner', { tuner: tuner.displayName, count: tuner.tuneCount })}
+>
   <p class="label">
     <a href={localePath(locale, '/tuners/')} class="hover:text-text">
       {t(locale, 'nav.tuners')}
