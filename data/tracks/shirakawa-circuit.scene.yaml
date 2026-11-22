@@ -36,22 +36,34 @@ linePins:
     pos: 1.55
   - at: 858
     pos: 1.55
+  # Turn 4 from the right-hand side, turning in only at the start of the corner (owner's drawing,
+  # 2026-11-22): the line used to cross early and hug the inside for 40 m before the apex.
+  - at: 965
+    pos: -0.95
+  - at: 1000
+    pos: -0.8
   - at: 1038
     pos: 1.55
     note:
-      pt-br: "Da curva 4 até a 6 é quase uma reta só: as curvas são rápidas e só carros muito velozes e com pouca aderência precisam ajustar alguma coisa."
-      en: "From turn 4 to turn 6 it is nearly one long straight; the bends are fast, and only very fast cars with little grip need to adjust."
+      pt-br: "Venha encostado no lado direito e só vire quando a curva começar: entrando tarde, você chega ao ápice já apontado para a saída. Da curva 4 até a 6 é quase uma reta só: as curvas são rápidas e só carros muito velozes e com pouca aderência precisam ajustar alguma coisa."
+      en: "Stay against the right-hand side and turn in only when the corner starts: turning in late, you reach the apex already pointed at the exit. From turn 4 to turn 6 it is nearly one long straight; the bends are fast, and only very fast cars with little grip need to adjust."
   - at: 1770
     pos: 1.2
     note:
       pt-br: "Na preparação da curva 6, saia de leve da pista pela esquerda, passando pelo cascalho, e atravesse a curva em direção ao canteiro do lado oposto (cuidado para não acertar as pedras). Acompanhe bem de perto o muro da direita até o ponto de virar para a curva 7, mirando na parte de fora da bandeira do checkpoint. A exceção são alguns casos, como certas tunes com pneus slick ou na neve, em que o carro pode perder aderência e prejudicar a saída da curva."
       en: "To set up turn 6, run slightly off the track on the left, over the gravel, and cross the corner towards the verge on the opposite side (careful not to hit the rocks). Follow the right-hand wall closely until the turn-in point for turn 7, aiming at the outside of the checkpoint flag. The exception is a few cases, such as some slick-tyre tunes or on snow, where the car can lose grip and spoil the exit."
-  - at: 1860
-    pos: 0.8
+  # Through turn 6 towards the right, then against the right-hand wall until the turn-in for turn 7,
+  # with the apex on the inside edge of the asphalt (owner's drawing, 2026-11-22).
+  - at: 1850
+    pos: -0.4
+  - at: 1900
+    pos: -1
   - at: 1960
     pos: -1
-  - at: 2045
-    pos: 1.55
+  - at: 2010
+    pos: -1
+  - at: 2058
+    pos: 1.1
   - at: 2540
     pos: 0.85
     note:

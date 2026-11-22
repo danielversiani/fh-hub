@@ -48,12 +48,13 @@ O dono pediu uma versão simplificada para as pistas que ainda não foram gravad
    - **Como o otimizado os respeita:** ele é obrigado a passar por eles, por uma penalidade forte (30 s por unidade² de desvio). Perto de um ponto fora do asfalto (além de ±1), o limite daquele lado se abre suavemente por 70 m para cada lado, e só ali a linha pode sair da pista.
    - **Notas:** a nota de cada ponto vira o texto do guia. Com pontos anotados, as notas automáticas saem.
    - **Na Shirakawa:**
-     - cortes pela grama nos ápices da T1–T4 e da T7, por fora da bandeira do checkpoint, que fica em cima do ápice;
-     - preparação da T6 saindo de leve pela esquerda, atravessando a curva ainda pela esquerda e só depois fechando para a direita;
-     - muro da direita antes da T7;
+     - cortes pela grama nos ápices da T1–T4, por fora da bandeira do checkpoint, que fica em cima do ápice;
+     - T4 vindo encostado no lado direito e virando só no começo da curva (desenho do dono, 2026-11-22). Antes, a linha cruzava cedo e ficava uns 40 m colada no lado de dentro antes do ápice;
+     - preparação da T6 saindo de leve pela esquerda e atravessando a curva em direção ao lado direito;
+     - muro da direita da saída da T6 até o ponto de virar para a T7, com o ápice da T7 na borda de dentro do asfalto, mais tarde (desenho do dono, 2026-11-22);
      - T8 freando rente ao checkpoint do começo da curva, por dentro da pista, rolando até o ápice logo depois do fundo e acelerando sem parar até a chegada, com a T9 quase reta.
    - **Desenhos do dono:** um traço feito à mão sobre o modelo vira poucos pontos-chave (onde ficar de um lado, onde encostar, ápice), e não uma cópia do traço. O otimizado liga esses pontos com uma linha lisa.
-   - **Tempos com os pontos:** otimizado, 71,9 s; menor curvatura com os mesmos pontos, 73,3 s.
+   - **Tempos com os pontos:** otimizado, 72,6 s; menor curvatura com os mesmos pontos, 73,5 s (com os pontos da T4 e da T7 de 2026-11-22; antes, 71,9 s e 73,3 s). O carro típico perde um pouco com cada ponto a mais, porque o modelo não sabe o que o dono sabe da pista.
    - **Limite do modelo:** a grama tem menos aderência no jogo, mas o modelo trata grama e asfalto do mesmo jeito.
 
 8. **Linhas lisas** (dono, 2026-11-21: "bem retinho"):
