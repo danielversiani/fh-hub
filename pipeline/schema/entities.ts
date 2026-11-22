@@ -764,6 +764,8 @@ export const TrackScene = z.object({
       }),
     )
     .default([]),
+  /** Show each checkpoint's number; off while only some of a route's checkpoints are placed. */
+  checkpointNumbers: z.boolean().default(true),
   /** The ground around the track. */
   ground: z.enum(['grass', 'dry-grass', 'dirt', 'snow', 'concrete', 'sand']).default('grass'),
   /**
@@ -804,6 +806,11 @@ export const TrackLines = z.object({
       colors: z.array(z.string()).min(1).default(['#2fb7ff', '#3ee07a']),
       /** Shown when the page opens (the others can be switched on). */
       visible: z.boolean().default(true),
+      /**
+       * Between points: `ease` holds the line at each point (hand-written, few points); `spline`
+       * runs a smooth curve through them (computed lines, a point every 10 m).
+       */
+      interpolation: z.enum(['ease', 'spline']).default('ease'),
       /** Where the line starts and ends (m); without them it covers the whole lap. */
       from: z.number().nonnegative().optional(),
       to: z.number().nonnegative().optional(),

@@ -140,45 +140,72 @@ for (let pass = 0; pass < 3; pass++) {
     p.z = z / 5;
   });
 }
+// Straights must come out straight: smooth the heading along the line (Gaussian, σ = 12 m) and
+// rebuild the points from it. Each corner keeps its total angle; what is left of the pixel steps
+// (waves of 20–40 m) goes. A circuit's small gap at the finish is spread along the lap.
+{
+  const n = centre.length;
+  const segs = closed ? n : n - 1;
+  const heading: number[] = [];
+  for (let i = 0; i < segs; i++) {
+    const a = centre[i]!;
+    const b = centre[(i + 1) % n]!;
+    let h = Math.atan2(b.z - a.z, b.x - a.x);
+    if (i > 0) {
+      const prev = heading[i - 1]!;
+      while (h - prev > Math.PI) h -= 2 * Math.PI;
+      while (h - prev < -Math.PI) h += 2 * Math.PI;
+    }
+    heading.push(h);
+  }
+  // On a circuit the heading at index i + k·segs is heading[i] + k·(the lap's whole turn).
+  const lap = closed
+    ? (() => {
+        const last = heading[segs - 1]!;
+        let wrapped = heading[0]!;
+        while (wrapped - last > Math.PI) wrapped -= 2 * Math.PI;
+        while (wrapped - last < -Math.PI) wrapped += 2 * Math.PI;
+        return wrapped - heading[0]!;
+      })()
+    : 0;
+  const at = (i: number) => {
+    if (!closed) return heading[Math.max(0, Math.min(segs - 1, i))]!;
+    const k = Math.floor(i / segs);
+    return heading[i - k * segs]! + k * lap;
+  };
+  const sigma = 12 / STEP;
+  const reach = Math.ceil(3 * sigma);
+  const soft = heading.map((_, i) => {
+    let s = 0;
+    let w = 0;
+    for (let d = -reach; d <= reach; d++) {
+      const g = Math.exp(-(d * d) / (2 * sigma * sigma));
+      s += g * at(i + d);
+      w += g;
+    }
+    return s / w;
+  });
+  const rebuilt = [{ x: centre[0]!.x, z: centre[0]!.z }];
+  for (let i = 0; i < segs - (closed ? 1 : 0); i++) {
+    const p = rebuilt[i]!;
+    rebuilt.push({ x: p.x + Math.cos(soft[i]!) * STEP, z: p.z + Math.sin(soft[i]!) * STEP });
+  }
+  if (closed) {
+    // Close the loop: the last step should land back on the first point.
+    const last = rebuilt[n - 1]!;
+    const endX = last.x + Math.cos(soft[segs - 1]!) * STEP;
+    const endZ = last.z + Math.sin(soft[segs - 1]!) * STEP;
+    const gx = endX - rebuilt[0]!.x;
+    const gz = endZ - rebuilt[0]!.z;
+    rebuilt.forEach((p, i) => {
+      p.x -= (gx * i) / n;
+      p.z -= (gz * i) / n;
+    });
+  }
+  rebuilt.forEach((p, i) => (centre[i] = p));
+}
 
-// 4. The two lines. The optimised one passes the scene's pins (what people who race the route
-// know: grass cuts at checkpoints, late apexes), when there are any.
-const sceneFile = path.join(OUT, `${route.id}.scene.yaml`);
-const existingScene = fs.existsSync(sceneFile)
-  ? TrackScene.parse(parse(fs.readFileSync(sceneFile, 'utf8')))
-  : undefined;
-const pinList = existingScene?.linePins ?? [];
-const pins = new Map(pinList.map((p) => [Math.round(p.at / STEP) % centre.length, p.pos]));
-const limits = pinLimits(centre.length, pins, closed);
-const normals = leftNormals(centre, closed);
-const generic = cornerLine(centre, half, closed, STEP);
-const smoothest = leastBending(
-  centre,
-  normals,
-  half,
-  closed,
-  centre.map((_, i) => pins.get(i) ?? 0),
-  new Set(pins.keys()),
-  undefined,
-  limits,
-);
-const fastest = fastestLine(
-  centre,
-  half,
-  closed,
-  STEP,
-  smoothest,
-  undefined,
-  undefined,
-  undefined,
-  pins,
-  limits,
-);
-const tGeneric = lapTime(placeLine(centre, normals, generic, half), closed).time;
-const tFastest = lapTime(placeLine(centre, normals, fastest, half), closed).time;
-const tSmooth = lapTime(placeLine(centre, normals, smoothest, half), closed).time;
-
-// 5. The route file, measured like a recorded lap (flat road, constant speed).
+// 4. The route file, measured like a recorded lap (flat road, constant speed).
 const samples: Sample[] = [...centre, ...(closed ? [centre[0]!] : [])].map((p, i) => ({
   t: i * 166,
   raceOn: true,
@@ -206,17 +233,54 @@ const track = Track.parse({
 });
 fs.writeFileSync(target, `${JSON.stringify(track, null, 1)}\n`);
 
+// 5. The two lines. The optimised one passes the scene's pins (what people who race the route
+// know: grass cuts at checkpoints, late apexes), when there are any.
+const sceneFile = path.join(OUT, `${route.id}.scene.yaml`);
+const existingScene = fs.existsSync(sceneFile)
+  ? TrackScene.parse(parse(fs.readFileSync(sceneFile, 'utf8')))
+  : undefined;
+const pinList = existingScene?.linePins ?? [];
+const pins = new Map(pinList.map((p) => [Math.round(p.at / STEP) % centre.length, p.pos]));
+const limits = pinLimits(centre.length, pins, closed);
+const normals = leftNormals(centre, closed);
+// Corners as on the page (the route file's turns), for both lines and the notes.
+const corners = track.turns.map((t) => ({
+  from: Math.round(t.startM / STEP),
+  to: Math.round(t.endM / STEP),
+  dir: (t.dir === 'L' ? 1 : -1) as 1 | -1,
+}));
+const generic = cornerLine(centre, half, closed, STEP, corners);
+const smoothest = leastBending(
+  centre,
+  normals,
+  half,
+  closed,
+  centre.map((_, i) => pins.get(i) ?? 0),
+  new Set(pins.keys()),
+  undefined,
+  limits,
+);
+const fastest = fastestLine(
+  centre,
+  half,
+  closed,
+  STEP,
+  smoothest,
+  undefined,
+  undefined,
+  undefined,
+  pins,
+  limits,
+);
+const tGeneric = lapTime(placeLine(centre, normals, generic, half), closed).time;
+const tFastest = lapTime(placeLine(centre, normals, fastest, half), closed).time;
+const tSmooth = lapTime(placeLine(centre, normals, smoothest, half), closed).time;
+
 // 6. The lines file, with a note on each corner where the fastest line differs.
 const r2 = (v: number) => Math.round(v * 100) / 100;
 const every = 10 / STEP;
 const points = (pos: number[]) =>
   pos.filter((_, i) => i % every === 0).map((v, j) => ({ at: j * 10, pos: r2(v) }));
-// Corners numbered as on the page (the route file's turns).
-const corners = track.turns.map((t) => ({
-  from: Math.round(t.startM / STEP),
-  to: Math.round(t.endM / STEP),
-  dir: t.dir === 'L' ? 1 : -1,
-}));
 // The pins' own notes first: they carry the reasoning of whoever knows the route.
 const turnAt = (m: number) =>
   track.turns.reduce((a, t) =>
@@ -296,6 +360,7 @@ const lines = {
       },
       colors: ['#ffb02e', '#ff7a1a'],
       visible: false,
+      interpolation: 'spline',
       points: points(generic),
     },
     {
@@ -307,6 +372,7 @@ const lines = {
       },
       colors: ['#2fb7ff', '#3ee07a'],
       visible: true,
+      interpolation: 'spline',
       points: points(fastest),
     },
   ],

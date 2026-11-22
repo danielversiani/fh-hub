@@ -1383,7 +1383,7 @@ export function mountTrack(
     obj.position.y = f.p.y - 0.3;
     root.add(obj);
   }
-  checkpointFlags(samples, scene.checkpoints, root);
+  checkpointFlags(samples, scene.checkpoints, root, scene.checkpointNumbers);
   const lineGroups = guide
     ? racingLines(samples, guide, samples[samples.length - 1]!.s, root, lang)
     : new Map<string, THREE.Group>();

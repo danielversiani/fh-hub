@@ -214,15 +214,19 @@ export function cornerLine(
   half: number,
   closed: boolean,
   step: number,
+  /** The corners to use (indices), so the line matches the route's turn list; found if absent. */
+  given?: readonly { from: number; to: number; dir: 1 | -1 }[],
 ): number[] {
   const n = c.length;
   const normals = leftNormals(c, closed);
   const k = curvatures(c, closed);
-  const corners = findCorners(k, step);
+  const corners = given ?? findCorners(k, step);
   const pos = c.map(() => 0);
   const fixed = new Set<number>();
   const wrap = (i: number) => (closed ? (i + n) % n : Math.max(0, Math.min(n - 1, i)));
   const lead = Math.round(45 / step);
+  // Room to cross the road between one corner's run-out and the next turn-in (else: apexes only).
+  const swing = Math.round(80 / step);
   corners.forEach((corner, idx) => {
     // Apex: the curvature-weighted middle of the corner, on the inside.
     let w = 0;
@@ -238,12 +242,12 @@ export function cornerLine(
     const next = corners[(idx + 1) % corners.length];
     const gapBefore = prev && prev !== corner ? (corner.from - prev.to + n) % n : n;
     const gapAfter = next && next !== corner ? (next.from - corner.to + n) % n : n;
-    if (gapBefore > 2 * lead || (!closed && idx === 0)) {
+    if (gapBefore > 2 * lead + swing || (!closed && idx === 0)) {
       const i = wrap(corner.from - lead);
       pos[i] = -corner.dir;
       fixed.add(i);
     }
-    if (gapAfter > 2 * lead || (!closed && idx === corners.length - 1)) {
+    if (gapAfter > 2 * lead + swing || (!closed && idx === corners.length - 1)) {
       const i = wrap(corner.to + lead);
       pos[i] = -corner.dir;
       fixed.add(i);
@@ -350,11 +354,21 @@ export function fastestLine(
   };
   // Seconds per unit² off a pin: 0.1 off costs 0.3 s, far more than any line gains.
   const PIN_WEIGHT = 30;
+  // A small price on every change of direction across the road (seconds per unit² of second
+  // difference): a wave that gains next to nothing gives way to a straight line.
+  const STRAIGHTNESS = 15;
   const cost = (q: readonly number[]) => {
     const pos = expand(q);
     let miss = 0;
     for (const [i, p] of pins) miss += (pos[i]! - p) ** 2;
-    return lapTime(placeLine(c, normals, pos, half), closed, car).time + PIN_WEIGHT * miss;
+    let bend = 0;
+    for (let i = closed ? 0 : 1; i < (closed ? n : n - 1); i++)
+      bend += (pos[(i - 1 + n) % n]! - 2 * pos[i]! + pos[(i + 1) % n]!) ** 2;
+    return (
+      lapTime(placeLine(c, normals, pos, half), closed, car).time +
+      PIN_WEIGHT * miss +
+      STRAIGHTNESS * bend
+    );
   };
   let delta = new Array<number>(m).fill(0);
   let best = cost(delta);

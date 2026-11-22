@@ -56,6 +56,13 @@ O dono pediu uma versão simplificada para as pistas que ainda não foram gravad
    - **Tempos com os pontos:** otimizado, 71,9 s; menor curvatura com os mesmos pontos, 73,3 s.
    - **Limite do modelo:** a grama tem menos aderência no jogo, mas o modelo trata grama e asfalto do mesmo jeito.
 
+8. **Linhas lisas** (dono, 2026-11-21: "bem retinho"):
+   - **Linha central:** a direção da linha central é suavizada ao longo da volta (gaussiana de 12 m), e os pontos são reconstruídos a partir dela. Assim as retas saem retas e cada curva mantém o ângulo total.
+   - **Desenho na página:** as linhas calculadas usam `interpolation: spline`, que liga os pontos com uma curva lisa. Antes, a página "segurava" a linha em cada ponto (como nas linhas escritas à mão), e isso fazia uma escadinha a cada 10 m.
+   - **"Curva a curva":** usa as mesmas curvas da página. Quando não há 80 m para cruzar a pista entre uma curva e a próxima, ficam só os ápices.
+   - **"Otimizado":** paga um preço pequeno por cada mudança de lado (15 s por unidade² de segunda diferença), então uma onda que não ganha tempo vira reta.
+9. **Checkpoints sem número** (`checkpointNumbers: false`): enquanto só alguns checkpoints de uma rota estão posicionados, os números sairiam errados. Ficam só os relevantes para o traçado.
+
 ## Alternativas consideradas
 
 - **Esperar a telemetria de cada pista:** é preciso, mas lento demais para cobrir o jogo.

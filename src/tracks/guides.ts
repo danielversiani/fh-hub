@@ -96,6 +96,7 @@ export function checkpointFlags(
   frames: readonly RoadFrame[],
   checkpoints: TrackScene['checkpoints'],
   root: THREE.Group,
+  numbered = true,
 ) {
   const banner = new THREE.MeshStandardMaterial({
     map: flagTexture(),
@@ -123,27 +124,48 @@ export function checkpointFlags(
       p.castShadow = b.castShadow = true;
       root.add(p, b);
     }
-    // The game's floating marker: a thin line down to the road and the checkpoint's number.
-    const top = onRoad(f, 0, 14);
+    // The game's floating marker: a thin line down to the road and the checkpoint's number
+    // (left out while only some checkpoints are placed: the numbers would be wrong).
     const line = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 12, 6), marker);
     line.position.copy(onRoad(f, 0, 8));
-    const label = textSprite(`CP${i + 1}`, '#0d0d0d', '#f2f2ee', 2.6);
-    label.position.copy(top);
-    root.add(line, label);
+    root.add(line);
+    if (numbered) {
+      const label = textSprite(`CP${i + 1}`, '#0d0d0d', '#f2f2ee', 2.6);
+      label.position.copy(onRoad(f, 0, 14));
+      root.add(label);
+    }
   });
 }
 
 // --- racing lines --------------------------------------------------------------------------
 
-/** Smooth (cosine) interpolation of the line's lateral position between its points. */
-export function positionAt(points: readonly { at: number; pos: number }[], s: number): number {
+/**
+ * The line's lateral position between its points. `ease` (hand-written lines, few points) eases in
+ * and out of each point, so the line holds there; `spline` (computed lines, a point every 10 m)
+ * runs a smooth curve through them — easing there would make a staircase of small waves.
+ */
+export function positionAt(
+  points: readonly { at: number; pos: number }[],
+  s: number,
+  mode: 'ease' | 'spline' = 'ease',
+): number {
   if (s <= points[0]!.at) return points[0]!.pos;
   for (let i = 1; i < points.length; i++) {
     const a = points[i - 1]!;
     const b = points[i]!;
     if (s <= b.at) {
       const t = (s - a.at) / Math.max(1e-6, b.at - a.at);
-      return a.pos + (b.pos - a.pos) * ((1 - Math.cos(Math.PI * t)) / 2);
+      if (mode === 'ease') return a.pos + (b.pos - a.pos) * ((1 - Math.cos(Math.PI * t)) / 2);
+      const p0 = points[Math.max(0, i - 2)]!.pos;
+      const p3 = points[Math.min(points.length - 1, i + 1)]!.pos;
+      const [p1, p2] = [a.pos, b.pos];
+      return (
+        0.5 *
+        (2 * p1 +
+          (-p0 + p2) * t +
+          (2 * p0 - 5 * p1 + 4 * p2 - p3) * t * t +
+          (-p0 + 3 * p1 - 3 * p2 + p3) * t * t * t)
+      );
     }
   }
   return points[points.length - 1]!.pos;
@@ -164,7 +186,7 @@ function ribbon(
   const half = 1.25;
   const span = frames.filter((f) => f.s >= from && f.s <= to);
   span.forEach((f, i) => {
-    const off = lateral(f, positionAt(line.points, f.s));
+    const off = lateral(f, positionAt(line.points, f.s, line.interpolation));
     // Each line a few centimetres above the previous one, so overlaps do not flicker.
     const a = onRoad(f, off - half, 0.06 + layer * 0.04);
     const b = onRoad(f, off + half, 0.06 + layer * 0.04);

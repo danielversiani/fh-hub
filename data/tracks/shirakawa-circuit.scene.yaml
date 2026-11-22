@@ -8,7 +8,9 @@ camber: flat
 sections:
   - from: 0
     width: 12
-# On the apex of T1–T4 and T7 (owner, 2026-11-21); the others are not placed yet.
+# Only the checkpoints that matter for the lines (owner, 2026-11-21); the others are not placed
+# yet, so no numbers.
+checkpointNumbers: false
 checkpoints:
   - at: 274
     note: T1 apex
