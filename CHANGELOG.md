@@ -11,7 +11,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
   - `pnpm tracks:sketch -- --route=<id>` desenha uma pista ainda não gravada a partir da imagem da rota, com o tamanho tirado da distância da corrida.
   - A pista sai plana e de largura única, com dois traçados calculados: "Curva a curva" (o clássico de cada curva isolada) e "Otimizado" (a volta mais rápida para um carro típico, que sacrifica curvas quando compensa).
   - Notas automáticas onde os dois traçados diferem.
-  - Primeiro protótipo: **Shirakawa Circuit** (não publicado), já com os pontos de passagem do dono: cortes pela grama nos checkpoints da T1–T4 e da T7, preparação da T6 e da T7, e ápice tardio na T8. Ficam em `linePins` no cenário. As linhas e a pista saem lisas (direção suavizada, interpolação `spline`, preço por ondulação), e os checkpoints aparecem sem número enquanto nem todos estão posicionados (`checkpointNumbers`).
+  - Primeiro protótipo: **Shirakawa Circuit** (não publicado), já com os pontos de passagem do dono: cortes pela grama nos checkpoints da T1–T4 e da T7, preparação da T6 e da T7, e ápice tardio na T8. Ficam em `linePins` no cenário. As linhas e a pista saem lisas (direção suavizada, interpolação `spline`, preço por ondulação), e os checkpoints aparecem sem número enquanto nem todos estão posicionados (`checkpointNumbers`). No modo "Dirigir", o carro segue o traçado otimizado (`drive: true`).
   - **Correções de passagem:**
     - a lista do labsgg lia as voltas do cartão seguinte;
     - o chão do modelo 3D formava platôs com degraus longe da pista.

@@ -62,7 +62,8 @@ O dono pediu uma versão simplificada para as pistas que ainda não foram gravad
    - **"Curva a curva":** usa as mesmas curvas da página. Quando não há 80 m para cruzar a pista entre uma curva e a próxima, ficam só os ápices.
    - **Volta fechada:** num circuito, o último ponto de cada linha repete o primeiro na linha de chegada, e o degradê de cores volta à cor do começo. Assim o fim da volta encaixa no início.
    - **"Otimizado":** paga um preço pequeno por cada mudança de lado (15 s por unidade² de segunda diferença), então uma onda que não ganha tempo vira reta.
-9. **Checkpoints sem número** (`checkpointNumbers: false`): enquanto só alguns checkpoints de uma rota estão posicionados, os números sairiam errados. Ficam só os relevantes para o traçado.
+9. **Carro do modo "Dirigir":** sem volta gravada para seguir, o carro segue a linha marcada com `drive: true` no arquivo de linhas. Nos esboços, é o otimizado.
+10. **Checkpoints sem número** (`checkpointNumbers: false`): enquanto só alguns checkpoints de uma rota estão posicionados, os números sairiam errados. Ficam só os relevantes para o traçado.
 
 ## Alternativas consideradas
 

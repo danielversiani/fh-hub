@@ -378,6 +378,7 @@ const lines = {
       colors: closed ? ['#2fb7ff', '#3ee07a', '#2fb7ff'] : ['#2fb7ff', '#3ee07a'],
       visible: true,
       interpolation: 'spline',
+      drive: true,
       points: points(fastest),
     },
   ],

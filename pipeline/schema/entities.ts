@@ -811,6 +811,8 @@ export const TrackLines = z.object({
        * runs a smooth curve through them (computed lines, a point every 10 m).
        */
       interpolation: z.enum(['ease', 'spline']).default('ease'),
+      /** The car follows this line in the Drive view when the route has no recorded lap. */
+      drive: z.boolean().default(false),
       /** Where the line starts and ends (m); without them it covers the whole lap. */
       from: z.number().nonnegative().optional(),
       to: z.number().nonnegative().optional(),

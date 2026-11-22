@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { MapControls } from 'three/examples/jsm/controls/MapControls.js';
 import type { Track, TrackLines, TrackScene } from '../../pipeline/schema/entities';
-import { CAR_EDGE, checkpointFlags, racingLines } from './guides';
+import { CAR_EDGE, checkpointFlags, positionAt, racingLines } from './guides';
 
 /**
  * A simplified, realistic 3D model of a measured route (ADR-0021): the road as a ribbon over the
@@ -1387,6 +1387,17 @@ export function mountTrack(
   const lineGroups = guide
     ? racingLines(samples, guide, samples[samples.length - 1]!.s, root, lang)
     : new Map<string, THREE.Group>();
+  // Drive view: with no recorded lap to follow, the car follows the guide line marked `drive`
+  // (map sketches, ADR-0023: the optimised line).
+  const driveLine = guide?.lines.find((l) => l.drive);
+  if (driveLine && scene.drivenLine.length === 0) {
+    for (const f of samples) {
+      const off =
+        positionAt(driveLine.points, f.s, driveLine.interpolation) * (f.width / 2 - CAR_EDGE);
+      f.line = f.p.clone().addScaledVector(f.left, off);
+      f.line.y += Math.tan(f.tilt) * off;
+    }
+  }
   const turnLabels: THREE.Sprite[] = [];
   for (const t of track.turns) {
     const f = samples.reduce((a, b) =>
