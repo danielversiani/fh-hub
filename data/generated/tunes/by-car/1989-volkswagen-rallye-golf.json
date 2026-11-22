@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T14:28:01.289Z",
+  "generatedAt": "2026-11-22T18:42:52.391Z",
   "items": [
     {
       "buildTags": [],
@@ -590,6 +590,60 @@
       ],
       "class": "B",
       "confidence": 0.85,
+      "createdAt": "2026-11-20",
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "id": "sc-107012661",
+      "lapRefs": [
+        {
+          "time": "1:10.5",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:10.5 弯速还可以 后胎325需要手刹 动力一般 中段较快 得益于宽胎 低速出弯不算差",
+      "metaNotesI18n": {
+        "en": "Decent cornering; the 325 rear tire calls for the handbrake. Average power, quick in the mid-range; thanks to the wide tires, it exits slow corners well.",
+        "pt-br": "Curvas razoáveis; o pneu traseiro de 325 pede freio de mão. Potência mediana, rápido na faixa média; graças aos pneus largos, sai bem das curvas lentas."
+      },
+      "metaRank": 24,
+      "name": "B Dirt Grip",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-11-20",
+            "Difficulty": "Medium",
+            "Drivetrain": "AWD",
+            "Manufacturer": "Volkswagen",
+            "Model/Car": "89 Rallye Golf",
+            "Sharecode": "107 012 661",
+            "Tune Name": "B Dirt Grip",
+            "Tuner": "CaiGou YYY",
+            "Tyre Compound": ""
+          },
+          "row": 5,
+          "sourceId": "forza-paddock",
+          "tab": "b-600-dirt"
+        }
+      ],
+      "recommended": true,
+      "role": "allround",
+      "score": 0.644,
+      "shareCode": "107012661",
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-volkswagen-rallye-golf",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.85,
       "createdAt": "2026-06-18",
       "credited": true,
       "difficulty": "medium",
@@ -621,7 +675,7 @@
         }
       ],
       "role": "allround",
-      "score": 0.617,
+      "score": 0.616,
       "shareCode": "149130286",
       "surface": "dirt",
       "tier": "t0.5",
