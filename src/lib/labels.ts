@@ -52,7 +52,6 @@ export function carCardLabels(locale: Locale): CarCardLabels {
     notes: t(locale, 'card.notes'),
     worldRecord: t(locale, 'card.worldRecord'),
     lapBy: t(locale, 'card.lapBy', { driver: '{driver}' }),
-    tuneDate: t(locale, 'card.tuneDate', { date: '{date}' }),
     newerVersion: t(locale, 'card.newerVersion', { source: '{source}', date: '{date}' }),
     newerVersionCode: t(locale, 'card.newerVersionCode', {
       source: '{source}',
@@ -74,6 +73,7 @@ export function carCardLabels(locale: Locale): CarCardLabels {
       tires: t(locale, 'card.spec.tires'),
       style: t(locale, 'card.spec.style'),
       difficulty: t(locale, 'card.spec.difficulty'),
+      published: t(locale, 'card.spec.published'),
     },
     surfaces: {
       road: t(locale, 'surface.road'),

@@ -12,9 +12,47 @@ import {
 } from '../schema/entities';
 import { isPublic } from '../schema/source';
 import { fixtureResults } from '../testing';
-import { buildDataset } from './dataset';
+import { buildDataset, flagNewerVersions } from './dataset';
 
 const results = await fixtureResults();
+
+describe('flagNewerVersions', () => {
+  const tune = (id: string, createdAt: string, shareCode?: string) =>
+    ({
+      id,
+      carId: '1989-volkswagen-rallye-golf',
+      tunerId: 'caigou-yyy',
+      name: 'B Dirt',
+      class: 'B',
+      surface: 'dirt',
+      shareCode,
+      createdAt,
+      buildTags: [],
+      observations: [],
+    }) as unknown as Tune;
+  const update = {
+    id: 'noa-miyako--updates--3',
+    kind: 'tune-update',
+    sourceId: 'noa-miyako',
+    carId: '1989-volkswagen-rallye-golf',
+    class: 'B',
+    surface: 'dirt',
+    date: '2026-11-21',
+    tier: 't0.5',
+    tunerIds: ['caigou-yyy'],
+    magnitude: 5,
+  } as Parameters<typeof flagNewerVersions>[1][number];
+
+  it('flags the old code and not the new version published the day before the log', () => {
+    const old = tune('sc-149130286', '2026-06-18', '149130286');
+    const fresh = tune('sc-107012661', '2026-11-20', '107012661');
+    const noCode = tune('nc-1', '2026-06-18');
+    flagNewerVersions([old, fresh, noCode], [update]);
+    expect(old.newerVersion).toEqual({ date: '2026-11-21', sourceId: 'noa-miyako' });
+    expect(fresh.newerVersion).toBeUndefined();
+    expect(noCode.newerVersion).toBeUndefined();
+  });
+});
 
 describe('buildDataset (fixtures)', () => {
   const manual = loadManual();

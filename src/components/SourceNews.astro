@@ -54,7 +54,7 @@ const kindLabel = (kind: string) => t(locale, `home.news.${kind}` as MessageKey)
 const labels = carCardLabels(locale);
 const base = locale === 'en' ? '/en' : '';
 const newsLabels = {
-  updated: t(locale, 'home.news.updatedTune'),
+  updated: t(locale, 'home.news.updatedTune', { date: '{date}' }),
   more: t(locale, 'home.news.moreTunes'),
 };
 
@@ -64,10 +64,13 @@ for (const tune of buildBrowseData().tunes)
 /** The updated tune(s) of an update, then the car's other tunes in the same class. */
 const tunesOf = (n: NewsItem) => {
   const all = (byCar.get(n.carId) ?? []).filter((tune) => !n.cls || tune.cls === n.cls);
+  // The meta table (Noa Miyako) credits a tuner without listing the tune: its updates name the
+  // tuner, and the tune is the coded one the table credits (e.g. CaiGou YYY's Rallye Golf, whose
+  // code comes from fhstats).
   const isUpdated = (tune: BrowseTune) =>
     n.tuneId
       ? tune.id === n.tuneId
-      : tune.sources.includes(id) &&
+      : (tune.sources.includes(id) || (id === 'noa-miyako' && tune.credited)) &&
         (!n.surface || tune.surface === n.surface) &&
         (!n.tunerIds?.length || n.tunerIds.includes(tune.tuner));
   const updated = all.filter(isUpdated).sort(compareTunes);
@@ -184,6 +187,7 @@ const tunesOf = (n: NewsItem) => {
                 updated={updated}
                 others={others}
                 cls={n.cls as never}
+                date={n.date}
                 labels={labels}
                 newsLabels={newsLabels}
                 base={base}

@@ -82,7 +82,7 @@ fhstats não é planilha: a amostra guarda os dados já extraídos da página (`
   - `rivals` (`rivals/stats/cars`): por carro e ranking (disciplina × classe), as aparições no top 10, no top 50 e as vitórias. Asfalto e rua somam no piso asfalto.
 - **Adaptador:** `pipeline/adapters/fhstats.ts`. A lista vira `ListEntry` e tunes com código; as estatísticas viram `RivalsStat`.
 - **Nomes de carro:** vêm abreviados ("MX-5 FE '94"); os apelidos ficam em `data/manual/car-aliases.yaml`.
-- **Uso:** fonte do ranking do Forza Paddock ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)). As datas aparecem como "atualizada em" e nas novidades da página inicial.
+- **Uso:** fonte do ranking do Forza Paddock ([ADR-0017](adr/0017-ranking-proprio-e-alternativas.md)). A data da tune aparece no campo "Publicada" do cartão; a data de atualização da linha vira novidade na página inicial.
 
 ### `forza-paddock`: recomendações do próprio site
 - **URL:** https://docs.google.com/spreadsheets/d/1Lh2bk_Qy4ePUZK9ZR4W3aTvBEbOklDTl4bw7zCBIppI (do dono; link aberto só para leitura desde 2026-11-14, para a sincronização ler sem login).
@@ -163,7 +163,7 @@ fhstats não é planilha: a amostra guarda os dados já extraídos da página (`
   - pneus: 越野胎 off-road, 拉力胎 rally, 半热熔 semi-slick, 全热熔 slick, 赛用热熔 super slick (inferido), 复古白胎 vintage;
   - dificuldade, na escala do site ([ADR-0020](adr/0020-recomendacoes-do-forza-paddock.md)): 非常简单 e 简单 Muito fácil, 普通 Fácil, 中等 Médio, 稍微困难 Médio, 困难 Difícil, 非常困难 Muito difícil;
   - perfil: 全能 completo, 动力 potência, 操控 controle.
-- **Atualizações de tunes** (aba 老车调校更新, com data): viram notícia na página inicial e, quando a tune tem código e uma data mais antiga que a atualização, o cartão avisa que o código pode ser da versão anterior (`Tune.newerVersion`).
+- **Atualizações de tunes** (aba 老车调校更新, com data): viram notícia na página inicial e, quando a tune tem código e uma data mais antiga que a atualização, o cartão avisa que o código pode ser da versão anterior (`Tune.newerVersion`). No FH6, uma versão nova da tune ganha um código novo (dono, 2026-11-22: o Rallye Golf de CaiGou YYY passou de 149 130 286 para 107 012 661). Uma tune datada na semana anterior à atualização conta como a versão nova e não recebe o aviso, porque a aba registra a atualização um dia ou mais depois de o tunador publicar.
 - **Limitações conhecidas** (2026-11-08, revistas em 2026-11-22):
   - Até 2026-11-22, as células de texto formatado (tipo 6) ficavam de fora: cerca de 270 observações e quase 50 nomes de carros. Agora são lidas; o que sobrar sem texto (links, chips) vai para a revisão como `<marca> [rich cell]`.
   - 42 carros estão marcados 未知 ("ainda não avaliado") e são ignorados.

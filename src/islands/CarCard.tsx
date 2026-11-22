@@ -39,8 +39,6 @@ export interface CarCardLabels {
   lang: 'pt-br' | 'en';
   worldRecord: string;
   lapBy: string;
-  /** "atualizada em {date}" */
-  tuneDate: string;
   /** "{source} logged a newer version on {date}…" (with and without a share code). */
   newerVersion: string;
   newerVersionCode: string;
@@ -50,7 +48,7 @@ export interface CarCardLabels {
   brainAfkHelp: string;
   /** "Recomendada pelo Forza Paddock" */
   recommended: string;
-  spec: { drivetrain: string; tires: string; style: string; difficulty: string };
+  spec: { drivetrain: string; tires: string; style: string; difficulty: string; published: string };
   surfaces: Record<string, string>;
   categories: Record<string, string>;
   tires: Record<string, string>;
@@ -279,6 +277,9 @@ function Specs({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) {
         label={labels.difficulties[tune.difficulty] ?? tune.difficulty}
       />,
     ]);
+  // The tune's own date is its publication date, in a field of its own; "updated" belongs to the
+  // sheets' changes (subiu, caiu, entrou), shown in the updates (owner, 2026-11-22).
+  if (tune.date) specs.push([labels.spec.published, formatDay(tune.date, labels.lang)]);
   if (specs.length === 0) return null;
   return (
     <dl class="specs">
@@ -370,19 +371,7 @@ function TopTune({
           {tune.tunerName}
         </a>
         {!tune.fromMeta && <p class="mt-0.5 text-sm text-muted">{tuneName(tune, labels)}</p>}
-        {tune.date && (
-          <p class="mt-0.5 text-xs text-muted">
-            {labels.tuneDate.replace('{date}', formatDay(tune.date, labels.lang))}
-          </p>
-        )}
-        {tune.newer && (
-          <p class="mt-1 border-l-2 border-l-warn pl-2 text-xs text-warn">
-            {(tune.code ? labels.newerVersionCode : labels.newerVersion)
-              .replace('{date}', formatDay(tune.newer.date, labels.lang))
-              .replace('{source}', tune.newer.source)
-              .replace('{tuner}', tune.tunerName)}
-          </p>
-        )}
+        <NewerVersion tune={tune} labels={labels} />
       </div>
       <CodeBox tune={tune} labels={labels} />
       <Specs tune={tune} labels={labels} />
@@ -393,7 +382,20 @@ function TopTune({
   );
 }
 
-/** A tune in one line (tuner, name, date, code), with its specs and notes below. */
+/** A source logged a newer version than this tune's code (Tune.newerVersion). */
+function NewerVersion({ tune, labels }: { tune: BrowseTune; labels: CarCardLabels }) {
+  if (!tune.newer) return null;
+  return (
+    <p class="mt-1 border-l-2 border-l-warn pl-2 text-xs text-warn">
+      {(tune.code ? labels.newerVersionCode : labels.newerVersion)
+        .replace('{date}', formatDay(tune.newer.date, labels.lang))
+        .replace('{source}', tune.newer.source)
+        .replace('{tuner}', tune.tunerName)}
+    </p>
+  );
+}
+
+/** A tune in one line (tuner, name, code), with its specs (date included) and notes below. */
 function TuneRow({
   tune: t,
   labels,
@@ -416,11 +418,6 @@ function TuneRow({
         {surface && t.surface && (
           <span class="text-xs text-season">· {labels.surfaces[t.surface]}</span>
         )}
-        {t.date && (
-          <span class="text-xs text-muted">
-            · {labels.tuneDate.replace('{date}', formatDay(t.date, labels.lang))}
-          </span>
-        )}
         {t.recommended && <RecommendedChip label={labels.recommended} />}
         {t.brainAfk && <BrainAfkChip label={labels.brainAfk} help={labels.brainAfkHelp} />}
         <span class="ml-auto">
@@ -439,6 +436,7 @@ function TuneRow({
           )}
         </span>
       </div>
+      <NewerVersion tune={t} labels={labels} />
       <Specs tune={t} labels={labels} />
       {(t.laps?.length ?? 0) > 0 && <LapChips tune={t} laps={[]} labels={labels} />}
       <Notes tune={t} labels={labels} />
@@ -495,6 +493,7 @@ export function NewsTunes({
   updated,
   others,
   cls,
+  date,
   labels,
   newsLabels,
   base,
@@ -503,6 +502,8 @@ export function NewsTunes({
   updated: readonly BrowseTune[];
   others: readonly BrowseTune[];
   cls: CarClass | null;
+  /** When the sheet changed (the update's date, already formatted). */
+  date: string;
   labels: CarCardLabels;
   newsLabels: NewsTunesLabels;
   base: string;
@@ -512,7 +513,7 @@ export function NewsTunes({
     <div class="flex flex-col gap-3">
       {updated.map((t) => (
         <div class="build-card news-updated flex flex-col gap-3">
-          <p class="label text-season">{newsLabels.updated}</p>
+          <p class="label text-season">{newsLabels.updated.replace('{date}', date)}</p>
           <TopTune tune={t} labels={labels} base={base} />
         </div>
       ))}

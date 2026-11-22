@@ -158,6 +158,33 @@ function buildCars(results: readonly SourceResult[]): Car[] {
 const tuneKey = (t: Pick<Tune, 'carId' | 'tunerId' | 'name'>) =>
   `${t.carId}|${t.tunerId}|${normalizeName(t.name)}`;
 
+const weekBefore = (iso: string) =>
+  new Date(Date.parse(`${iso}T00:00:00Z`) - 7 * 86_400_000).toISOString().slice(0, 10);
+
+/**
+ * A tune update logged by a meta table (Noa Miyako's 老车调校更新 tab) means the tuner published a
+ * new version, and a new version gets a new share code in FH6 (owner, 2026-11-22: CaiGou YYY's
+ * Rallye Golf went from 149 130 286 to 107 012 661). A coded tune of that tuner, car, class and
+ * surface dated before the update is therefore the old version: it gets `newerVersion`.
+ * - A tune dated in the week before the update is taken as the new version itself: the sheet logs
+ *   it a day or more after the tuner publishes (the Golf: in game 2026-11-20, in the tab 11-21).
+ * - Tunes with no code (players search the gamertag, which finds the latest) or no date are left
+ *   alone.
+ */
+export function flagNewerVersions(tunes: Iterable<Tune>, highlights: readonly Highlight[]): void {
+  const list = [...tunes];
+  for (const h of highlights) {
+    if (h.kind !== 'tune-update') continue;
+    for (const t of list) {
+      if (t.carId !== h.carId || t.class !== h.class || t.surface !== h.surface) continue;
+      if (!h.tunerIds.includes(t.tunerId)) continue;
+      if (!t.shareCode || !t.createdAt || t.createdAt >= weekBefore(h.date)) continue;
+      if (!t.newerVersion || t.newerVersion.date < h.date)
+        t.newerVersion = { date: h.date, sourceId: h.sourceId };
+    }
+  }
+}
+
 /** Fills fields the existing tune lacks; the first (highest-weight) source wins on conflicts. */
 function absorb(target: Tune, other: Tune): void {
   target.observations.push(...other.observations);
@@ -697,19 +724,7 @@ export function buildDataset(results: readonly SourceResult[], manual: ManualDat
 
   // --- tuners ------------------------------------------------------------------------------
   const tuneCount = new Map<string, number>();
-  // A tune update logged by a meta table (e.g. Noa Miyako's 老车调校更新 tab) after a coded tune's
-  // own date means a newer version exists: the share code we show may be the old one. Tunes with
-  // no code (players search the gamertag, which finds the latest) or no date are left alone.
-  for (const h of highlights) {
-    if (h.kind !== 'tune-update') continue;
-    for (const t of tunes.values()) {
-      if (t.carId !== h.carId || t.class !== h.class || t.surface !== h.surface) continue;
-      if (!h.tunerIds.includes(t.tunerId)) continue;
-      if (!t.shareCode || !t.createdAt || t.createdAt >= h.date) continue;
-      if (!t.newerVersion || t.newerVersion.date < h.date)
-        t.newerVersion = { date: h.date, sourceId: h.sourceId };
-    }
-  }
+  flagNewerVersions(tunes.values(), highlights);
 
   for (const t of tunes.values()) tuneCount.set(t.tunerId, (tuneCount.get(t.tunerId) ?? 0) + 1);
   const tunerList: Tuner[] = [...tuners.values()]

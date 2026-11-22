@@ -99,7 +99,10 @@ e os guias que o próprio jogo não oferece.
   - em cima, a caixa **Destaques**: escolha do Forza Paddock, achados recentes e sleepers.
 - **Etiquetas:** Rivais (tem build de handling ou velocidade pura), Achado recente, Sleeper, Escolha do Forza Paddock.
 - **"Cérebro desligado"** ([ADR-0018](adr/0018-cerebro-desligado.md)): selo para tunes fortes e fáceis demais, um empurrão para escolher algo mais desafiador.
-- **Datas** em cada tune ("atualizada em …") e nas sugestões da playlist.
+- **Datas** (dono, 2026-11-22):
+  - a data da tune é a de publicação e fica num campo próprio do cartão ("Publicada"), quando a fonte informa;
+  - "atualizada" é só o que mudou nas planilhas (subiu, caiu, entrou, tune atualizada), com a data da mudança, nas novidades da página inicial;
+  - quando uma planilha registra uma versão nova depois da data do código, o cartão e as listas avisam que o código pode ser da versão anterior.
 - **Novidades por fonte** na página inicial:
   - cada fonte tem o seu bloco, só quando há atualização detectada;
   - **todas as fontes têm o mesmo visual** (2026-11-09): o maior destaque num card grande com a foto do carro e os outros em cards menores, também com foto;
