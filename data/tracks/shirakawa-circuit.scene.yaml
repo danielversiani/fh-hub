@@ -20,6 +20,8 @@ checkpoints:
     note: T4 apex
   - at: 2045
     note: T7 apex
+  - at: 2540
+    note: T8, start of the corner (owner's sketch)
 # Where the optimised line must pass (owner, 2026-11-21). Beyond ±1 = off the asphalt; 1.55 puts
 # the car just outside the checkpoint's inner flag, over the grass.
 linePins:
@@ -51,12 +53,12 @@ linePins:
     note:
       pt-br: "Na curva 7, corte o checkpoint um pouco pela grama, por dentro."
       en: "At turn 7, cut the checkpoint a little over the inside grass."
-  - at: 2600
-    pos: -1
+  - at: 2540
+    pos: 0.85
     note:
-      pt-br: "Curva 8: entre pelo meio e abra até o fundo, pelo lado de fora. O ápice é bem tardio, já na saída, e daí o carro segue por dentro, pela esquerda, para passar a curva 9 quase reto até a chegada."
-      en: "Turn 8: come in through the middle and run deep on the outside. The apex is very late, on the way out, and the car then stays on the inside, on the left, to take turn 9 almost straight to the finish."
-  - at: 2645
-    pos: 1
-  - at: 2720
-    pos: 0.9
+      pt-br: "Curva 8: freie passando rente ao checkpoint do começo da curva, por dentro da pista. Deixe o carro rolar um pouco até o ápice, logo depois do fundo da curva, e gire para a saída. Dali em diante é aceleração contínua até a chegada: a curva 9 sai quase reta."
+      en: "Turn 8: brake passing close to the checkpoint at the start of the corner, still on the track. Let the car roll a little to the apex, just past the bottom of the corner, and rotate for the exit. From there it is full throttle to the finish: turn 9 is almost straight."
+  - at: 2605
+    pos: -0.2
+  - at: 2660
+    pos: 0.8
