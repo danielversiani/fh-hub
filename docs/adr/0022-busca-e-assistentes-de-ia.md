@@ -50,4 +50,8 @@ Os assistentes de IA acham páginas de dois jeitos: pelos buscadores (Bing, Goog
 - Links compartilhados mostram imagem e resumo.
 - Os assistentes de IA têm um resumo fiel do site. Ser recomendado, porém, depende sobretudo de o site ser citado e linkado em outros lugares (Reddit, Discord, YouTube), algo que código nenhum resolve.
 - A imagem `public/og.jpg` foi gerada a partir de `public/world/home.webp`. Se a identidade visual mudar, ela precisa ser refeita.
+- **Estabilidade visual (CLS), uma das notas do Google:** o Cloudflare Web Analytics mostrou "ruim" em 23% das visitas.
+  - **Na home (modo pista):** os painéis fixos eram movidos por `left`/`top` a cada quadro da rolagem, e o navegador conta isso como deslocamento. Passaram a ser movidos por `transform` (`src/world/route.ts`). Medido no navegador: de 3,0 para 0,06 numa rolagem completa.
+  - **Em Tunes e nas páginas de tunadores:** o rodapé pulava quando a lista terminava de carregar. O aviso "carregando" agora reserva a altura de uma tela. Medido: de 0,27 para 0,02.
+  - **Daqui pra frente:** posições que mudam com a rolagem usam `transform`, e conteúdo que chega depois reserva o espaço antes.
 - Um agente de SEO (rotina mensal com relatório e PR, como a curadoria) fica para quando houver umas 4 semanas de dados do Search Console.

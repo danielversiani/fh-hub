@@ -251,12 +251,17 @@ export function layoutRoute(world: World): RouteLayout {
     return { x: 32, y: top + (vh() - top - h) / 2, w, h };
   };
 
-  /** Position a fixed box (inside the moving <main>, so the shift is cancelled). */
+  /**
+   * Position a fixed box (inside the moving <main>, so the shift is cancelled). Moved with a
+   * transform, not left/top: browsers count left/top moves on every scroll frame as layout shifts,
+   * which ruined the page's CLS score (ADR-0022).
+   */
   const place = (el: HTMLElement, box: Box, show: number) => {
     el.classList.toggle('is-active', show > 0.02);
     el.style.opacity = String(show);
-    el.style.left = `${Math.round(box.x - shift.x)}px`;
-    el.style.top = `${Math.round(box.y - shift.y)}px`;
+    el.style.left = '0px';
+    el.style.top = '0px';
+    el.style.transform = `translate3d(${Math.round(box.x - shift.x)}px, ${Math.round(box.y - shift.y)}px, 0)`;
     el.style.width = `${Math.round(box.w)}px`;
   };
 

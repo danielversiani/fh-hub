@@ -344,7 +344,8 @@ export default function TuneBrowser({ labels, base, dataUrl, tuner }: Props) {
       </div>
 
       {!data ? (
-        <p class="mt-8 text-muted">{labels.loading}</p>
+        // Holds the list's place while the data loads, so the footer does not jump (CLS, ADR-0022).
+        <p class="mt-8 min-h-screen text-muted">{labels.loading}</p>
       ) : (
         <>
           {!tuner && (
