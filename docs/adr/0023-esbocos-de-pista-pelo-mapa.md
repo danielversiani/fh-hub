@@ -49,9 +49,10 @@ O dono pediu uma versão simplificada para as pistas que ainda não foram gravad
    - **Notas:** a nota de cada ponto vira o texto do guia. Com pontos anotados, as notas automáticas saem.
    - **Na Shirakawa:**
      - cortes pela grama nos ápices da T1–T4 e da T7, por fora da bandeira do checkpoint, que fica em cima do ápice;
-     - preparação da T6 saindo de leve pela esquerda e fechando para a direita;
+     - preparação da T6 saindo de leve pela esquerda, atravessando a curva ainda pela esquerda e só depois fechando para a direita;
      - muro da direita antes da T7;
-     - ápice tardio no fundo da T8, endireitando a T9.
+     - T8 com entrada pelo meio, fundo pelo lado de fora, ápice bem tardio e saída por dentro, endireitando a T9.
+   - **Desenhos do dono:** um traço feito à mão sobre o modelo vira poucos pontos-chave (onde ficar de um lado, onde encostar, ápice), e não uma cópia do traço. O otimizado liga esses pontos com uma linha lisa.
    - **Tempos com os pontos:** otimizado, 71,9 s; menor curvatura com os mesmos pontos, 73,3 s.
    - **Limite do modelo:** a grama tem menos aderência no jogo, mas o modelo trata grama e asfalto do mesmo jeito.
 
