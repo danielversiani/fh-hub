@@ -1,6 +1,6 @@
 # 0023. Esboçar as pistas ainda não gravadas a partir do mapa, com traçados calculados
 
-- **Status:** Aceita (pedido do dono, 2026-11-21). Primeiro protótipo: Shirakawa Circuit, não publicado.
+- **Status:** Aceita (pedido do dono, 2026-11-21). Primeiro protótipo: Shirakawa Circuit, publicado no Paddock Lab em 2026-11-21.
 - **Data:** 2026-11-21
 
 ## Contexto
