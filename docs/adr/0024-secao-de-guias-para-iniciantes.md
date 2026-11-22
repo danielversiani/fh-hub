@@ -35,7 +35,7 @@ A pesquisa de 2026-11-22 (`reports/Guias para iniciantes no FH6.md`) mostrou o s
       - É o diferencial da Forza Paddock e leva o leitor ao núcleo do site.
    4. **Celeiros e Treasure Cars:** quais carimbos liberam o quê, com as divergências entre fontes marcadas, e a localização no nosso mapa (item 3 abaixo).
    5. **Glossário PT-BR ↔ EN** dos termos do jogo.
-   6. **Para quem começa no PS5** (vira uma seção do "Comece aqui", não uma página à parte): quem chega em janeiro encontra um jogo com oito meses de vida. O guia explica:
+   6. **"Começando agora no FH6"** (uma seção do "Comece aqui"). O título é atemporal; o PS5 aparece no subtítulo e na descrição ("vai começar no PS5?"), para buscadores e IAs ligarem a página a essa busca (dono, 2026-11-22). Quem chega em janeiro encontra um jogo com oito meses de vida, e o guia explica:
       - o que já passou e como recuperar (temporadas e carros antigos da Playlist, expansão);
       - o que é compartilhado entre plataformas (tunes, partidas online);
       - as edições e o acesso antecipado.
