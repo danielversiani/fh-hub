@@ -6,10 +6,12 @@ import type { Guide } from '../lib/guides';
 interface Props {
   locale: Locale;
   guide: Guide;
+  /** An unpublished guide at its unlisted review address (/guides/draft/<guide>/). */
+  draft?: boolean;
 }
 
 /** One guide (ADR-0024), with when it was checked in the game and its sources. */
-const { locale, guide } = Astro.props;
+const { locale, guide, draft = false } = Astro.props;
 const html = await guide.html();
 const date = (iso: string) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString(locale === 'en' ? 'en' : 'pt-BR', {
@@ -21,10 +23,16 @@ const date = (iso: string) =>
 
 <Base
   locale={locale}
-  path={`/guides/${guide.slug}/`}
+  path={draft ? `/guides/draft/${guide.slug}/` : `/guides/${guide.slug}/`}
   title={guide.title}
   description={guide.summary}
+  noindex={draft}
 >
+  {draft && (
+    <p class="mb-6 max-w-3xl border-l-4 border-l-warn bg-surface px-3 py-2 text-sm">
+      {t(locale, 'guides.draft')}
+    </p>
+  )}
   <p class="label">
     <a href={localePath(locale, '/guides/')} class="hover:text-text">
       {t(locale, 'nav.guides')}

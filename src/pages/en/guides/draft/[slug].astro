@@ -1,0 +1,16 @@
+---
+import GuidePage from '../../../../components/GuidePage.astro';
+import { loadDraftGuides, type Guide } from '../../../../lib/guides';
+
+/** Unpublished guides at an unlisted address, for review on a phone (ADR-0024). */
+export function getStaticPaths() {
+  return loadDraftGuides('en').map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props as { guide: Guide };
+---
+
+<GuidePage locale="en" guide={guide} draft />

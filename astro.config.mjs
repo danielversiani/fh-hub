@@ -79,7 +79,8 @@ function trackShots() {
 
 const SITE = 'https://forzapaddock.racing';
 /** Pages left out of the sitemap: operations, not-found, and the old car list (a redirect). */
-const NOT_IN_SITEMAP = /^(en\/)?(status|404|cars)\/?$/;
+// Guide drafts (/guides/draft/…) are for the owner's review only (ADR-0024).
+const NOT_IN_SITEMAP = /^(en\/)?((status|404|cars)\/?$|guides\/draft\/)/;
 
 /**
  * Writes dist/sitemap.xml after the build: every page, with its PT-BR/EN pair as hreflang

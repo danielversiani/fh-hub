@@ -109,7 +109,7 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
 2. O cabeçalho tem `title`, `summary` (vira a descrição nas buscas), `order`, `verifiedAt`, `sources` e `published`.
    - `verifiedAt`: a data em que o dono conferiu no jogo. Use `null` enquanto não for conferido; a página avisa.
    - `sources`: toda fonte usada, com `label` e `url`. Fontes que vendem créditos ou boosting não servem de base.
-   - `published`: `false` deixa o guia visível só em `pnpm dev`.
+   - `published`: `false` deixa o guia fora do menu, do mapa do site e das buscas. Ele fica num endereço não listado, `/guides/draft/<guia>/` (e `/en/guides/draft/<guia>/`), para o dono revisar no celular; a página avisa que é rascunho. Ao publicar, esse endereço some e o guia passa para `/guides/<guia>/`.
 3. No texto, marque com _A conferir no jogo_ o que ainda não foi confirmado. Escreva com as próprias palavras, sem copiar texto de outros sites.
    - **Camadas** (dono, 2026-11-22): cada parte tem um resumo curto, e o resto vai em blocos que abrem e fecham. Use `<details>` com uma linha `<summary>…</summary>` e deixe uma linha em branco depois do `<summary>` e antes de `</details>`; um `<details>` dentro de outro é a camada seguinte. A página tem "Expandir tudo" e "Recolher tudo".
    - **Tunes do catálogo:** `<tune-picks car="<id do carro>" class="C" surface="dirt"></tune-picks>` vira uma caixa com o carro, a classe de fábrica e até 3 tunes (com código primeiro), atualizada a cada sync. `limit="5"` muda a quantidade. Um id de carro errado quebra o build.

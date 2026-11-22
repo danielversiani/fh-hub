@@ -57,7 +57,7 @@ A pesquisa de 2026-11-22 (`reports/Guias para iniciantes no FH6.md`) mostrou o s
 
 - **2026-11-22, camadas de detalhe** (dono): o primeiro nível de cada guia é curto e direto, e cada parte abre camadas cada vez mais detalhadas (o que fazer em que ordem, o que priorizar, que carro e que rota), até o nível bem granular. Cada leitor aprofunda o quanto quiser. Feito com `<details>` no Markdown, mais "Expandir tudo" e "Recolher tudo".
 - **2026-11-22, tunes dentro do guia:** onde o guia recomenda um carro, uma caixa mostra os tunes do catálogo para a classe e o piso daquele ponto (`<tune-picks>`, preenchida no build por `src/lib/guide-picks.ts`). Os tunes, códigos e créditos acompanham cada sync.
-- **2026-11-23, revisão do dono no "Comece aqui":**
+- **2026-11-22, revisão do dono no "Comece aqui":**
   - **Prioridade ao Discover Japan:** os celeiros guardam carros de meta, como o Mazda 787B (S1, S2 e R) e o Nissan #11 Tomica (S1), e o conserto leva tempo.
   - **Ford GT grátis cedo:** o carro tesouro é excelente na classe A.
   - **ABS ligado:** não recomendar desligar o ABS. O que se busca é o equilíbrio entre dificuldade e assists com que se vence de primeira.
@@ -65,6 +65,7 @@ A pesquisa de 2026-11-22 (`reports/Guias para iniciantes no FH6.md`) mostrou o s
   - **Horizon Stunt Party desde a pulseira amarela.**
   - **Abas por pulseira:** uma por cor, com carros grátis ou baratos, fáceis, sem DLC e com tune do catálogo.
   - **Baralho de cartões:** os celeiros e os carros tesouro passam como cartões, com espaço para os screenshots do mapa e do jogo.
+- **2026-11-22, rascunho em endereço não listado** (dono): um guia com `published: false` é gerado em `/guides/draft/<guia>/`, com aviso de rascunho, `noindex` e fora do menu, do sitemap e do `llms.txt`. Serve para o dono ler com calma no celular antes de publicar. O endereço não é secreto (o repositório é público), só não é divulgado.
 - **Achados do catálogo usados no "Comece aqui":**
   - o GMC Jimmy, carro inicial grátis, está entre os melhores da classe C na terra;
   - os brindes da primeira pulseira (GR86, Evo VI, Ram TRX) vêm de fábrica na classe B, então não servem nos eventos iniciais de classe C;

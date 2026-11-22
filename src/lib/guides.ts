@@ -30,9 +30,19 @@ const all: Guide[] = Object.entries(files).map(([file, md]) => {
   };
 });
 
+const byOrder = (a: Guide, b: Guide) => a.order - b.order || a.slug.localeCompare(b.slug);
+
 /** The guides of a language, in order; drafts only in development. */
 export function loadGuides(locale: Locale): Guide[] {
   return all
     .filter((g) => g.locale === locale && (g.published || import.meta.env.DEV))
-    .sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug));
+    .sort(byOrder);
+}
+
+/**
+ * The unpublished guides of a language, built at the unlisted /guides/draft/<guide>/ so the
+ * owner can review them on a phone: not in the menu, the sitemap or llms.txt, and noindex.
+ */
+export function loadDraftGuides(locale: Locale): Guide[] {
+  return all.filter((g) => g.locale === locale && !g.published).sort(byOrder);
 }
