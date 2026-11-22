@@ -10,7 +10,7 @@ interface Props {
 
 /** One guide (ADR-0024), with when it was checked in the game and its sources. */
 const { locale, guide } = Astro.props;
-const { Content } = guide;
+const html = await guide.html();
 const date = (iso: string) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString(locale === 'en' ? 'en' : 'pt-BR', {
     day: 'numeric',
@@ -43,10 +43,19 @@ const date = (iso: string) =>
       : t(locale, 'guides.unverified')}
   </p>
 
+  {/* Every part has a short version; "more details" opens layers below it (owner, 2026-11-22). */}
+  <div class="mt-8 flex max-w-3xl flex-wrap items-center gap-x-3 gap-y-2 text-sm" data-guide-tools>
+    <span class="text-muted">{t(locale, 'guides.layers')}</span>
+    <button type="button" class="pill" data-expand="open">
+      {t(locale, 'guides.expandAll')}
+    </button>
+    <button type="button" class="pill" data-expand="close">
+      {t(locale, 'guides.collapseAll')}
+    </button>
+  </div>
+
   {/* A solid card: long text over the animated world is hard to read. */}
-  <article class="guide-body card mt-8 max-w-3xl p-5 sm:p-8">
-    <Content />
-  </article>
+  <article class="guide-body card mt-3 max-w-3xl p-5 sm:p-8" set:html={html} />
 
   <section class="mt-10 max-w-3xl">
     <h2 class="surface-divider">
@@ -63,3 +72,26 @@ const date = (iso: string) =>
     </ul>
   </section>
 </Base>
+
+<script>
+  /** Expand / collapse every detail layer; open the layers around a linked section. */
+  function setupGuide() {
+    const article = document.querySelector<HTMLElement>('.guide-body');
+    if (!article) return;
+    const all = () => [...article.querySelectorAll('details')];
+    document.querySelectorAll<HTMLButtonElement>('[data-expand]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const open = button.dataset.expand === 'open';
+        all().forEach((d) => (d.open = open));
+      });
+    });
+    const target = location.hash
+      ? document.getElementById(decodeURIComponent(location.hash.slice(1)))
+      : null;
+    for (let el = target?.parentElement; el; el = el.parentElement) {
+      if (el instanceof HTMLDetailsElement) el.open = true;
+    }
+    target?.scrollIntoView();
+  }
+  document.addEventListener('astro:page-load', setupGuide);
+</script>

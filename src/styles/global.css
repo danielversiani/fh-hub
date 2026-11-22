@@ -275,6 +275,101 @@ body {
 .guide-body .table-wrap {
   overflow-x: auto;
 }
+/* Detail layers: each part has a short version, and "more details" opens the next layer. */
+.guide-body details {
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  background: rgb(255 255 255 / 0.02);
+}
+.guide-body details details {
+  border-left-color: var(--season, var(--color-accent));
+  background: rgb(255 255 255 / 0.025);
+}
+.guide-body summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.65rem 0.9rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+.guide-body details details > summary {
+  color: var(--season, var(--color-accent));
+}
+.guide-body summary::-webkit-details-marker {
+  display: none;
+}
+.guide-body summary::before {
+  content: '▸';
+  display: inline-block;
+  width: 1.1em;
+  transition: transform 120ms;
+}
+.guide-body details[open] > summary::before {
+  transform: rotate(90deg);
+}
+.guide-body summary:hover {
+  background: rgb(255 255 255 / 0.04);
+}
+.guide-body details > :not(summary) {
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+}
+.guide-body details > :not(summary) + * {
+  margin-top: 0.9rem;
+}
+.guide-body details > :last-child {
+  margin-bottom: 0.9rem;
+}
+.guide-body details > summary + * {
+  margin-top: 0.25rem;
+}
+/* Tune boxes, filled from the catalogue (src/lib/guide-picks.ts). */
+.guide-body .tune-picks {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-2);
+  padding: 0.7rem 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.guide-body .tune-picks > * + * {
+  margin-top: 0.35rem;
+}
+.guide-body .tune-picks ul {
+  list-style: none;
+  padding-left: 0;
+}
+.guide-body .tune-picks li + li {
+  margin-top: 0.3rem;
+}
+.guide-body .tp-head {
+  font-weight: 700;
+}
+.guide-body .tp-chip {
+  margin-left: 0.4rem;
+  border: 1px solid var(--color-border);
+  padding: 0 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+.guide-body .tp-name {
+  font-weight: 600;
+}
+.guide-body .tp-muted {
+  color: var(--color-muted);
+}
+.guide-body .tune-picks code {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 0 0.35rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+.guide-body .tp-all {
+  font-size: 0.8rem;
+}
 
 /* "Asfalto ───────" divider between surfaces. */
 .surface-divider {

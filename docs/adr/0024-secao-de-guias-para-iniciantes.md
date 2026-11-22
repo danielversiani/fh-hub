@@ -53,6 +53,15 @@ A pesquisa de 2026-11-22 (`reports/Guias para iniciantes no FH6.md`) mostrou o s
    - **Verificação:** o rascunho é escrito a partir das fontes, e o dono confere no jogo os fatos marcados como pendentes (a lista de 14 fatos do relatório). Cada página mostra "verificado em <data>". Um fato ainda não conferido aparece como tal, ou não aparece.
 5. **Manutenção:** os guias que dependem da temporada (Festival Playlist, carros da vez) ficam fora desta primeira leva. As páginas fixas são revisadas a cada atualização grande do jogo.
 
+## Atualizações
+
+- **2026-11-22, camadas de detalhe** (dono): o primeiro nível de cada guia é curto e direto, e cada parte abre camadas cada vez mais detalhadas (o que fazer em que ordem, o que priorizar, que carro e que rota), até o nível bem granular. Cada leitor aprofunda o quanto quiser. Feito com `<details>` no Markdown, mais "Expandir tudo" e "Recolher tudo".
+- **2026-11-22, tunes dentro do guia:** onde o guia recomenda um carro, uma caixa mostra os tunes do catálogo para a classe e o piso daquele ponto (`<tune-picks>`, preenchida no build por `src/lib/guide-picks.ts`). Os tunes, códigos e créditos acompanham cada sync.
+- **Achados do catálogo usados no "Comece aqui":**
+  - o GMC Jimmy, carro inicial grátis, está entre os melhores da classe C na terra;
+  - os brindes da primeira pulseira (GR86, Evo VI, Ram TRX) vêm de fábrica na classe B, então não servem nos eventos iniciais de classe C;
+  - o Honda Beat e o Civic Si 1986, baratos e de classe D, viram carros fortes da classe C com tune.
+
 ## Alternativas consideradas
 
 - **Lista de dicas:** é o que já existe em excesso.
