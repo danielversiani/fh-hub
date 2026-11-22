@@ -6,6 +6,7 @@ import {
   lapTime,
   leastBending,
   leftNormals,
+  pinLimits,
   placeLine,
   type Centre,
 } from './racing-line';
@@ -113,6 +114,27 @@ describe('racing lines', () => {
     const apex = Math.round((300 + (Math.PI * 60) / 2) / 5);
     expect(pos[apex]!).toBeGreaterThan(0.9);
     expect(pos[Math.round(250 / 5)]!).toBeLessThan(-0.5);
+  });
+  it('passes the pins, leaving the asphalt only around an off-road one', () => {
+    const apex = Math.round((300 + (Math.PI * 60) / 2) / 5);
+    const pins = new Map([[apex, 1.5]]);
+    const limits = pinLimits(c.length, pins, true);
+    expect(limits.hi[apex]).toBeCloseTo(1.5);
+    expect(limits.hi[apex + 40]).toBe(1);
+    expect(limits.lo[apex]).toBe(-1);
+    const start = leastBending(
+      c,
+      normals,
+      half,
+      true,
+      c.map((_, i) => pins.get(i) ?? 0),
+      new Set(pins.keys()),
+      undefined,
+      limits,
+    );
+    const fast = fastestLine(c, half, true, 5, start, undefined, 20, 30, pins, limits);
+    expect(fast[apex]!).toBeGreaterThan(1.4);
+    expect(fast.every((v, i) => v <= limits.hi[i]! + 1e-9 && v >= limits.lo[i]! - 1e-9)).toBe(true);
   });
   it('the fastest line is never slower than where it starts', () => {
     const start = leastBending(

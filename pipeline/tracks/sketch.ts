@@ -1,9 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
-import { stringify } from 'yaml';
+import { parse, stringify } from 'yaml';
 import { ROOT } from '../paths';
-import { Track } from '../schema/entities';
+import { Track, TrackScene } from '../schema/entities';
 import { measureRoute } from '../telemetry/geometry';
 import type { Sample } from '../telemetry/packet';
 import { loadRoutes } from '../telemetry/routes';
@@ -14,6 +14,7 @@ import {
   lapTime,
   leastBending,
   leftNormals,
+  pinLimits,
   placeLine,
   type Centre,
 } from './racing-line';
@@ -140,7 +141,15 @@ for (let pass = 0; pass < 3; pass++) {
   });
 }
 
-// 4. The two lines.
+// 4. The two lines. The optimised one passes the scene's pins (what people who race the route
+// know: grass cuts at checkpoints, late apexes), when there are any.
+const sceneFile = path.join(OUT, `${route.id}.scene.yaml`);
+const existingScene = fs.existsSync(sceneFile)
+  ? TrackScene.parse(parse(fs.readFileSync(sceneFile, 'utf8')))
+  : undefined;
+const pinList = existingScene?.linePins ?? [];
+const pins = new Map(pinList.map((p) => [Math.round(p.at / STEP) % centre.length, p.pos]));
+const limits = pinLimits(centre.length, pins, closed);
 const normals = leftNormals(centre, closed);
 const generic = cornerLine(centre, half, closed, STEP);
 const smoothest = leastBending(
@@ -148,9 +157,23 @@ const smoothest = leastBending(
   normals,
   half,
   closed,
-  centre.map(() => 0),
+  centre.map((_, i) => pins.get(i) ?? 0),
+  new Set(pins.keys()),
+  undefined,
+  limits,
 );
-const fastest = fastestLine(centre, half, closed, STEP, smoothest);
+const fastest = fastestLine(
+  centre,
+  half,
+  closed,
+  STEP,
+  smoothest,
+  undefined,
+  undefined,
+  undefined,
+  pins,
+  limits,
+);
 const tGeneric = lapTime(placeLine(centre, normals, generic, half), closed).time;
 const tFastest = lapTime(placeLine(centre, normals, fastest, half), closed).time;
 const tSmooth = lapTime(placeLine(centre, normals, smoothest, half), closed).time;
@@ -194,7 +217,26 @@ const corners = track.turns.map((t) => ({
   to: Math.round(t.endM / STEP),
   dir: t.dir === 'L' ? 1 : -1,
 }));
-const notes = corners.flatMap((c, idx) => {
+// The pins' own notes first: they carry the reasoning of whoever knows the route.
+const turnAt = (m: number) =>
+  track.turns.reduce((a, t) =>
+    Math.abs((t.startM + t.endM) / 2 - m) < Math.abs((a.startM + a.endM) / 2 - m) ? t : a,
+  );
+const pinNotes = pinList
+  .filter((p) => p.note)
+  .map((p) => {
+    const t = turnAt(p.at);
+    const side = t.dir === 'L' ? { pt: 'esquerda', en: 'left' } : { pt: 'direita', en: 'right' };
+    return {
+      from: Math.max(0, Math.round(p.at - 60)),
+      to: Math.min(track.lengthM, Math.round(p.at + 40)),
+      line: 'otimizado',
+      title: { 'pt-br': `Curva ${t.n} (${side.pt})`, en: `Turn ${t.n} (${side.en})` },
+      text: p.note!,
+    };
+  });
+const pinned = (from: number, to: number) => pinList.some((p) => p.at >= from && p.at <= to);
+const autoNotes = corners.flatMap((c, idx) => {
   const span = (from: number, to: number, pos: number[]) => {
     let s = 0;
     for (let i = from; i <= to; i++) s += pos[(i + centre.length) % centre.length]!;
@@ -211,6 +253,8 @@ const notes = corners.flatMap((c, idx) => {
   const n = track.turns[idx]!.n;
   const from = Math.max(0, (c.from - lead) * STEP);
   const to = Math.min(track.lengthM, (c.to + lead) * STEP);
+  // Once people who know the route have set pins, their notes replace the guessed ones.
+  if (pinList.length || pinned(from, to)) return [];
   if (entryG - entryF > 0.35)
     return [
       {
@@ -240,6 +284,7 @@ const notes = corners.flatMap((c, idx) => {
     ];
   return [];
 });
+const notes = [...pinNotes, ...autoNotes].sort((a, b) => a.from - b.from);
 const lines = {
   lines: [
     {
@@ -257,8 +302,8 @@ const lines = {
       id: 'otimizado',
       name: { 'pt-br': 'Otimizado', en: 'Optimised' },
       for: {
-        'pt-br': 'A volta mais rápida para um carro típico: pensa no que vem antes e depois.',
-        en: 'The fastest lap for a typical car: thinks about what comes before and after.',
+        'pt-br': `A volta mais rápida para um carro típico: pensa no que vem antes e depois${pins.size ? ', passando pelos pontos indicados por quem corre a pista' : ''}.`,
+        en: `The fastest lap for a typical car: thinks about what comes before and after${pins.size ? ', through the points set by people who race the route' : ''}.`,
       },
       colors: ['#2fb7ff', '#3ee07a'],
       visible: true,
@@ -274,8 +319,7 @@ fs.writeFileSync(
 );
 
 // 7. A starting scene, only once (it may be edited afterwards).
-const sceneFile = path.join(OUT, `${route.id}.scene.yaml`);
-if (!fs.existsSync(sceneFile)) {
+if (!existingScene) {
   const scene = {
     published: false,
     road: { width, surface: route.surface === 'road' ? 'asphalt' : 'dirt', edgeLines: true },

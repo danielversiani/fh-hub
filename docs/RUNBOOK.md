@@ -95,7 +95,9 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
 1. Ache o id da rota (o nome em minúsculas com hífens, como `shirakawa-circuit`). A lista vem do labsgg e fica em cache em `.cache/tracks/labsgg/`.
 2. Rode `pnpm tracks:sketch -- --route=<id>`. O resumo mostra a extensão, a escala, as curvas e o tempo de volta de cada traçado. `--width=<m>` muda a largura (12 m por padrão).
 3. **Conferência:** em `pnpm dev`, abra `/tracks/<id>/`. A seta da imagem dá o sentido: confira se as curvas da tabela batem com o jogo. Ligue os dois traçados e use "Dirigir" nas chicanes.
-4. **Ajustes:** o `<id>.scene.yaml` pode ser refinado à mão (larguras por trecho, checkpoints, cenário) e não é sobrescrito. O `<id>.lines.yaml` e o `<id>.json` são refeitos a cada execução, por isso não os edite.
+4. **Ajustes:** o `<id>.scene.yaml` pode ser refinado à mão (larguras por trecho, checkpoints, cenário) e não é sobrescrito.
+   - **O que só quem corre sabe** (um corte pela grama no checkpoint, um ápice tardio) vai em `linePins`: `at` é o metro, `pos` a posição (±1 = encostado na borda; além disso, fora do asfalto, até ±1,6), e `note` (pt-br/en) é o texto do guia.
+   - Rode o comando de novo: o otimizado passa pelos pontos e calcula o resto. O `<id>.lines.yaml` e o `<id>.json` são refeitos a cada execução, por isso não os edite.
 5. Uma pista já gravada pela telemetria não aceita esboço. Para gravar uma pista esboçada, siga o §3e: o arquivo da telemetria substitui o esboço.
 6. Só marque `published: true` quando o dono aprovar.
 

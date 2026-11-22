@@ -8,4 +8,55 @@ camber: flat
 sections:
   - from: 0
     width: 12
-checkpoints: []
+# On the apex of T1–T4 and T7 (owner, 2026-11-21); the others are not placed yet.
+checkpoints:
+  - at: 274
+    note: T1 apex
+  - at: 579
+    note: T2 apex
+  - at: 858
+    note: T3 apex
+  - at: 1038
+    note: T4 apex
+  - at: 2045
+    note: T7 apex
+# Where the optimised line must pass (owner, 2026-11-21). Beyond ±1 = off the asphalt; 1.55 puts
+# the car just outside the checkpoint's inner flag, over the grass.
+linePins:
+  - at: 274
+    pos: -1.55
+    note:
+      pt-br: "Corte leve pela grama por dentro, passando por fora da bandeira do checkpoint, que fica em cima do ápice. Vale o mesmo para as curvas 2, 3 e 4."
+      en: "A light cut over the inside grass, just outside the checkpoint's flag, which sits on the apex. Turns 2, 3 and 4 work the same way."
+  - at: 579
+    pos: 1.55
+  - at: 858
+    pos: 1.55
+  - at: 1038
+    pos: 1.55
+    note:
+      pt-br: "Da curva 4 até a 6 é quase uma reta só: as curvas são rápidas e só carros muito velozes e com pouca aderência precisam ajustar alguma coisa."
+      en: "From turn 4 to turn 6 it is nearly one long straight; the bends are fast, and only very fast cars with little grip need to adjust."
+  - at: 1770
+    pos: 1.2
+    note:
+      pt-br: "Na preparação da curva 6, saia de leve da pista pela esquerda e depois feche para a direita."
+      en: "To set up turn 6, run slightly off the track on the left, then close in to the right."
+  - at: 1843
+    pos: -1
+  - at: 1950
+    pos: -1
+    note:
+      pt-br: "Depois da curva 6, chegue bem perto do muro da direita para preparar a curva 7, e corte o checkpoint da 7 também um pouco pela grama."
+      en: "After turn 6, get close to the right-hand wall to set up turn 7, and cut turn 7's checkpoint a little over the grass too."
+  - at: 2045
+    pos: 1.55
+  - at: 2490
+    pos: -1
+  - at: 2575
+    pos: -1
+    note:
+      pt-br: "Curva 8 com ápice tardio, indo até o fundo pelo lado direito, para sair com mais velocidade. A curva 9 fica quase reta e dá para ir praticamente em linha reta até a chegada."
+      en: "Turn 8 with a late apex, going deep on the right to exit faster. That straightens turn 9, which can be taken almost flat out in a straight line to the finish."
+  - at: 2665
+    pos: 1

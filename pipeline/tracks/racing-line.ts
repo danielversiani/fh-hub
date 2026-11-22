@@ -31,6 +31,39 @@ export const TYPICAL_CAR: Car = { grip: 1.25, brake: 1.15, powerPerKg: 260, top:
 const G = 9.81;
 const CAR_EDGE = 1.3;
 
+/** Lowest and highest position allowed at each point (normally the asphalt, −1 to +1). */
+export interface Limits {
+  lo: number[];
+  hi: number[];
+}
+
+/**
+ * Limits for a line that must pass through `pins` (index → position). Where a pin is off the
+ * asphalt (beyond ±1, a cut over the grass), the limit on that side widens to it over `reach`
+ * points each way (70 m at 5 m steps), so the line can leave the road there and only there.
+ */
+export function pinLimits(
+  n: number,
+  pins: ReadonlyMap<number, number>,
+  closed: boolean,
+  reach = 14,
+): Limits {
+  const lo = new Array<number>(n).fill(-1);
+  const hi = new Array<number>(n).fill(1);
+  for (const [i, p] of pins) {
+    if (Math.abs(p) <= 1) continue;
+    for (let d = -reach; d <= reach; d++) {
+      const j = closed ? (i + d + n) % n : i + d;
+      if (j < 0 || j >= n) continue;
+      // Flat near the pin, easing back to the edge (a sharp peak would force a kink).
+      const v = 1 + ((Math.abs(p) - 1) * (1 + Math.cos((Math.PI * Math.abs(d)) / (reach + 1)))) / 2;
+      if (p > 0) hi[j] = Math.max(hi[j]!, v);
+      else lo[j] = Math.min(lo[j]!, -v);
+    }
+  }
+  return { lo, hi };
+}
+
 /** Unit normals pointing left of travel, from a closed (or open) centre line. */
 export function leftNormals(c: readonly Centre[], closed: boolean): Centre[] {
   const n = c.length;
@@ -85,10 +118,13 @@ export function leastBending(
   start: readonly number[],
   fixed: ReadonlySet<number> = new Set(),
   sweeps = 3000,
+  limits?: Limits,
 ): number[] {
   const n = c.length;
   const reach = half - CAR_EDGE;
   const pos = [...start];
+  const lo = limits?.lo ?? new Array<number>(n).fill(-1);
+  const hi = limits?.hi ?? new Array<number>(n).fill(1);
   const at = (i: number) => (closed ? (i + n) % n : i);
   const point = (i: number) => {
     const j = at(i);
@@ -125,7 +161,8 @@ export function leastBending(
         den += nx * nx + nz * nz;
       }
       // Over-relaxed (SOR): plain sweeps creep along slowly on long, gentle bends.
-      if (den > 0) pos[i] = Math.max(-1, Math.min(1, pos[i]! + 1.9 * (num / den - pos[i]!)));
+      if (den > 0)
+        pos[i] = Math.max(lo[i]!, Math.min(hi[i]!, pos[i]! + 1.9 * (num / den - pos[i]!)));
     }
   }
   return pos;
@@ -265,6 +302,10 @@ export function lapTime(
  * set at control points every `spacing` m and joined smoothly (so the line has no zigzags), and
  * found by Rprop on numerical gradients: each control point has its own step, which grows while
  * its gradient keeps its sign and shrinks when it flips.
+ *
+ * `pins` (index → position) are points the line must pass, from people who know the route (a
+ * grass cut at a checkpoint, a late apex): a heavy penalty holds the line on them, and `limits`
+ * let it leave the asphalt around off-road pins.
  */
 export function fastestLine(
   c: readonly Centre[],
@@ -275,9 +316,13 @@ export function fastestLine(
   car: Car = TYPICAL_CAR,
   spacing = 20,
   iterations = 300,
+  pins: ReadonlyMap<number, number> = new Map(),
+  limits?: Limits,
 ): number[] {
   const n = c.length;
   const normals = leftNormals(c, closed);
+  const lo = limits?.lo ?? new Array<number>(n).fill(-1);
+  const hi = limits?.hi ?? new Array<number>(n).fill(1);
   const every = Math.max(1, Math.round(spacing / step));
   const m = closed ? Math.ceil(n / every) : Math.ceil((n - 1) / every) + 1;
   // Catmull–Rom between control points (wrapping on a circuit), added to the starting line.
@@ -299,12 +344,18 @@ export function fastestLine(
           (-p0 + p2) * t +
           (2 * p0 - 5 * p1 + 4 * p2 - p3) * t2 +
           (-p0 + 3 * p1 - 3 * p2 + p3) * t3);
-      out[i] = Math.max(-1, Math.min(1, start[i]! + d));
+      out[i] = Math.max(lo[i]!, Math.min(hi[i]!, start[i]! + d));
     }
     return out;
   };
-  const cost = (q: readonly number[]) =>
-    lapTime(placeLine(c, normals, expand(q), half), closed, car).time;
+  // Seconds per unit² off a pin: 0.1 off costs 0.3 s, far more than any line gains.
+  const PIN_WEIGHT = 30;
+  const cost = (q: readonly number[]) => {
+    const pos = expand(q);
+    let miss = 0;
+    for (const [i, p] of pins) miss += (pos[i]! - p) ** 2;
+    return lapTime(placeLine(c, normals, pos, half), closed, car).time + PIN_WEIGHT * miss;
+  };
   let delta = new Array<number>(m).fill(0);
   let best = cost(delta);
   let bestDelta = delta;

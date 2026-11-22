@@ -750,6 +750,20 @@ export const TrackScene = z.object({
       }),
     )
     .default([]),
+  /**
+   * Map sketches (ADR-0023): points the optimised line must pass, from people who know the route
+   * (a grass cut at a checkpoint, a late apex). Positions on the lines' scale; beyond ±1 is off
+   * the asphalt. The note, when given, is shown as the reasoning for that stretch.
+   */
+  linePins: z
+    .array(
+      z.object({
+        at: z.number().nonnegative(),
+        pos: z.number().min(-1.6).max(1.6),
+        note: z.object({ 'pt-br': z.string(), en: z.string() }).optional(),
+      }),
+    )
+    .default([]),
   /** The ground around the track. */
   ground: z.enum(['grass', 'dry-grass', 'dirt', 'snow', 'concrete', 'sand']).default('grass'),
   /**

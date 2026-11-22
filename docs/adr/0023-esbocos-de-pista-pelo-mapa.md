@@ -43,6 +43,18 @@ O dono pediu uma versão simplificada para as pistas que ainda não foram gravad
    - Os números e o perfil de elevação, que seriam todos zero, não aparecem.
    - Quando a pista for gravada pela telemetria, o arquivo de telemetria toma o lugar do esboço.
 
+7. **Pontos de passagem de quem conhece a pista** (`linePins` no arquivo de cenário, dono, 2026-11-21):
+   - **Quando usar:** o cálculo não sabe o que só se aprende correndo, como um corte pela grama em cima do checkpoint ou um ápice tardio que endireita a curva seguinte. Esses pontos ficam anotados como `{ at, pos, note }`.
+   - **Como o otimizado os respeita:** ele é obrigado a passar por eles, por uma penalidade forte (30 s por unidade² de desvio). Perto de um ponto fora do asfalto (além de ±1), o limite daquele lado se abre suavemente por 70 m para cada lado, e só ali a linha pode sair da pista.
+   - **Notas:** a nota de cada ponto vira o texto do guia. Com pontos anotados, as notas automáticas saem.
+   - **Na Shirakawa:**
+     - cortes pela grama nos ápices da T1–T4 e da T7, por fora da bandeira do checkpoint, que fica em cima do ápice;
+     - preparação da T6 saindo de leve pela esquerda e fechando para a direita;
+     - muro da direita antes da T7;
+     - ápice tardio no fundo da T8, endireitando a T9.
+   - **Tempos com os pontos:** otimizado, 71,9 s; menor curvatura com os mesmos pontos, 73,3 s.
+   - **Limite do modelo:** a grama tem menos aderência no jogo, mas o modelo trata grama e asfalto do mesmo jeito.
+
 ## Alternativas consideradas
 
 - **Esperar a telemetria de cada pista:** é preciso, mas lento demais para cobrir o jogo.
