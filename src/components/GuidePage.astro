@@ -45,7 +45,6 @@ const date = (iso: string) =>
 
   {/* Every part has a short version; "more details" opens layers below it (owner, 2026-11-22). */}
   <div class="mt-8 flex max-w-3xl flex-wrap items-center gap-x-3 gap-y-2 text-sm" data-guide-tools>
-    <span class="text-muted">{t(locale, 'guides.layers')}</span>
     <button type="button" class="pill" data-expand="open">
       {t(locale, 'guides.expandAll')}
     </button>
@@ -92,6 +91,68 @@ const date = (iso: string) =>
       if (el instanceof HTMLDetailsElement) el.open = true;
     }
     target?.scrollIntoView();
+    article.querySelectorAll<HTMLElement>('[data-deck]').forEach(setupDeck);
+  }
+
+  /**
+   * A card deck: the cards sit in a stack; "next" throws the top card aside and slips it to the
+   * back (a shuffle), "previous" brings the last one back on top. Arrows, keys and swipes work.
+   */
+  function setupDeck(deck: HTMLElement) {
+    const stage = deck.querySelector<HTMLElement>('.deck-stage');
+    const cards = [...deck.querySelectorAll<HTMLElement>('.deck-card')];
+    if (!stage || !cards.length) return;
+    let order = cards.map((_, i) => i);
+    let busy = false;
+    const paint = () => {
+      order.forEach((card, pos) => {
+        const el = cards[card]!;
+        el.dataset.pos = String(Math.min(pos, 3));
+        el.setAttribute('aria-hidden', pos === 0 ? 'false' : 'true');
+        el.inert = pos !== 0;
+      });
+      // The stage takes the tallest card's height, so the page does not jump between cards.
+      stage.style.height = `${Math.max(...cards.map((c) => c.offsetHeight)) + 24}px`;
+    };
+    const go = (dir: 1 | -1) => {
+      if (busy || cards.length < 2) return;
+      busy = true;
+      if (dir === 1) {
+        const top = cards[order[0]!]!;
+        top.classList.add('deck-out');
+        window.setTimeout(() => {
+          order = [...order.slice(1), order[0]!];
+          top.classList.remove('deck-out');
+          paint();
+          busy = false;
+        }, 320);
+      } else {
+        order = [order[order.length - 1]!, ...order.slice(0, -1)];
+        const top = cards[order[0]!]!;
+        top.classList.add('deck-in');
+        paint();
+        window.setTimeout(() => {
+          top.classList.remove('deck-in');
+          busy = false;
+        }, 320);
+      }
+    };
+    deck.querySelector('[data-deck-next]')?.addEventListener('click', () => go(1));
+    deck.querySelector('[data-deck-prev]')?.addEventListener('click', () => go(-1));
+    deck.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') go(1);
+      if (e.key === 'ArrowLeft') go(-1);
+    });
+    let startX: number | null = null;
+    stage.addEventListener('pointerdown', (e) => (startX = e.clientX));
+    stage.addEventListener('pointerup', (e) => {
+      if (startX !== null && Math.abs(e.clientX - startX) > 40) go(e.clientX < startX ? 1 : -1);
+      startX = null;
+    });
+    // Hidden decks (inside closed layers) measure 0: measure again whenever a layer opens.
+    deck.closest('.guide-body')?.addEventListener('toggle', paint, true);
+    window.addEventListener('resize', paint);
+    paint();
   }
   document.addEventListener('astro:page-load', setupGuide);
 </script>

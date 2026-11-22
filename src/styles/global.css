@@ -323,6 +323,200 @@ body {
 .guide-body details > summary + * {
   margin-top: 0.25rem;
 }
+/* Wristband tabs: a layer coloured like its wristband. */
+.guide-body details.band {
+  --band: var(--color-accent);
+  border-left: 6px solid var(--band);
+}
+.guide-body details.band > summary {
+  color: var(--band);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.guide-body details.band[open] > summary {
+  background: color-mix(in srgb, var(--band) 14%, transparent);
+}
+.guide-body details.band-yellow {
+  --band: #f2c200;
+}
+.guide-body details.band-green {
+  --band: #3ee07a;
+}
+.guide-body details.band-blue {
+  --band: #3d8bff;
+}
+.guide-body details.band-pink {
+  --band: #ff5fa2;
+}
+.guide-body details.band-orange {
+  --band: #ff7a1a;
+}
+.guide-body details.band-purple {
+  --band: #a77bff;
+}
+.guide-body details.band-gold {
+  --band: #e0b23a;
+}
+.guide-body details.band + details.band {
+  margin-top: 0.5rem;
+}
+
+/* Card decks (src/lib/guide-decks.ts): a stack of cards shuffled with arrows or a swipe. */
+.guide-body .deck {
+  outline: none;
+}
+.guide-body .deck-stage {
+  position: relative;
+  touch-action: pan-y;
+  transition: height 200ms;
+}
+.guide-body .deck-card {
+  position: absolute;
+  inset: 0 24px auto 0;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-2);
+  box-shadow: 6px 6px 0 rgb(0 0 0 / 0.45);
+  padding: 0.9rem 1rem;
+  transition:
+    transform 320ms ease,
+    opacity 320ms ease;
+  will-change: transform;
+}
+.guide-body .deck-card > * + * {
+  margin-top: 0.4rem;
+}
+.guide-body .deck-card[data-pos='0'] {
+  z-index: 4;
+  transform: none;
+}
+.guide-body .deck-card[data-pos='1'] {
+  z-index: 3;
+  transform: translate(8px, 8px) rotate(1.2deg);
+  opacity: 0.9;
+}
+.guide-body .deck-card[data-pos='2'] {
+  z-index: 2;
+  transform: translate(16px, 16px) rotate(2.4deg);
+  opacity: 0.75;
+}
+.guide-body .deck-card[data-pos='3'] {
+  z-index: 1;
+  transform: translate(24px, 24px) rotate(3.6deg);
+  opacity: 0;
+}
+.guide-body .deck-card.deck-out {
+  z-index: 5;
+  transform: translateX(115%) rotate(10deg);
+  opacity: 0;
+}
+.guide-body .deck-card.deck-in {
+  animation: deck-in 320ms ease;
+}
+@keyframes deck-in {
+  from {
+    transform: translateX(-115%) rotate(-10deg);
+    opacity: 0;
+  }
+}
+.guide-body .deck-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.guide-body .deck-chip {
+  padding: 0.1rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d0d0d;
+  background: var(--color-accent);
+}
+.guide-body .deck-yellow {
+  background: #f2c200;
+}
+.guide-body .deck-green {
+  background: #3ee07a;
+}
+.guide-body .deck-blue {
+  background: #3d8bff;
+}
+.guide-body .deck-pink {
+  background: #ff5fa2;
+}
+.guide-body .deck-orange {
+  background: #ff7a1a;
+}
+.guide-body .deck-purple {
+  background: #a77bff;
+}
+.guide-body .deck-gold {
+  background: #e0b23a;
+}
+.guide-body .deck-treasure {
+  background: #ececec;
+}
+.guide-body .deck-count {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+.guide-body .deck-car {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.guide-body .deck-car a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+.guide-body .deck-where,
+.guide-body .deck-hint {
+  font-size: 0.9rem;
+}
+.guide-body .deck-hint {
+  color: var(--color-muted);
+}
+.guide-body .deck-shots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+@media (max-width: 520px) {
+  .guide-body .deck-shots {
+    grid-template-columns: 1fr;
+  }
+}
+.guide-body .deck-shot {
+  margin: 0;
+}
+.guide-body .deck-shot figcaption {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+.guide-body .deck-shot img,
+.guide-body .deck-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+.guide-body .deck-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+}
+
 /* Tune boxes, filled from the catalogue (src/lib/guide-picks.ts). */
 .guide-body .tune-picks {
   border: 1px solid var(--color-border);

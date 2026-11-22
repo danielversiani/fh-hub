@@ -1,6 +1,6 @@
 ---
 title: 'Start here: the three tracks of FH6'
-summary: 'The game has three progressions running at once, and mixing them up is the mistake that costs new players the most cars and rewards. Learn what each one is, what is mandatory, where to start and with which car.'
+summary: 'The game has three progressions running at once, and mixing them up is the mistake that costs new players the most cars and rewards. Learn what each one is, what to prioritise, where to start and which car to use at each wristband.'
 order: 1
 verifiedAt: null
 published: false
@@ -33,90 +33,86 @@ sources:
     url: 'https://gamingbolt.com/forza-horizon-6-guide-the-5-best-starter-cars-to-use-early'
   - label: 'GameWatcher: which starter car to pick'
     url: 'https://www.gamewatcher.com/forza-horizon-6/guides/which-starter-car-should-you-pick-in-forza-horizon-6'
-  - label: 'xboxplay.games: starter and budget cars'
-    url: 'https://xboxplay.games/forza-horizon-6/best-starter-and-budget-friendly-cars-in-forza-horizon-6-73232'
   - label: 'Game8: credit bonus for difficulty and assists'
     url: 'https://game8.co/games/Forza-Horizon-6/archives/599579'
-  - label: 'Dot Esports: difficulty levels'
-    url: 'https://dotesports.com/forza/news/forza-horizon-6-difficulty-settings'
   - label: 'KeenGamer: houses, prices and perks'
     url: 'https://www.keengamer.com/articles/guides/forza-horizon-6-all-player-house-locations-prices-and-perks/'
-  - label: 'Steam: "Best way to earn credits?" thread (27 May 2026)'
-    url: 'https://steamcommunity.com/app/2483190/discussions/0/653730014598101895/'
-  - label: 'Grindout: beginners guide'
-    url: 'https://grindout.com/forza-6/guides/beginners-guide'
   - label: 'GameRant: FH6 on PS5, date and editions (8 Oct 2026)'
     url: 'https://gamerant.com/forza-horizon-6-ps5-release-date-pre-order/'
   - label: 'Game Informer: FH6 on PS5 in 2027 (8 Oct 2026)'
     url: 'https://gameinformer.com/2026/10/08/forza-horizon-6-on-ps5-delayed-to-2027-will-launch-alongside-games-first-premium'
-  - label: "Forza Paddock catalogue: cars' stock class, tunes and the C-class meta"
+  - label: "Forza Paddock catalogue: cars' stock class, tunes and meta by class"
     url: 'https://forzapaddock.racing/en/meta/'
 ---
 
-Forza Horizon 6 does not have one progression: it has **three tracks running at the same time**. Each has its own rewards, and treating them as one thing leaves you stuck without knowing why. This page explains the three, what to do first and with which car.
+Forza Horizon 6 does not have one progression: it has **three tracks running at the same time**. Each has its own rewards, and treating them as one thing leaves you stuck without knowing why. This page explains the three, what to prioritise, where to start and which car to use at each wristband.
 
 ## The three tracks
 
 <div class="table-wrap">
 
-| Track                       | How it moves forward                                                                                            | What it unlocks                                                         |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **Wristbands** (Festival)   | Events marked Horizon Festival: races, Showcase Events and Horizon Rush challenges                              | Higher-class events; the 7th wristband (Gold) opens Legend Island        |
-| **Stamps** (Discover Japan) | Exploring Japan: mascots, landmarks, mural photos, Mei's day trips, Street and Touge Races, Raku-Raku deliveries | **Barn finds** and houses for sale; the first stamp unlocks the Estate  |
+| Track                       | How it moves forward                                                                                            | What it unlocks                                                               |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **Wristbands** (Festival)   | Events marked Horizon Festival: races, Showcase Events and Horizon Rush challenges                              | Higher-class events; the 7th wristband (Gold) opens Legend Island             |
+| **Stamps** (Discover Japan) | Exploring Japan: mascots, landmarks, mural photos, Mei's day trips, Street and Touge Races, Raku-Raku deliveries | **Barn finds** and houses for sale; the first stamp unlocks the Estate        |
 | **Horizon Play**            | The online and community modes                                                                                  | Levels of its own; levels 1 to 25 also give points towards the next wristband |
 
 </div>
 
 Stamp progress lives in **Campaign menu › Collection Journal › Discover Japan**. That is where the game shows what you have done and how much is left for the next stamp.
 
+**Prioritise the stamps.** Some of the best cars in the game come from barn finds, and each barn car still takes a while to be repaired after you find it. The sooner you unlock the barns, the sooner you can use those cars in races and online.
+
 <details>
 <summary>Wristbands in detail: how to earn them, what each one unlocks and where the points come from</summary>
 
-**How to earn them (official).** The first wristband comes from completing the **Horizon Qualifiers** and the **Horizon Invitational**. Each later wristband needs Festival points **and** the wristband events: the **Showcase Events** and the **Horizon Rush** challenges. There are 7 wristbands; the last one, Gold, opens Legend Island, with the longest Goliath race in the series.
+**How to earn them.** The first wristband comes from completing the **Horizon Qualifiers** and the **Horizon Invitational**. Each later wristband needs Festival points **and** the wristband events: the **Showcase Events** and the **Horizon Rush** challenges. There are 7 wristbands; the last one, Gold, opens Legend Island, with the longest Goliath race in the series.
 
-**What each wristband unlocks.** The game only says each one opens higher-class events. Fan guides describe this ladder, still _to check in game_:
+**What each wristband unlocks:**
 
 <div class="table-wrap">
 
-| Wristband | Unlocks (according to guides)                                  |
-| --------- | -------------------------------------------------------------- |
-| Yellow    | The Festival itself (earned in the Qualifiers + Invitational)  |
-| Green     | C and D class events                                           |
-| Blue      | B class events and the Time Attack Circuits                    |
-| Pink      | A class events and Drag Meets                                  |
-| Orange    | S1 class events and more Street Racing                         |
-| Purple    | S2 class events (hypercars) and more Touge Showdowns           |
-| Gold      | Legend Island, R class and the longest race (The Colossus)     |
+| Wristband | Unlocks                                                       |
+| --------- | ------------------------------------------------------------- |
+| Yellow    | The Festival itself (earned in the Qualifiers + Invitational) |
+| Green     | C and D class events                                          |
+| Blue      | B class events and the Time Attack Circuits                   |
+| Pink      | A class events and Drag Meets                                 |
+| Orange    | S1 class events and more Street Racing                        |
+| Purple    | S2 class events (hypercars) and more Touge Showdowns          |
+| Gold      | Legend Island, R class and the longest race (The Colossus)    |
 
 </div>
 
 **Where wristband points come from.**
 
-- **Winning Festival races.** The value per win differs between guides: 100 to 250, or about 350. It drops fast if you finish 3rd or 4th.
+- **Winning Festival races.** The points drop a lot when you finish 3rd or 4th.
 - **Photographing the cars on the grid before the start.** Each "Horizon Promo" photo is worth 10 points: about 80 to 120 points per race, in 10 seconds.
 - **Smashing XP boards (bonus boards)** on the way: 10, 30 or 50 points.
 - **Your first LINK Skill** with another player: 10 points.
-- **Horizon Play levels 1 to 25** (official; the value was not published).
+- **Horizon Play levels 1 to 25.**
 - **Mixing event types.** The first race of a type pays much more than the twentieth of the same type.
 
-**A useful detail (official):** finishing an event for the first time unlocks its **Race Customizer**. From then on you can replay it with any car in your garage and other settings.
+> **Drivatar difficulty:** it is better to lower the difficulty and earn a few fewer credits, but win every race in first place. Finishing 1st is what makes you progress fastest.
+
+**A useful detail:** finishing an event for the first time unlocks its **Race Customizer**. From then on you can replay it with any car in your garage and other settings.
 
 <details>
 <summary>How many points each wristband needs (sources disagree)</summary>
 
-Guides do not agree on how many points each wristband needs. The table below comes from a single guide, and only the Gold value appears in two sources. The most cited fan guide seems to have mixed this ladder up with the stamp ladder, which uses the same seven colours. **Check the wristband screen before trusting these numbers.**
+Guides do not agree on how many points each wristband needs, and only the Gold value appears in two sources. **Check the wristband screen before trusting these numbers.**
 
 <div class="table-wrap">
 
-| Wristband | Points (according to one guide) |
-| --------- | ------------------------------- |
-| Yellow    | 1,250                           |
-| Green     | 2,500                           |
-| Blue      | 6,000                           |
-| Pink      | 10,000                          |
-| Orange    | 15,000                          |
-| Purple    | 20,000                          |
-| Gold      | 32,500 (two sources)            |
+| Wristband | Points               |
+| --------- | -------------------- |
+| Yellow    | 1,250                |
+| Green     | 2,500                |
+| Blue      | 6,000                |
+| Pink      | 10,000               |
+| Orange    | 15,000               |
+| Purple    | 20,000               |
+| Gold      | 32,500 (two sources) |
 
 </div>
 
@@ -127,87 +123,56 @@ Guides do not agree on how many points each wristband needs. The table below com
 <details>
 <summary>Stamps in detail: the Discover Japan ladder, barn finds and the fastest route</summary>
 
-**What they are.** The "stamps" the game mentions are the **7 ranks of Discover Japan**. You collect points by exploring, and at each rank the game reveals a batch of **barn rumours**: purple search zones on the map. **Driving to a barn before its rank does nothing.**
+**What they are.** The "stamps" the game mentions are the **7 ranks of Discover Japan**. You collect points by exploring, and at each rank the game reveals a batch of **barn rumours**: purple search zones on the map. **Going to a barn before unlocking its stamp does not unlock that barn's car.**
 
-The points for each rank come from guides (they all agree with each other), but are still _to check in game_:
+**Why prioritise them.** Some of the best cars in the game come from barn finds, and they take a while to become available after you find them: the car has to be repaired. The last two barns, behind the Gold stamp, hold two meta cars: the **Mazda 787B**, meta in S1, S2 and R, and the **Nissan #11 Tomica Skyline**, meta in S1 on road and dirt. That is why Discover Japan is worth prioritising over the wristbands.
 
 <div class="table-wrap">
 
-| Stamp  | Rank                        | Total points | Barns revealed | Other unlocks reported |
-| ------ | --------------------------- | ------------ | -------------- | ---------------------- |
-| Yellow | Visitor                     | 1,250        | 1              | The Estate (official)  |
-| Green  | Sightseer (or "Tourist")    | 2,500        | 2              | —                      |
-| Blue   | Traveller                   | 5,000        | 2              | Hakusan Mountain Lodge |
-| Pink   | Pathfinder (or "Explorer")  | 8,000        | 4              | —                      |
-| Orange | Navigator                   | 12,000       | 2              | Fuji Unkai             |
-| Purple | Adventurer                  | 16,000       | 2              | Soko 78                |
-| Gold   | Master Explorer             | 20,000       | 2              | Vision House; "Master Explorer" achievement |
+| Stamp  | Rank                       | Total points | Barns revealed | Other unlocks reported                      |
+| ------ | -------------------------- | ------------ | -------------- | ------------------------------------------- |
+| Yellow | Visitor                    | 1,250        | 1              | The Estate                                  |
+| Green  | Sightseer (or "Tourist")   | 2,500        | 2              | —                                           |
+| Blue   | Traveller                  | 5,000        | 2              | Hakusan Mountain Lodge                      |
+| Pink   | Pathfinder (or "Explorer") | 8,000        | 4              | —                                           |
+| Orange | Navigator                  | 12,000       | 2              | Fuji Unkai                                  |
+| Purple | Adventurer                 | 16,000       | 2              | Soko 78                                     |
+| Gold   | Master Explorer            | 20,000       | 2              | Vision House; "Master Explorer" achievement |
 
 </div>
 
-**What earns stamp points (official):** collecting and customising cars, photographing murals, smashing mascots, finding landmarks, Mei's Day Trips, Street Races, Touge Races and income from Raku-Raku deliveries. Guides add story events, revealing new map regions, buying houses and buying cars. The only published value is a **three-star story event: about 300 points**.
+**What earns stamp points:** collecting and customising cars, photographing murals, smashing mascots, finding landmarks, Mei's Day Trips, Street Races, Touge Races and income from Raku-Raku deliveries. Story events, revealing new map regions, buying houses and buying cars count too. A **three-star story event is worth about 300 points**.
 
-**The fastest route (according to guides):**
+**The fastest route:**
 
 1. Do the yellow story events to 3 stars. The game lends you a car for them.
 2. Between events, smash the mascots on your way.
 3. Chain activities in the same region: Drift Club, a touge, mascots, a landmark photo.
 4. Do Mei's Day Trips: they pass collectibles and photo spots.
 5. Run touge and night street races with a tuned car.
+6. Do Raku-Raku deliveries while you are starting out: they help a lot with stamps.
 
 You do not need to clear everything: there is more optional content than Gold requires.
 
-**Finding the barn.** Inside the purple zone, **drone mode** (pause menu › My Horizon) helps you spot the dirt track to the barn. The car you find takes a while to be restored, or you can pay to restore it at once under **Cars › Barn Finds**.
+**Finding the barn.** Inside the purple zone, **drone mode** (pause menu › My Horizon) helps you spot the dirt track to the barn. Once found, the car takes a while to be repaired, or you can pay to repair it at once under **Cars › Barn Finds**.
 
 <details>
-<summary>The 15 barn finds, by stamp and region</summary>
+<summary>The 15 barn finds: where they are, on the map and in game</summary>
 
-Regions come from guides and some disagree, as marked below. When the Forza Paddock map is ready, each exact location will be shown on it.
+Flip through the cards with the arrows or by swiping sideways. Regions come from guides, and disagreements are noted on each card.
 
-<div class="table-wrap">
-
-| Stamp  | Car                                                      | Region                                              |
-| ------ | -------------------------------------------------------- | --------------------------------------------------- |
-| Yellow | 2005 Honda NSX-R GT                                      | Ohtani, south-east of Kinkaku-ji temple (one guide says Nangan) |
-| Green  | Ford Sierra Cosworth RS500                               | Ito, in a clearing south-east of the fields         |
-| Green  | 1969 Toyota 2000GT                                       | Ito, near the beach on the south-east coast (one guide says Tokyo's northern outskirts) |
-| Blue   | 1971 Nissan Skyline 2000GT-R                             | Nangan                                              |
-| Blue   | Nissan PAO                                               | Minamino                                            |
-| Pink   | 1998 Nissan #23 Pennzoil NISMO Skyline GT-R              | Takashiro                                           |
-| Pink   | 1962 Lincoln Continental                                 | Hokubu                                              |
-| Pink   | 1984 Peugeot 205 Turbo 16                                | Shimanoyama, south-west of Narai-Juku               |
-| Pink   | 1982 Porsche 911 Turbo 3.3                               | Ohtani (one guide says Ohtani or Tokyo City)        |
-| Orange | Lamborghini Diablo SV                                    | Ito (one guide says Ohtani)                         |
-| Orange | 1997 Mitsubishi Montero Evolution                        | Shimanoyama                                         |
-| Purple | Mitsubishi #1 Sierra Sierra Lancer Evolution Time Attack | Shimanoyama, near Narai-Juku                        |
-| Purple | Nissan R390 GT1                                          | Ohtani (one guide says Ito)                         |
-| Gold   | 1991 Mazda #55 787B                                      | Takashiro, west of Hirosaki Castle                  |
-| Gold   | 1983 Nissan #11 Tomica Skyline Turbo Super Silhouette    | Ito                                                 |
-
-</div>
+<card-deck set="barns"></card-deck>
 
 </details>
 
 <details>
-<summary>The 9 treasure cars (one per region, any time)</summary>
+<summary>The 9 treasure cars: free, any time</summary>
 
-Treasure cars **do not depend on stamps**: you can pick them up at any time, from photo clues like postcards. Finding all 9 earns the "Treasure Hunter" achievement. The **2005 Ford GT** is the most useful early: it is A class and easy to collect at the south end of Nangan.
+Treasure cars **do not depend on stamps**: you can pick them up at any time, from photo clues like postcards. Finding all 9 earns the "Treasure Hunter" achievement.
 
-<div class="table-wrap">
+> **Grab the 2005 Ford GT right at the start.** It is an excellent A-class car, free, and easy to collect at a lookout at the south end of Nangan.
 
-| Car                     | Region      | Where (according to guides)                               |
-| ----------------------- | ----------- | --------------------------------------------------------- |
-| BMW M1                  | Hokubu      | Under the train tracks, overlooking the fields            |
-| Nissan Safari           | Ito         | Northern tip of Ito, at the base of a wind turbine        |
-| 1969 Dodge Charger      | Minamino    | Behind the golf course building                           |
-| 2005 Ford GT            | Nangan      | Small lookout at the south end                            |
-| 1985 Mazda RX-7         | Ohtani      | Near a mascot, below a radio tower facing Mt Fuji         |
-| Porsche 959             | Shimanoyama | Behind the convenience store in the northern building cluster |
-| Lancia Stratos          | Sotoyama    | North of the Tateyama Kurobe Alpine Route, beside a hotel |
-| 1995 Mitsubishi Evo III | Takashiro   | North of the Nachi Falls temple, at the rest point at the foot of the falls |
-| 1991 Nissan Figaro      | Tokyo City  | South side near the water, in a small car park            |
-
-</div>
+<card-deck set="treasures"></card-deck>
 
 </details>
 
@@ -216,7 +181,7 @@ Treasure cars **do not depend on stamps**: you can pick them up at any time, fro
 <details>
 <summary>Horizon Play in detail: the online modes and why to join early</summary>
 
-Horizon Play unlocks after the opening race in Tokyo. It has **its own levels, up to 100**, with a badge every 10 levels, and **levels 1 to 25 also count towards the next wristband** (official). The modes:
+Horizon Play unlocks after the opening race in Tokyo. It has **its own levels, up to 100**, with a badge every 10 levels, and **levels 1 to 25 also count towards the next wristband**. The modes:
 
 - **The Eliminator:** battle royale.
 - **Hide & Seek:** hide and seek with cars.
@@ -233,15 +198,15 @@ There are group activities too: LINK Skills, shared Festival and Discover Japan 
 
 - **Points alone do not earn the next wristband.** The **Showcase Events** and **Horizon Rush challenges** are mandatory. If the wristband does not come, one of them is probably missing.
 - **Discover Japan activities do not count towards wristbands,** and Festival races do not give stamps (Street and Touge Races do). They are two separate tallies, and both use the same seven colours, which confuses even some guides.
-- **Barn finds do not show up early.** Each stamp reveals a batch of barn rumours, shown as purple zones on the map. Driving to a barn before its stamp does nothing.
-- **Hypercars only race in the Festival from the Purple wristband,** according to guides. Clearing the Festival events does not open the whole endgame: PR Stunts count too.
+- **Going to a barn too early does not unlock the car.** Each stamp reveals a batch of barn rumours, shown as purple zones on the map.
+- **Hypercars only race in the Festival from the Purple wristband.** Clearing the Festival events does not open the whole endgame: PR Stunts count too.
 
 <details>
 <summary>Showcase, Horizon Rush and how to find what is missing</summary>
 
 - **Showcase Events** are the headline events, such as races against a special vehicle. One of them is against the "Chaser Zero".
 - **Horizon Rush** are obstacle courses, set up in places like the Tokyo City docks and the Sotoyama ski resort.
-- **To find what is missing:** open the map and show only the Horizon Festival events. Look for Showcase and Horizon Rush icons not yet completed. _To check in game:_ the exact name of the filter and whether the wristband screen lists what is missing.
+- **To find what is missing:** open the map and show only the Horizon Festival events. Look for Showcase and Horizon Rush icons not yet completed.
 - **The game's "What's next"** is fine as a starting point, but check that it takes you to these mandatory events. After a championship race the game does not always point to the next one in the series, there is no filter to hide finished races, and the GPS sometimes clears itself.
 
 </details>
@@ -250,38 +215,57 @@ There are group activities too: LINK Skills, shared Festival and Discover Japan 
 
 1. **Do the opening race in Tokyo and pick your starter car.** The choice locks nothing: all three (1989 Nissan Silvia K's, 1994 Toyota Celica GT-Four and 1970 GMC Jimmy) go to your garage. In practice, use the Silvia or the Celica on tarmac and the Jimmy on dirt and cross country.
 2. **Until the Yellow wristband, only C-class cars race.** Do not spend credits on a high-class car now: it cannot enter the events.
-3. **Do the story events and wristband events as soon as they appear.** Do **one event of each type before repeating any**, because the first race of a type pays much more than the twentieth.
-4. **Get the first stamp early.** It unlocks the Estate and the first barn find. Between events, smash the mascots on your way and do the activities in the region you are already in.
-5. **When you earn the first wristband,** you get three more cars: 2022 Toyota GR86, 2001 Mitsubishi Lancer Evolution VI GSR TM Edition and 2024 Ram 1500 TRX.
+3. **Pick up the 2005 Ford GT for free,** a treasure car at the south end of Nangan. It will be one of your best cars once A class opens.
+4. **Prioritise the stamps.** Do the story events to 3 stars, smash mascots on the way and do Raku-Raku deliveries: that way the barn finds (and the meta cars they hold) come sooner.
+5. **Do the wristband events as soon as they appear,** one event of each type before repeating any.
 
 <details>
-<summary>The first hours, step by step, with the car for each event</summary>
+<summary>The first hours, step by step</summary>
 
 **1. The prologue.** The first race, in Tokyo, is in a borrowed 1998 Nissan Silvia K's Aero. You do not need to win: it gives no meaningful reward. Afterwards Mei offers the three starter cars.
 
-**2. The qualifying events.** Until the Yellow wristband, only **C-class** cars race (up to 500 PI). There are six events, and the three starter cars cover all of them:
+**2. The qualifiers.** Six C-class events. The car for each one is in the **Yellow wristband** tab, just below.
+
+**3. The Horizon Invitational and the first wristband.** Finishing the qualifiers and the Invitational earns the Yellow wristband and three gift cars: 2022 Toyota GR86, 2001 Mitsubishi Lancer Evolution VI GSR TM Edition and 2024 Ram 1500 TRX. All three come stock in **B class**, so they cannot enter C-class events, only from the Blue wristband on.
+
+**4. After the first wristband:**
+
+1. Do the **Horizon Stunt Party** whenever it appears (see "Credits early on").
+2. Clear the **story events** to 3 stars and the region's activities: they unlock the stamps and the barn finds.
+3. With the **Yellow stamp**, buy the **Yashiki (the Estate)** for about 10,000 credits and head to the first barn find, the **Honda NSX-R GT**, in Ohtani.
+4. Do the **Showcase Events** and **Horizon Rush** as soon as they appear: without them the next wristband does not come.
+5. **Photograph the grid** before every race: 10 points per car.
+6. Keep **two tuned cars per class** you race most: one for tarmac and one for dirt.
+
+</details>
+
+## Cars and tunes by wristband
+
+Each wristband opens a new class. Open the tab for the wristband you are on: it shows free or cheap cars that are easy to drive and not DLC, each with tunes from the site's catalogue. Apply the tune and check that the PI stays within the event's class.
+
+<details class="band band-yellow">
+<summary>Yellow wristband · C class: the qualifiers</summary>
+
+Until the Yellow wristband, only **C-class** cars race (up to 500 PI). The three starter cars cover all six qualifiers:
 
 <div class="table-wrap">
 
-| Event                   | Type                   | Surface | Suggested car        | Why                                            |
-| ----------------------- | ---------------------- | ------- | -------------------- | ---------------------------------------------- |
-| River Split             | Speed Trap (PR Stunt)  | Tarmac  | Silvia K's or Celica | Only the speed at one point counts             |
-| Airfield Trail          | Trail Race             | Dirt    | GMC Jimmy            | Four-wheel drive and the best off-road of the three |
-| Shirakawa Circuit       | Circuit Race           | Tarmac  | Silvia K's           | Easy to drive through corners; see the lines below |
-| Highway View            | Speed Zone (PR Stunt)  | Tarmac  | Silvia K's or Celica | Average speed over a stretch                   |
-| Wind Farm Cross Country | Cross Country          | Mixed   | GMC Jimmy            | Dirt, grass and jumps                          |
-| Hokubu Time Attack      | Time Attack            | Tarmac  | Silvia K's or Celica | A timed lap, no rivals                         |
+| Event                   | Type                  | Surface | Suggested car        | Why                                                 |
+| ----------------------- | --------------------- | ------- | -------------------- | --------------------------------------------------- |
+| River Split             | Speed Trap (PR Stunt) | Tarmac  | Silvia K's or Celica | Only the speed at one point counts                  |
+| Airfield Trail          | Trail Race            | Dirt    | GMC Jimmy            | Four-wheel drive and the best off-road of the three |
+| Shirakawa Circuit       | Circuit Race          | Tarmac  | Silvia K's           | Easy to drive through corners; see the lines below  |
+| Highway View            | Speed Zone (PR Stunt) | Tarmac  | Silvia K's or Celica | Average speed over a stretch                        |
+| Wind Farm Cross Country | Cross Country         | Mixed   | GMC Jimmy            | Dirt, grass and jumps                               |
+| Hokubu Time Attack      | Time Attack           | Tarmac  | Silvia K's or Celica | A timed lap, no rivals                              |
 
 </div>
 
 For Shirakawa, Paddock Lab has the [track in 3D with racing lines](/en/tracks/shirakawa-circuit/): the optimised line and the classic corner-by-corner one, with tips for each corner.
 
-<details>
-<summary>Comparing the three starter cars, with C-class tunes</summary>
+**The starter cars:**
 
-Stock figures come from the site's catalogue. The tunes below come from the catalogue and stay in C class; apply one and check that the PI is still 500 or less.
-
-- **1989 Nissan Silvia K's** (rear-wheel drive): the easiest to drive on tarmac. Guides call it the safest pick to start with. Weak on dirt.
+- **1989 Nissan Silvia K's** (rear-wheel drive): the easiest to drive on tarmac, the safest pick to start with. Weak on dirt.
 
 <tune-picks car="1989-nissan-silvia-ks" class="C" surface="road"></tune-picks>
 
@@ -289,79 +273,164 @@ Stock figures come from the site's catalogue. The tunes below come from the cata
 
 <tune-picks car="1994-toyota-celica-gt-four-st205" class="C" surface="dirt"></tune-picks>
 
-- **1970 GMC Jimmy** (four-wheel drive): the best of the three off tarmac. In the C-class dirt ranking it is among the best and is **very easy to drive**. For cross country the catalogue only has tunes without a code (search the tuner's gamertag in game).
+- **1970 GMC Jimmy** (four-wheel drive): the best of the three off tarmac, among the best C-class cars on dirt and **very easy to drive**.
 
 <tune-picks car="1970-gmc-jimmy" class="C" surface="dirt"></tune-picks>
 
 <tune-picks car="1970-gmc-jimmy" class="C" surface="cross-country"></tune-picks>
 
-</details>
-
-**3. The Horizon Invitational and the first wristband.** Finishing the qualifiers and the Invitational earns the Yellow wristband and the three gift cars. All three come stock in **B class** (GR86: B 556; Evo VI: B 574; Ram TRX: B 514), so **they cannot enter C-class events**, only B class and up.
-
-<details>
-<summary>The first-wristband gift cars, with tunes</summary>
-
-- **2024 Ram 1500 TRX:** the most useful of the three right now, because it has B-class cross-country tunes with a code.
-
-<tune-picks car="2024-ram-1500-trx" class="B" surface="cross-country"></tune-picks>
-
-- **2022 Toyota GR86:** good on tarmac in B class.
-
-<tune-picks car="2022-toyota-gr86" class="B" surface="road"></tune-picks>
-
-- **2001 Mitsubishi Lancer Evolution VI GSR TM Edition:** shines most in A class, on tarmac and dirt.
-
-<tune-picks car="2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition" class="A" surface="road"></tune-picks>
-
-</details>
-
-**4. After the first wristband.** The order guides recommend:
-
-1. Do the **Showcase Events** and **Horizon Rush** as soon as they appear: without them the next wristband does not come.
-2. Do **one event of each type** before repeating any.
-3. **Photograph the grid** before every race: 10 points per car.
-4. Clear the **story events** to 3 stars: they give most of the stamp points.
-5. With the **Yellow stamp**, buy the **Yashiki (the Estate)** for about 10,000 credits and head to the first barn find, the **Honda NSX-R GT**, in Ohtani.
-6. Keep **two tuned cars per class** you race most: one for tarmac and one for dirt.
-
-</details>
-
 <details>
 <summary>If you want to buy a cheap C-class car</summary>
 
-The starter cars are enough at first, but if you want a stronger car without spending much, these are among the best in C class in the catalogue's ranking, are **easy to drive** and have a tune with a code. Autoshow prices are not in the catalogue; the few that appear in guides are marked _to check_.
+These are among the best in C class, are **easy to drive** and have a tune with a code.
 
 **Tarmac: 2023 Acura Integra A-Spec.** Already C 484 stock, in the class meta and very easy to drive. One of its tunes laps Shirakawa in 1:10.3.
 
 <tune-picks car="2023-acura-integra-a-spec" class="C" surface="road"></tune-picks>
 
-**Dirt (and tarmac): 1986 Honda Civic Si.** D 253 stock; with the tune it moves up to C class. It tops the C-class dirt ranking and works on tarmac too.
+**Dirt (and tarmac): 1986 Honda Civic Si.** D 253 stock; with the tune it moves up to C class. It tops C class on dirt and works on tarmac too.
 
 <tune-picks car="1986-honda-civic-si" class="C" surface="dirt"></tune-picks>
 
-<tune-picks car="1986-honda-civic-si" class="C" surface="road"></tune-picks>
-
-**The cheapest: 1991 Honda Beat.** One guide quotes 15,000 credits (_to check_). It is D 283 stock and, with a tune, becomes one of the good C-class tarmac cars. The game also gives the Beat through the Collection Journal.
+**The cheapest: 1991 Honda Beat.** D 283 stock and, with a tune, one of the good C-class tarmac cars. The game also gives the Beat through the Collection Journal.
 
 <tune-picks car="1991-honda-beat" class="C" surface="road"></tune-picks>
 
-> **What about the three-wheelers?** The Peel P50 and the Reliant Supervan III top the C-class tarmac ranking, but they are **very hard to drive**. They are not a good pick when you are starting out.
+> **What about the three-wheelers?** The Peel P50 and the Reliant Supervan III top C class on tarmac, but they are **very hard to drive**. They are not a good pick when you are starting out.
 
-**Watch the PI.** A tune can push a car up a class. Check the PI after applying it: above 500 the car leaves C class and cannot enter the early events.
+</details>
+
+</details>
+
+<details class="band band-green">
+<summary>Green wristband · C and D class</summary>
+
+The Yellow-wristband cars still work in C-class events. For **D-class** events, the **1986 Honda Civic Si** is D 253 stock and has a D-class tune.
+
+<tune-picks car="1986-honda-civic-si" class="D"></tune-picks>
+
+</details>
+
+<details class="band band-blue">
+<summary>Blue wristband · B class and Time Attack</summary>
+
+Now the three first-wristband gift cars come into play, and two cars the game gives free through the Collection Journal are among the best in B class.
+
+**Cross country: 2024 Ram 1500 TRX** (first-wristband gift).
+
+<tune-picks car="2024-ram-1500-trx" class="B" surface="cross-country"></tune-picks>
+
+**Tarmac: 1984 Honda City E-II.** In the B-class tarmac meta, very easy to drive, and the game also gives it through the Collection Journal.
+
+<tune-picks car="1984-honda-city-e-ii" class="B" surface="road"></tune-picks>
+
+**Dirt and tarmac: 1991 Honda Beat.** The same Beat as in C class: with another tune it tops B class on dirt and is in the tarmac meta.
+
+<tune-picks car="1991-honda-beat" class="B" surface="dirt"></tune-picks>
+
+**Tarmac: 2022 Toyota GR86** (first-wristband gift).
+
+<tune-picks car="2022-toyota-gr86" class="B" surface="road"></tune-picks>
+
+**Cross country, if you want to buy: 2020 Ford Super Duty F-450.** Tops B class in cross country and is very easy to drive.
+
+<tune-picks car="2020-ford-super-duty-f-450-drw-platinum" class="B" surface="cross-country"></tune-picks>
+
+</details>
+
+<details class="band band-pink">
+<summary>Pink wristband · A class and Drag Meets</summary>
+
+**The car of the moment: 2005 Ford GT**, the free treasure car from Nangan. It tops A class on tarmac, does well on dirt and is very easy to drive.
+
+<tune-picks car="2005-ford-gt" class="A" surface="road"></tune-picks>
+
+<tune-picks car="2005-ford-gt" class="A" surface="dirt"></tune-picks>
+
+**Tarmac: 2001 Mitsubishi Lancer Evolution VI** (first-wristband gift).
+
+<tune-picks car="2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition" class="A" surface="road"></tune-picks>
+
+**Dirt, if you want to buy: 1970 Dodge Coronet Super Bee.** In the A-class dirt meta and very easy to drive.
+
+<tune-picks car="1970-dodge-coronet-super-bee" class="A" surface="dirt"></tune-picks>
+
+**Cross country, if you want to buy: 2022 Rivian R1T.** In the A-class cross-country meta and very easy to drive.
+
+<tune-picks car="2022-rivian-r1t" class="A" surface="cross-country"></tune-picks>
+
+</details>
+
+<details class="band band-orange">
+<summary>Orange wristband · S1 class and Street Racing</summary>
+
+**Keep the 2005 Ford GT:** with an S1 tune it is still competitive on tarmac.
+
+<tune-picks car="2005-ford-gt" class="S1" surface="road"></tune-picks>
+
+**Tarmac: 2008 Dodge Viper SRT-10 ACR.** Very easy to drive, with several S1 tunes.
+
+<tune-picks car="2008-dodge-viper-srt-10-acr" class="S1" surface="road"></tune-picks>
+
+**Dirt: 1986 Audi #2 Sport quattro S1.** In the S1 dirt meta.
+
+<tune-picks car="1986-audi-2-audi-sport-quattro-s1" class="S1" surface="dirt"></tune-picks>
+
+**Cross country: 2016 Jeep Trailcat.**
+
+<tune-picks car="2016-jeep-trailcat" class="S1" surface="cross-country"></tune-picks>
+
+**Once you reach the Gold stamp:** the **Mazda 787B** and the **Nissan #11 Tomica Skyline**, from the last two barns, become the cars to beat in S1.
+
+<tune-picks car="1991-mazda-55-mazda-787b" class="S1" surface="road"></tune-picks>
+
+<tune-picks car="1983-nissan-11-tomica-skyline-turbo-super-silhouette" class="S1"></tune-picks>
+
+</details>
+
+<details class="band band-purple">
+<summary>Purple wristband · S2 class (hypercars) and Touge Showdowns</summary>
+
+S2 hypercars are expensive. The cheap way to own a top car here is the **Mazda 787B**, from the Gold-stamp barn: it is in the S2 tarmac meta. One more reason to prioritise Discover Japan.
+
+<tune-picks car="1991-mazda-55-mazda-787b" class="S2" surface="road"></tune-picks>
+
+The **Nissan #11 Tomica Skyline**, from the other Gold barn, is S2 stock and also has an S2 tarmac tune.
+
+<tune-picks car="1983-nissan-11-tomica-skyline-turbo-super-silhouette" class="S2" surface="road"></tune-picks>
+
+**If you have credits to spare: 2020 Lamborghini Essenza SCV12.** Very easy to drive, with S2 tunes.
+
+<tune-picks car="2020-lamborghini-essenza-scv12" class="S2" surface="road"></tune-picks>
+
+</details>
+
+<details class="band band-gold">
+<summary>Gold wristband · R class and Legend Island</summary>
+
+**Mazda 787B**, again: it is in the R-class tarmac meta, and free from the barn.
+
+<tune-picks car="1991-mazda-55-mazda-787b" class="R" surface="road"></tune-picks>
+
+**2022 Aston Martin Valkyrie AMR Pro:** very easy to drive, and the game also gives it through the Collection Journal.
+
+<tune-picks car="2022-aston-martin-valkyrie-amr-pro" class="R" surface="road"></tune-picks>
 
 </details>
 
 ## Credits early on
 
-- **Difficulty and assists pay.** Each Drivatar difficulty level adds a bonus. Turning off ABS, traction control and stability control, and using a manual gearbox, adds more. The values guides give (up to +50% for difficulty and up to +50% for assists) are _to check in game_, on the settings screen itself. Raise them gradually: winning with a smaller bonus pays more than losing with a bigger one.
-- **Wheelspins are rarer now** and only appear after you qualify for the Festival.
+- **Winning matters most.** Find the balance between the highest Drivatar difficulty and the fewest assists with which you still win races.
+- **Wheelspins pay far fewer credits** than in earlier games. Do not count on them as income.
+- **Do the Horizon Stunt Party** whenever it appears: it is the best early source of credits.
 - **Before buying at the Autoshow, look at the Aftermarket Cars:** used cars for sale by the road, cheaper and already tuned.
 
 <details>
-<summary>The bonus for each difficulty level and each assist</summary>
+<summary>Difficulty and assists: the balance that pays</summary>
 
-Values from guides, _to check on the difficulty screen_. Only these four assists change credits; the driving line, for example, does not count.
+Each Drivatar difficulty level and each assist you turn off add a credit bonus. But **wasting time replaying races to push the bonus up is not worth it.** Each player should find their own balance: the highest difficulty and the fewest assists with which they still win at the first try. Save the challenge for later, once everything is unlocked, in **Rivals** mode.
+
+> **Do not turn off ABS.** In this Forza, driving with ABS is much more efficient, and not even professionals drive without it. The credit bonus does not make up for the handicap.
 
 <div class="table-wrap">
 
@@ -381,51 +450,50 @@ Values from guides, _to check on the difficulty screen_. Only these four assists
 
 <div class="table-wrap">
 
-| Assist                               | Bonus |
-| ------------------------------------ | ----- |
-| ABS off                              | +15%  |
-| Traction control off                 | +10%  |
-| Stability control off                | +10%  |
-| Manual gearbox (with or without clutch) | +15%  |
+| Assist                                  | Bonus | Worth turning off?                    |
+| --------------------------------------- | ----- | ------------------------------------- |
+| ABS                                     | +15%  | No: ABS is more efficient             |
+| Traction control                        | +10%  | Once you control the throttle         |
+| Stability control                       | +10%  | Yes, it changes the driving the least |
+| Manual gearbox (with or without clutch) | +15%  | If you feel comfortable               |
 
 </div>
 
-**How to raise them without losing races:** start by turning off stability control, which changes the driving least. Then traction control, in four-wheel-drive cars first. ABS and manual gears last. Raise the difficulty one level at a time while you still win comfortably. Keep **Rewind** on while you learn: it saves the race after a mistake.
+Keep **Rewind** on while you learn: it saves the race after a mistake.
 
 </details>
 
 <details>
-<summary>Houses: price, what they give and which to buy first</summary>
+<summary>Houses: leave them until after the Yashiki</summary>
 
-Prices and perks from guides, _to check_. The stamp that unlocks each house differs between sources; the only official fact is that **the first stamp unlocks the Estate**.
+**Buy the Yashiki (the Estate)**, which is cheap and unlocks the Estate. **From then on every house is very expensive** and not worth buying early: the credit bonus they give takes a long time to pay for itself. Prioritise cars and tunes, and only invest in houses once you have a good reserve. The perks are very good, especially the **Soko 78** and **Fuji Unkai** ones, but not early in the game.
 
 <div class="table-wrap">
 
-| House                    | Region      | Price (guides)               | Perk                                       |
-| ------------------------ | ----------- | ---------------------------- | ------------------------------------------ |
-| Mei's House              | Ohtani      | Free                         | Wheeler Dealer                             |
-| Yashiki (the Estate)     | Hokubu      | 10,000                       | Unlocks the Estate, with a daily reward    |
-| Minka                    | Ito         | 450,000                      | +10% credits in Horizon Stunt Party        |
-| Hakusan Mountain Lodge   | Sotoyama    | 635,000                      | +10% in Horizon Life, plus 1 display slot  |
-| Fuji Unkai               | Shimanoyama | 830,000                      | +10% in Horizon Jobs                       |
-| Soko 78                  | Tokyo City  | 980,000                      | −5% on Autoshow prices                     |
-| Vision House             | Ohtani      | 1,500,000                    | +10% LINK Skill score, plus 1 slot         |
-| Tokyo House              | Tokyo City  | 3,000,000 or free with VIP   | 1 free Wheelspin per day                   |
+| House                  | Region      | Price                      | Perk                                      |
+| ---------------------- | ----------- | -------------------------- | ----------------------------------------- |
+| Mei's House            | Ohtani      | Free                       | Wheeler Dealer                            |
+| Yashiki (the Estate)   | Hokubu      | 10,000                     | Unlocks the Estate, with a daily reward   |
+| Minka                  | Ito         | 450,000                    | +10% credits in the Horizon Stunt Party   |
+| Hakusan Mountain Lodge | Sotoyama    | 635,000                    | +10% in Horizon Life, plus 1 display slot |
+| Fuji Unkai             | Shimanoyama | 830,000                    | +10% in Horizon Jobs                      |
+| Soko 78                | Tokyo City  | 980,000                    | −5% on Autoshow prices                    |
+| Vision House           | Ohtani      | 1,500,000                  | +10% LINK Skill score, plus 1 slot        |
+| Tokyo House            | Tokyo City  | 3,000,000 or free with VIP | 1 free Wheelspin per day                  |
 
 </div>
 
-**The order guides suggest:** the Yashiki first (cheap, and it unlocks the Estate). Then a +10% house for the event type you play most. The Tokyo House last, unless you have VIP (included in the Premium Edition), which makes it free.
+**Suggested order:** the Yashiki first. Then, when money is left over, the Soko 78 or the Fuji Unkai. The Tokyo House is free for VIP owners (included in the Premium Edition).
 
 </details>
 
 <details>
-<summary>Other ways to earn credits (and what to avoid)</summary>
+<summary>Horizon Stunt Party, deliveries and wheelspins</summary>
 
-- **Horizon Party:** the method the community recommends most. One player reports about 100,000 credits for an event of about 5 minutes; another, 200,000 to 220,000 with bonuses. _It is not clear at which point in the game Horizon Party opens._
-- **Hourly events:** described as "an easy 110k" once you own the houses.
+- **Horizon Stunt Party:** random group events, rarer now than in earlier games. They become available right after the Yellow wristband, and they are well worth doing from the start. Since it is a group event, you can join with any car, even a slow untuned one: the other players will probably complete the challenges, and you get the bonus even if you did not help much.
+- **Raku-Raku deliveries:** on their own they are not the best money source, but they are very good when you are starting, because they help a lot with stamp progress. That is the main reason to do them; the credits are a welcome bonus.
+- **Wheelspins:** in FH6 they pay far fewer credits than in earlier games. Do not count on them as income. They are still worth it, because the rewards include some very interesting prizes, even some of the best cars in the game, but it really is down to luck now.
 - **Longer races pay more** than short sprints.
-- **Raku-Raku deliveries:** they give stamps and credits, but some say they are not worth it as a money source.
-- **Wheelspins:** players report that most give only 5,000 credits or clothing. Do not count on them as income.
 - **Avoid:** impulse buys at the Autoshow, expensive cars too early (high classes cannot enter the early events) and sites that sell credits.
 
 </details>
@@ -435,7 +503,7 @@ Prices and perks from guides, _to check_. The stamp that unlocks each house diff
 FH6 came out in May 2026 on Xbox and PC, and arrives on **PS5 on 26 January 2027**, with early access from 21 January for the Premium Edition. Starting now means joining a game that is already months old:
 
 - **Tunes are shared across platforms.** A tune made on PC or Xbox works on PS5, so the tunes on this site work for everyone.
-- **Festival Playlist seasons and cars** change every week. Cars from past seasons tend to show up later in the Auction House. _To check in game._
+- **Festival Playlist cars from past seasons** show up later in the Auction House, but they tend to be very expensive and are not always available. Playground recently said Playlist-exclusive cars will become more available in future updates: the aim is to reduce FOMO (the fear of missing out for good).
 - **The first paid expansion** arrives the same day on every platform.
 
 <details>
@@ -447,11 +515,11 @@ FH6 came out in May 2026 on Xbox and PC, and arrives on **PS5 on 26 January 2027
 
 <div class="table-wrap">
 
-| Edition  | What it includes                                                                              |
-| -------- | --------------------------------------------------------------------------------------------- |
-| Standard | The game; with pre-orders, a pre-tuned Ferrari J50                                            |
-| Deluxe   | Welcome Pack (5 tuned cars and an Autoshow car voucher) and Car Pass                          |
-| Premium  | Everything in Deluxe, VIP, 5 days of early access, both expansions and two car packs          |
+| Edition  | What it includes                                                                     |
+| -------- | ------------------------------------------------------------------------------------ |
+| Standard | The game; with pre-orders, a pre-tuned Ferrari J50                                   |
+| Deluxe   | Welcome Pack (5 tuned cars and an Autoshow car voucher) and Car Pass                 |
+| Premium  | Everything in Deluxe, VIP, 5 days of early access, both expansions and two car packs |
 
 </div>
 
@@ -461,4 +529,4 @@ FH6 came out in May 2026 on Xbox and PC, and arrives on **PS5 on 26 January 2027
 
 </details>
 
-The next guides will cover the first 10 hours as a checklist, the car and tune for each event (within each one's restrictions) and where the barn finds and treasure cars are, on the site's map.
+The next guides will cover the first 10 hours as a checklist and the car and tune for each event, within each one's restrictions.

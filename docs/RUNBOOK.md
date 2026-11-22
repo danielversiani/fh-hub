@@ -114,6 +114,8 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
    - **Camadas** (dono, 2026-11-22): cada parte tem um resumo curto, e o resto vai em blocos que abrem e fecham. Use `<details>` com uma linha `<summary>…</summary>` e deixe uma linha em branco depois do `<summary>` e antes de `</details>`; um `<details>` dentro de outro é a camada seguinte. A página tem "Expandir tudo" e "Recolher tudo".
    - **Tunes do catálogo:** `<tune-picks car="<id do carro>" class="C" surface="dirt"></tune-picks>` vira uma caixa com o carro, a classe de fábrica e até 3 tunes (com código primeiro), atualizada a cada sync. `limit="5"` muda a quantidade. Um id de carro errado quebra o build.
    - **Tabelas largas:** envolva em `<div class="table-wrap">` (com linhas em branco em volta) para rolar de lado no celular.
+   - **Abas por pulseira:** `<details class="band band-yellow">` (ou `green`, `blue`, `pink`, `orange`, `purple`, `gold`) pinta a camada com a cor da pulseira.
+   - **Baralho de cartões** (celeiros, carros tesouro): `<card-deck set="barns"></card-deck>` ou `set="treasures"`. Os dados ficam em `src/lib/guide-decks.ts`. Cada cartão mostra os screenshots de `public/guides/collectibles/<id>-map.webp` (no mapa) e `<id>-game.webp` (no jogo) quando existirem; até lá aparece "Screenshot em breve".
 4. As duas línguas devem ter a mesma ordem, a mesma data e o mesmo estado de publicação: `pnpm test` confere. O menu só mostra "Guias" quando há pelo menos um guia publicado.
 
 ## 4. Carros ou tunadores não reconhecidos

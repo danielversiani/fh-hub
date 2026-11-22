@@ -1,6 +1,7 @@
 import type { MarkdownInstance } from 'astro';
 import type { Locale } from '../i18n';
 import { GuideHeader } from './guide-header';
+import { fillDecks } from './guide-decks';
 import { fillTunePicks } from './guide-picks';
 
 export interface Guide extends GuideHeader {
@@ -25,7 +26,7 @@ const all: Guide[] = Object.entries(files).map(([file, md]) => {
     ...header.data,
     slug: slug!,
     locale,
-    html: async () => fillTunePicks(await md.compiledContent(), locale),
+    html: async () => fillDecks(fillTunePicks(await md.compiledContent(), locale), locale),
   };
 });
 

@@ -12,6 +12,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
   - "Guias" aparece no menu e no `llms.txt` quando houver um guia publicado;
   - primeiro guia, ainda rascunho: **"Comece aqui: as três trilhas do FH6"**, em PT-BR e EN, com camadas de detalhe que abrem e fecham (pulseiras, carimbos, os 15 celeiros, os 9 carros tesouro, os eventos de qualificação com o carro de cada um, carros baratos de classe C, bônus de créditos, casas e PS5);
   - caixas de tunes dentro do guia, puxadas do catálogo (`<tune-picks>`);
+  - abas coloridas por pulseira, da amarela à dourada, com carros grátis ou baratos e tunes de cada classe; baralho de cartões para os 15 celeiros e os 9 carros tesouro (`<card-deck>`), pronto para receber os screenshots; revisão do dono (prioridade ao Discover Japan, ABS ligado, casas só depois, Horizon Stunt Party);
   - pesquisa em `reports/Guias para iniciantes no FH6.md`.
 - 2026-11-21: **Esboços de pista pelo mapa** ([ADR-0023](docs/adr/0023-esbocos-de-pista-pelo-mapa.md)):
   - `pnpm tracks:sketch -- --route=<id>` desenha uma pista ainda não gravada a partir da imagem da rota, com o tamanho tirado da distância da corrida.
