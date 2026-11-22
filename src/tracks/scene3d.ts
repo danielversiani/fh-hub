@@ -311,6 +311,7 @@ function terrain(samples: readonly Sample[], ground: TrackScene['ground']): THRE
     const cz = Math.floor(z / cell);
     let low = Infinity;
     let nearest = Infinity;
+    let nearestY = 0;
     for (let dx = -2; dx <= 2; dx++) {
       for (let dz = -2; dz <= 2; dz++) {
         for (const f of cells.get(`${cx + dx},${cz + dz}`) ?? []) {
@@ -318,10 +319,16 @@ function terrain(samples: readonly Sample[], ground: TrackScene['ground']): THRE
           // Hug every piece of road close by, and between pieces at different heights rise or
           // fall in a gentle slope: the ground stays under each one without dropping away.
           low = Math.min(low, f.p.y + 0.35 * Math.max(0, d - f.width / 2 - 3));
-          nearest = Math.min(nearest, d);
+          if (d < nearest) {
+            nearest = d;
+            nearestY = f.p.y;
+          }
         }
       }
     }
+    // Never above the nearest road: away from the road the slope must not climb into a plateau
+    // (it did on flat tracks, with a step where the lookup cells ended).
+    if (Number.isFinite(low)) low = Math.min(low, nearestY);
     if (!Number.isFinite(low)) {
       // Far from the road: the nearest road height, fading to the average.
       let best = Infinity;

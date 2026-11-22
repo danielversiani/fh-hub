@@ -79,6 +79,7 @@ fh-hub/
 │  ├─ curate/                    # config.ts (schema do config.yaml), index.ts (notas, categorias, sugestões),
 │  │                             # roles.ts (ranking do Forza Paddock, ADR-0017) e brain-afk.ts (ADR-0018)
 │  ├─ telemetry/                 # pistas pela telemetria (ADR-0021): gravação UDP, leitura dos pacotes, medidas, reconhecimento da rota
+│  ├─ tracks/                    # esboços de pista pelo mapa e traçados calculados (ADR-0023)
 │  ├─ schema/                    # schemas zod: fonte única de verdade dos tipos
 │  ├─ lib/                       # http, tabelas, markdown, texto, similaridade, JSON estável, protobuf, qq-sheet
 │  ├─ testing.ts                 # roda os adaptadores sobre as fixtures (usado nos testes)

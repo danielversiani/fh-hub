@@ -83,9 +83,17 @@ describe('route geometry', () => {
 describe('route list and recognition', () => {
   it('reads name, race type and laps from the public list', () => {
     const html =
-      '<h2 class="race-group__title" x>Road Races</h2><img src="/images/RaceDaikokuCircuitTrack.webp" alt="Daikoku Circuit track layout"><span>3.3 mi</span><span>2 laps</span>';
+      '<h2 class="race-group__title" x>Road Races</h2><h3>Daikoku Circuit</h3><span>3.3 mi</span><span>2 laps</span><img src="/images/RaceDaikokuCircuitTrack.webp" alt="Daikoku Circuit track layout">' +
+      '<h3>Satta Sprint</h3><span>2.1 mi</span><span>1 lap</span><img src="/images/RaceSattaSprintTrack.webp" alt="Satta Sprint track layout">';
     expect(parseRaceList(html)).toEqual([
-      { name: 'Daikoku Circuit', key: 'RaceDaikokuCircuit', group: 'Road Races', laps: 2 },
+      {
+        name: 'Daikoku Circuit',
+        key: 'RaceDaikokuCircuit',
+        group: 'Road Races',
+        laps: 2,
+        miles: 3.3,
+      },
+      { name: 'Satta Sprint', key: 'RaceSattaSprint', group: 'Road Races', laps: 1, miles: 2.1 },
     ]);
   });
   it('recognises a shape and refuses an unlike one', () => {

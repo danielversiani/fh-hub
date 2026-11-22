@@ -1,0 +1,11 @@
+# Simplified model from the route picture (ADR-0023). Widths and scenery can be refined by hand.
+published: false
+road:
+  width: 12
+  surface: asphalt
+  edgeLines: true
+camber: flat
+sections:
+  - from: 0
+    width: 12
+checkpoints: []

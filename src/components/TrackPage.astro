@@ -32,6 +32,8 @@ const profile = track.path
 const xOf = (m: number) => ((m / track.lengthM) * W).toFixed(1);
 // The camber figures are only shown once they are trustworthy (scene `camber: measured`).
 const showCamber = scene.camber === 'measured';
+// A sketch from the route picture (ADR-0023): flat, so no elevation figures or profile.
+const sketch = track.source === 'map';
 ---
 
 <Base
@@ -45,7 +47,7 @@ const showCamber = scene.camber === 'measured';
     <a href={localePath(locale, '/lab/')} class="eyebrow text-warn hover:text-text">
       ← Paddock Lab · WIP
     </a>
-    <span class="text-muted">{t(locale, 'track.wip')}</span>
+    <span class="text-muted">{t(locale, sketch ? 'track.wipSketch' : 'track.wip')}</span>
     <a
       href={labFeedbackUrl(`${track.name}: `)}
       target="_blank"
@@ -58,6 +60,7 @@ const showCamber = scene.camber === 'measured';
   <p class="eyebrow text-season">
     {t(locale, `surface.${track.surface}` as MessageKey)} ·{' '}
     {t(locale, track.kind === 'circuit' ? 'track.circuit' : 'track.sprint')}
+    {sketch && ` · ${t(locale, 'track.sketch')}`}
     {!scene.published && ` · ${t(locale, 'track.draft')}`}
   </p>
   <h1 class="display mt-2 text-4xl sm:text-5xl">{track.name}</h1>
@@ -75,22 +78,26 @@ const showCamber = scene.camber === 'measured';
       <dt class="label">{t(locale, 'track.turns')}</dt>
       <dd class="display text-2xl">{track.turns.length}</dd>
     </div>
-    <div>
-      <dt class="label">{t(locale, 'track.elevation')}</dt>
-      <dd class="display text-2xl">
-        {track.stats.elevationMin}–{track.stats.elevationMax} m
-      </dd>
-    </div>
-    <div>
-      <dt class="label">{t(locale, 'track.climb')}</dt>
-      <dd class="display text-2xl">
-        ↑{track.stats.climbM} ↓{track.stats.descentM} m
-      </dd>
-    </div>
-    <div>
-      <dt class="label">{t(locale, 'track.maxGrade')}</dt>
-      <dd class="display text-2xl">{track.stats.maxGradePct}%</dd>
-    </div>
+    {!sketch && (
+      <>
+        <div>
+          <dt class="label">{t(locale, 'track.elevation')}</dt>
+          <dd class="display text-2xl">
+            {track.stats.elevationMin}–{track.stats.elevationMax} m
+          </dd>
+        </div>
+        <div>
+          <dt class="label">{t(locale, 'track.climb')}</dt>
+          <dd class="display text-2xl">
+            ↑{track.stats.climbM} ↓{track.stats.descentM} m
+          </dd>
+        </div>
+        <div>
+          <dt class="label">{t(locale, 'track.maxGrade')}</dt>
+          <dd class="display text-2xl">{track.stats.maxGradePct}%</dd>
+        </div>
+      </>
+    )}
   </dl>
 
   {/* data-still-world: the site's animated background holds still here (one 3D view at a time). */}
@@ -217,40 +224,42 @@ const showCamber = scene.camber === 'measured';
     </section>
   )}
 
-  <section class="mt-8">
-    <h2 class="surface-divider">
-      <span>{t(locale, 'track.profile')}</span>
-    </h2>
-    <svg
-      viewBox={`0 0 ${W} ${H}`}
-      class="mt-3 w-full"
-      role="img"
-      aria-label={t(locale, 'track.profile')}
-    >
-      {track.turns.map((turn) => (
-        <rect
-          x={xOf(turn.startM)}
-          y="0"
-          width={Math.max(2, Number(xOf(turn.endM)) - Number(xOf(turn.startM)))}
-          height={H}
-          fill="var(--season)"
-          opacity="0.12"
-        />
-      ))}
-      <polyline points={profile} fill="none" stroke="var(--color-accent)" stroke-width="2" />
-      {track.turns.map((turn) => (
-        <text
-          x={xOf((turn.startM + turn.endM) / 2)}
-          y="14"
-          text-anchor="middle"
-          font-size="11"
-          fill="var(--color-muted)"
-        >
-          T{turn.n}
-        </text>
-      ))}
-    </svg>
-  </section>
+  {!sketch && (
+    <section class="mt-8">
+      <h2 class="surface-divider">
+        <span>{t(locale, 'track.profile')}</span>
+      </h2>
+      <svg
+        viewBox={`0 0 ${W} ${H}`}
+        class="mt-3 w-full"
+        role="img"
+        aria-label={t(locale, 'track.profile')}
+      >
+        {track.turns.map((turn) => (
+          <rect
+            x={xOf(turn.startM)}
+            y="0"
+            width={Math.max(2, Number(xOf(turn.endM)) - Number(xOf(turn.startM)))}
+            height={H}
+            fill="var(--season)"
+            opacity="0.12"
+          />
+        ))}
+        <polyline points={profile} fill="none" stroke="var(--color-accent)" stroke-width="2" />
+        {track.turns.map((turn) => (
+          <text
+            x={xOf((turn.startM + turn.endM) / 2)}
+            y="14"
+            text-anchor="middle"
+            font-size="11"
+            fill="var(--color-muted)"
+          >
+            T{turn.n}
+          </text>
+        ))}
+      </svg>
+    </section>
+  )}
 
   <section class="mt-8">
     <h2 class="surface-divider">
@@ -264,7 +273,7 @@ const showCamber = scene.camber === 'measured';
           <th>{t(locale, 'track.col.angle')}</th>
           <th>{t(locale, 'track.col.radius')}</th>
           {showCamber && <th>{t(locale, 'track.col.camber')}</th>}
-          <th>{t(locale, 'track.col.grade')}</th>
+          {!sketch && <th>{t(locale, 'track.col.grade')}</th>}
           <th>{t(locale, 'track.col.at')}</th>
         </tr>
       </thead>
@@ -281,10 +290,12 @@ const showCamber = scene.camber === 'measured';
                 {turn.camberDeg}°
               </td>
             )}
-            <td class="tabular-nums">
-              {turn.gradePct > 0 ? '+' : ''}
-              {turn.gradePct}%
-            </td>
+            {!sketch && (
+              <td class="tabular-nums">
+                {turn.gradePct > 0 ? '+' : ''}
+                {turn.gradePct}%
+              </td>
+            )}
             <td class="tabular-nums text-muted">
               {turn.startM}–{turn.endM} m
             </td>
@@ -293,8 +304,14 @@ const showCamber = scene.camber === 'measured';
       </tbody>
     </table>
     <p class="mt-3 text-xs text-muted">
-      {t(locale, 'track.note')}{' '}
-      {t(locale, showCamber ? 'track.noteCamber' : 'track.noteCamberPending')}
+      {sketch ? (
+        t(locale, 'track.noteSketch')
+      ) : (
+        <>
+          {t(locale, 'track.note')}{' '}
+          {t(locale, showCamber ? 'track.noteCamber' : 'track.noteCamberPending')}
+        </>
+      )}
     </p>
   </section>
 </Base>

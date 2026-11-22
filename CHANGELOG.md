@@ -7,6 +7,14 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 ## [Não lançado]
 
 ### Adicionado
+- 2026-11-21: **Esboços de pista pelo mapa** ([ADR-0023](docs/adr/0023-esbocos-de-pista-pelo-mapa.md)):
+  - `pnpm tracks:sketch -- --route=<id>` desenha uma pista ainda não gravada a partir da imagem da rota, com o tamanho tirado da distância da corrida.
+  - A pista sai plana e de largura única, com dois traçados calculados: "Curva a curva" (o clássico de cada curva isolada) e "Otimizado" (a volta mais rápida para um carro típico, que sacrifica curvas quando compensa).
+  - Notas automáticas onde os dois traçados diferem.
+  - Primeiro protótipo: **Shirakawa Circuit** (não publicado).
+  - **Correções de passagem:**
+    - a lista do labsgg lia as voltas do cartão seguinte;
+    - o chão do modelo 3D formava platôs com degraus longe da pista.
 - 2026-11-21: **Busca e assistentes de IA** ([ADR-0022](docs/adr/0022-busca-e-assistentes-de-ia.md)):
   - `sitemap.xml` gerado no build, com os pares PT/EN; `robots.txt` aberto a todos os robôs.
   - `/llms.txt` com o resumo do site para assistentes de IA.

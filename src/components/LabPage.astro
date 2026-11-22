@@ -90,7 +90,9 @@ function outline(track: Track) {
                 <span class="font-semibold">{track.name}</span>
                 <span class="text-xs text-muted">
                   {km(track.lengthM)} km · {track.turns.length} {t(locale, 'lab.turns')} ·{' '}
-                  {track.stats.elevationMin}–{track.stats.elevationMax} m
+                  {track.source === 'map'
+                    ? t(locale, 'track.sketch')
+                    : `${track.stats.elevationMin}–${track.stats.elevationMax} m`}
                 </span>
                 {!scene.published && (
                   <span class="text-xs text-muted">{t(locale, 'track.draft')}</span>

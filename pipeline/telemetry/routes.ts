@@ -16,6 +16,10 @@ export interface Route {
   surface: Surface | null;
   kind: 'sprint' | 'circuit';
   laps?: number;
+  /** Picture key on labsgg.com (`/images/<key>Track.webp`). */
+  key?: string;
+  /** Whole race distance (all laps), in miles, as the list states it. */
+  miles?: number;
   /** Route line in image pixels (y down = south), when there is a picture. */
   shape?: [number, number][];
 }
@@ -39,11 +43,14 @@ async function fetchText(url: string): Promise<string> {
   return res.text();
 }
 
-/** The race list: name, picture key, race type and number of laps, in page order. */
+/**
+ * The race list: name, picture key, race type, number of laps and race distance, in page order.
+ * Each card states its name, distance and laps just before its picture.
+ */
 export function parseRaceList(
   html: string,
-): { name: string; key: string; group: string; laps?: number }[] {
-  const out: { name: string; key: string; group: string; laps?: number }[] = [];
+): { name: string; key: string; group: string; laps?: number; miles?: number }[] {
+  const out: { name: string; key: string; group: string; laps?: number; miles?: number }[] = [];
   const marks = [...html.matchAll(/<h2 class="race-group__title"[^>]*>([^<]+)<\/h2>/g)].map(
     (m) => ({
       at: m.index,
@@ -51,20 +58,24 @@ export function parseRaceList(
     }),
   );
   const seen = new Set<string>();
+  let cardStart = 0;
   for (const m of html.matchAll(
     /\/images\/(Race[A-Za-z0-9-]*?)Track\.webp[^>]*?alt="([^"]+?) track layout"/g,
   )) {
     const key = m[1]!;
+    const card = html.slice(cardStart, m.index).replace(/<[^>]+>/g, '\n');
+    cardStart = m.index + m[0].length;
     if (seen.has(key)) continue;
     seen.add(key);
     const group = [...marks].reverse().find((h) => h.at < m.index)?.group ?? '';
-    const after = html.slice(m.index, m.index + 3000).replace(/<[^>]+>/g, '\n');
-    const laps = /\n\s*(\d+) laps?\s*\n/.exec(after)?.[1];
+    const laps = [...card.matchAll(/\n\s*(\d+) laps?\s*\n/g)].pop()?.[1];
+    const miles = [...card.matchAll(/\n\s*(\d+(?:\.\d+)?) mi\s*\n/g)].pop()?.[1];
     out.push({
       name: m[2]!.replace(/&amp;/g, '&').trim(),
       key,
       group,
       laps: laps ? Number(laps) : undefined,
+      miles: miles ? Number(miles) : undefined,
     });
   }
   return out;
@@ -92,11 +103,14 @@ async function routeShape(file: string): Promise<[number, number][]> {
 /** Loads the route catalogue, downloading the list and pictures once into .cache/tracks. */
 export async function loadRoutes(): Promise<Route[]> {
   fs.mkdirSync(path.join(CACHE, 'img'), { recursive: true });
-  const cached = path.join(CACHE, 'routes.json');
+  // v2: laps and distance read from the right card (the first version read the next card's).
+  const cached = path.join(CACHE, 'routes-v2.json');
+  const page = path.join(CACHE, 'all.html');
   let routes: Route[];
   if (fs.existsSync(cached)) routes = JSON.parse(fs.readFileSync(cached, 'utf8')) as Route[];
   else {
-    const list = parseRaceList(await fetchText(LIST_URL));
+    if (!fs.existsSync(page)) fs.writeFileSync(page, await fetchText(LIST_URL));
+    const list = parseRaceList(fs.readFileSync(page, 'utf8'));
     routes = [];
     for (const r of list) {
       const file = path.join(CACHE, 'img', `${r.key}.webp`);
@@ -112,6 +126,8 @@ export async function loadRoutes(): Promise<Route[]> {
         surface: SURFACES[r.group] ?? null,
         kind: (r.laps ?? 1) > 1 ? 'circuit' : 'sprint',
         laps: r.laps,
+        key: r.key,
+        miles: r.miles,
         shape: await routeShape(file),
       });
     }

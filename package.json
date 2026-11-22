@@ -18,6 +18,7 @@
     "validate": "tsx pipeline/cli.ts validate",
     "telemetry:record": "tsx pipeline/telemetry/record.ts",
     "telemetry:process": "tsx pipeline/telemetry/process.ts",
+    "tracks:sketch": "tsx pipeline/tracks/sketch.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",

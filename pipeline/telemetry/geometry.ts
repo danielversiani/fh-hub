@@ -127,7 +127,10 @@ function stretches(n: number, test: (i: number) => boolean, minLen: number): [nu
 /** Everything about the route that holds for any car (ADR-0021). */
 export function measureRoute(
   samples: readonly Sample[],
-): Omit<Track, 'id' | 'name' | 'surface' | 'kind' | 'laps' | 'recordings' | 'updatedAt'> {
+): Omit<
+  Track,
+  'id' | 'name' | 'surface' | 'kind' | 'laps' | 'source' | 'recordings' | 'updatedAt'
+> {
   const pts = resample(samples);
   const n = pts.length;
   const k = curvature(pts);

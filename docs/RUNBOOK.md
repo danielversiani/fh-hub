@@ -90,6 +90,15 @@ O modo normal mostra fotos do mundo animado (`public/world/<lugar>.webp`, [ADR-0
    - **Guia de traçado:** em `data/tracks/<rota>.lines.yaml`, com linhas (posição de −1 = carro encostado na borda direita a +1 = na esquerda), setas e textos por sequência. Uma linha com `visible: false` começa desligada.
    - Só marque `published: true` quando o dono aprovar. A pista passa a aparecer no Paddock Lab (`/lab/`), com o aviso de trabalho em andamento.
 
+## 3f. Esboço de uma pista ainda não gravada ([ADR-0023](adr/0023-esbocos-de-pista-pelo-mapa.md))
+
+1. Ache o id da rota (o nome em minúsculas com hífens, como `shirakawa-circuit`). A lista vem do labsgg e fica em cache em `.cache/tracks/labsgg/`.
+2. Rode `pnpm tracks:sketch -- --route=<id>`. O resumo mostra a extensão, a escala, as curvas e o tempo de volta de cada traçado. `--width=<m>` muda a largura (12 m por padrão).
+3. **Conferência:** em `pnpm dev`, abra `/tracks/<id>/`. A seta da imagem dá o sentido: confira se as curvas da tabela batem com o jogo. Ligue os dois traçados e use "Dirigir" nas chicanes.
+4. **Ajustes:** o `<id>.scene.yaml` pode ser refinado à mão (larguras por trecho, checkpoints, cenário) e não é sobrescrito. O `<id>.lines.yaml` e o `<id>.json` são refeitos a cada execução, por isso não os edite.
+5. Uma pista já gravada pela telemetria não aceita esboço. Para gravar uma pista esboçada, siga o §3e: o arquivo da telemetria substitui o esboço.
+6. Só marque `published: true` quando o dono aprovar.
+
 ## 4. Carros ou tunadores não reconhecidos
 
 1. Abra `data/review/unmatched-cars.json`. Cada item mostra o texto original e os candidatos com a similaridade.

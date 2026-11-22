@@ -565,7 +565,12 @@ export const Track = z.object({
   /** Length of one lap (circuit) or of the whole route (sprint). */
   lengthM: z.number().positive(),
   laps: z.number().int().positive().optional(),
-  recordings: z.number().int().positive(),
+  /**
+   * `telemetry`: measured from recorded laps (ADR-0021). `map`: sketched from the route picture,
+   * flat, with computed racing lines (ADR-0023); `recordings` is then 0.
+   */
+  source: z.enum(['telemetry', 'map']).default('telemetry'),
+  recordings: z.number().int().nonnegative(),
   updatedAt: z.iso.date(),
   /** Every 10 m: x, z (map plane), y (elevation), camber (+ = tilted into the turn). */
   path: z.array(z.tuple([z.number(), z.number(), z.number(), z.number()])).min(2),
