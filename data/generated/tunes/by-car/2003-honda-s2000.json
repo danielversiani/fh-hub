@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:06:18.277Z",
+  "generatedAt": "2026-11-23T12:48:16.984Z",
   "items": [
     {
       "buildTags": [
@@ -64,7 +64,7 @@
             "Tuner": "wisteriadrop",
             "fill": "FFFF0000"
           },
-          "row": 1747,
+          "row": 1749,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -137,7 +137,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF0000"
           },
-          "row": 1745,
+          "row": 1746,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -176,7 +176,7 @@
             "Tuner": "VER Korben",
             "fill": "FFFF0000"
           },
-          "row": 1746,
+          "row": 1748,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -228,6 +228,45 @@
       "tierSource": "meta-table",
       "tires": "street",
       "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2003-honda-s2000",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-e6f89fedef",
+      "metaRank": 71,
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2003 Honda S2000",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 1747,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "razkinzmango"
     }
   ],
   "schemaVersion": 1

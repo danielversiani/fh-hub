@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:42:52.391Z",
+  "generatedAt": "2026-11-23T12:48:16.984Z",
   "items": [
     {
       "buildTags": [
@@ -27,7 +27,7 @@
             "Tuner": "MCR Ginza",
             "fill": "FFFF0000"
           },
-          "row": 1752,
+          "row": 1754,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -86,6 +86,43 @@
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "RWD",
+      "id": "nc-9f16fa8cbb",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2005 Honda NSX-R",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 1755,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "razkinzmango"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-honda-nsx-r",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
       "id": "nc-aff886f0a8",
       "name": "A Road Purist",
       "observations": [
@@ -101,7 +138,7 @@
             "Tuner": "CTE seasons",
             "fill": "FFFF0000"
           },
-          "row": 1750,
+          "row": 1752,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -138,7 +175,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 1751,
+          "row": 1753,
           "sourceId": "kleis",
           "tab": "fh6"
         }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T14:28:01.289Z",
+  "generatedAt": "2026-11-23T12:48:16.984Z",
   "items": [
     {
       "buildTags": [],
@@ -36,6 +36,45 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "zookiiwi"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1985-toyota-sprinter-trueno-gt-apex",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-087a16071f",
+      "metaRank": 30,
+      "name": "purist rc",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1985 Toyota Sprinter Trueno GT-APEX",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist rc",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 2859,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.485,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [],
@@ -290,7 +329,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF0000"
           },
-          "row": 2854,
+          "row": 2858,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -525,7 +564,7 @@
             "Tuner": "ESV Vini",
             "fill": "FFFF0000"
           },
-          "row": 2853,
+          "row": 2857,
           "sourceId": "kleis",
           "tab": "fh6"
         }
