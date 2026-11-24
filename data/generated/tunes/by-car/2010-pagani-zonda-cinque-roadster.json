@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [],
@@ -39,7 +39,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FF7030A0"
           },
-          "row": 2634,
+          "row": 2644,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -51,6 +51,39 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [],
+      "class": "S2",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-3f8bfc38c3",
+      "name": "Celeb 17",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "NFSHP ACCURATE",
+            "Designer": "K1Z Amemiya",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Celeb 17",
+            "Tuner": "K1Z Gray",
+            "fill": "FF0070C0"
+          },
+          "row": 2651,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-gray"
     },
     {
       "buildTags": [
@@ -80,7 +113,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FF7030A0"
           },
-          "row": 2636,
+          "row": 2649,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -108,15 +141,15 @@
           "raw": {
             "Car": "2010 Pagani Zonda Cinque Roadster",
             "Comment": "",
-            "Design": "",
-            "Designer": "",
+            "Design": "OREO ZONDA",
+            "Designer": "TomYoung1906",
             "Drivetrain": "AWD",
             "Terrain": "Road",
             "Tune": "Stock Rims",
             "Tuner": "K1Z Jumpy",
             "fill": "FF7030A0"
           },
-          "row": 2635,
+          "row": 2645,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -138,8 +171,7 @@
       "credited": true,
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a63052a837",
+      "id": "nc-93b4b6f45a",
       "lapRefs": [
         {
           "time": "55.7",
@@ -152,13 +184,23 @@
         "pt-br": ""
       },
       "metaRank": 97,
-      "name": "S1 road AWD",
+      "name": "S1 Road Allround",
       "observations": [
         {
-          "raw": {},
-          "row": 199,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "LEWIS HAMILTON ZONDA LH F1 44",
+            "Designer": "UK Eagle Eye",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road Allround",
+            "Tuner": "Noa Miyako",
+            "fill": "FF7030A0"
+          },
+          "row": 2647,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
       "role": "allround",
@@ -183,15 +225,15 @@
           "raw": {
             "Car": "2010 Pagani Zonda Cinque Roadster",
             "Comment": "",
-            "Design": "",
-            "Designer": "",
+            "Design": "FH4 FH5 FM7 RAINBOW 2022 PRIDE",
+            "Designer": "MarkLee LCW",
             "Drivetrain": "AWD",
             "Terrain": "Dirt/CC",
             "Tune": "S1 Dirt",
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 2633,
+          "row": 2643,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -213,8 +255,7 @@
       "credited": true,
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-dab8534a3e",
+      "id": "nc-c6ba9fcd46",
       "lapRefs": [
         {
           "time": "55.7",
@@ -227,13 +268,23 @@
         "pt-br": ""
       },
       "metaRank": 97,
-      "name": "S1 road AWD",
+      "name": "NFS Hot Pursuit Guy kinda mid",
       "observations": [
         {
-          "raw": {},
-          "row": 199,
-          "sourceId": "noa-miyako",
-          "tab": "s1-road"
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "NFS Hot Pursuit Guy kinda mid",
+            "Tuner": "LetzeLU",
+            "fill": "FF7030A0"
+          },
+          "row": 2646,
+          "sourceId": "kleis",
+          "tab": "fh6"
         }
       ],
       "role": "allround",
@@ -266,7 +317,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FF0070C0"
           },
-          "row": 2637,
+          "row": 2650,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -276,6 +327,44 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f7531148c2",
+      "metaRank": 97,
+      "name": "Stock Look T1.5 Shirakawa 55.9",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2010 Pagani Zonda Cinque Roadster",
+            "Comment": "",
+            "Design": "V.ICKX PAGANI",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "Stock Look T1.5 Shirakawa 55.9",
+            "Tuner": "ZVTCJAU",
+            "fill": "FF7030A0"
+          },
+          "row": 2648,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.541,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
     },
     {
       "buildTags": [],

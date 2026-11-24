@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [
@@ -671,6 +671,23 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-volkswagen-electric-buzz",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "RWD",
+      "id": "nc-01e53db185",
+      "name": "A Road Allround",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [],
@@ -1346,6 +1363,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2017-ford-gt",
+      "categories": [],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-03a7880e62",
+      "name": "S1 Road",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2018-lotus-exige-cup-430",
       "categories": [],
       "class": "A",
@@ -1377,23 +1411,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-bmw-x5-m",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-03ce1bf523",
-      "name": "A - Road (1:01's @ Shirakawa)",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [
@@ -2424,26 +2441,6 @@
       "tunerId": "slowbakedpanda"
     },
     {
-      "buildTags": [],
-      "carId": "1998-renault-sport-spider",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-076a97ed1a",
-      "metaRank": 97,
-      "name": "A - Grip ( All-Around )",
-      "score": 0.571,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -3016,26 +3013,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2019-apollo-intensa-emozione",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S2",
-      "drivetrain": "AWD",
-      "id": "nc-0914339fbc",
-      "metaRank": 24,
-      "name": "S2 - Full Grip",
-      "score": 0.511,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "2020-chevrolet-corvette-stingray-coupe",
       "categories": [],
       "class": "S1",
@@ -3223,6 +3200,26 @@
       "tier": "meta",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-ferrari-458-italia",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-09be6df8be",
+      "metaRank": 129,
+      "name": "nerf",
+      "score": 0.511,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "dex-muka"
     },
     {
       "buildTags": [],
@@ -4130,23 +4127,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "icefrice8724"
-    },
-    {
-      "buildTags": [],
-      "carId": "2017-ford-gt",
-      "categories": [],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-0cf34e5243",
-      "name": "S1 Road",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -5704,6 +5684,26 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-11f5985828",
+      "metaRank": 18,
+      "name": "S1 Grip & Speed",
+      "score": 0.566,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [
@@ -7618,6 +7618,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2012-hennessey-venom-gt",
+      "categories": [],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-1775e70d51",
+      "name": "S1 Dirt",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "dirt",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
       "carId": "2019-chevrolet-corvette-zr1",
       "categories": [
         "off-meta"
@@ -8048,24 +8065,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2015-land-rover-range-rover-sport-svr",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-190efb7071",
-      "metaRank": 154,
-      "name": "A - Road ( Circuit )",
-      "score": 0.466,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
       "categories": [],
       "class": "A",
@@ -8277,6 +8276,27 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "atk-mang0"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-ferrari-f50",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "drivetrain": "RWD",
+      "id": "nc-1a1d109d3e",
+      "name": "purist",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [],
@@ -9452,26 +9472,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2021-mclaren-620r",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-1d4e1a85e6",
-      "metaRank": 3,
-      "name": "S1 - Cheat Code ( 9 Speed ) META",
-      "score": 0.655,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "1989-nissan-silvia-ks",
       "categories": [
         "meta"
@@ -10094,6 +10094,23 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2023-bmw-m2-forza-edition",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-1f2e27664d",
+      "name": "A Road Grip",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -10733,6 +10750,26 @@
       "tunerId": "sr1-rain"
     },
     {
+      "buildTags": [],
+      "carId": "2012-nissan-gt-r-black-edition-r35",
+      "categories": [
+        "meta"
+      ],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-219f8a03f0",
+      "metaRank": 12,
+      "name": "A - Road ( Speed & Grip )",
+      "score": 0.646,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -10859,23 +10896,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-bard"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-mazda-mx-5-miata-rf",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-221d5336ea",
-      "name": "A - Touge / Grip",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -11233,23 +11253,6 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "msr-sola"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-toyota-camry-trd",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-2301959eeb",
-      "name": "A - Road ( Good All-Round )",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -11641,26 +11644,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sir-brandya1"
-    },
-    {
-      "buildTags": [],
-      "carId": "2005-ford-gt",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-248a2af5e4",
-      "metaRank": 18,
-      "name": "S1 Grip & Speed",
-      "score": 0.566,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -12189,43 +12172,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lamborghini-diablo-gtr",
-      "categories": [],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-2624c4bf05",
-      "name": "S1 - Road & Street ( Crazy Top speed & Accel )",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
-      "carId": "2012-nissan-gt-r-black-edition-r35",
-      "categories": [
-        "meta"
-      ],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-26477dc633",
-      "metaRank": 12,
-      "name": "A - Road ( Speed & Grip )",
-      "score": 0.646,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -13211,6 +13157,26 @@
       "tunerId": "esv-lawrence"
     },
     {
+      "buildTags": [],
+      "carId": "2021-lamborghini-countach-lpi-800-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-29392451a6",
+      "metaRank": 93,
+      "name": "S1 Road v1",
+      "score": 0.541,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -13688,26 +13654,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2011-mclaren-12c-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-2ae23394af",
-      "metaRank": 61,
-      "name": "S1 Road Power",
-      "score": 0.571,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -19050,6 +18996,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2023-toyota-camry-trd",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-3a898ac145",
+      "name": "A - Road ( Good All-Round )",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2023-porsche-911-gt3-rs",
       "categories": [
         "off-meta"
@@ -20368,6 +20331,26 @@
     },
     {
       "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "drivetrain": "AWD",
+      "id": "nc-3e3ee1400e",
+      "metaRank": 24,
+      "name": "S2 - Full Grip",
+      "score": 0.511,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "1992-alfa-romeo-155-q4",
       "categories": [
         "off-meta"
@@ -20696,6 +20679,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [],
+      "class": "S2",
+      "drivetrain": "AWD",
+      "id": "nc-3f8bfc38c3",
+      "name": "Celeb 17",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-gray"
+    },
+    {
+      "buildTags": [],
       "carId": "1965-shelby-cobra-daytona-coupe",
       "categories": [
         "off-meta"
@@ -20926,6 +20926,29 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-dodge-dart-hemi-super-stock",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "drivetrain": "RWD",
+      "id": "nc-403c7e31c3",
+      "metaRank": 58,
+      "name": "purist rc",
+      "score": 0.477,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [],
@@ -21776,24 +21799,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "yousland"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-lamborghini-urus",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-42bc7b4482",
-      "metaRank": 155,
-      "name": "A - Road ( Chonk / Unit )",
-      "score": 0.466,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -23578,6 +23583,23 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-bmw-850csi",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-49fd43c529",
+      "name": "A - Road ( Stock brakes )",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -26027,6 +26049,26 @@
     },
     {
       "buildTags": [],
+      "carId": "1990-alfa-romeo-se-048sp",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "drivetrain": "AWD",
+      "id": "nc-50d99d0ed6",
+      "metaRank": 5,
+      "name": "S2 Grip",
+      "score": 0.646,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "1969-chevrolet-nova-super-sport-396",
       "categories": [],
       "class": "S1",
@@ -28126,26 +28168,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2024-ferrari-purosangue",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-57ccaebb53",
-      "metaRank": 114,
-      "name": "A - Road ( All-Round )",
-      "score": 0.541,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "2020-bmw-m2-competition-coupe",
       "categories": [],
       "class": "A",
@@ -28699,6 +28721,26 @@
       "tunerId": "logikj"
     },
     {
+      "buildTags": [],
+      "carId": "2021-alfa-romeo-giulia-gtam",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-591b6e733a",
+      "metaRank": 109,
+      "name": "A - Power & Grip",
+      "score": 0.541,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -28916,26 +28958,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "thedannny"
-    },
-    {
-      "buildTags": [],
-      "carId": "2016-dodge-viper-acr",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-5a29a62d05",
-      "metaRank": 17,
-      "name": "S1 - Touge ( Top 10 Times )",
-      "score": 0.614,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [
@@ -31548,6 +31570,27 @@
       "buildTags": [
         "purist"
       ],
+      "carId": "2025-volkswagen-electric-buzz",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "drivetrain": "RWD",
+      "id": "nc-638d9e23e2",
+      "name": "Purist",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "killerspectre21"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
       "carId": "1960-chevrolet-corvette",
       "categories": [
         "purist"
@@ -32911,6 +32954,26 @@
       "tunerId": "msr-sola"
     },
     {
+      "buildTags": [],
+      "carId": "2020-lamborghini-sian-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-67b3e4038d",
+      "metaRank": 54,
+      "name": "S1 - Road Grip ( Semi Slicks )",
+      "score": 0.571,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
       "buildTags": [
         "powerbuild"
       ],
@@ -33038,6 +33101,25 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1963-volkswagen-type-2-de-luxe",
+      "categories": [
+        "meme"
+      ],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-67f0f87a72",
+      "name": "A - Accel / Grip ( Better than it should be )",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -33356,6 +33438,26 @@
       "tunerId": "kapienpl"
     },
     {
+      "buildTags": [],
+      "carId": "2009-ferrari-458-italia",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-68fcd0223b",
+      "metaRank": 129,
+      "name": "HV10 Road Sprint T2 Shirakawa 55.9 A/M",
+      "score": 0.511,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
       "buildTags": [
         "purist"
       ],
@@ -33451,26 +33553,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2009-audi-r8-lms",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-693e993442",
-      "metaRank": 10,
-      "name": "S1 - Touge V2",
-      "score": 0.618,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t0.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -34434,23 +34516,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2010-lexus-lfa-forza-edition",
-      "categories": [],
-      "class": "R",
-      "drivetrain": "AWD",
-      "id": "nc-6c21d4f674",
-      "name": "R Class",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "1987-mercedes-benz-amg-hammer-coupe",
       "categories": [
         "off-meta"
@@ -34660,6 +34725,26 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [],
+      "carId": "2012-lamborghini-aventador-lp700-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-6caafcee3c",
+      "metaRank": 52,
+      "name": "S1 - Road V2 ( 620R Killer )",
+      "score": 0.567,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -34956,6 +35041,23 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "esv-lawrence"
+    },
+    {
+      "buildTags": [],
+      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
+      "categories": [],
+      "class": "S2",
+      "drivetrain": "AWD",
+      "id": "nc-6d90d4fc7c",
+      "name": "S2 Full Grip",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -35878,6 +35980,26 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "thedannny"
+    },
+    {
+      "buildTags": [],
+      "carId": "2013-lamborghini-veneno",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-7052f8734c",
+      "metaRank": 90,
+      "name": "S1 - Road V2 ( All-Round )",
+      "score": 0.541,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [
@@ -37168,26 +37290,6 @@
       "tunerId": "letzelu"
     },
     {
-      "buildTags": [],
-      "carId": "2004-maserati-mc12",
-      "categories": [
-        "meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-74a96d8f59",
-      "metaRank": 8,
-      "name": "S1 Road - Speed ( Low 56's @ Shikisai )",
-      "score": 0.662,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -37693,6 +37795,23 @@
     },
     {
       "buildTags": [],
+      "carId": "1999-lamborghini-diablo-gtr",
+      "categories": [],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-7627cba154",
+      "name": "S1 - Road & Street ( Crazy Top speed & Accel )",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2025-ferrari-f80",
       "categories": [],
       "class": "S2",
@@ -37995,26 +38114,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "1987-mercedes-benz-amg-hammer-coupe",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-77015faada",
-      "metaRank": 85,
-      "name": "A - Power ( Stock Brakes )",
-      "score": 0.571,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -39796,6 +39895,26 @@
     },
     {
       "buildTags": [],
+      "carId": "2021-mclaren-620r",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-7d872c0e31",
+      "metaRank": 3,
+      "name": "S1 - Cheat Code ( 9 Speed ) META",
+      "score": 0.655,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "1964-chevrolet-impala-super-sport-409",
       "categories": [
         "meta"
@@ -41155,6 +41274,23 @@
     },
     {
       "buildTags": [],
+      "carId": "1999-lotus-elise-series-1-sport-190",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-8198f288c3",
+      "name": "A - Grip ( Okishinaimura WR )",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2009-audi-r8-lms",
       "categories": [
         "meta"
@@ -41646,6 +41782,23 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-mars"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-cadillac-ct4-v-blackwing",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-8317ec0bd7",
+      "name": "A - Road & Street",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -42819,6 +42972,24 @@
     },
     {
       "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-86f8868cd9",
+      "metaRank": 154,
+      "name": "A - Road ( Circuit )",
+      "score": 0.466,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2010-audi-tt-rs-coupe",
       "categories": [
         "off-meta"
@@ -42913,20 +43084,23 @@
     },
     {
       "buildTags": [],
-      "carId": "1995-bmw-850csi",
-      "categories": [],
+      "carId": "1987-mercedes-benz-amg-hammer-coupe",
+      "categories": [
+        "off-meta"
+      ],
       "class": "A",
       "drivetrain": "AWD",
-      "id": "nc-8752232fe3",
-      "name": "A - Road ( Stock brakes )",
-      "score": 0.474,
+      "id": "nc-876524b799",
+      "metaRank": 85,
+      "name": "A - Power ( Stock Brakes )",
+      "score": 0.571,
       "sourceIds": [
         "kleis"
       ],
       "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [
@@ -44950,23 +45124,6 @@
     },
     {
       "buildTags": [],
-      "carId": "1995-toyota-j-and-j-motorsport-supra-wtac",
-      "categories": [],
-      "class": "S2",
-      "drivetrain": "AWD",
-      "id": "nc-8ccdd28e60",
-      "name": "S2 Full Grip",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "2016-lamborghini-centenario-lp-770-4",
       "categories": [
         "meta"
@@ -45726,6 +45883,26 @@
     },
     {
       "buildTags": [],
+      "carId": "1998-renault-sport-spider",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-8edd3ab4a0",
+      "metaRank": 97,
+      "name": "A - Grip ( All-Around )",
+      "score": 0.571,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2025-citroen-ami",
       "categories": [
         "meme"
@@ -46452,6 +46629,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2010-lexus-lfa-forza-edition",
+      "categories": [],
+      "class": "R",
+      "drivetrain": "AWD",
+      "id": "nc-91a2047f76",
+      "name": "R Class",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "1990-mercedes-benz-190-e-2-5-16-evolution-ii-forza-edition",
       "categories": [],
       "class": "S1",
@@ -46630,26 +46824,6 @@
     },
     {
       "buildTags": [],
-      "carId": "1990-alfa-romeo-se-048sp",
-      "categories": [
-        "meta"
-      ],
-      "class": "S2",
-      "drivetrain": "AWD",
-      "id": "nc-91f9a8ff1f",
-      "metaRank": 5,
-      "name": "S2 Grip",
-      "score": 0.646,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "meta",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "2015-mclaren-570s-coupe",
       "categories": [
         "off-meta"
@@ -46667,6 +46841,26 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "kcnaxii"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-ferrari-296-gtb",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-920d6e27ea",
+      "metaRank": 47,
+      "name": "S1 Road Grip & Speed",
+      "score": 0.54,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -47351,6 +47545,41 @@
     },
     {
       "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "id": "nc-93b4b6f45a",
+      "lapRefs": [
+        {
+          "time": "55.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 97,
+      "name": "S1 Road Allround",
+      "role": "allround",
+      "score": 0.582,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
       "carId": "2016-honda-s2260-alpha",
       "categories": [
         "meta"
@@ -47613,26 +47842,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2013-lamborghini-veneno",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-94b5834517",
-      "metaRank": 90,
-      "name": "S1 - Road V2 ( All-Round )",
-      "score": 0.541,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -48240,26 +48449,6 @@
       "tunerId": "drx-q3"
     },
     {
-      "buildTags": [],
-      "carId": "2012-lamborghini-aventador-lp700-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-96b81d1823",
-      "metaRank": 52,
-      "name": "S1 - Road V2 ( 620R Killer )",
-      "score": 0.567,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -48761,26 +48950,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "greeteddust8"
-    },
-    {
-      "buildTags": [],
-      "carId": "2022-ferrari-296-gtb",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-97cd5cc3f2",
-      "metaRank": 47,
-      "name": "S1 Road Grip & Speed",
-      "score": 0.54,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [
@@ -49997,6 +50166,26 @@
     },
     {
       "buildTags": [],
+      "carId": "2011-mclaren-12c-coupe",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-9bcdcec926",
+      "metaRank": 61,
+      "name": "S1 Road Power",
+      "score": 0.571,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "1989-volkswagen-rallye-golf",
       "categories": [
         "off-meta"
@@ -51015,6 +51204,26 @@
     },
     {
       "buildTags": [],
+      "carId": "2009-audi-r8-lms",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-9f80eb2c65",
+      "metaRank": 10,
+      "name": "S1 - Touge V2",
+      "score": 0.618,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "1985-ford-rs200-evolution",
       "categories": [
         "off-meta"
@@ -51340,26 +51549,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "drx-q3"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-lamborghini-countach-lpi-800-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-a0a9c9a751",
-      "metaRank": 93,
-      "name": "S1 Road v1",
-      "score": 0.541,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -52201,25 +52390,6 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "k1z-gray"
-    },
-    {
-      "buildTags": [],
-      "carId": "1963-volkswagen-type-2-de-luxe",
-      "categories": [
-        "meme"
-      ],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-a32285c8c6",
-      "name": "A - Accel / Grip ( Better than it should be )",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -53231,42 +53401,6 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "zookiiwi"
-    },
-    {
-      "buildTags": [],
-      "carId": "2010-pagani-zonda-cinque-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "credited": true,
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-a63052a837",
-      "lapRefs": [
-        {
-          "time": "55.7",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 55.7",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 97,
-      "name": "S1 road AWD",
-      "role": "allround",
-      "score": 0.582,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "noa-miyako"
     },
     {
       "buildTags": [
@@ -54606,26 +54740,6 @@
       "tunerId": "kapienpl"
     },
     {
-      "buildTags": [],
-      "carId": "2002-ferrari-enzo-ferrari",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-ab951cc390",
-      "metaRank": 43,
-      "name": "S1 Road V2 ( Speed & Grip )",
-      "score": 0.571,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -55907,23 +56021,6 @@
       "tunerId": "ams-carver"
     },
     {
-      "buildTags": [],
-      "carId": "2025-ferrari-f80",
-      "categories": [],
-      "class": "S2",
-      "drivetrain": "AWD",
-      "id": "nc-aef0069a21",
-      "name": "S2 Full Grip",
-      "score": 0.612,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -56060,6 +56157,26 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "2016-dodge-viper-acr",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-af1ce18f01",
+      "metaRank": 17,
+      "name": "S1 - Touge ( Top 10 Times )",
+      "score": 0.614,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -57021,6 +57138,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2025-ferrari-f80",
+      "categories": [],
+      "class": "S2",
+      "drivetrain": "AWD",
+      "id": "nc-b1d96d19fe",
+      "name": "S2 Full Grip",
+      "score": 0.612,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2010-renault-megane-rs-250",
       "categories": [
         "off-meta"
@@ -57847,6 +57981,26 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "greeteddust8"
+    },
+    {
+      "buildTags": [],
+      "carId": "2004-maserati-mc12",
+      "categories": [
+        "meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-b4174e5363",
+      "metaRank": 8,
+      "name": "S1 Road - Speed ( Low 56's @ Shikisai )",
+      "score": 0.662,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -59219,23 +59373,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2022-cadillac-ct4-v-blackwing",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-b7f65ea80e",
-      "name": "A - Road & Street",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "2016-honda-s2260-alpha",
       "categories": [
         "meta"
@@ -59804,26 +59941,6 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "logikj"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-alfa-romeo-giulia-gtam",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-b9e4685df4",
-      "metaRank": 109,
-      "name": "A - Power & Grip",
-      "score": 0.541,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [
@@ -60475,6 +60592,24 @@
     },
     {
       "buildTags": [],
+      "carId": "2019-lamborghini-urus",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-bb56544c2f",
+      "metaRank": 155,
+      "name": "A - Road ( Chonk / Unit )",
+      "score": 0.466,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "2021-alfa-romeo-giulia-gtam",
       "categories": [
         "off-meta"
@@ -60587,6 +60722,23 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "aeroplane7616"
+    },
+    {
+      "buildTags": [],
+      "carId": "2022-mazda-mx-5-miata-rf",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-bbe492957c",
+      "name": "A - Touge / Grip",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [
@@ -62983,23 +63135,6 @@
     },
     {
       "buildTags": [],
-      "carId": "1999-lotus-elise-series-1-sport-190",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-c2a6937745",
-      "name": "A - Grip ( Okishinaimura WR )",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
-    {
-      "buildTags": [],
       "carId": "1992-nissan-skyline-gt-r",
       "categories": [
         "meta"
@@ -63088,6 +63223,26 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-ferrari-purosangue",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-c2bbd14c07",
+      "metaRank": 114,
+      "name": "A - Road ( All-Round )",
+      "score": 0.541,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [
@@ -63966,23 +64121,6 @@
       "tunerId": "darkz704"
     },
     {
-      "buildTags": [],
-      "carId": "2023-bmw-m2-forza-edition",
-      "categories": [],
-      "class": "A",
-      "drivetrain": "AWD",
-      "id": "nc-c4f5b37044",
-      "name": "A Road Grip",
-      "score": 0.474,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
-    {
       "buildTags": [
         "purist"
       ],
@@ -64432,6 +64570,41 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "brennelul"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "id": "nc-c6ba9fcd46",
+      "lapRefs": [
+        {
+          "time": "55.7",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川 55.7",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 97,
+      "name": "NFS Hot Pursuit Guy kinda mid",
+      "role": "allround",
+      "score": 0.582,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],
@@ -66606,6 +66779,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2025-volkswagen-electric-buzz",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-cccb2979c4",
+      "name": "A Road Actually Usable (Circuits)",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
+    },
+    {
+      "buildTags": [],
       "carId": "2021-bmw-m4-competition-coupe-welcome-pack",
       "categories": [
         "off-meta"
@@ -68308,6 +68498,23 @@
     },
     {
       "buildTags": [],
+      "carId": "2011-bmw-x5-m",
+      "categories": [],
+      "class": "A",
+      "drivetrain": "AWD",
+      "id": "nc-d25d104fbf",
+      "name": "A - Road (1:01's @ Shirakawa)",
+      "score": 0.474,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
       "carId": "1969-chevrolet-nova-super-sport-396",
       "categories": [
         "meta"
@@ -69601,26 +69808,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zombiejesus52"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-lamborghini-sian-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "drivetrain": "AWD",
-      "id": "nc-d6e8593839",
-      "metaRank": 54,
-      "name": "S1 - Road Grip ( Semi Slicks )",
-      "score": 0.571,
-      "sourceIds": [
-        "kleis"
-      ],
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [
@@ -71043,42 +71230,6 @@
     },
     {
       "buildTags": [],
-      "carId": "2010-pagani-zonda-cinque-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "credited": true,
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "fromMeta": true,
-      "id": "nc-dab8534a3e",
-      "lapRefs": [
-        {
-          "time": "55.7",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川 55.7",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
-      "metaRank": 97,
-      "name": "S1 road AWD",
-      "role": "allround",
-      "score": 0.582,
-      "sourceIds": [
-        "noa-miyako"
-      ],
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tires": "rally",
-      "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
       "carId": "2009-pagani-zonda-r",
       "categories": [
         "meta"
@@ -72412,6 +72563,28 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2022-honda-e",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "drivetrain": "RWD",
+      "id": "nc-df9eb7941d",
+      "metaRank": 135,
+      "name": "Grocery Getter",
+      "score": 0.445,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
     },
     {
       "buildTags": [],
@@ -78797,6 +78970,28 @@
     },
     {
       "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2009-ferrari-458-italia",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-f3ecae3e3b",
+      "metaRank": 129,
+      "name": "S1 Road AWD Full Aero",
+      "score": 0.511,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
+    },
+    {
+      "buildTags": [
         "purist"
       ],
       "carId": "1968-holden-monaro-gts-327",
@@ -79895,6 +80090,28 @@
     },
     {
       "buildTags": [
+        "stock-look"
+      ],
+      "carId": "2010-pagani-zonda-cinque-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-f7531148c2",
+      "metaRank": 97,
+      "name": "Stock Look T1.5 Shirakawa 55.9",
+      "score": 0.541,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [
         "powerbuild"
       ],
       "carId": "1981-bmw-m1",
@@ -80426,6 +80643,26 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "myra-driving"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-ferrari-enzo-ferrari",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "drivetrain": "AWD",
+      "id": "nc-f9540943ec",
+      "metaRank": 43,
+      "name": "S1 Road V2 ( Speed & Grip )",
+      "score": 0.571,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [

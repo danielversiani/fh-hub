@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "KorbenDallas709",
             "fill": "FFFF0000"
           },
-          "row": 1973,
+          "row": 1983,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -33,6 +33,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "korbendallas709"
+    },
+    {
+      "buildTags": [],
+      "carId": "2021-lamborghini-countach-lpi-800-4",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-29392451a6",
+      "metaRank": 93,
+      "name": "S1 Road v1",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2021 Lamborghini Countach LPI 800-4",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road v1",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FF7030A0"
+          },
+          "row": 1985,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.541,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -75,42 +111,6 @@
       "tierSource": "meta-table",
       "tires": "semi-slick",
       "tunerId": "caigou-yyy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2021-lamborghini-countach-lpi-800-4",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-a0a9c9a751",
-      "metaRank": 93,
-      "name": "S1 Road v1",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2021 Lamborghini Countach LPI 800-4",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road v1",
-            "Tuner": "ESV Rapture",
-            "fill": "FF7030A0"
-          },
-          "row": 1975,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.541,
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -176,7 +176,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 1974,
+          "row": 1984,
           "sourceId": "kleis",
           "tab": "fh6"
         }

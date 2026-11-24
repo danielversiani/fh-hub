@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2009-ferrari-458-italia",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-09be6df8be",
+      "metaRank": 129,
+      "name": "nerf",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Ferrari 458 Italia",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "nerf",
+            "Tuner": "DEX MUKA",
+            "fill": "FF7030A0"
+          },
+          "row": 1455,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.511,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "dex-muka"
+    },
+    {
+      "buildTags": [],
+      "carId": "2009-ferrari-458-italia",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-68fcd0223b",
+      "metaRank": 129,
+      "name": "HV10 Road Sprint T2 Shirakawa 55.9 A/M",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Ferrari 458 Italia",
+            "Comment": "",
+            "Design": "BRUNI 458",
+            "Designer": "Wombi 62",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "HV10 Road Sprint T2 Shirakawa 55.9 A/M",
+            "Tuner": "ZVTCJAU",
+            "fill": "FF7030A0"
+          },
+          "row": 1458,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.511,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "zvtcjau"
+    },
     {
       "buildTags": [
         "stock-look"
@@ -17,15 +89,15 @@
           "raw": {
             "Car": "2009 Ferrari 458 Italia",
             "Comment": "",
-            "Design": "",
-            "Designer": "",
+            "Design": "NYAN CAT",
+            "Designer": "BossyDesigns",
             "Drivetrain": "AWD",
             "Terrain": "Dirt/CC",
             "Tune": "A Dirt AWD Stock Look Nice",
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 1451,
+          "row": 1454,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -61,7 +133,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FF7030A0"
           },
-          "row": 1452,
+          "row": 1456,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -142,7 +214,7 @@
             "Tuner": "VNX Ardent",
             "fill": "FF7030A0"
           },
-          "row": 1453,
+          "row": 1459,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -152,6 +224,44 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "vnx-ardent"
+    },
+    {
+      "buildTags": [
+        "full-aero"
+      ],
+      "carId": "2009-ferrari-458-italia",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f3ecae3e3b",
+      "metaRank": 129,
+      "name": "S1 Road AWD Full Aero",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2009 Ferrari 458 Italia",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road AWD Full Aero",
+            "Tuner": "LogikJ",
+            "fill": "FF7030A0"
+          },
+          "row": 1457,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.511,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "logikj"
     }
   ],
   "schemaVersion": 1

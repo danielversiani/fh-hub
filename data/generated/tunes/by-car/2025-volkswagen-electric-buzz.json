@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-22T14:28:01.289Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2025-volkswagen-electric-buzz",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-01e53db185",
+      "name": "A Road Allround",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Volkswagen Electric Buzz",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "A Road Allround",
+            "Tuner": "Noa Miyako",
+            "fill": "FFFF0000"
+          },
+          "row": 3065,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "noa-miyako"
+    },
     {
       "buildTags": [],
       "carId": "2025-volkswagen-electric-buzz",
@@ -34,6 +67,76 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2025-volkswagen-electric-buzz",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-638d9e23e2",
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Volkswagen Electric Buzz",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist",
+            "Tuner": "KillerSpectre21",
+            "fill": "FFED7D31"
+          },
+          "row": 711,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "killerspectre21"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-volkswagen-electric-buzz",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-cccb2979c4",
+      "name": "A Road Actually Usable (Circuits)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Volkswagen Electric Buzz",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Actually Usable (Circuits)",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 3064,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

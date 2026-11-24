@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [
@@ -25,7 +25,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 2034,
+          "row": 2044,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -62,7 +62,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2039,
+          "row": 2049,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -72,6 +72,39 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "1999-lotus-elise-series-1-sport-190",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-8198f288c3",
+      "name": "A - Grip ( Okishinaimura WR )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1999 Lotus Elise Series 1 Sport 190",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Grip ( Okishinaimura WR )",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FFFF0000"
+          },
+          "row": 2045,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -95,7 +128,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FFFF0000"
           },
-          "row": 2037,
+          "row": 2047,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -130,7 +163,7 @@
             "Tuner": "SakuraMxSPD",
             "fill": "FFFF0000"
           },
-          "row": 2040,
+          "row": 2050,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -163,7 +196,7 @@
             "Tuner": "KapienPL",
             "fill": "FFFF0000"
           },
-          "row": 2033,
+          "row": 2043,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -173,39 +206,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "kapienpl"
-    },
-    {
-      "buildTags": [],
-      "carId": "1999-lotus-elise-series-1-sport-190",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-c2a6937745",
-      "name": "A - Grip ( Okishinaimura WR )",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1999 Lotus Elise Series 1 Sport 190",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Grip ( Okishinaimura WR )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 2035,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [
@@ -233,7 +233,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 2038,
+          "row": 2048,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -266,7 +266,7 @@
             "Tuner": "LogikJ",
             "fill": "FFFF0000"
           },
-          "row": 2036,
+          "row": 2046,
           "sourceId": "kleis",
           "tab": "fh6"
         }

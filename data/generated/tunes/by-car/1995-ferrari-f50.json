@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-ferrari-f50",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "RWD",
+      "id": "nc-1a1d109d3e",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Ferrari F50",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 1431,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "razkinzmango"
+    },
     {
       "buildTags": [],
       "carId": "1995-ferrari-f50",
@@ -23,7 +60,7 @@
             "Tuner": "Whatuplosers917",
             "fill": "FF7030A0"
           },
-          "row": 1429,
+          "row": 1432,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -60,7 +97,7 @@
             "Tuner": "DRX Q3",
             "fill": "FFFF0000"
           },
-          "row": 1427,
+          "row": 1429,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -97,7 +134,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF0000"
           },
-          "row": 1428,
+          "row": 1430,
           "sourceId": "kleis",
           "tab": "fh6"
         }

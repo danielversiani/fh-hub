@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2011-bmw-x5-m",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-03ce1bf523",
-      "name": "A - Road (1:01's @ Shirakawa)",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2011 BMW X5 M",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Road (1:01's @ Shirakawa)",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 1037,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
-    },
     {
       "buildTags": [],
       "carId": "2011-bmw-x5-m",
@@ -56,7 +23,7 @@
             "Tuner": "HLundh",
             "fill": "FFFF0000"
           },
-          "row": 1035,
+          "row": 1036,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -89,7 +56,7 @@
             "Tuner": "Aeroplane7616",
             "fill": "FFFF0000"
           },
-          "row": 1038,
+          "row": 1039,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -153,6 +120,39 @@
       "class": "A",
       "confidence": 0.35,
       "drivetrain": "AWD",
+      "id": "nc-d25d104fbf",
+      "name": "A - Road (1:01's @ Shirakawa)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2011 BMW X5 M",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road (1:01's @ Shirakawa)",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FFFF0000"
+          },
+          "row": 1038,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
+      "carId": "2011-bmw-x5-m",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
       "id": "nc-f9890527be",
       "name": "Stock Engine Dirt/CC WB",
       "observations": [
@@ -168,7 +168,7 @@
             "Tuner": "K1Z Disco Doggo",
             "fill": "FFFF0000"
           },
-          "row": 1036,
+          "row": 1037,
           "sourceId": "kleis",
           "tab": "fh6"
         }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [
@@ -25,7 +25,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 1487,
+          "row": 1493,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -61,7 +61,7 @@
             "Tuner": "LetzeLU",
             "fill": "FFFF0000"
           },
-          "row": 1494,
+          "row": 1500,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -97,7 +97,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 1495,
+          "row": 1501,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -107,42 +107,6 @@
       "tier": "t1.5",
       "tierSource": "meta-table",
       "tunerId": "zvtcjau"
-    },
-    {
-      "buildTags": [],
-      "carId": "2024-ferrari-purosangue",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "A",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-57ccaebb53",
-      "metaRank": 114,
-      "name": "A - Road ( All-Round )",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2024 Ferrari Purosangue",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Road ( All-Round )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 1490,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.541,
-      "surface": "road",
-      "tier": "t1.5",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [
@@ -168,7 +132,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FFFF0000"
           },
-          "row": 1488,
+          "row": 1494,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -219,7 +183,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 1491,
+          "row": 1497,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -270,7 +234,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FFFF0000"
           },
-          "row": 1493,
+          "row": 1499,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -282,6 +246,42 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "k1z-howzer"
+    },
+    {
+      "buildTags": [],
+      "carId": "2024-ferrari-purosangue",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-c2bbd14c07",
+      "metaRank": 114,
+      "name": "A - Road ( All-Round )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2024 Ferrari Purosangue",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road ( All-Round )",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FFFF0000"
+          },
+          "row": 1496,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.541,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -305,7 +305,7 @@
             "Tuner": "Noa Miyako",
             "fill": "FFFF0000"
           },
-          "row": 1486,
+          "row": 1492,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -338,7 +338,7 @@
             "Tuner": "Kende7030",
             "fill": "FFFF0000"
           },
-          "row": 1485,
+          "row": 1491,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -387,7 +387,7 @@
             "Tuner": "K1Z Bard",
             "fill": "FFFF0000"
           },
-          "row": 1492,
+          "row": 1498,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -425,7 +425,7 @@
             "Tuner": "AMS Carver",
             "fill": "FFFF0000"
           },
-          "row": 1489,
+          "row": 1495,
           "sourceId": "kleis",
           "tab": "fh6"
         }

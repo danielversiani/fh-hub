@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "LetzeLU",
             "fill": "FF7030A0"
           },
-          "row": 1434,
+          "row": 1437,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -62,7 +62,7 @@
             "Tuner": "Noa Miyako",
             "fill": "FF7030A0"
           },
-          "row": 1436,
+          "row": 1439,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -72,42 +72,6 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "noa-miyako"
-    },
-    {
-      "buildTags": [],
-      "carId": "2002-ferrari-enzo-ferrari",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-ab951cc390",
-      "metaRank": 43,
-      "name": "S1 Road V2 ( Speed & Grip )",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2002 Ferrari Enzo Ferrari",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 Road V2 ( Speed & Grip )",
-            "Tuner": "ESV Rapture",
-            "fill": "FF7030A0"
-          },
-          "row": 1432,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.571,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -147,7 +111,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FF7030A0"
           },
-          "row": 1433,
+          "row": 1436,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -187,7 +151,7 @@
             "Tuner": "LogikJ",
             "fill": "FF7030A0"
           },
-          "row": 1435,
+          "row": 1438,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -197,6 +161,42 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "logikj"
+    },
+    {
+      "buildTags": [],
+      "carId": "2002-ferrari-enzo-ferrari",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-f9540943ec",
+      "metaRank": 43,
+      "name": "S1 Road V2 ( Speed & Grip )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2002 Ferrari Enzo Ferrari",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 Road V2 ( Speed & Grip )",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FF7030A0"
+          },
+          "row": 1435,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.571,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],

@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2023-bmw-m2-forza-edition",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-1f2e27664d",
+      "name": "A Road Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2023 BMW M2 Forza Edition",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A Road Grip",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FFFF0000"
+          },
+          "row": 1083,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
     {
       "buildTags": [],
       "carId": "2023-bmw-m2-forza-edition",
@@ -23,7 +56,7 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 1087,
+          "row": 1088,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +89,7 @@
             "Tuner": "SR1 Rain",
             "fill": "FF7030A0"
           },
-          "row": 1084,
+          "row": 1085,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -89,7 +122,7 @@
             "Tuner": "Nomv1",
             "fill": "FF7030A0"
           },
-          "row": 1086,
+          "row": 1087,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -122,7 +155,7 @@
             "Tuner": "DRX Q3",
             "fill": "FF7030A0"
           },
-          "row": 1085,
+          "row": 1086,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -157,7 +190,7 @@
             "Tuner": "ESV Vini",
             "fill": "FF7030A0"
           },
-          "row": 1088,
+          "row": 1089,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -190,7 +223,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FFFF0000"
           },
-          "row": 1083,
+          "row": 1084,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -200,39 +233,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "esv-lawrence"
-    },
-    {
-      "buildTags": [],
-      "carId": "2023-bmw-m2-forza-edition",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-c4f5b37044",
-      "name": "A Road Grip",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2023 BMW M2 Forza Edition",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A Road Grip",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 1082,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],

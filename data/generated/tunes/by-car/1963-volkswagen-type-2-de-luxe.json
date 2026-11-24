@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [],
@@ -42,6 +42,41 @@
       "categories": [
         "meme"
       ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-67f0f87a72",
+      "name": "A - Accel / Grip ( Better than it should be )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1963 Volkswagen Type 2 De Luxe",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Accel / Grip ( Better than it should be )",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FFFF0000"
+          },
+          "row": 3038,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
+      "carId": "1963-volkswagen-type-2-de-luxe",
+      "categories": [
+        "meme"
+      ],
       "class": "B",
       "confidence": 0.35,
       "drivetrain": "AWD",
@@ -70,41 +105,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "sr1-rain"
-    },
-    {
-      "buildTags": [],
-      "carId": "1963-volkswagen-type-2-de-luxe",
-      "categories": [
-        "meme"
-      ],
-      "class": "A",
-      "confidence": 0.35,
-      "drivetrain": "AWD",
-      "id": "nc-a32285c8c6",
-      "name": "A - Accel / Grip ( Better than it should be )",
-      "observations": [
-        {
-          "raw": {
-            "Car": "1963 Volkswagen Type 2 De Luxe",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Accel / Grip ( Better than it should be )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 3024,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.474,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "default",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],

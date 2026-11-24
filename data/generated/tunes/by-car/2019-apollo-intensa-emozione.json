@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [],
@@ -26,7 +26,7 @@
             "Tuner": "DRX Q3",
             "fill": "FF0070C0"
           },
-          "row": 890,
+          "row": 891,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -59,7 +59,7 @@
             "Tuner": "K1Z Jumpy",
             "fill": "FFFF00FF"
           },
-          "row": 897,
+          "row": 898,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -69,42 +69,6 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "k1z-jumpy"
-    },
-    {
-      "buildTags": [],
-      "carId": "2019-apollo-intensa-emozione",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S2",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-0914339fbc",
-      "metaRank": 24,
-      "name": "S2 - Full Grip",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2019 Apollo Intensa Emozione",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S2 - Full Grip",
-            "Tuner": "ESV Rapture",
-            "fill": "FF0070C0"
-          },
-          "row": 891,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.511,
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],
@@ -128,7 +92,7 @@
             "Tuner": "ZVTCJAU",
             "fill": "FF7030A0"
           },
-          "row": 889,
+          "row": 890,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -138,6 +102,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "zvtcjau"
+    },
+    {
+      "buildTags": [],
+      "carId": "2019-apollo-intensa-emozione",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S2",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-3e3ee1400e",
+      "metaRank": 24,
+      "name": "S2 - Full Grip",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2019 Apollo Intensa Emozione",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S2 - Full Grip",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FF0070C0"
+          },
+          "row": 892,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.511,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],
@@ -164,7 +164,7 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 895,
+          "row": 896,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -197,7 +197,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FFFF00FF"
           },
-          "row": 896,
+          "row": 897,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -275,7 +275,7 @@
             "Tuner": "K1Z Howzer",
             "fill": "FF0070C0"
           },
-          "row": 893,
+          "row": 894,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -311,7 +311,7 @@
             "Tuner": "SlowBakedPanda",
             "fill": "FF0070C0"
           },
-          "row": 894,
+          "row": 895,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -408,7 +408,7 @@
             "Tuner": "K1Z Gray",
             "fill": "FF0070C0"
           },
-          "row": 892,
+          "row": 893,
           "sourceId": "kleis",
           "tab": "fh6"
         }

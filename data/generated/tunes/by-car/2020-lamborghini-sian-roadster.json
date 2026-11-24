@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [],
@@ -51,6 +51,42 @@
       ],
       "class": "S1",
       "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-67b3e4038d",
+      "metaRank": 54,
+      "name": "S1 - Road Grip ( Semi Slicks )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2020 Lamborghini Sián Roadster",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "S1 - Road Grip ( Semi Slicks )",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FF7030A0"
+          },
+          "row": 1981,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.571,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
+    },
+    {
+      "buildTags": [],
+      "carId": "2020-lamborghini-sian-roadster",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
       "credited": true,
       "difficulty": "very-easy",
       "drivetrain": "AWD",
@@ -84,42 +120,6 @@
       "tierSource": "meta-table",
       "tires": "rally",
       "tunerId": "letzelu"
-    },
-    {
-      "buildTags": [],
-      "carId": "2020-lamborghini-sian-roadster",
-      "categories": [
-        "off-meta"
-      ],
-      "class": "S1",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-d6e8593839",
-      "metaRank": 54,
-      "name": "S1 - Road Grip ( Semi Slicks )",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2020 Lamborghini Sián Roadster",
-            "Comment": "",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "S1 - Road Grip ( Semi Slicks )",
-            "Tuner": "ESV Rapture",
-            "fill": "FF7030A0"
-          },
-          "row": 1971,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.571,
-      "surface": "road",
-      "tier": "t1",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
     },
     {
       "buildTags": [],

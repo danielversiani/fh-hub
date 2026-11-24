@@ -1,40 +1,6 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
-    {
-      "buildTags": [],
-      "carId": "2015-land-rover-range-rover-sport-svr",
-      "categories": [],
-      "class": "A",
-      "confidence": 0.8,
-      "drivetrain": "AWD",
-      "id": "nc-190efb7071",
-      "metaRank": 154,
-      "name": "A - Road ( Circuit )",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2015 Land Rover Range Rover Sport SVR",
-            "Comment": "Widebody kit",
-            "Design": "",
-            "Designer": "",
-            "Drivetrain": "AWD",
-            "Terrain": "Road",
-            "Tune": "A - Road ( Circuit )",
-            "Tuner": "ESV Rapture",
-            "fill": "FFFF0000"
-          },
-          "row": 2006,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.466,
-      "surface": "road",
-      "tier": "t3",
-      "tierSource": "meta-table",
-      "tunerId": "esv-rapture"
-    },
     {
       "buildTags": [
         "stock-look"
@@ -60,7 +26,7 @@
             "Tuner": "CTE seasons",
             "fill": "FFFF0000"
           },
-          "row": 2005,
+          "row": 2015,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -156,6 +122,40 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [],
+      "carId": "2015-land-rover-range-rover-sport-svr",
+      "categories": [],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-86f8868cd9",
+      "metaRank": 154,
+      "name": "A - Road ( Circuit )",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2015 Land Rover Range Rover Sport SVR",
+            "Comment": "Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "A - Road ( Circuit )",
+            "Tuner": "x R A P 7 U R 3 x",
+            "fill": "FFFF0000"
+          },
+          "row": 2016,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.466,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "meta-table",
+      "tunerId": "x-r-a-p-7-u-r-3-x"
     },
     {
       "buildTags": [],

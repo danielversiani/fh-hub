@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [],
@@ -15,15 +15,15 @@
           "raw": {
             "Car": "2022 Honda E",
             "Comment": "",
-            "Design": "",
-            "Designer": "",
+            "Design": "BONGO CAT",
+            "Designer": "PatrickCC4893",
             "Drivetrain": "AWD",
             "Terrain": "Dirt/CC",
             "Tune": "Hodna E",
             "Tuner": "KapienPL",
             "fill": "FF7030A0"
           },
-          "row": 1784,
+          "row": 1794,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -75,6 +75,44 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "msr-mian"
+    },
+    {
+      "buildTags": [
+        "powerbuild"
+      ],
+      "carId": "2022-honda-e",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-df9eb7941d",
+      "metaRank": 135,
+      "name": "Grocery Getter",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2022 Honda E",
+            "Comment": "Powerbuild",
+            "Design": "TEMU CAR",
+            "Designer": "G3NNG4R",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Grocery Getter",
+            "Tuner": "K1Z Bard",
+            "fill": "FFFF0000"
+          },
+          "row": 1793,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.445,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "k1z-bard"
     }
   ],
   "schemaVersion": 1

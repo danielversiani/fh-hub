@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:54:09.486Z",
+  "generatedAt": "2026-11-24T10:57:36.456Z",
   "items": [
     {
       "buildTags": [
@@ -68,7 +68,7 @@
             "Tuner": "SilvaSUPERBEE",
             "fill": "FFFF0000"
           },
-          "row": 1272,
+          "row": 1274,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -145,7 +145,7 @@
             "Tuner": "Sa1monBark",
             "fill": "FFFF0000"
           },
-          "row": 1271,
+          "row": 1273,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -197,6 +197,45 @@
       "tierSource": "meta-table",
       "tires": "drift",
       "tunerId": "msr-sam"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1968-dodge-dart-hemi-super-stock",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-403c7e31c3",
+      "metaRank": 58,
+      "name": "purist rc",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1968 Dodge Dart Hemi Super Stock",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "purist rc",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 1272,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.477,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [],
