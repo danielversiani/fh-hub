@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:57:36.456Z",
+  "generatedAt": "2026-11-25T04:16:46.504Z",
   "items": [
     {
       "carId": "1965-shelby-cobra-daytona-coupe",
@@ -13,7 +13,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 3,
-      "rivalsTop10": 19,
+      "rivalsTop10": 20,
       "rivalsWins": 2,
       "role": "alternative",
       "sources": 3,
@@ -349,7 +349,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 28,
-      "rivalsTop10": 81,
+      "rivalsTop10": 80,
       "rivalsWins": 7,
       "role": "meta",
       "since": "2026-06-18",
@@ -2046,7 +2046,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 3,
-      "rivalsTop10": 4,
+      "rivalsTop10": 3,
       "role": "alternative",
       "sources": 3,
       "surface": "dirt",
@@ -2663,7 +2663,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 32,
-      "rivalsTop10": 119,
+      "rivalsTop10": 121,
       "rivalsWins": 18,
       "role": "meta",
       "since": "2026-08-23",
@@ -2693,7 +2693,7 @@
       "firstSeen": "2026-05-19",
       "rank": 2,
       "rivalsPicks": 22,
-      "rivalsTop10": 30,
+      "rivalsTop10": 31,
       "rivalsWins": 1,
       "role": "meta",
       "since": "2026-08-23",
@@ -2723,7 +2723,7 @@
       "firstSeen": "2026-05-19",
       "rank": 3,
       "rivalsPicks": 1,
-      "rivalsTop10": 9,
+      "rivalsTop10": 8,
       "rivalsWins": 1,
       "role": "meta",
       "since": "2026-05-25",
@@ -3154,7 +3154,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 15,
-      "rivalsTop10": 2,
+      "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
       "surface": "dirt",
@@ -3308,7 +3308,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 3,
-      "rivalsTop10": 16,
+      "rivalsTop10": 15,
       "rivalsWins": 1,
       "role": "alternative",
       "since": "2026-08-27",
@@ -3898,7 +3898,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 4,
-      "rivalsTop10": 21,
+      "rivalsTop10": 22,
       "rivalsWins": 2,
       "role": "meta",
       "since": "2026-07-01",
@@ -8509,7 +8509,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 8,
-      "rivalsTop10": 138,
+      "rivalsTop10": 137,
       "rivalsWins": 19,
       "role": "meta",
       "since": "2026-08-19",
@@ -8538,7 +8538,7 @@
       "firstSeen": "2026-05-19",
       "rank": 2,
       "rivalsPicks": 16,
-      "rivalsTop10": 56,
+      "rivalsTop10": 55,
       "rivalsWins": 4,
       "role": "meta",
       "since": "2026-08-19",
@@ -8564,7 +8564,7 @@
       "firstSeen": "2026-05-19",
       "rank": 3,
       "rivalsPicks": 27,
-      "rivalsTop10": 36,
+      "rivalsTop10": 34,
       "rivalsWins": 3,
       "role": "meta",
       "since": "2026-08-19",
@@ -8602,34 +8602,6 @@
       "wellKnown": true
     },
     {
-      "carId": "2024-chevrolet-camaro-zl1",
-      "class": "A",
-      "evidence": [
-        {
-          "label": "Meta+",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Allround",
-          "sourceId": "attax-johnson"
-        },
-        {
-          "label": "Meta",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 5,
-      "rivalsTop10": 39,
-      "rivalsWins": 1,
-      "role": "meta",
-      "since": "2026-08-24",
-      "sources": 4,
-      "surface": "road",
-      "tier": "meta",
-      "updated": "2026-08-27"
-    },
-    {
       "carId": "2004-maserati-mc12",
       "class": "A",
       "evidence": [
@@ -8647,8 +8619,8 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 6,
-      "rivalsTop10": 36,
+      "rank": 5,
+      "rivalsTop10": 42,
       "rivalsWins": 4,
       "role": "meta",
       "since": "2026-11-04",
@@ -8656,6 +8628,34 @@
       "surface": "road",
       "tier": "meta",
       "updated": "2026-11-06"
+    },
+    {
+      "carId": "2024-chevrolet-camaro-zl1",
+      "class": "A",
+      "evidence": [
+        {
+          "label": "Meta+",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Allround",
+          "sourceId": "attax-johnson"
+        },
+        {
+          "label": "Meta",
+          "sourceId": "fhstats"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 6,
+      "rivalsTop10": 37,
+      "rivalsWins": 1,
+      "role": "meta",
+      "since": "2026-08-24",
+      "sources": 4,
+      "surface": "road",
+      "tier": "meta",
+      "updated": "2026-08-27"
     },
     {
       "carId": "2018-exomotive-exocet-sport-v8-xp-5",
@@ -9540,7 +9540,7 @@
       "firstSeen": "2026-05-19",
       "rank": 4,
       "rivalsPicks": 6,
-      "rivalsTop10": 3,
+      "rivalsTop10": 2,
       "role": "alternative",
       "sources": 3,
       "surface": "road",
@@ -9609,27 +9609,29 @@
       "updated": "2026-11-09"
     },
     {
-      "carId": "1974-honda-civic-rs",
+      "carId": "2000-honda-prelude-type-sh",
       "class": "B",
       "evidence": [
         {
-          "label": "T0.5",
+          "label": "T1",
           "sourceId": "noa-miyako"
         },
         {
-          "label": "Allround",
-          "sourceId": "attax-johnson"
+          "label": "Offmeta",
+          "sourceId": "fhstats"
         }
       ],
       "firstSeen": "2026-05-19",
       "rank": 8,
       "role": "alternative",
+      "since": "2026-10-08",
       "sources": 2,
       "surface": "road",
-      "tier": "off-meta"
+      "tier": "off-meta",
+      "updated": "2026-10-11"
     },
     {
-      "carId": "1984-honda-civic-crx-mugen",
+      "carId": "1974-honda-civic-rs",
       "class": "B",
       "evidence": [
         {
@@ -9649,6 +9651,26 @@
       "tier": "off-meta"
     },
     {
+      "carId": "1984-honda-civic-crx-mugen",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Allround",
+          "sourceId": "attax-johnson"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 10,
+      "role": "alternative",
+      "sources": 2,
+      "surface": "road",
+      "tier": "off-meta"
+    },
+    {
       "carId": "2019-ginetta-g40-junior",
       "class": "B",
       "evidence": [
@@ -9662,7 +9684,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 10,
+      "rank": 11,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -9682,7 +9704,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 11,
+      "rank": 12,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -9702,7 +9724,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 13,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -9722,7 +9744,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 14,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -9730,24 +9752,6 @@
     },
     {
       "carId": "1957-chevrolet-bel-air",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T0.5",
-          "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 14,
-      "role": "alternative",
-      "since": "2026-11-18",
-      "sources": 1,
-      "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-11-18"
-    },
-    {
-      "carId": "1964-chevrolet-impala-super-sport-409",
       "class": "B",
       "evidence": [
         {
@@ -9765,7 +9769,7 @@
       "updated": "2026-11-18"
     },
     {
-      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
+      "carId": "1964-chevrolet-impala-super-sport-409",
       "class": "B",
       "evidence": [
         {
@@ -9776,12 +9780,14 @@
       "firstSeen": "2026-05-19",
       "rank": 16,
       "role": "alternative",
+      "since": "2026-11-18",
       "sources": 1,
       "surface": "road",
-      "tier": "off-meta"
+      "tier": "off-meta",
+      "updated": "2026-11-18"
     },
     {
-      "carId": "1965-alfa-romeo-giulia-tz2",
+      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
       "class": "B",
       "evidence": [
         {
@@ -9797,7 +9803,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1965-toyota-sports-800",
+      "carId": "1965-alfa-romeo-giulia-tz2",
       "class": "B",
       "evidence": [
         {
@@ -9813,7 +9819,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1968-holden-monaro-gts-327",
+      "carId": "1965-toyota-sports-800",
       "class": "B",
       "evidence": [
         {
@@ -9829,7 +9835,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1970-chevrolet-camaro-z28",
+      "carId": "1968-holden-monaro-gts-327",
       "class": "B",
       "evidence": [
         {
@@ -9845,7 +9851,7 @@
       "tier": "off-meta"
     },
     {
-      "carId": "1970-chevrolet-el-camino-super-sport-454",
+      "carId": "1970-chevrolet-camaro-z28",
       "class": "B",
       "evidence": [
         {
@@ -9855,6 +9861,38 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 21,
+      "role": "alternative",
+      "sources": 1,
+      "surface": "road",
+      "tier": "off-meta"
+    },
+    {
+      "carId": "1970-chevrolet-chevelle-super-sport-454",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 22,
+      "role": "alternative",
+      "sources": 1,
+      "surface": "road",
+      "tier": "off-meta"
+    },
+    {
+      "carId": "1970-chevrolet-el-camino-super-sport-454",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 23,
       "role": "alternative",
       "since": "2026-11-18",
       "sources": 1,
@@ -9872,7 +9910,7 @@
         }
       ],
       "firstSeen": "2026-11-10",
-      "rank": 22,
+      "rank": 24,
       "role": "alternative",
       "since": "2026-11-11",
       "sources": 1,
@@ -9890,7 +9928,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 23,
+      "rank": 25,
       "role": "alternative",
       "since": "2026-11-09",
       "sources": 1,
@@ -9908,7 +9946,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 24,
+      "rank": 26,
       "role": "alternative",
       "since": "2026-11-12",
       "sources": 1,
@@ -9926,7 +9964,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 25,
+      "rank": 27,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9942,7 +9980,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 26,
+      "rank": 28,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9958,7 +9996,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 27,
+      "rank": 29,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9974,7 +10012,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 28,
+      "rank": 30,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -9990,7 +10028,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 29,
+      "rank": 31,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10006,7 +10044,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 30,
+      "rank": 32,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10022,7 +10060,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 31,
+      "rank": 33,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10038,7 +10076,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 32,
+      "rank": 34,
       "role": "alternative",
       "since": "2026-10-28",
       "sources": 1,
@@ -10056,7 +10094,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 33,
+      "rank": 35,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10072,7 +10110,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 34,
+      "rank": 36,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10088,7 +10126,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 35,
+      "rank": 37,
       "role": "alternative",
       "since": "2026-10-30",
       "sources": 1,
@@ -10106,7 +10144,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 36,
+      "rank": 38,
       "role": "alternative",
       "since": "2026-10-28",
       "sources": 1,
@@ -10124,7 +10162,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 37,
+      "rank": 39,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10140,7 +10178,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 38,
+      "rank": 40,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10156,7 +10194,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 39,
+      "rank": 41,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10172,7 +10210,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 40,
+      "rank": 42,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10188,7 +10226,7 @@
         }
       ],
       "firstSeen": "2026-11-19",
-      "rank": 41,
+      "rank": 43,
       "role": "alternative",
       "since": "2026-11-21",
       "sources": 1,
@@ -10206,7 +10244,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 42,
+      "rank": 44,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10222,7 +10260,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 43,
+      "rank": 45,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10238,7 +10276,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 44,
+      "rank": 46,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10254,7 +10292,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 45,
+      "rank": 47,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10270,7 +10308,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 46,
+      "rank": 48,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10286,7 +10324,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 47,
+      "rank": 49,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10302,7 +10340,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 48,
+      "rank": 50,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10318,7 +10356,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 49,
+      "rank": 51,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10334,7 +10372,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 50,
+      "rank": 52,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10350,7 +10388,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 51,
+      "rank": 53,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10366,7 +10404,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 52,
+      "rank": 54,
       "role": "alternative",
       "since": "2026-11-03",
       "sources": 1,
@@ -10384,7 +10422,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 53,
+      "rank": 55,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10400,7 +10438,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 54,
+      "rank": 56,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10416,7 +10454,7 @@
         }
       ],
       "firstSeen": "2026-11-15",
-      "rank": 55,
+      "rank": 57,
       "role": "alternative",
       "since": "2026-11-16",
       "sources": 1,
@@ -10434,7 +10472,7 @@
         }
       ],
       "firstSeen": "2026-11-15",
-      "rank": 56,
+      "rank": 58,
       "role": "alternative",
       "since": "2026-11-16",
       "sources": 1,
@@ -10452,7 +10490,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 57,
+      "rank": 59,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10468,7 +10506,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 58,
+      "rank": 60,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10484,7 +10522,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 59,
+      "rank": 61,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10500,7 +10538,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 60,
+      "rank": 62,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10516,7 +10554,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 61,
+      "rank": 63,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10532,7 +10570,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 62,
+      "rank": 64,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10548,7 +10586,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 63,
+      "rank": 65,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10564,7 +10602,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 64,
+      "rank": 66,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10580,7 +10618,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 65,
+      "rank": 67,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -10606,7 +10644,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 1,
-      "rivalsTop10": 151,
+      "rivalsTop10": 156,
       "rivalsWins": 18,
       "role": "meta",
       "since": "2026-08-19",
@@ -10636,7 +10674,7 @@
       "firstSeen": "2026-05-19",
       "rank": 2,
       "rivalsPicks": 6,
-      "rivalsTop10": 71,
+      "rivalsTop10": 72,
       "rivalsWins": 8,
       "role": "meta",
       "since": "2026-08-19",
@@ -10810,23 +10848,6 @@
       "tier": "other"
     },
     {
-      "carId": "1970-chevrolet-chevelle-super-sport-454",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T0.5",
-          "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 5,
-      "rivalsTop10": 1,
-      "role": "other",
-      "sources": 2,
-      "surface": "road",
-      "tier": "other"
-    },
-    {
       "carId": "1972-mazda-cosmo-110s-series-ii",
       "class": "B",
       "evidence": [
@@ -10836,7 +10857,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 6,
+      "rank": 5,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -10857,7 +10878,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 7,
+      "rank": 6,
       "rivalsPicks": 2,
       "rivalsTop10": 5,
       "rivalsWins": 1,
@@ -10879,8 +10900,8 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 8,
-      "rivalsTop10": 2,
+      "rank": 7,
+      "rivalsTop10": 1,
       "role": "other",
       "since": "2026-10-28",
       "sources": 2,
@@ -10898,7 +10919,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 9,
+      "rank": 8,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -10915,7 +10936,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 10,
+      "rank": 9,
       "rivalsTop10": 1,
       "rivalsWins": 1,
       "role": "other",
@@ -10935,7 +10956,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 11,
+      "rank": 10,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -10952,7 +10973,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 11,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -10969,7 +10990,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 12,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -10989,7 +11010,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 14,
+      "rank": 13,
       "role": "other",
       "sources": 2,
       "surface": "road",
@@ -11005,7 +11026,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 15,
+      "rank": 14,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11021,7 +11042,7 @@
         }
       ],
       "firstSeen": "2026-11-17",
-      "rank": 16,
+      "rank": 15,
       "role": "other",
       "since": "2026-11-18",
       "sources": 1,
@@ -11039,7 +11060,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 17,
+      "rank": 16,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11055,34 +11076,11 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 18,
+      "rank": 17,
       "role": "other",
       "sources": 1,
       "surface": "road",
       "tier": "other"
-    },
-    {
-      "carId": "2000-honda-prelude-type-sh",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T1",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Offmeta",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 19,
-      "rivalsTop10": 1,
-      "role": "other",
-      "since": "2026-10-08",
-      "sources": 3,
-      "surface": "road",
-      "tier": "other",
-      "updated": "2026-10-11"
     },
     {
       "carId": "2024-toyota-prius-prime-xse-premium",
@@ -11094,7 +11092,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 20,
+      "rank": 18,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -11111,7 +11109,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 21,
+      "rank": 19,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11127,7 +11125,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 22,
+      "rank": 20,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11525,7 +11523,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 1,
-      "rivalsTop10": 156,
+      "rivalsTop10": 157,
       "rivalsWins": 20,
       "role": "meta",
       "since": "2026-08-19",
@@ -11555,7 +11553,7 @@
       "firstSeen": "2026-05-19",
       "rank": 2,
       "rivalsPicks": 23,
-      "rivalsTop10": 57,
+      "rivalsTop10": 58,
       "rivalsWins": 12,
       "role": "meta",
       "since": "2026-08-19",
@@ -12618,27 +12616,6 @@
       "updated": "2026-11-04"
     },
     {
-      "carId": "2020-chevrolet-corvette-stingray-coupe",
-      "class": "S1",
-      "evidence": [
-        {
-          "label": "T0.5",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Allround",
-          "sourceId": "attax-johnson"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 4,
-      "rivalsPicks": 2,
-      "role": "alternative",
-      "sources": 3,
-      "surface": "road",
-      "tier": "off-meta"
-    },
-    {
       "carId": "2024-mercedes-amg-gt-63-4matic",
       "class": "S1",
       "evidence": [
@@ -12656,7 +12633,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 5,
+      "rank": 4,
       "role": "alternative",
       "since": "2026-10-30",
       "sources": 3,
@@ -12678,8 +12655,8 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 6,
-      "rivalsTop10": 7,
+      "rank": 5,
+      "rivalsTop10": 8,
       "rivalsWins": 1,
       "role": "alternative",
       "since": "2026-11-03",
@@ -12702,7 +12679,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 7,
+      "rank": 6,
       "rivalsTop10": 4,
       "rivalsWins": 1,
       "role": "alternative",
@@ -12724,7 +12701,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 8,
+      "rank": 7,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12744,7 +12721,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 9,
+      "rank": 8,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12764,7 +12741,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 10,
+      "rank": 9,
       "role": "alternative",
       "since": "2026-10-09",
       "sources": 2,
@@ -12786,7 +12763,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 11,
+      "rank": 10,
       "role": "alternative",
       "since": "2026-10-25",
       "sources": 2,
@@ -12808,7 +12785,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 11,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12828,7 +12805,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 12,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12848,7 +12825,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 14,
+      "rank": 13,
       "role": "alternative",
       "since": "2026-06-25",
       "sources": 2,
@@ -12870,7 +12847,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 15,
+      "rank": 14,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12890,7 +12867,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 16,
+      "rank": 15,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12910,7 +12887,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 17,
+      "rank": 16,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12930,7 +12907,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 18,
+      "rank": 17,
       "role": "alternative",
       "since": "2026-05-18",
       "sources": 2,
@@ -12952,7 +12929,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 19,
+      "rank": 18,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12972,7 +12949,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 20,
+      "rank": 19,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -12992,7 +12969,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 21,
+      "rank": 20,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13012,7 +12989,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 22,
+      "rank": 21,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13028,7 +13005,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 23,
+      "rank": 22,
       "rivalsPicks": 1,
       "role": "alternative",
       "sources": 2,
@@ -13049,7 +13026,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 24,
+      "rank": 23,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13069,7 +13046,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 25,
+      "rank": 24,
       "role": "alternative",
       "since": "2026-08-23",
       "sources": 2,
@@ -13091,7 +13068,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 26,
+      "rank": 25,
       "role": "alternative",
       "since": "2026-10-08",
       "sources": 2,
@@ -13113,7 +13090,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 27,
+      "rank": 26,
       "role": "alternative",
       "since": "2026-11-21",
       "sources": 2,
@@ -13135,7 +13112,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 28,
+      "rank": 27,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13151,7 +13128,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 29,
+      "rank": 28,
       "rivalsPicks": 2,
       "role": "alternative",
       "sources": 2,
@@ -13172,7 +13149,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 30,
+      "rank": 29,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13192,7 +13169,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 31,
+      "rank": 30,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13212,7 +13189,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 32,
+      "rank": 31,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13232,7 +13209,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 33,
+      "rank": 32,
       "role": "alternative",
       "since": "2026-10-11",
       "sources": 2,
@@ -13254,7 +13231,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 34,
+      "rank": 33,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13274,7 +13251,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 35,
+      "rank": 34,
       "role": "alternative",
       "since": "2026-06-11",
       "sources": 2,
@@ -13296,7 +13273,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 36,
+      "rank": 35,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13316,7 +13293,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 37,
+      "rank": 36,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13336,7 +13313,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 38,
+      "rank": 37,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13356,7 +13333,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 39,
+      "rank": 38,
       "role": "alternative",
       "since": "2026-10-23",
       "sources": 2,
@@ -13378,7 +13355,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 40,
+      "rank": 39,
       "role": "alternative",
       "sources": 2,
       "surface": "road",
@@ -13394,7 +13371,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 41,
+      "rank": 40,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13410,7 +13387,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 42,
+      "rank": 41,
       "role": "alternative",
       "since": "2026-08-19",
       "sources": 1,
@@ -13428,7 +13405,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 43,
+      "rank": 42,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13444,7 +13421,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 44,
+      "rank": 43,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13460,7 +13437,7 @@
         }
       ],
       "firstSeen": "2026-11-22",
-      "rank": 45,
+      "rank": 44,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13476,7 +13453,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 46,
+      "rank": 45,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13492,7 +13469,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 47,
+      "rank": 46,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13508,7 +13485,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 48,
+      "rank": 47,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13524,7 +13501,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 49,
+      "rank": 48,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13540,7 +13517,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 50,
+      "rank": 49,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13556,7 +13533,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 51,
+      "rank": 50,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13572,7 +13549,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 52,
+      "rank": 51,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13588,7 +13565,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 53,
+      "rank": 52,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13604,7 +13581,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 54,
+      "rank": 53,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13620,7 +13597,7 @@
         }
       ],
       "firstSeen": "2026-11-12",
-      "rank": 55,
+      "rank": 54,
       "role": "alternative",
       "since": "2026-11-12",
       "sources": 1,
@@ -13638,7 +13615,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 56,
+      "rank": 55,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13654,7 +13631,7 @@
         }
       ],
       "firstSeen": "2026-11-12",
-      "rank": 57,
+      "rank": 56,
       "role": "alternative",
       "since": "2026-11-06",
       "sources": 1,
@@ -13672,7 +13649,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 58,
+      "rank": 57,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13688,7 +13665,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 59,
+      "rank": 58,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13704,7 +13681,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 60,
+      "rank": 59,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13720,7 +13697,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 61,
+      "rank": 60,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13736,7 +13713,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 62,
+      "rank": 61,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13752,7 +13729,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 63,
+      "rank": 62,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13768,7 +13745,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 64,
+      "rank": 63,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13784,7 +13761,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 65,
+      "rank": 64,
       "role": "alternative",
       "since": "2026-07-06",
       "sources": 1,
@@ -13802,7 +13779,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 66,
+      "rank": 65,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13818,7 +13795,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 67,
+      "rank": 66,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13834,7 +13811,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 68,
+      "rank": 67,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13850,7 +13827,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 69,
+      "rank": 68,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13866,7 +13843,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 70,
+      "rank": 69,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13882,7 +13859,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 71,
+      "rank": 70,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13898,7 +13875,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 72,
+      "rank": 71,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13914,7 +13891,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 73,
+      "rank": 72,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13930,7 +13907,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 74,
+      "rank": 73,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13946,7 +13923,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 75,
+      "rank": 74,
       "role": "alternative",
       "sources": 1,
       "surface": "road",
@@ -13972,7 +13949,7 @@
       "firstSeen": "2026-05-19",
       "rank": 1,
       "rivalsPicks": 12,
-      "rivalsTop10": 215,
+      "rivalsTop10": 214,
       "rivalsWins": 21,
       "role": "meta",
       "since": "2026-10-07",
@@ -14177,7 +14154,7 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 8,
-      "rivalsTop10": 25,
+      "rivalsTop10": 26,
       "rivalsWins": 3,
       "role": "meta",
       "since": "2026-08-19",
@@ -14210,7 +14187,7 @@
       "firstSeen": "2026-05-19",
       "rank": 9,
       "rivalsPicks": 15,
-      "rivalsTop10": 16,
+      "rivalsTop10": 15,
       "rivalsWins": 2,
       "role": "meta",
       "since": "2026-08-19",
@@ -14382,9 +14359,8 @@
         "pt-br": "Muito bom em sprints com curvas de média e alta velocidade, como o Satta Sprint."
       },
       "rank": 1,
-      "rivalsTop10": 1,
       "role": "niche",
-      "sources": 2,
+      "sources": 1,
       "surface": "road",
       "tier": "niche"
     },
@@ -14554,6 +14530,28 @@
       "updated": "2026-10-25"
     },
     {
+      "carId": "2020-chevrolet-corvette-stingray-coupe",
+      "class": "S1",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Allround",
+          "sourceId": "attax-johnson"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 8,
+      "rivalsPicks": 2,
+      "rivalsTop10": 1,
+      "role": "other",
+      "sources": 4,
+      "surface": "road",
+      "tier": "other"
+    },
+    {
       "carId": "2024-chevrolet-camaro-zl1",
       "class": "S1",
       "evidence": [
@@ -14563,7 +14561,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 8,
+      "rank": 9,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -14580,7 +14578,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 9,
+      "rank": 10,
       "rivalsTop10": 2,
       "role": "other",
       "sources": 2,
@@ -14597,7 +14595,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 10,
+      "rank": 11,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14613,7 +14611,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 11,
+      "rank": 12,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14629,7 +14627,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 13,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14649,7 +14647,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 14,
       "role": "other",
       "sources": 2,
       "surface": "road",
@@ -14665,7 +14663,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 14,
+      "rank": 15,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14681,7 +14679,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 15,
+      "rank": 16,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14701,7 +14699,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 16,
+      "rank": 17,
       "role": "other",
       "sources": 2,
       "surface": "road",
@@ -14717,7 +14715,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 17,
+      "rank": 18,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14733,7 +14731,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 18,
+      "rank": 19,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14749,7 +14747,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 19,
+      "rank": 20,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14769,7 +14767,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 20,
+      "rank": 21,
       "role": "other",
       "sources": 2,
       "surface": "road",
@@ -14785,7 +14783,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 21,
+      "rank": 22,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14801,7 +14799,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 22,
+      "rank": 23,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14817,7 +14815,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 23,
+      "rank": 24,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14833,7 +14831,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 24,
+      "rank": 25,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -14853,7 +14851,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 25,
+      "rank": 26,
       "rivalsTop10": 1,
       "role": "other",
       "since": "2026-08-25",
@@ -14872,7 +14870,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 26,
+      "rank": 27,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -14889,7 +14887,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 27,
+      "rank": 28,
       "role": "other",
       "sources": 1,
       "surface": "road",
