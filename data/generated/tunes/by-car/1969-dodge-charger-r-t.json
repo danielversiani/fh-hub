@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:57:36.456Z",
+  "generatedAt": "2026-11-25T23:39:04.906Z",
   "items": [
     {
       "buildTags": [
@@ -235,17 +235,50 @@
       "tunerId": "k1z-jumpy"
     },
     {
+      "buildTags": [],
+      "carId": "1969-dodge-charger-r-t",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-a17dbea1ac",
+      "metaRank": 5,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 12,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "power",
+      "score": 0.648,
+      "surface": "dirt",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "zookiiwi"
+    },
+    {
       "buildTags": [
         "purist"
       ],
       "carId": "1969-dodge-charger-r-t",
       "categories": [
+        "meta",
         "purist"
       ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "RWD",
       "id": "nc-ba050de826",
+      "metaRank": 5,
       "name": "Dirt Purist",
       "observations": [
         {
@@ -265,10 +298,10 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.58,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "ams-carver"
     },
     {
@@ -341,11 +374,14 @@
     {
       "buildTags": [],
       "carId": "1969-dodge-charger-r-t",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-f990440efd",
+      "metaRank": 5,
       "name": "B Dirt Meta (Balanced)",
       "observations": [
         {
@@ -365,20 +401,23 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.58,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
     },
     {
       "buildTags": [],
       "carId": "1969-dodge-charger-r-t",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.4,
+      "confidence": 0.85,
       "createdAt": "2026-08-27",
       "id": "sc-962723347",
+      "metaRank": 5,
       "name": "B Dirt - Gauntlet WR (11:10)",
       "notes": "The Gauntlet world-record tune (11:10), also recommended for B Dirt Online.",
       "observations": [
@@ -389,11 +428,11 @@
           "tab": "online"
         }
       ],
-      "score": 0.519,
+      "score": 0.595,
       "shareCode": "962723347",
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "meta",
+      "tierSource": "meta-table",
       "tunerId": "falken-jp"
     }
   ],

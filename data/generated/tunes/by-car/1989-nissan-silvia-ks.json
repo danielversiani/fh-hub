@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:57:36.456Z",
+  "generatedAt": "2026-11-25T23:39:04.906Z",
   "items": [
     {
       "buildTags": [
@@ -973,6 +973,87 @@
       "tierSource": "meta-table",
       "tires": "stock",
       "tunerId": "lphanhan"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-28",
+      "drivetrain": "RWD",
+      "id": "sc-175563878",
+      "metaRank": 3,
+      "name": "GRIP PURIST WEEKLY",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-05-28",
+            "Difficulty": "Medium-Easy",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Nissan",
+            "Model/Car": "89 Silvia K's",
+            "Sharecode": "175 563 878",
+            "Tune Name": "GRIP PURIST WEEKLY",
+            "Tuner": "Stevio2175",
+            "Tyre Compound": "Street"
+          },
+          "row": 5,
+          "sourceId": "forza-paddock",
+          "tab": "b-600-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.562,
+      "shareCode": "175563878",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "street",
+      "tunerId": "stevio2175"
+    },
+    {
+      "buildTags": [],
+      "carId": "1989-nissan-silvia-ks",
+      "categories": [],
+      "class": "C",
+      "confidence": 0.4,
+      "createdAt": "2026-10-25",
+      "difficulty": "easy",
+      "drivetrain": "RWD",
+      "id": "sc-221855315",
+      "name": "Welcome To Horizon!",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-10-25",
+            "Difficulty": "Easy",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Nissan",
+            "Model/Car": "89 Silvia K's",
+            "Sharecode": "221 855 315",
+            "Tune Name": "Welcome To Horizon!",
+            "Tuner": "zombiejesus52",
+            "Tyre Compound": "Standard"
+          },
+          "row": 5,
+          "sourceId": "forza-paddock",
+          "tab": "c-500-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.556,
+      "shareCode": "221855315",
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tires": "stock",
+      "tunerId": "zombiejesus52"
     }
   ],
   "schemaVersion": 1
