@@ -3,6 +3,7 @@ import type { Locale } from '../i18n';
 import { GuideHeader } from './guide-header';
 import { fillDecks } from './guide-decks';
 import { fillTunePicks } from './guide-picks';
+import { fillRaceTables } from './guide-races';
 
 export interface Guide extends GuideHeader {
   slug: string;
@@ -26,7 +27,8 @@ const all: Guide[] = Object.entries(files).map(([file, md]) => {
     ...header.data,
     slug: slug!,
     locale,
-    html: async () => fillDecks(fillTunePicks(await md.compiledContent(), locale), locale),
+    html: async () =>
+      fillDecks(fillTunePicks(fillRaceTables(await md.compiledContent(), locale), locale), locale),
   };
 });
 

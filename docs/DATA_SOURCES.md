@@ -227,6 +227,7 @@ fhstats não é planilha: a amostra guarda os dados já extraídos da página (`
 ### `base-events`: eventos-base do mapa
 - Não foi encontrada fonte estruturada e reutilizável. Será um **levantamento próprio** em `data/manual/base-events.yaml` (nome, disciplina, formato, restrição de classe e tipo de carro, wristband exigido, região), validado no jogo.
 - Referências só para conferência (não copiar texto): guias do MapMaster (ex.: 22 eventos de Road Racing) e guides4gamers.
+- **Corridas do guia "Comece aqui" ([ADR-0024](adr/0024-secao-de-guias-para-iniciantes.md)):** `data/guides/festival-races.yaml` tem, à mão, as 64 corridas do Festival das páginas de Road Racing, Dirt Racing e Cross Country do guides4gamers (lidas em 2026-11-25): a restrição (classe e grupo de carro) e o evento de pulseira que libera cada uma. São fatos, citados nas fontes do guia; nenhum texto é copiado. Não cobre Street Racing, Drag, Touge e PR Stunts, e algumas corridas não têm classe na fonte. Em 2026-11-26 o dono conferiu no jogo as 17 corridas de asfalto que já tem (campo `checked`), todas iguais à fonte; faltam as de terra e de cross country. Edamame Circuit e Edo Circuit (da atualização City Life) não aparecem nas tabelas: a fonte não diz que pulseira as libera (o Edo Circuit está no arquivo, com a restrição vista pelo dono). As corridas de rua não têm restrição de carro, e os touge só travam a classe.
 
 ## Candidatas
 

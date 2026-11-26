@@ -41,6 +41,18 @@ sources:
     url: 'https://gamerant.com/forza-horizon-6-ps5-release-date-pre-order/'
   - label: 'Game Informer: FH6 no PS5 em 2027 (08/10/2026)'
     url: 'https://gameinformer.com/2026/10/08/forza-horizon-6-on-ps5-delayed-to-2027-will-launch-alongside-games-first-premium'
+  - label: 'TechWiser: os eventos de pulseira (03/06/2026)'
+    url: 'https://techwiser.com/forza-horizon-6-wristband-events/'
+  - label: 'MapMaster: eventos de pulseira, ordem e recompensas'
+    url: 'https://mapmaster.io/games/forza-horizon-6/guides/Horizon%20Event'
+  - label: 'game.wiki: Wristband Events'
+    url: 'https://game.wiki/forza-horizon-6/wristband-events'
+  - label: 'guides4gamers: Road Racing, restrição e pulseira de cada corrida (lido em 25/11/2026)'
+    url: 'https://guides4gamers.com/forza-horizon-6/pois/road-racing/'
+  - label: 'guides4gamers: Dirt Racing (lido em 25/11/2026)'
+    url: 'https://guides4gamers.com/forza-horizon-6/pois/dirt-racing/'
+  - label: 'guides4gamers: Cross Country (lido em 25/11/2026)'
+    url: 'https://guides4gamers.com/forza-horizon-6/pois/cross-country/'
   - label: 'Catálogo Forza Paddock: classe de fábrica dos carros, tunes e meta por classe'
     url: 'https://forzapaddock.racing/meta/'
 ---
@@ -74,13 +86,13 @@ O progresso dos carimbos fica em **Menu da campanha › Collection Journal › D
 
 | Pulseira | Libera                                                        |
 | -------- | ------------------------------------------------------------- |
-| Yellow   | O Festival em si (sai nas Qualifiers + Invitational)          |
-| Green    | Eventos de classe C e D                                       |
-| Blue     | Eventos de classe B e os Time Attack Circuits                 |
-| Pink     | Eventos de classe A e os Drag Meets                           |
+| Yellow   | O Festival e as primeiras corridas de classe B (sai nas Qualifiers + Invitational) |
+| Green    | Corridas de classe B                                          |
+| Blue     | Corridas de classe A e os Time Attack Circuits                |
+| Pink     | Mais corridas de classe A e os Drag Meets                     |
 | Orange   | Eventos de classe S1 e mais Street Racing                     |
 | Purple   | Eventos de classe S2 (os hipercarros) e mais Touge Showdowns  |
-| Gold     | Legend Island, classe R e a corrida mais longa (The Colossus) |
+| Gold     | Legend Island, classe R e a corrida mais longa (The Goliath)  |
 
 </div>
 
@@ -226,7 +238,7 @@ Também há atividades em grupo: LINK Skills, eventos compartilhados do Festival
 
 **2. As qualificações.** São seis eventos de classe C. O carro de cada um está na aba da **pulseira amarela**, logo abaixo.
 
-**3. O Horizon Invitational e a primeira pulseira.** Ao fechar as qualificações e o Invitational, você ganha a pulseira amarela e três carros de brinde: Toyota GR86 2022, Mitsubishi Lancer Evolution VI GSR TM Edition 2001 e Ram 1500 TRX 2024. Os três vêm de fábrica na **classe B**, então não servem nos eventos de classe C, só a partir da pulseira azul.
+**3. O Horizon Invitational e a primeira pulseira.** Ao fechar as qualificações e o Invitational, você ganha a pulseira amarela e três carros de brinde: Toyota GR86 2022, Mitsubishi Lancer Evolution VI GSR TM Edition 2001 e Ram 1500 TRX 2024. Os três vêm de fábrica na **classe B**, e cada um serve numa das corridas que a amarela libera.
 
 **4. Depois da primeira pulseira:**
 
@@ -241,23 +253,35 @@ Também há atividades em grupo: LINK Skills, eventos compartilhados do Festival
 
 ## Carros e tunes por pulseira
 
-Cada pulseira abre uma classe nova. Abra a aba da pulseira em que você está: ela mostra carros grátis ou baratos, fáceis de pilotar e sem DLC, cada um com tunes do catálogo do site. Aplique o tune e confira se o PI continua dentro da classe do evento.
+Cada pulseira libera um grupo de corridas, e **cada corrida aceita só um grupo de carros, numa classe**. O Festival Sprint, por exemplo, pede "B · Super Hot Hatch Cars". A restrição aparece no cartão do evento, no mapa. As corridas de rua (Street Racing) não têm restrição de carro, e os touge só travam a classe. Abra a aba da pulseira em que você está. Ela mostra:
+
+- o evento que vale a pulseira (nele, o jogo define o carro);
+- as corridas que ela libera, com a restrição de cada uma e um carro que entra nela;
+- os tunes do catálogo do site para esses carros, com as corridas em que cada um serve.
+
+Aplique o tune e confira se o PI continua dentro da classe da corrida. Quando a corrida não tem classe, vale qualquer carro do grupo, em qualquer classe; a caixa usa a classe da pulseira.
+
+- **Primeiro, os carros que você já tem.** O jogo dá um carro para cada tipo de corrida do começo: o Silvia K's no asfalto, o Celica na terra e o Jimmy no cross country. Os brindes da amarela servem, cada um, numa das corridas que ela libera. Carro para comprar só aparece quando nenhum dos seus entra na corrida.
+- **Tração original, sempre que der.** Os tunes de meta costumam trocar a tração e o motor, e essas peças são caras. A troca de motor quase nenhuma fonte informa.
+- **Só tunes fáceis de guiar.** Os powerbuilds, como os de tração traseira com mais de 1000 cv, e os tunes marcados como difíceis ficam de fora. Nas caixas vêm primeiro os tunes escolhidos pelo Forza Paddock, depois os que mantêm a tração original e os fáceis. Cada tune diz se mantém a tração, que pneu usa e se é fácil, quando a fonte informa.
+- **Pneu de rali ou off-road serve nos dois pisos até a classe B,** via de regra, ainda mais com os Drivatars numa dificuldade menor. Assim você economiza créditos no começo: o mesmo tune de terra serve nas corridas de cross country que pedem carro de rali.
+- **Carros de DLC** (Car Pass, Welcome Pack e os pacotes de carros) só aparecem como menção, para quem já os tem.
 
 <details class="band band-yellow">
-<summary>Pulseira amarela · classe C: as qualificações</summary>
+<summary>Pulseira amarela · classe C e as primeiras corridas de classe B</summary>
 
-Até a pulseira amarela, só correm carros **classe C** (até 500 de PI). Os três carros iniciais dão conta das seis qualificações:
+Até a pulseira amarela, só correm carros **classe C** (até 500 de PI). Cada carro inicial serve numa das seis qualificações:
 
 <div class="table-wrap">
 
-| Evento                  | Tipo                  | Piso    | Carro sugerido       | Por quê                                         |
-| ----------------------- | --------------------- | ------- | -------------------- | ----------------------------------------------- |
-| River Split             | Speed Trap (PR Stunt) | Asfalto | Silvia K's ou Celica | Só conta a velocidade num ponto                 |
-| Airfield Trail          | Trail Race            | Terra   | GMC Jimmy            | Tração 4x4 e o melhor off-road dos três         |
-| Shirakawa Circuit       | Circuit Race          | Asfalto | Silvia K's           | Fácil de guiar em curvas; veja o traçado abaixo |
-| Highway View            | Speed Zone (PR Stunt) | Asfalto | Silvia K's ou Celica | Velocidade média num trecho                     |
-| Wind Farm Cross Country | Cross Country         | Misto   | GMC Jimmy            | Terra, grama e saltos                           |
-| Hokubu Time Attack      | Time Attack           | Asfalto | Silvia K's ou Celica | Volta cronometrada, sem rivais                  |
+| Evento                  | Tipo                  | Piso    | Carro sugerido        | Por quê                                                  |
+| ----------------------- | --------------------- | ------- | --------------------- | -------------------------------------------------------- |
+| River Split             | Speed Trap (PR Stunt) | Asfalto | Silvia K's ou Celica  | Só conta a velocidade num ponto                          |
+| Airfield Trail          | Trail Race            | Terra   | Toyota Celica GT-Four | Pede carro de rali (C · Total Rally): só o Celica entra  |
+| Shirakawa Circuit       | Circuit Race          | Asfalto | Nissan Silvia K's     | Pede C · Retro Sports Cars: só o Silvia entra            |
+| Highway View            | Speed Zone (PR Stunt) | Asfalto | Silvia K's ou Celica  | Velocidade média num trecho                              |
+| Wind Farm Cross Country | Cross Country         | Misto   | GMC Jimmy             | Pede C · Pickups & 4x4s: só o Jimmy entra                |
+| Hokubu Time Attack      | Time Attack           | Asfalto | Silvia K's ou Celica  | Volta cronometrada, sem rivais                           |
 
 </div>
 
@@ -265,156 +289,110 @@ Para a Shirakawa, o Paddock Lab tem a [pista em 3D com os traçados](/tracks/shi
 
 **Os carros iniciais:**
 
-- **Nissan Silvia K's 1989** (tração traseira): o mais fácil de guiar no asfalto, a escolha mais segura para começar. Fraco na terra.
+- **Nissan Silvia K's 1989** (tração traseira): o mais fácil de guiar no asfalto. O primeiro tune é a escolha do Forza Paddock.
 
 <tune-picks car="1989-nissan-silvia-ks" class="C" surface="road"></tune-picks>
 
-- **Toyota Celica GT-Four ST205 1994** (4x4): rápido e equilibrado, mas freia mal e sofre nas curvas fechadas. Também anda bem na terra.
+- **Toyota Celica GT-Four ST205 1994** (4x4): o carro de rali. Rápido e equilibrado, mas freia mal e sofre nas curvas fechadas.
 
 <tune-picks car="1994-toyota-celica-gt-four-st205" class="C" surface="dirt"></tune-picks>
 
-- **GMC Jimmy 1970** (4x4): o melhor dos três fora do asfalto, entre os melhores da classe C na terra e **muito fácil de pilotar**.
-
-<tune-picks car="1970-gmc-jimmy" class="C" surface="dirt"></tune-picks>
+- **GMC Jimmy 1970** (4x4): a picape, **muito fácil de pilotar** na grama e nos saltos.
 
 <tune-picks car="1970-gmc-jimmy" class="C" surface="cross-country"></tune-picks>
 
-<details>
-<summary>Se quiser comprar um carro barato de classe C</summary>
+**Para ganhar a amarela:** o **Horizon Invitational**, depois das seis qualificações. Ele dá três carros de brinde, já na classe B (Toyota GR86, Lancer Evolution VI e Ram 1500 TRX), e libera as primeiras corridas de classe B, uma para cada brinde:
 
-Estes estão entre os melhores da classe C, são **fáceis de pilotar** e têm tune com código.
-
-**Asfalto: Acura Integra A-Spec 2023.** Já vem em C 484 de fábrica, no meta da classe e muito fácil de pilotar. Um dos tunes faz a Shirakawa em 1:10.3.
-
-<tune-picks car="2023-acura-integra-a-spec" class="C" surface="road"></tune-picks>
-
-**Terra (e asfalto): Honda Civic Si 1986.** Vem em D 253 de fábrica e, com o tune, sobe para a classe C. Está no topo da classe C na terra e serve também no asfalto.
-
-<tune-picks car="1986-honda-civic-si" class="C" surface="dirt"></tune-picks>
-
-**O mais barato: Honda Beat 1991.** Vem em D 283 e, com tune, vira um dos bons carros de asfalto da classe C. O jogo também dá o Beat pelo Collection Journal.
-
-<tune-picks car="1991-honda-beat" class="C" surface="road"></tune-picks>
-
-> **E os carros de três rodas?** O Peel P50 e o Reliant Supervan III lideram a classe C no asfalto, mas são **muito difíceis de pilotar**. Não são uma boa escolha para quem está começando.
-
-</details>
+<festival-races unlock="yellow"></festival-races>
 
 </details>
 
 <details class="band band-green">
-<summary>Pulseira verde · classes C e D</summary>
+<summary>Pulseira verde · classe B</summary>
 
-Os carros da pulseira amarela continuam servindo nos eventos de classe C. Para os eventos de **classe D**, o **Honda Civic Si 1986** vem em D 253 de fábrica e tem tune de classe D.
+**Para ganhar a verde:** o Horizon Rush **Pier Pressure**, nas docas de Tokyo City. O jogo põe você num Ford RS200 Evolution. Ela libera 25 eventos; estas são as corridas:
 
-<tune-picks car="1986-honda-civic-si" class="D"></tune-picks>
+<festival-races unlock="green"></festival-races>
 
 </details>
 
 <details class="band band-blue">
-<summary>Pulseira azul · classe B e Time Attack</summary>
+<summary>Pulseira azul · classe A e Time Attack</summary>
 
-Agora os três carros de brinde da primeira pulseira entram em ação, e dois carros grátis pelo Collection Journal estão entre os melhores da classe B.
+**Para ganhar a azul:** o Showcase **Mech My Day**, contra o robô gigante Chaser Zero, em Ohtani. O jogo põe você num Acura NSX Type S. Ela libera 26 eventos, inclusive os Time Attack, cada um com a sua restrição. Estas são as corridas:
 
-**Cross country: Ram 1500 TRX 2024** (brinde da primeira pulseira).
-
-<tune-picks car="2024-ram-1500-trx" class="B" surface="cross-country"></tune-picks>
-
-**Asfalto: Honda City E-II 1984.** No meta da classe B no asfalto, muito fácil de pilotar, e o jogo também o dá pelo Collection Journal.
-
-<tune-picks car="1984-honda-city-e-ii" class="B" surface="road"></tune-picks>
-
-**Terra e asfalto: Honda Beat 1991.** O mesmo Beat da classe C: com outro tune, está no topo da classe B na terra e no meta do asfalto.
-
-<tune-picks car="1991-honda-beat" class="B" surface="dirt"></tune-picks>
-
-**Asfalto: Toyota GR86 2022** (brinde da primeira pulseira).
-
-<tune-picks car="2022-toyota-gr86" class="B" surface="road"></tune-picks>
-
-**Cross country, se quiser comprar: Ford Super Duty F-450 2020.** No topo da classe B no cross country e muito fácil de pilotar.
-
-<tune-picks car="2020-ford-super-duty-f-450-drw-platinum" class="B" surface="cross-country"></tune-picks>
+<festival-races unlock="blue"></festival-races>
 
 </details>
 
 <details class="band band-pink">
 <summary>Pulseira rosa · classe A e Drag Meets</summary>
 
-**O carro da vez: Ford GT 2005**, o carro tesouro grátis de Nangan. Está no topo da classe A no asfalto, vai bem na terra e é muito fácil de pilotar.
+**Para ganhar a rosa:** o Horizon Rush **Off Piste**, uma descida na neve na estação de esqui de Sotoyama. O jogo define o carro. Ela libera 33 eventos, inclusive os Drag Meets; estas são as corridas:
 
-<tune-picks car="2005-ford-gt" class="A" surface="road"></tune-picks>
-
-<tune-picks car="2005-ford-gt" class="A" surface="dirt"></tune-picks>
-
-**Asfalto: Mitsubishi Lancer Evolution VI 2001** (brinde da primeira pulseira).
-
-<tune-picks car="2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition" class="A" surface="road"></tune-picks>
-
-**Terra, se quiser comprar: Dodge Coronet Super Bee 1970.** No meta da classe A na terra e muito fácil de pilotar.
-
-<tune-picks car="1970-dodge-coronet-super-bee" class="A" surface="dirt"></tune-picks>
-
-**Cross country, se quiser comprar: Rivian R1T 2022.** No meta da classe A no cross country e muito fácil de pilotar.
-
-<tune-picks car="2022-rivian-r1t" class="A" surface="cross-country"></tune-picks>
+<festival-races unlock="pink"></festival-races>
 
 </details>
 
 <details class="band band-orange">
 <summary>Pulseira laranja · classe S1 e Street Racing</summary>
 
-**Continue com o Ford GT 2005:** com um tune de S1, ele ainda é competitivo no asfalto.
+**Para ganhar a laranja:** o Showcase **Flight Club**, contra um avião de acrobacias, em Ito. O jogo põe você num carro de rali, num trajeto com terra e asfalto. Ela libera 37 eventos, com mais Street Racing; estas são as corridas:
 
-<tune-picks car="2005-ford-gt" class="S1" surface="road"></tune-picks>
+<festival-races unlock="orange"></festival-races>
 
-**Asfalto: Dodge Viper SRT-10 ACR 2008.** Muito fácil de pilotar, com vários tunes de S1.
+<details>
+<summary>Mais sobre os carros da S1: custo e benefício</summary>
 
-<tune-picks car="2008-dodge-viper-srt-10-acr" class="S1" surface="road"></tune-picks>
+- **Dodge Viper SRT-10 ACR 2008:** a melhor opção no Hokubu Circuit. É barato na concessionária, muito forte e fácil de guiar. O tune Road Allround 54.5 Shirakawa Clean, do LetzeLU, custa 74.800 créditos e vale cada centavo.
+- **Chevrolet Corvette Stingray 2020:** a melhor opção no Ito Sprint. Mais barato de comprar que o R8, mas o tune pode sair mais caro, porque troca o motor. Também é muito forte e fácil de guiar.
+- **Audi R8 2013:** a recompensa final dos Day Trips, muito forte na S1. Os tunes não são tão caros, porque ele já vem com tração integral, mas precisam trocar o motor. Serve bem ao longo do jogo todo.
+- **Lancia Delta S4 1986:** menos forte que o RS200, mas viável e fácil de dirigir. Dá para usar o tune do SR1 Rain.
 
-**Terra: Audi #2 Sport quattro S1 1986.** No meta da classe S1 na terra.
-
-<tune-picks car="1986-audi-2-audi-sport-quattro-s1" class="S1" surface="dirt"></tune-picks>
-
-**Cross country: Jeep Trailcat 2016.**
-
-<tune-picks car="2016-jeep-trailcat" class="S1" surface="cross-country"></tune-picks>
-
-**Quando chegar ao carimbo dourado:** o **Mazda 787B** e o **Nissan #11 Tomica Skyline**, dos dois últimos celeiros, viram os carros a bater na S1.
-
-<tune-picks car="1991-mazda-55-mazda-787b" class="S1" surface="road"></tune-picks>
-
-<tune-picks car="1983-nissan-11-tomica-skyline-turbo-super-silhouette" class="S1"></tune-picks>
+</details>
 
 </details>
 
 <details class="band band-purple">
-<summary>Pulseira roxa · classe S2 (hipercarros) e Touge Showdowns</summary>
+<summary>Pulseira roxa · classe S2 e Touge Showdowns</summary>
 
-Os hipercarros da classe S2 custam caro. O jeito barato de ter um carro de ponta aqui é o **Mazda 787B**, do celeiro do carimbo dourado: ele está no meta da S2 no asfalto. É mais um motivo para priorizar o Discover Japan.
+**Para ganhar a roxa:** o Horizon Rush **Launch Control**, no Centro Espacial de Irokawa. Ela libera 38 eventos, e só a partir dela os hipercarros correm no Festival. Os touge (Touge Showdowns) só travam a classe: vale qualquer carro dela. Estas são as corridas:
 
-<tune-picks car="1991-mazda-55-mazda-787b" class="S2" surface="road"></tune-picks>
+<festival-races unlock="purple"></festival-races>
 
-O **Nissan #11 Tomica Skyline**, do outro celeiro dourado, já vem em S2 e também tem tune de S2 para o asfalto.
+<details>
+<summary>Mais sobre os carros da S2</summary>
 
-<tune-picks car="1983-nissan-11-tomica-skyline-turbo-super-silhouette" class="S2" surface="road"></tune-picks>
+- **Lexus LFA Forza Edition 2010:** recompensa da história do jogo, de um dos capítulos de touge. Muito forte, usa o próprio motor e só troca a tração. Há também tunes de tração traseira, a original, muito fortes e que podem sair mais baratos.
+- **Porsche 911 GT2 RS 2018:** num Aftermarket do mapa ele sai por um valor melhor que o da concessionária, mas ainda é um pouco caro.
+- **Lamborghini Essenza SCV12 2020:** para quem tem créditos sobrando. Muito fácil de pilotar.
+- **Mais tarde, com o carimbo dourado:** o [Mazda 787B](/cars/1991-mazda-55-mazda-787b/) e o [Nissan #11 Tomica Skyline](/cars/1983-nissan-11-tomica-skyline-turbo-super-silhouette/) saem dos dois últimos celeiros. Nesta fase, porém, é difícil que você já os tenha.
 
-**Se tiver créditos sobrando: Lamborghini Essenza SCV12 2020.** Muito fácil de pilotar e com tunes de S2.
-
-<tune-picks car="2020-lamborghini-essenza-scv12" class="S2" surface="road"></tune-picks>
+</details>
 
 </details>
 
 <details class="band band-gold">
 <summary>Pulseira dourada · classe R e a Legend Island</summary>
 
-**Mazda 787B**, de novo: está no meta da classe R no asfalto, e é de graça pelo celeiro.
+**Para ganhar a dourada:** o evento final, **Horizon Legend**, em Ito. Basta terminar, não é preciso vencer. Ela libera 12 eventos, a Legend Island e a classe R. Estas são as corridas:
+
+<festival-races unlock="gold"></festival-races>
+
+Nesta fase, talvez você ainda não tenha o Mazda 787B nem o Aston Martin Valkyrie AMR Pro. A opção de melhor custo e benefício é o **Lotus Scura Motorsports Exige WTAC 2018**: é recompensa do Collection Journal, nas corridas de asfalto (Road Racing), e não faz parte de nenhum pacote pago. Só falta velocidade final: nos eventos que pedem mais, pode ser preciso baixar a dificuldade dos Drivatars.
+
+<details>
+<summary>Outras opções na classe R</summary>
+
+**Mazda 787B:** no meta da classe R no asfalto, e de graça pelo celeiro do carimbo dourado.
 
 <tune-picks car="1991-mazda-55-mazda-787b" class="R" surface="road"></tune-picks>
 
-**Aston Martin Valkyrie AMR Pro 2022:** muito fácil de pilotar, e o jogo também o dá pelo Collection Journal.
+**Para quem tem DLC: Ferrari FXX-K Evo do Welcome Pack.** Uma menção honrosa: é muito boa na classe R. O Welcome Pack vem nas edições Deluxe e Premium. Vale o mesmo para os carros do Car Pass: não são a primeira sugestão por serem conteúdo pago, mas é bom saber que são boas opções.
 
-<tune-picks car="2022-aston-martin-valkyrie-amr-pro" class="R" surface="road"></tune-picks>
+<tune-picks car="2018-ferrari-fxx-k-evo-welcome-pack" class="R" surface="road"></tune-picks>
+
+</details>
 
 </details>
 

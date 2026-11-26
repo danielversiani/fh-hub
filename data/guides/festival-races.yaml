@@ -1,0 +1,656 @@
+# Festival races for the "Comece aqui" guide (ADR-0024): the wristband that unlocks each race and
+# its restriction (class and car group), from guides4gamers (read 2026-11-25), plus the car the
+# guide suggests. The guide renders one table per wristband with <festival-races unlock="…">.
+#
+# Races:
+#   name, series (road | dirt | cross-country), unlock (wristband), class (absent when the source
+#   gives none: any class), group (as the game writes it), cars (the first is the main
+#   suggestion), why, checked (the day the owner saw the restriction in game). A race without
+#   unlock (the source does not say) is kept here but shown in no table.
+#   A car is an id, or {id, class, surface, pick, skip} to choose its tune box: class and surface
+#   default to the race's (or the wristband's class when the race has none); pick and skip are
+#   tune ids from data/generated/tunes/by-car/<car>.json.
+# Groups: which catalogue cars enter (any of types, a country, a stock drivetrain or a model
+#   pattern). "Total X" follows the Playlist rule (ADR-0009): every car type whose name has X,
+#   or the stock drivetrain. `confirmed: false` = a guess from the name alone, to check in game.
+# src/lib/guide-races.test.ts checks every suggested car against its race.
+
+groups:
+  Classic Rally Cars: { types: [Classic Rally] }
+  'Country: Japan': { country: Japan }
+  Eclectic Domestics: { types: [Eclectic Domestics] }
+  Evo vs Impreza: { model: 'Lancer Evolution|Impreza', confirmed: false }
+  Extreme Track Toys: { types: [Extreme Track Toys] }
+  Heavy Hitters:
+    { types: ["Pickups & 4x4's", Utility Heroes, Sports Utility Heroes], confirmed: false }
+  Hypercars: { types: [Hypercars] }
+  Modern Rally Cars: { types: [Modern Rally] }
+  Modern Sports Cars: { types: [Modern Sports Cars] }
+  Modern Super Saloons: { types: [Modern Super Saloons] }
+  Modern Supercars: { types: [Modern Supercars] }
+  Pickups & 4x4s: { types: ["Pickups & 4x4's"] }
+  Rally Monsters: { types: [Rally Monsters] }
+  Retro Rally Cars: { types: [Retro Rally] }
+  Retro Sports Cars: { types: [Retro Sports Cars] }
+  Sports Utility Heroes: { types: [Sports Utility Heroes] }
+  Super GT: { types: [Super GT] }
+  Super Hot Hatch Cars: { types: [Super Hot Hatch] }
+  Total AWD: { drivetrain: AWD }
+  Total Buggies & Offroad: { types: [Buggies, Offroad, Unlimited Buggies, Unlimited Offroad] }
+  Total Muscle: { types: [Classic Muscle, Retro Muscle, Modern Muscle] }
+  Total Rally: { types: [Classic Rally, Retro Rally, Modern Rally, Rally Monsters] }
+  Total Sports Cars: { types: [Classic Sports Cars, Retro Sports Cars, Modern Sports Cars] }
+  Total Supercars: { types: [Retro Supercars, Modern Supercars] }
+  Track Life: { types: [Track Toys, Extreme Track Toys] }
+  Track Toys: { types: [Track Toys] }
+  Unlimited Buggies: { types: [Unlimited Buggies] }
+  Unlimited Offroad: { types: [Unlimited Offroad] }
+
+races:
+  # Yellow (Horizon Qualifiers): the three races open from the start.
+  - name: Shirakawa Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: start
+    class: C
+    group: Retro Sports Cars
+    cars: [1989-nissan-silvia-ks]
+    why:
+      pt-br: O carro inicial de asfalto é o único dos três que entra
+      en: The tarmac starter car is the only one of the three that fits
+  - name: Airfield Trail
+    series: dirt
+    unlock: start
+    class: C
+    group: Total Rally
+    cars: [1994-toyota-celica-gt-four-st205]
+    why:
+      pt-br: O carro inicial de rali, 4x4
+      en: The rally starter car, four-wheel drive
+  - name: Wind Farm Cross Country
+    series: cross-country
+    unlock: start
+    class: C
+    group: Pickups & 4x4s
+    cars: [1970-gmc-jimmy]
+    why:
+      pt-br: O carro inicial 4x4, muito fácil de pilotar
+      en: The four-wheel-drive starter car, very easy to drive
+
+  # Unlocked by the Horizon Invitational (Yellow): one race for each first-wristband gift.
+  - name: Daikoku Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: yellow
+    class: B
+    group: Total Sports Cars
+    cars: [2022-toyota-gr86, 1989-nissan-silvia-ks]
+    why:
+      pt-br: O brinde já vem na classe B; o Silvia K's tem o tune escolhido pelo Forza Paddock
+      en: The gift is B class stock; the Silvia K's has Forza Paddock's pick
+  - name: Kinkaku-ji Trail
+    series: dirt
+    unlock: yellow
+    class: B
+    group: Total Rally
+    cars: [2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition, 1994-toyota-celica-gt-four-st205]
+    why:
+      pt-br: O brinde de rali já vem na classe B; o Celica tem tune muito fácil
+      en: The rally gift is B class stock; the Celica has a very easy tune
+  - name: Temple Cross Country
+    series: cross-country
+    unlock: yellow
+    class: B
+    group: Total AWD
+    cars: [2024-ram-1500-trx]
+    why:
+      pt-br: O brinde 4x4, com tunes que mantêm a tração
+      en: The four-wheel-drive gift, with tunes that keep its drivetrain
+
+  # The source does not say which wristband unlocks it.
+  - name: Edo Circuit
+    checked: '2026-11-26'
+    series: road
+    class: B
+    group: Modern Sports Cars
+    cars: [2022-toyota-gr86]
+    why:
+      pt-br: O brinde da amarela já é Modern Sports Cars na classe B
+      en: The Yellow gift is already a B-class Modern Sports Car
+
+  # Pier Pressure (Green)
+  - name: Festival Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: green
+    class: B
+    group: Super Hot Hatch Cars
+    cars: [2013-mercedes-benz-a-45-amg]
+    why:
+      pt-br: Nenhum carro seu entra; este já é 4x4 e tem tune muito fácil
+      en: None of your cars fits; this one is already all-wheel drive, with a very easy tune
+  - name: Tokyo Railway Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: green
+    class: B
+    group: 'Country: Japan'
+    cars: [1989-nissan-silvia-ks, 2022-toyota-gr86]
+    why:
+      pt-br: Qualquer carro japonês; os dois já estão na garagem
+      en: Any Japanese car; you already own both
+  - name: Shimanoyama Circuit
+    series: road
+    unlock: green
+    group: Eclectic Domestics
+    cars:
+      - 1991-honda-beat
+      - { id: 1984-honda-city-e-ii, class: B }
+    why:
+      pt-br: O Beat sai de graça pelos Regional Mascots; o City E-II tem pouca velocidade final
+      en: The Beat is free through Regional Mascots; the City E-II lacks top speed
+  - name: Chiheisen Scramble
+    series: dirt
+    unlock: green
+    class: B
+    group: Total AWD
+    cars: [1994-toyota-celica-gt-four-st205, 2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition]
+    why:
+      pt-br: Qualquer carro 4x4; os dois de rali servem
+      en: Any all-wheel-drive car; both rally cars fit
+  - name: Sekibe Scramble
+    series: dirt
+    unlock: green
+    class: B
+    group: Evo vs Impreza
+    cars: [2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition]
+    why:
+      pt-br: Só Lancer Evolution e Impreza; o brinde é um Evo
+      en: Only Lancer Evolutions and Imprezas; the gift is an Evo
+  - name: Taiyaki Scramble
+    series: dirt
+    unlock: green
+    class: B
+    group: Total Rally
+    cars: [1994-toyota-celica-gt-four-st205, 2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition]
+    why:
+      pt-br: Carros de rali; os dois já estão na garagem
+      en: Rally cars; you already own both
+  - name: City Docks Cross Country Circuit
+    series: cross-country
+    unlock: green
+    class: B
+    group: Total Rally
+    cars:
+      - { id: 1994-toyota-celica-gt-four-st205, surface: dirt }
+    why:
+      pt-br: Carro de rali no cross country; o tune de terra serve
+      en: A rally car in cross country; the dirt tune works
+  - name: Shinjuku Gyoen Cross Country
+    series: cross-country
+    unlock: green
+    class: B
+    group: Heavy Hitters
+    cars: [2024-ram-1500-trx]
+    why:
+      pt-br: Picapes e utilitários; o brinde é uma picape
+      en: Pickups and utility vehicles; the gift is a pickup
+  - name: Stadium Cross Country Circuit
+    series: cross-country
+    unlock: green
+    class: B
+    group: Total Rally
+    cars:
+      - { id: 2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition, surface: dirt }
+    why:
+      pt-br: Carro de rali no cross country; o tune de terra serve
+      en: A rally car in cross country; the dirt tune works
+
+  # Mech My Day (Blue)
+  - name: Irokawa Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: blue
+    group: Eclectic Domestics
+    cars: [1991-honda-beat]
+    why:
+      pt-br: Sem restrição de classe; o mesmo Beat, com tune de classe A
+      en: No class restriction; the same Beat, with an A-class tune
+  - name: Narai-Juku Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: blue
+    class: A
+    group: Total Supercars
+    cars:
+      - 2012-nissan-gt-r-black-edition-r35
+      - { id: 2005-ford-gt, skip: [nc-34a512418a] }
+    why:
+      pt-br: O GT-R 2012 é off-meta forte na classe A; o carro não é caro, e o tune vale o preço. O Ford GT é o carro tesouro grátis
+      en: The 2012 GT-R is a strong off-meta pick in A class; the car is not expensive, and the tune is worth it. The Ford GT is the free treasure car
+  - name: Shikisai Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: blue
+    class: A
+    group: Modern Super Saloons
+    cars: [2011-audi-rs-5-coupe]
+    why:
+      pt-br: Nenhum carro seu entra; este já é 4x4 e tem tune muito fácil
+      en: None of your cars fits; this one is already all-wheel drive, with a very easy tune
+  - name: Horizon Stadium Scramble
+    series: dirt
+    unlock: blue
+    group: Modern Rally Cars
+    cars:
+      - { id: 2005-subaru-impreza-wrx-sti, class: B }
+    why:
+      pt-br: Nenhum carro seu entra; o Impreza tem tune muito fácil, com código
+      en: None of your cars fits; the Impreza has a very easy tune with a code
+  - name: Sotoyama Scramble
+    series: dirt
+    unlock: blue
+    group: Retro Rally Cars
+    cars:
+      - { id: 2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition, class: A }
+    why:
+      pt-br: O brinde de rali continua servindo
+      en: The rally gift still works
+  - name: Waterfall Trail
+    series: dirt
+    unlock: blue
+    class: A
+    group: Total AWD
+    cars: [2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition]
+    why:
+      pt-br: Qualquer carro 4x4; o Evo sobe para a classe A sem trocar a tração
+      en: Any all-wheel-drive car; the Evo moves up to A class without a drivetrain swap
+  - name: Oka Cross Country Circuit
+    series: cross-country
+    unlock: blue
+    class: A
+    group: Unlimited Offroad
+    cars: [2016-jeep-trailcat]
+    why:
+      pt-br: Serve em quase todas as corridas fora de estrada daqui em diante
+      en: It fits almost every off-road race from here on
+  - name: Shimanoyama Cross Country
+    series: cross-country
+    unlock: blue
+    class: A
+    group: Sports Utility Heroes
+    cars: [2025-toyota-land-cruiser]
+    why:
+      pt-br: SUV de série, com vários tunes que mantêm a tração
+      en: A road-going SUV, with several tunes that keep its drivetrain
+  - name: Snow Forest Cross Country Circuit
+    series: cross-country
+    unlock: blue
+    class: A
+    group: Total Buggies & Offroad
+    cars: [2016-jeep-trailcat]
+    why:
+      pt-br: O mesmo Trailcat
+      en: The same Trailcat
+
+  # Off Piste (Pink)
+  - name: Coastline Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: pink
+    class: A
+    group: Modern Super Saloons
+    cars: [2011-audi-rs-5-coupe]
+    why:
+      pt-br: O mesmo RS 5 da pulseira azul
+      en: The same RS 5 as for Blue
+  - name: Electric Town Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: pink
+    class: A
+    group: Modern Sports Cars
+    cars:
+      - { id: 2022-toyota-gr86, pick: [nc-e5b55f2b05, nc-fa8e794542] }
+    why:
+      pt-br: O tune purista do DRX Q3 mantém o motor e a tração; o do SlowBakedPanda é AWD
+      en: DRX Q3's purist tune keeps the engine and drivetrain; SlowBakedPanda's is AWD
+  - name: Satta Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: pink
+    class: A
+    group: Total Supercars
+    cars:
+      - 2012-nissan-gt-r-black-edition-r35
+      - { id: 2005-ford-gt, skip: [nc-34a512418a] }
+    why:
+      pt-br: O mesmo GT-R, ou o Ford GT
+      en: The same GT-R, or the Ford GT
+  - name: Venus Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: pink
+    class: A
+    group: Total Muscle
+    cars: [2016-cadillac-ats-v, 2002-chevrolet-corvette-z06]
+    why:
+      pt-br: O Cadillac tem o tune escolhido pelo Forza Paddock; o Corvette, tunes puristas
+      en: The Cadillac has Forza Paddock's pick; the Corvette has purist tunes
+  - name: Hirosaki Scramble
+    series: dirt
+    unlock: pink
+    class: A
+    group: Total Buggies & Offroad
+    cars:
+      - { id: 2016-jeep-trailcat, surface: dirt }
+    why:
+      pt-br: O mesmo Trailcat, com tune de terra muito fácil
+      en: The same Trailcat, with a very easy dirt tune
+  - name: Hokubu Trail
+    series: dirt
+    unlock: pink
+    group: Rally Monsters
+    cars:
+      - { id: 1985-ford-rs200-evolution, class: S1 }
+    why:
+      pt-br: Recompensa da pulseira verde
+      en: The Green-wristband reward
+  - name: Takashiro Trail
+    series: dirt
+    unlock: pink
+    class: A
+    group: Unlimited Offroad
+    cars: [2016-jeep-trailcat]
+    why:
+      pt-br: O mesmo Trailcat
+      en: The same Trailcat
+  - name: Naruo Cross Country Circuit
+    series: cross-country
+    unlock: pink
+    class: A
+    group: Unlimited Buggies
+    cars: [2016-ariel-nomad]
+    why:
+      pt-br: Só buggies; o Nomad já vem na classe A
+      en: Buggies only; the Nomad is A class stock
+  - name: Soni Highlands Cross Country
+    series: cross-country
+    unlock: pink
+    class: A
+    group: Total Buggies & Offroad
+    cars: [2016-jeep-trailcat]
+    why:
+      pt-br: O mesmo Trailcat
+      en: The same Trailcat
+  - name: Takashiro Cross Country
+    series: cross-country
+    unlock: pink
+    class: A
+    group: Total Buggies & Offroad
+    cars: [2016-jeep-trailcat]
+    why:
+      pt-br: O mesmo Trailcat
+      en: The same Trailcat
+
+  # Flight Club (Orange)
+  - name: Highway Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: orange
+    class: S1
+    group: Super GT
+    cars: [2025-gr-gt-prototype]
+    why:
+      pt-br: Já vem na S1, com vários tunes que mantêm a tração
+      en: S1 stock, with several tunes that keep its drivetrain
+  - name: Hokubu Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: orange
+    class: S1
+    group: Track Toys
+    cars:
+      - { id: 2008-dodge-viper-srt-10-acr, pick: [nc-c221249f27] }
+    why:
+      pt-br: A melhor opção. O tune Road Allround 54.5 Shirakawa Clean, do LetzeLU, custa 74.800 créditos e vale cada centavo
+      en: The best option. LetzeLU's Road Allround 54.5 Shirakawa Clean tune costs 74,800 credits and is worth every one
+  - name: Ito Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: orange
+    class: S1
+    group: Modern Supercars
+    cars: [2020-chevrolet-corvette-stingray-coupe, 2013-audi-r8-coupe-v10-plus-5-2-fsi-quattro]
+    why:
+      pt-br: O Corvette é a melhor opção; o R8 é a recompensa final dos Day Trips
+      en: The Corvette is the best option; the R8 is the final Day Trips reward
+  - name: Bamboo Forest Scramble
+    series: dirt
+    unlock: orange
+    class: S1
+    group: Total Rally
+    cars: [1985-ford-rs200-evolution, 1986-lancia-delta-s4]
+    why:
+      pt-br: O RS200 você já tem; o Delta S4 é a opção mais barata
+      en: You already own the RS200; the Delta S4 is the cheaper option
+  - name: Ine Scramble
+    series: dirt
+    unlock: orange
+    group: Modern Rally Cars
+    cars:
+      - { id: 2005-subaru-impreza-wrx-sti, class: B }
+    why:
+      pt-br: O mesmo Impreza da pulseira azul
+      en: The same Impreza as for Blue
+  - name: Kawazu Nanadaru Scramble
+    series: dirt
+    unlock: orange
+    group: Modern Rally Cars
+    cars:
+      - { id: 2005-subaru-impreza-wrx-sti, class: B }
+    why:
+      pt-br: O mesmo Impreza
+      en: The same Impreza
+  - name: Sunflower Scramble
+    series: dirt
+    unlock: orange
+    class: S1
+    group: Rally Monsters
+    cars: [1985-ford-rs200-evolution]
+    why:
+      pt-br: O RS200 já vem na S1 e os tunes mantêm a tração integral
+      en: The RS200 is S1 stock and its tunes keep the all-wheel drive
+  - name: Izu Cross Country
+    series: cross-country
+    unlock: orange
+    group: Sports Utility Heroes
+    cars:
+      - { id: 2025-toyota-land-cruiser, class: A }
+    why:
+      pt-br: O mesmo Land Cruiser da pulseira azul
+      en: The same Land Cruiser as for Blue
+  - name: Nangan Cross Country Circuit
+    series: cross-country
+    unlock: orange
+    group: Modern Rally Cars
+    cars:
+      - { id: 2005-subaru-impreza-wrx-sti, class: B, surface: dirt }
+    why:
+      pt-br: O mesmo Impreza, com o tune de terra
+      en: The same Impreza, with the dirt tune
+  - name: Yahikoyama Cross Country
+    series: cross-country
+    unlock: orange
+    group: Unlimited Offroad
+    cars: [2016-jeep-trailcat]
+    why:
+      pt-br: O mesmo Trailcat, agora com tune de S1
+      en: The same Trailcat, now with an S1 tune
+
+  # Launch Control (Purple)
+  - name: Shimanoyama Sprint
+    series: road
+    unlock: purple
+    class: S2
+    group: Extreme Track Toys
+    cars: [2010-lexus-lfa-forza-edition, 2020-lamborghini-essenza-scv12]
+    why:
+      pt-br: O LFA é recompensa da história e usa o próprio motor; o Essenza é muito fácil
+      en: The LFA is a story reward and keeps its own engine; the Essenza is very easy
+  - name: Soni Circuit
+    checked: '2026-11-26'
+    series: road
+    unlock: purple
+    class: S2
+    group: Track Life
+    cars: [2010-lexus-lfa-forza-edition, 2018-porsche-911-gt2-rs]
+    why:
+      pt-br: O mesmo LFA; o GT2 RS sai mais barato num Aftermarket do mapa
+      en: The same LFA; the GT2 RS is cheaper at an Aftermarket on the map
+  - name: Tateyama Kurobe Sprint
+    checked: '2026-11-26'
+    series: road
+    unlock: purple
+    class: S2
+    group: Hypercars
+    cars: [2014-porsche-918-spyder, 2021-mercedes-amg-mercedes-amg-one]
+    why:
+      pt-br: Hipercarros só a partir daqui; os dois mantêm a tração integral
+      en: Hypercars only from here on; both keep their all-wheel drive
+  - name: Cherry Field Trail
+    series: dirt
+    unlock: purple
+    group: Total Rally
+    cars:
+      - { id: 1986-lancia-delta-s4, class: S1 }
+    why:
+      pt-br: O mesmo Delta S4 da pulseira laranja
+      en: The same Delta S4 as for Orange
+  - name: Ito Trail
+    series: dirt
+    unlock: purple
+    group: Rally Monsters
+    cars:
+      - { id: 1985-ford-rs200-evolution, class: S1 }
+    why:
+      pt-br: O mesmo RS200
+      en: The same RS200
+  - name: Nukabira Trail
+    series: dirt
+    unlock: purple
+    group: Total Rally
+    cars:
+      - { id: 1986-lancia-delta-s4, class: S1 }
+    why:
+      pt-br: O mesmo Delta S4
+      en: The same Delta S4
+  - name: Oyashirazu Trail
+    series: dirt
+    unlock: purple
+    group: Classic Rally Cars
+    cars:
+      - { id: 1980-abarth-fiat-131, class: A }
+    why:
+      pt-br: Só ralis clássicos; o Fiat 131 é barato, mas os tunes trocam a tração
+      en: Classic rally cars only; the Fiat 131 is cheap, but its tunes swap the drivetrain
+  - name: Edogawa Cross Country Circuit
+    series: cross-country
+    unlock: purple
+    group: Sports Utility Heroes
+    cars:
+      - { id: 2025-toyota-land-cruiser, class: A }
+    why:
+      pt-br: O mesmo Land Cruiser
+      en: The same Land Cruiser
+  - name: Ruriko-ji Cross Country
+    series: cross-country
+    unlock: purple
+    group: Unlimited Offroad
+    cars:
+      - { id: 2016-jeep-trailcat, class: S1 }
+    why:
+      pt-br: O mesmo Trailcat
+      en: The same Trailcat
+  - name: Tateyama Alpine Cross Country
+    series: cross-country
+    unlock: purple
+    group: Total Buggies & Offroad
+    cars:
+      - { id: 2016-jeep-trailcat, class: S1 }
+    why:
+      pt-br: O mesmo Trailcat
+      en: The same Trailcat
+
+  # Horizon Legend (Gold)
+  - name: Legend Island Circuit
+    series: road
+    unlock: gold
+    group: Track Life
+    cars: [2018-lotus-scura-motorsports-exige-wtac]
+    why:
+      pt-br: Recompensa do Collection Journal, com bons tunes
+      en: A Collection Journal reward, with good tunes
+  - name: Seaside Park Sprint
+    series: road
+    unlock: gold
+    group: Hypercars
+    cars:
+      - { id: 2014-porsche-918-spyder, class: S2 }
+    why:
+      pt-br: O mesmo hipercarro da pulseira roxa
+      en: The same hypercar as for Purple
+  - name: The Colossus
+    series: road
+    unlock: gold
+    class: S2
+    group: Hypercars
+    cars: [2014-porsche-918-spyder]
+    why:
+      pt-br: O mesmo hipercarro
+      en: The same hypercar
+  - name: The Goliath
+    series: road
+    unlock: gold
+    class: R
+    group: Track Life
+    cars: [2018-lotus-scura-motorsports-exige-wtac, 2022-aston-martin-valkyrie-amr-pro]
+    why:
+      pt-br: O Exige tem pouca velocidade final; o Valkyrie também sai pelo Collection Journal
+      en: The Exige lacks top speed; the Valkyrie also comes from the Collection Journal
+  - name: Legend Island Trail
+    series: dirt
+    unlock: gold
+    group: Total Rally
+    cars:
+      - { id: 1986-lancia-delta-s4, class: S1 }
+    why:
+      pt-br: O mesmo Delta S4
+      en: The same Delta S4
+  - name: The Gauntlet
+    series: dirt
+    unlock: gold
+    group: Rally Monsters
+    cars:
+      - { id: 1985-ford-rs200-evolution, class: S1 }
+    why:
+      pt-br: O mesmo RS200
+      en: The same RS200
+  - name: Legend Island Cross Country Circuit
+    series: cross-country
+    unlock: gold
+    group: Pickups & 4x4s
+    cars:
+      - { id: 2024-ram-1500-trx, class: A }
+    why:
+      pt-br: O brinde da amarela, com tune de classe A
+      en: The Yellow gift, with an A-class tune
+  - name: The Titan
+    series: cross-country
+    unlock: gold
+    group: Total Buggies & Offroad
+    cars:
+      - { id: 2016-jeep-trailcat, class: S1 }
+    why:
+      pt-br: O mesmo Trailcat
+      en: The same Trailcat

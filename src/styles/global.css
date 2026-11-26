@@ -564,6 +564,17 @@ body {
 .guide-body .tp-all {
   font-size: 0.8rem;
 }
+/* "tração original · pneu de rali": on its own line under the tune. */
+/* The races a box serves (festival-races tables). */
+.guide-body .tp-for {
+  margin: 0.15rem 0 0.4rem;
+  font-size: 0.85rem;
+}
+.guide-body .tp-tags {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-muted);
+}
 
 /* "Asfalto ───────" divider between surfaces. */
 .surface-divider {

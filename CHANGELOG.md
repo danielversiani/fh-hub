@@ -15,6 +15,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
   - **Novidades só com as tunes da lista** (dono, mesmo dia): ao abrir a novidade de uma planilha, aparecem só as tunes que aquela planilha lista para o carro. As de outras fontes ficam na página do carro.
 - 2026-11-22: **Traçado otimizado da Shirakawa na T4 e na T7**, a partir do desenho do dono ([ADR-0023](docs/adr/0023-esbocos-de-pista-pelo-mapa.md)): nas duas curvas, a linha vem encostada no lado de fora e vira só no começo da curva, em vez de cruzar cedo e colar no lado de dentro. A saída da T4 é a mesma do "curva a curva". Na T7, ela atravessa a T6 para a direita, segue o muro e faz o ápice na borda do asfalto. A dica da curva 4 no guia ganhou essa orientação.
 
+### Alterado
+- 2026-11-25: **Abas por pulseira do "Comece aqui"**, revisadas pelo dono ([ADR-0024](docs/adr/0024-secao-de-guias-para-iniciantes.md)):
+  - **corrida a corrida:** cada aba mostra o evento que vale a pulseira (o jogo define o carro) e as corridas que ela libera, pelo nome, com a restrição de cada uma (classe e grupo de carro) e um carro que entra nela. Depois vem uma caixa de tunes por carro, com as corridas em que ela serve;
+  - os dados ficam em `data/guides/festival-races.yaml` (restrição e pulseira de 64 corridas, do guides4gamers), e a tabela sai de `<festival-races unlock="…">` (`src/lib/guide-races.ts`). Um teste confere se cada carro sugerido entra na restrição da corrida;
+  - correções que isso trouxe: a verde libera corridas de classe B, não C e D; a azul já libera classe A; a amarela libera as primeiras corridas de classe B, uma para cada brinde; o Airfield Trail pede carro de rali (o Celica, não o Jimmy);
+  - carros que o jogador já tem primeiro (iniciais, brindes, Ford GT, Beat, RS200); carro para comprar só quando nenhum dos seus entra. Escolhas do dono: Viper 2008, Audi R8 2013 ou Corvette 2020, Lancia Delta S4, Lexus LFA Forza Edition, Porsche 911 GT2 RS e Lotus Exige WTAC; City E-II com aviso; DLC só como menção; 787B e Tomica "mais tarde";
+  - **caixas de tunes** (`src/lib/guide-picks.ts`): só tunes fáceis de guiar (powerbuilds e tunes marcados como difíceis ficam de fora). Vêm primeiro os tunes fixados (`pick`), depois as escolhas do Forza Paddock, os que mantêm a tração original e os fáceis; `skip` tira um tune da caixa. Cada tune diz se é escolha do Forza Paddock, se mantém ou troca a tração, qual pneu usa e se é fácil, quando a fonte informa;
+  - nota sobre pneu de rali ou off-road nos dois pisos até a classe B, e o guia fala direto, sem "segundo as fontes";
+  - 2026-11-26: o dono conferiu no jogo as corridas de asfalto (todas iguais à fonte). Entram o Nissan GT-R 2012 no Narai-Juku e no Satta Sprint, o Corvette Stingray 2020 como primeira opção no Ito Sprint e o Viper com o tune do LetzeLU no Hokubu Circuit; "Track Life" passa a ser só os tipos "Track"; o guia diz que corrida sem classe aceita qualquer classe, que as corridas de rua não têm restrição de carro e que os touge só travam a classe.
+
 ### Adicionado
 - 2026-11-22: **Seção de Guias** ([ADR-0024](docs/adr/0024-secao-de-guias-para-iniciantes.md)):
   - páginas `/guides/` e `/en/guides/`, com guias em Markdown (`src/content/guides/`), selo "conferido no jogo em…" e lista de fontes;

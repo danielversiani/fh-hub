@@ -66,10 +66,35 @@ A pesquisa de 2026-11-22 (`reports/Guias para iniciantes no FH6.md`) mostrou o s
   - **Abas por pulseira:** uma por cor, com carros grátis ou baratos, fáceis, sem DLC e com tune do catálogo.
   - **Baralho de cartões:** os celeiros e os carros tesouro passam como cartões, com espaço para os screenshots do mapa e do jogo.
 - **2026-11-22, rascunho em endereço não listado** (dono): um guia com `published: false` é gerado em `/guides/draft/<guia>/`, com aviso de rascunho, `noindex` e fora do menu, do sitemap e do `llms.txt`. Serve para o dono ler com calma no celular antes de publicar. O endereço não é secreto (o repositório é público), só não é divulgado.
+- **2026-11-25, revisão do dono nas abas por pulseira:**
+  - **Mesmo padrão da aba amarela:** cada aba abre com uma tabela (evento, tipo, piso, carro sugerido, por quê). A primeira linha é o evento que vale a pulseira; as outras, os tipos de evento da classe nova. Nenhuma fonte lista os eventos do Festival de cada pulseira, só quantos são (MapMaster). Abaixo da tabela vêm as caixas de tunes e outras opções com custo e benefício.
+  - **Custo da preparação:** tunes de meta costumam trocar a tração e o motor, e isso sai caro. As caixas põem os tunes que mantêm a tração original (o campo `drivetrain` do tune comparado ao do carro) antes dos que trocam, e dizem, em cada tune, se ele mantém ou troca a tração e qual pneu usa. A troca de motor quase nenhuma fonte informa.
+  - **Carros que o jogador já tem primeiro:** os iniciais e os brindes com tunes puristas (por exemplo, o Silvia K's 1989 e o GR86 na classe B); depois, carros baratos de comprar.
+  - **Pneu de rali ou off-road** serve, via de regra, nos dois pisos até a classe B, principalmente com Drivatars mais fáceis.
+  - **Carros de DLC** (Car Pass, Welcome Pack, pacotes) só como menção honrosa.
+  - **Carros dos últimos celeiros** (787B e Tomica) não são a sugestão principal da S1 e da S2: nessa fase o jogador dificilmente já os tem.
+  - **Escolhas do dono por classe:**
+    - classes B e A: cuidado com o City E-II (pouca velocidade final); o Beat é forte, mas tem tunes caros;
+    - S1: Viper 2008 antes do Ford GT; Corvette 2020 e Audi R8 2013 como alternativas; na terra, GT350R e Lancia Delta S4;
+    - S2: Lexus LFA Forza Edition e Porsche 911 GT2 RS;
+    - classe R: Lotus Exige WTAC, recompensa do Collection Journal.
+- **2026-11-25, segunda revisão do dono nas abas por pulseira:**
+  - **Só tunes fáceis de guiar:** os powerbuilds (por exemplo, os de tração traseira com mais de 1000 cv) e os tunes marcados como difíceis (`hard`, `death`) ficam fora das caixas.
+  - **Ordem das caixas:** os tunes fixados pelo guia (`pick="<id do tune>"`, escolhas do dono), as escolhas do Forza Paddock ([ADR-0020](0020-recomendacoes-do-forza-paddock.md)), a tração original, os fáceis e, por fim, código, tier e nota. Um tune fixado que um sync renomeie só sai da caixa, sem quebrar o build, e um teste aponta qual.
+  - **Eventos de pulseira têm carro definido:** a tabela diz "o do evento", sem sugerir carro.
+  - **Texto direto:** o guia afirma o que as fontes dizem, sem "segundo as fontes". O dono corrige o que estiver errado ao conferir no jogo.
+- **2026-11-25, corrida a corrida** (dono: cada evento tem classe e tipo de carro fixos, e as sugestões precisam entrar nessa restrição). É o item 3 da decisão ("Carro e tune por evento") para as corridas do Festival:
+  - **Fonte:** o guides4gamers lista as 64 corridas do Festival (24 de asfalto, 21 de terra, 19 de cross country) com a restrição (classe e grupo de carro, por exemplo "B-600 Total Sports Cars") e o evento de pulseira que libera cada uma. São fatos, citados nas fontes do guia, sem copiar texto. Ficam de fora Street Racing, Drag, Touge e PR Stunts. Algumas corridas não têm classe na fonte, só o grupo.
+  - **Arquivo validado:** `data/guides/festival-races.yaml` guarda cada corrida (nome, piso, pulseira, classe, grupo, carros sugeridos e o porquê em PT-BR e EN) e a definição de cada grupo pelos dados do catálogo (tipos de carro, país, tração de fábrica ou nome do modelo). Os grupos "Total X" seguem a regra da Playlist ([ADR-0009](0009-playlist-fonte-oficial.md)): todo tipo de carro cujo nome tem X, ou a tração de fábrica. "Heavy Hitters" e "Evo vs Impreza" são deduções pelo nome, marcadas `confirmed: false`.
+  - **No guia:** `<festival-races unlock="green"></festival-races>` vira, no build, a tabela das corridas que a pulseira libera e uma caixa de tunes por carro sugerido, com as corridas em que ela serve (`src/lib/guide-races.ts`). Sem classe na corrida, a caixa usa a classe da pulseira.
+  - **Teste:** cada carro sugerido precisa entrar no grupo e na classe da corrida (a classe de fábrica, ou um tune do catálogo naquela classe), e cada tune fixado ou excluído precisa existir.
+  - **O que isso corrigiu:** a pulseira verde libera corridas de classe B, e não C e D; a azul já libera classe A; o Horizon Invitational (amarela) libera as primeiras corridas de classe B, uma para cada brinde (GR86, Evo VI e Ram TRX); o Airfield Trail pede carro de rali (o Celica, não o Jimmy). O jogo dá um carro inicial para cada tipo de corrida do começo, e um brinde para cada corrida que a amarela libera.
+  - **Conferido no jogo pelo dono (2026-11-26):** as 17 corridas de asfalto que ele já tem, com a restrição igual à da fonte (cada uma com `checked` no arquivo). "Total X" inclui todos os tipos do grupo (Total Sports Cars: classic, retro e modern), "Track Life" são todos os tipos "Track" (Track Toys e Extreme Track Toys), e uma corrida sem classe na fonte não tem restrição de classe. O Edo Circuit é B · Modern Sports Cars; a pulseira que o libera ainda não se sabe. Os touge só travam a classe, e as corridas de rua não têm restrição de carro (o guides4gamers diz o mesmo). Escolhas dele: o Nissan GT-R 2012 no Narai-Juku (off-meta forte na classe A; o carro não é caro e o tune vale o preço), o Corvette Stingray 2020 no Ito Sprint e o Viper SRT-10 ACR 2008 no Hokubu Circuit, com o tune do LetzeLU (74.800 créditos). As corridas de terra e de cross country ficam para depois.
+  - **Fora das tabelas:** o Silvia K's na classe A, o GT350R na terra, o Ford GT na terra e na S1, o Coronet, o Rivian e o F-450 não entram em nenhuma corrida da classe deles; os carros de classe C para comprar (Integra, Civic, Beat) não entram nas três corridas de classe C.
 - **Achados do catálogo usados no "Comece aqui":**
-  - o GMC Jimmy, carro inicial grátis, está entre os melhores da classe C na terra;
-  - os brindes da primeira pulseira (GR86, Evo VI, Ram TRX) vêm de fábrica na classe B, então não servem nos eventos iniciais de classe C;
-  - o Honda Beat e o Civic Si 1986, baratos e de classe D, viram carros fortes da classe C com tune.
+  - o GMC Jimmy, carro inicial grátis, é muito fácil de pilotar no cross country;
+  - os brindes da primeira pulseira (GR86, Evo VI, Ram TRX) vêm de fábrica na classe B, cada um no grupo de uma das corridas que a amarela libera;
+  - o Honda Beat, recompensa dos Regional Mascots, é Eclectic Domestics e entra nas corridas desse grupo.
 
 ## Alternativas consideradas
 

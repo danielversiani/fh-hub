@@ -62,6 +62,7 @@ fh-hub/
 │  │  ├─ base-events.yaml        # ⏳ eventos-base do mapa (levantamento manual)
 │  │  └─ zh-labels.yaml          # ⏳ rótulos em chinês da planilha de Noa Miyako (hoje em normalize/fields.ts)
 │  ├─ curation/config.yaml       # pesos e regras de curadoria (⏳ weekly/<season-id>.json da IA, via PR)
+│  ├─ guides/festival-races.yaml # corridas do Festival: restrição, pulseira e carro sugerido pelo guia (ADR-0024)
 │  ├─ generated/                 # SAÍDA do pipeline: nunca editar à mão
 │  ├─ review/                    # filas de revisão humana (carros não reconhecidos, valores desconhecidos)
 │  ├─ tracks/                    # pistas medidas pela telemetria (<rota>.json) e o modelo 3D: .scene.yaml (cenário), .lines.yaml (guia)

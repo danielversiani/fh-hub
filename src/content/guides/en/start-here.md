@@ -41,6 +41,18 @@ sources:
     url: 'https://gamerant.com/forza-horizon-6-ps5-release-date-pre-order/'
   - label: 'Game Informer: FH6 on PS5 in 2027 (8 Oct 2026)'
     url: 'https://gameinformer.com/2026/10/08/forza-horizon-6-on-ps5-delayed-to-2027-will-launch-alongside-games-first-premium'
+  - label: 'TechWiser: the wristband events (3 Jun 2026)'
+    url: 'https://techwiser.com/forza-horizon-6-wristband-events/'
+  - label: 'MapMaster: wristband events, order and rewards'
+    url: 'https://mapmaster.io/games/forza-horizon-6/guides/Horizon%20Event'
+  - label: 'game.wiki: Wristband Events'
+    url: 'https://game.wiki/forza-horizon-6/wristband-events'
+  - label: "guides4gamers: Road Racing, each race's restriction and wristband (read 25 Nov 2026)"
+    url: 'https://guides4gamers.com/forza-horizon-6/pois/road-racing/'
+  - label: 'guides4gamers: Dirt Racing (read 25 Nov 2026)'
+    url: 'https://guides4gamers.com/forza-horizon-6/pois/dirt-racing/'
+  - label: 'guides4gamers: Cross Country (read 25 Nov 2026)'
+    url: 'https://guides4gamers.com/forza-horizon-6/pois/cross-country/'
   - label: "Forza Paddock catalogue: cars' stock class, tunes and meta by class"
     url: 'https://forzapaddock.racing/en/meta/'
 ---
@@ -74,13 +86,13 @@ Stamp progress lives in **Campaign menu › Collection Journal › Discover Japa
 
 | Wristband | Unlocks                                                       |
 | --------- | ------------------------------------------------------------- |
-| Yellow    | The Festival itself (earned in the Qualifiers + Invitational) |
-| Green     | C and D class events                                          |
-| Blue      | B class events and the Time Attack Circuits                   |
-| Pink      | A class events and Drag Meets                                 |
+| Yellow    | The Festival and the first B-class races (earned in the Qualifiers + Invitational) |
+| Green     | B-class races                                                 |
+| Blue      | A-class races and the Time Attack Circuits                    |
+| Pink      | More A-class races and Drag Meets                             |
 | Orange    | S1 class events and more Street Racing                        |
 | Purple    | S2 class events (hypercars) and more Touge Showdowns          |
-| Gold      | Legend Island, R class and the longest race (The Colossus)    |
+| Gold      | Legend Island, R class and the longest race (The Goliath)     |
 
 </div>
 
@@ -226,7 +238,7 @@ There are group activities too: LINK Skills, shared Festival and Discover Japan 
 
 **2. The qualifiers.** Six C-class events. The car for each one is in the **Yellow wristband** tab, just below.
 
-**3. The Horizon Invitational and the first wristband.** Finishing the qualifiers and the Invitational earns the Yellow wristband and three gift cars: 2022 Toyota GR86, 2001 Mitsubishi Lancer Evolution VI GSR TM Edition and 2024 Ram 1500 TRX. All three come stock in **B class**, so they cannot enter C-class events, only from the Blue wristband on.
+**3. The Horizon Invitational and the first wristband.** Finishing the qualifiers and the Invitational earns the Yellow wristband and three gift cars: 2022 Toyota GR86, 2001 Mitsubishi Lancer Evolution VI GSR TM Edition and 2024 Ram 1500 TRX. All three come stock in **B class**, and each fits one of the races Yellow unlocks.
 
 **4. After the first wristband:**
 
@@ -241,23 +253,35 @@ There are group activities too: LINK Skills, shared Festival and Discover Japan 
 
 ## Cars and tunes by wristband
 
-Each wristband opens a new class. Open the tab for the wristband you are on: it shows free or cheap cars that are easy to drive and not DLC, each with tunes from the site's catalogue. Apply the tune and check that the PI stays within the event's class.
+Each wristband unlocks a set of races, and **each race accepts only one group of cars, in one class**. Festival Sprint, for example, asks for "B · Super Hot Hatch Cars". The restriction shows on the event card, on the map. Street races have no car restriction, and touge races only lock the class. Open the tab of the wristband you are on. It shows:
+
+- the event that earns the wristband (the game sets the car for it);
+- the races it unlocks, each with its restriction and a car that fits it;
+- the site's catalogue tunes for those cars, with the races each one serves.
+
+Apply the tune and check that the PI stays within the race's class. When a race has no class, any car of the group enters, in any class; the box uses the wristband's class.
+
+- **Cars you already own come first.** The game gives you one car for each race type at the start: the Silvia K's on tarmac, the Celica on dirt and the Jimmy in cross country. The Yellow gifts each fit one of the races Yellow unlocks. A car to buy only shows up when none of yours fits the race.
+- **Stock drivetrain whenever possible.** Meta tunes often swap the drivetrain and the engine, and those parts are expensive. Hardly any source says whether a tune swaps the engine.
+- **Only tunes that are easy to drive.** Powerbuilds, such as rear-wheel-drive builds with over 1,000 hp, and tunes marked hard are left out. The boxes list Forza Paddock's picks first, then tunes that keep the stock drivetrain and easy ones. Each tune says whether it keeps the drivetrain, which tyres it uses and whether it is easy, when the source says.
+- **Rally or off-road tyres work on both surfaces up to B class,** as a rule, especially with the Drivatars on a lower difficulty. That saves credits early on: the same dirt tune works in the cross-country races that ask for a rally car.
+- **DLC cars** (Car Pass, Welcome Pack and the car packs) are only mentioned, for those who already own them.
 
 <details class="band band-yellow">
-<summary>Yellow wristband · C class: the qualifiers</summary>
+<summary>Yellow wristband · C class and the first B-class races</summary>
 
-Until the Yellow wristband, only **C-class** cars race (up to 500 PI). The three starter cars cover all six qualifiers:
+Until the Yellow wristband, only **C-class** cars race (up to 500 PI). Each starter car fits one of the six qualifiers:
 
 <div class="table-wrap">
 
-| Event                   | Type                  | Surface | Suggested car        | Why                                                 |
-| ----------------------- | --------------------- | ------- | -------------------- | --------------------------------------------------- |
-| River Split             | Speed Trap (PR Stunt) | Tarmac  | Silvia K's or Celica | Only the speed at one point counts                  |
-| Airfield Trail          | Trail Race            | Dirt    | GMC Jimmy            | Four-wheel drive and the best off-road of the three |
-| Shirakawa Circuit       | Circuit Race          | Tarmac  | Silvia K's           | Easy to drive through corners; see the lines below  |
-| Highway View            | Speed Zone (PR Stunt) | Tarmac  | Silvia K's or Celica | Average speed over a stretch                        |
-| Wind Farm Cross Country | Cross Country         | Mixed   | GMC Jimmy            | Dirt, grass and jumps                               |
-| Hokubu Time Attack      | Time Attack           | Tarmac  | Silvia K's or Celica | A timed lap, no rivals                              |
+| Event                   | Type                  | Surface | Suggested car         | Why                                                      |
+| ----------------------- | --------------------- | ------- | --------------------- | -------------------------------------------------------- |
+| River Split             | Speed Trap (PR Stunt) | Tarmac  | Silvia K's or Celica  | Only the speed at one point counts                       |
+| Airfield Trail          | Trail Race            | Dirt    | Toyota Celica GT-Four | Asks for a rally car (C · Total Rally): only the Celica fits |
+| Shirakawa Circuit       | Circuit Race          | Tarmac  | Nissan Silvia K's     | Asks for C · Retro Sports Cars: only the Silvia fits     |
+| Highway View            | Speed Zone (PR Stunt) | Tarmac  | Silvia K's or Celica  | Average speed over a stretch                             |
+| Wind Farm Cross Country | Cross Country         | Mixed   | GMC Jimmy             | Asks for C · Pickups & 4x4s: only the Jimmy fits         |
+| Hokubu Time Attack      | Time Attack           | Tarmac  | Silvia K's or Celica  | A timed lap, no rivals                                   |
 
 </div>
 
@@ -265,156 +289,110 @@ For Shirakawa, Paddock Lab has the [track in 3D with racing lines](/en/tracks/sh
 
 **The starter cars:**
 
-- **1989 Nissan Silvia K's** (rear-wheel drive): the easiest to drive on tarmac, the safest pick to start with. Weak on dirt.
+- **1989 Nissan Silvia K's** (rear-wheel drive): the easiest to drive on tarmac. The first tune is Forza Paddock's pick.
 
 <tune-picks car="1989-nissan-silvia-ks" class="C" surface="road"></tune-picks>
 
-- **1994 Toyota Celica GT-Four ST205** (four-wheel drive): fast and balanced, but brakes poorly and struggles in tight corners. Also good on dirt.
+- **1994 Toyota Celica GT-Four ST205** (four-wheel drive): the rally car. Fast and balanced, but brakes poorly and struggles in tight corners.
 
 <tune-picks car="1994-toyota-celica-gt-four-st205" class="C" surface="dirt"></tune-picks>
 
-- **1970 GMC Jimmy** (four-wheel drive): the best of the three off tarmac, among the best C-class cars on dirt and **very easy to drive**.
-
-<tune-picks car="1970-gmc-jimmy" class="C" surface="dirt"></tune-picks>
+- **1970 GMC Jimmy** (four-wheel drive): the pickup, **very easy to drive** on grass and over jumps.
 
 <tune-picks car="1970-gmc-jimmy" class="C" surface="cross-country"></tune-picks>
 
-<details>
-<summary>If you want to buy a cheap C-class car</summary>
+**To earn Yellow:** the **Horizon Invitational**, after the six qualifiers. It gives you three gift cars, already in B class (Toyota GR86, Lancer Evolution VI and Ram 1500 TRX), and unlocks the first B-class races, one for each gift:
 
-These are among the best in C class, are **easy to drive** and have a tune with a code.
-
-**Tarmac: 2023 Acura Integra A-Spec.** Already C 484 stock, in the class meta and very easy to drive. One of its tunes laps Shirakawa in 1:10.3.
-
-<tune-picks car="2023-acura-integra-a-spec" class="C" surface="road"></tune-picks>
-
-**Dirt (and tarmac): 1986 Honda Civic Si.** D 253 stock; with the tune it moves up to C class. It tops C class on dirt and works on tarmac too.
-
-<tune-picks car="1986-honda-civic-si" class="C" surface="dirt"></tune-picks>
-
-**The cheapest: 1991 Honda Beat.** D 283 stock and, with a tune, one of the good C-class tarmac cars. The game also gives the Beat through the Collection Journal.
-
-<tune-picks car="1991-honda-beat" class="C" surface="road"></tune-picks>
-
-> **What about the three-wheelers?** The Peel P50 and the Reliant Supervan III top C class on tarmac, but they are **very hard to drive**. They are not a good pick when you are starting out.
-
-</details>
+<festival-races unlock="yellow"></festival-races>
 
 </details>
 
 <details class="band band-green">
-<summary>Green wristband · C and D class</summary>
+<summary>Green wristband · B class</summary>
 
-The Yellow-wristband cars still work in C-class events. For **D-class** events, the **1986 Honda Civic Si** is D 253 stock and has a D-class tune.
+**To earn Green:** the **Pier Pressure** Horizon Rush, at the Tokyo City docks. The game puts you in a Ford RS200 Evolution. It unlocks 25 events; these are the races:
 
-<tune-picks car="1986-honda-civic-si" class="D"></tune-picks>
+<festival-races unlock="green"></festival-races>
 
 </details>
 
 <details class="band band-blue">
-<summary>Blue wristband · B class and Time Attack</summary>
+<summary>Blue wristband · A class and Time Attack</summary>
 
-Now the three first-wristband gift cars come into play, and two cars the game gives free through the Collection Journal are among the best in B class.
+**To earn Blue:** the **Mech My Day** Showcase, against the giant robot Chaser Zero, in Ohtani. The game puts you in an Acura NSX Type S. It unlocks 26 events, including the Time Attacks, each with its own restriction. These are the races:
 
-**Cross country: 2024 Ram 1500 TRX** (first-wristband gift).
-
-<tune-picks car="2024-ram-1500-trx" class="B" surface="cross-country"></tune-picks>
-
-**Tarmac: 1984 Honda City E-II.** In the B-class tarmac meta, very easy to drive, and the game also gives it through the Collection Journal.
-
-<tune-picks car="1984-honda-city-e-ii" class="B" surface="road"></tune-picks>
-
-**Dirt and tarmac: 1991 Honda Beat.** The same Beat as in C class: with another tune it tops B class on dirt and is in the tarmac meta.
-
-<tune-picks car="1991-honda-beat" class="B" surface="dirt"></tune-picks>
-
-**Tarmac: 2022 Toyota GR86** (first-wristband gift).
-
-<tune-picks car="2022-toyota-gr86" class="B" surface="road"></tune-picks>
-
-**Cross country, if you want to buy: 2020 Ford Super Duty F-450.** Tops B class in cross country and is very easy to drive.
-
-<tune-picks car="2020-ford-super-duty-f-450-drw-platinum" class="B" surface="cross-country"></tune-picks>
+<festival-races unlock="blue"></festival-races>
 
 </details>
 
 <details class="band band-pink">
 <summary>Pink wristband · A class and Drag Meets</summary>
 
-**The car of the moment: 2005 Ford GT**, the free treasure car from Nangan. It tops A class on tarmac, does well on dirt and is very easy to drive.
+**To earn Pink:** the **Off Piste** Horizon Rush, a snowy downhill at the Sotoyama ski resort. The game sets the car. It unlocks 33 events, including the Drag Meets; these are the races:
 
-<tune-picks car="2005-ford-gt" class="A" surface="road"></tune-picks>
-
-<tune-picks car="2005-ford-gt" class="A" surface="dirt"></tune-picks>
-
-**Tarmac: 2001 Mitsubishi Lancer Evolution VI** (first-wristband gift).
-
-<tune-picks car="2001-mitsubishi-lancer-evolution-vi-gsr-tm-edition" class="A" surface="road"></tune-picks>
-
-**Dirt, if you want to buy: 1970 Dodge Coronet Super Bee.** In the A-class dirt meta and very easy to drive.
-
-<tune-picks car="1970-dodge-coronet-super-bee" class="A" surface="dirt"></tune-picks>
-
-**Cross country, if you want to buy: 2022 Rivian R1T.** In the A-class cross-country meta and very easy to drive.
-
-<tune-picks car="2022-rivian-r1t" class="A" surface="cross-country"></tune-picks>
+<festival-races unlock="pink"></festival-races>
 
 </details>
 
 <details class="band band-orange">
 <summary>Orange wristband · S1 class and Street Racing</summary>
 
-**Keep the 2005 Ford GT:** with an S1 tune it is still competitive on tarmac.
+**To earn Orange:** the **Flight Club** Showcase, against a stunt plane, in Ito. The game puts you in a rally car, over dirt and tarmac. It unlocks 37 events, with more Street Racing; these are the races:
 
-<tune-picks car="2005-ford-gt" class="S1" surface="road"></tune-picks>
+<festival-races unlock="orange"></festival-races>
 
-**Tarmac: 2008 Dodge Viper SRT-10 ACR.** Very easy to drive, with several S1 tunes.
+<details>
+<summary>More on the S1 cars: cost and benefit</summary>
 
-<tune-picks car="2008-dodge-viper-srt-10-acr" class="S1" surface="road"></tune-picks>
+- **2008 Dodge Viper SRT-10 ACR:** the best option for Hokubu Circuit. Cheap at the dealer, very strong and easy to drive. LetzeLU's Road Allround 54.5 Shirakawa Clean tune costs 74,800 credits and is worth every one.
+- **2020 Chevrolet Corvette Stingray:** the best option for Ito Sprint. Cheaper to buy than the R8, but the tune can cost more, because it swaps the engine. It is also very strong and easy to drive.
+- **2013 Audi R8:** the final Day Trips reward, very strong in S1. Its tunes are not that expensive, because it is already all-wheel drive, but they need an engine swap. It serves well throughout the whole game.
+- **1986 Lancia Delta S4:** less strong than the RS200, but viable and easy to drive. SR1 Rain's tune is a good pick.
 
-**Dirt: 1986 Audi #2 Sport quattro S1.** In the S1 dirt meta.
-
-<tune-picks car="1986-audi-2-audi-sport-quattro-s1" class="S1" surface="dirt"></tune-picks>
-
-**Cross country: 2016 Jeep Trailcat.**
-
-<tune-picks car="2016-jeep-trailcat" class="S1" surface="cross-country"></tune-picks>
-
-**Once you reach the Gold stamp:** the **Mazda 787B** and the **Nissan #11 Tomica Skyline**, from the last two barns, become the cars to beat in S1.
-
-<tune-picks car="1991-mazda-55-mazda-787b" class="S1" surface="road"></tune-picks>
-
-<tune-picks car="1983-nissan-11-tomica-skyline-turbo-super-silhouette" class="S1"></tune-picks>
+</details>
 
 </details>
 
 <details class="band band-purple">
-<summary>Purple wristband · S2 class (hypercars) and Touge Showdowns</summary>
+<summary>Purple wristband · S2 class and Touge Showdowns</summary>
 
-S2 hypercars are expensive. The cheap way to own a top car here is the **Mazda 787B**, from the Gold-stamp barn: it is in the S2 tarmac meta. One more reason to prioritise Discover Japan.
+**To earn Purple:** the **Launch Control** Horizon Rush, at the Irokawa Space Centre. It unlocks 38 events, and only from here can hypercars race in the Festival. Touge Showdowns only lock the class: any car of that class enters. These are the races:
 
-<tune-picks car="1991-mazda-55-mazda-787b" class="S2" surface="road"></tune-picks>
+<festival-races unlock="purple"></festival-races>
 
-The **Nissan #11 Tomica Skyline**, from the other Gold barn, is S2 stock and also has an S2 tarmac tune.
+<details>
+<summary>More on the S2 cars</summary>
 
-<tune-picks car="1983-nissan-11-tomica-skyline-turbo-super-silhouette" class="S2" surface="road"></tune-picks>
+- **2010 Lexus LFA Forza Edition:** a story reward, from one of the touge chapters. Very strong, it keeps its own engine and only swaps the drivetrain. There are also rear-wheel-drive tunes, its stock drivetrain, that are very strong and may be cheaper.
+- **2018 Porsche 911 GT2 RS:** at an Aftermarket on the map it costs less than at the dealer, though it is still a bit expensive.
+- **2020 Lamborghini Essenza SCV12:** for those with credits to spare. Very easy to drive.
+- **Later, with the Gold stamp:** the [Mazda 787B](/en/cars/1991-mazda-55-mazda-787b/) and the [Nissan #11 Tomica Skyline](/en/cars/1983-nissan-11-tomica-skyline-turbo-super-silhouette/) come from the last two barns. At this stage, though, you are unlikely to have them yet.
 
-**If you have credits to spare: 2020 Lamborghini Essenza SCV12.** Very easy to drive, with S2 tunes.
-
-<tune-picks car="2020-lamborghini-essenza-scv12" class="S2" surface="road"></tune-picks>
+</details>
 
 </details>
 
 <details class="band band-gold">
 <summary>Gold wristband · R class and Legend Island</summary>
 
-**Mazda 787B**, again: it is in the R-class tarmac meta, and free from the barn.
+**To earn Gold:** the final event, **Horizon Legend**, in Ito. You only need to finish it, not win it. It unlocks 12 events, Legend Island and R class. These are the races:
+
+<festival-races unlock="gold"></festival-races>
+
+At this stage you may not have the Mazda 787B or the Aston Martin Valkyrie AMR Pro yet. The best value is the **2018 Lotus Scura Motorsports Exige WTAC**: a Collection Journal reward, in the tarmac races (Road Racing), and not part of any paid pack. It only lacks top speed: in the events that need more, you may have to lower the Drivatar difficulty.
+
+<details>
+<summary>Other R-class options</summary>
+
+**Mazda 787B:** in the R-class tarmac meta, and free from the Gold-stamp barn.
 
 <tune-picks car="1991-mazda-55-mazda-787b" class="R" surface="road"></tune-picks>
 
-**2022 Aston Martin Valkyrie AMR Pro:** very easy to drive, and the game also gives it through the Collection Journal.
+**For DLC owners: the Welcome Pack Ferrari FXX-K Evo.** An honourable mention: it is very good in R class. The Welcome Pack comes with the Deluxe and Premium editions. The same goes for the Car Pass cars: they are not the first suggestion because they are paid content, but they are good options to know about.
 
-<tune-picks car="2022-aston-martin-valkyrie-amr-pro" class="R" surface="road"></tune-picks>
+<tune-picks car="2018-ferrari-fxx-k-evo-welcome-pack" class="R" surface="road"></tune-picks>
+
+</details>
 
 </details>
 
