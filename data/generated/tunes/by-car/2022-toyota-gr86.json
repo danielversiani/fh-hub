@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:57:36.456Z",
+  "generatedAt": "2026-11-26T08:23:02.249Z",
   "items": [
     {
       "buildTags": [],
@@ -307,45 +307,6 @@
       "tier": "t2",
       "tierSource": "meta-table",
       "tunerId": "jsr-chronic"
-    },
-    {
-      "buildTags": [
-        "purist"
-      ],
-      "carId": "2022-toyota-gr86",
-      "categories": [
-        "off-meta",
-        "purist"
-      ],
-      "class": "B",
-      "confidence": 0.8,
-      "drivetrain": "RWD",
-      "id": "nc-6dbe2e8036",
-      "metaRank": 109,
-      "name": "Purist/Touge",
-      "observations": [
-        {
-          "raw": {
-            "Car": "2022 Toyota GR86",
-            "Comment": "Purist",
-            "Design": "TEAM YELLOW",
-            "Designer": "FRDT Pat theCat",
-            "Drivetrain": "RWD",
-            "Terrain": "Road",
-            "Tune": "Purist/Touge",
-            "Tuner": "K1Z Jumpy",
-            "fill": "FFED7D31"
-          },
-          "row": 664,
-          "sourceId": "kleis",
-          "tab": "fh6"
-        }
-      ],
-      "score": 0.511,
-      "surface": "road",
-      "tier": "t2",
-      "tierSource": "meta-table",
-      "tunerId": "k1z-jumpy"
     },
     {
       "buildTags": [],
@@ -734,6 +695,108 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "slowbakedpanda"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-toyota-gr86",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-08-20",
+      "drivetrain": "RWD",
+      "id": "sc-164016935",
+      "metaRank": 35,
+      "name": "Seasonal TRIAL Purist Top 1%",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-08-20",
+            "Difficulty": "Medium-Easy",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Toyota",
+            "Model/Car": "22 GR86",
+            "Sharecode": "164 016 935",
+            "Tune Name": "Seasonal TRIAL Purist Top 1%",
+            "Tuner": "Stevio2175",
+            "Tyre Compound": "Rally"
+          },
+          "row": 15,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.551,
+      "shareCode": "164016935",
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "stevio2175"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2022-toyota-gr86",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.85,
+      "createdAt": "2026-05-07",
+      "drivetrain": "RWD",
+      "id": "sc-680790287",
+      "metaRank": 109,
+      "name": "Purist/Touge",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-05-07",
+            "Difficulty": "Medium-Easy",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Toyota",
+            "Model/Car": "22 GR86",
+            "Sharecode": "680 790 287",
+            "Tune Name": "Purist/Touge",
+            "Tuner": "K1Z Jumpy",
+            "Tyre Compound": "Sport"
+          },
+          "row": 6,
+          "sourceId": "forza-paddock",
+          "tab": "b-600-road"
+        },
+        {
+          "raw": {
+            "Car": "2022 Toyota GR86",
+            "Comment": "Purist",
+            "Design": "TEAM YELLOW",
+            "Designer": "FRDT Pat theCat",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist/Touge",
+            "Tuner": "K1Z Jumpy",
+            "fill": "FFED7D31"
+          },
+          "row": 664,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "recommended": true,
+      "score": 0.607,
+      "shareCode": "680790287",
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "sport",
+      "tunerId": "k1z-jumpy"
     }
   ],
   "schemaVersion": 1

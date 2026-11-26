@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:57:36.456Z",
+  "generatedAt": "2026-11-26T08:23:02.249Z",
   "items": [
     {
       "buildTags": [],
@@ -778,6 +778,49 @@
       "tierSource": "meta-table",
       "tires": "slick",
       "tunerId": "letzelu"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "2005-ford-gt",
+      "categories": [
+        "meta",
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.85,
+      "createdAt": "2026-05-18",
+      "drivetrain": "RWD",
+      "id": "sc-407002704",
+      "metaRank": 3,
+      "name": "Purist",
+      "observations": [
+        {
+          "raw": {
+            "Date Created": "2026-05-18",
+            "Difficulty": "Medium-Easy",
+            "Drivetrain": "RWD",
+            "Manufacturer": "Ford",
+            "Model/Car": "05 Ford GT",
+            "Sharecode": "407 002 704",
+            "Tune Name": "Purist",
+            "Tuner": "K1Z Bard",
+            "Tyre Compound": "Rally"
+          },
+          "row": 14,
+          "sourceId": "forza-paddock",
+          "tab": "a-700-road"
+        }
+      ],
+      "recommended": true,
+      "score": 0.685,
+      "shareCode": "407002704",
+      "surface": "road",
+      "tier": "meta-plus",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
     },
     {
       "brainAfk": "auto",

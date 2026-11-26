@@ -1097,6 +1097,68 @@
       },
       {
         "car": {
+          "make": "Ford",
+          "model": "Ford GT",
+          "text": "2005 Ford Ford GT",
+          "year": 2005
+        },
+        "carClass": "A",
+        "createdAt": "2026-05-18",
+        "difficulty": "Medium-Easy",
+        "drivetrain": "RWD",
+        "name": "Purist",
+        "raw": {
+          "Date Created": "2026-05-18",
+          "Difficulty": "Medium-Easy",
+          "Drivetrain": "RWD",
+          "Manufacturer": "Ford",
+          "Model/Car": "05 Ford GT",
+          "Sharecode": "407 002 704",
+          "Tune Name": "Purist",
+          "Tuner": "K1Z Bard",
+          "Tyre Compound": "Rally"
+        },
+        "recommended": true,
+        "row": 14,
+        "shareCode": "407 002 704",
+        "surfaceText": "road",
+        "tab": "a-700-road",
+        "tires": "Rally",
+        "tuner": "K1Z Bard"
+      },
+      {
+        "car": {
+          "make": "Toyota",
+          "model": "GR86",
+          "text": "2022 Toyota GR86",
+          "year": 2022
+        },
+        "carClass": "A",
+        "createdAt": "2026-08-20",
+        "difficulty": "Medium-Easy",
+        "drivetrain": "RWD",
+        "name": "Seasonal TRIAL Purist Top 1%",
+        "raw": {
+          "Date Created": "2026-08-20",
+          "Difficulty": "Medium-Easy",
+          "Drivetrain": "RWD",
+          "Manufacturer": "Toyota",
+          "Model/Car": "22 GR86",
+          "Sharecode": "164 016 935",
+          "Tune Name": "Seasonal TRIAL Purist Top 1%",
+          "Tuner": "Stevio2175",
+          "Tyre Compound": "Rally"
+        },
+        "recommended": true,
+        "row": 15,
+        "shareCode": "164 016 935",
+        "surfaceText": "road",
+        "tab": "a-700-road",
+        "tires": "Rally",
+        "tuner": "Stevio2175"
+      },
+      {
+        "car": {
           "make": "Nissan",
           "model": "Silvia K's",
           "text": "1989 Nissan Silvia K's",
@@ -1125,6 +1187,37 @@
         "tab": "b-600-road",
         "tires": "Street",
         "tuner": "Stevio2175"
+      },
+      {
+        "car": {
+          "make": "Toyota",
+          "model": "GR86",
+          "text": "2022 Toyota GR86",
+          "year": 2022
+        },
+        "carClass": "B",
+        "createdAt": "2026-05-07",
+        "difficulty": "Medium-Easy",
+        "drivetrain": "RWD",
+        "name": "Purist/Touge",
+        "raw": {
+          "Date Created": "2026-05-07",
+          "Difficulty": "Medium-Easy",
+          "Drivetrain": "RWD",
+          "Manufacturer": "Toyota",
+          "Model/Car": "22 GR86",
+          "Sharecode": "680 790 287",
+          "Tune Name": "Purist/Touge",
+          "Tuner": "K1Z Jumpy",
+          "Tyre Compound": "Sport"
+        },
+        "recommended": true,
+        "row": 6,
+        "shareCode": "680 790 287",
+        "surfaceText": "road",
+        "tab": "b-600-road",
+        "tires": "Sport",
+        "tuner": "K1Z Jumpy"
       },
       {
         "car": {
@@ -1191,7 +1284,7 @@
     ],
     "warnings": []
   },
-  "records": 38,
+  "records": 41,
   "schemaVersion": 1,
   "sourceId": "forza-paddock"
 }

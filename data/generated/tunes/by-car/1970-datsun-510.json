@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-11-16T22:06:13.748Z",
+  "generatedAt": "2026-11-26T08:23:02.249Z",
   "items": [
     {
       "buildTags": [],
       "carId": "1970-datsun-510",
-      "categories": [],
+      "categories": [
+        "meta"
+      ],
       "class": "B",
-      "confidence": 0.35,
+      "confidence": 0.8,
       "drivetrain": "AWD",
       "id": "nc-ca7a87f834",
+      "metaRank": 12,
       "name": "Top Tier B Dirt",
       "observations": [
         {
@@ -28,11 +31,49 @@
           "tab": "fh6"
         }
       ],
-      "score": 0.474,
+      "score": 0.616,
       "surface": "dirt",
-      "tier": "t3",
-      "tierSource": "default",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1970-datsun-510",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-eaf6aea49c",
+      "lapRefs": [
+        {
+          "time": "1:10.3",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:10.3 前中段加速快 全段弯速快 上手简单",
+      "metaRank": 12,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 27,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.676,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
     }
   ],
   "schemaVersion": 1
