@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:23:02.249Z",
+  "generatedAt": "2026-11-26T19:02:35.453Z",
   "items": [
     {
       "buildTags": [],
@@ -307,21 +307,8 @@
       ],
       "class": "B",
       "confidence": 0.8,
-      "credited": true,
-      "difficulty": "death",
       "drivetrain": "RWD",
       "id": "nc-8864ebfaf9",
-      "lapRefs": [
-        {
-          "time": "1:04.5",
-          "track": "Shirakawa"
-        }
-      ],
-      "metaNotes": "白川1:04.5",
-      "metaNotesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
       "metaRank": 11,
       "name": "B Road Powerbuild Meta",
       "observations": [
@@ -342,12 +329,10 @@
           "tab": "fh6"
         }
       ],
-      "role": "power",
-      "score": 0.545,
+      "score": 0.485,
       "surface": "road",
       "tier": "t0.5",
       "tierSource": "meta-table",
-      "tires": "vintage",
       "tunerId": "noa-miyako"
     },
     {
@@ -459,6 +444,48 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "death",
+      "drivetrain": "RWD",
+      "fromMeta": true,
+      "id": "nc-cb714e8025",
+      "lapRefs": [
+        {
+          "time": "1:04.4",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:04.4",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 11,
+      "name": "B road RWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 25,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "power",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "vintage",
+      "tunerId": "msr-pyke"
     },
     {
       "buildTags": [],

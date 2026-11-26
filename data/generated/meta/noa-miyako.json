@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:23:02.249Z",
+  "generatedAt": "2026-11-26T19:02:35.453Z",
   "items": [
     {
       "carId": "1986-honda-civic-si",
@@ -2936,6 +2936,30 @@
       ]
     },
     {
+      "carId": "1966-hillman-imp",
+      "class": "B",
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "1:10.0",
+          "track": "Ine"
+        }
+      ],
+      "notes": "伊根 1:10.0 前中段加速不错 出弯比较快 后置引擎 导致车头指向性较差 动态奇怪 有一定难度",
+      "rank": 25,
+      "role": "allround",
+      "row": 53,
+      "sourceId": "noa-miyako",
+      "surface": "dirt",
+      "tab": "b-dirt",
+      "tier": "t0.5",
+      "tires": "offroad",
+      "tunerIds": [
+        "caigou-yyy"
+      ]
+    },
+    {
       "carId": "1968-holden-monaro-gts-327",
       "class": "B",
       "difficulty": "medium",
@@ -2955,9 +2979,9 @@
         "en": "Very strong acceleration, but poor cornering; terrible rigidity and very strange behaviour.",
         "pt-br": "Acelera fortíssimo, mas não faz curva bem; rigidez péssima e comportamento muito estranho."
       },
-      "rank": 25,
+      "rank": 26,
       "role": "power",
-      "row": 53,
+      "row": 55,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -2988,9 +3012,9 @@
         "en": "Decent low and mid-range acceleration, good in corners; slightly heavy nose, but the feel is fine.",
         "pt-br": "Aceleração razoável em baixa e média, boa nas curvas; frente um pouco pesada, mas a sensação é boa."
       },
-      "rank": 26,
+      "rank": 27,
       "role": "allround",
-      "row": 55,
+      "row": 57,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3017,9 +3041,9 @@
         "en": "Decent cornering; the 325 rear tire calls for the handbrake. Average power, quick in the mid-range; thanks to the wide tires, it exits slow corners well.",
         "pt-br": "Curvas razoáveis; o pneu traseiro de 325 pede freio de mão. Potência mediana, rápido na faixa média; graças aos pneus largos, sai bem das curvas lentas."
       },
-      "rank": 27,
+      "rank": 28,
       "role": "allround",
-      "row": 57,
+      "row": 59,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3045,9 +3069,9 @@
         "en": "Average acceleration, no top end, but great handling.",
         "pt-br": "Aceleração mediana, sem fôlego em alta, mas ótimo nas curvas."
       },
-      "rank": 28,
+      "rank": 29,
       "role": "handling",
-      "row": 60,
+      "row": 62,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3073,9 +3097,9 @@
         "en": "Accelerates well, average cornering; heavy body, feels like steering a ship.",
         "pt-br": "Acelera bem, curvas medianas; carroceria pesada, parece pilotar um navio."
       },
-      "rank": 29,
+      "rank": 30,
       "role": "allround",
-      "row": 62,
+      "row": 64,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3101,9 +3125,9 @@
         "en": "Seako's tune has only a rear wing and is better on sprints; CaiGou's has full aero and is more balanced. A \"baby '68 Mustang\": strong acceleration, average rigidity, front tires too narrow and hard-to-predict behaviour in corners.",
         "pt-br": "A tune de Seako tem só asa traseira e é melhor nos sprints; a de CaiGou tem aero completa e é mais equilibrada. É um \"Mustang 68 bebê\": acelera muito, rigidez mediana, pneus dianteiros estreitos demais e comportamento difícil de prever nas curvas."
       },
-      "rank": 30,
+      "rank": 31,
       "role": "power",
-      "row": 64,
+      "row": 66,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3130,9 +3154,9 @@
         "en": "Strong acceleration, decent cornering; too much weight up front, sometimes understeers. Needs some control.",
         "pt-br": "Acelera muito, curvas razoáveis; frente pesada demais, às vezes sai de frente. Exige algum controle."
       },
-      "rank": 31,
+      "rank": 32,
       "role": "allround",
-      "row": 66,
+      "row": 68,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3158,9 +3182,9 @@
         "en": "Good low and mid-range acceleration, fast in corners, very easy to control.",
         "pt-br": "Acelera bem em baixa e média, rápido nas curvas, muito fácil de controlar."
       },
-      "rank": 32,
+      "rank": 33,
       "role": "allround",
-      "row": 68,
+      "row": 70,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3186,9 +3210,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 33,
+      "rank": 34,
       "role": "allround",
-      "row": 70,
+      "row": 72,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3214,9 +3238,9 @@
         "en": "Well balanced, no clear weak point; accelerates well, but mind the brakes.",
         "pt-br": "Bem equilibrado, sem ponto fraco claro; acelera bem, mas cuidado com o freio."
       },
-      "rank": 34,
+      "rank": 35,
       "role": "allround",
-      "row": 72,
+      "row": 74,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3242,9 +3266,9 @@
         "en": "Well balanced, a little weak at the top end; easy to pick up.",
         "pt-br": "Bem equilibrado, um pouco fraco em alta; fácil de pegar a mão."
       },
-      "rank": 35,
+      "rank": 36,
       "role": "allround",
-      "row": 74,
+      "row": 76,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3270,9 +3294,9 @@
         "en": "Good low and mid-range acceleration and decent cornering; a grip driving style. Heavy nose, sometimes understeers, but the car is small and not hard to drive.",
         "pt-br": "Boa aceleração em baixa e média e curvas razoáveis; pilotagem de aderência. Frente pesada, às vezes sai de frente, mas o carro é pequeno e não é difícil."
       },
-      "rank": 36,
+      "rank": 37,
       "role": "allround",
-      "row": 76,
+      "row": 78,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3298,9 +3322,9 @@
         "en": "Average acceleration, but quick at the top end and good in corners. Very easy to control.",
         "pt-br": "Aceleração mediana, mas rápido em alta e bom nas curvas. Muito fácil de controlar."
       },
-      "rank": 37,
+      "rank": 38,
       "role": "allround",
-      "row": 78,
+      "row": 80,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3326,9 +3350,9 @@
         "en": "Decent acceleration and cornering; short wheelbase on stock suspension, a little tricky.",
         "pt-br": "Aceleração e curvas razoáveis; entre-eixos curto com suspensão de fábrica, um pouco difícil."
       },
-      "rank": 38,
+      "rank": 39,
       "role": "allround",
-      "row": 80,
+      "row": 82,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3354,9 +3378,9 @@
         "en": "Rear wing only, sprint-oriented; a boat-like suspension, a heavy and clumsy car.",
         "pt-br": "Só asa traseira, voltado para sprints; suspensão meio de barco, carro pesado e desajeitado."
       },
-      "rank": 39,
+      "rank": 40,
       "role": "power",
-      "row": 82,
+      "row": 84,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3382,9 +3406,9 @@
         "en": "Slow acceleration, fast in corners, decent feel on tarmac.",
         "pt-br": "Acelera devagar, rápido nas curvas, sensação razoável no asfalto."
       },
-      "rank": 40,
+      "rank": 41,
       "role": "allround",
-      "row": 84,
+      "row": 86,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3410,9 +3434,9 @@
         "en": "Very good acceleration and cornering, easy to drive and quick at the top end too.",
         "pt-br": "Muito bom na aceleração e nas curvas, fácil de pilotar e também rápido em alta."
       },
-      "rank": 41,
+      "rank": 42,
       "role": "allround",
-      "row": 88,
+      "row": 90,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3438,9 +3462,9 @@
         "en": "Very balanced with a good feel; heavy nose, sometimes understeers, but very easy to pick up. Tired of the meta? Try this one.",
         "pt-br": "Muito equilibrado e boa sensação; frente pesada, às vezes sai de frente, mas é muito fácil de pegar a mão. Cansou do meta? Experimente este."
       },
-      "rank": 42,
+      "rank": 43,
       "role": "allround",
-      "row": 90,
+      "row": 92,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3455,9 +3479,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 43,
+      "rank": 44,
       "role": "allround",
-      "row": 93,
+      "row": 95,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3477,9 +3501,9 @@
         "en": "Extremely quick low and mid-range acceleration, great corner exit. FWD with wide rear tires; can understeer at times, but overall simple to drive.",
         "pt-br": "Aceleração em baixa e média extremamente rápida, sai muito bem das curvas. Tração dianteira com pneus traseiros largos; às vezes sai de frente, mas no geral é simples de pilotar."
       },
-      "rank": 44,
+      "rank": 45,
       "role": "allround",
-      "row": 95,
+      "row": 97,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3494,9 +3518,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 45,
+      "rank": 46,
       "role": "allround",
-      "row": 97,
+      "row": 99,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3517,9 +3541,9 @@
         "en": "Decent early acceleration, average top end. FWD, slight understeer, but easy to control.",
         "pt-br": "Aceleração inicial razoável, média no final. Tração dianteira, sai um pouco de frente, mas é fácil de controlar."
       },
-      "rank": 46,
+      "rank": 47,
       "role": "allround",
-      "row": 99,
+      "row": 101,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3545,9 +3569,9 @@
         "en": "Good in corners, no top end; with a 225 rear tire, mind the throttle out of slow corners. Easy and not slow.",
         "pt-br": "Bom nas curvas, sem fôlego em alta; com pneu traseiro de 225, cuidado com o acelerador na saída das lentas. Fácil e nada lento."
       },
-      "rank": 47,
+      "rank": 48,
       "role": "allround",
-      "row": 101,
+      "row": 103,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3573,9 +3597,9 @@
         "en": "Excellent aero numbers, average acceleration, very fast in corners. Extremely easy.",
         "pt-br": "Números de aerodinâmica excelentes, aceleração mediana, muito rápido nas curvas. Facílimo."
       },
-      "rank": 48,
+      "rank": 49,
       "role": "handling",
-      "row": 103,
+      "row": 105,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3601,9 +3625,9 @@
         "en": "Very easy to drive and quicker at the top end than the '92 model.",
         "pt-br": "Muito fácil de pilotar e mais rápido em alta que o modelo 92."
       },
-      "rank": 49,
+      "rank": 50,
       "role": "allround",
-      "row": 105,
+      "row": 107,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3618,9 +3642,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 50,
+      "rank": 51,
       "role": "allround",
-      "row": 107,
+      "row": 109,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3635,9 +3659,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 51,
+      "rank": 52,
       "role": "allround",
-      "row": 110,
+      "row": 112,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3663,9 +3687,9 @@
         "en": "Average: neither accelerates nor corners well, and understeers a lot.",
         "pt-br": "Mediano: não acelera nem faz curva bem e sai bastante de frente."
       },
-      "rank": 52,
+      "rank": 53,
       "role": "allround",
-      "row": 112,
+      "row": 114,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3691,9 +3715,9 @@
         "en": "Quite fast in corners; rear wing only, but does not understeer much. Easy to control.",
         "pt-br": "Bem rápido nas curvas; só asa traseira, mas não sai muito de frente. Fácil de controlar."
       },
-      "rank": 53,
+      "rank": 54,
       "role": "allround",
-      "row": 114,
+      "row": 116,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3719,9 +3743,9 @@
         "en": "An easy little jeep; average acceleration and cornering, balanced.",
         "pt-br": "Um jipinho fácil de pilotar; aceleração e curvas medianas, equilibrado."
       },
-      "rank": 54,
+      "rank": 55,
       "role": "allround",
-      "row": 116,
+      "row": 118,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3747,9 +3771,9 @@
         "en": "Extremely fast in corners but accelerates like a tortoise. Drift suspension fixes the understeer, but the response gets twitchy: needs control.",
         "pt-br": "Rapidíssimo nas curvas, mas acelera como tartaruga. A suspensão de drift resolve a saída de frente, mas a resposta fica sensível: exige controle."
       },
-      "rank": 55,
+      "rank": 56,
       "role": "handling",
-      "row": 118,
+      "row": 120,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3776,9 +3800,9 @@
         "en": "Nothing special; a little easier than the Ram.",
         "pt-br": "Nada de especial; um pouco mais fácil que o Ram."
       },
-      "rank": 56,
+      "rank": 57,
       "role": "allround",
-      "row": 120,
+      "row": 122,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3793,9 +3817,9 @@
       "class": "B",
       "difficulty": "medium",
       "drivetrain": "AWD",
-      "rank": 57,
+      "rank": 58,
       "role": "allround",
-      "row": 122,
+      "row": 124,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3810,9 +3834,9 @@
       "class": "B",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 58,
+      "rank": 59,
       "role": "allround",
-      "row": 124,
+      "row": 126,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -3842,9 +3866,9 @@
         "en": "Bicycle-thin tires: the front does not hold and the car slides sideways. Limit the slip angle or the tires lose grip.",
         "pt-br": "Pneus finos como de bicicleta: a frente não segura e o carro escorrega de lado. Limite o ângulo de deslizamento, senão os pneus perdem aderência."
       },
-      "rank": 59,
+      "rank": 60,
       "role": "allround",
-      "row": 126,
+      "row": 128,
       "sourceId": "noa-miyako",
       "surface": "dirt",
       "tab": "b-dirt",
@@ -4133,11 +4157,11 @@
       "drivetrain": "RWD",
       "lapRefs": [
         {
-          "time": "1:04.5",
+          "time": "1:04.4",
           "track": "Shirakawa"
         }
       ],
-      "notes": "白川1:04.5",
+      "notes": "白川1:04.4",
       "notesI18n": {
         "en": "",
         "pt-br": ""
@@ -4151,7 +4175,7 @@
       "tier": "t0.5",
       "tires": "vintage",
       "tunerIds": [
-        "noa-miyako"
+        "msr-pyke"
       ]
     },
     {
@@ -6618,6 +6642,34 @@
       ]
     },
     {
+      "carId": "1966-hillman-imp",
+      "class": "B",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "1:06.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "notes": "白川1:06.8",
+      "notesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "rank": 106,
+      "role": "allround",
+      "row": 218,
+      "sourceId": "noa-miyako",
+      "surface": "road",
+      "tab": "b-road",
+      "tier": "t2",
+      "tires": "rally",
+      "tunerIds": [
+        "noa-miyako"
+      ]
+    },
+    {
       "carId": "2010-renault-megane-rs-250",
       "class": "B",
       "difficulty": "very-easy",
@@ -6633,9 +6685,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 106,
+      "rank": 107,
       "role": "allround",
-      "row": 218,
+      "row": 220,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6662,9 +6714,9 @@
         "en": "Very fast in corners, accelerates like a tortoise and has no top end. Very easy to drive.",
         "pt-br": "Muito rápido nas curvas, acelera como tartaruga e sem fôlego em alta. Muito fácil de pilotar."
       },
-      "rank": 107,
+      "rank": 108,
       "role": "allround",
-      "row": 220,
+      "row": 222,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6690,9 +6742,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 108,
+      "rank": 109,
       "role": "allround",
-      "row": 222,
+      "row": 224,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6718,9 +6770,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 109,
+      "rank": 110,
       "role": "handling",
-      "row": 224,
+      "row": 226,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6735,9 +6787,9 @@
       "class": "B",
       "difficulty": "death",
       "drivetrain": "FWD",
-      "rank": 110,
+      "rank": 111,
       "role": "power",
-      "row": 226,
+      "row": 228,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6763,9 +6815,9 @@
         "en": "Weak low-end acceleration, decent mid-range and good top end (411 top speed); poor in slow corners, average elsewhere. An out-of-this-world CVT: 400 km/h in 1st gear!",
         "pt-br": "Aceleração fraca em baixa, razoável na média e boa em alta (máxima de 411); fraco nas curvas lentas e mediano nas outras. Um câmbio CVT de outro planeta: 400 km/h em 1ª marcha!"
       },
-      "rank": 111,
+      "rank": 112,
       "role": "power",
-      "row": 228,
+      "row": 230,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6792,9 +6844,9 @@
         "en": "Great handling, weak acceleration; feels like the Beat: understeers and rotates at the same time.",
         "pt-br": "Ótimo nas curvas, aceleração fraca; lembra o Beat: sai de frente e ao mesmo tempo gira."
       },
-      "rank": 112,
+      "rank": 113,
       "role": "handling",
-      "row": 230,
+      "row": 232,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6820,9 +6872,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 113,
+      "rank": 114,
       "role": "allround",
-      "row": 233,
+      "row": 235,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6842,9 +6894,9 @@
         "en": "Purist tune for the stock-look crowd; a bit slower and slightly understeers.",
         "pt-br": "Tune purista, para quem quer o visual original; um pouco mais lenta e sai um pouco de frente."
       },
-      "rank": 114,
+      "rank": 115,
       "role": "allround",
-      "row": 235,
+      "row": 237,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6864,9 +6916,9 @@
         "en": "Very comfortable handling, but poor acceleration.",
         "pt-br": "Muito confortável nas curvas, mas acelera mal."
       },
-      "rank": 115,
+      "rank": 116,
       "role": "allround",
-      "row": 237,
+      "row": 239,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "b-road",
@@ -6932,15 +6984,11 @@
           "track": "Takashiro"
         },
         {
-          "time": "1:59.5",
+          "time": "1:58.3",
           "track": "Rurikoji"
         }
       ],
-      "notes": "高城 2:24.3 瑠璃光寺 1:59.5 传奇岛 冈城 鸣尾世界纪录 弯速非常恐怖 同时加速快 也有一定后段 但是悬挂会莫名其妙起飞 线上蹭墙容易被减速 小心驾驶 在部分圈图有断档圈速",
-      "notesI18n": {
-        "en": "World record at Legend Island, Okajo and Naruo. Frighteningly fast in corners, strong acceleration and some top end; but the suspension sometimes takes off for no reason, and online, scraping a wall slows it down. Drive carefully; on some circuits it posts unmatched lap times.",
-        "pt-br": "Recorde mundial em Legend Island, Okajo e Naruo. Assustadoramente rápido nas curvas, acelera muito e tem algum fôlego em alta; mas a suspensão às vezes decola do nada, e no online raspar na parede faz perder velocidade. Pilote com cuidado; em alguns circuitos tem tempos isolados."
-      },
+      "notes": "高城 2:24.3 瑠璃光寺 1:58.3 传奇岛 冈城 鸣尾世界纪录 弯速非常恐怖 同时加速快 也有一定后段 但是悬挂会莫名其妙起飞 线上蹭墙容易被减速 小心驾驶 在部分圈图有断档圈速",
       "rank": 3,
       "role": "handling",
       "row": 7,
@@ -6991,11 +7039,7 @@
           "track": "Takashiro"
         }
       ],
-      "notes": "瑠璃光寺1:59.5世界纪录 高城 2:24.9(锁极速) 前中段加速猛 弯速快 车尾微滑 均衡图绝对强者 新手友好",
-      "notesI18n": {
-        "en": "World record at Rurikoji. Brutal low and mid-range acceleration and fast in corners, with a slightly loose rear. Dominant on balanced tracks and beginner-friendly.",
-        "pt-br": "Recorde mundial em Rurikoji. Aceleração brutal em baixa e média e rápido nas curvas, com a traseira levemente solta. Absoluto nas pistas equilibradas e bom para iniciantes."
-      },
+      "notes": "瑠璃光寺1:59.5 高城 2:24.9(锁极速) 前中段加速猛 弯速快 车尾微滑 均衡图绝对强者 新手友好",
       "rank": 5,
       "role": "allround",
       "row": 12,
@@ -7016,7 +7060,7 @@
       "drivetrain": "AWD",
       "lapRefs": [
         {
-          "time": "1:59.8",
+          "time": "1:58.6",
           "track": "Rurikoji"
         },
         {
@@ -7024,11 +7068,7 @@
           "track": "Takashiro"
         }
       ],
-      "notes": "瑠璃光寺 1:59.8 高城 2:23.1 悬挂不错 加速不错 hanhan不解变速箱动力更大 Seako解变速箱综合性能更强",
-      "notesI18n": {
-        "en": "Good suspension and acceleration. hanhan's tune, on the stock gearbox, has more power; Seako's, with an unlocked gearbox, is more complete.",
-        "pt-br": "Boa suspensão e boa aceleração. A tune de hanhan, com câmbio de fábrica, tem mais potência; a de Seako, com câmbio liberado, é mais completa."
-      },
+      "notes": "瑠璃光寺 1:58.6 高城 2:23.1 悬挂不错 加速不错 手感很好 琉璃光寺可做到世界纪录 请一律选用最新版本",
       "rank": 6,
       "role": "power",
       "row": 14,
@@ -7040,39 +7080,6 @@
       "tunerIds": [
         "noa-seako",
         "lphanhan"
-      ]
-    },
-    {
-      "carId": "2025-bentley-continental-gt-speed",
-      "class": "A",
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "lapRefs": [
-        {
-          "time": "2:23.5",
-          "track": "Takashiro"
-        },
-        {
-          "time": "2:00.1",
-          "track": "Rurikoji"
-        }
-      ],
-      "notes": "高城 2:23.5 瑠璃光寺 2:00.1 前中段加速一般 后段不错 弯速很快 车尾微滑 像是更稳定的肌肉车 强度意外的还不错 越野也可以优雅 适合后段图",
-      "notesI18n": {
-        "en": "Average low and mid-range acceleration, good top end and very fast in corners, with a slightly loose rear. Like a more stable muscle car and surprisingly strong; it is graceful even off-road. Suits top-speed tracks.",
-        "pt-br": "Aceleração mediana em baixa e média, boa em alta e muito rápido nas curvas, com traseira levemente solta. Parece um muscle car mais estável e é surpreendentemente forte; até no off-road anda bonito. Bom para pistas de velocidade final."
-      },
-      "rank": 7,
-      "role": "allround",
-      "row": 16,
-      "sourceId": "noa-miyako",
-      "surface": "cross-country",
-      "tab": "a-cross-country",
-      "tier": "meta",
-      "tires": "offroad",
-      "tunerIds": [
-        "caigou-yyy",
-        "noa-seako"
       ]
     },
     {
@@ -7091,9 +7098,9 @@
         "en": "Very stable, but on big jumps it will probably bog down. A beginner's introduction to off-road.",
         "pt-br": "Muito estável, mas em saltos grandes provavelmente atola. Carro de iniciação ao off-road para iniciantes."
       },
-      "rank": 8,
+      "rank": 7,
       "role": "allround",
-      "row": 18,
+      "row": 16,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7124,9 +7131,9 @@
         "en": "The long nose and tail make big-jump landings very unstable; it cannot take steep ramps and does not suit every track. Excellent in fast corners and acceleration throughout.",
         "pt-br": "Frente e traseira longas deixam as aterrissagens de saltos grandes muito instáveis; não encara rampas íngremes nem serve para todas as pistas. Excelente nas curvas de alta e na aceleração em toda a faixa."
       },
-      "rank": 9,
+      "rank": 8,
       "role": "allround",
-      "row": 20,
+      "row": 18,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7135,6 +7142,39 @@
       "tunerIds": [
         "noa-seako",
         "caigou-yyy"
+      ]
+    },
+    {
+      "carId": "2025-bentley-continental-gt-speed",
+      "class": "A",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "2:23.5",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.1",
+          "track": "Rurikoji"
+        }
+      ],
+      "notes": "高城 2:23.5 瑠璃光寺 2:00.1 前中段加速一般 后段不错 弯速很快 车尾微滑 像是更稳定的肌肉车 强度意外的还不错 越野也可以优雅 适合后段图",
+      "notesI18n": {
+        "en": "Average low and mid-range acceleration, good top end and very fast in corners, with a slightly loose rear. Like a more stable muscle car and surprisingly strong; it is graceful even off-road. Suits top-speed tracks.",
+        "pt-br": "Aceleração mediana em baixa e média, boa em alta e muito rápido nas curvas, com traseira levemente solta. Parece um muscle car mais estável e é surpreendentemente forte; até no off-road anda bonito. Bom para pistas de velocidade final."
+      },
+      "rank": 10,
+      "role": "allround",
+      "row": 23,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "a-cross-country",
+      "tier": "t0.5",
+      "tires": "offroad",
+      "tunerIds": [
+        "caigou-yyy",
+        "noa-seako"
       ]
     },
     {
@@ -7161,13 +7201,13 @@
         "en": "Very strong acceleration and quick at the top end; fast in slow corners, average in fast ones. A little boat-like overall; the 315 rear tire limits it.",
         "pt-br": "Acelera fortíssimo e é rápido em alta; rápido nas curvas lentas e mediano nas rápidas. No geral um pouco pesado; o pneu traseiro de 315 limita o desempenho."
       },
-      "rank": 10,
+      "rank": 11,
       "role": "allround",
-      "row": 22,
+      "row": 25,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
-      "tier": "meta",
+      "tier": "t0.5",
       "tires": "offroad",
       "tunerIds": [
         "noa-seako",
@@ -7382,38 +7422,6 @@
       ]
     },
     {
-      "carId": "2022-ford-f-150-lightning",
-      "class": "A",
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "lapRefs": [
-        {
-          "time": "2:26.5",
-          "track": "Takashiro"
-        },
-        {
-          "time": "2:00.4",
-          "track": "Rurikoji"
-        }
-      ],
-      "notes": "高城 2:26.5 瑠璃光寺 2:00.4 缺一点动力 弯速很快 均衡图很强",
-      "notesI18n": {
-        "en": "A little short on power, but very fast in corners; very strong on balanced tracks.",
-        "pt-br": "Falta um pouco de potência, mas é muito rápido nas curvas; muito forte em pistas equilibradas."
-      },
-      "rank": 19,
-      "role": "allround",
-      "row": 41,
-      "sourceId": "noa-miyako",
-      "surface": "cross-country",
-      "tab": "a-cross-country",
-      "tier": "t0.5",
-      "tires": "offroad",
-      "tunerIds": [
-        "caigou-yyy"
-      ]
-    },
-    {
       "carId": "1991-gmc-syclone",
       "class": "A",
       "difficulty": "very-easy",
@@ -7433,9 +7441,9 @@
         "en": "Fast in corners and acceleration; average suspension, easy to control overall.",
         "pt-br": "Rápido nas curvas e na aceleração; suspensão mediana, fácil de controlar no geral."
       },
-      "rank": 20,
+      "rank": 19,
       "role": "allround",
-      "row": 43,
+      "row": 41,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7461,9 +7469,9 @@
         "en": "Not very stable suspension, with issues from its weight balance; understeers, coordinate throttle and brakes. A Dart with better handling.",
         "pt-br": "Suspensão pouco estável e com problemas por causa da distribuição de peso; sai de frente, combine bem acelerador e freio. Um Dart com melhor dirigibilidade."
       },
-      "rank": 21,
+      "rank": 20,
       "role": "power",
-      "row": 45,
+      "row": 43,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7497,9 +7505,9 @@
         "en": "A power car with very strong acceleration throughout; little mechanical grip in slow corners, but magic in fast ones, extremely quick. Somewhat difficult; bogging down ends its meta dreams.",
         "pt-br": "Carro de potência com aceleração fortíssima em toda a faixa; pouca aderência mecânica nas lentas, mas mágico nas curvas de alta, rapidíssimo. Tem certa dificuldade; atolar acaba com o sonho de meta."
       },
-      "rank": 22,
+      "rank": 21,
       "role": "power",
-      "row": 47,
+      "row": 45,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7520,9 +7528,9 @@
         "en": "Very strong on off-road circuits with great handling; in some situations it gets hard to control and needs experience.",
         "pt-br": "Muito forte nos circuitos de off-road e ótimo nas curvas; em algumas situações fica difícil de controlar e pede experiência."
       },
-      "rank": 23,
+      "rank": 22,
       "role": "handling",
-      "row": 49,
+      "row": 47,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7556,9 +7564,9 @@
         "en": "Fast in corners, good mechanical grip and stable suspension: no clear weak point.",
         "pt-br": "Rápido nas curvas, boa aderência mecânica e suspensão estável: sem ponto fraco claro."
       },
-      "rank": 24,
+      "rank": 23,
       "role": "allround",
-      "row": 51,
+      "row": 49,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7585,9 +7593,9 @@
         "en": "Good suspension and strong acceleration; the rear slides a little more than other muscle cars, and it struggles in water like every muscle car.",
         "pt-br": "Boa suspensão e aceleração forte; a traseira escapa um pouco mais que nos outros muscle cars, e sofre na água como todo muscle car."
       },
-      "rank": 25,
+      "rank": 24,
       "role": "allround",
-      "row": 53,
+      "row": 51,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7617,9 +7625,9 @@
         "en": "Good in corners, average acceleration and very quick at the top end; a slightly loose rear on tarmac. One of the best suspensions among low cars, keeps its speed very well on landings; but it cannot cross water and, compressed hard, runs out of travel and gets launched.",
         "pt-br": "Bom nas curvas, aceleração mediana e muito rápido em alta; traseira levemente solta no asfalto. Uma das melhores suspensões entre os carros baixos, mantém muito bem a velocidade nas aterrissagens; mas não atravessa água e, comprimida com força, chega ao fim de curso e é arremessado."
       },
-      "rank": 26,
+      "rank": 25,
       "role": "handling",
-      "row": 56,
+      "row": 54,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7650,9 +7658,9 @@
         "en": "Average acceleration, very fast in corners; the suspension is a bit unpredictable: driving it fast needs control.",
         "pt-br": "Aceleração mediana, muito rápido nas curvas; a suspensão é meio imprevisível: para andar rápido, exige controle."
       },
-      "rank": 27,
+      "rank": 26,
       "role": "handling",
-      "row": 58,
+      "row": 56,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7681,6 +7689,38 @@
       "notesI18n": {
         "en": "Very strong low and mid-range acceleration, average cornering; a good suspension for a muscle car, but with the usual flaw: it cannot cross water and lands badly off jumps.",
         "pt-br": "Aceleração fortíssima em baixa e média, curvas medianas; suspensão boa para um muscle car, mas com o mal de sempre: não atravessa água e cai mal dos saltos."
+      },
+      "rank": 27,
+      "role": "allround",
+      "row": 58,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "a-cross-country",
+      "tier": "t1",
+      "tires": "offroad",
+      "tunerIds": [
+        "caigou-yyy"
+      ]
+    },
+    {
+      "carId": "2022-ford-f-150-lightning",
+      "class": "A",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "2:26.5",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.4",
+          "track": "Rurikoji"
+        }
+      ],
+      "notes": "高城 2:26.5 瑠璃光寺 2:00.4 缺一点动力 弯速很快 均衡图很强",
+      "notesI18n": {
+        "en": "A little short on power, but very fast in corners; very strong on balanced tracks.",
+        "pt-br": "Falta um pouco de potência, mas é muito rápido nas curvas; muito forte em pistas equilibradas."
       },
       "rank": 28,
       "role": "allround",
@@ -7917,6 +7957,34 @@
       ]
     },
     {
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "2:24.6",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.3",
+          "track": "Rurikoji"
+        }
+      ],
+      "notes": "高城 2:24.6 瑠璃光寺 2:00.3 前段一般 中后段加速很快 转向手感偏硬 但是弯速还可以 悬挂落地还不错",
+      "rank": 36,
+      "role": "allround",
+      "row": 76,
+      "sourceId": "noa-miyako",
+      "surface": "cross-country",
+      "tab": "a-cross-country",
+      "tier": "t1",
+      "tires": "offroad",
+      "tunerIds": [
+        "caigou-yyy"
+      ]
+    },
+    {
       "carId": "1997-mitsubishi-montero-evolution",
       "class": "A",
       "difficulty": "medium",
@@ -7936,9 +8004,9 @@
         "en": "Strong acceleration throughout and very fast in high-speed corners; short wheelbase, needs control.",
         "pt-br": "Aceleração forte em toda a faixa e muito rápido nas curvas de alta; entre-eixos curto, exige controle."
       },
-      "rank": 36,
+      "rank": 37,
       "role": "power",
-      "row": 76,
+      "row": 78,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -7968,9 +8036,9 @@
         "en": "Strong acceleration and not slow in corners; a short wheelbase and unstable suspension make it hard. Very fast on sprints.",
         "pt-br": "Acelera muito e não é lento nas curvas; entre-eixos curto e suspensão instável deixam difícil. Muito rápido nos sprints."
       },
-      "rank": 37,
+      "rank": 38,
       "role": "power",
-      "row": 78,
+      "row": 80,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8000,9 +8068,9 @@
         "en": "Good in corners, a little slow at the top end; very good suspension.",
         "pt-br": "Bom nas curvas, um pouco lento em alta; suspensão muito boa."
       },
-      "rank": 38,
+      "rank": 39,
       "role": "allround",
-      "row": 81,
+      "row": 83,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8032,9 +8100,9 @@
         "en": "Decent acceleration, lots of grip in fast corners and easy to pick up.",
         "pt-br": "Aceleração razoável, muita aderência nas curvas de alta e fácil de pegar a mão."
       },
-      "rank": 39,
+      "rank": 40,
       "role": "allround",
-      "row": 83,
+      "row": 85,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8065,9 +8133,9 @@
         "en": "Good suspension support; low ride height, cannot cross water and may understeer on rough ground. A show-off off-roader.",
         "pt-br": "Boa sustentação da suspensão; chassi baixo, não atravessa água e pode sair de frente em piso irregular. Um off-road diferentão."
       },
-      "rank": 40,
+      "rank": 41,
       "role": "handling",
-      "row": 85,
+      "row": 87,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8087,9 +8155,9 @@
         "en": "A Bentley that is weaker at everything.",
         "pt-br": "Um Bentley mais fraco em tudo."
       },
-      "rank": 41,
+      "rank": 42,
       "role": "allround",
-      "row": 87,
+      "row": 89,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8119,9 +8187,9 @@
         "en": "Sleeps off the line, good in corners and quick at the top end. The suspension lands very well, but travel is short and it takes little impact: it can get launched. It cannot cross water; the usual show-off car.",
         "pt-br": "Dorme na largada, bom nas curvas e rápido em alta. A suspensão aterrissa muito bem, mas o curso é curto e aguenta pouco impacto: pode ser arremessado. Não atravessa água; é o carro diferentão de sempre."
       },
-      "rank": 42,
+      "rank": 43,
       "role": "handling",
-      "row": 89,
+      "row": 91,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8151,9 +8219,9 @@
         "en": "Fast in corners, decent acceleration; as usual, low ride height and bouncy.",
         "pt-br": "Rápido nas curvas, aceleração razoável; como sempre, chassi baixo e saltitante."
       },
-      "rank": 43,
+      "rank": 44,
       "role": "handling",
-      "row": 91,
+      "row": 93,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8183,9 +8251,9 @@
         "en": "Fast in corners, good acceleration; low ride height and a little bouncy.",
         "pt-br": "Rápido nas curvas, boa aceleração; chassi baixo e um pouco saltitante."
       },
-      "rank": 44,
+      "rank": 45,
       "role": "allround",
-      "row": 93,
+      "row": 95,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8200,9 +8268,9 @@
       "class": "A",
       "difficulty": "medium",
       "drivetrain": "AWD",
-      "rank": 45,
+      "rank": 46,
       "role": "power",
-      "row": 96,
+      "row": 98,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8232,9 +8300,9 @@
         "en": "Good in corners, average acceleration; very low ride height, poor over obstacles and loses a lot of speed on landings.",
         "pt-br": "Bom nas curvas, aceleração mediana; chassi muito baixo, passa mal nos obstáculos e perde muita velocidade nas aterrissagens."
       },
-      "rank": 46,
+      "rank": 47,
       "role": "allround",
-      "row": 98,
+      "row": 100,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8264,9 +8332,9 @@
         "en": "Very fast in corners, great handling and easy to pick up; low ride height, worse over obstacles and sometimes bouncy.",
         "pt-br": "Muito rápido nas curvas, ótimo de pilotar e fácil de pegar a mão; chassi baixo, passa pior nos obstáculos e às vezes balança."
       },
-      "rank": 47,
+      "rank": 48,
       "role": "handling",
-      "row": 100,
+      "row": 102,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8296,9 +8364,9 @@
         "en": "Strong low and mid-range acceleration, average top end; huge power.",
         "pt-br": "Acelera muito em baixa e média, mediano em alta; potência enorme."
       },
-      "rank": 48,
+      "rank": 49,
       "role": "power",
-      "row": 102,
+      "row": 104,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8328,9 +8396,9 @@
         "en": "Good in fast corners, but 295 tires cannot hold 2.5 tonnes: the rear steps out and the car is easily thrown wide. Somewhat difficult.",
         "pt-br": "Bom nas curvas de alta, mas pneus de 295 não seguram as 2,5 toneladas: a traseira escapa e o carro é jogado para fora com facilidade. Tem certa dificuldade."
       },
-      "rank": 49,
+      "rank": 50,
       "role": "allround",
-      "row": 104,
+      "row": 106,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -8356,9 +8424,9 @@
         "en": "A circuit car leaning slightly towards power, quite versatile, but with little mechanical grip.",
         "pt-br": "Carro de circuito puxando um pouco para potência, bem versátil, mas com pouca aderência mecânica."
       },
-      "rank": 50,
+      "rank": 51,
       "role": "allround",
-      "row": 106,
+      "row": 108,
       "sourceId": "noa-miyako",
       "surface": "cross-country",
       "tab": "a-cross-country",
@@ -13221,6 +13289,34 @@
       ]
     },
     {
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "1:01.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "notes": "白川1:01.0",
+      "notesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "rank": 122,
+      "role": "allround",
+      "row": 249,
+      "sourceId": "noa-miyako",
+      "surface": "road",
+      "tab": "a-road",
+      "tier": "t1.5",
+      "tires": "rally",
+      "tunerIds": [
+        "k1z-bard"
+      ]
+    },
+    {
       "carId": "1971-plymouth-cuda-426-hemi",
       "class": "A",
       "difficulty": "very-easy",
@@ -13236,9 +13332,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 122,
+      "rank": 123,
       "role": "allround",
-      "row": 249,
+      "row": 251,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13253,9 +13349,9 @@
       "class": "A",
       "difficulty": "hard",
       "drivetrain": "RWD",
-      "rank": 123,
+      "rank": 124,
       "role": "power",
-      "row": 251,
+      "row": 253,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13270,9 +13366,9 @@
       "class": "A",
       "difficulty": "hard",
       "drivetrain": "RWD",
-      "rank": 124,
+      "rank": 125,
       "role": "power",
-      "row": 253,
+      "row": 255,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13298,9 +13394,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 125,
+      "rank": 126,
       "role": "power",
-      "row": 255,
+      "row": 257,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13326,34 +13422,6 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 126,
-      "role": "allround",
-      "row": 257,
-      "sourceId": "noa-miyako",
-      "surface": "road",
-      "tab": "a-road",
-      "tier": "t1.5",
-      "tires": "rally",
-      "tunerIds": [
-        "k1z-bard"
-      ]
-    },
-    {
-      "carId": "2010-volkswagen-golf-r",
-      "class": "A",
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "lapRefs": [
-        {
-          "time": "1:01.0",
-          "track": "Shirakawa"
-        }
-      ],
-      "notes": "白川1:01.0",
-      "notesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
       "rank": 127,
       "role": "allround",
       "row": 259,
@@ -13367,7 +13435,7 @@
       ]
     },
     {
-      "carId": "2014-volkswagen-golf-r",
+      "carId": "2010-volkswagen-golf-r",
       "class": "A",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
@@ -13395,6 +13463,34 @@
       ]
     },
     {
+      "carId": "2014-volkswagen-golf-r",
+      "class": "A",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "1:01.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "notes": "白川1:01.0",
+      "notesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "rank": 129,
+      "role": "allround",
+      "row": 263,
+      "sourceId": "noa-miyako",
+      "surface": "road",
+      "tab": "a-road",
+      "tier": "t1.5",
+      "tires": "rally",
+      "tunerIds": [
+        "k1z-bard"
+      ]
+    },
+    {
       "carId": "2011-alfa-romeo-giulietta-quadrifoglio-verde",
       "class": "A",
       "difficulty": "very-easy",
@@ -13410,9 +13506,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 129,
+      "rank": 130,
       "role": "allround",
-      "row": 264,
+      "row": 266,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13438,9 +13534,9 @@
         "en": "Slow off the line, but strong on sprints.",
         "pt-br": "Largada lenta, mas forte nos sprints."
       },
-      "rank": 130,
+      "rank": 131,
       "role": "power",
-      "row": 266,
+      "row": 268,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13466,9 +13562,9 @@
         "en": "Average acceleration and handling, easy to control. MSR Mian's tune is a little looser, with a higher ceiling.",
         "pt-br": "Aceleração e curvas medianas, fácil de controlar. A tune de MSR Mian é um pouco mais solta, com teto mais alto."
       },
-      "rank": 131,
+      "rank": 132,
       "role": "allround",
-      "row": 268,
+      "row": 270,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13495,9 +13591,9 @@
         "en": "A really good-looking car.",
         "pt-br": "Carro muito bonito."
       },
-      "rank": 132,
+      "rank": 133,
       "role": "allround",
-      "row": 270,
+      "row": 272,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13523,9 +13619,9 @@
         "en": "Balanced and easy to drive, slightly weak acceleration.",
         "pt-br": "Equilibrado e fácil de pilotar, aceleração um pouco fraca."
       },
-      "rank": 133,
+      "rank": 134,
       "role": "allround",
-      "row": 272,
+      "row": 274,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13551,9 +13647,9 @@
         "en": "Needs throttle control; mid-power FWD; slow launch.",
         "pt-br": "Exige controle do acelerador; tração dianteira de potência média; largada lenta."
       },
-      "rank": 134,
+      "rank": 135,
       "role": "power",
-      "row": 274,
+      "row": 276,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13579,9 +13675,9 @@
         "en": "Weak low and mid-range acceleration, average top end; poor handling. Playable, but just for fun.",
         "pt-br": "Aceleração fraca em baixa e média, mediana em alta; curvas fracas. Dá para brincar, mas é só para se divertir."
       },
-      "rank": 135,
+      "rank": 136,
       "role": "power",
-      "row": 276,
+      "row": 278,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13607,9 +13703,9 @@
         "en": "Clean lap.",
         "pt-br": "Volta limpa."
       },
-      "rank": 136,
+      "rank": 137,
       "role": "allround",
-      "row": 278,
+      "row": 280,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13635,34 +13731,6 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 137,
-      "role": "allround",
-      "row": 280,
-      "sourceId": "noa-miyako",
-      "surface": "road",
-      "tab": "a-road",
-      "tier": "t2",
-      "tires": "rally",
-      "tunerIds": [
-        "msr-sola"
-      ]
-    },
-    {
-      "carId": "2015-audi-s1",
-      "class": "A",
-      "difficulty": "very-easy",
-      "drivetrain": "AWD",
-      "lapRefs": [
-        {
-          "time": "1:02.0",
-          "track": "Shirakawa"
-        }
-      ],
-      "notes": "白川1:02.0",
-      "notesI18n": {
-        "en": "",
-        "pt-br": ""
-      },
       "rank": 138,
       "role": "allround",
       "row": 282,
@@ -13676,7 +13744,7 @@
       ]
     },
     {
-      "carId": "2018-audi-rs-4-avant",
+      "carId": "2015-audi-s1",
       "class": "A",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
@@ -13704,6 +13772,34 @@
       ]
     },
     {
+      "carId": "2018-audi-rs-4-avant",
+      "class": "A",
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "lapRefs": [
+        {
+          "time": "1:02.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "notes": "白川1:02.0",
+      "notesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "rank": 140,
+      "role": "allround",
+      "row": 286,
+      "sourceId": "noa-miyako",
+      "surface": "road",
+      "tab": "a-road",
+      "tier": "t2",
+      "tires": "rally",
+      "tunerIds": [
+        "msr-sola"
+      ]
+    },
+    {
       "carId": "2021-audi-rs-7-sportback",
       "class": "A",
       "difficulty": "very-easy",
@@ -13719,9 +13815,9 @@
         "en": "Weak acceleration throughout, decent handling (no aero).",
         "pt-br": "Aceleração fraca em toda a faixa, curvas razoáveis (sem aero)."
       },
-      "rank": 140,
+      "rank": 141,
       "role": "allround",
-      "row": 286,
+      "row": 288,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13747,9 +13843,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 141,
+      "rank": 142,
       "role": "allround",
-      "row": 288,
+      "row": 290,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13775,9 +13871,9 @@
         "en": "Street weight-reduction version: decent acceleration, average handling. Two rear wings! (best driven with ABS on)",
         "pt-br": "Versão de rua com redução de peso: aceleração razoável, curvas medianas. Duas asas traseiras! (melhor pilotar com ABS ligado)"
       },
-      "rank": 142,
+      "rank": 143,
       "role": "allround",
-      "row": 290,
+      "row": 292,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13803,9 +13899,9 @@
         "en": "Race weight-reduction version: decent acceleration; average in slow corners, good in medium and fast ones. Two rear wings!",
         "pt-br": "Versão de corrida com redução de peso: aceleração razoável; mediano nas curvas lentas, bom nas médias e rápidas. Duas asas traseiras!"
       },
-      "rank": 143,
+      "rank": 144,
       "role": "allround",
-      "row": 292,
+      "row": 294,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13831,9 +13927,9 @@
         "en": "A huge brick: accelerates well, but will not turn.",
         "pt-br": "Um tijolão: acelera bem, mas não faz curva."
       },
-      "rank": 144,
+      "rank": 145,
       "role": "allround",
-      "row": 294,
+      "row": 296,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13859,9 +13955,9 @@
         "en": "Beats the GT-R after the fourth balance change.",
         "pt-br": "Supera o GT-R depois do quarto ajuste de equilíbrio."
       },
-      "rank": 145,
+      "rank": 146,
       "role": "power",
-      "row": 296,
+      "row": 298,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13887,9 +13983,9 @@
         "en": "Purist tune.",
         "pt-br": "Tune purista."
       },
-      "rank": 146,
+      "rank": 147,
       "role": "allround",
-      "row": 298,
+      "row": 300,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13915,9 +14011,9 @@
         "en": "Usable, but far behind the Glanza.",
         "pt-br": "Dá para usar, mas fica bem atrás do Glanza."
       },
-      "rank": 147,
+      "rank": 148,
       "role": "power",
-      "row": 300,
+      "row": 302,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13943,9 +14039,9 @@
         "en": "Takes technique: the rear is twitchy. The stock gearbox is a touch faster, but launch in second gear.",
         "pt-br": "Exige técnica: a traseira é arisca. O câmbio original é um pouquinho mais rápido, mas é melhor largar em segunda."
       },
-      "rank": 148,
+      "rank": 149,
       "role": "allround",
-      "row": 302,
+      "row": 304,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13971,9 +14067,9 @@
         "en": "Weak low-end acceleration, average mid-range and good top end (411 top speed); average handling. An out-of-this-world CVT: 400 km/h in 1st gear!",
         "pt-br": "Aceleração fraca em baixa, mediana na média e boa em alta (máxima de 411); dirigibilidade mediana. Um câmbio CVT de outro planeta: 400 km/h em 1ª marcha!"
       },
-      "rank": 149,
+      "rank": 150,
       "role": "power",
-      "row": 304,
+      "row": 306,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -13989,9 +14085,9 @@
       "class": "A",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 150,
+      "rank": 151,
       "role": "handling",
-      "row": 306,
+      "row": 308,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14019,9 +14115,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 151,
+      "rank": 152,
       "role": "allround",
-      "row": 308,
+      "row": 310,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14047,9 +14143,9 @@
         "en": "Weak acceleration, average cornering.",
         "pt-br": "Aceleração fraca, curvas medianas."
       },
-      "rank": 152,
+      "rank": 153,
       "role": "allround",
-      "row": 311,
+      "row": 313,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14076,9 +14172,9 @@
         "en": "Good feel; a toy car.",
         "pt-br": "Boa sensação; um carro de brinquedo."
       },
-      "rank": 153,
+      "rank": 154,
       "role": "allround",
-      "row": 313,
+      "row": 315,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14104,9 +14200,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 154,
+      "rank": 155,
       "role": "allround",
-      "row": 315,
+      "row": 317,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14132,9 +14228,9 @@
         "en": "Good in corners, slightly weak acceleration.",
         "pt-br": "Bom nas curvas, acelera um pouco mal."
       },
-      "rank": 155,
+      "rank": 156,
       "role": "allround",
-      "row": 317,
+      "row": 319,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14160,9 +14256,9 @@
         "en": "Purist tune.",
         "pt-br": "Tune purista."
       },
-      "rank": 156,
+      "rank": 157,
       "role": "allround",
-      "row": 319,
+      "row": 321,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14188,9 +14284,9 @@
         "en": "Purist tune.",
         "pt-br": "Tune purista."
       },
-      "rank": 157,
+      "rank": 158,
       "role": "allround",
-      "row": 321,
+      "row": 323,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14216,9 +14312,9 @@
         "en": "Very easy to drive; good for beginners to practise RWD.",
         "pt-br": "Muito fácil de pilotar; bom para iniciantes treinarem tração traseira."
       },
-      "rank": 158,
+      "rank": 159,
       "role": "allround",
-      "row": 323,
+      "row": 325,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14244,9 +14340,9 @@
         "en": "Strong enough to play; mind the weight transfer. A wagon with an R34 face, need we say more?",
         "pt-br": "Forte o bastante para jogar; atenção à transferência de peso. Uma perua com a frente do R34, precisa dizer mais?"
       },
-      "rank": 159,
+      "rank": 160,
       "role": "allround",
-      "row": 325,
+      "row": 327,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14261,9 +14357,9 @@
       "class": "A",
       "difficulty": "death",
       "drivetrain": "RWD",
-      "rank": 161,
+      "rank": 162,
       "role": "power",
-      "row": 329,
+      "row": 331,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14283,9 +14379,9 @@
         "en": "Two versions, V8 DSC and 77 V12; both are very easy to control.",
         "pt-br": "Tem duas versões, V8 DSC e 77 V12; as duas são muito fáceis de controlar."
       },
-      "rank": 162,
+      "rank": 163,
       "role": "power",
-      "row": 331,
+      "row": 333,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14311,9 +14407,9 @@
         "en": "On stock suspension, mind the weight transfer; good feel.",
         "pt-br": "Com a suspensão de fábrica, cuidado com a transferência de peso; boa sensação."
       },
-      "rank": 163,
+      "rank": 164,
       "role": "allround",
-      "row": 333,
+      "row": 335,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14339,9 +14435,9 @@
         "en": "Good feel.",
         "pt-br": "Boa sensação."
       },
-      "rank": 164,
+      "rank": 165,
       "role": "allround",
-      "row": 335,
+      "row": 337,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14356,9 +14452,9 @@
       "class": "A",
       "difficulty": "hard",
       "drivetrain": "RWD",
-      "rank": 165,
+      "rank": 166,
       "role": "power",
-      "row": 337,
+      "row": 339,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14384,9 +14480,9 @@
         "en": "",
         "pt-br": ""
       },
-      "rank": 166,
+      "rank": 167,
       "role": "allround",
-      "row": 339,
+      "row": 341,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14412,9 +14508,9 @@
         "en": "A bit under-powered with weak acceleration, but at least it turns. And it has a light bar!",
         "pt-br": "Força um pouco abaixo e aceleração fraca, mas pelo menos faz curva. E tem sirene!"
       },
-      "rank": 167,
+      "rank": 168,
       "role": "allround",
-      "row": 341,
+      "row": 343,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14440,9 +14536,9 @@
         "en": "Accelerates like a tortoise, cornering just about acceptable and understeers a little on exit.",
         "pt-br": "Acelera como tartaruga, curvas apenas aceitáveis e sai um pouco de frente na saída."
       },
-      "rank": 168,
+      "rank": 169,
       "role": "allround",
-      "row": 343,
+      "row": 345,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14457,9 +14553,9 @@
       "class": "A",
       "difficulty": "very-easy",
       "drivetrain": "AWD",
-      "rank": 169,
+      "rank": 170,
       "role": "allround",
-      "row": 345,
+      "row": 347,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",
@@ -14485,9 +14581,9 @@
         "en": "A restless rear, a little hard to control.",
         "pt-br": "Traseira inquieta, um pouco difícil de controlar."
       },
-      "rank": 170,
+      "rank": 171,
       "role": "allround",
-      "row": 347,
+      "row": 349,
       "sourceId": "noa-miyako",
       "surface": "road",
       "tab": "a-road",

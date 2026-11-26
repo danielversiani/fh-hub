@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-11-26T19:02:35.453Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "1966-hillman-imp",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-c9a4d7dc31",
+      "lapRefs": [
+        {
+          "time": "1:06.8",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:06.8",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 106,
+      "name": "B road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 218,
+          "sourceId": "noa-miyako",
+          "tab": "b-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.545,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "noa-miyako"
+    },
+    {
+      "buildTags": [],
+      "carId": "1966-hillman-imp",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "medium",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f879117937",
+      "lapRefs": [
+        {
+          "time": "1:10.0",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:10.0 前中段加速不错 出弯比较快 后置引擎 导致车头指向性较差 动态奇怪 有一定难度",
+      "metaRank": 25,
+      "name": "B dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 53,
+          "sourceId": "noa-miyako",
+          "tab": "b-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.61,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    }
+  ],
+  "schemaVersion": 1
+}

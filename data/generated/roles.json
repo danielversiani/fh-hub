@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:23:02.249Z",
+  "generatedAt": "2026-11-26T19:02:35.453Z",
   "items": [
     {
       "carId": "1965-shelby-cobra-daytona-coupe",
@@ -108,7 +108,7 @@
       "updated": "2026-08-23"
     },
     {
-      "carId": "2025-toyota-land-cruiser",
+      "carId": "2022-ford-f-150-lightning",
       "class": "A",
       "evidence": [
         {
@@ -122,6 +122,28 @@
       ],
       "firstSeen": "2026-05-19",
       "rank": 6,
+      "role": "alternative",
+      "since": "2026-06-10",
+      "sources": 2,
+      "surface": "cross-country",
+      "tier": "off-meta",
+      "updated": "2026-08-23"
+    },
+    {
+      "carId": "2025-toyota-land-cruiser",
+      "class": "A",
+      "evidence": [
+        {
+          "label": "T1",
+          "sourceId": "noa-miyako"
+        },
+        {
+          "label": "Meta",
+          "sourceId": "fhstats"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 7,
       "role": "alternative",
       "since": "2026-05-30",
       "sources": 2,
@@ -143,7 +165,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 7,
+      "rank": 8,
       "role": "alternative",
       "since": "2026-08-23",
       "sources": 2,
@@ -161,7 +183,7 @@
         }
       ],
       "firstSeen": "2026-11-22",
-      "rank": 8,
+      "rank": 9,
       "rivalsPicks": 4,
       "role": "alternative",
       "since": "2026-11-04",
@@ -172,22 +194,6 @@
       ],
       "tier": "off-meta",
       "updated": "2026-11-04"
-    },
-    {
-      "carId": "1964-chevrolet-impala-super-sport-409",
-      "class": "A",
-      "evidence": [
-        {
-          "label": "Meta",
-          "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 9,
-      "role": "alternative",
-      "sources": 1,
-      "surface": "cross-country",
-      "tier": "off-meta"
     },
     {
       "carId": "1969-dodge-charger-daytona-hemi",
@@ -206,11 +212,11 @@
       "tier": "off-meta"
     },
     {
-      "carId": "2025-bentley-continental-gt-speed",
+      "carId": "1964-chevrolet-impala-super-sport-409",
       "class": "A",
       "evidence": [
         {
-          "label": "Meta",
+          "label": "T0.5",
           "sourceId": "noa-miyako"
         }
       ],
@@ -302,6 +308,22 @@
       "tier": "off-meta"
     },
     {
+      "carId": "2025-bentley-continental-gt-speed",
+      "class": "A",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 17,
+      "role": "alternative",
+      "sources": 1,
+      "surface": "cross-country",
+      "tier": "off-meta"
+    },
+    {
       "carId": "1957-ford-thunderbird",
       "class": "A",
       "evidence": [
@@ -311,7 +333,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 17,
+      "rank": 18,
       "role": "alternative",
       "sources": 1,
       "surface": "cross-country",
@@ -327,11 +349,29 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 18,
+      "rank": 19,
       "role": "alternative",
       "sources": 1,
       "surface": "cross-country",
       "tier": "off-meta"
+    },
+    {
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "evidence": [
+        {
+          "label": "T1",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-11-26",
+      "rank": 20,
+      "role": "alternative",
+      "since": "2026-11-27",
+      "sources": 1,
+      "surface": "cross-country",
+      "tier": "off-meta",
+      "updated": "2026-11-27"
     },
     {
       "carId": "2018-mercedes-benz-x-class",
@@ -379,7 +419,7 @@
       "sources": 2,
       "surface": "cross-country",
       "tier": "meta",
-      "updated": "2026-08-23"
+      "updated": "2026-11-26"
     },
     {
       "carId": "2020-chevrolet-silverado-lt-trail-boss",
@@ -540,28 +580,6 @@
       "updated": "2026-08-23"
     },
     {
-      "carId": "2022-ford-f-150-lightning",
-      "class": "A",
-      "evidence": [
-        {
-          "label": "T0.5",
-          "sourceId": "noa-miyako"
-        },
-        {
-          "label": "Meta",
-          "sourceId": "fhstats"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 10,
-      "role": "meta",
-      "since": "2026-06-10",
-      "sources": 2,
-      "surface": "cross-country",
-      "tier": "meta",
-      "updated": "2026-08-23"
-    },
-    {
       "carId": "2022-rivian-r1t",
       "class": "A",
       "evidence": [
@@ -575,7 +593,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 11,
+      "rank": 10,
       "rivalsPicks": 9,
       "rivalsTop10": 5,
       "role": "meta",
@@ -600,7 +618,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 11,
       "rivalsTop10": 5,
       "rivalsWins": 1,
       "role": "meta",
@@ -1932,11 +1950,11 @@
       "firstSeen": "2026-11-12",
       "rank": 6,
       "role": "other",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "cross-country",
       "tier": "other",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1999-dodge-viper-gts-acr-forza-edition",
@@ -2351,11 +2369,9 @@
       "firstSeen": "2026-05-19",
       "rank": 18,
       "role": "alternative",
-      "since": "2026-10-24",
       "sources": 1,
       "surface": "dirt",
-      "tier": "off-meta",
-      "updated": "2026-10-24"
+      "tier": "off-meta"
     },
     {
       "carId": "1996-toyota-starlet-glanza-v",
@@ -2437,11 +2453,11 @@
       "firstSeen": "2026-11-19",
       "rank": 23,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
@@ -2505,11 +2521,9 @@
       "firstSeen": "2026-05-19",
       "rank": 27,
       "role": "alternative",
-      "since": "2026-10-25",
       "sources": 1,
       "surface": "dirt",
-      "tier": "off-meta",
-      "updated": "2026-10-25"
+      "tier": "off-meta"
     },
     {
       "carId": "2004-mitsubishi-lancer-evolution-viii-mr",
@@ -2571,11 +2585,11 @@
       "firstSeen": "2026-11-17",
       "rank": 31,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2018-deberti-ford-mustang-gt",
@@ -3502,11 +3516,11 @@
       "firstSeen": "2026-11-19",
       "rank": 9,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2001-acura-integra-type-r",
@@ -3543,7 +3557,7 @@
       "updated": "2026-11-05"
     },
     {
-      "carId": "1970-datsun-510",
+      "carId": "1966-hillman-imp",
       "class": "B",
       "evidence": [
         {
@@ -3553,6 +3567,24 @@
       ],
       "firstSeen": "2026-11-26",
       "rank": 12,
+      "role": "alternative",
+      "since": "2026-11-27",
+      "sources": 1,
+      "surface": "dirt",
+      "tier": "off-meta",
+      "updated": "2026-11-27"
+    },
+    {
+      "carId": "1970-datsun-510",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T0.5",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-11-26",
+      "rank": 13,
       "role": "alternative",
       "since": "2026-11-26",
       "sources": 1,
@@ -3570,7 +3602,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 14,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3586,7 +3618,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 14,
+      "rank": 15,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3602,7 +3634,7 @@
         }
       ],
       "firstSeen": "2026-11-10",
-      "rank": 15,
+      "rank": 16,
       "role": "alternative",
       "since": "2026-11-11",
       "sources": 1,
@@ -3620,7 +3652,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 16,
+      "rank": 17,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3636,32 +3668,16 @@
         }
       ],
       "firstSeen": "2026-11-17",
-      "rank": 17,
+      "rank": 18,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1968-plymouth-barracuda-formula-s",
-      "class": "B",
-      "evidence": [
-        {
-          "label": "T1",
-          "sourceId": "noa-miyako"
-        }
-      ],
-      "firstSeen": "2026-05-19",
-      "rank": 18,
-      "role": "alternative",
-      "sources": 1,
-      "surface": "dirt",
-      "tier": "off-meta"
-    },
-    {
-      "carId": "1970-honda-n600",
       "class": "B",
       "evidence": [
         {
@@ -3677,6 +3693,22 @@
       "tier": "off-meta"
     },
     {
+      "carId": "1970-honda-n600",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T1",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-05-19",
+      "rank": 20,
+      "role": "alternative",
+      "sources": 1,
+      "surface": "dirt",
+      "tier": "off-meta"
+    },
+    {
       "carId": "1992-gmc-typhoon",
       "class": "B",
       "evidence": [
@@ -3686,7 +3718,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 20,
+      "rank": 21,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3702,7 +3734,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 21,
+      "rank": 22,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3718,13 +3750,11 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 22,
+      "rank": 23,
       "role": "alternative",
-      "since": "2026-10-20",
       "sources": 1,
       "surface": "dirt",
-      "tier": "off-meta",
-      "updated": "2026-10-20"
+      "tier": "off-meta"
     },
     {
       "carId": "2006-vauxhall-astra-vxr",
@@ -3736,7 +3766,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 23,
+      "rank": 24,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3752,7 +3782,7 @@
         }
       ],
       "firstSeen": "2026-11-12",
-      "rank": 24,
+      "rank": 25,
       "role": "alternative",
       "since": "2026-11-12",
       "sources": 1,
@@ -3770,7 +3800,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 25,
+      "rank": 26,
       "role": "alternative",
       "sources": 1,
       "surface": "dirt",
@@ -3786,7 +3816,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 26,
+      "rank": 27,
       "role": "alternative",
       "since": "2026-06-08",
       "sources": 1,
@@ -5258,11 +5288,11 @@
       "firstSeen": "2026-05-19",
       "rank": 7,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "dirt",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
@@ -5906,7 +5936,7 @@
       "sources": 3,
       "surface": "dirt",
       "tier": "other",
-      "updated": "2026-10-22",
+      "updated": "2026-08-23",
       "wellKnown": true
     },
     {
@@ -6592,7 +6622,7 @@
       "sources": 2,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-09"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2012-lamborghini-gallardo-lp570-4-spyder-performante",
@@ -6754,11 +6784,9 @@
       "firstSeen": "2026-05-19",
       "rank": 26,
       "role": "alternative",
-      "since": "2026-10-23",
       "sources": 2,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-10-23"
+      "tier": "off-meta"
     },
     {
       "carId": "2019-nissan-370z-nismo",
@@ -6876,11 +6904,11 @@
       "firstSeen": "2026-05-19",
       "rank": 32,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 2,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1932-ford-de-luxe-five-window-coupe",
@@ -7575,11 +7603,11 @@
       "firstSeen": "2026-11-19",
       "rank": 72,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1987-mercedes-benz-amg-hammer-coupe",
@@ -7593,11 +7621,9 @@
       "firstSeen": "2026-05-19",
       "rank": 73,
       "role": "alternative",
-      "since": "2026-10-24",
       "sources": 1,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-10-24"
+      "tier": "off-meta"
     },
     {
       "carId": "1991-gmc-syclone",
@@ -7971,11 +7997,11 @@
       "firstSeen": "2026-11-12",
       "rank": 96,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2017-ford-focus-rs",
@@ -8167,11 +8193,9 @@
       "firstSeen": "2026-05-19",
       "rank": 108,
       "role": "alternative",
-      "since": "2026-10-24",
       "sources": 1,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-10-24"
+      "tier": "off-meta"
     },
     {
       "carId": "2023-dodge-challenger-srt-demon-170",
@@ -8508,6 +8532,24 @@
       "sources": 1,
       "surface": "road",
       "tier": "off-meta"
+    },
+    {
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "evidence": [
+        {
+          "label": "T1.5",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-11-26",
+      "rank": 130,
+      "role": "alternative",
+      "since": "2026-11-27",
+      "sources": 1,
+      "surface": "road",
+      "tier": "off-meta",
+      "updated": "2026-11-27"
     },
     {
       "carId": "1985-toyota-sprinter-trueno-gt-apex-forza-edition",
@@ -8997,11 +9039,11 @@
       "firstSeen": "2026-11-22",
       "rank": 15,
       "role": "other",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "road",
       "tier": "other",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2011-audi-rs-5-coupe",
@@ -9583,11 +9625,9 @@
       "rivalsPicks": 2,
       "rivalsTop10": 10,
       "role": "alternative",
-      "since": "2026-10-23",
       "sources": 3,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-10-23"
+      "tier": "off-meta"
     },
     {
       "carId": "2013-subaru-brz",
@@ -9821,9 +9861,11 @@
       "firstSeen": "2026-05-19",
       "rank": 17,
       "role": "alternative",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "road",
-      "tier": "off-meta"
+      "tier": "off-meta",
+      "updated": "2026-11-27"
     },
     {
       "carId": "1965-alfa-romeo-giulia-tz2",
@@ -10251,11 +10293,11 @@
       "firstSeen": "2026-11-19",
       "rank": 43,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 1,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1991-honda-cr-x-sir",
@@ -10843,11 +10885,11 @@
       "rank": 3,
       "rivalsTop10": 3,
       "role": "other",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 2,
       "surface": "road",
       "tier": "other",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "1993-nissan-240sx",
@@ -10963,7 +11005,7 @@
       "rivalsTop10": 1,
       "rivalsWins": 1,
       "role": "other",
-      "since": "2026-10-26",
+      "since": "2026-10-30",
       "sources": 2,
       "surface": "road",
       "tier": "other",
@@ -11004,6 +11046,24 @@
       "tier": "other"
     },
     {
+      "carId": "1966-hillman-imp",
+      "class": "B",
+      "evidence": [
+        {
+          "label": "T2",
+          "sourceId": "noa-miyako"
+        }
+      ],
+      "firstSeen": "2026-11-26",
+      "rank": 12,
+      "role": "other",
+      "since": "2026-11-27",
+      "sources": 1,
+      "surface": "road",
+      "tier": "other",
+      "updated": "2026-11-27"
+    },
+    {
       "carId": "1972-chevrolet-k-10-custom",
       "class": "B",
       "evidence": [
@@ -11013,7 +11073,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 12,
+      "rank": 13,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11033,7 +11093,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 13,
+      "rank": 14,
       "role": "other",
       "sources": 2,
       "surface": "road",
@@ -11049,7 +11109,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 14,
+      "rank": 15,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11065,7 +11125,7 @@
         }
       ],
       "firstSeen": "2026-11-17",
-      "rank": 15,
+      "rank": 16,
       "role": "other",
       "since": "2026-11-18",
       "sources": 1,
@@ -11083,7 +11143,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 16,
+      "rank": 17,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11099,7 +11159,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 17,
+      "rank": 18,
       "role": "other",
       "since": "2026-05-07",
       "sources": 1,
@@ -11117,7 +11177,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 18,
+      "rank": 19,
       "rivalsTop10": 1,
       "role": "other",
       "sources": 2,
@@ -11134,7 +11194,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 19,
+      "rank": 20,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11150,7 +11210,7 @@
         }
       ],
       "firstSeen": "2026-05-19",
-      "rank": 20,
+      "rank": 21,
       "role": "other",
       "sources": 1,
       "surface": "road",
@@ -11976,11 +12036,11 @@
       "rank": 12,
       "rivalsTop10": 1,
       "role": "other",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 2,
       "surface": "road",
       "tier": "other",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2021-sierra-cars-700r",
@@ -12790,11 +12850,9 @@
       "firstSeen": "2026-05-19",
       "rank": 10,
       "role": "alternative",
-      "since": "2026-10-25",
       "sources": 2,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-10-25"
+      "tier": "off-meta"
     },
     {
       "carId": "2010-noble-m600",
@@ -13095,11 +13153,11 @@
       "firstSeen": "2026-05-19",
       "rank": 25,
       "role": "alternative",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 2,
       "surface": "road",
       "tier": "off-meta",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2023-audi-r8-coupe-v10-gt-rwd",
@@ -13338,11 +13396,9 @@
       "firstSeen": "2026-05-19",
       "rank": 37,
       "role": "alternative",
-      "since": "2026-10-23",
       "sources": 2,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-10-23"
+      "tier": "off-meta"
     },
     {
       "carId": "2025-gr-gt-prototype",
@@ -14523,14 +14579,12 @@
       "rivalsPicks": 4,
       "rivalsTop10": 1,
       "role": "other",
-      "since": "2026-10-25",
       "sources": 4,
       "surface": "road",
       "tags": [
         "rivals"
       ],
-      "tier": "other",
-      "updated": "2026-10-25"
+      "tier": "other"
     },
     {
       "carId": "2020-chevrolet-corvette-stingray-coupe",
@@ -15110,11 +15164,9 @@
       "firstSeen": "2026-05-19",
       "rank": 10,
       "role": "alternative",
-      "since": "2026-10-26",
       "sources": 1,
       "surface": "road",
-      "tier": "off-meta",
-      "updated": "2026-10-26"
+      "tier": "off-meta"
     },
     {
       "carId": "1999-lamborghini-diablo-gtr",
@@ -15383,7 +15435,7 @@
       "sources": 5,
       "surface": "road",
       "tier": "meta",
-      "updated": "2026-10-20",
+      "updated": "2026-08-19",
       "wellKnown": true
     },
     {
@@ -15716,11 +15768,11 @@
       "firstSeen": "2026-05-19",
       "rank": 9,
       "role": "other",
-      "since": "2026-11-26",
+      "since": "2026-11-27",
       "sources": 2,
       "surface": "road",
       "tier": "other",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "carId": "2013-mclaren-p1",

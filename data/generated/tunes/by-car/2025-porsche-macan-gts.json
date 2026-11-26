@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-11-26T19:02:35.453Z",
+  "items": [
+    {
+      "buildTags": [],
+      "carId": "2025-porsche-macan-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6781b9cee1",
+      "lapRefs": [
+        {
+          "time": "2:24.6",
+          "track": "Takashiro"
+        },
+        {
+          "time": "2:00.3",
+          "track": "Rurikoji"
+        }
+      ],
+      "metaNotes": "高城 2:24.6 瑠璃光寺 2:00.3 前段一般 中后段加速很快 转向手感偏硬 但是弯速还可以 悬挂落地还不错",
+      "metaRank": 36,
+      "name": "A cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 76,
+          "sourceId": "noa-miyako",
+          "tab": "a-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-porsche-macan-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-f0e351c1c7",
+      "lapRefs": [
+        {
+          "time": "1:01.0",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:01.0",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 122,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 249,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.582,
+      "surface": "road",
+      "tier": "t1.5",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "k1z-bard"
+    }
+  ],
+  "schemaVersion": 1
+}

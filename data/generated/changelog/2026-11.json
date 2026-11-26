@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:23:02.249Z",
+  "generatedAt": "2026-11-26T19:02:35.453Z",
   "items": [
     {
       "after": "32 Narai",
@@ -55656,6 +55656,165 @@
       "kind": "added",
       "sourceId": "forza-paddock",
       "surface": "road"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-26T19:02:35.453Z",
+      "before": "meta",
+      "carId": "1964-chevrolet-impala-super-sport-409",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|1964-chevrolet-impala-super-sport-409|A|cross-country",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-down",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "1966-hillman-imp",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1966-hillman-imp|B|dirt",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
+    },
+    {
+      "after": "t2",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "1966-hillman-imp",
+      "class": "B",
+      "entity": {
+        "id": "noa-miyako|1966-hillman-imp|B|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-26T19:02:35.453Z",
+      "before": "t0.5",
+      "carId": "2022-ford-f-150-lightning",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2022-ford-f-150-lightning|A|cross-country",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-down",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "t0.5",
+      "at": "2026-11-26T19:02:35.453Z",
+      "before": "meta",
+      "carId": "2025-bentley-continental-gt-speed",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2025-bentley-continental-gt-speed|A|cross-country",
+        "type": "meta-ranking"
+      },
+      "kind": "tier-down",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "t1",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2025-porsche-macan-gts|A|cross-country",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "t1.5",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "entity": {
+        "id": "noa-miyako|2025-porsche-macan-gts|A|road",
+        "type": "meta-ranking"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "A cross-country AWD",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "entity": {
+        "id": "nc-6781b9cee1",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "cross-country"
+    },
+    {
+      "after": "B road AWD",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "1966-hillman-imp",
+      "class": "B",
+      "entity": {
+        "id": "nc-c9a4d7dc31",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B road RWD",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "1965-alfa-romeo-giulia-sprint-gta-stradale",
+      "class": "B",
+      "entity": {
+        "id": "nc-cb714e8025",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "A road AWD",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "2025-porsche-macan-gts",
+      "class": "A",
+      "entity": {
+        "id": "nc-f0e351c1c7",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "road"
+    },
+    {
+      "after": "B dirt AWD",
+      "at": "2026-11-26T19:02:35.453Z",
+      "carId": "1966-hillman-imp",
+      "class": "B",
+      "entity": {
+        "id": "nc-f879117937",
+        "type": "tune"
+      },
+      "kind": "added",
+      "sourceId": "noa-miyako",
+      "surface": "dirt"
     }
   ],
   "schemaVersion": 1
