@@ -11596,13 +11596,44 @@
       },
       {
         "car": {
+          "make": "Porsche",
+          "text": "2025 Porsche Macan GTS"
+        },
+        "carClass": "S1",
+        "difficulty": "简单",
+        "drivetrain": "AWD",
+        "notes": "南岸53.8 前段很快，魔法过水不减速",
+        "rank": 6,
+        "raw": {
+          "制造商": "Porsche 保时捷",
+          "备注": "南岸53.8 前段很快，魔法过水不减速",
+          "定位": "全能",
+          "竞争力": "T1",
+          "调校师": "Noa Seako",
+          "车辆型号": "2025 Porsche Macan GTS",
+          "轮胎": "越野胎",
+          "难度": "简单",
+          "驱动": "AWD"
+        },
+        "role": "全能",
+        "row": 15,
+        "surface": "cross-country",
+        "tab": "s1-cross-country",
+        "tier": "T1",
+        "tires": "越野胎",
+        "tuners": [
+          "Noa Seako"
+        ]
+      },
+      {
+        "car": {
           "make": "Subaru",
           "text": "2022 Subaru BRZ Forza Edition"
         },
         "carClass": "S1",
         "difficulty": "简单",
         "drivetrain": "AWD",
-        "rank": 6,
+        "rank": 7,
         "raw": {
           "制造商": "Subaru 斯巴鲁",
           "备注": "",
@@ -11615,7 +11646,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 15,
+        "row": 17,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "T1",
@@ -11633,7 +11664,7 @@
         "difficulty": "稍微困难",
         "drivetrain": "AWD",
         "notes": "过水稍差一些 加速、烂路抓地力viper之下第一车",
-        "rank": 7,
+        "rank": 8,
         "raw": {
           "制造商": "Alfa Romeo 阿尔法罗密欧",
           "备注": "过水稍差一些 加速、烂路抓地力viper之下第一车",
@@ -11646,7 +11677,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 17,
+        "row": 19,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "T1",
@@ -11664,7 +11695,7 @@
         "difficulty": "困难",
         "drivetrain": "AWD",
         "notes": "比33S加速更快 但抓地力稍差 过水依然很差",
-        "rank": 8,
+        "rank": 9,
         "raw": {
           "制造商": "Alfa Romeo 阿尔法罗密欧",
           "备注": "比33S加速更快 但抓地力稍差 过水依然很差",
@@ -11677,7 +11708,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 19,
+        "row": 21,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "T1",
@@ -11695,7 +11726,7 @@
         "difficulty": "中等",
         "drivetrain": "AWD",
         "notes": "伊豆2:08.0",
-        "rank": 9,
+        "rank": 10,
         "raw": {
           "制造商": "Dodge 道奇",
           "备注": "伊豆2:08.0",
@@ -11708,7 +11739,7 @@
           "驱动": "AWD"
         },
         "role": "动力",
-        "row": 22,
+        "row": 24,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "T2",
@@ -11725,7 +11756,7 @@
         "carClass": "S1",
         "difficulty": "中等",
         "drivetrain": "AWD",
-        "rank": 10,
+        "rank": 11,
         "raw": {
           "制造商": "Ford 福特",
           "备注": "",
@@ -11738,7 +11769,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 24,
+        "row": 26,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "T2",
@@ -11756,7 +11787,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "前段极快 弯速快 线上操控图稳一点还是能打赢别的车的",
-        "rank": 11,
+        "rank": 12,
         "raw": {
           "制造商": "Volkswagen 大众",
           "备注": "前段极快 弯速快 线上操控图稳一点还是能打赢别的车的",
@@ -11769,7 +11800,7 @@
           "驱动": "AWD"
         },
         "role": "操控",
-        "row": 27,
+        "row": 29,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "T3",
@@ -11787,7 +11818,7 @@
         "difficulty": "中等",
         "drivetrain": "AWD",
         "notes": "纯玩具车 没什么强度",
-        "rank": 12,
+        "rank": 13,
         "raw": {
           "制造商": "Ford 福特",
           "备注": "纯玩具车 没什么强度",
@@ -11800,7 +11831,7 @@
           "驱动": "AWD"
         },
         "role": "动力",
-        "row": 29,
+        "row": 31,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "T3",
@@ -11817,7 +11848,7 @@
         "carClass": "S1",
         "difficulty": "稍微困难",
         "drivetrain": "AWD",
-        "rank": 13,
+        "rank": 14,
         "raw": {
           "制造商": "Mitsubishi 三菱",
           "备注": "",
@@ -11825,36 +11856,6 @@
           "竞争力": "T3",
           "调校师": "Noa Miyako",
           "车辆型号": "1988 Mitsubishi Starion ESI-R",
-          "轮胎": "越野胎",
-          "难度": "稍微困难",
-          "驱动": "AWD"
-        },
-        "role": "动力",
-        "row": 31,
-        "surface": "cross-country",
-        "tab": "s1-cross-country",
-        "tier": "T3",
-        "tires": "越野胎",
-        "tuners": [
-          "Noa Miyako"
-        ]
-      },
-      {
-        "car": {
-          "make": "Dodge",
-          "text": "2023 Dodge Challenger SRT Demon 170"
-        },
-        "carClass": "S1",
-        "difficulty": "稍微困难",
-        "drivetrain": "AWD",
-        "rank": 14,
-        "raw": {
-          "制造商": "Dodge 道奇",
-          "备注": "",
-          "定位": "动力",
-          "竞争力": "T3",
-          "调校师": "Noa Miyako",
-          "车辆型号": "2023 Dodge Challenger SRT Demon 170",
           "轮胎": "越野胎",
           "难度": "稍微困难",
           "驱动": "AWD"
@@ -11871,26 +11872,33 @@
       },
       {
         "car": {
-          "text": ""
+          "make": "Dodge",
+          "text": "2023 Dodge Challenger SRT Demon 170"
         },
         "carClass": "S1",
+        "difficulty": "稍微困难",
+        "drivetrain": "AWD",
         "rank": 15,
         "raw": {
-          "制造商": "",
+          "制造商": "Dodge 道奇",
           "备注": "",
-          "定位": "",
-          "竞争力": "未知",
-          "调校师": "",
-          "车辆型号": "",
-          "轮胎": "",
-          "难度": "",
-          "驱动": ""
+          "定位": "动力",
+          "竞争力": "T3",
+          "调校师": "Noa Miyako",
+          "车辆型号": "2023 Dodge Challenger SRT Demon 170",
+          "轮胎": "越野胎",
+          "难度": "稍微困难",
+          "驱动": "AWD"
         },
-        "row": 36,
+        "role": "动力",
+        "row": 35,
         "surface": "cross-country",
         "tab": "s1-cross-country",
-        "tier": "未知",
-        "tuners": []
+        "tier": "T3",
+        "tires": "越野胎",
+        "tuners": [
+          "Noa Miyako"
+        ]
       },
       {
         "car": {
@@ -11956,6 +11964,29 @@
           "驱动": ""
         },
         "row": 42,
+        "surface": "cross-country",
+        "tab": "s1-cross-country",
+        "tier": "未知",
+        "tuners": []
+      },
+      {
+        "car": {
+          "text": ""
+        },
+        "carClass": "S1",
+        "rank": 19,
+        "raw": {
+          "制造商": "",
+          "备注": "",
+          "定位": "",
+          "竞争力": "未知",
+          "调校师": "",
+          "车辆型号": "",
+          "轮胎": "",
+          "难度": "",
+          "驱动": ""
+        },
+        "row": 44,
         "surface": "cross-country",
         "tab": "s1-cross-country",
         "tier": "未知",
@@ -18617,6 +18648,37 @@
       },
       {
         "car": {
+          "make": "Porsche",
+          "text": "2025 Porsche Macan GTS"
+        },
+        "carClass": "A",
+        "difficulty": "简单",
+        "drivetrain": "AWD",
+        "notes": "伊根 1:05.8 前中段加速还行 弯速不错 355后胎宽出弯不错",
+        "rank": 39,
+        "raw": {
+          "制造商": "Porsche 保时捷",
+          "备注": "伊根 1:05.8 前中段加速还行 弯速不错 355后胎宽出弯不错",
+          "定位": "全能",
+          "竞争力": "T1",
+          "调校师": "CaiGou YYY",
+          "车辆型号": "2025 Porsche Macan GTS",
+          "轮胎": "越野胎",
+          "难度": "简单",
+          "驱动": "AWD"
+        },
+        "role": "全能",
+        "row": 82,
+        "surface": "dirt",
+        "tab": "a-dirt",
+        "tier": "T1",
+        "tires": "越野胎",
+        "tuners": [
+          "CaiGou YYY"
+        ]
+      },
+      {
+        "car": {
           "make": "Nissan",
           "text": "1983 Nissan 240RS"
         },
@@ -18624,7 +18686,7 @@
         "difficulty": "中等",
         "drivetrain": "AWD",
         "notes": "伊根 1:05.6(4.8 V10)/1:05.8(3.7 V6) 前中段加速不错 弯速不错 但是空力极度不均导致高速弯容易甩尾外抛 需要一定控车手法 4.8版本更均衡 3.7版本更简单操控",
-        "rank": 39,
+        "rank": 40,
         "raw": {
           "制造商": "Nissan 日产",
           "备注": "伊根 1:05.6(4.8 V10)/1:05.8(3.7 V6) 前中段加速不错 弯速不错 但是空力极度不均导致高速弯容易甩尾外抛 需要一定控车手法 4.8版本更均衡 3.7版本更简单操控",
@@ -18637,7 +18699,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 82,
+        "row": 84,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T1",
@@ -18655,7 +18717,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "伊根 1:05.6 前段加速还可以 弯速不错 高速弯有点推 整体很好开",
-        "rank": 40,
+        "rank": 41,
         "raw": {
           "制造商": "Nissan 日产",
           "备注": "伊根 1:05.6 前段加速还可以 弯速不错 高速弯有点推 整体很好开",
@@ -18668,7 +18730,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 84,
+        "row": 86,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T1",
@@ -18686,7 +18748,7 @@
         "difficulty": "中等",
         "drivetrain": "AWD",
         "notes": "伊根 1:05.7 前段加速还可以 弯速不错 手感有点莫名其妙 有一点难度",
-        "rank": 41,
+        "rank": 42,
         "raw": {
           "制造商": "Nissan 日产",
           "备注": "伊根 1:05.7 前段加速还可以 弯速不错 手感有点莫名其妙 有一点难度",
@@ -18699,7 +18761,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 86,
+        "row": 88,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T1",
@@ -18717,7 +18779,7 @@
         "difficulty": "稍微困难",
         "drivetrain": "AWD",
         "notes": "伊根 1:06.5 加速很快 弯速一般 需要手刹辅助过弯 偏船 稳定性一般",
-        "rank": 42,
+        "rank": 43,
         "raw": {
           "制造商": "Alfa Romeo 阿尔法·罗密欧",
           "备注": "伊根 1:06.5 加速很快 弯速一般 需要手刹辅助过弯 偏船 稳定性一般",
@@ -18730,7 +18792,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 89,
+        "row": 91,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18748,7 +18810,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "伊根1:06.394 均衡水桶操控车",
-        "rank": 43,
+        "rank": 44,
         "raw": {
           "制造商": "Lamborghini 兰博基尼",
           "备注": "伊根1:06.394 均衡水桶操控车",
@@ -18761,7 +18823,7 @@
           "驱动": "AWD"
         },
         "role": "操控",
-        "row": 91,
+        "row": 93,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18779,7 +18841,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "伊根 1:06.8",
-        "rank": 44,
+        "rank": 45,
         "raw": {
           "制造商": "Mercedes-Benz 梅赛德斯-奔驰",
           "备注": "伊根 1:06.8",
@@ -18792,7 +18854,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 93,
+        "row": 95,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18810,7 +18872,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "伊根 1:06.5 加速龟爬 弯速非常快 比较均衡 好开的拉力车 坠机了",
-        "rank": 45,
+        "rank": 46,
         "raw": {
           "制造商": "Ginetta 吉内塔",
           "备注": "伊根 1:06.5 加速龟爬 弯速非常快 比较均衡 好开的拉力车 坠机了",
@@ -18823,7 +18885,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 95,
+        "row": 97,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18842,7 +18904,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "伊根1:06.5 操控很强 公路段优势",
-        "rank": 46,
+        "rank": 47,
         "raw": {
           "制造商": "Dodge 道奇",
           "备注": "伊根1:06.5 操控很强 公路段优势",
@@ -18855,7 +18917,7 @@
           "驱动": "AWD"
         },
         "role": "操控",
-        "row": 97,
+        "row": 99,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18872,7 +18934,7 @@
         "carClass": "A",
         "difficulty": "非常困难",
         "drivetrain": "RWD",
-        "rank": 47,
+        "rank": 48,
         "raw": {
           "制造商": "Dodge 道奇",
           "备注": "",
@@ -18885,7 +18947,7 @@
           "驱动": "RWD"
         },
         "role": "动力",
-        "row": 99,
+        "row": 101,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18903,7 +18965,7 @@
         "difficulty": "非常简单",
         "drivetrain": "AWD",
         "notes": "伊根1:06.6 操控很强 公路段优势",
-        "rank": 48,
+        "rank": 49,
         "raw": {
           "制造商": "Honda 本田",
           "备注": "伊根1:06.6 操控很强 公路段优势",
@@ -18916,7 +18978,7 @@
           "驱动": "AWD"
         },
         "role": "操控",
-        "row": 101,
+        "row": 103,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18934,7 +18996,7 @@
         "difficulty": "稍微困难",
         "drivetrain": "AWD",
         "notes": "伊根1:06.5 前中段加速非常快 后段较慢 弯速不慢 但是刚性比较差 动态有些难以预测 195后胎注意甩尾",
-        "rank": 49,
+        "rank": 50,
         "raw": {
           "制造商": "Honda 本田",
           "备注": "伊根1:06.5 前中段加速非常快 后段较慢 弯速不慢 但是刚性比较差 动态有些难以预测 195后胎注意甩尾",
@@ -18947,7 +19009,7 @@
           "驱动": "AWD"
         },
         "role": "动力",
-        "row": 103,
+        "row": 105,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18965,7 +19027,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "伊根 1:06.7 操控还可以 后段较慢",
-        "rank": 50,
+        "rank": 51,
         "raw": {
           "制造商": "Ferrari 法拉利",
           "备注": "伊根 1:06.7 操控还可以 后段较慢",
@@ -18978,7 +19040,7 @@
           "驱动": "AWD"
         },
         "role": "操控",
-        "row": 105,
+        "row": 107,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -18996,7 +19058,7 @@
         "difficulty": "非常困难",
         "drivetrain": "RWD",
         "notes": "樱桃园2:03high 小心点开",
-        "rank": 51,
+        "rank": 52,
         "raw": {
           "制造商": "Ford 福特",
           "备注": "樱桃园2:03high 小心点开",
@@ -19009,7 +19071,7 @@
           "驱动": "RWD"
         },
         "role": "动力",
-        "row": 107,
+        "row": 109,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -19027,7 +19089,7 @@
         "difficulty": "中等",
         "drivetrain": "AWD",
         "notes": "伊根1:06.5 手感很肉 像开船",
-        "rank": 52,
+        "rank": 53,
         "raw": {
           "制造商": "Ford 福特",
           "备注": "伊根1:06.5 手感很肉 像开船",
@@ -19040,7 +19102,7 @@
           "驱动": "AWD"
         },
         "role": "操控",
-        "row": 109,
+        "row": 111,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -19058,7 +19120,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "伊根 1:06.6 前中段加速很快 弯速不错 小车比较灵活 整体比较好控 需要8500转换挡",
-        "rank": 53,
+        "rank": 54,
         "raw": {
           "制造商": "Subaru 斯巴鲁",
           "备注": "伊根 1:06.6 前中段加速很快 弯速不错 小车比较灵活 整体比较好控 需要8500转换挡",
@@ -19071,7 +19133,7 @@
           "驱动": "AWD"
         },
         "role": "全能",
-        "row": 111,
+        "row": 113,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "T2",
@@ -19089,7 +19151,7 @@
         "difficulty": "简单",
         "drivetrain": "AWD",
         "notes": "轮椅综合车 通过性非常强 建议纯泥地驾驶",
-        "rank": 54,
+        "rank": 55,
         "raw": {
           "制造商": "Jeep 吉普",
           "备注": "轮椅综合车 通过性非常强 建议纯泥地驾驶",
@@ -19097,36 +19159,6 @@
           "竞争力": "T3",
           "调校师": "Noa Miyako",
           "车辆型号": "2016 Jeep Trailcat",
-          "轮胎": "越野胎",
-          "难度": "简单",
-          "驱动": "AWD"
-        },
-        "role": "全能",
-        "row": 114,
-        "surface": "dirt",
-        "tab": "a-dirt",
-        "tier": "T3",
-        "tires": "越野胎",
-        "tuners": [
-          "Noa Miyako"
-        ]
-      },
-      {
-        "car": {
-          "make": "Subaru",
-          "text": "2004 Subaru IMPREZA WRX STi"
-        },
-        "carClass": "A",
-        "difficulty": "简单",
-        "drivetrain": "AWD",
-        "rank": 55,
-        "raw": {
-          "制造商": "Subaru 斯巴鲁",
-          "备注": "",
-          "定位": "全能",
-          "竞争力": "T3",
-          "调校师": "Noa Miyako",
-          "车辆型号": "2004 Subaru IMPREZA WRX STi",
           "轮胎": "越野胎",
           "难度": "简单",
           "驱动": "AWD"
@@ -19143,20 +19175,20 @@
       },
       {
         "car": {
-          "make": "Mitsubishi",
-          "text": "1995 Mitsubishi Lancer Evolution III GSR"
+          "make": "Subaru",
+          "text": "2004 Subaru IMPREZA WRX STi"
         },
         "carClass": "A",
         "difficulty": "简单",
         "drivetrain": "AWD",
         "rank": 56,
         "raw": {
-          "制造商": "Mitsubishi 三菱",
+          "制造商": "Subaru 斯巴鲁",
           "备注": "",
           "定位": "全能",
           "竞争力": "T3",
           "调校师": "Noa Miyako",
-          "车辆型号": "1995 Mitsubishi Lancer Evolution III GSR",
+          "车辆型号": "2004 Subaru IMPREZA WRX STi",
           "轮胎": "越野胎",
           "难度": "简单",
           "驱动": "AWD"
@@ -19173,20 +19205,20 @@
       },
       {
         "car": {
-          "make": "AMG Transport Dynamics",
-          "text": "2554 AMG Transport Dynamics M12S Warthog CST"
+          "make": "Mitsubishi",
+          "text": "1995 Mitsubishi Lancer Evolution III GSR"
         },
         "carClass": "A",
         "difficulty": "简单",
         "drivetrain": "AWD",
         "rank": 57,
         "raw": {
-          "制造商": "AMG Transport Dynamics 运输动力学",
+          "制造商": "Mitsubishi 三菱",
           "备注": "",
           "定位": "全能",
           "竞争力": "T3",
           "调校师": "Noa Miyako",
-          "车辆型号": "2554 AMG Transport Dynamics M12S Warthog CST",
+          "车辆型号": "1995 Mitsubishi Lancer Evolution III GSR",
           "轮胎": "越野胎",
           "难度": "简单",
           "驱动": "AWD"
@@ -19203,26 +19235,33 @@
       },
       {
         "car": {
-          "text": ""
+          "make": "AMG Transport Dynamics",
+          "text": "2554 AMG Transport Dynamics M12S Warthog CST"
         },
         "carClass": "A",
+        "difficulty": "简单",
+        "drivetrain": "AWD",
         "rank": 58,
         "raw": {
-          "制造商": "",
+          "制造商": "AMG Transport Dynamics 运输动力学",
           "备注": "",
-          "定位": "",
-          "竞争力": "未知",
-          "调校师": "",
-          "车辆型号": "",
-          "轮胎": "",
-          "难度": "",
-          "驱动": ""
+          "定位": "全能",
+          "竞争力": "T3",
+          "调校师": "Noa Miyako",
+          "车辆型号": "2554 AMG Transport Dynamics M12S Warthog CST",
+          "轮胎": "越野胎",
+          "难度": "简单",
+          "驱动": "AWD"
         },
-        "row": 123,
+        "role": "全能",
+        "row": 122,
         "surface": "dirt",
         "tab": "a-dirt",
-        "tier": "未知",
-        "tuners": []
+        "tier": "T3",
+        "tires": "越野胎",
+        "tuners": [
+          "Noa Miyako"
+        ]
       },
       {
         "car": {
@@ -19288,6 +19327,29 @@
           "驱动": ""
         },
         "row": 129,
+        "surface": "dirt",
+        "tab": "a-dirt",
+        "tier": "未知",
+        "tuners": []
+      },
+      {
+        "car": {
+          "text": ""
+        },
+        "carClass": "A",
+        "rank": 62,
+        "raw": {
+          "制造商": "",
+          "备注": "",
+          "定位": "",
+          "竞争力": "未知",
+          "调校师": "",
+          "车辆型号": "",
+          "轮胎": "",
+          "难度": "",
+          "驱动": ""
+        },
+        "row": 131,
         "surface": "dirt",
         "tab": "a-dirt",
         "tier": "未知",
@@ -19459,11 +19521,11 @@
         "carClass": "A",
         "difficulty": "中等",
         "drivetrain": "AWD",
-        "notes": "瑠璃光寺 1:58.6 高城 2:23.1 悬挂不错 加速不错 手感很好 琉璃光寺可做到世界纪录 请一律选用最新版本",
+        "notes": "瑠璃光寺 1:58.6(新路线) 高城 2:23.1 悬挂不错 加速不错 手感很好 琉璃光寺可做到世界纪录 请一律选用最新版本",
         "rank": 6,
         "raw": {
           "制造商": "Toyota 丰田",
-          "备注": "瑠璃光寺 1:58.6 高城 2:23.1 悬挂不错 加速不错 手感很好 琉璃光寺可做到世界纪录 请一律选用最新版本",
+          "备注": "瑠璃光寺 1:58.6(新路线) 高城 2:23.1 悬挂不错 加速不错 手感很好 琉璃光寺可做到世界纪录 请一律选用最新版本",
           "定位": "动力",
           "竞争力": "Meta",
           "调校师": "Noa Seako",
@@ -29687,6 +29749,36 @@
         "carClass": "A",
         "kind": "new-car",
         "row": 3,
+        "surface": "dirt",
+        "tab": "new-cars",
+        "tier": "T1",
+        "tuners": [
+          "CaiGou YYY"
+        ]
+      },
+      {
+        "car": {
+          "make": "Porsche",
+          "text": "2025 Porsche Macan GTS"
+        },
+        "carClass": "S1",
+        "kind": "new-car",
+        "row": 5,
+        "surface": "cross-country",
+        "tab": "new-cars",
+        "tier": "T1",
+        "tuners": [
+          "Noa Seako"
+        ]
+      },
+      {
+        "car": {
+          "make": "Porsche",
+          "text": "2025 Porsche Macan GTS"
+        },
+        "carClass": "A",
+        "kind": "new-car",
+        "row": 7,
         "surface": "cross-country",
         "tab": "new-cars",
         "tier": "T1",
@@ -29701,7 +29793,7 @@
         },
         "carClass": "A",
         "kind": "new-car",
-        "row": 5,
+        "row": 9,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T1.5",
@@ -29716,7 +29808,7 @@
         },
         "carClass": "B",
         "kind": "new-car",
-        "row": 7,
+        "row": 11,
         "surface": "dirt",
         "tab": "new-cars",
         "tier": "T0.5",
@@ -29731,7 +29823,7 @@
         },
         "carClass": "B",
         "kind": "new-car",
-        "row": 9,
+        "row": 13,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T2",
@@ -29746,7 +29838,7 @@
         },
         "carClass": "A",
         "kind": "new-car",
-        "row": 11,
+        "row": 15,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T1",
@@ -29761,7 +29853,7 @@
         },
         "carClass": "A",
         "kind": "new-car",
-        "row": 13,
+        "row": 17,
         "surface": "dirt",
         "tab": "new-cars",
         "tier": "T1",
@@ -29776,7 +29868,7 @@
         },
         "carClass": "B",
         "kind": "new-car",
-        "row": 15,
+        "row": 19,
         "surface": "dirt",
         "tab": "new-cars",
         "tier": "Meta",
@@ -29791,7 +29883,7 @@
         },
         "carClass": "B",
         "kind": "new-car",
-        "row": 17,
+        "row": 21,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T1",
@@ -29806,7 +29898,7 @@
         },
         "carClass": "A",
         "kind": "new-car",
-        "row": 19,
+        "row": 23,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T2",
@@ -29821,7 +29913,7 @@
         },
         "carClass": "S1",
         "kind": "new-car",
-        "row": 21,
+        "row": 25,
         "surface": "cross-country",
         "tab": "new-cars",
         "tier": "T3",
@@ -29836,7 +29928,7 @@
         },
         "carClass": "B",
         "kind": "new-car",
-        "row": 23,
+        "row": 27,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T0.5",
@@ -29852,7 +29944,7 @@
         },
         "carClass": "B",
         "kind": "new-car",
-        "row": 25,
+        "row": 29,
         "surface": "dirt",
         "tab": "new-cars",
         "tier": "T0.5",
@@ -29867,7 +29959,7 @@
         },
         "carClass": "A",
         "kind": "new-car",
-        "row": 27,
+        "row": 31,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T1",
@@ -29883,7 +29975,7 @@
         },
         "carClass": "A",
         "kind": "new-car",
-        "row": 29,
+        "row": 33,
         "surface": "dirt",
         "tab": "new-cars",
         "tier": "T1",
@@ -29898,7 +29990,7 @@
         },
         "carClass": "C",
         "kind": "new-car",
-        "row": 31,
+        "row": 35,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T3",
@@ -29913,7 +30005,7 @@
         },
         "carClass": "S2",
         "kind": "new-car",
-        "row": 33,
+        "row": 37,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T2",
@@ -29928,7 +30020,7 @@
         },
         "carClass": "S1",
         "kind": "new-car",
-        "row": 35,
+        "row": 39,
         "surface": "dirt",
         "tab": "new-cars",
         "tier": "T0.5",
@@ -29943,7 +30035,7 @@
         },
         "carClass": "S1",
         "kind": "new-car",
-        "row": 37,
+        "row": 41,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T0.5",
@@ -29959,7 +30051,7 @@
         },
         "carClass": "A",
         "kind": "new-car",
-        "row": 39,
+        "row": 43,
         "surface": "road",
         "tab": "new-cars",
         "tier": "T1",
@@ -31110,7 +31202,7 @@
       "42 cars marked 未知 (not rated yet)"
     ]
   },
-  "records": 1187,
+  "records": 1191,
   "schemaVersion": 1,
   "sourceId": "noa-miyako"
 }

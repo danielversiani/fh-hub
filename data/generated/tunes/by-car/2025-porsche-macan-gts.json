@@ -1,6 +1,44 @@
 {
-  "generatedAt": "2026-11-26T19:02:35.453Z",
+  "generatedAt": "2026-11-27T19:58:55.023Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "2025-porsche-macan-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "S1",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-6334d32116",
+      "lapRefs": [
+        {
+          "time": "53.8",
+          "track": "Nangan"
+        }
+      ],
+      "metaNotes": "南岸53.8 前段很快，魔法过水不减速",
+      "metaRank": 6,
+      "name": "S1 cross-country AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 15,
+          "sourceId": "noa-miyako",
+          "tab": "s1-cross-country"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "noa-seako"
+    },
     {
       "buildTags": [],
       "carId": "2025-porsche-macan-gts",
@@ -38,6 +76,44 @@
       "role": "allround",
       "score": 0.62,
       "surface": "cross-country",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "offroad",
+      "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [],
+      "carId": "2025-porsche-macan-gts",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-89cf085538",
+      "lapRefs": [
+        {
+          "time": "1:05.8",
+          "track": "Ine"
+        }
+      ],
+      "metaNotes": "伊根 1:05.8 前中段加速还行 弯速不错 355后胎宽出弯不错",
+      "metaRank": 39,
+      "name": "A dirt AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 82,
+          "sourceId": "noa-miyako",
+          "tab": "a-dirt"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "dirt",
       "tier": "t1",
       "tierSource": "meta-table",
       "tires": "offroad",
