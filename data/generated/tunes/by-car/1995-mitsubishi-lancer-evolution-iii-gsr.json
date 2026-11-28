@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T19:58:55.023Z",
+  "generatedAt": "2026-11-28T02:43:12.536Z",
   "items": [
     {
       "buildTags": [
@@ -27,7 +27,7 @@
             "Tuner": "F1R Kilian",
             "fill": "FFFF0000"
           },
-          "row": 2415,
+          "row": 2419,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -37,6 +37,43 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "f1r-kilian"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1995-mitsubishi-lancer-evolution-iii-gsr",
+      "categories": [
+        "purist"
+      ],
+      "class": "A",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-5a0baa606c",
+      "name": "purist",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1995 Mitsubishi Lancer Evolution III GSR",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "purist",
+            "Tuner": "RazkinzMango",
+            "fill": "FFFF0000"
+          },
+          "row": 2421,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "razkinzmango"
     },
     {
       "buildTags": [
@@ -64,7 +101,7 @@
             "Tuner": "CTE seasons",
             "fill": "FFFF0000"
           },
-          "row": 2414,
+          "row": 2418,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -101,7 +138,7 @@
             "Tuner": "Nomv1",
             "fill": "FFFF0000"
           },
-          "row": 2416,
+          "row": 2420,
           "sourceId": "kleis",
           "tab": "fh6"
         }

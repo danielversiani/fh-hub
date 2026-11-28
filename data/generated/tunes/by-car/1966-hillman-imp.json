@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-26T19:02:35.453Z",
+  "generatedAt": "2026-11-28T02:43:12.536Z",
   "items": [
+    {
+      "buildTags": [],
+      "carId": "1966-hillman-imp",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-007b1d934d",
+      "metaRank": 25,
+      "name": "B Dirt OffMeta (High 55s Sekibe)",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1966 Hillman Imp",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt OffMeta (High 55s Sekibe)",
+            "Tuner": "SR1 Rain",
+            "fill": "FFED7D31"
+          },
+          "row": 330,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.55,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [],
+      "carId": "1966-hillman-imp",
+      "categories": [
+        "meta"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "AWD",
+      "id": "nc-7e9d74f50b",
+      "metaRank": 25,
+      "name": "B Dirt Meta - British Honda Beat",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1966 Hillman Imp",
+            "Comment": "",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Dirt/CC",
+            "Tune": "B Dirt Meta - British Honda Beat",
+            "Tuner": "Falken JP",
+            "fill": "FFED7D31"
+          },
+          "row": 329,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.55,
+      "surface": "dirt",
+      "tier": "t0.5",
+      "tierSource": "meta-table",
+      "tunerId": "falken-jp"
+    },
     {
       "buildTags": [],
       "carId": "1966-hillman-imp",

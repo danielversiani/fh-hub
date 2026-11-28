@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T19:58:55.023Z",
+  "generatedAt": "2026-11-28T02:43:12.536Z",
   "items": [
     {
       "buildTags": [],
@@ -118,6 +118,44 @@
       "tierSource": "meta-table",
       "tires": "offroad",
       "tunerId": "caigou-yyy"
+    },
+    {
+      "buildTags": [
+        "purist",
+        "stock-look"
+      ],
+      "carId": "2025-porsche-macan-gts",
+      "categories": [
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.35,
+      "drivetrain": "AWD",
+      "id": "nc-ab4477a481",
+      "name": "B Class Road Purist Stock Look | ~1:07 Shirakawa",
+      "observations": [
+        {
+          "raw": {
+            "Car": "2025 Porsche Macan GTS",
+            "Comment": "Purist",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "AWD",
+            "Terrain": "Road",
+            "Tune": "B Class Road Purist Stock Look | ~1:07 Shirakawa",
+            "Tuner": "Saeenu",
+            "fill": "FFED7D31"
+          },
+          "row": 515,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.474,
+      "surface": "road",
+      "tier": "t3",
+      "tierSource": "default",
+      "tunerId": "saeenu"
     },
     {
       "buildTags": [],
