@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:43:12.536Z",
+  "generatedAt": "2026-11-28T11:49:49.302Z",
   "items": [
     {
       "buildTags": [
@@ -37082,6 +37082,29 @@
     },
     {
       "buildTags": [
+        "purist"
+      ],
+      "carId": "1966-hillman-imp",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "drivetrain": "RWD",
+      "id": "nc-73d1b6cdc4",
+      "metaRank": 106,
+      "name": "Purist Widefella",
+      "score": 0.511,
+      "sourceIds": [
+        "kleis"
+      ],
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
+    },
+    {
+      "buildTags": [
         "stock-look"
       ],
       "carId": "2008-honda-civic-type-r-fd2",
@@ -39714,6 +39737,36 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "destrukdi"
+    },
+    {
+      "buildTags": [],
+      "carId": "1990-honda-19-101-motorsport-crx-wtac",
+      "categories": [
+        "meta"
+      ],
+      "class": "S2",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-7cafbe44b1",
+      "metaNotes": "霜山世界记录 毛豆世界纪录 仅限小赛道",
+      "metaNotesI18n": {
+        "en": "World record at Shimoyama and Edamame. Short tracks only.",
+        "pt-br": "Recorde mundial em Shimoyama e em Edamame. Só para pistas curtas."
+      },
+      "metaRank": 8,
+      "name": "S2 road AWD",
+      "role": "handling",
+      "score": 0.713,
+      "sourceIds": [
+        "noa-miyako"
+      ],
+      "surface": "road",
+      "tier": "meta",
+      "tierSource": "meta-table",
+      "tires": "super-slick",
+      "tunerId": "trviis"
     },
     {
       "buildTags": [
@@ -77214,6 +77267,42 @@
       "tier": "t3",
       "tierSource": "default",
       "tunerId": "whatuplosers917"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-lamborghini-murcielago-lp-670-4-sv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ed795d40f7",
+      "lapRefs": [
+        {
+          "time": "1:00.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 79,
+      "name": "A road AWD",
+      "role": "allround",
+      "score": 0.62,
+      "sourceIds": [
+        "noa-miyako"
+      ],
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],

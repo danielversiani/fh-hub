@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:43:12.536Z",
+  "generatedAt": "2026-11-28T11:49:49.302Z",
   "items": [
     {
       "buildTags": [],
@@ -23,7 +23,7 @@
             "Tuner": "VNX Ardent",
             "fill": "FF7030A0"
           },
-          "row": 1920,
+          "row": 1921,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -56,7 +56,7 @@
             "Tuner": "ESV Lawrence",
             "fill": "FF7030A0"
           },
-          "row": 1919,
+          "row": 1920,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -92,7 +92,7 @@
             "Tuner": "Inayamei",
             "fill": "FFFF0000"
           },
-          "row": 1917,
+          "row": 1918,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -173,7 +173,7 @@
             "Tuner": "koeseg",
             "fill": "FFFF0000"
           },
-          "row": 1918,
+          "row": 1919,
           "sourceId": "kleis",
           "tab": "fh6"
         }
@@ -183,6 +183,48 @@
       "tier": "t1",
       "tierSource": "meta-table",
       "tunerId": "koeseg"
+    },
+    {
+      "buildTags": [],
+      "carId": "2010-lamborghini-murcielago-lp-670-4-sv",
+      "categories": [
+        "off-meta"
+      ],
+      "class": "A",
+      "confidence": 0.8,
+      "credited": true,
+      "difficulty": "very-easy",
+      "drivetrain": "AWD",
+      "fromMeta": true,
+      "id": "nc-ed795d40f7",
+      "lapRefs": [
+        {
+          "time": "1:00.3",
+          "track": "Shirakawa"
+        }
+      ],
+      "metaNotes": "白川1:00.3",
+      "metaNotesI18n": {
+        "en": "",
+        "pt-br": ""
+      },
+      "metaRank": 79,
+      "name": "A road AWD",
+      "observations": [
+        {
+          "raw": {},
+          "row": 162,
+          "sourceId": "noa-miyako",
+          "tab": "a-road"
+        }
+      ],
+      "role": "allround",
+      "score": 0.62,
+      "surface": "road",
+      "tier": "t1",
+      "tierSource": "meta-table",
+      "tires": "rally",
+      "tunerId": "letzelu"
     },
     {
       "buildTags": [],

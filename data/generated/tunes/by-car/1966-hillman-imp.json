@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:43:12.536Z",
+  "generatedAt": "2026-11-28T11:49:49.302Z",
   "items": [
     {
       "buildTags": [],
@@ -36,6 +36,45 @@
       "tier": "t0.5",
       "tierSource": "meta-table",
       "tunerId": "sr1-rain"
+    },
+    {
+      "buildTags": [
+        "purist"
+      ],
+      "carId": "1966-hillman-imp",
+      "categories": [
+        "off-meta",
+        "purist"
+      ],
+      "class": "B",
+      "confidence": 0.8,
+      "drivetrain": "RWD",
+      "id": "nc-73d1b6cdc4",
+      "metaRank": 106,
+      "name": "Purist Widefella",
+      "observations": [
+        {
+          "raw": {
+            "Car": "1966 Hillman Imp",
+            "Comment": "Purist, Widebody kit",
+            "Design": "",
+            "Designer": "",
+            "Drivetrain": "RWD",
+            "Terrain": "Road",
+            "Tune": "Purist Widefella",
+            "Tuner": "DRX Q3",
+            "fill": "FFED7D31"
+          },
+          "row": 331,
+          "sourceId": "kleis",
+          "tab": "fh6"
+        }
+      ],
+      "score": 0.511,
+      "surface": "road",
+      "tier": "t2",
+      "tierSource": "meta-table",
+      "tunerId": "drx-q3"
     },
     {
       "buildTags": [],
